@@ -6,11 +6,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_CONTOURVERTEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x953900)
+#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_CONTOURVERTEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x997C00)
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int ContourVertex_TypeDefinitionIndex = 25432;
+	inline static constexpr unsigned int ContourVertex_TypeDefinitionIndex = 25946;
 
 	struct alignas(8) ContourVertex
 	{

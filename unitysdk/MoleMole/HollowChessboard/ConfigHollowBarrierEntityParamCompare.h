@@ -6,19 +6,19 @@
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWBARRIERENTITYPARAMCOMPARE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA0286A0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWBARRIERENTITYPARAMCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0xA028850)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWBARRIERENTITYPARAMCOMPARE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x117587F0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWBARRIERENTITYPARAMCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0x11758980)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigHollowBarrierEntityParamCompare_TypeDefinitionIndex = 72435;
+	inline static constexpr unsigned int ConfigHollowBarrierEntityParamCompare_TypeDefinitionIndex = 55448;
 
 	class ConfigHollowBarrierEntityParamCompare : public ::System::Object
 	{
 	public:
 		::System::String* KeyParam; // 0x10
-		::System::Int32 ValParam; // 0x18
-		::MoleMole::Config::ValueCompareType CompareType; // 0x1C
+		::MoleMole::Config::ValueCompareType CompareType; // 0x18
+		::System::Int32 ValParam; // 0x1C
 
 		::System::Void _ctor()
 		{

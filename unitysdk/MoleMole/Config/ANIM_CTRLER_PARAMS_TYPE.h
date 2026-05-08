@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ANIM_CTRLER_PARAMS_TYPE_TypeDefinitionIndex = 57201;
+	inline static constexpr unsigned int ANIM_CTRLER_PARAMS_TYPE_TypeDefinitionIndex = 78001;
 
 	enum class ANIM_CTRLER_PARAMS_TYPE : ::System::Int32
 	{
-		UNKNOWN = 0,
 		INT = 3,
 		FLOAT = 4,
-		BOOL = 2,
+		UNKNOWN = 0,
 		TRIGGER = 1,
+		BOOL = 2,
 	};
 }

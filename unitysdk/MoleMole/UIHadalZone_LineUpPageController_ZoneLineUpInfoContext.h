@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHADALZONE_LINEUPPAGECONTROLLER_ZONELINEUPINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8718F30)
+#define MOLEMOLE_UIHADALZONE_LINEUPPAGECONTROLLER_ZONELINEUPINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16CF23F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LineUpPageController_ZoneLineUpInfoContext_TypeDefinitionIndex = 52759;
+	inline static constexpr unsigned int UIHadalZone_LineUpPageController_ZoneLineUpInfoContext_TypeDefinitionIndex = 71247;
 
 	class UIHadalZone_LineUpPageController_ZoneLineUpInfoContext : public ::MoleMole::UIControllerContextBase
 	{

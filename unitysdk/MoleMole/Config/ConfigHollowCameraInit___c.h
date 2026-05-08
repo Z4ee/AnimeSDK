@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAINIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x918AB30)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAINIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x918AB70)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAINIT___C__INITCAMERAPIPELINE_B__3_0_OFFSET UNITYSDK_OFFSET(0x918AB80)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAINIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CA9BD0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAINIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA9C10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAINIT___C__INITCAMERAPIPELINE_B__3_0_OFFSET UNITYSDK_OFFSET(0x11CA9C20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraInit___c_TypeDefinitionIndex = 77954;
+	inline static constexpr unsigned int ConfigHollowCameraInit___c_TypeDefinitionIndex = 46136;
 
 	class ConfigHollowCameraInit___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Config::ConfigHollowCameraInit___c** StaticGet___9()
 		{
-			return (::MoleMole::Config::ConfigHollowCameraInit___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowCameraInit___c_TypeDefinitionIndex)->GetStaticField(0x3D000);
+			return (::MoleMole::Config::ConfigHollowCameraInit___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowCameraInit___c_TypeDefinitionIndex)->GetStaticField(0x3E770);
 		}
 		static ::System::Action** StaticGet___9__3_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowCameraInit___c_TypeDefinitionIndex)->GetStaticField(0x3D008);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowCameraInit___c_TypeDefinitionIndex)->GetStaticField(0x3E778);
 		}
 
 		static ::System::Void _cctor()

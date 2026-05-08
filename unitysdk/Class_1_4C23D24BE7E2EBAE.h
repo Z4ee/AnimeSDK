@@ -3,21 +3,21 @@
 #include "unitysdk/Struct_2_C70A12CE5BBC6553.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_290;
+class Class_0_16E4307DCC419505_161;
 class Class_1_562E27B325F76EB9_Class_1_EC905AE436B97AD0;
 namespace MoleMole::HollowChessboard { class AnyEffectExpressionConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4C23D24BE7E2EBAE_METHOD_1_6F663731A21DDF88_OFFSET UNITYSDK_OFFSET(0x9B6E370)
-#define CLASS_1_4C23D24BE7E2EBAE_METHOD_1_813FE03866C4F157_OFFSET UNITYSDK_OFFSET(0x9B6E5B0)
-#define CLASS_1_4C23D24BE7E2EBAE__CTOR_OFFSET UNITYSDK_OFFSET(0x9B6E110)
+#define CLASS_1_4C23D24BE7E2EBAE_METHOD_1_6F663731A21DDF88_OFFSET UNITYSDK_OFFSET(0x13525C30)
+#define CLASS_1_4C23D24BE7E2EBAE_METHOD_1_813FE03866C4F157_OFFSET UNITYSDK_OFFSET(0x13525E50)
+#define CLASS_1_4C23D24BE7E2EBAE__CTOR_OFFSET UNITYSDK_OFFSET(0x135259D0)
 
-inline static constexpr unsigned int Class_1_4C23D24BE7E2EBAE_TypeDefinitionIndex = 43201;
+inline static constexpr unsigned int Class_1_4C23D24BE7E2EBAE_TypeDefinitionIndex = 38874;
 
 class Class_1_4C23D24BE7E2EBAE : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_290*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_161*>* Field_1_0; // 0x10
 
 	::System::Void _ctor(::MoleMole::HollowChessboard::AnyEffectExpressionConfig* a1)
 	{

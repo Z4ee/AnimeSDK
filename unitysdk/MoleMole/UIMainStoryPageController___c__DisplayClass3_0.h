@@ -7,21 +7,21 @@ namespace MoleMole { class UIMainStoryPageController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4FECB0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__ONSHOW_B__3_OFFSET UNITYSDK_OFFSET(0xB4FECC0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__ONSHOW_G__SHOWTAPEWITHNOPERFORMANCE_0_OFFSET UNITYSDK_OFFSET(0xB4FEE40)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__ONSHOW_G__SHOWTAPEWITHPERFORMANCE_1_OFFSET UNITYSDK_OFFSET(0xB4FEFB0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13FCAA50)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__ONSHOW_B__3_OFFSET UNITYSDK_OFFSET(0x13FCAA60)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__ONSHOW_G__SHOWTAPEWITHNOPERFORMANCE_0_OFFSET UNITYSDK_OFFSET(0x13FCABB0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_0__ONSHOW_G__SHOWTAPEWITHPERFORMANCE_1_OFFSET UNITYSDK_OFFSET(0x13FCAD20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass3_0_TypeDefinitionIndex = 40423;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass3_0_TypeDefinitionIndex = 56266;
 
 	class UIMainStoryPageController___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainStoryPageController* __4__this; // 0x10
-		::System::String* fadeIn; // 0x18
-		::MoleMole::UIMainStoryPageContext* mainStoryPageContext; // 0x20
+		::MoleMole::UIMainStoryPageContext* mainStoryPageContext; // 0x10
+		::MoleMole::UIMainStoryPageController* __4__this; // 0x18
+		::System::String* fadeIn; // 0x20
 		::System::Int32 targetArchiveID; // 0x28
 
 		::System::Void _ctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
 #include "unitysdk/System/Object.h"
 
-#define NAP_NAPECS_COMPONENTACCESSHELPER_TOCOMPONENTMASK_OFFSET UNITYSDK_OFFSET(0x18D74810)
+#define NAP_NAPECS_COMPONENTACCESSHELPER_TOCOMPONENTMASK_OFFSET UNITYSDK_OFFSET(0x192C1CE0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ComponentAccessHelper_TypeDefinitionIndex = 35126;
+	inline static constexpr unsigned int ComponentAccessHelper_TypeDefinitionIndex = 35734;
 
 	class ComponentAccessHelper : public ::System::Object
 	{

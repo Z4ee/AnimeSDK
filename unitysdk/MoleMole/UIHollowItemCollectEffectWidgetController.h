@@ -7,8 +7,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_927FD65E44A20102;
-class Class_2_953F7F7F60074197_2;
-class Class_4_AC6D98911872E0CE;
+class Class_2_953F7F7F60074197;
+class Class_4_DA19DD65175B97CF;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_ItemCollectConfigData; }
@@ -20,48 +20,48 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_INITCONFIG_OFFSET UNITYSDK_OFFSET(0x892FFE0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x892FF40)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x8931100)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x8931190)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x892F960)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x892FE90)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETPATH_OFFSET UNITYSDK_OFFSET(0x89309F0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETTYPE_OFFSET UNITYSDK_OFFSET(0x89300A0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_UPDATETEXTUREBYFRAME_OFFSET UNITYSDK_OFFSET(0x8930FC0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8931560)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8931510)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x8931570)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x89315E0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x8931660)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x89316C0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_INITCONFIG_OFFSET UNITYSDK_OFFSET(0x15262370)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x152622E0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x15263490)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x15263500)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15261C50)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x15262270)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETPATH_OFFSET UNITYSDK_OFFSET(0x15262DE0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETTYPE_OFFSET UNITYSDK_OFFSET(0x15262410)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_UPDATETEXTUREBYFRAME_OFFSET UNITYSDK_OFFSET(0x15263380)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15263AD0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15263A50)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15263AE0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x15263B70)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15263C00)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x15263C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowItemCollectEffectWidgetController_TypeDefinitionIndex = 76351;
+	inline static constexpr unsigned int UIHollowItemCollectEffectWidgetController_TypeDefinitionIndex = 42465;
 
 	class UIHollowItemCollectEffectWidgetController : public ::MoleMole::UIWidgetController
 	{
 	public:
 		static ::System::Int32* StaticGet_CreateIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIHollowItemCollectEffectWidgetController_TypeDefinitionIndex)->GetStaticField(0x10C00);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIHollowItemCollectEffectWidgetController_TypeDefinitionIndex)->GetStaticField(0x10D00);
 		}
-		::Class_2_953F7F7F60074197_2* _view; // 0x2A0
-		::System::Int32 _effectIndex; // 0x2A8
-		::System::Int32 _itemId; // 0x2AC
-		::UnityEngine::Vector2 InvalidPos; // 0x2B0
-		::UnityEngine::Material* _flashWhiteDefaultMat; // 0x2B8
-		::System::Int32 ShaderOverrideColorId; // 0x2C0
-		::UnityEngine::Material* _iconSeqMaterial; // 0x2C8
-		::Class_1_927FD65E44A20102* _iconSeqTexture; // 0x2D0
-		::UnityEngine::Material* _shadowSeqMaterial; // 0x2D8
-		::Class_1_927FD65E44A20102* _shadowSeqTexture; // 0x2E0
-		::UnityEngine::Material* _curIconMaterial; // 0x2E8
-		::MoleMole::Config::ConfigHollowChessboard_ItemCollectConfigData* _itemCollectConfig; // 0x2F0
-		::MoleMole::Config::ConfigHollowChessboard_ItemCollectEffectConfig* _itemCollectEffectConfig; // 0x2F8
-		::System::Single _xRatio; // 0x300
-		::System::Single _yRatio; // 0x304
+		::Class_2_953F7F7F60074197* _view; // 0x2B8
+		::System::Int32 _effectIndex; // 0x2C0
+		::System::Int32 _itemId; // 0x2C4
+		::UnityEngine::Vector2 InvalidPos; // 0x2C8
+		::UnityEngine::Material* _flashWhiteDefaultMat; // 0x2D0
+		::System::Int32 ShaderOverrideColorId; // 0x2D8
+		::UnityEngine::Material* _iconSeqMaterial; // 0x2E0
+		::Class_1_927FD65E44A20102* _iconSeqTexture; // 0x2E8
+		::UnityEngine::Material* _shadowSeqMaterial; // 0x2F0
+		::Class_1_927FD65E44A20102* _shadowSeqTexture; // 0x2F8
+		::UnityEngine::Material* _curIconMaterial; // 0x300
+		::MoleMole::Config::ConfigHollowChessboard_ItemCollectConfigData* _itemCollectConfig; // 0x308
+		::MoleMole::Config::ConfigHollowChessboard_ItemCollectEffectConfig* _itemCollectEffectConfig; // 0x310
+		::System::Single _xRatio; // 0x318
+		::System::Single _yRatio; // 0x31C
 
 		::System::Void _ctor()
 		{
@@ -98,9 +98,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETTYPE_OFFSET))(this, itemId);
 		}
 
-		::System::Void SetPath(::Class_4_AC6D98911872E0CE* piece, ::UnityEngine::Vector3 offset, ::UnityEngine::Vector3 finalPos, ::MoleMole::Config::ConfigHollowChessboard_ItemCollectLayerConfig* layerConfig, ::System::Func_2<::Class_4_AC6D98911872E0CE*, ::UnityEngine::Vector3>* GetPieceIndexUIPos, ::UnityEngine::Color overrideFadeInColor, ::System::Func_2<::MoleMole::ItemCollectEffectType, ::UnityEngine::ParticleSystem*>* getFadeOutEffectParticle, ::System::Action_2<::UnityEngine::ParticleSystem*, ::MoleMole::ItemCollectEffectType>* recycleFadeOutEffectParticle, ::System::Action* finishCallback, ::System::Action* recycleCallback)
+		::System::Void SetPath(::Class_4_DA19DD65175B97CF* piece, ::UnityEngine::Vector3 offset, ::UnityEngine::Vector3 finalPos, ::MoleMole::Config::ConfigHollowChessboard_ItemCollectLayerConfig* layerConfig, ::System::Func_2<::Class_4_DA19DD65175B97CF*, ::UnityEngine::Vector3>* GetPieceIndexUIPos, ::UnityEngine::Color overrideFadeInColor, ::System::Func_2<::MoleMole::ItemCollectEffectType, ::UnityEngine::ParticleSystem*>* getFadeOutEffectParticle, ::System::Action_2<::UnityEngine::ParticleSystem*, ::MoleMole::ItemCollectEffectType>* recycleFadeOutEffectParticle, ::System::Action* finishCallback, ::System::Action* recycleCallback)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_4_AC6D98911872E0CE*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::Config::ConfigHollowChessboard_ItemCollectLayerConfig*, ::System::Func_2<::Class_4_AC6D98911872E0CE*, ::UnityEngine::Vector3>*, ::UnityEngine::Color, ::System::Func_2<::MoleMole::ItemCollectEffectType, ::UnityEngine::ParticleSystem*>*, ::System::Action_2<::UnityEngine::ParticleSystem*, ::MoleMole::ItemCollectEffectType>*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETPATH_OFFSET))(this, piece, offset, finalPos, layerConfig, GetPieceIndexUIPos, overrideFadeInColor, getFadeOutEffectParticle, recycleFadeOutEffectParticle, finishCallback, recycleCallback);
+			return ((::System::Void(*)(::PVOID, ::Class_4_DA19DD65175B97CF*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::Config::ConfigHollowChessboard_ItemCollectLayerConfig*, ::System::Func_2<::Class_4_DA19DD65175B97CF*, ::UnityEngine::Vector3>*, ::UnityEngine::Color, ::System::Func_2<::MoleMole::ItemCollectEffectType, ::UnityEngine::ParticleSystem*>*, ::System::Action_2<::UnityEngine::ParticleSystem*, ::MoleMole::ItemCollectEffectType>*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER_SETPATH_OFFSET))(this, piece, offset, finalPos, layerConfig, GetPieceIndexUIPos, overrideFadeInColor, getFadeOutEffectParticle, recycleFadeOutEffectParticle, finishCallback, recycleCallback);
 		}
 
 		::System::Void UpdateTextureByFrame(::System::Single time)

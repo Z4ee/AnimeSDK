@@ -6,12 +6,12 @@
 namespace BinaryTracingFramework::Serialize { class BaseArchive; }
 namespace System { class String; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGHEADINFO_GETTYPEGUID_OFFSET UNITYSDK_OFFSET(0x98EC50)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGHEADINFO_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x98EC40)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGHEADINFO_GETTYPEGUID_OFFSET UNITYSDK_OFFSET(0x9BB320)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGHEADINFO_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x9BB310)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogHeadInfo_TypeDefinitionIndex = 31864;
+	inline static constexpr unsigned int LogHeadInfo_TypeDefinitionIndex = 32393;
 
 	struct alignas(8) LogHeadInfo
 	{

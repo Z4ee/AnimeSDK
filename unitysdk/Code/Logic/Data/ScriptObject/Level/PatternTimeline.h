@@ -6,11 +6,11 @@
 namespace Code::Logic::Data::ScriptObject::Level { class MoveCoordinate; }
 namespace System { class String; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_PATTERNTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x6D08B80)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_PATTERNTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x107ACC20)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int PatternTimeline_TypeDefinitionIndex = 64819;
+	inline static constexpr unsigned int PatternTimeline_TypeDefinitionIndex = 70640;
 
 	class PatternTimeline : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int EPresetTVScreenIntensity_TypeDefinitionIndex = 29893;
+	inline static constexpr unsigned int EPresetTVScreenIntensity_TypeDefinitionIndex = 30421;
 
 	enum class EPresetTVScreenIntensity : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForEach_1_TypeDefinitionIndex = 26725;
+	inline static constexpr unsigned int ForEach_1_TypeDefinitionIndex = 26994;
 
 	template <typename T>
 	class ForEach_1 : public ::FlowCanvas::Nodes::FlowControlNode

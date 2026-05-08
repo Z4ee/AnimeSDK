@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB849690)
+#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17822B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCinemaCameraLightConfig_TypeDefinitionIndex = 61527;
+	inline static constexpr unsigned int MonoCinemaCameraLightConfig_TypeDefinitionIndex = 77937;
 
 	class MonoCinemaCameraLightConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

@@ -5,11 +5,11 @@
 
 namespace UnityEngine::Rendering::Universal { class VREffects; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_UBERPOSTCONTEXT_INITUBERPOSTCALLSTACK_OFFSET UNITYSDK_OFFSET(0x7D2F90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_UBERPOSTCONTEXT_INITUBERPOSTCALLSTACK_OFFSET UNITYSDK_OFFSET(0x822F60)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_UberPostContext_TypeDefinitionIndex = 30007;
+	inline static constexpr unsigned int PostProcessPass_UberPostContext_TypeDefinitionIndex = 30535;
 
 	struct alignas(4) PostProcessPass_UberPostContext
 	{

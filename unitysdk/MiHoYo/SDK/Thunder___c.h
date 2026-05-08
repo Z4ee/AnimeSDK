@@ -8,29 +8,29 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MIHOYO_SDK_THUNDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C94900)
-#define MIHOYO_SDK_THUNDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C94940)
-#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0x19C94960)
-#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0x19C94950)
+#define MIHOYO_SDK_THUNDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9ED800)
+#define MIHOYO_SDK_THUNDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9ED840)
+#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0x1A9ED860)
+#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0x1A9ED850)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 34575;
+	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 35111;
 
 	class Thunder___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Thunder___c** StaticGet___9()
+		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__17_0()
 		{
-			return (::MiHoYo::SDK::Thunder___c**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x25F10);
+			return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x26AA0);
 		}
 		static ::System::Action** StaticGet___9__35_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x25F18);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x26AA8);
 		}
-		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__17_0()
+		static ::MiHoYo::SDK::Thunder___c** StaticGet___9()
 		{
-			return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x25F20);
+			return (::MiHoYo::SDK::Thunder___c**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x26AB0);
 		}
 
 		static ::System::Void _cctor()

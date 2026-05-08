@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBF2EF90)
+#define MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167FAF20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarFormSwitchDialogPopWindowControllerContext_TypeDefinitionIndex = 39383;
+	inline static constexpr unsigned int UIAvatarFormSwitchDialogPopWindowControllerContext_TypeDefinitionIndex = 79082;
 
 	class UIAvatarFormSwitchDialogPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

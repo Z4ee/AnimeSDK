@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_44EFB945CAE441A3;
+class Class_1_E081FCEC8F87505A;
 
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA68ADA0)
-#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS13_0__ONBEGINBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0xA68ADB0)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15605770)
+#define MOLEMOLE_UIABYSSS2EVENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS13_0__ONBEGINBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x15605780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EventInfoWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 74099;
+	inline static constexpr unsigned int UIAbyssS2EventInfoWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 62530;
 
 	class UIAbyssS2EventInfoWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::Class_1_44EFB945CAE441A3* data; // 0x10
+		::Class_1_E081FCEC8F87505A* data; // 0x10
 
 		::System::Void _ctor()
 		{

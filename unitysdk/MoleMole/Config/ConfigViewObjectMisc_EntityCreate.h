@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_EntityCreate_TypeDefinitionIndex = 77808;
+	inline static constexpr unsigned int ConfigViewObjectMisc_EntityCreate_TypeDefinitionIndex = 80014;
 
 	struct alignas(4) ConfigViewObjectMisc_EntityCreate
 	{

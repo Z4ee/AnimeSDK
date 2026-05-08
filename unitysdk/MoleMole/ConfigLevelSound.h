@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGLEVELSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0xBB05E10)
+#define MOLEMOLE_CONFIGLEVELSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x186C59B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelSound_TypeDefinitionIndex = 63599;
+	inline static constexpr unsigned int ConfigLevelSound_TypeDefinitionIndex = 81122;
 
 	class ConfigLevelSound : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOCANVASGROUPALPHAMODIFIERFORPARTICLESYSTEM_PARTICLESYSTEMINFO_METHOD_2_24B05D2E15A5C3C8_OFFSET UNITYSDK_OFFSET(0x38F1D0)
+#define MOLEMOLE_MONOCANVASGROUPALPHAMODIFIERFORPARTICLESYSTEM_PARTICLESYSTEMINFO_METHOD_2_57F015DFC718ABA3_OFFSET UNITYSDK_OFFSET(0x76E310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCanvasGroupAlphaModifierForParticleSystem_ParticleSystemInfo_TypeDefinitionIndex = 49930;
+	inline static constexpr unsigned int MonoCanvasGroupAlphaModifierForParticleSystem_ParticleSystemInfo_TypeDefinitionIndex = 64267;
 
 	struct alignas(8) MonoCanvasGroupAlphaModifierForParticleSystem_ParticleSystemInfo
 	{
@@ -17,9 +17,9 @@ namespace MoleMole
 		::System::Boolean manualShaderConfig; // 0x18
 		::Il2CppArray<::MoleMole::MonoCanvasGroupAlphaModifierForParticleSystem_MaterialInfo>* materials; // 0x20
 
-		::System::Void Method_2_24B05D2E15A5C3C8()
+		::System::Void Method_2_57F015DFC718ABA3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCANVASGROUPALPHAMODIFIERFORPARTICLESYSTEM_PARTICLESYSTEMINFO_METHOD_2_24B05D2E15A5C3C8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCANVASGROUPALPHAMODIFIERFORPARTICLESYSTEM_PARTICLESYSTEMINFO_METHOD_2_57F015DFC718ABA3_OFFSET))(this);
 		}
 	};
 }

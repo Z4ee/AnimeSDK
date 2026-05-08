@@ -9,6 +9,7 @@
 #include "unitysdk/MoleMole/Config/EVariantElement.h"
 
 namespace MoleMole::Config { class ConfigBurnBuff; }
+namespace MoleMole::Config { class ConfigCatalysisBuff; }
 namespace MoleMole::Config { class ConfigChaosBuff; }
 namespace MoleMole::Config { class ConfigCommonBuff; }
 namespace MoleMole::Config { class ConfigElectricBuff; }
@@ -18,18 +19,19 @@ namespace MoleMole::Config { class ConfigIgniteBuff; }
 namespace MoleMole::Config { class ConfigOverloadBuff; }
 namespace MoleMole::Config { class ConfigStrikeBuff; }
 namespace MoleMole::Config { class ConfigVariantElementOverrideBuff; }
+namespace MoleMole::Config { class ConfigWindBuff; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGBUFFMISC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xACB9620)
-#define MOLEMOLE_CONFIG_CONFIGBUFFMISC__CTOR_OFFSET UNITYSDK_OFFSET(0xACB9A10)
-#define MOLEMOLE_CONFIG_CONFIGBUFFMISC___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xACB9C80)
+#define MOLEMOLE_CONFIG_CONFIGBUFFMISC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17529A40)
+#define MOLEMOLE_CONFIG_CONFIGBUFFMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x17529E10)
+#define MOLEMOLE_CONFIG_CONFIGBUFFMISC___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1752A0E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuffMisc_TypeDefinitionIndex = 40305;
+	inline static constexpr unsigned int ConfigBuffMisc_TypeDefinitionIndex = 57128;
 
 	class ConfigBuffMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -52,26 +54,32 @@ namespace MoleMole::Config
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::MoleMole::Config::ConfigOverloadBuff*>* OverloadBuffConfigs; // 0xD0
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::MoleMole::Config::ConfigStrikeBuff*>* StrikeBuffConfigs; // 0xD8
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::MoleMole::Config::ConfigCommonBuff*>* FrostbiteBuffConfigs; // 0xE0
-		::System::Single ShowReplaceBuffCDTime; // 0xE8
-		::System::String* AnimEventBuffAbilityName; // 0xF0
-		::System::String* AnimEventBuffPrefix; // 0xF8
-		::System::String* ElementAbnormalBuffAbilityName; // 0x100
-		::System::String* ElementAbnormalBuffPrefix; // 0x108
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::MoleMole::Config::ConfigBuffMisc_DamageElementAbnormalItem>* AbnormalElementItems; // 0x110
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigVariantElementOverrideBuff*>*>* VariantElementBuffInfos; // 0x118
-		::System::Collections::Generic::HashSet_1<::MoleMole::Config::BuffGroupName>* CauseDisorderBuffGroups; // 0x120
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::BuffGroupName, ::MoleMole::Config::CauseDisorderConfig>* CauseDisorderInfos; // 0x128
-		::System::Int32 DisorderBuffID; // 0x130
-		::System::Single DisorderProtectTime; // 0x134
-		::System::String* DisorderAudio; // 0x138
-		::System::Collections::Generic::List_1<::System::Int32>* MuteDisorderBuffIds; // 0x140
-		::System::Collections::Generic::List_1<::MoleMole::Config::DamageElementType>* AbnormalElements; // 0x148
-		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* SwitchPhaseRemoveBuffGroupNames; // 0x150
-		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* NoHitEffectBuff; // 0x158
-		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* BreakLevelHitBuff; // 0x160
-		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* OverrideBuffHitForwardType; // 0x168
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigBuffMisc_ConfigTagBuffCdTime>* TagBuffCdTimes; // 0x170
-		::Il2CppArray<::MoleMole::Config::BuffGroupName>* buffGroupKillBlackListTypes; // 0x178
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::MoleMole::Config::ConfigWindBuff*>* WindBuffConfigs; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::MoleMole::Config::ConfigCatalysisBuff*>* CatalysisBuffConfigs; // 0xF0
+		::System::Single ShowReplaceBuffCDTime; // 0xF8
+		::System::String* AnimEventBuffAbilityName; // 0x100
+		::System::String* AnimEventBuffPrefix; // 0x108
+		::System::String* ElementAbnormalBuffAbilityName; // 0x110
+		::System::String* ElementAbnormalBuffPrefix; // 0x118
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::MoleMole::Config::ConfigBuffMisc_DamageElementAbnormalItem>* AbnormalElementItems; // 0x120
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EVariantElement, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigVariantElementOverrideBuff*>*>* VariantElementBuffInfos; // 0x128
+		::System::Collections::Generic::HashSet_1<::MoleMole::Config::BuffGroupName>* CauseDisorderBuffGroups; // 0x130
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::BuffGroupName, ::MoleMole::Config::CauseDisorderConfig>* CauseDisorderInfos; // 0x138
+		::System::Collections::Generic::HashSet_1<::MoleMole::Config::BuffGroupName>* CauseDisorderBuffGroupsByAnimEvent; // 0x140
+		::System::Int32 DisorderBuffID; // 0x148
+		::System::Single DisorderProtectTime; // 0x14C
+		::System::String* DisorderAudio; // 0x150
+		::System::Collections::Generic::List_1<::System::Int32>* MuteDisorderBuffIds; // 0x158
+		::System::Int32 CatalysisBuffID; // 0x160
+		::System::Single CatalysisProtectTime; // 0x164
+		::System::Collections::Generic::List_1<::MoleMole::Config::DamageElementType>* AbnormalElements; // 0x168
+		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* SwitchPhaseRemoveBuffGroupNames; // 0x170
+		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* NoHitEffectBuff; // 0x178
+		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* BreakLevelHitBuff; // 0x180
+		::System::Collections::Generic::List_1<::MoleMole::Config::BuffGroupName>* OverrideBuffHitForwardType; // 0x188
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigBuffMisc_ConfigTagBuffCdTime>* TagBuffCdTimes; // 0x190
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::MoleMole::Config::BuffGroupName>*>* BuffGroupListPatterns; // 0x198
+		::Il2CppArray<::MoleMole::Config::BuffGroupName>* buffGroupKillBlackListTypes; // 0x1A0
 
 		::System::Void _ctor()
 		{

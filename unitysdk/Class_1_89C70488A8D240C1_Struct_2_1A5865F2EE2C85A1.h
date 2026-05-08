@@ -10,21 +10,21 @@ class Class_1_89C70488A8D240C1;
 namespace MoleMole::Cameras { class PhotoCameraConfig; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_89C70488A8D240C1_STRUCT_2_1A5865F2EE2C85A1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x33F5A0)
-#define CLASS_1_89C70488A8D240C1_STRUCT_2_1A5865F2EE2C85A1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_1_89C70488A8D240C1_STRUCT_2_1A5865F2EE2C85A1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x571C60)
+#define CLASS_1_89C70488A8D240C1_STRUCT_2_1A5865F2EE2C85A1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_1_89C70488A8D240C1_Struct_2_1A5865F2EE2C85A1_TypeDefinitionIndex = 57855;
+inline static constexpr unsigned int Class_1_89C70488A8D240C1_Struct_2_1A5865F2EE2C85A1_TypeDefinitionIndex = 80518;
 
 struct alignas(8) Class_1_89C70488A8D240C1_Struct_2_1A5865F2EE2C85A1
 {
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x10
-	::PipelineCamera::ScopedDelegateHandle Field_2_6; // 0x18
-	::MoleMole::Cameras::PhotoCameraConfig* Field_2_3; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_7; // 0x28
-	::Class_1_89C70488A8D240C1* Field_2_2; // 0x38
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_7; // 0x10
+	::Class_1_89C70488A8D240C1* Field_2_2; // 0x20
+	::PipelineCamera::ScopedDelegateHandle Field_2_6; // 0x28
+	::MoleMole::Cameras::PhotoCameraConfig* Field_2_3; // 0x30
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x38
 	::PipelineCamera::WorldBasicCameraData Field_2_5; // 0x40
-	::System::Int32 Field_2_0; // 0x6C
-	::System::UInt32 Field_2_4; // 0x70
+	::System::UInt32 Field_2_4; // 0x6C
+	::System::Int32 Field_2_0; // 0x70
 
 	::System::Void MoveNext()
 	{

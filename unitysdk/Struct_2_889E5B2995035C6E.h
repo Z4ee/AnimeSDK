@@ -6,7 +6,7 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class Object; }
 
-inline static constexpr unsigned int Struct_2_889E5B2995035C6E_TypeDefinitionIndex = 72369;
+inline static constexpr unsigned int Struct_2_889E5B2995035C6E_TypeDefinitionIndex = 64337;
 
 template <typename T>
 struct Struct_2_889E5B2995035C6E

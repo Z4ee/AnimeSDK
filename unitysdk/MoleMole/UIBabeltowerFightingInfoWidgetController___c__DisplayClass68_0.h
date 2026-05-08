@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRoleSelectPageContext; }
 
-#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD258740)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS68_0__OPENPOOLROLESELECT_B__1_OFFSET UNITYSDK_OFFSET(0xD259720)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16468200)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS68_0__OPENPOOLROLESELECT_B__1_OFFSET UNITYSDK_OFFSET(0x164692C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController___c__DisplayClass68_0_TypeDefinitionIndex = 65881;
+	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController___c__DisplayClass68_0_TypeDefinitionIndex = 41138;
 
 	class UIBabeltowerFightingInfoWidgetController___c__DisplayClass68_0 : public ::System::Object
 	{

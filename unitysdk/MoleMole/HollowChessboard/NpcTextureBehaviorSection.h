@@ -7,20 +7,20 @@ class Class_1_1FCBF6F207BFD09E;
 class Class_1_22EF90524645AFD7;
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_NPCTEXTUREBEHAVIORSECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0xD80EDF0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_NPCTEXTUREBEHAVIORSECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0xD80EEB0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_NPCTEXTUREBEHAVIORSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD80EEA0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_NPCTEXTUREBEHAVIORSECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x13838AD0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_NPCTEXTUREBEHAVIORSECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x13838B70)
+#define MOLEMOLE_HOLLOWCHESSBOARD_NPCTEXTUREBEHAVIORSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13838B60)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int NpcTextureBehaviorSection_TypeDefinitionIndex = 41918;
+	inline static constexpr unsigned int NpcTextureBehaviorSection_TypeDefinitionIndex = 61254;
 
 	class NpcTextureBehaviorSection : public ::System::Object
 	{
 	public:
 		static ::MoleMole::HollowChessboard::RenderSequenceSectionType* StaticGet_SectionType()
 		{
-			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(NpcTextureBehaviorSection_TypeDefinitionIndex)->GetStaticField(0xF7D0);
+			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(NpcTextureBehaviorSection_TypeDefinitionIndex)->GetStaticField(0xF9E0);
 		}
 		::System::String* npcBehavior; // 0x10
 

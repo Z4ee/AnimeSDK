@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_DA8BF519212BAE65;
+class Class_2_E621E51D351EB960;
 namespace MoleMole { class NotificationBadge; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIABYSSLIMBOANIMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0x8CB00F0)
-#define MOLEMOLE_UIABYSSLIMBOANIMONO_GET_MODEL_OFFSET UNITYSDK_OFFSET(0x8CB0370)
-#define MOLEMOLE_UIABYSSLIMBOANIMONO_PLAYUNLOCKANI_OFFSET UNITYSDK_OFFSET(0x8CB04A0)
-#define MOLEMOLE_UIABYSSLIMBOANIMONO_SETAFKUNLOCKSTATE_OFFSET UNITYSDK_OFFSET(0x8CB06B0)
-#define MOLEMOLE_UIABYSSLIMBOANIMONO_SETNAMETEXT_OFFSET UNITYSDK_OFFSET(0x8CAFFE0)
-#define MOLEMOLE_UIABYSSLIMBOANIMONO_SETUNLOCKSTATE_OFFSET UNITYSDK_OFFSET(0x8CB05A0)
-#define MOLEMOLE_UIABYSSLIMBOANIMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x8CB09D0)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0x13ED1250)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO_GET_MODEL_OFFSET UNITYSDK_OFFSET(0x13ED1510)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO_PLAYUNLOCKANI_OFFSET UNITYSDK_OFFSET(0x13ED1620)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO_SETAFKUNLOCKSTATE_OFFSET UNITYSDK_OFFSET(0x13ED17F0)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO_SETNAMETEXT_OFFSET UNITYSDK_OFFSET(0x13ED10D0)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO_SETUNLOCKSTATE_OFFSET UNITYSDK_OFFSET(0x13ED1700)
+#define MOLEMOLE_UIABYSSLIMBOANIMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED1D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssLimboAniMono_TypeDefinitionIndex = 38348;
+	inline static constexpr unsigned int UIAbyssLimboAniMono_TypeDefinitionIndex = 46957;
 
 	class UIAbyssLimboAniMono : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,7 +35,7 @@ namespace MoleMole
 		::UnityEngine::UI::Extension::UILocalizationText* NameText; // 0x50
 		::MoleMole::NotificationBadge* Popup; // 0x58
 		::UnityEngine::Animation* Field_5_10; // 0x60
-		::Class_2_DA8BF519212BAE65* Field_5_11; // 0x68
+		::Class_2_E621E51D351EB960* Field_5_11; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -52,9 +52,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSLIMBOANIMONO_AWAKE_OFFSET))(this);
 		}
 
-		::Class_2_DA8BF519212BAE65* get_Model()
+		::Class_2_E621E51D351EB960* get_Model()
 		{
-			return ((::Class_2_DA8BF519212BAE65*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSLIMBOANIMONO_GET_MODEL_OFFSET))(this);
+			return ((::Class_2_E621E51D351EB960*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSLIMBOANIMONO_GET_MODEL_OFFSET))(this);
 		}
 
 		::System::Single PlayUnlockAni()

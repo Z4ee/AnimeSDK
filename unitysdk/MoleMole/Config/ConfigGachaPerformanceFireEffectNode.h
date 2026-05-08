@@ -7,12 +7,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFIREEFFECTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xEC41830)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFIREEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC418C0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFIREEFFECTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x181C9F70)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFIREEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x181C9FE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceFireEffectNode_TypeDefinitionIndex = 60595;
+	inline static constexpr unsigned int ConfigGachaPerformanceFireEffectNode_TypeDefinitionIndex = 39798;
 
 	class ConfigGachaPerformanceFireEffectNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

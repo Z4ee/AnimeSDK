@@ -5,18 +5,18 @@
 class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UIVideoshopForgeWidgetChildWindowController; }
 
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS97_0__CTOR_OFFSET UNITYSDK_OFFSET(0x888E650)
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS97_0__OPENDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x888E660)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS97_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E9E4D0)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS97_0__OPENDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x12E9E4E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass97_0_TypeDefinitionIndex = 47165;
+	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass97_0_TypeDefinitionIndex = 72578;
 
 	class UIVideoshopForgeWidgetChildWindowController___c__DisplayClass97_0 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* curItemData; // 0x10
-		::MoleMole::UIVideoshopForgeWidgetChildWindowController* __4__this; // 0x18
+		::MoleMole::UIVideoshopForgeWidgetChildWindowController* __4__this; // 0x10
+		::Class_1_0D6706375CDAAE8C* curItemData; // 0x18
 
 		::System::Void _ctor()
 		{

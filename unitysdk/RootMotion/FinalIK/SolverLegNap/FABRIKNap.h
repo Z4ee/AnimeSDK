@@ -7,21 +7,21 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_GENCHAINLINK_OFFSET UNITYSDK_OFFSET(0x1A825410)
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_SOLVEFABRIK_1_OFFSET UNITYSDK_OFFSET(0x1A8256E0)
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_SOLVEFABRIK_OFFSET UNITYSDK_OFFSET(0x1A825220)
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_WRITEBACKTOTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A825E60)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_GENCHAINLINK_OFFSET UNITYSDK_OFFSET(0x1B68AE80)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_SOLVEFABRIK_1_OFFSET UNITYSDK_OFFSET(0x1B68B150)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_SOLVEFABRIK_OFFSET UNITYSDK_OFFSET(0x1B68AC90)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_FABRIKNAP_WRITEBACKTOTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B68B8D0)
 
 namespace RootMotion::FinalIK::SolverLegNap
 {
-	inline static constexpr unsigned int FABRIKNap_TypeDefinitionIndex = 36199;
+	inline static constexpr unsigned int FABRIKNap_TypeDefinitionIndex = 36743;
 
 	class FABRIKNap : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::RootMotion::FinalIK::SolverLegNap::FABRIKChainLink>** StaticGet__linkCache()
 		{
-			return (::Il2CppArray<::RootMotion::FinalIK::SolverLegNap::FABRIKChainLink>**)Il2CppClass::FromTypeDefinitionIndex(FABRIKNap_TypeDefinitionIndex)->GetStaticField(0x266E0);
+			return (::Il2CppArray<::RootMotion::FinalIK::SolverLegNap::FABRIKChainLink>**)Il2CppClass::FromTypeDefinitionIndex(FABRIKNap_TypeDefinitionIndex)->GetStaticField(0x27290);
 		}
 
 		static ::System::Boolean SolveFabrik(::UnityEngine::Transform* from, ::UnityEngine::Transform* end, ::UnityEngine::Vector3 targetPosition, ::System::Single precision, ::System::Int32 maxIterations)

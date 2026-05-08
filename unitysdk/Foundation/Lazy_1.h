@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Lazy_1_TypeDefinitionIndex = 8203;
+	inline static constexpr unsigned int Lazy_1_TypeDefinitionIndex = 8082;
 
 	template <typename T>
 	class Lazy_1 : public ::System::Object

@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace QWER
 {
-	inline static constexpr unsigned int CPropertyHashSetModule_1_TypeDefinitionIndex = 9664;
+	inline static constexpr unsigned int CPropertyHashSetModule_1_TypeDefinitionIndex = 9675;
 
 	template <typename T>
 	class CPropertyHashSetModule_1 : public ::QWER::CPropertyModule

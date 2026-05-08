@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifier_1_TypeDefinitionIndex = 67241;
+	inline static constexpr unsigned int BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifier_1_TypeDefinitionIndex = 66171;
 
 	template <typename T>
 	class BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifier_1 : public ::System::Object

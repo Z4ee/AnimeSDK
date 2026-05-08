@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int AddressMode_TypeDefinitionIndex = 27988;
+	inline static constexpr unsigned int AddressMode_TypeDefinitionIndex = 28506;
 
 	enum class AddressMode : ::System::Int32
 	{

@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+#include "unitysdk/MoleMole/Config/ConfigDungeonRegisterRuleBase.h"
+
+class Class_1_236FD73ABC492E3F;
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x11025970)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11025900)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_4EE86C5D77B5D81F_OFFSET UNITYSDK_OFFSET(0x110259B0)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_6704D57D4F412560_OFFSET UNITYSDK_OFFSET(0x11025790)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_9B00DC6B301F3F39_OFFSET UNITYSDK_OFFSET(0x11025980)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x11025770)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x11025890)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x11025960)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_F542DFD3CB631794_OFFSET UNITYSDK_OFFSET(0x11025B20)
+#define MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x11025990)
+
+namespace MoleMole::Config
+{
+	inline static constexpr unsigned int ConfigBangkovBaseGroupRegisterRule_TypeDefinitionIndex = 39329;
+
+	class ConfigBangkovBaseGroupRegisterRule : public ::MoleMole::Config::ConfigDungeonRegisterRuleBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+		}
+
+		::MoleMole::Config::ConfigDungeonRegisterRuleBase* Method_2_6704D57D4F412560()
+		{
+			return ((::MoleMole::Config::ConfigDungeonRegisterRuleBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_6704D57D4F412560_OFFSET))(this);
+		}
+
+		::System::Int32 Method_2_C444D4C8B9D548AF()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_C444D4C8B9D548AF_OFFSET))(this);
+		}
+
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_FROMFLX_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_FROMBINARY_OFFSET))(this, a1, a2);
+		}
+
+		static ::MoleMole::Config::ConfigBangkovBaseGroupRegisterRule* Method_2_4EE86C5D77B5D81F(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::MoleMole::Config::ConfigBangkovBaseGroupRegisterRule*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_4EE86C5D77B5D81F_OFFSET))(a1, a2);
+		}
+
+		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_2_9B00DC6B301F3F39(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_9B00DC6B301F3F39_OFFSET))(this, a1, a2);
+		}
+
+		static ::MoleMole::Config::ConfigBangkovBaseGroupRegisterRule* Method_2_F542DFD3CB631794(::FlexBuffers::FlxValue a1)
+		{
+			return ((::MoleMole::Config::ConfigBangkovBaseGroupRegisterRule*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGBANGKOVBASEGROUPREGISTERRULE_METHOD_2_F542DFD3CB631794_OFFSET))(a1);
+		}
+	};
+}

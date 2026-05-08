@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_LIVEHOUSESCENEGAMEOBJECTDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xCD5D9B0)
+#define MOLEMOLE_LIVEHOUSESCENEGAMEOBJECTDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x125D2C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LiveHouseSceneGameObjectDataDicEntry_TypeDefinitionIndex = 76716;
+	inline static constexpr unsigned int LiveHouseSceneGameObjectDataDicEntry_TypeDefinitionIndex = 66705;
 
 	class LiveHouseSceneGameObjectDataDicEntry : public ::MoleMole::DataStructures::Lists::EasySerializeDictionaryEntry_2<::System::String*, ::UnityEngine::GameObject*>
 	{

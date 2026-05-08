@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int IPathProvider_TypeDefinitionIndex = 36824;
+	inline static constexpr unsigned int IPathProvider_TypeDefinitionIndex = 37368;
 
 	class IPathProvider
 	{

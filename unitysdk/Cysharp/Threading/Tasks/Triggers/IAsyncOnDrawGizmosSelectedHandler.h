@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnDrawGizmosSelectedHandler_TypeDefinitionIndex = 28190;
+	inline static constexpr unsigned int IAsyncOnDrawGizmosSelectedHandler_TypeDefinitionIndex = 28708;
 
 	class IAsyncOnDrawGizmosSelectedHandler
 	{

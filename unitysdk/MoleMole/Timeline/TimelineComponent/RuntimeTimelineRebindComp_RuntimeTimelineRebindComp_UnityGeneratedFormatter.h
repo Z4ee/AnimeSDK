@@ -15,34 +15,34 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD223170)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD223180)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD223500)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD223770)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD223730)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1237F990)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1237F9A0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1237FD00)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1237FF50)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEREBINDCOMP_RUNTIMETIMELINEREBINDCOMP_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1237FF10)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex = 62888;
+	inline static constexpr unsigned int RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex = 82819;
 
 	class RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Timeline::TimelineComponent::RuntimeTimelineRebindComp*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::NoSeamlessBaseReferenceCompInfo*>*>** StaticGet_CachedSerializer2()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SyncReferenceInfo*>*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::NoSeamlessBaseReferenceCompInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46D60);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SyncReferenceInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43770);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SeamlessTrackBindInfo*>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SeamlessTrackBindInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46D68);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SeamlessTrackBindInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43778);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SyncReferenceInfo*>*>*>** StaticGet_CachedSerializer1()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::NoSeamlessBaseReferenceCompInfo*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SyncReferenceInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46D70);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::NoSeamlessBaseReferenceCompInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43780);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SeamlessBaseReferenceCompInfo*>*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SeamlessBaseReferenceCompInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46D78);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Timeline::TimelineComponent::SeamlessBaseReferenceCompInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTimelineRebindComp_RuntimeTimelineRebindComp_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43788);
 		}
 
 		::System::Void _ctor()

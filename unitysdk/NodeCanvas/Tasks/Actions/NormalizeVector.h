@@ -5,12 +5,12 @@
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
-#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x19FFBAE0)
-#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFBC00)
+#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1ADBAB90)
+#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBACB0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int NormalizeVector_TypeDefinitionIndex = 27355;
+	inline static constexpr unsigned int NormalizeVector_TypeDefinitionIndex = 27042;
 
 	class NormalizeVector : public ::NodeCanvas::Framework::ActionTask
 	{

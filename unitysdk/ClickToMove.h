@@ -5,11 +5,11 @@
 
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define CLICKTOMOVE_START_OFFSET UNITYSDK_OFFSET(0x8A3F160)
-#define CLICKTOMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x8A3F250)
-#define CLICKTOMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x8A3F5B0)
+#define CLICKTOMOVE_START_OFFSET UNITYSDK_OFFSET(0x10FA11D0)
+#define CLICKTOMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10FA12A0)
+#define CLICKTOMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x10FA1650)
 
-inline static constexpr unsigned int ClickToMove_TypeDefinitionIndex = 38423;
+inline static constexpr unsigned int ClickToMove_TypeDefinitionIndex = 73872;
 
 class ClickToMove : public ::UnityEngine::MonoBehaviour
 {

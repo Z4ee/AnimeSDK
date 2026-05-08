@@ -1,41 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_2C5A03A90BB5E900.h"
-#include "unitysdk/Struct_2_A7DCC2EAB8522504.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIUrbanMapNavigationPageController___c__DisplayClass33_0; }
-namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAA6DD60)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0xAA6DD70)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__4_OFFSET UNITYSDK_OFFSET(0xAA6DE00)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1552B9E0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x1552B9F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c__DisplayClass33_1_TypeDefinitionIndex = 38866;
+	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c__DisplayClass33_1_TypeDefinitionIndex = 81595;
 
 	class UIUrbanMapNavigationPageController___c__DisplayClass33_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIUrbanMapNavigationPageController___c__DisplayClass33_0* CS___8__locals1; // 0x10
-		::System::Action_1<::Struct_2_2C5A03A90BB5E900>* __9__3; // 0x18
-		::System::Action_1<::Struct_2_2C5A03A90BB5E900>* __9__4; // 0x20
-		::Struct_2_A7DCC2EAB8522504 sMapTrackInfo; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* _markSinkToBottom; // 0x10
+		::MoleMole::UIUrbanMapNavigationPageController___c__DisplayClass33_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnSkipFadeInAnimation_b__3(::Struct_2_2C5A03A90BB5E900 res)
+		::System::Int32 _OnSkipFadeInAnimation_b__3(::System::Int32 a, ::System::Int32 b)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_2C5A03A90BB5E900))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__3_OFFSET))(this, res);
-		}
-
-		::System::Void _OnSkipFadeInAnimation_b__4(::Struct_2_2C5A03A90BB5E900 res)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_2C5A03A90BB5E900))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__4_OFFSET))(this, res);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS33_1__ONSKIPFADEINANIMATION_B__3_OFFSET))(this, a, b);
 		}
 	};
 }

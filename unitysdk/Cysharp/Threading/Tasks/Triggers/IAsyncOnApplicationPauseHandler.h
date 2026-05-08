@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnApplicationPauseHandler_TypeDefinitionIndex = 28158;
+	inline static constexpr unsigned int IAsyncOnApplicationPauseHandler_TypeDefinitionIndex = 28676;
 
 	class IAsyncOnApplicationPauseHandler
 	{

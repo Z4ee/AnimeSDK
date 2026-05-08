@@ -5,7 +5,7 @@
 namespace UnityEngine { class AnimationCurve; }
 template <typename T> class Class_2_2CF11500DC82A318_Class_1_9966DA97F862EC18;
 
-inline static constexpr unsigned int Class_2_2CF11500DC82A318_Class_1_9966DA97F862EC18_TypeDefinitionIndex = 80355;
+inline static constexpr unsigned int Class_2_2CF11500DC82A318_Class_1_9966DA97F862EC18_TypeDefinitionIndex = 54641;
 
 template <typename T>
 class Class_2_2CF11500DC82A318_Class_1_9966DA97F862EC18 : public ::System::Object

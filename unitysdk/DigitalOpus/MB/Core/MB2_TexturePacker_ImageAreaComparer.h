@@ -4,12 +4,12 @@
 
 namespace DigitalOpus::MB::Core { class MB2_TexturePacker_Image; }
 
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEAREACOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B10B8A0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEAREACOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B10B8E0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEAREACOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BEC2A60)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEAREACOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC2AA0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_TexturePacker_ImageAreaComparer_TypeDefinitionIndex = 83380;
+	inline static constexpr unsigned int MB2_TexturePacker_ImageAreaComparer_TypeDefinitionIndex = 85108;
 
 	class MB2_TexturePacker_ImageAreaComparer : public ::System::Object
 	{

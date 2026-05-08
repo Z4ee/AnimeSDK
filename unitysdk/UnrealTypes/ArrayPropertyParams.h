@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/PropertyParamsBase.h"
 
-#define UNREALTYPES_ARRAYPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A202910)
+#define UNREALTYPES_ARRAYPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD99350)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ArrayPropertyParams_TypeDefinitionIndex = 24746;
+	inline static constexpr unsigned int ArrayPropertyParams_TypeDefinitionIndex = 25260;
 
 	class ArrayPropertyParams : public ::UnrealTypes::PropertyParamsBase
 	{

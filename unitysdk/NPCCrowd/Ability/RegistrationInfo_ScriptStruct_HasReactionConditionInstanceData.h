@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITIONINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x639A1A0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITIONINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x639A060)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITIONINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xB537950)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITIONINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xB537810)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData_TypeDefinitionIndex = 54203;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData_TypeDefinitionIndex = 65356;
 
 	class RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
-		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData_TypeDefinitionIndex)->GetStaticField(0x2ED20);
-		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData_TypeDefinitionIndex)->GetStaticField(0x2ED28);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData_TypeDefinitionIndex)->GetStaticField(0x2F520);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionConditionInstanceData_TypeDefinitionIndex)->GetStaticField(0x2F528);
 		}
 
 		static ::System::Void _cctor()

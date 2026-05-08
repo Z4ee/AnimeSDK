@@ -3,7 +3,7 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int GamePlayLogicKind_TypeDefinitionIndex = 72466;
+	inline static constexpr unsigned int GamePlayLogicKind_TypeDefinitionIndex = 48939;
 
 	enum class GamePlayLogicKind : ::System::Int32
 	{

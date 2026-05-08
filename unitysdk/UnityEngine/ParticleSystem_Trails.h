@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_Trails_TypeDefinitionIndex = 24364;
+	inline static constexpr unsigned int ParticleSystem_Trails_TypeDefinitionIndex = 24877;
 
 	struct alignas(8) ParticleSystem_Trails
 	{

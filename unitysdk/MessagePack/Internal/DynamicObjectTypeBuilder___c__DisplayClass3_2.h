@@ -5,18 +5,18 @@
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass3_1; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2__BUILDTYPE_B__2_OFFSET UNITYSDK_OFFSET(0x1A482CA0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A482C90)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2__BUILDTYPE_B__2_OFFSET UNITYSDK_OFFSET(0x1AFC7620)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC7610)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_2_TypeDefinitionIndex = 26353;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_2_TypeDefinitionIndex = 26711;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass3_2 : public ::System::Object
 	{
 	public:
-		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass3_1* CS___8__locals2; // 0x10
-		::System::Reflection::FieldInfo* fi; // 0x18
+		::System::Reflection::FieldInfo* fi; // 0x10
+		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass3_1* CS___8__locals2; // 0x18
 
 		::System::Void _ctor()
 		{

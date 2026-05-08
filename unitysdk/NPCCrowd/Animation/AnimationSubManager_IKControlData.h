@@ -4,17 +4,17 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_TwoBonesIKControl.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_IKCONTROLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x69FB180)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_IKCONTROLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD44C80)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_IKControlData_TypeDefinitionIndex = 59636;
+	inline static constexpr unsigned int AnimationSubManager_IKControlData_TypeDefinitionIndex = 70518;
 
 	struct alignas(8) AnimationSubManager_IKControlData
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_IKControlData* StaticGet_Default()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_IKControlData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_IKControlData_TypeDefinitionIndex)->GetStaticField(0xAC50);
+			return (::NPCCrowd::Animation::AnimationSubManager_IKControlData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_IKControlData_TypeDefinitionIndex)->GetStaticField(0xAF60);
 		}
 		::NPCCrowd::Animation::AnimationSubManager_LookAtIKControl LookAt; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKControl LeftHand; // 0x48

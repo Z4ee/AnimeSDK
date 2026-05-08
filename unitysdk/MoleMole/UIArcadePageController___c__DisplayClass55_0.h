@@ -5,18 +5,18 @@
 namespace MoleMole { class UIArcadePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD009000)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS55_0__TRYENTERGAMEPHASENOANIM_B__0_OFFSET UNITYSDK_OFFSET(0xD009010)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13E315A0)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS55_0__TRYENTERGAMEPHASENOANIM_B__0_OFFSET UNITYSDK_OFFSET(0x13E315B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass55_0_TypeDefinitionIndex = 57167;
+	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass55_0_TypeDefinitionIndex = 75633;
 
 	class UIArcadePageController___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
-		::System::Action* finishCB; // 0x10
-		::MoleMole::UIArcadePageController* __4__this; // 0x18
+		::MoleMole::UIArcadePageController* __4__this; // 0x10
+		::System::Action* finishCB; // 0x18
 		::System::Int32 arcadeGameID; // 0x20
 
 		::System::Void _ctor()

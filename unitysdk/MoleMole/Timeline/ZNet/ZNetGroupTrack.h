@@ -1,34 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_909FADC0CC5C7D1F.h"
+#include "unitysdk/Enum_3_716F9FCFF12A109B.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Timeline/GroupTrack.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_GETCUSTOMCOLOR_OFFSET UNITYSDK_OFFSET(0xC333950)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_HASCUSTOMCOLOR_OFFSET UNITYSDK_OFFSET(0xC3338F0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_METHOD_6_BFD792E814D995C0_OFFSET UNITYSDK_OFFSET(0xC333C60)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_METHOD_6_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xC333C50)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0xC333B20)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC333AF0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_GETCUSTOMCOLOR_OFFSET UNITYSDK_OFFSET(0x15E61260)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_HASCUSTOMCOLOR_OFFSET UNITYSDK_OFFSET(0x15E61220)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_METHOD_6_BFD792E814D995C0_OFFSET UNITYSDK_OFFSET(0x15E615F0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK_METHOD_6_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x15E615E0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E61440)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15E613E0)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetGroupTrack_TypeDefinitionIndex = 44674;
+	inline static constexpr unsigned int ZNetGroupTrack_TypeDefinitionIndex = 62860;
 
 	class ZNetGroupTrack : public ::UnityEngine::Timeline::GroupTrack
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::Enum_3_909FADC0CC5C7D1F, ::UnityEngine::Color>** StaticGet_s_GroupTypeToTrackColor()
+		static ::System::Collections::Generic::Dictionary_2<::Enum_3_716F9FCFF12A109B, ::UnityEngine::Color>** StaticGet_s_GroupTypeToTrackColor()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::Enum_3_909FADC0CC5C7D1F, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(ZNetGroupTrack_TypeDefinitionIndex)->GetStaticField(0x41B00);
+			return (::System::Collections::Generic::Dictionary_2<::Enum_3_716F9FCFF12A109B, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(ZNetGroupTrack_TypeDefinitionIndex)->GetStaticField(0x41DA0);
 		}
 		static ::UnityEngine::Color* StaticGet_s_DefaultColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ZNetGroupTrack_TypeDefinitionIndex)->GetStaticField(0xFCF0);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ZNetGroupTrack_TypeDefinitionIndex)->GetStaticField(0xFED0);
 		}
-		::Enum_3_909FADC0CC5C7D1F groupTrackType; // 0xB0
+		static ::UnityEngine::Color* StaticGet_s_DynamicAttachColor()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ZNetGroupTrack_TypeDefinitionIndex)->GetStaticField(0xFEE0);
+		}
+		::Enum_3_716F9FCFF12A109B groupTrackType; // 0xB0
 
 		::System::Void _ctor()
 		{

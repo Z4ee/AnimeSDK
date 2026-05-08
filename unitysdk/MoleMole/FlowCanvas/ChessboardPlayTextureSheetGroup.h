@@ -7,14 +7,14 @@ namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5C4A10)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0xB5C47B0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C4FC0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0xB5C5050)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_INVOKE_OFFSET UNITYSDK_OFFSET(0x154021A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x15401F50)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x15402730)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x154027C0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardPlayTextureSheetGroup_TypeDefinitionIndex = 51106;
+	inline static constexpr unsigned int ChessboardPlayTextureSheetGroup_TypeDefinitionIndex = 68164;
 
 	class ChessboardPlayTextureSheetGroup : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_3<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntity*>*, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::System::String*>
 	{

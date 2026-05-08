@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputBinding_DisplayStringOptions_TypeDefinitionIndex = 28400;
+	inline static constexpr unsigned int InputBinding_DisplayStringOptions_TypeDefinitionIndex = 28918;
 
 	enum class InputBinding_DisplayStringOptions : ::System::Int32
 	{

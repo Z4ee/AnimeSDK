@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBossChallengeBuffDialogPopWindowController; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEBUFFDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0A4C50)
-#define MOLEMOLE_UIBOSSCHALLENGEBUFFDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__SHOWBUFFS_B__0_OFFSET UNITYSDK_OFFSET(0xC0A4C60)
+#define MOLEMOLE_UIBOSSCHALLENGEBUFFDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E72010)
+#define MOLEMOLE_UIBOSSCHALLENGEBUFFDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__SHOWBUFFS_B__0_OFFSET UNITYSDK_OFFSET(0x14E72020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeBuffDialogPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 46259;
+	inline static constexpr unsigned int UIBossChallengeBuffDialogPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 47871;
 
 	class UIBossChallengeBuffDialogPopWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

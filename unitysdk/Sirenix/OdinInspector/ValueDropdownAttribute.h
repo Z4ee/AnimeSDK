@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_VALUEDROPDOWNATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1B117170)
-#define SIRENIX_ODININSPECTOR_VALUEDROPDOWNATTRIBUTE_SET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1B117180)
-#define SIRENIX_ODININSPECTOR_VALUEDROPDOWNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B117190)
+#define SIRENIX_ODININSPECTOR_VALUEDROPDOWNATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1C0226A0)
+#define SIRENIX_ODININSPECTOR_VALUEDROPDOWNATTRIBUTE_SET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1C0226B0)
+#define SIRENIX_ODININSPECTOR_VALUEDROPDOWNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0226C0)
 
 namespace Sirenix::OdinInspector
 {
@@ -17,20 +17,20 @@ namespace Sirenix::OdinInspector
 	public:
 		::System::String* DropdownTitle; // 0x10
 		::System::String* ValuesGetter; // 0x18
-		::System::Int32 NumberOfItemsBeforeEnablingSearch; // 0x20
-		::System::Boolean DoubleClickToConfirm; // 0x24
-		::System::Boolean ExpandAllMenuItems; // 0x25
-		::System::Boolean ExcludeExistingValuesInList; // 0x26
-		::System::Boolean DisableListAddButtonBehaviour; // 0x27
-		::System::Boolean FlattenTreeView; // 0x28
-		::System::Boolean IsUniqueList; // 0x29
-		::System::Boolean DrawDropdownForListElements; // 0x2A
-		::System::Int32 DropdownWidth; // 0x2C
-		::System::Int32 DropdownHeight; // 0x30
-		::System::Boolean HideChildProperties; // 0x34
-		::System::Boolean DisableGUIInAppendedDrawer; // 0x35
-		::System::Boolean SortDropdownItems; // 0x36
-		::System::Boolean AppendNextDrawer; // 0x37
+		::System::Boolean HideChildProperties; // 0x20
+		::System::Boolean DrawDropdownForListElements; // 0x21
+		::System::Boolean SortDropdownItems; // 0x22
+		::System::Boolean DisableListAddButtonBehaviour; // 0x23
+		::System::Boolean FlattenTreeView; // 0x24
+		::System::Boolean AppendNextDrawer; // 0x25
+		::System::Boolean ExpandAllMenuItems; // 0x26
+		::System::Int32 NumberOfItemsBeforeEnablingSearch; // 0x28
+		::System::Boolean IsUniqueList; // 0x2C
+		::System::Boolean DoubleClickToConfirm; // 0x2D
+		::System::Boolean ExcludeExistingValuesInList; // 0x2E
+		::System::Boolean DisableGUIInAppendedDrawer; // 0x2F
+		::System::Int32 DropdownWidth; // 0x30
+		::System::Int32 DropdownHeight; // 0x34
 
 		::System::Void _ctor(::System::String* valuesGetter)
 		{

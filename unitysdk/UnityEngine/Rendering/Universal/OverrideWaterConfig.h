@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEWATERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x196765F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEWATERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196766B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEWATERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1AD15E80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEWATERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD15F40)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideWaterConfig_TypeDefinitionIndex = 29463;
+	inline static constexpr unsigned int OverrideWaterConfig_TypeDefinitionIndex = 29983;
 
 	class OverrideWaterConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideWaterConfig*>
 	{

@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ITraitEntityBuild_TypeDefinitionIndex = 46279;
+	inline static constexpr unsigned int ITraitEntityBuild_TypeDefinitionIndex = 41276;
 
 	class ITraitEntityBuild
 	{

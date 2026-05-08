@@ -6,7 +6,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_FILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1931E8F0)
+#define SYSTEM_IO_FILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2C740)
 
 namespace System::IO
 {

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_2236C164186BAD9A_TypeDefinitionIndex = 78603;
+inline static constexpr unsigned int Enum_3_2236C164186BAD9A_TypeDefinitionIndex = 63911;
 
 enum class Enum_3_2236C164186BAD9A : ::System::Int32
 {
-	Challenge_Process = 2,
-	Challenge_Start = 1,
-	Challenge_Failed = 3,
-	Challenge_NoneSuccess = 6,
-	Challenge_OtherSuccess = 5,
-	Challenge_Success = 4,
 	None = 0,
+	Challenge_Success = 4,
+	Challenge_NoneSuccess = 6,
+	Challenge_Process = 2,
+	Challenge_OtherSuccess = 5,
+	Challenge_Failed = 3,
+	Challenge_Start = 1,
 };

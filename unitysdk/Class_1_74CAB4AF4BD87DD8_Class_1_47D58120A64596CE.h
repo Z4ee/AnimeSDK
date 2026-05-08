@@ -4,9 +4,9 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-inline static constexpr unsigned int Class_1_74CAB4AF4BD87DD8_Class_1_47D58120A64596CE_TypeDefinitionIndex = 25984;
+inline static constexpr unsigned int Class_1_74CAB4AF4BD87DD8_Class_1_47D58120A64596CE_TypeDefinitionIndex = 27298;
 
-template <typename T, typename TResult>
+template <typename T, typename TValue>
 class Class_1_74CAB4AF4BD87DD8_Class_1_47D58120A64596CE : public ::System::Object
 {
 public:

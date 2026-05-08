@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_PREPATCHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECC590)
+#define IFIX_PREPATCHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7AD5C0)
 
 namespace IFix
 {

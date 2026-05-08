@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Ecom { class QueryEntitlementsCallbackInfo; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS35_0__CHECKOUTENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x19FD5350)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD5340)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS35_0__CHECKOUTENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1AE3C210)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3C200)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass35_0_TypeDefinitionIndex = 34597;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass35_0_TypeDefinitionIndex = 35133;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass35_0 : public ::System::Object
 	{

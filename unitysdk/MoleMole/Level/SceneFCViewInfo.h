@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_LEVEL_SCENEFCVIEWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB9955E0)
+#define MOLEMOLE_LEVEL_SCENEFCVIEWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18222BB0)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int SceneFCViewInfo_TypeDefinitionIndex = 64261;
+	inline static constexpr unsigned int SceneFCViewInfo_TypeDefinitionIndex = 54892;
 
 	class SceneFCViewInfo : public ::System::Object
 	{
 	public:
-		::System::String* scenePath; // 0x10
-		::System::String* fcPath; // 0x18
+		::System::String* fcPath; // 0x10
+		::System::String* scenePath; // 0x18
 
 		::System::Void _ctor()
 		{

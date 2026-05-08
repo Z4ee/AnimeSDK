@@ -7,7 +7,7 @@ namespace ToolBuddy::Pooling::Pools { template <typename T> class ArrayPool_1; }
 
 namespace ToolBuddy::Pooling::Collections
 {
-	inline static constexpr unsigned int SubArray_1_TypeDefinitionIndex = 24273;
+	inline static constexpr unsigned int SubArray_1_TypeDefinitionIndex = 24786;
 
 	template <typename T>
 	struct SubArray_1

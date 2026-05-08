@@ -4,7 +4,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int ReservedMessagePackExtensionTypeCode_TypeDefinitionIndex = 26373;
+	inline static constexpr unsigned int ReservedMessagePackExtensionTypeCode_TypeDefinitionIndex = 26602;
 
 	class ReservedMessagePackExtensionTypeCode : public ::System::Object
 	{

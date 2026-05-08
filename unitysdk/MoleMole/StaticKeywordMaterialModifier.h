@@ -7,12 +7,12 @@ class Class_1_A0B58236B258B7B2;
 namespace MoleMole { class MonoRenderHandler; }
 namespace System { class String; }
 
-#define MOLEMOLE_STATICKEYWORDMATERIALMODIFIER_METHOD_2_3750F4A9FEA7F5EF_OFFSET UNITYSDK_OFFSET(0x3B75E0)
-#define MOLEMOLE_STATICKEYWORDMATERIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x3B75D0)
+#define MOLEMOLE_STATICKEYWORDMATERIALMODIFIER_METHOD_2_3750F4A9FEA7F5EF_OFFSET UNITYSDK_OFFSET(0x7A2240)
+#define MOLEMOLE_STATICKEYWORDMATERIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x7A2230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StaticKeywordMaterialModifier_TypeDefinitionIndex = 78742;
+	inline static constexpr unsigned int StaticKeywordMaterialModifier_TypeDefinitionIndex = 53536;
 
 	struct alignas(8) StaticKeywordMaterialModifier
 	{

@@ -17,17 +17,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_ADD_FORMATTERRESOLVE_OFFSET UNITYSDK_OFFSET(0x1B04E4B0)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_CREATEFORMATTER_OFFSET UNITYSDK_OFFSET(0x1B04ED20)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETALLCOMPATIBLEPREDEFINEDFORMATTERS_OFFSET UNITYSDK_OFFSET(0x1B04FD60)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETALLPOSSIBLEMISSINGAOTTYPES_OFFSET UNITYSDK_OFFSET(0x1B04FD00)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETFORMATTERINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B050C30)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1B04E8E0)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_LOGAOTERROR_OFFSET UNITYSDK_OFFSET(0x1B04FB40)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_REGISTERUNITYGENERATEDFORMATTER_OFFSET UNITYSDK_OFFSET(0x1B04E550)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_REMOVE_FORMATTERRESOLVE_OFFSET UNITYSDK_OFFSET(0x1B04E500)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_TRYGETUNITYGENERATEDFORMATTER_OFFSET UNITYSDK_OFFSET(0x1B04E6E0)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B04D410)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_ADD_FORMATTERRESOLVE_OFFSET UNITYSDK_OFFSET(0x1BCEE8F0)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_CREATEFORMATTER_OFFSET UNITYSDK_OFFSET(0x1BCEF190)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETALLCOMPATIBLEPREDEFINEDFORMATTERS_OFFSET UNITYSDK_OFFSET(0x1BCF01B0)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETALLPOSSIBLEMISSINGAOTTYPES_OFFSET UNITYSDK_OFFSET(0x1BCF0150)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETFORMATTERINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BCF1090)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1BCEED20)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_LOGAOTERROR_OFFSET UNITYSDK_OFFSET(0x1BCEFF90)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_REGISTERUNITYGENERATEDFORMATTER_OFFSET UNITYSDK_OFFSET(0x1BCEE990)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_REMOVE_FORMATTERRESOLVE_OFFSET UNITYSDK_OFFSET(0x1BCEE940)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR_TRYGETUNITYGENERATEDFORMATTER_OFFSET UNITYSDK_OFFSET(0x1BCEEB20)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCED840)
 
 namespace Sirenix::Serialization
 {
@@ -40,13 +40,13 @@ namespace Sirenix::Serialization
 		{
 			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64B0);
 		}
+		static ::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterLocatorInfo>** StaticGet_FormatterLocators()
+		{
+			return (::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterLocatorInfo>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64B8);
+		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IUnityGeneratedFormatter*>** StaticGet_UnityGeneratedFormatterCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IUnityGeneratedFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64B8);
-		}
-		static ::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterInfo>** StaticGet_FormatterInfos()
-		{
-			return (::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterInfo>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IUnityGeneratedFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64C0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IFormatter*>** StaticGet_FormatterInstances()
 		{
@@ -56,9 +56,9 @@ namespace Sirenix::Serialization
 		{
 			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::Sirenix::Serialization::ISerializationPolicy*, ::Sirenix::Serialization::IFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64D0);
 		}
-		static ::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterLocatorInfo>** StaticGet_FormatterLocators()
+		static ::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterInfo>** StaticGet_FormatterInfos()
 		{
-			return (::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterLocatorInfo>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64D8);
+			return (::System::Collections::Generic::List_1<::Sirenix::Serialization::FormatterLocator_FormatterInfo>**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator_TypeDefinitionIndex)->GetStaticField(0x64D8);
 		}
 
 		static ::System::Void _cctor()

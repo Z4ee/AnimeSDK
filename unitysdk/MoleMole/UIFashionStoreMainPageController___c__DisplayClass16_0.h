@@ -6,12 +6,12 @@ class Class_1_BD2BE7927F889C7B;
 namespace MoleMole { class UIFashionStoreMainPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D17D0)
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSUCCESSBUYINGPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0xC0D17E0)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E9D900)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSUCCESSBUYINGPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0x14E9D910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreMainPageController___c__DisplayClass16_0_TypeDefinitionIndex = 62473;
+	inline static constexpr unsigned int UIFashionStoreMainPageController___c__DisplayClass16_0_TypeDefinitionIndex = 62343;
 
 	class UIFashionStoreMainPageController___c__DisplayClass16_0 : public ::System::Object
 	{

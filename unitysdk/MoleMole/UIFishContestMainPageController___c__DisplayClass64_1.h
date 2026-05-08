@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIFishContestMainPageController___c__DisplayClass64_0; }
 
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_1__CLOSEUI_B__3_OFFSET UNITYSDK_OFFSET(0xB2A7D20)
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A7BF0)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_1__CLOSEUI_B__3_OFFSET UNITYSDK_OFFSET(0x158F1280)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_1__CTOR_OFFSET UNITYSDK_OFFSET(0x158F1170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishContestMainPageController___c__DisplayClass64_1_TypeDefinitionIndex = 67671;
+	inline static constexpr unsigned int UIFishContestMainPageController___c__DisplayClass64_1_TypeDefinitionIndex = 56744;
 
 	class UIFishContestMainPageController___c__DisplayClass64_1 : public ::System::Object
 	{

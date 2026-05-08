@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGPHOTOCAMERAFRAMEASPECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9D0E930)
+#define MOLEMOLE_CONFIG_CONFIGPHOTOCAMERAFRAMEASPECT__CTOR_OFFSET UNITYSDK_OFFSET(0x123130A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPhotoCameraFrameAspect_TypeDefinitionIndex = 76500;
+	inline static constexpr unsigned int ConfigPhotoCameraFrameAspect_TypeDefinitionIndex = 45555;
 
 	class ConfigPhotoCameraFrameAspect : public ::System::Object
 	{

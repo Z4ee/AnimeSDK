@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySteerToMoveTargetProcessor_RuntimeParameters_TypeDefinitionIndex = 41574;
+	inline static constexpr unsigned int NPCAbilitySteerToMoveTargetProcessor_RuntimeParameters_TypeDefinitionIndex = 41973;
 
 	struct alignas(4) NPCAbilitySteerToMoveTargetProcessor_RuntimeParameters
 	{

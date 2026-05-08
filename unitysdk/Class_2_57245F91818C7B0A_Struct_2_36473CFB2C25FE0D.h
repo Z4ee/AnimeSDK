@@ -7,7 +7,7 @@
 class Class_2_57245F91818C7B0A;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-inline static constexpr unsigned int Class_2_57245F91818C7B0A_Struct_2_36473CFB2C25FE0D_TypeDefinitionIndex = 79230;
+inline static constexpr unsigned int Class_2_57245F91818C7B0A_Struct_2_36473CFB2C25FE0D_TypeDefinitionIndex = 80411;
 
 template <typename T>
 struct Class_2_57245F91818C7B0A_Struct_2_36473CFB2C25FE0D

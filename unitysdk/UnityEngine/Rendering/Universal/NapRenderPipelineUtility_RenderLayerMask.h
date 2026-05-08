@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderPipelineUtility_RenderLayerMask_TypeDefinitionIndex = 29572;
+	inline static constexpr unsigned int NapRenderPipelineUtility_RenderLayerMask_TypeDefinitionIndex = 30100;
 
 	enum class NapRenderPipelineUtility_RenderLayerMask : ::System::Int32
 	{

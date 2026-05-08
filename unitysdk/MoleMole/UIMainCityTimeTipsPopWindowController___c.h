@@ -9,34 +9,34 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFA3C40)
-#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFA3C80)
-#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__ONMODTIMERSP_B__16_0_OFFSET UNITYSDK_OFFSET(0xCFA3C90)
-#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__ONMODTIMERSP_B__16_1_OFFSET UNITYSDK_OFFSET(0xCFA3D90)
-#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__ONMODTIMERSP_B__16_2_OFFSET UNITYSDK_OFFSET(0xCFA3F40)
+#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DD5230)
+#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13DD5270)
+#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__ONMODTIMERSP_B__16_0_OFFSET UNITYSDK_OFFSET(0x13DD5280)
+#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__ONMODTIMERSP_B__16_1_OFFSET UNITYSDK_OFFSET(0x13DD5380)
+#define MOLEMOLE_UIMAINCITYTIMETIPSPOPWINDOWCONTROLLER___C__ONMODTIMERSP_B__16_2_OFFSET UNITYSDK_OFFSET(0x13DD5530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex = 67622;
+	inline static constexpr unsigned int UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex = 64277;
 
 	class UIMainCityTimeTipsPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__16_1()
+		static ::System::Action_1<::Class_2_67F3C5E647F33C2D*>** StaticGet___9__16_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3BA10);
+			return (::System::Action_1<::Class_2_67F3C5E647F33C2D*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CD00);
 		}
 		static ::MoleMole::UIMainCityTimeTipsPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMainCityTimeTipsPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3BA18);
+			return (::MoleMole::UIMainCityTimeTipsPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CD08);
 		}
 		static ::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>** StaticGet___9__16_2()
 		{
-			return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3BA20);
+			return (::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CD10);
 		}
-		static ::System::Action_1<::Class_2_67F3C5E647F33C2D*>** StaticGet___9__16_0()
+		static ::System::Action** StaticGet___9__16_1()
 		{
-			return (::System::Action_1<::Class_2_67F3C5E647F33C2D*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3BA28);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityTimeTipsPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CD18);
 		}
 
 		static ::System::Void _cctor()

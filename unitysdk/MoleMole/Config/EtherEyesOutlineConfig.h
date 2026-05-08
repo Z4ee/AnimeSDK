@@ -6,23 +6,23 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIG_ETHEREYESOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC2403E0)
+#define MOLEMOLE_CONFIG_ETHEREYESOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14250FB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EtherEyesOutlineConfig_TypeDefinitionIndex = 70768;
+	inline static constexpr unsigned int EtherEyesOutlineConfig_TypeDefinitionIndex = 43003;
 
 	class EtherEyesOutlineConfig : public ::System::Object
 	{
 	public:
 		::UnityEngine::Texture2D* outlineTexture; // 0x10
-		::UnityEngine::Vector2 outlineTextureOffset; // 0x18
-		::UnityEngine::Vector2 outlineTextureScale; // 0x20
-		::UnityEngine::Color outlineColor; // 0x28
+		::System::Int32 outlineThickness; // 0x18
+		::UnityEngine::Color outlineColor; // 0x1C
+		::System::Boolean occludedByDepth; // 0x2C
+		::System::Boolean occludedByCharacters; // 0x2D
+		::UnityEngine::Vector2 outlineTextureOffset; // 0x30
 		::System::Single outlineBreathFrequency; // 0x38
-		::System::Int32 outlineThickness; // 0x3C
-		::System::Boolean occludedByDepth; // 0x40
-		::System::Boolean occludedByCharacters; // 0x41
+		::UnityEngine::Vector2 outlineTextureScale; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0xD7FCCD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xD7FCEB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A3A4E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3A670)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterSummerTpsCamera_TypeDefinitionIndex = 59895;
+	inline static constexpr unsigned int LDEnterSummerTpsCamera_TypeDefinitionIndex = 48478;
 
 	class LDEnterSummerTpsCamera : public ::FlowCanvas::Nodes::CallableFunctionNode_6<::System::Boolean, ::System::String*, ::System::String*, ::UnityEngine::Vector3, ::MoleMole::Cameras::CameraTrackBlending*, ::MoleMole::Cameras::CameraTrackBlending*>
 	{

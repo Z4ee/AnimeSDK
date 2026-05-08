@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_FD161B8AFE00CB2F;
+class Class_1_F71F7FB55BBEB1D9;
 
-#define MOLEMOLE_UITRENDYSTOREWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAB08730)
+#define MOLEMOLE_UITRENDYSTOREWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C38550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrendyStoreWidgetContext_TypeDefinitionIndex = 70058;
+	inline static constexpr unsigned int UITrendyStoreWidgetContext_TypeDefinitionIndex = 48378;
 
 	class UITrendyStoreWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_FD161B8AFE00CB2F* storeData; // 0x28
+		::Class_1_F71F7FB55BBEB1D9* storeData; // 0x28
 		::System::Boolean ShowPreviewMode; // 0x30
 		::System::Int32 InitSelectID; // 0x34
 

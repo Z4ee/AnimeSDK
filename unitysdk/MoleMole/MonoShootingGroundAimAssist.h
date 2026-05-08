@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOSHOOTINGGROUNDAIMASSIST_AWAKE_OFFSET UNITYSDK_OFFSET(0xB1A9E40)
-#define MOLEMOLE_MONOSHOOTINGGROUNDAIMASSIST_UPDATE_OFFSET UNITYSDK_OFFSET(0xB1AA290)
-#define MOLEMOLE_MONOSHOOTINGGROUNDAIMASSIST__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AA3F0)
+#define MOLEMOLE_MONOSHOOTINGGROUNDAIMASSIST_AWAKE_OFFSET UNITYSDK_OFFSET(0x10BD4820)
+#define MOLEMOLE_MONOSHOOTINGGROUNDAIMASSIST_UPDATE_OFFSET UNITYSDK_OFFSET(0x10BD4C10)
+#define MOLEMOLE_MONOSHOOTINGGROUNDAIMASSIST__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD4D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoShootingGroundAimAssist_TypeDefinitionIndex = 64170;
+	inline static constexpr unsigned int MonoShootingGroundAimAssist_TypeDefinitionIndex = 54988;
 
 	class MonoShootingGroundAimAssist : public ::UnityEngine::MonoBehaviour
 	{

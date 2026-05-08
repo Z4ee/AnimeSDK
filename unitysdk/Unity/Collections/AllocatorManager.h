@@ -4,43 +4,43 @@
 #include "unitysdk/Unity/Collections/AllocatorManager_AllocatorHandle.h"
 #include "unitysdk/Unity/Collections/AllocatorManager_Block.h"
 
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1B727B80)
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_FREE_1_OFFSET UNITYSDK_OFFSET(0x1B727E90)
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_FREE_OFFSET UNITYSDK_OFFSET(0x1B727DE0)
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_TRYLEGACY_OFFSET UNITYSDK_OFFSET(0x1B727FC0)
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_TRY_OFFSET UNITYSDK_OFFSET(0x1B727D10)
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B728060)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1C500690)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_FREE_1_OFFSET UNITYSDK_OFFSET(0x1C5009A0)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_FREE_OFFSET UNITYSDK_OFFSET(0x1C5008F0)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_TRYLEGACY_OFFSET UNITYSDK_OFFSET(0x1C500AD0)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_TRY_OFFSET UNITYSDK_OFFSET(0x1C500820)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C500B70)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int AllocatorManager_TypeDefinitionIndex = 19787;
+	inline static constexpr unsigned int AllocatorManager_TypeDefinitionIndex = 20144;
 
 	class AllocatorManager : public ::System::Object
 	{
 	public:
 		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_AudioKernel()
 		{
-			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4620);
+			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4630);
 		}
 		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_Persistent()
 		{
-			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4624);
-		}
-		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_Temp()
-		{
-			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4628);
-		}
-		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_Invalid()
-		{
-			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x462C);
+			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4634);
 		}
 		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_None()
 		{
-			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4630);
+			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4638);
 		}
 		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_TempJob()
 		{
-			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4634);
+			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x463C);
+		}
+		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_Invalid()
+		{
+			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4640);
+		}
+		static ::Unity::Collections::AllocatorManager_AllocatorHandle* StaticGet_Temp()
+		{
+			return (::Unity::Collections::AllocatorManager_AllocatorHandle*)Il2CppClass::FromTypeDefinitionIndex(AllocatorManager_TypeDefinitionIndex)->GetStaticField(0x4644);
 		}
 
 		static ::System::Void _cctor()

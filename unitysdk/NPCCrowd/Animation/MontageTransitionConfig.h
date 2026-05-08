@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTransitionConfig_TypeDefinitionIndex = 72688;
+	inline static constexpr unsigned int MontageTransitionConfig_TypeDefinitionIndex = 46452;
 
 	struct alignas(4) MontageTransitionConfig
 	{

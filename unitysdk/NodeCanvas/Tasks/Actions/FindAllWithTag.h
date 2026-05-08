@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHTAG_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A3A9FC0)
-#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHTAG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A3AA210)
-#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AA300)
+#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHTAG_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B0B89E0)
+#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHTAG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B0B8C30)
+#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B8D20)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FindAllWithTag_TypeDefinitionIndex = 26253;
+	inline static constexpr unsigned int FindAllWithTag_TypeDefinitionIndex = 26738;
 
 	class FindAllWithTag : public ::NodeCanvas::Framework::ActionTask
 	{

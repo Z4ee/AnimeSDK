@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTTRAILWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x98899E0)
+#define MOLEMOLE_UIACTIVITYHOTPOTTRAILWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A994B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotTrailWidgetControllerContext_TypeDefinitionIndex = 69066;
+	inline static constexpr unsigned int UIActivityHotpotTrailWidgetControllerContext_TypeDefinitionIndex = 48472;
 
 	class UIActivityHotpotTrailWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

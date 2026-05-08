@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_UIROLETALENTBGCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA248BB0)
+#define MOLEMOLE_UIROLETALENTBGCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13029D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleTalentBGColor_TypeDefinitionIndex = 49430;
+	inline static constexpr unsigned int UIRoleTalentBGColor_TypeDefinitionIndex = 40345;
 
 	class UIRoleTalentBGColor : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigEntityFilmGrain; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAINS__CTOR_OFFSET UNITYSDK_OFFSET(0xB096300)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFILMGRAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x11027F70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFilmGrains_TypeDefinitionIndex = 37375;
+	inline static constexpr unsigned int ConfigEntityFilmGrains_TypeDefinitionIndex = 45450;
 
 	class ConfigEntityFilmGrains : public ::Foundation::MihoyoSerializedScriptableObject
 	{

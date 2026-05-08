@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int AlignOf_1_TypeDefinitionIndex = 24694;
+	inline static constexpr unsigned int AlignOf_1_TypeDefinitionIndex = 25208;
 
 	template <typename T>
 	class AlignOf_1 : public ::System::Object

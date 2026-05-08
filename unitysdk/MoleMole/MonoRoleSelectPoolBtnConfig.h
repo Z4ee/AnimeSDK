@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOROLESELECTPOOLBTNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A59E0)
+#define MOLEMOLE_MONOROLESELECTPOOLBTNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15B40170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRoleSelectPoolBtnConfig_TypeDefinitionIndex = 70425;
+	inline static constexpr unsigned int MonoRoleSelectPoolBtnConfig_TypeDefinitionIndex = 54458;
 
 	class MonoRoleSelectPoolBtnConfig : public ::UnityEngine::MonoBehaviour
 	{

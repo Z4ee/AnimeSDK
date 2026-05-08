@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/TextAnchor.h"
 
-#define CLASS_1_A69CDA6FFD835420_METHOD_1_75A7BD28DE4A696C_OFFSET UNITYSDK_OFFSET(0x6FC9B30)
+#define CLASS_1_A69CDA6FFD835420_METHOD_1_75A7BD28DE4A696C_OFFSET UNITYSDK_OFFSET(0x1038D350)
 
-inline static constexpr unsigned int Class_1_A69CDA6FFD835420_TypeDefinitionIndex = 64509;
+inline static constexpr unsigned int Class_1_A69CDA6FFD835420_TypeDefinitionIndex = 72433;
 
 class Class_1_A69CDA6FFD835420 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int MissingSchemaAction_TypeDefinitionIndex = 36497;
+	inline static constexpr unsigned int MissingSchemaAction_TypeDefinitionIndex = 37041;
 
 	enum class MissingSchemaAction : ::System::Int32
 	{

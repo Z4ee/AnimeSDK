@@ -5,16 +5,16 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowConstant_AimHudProperty.h"
 #include "unitysdk/MoleMole/HollowChessboard/RenderDataHandle.h"
 
-class Class_1_43BD383C98B4C0C5_22;
+class Class_1_43BD383C98B4C0C5_20;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_FORCESTOP_OFFSET UNITYSDK_OFFSET(0xB45F640)
-#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_RUN_OFFSET UNITYSDK_OFFSET(0xB45EF60)
-#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_STOP_OFFSET UNITYSDK_OFFSET(0xB45F6B0)
-#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB45F720)
+#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_FORCESTOP_OFFSET UNITYSDK_OFFSET(0x17D0EB30)
+#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_RUN_OFFSET UNITYSDK_OFFSET(0x17D0E4D0)
+#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_STOP_OFFSET UNITYSDK_OFFSET(0x17D0EB80)
+#define MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17D0EBD0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int TvHudAction_TypeDefinitionIndex = 75347;
+	inline static constexpr unsigned int TvHudAction_TypeDefinitionIndex = 55962;
 
 	class TvHudAction : public ::MoleMole::ChessStateMachine::StateMachineAction
 	{
@@ -28,9 +28,9 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_1_43BD383C98B4C0C5_22* context)
+		::System::Void Run(::Class_1_43BD383C98B4C0C5_20* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_22*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_20*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_TVHUDACTION_RUN_OFFSET))(this, context);
 		}
 
 		::System::Void ForceStop()

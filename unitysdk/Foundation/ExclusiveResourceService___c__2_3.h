@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExclusiveResourceService___c__2_3_TypeDefinitionIndex = 9077;
+	inline static constexpr unsigned int ExclusiveResourceService___c__2_3_TypeDefinitionIndex = 8948;
 
 	template <typename TResource, typename TDefault, typename TRequest>
 	class ExclusiveResourceService___c__2_3 : public ::System::Object

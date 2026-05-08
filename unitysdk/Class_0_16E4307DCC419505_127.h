@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_127_TypeDefinitionIndex = 32500;
+class Class_0_16E4307DCC419505_99;
+class Class_3_D92ADC48CDFCC09B;
 
-template <typename T>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_127_TypeDefinitionIndex = 33043;
+
+template <typename TDrived>
 class Class_0_16E4307DCC419505_127
 {
 public:

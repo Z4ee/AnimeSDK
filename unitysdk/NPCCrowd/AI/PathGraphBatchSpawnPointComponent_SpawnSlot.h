@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphBatchSpawnPointComponent_SpawnSlot_TypeDefinitionIndex = 50771;
+	inline static constexpr unsigned int PathGraphBatchSpawnPointComponent_SpawnSlot_TypeDefinitionIndex = 72626;
 
 	struct alignas(4) PathGraphBatchSpawnPointComponent_SpawnSlot
 	{

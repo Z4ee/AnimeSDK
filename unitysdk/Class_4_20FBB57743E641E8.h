@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_F3948D237059FA7A.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/MoleMole/InLevelCustomPerformerRunnerEnvironment.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
+#include "unitysdk/Struct_2_FE9BD044832BC9C3.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
+
+class Class_1_25D6C7D8669CEB87;
+class Class_1_9465CC52E1CFB15A;
+class Class_1_AAE113EF1D654B70;
+class Class_1_B7C41BE725AAED79;
+class Class_3_CF43FA1E89397A1C;
+namespace System { class String; }
+template <typename T> class Class_4_2FF7D360A2F3EC48;
+template <typename T> class Class_4_8D3E479B491881B3;
+
+#define CLASS_4_20FBB57743E641E8_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x159477B0)
+#define CLASS_4_20FBB57743E641E8_METHOD_4_460FDF582CF2ABC5_OFFSET UNITYSDK_OFFSET(0x15946C20)
+#define CLASS_4_20FBB57743E641E8_METHOD_4_47125C76AFDB961E_OFFSET UNITYSDK_OFFSET(0x15946D60)
+#define CLASS_4_20FBB57743E641E8_METHOD_4_7F20D9555862CF22_OFFSET UNITYSDK_OFFSET(0x15947590)
+#define CLASS_4_20FBB57743E641E8_METHOD_4_94E87E491FC7EA92_OFFSET UNITYSDK_OFFSET(0x159472D0)
+#define CLASS_4_20FBB57743E641E8_METHOD_4_D7C065E645A7073F_OFFSET UNITYSDK_OFFSET(0x15947710)
+#define CLASS_4_20FBB57743E641E8_METHOD_4_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x15946A10)
+#define CLASS_4_20FBB57743E641E8__CTOR_OFFSET UNITYSDK_OFFSET(0x159473C0)
+
+inline static constexpr unsigned int Class_4_20FBB57743E641E8_TypeDefinitionIndex = 71242;
+
+class Class_4_20FBB57743E641E8 : public ::Class_3_F3948D237059FA7A
+{
+public:
+	::Class_4_8D3E479B491881B3<::Class_1_AAE113EF1D654B70*>* Field_4_3; // 0x28
+	::Class_4_2FF7D360A2F3EC48<::MoleMole::InLevelCustomPerformerRunnerEnvironment>* Field_4_2; // 0x30
+	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_4_0; // 0x38
+	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_4_1; // 0x40
+	::Class_3_CF43FA1E89397A1C* Field_4_4; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_EDFD49C942C75D6C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_EDFD49C942C75D6C_OFFSET))(this);
+	}
+
+	::System::Void Method_4_460FDF582CF2ABC5(::Class_1_9465CC52E1CFB15A* a1, ::Class_1_25D6C7D8669CEB87*& a2, ::Class_1_B7C41BE725AAED79* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9465CC52E1CFB15A*, ::Class_1_25D6C7D8669CEB87*&, ::Class_1_B7C41BE725AAED79*))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_460FDF582CF2ABC5_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_4_47125C76AFDB961E(::Struct_2_29439DBE2B63DCF3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_47125C76AFDB961E_OFFSET))(this, a1);
+	}
+
+	static ::System::Void Method_4_7F20D9555862CF22(::Class_1_9465CC52E1CFB15A* a1)
+	{
+		return ((::System::Void(*)(::Class_1_9465CC52E1CFB15A*))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_7F20D9555862CF22_OFFSET))(a1);
+	}
+
+	::System::Void Method_4_D7C065E645A7073F(::Class_1_9465CC52E1CFB15A* a1, ::Class_1_25D6C7D8669CEB87*& a2, ::Class_1_B7C41BE725AAED79* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9465CC52E1CFB15A*, ::Class_1_25D6C7D8669CEB87*&, ::Class_1_B7C41BE725AAED79*))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_D7C065E645A7073F_OFFSET))(this, a1, a2, a3);
+	}
+
+	static ::Cysharp::Threading::Tasks::UniTask Method_4_94E87E491FC7EA92(::Class_1_AAE113EF1D654B70* a1, ::Struct_2_FE9BD044832BC9C3 a2, ::System::Threading::CancellationToken a3)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask(*)(::Class_1_AAE113EF1D654B70*, ::Struct_2_FE9BD044832BC9C3, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_94E87E491FC7EA92_OFFSET))(a1, a2, a3);
+	}
+
+	::System::Void Method_4_25DEA5C65A602671()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_20FBB57743E641E8_METHOD_4_25DEA5C65A602671_OFFSET))(this);
+	}
+};

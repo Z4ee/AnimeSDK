@@ -6,11 +6,11 @@
 namespace MoleMole::GalGame { class SwitchSceneConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALSWITCHSCENEGROUPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xBA14730)
+#define MOLEMOLE_GALGAME_GALSWITCHSCENEGROUPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D48AA0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalSwitchSceneGroupNode_TypeDefinitionIndex = 38318;
+	inline static constexpr unsigned int GalSwitchSceneGroupNode_TypeDefinitionIndex = 69684;
 
 	class GalSwitchSceneGroupNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{

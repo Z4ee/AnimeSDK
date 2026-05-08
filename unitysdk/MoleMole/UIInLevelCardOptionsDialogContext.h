@@ -4,11 +4,11 @@
 
 class Class_1_30B5C90E1DE871A0;
 
-#define MOLEMOLE_UIINLEVELCARDOPTIONSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x914E110)
+#define MOLEMOLE_UIINLEVELCARDOPTIONSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A485B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelCardOptionsDialogContext_TypeDefinitionIndex = 72598;
+	inline static constexpr unsigned int UIInLevelCardOptionsDialogContext_TypeDefinitionIndex = 59282;
 
 	class UIInLevelCardOptionsDialogContext : public ::MoleMole::UIHollowCardOptionsDialogContext
 	{

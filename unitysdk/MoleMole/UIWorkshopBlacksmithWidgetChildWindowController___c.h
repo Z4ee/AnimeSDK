@@ -5,24 +5,24 @@
 class Class_1_D2E90365D99FC7E6;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA138530)
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA138570)
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__REFRESHITEMSPREVIEW_B__65_0_OFFSET UNITYSDK_OFFSET(0xA138580)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD076300)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD076340)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__REFRESHITEMSPREVIEW_B__65_0_OFFSET UNITYSDK_OFFSET(0xD076350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkshopBlacksmithWidgetChildWindowController___c_TypeDefinitionIndex = 57558;
+	inline static constexpr unsigned int UIWorkshopBlacksmithWidgetChildWindowController___c_TypeDefinitionIndex = 67825;
 
 	class UIWorkshopBlacksmithWidgetChildWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Class_1_D2E90365D99FC7E6*>** StaticGet___9__65_0()
 		{
-			return (::System::Comparison_1<::Class_1_D2E90365D99FC7E6*>**)Il2CppClass::FromTypeDefinitionIndex(UIWorkshopBlacksmithWidgetChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34AA0);
+			return (::System::Comparison_1<::Class_1_D2E90365D99FC7E6*>**)Il2CppClass::FromTypeDefinitionIndex(UIWorkshopBlacksmithWidgetChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x355D0);
 		}
 		static ::MoleMole::UIWorkshopBlacksmithWidgetChildWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIWorkshopBlacksmithWidgetChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIWorkshopBlacksmithWidgetChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34AA8);
+			return (::MoleMole::UIWorkshopBlacksmithWidgetChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIWorkshopBlacksmithWidgetChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x355D8);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 namespace MoleMole::FlowCanvas::Nodes { class LDDTargetAreaSource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE_INVOKE_OFFSET UNITYSDK_OFFSET(0xEC81E30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC820A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18207D10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18207F60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateTargetAreaUISouce_TypeDefinitionIndex = 50852;
+	inline static constexpr unsigned int LDCreateTargetAreaUISouce_TypeDefinitionIndex = 68277;
 
 	class LDCreateTargetAreaUISouce : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::FlowCanvas::Nodes::LDDTargetAreaSource*, ::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDDTargetAreaUIData>*>
 	{

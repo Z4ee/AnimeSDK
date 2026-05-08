@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Win { class ComboManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1935EA60)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS37_0__EXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1935EA70)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA646B0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS37_0__EXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1AA646C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass37_0_TypeDefinitionIndex = 19650;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass37_0_TypeDefinitionIndex = 20007;
 
 	class ComboManager___c__DisplayClass37_0 : public ::System::Object
 	{

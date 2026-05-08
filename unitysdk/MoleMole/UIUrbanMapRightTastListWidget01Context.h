@@ -9,23 +9,23 @@ namespace MoleMole { class UIUrbanMapLeftTastListRow03Context; }
 namespace System { class String; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIURBANMAPRIGHTTASTLISTWIDGET01CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0F300)
+#define MOLEMOLE_UIURBANMAPRIGHTTASTLISTWIDGET01CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3F4C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightTastListWidget01Context_TypeDefinitionIndex = 55086;
+	inline static constexpr unsigned int UIUrbanMapRightTastListWidget01Context_TypeDefinitionIndex = 49713;
 
 	class UIUrbanMapRightTastListWidget01Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::MoleMole::UIUrbanMapLeftTastListRow02Context* LevelChild; // 0x28
 		::UnityEngine::Events::UnityAction* OnClose; // 0x30
-		::System::String* Title; // 0x38
-		::MoleMole::UIUrbanMapLeftTastListRow01Context* QuestChild; // 0x40
-		::MoleMole::UIUrbanMapLeftLocationContext* LocationContext; // 0x48
-		::MoleMole::UIUrbanMapLeftTastListRow03Context* CollectChild; // 0x50
-		::System::Boolean Is2dMode; // 0x58
-		::System::Int32 ModulePriovity; // 0x5C
+		::MoleMole::UIUrbanMapLeftTastListRow01Context* QuestChild; // 0x38
+		::MoleMole::UIUrbanMapLeftTastListRow03Context* CollectChild; // 0x40
+		::System::String* Title; // 0x48
+		::MoleMole::UIUrbanMapLeftLocationContext* LocationContext; // 0x50
+		::System::Int32 ModulePriovity; // 0x58
+		::System::Boolean Is2dMode; // 0x5C
 
 		::System::Void _ctor()
 		{

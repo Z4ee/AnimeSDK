@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Share
 {
-	inline static constexpr unsigned int CData_1_TypeDefinitionIndex = 16505;
+	inline static constexpr unsigned int CData_1_TypeDefinitionIndex = 16871;
 
 	template <typename T>
 	class CData_1 : public ::System::Object

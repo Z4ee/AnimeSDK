@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WindZoneMode_TypeDefinitionIndex = 24631;
+	inline static constexpr unsigned int WindZoneMode_TypeDefinitionIndex = 25145;
 
 	enum class WindZoneMode : ::System::Int32
 	{

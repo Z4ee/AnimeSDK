@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2A650)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS28_1__REFRESHMATERIALPREVIEW_B__3_OFFSET UNITYSDK_OFFSET(0x9A2A660)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE489FB0)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS28_1__REFRESHMATERIALPREVIEW_B__3_OFFSET UNITYSDK_OFFSET(0xE489FC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistMainPageController___c__DisplayClass28_1_TypeDefinitionIndex = 77829;
+	inline static constexpr unsigned int UIWishlistMainPageController___c__DisplayClass28_1_TypeDefinitionIndex = 40276;
 
 	class UIWishlistMainPageController___c__DisplayClass28_1 : public ::System::Object
 	{

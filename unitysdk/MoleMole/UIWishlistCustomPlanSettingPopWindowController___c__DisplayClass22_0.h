@@ -6,12 +6,12 @@ namespace MoleMole { class UIWishlistCustomPlanSettingPopWindowController; }
 namespace MoleMole { class UIWishlistCustomSettingSliderItemWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABCEB80)
-#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__REFRESHSKILLTYPEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xABCEB90)
+#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D72450)
+#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__REFRESHSKILLTYPEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x10D72460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass22_0_TypeDefinitionIndex = 79240;
+	inline static constexpr unsigned int UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass22_0_TypeDefinitionIndex = 49367;
 
 	class UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass22_0 : public ::System::Object
 	{

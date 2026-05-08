@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelAvatarDataItem_InLevelAvatarDataType_TypeDefinitionIndex = 77234;
+	inline static constexpr unsigned int InLevelAvatarDataItem_InLevelAvatarDataType_TypeDefinitionIndex = 47913;
 
 	enum class InLevelAvatarDataItem_InLevelAvatarDataType : ::System::Int32
 	{

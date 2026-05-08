@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalAdditionalLightData_LightUsage_TypeDefinitionIndex = 29729;
+	inline static constexpr unsigned int UniversalAdditionalLightData_LightUsage_TypeDefinitionIndex = 30258;
 
 	enum class UniversalAdditionalLightData_LightUsage : ::System::Int32
 	{

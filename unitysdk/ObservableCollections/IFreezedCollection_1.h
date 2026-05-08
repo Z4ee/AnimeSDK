@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int IFreezedCollection_1_TypeDefinitionIndex = 25051;
+	inline static constexpr unsigned int IFreezedCollection_1_TypeDefinitionIndex = 25524;
 
 	template <typename T>
 	class IFreezedCollection_1

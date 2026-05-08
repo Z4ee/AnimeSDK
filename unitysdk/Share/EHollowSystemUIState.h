@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowSystemUIState_TypeDefinitionIndex = 15033;
+	inline static constexpr unsigned int EHollowSystemUIState_TypeDefinitionIndex = 11343;
 
 	enum class EHollowSystemUIState : ::System::Int16
 	{
-		Close = 1,
 		Normal = 0,
+		Close = 1,
 		Brighten = 2,
 	};
 }

@@ -5,7 +5,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SynchronizedViewChangedEventArgs_2_TypeDefinitionIndex = 25181;
+	inline static constexpr unsigned int SynchronizedViewChangedEventArgs_2_TypeDefinitionIndex = 25705;
 
 	template <typename T, typename TView>
 	struct SynchronizedViewChangedEventArgs_2

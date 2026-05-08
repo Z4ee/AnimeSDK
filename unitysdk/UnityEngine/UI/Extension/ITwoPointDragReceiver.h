@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ITwoPointDragReceiver_TypeDefinitionIndex = 62308;
+	inline static constexpr unsigned int ITwoPointDragReceiver_TypeDefinitionIndex = 54753;
 
 	class ITwoPointDragReceiver
 	{

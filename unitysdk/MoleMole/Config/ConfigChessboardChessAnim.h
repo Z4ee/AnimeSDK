@@ -8,23 +8,23 @@ namespace MoleMole::Config { class ChessBoardChessAnimItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHESSANIM_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x9CFD1F0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHESSANIM_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x9CFD0E0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHESSANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x9CFD280)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHESSANIM_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x12302BD0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHESSANIM_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x12302AF0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHESSANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x12302C40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardChessAnim_TypeDefinitionIndex = 42061;
+	inline static constexpr unsigned int ConfigChessboardChessAnim_TypeDefinitionIndex = 60454;
 
 	class ConfigChessboardChessAnim : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* PivotCellKey; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::Config::ChessBoardChessAnimItem*>* ChessBoardChessAnimGroup; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::Config::ChessBoardChessAnimItem*>* ChessBoardChessAnimGroup; // 0x18
+		::System::String* PivotCellKey; // 0x20
 		::System::Single OverrideWaitTime; // 0x28
-		::MoleMole::Config::ConfigSetSection_Order ConfigOrder; // 0x2C
-		::System::Boolean UseSpecific; // 0x30
-		::System::Boolean UseCustomPivot; // 0x31
+		::System::Boolean UseSpecific; // 0x2C
+		::System::Boolean UseCustomPivot; // 0x2D
+		::MoleMole::Config::ConfigSetSection_Order ConfigOrder; // 0x30
 
 		::System::Void _ctor()
 		{

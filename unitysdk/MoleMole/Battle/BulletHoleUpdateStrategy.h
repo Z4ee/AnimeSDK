@@ -3,7 +3,7 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int BulletHoleUpdateStrategy_TypeDefinitionIndex = 52746;
+	inline static constexpr unsigned int BulletHoleUpdateStrategy_TypeDefinitionIndex = 74777;
 
 	enum class BulletHoleUpdateStrategy : ::System::Int32
 	{

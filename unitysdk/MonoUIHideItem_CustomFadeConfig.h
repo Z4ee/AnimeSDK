@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MONOUIHIDEITEM_CUSTOMFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7927B20)
+#define MONOUIHIDEITEM_CUSTOMFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF645DB0)
 
-inline static constexpr unsigned int MonoUIHideItem_CustomFadeConfig_TypeDefinitionIndex = 55259;
+inline static constexpr unsigned int MonoUIHideItem_CustomFadeConfig_TypeDefinitionIndex = 44242;
 
 class MonoUIHideItem_CustomFadeConfig : public ::System::Object
 {

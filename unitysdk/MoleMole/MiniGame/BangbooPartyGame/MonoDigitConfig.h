@@ -3,16 +3,16 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_A8F5ABF31E066ED4;
+class Class_2_1A39E1B51756BF41;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGITWITHLEADINGZERO_OFFSET UNITYSDK_OFFSET(0x7A7F2E0)
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGIT_OFFSET UNITYSDK_OFFSET(0x7A7F100)
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7A7F420)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGITWITHLEADINGZERO_OFFSET UNITYSDK_OFFSET(0x12349480)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGIT_OFFSET UNITYSDK_OFFSET(0x123492D0)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12349590)
 
 namespace MoleMole::MiniGame::BangbooPartyGame
 {
-	inline static constexpr unsigned int MonoDigitConfig_TypeDefinitionIndex = 65695;
+	inline static constexpr unsigned int MonoDigitConfig_TypeDefinitionIndex = 39176;
 
 	class MonoDigitConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,14 +26,14 @@ namespace MoleMole::MiniGame::BangbooPartyGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetDigit(::Class_2_A8F5ABF31E066ED4* a1, ::Class_2_A8F5ABF31E066ED4* a2, ::System::Int32 a3)
+		::System::Void SetDigit(::Class_2_1A39E1B51756BF41* a1, ::Class_2_1A39E1B51756BF41* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_A8F5ABF31E066ED4*, ::Class_2_A8F5ABF31E066ED4*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Class_2_1A39E1B51756BF41*, ::Class_2_1A39E1B51756BF41*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetDigitWithLeadingZero(::Class_2_A8F5ABF31E066ED4* a1, ::Class_2_A8F5ABF31E066ED4* a2, ::System::Int32 a3)
+		::System::Void SetDigitWithLeadingZero(::Class_2_1A39E1B51756BF41* a1, ::Class_2_1A39E1B51756BF41* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_A8F5ABF31E066ED4*, ::Class_2_A8F5ABF31E066ED4*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGITWITHLEADINGZERO_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Class_2_1A39E1B51756BF41*, ::Class_2_1A39E1B51756BF41*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONODIGITCONFIG_SETDIGITWITHLEADINGZERO_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_06E03BDB84E5C9DE_TypeDefinitionIndex = 63764;
+inline static constexpr unsigned int Class_1_06E03BDB84E5C9DE_TypeDefinitionIndex = 55331;
 
 class Class_1_06E03BDB84E5C9DE : public ::System::Object
 {

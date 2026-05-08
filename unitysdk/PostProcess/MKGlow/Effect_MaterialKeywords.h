@@ -3,7 +3,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Effect_MaterialKeywords_TypeDefinitionIndex = 29134;
+	inline static constexpr unsigned int Effect_MaterialKeywords_TypeDefinitionIndex = 29653;
 
 	enum class Effect_MaterialKeywords : ::System::Int32
 	{

@@ -5,19 +5,19 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICAMPIDLECHOICEWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD033060)
+#define MOLEMOLE_UICAMPIDLECHOICEWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E61830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdleChoiceWidgetControllerContext_TypeDefinitionIndex = 58036;
+	inline static constexpr unsigned int UICampIdleChoiceWidgetControllerContext_TypeDefinitionIndex = 71917;
 
 	class UICampIdleChoiceWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* Desc; // 0x28
 		::System::Action* OnClickAction; // 0x30
-		::System::Boolean IsStoryQA; // 0x38
-		::System::Boolean IsCorrectAnswer; // 0x39
+		::System::Boolean IsCorrectAnswer; // 0x38
+		::System::Boolean IsStoryQA; // 0x39
 
 		::System::Void _ctor()
 		{

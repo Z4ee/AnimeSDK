@@ -8,7 +8,7 @@ namespace System::Linq::Expressions { class UnaryExpression; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int TypeConverter___c__DisplayClass0_0_1_TypeDefinitionIndex = 26035;
+	inline static constexpr unsigned int TypeConverter___c__DisplayClass0_0_1_TypeDefinitionIndex = 27337;
 
 	template <typename T>
 	class TypeConverter___c__DisplayClass0_0_1 : public ::System::Object

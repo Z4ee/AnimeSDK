@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB8AB220)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB8AB230)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB8AB510)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8AB750)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AB710)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16E56010)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16E56020)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16E562E0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E56500)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_MAINCITYCHATCAMERAPARAMFIXED_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E564C0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter_TypeDefinitionIndex = 66027;
+	inline static constexpr unsigned int MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter_TypeDefinitionIndex = 70264;
 
 	class MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatCameraParamFixed*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31670);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32310);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31678);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatCameraParamFixed_MainCityChatCameraParamFixed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32318);
 		}
 
 		::System::Void _ctor()

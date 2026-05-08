@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowDevelopBagDialogPopWindowController_ItemDragType_TypeDefinitionIndex = 55016;
+	inline static constexpr unsigned int UIHollowDevelopBagDialogPopWindowController_ItemDragType_TypeDefinitionIndex = 68840;
 
 	enum class UIHollowDevelopBagDialogPopWindowController_ItemDragType : ::System::Byte
 	{

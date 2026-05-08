@@ -7,42 +7,42 @@
 #include "unitysdk/MoleMole/Config/ConfigMovement.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_2_14986121AA61AD99;
+class Class_2_167BB37617B940E3;
 class Class_3_248DACE3BB3053DD;
-class Class_3_F35B080B137ECC46;
+class Class_3_DFD5D1FDB9D2A4AC;
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_CLONE_OFFSET UNITYSDK_OFFSET(0xF2D22D0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0xF2D2240)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xF2D3210)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_FROMFLX_OFFSET UNITYSDK_OFFSET(0xF2D24E0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0xF2D23B0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xF2D3270)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xF2D2560)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0xF2D3810)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0xF2D30B0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PROCESSRIGIDBODY_OFFSET UNITYSDK_OFFSET(0xF2D1B50)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_SETUPLOGICMOVEMENT_OFFSET UNITYSDK_OFFSET(0xF2D13D0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2D13A0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE___BASE_SETUPLOGICMOVEMENT_OFFSET UNITYSDK_OFFSET(0xF2D39C0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_CLONE_OFFSET UNITYSDK_OFFSET(0x159F0F80)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x159F0EF0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x159F1EA0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x159F10F0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x159F1080)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x159F1F00)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x159F1170)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x159F2330)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x159F1D40)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PROCESSRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x159F07D0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_SETUPLOGICMOVEMENT_OFFSET UNITYSDK_OFFSET(0x159F00C0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x159F0090)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE___BASE_SETUPLOGICMOVEMENT_OFFSET UNITYSDK_OFFSET(0x159F24E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMovementCurve_TypeDefinitionIndex = 52397;
+	inline static constexpr unsigned int ConfigMovementCurve_TypeDefinitionIndex = 51001;
 
 	class ConfigMovementCurve : public ::MoleMole::Config::ConfigMovement
 	{
 	public:
-		::UnityEngine::AnimationCurve* VelocityCurveX; // 0x38
-		::UnityEngine::AnimationCurve* VelocityCurveY; // 0x40
-		::MoleMole::Config::ConfigPosRot* CoordinatePosRot; // 0x48
-		::UnityEngine::AnimationCurve* VelocityCurveZ; // 0x50
-		::Enum_3_32134AA19ED34F5D DirectionUpdateMode; // 0x58
-		::System::Single ScaleRatio; // 0x5C
+		::UnityEngine::AnimationCurve* VelocityCurveZ; // 0x38
+		::MoleMole::Config::ConfigPosRot* CoordinatePosRot; // 0x40
+		::UnityEngine::AnimationCurve* VelocityCurveY; // 0x48
+		::UnityEngine::AnimationCurve* VelocityCurveX; // 0x50
+		::System::Single ScaleRatio; // 0x58
+		::Enum_3_32134AA19ED34F5D DirectionUpdateMode; // 0x5C
 		::Enum_3_AF4D3A3041939147 CoordinateType; // 0x60
 
 		::System::Void _ctor()
@@ -50,14 +50,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetupLogicMovement(::Class_3_248DACE3BB3053DD* movementComponent, ::MoleMole::Battle::Entity* other, ::MoleMole::Battle::Entity* caster, ::Class_2_14986121AA61AD99* instancedAbility)
+		::System::Void SetupLogicMovement(::Class_3_248DACE3BB3053DD* movementComponent, ::MoleMole::Battle::Entity* other, ::MoleMole::Battle::Entity* caster, ::Class_2_167BB37617B940E3* instancedAbility)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_248DACE3BB3053DD*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_2_14986121AA61AD99*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_SETUPLOGICMOVEMENT_OFFSET))(this, movementComponent, other, caster, instancedAbility);
+			return ((::System::Void(*)(::PVOID, ::Class_3_248DACE3BB3053DD*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_2_167BB37617B940E3*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_SETUPLOGICMOVEMENT_OFFSET))(this, movementComponent, other, caster, instancedAbility);
 		}
 
-		::System::Void ProcessRigidbody(::Class_3_F35B080B137ECC46* modelComponent, ::Class_3_248DACE3BB3053DD* movementComponent, ::System::Single deltaTime, ::System::Single timeScale, ::Class_2_14986121AA61AD99* instancedAbility)
+		::System::Void ProcessRigidbody(::Class_3_DFD5D1FDB9D2A4AC* modelComponent, ::Class_3_248DACE3BB3053DD* movementComponent, ::System::Single deltaTime, ::System::Single timeScale, ::Class_2_167BB37617B940E3* instancedAbility)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F35B080B137ECC46*, ::Class_3_248DACE3BB3053DD*, ::System::Single, ::System::Single, ::Class_2_14986121AA61AD99*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PROCESSRIGIDBODY_OFFSET))(this, modelComponent, movementComponent, deltaTime, timeScale, instancedAbility);
+			return ((::System::Void(*)(::PVOID, ::Class_3_DFD5D1FDB9D2A4AC*, ::Class_3_248DACE3BB3053DD*, ::System::Single, ::System::Single, ::Class_2_167BB37617B940E3*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PROCESSRIGIDBODY_OFFSET))(this, modelComponent, movementComponent, deltaTime, timeScale, instancedAbility);
 		}
 
 		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
@@ -105,9 +105,9 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::ConfigMovementCurve*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Void __base_SetupLogicMovement(::Class_3_248DACE3BB3053DD* P0, ::MoleMole::Battle::Entity* P1, ::MoleMole::Battle::Entity* P2, ::Class_2_14986121AA61AD99* P3)
+		::System::Void __base_SetupLogicMovement(::Class_3_248DACE3BB3053DD* P0, ::MoleMole::Battle::Entity* P1, ::MoleMole::Battle::Entity* P2, ::Class_2_167BB37617B940E3* P3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_248DACE3BB3053DD*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_2_14986121AA61AD99*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE___BASE_SETUPLOGICMOVEMENT_OFFSET))(this, P0, P1, P2, P3);
+			return ((::System::Void(*)(::PVOID, ::Class_3_248DACE3BB3053DD*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_2_167BB37617B940E3*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENTCURVE___BASE_SETUPLOGICMOVEMENT_OFFSET))(this, P0, P1, P2, P3);
 		}
 	};
 }

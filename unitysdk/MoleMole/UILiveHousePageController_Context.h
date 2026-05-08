@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define MOLEMOLE_UILIVEHOUSEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9A9F430)
+#define MOLEMOLE_UILIVEHOUSEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15561430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILiveHousePageController_Context_TypeDefinitionIndex = 50598;
+	inline static constexpr unsigned int UILiveHousePageController_Context_TypeDefinitionIndex = 50730;
 
 	class UILiveHousePageController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController_QAState_TypeDefinitionIndex = 66512;
+	inline static constexpr unsigned int UICampIdlePageController_QAState_TypeDefinitionIndex = 69154;
 
 	enum class UICampIdlePageController_QAState : ::System::Int32
 	{
+		CanStart = 0,
+		NoNeedToRestart = 3,
 		CanRestart = 2,
 		Processing = 1,
-		NoNeedToRestart = 3,
-		CanStart = 0,
 	};
 }

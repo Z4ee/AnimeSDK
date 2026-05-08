@@ -5,24 +5,24 @@
 namespace NPCCrowd::AI { class WPGraphDataStateAssetSO_WPGraphDataState; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x63381B0)
-#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x63381F0)
-#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO___C__REFRESH_B__6_0_OFFSET UNITYSDK_OFFSET(0x6338200)
+#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDD1220)
+#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD1260)
+#define NPCCROWD_AI_WPGRAPHDATASTATEASSETSO___C__REFRESH_B__6_0_OFFSET UNITYSDK_OFFSET(0xBDD1270)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WPGraphDataStateAssetSO___c_TypeDefinitionIndex = 52341;
+	inline static constexpr unsigned int WPGraphDataStateAssetSO___c_TypeDefinitionIndex = 78379;
 
 	class WPGraphDataStateAssetSO___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::AI::WPGraphDataStateAssetSO___c** StaticGet___9()
-		{
-			return (::NPCCrowd::AI::WPGraphDataStateAssetSO___c**)Il2CppClass::FromTypeDefinitionIndex(WPGraphDataStateAssetSO___c_TypeDefinitionIndex)->GetStaticField(0x445C0);
-		}
 		static ::System::Comparison_1<::NPCCrowd::AI::WPGraphDataStateAssetSO_WPGraphDataState*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::NPCCrowd::AI::WPGraphDataStateAssetSO_WPGraphDataState*>**)Il2CppClass::FromTypeDefinitionIndex(WPGraphDataStateAssetSO___c_TypeDefinitionIndex)->GetStaticField(0x445C8);
+			return (::System::Comparison_1<::NPCCrowd::AI::WPGraphDataStateAssetSO_WPGraphDataState*>**)Il2CppClass::FromTypeDefinitionIndex(WPGraphDataStateAssetSO___c_TypeDefinitionIndex)->GetStaticField(0x44BA0);
+		}
+		static ::NPCCrowd::AI::WPGraphDataStateAssetSO___c** StaticGet___9()
+		{
+			return (::NPCCrowd::AI::WPGraphDataStateAssetSO___c**)Il2CppClass::FromTypeDefinitionIndex(WPGraphDataStateAssetSO___c_TypeDefinitionIndex)->GetStaticField(0x44BA8);
 		}
 
 		static ::System::Void _cctor()

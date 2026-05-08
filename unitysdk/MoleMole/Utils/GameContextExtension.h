@@ -4,7 +4,7 @@
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int GameContextExtension_TypeDefinitionIndex = 76514;
+	inline static constexpr unsigned int GameContextExtension_TypeDefinitionIndex = 47338;
 
 	class GameContextExtension : public ::System::Object
 	{

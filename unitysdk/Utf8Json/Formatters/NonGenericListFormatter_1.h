@@ -8,7 +8,7 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int NonGenericListFormatter_1_TypeDefinitionIndex = 83994;
+	inline static constexpr unsigned int NonGenericListFormatter_1_TypeDefinitionIndex = 85722;
 
 	template <typename T>
 	class NonGenericListFormatter_1 : public ::System::Object

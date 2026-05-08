@@ -5,21 +5,21 @@
 namespace MoleMole { class UIFishContestResultPopContext; }
 namespace MoleMole { class UIFishingContestTipsPopWindowController; }
 
-#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D8400)
-#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0xC0D8410)
-#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0xC0D8590)
+#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14EA4340)
+#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x14EA4350)
+#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x14EA44D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestTipsPopWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 44607;
+	inline static constexpr unsigned int UIFishingContestTipsPopWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 67104;
 
 	class UIFishingContestTipsPopWindowController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIFishingContestTipsPopWindowController* __4__this; // 0x10
-		::MoleMole::UIFishContestResultPopContext* context; // 0x18
-		::System::Int32 maxStar; // 0x20
-		::System::UInt32 currentStar; // 0x24
+		::MoleMole::UIFishContestResultPopContext* context; // 0x10
+		::MoleMole::UIFishingContestTipsPopWindowController* __4__this; // 0x18
+		::System::UInt32 currentStar; // 0x20
+		::System::Int32 maxStar; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Reflection { class RuntimeMethodInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_09A9FEEF0912788E_OFFSET UNITYSDK_OFFSET(0x896190)
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_2D9A8F3394962A5B_OFFSET UNITYSDK_OFFSET(0x896180)
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_67F6AE7F9001053A_OFFSET UNITYSDK_OFFSET(0x8961A0)
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_BF9E6935D8F529C7_OFFSET UNITYSDK_OFFSET(0x3074E0)
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x2F1F70)
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_CF3DE3710C04111B_OFFSET UNITYSDK_OFFSET(0x192FA720)
-#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x314B50)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_2D9A8F3394962A5B_OFFSET UNITYSDK_OFFSET(0x896150)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_63BC67CDA9942281_OFFSET UNITYSDK_OFFSET(0x896160)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_67F6AE7F9001053A_OFFSET UNITYSDK_OFFSET(0x896170)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_BF9E6935D8F529C7_OFFSET UNITYSDK_OFFSET(0x2E5940)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x2E87C0)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_D474DA75B1F4A812_OFFSET UNITYSDK_OFFSET(0x19973390)
+#define SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x396A90)
 
 namespace System
 {
@@ -37,9 +37,9 @@ namespace System
 		*/
 
 		/*
-		::System::Void Method_2_09A9FEEF0912788E(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void Method_2_63BC67CDA9942281(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_09A9FEEF0912788E_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_63BC67CDA9942281_OFFSET))(this, info, context);
 		}
 		*/
 
@@ -53,9 +53,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
 		}
 
-		static ::System::String* Method_2_CF3DE3710C04111B(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format)
+		static ::System::String* Method_2_D474DA75B1F4A812(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format)
 		{
-			return ((::System::String*(*)(::System::Reflection::RuntimeMethodInfo*, ::System::TypeNameFormatFlags))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_CF3DE3710C04111B_OFFSET))(method, format);
+			return ((::System::String*(*)(::System::Reflection::RuntimeMethodInfo*, ::System::TypeNameFormatFlags))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEMETHODHANDLE_METHOD_2_D474DA75B1F4A812_OFFSET))(method, format);
 		}
 
 		::System::Boolean Method_2_F0088C88851A7DFB()

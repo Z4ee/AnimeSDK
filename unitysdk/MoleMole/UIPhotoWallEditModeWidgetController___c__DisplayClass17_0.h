@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF8FA80)
-#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__SAVE_B__0_OFFSET UNITYSDK_OFFSET(0xAF8FA90)
+#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEB7BA30)
+#define MOLEMOLE_UIPHOTOWALLEDITMODEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__SAVE_B__0_OFFSET UNITYSDK_OFFSET(0xEB7BA40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoWallEditModeWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 44707;
+	inline static constexpr unsigned int UIPhotoWallEditModeWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 82945;
 
 	class UIPhotoWallEditModeWidgetController___c__DisplayClass17_0 : public ::System::Object
 	{

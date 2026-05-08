@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDREPORTDATA_FINDORADDREPORT_OFFSET UNITYSDK_OFFSET(0x18CCA6F0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDREPORTDATA_FINDORADDREPORT_OFFSET UNITYSDK_OFFSET(0x19594920)
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HIDParser_HIDReportData_TypeDefinitionIndex = 28628;
+	inline static constexpr unsigned int HIDParser_HIDReportData_TypeDefinitionIndex = 29146;
 
 	struct alignas(4) HIDParser_HIDReportData
 	{

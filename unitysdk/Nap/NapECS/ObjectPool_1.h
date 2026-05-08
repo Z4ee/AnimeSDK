@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 35127;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 35664;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object

@@ -5,9 +5,9 @@
 class Class_3_EB3A38E60C647F98;
 namespace System::Reflection { class FieldInfo; }
 
-#define CLASS_1_8EAF75EE983FA1E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B6330)
+#define CLASS_1_8EAF75EE983FA1E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9DBBC0)
 
-inline static constexpr unsigned int Class_1_8EAF75EE983FA1E7_TypeDefinitionIndex = 25718;
+inline static constexpr unsigned int Class_1_8EAF75EE983FA1E7_TypeDefinitionIndex = 26369;
 
 class Class_1_8EAF75EE983FA1E7 : public ::System::Object
 {

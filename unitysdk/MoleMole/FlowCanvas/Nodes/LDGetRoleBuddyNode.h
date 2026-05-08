@@ -5,12 +5,12 @@
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xEC82C30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC82D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18208A00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18208B40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetRoleBuddyNode_TypeDefinitionIndex = 38352;
+	inline static constexpr unsigned int LDGetRoleBuddyNode_TypeDefinitionIndex = 75102;
 
 	class LDGetRoleBuddyNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{

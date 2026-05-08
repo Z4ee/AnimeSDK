@@ -21,7 +21,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int PivotLocationDamper_1_TypeDefinitionIndex = 35874;
+	inline static constexpr unsigned int PivotLocationDamper_1_TypeDefinitionIndex = 36418;
 
 	template <typename T>
 	class PivotLocationDamper_1 : public ::System::Object

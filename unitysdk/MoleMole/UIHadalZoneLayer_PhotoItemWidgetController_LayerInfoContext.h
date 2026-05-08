@@ -4,18 +4,18 @@
 
 class Class_3_E9FF194CA9EF9D04;
 
-#define MOLEMOLE_UIHADALZONELAYER_PHOTOITEMWIDGETCONTROLLER_LAYERINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC12FFB0)
+#define MOLEMOLE_UIHADALZONELAYER_PHOTOITEMWIDGETCONTROLLER_LAYERINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x169CA2E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZoneLayer_PhotoItemWidgetController_LayerInfoContext_TypeDefinitionIndex = 48654;
+	inline static constexpr unsigned int UIHadalZoneLayer_PhotoItemWidgetController_LayerInfoContext_TypeDefinitionIndex = 56668;
 
 	class UIHadalZoneLayer_PhotoItemWidgetController_LayerInfoContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_3_E9FF194CA9EF9D04* record; // 0x28
-		::System::Int32 zoneId; // 0x30
-		::System::Int32 layerIndex; // 0x34
+		::System::Int32 layerIndex; // 0x30
+		::System::Int32 zoneId; // 0x34
 		::System::Boolean isFixed; // 0x38
 		::System::Int32 totalLayerCount; // 0x3C
 		::System::Int32 layerId; // 0x40

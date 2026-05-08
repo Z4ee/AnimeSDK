@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS109_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA4970)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS109_0__SHOWNPCEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x8BA4980)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS109_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152D6CF0)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS109_0__SHOWNPCEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x152D6D00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmClickPageController___c__DisplayClass109_0_TypeDefinitionIndex = 42759;
+	inline static constexpr unsigned int UIActivityRhythmClickPageController___c__DisplayClass109_0_TypeDefinitionIndex = 46817;
 
 	class UIActivityRhythmClickPageController___c__DisplayClass109_0 : public ::System::Object
 	{

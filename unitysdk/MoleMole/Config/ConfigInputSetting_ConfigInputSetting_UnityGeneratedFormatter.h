@@ -22,58 +22,58 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10A963D0)
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10A963E0)
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10A975E0)
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A98030)
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10A97FF0)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x183C10F0)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x183C1100)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x183C22E0)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183C2D00)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_CONFIGINPUTSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x183C2CC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 78836;
+	inline static constexpr unsigned int ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 67023;
 
 	class ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigInputSetting*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Key, ::System::String*>*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Key, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A60);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputActionEventType, ::MoleMole::BaseInputActionEventConfig*>*>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputActionEventType, ::MoleMole::BaseInputActionEventConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A68);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::System::String*>*>** StaticGet_CachedSerializer8()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A70);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A78);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::LogicButtonInputType, ::MoleMole::Config::InputCodeSetting*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::LogicButtonInputType, ::MoleMole::Config::InputCodeSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A80);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::InputActionTextIconConfig*>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::InputActionTextIconConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A88);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::MouseButton, ::System::String*>*>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::MouseButton, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A90);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SpecialGamepadInputHintType, ::System::String*>*>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SpecialGamepadInputHintType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A98);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::LogicButtonInputType, ::MoleMole::Config::InputCodeSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43430);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::MoleMole::LogicButtonInputType>*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::MoleMole::LogicButtonInputType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46AA0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::MoleMole::LogicButtonInputType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43438);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::System::String*>*>** StaticGet_CachedSerializer8()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43440);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::MouseButton, ::System::String*>*>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::LowLevel::MouseButton, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43448);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Key, ::System::String*>*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Key, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43450);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputActionEventType, ::MoleMole::BaseInputActionEventConfig*>*>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InputActionEventType, ::MoleMole::BaseInputActionEventConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43458);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ESettingPlatform, ::System::Collections::Generic::List_1<::MoleMole::SystemSettingEntryBase*>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ESettingPlatform, ::System::Collections::Generic::List_1<::MoleMole::SystemSettingEntryBase*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46AA8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ESettingPlatform, ::System::Collections::Generic::List_1<::MoleMole::SystemSettingEntryBase*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43460);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43468);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SpecialGamepadInputHintType, ::System::String*>*>** StaticGet_CachedSerializer7()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::SpecialGamepadInputHintType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43470);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::InputActionTextIconConfig*>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::InputActionTextIconConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigInputSetting_ConfigInputSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43478);
 		}
 
 		::System::Void _ctor()

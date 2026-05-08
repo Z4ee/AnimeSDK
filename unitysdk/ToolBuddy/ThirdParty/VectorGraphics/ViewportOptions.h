@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int ViewportOptions_TypeDefinitionIndex = 27935;
+	inline static constexpr unsigned int ViewportOptions_TypeDefinitionIndex = 28453;
 
 	enum class ViewportOptions : ::System::Int32
 	{

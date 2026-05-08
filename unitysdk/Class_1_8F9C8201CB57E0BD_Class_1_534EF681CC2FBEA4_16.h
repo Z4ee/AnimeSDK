@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_8F9C8201CB57E0BD_Class_1_534EF681CC2FBEA4_16_TypeDefinitionIndex = 52443;
+inline static constexpr unsigned int Class_1_8F9C8201CB57E0BD_Class_1_534EF681CC2FBEA4_16_TypeDefinitionIndex = 68294;
 
 class Class_1_8F9C8201CB57E0BD_Class_1_534EF681CC2FBEA4_16 : public ::System::Object
 {
@@ -34,4 +34,26 @@ public:
 	// static const ::System::String* Field_1_22; // 0x0
 	// static const ::System::String* Field_1_23; // 0x0
 	// static const ::System::String* Field_1_24; // 0x0
+	// static const ::System::String* Field_1_25; // 0x0
+	// static const ::System::String* Field_1_26; // 0x0
+	// static const ::System::String* Field_1_27; // 0x0
+	// static const ::System::String* Field_1_28; // 0x0
+	// static const ::System::String* Field_1_29; // 0x0
+	// static const ::System::String* Field_1_30; // 0x0
+	// static const ::System::String* Field_1_31; // 0x0
+	// static const ::System::String* Field_1_32; // 0x0
+	// static const ::System::String* Field_1_33; // 0x0
+	// static const ::System::String* Field_1_34; // 0x0
+	// static const ::System::String* Field_1_35; // 0x0
+	// static const ::System::String* Field_1_36; // 0x0
+	// static const ::System::String* Field_1_37; // 0x0
+	// static const ::System::String* Field_1_38; // 0x0
+	// static const ::System::String* Field_1_39; // 0x0
+	// static const ::System::String* Field_1_40; // 0x0
+	// static const ::System::String* Field_1_41; // 0x0
+	// static const ::System::String* Field_1_42; // 0x0
+	// static const ::System::String* Field_1_43; // 0x0
+	// static const ::System::String* Field_1_44; // 0x0
+	// static const ::System::String* Field_1_45; // 0x0
+	// static const ::System::String* Field_1_46; // 0x0
 };

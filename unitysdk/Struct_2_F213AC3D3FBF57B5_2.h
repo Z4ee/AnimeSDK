@@ -1,65 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/DefaultConstruct.h"
-#include "unitysdk/Struct_2_4355D25F091C65D0.h"
+#include "unitysdk/Struct_2_D37445D6054F848B.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_3B92C9EE2859AFA1_OFFSET UNITYSDK_OFFSET(0x313F80)
-#define STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0x313D10)
-#define STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_AF1F44082225D865_OFFSET UNITYSDK_OFFSET(0x313D80)
-#define STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_D8D09BDD3410ABE4_OFFSET UNITYSDK_OFFSET(0x313F20)
-#define STRUCT_2_F213AC3D3FBF57B5_2__CCTOR_OFFSET UNITYSDK_OFFSET(0x6B38F70)
-#define STRUCT_2_F213AC3D3FBF57B5_2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x313CE0)
-#define STRUCT_2_F213AC3D3FBF57B5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x313C40)
+#define STRUCT_2_F213AC3D3FBF57B5_2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x815930)
+#define STRUCT_2_F213AC3D3FBF57B5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x2E1100)
 
-inline static constexpr unsigned int Struct_2_F213AC3D3FBF57B5_2_TypeDefinitionIndex = 71090;
+inline static constexpr unsigned int Struct_2_F213AC3D3FBF57B5_2_TypeDefinitionIndex = 80385;
 
 struct alignas(8) Struct_2_F213AC3D3FBF57B5_2
 {
-	static ::Struct_2_F213AC3D3FBF57B5_2* StaticGet_Field_2_1()
-	{
-		return (::Struct_2_F213AC3D3FBF57B5_2*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F213AC3D3FBF57B5_2_TypeDefinitionIndex)->GetStaticField(0xB6B0);
-	}
-	::Struct_2_4355D25F091C65D0 Field_2_0; // 0x10
+	::Struct_2_D37445D6054F848B Field_2_0; // 0x10
 
-	::System::Void _ctor(::Foundation::DefaultConstruct a1)
+	::System::Void _ctor(::Struct_2_D37445D6054F848B a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::DefaultConstruct))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_D37445D6054F848B))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void _ctor_1(::Struct_2_4355D25F091C65D0 a1)
+	::System::Void Dispose()
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_4355D25F091C65D0))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2__CTOR_1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2_DISPOSE_OFFSET))(this);
 	}
-
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2__CCTOR_OFFSET))();
-	}
-
-	::System::Boolean Method_2_64F0C85A431FBD69()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_64F0C85A431FBD69_OFFSET))(this);
-	}
-
-	/*
-	::System::Single Method_2_AF1F44082225D865(::Foundation::Unreal::Interval_1<::System::Single> a1)
-	{
-		return ((::System::Single(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_AF1F44082225D865_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::System::Single Method_2_D8D09BDD3410ABE4(::Foundation::Unreal::Interval_1<::System::Single> a1)
-	{
-		return ((::System::Single(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_D8D09BDD3410ABE4_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Foundation::Unreal::Interval_1<::System::Single> Method_2_3B92C9EE2859AFA1()
-	{
-		return ((::Foundation::Unreal::Interval_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_F213AC3D3FBF57B5_2_METHOD_2_3B92C9EE2859AFA1_OFFSET))(this);
-	}
-	*/
 };

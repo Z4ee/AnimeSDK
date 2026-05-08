@@ -4,7 +4,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_ClipData_TypeDefinitionIndex = 27955;
+	inline static constexpr unsigned int SVGDocument_ClipData_TypeDefinitionIndex = 28473;
 
 	struct alignas(1) SVGDocument_ClipData
 	{

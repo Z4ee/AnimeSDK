@@ -5,12 +5,12 @@
 namespace NodeGraph { class NodeGraphBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHNODEBRANCH_GET_NODENAME_OFFSET UNITYSDK_OFFSET(0x7862A90)
-#define NODEGRAPH_GRAPHNODEBRANCH__CTOR_OFFSET UNITYSDK_OFFSET(0x7862AD0)
+#define NODEGRAPH_GRAPHNODEBRANCH_GET_NODENAME_OFFSET UNITYSDK_OFFSET(0x11B33C70)
+#define NODEGRAPH_GRAPHNODEBRANCH__CTOR_OFFSET UNITYSDK_OFFSET(0x11B33CB0)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphNodeBranch_TypeDefinitionIndex = 65117;
+	inline static constexpr unsigned int GraphNodeBranch_TypeDefinitionIndex = 47846;
 
 	class GraphNodeBranch : public ::NodeGraph::GraphNodeFlow
 	{

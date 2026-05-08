@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIButtonSizeHandler_Enum_3_697FB47520476257_TypeDefinitionIndex = 54183;
+	inline static constexpr unsigned int UIButtonSizeHandler_Enum_3_697FB47520476257_TypeDefinitionIndex = 52526;
 
 	enum class UIButtonSizeHandler_Enum_3_697FB47520476257 : ::System::Int32
 	{
-		Scale = 1,
 		SizeDelta = 0,
+		Scale = 1,
 	};
 }

@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_EC48112425141A9B.h"
+
+class Class_2_A9A857AD270B9CE1;
+namespace MoleMole { class UIControlCollection; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+
+#define CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x135E5490)
+#define CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_4D71BCFB74C16073_OFFSET UNITYSDK_OFFSET(0x135E55F0)
+#define CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_929BD2659F9FA6CA_OFFSET UNITYSDK_OFFSET(0x135E53F0)
+#define CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_BFB8A9EC107A5B24_OFFSET UNITYSDK_OFFSET(0x135E5600)
+#define CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D__CTOR_OFFSET UNITYSDK_OFFSET(0x135E5560)
+
+inline static constexpr unsigned int Class_3_3C829BD69971DC5F_Class_4_BAF89324EAF5EF2D_TypeDefinitionIndex = 70888;
+
+class Class_3_3C829BD69971DC5F_Class_4_BAF89324EAF5EF2D : public ::Class_3_EC48112425141A9B
+{
+public:
+	// static const ::System::String* Field_4_0; // 0x0
+	::UnityEngine::Transform* Field_4_1; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_929BD2659F9FA6CA(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_929BD2659F9FA6CA_OFFSET))(this, a1, a2);
+	}
+
+	::UnityEngine::Transform* Method_4_4D71BCFB74C16073()
+	{
+		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_4D71BCFB74C16073_OFFSET))(this);
+	}
+
+	::System::Void Method_4_BFB8A9EC107A5B24(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_BFB8A9EC107A5B24_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_0865E94460F11643()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3C829BD69971DC5F_CLASS_4_BAF89324EAF5EF2D_METHOD_4_0865E94460F11643_OFFSET))(this);
+	}
+};

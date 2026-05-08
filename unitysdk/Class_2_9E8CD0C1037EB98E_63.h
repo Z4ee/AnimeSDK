@@ -1,43 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_DEC9D8C356446F13.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Class_1_10A04DCAE0E9225A.h"
 
-class Class_2_5EBEB28CB58540B6;
+#define CLASS_2_9E8CD0C1037EB98E_63__CTOR_OFFSET UNITYSDK_OFFSET(0x11AD9350)
 
-#define CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x6455FB0)
-#define CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_EBAC71FBE1837205_OFFSET UNITYSDK_OFFSET(0x6456160)
-#define CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x6456150)
-#define CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_FE4FFF99CBDC5C59_OFFSET UNITYSDK_OFFSET(0x6456090)
-#define CLASS_2_9E8CD0C1037EB98E_63__CTOR_OFFSET UNITYSDK_OFFSET(0x6456050)
+inline static constexpr unsigned int Class_2_9E8CD0C1037EB98E_63_TypeDefinitionIndex = 57415;
 
-inline static constexpr unsigned int Class_2_9E8CD0C1037EB98E_63_TypeDefinitionIndex = 64180;
-
-class Class_2_9E8CD0C1037EB98E_63 : public ::Class_1_DEC9D8C356446F13<::Class_2_5EBEB28CB58540B6*>
+class Class_2_9E8CD0C1037EB98E_63 : public ::Class_1_10A04DCAE0E9225A
 {
 public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9E8CD0C1037EB98E_63__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Method_2_4343F372F34C05BF()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_4343F372F34C05BF_OFFSET))(this);
-	}
-
-	::Cysharp::Threading::Tasks::UniTask Method_2_FE4FFF99CBDC5C59()
-	{
-		return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_FE4FFF99CBDC5C59_OFFSET))(this);
-	}
-
-	::System::Boolean Method_2_F0088C88851A7DFB()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
-	}
-
-	::System::Void Method_2_EBAC71FBE1837205()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9E8CD0C1037EB98E_63_METHOD_2_EBAC71FBE1837205_OFFSET))(this);
 	}
 };

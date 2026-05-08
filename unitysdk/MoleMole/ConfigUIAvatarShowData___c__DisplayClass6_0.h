@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_CONFIGUIAVATARSHOWDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0AD880)
+#define MOLEMOLE_CONFIGUIAVATARSHOWDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1103E7F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowData___c__DisplayClass6_0_TypeDefinitionIndex = 78007;
+	inline static constexpr unsigned int ConfigUIAvatarShowData___c__DisplayClass6_0_TypeDefinitionIndex = 39683;
 
 	class ConfigUIAvatarShowData___c__DisplayClass6_0 : public ::System::Object
 	{

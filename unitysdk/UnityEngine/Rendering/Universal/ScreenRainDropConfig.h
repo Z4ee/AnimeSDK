@@ -5,11 +5,11 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENRAINDROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177912C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENRAINDROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFE650)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScreenRainDropConfig_TypeDefinitionIndex = 29455;
+	inline static constexpr unsigned int ScreenRainDropConfig_TypeDefinitionIndex = 29975;
 
 	class ScreenRainDropConfig : public ::System::Object
 	{

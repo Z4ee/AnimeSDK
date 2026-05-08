@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int AddLightProperties_TypeDefinitionIndex = 29545;
+	inline static constexpr unsigned int AddLightProperties_TypeDefinitionIndex = 30073;
 
 	enum class AddLightProperties : ::System::Int32
 	{

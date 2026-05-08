@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMoreOptionPopWindowController___c__DisplayClass28_0; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x866DE10)
-#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_1__OPENCOLLECTIONCABINETPAGE_B__3_OFFSET UNITYSDK_OFFSET(0x866DE20)
+#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D4FF90)
+#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_1__OPENCOLLECTIONCABINETPAGE_B__3_OFFSET UNITYSDK_OFFSET(0x14D4FFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMoreOptionPopWindowController___c__DisplayClass28_1_TypeDefinitionIndex = 71479;
+	inline static constexpr unsigned int UIMoreOptionPopWindowController___c__DisplayClass28_1_TypeDefinitionIndex = 42127;
 
 	class UIMoreOptionPopWindowController___c__DisplayClass28_1 : public ::System::Object
 	{

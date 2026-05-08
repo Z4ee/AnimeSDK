@@ -6,21 +6,21 @@
 namespace MoleMole { class UIHollowTipsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99E62A0)
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__DOANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x99E62B0)
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__DOANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x99E63C0)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150CD400)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__DOANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x150CD410)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__DOANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x150CD520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowTipsWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 63742;
+	inline static constexpr unsigned int UIHollowTipsWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 74458;
 
 	class UIHollowTipsWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::MoleMole::UIHollowTipsWidgetController* __4__this; // 0x18
-		::System::Single length; // 0x20
-		::UnityEngine::Vector2 finalSize; // 0x24
+		::MoleMole::UIHollowTipsWidgetController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
+		::UnityEngine::Vector2 finalSize; // 0x20
+		::System::Single length; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,28 +3,28 @@
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NAP_NAPECS_ECSCOMPFILTER_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x86D240)
-#define NAP_NAPECS_ECSCOMPFILTER_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x86D230)
-#define NAP_NAPECS_ECSCOMPFILTER_FILTER_OFFSET UNITYSDK_OFFSET(0x86D2F0)
+#define NAP_NAPECS_ECSCOMPFILTER_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x86B830)
+#define NAP_NAPECS_ECSCOMPFILTER_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x86B820)
+#define NAP_NAPECS_ECSCOMPFILTER_FILTER_OFFSET UNITYSDK_OFFSET(0x86B840)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsCompFilter_TypeDefinitionIndex = 35204;
+	inline static constexpr unsigned int EcsCompFilter_TypeDefinitionIndex = 35679;
 
 	struct alignas(8) EcsCompFilter
 	{
 		::Nap::NapECS::ComponentMask CompIncludeFilter; // 0x10
-		::Nap::NapECS::ComponentMask CompExcludeFilter; // 0x30
-		::System::Boolean NeedExclude; // 0x50
+		::Nap::NapECS::ComponentMask CompExcludeFilter; // 0x50
+		::System::Boolean NeedExclude; // 0x90
 
-		::System::Void AddInclude(::System::Byte classId)
+		::System::Void AddInclude(::System::UInt16 classId)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSCOMPFILTER_ADDINCLUDE_OFFSET))(this, classId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSCOMPFILTER_ADDINCLUDE_OFFSET))(this, classId);
 		}
 
-		::System::Void AddExclude(::System::Byte classId)
+		::System::Void AddExclude(::System::UInt16 classId)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSCOMPFILTER_ADDEXCLUDE_OFFSET))(this, classId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSCOMPFILTER_ADDEXCLUDE_OFFSET))(this, classId);
 		}
 
 		::System::Boolean Filter(::Nap::NapECS::ComponentMask& mask)

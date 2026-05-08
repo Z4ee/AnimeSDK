@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/NetworkInformation/Win32_IP_ADDR_STRING.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32_IP_PER_ADAPTER_INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x193866C0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32_IP_PER_ADAPTER_INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A257490)
 
 namespace System::Net::NetworkInformation
 {

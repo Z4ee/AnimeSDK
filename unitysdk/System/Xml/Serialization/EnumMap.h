@@ -6,9 +6,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml::Serialization { class EnumMap_EnumMapMember; }
 
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x19FB9F20)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETXMLNAME_OFFSET UNITYSDK_OFFSET(0x19FB9B70)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB9A00)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x1ACD9EC0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETXMLNAME_OFFSET UNITYSDK_OFFSET(0x1ACD9B80)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD99E0)
 
 namespace System::Xml::Serialization
 {
@@ -17,9 +17,9 @@ namespace System::Xml::Serialization
 	class EnumMap : public ::System::Xml::Serialization::ObjectMap
 	{
 	public:
-		::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>* _members; // 0x10
-		::Il2CppArray<::System::String*>* _enumNames; // 0x18
-		::Il2CppArray<::System::Int64>* _values; // 0x20
+		::Il2CppArray<::System::Int64>* _values; // 0x10
+		::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>* _members; // 0x18
+		::Il2CppArray<::System::String*>* _enumNames; // 0x20
 		::Il2CppArray<::System::String*>* _xmlNames; // 0x28
 		::System::Boolean _isFlags; // 0x30
 

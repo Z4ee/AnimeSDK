@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DynamicArgumentType_TypeDefinitionIndex = 70975;
+	inline static constexpr unsigned int DynamicArgumentType_TypeDefinitionIndex = 38051;
 
 	enum class DynamicArgumentType : ::System::Int32
 	{
-		EFLOAT = 0,
-		EBOOL = 2,
 		EINT = 1,
+		EBOOL = 2,
+		EFLOAT = 0,
 		ESTRING = 3,
 	};
 }

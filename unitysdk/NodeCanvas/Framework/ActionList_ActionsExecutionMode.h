@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ActionList_ActionsExecutionMode_TypeDefinitionIndex = 26082;
+	inline static constexpr unsigned int ActionList_ActionsExecutionMode_TypeDefinitionIndex = 27593;
 
 	enum class ActionList_ActionsExecutionMode : ::System::Int32
 	{

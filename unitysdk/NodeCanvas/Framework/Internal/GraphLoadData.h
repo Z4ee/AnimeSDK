@@ -11,7 +11,7 @@ namespace UnityEngine { class Object; }
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int GraphLoadData_TypeDefinitionIndex = 26016;
+	inline static constexpr unsigned int GraphLoadData_TypeDefinitionIndex = 27273;
 
 	struct alignas(8) GraphLoadData
 	{

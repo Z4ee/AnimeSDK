@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ILayoutIgnorer_TypeDefinitionIndex = 8392;
+	inline static constexpr unsigned int ILayoutIgnorer_TypeDefinitionIndex = 8402;
 
 	class ILayoutIgnorer
 	{

@@ -11,7 +11,7 @@ namespace System::Net::NetworkInformation { class IPv6InterfaceProperties; }
 namespace System::Net::NetworkInformation { class MulticastIPAddressInformationCollection; }
 namespace System::Net::NetworkInformation { class UnicastIPAddressInformationCollection; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPINTERFACEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x193279C0)
+#define SYSTEM_NET_NETWORKINFORMATION_IPINTERFACEPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x19E36460)
 
 namespace System::Net::NetworkInformation
 {

@@ -6,7 +6,7 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_208CC9941471731A_53;
+class Class_2_208CC9941471731A_131;
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
@@ -14,32 +14,32 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_CREATEITEMCO_OFFSET UNITYSDK_OFFSET(0xB5DEA00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_GETCREATERESULTS_OFFSET UNITYSDK_OFFSET(0xB5DEAA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB5DE610)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_SPAWNITEM_OFFSET UNITYSDK_OFFSET(0xB5DEB70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_STARTCREATE_OFFSET UNITYSDK_OFFSET(0xB5DE840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DEE30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_CREATEITEMCO_OFFSET UNITYSDK_OFFSET(0x1541C100)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_GETCREATERESULTS_OFFSET UNITYSDK_OFFSET(0x1541C180)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1541BD70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_SPAWNITEM_OFFSET UNITYSDK_OFFSET(0x1541C230)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3_STARTCREATE_OFFSET UNITYSDK_OFFSET(0x1541BF80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEITEMBYVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1541C4D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveItemByVector3_TypeDefinitionIndex = 49359;
+	inline static constexpr unsigned int LDWaveItemByVector3_TypeDefinitionIndex = 72918;
 
 	class LDWaveItemByVector3 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* finishOutput; // 0xA8
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::UInt32>*>* itemIdListOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* overridePickTypeInput; // 0xB8
-		::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::Class_2_208CC9941471731A_53*, ::System::Int32>>* itemList; // 0xC0
-		::System::Collections::Generic::List_1<::System::UInt32>* createIdList; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Int32>* itemIdInput; // 0xD0
-		::FlowCanvas::ValueInput_1<::MoleMole::GameplayTag>* gameplayTagInput; // 0xD8
-		::FlowCanvas::FlowOutput* output; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Single>* defaultIntervalInput; // 0xE8
-		::UnityEngine::Coroutine* createCo; // 0xF0
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* createPosition; // 0xF8
-		::FlowCanvas::ValueInput_1<::System::Int32>* createCount; // 0x100
+		::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::Class_2_208CC9941471731A_131*, ::System::Int32>>* itemList; // 0xA8
+		::FlowCanvas::FlowOutput* finishOutput; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::UnityEngine::Coroutine* createCo; // 0xC0
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::UInt32>*>* itemIdListOutput; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Int32>* overridePickTypeInput; // 0xD0
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* createPosition; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Int32>* createCount; // 0xE0
+		::System::Collections::Generic::List_1<::System::UInt32>* createIdList; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Int32>* itemIdInput; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Single>* defaultIntervalInput; // 0xF8
+		::FlowCanvas::ValueInput_1<::MoleMole::GameplayTag>* gameplayTagInput; // 0x100
 		::System::Boolean runInCo; // 0x108
 
 		::System::Void _ctor()

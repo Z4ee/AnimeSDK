@@ -5,12 +5,12 @@
 namespace MoleMole { class UILineupSelectPageController; }
 namespace MoleMole { class UserLocalDataItem; }
 
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF6D6F0)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_0__ONTOGGLEUPGRADEBTN_G__UPGRADESURE_0_OFFSET UNITYSDK_OFFSET(0xAF6D700)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DBA020)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS131_0__ONTOGGLEUPGRADEBTN_G__UPGRADESURE_0_OFFSET UNITYSDK_OFFSET(0x15DBA030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass131_0_TypeDefinitionIndex = 78697;
+	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass131_0_TypeDefinitionIndex = 56014;
 
 	class UILineupSelectPageController___c__DisplayClass131_0 : public ::System::Object
 	{

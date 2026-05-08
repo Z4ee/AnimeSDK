@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MusicBattleMarkerNodeType_TypeDefinitionIndex = 68933;
+	inline static constexpr unsigned int MusicBattleMarkerNodeType_TypeDefinitionIndex = 59016;
 
 	enum class MusicBattleMarkerNodeType : ::System::Int32
 	{
 		RedNode = 0,
-		ColorfulNode = 2,
 		YellowNode = 1,
+		ColorfulNode = 2,
 	};
 }

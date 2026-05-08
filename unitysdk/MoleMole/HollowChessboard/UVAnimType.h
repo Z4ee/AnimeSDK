@@ -3,12 +3,12 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int UVAnimType_TypeDefinitionIndex = 77247;
+	inline static constexpr unsigned int UVAnimType_TypeDefinitionIndex = 67374;
 
 	enum class UVAnimType : ::System::Int32
 	{
-		FixAnchorScaleAnim = 2,
 		FullFillScaleAnim = 0,
 		Normal = 1,
+		FixAnchorScaleAnim = 2,
 	};
 }

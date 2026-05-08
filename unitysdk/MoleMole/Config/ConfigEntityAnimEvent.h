@@ -29,57 +29,57 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_BEGINCONTINUOUSATTACKPATTERNLISTDRAW_OFFSET UNITYSDK_OFFSET(0xE35B340)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_CHECKATTACKPATTERNLISTSHOW_OFFSET UNITYSDK_OFFSET(0xE35B260)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_CHECKATTACKPATTERNSHOW_OFFSET UNITYSDK_OFFSET(0xE35B1F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_CHECKCONTINUOUSATTACKPATTERNLISTSHOW_OFFSET UNITYSDK_OFFSET(0xE35B2D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_GETPATTERNEVENT_OFFSET UNITYSDK_OFFSET(0xE35AA50)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLEATTACKPATTERNLISTWITHOVERRIDEPARAM_OFFSET UNITYSDK_OFFSET(0xE35A920)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLEATTACKPATTERNLIST_OFFSET UNITYSDK_OFFSET(0xE358D80)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLEATTACKPATTERN_OFFSET UNITYSDK_OFFSET(0xE3589F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLECONTINUOUSATTACKPATTERNLISTWITHOVERRIDEPOSANDROT_OFFSET UNITYSDK_OFFSET(0xE35AD40)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLECONTINUOUSATTACKPATTERNLIST_OFFSET UNITYSDK_OFFSET(0xE359AF0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xE35B730)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xE35B630)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_PROCESSDEADFORHITRELATEDANIMEVENTS_OFFSET UNITYSDK_OFFSET(0xE359D60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_RUNTIMETOSERIALIZED_OFFSET UNITYSDK_OFFSET(0xE35B6D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_SERIALIZEDTORUNTIME_OFFSET UNITYSDK_OFFSET(0xE35B3F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_TRIGGERATTACKPATTERN_OFFSET UNITYSDK_OFFSET(0xE358730)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xE35B7A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE35B3E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_BEGINCONTINUOUSATTACKPATTERNLISTDRAW_OFFSET UNITYSDK_OFFSET(0x16A8A9A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_CHECKATTACKPATTERNLISTSHOW_OFFSET UNITYSDK_OFFSET(0x16A8A900)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_CHECKATTACKPATTERNSHOW_OFFSET UNITYSDK_OFFSET(0x16A8A8B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_CHECKCONTINUOUSATTACKPATTERNLISTSHOW_OFFSET UNITYSDK_OFFSET(0x16A8A950)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_GETPATTERNEVENT_OFFSET UNITYSDK_OFFSET(0x16A8A160)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLEATTACKPATTERNLISTWITHOVERRIDEPARAM_OFFSET UNITYSDK_OFFSET(0x16A8A050)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLEATTACKPATTERNLIST_OFFSET UNITYSDK_OFFSET(0x16A885B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLEATTACKPATTERN_OFFSET UNITYSDK_OFFSET(0x16A88270)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLECONTINUOUSATTACKPATTERNLISTWITHOVERRIDEPOSANDROT_OFFSET UNITYSDK_OFFSET(0x16A8A430)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_HANDLECONTINUOUSATTACKPATTERNLIST_OFFSET UNITYSDK_OFFSET(0x16A892B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A8AD10)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A8AC70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_PROCESSDEADFORHITRELATEDANIMEVENTS_OFFSET UNITYSDK_OFFSET(0x16A894F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_RUNTIMETOSERIALIZED_OFFSET UNITYSDK_OFFSET(0x16A8ACD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_SERIALIZEDTORUNTIME_OFFSET UNITYSDK_OFFSET(0x16A8AA50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT_TRIGGERATTACKPATTERN_OFFSET UNITYSDK_OFFSET(0x16A87FE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A8AD60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8AA40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAnimEvent_TypeDefinitionIndex = 39240;
+	inline static constexpr unsigned int ConfigEntityAnimEvent_TypeDefinitionIndex = 79643;
 
 	class ConfigEntityAnimEvent : public ::System::Object
 	{
 	public:
 		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::String*>** StaticGet_RelatedAnimEvents_Default()
 		{
-			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEvent_TypeDefinitionIndex)->GetStaticField(0x31210);
+			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEvent_TypeDefinitionIndex)->GetStaticField(0x31E70);
 		}
 		static ::System::UInt32* StaticGet_CONTINUOUS_ATTACK_PATTERN_LIST_COUNTER()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEvent_TypeDefinitionIndex)->GetStaticField(0xC190);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityAnimEvent_TypeDefinitionIndex)->GetStaticField(0xC150);
 		}
-		::MoleMole::Config::ConfigEntityCameraZoom* CameraZoom; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::System::String*>* RelatedAnimEventsInRuntime; // 0x18
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::BaseProperty, ::System::Single>* RecoverProperties; // 0x20
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TeamProperty, ::System::Single>* TeamEntityRecoverProperties; // 0x28
-		::MoleMole::Config::ConfigEntityAttackEffect* AttackEffect; // 0x30
-		::MoleMole::Config::ConfigEntityAttackCameraShake* CameraShake; // 0x38
-		::System::Collections::Generic::List_1<::MoleMole::Config::CollisionDetect*>* AttackPatternList; // 0x40
-		::MoleMole::Config::ConfigEntityAttackPattern* AttackPattern; // 0x48
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TeamProperty, ::System::Single>* TeamEntityRecoverProperties; // 0x10
+		::MoleMole::Config::ConfigEntityAttackPattern* AttackPattern; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::Config::CollisionDetect*>* AttackPatternList; // 0x20
+		::MoleMole::Config::ConfigAttackActiveFrameDynamicProp* ActiveDynamicProp; // 0x28
+		::Il2CppArray<::System::String*>* RelatedAnimEventsV2; // 0x30
+		::MoleMole::Config::ConfigEntityAttackEffect* AttackEffect; // 0x38
+		::MoleMole::Config::ConfigEntityAttackCameraShake* CameraShake; // 0x40
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::BaseProperty, ::System::Single>* RecoverProperties; // 0x48
 		::MoleMole::Config::ConfigEntityCameraStretch* CameraStretch; // 0x50
-		::Il2CppArray<::System::String*>* RelatedAnimEventsV2; // 0x58
-		::MoleMole::Config::ConfigAttackActiveFrameDynamicProp* ActiveDynamicProp; // 0x60
-		::System::Collections::Generic::List_1<::MoleMole::Config::ContinueAttackDetect*>* ContinuousAttackPatternList; // 0x68
-		::MoleMole::Config::ConfigEntityAttackProperty* AttackProperty; // 0x70
-		::System::Boolean IsDiffTimeHitRecoverProperties_FirstTime; // 0x78
-		::System::Boolean IsSameTimeHitRecoverProperties_NTimes; // 0x79
+		::MoleMole::Config::ConfigEntityCameraZoom* CameraZoom; // 0x58
+		::System::Collections::Generic::List_1<::MoleMole::Config::ContinueAttackDetect*>* ContinuousAttackPatternList; // 0x60
+		::MoleMole::Config::ConfigEntityAttackProperty* AttackProperty; // 0x68
+		::System::Collections::Generic::IReadOnlyList_1<::System::String*>* RelatedAnimEventsInRuntime; // 0x70
+		::System::Single RecoverHP; // 0x78
 		::MoleMole::Config::ConfigAttackPatternType AttackPatternType; // 0x7C
-		::System::Single RecoverHP; // 0x80
+		::System::Boolean IsSameTimeHitRecoverProperties_NTimes; // 0x80
+		::System::Boolean IsDiffTimeHitRecoverProperties_FirstTime; // 0x81
 
 		::System::Void _ctor()
 		{

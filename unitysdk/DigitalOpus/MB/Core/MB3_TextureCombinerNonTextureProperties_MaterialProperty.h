@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerNonTextureProperties_MaterialProperty_TypeDefinitionIndex = 83407;
+	inline static constexpr unsigned int MB3_TextureCombinerNonTextureProperties_MaterialProperty_TypeDefinitionIndex = 85135;
 
 	class MB3_TextureCombinerNonTextureProperties_MaterialProperty
 	{

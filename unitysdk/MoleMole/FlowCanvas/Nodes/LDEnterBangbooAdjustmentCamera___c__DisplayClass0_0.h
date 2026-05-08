@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_FD382C753AFE8157;
+class Class_2_31D42E0EB3F47AED;
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1164AF00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA___C__DISPLAYCLASS0_0__INVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x1164AF10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA3D80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA___C__DISPLAYCLASS0_0__INVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x10BA3D90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterBangbooAdjustmentCamera___c__DisplayClass0_0_TypeDefinitionIndex = 53003;
+	inline static constexpr unsigned int LDEnterBangbooAdjustmentCamera___c__DisplayClass0_0_TypeDefinitionIndex = 60682;
 
 	class LDEnterBangbooAdjustmentCamera___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::Class_2_FD382C753AFE8157* manager; // 0x10
+		::Class_2_31D42E0EB3F47AED* manager; // 0x10
 
 		::System::Void _ctor()
 		{

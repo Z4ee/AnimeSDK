@@ -3,17 +3,17 @@
 
 namespace ExpressionV2
 {
-	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 74589;
+	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 79837;
 
 	enum class TokenType : ::System::Int32
 	{
 		RightParen = 6,
-		LeftParen = 5,
-		Function = 3,
-		Variable = 2,
-		Number = 0,
-		Operator = 4,
-		String = 1,
 		Comma = 7,
+		Variable = 2,
+		Operator = 4,
+		LeftParen = 5,
+		String = 1,
+		Number = 0,
+		Function = 3,
 	};
 }

@@ -5,19 +5,19 @@
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC34F090)
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS19_0__SHOWDOUBLESWITCHTIP_UNITASK_B__0_OFFSET UNITYSDK_OFFSET(0xC34F0A0)
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS19_0__SHOWDOUBLESWITCHTIP_UNITASK_B__1_OFFSET UNITYSDK_OFFSET(0xC34F300)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7BCF0)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS19_0__SHOWDOUBLESWITCHTIP_UNITASK_B__0_OFFSET UNITYSDK_OFFSET(0x15E7BD00)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS19_0__SHOWDOUBLESWITCHTIP_UNITASK_B__1_OFFSET UNITYSDK_OFFSET(0x15E7BF60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass19_0_TypeDefinitionIndex = 80155;
+	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass19_0_TypeDefinitionIndex = 75390;
 
 	class UIAbyssS2EntrancePageController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource* tcs; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource* tcs; // 0x18
 
 		::System::Void _ctor()
 		{

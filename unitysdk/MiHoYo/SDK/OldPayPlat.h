@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int OldPayPlat_TypeDefinitionIndex = 18623;
+	inline static constexpr unsigned int OldPayPlat_TypeDefinitionIndex = 18966;
 
 	enum class OldPayPlat : ::System::Int32
 	{

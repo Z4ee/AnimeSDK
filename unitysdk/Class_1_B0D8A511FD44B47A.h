@@ -4,20 +4,20 @@
 #include "unitysdk/ProtoScript/NodeState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 
-#define CLASS_1_B0D8A511FD44B47A_METHOD_1_A99EF338505A0EA9_OFFSET UNITYSDK_OFFSET(0xA6F8920)
-#define CLASS_1_B0D8A511FD44B47A_METHOD_1_CB96727F8C515ACA_OFFSET UNITYSDK_OFFSET(0xA6F89C0)
-#define CLASS_1_B0D8A511FD44B47A__CTOR_OFFSET UNITYSDK_OFFSET(0xA6F8910)
+#define CLASS_1_B0D8A511FD44B47A_METHOD_1_A99EF338505A0EA9_OFFSET UNITYSDK_OFFSET(0x169DEFA0)
+#define CLASS_1_B0D8A511FD44B47A_METHOD_1_CB96727F8C515ACA_OFFSET UNITYSDK_OFFSET(0x169DF020)
+#define CLASS_1_B0D8A511FD44B47A__CTOR_OFFSET UNITYSDK_OFFSET(0x169DEF90)
 
-inline static constexpr unsigned int Class_1_B0D8A511FD44B47A_TypeDefinitionIndex = 68267;
+inline static constexpr unsigned int Class_1_B0D8A511FD44B47A_TypeDefinitionIndex = 78534;
 
 class Class_1_B0D8A511FD44B47A : public ::System::Object
 {
 public:
-	::Enum_3_C6E8F7731271F88A Field_1_3; // 0x10
-	::System::Int32 Field_1_1; // 0x14
-	::System::Int32 Field_1_0; // 0x18
+	::System::Int32 Field_1_1; // 0x10
+	::System::Int32 Field_1_0; // 0x14
+	::Enum_3_C6E8F7731271F88A Field_1_3; // 0x18
 	::ProtoScript::NodeState Field_1_2; // 0x1C
 
 	::System::Void _ctor()
@@ -30,8 +30,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::Class_1_B0D8A511FD44B47A*))((::PBYTE)hIl2Cpp + CLASS_1_B0D8A511FD44B47A_METHOD_1_A99EF338505A0EA9_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_CB96727F8C515ACA(::Class_5_0B648F1F8F6AC84A* a1)
+	::System::Void Method_1_CB96727F8C515ACA(::Class_5_A6F8D19602712D95* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*))((::PBYTE)hIl2Cpp + CLASS_1_B0D8A511FD44B47A_METHOD_1_CB96727F8C515ACA_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*))((::PBYTE)hIl2Cpp + CLASS_1_B0D8A511FD44B47A_METHOD_1_CB96727F8C515ACA_OFFSET))(this, a1);
 	}
 };

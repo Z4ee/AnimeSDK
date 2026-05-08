@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/DistanceDistortionBlendMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DISTANCEDISTORTIONBLENDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x189E6DC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DISTANCEDISTORTIONBLENDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAE4A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DistanceDistortionBlendModeParameter_TypeDefinitionIndex = 29366;
+	inline static constexpr unsigned int DistanceDistortionBlendModeParameter_TypeDefinitionIndex = 29885;
 
 	class DistanceDistortionBlendModeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::DistanceDistortionBlendMode>
 	{

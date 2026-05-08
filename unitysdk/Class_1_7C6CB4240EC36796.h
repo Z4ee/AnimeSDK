@@ -3,9 +3,9 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7C6CB4240EC36796__CTOR_OFFSET UNITYSDK_OFFSET(0x7E5D4C0)
+#define CLASS_1_7C6CB4240EC36796__CTOR_OFFSET UNITYSDK_OFFSET(0xDE91A90)
 
-inline static constexpr unsigned int Class_1_7C6CB4240EC36796_TypeDefinitionIndex = 39136;
+inline static constexpr unsigned int Class_1_7C6CB4240EC36796_TypeDefinitionIndex = 63775;
 
 class Class_1_7C6CB4240EC36796 : public ::System::Object
 {

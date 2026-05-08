@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GAMEOBJECTPOSITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB198750)
+#define MOLEMOLE_GAMEOBJECTPOSITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC2230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameObjectPositionData_TypeDefinitionIndex = 63288;
+	inline static constexpr unsigned int GameObjectPositionData_TypeDefinitionIndex = 41648;
 
 	class GameObjectPositionData : public ::System::Object
 	{

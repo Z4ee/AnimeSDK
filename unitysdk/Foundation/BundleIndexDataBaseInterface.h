@@ -9,7 +9,7 @@ namespace UnityEngine { class NapAssetBundleIndexAsset; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BundleIndexDataBaseInterface_TypeDefinitionIndex = 8295;
+	inline static constexpr unsigned int BundleIndexDataBaseInterface_TypeDefinitionIndex = 7780;
 
 	class BundleIndexDataBaseInterface
 	{

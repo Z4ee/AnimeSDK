@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class PathSectionAssetSO_SectionPathData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHSECTIONASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0x77ECEB0)
+#define NPCCROWD_AI_PATHSECTIONASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE462D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathSectionAssetSO_TypeDefinitionIndex = 63760;
+	inline static constexpr unsigned int PathSectionAssetSO_TypeDefinitionIndex = 72267;
 
 	class PathSectionAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

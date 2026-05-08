@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int TestLyraSectorLoader_DistanceFieldVisualizeMode_TypeDefinitionIndex = 29037;
+inline static constexpr unsigned int TestLyraSectorLoader_DistanceFieldVisualizeMode_TypeDefinitionIndex = 29556;
 
 enum class TestLyraSectorLoader_DistanceFieldVisualizeMode : ::System::Int32
 {

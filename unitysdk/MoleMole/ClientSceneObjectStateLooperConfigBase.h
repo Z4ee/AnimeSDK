@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/ClientSceneObjectStateLooperConfigBase_LoopConditionType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIGBASE_GET_LOOPCONDITIONTYPE_OFFSET UNITYSDK_OFFSET(0x7BB8E70)
-#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x7BB8E80)
+#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIGBASE_GET_LOOPCONDITIONTYPE_OFFSET UNITYSDK_OFFSET(0xFE9A190)
+#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xFE9A1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClientSceneObjectStateLooperConfigBase_TypeDefinitionIndex = 58813;
+	inline static constexpr unsigned int ClientSceneObjectStateLooperConfigBase_TypeDefinitionIndex = 75910;
 
 	class ClientSceneObjectStateLooperConfigBase : public ::System::Object
 	{
 	public:
-		::System::Int32 FuncPoint; // 0x10
+		::MoleMole::ClientSceneObjectStateLooperConfigBase_LoopConditionType _loopConditionType_k__BackingField; // 0x10
 		::System::Int32 stateID; // 0x14
-		::MoleMole::ClientSceneObjectStateLooperConfigBase_LoopConditionType _loopConditionType_k__BackingField; // 0x18
+		::System::Int32 FuncPoint; // 0x18
 		::System::Int32 ObjectID; // 0x1C
 
 		::System::Void _ctor()

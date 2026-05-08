@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int NotifyCollectionChangedSynchronizedView_2__GetEnumerator_d__21_TypeDefinitionIndex = 25222;
+	inline static constexpr unsigned int NotifyCollectionChangedSynchronizedView_2__GetEnumerator_d__21_TypeDefinitionIndex = 25681;
 
 	template <typename T, typename TView>
 	class NotifyCollectionChangedSynchronizedView_2__GetEnumerator_d__21 : public ::System::Object

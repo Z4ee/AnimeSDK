@@ -6,11 +6,11 @@ namespace MoleMole::GalGame { class BranchItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7DA120)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1604A4A0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalConditionNode_TypeDefinitionIndex = 63615;
+	inline static constexpr unsigned int GalConditionNode_TypeDefinitionIndex = 57583;
 
 	class GalConditionNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{

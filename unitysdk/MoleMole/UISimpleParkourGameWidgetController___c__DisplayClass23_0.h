@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA8C220)
-#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS23_0__DORESET_B__0_OFFSET UNITYSDK_OFFSET(0xCA8C230)
+#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DB9160)
+#define MOLEMOLE_UISIMPLEPARKOURGAMEWIDGETCONTROLLER___C__DISPLAYCLASS23_0__DORESET_B__0_OFFSET UNITYSDK_OFFSET(0x14DB9170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISimpleParkourGameWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 44890;
+	inline static constexpr unsigned int UISimpleParkourGameWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 61726;
 
 	class UISimpleParkourGameWidgetController___c__DisplayClass23_0 : public ::System::Object
 	{

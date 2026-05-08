@@ -9,15 +9,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_DICEROTADJUSTER_METHOD_5_4C288C0C3DC7B4CA_OFFSET UNITYSDK_OFFSET(0xEC6C0B0)
-#define MOLEMOLE_DICEROTADJUSTER_METHOD_5_7E015B837E1981C0_OFFSET UNITYSDK_OFFSET(0xEC6C230)
-#define MOLEMOLE_DICEROTADJUSTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xEC6BD40)
-#define MOLEMOLE_DICEROTADJUSTER_SETCTRLDICERESULT_OFFSET UNITYSDK_OFFSET(0xEC6BFD0)
-#define MOLEMOLE_DICEROTADJUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0xEC6C810)
+#define MOLEMOLE_DICEROTADJUSTER_METHOD_5_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x181F1AD0)
+#define MOLEMOLE_DICEROTADJUSTER_METHOD_5_7E015B837E1981C0_OFFSET UNITYSDK_OFFSET(0x181F1DB0)
+#define MOLEMOLE_DICEROTADJUSTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x181F1800)
+#define MOLEMOLE_DICEROTADJUSTER_SETCTRLDICERESULT_OFFSET UNITYSDK_OFFSET(0x181F1A20)
+#define MOLEMOLE_DICEROTADJUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181F2360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DiceRotAdjuster_TypeDefinitionIndex = 47211;
+	inline static constexpr unsigned int DiceRotAdjuster_TypeDefinitionIndex = 51995;
 
 	class DiceRotAdjuster : public ::UnityEngine::MonoBehaviour
 	{
@@ -46,9 +46,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_DICEROTADJUSTER_METHOD_5_7E015B837E1981C0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_4C288C0C3DC7B4CA()
+		::System::Void Method_5_2566AD459572DFC3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DICEROTADJUSTER_METHOD_5_4C288C0C3DC7B4CA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DICEROTADJUSTER_METHOD_5_2566AD459572DFC3_OFFSET))(this);
 		}
 	};
 }

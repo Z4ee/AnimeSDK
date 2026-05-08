@@ -8,7 +8,7 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_89C9471D0A0E4933_TypeDefinitionIndex = 49889;
+inline static constexpr unsigned int Class_1_89C9471D0A0E4933_TypeDefinitionIndex = 46812;
 
 template <typename T>
 class Class_1_89C9471D0A0E4933 : public ::System::Object

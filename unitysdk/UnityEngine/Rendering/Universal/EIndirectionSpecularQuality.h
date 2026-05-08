@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int EIndirectionSpecularQuality_TypeDefinitionIndex = 29302;
+	inline static constexpr unsigned int EIndirectionSpecularQuality_TypeDefinitionIndex = 29821;
 
 	enum class EIndirectionSpecularQuality : ::System::Int32
 	{

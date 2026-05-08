@@ -1,33 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_48F4A404A08692BE_70.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_562.h"
+#include "unitysdk/Class_1_48F4A404A08692BE_82.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_372.h"
 
 class Class_0_16E4307DCC419505_13;
-class Class_2_6D99A03C58ED2B6E_4;
-namespace System { class String; }
 
-#define CLASS_2_208CC9941471731A_400_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x13DAC7D0)
-#define CLASS_2_208CC9941471731A_400_METHOD_2_9B27CDF6DE2A808C_OFFSET UNITYSDK_OFFSET(0x13DAC410)
-#define CLASS_2_208CC9941471731A_400__CTOR_OFFSET UNITYSDK_OFFSET(0x13DAC3F0)
+#define CLASS_2_208CC9941471731A_400__CTOR_OFFSET UNITYSDK_OFFSET(0x13C80B40)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_400_TypeDefinitionIndex = 11564;
+inline static constexpr unsigned int Class_2_208CC9941471731A_400_TypeDefinitionIndex = 12345;
 
-class Class_2_208CC9941471731A_400 : public ::Class_1_48F4A404A08692BE_70
+class Class_2_208CC9941471731A_400 : public ::Class_1_48F4A404A08692BE_82
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_562 a1, ::Class_0_16E4307DCC419505_13* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_372 a1, ::Class_0_16E4307DCC419505_13* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_562, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_400__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::Class_2_6D99A03C58ED2B6E_4* Method_2_9B27CDF6DE2A808C()
-	{
-		return ((::Class_2_6D99A03C58ED2B6E_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_400_METHOD_2_9B27CDF6DE2A808C_OFFSET))(this);
-	}
-
-	::System::String* Method_2_35EA095E1AFDD9C8()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_400_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_372, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_400__CTOR_OFFSET))(this, a1, a2);
 	}
 };

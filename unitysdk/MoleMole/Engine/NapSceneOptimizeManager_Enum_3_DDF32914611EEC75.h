@@ -3,7 +3,7 @@
 
 namespace MoleMole::Engine
 {
-	inline static constexpr unsigned int NapSceneOptimizeManager_Enum_3_DDF32914611EEC75_TypeDefinitionIndex = 40154;
+	inline static constexpr unsigned int NapSceneOptimizeManager_Enum_3_DDF32914611EEC75_TypeDefinitionIndex = 45195;
 
 	enum class NapSceneOptimizeManager_Enum_3_DDF32914611EEC75 : ::System::Int32
 	{

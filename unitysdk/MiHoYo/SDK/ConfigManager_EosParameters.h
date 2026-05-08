@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class EOSParametersModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_EOSPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x187625F0)
+#define MIHOYO_SDK_CONFIGMANAGER_EOSPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x199247B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_EosParameters_TypeDefinitionIndex = 18731;
+	inline static constexpr unsigned int ConfigManager_EosParameters_TypeDefinitionIndex = 19074;
 
 	class ConfigManager_EosParameters : public ::System::Object
 	{

@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xC7DE940)
-#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_METHOD_5_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xC7DEAF0)
-#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC7DEAC0)
+#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x10E55BE0)
+#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x10E55DA0)
+#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x10E55D40)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int HandleAdditiveSceneTrack_TypeDefinitionIndex = 69853;
+	inline static constexpr unsigned int HandleAdditiveSceneTrack_TypeDefinitionIndex = 71159;
 
 	class HandleAdditiveSceneTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_METHOD_5_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_HANDLEADDITIVESCENETRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

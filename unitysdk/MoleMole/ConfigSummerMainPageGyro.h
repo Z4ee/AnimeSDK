@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CONFIGSUMMERMAINPAGEGYRO__CTOR_OFFSET UNITYSDK_OFFSET(0xB482F40)
+#define MOLEMOLE_CONFIGSUMMERMAINPAGEGYRO__CTOR_OFFSET UNITYSDK_OFFSET(0x17D33D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigSummerMainPageGyro_TypeDefinitionIndex = 66842;
+	inline static constexpr unsigned int ConfigSummerMainPageGyro_TypeDefinitionIndex = 53675;
 
 	class ConfigSummerMainPageGyro : public ::System::Object
 	{

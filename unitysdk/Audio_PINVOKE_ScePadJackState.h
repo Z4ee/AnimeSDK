@@ -3,7 +3,7 @@
 #include "unitysdk/Audio_PINVOKE_ScePadHeadsetType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Audio_PINVOKE_ScePadJackState_TypeDefinitionIndex = 59827;
+inline static constexpr unsigned int Audio_PINVOKE_ScePadJackState_TypeDefinitionIndex = 67765;
 
 struct alignas(8) Audio_PINVOKE_ScePadJackState
 {

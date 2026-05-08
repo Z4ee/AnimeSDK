@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x19C2FF70)
-#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x19C30250)
-#define NODECANVAS_TASKS_ACTIONS_SETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C30370)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A85D7A0)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A85DAC0)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A85DBE0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetFloat_TypeDefinitionIndex = 27073;
+	inline static constexpr unsigned int SetFloat_TypeDefinitionIndex = 27286;
 
 	class SetFloat : public ::NodeCanvas::Framework::ActionTask
 	{

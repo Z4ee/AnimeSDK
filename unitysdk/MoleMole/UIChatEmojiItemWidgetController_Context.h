@@ -4,11 +4,11 @@
 
 class Class_1_A09FD06BA66A78D7;
 
-#define MOLEMOLE_UICHATEMOJIITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD25F0B0)
+#define MOLEMOLE_UICHATEMOJIITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16471A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatEmojiItemWidgetController_Context_TypeDefinitionIndex = 38212;
+	inline static constexpr unsigned int UIChatEmojiItemWidgetController_Context_TypeDefinitionIndex = 79013;
 
 	class UIChatEmojiItemWidgetController_Context : public ::System::Object
 	{

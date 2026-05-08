@@ -6,7 +6,7 @@ class Class_1_1685EC66FBD28897;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductionRightWidgetController_MaterialCostViewData_TypeDefinitionIndex = 39148;
+	inline static constexpr unsigned int UISuibianProductionRightWidgetController_MaterialCostViewData_TypeDefinitionIndex = 62880;
 
 	struct alignas(8) UISuibianProductionRightWidgetController_MaterialCostViewData
 	{

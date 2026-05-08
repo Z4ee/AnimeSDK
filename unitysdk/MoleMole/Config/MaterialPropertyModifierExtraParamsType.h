@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MaterialPropertyModifierExtraParamsType_TypeDefinitionIndex = 64010;
+	inline static constexpr unsigned int MaterialPropertyModifierExtraParamsType_TypeDefinitionIndex = 51102;
 
 	enum class MaterialPropertyModifierExtraParamsType : ::System::Int32
 	{
-		CasterAttachPoint = 1,
 		Unknown = 0,
+		CasterAttachPoint = 1,
 		EffectChild = 2,
 	};
 }

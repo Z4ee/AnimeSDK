@@ -9,13 +9,13 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1A413820)
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_CHECKENUMERATION_OFFSET UNITYSDK_OFFSET(0x1A41BB30)
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_CHECKVALUE_OFFSET UNITYSDK_OFFSET(0x1A41BBD0)
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_GET_DEFAULTVALUERAW_OFFSET UNITYSDK_OFFSET(0x1A41BB10)
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_GET_PREFIX_OFFSET UNITYSDK_OFFSET(0x1A412660)
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A41BAA0)
-#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41BA30)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1AFF3ED0)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_CHECKENUMERATION_OFFSET UNITYSDK_OFFSET(0x1AFFC420)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_CHECKVALUE_OFFSET UNITYSDK_OFFSET(0x1AFFC4F0)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_GET_DEFAULTVALUERAW_OFFSET UNITYSDK_OFFSET(0x1AFFC400)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE_GET_PREFIX_OFFSET UNITYSDK_OFFSET(0x1AFF2DA0)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFFC390)
+#define SYSTEM_XML_SCHEMA_SCHEMADECLBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFC320)
 
 namespace System::Xml::Schema
 {
@@ -24,17 +24,17 @@ namespace System::Xml::Schema
 	class SchemaDeclBase : public ::System::Object
 	{
 	public:
-		::System::Object* defaultValueTyped; // 0x10
-		::System::Xml::XmlQualifiedName* name; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* values; // 0x20
-		::System::Xml::Schema::XmlSchemaDatatype* datatype; // 0x28
-		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x30
-		::System::String* defaultValueRaw; // 0x38
+		::System::Xml::Schema::XmlSchemaDatatype* datatype; // 0x10
+		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x18
+		::System::Xml::XmlQualifiedName* name; // 0x20
+		::System::String* defaultValueRaw; // 0x28
+		::System::Object* defaultValueTyped; // 0x30
+		::System::Collections::Generic::List_1<::System::String*>* values; // 0x38
 		::System::String* prefix; // 0x40
-		::System::Int64 maxLength; // 0x48
-		::System::Int64 minLength; // 0x50
-		::System::Xml::Schema::SchemaDeclBase_Use presence; // 0x58
-		::System::Boolean isDeclaredInExternal; // 0x5C
+		::System::Boolean isDeclaredInExternal; // 0x48
+		::System::Xml::Schema::SchemaDeclBase_Use presence; // 0x4C
+		::System::Int64 maxLength; // 0x50
+		::System::Int64 minLength; // 0x58
 
 		::System::Void _ctor(::System::Xml::XmlQualifiedName* name, ::System::String* prefix)
 		{

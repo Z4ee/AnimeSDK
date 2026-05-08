@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define PARADOXNOTION_SERIALIZATION_SERIALIZATIONPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A834A90)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZATIONPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EDBD0)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int SerializationPair_TypeDefinitionIndex = 26214;
+	inline static constexpr unsigned int SerializationPair_TypeDefinitionIndex = 27534;
 
 	class SerializationPair : public ::System::Object
 	{

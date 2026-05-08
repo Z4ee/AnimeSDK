@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_PostEffect_Config_TypeDefinitionIndex = 79836;
+	inline static constexpr unsigned int ConfigHollowChessboard_PostEffect_Config_TypeDefinitionIndex = 43444;
 
 	struct alignas(8) ConfigHollowChessboard_PostEffect_Config
 	{

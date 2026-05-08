@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int SchemaSerializationMode_TypeDefinitionIndex = 36513;
+	inline static constexpr unsigned int SchemaSerializationMode_TypeDefinitionIndex = 37057;
 
 	enum class SchemaSerializationMode : ::System::Int32
 	{

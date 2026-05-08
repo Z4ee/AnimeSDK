@@ -48,5 +48,7 @@ namespace UnityEngine
 		GameCoreXboxOne = 37,
 		PS5 = 38,
 		XboxScarlett = 39,
+		XboxPC = 40,
+		XboxPC_Handheld = 41,
 	};
 }

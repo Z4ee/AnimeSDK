@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UISTOREPAGENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDF3C6A0)
+#define MOLEMOLE_UISTOREPAGENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14588070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStorePageNPCConfig_TypeDefinitionIndex = 48532;
+	inline static constexpr unsigned int UIStorePageNPCConfig_TypeDefinitionIndex = 47752;
 
 	class UIStorePageNPCConfig : public ::System::Object
 	{

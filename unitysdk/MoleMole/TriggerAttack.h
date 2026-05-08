@@ -3,7 +3,7 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_BD1C1745FBC83F51;
+class Class_3_BA709FB56ED5FAC4;
 class Class_3_F33F9DC5F4112336;
 namespace BehaviorDesigner::Runtime { class SharedInt; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
@@ -11,31 +11,31 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_TRIGGERATTACK_ONATTACKTRIGGERED_OFFSET UNITYSDK_OFFSET(0xA4A1200)
-#define MOLEMOLE_TRIGGERATTACK_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xA4A0E10)
-#define MOLEMOLE_TRIGGERATTACK_ONRESET_OFFSET UNITYSDK_OFFSET(0xA4A1300)
-#define MOLEMOLE_TRIGGERATTACK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA4A10A0)
-#define MOLEMOLE_TRIGGERATTACK_RESETVALUE_OFFSET UNITYSDK_OFFSET(0xA4A1260)
-#define MOLEMOLE_TRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A13E0)
-#define MOLEMOLE_TRIGGERATTACK___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xA4A1420)
-#define MOLEMOLE_TRIGGERATTACK___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0xA4A14B0)
-#define MOLEMOLE_TRIGGERATTACK___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA4A1540)
+#define MOLEMOLE_TRIGGERATTACK_ONATTACKTRIGGERED_OFFSET UNITYSDK_OFFSET(0x12FD2DF0)
+#define MOLEMOLE_TRIGGERATTACK_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12FD2A10)
+#define MOLEMOLE_TRIGGERATTACK_ONRESET_OFFSET UNITYSDK_OFFSET(0x12FD2EB0)
+#define MOLEMOLE_TRIGGERATTACK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12FD2C80)
+#define MOLEMOLE_TRIGGERATTACK_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x12FD2E30)
+#define MOLEMOLE_TRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x12FD2F30)
+#define MOLEMOLE_TRIGGERATTACK___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12FD2FC0)
+#define MOLEMOLE_TRIGGERATTACK___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x12FD3050)
+#define MOLEMOLE_TRIGGERATTACK___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12FD30E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TriggerAttack_TypeDefinitionIndex = 43121;
+	inline static constexpr unsigned int TriggerAttack_TypeDefinitionIndex = 64345;
 
 	class TriggerAttack : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::Battle::Entity* ownerEntity; // 0x58
-		::Class_3_F33F9DC5F4112336* animatorComponent; // 0x60
-		::BehaviorDesigner::Runtime::SharedInt* intValue; // 0x68
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
-		::Class_3_BD1C1745FBC83F51* inputComponent; // 0x78
+		::Class_3_F33F9DC5F4112336* animatorComponent; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::MoleMole::Battle::Entity* ownerEntity; // 0x68
+		::BehaviorDesigner::Runtime::SharedInt* intValue; // 0x70
+		::Class_3_BA709FB56ED5FAC4* inputComponent; // 0x78
 		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x80
-		::System::Boolean setOnce; // 0x88
-		::System::Int32 hashID; // 0x8C
+		::System::Int32 hashID; // 0x88
+		::System::Boolean setOnce; // 0x8C
 
 		::System::Void _ctor()
 		{

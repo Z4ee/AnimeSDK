@@ -4,29 +4,29 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__BINDEVENT_B__10_0_OFFSET UNITYSDK_OFFSET(0x9113CD0)
-#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__BINDEVENT_B__10_1_OFFSET UNITYSDK_OFFSET(0x9113DF0)
-#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9113C80)
-#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9113CC0)
+#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__BINDEVENT_B__10_0_OFFSET UNITYSDK_OFFSET(0x15A10E80)
+#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__BINDEVENT_B__10_1_OFFSET UNITYSDK_OFFSET(0x15A10FA0)
+#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A10E30)
+#define MOLEMOLE_UIFRIENDSYSTEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A10E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendSystemWidgetController___c_TypeDefinitionIndex = 49627;
+	inline static constexpr unsigned int UIFriendSystemWidgetController___c_TypeDefinitionIndex = 61925;
 
 	class UIFriendSystemWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIFriendSystemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x397A0);
-		}
-		static ::MoleMole::UIFriendSystemWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIFriendSystemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFriendSystemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x397A8);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIFriendSystemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AA60);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_1()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIFriendSystemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x397B0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIFriendSystemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AA68);
+		}
+		static ::MoleMole::UIFriendSystemWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIFriendSystemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFriendSystemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AA70);
 		}
 
 		static ::System::Void _cctor()

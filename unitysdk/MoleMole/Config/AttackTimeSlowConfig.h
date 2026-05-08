@@ -9,23 +9,23 @@ class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xB90CAF0)
-#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0xB90C740)
-#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xB90CB50)
-#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xB90C7C0)
-#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0xB90CD40)
-#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB90CD20)
+#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x13998EC0)
+#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x13998B10)
+#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x13998F20)
+#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x13998B90)
+#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x13999110)
+#define MOLEMOLE_CONFIG_ATTACKTIMESLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x139990F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackTimeSlowConfig_TypeDefinitionIndex = 74359;
+	inline static constexpr unsigned int AttackTimeSlowConfig_TypeDefinitionIndex = 61250;
 
 	class AttackTimeSlowConfig : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::MoleMole::Config::AttackTimeSlowConfig*>** StaticGet_EMPTY()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::Config::AttackTimeSlowConfig*>**)Il2CppClass::FromTypeDefinitionIndex(AttackTimeSlowConfig_TypeDefinitionIndex)->GetStaticField(0x415F0);
+			return (::System::Collections::Generic::List_1<::MoleMole::Config::AttackTimeSlowConfig*>**)Il2CppClass::FromTypeDefinitionIndex(AttackTimeSlowConfig_TypeDefinitionIndex)->GetStaticField(0x41860);
 		}
 		::System::String* timeSlowKey; // 0x10
 		::MoleMole::Config::AbilityTargetting target; // 0x18

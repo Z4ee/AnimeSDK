@@ -6,7 +6,7 @@ namespace ObservableCollections { template <typename T> class RingBuffer_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int RingBuffer_1__GetEnumerator_d__23_TypeDefinitionIndex = 25178;
+	inline static constexpr unsigned int RingBuffer_1__GetEnumerator_d__23_TypeDefinitionIndex = 25764;
 
 	template <typename T>
 	class RingBuffer_1__GetEnumerator_d__23 : public ::System::Object

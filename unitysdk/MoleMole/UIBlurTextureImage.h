@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_UIBLURTEXTUREIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xBF3D710)
-#define MOLEMOLE_UIBLURTEXTUREIMAGE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xBF3D7D0)
-#define MOLEMOLE_UIBLURTEXTUREIMAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF3DA20)
-#define MOLEMOLE_UIBLURTEXTUREIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xBF3D9B0)
-#define MOLEMOLE_UIBLURTEXTUREIMAGE___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0xBF3DA60)
+#define MOLEMOLE_UIBLURTEXTUREIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1680D5C0)
+#define MOLEMOLE_UIBLURTEXTUREIMAGE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1680D660)
+#define MOLEMOLE_UIBLURTEXTUREIMAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1680D9A0)
+#define MOLEMOLE_UIBLURTEXTUREIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1680D900)
+#define MOLEMOLE_UIBLURTEXTUREIMAGE___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1680D9E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBlurTextureImage_TypeDefinitionIndex = 70558;
+	inline static constexpr unsigned int UIBlurTextureImage_TypeDefinitionIndex = 39336;
 
 	class UIBlurTextureImage : public ::MoleMole::UIBlurBaseImage
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_10_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIBlurTextureImage_TypeDefinitionIndex)->GetStaticField(0xEF60);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIBlurTextureImage_TypeDefinitionIndex)->GetStaticField(0xF520);
 		}
 		// static const ::System::String* matPath; // 0x0
 

@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xEC57DA0)
-#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xEC57DB0)
-#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xEC57FB0)
-#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC58170)
-#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xEC58130)
+#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x181DF540)
+#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x181DF550)
+#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x181DF730)
+#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181DF8D0)
+#define MOLEMOLE_CONFIGBUDDYAVATARSHOWSETTINGS_CONFIGBUDDYAVATARSHOWSETTINGS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181DF890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter_TypeDefinitionIndex = 64591;
+	inline static constexpr unsigned int ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter_TypeDefinitionIndex = 70825;
 
 	class ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigBuddyAvatarShowSettings*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigUIMainPageShowSetting*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigUIMainPageShowSetting*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42E50);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ConfigUIMainPageShowSetting*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48720);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::UIAvatarShowSetting*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::UIAvatarShowSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42E58);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::UIAvatarShowSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigBuddyAvatarShowSettings_ConfigBuddyAvatarShowSettings_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48728);
 		}
 
 		::System::Void _ctor()

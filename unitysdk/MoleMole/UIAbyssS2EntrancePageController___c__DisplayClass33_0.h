@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIAbyssS2EntrancePageController; }
 
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC804D70)
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS33_0__TRYPLAYPOINTLIMITANIM_B__0_OFFSET UNITYSDK_OFFSET(0xC804D80)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E33390)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS33_0__TRYPLAYPOINTLIMITANIM_B__0_OFFSET UNITYSDK_OFFSET(0x17E333A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass33_0_TypeDefinitionIndex = 80161;
+	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass33_0_TypeDefinitionIndex = 75396;
 
 	class UIAbyssS2EntrancePageController___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAbyssS2EntrancePageController* __4__this; // 0x10
-		::System::Int32 newPoint; // 0x18
-		::System::Int32 oldPoint; // 0x1C
+		::System::Int32 oldPoint; // 0x18
+		::System::Int32 newPoint; // 0x1C
 
 		::System::Void _ctor()
 		{

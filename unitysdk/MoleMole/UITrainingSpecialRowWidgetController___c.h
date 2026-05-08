@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9537450)
-#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9537490)
-#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__ENTERSPECIALTRAINING_B__4_2_OFFSET UNITYSDK_OFFSET(0x95374A0)
+#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE84F660)
+#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE84F6A0)
+#define MOLEMOLE_UITRAININGSPECIALROWWIDGETCONTROLLER___C__ENTERSPECIALTRAINING_B__4_2_OFFSET UNITYSDK_OFFSET(0xE84F6B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrainingSpecialRowWidgetController___c_TypeDefinitionIndex = 45994;
+	inline static constexpr unsigned int UITrainingSpecialRowWidgetController___c_TypeDefinitionIndex = 75955;
 
 	class UITrainingSpecialRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UITrainingSpecialRowWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UITrainingSpecialRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UITrainingSpecialRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40910);
-		}
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__4_2()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UITrainingSpecialRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40918);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UITrainingSpecialRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40AC0);
+		}
+		static ::MoleMole::UITrainingSpecialRowWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UITrainingSpecialRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UITrainingSpecialRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40AC8);
 		}
 
 		static ::System::Void _cctor()

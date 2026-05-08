@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDMOVEACTION_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3B9830)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDMOVEACTION_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x5B3B00)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridMoveAction_RuntimeData_TypeDefinitionIndex = 58236;
+	inline static constexpr unsigned int GridMoveAction_RuntimeData_TypeDefinitionIndex = 68221;
 
 	struct alignas(8) GridMoveAction_RuntimeData
 	{
-		::Class_5_0B648F1F8F6AC84A* BindPiece; // 0x10
+		::Class_5_A6F8D19602712D95* BindPiece; // 0x10
 
 		::System::Void Reset()
 		{

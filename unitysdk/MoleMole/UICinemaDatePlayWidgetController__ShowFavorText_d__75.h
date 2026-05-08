@@ -9,19 +9,19 @@ namespace MoleMole { class UICinemaDatePlayWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UICINEMADATEPLAYWIDGETCONTROLLER__SHOWFAVORTEXT_D__75_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BDCB0)
-#define MOLEMOLE_UICINEMADATEPLAYWIDGETCONTROLLER__SHOWFAVORTEXT_D__75_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UICINEMADATEPLAYWIDGETCONTROLLER__SHOWFAVORTEXT_D__75_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79F020)
+#define MOLEMOLE_UICINEMADATEPLAYWIDGETCONTROLLER__SHOWFAVORTEXT_D__75_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaDatePlayWidgetController__ShowFavorText_d__75_TypeDefinitionIndex = 48518;
+	inline static constexpr unsigned int UICinemaDatePlayWidgetController__ShowFavorText_d__75_TypeDefinitionIndex = 66988;
 
 	struct alignas(8) UICinemaDatePlayWidgetController__ShowFavorText_d__75
 	{
-		::UnityEngine::RectTransform* _remarkRoot_5__2; // 0x10
-		::MoleMole::UICinemaDatePlayWidgetController* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::UnityEngine::RectTransform* _remarkRoot_5__2; // 0x18
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x30
+		::MoleMole::UICinemaDatePlayWidgetController* __4__this; // 0x30
 		::Enum_3_DAEEC266DE5E805C remarkType; // 0x38
 		::System::Int32 __1__state; // 0x3C
 

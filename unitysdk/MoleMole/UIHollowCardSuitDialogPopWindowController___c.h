@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWCARDSUITDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C07F70)
-#define MOLEMOLE_UIHOLLOWCARDSUITDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9C07FB0)
-#define MOLEMOLE_UIHOLLOWCARDSUITDIALOGPOPWINDOWCONTROLLER___C__DOGOTONEST_B__37_0_OFFSET UNITYSDK_OFFSET(0x9C07FC0)
+#define MOLEMOLE_UIHOLLOWCARDSUITDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162E6160)
+#define MOLEMOLE_UIHOLLOWCARDSUITDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162E61A0)
+#define MOLEMOLE_UIHOLLOWCARDSUITDIALOGPOPWINDOWCONTROLLER___C__DOGOTONEST_B__37_0_OFFSET UNITYSDK_OFFSET(0x162E61B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardSuitDialogPopWindowController___c_TypeDefinitionIndex = 50130;
+	inline static constexpr unsigned int UIHollowCardSuitDialogPopWindowController___c_TypeDefinitionIndex = 43634;
 
 	class UIHollowCardSuitDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__37_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardSuitDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2E560);
-		}
 		static ::MoleMole::UIHollowCardSuitDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowCardSuitDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardSuitDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2E568);
+			return (::MoleMole::UIHollowCardSuitDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardSuitDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2EE60);
+		}
+		static ::System::Action** StaticGet___9__37_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardSuitDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2EE68);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_CONST_ABTESTGENERALPARAM_ABTESTRESCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFF870)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_CONST_ABTESTGENERALPARAM_ABTESTRESCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBF890)
 
 namespace MiHoYo::SDK::Base::ABTestPlatform::Const
 {
-	inline static constexpr unsigned int ABTestGeneralParam_ABTestResCode_TypeDefinitionIndex = 19092;
+	inline static constexpr unsigned int ABTestGeneralParam_ABTestResCode_TypeDefinitionIndex = 19443;
 
 	class ABTestGeneralParam_ABTestResCode : public ::System::Object
 	{

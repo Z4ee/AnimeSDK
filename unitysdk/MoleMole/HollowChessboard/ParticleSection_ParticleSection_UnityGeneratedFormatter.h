@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xA3988B0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xA3988C0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xA398A10)
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA398B70)
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA398B30)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x170D7E50)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x170D7E60)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x170D7F90)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x170D80D0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_PARTICLESECTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x170D8090)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ParticleSection_ParticleSection_UnityGeneratedFormatter_TypeDefinitionIndex = 80873;
+	inline static constexpr unsigned int ParticleSection_ParticleSection_UnityGeneratedFormatter_TypeDefinitionIndex = 60967;
 
 	class ParticleSection_ParticleSection_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::HollowChessboard::ParticleSection*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::HollowChessboard::ParticleSection_Config*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowChessboard::ParticleSection_Config*>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSection_ParticleSection_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE50);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowChessboard::ParticleSection_Config*>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSection_ParticleSection_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49520);
 		}
 
 		::System::Void _ctor()

@@ -7,34 +7,34 @@ namespace FluffyUnderware::Curvy::Generator { class CGGameObjectProperties; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8D2E80)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D2EC0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__REFRESH_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A8D2ED0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__REFRESH_B__7_1_OFFSET UNITYSDK_OFFSET(0x1A8D2F50)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__WARNABOUTINVALIDINPUTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A8D2FA0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B735E70)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B735EB0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__REFRESH_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B735EC0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__REFRESH_B__7_1_OFFSET UNITYSDK_OFFSET(0x1B735FD0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTGAMEOBJECT___C__WARNABOUTINVALIDINPUTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B736080)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int InputGameObject___c_TypeDefinitionIndex = 36872;
+	inline static constexpr unsigned int InputGameObject___c_TypeDefinitionIndex = 37416;
 
 	class InputGameObject___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x26CB0);
-		}
-		static ::FluffyUnderware::Curvy::Generator::Modules::InputGameObject___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::InputGameObject___c**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x26CB8);
-		}
 		static ::System::Predicate_1<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*>**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x26CC0);
+			return (::System::Predicate_1<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*>**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x27860);
+		}
+		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x27868);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::FluffyUnderware::Curvy::Generator::CGGameObject*>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::FluffyUnderware::Curvy::Generator::CGGameObject*>**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x26CC8);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGGameObjectProperties*, ::FluffyUnderware::Curvy::Generator::CGGameObject*>**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x27870);
+		}
+		static ::FluffyUnderware::Curvy::Generator::Modules::InputGameObject___c** StaticGet___9()
+		{
+			return (::FluffyUnderware::Curvy::Generator::Modules::InputGameObject___c**)Il2CppClass::FromTypeDefinitionIndex(InputGameObject___c_TypeDefinitionIndex)->GetStaticField(0x27878);
 		}
 
 		static ::System::Void _cctor()

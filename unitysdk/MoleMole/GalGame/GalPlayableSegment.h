@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xD0E1890)
-#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD0E18A0)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x16B8D4E0)
+#define MOLEMOLE_GALGAME_GALPLAYABLESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16B8D4F0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayableSegment_TypeDefinitionIndex = 65522;
+	inline static constexpr unsigned int GalPlayableSegment_TypeDefinitionIndex = 76855;
 
 	class GalPlayableSegment : public ::System::Object
 	{

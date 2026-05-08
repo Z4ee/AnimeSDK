@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int CellDiffusionConfigParas_TypeDefinitionIndex = 48960;
+	inline static constexpr unsigned int CellDiffusionConfigParas_TypeDefinitionIndex = 57096;
 
 	struct alignas(8) CellDiffusionConfigParas
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOEFFECT_LAYEREDEFFECTFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA39F8A0)
+#define MOLEMOLE_MONOEFFECT_LAYEREDEFFECTFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170DF8B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffect_LayeredEffectFadeConfig_TypeDefinitionIndex = 38981;
+	inline static constexpr unsigned int MonoEffect_LayeredEffectFadeConfig_TypeDefinitionIndex = 39612;
 
 	class MonoEffect_LayeredEffectFadeConfig : public ::System::Object
 	{

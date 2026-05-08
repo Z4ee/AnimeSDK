@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_GameServiceParameters_TypeDefinitionIndex = 34532;
+	inline static constexpr unsigned int MHYSDKC_GameServiceParameters_TypeDefinitionIndex = 35068;
 
 	class MHYSDKC_GameServiceParameters : public ::System::Object
 	{

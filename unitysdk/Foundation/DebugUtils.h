@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_DEBUGUTILS_ENSURE_OFFSET UNITYSDK_OFFSET(0x1A834F80)
+#define FOUNDATION_DEBUGUTILS_ENSURE_OFFSET UNITYSDK_OFFSET(0x1B37AE50)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DebugUtils_TypeDefinitionIndex = 9170;
+	inline static constexpr unsigned int DebugUtils_TypeDefinitionIndex = 9133;
 
 	class DebugUtils : public ::System::Object
 	{

@@ -13,7 +13,7 @@ namespace UnityEngine::UIElements { class IPointerEvent; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerEventBase_1_TypeDefinitionIndex = 24541;
+	inline static constexpr unsigned int PointerEventBase_1_TypeDefinitionIndex = 25055;
 
 	template <typename T>
 	class PointerEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCONSTANT_GETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0xB8B0350)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCONSTANT_GETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x16E5AA90)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowConstant_TypeDefinitionIndex = 57135;
+	inline static constexpr unsigned int HollowConstant_TypeDefinitionIndex = 81941;
 
 	class HollowConstant : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 class MonoUITableScrollV2_TableScrollPluginLazyRecycle;
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginLazyRecycle___c__DisplayClass5_0_TypeDefinitionIndex = 64408;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginLazyRecycle___c__DisplayClass5_0_TypeDefinitionIndex = 54129;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginLazyRecycle___c__DisplayClass5_0
 {

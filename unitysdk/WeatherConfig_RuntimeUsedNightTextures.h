@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Texture; }
 
-inline static constexpr unsigned int WeatherConfig_RuntimeUsedNightTextures_TypeDefinitionIndex = 29005;
+inline static constexpr unsigned int WeatherConfig_RuntimeUsedNightTextures_TypeDefinitionIndex = 29524;
 
 struct alignas(8) WeatherConfig_RuntimeUsedNightTextures
 {

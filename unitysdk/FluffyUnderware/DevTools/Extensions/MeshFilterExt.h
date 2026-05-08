@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_MESHFILTEREXT_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x1A809030)
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_MESHFILTEREXT_PREPARENEWSHARED_OFFSET UNITYSDK_OFFSET(0x1A808E00)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_MESHFILTEREXT_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x1B2D1B40)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_MESHFILTEREXT_PREPARENEWSHARED_OFFSET UNITYSDK_OFFSET(0x1B2D1760)
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int MeshFilterExt_TypeDefinitionIndex = 25403;
+	inline static constexpr unsigned int MeshFilterExt_TypeDefinitionIndex = 25917;
 
 	class MeshFilterExt : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace FluffyUnderware::Curvy::Controllers { class CurvyController; }
 
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CONTROLLEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA972D0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CONTROLLEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B91AB20)
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int ControllerEvent_TypeDefinitionIndex = 36724;
+	inline static constexpr unsigned int ControllerEvent_TypeDefinitionIndex = 37268;
 
 	class ControllerEvent : public ::FluffyUnderware::DevTools::UnityEventEx_1<::FluffyUnderware::Curvy::Controllers::CurvyController*>
 	{

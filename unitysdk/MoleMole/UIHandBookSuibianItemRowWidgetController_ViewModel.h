@@ -1,20 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F57C3EEEB03201AF.h"
+#include "unitysdk/Class_1_F4299CC27263318B.h"
 
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xB2CDFB0)
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB2CE010)
+class Class_0_16E4307DCC419505_103;
+
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x15259520)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15259510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookSuibianItemRowWidgetController_ViewModel_TypeDefinitionIndex = 57725;
+	inline static constexpr unsigned int UIHandBookSuibianItemRowWidgetController_ViewModel_TypeDefinitionIndex = 60960;
 
-	class UIHandBookSuibianItemRowWidgetController_ViewModel : public ::Class_1_F57C3EEEB03201AF
+	class UIHandBookSuibianItemRowWidgetController_ViewModel : public ::Class_1_F4299CC27263318B
 	{
 	public:
-		::System::Void _ctor()
+		::System::Void _ctor(::Class_0_16E4307DCC419505_103* autoDisposePool)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_103*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
 		}
 
 		::System::Void OnCreateProperty()

@@ -29,15 +29,16 @@ namespace MoleMole::Config { class ConfigTurnback; }
 namespace MoleMole::Config { class ConfigUISettings; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Shader; }
 
-#define MOLEMOLE_CONFIG_CONFIGMISC__CTOR_OFFSET UNITYSDK_OFFSET(0xB91B1E0)
+#define MOLEMOLE_CONFIG_CONFIGMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x16B35540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_TypeDefinitionIndex = 79587;
+	inline static constexpr unsigned int ConfigMisc_TypeDefinitionIndex = 63723;
 
 	class ConfigMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -321,40 +322,42 @@ namespace MoleMole::Config
 		::System::Single LogicVelocityResetLerpDiff; // 0x734
 		::System::Single RightJoyStickRatio; // 0x738
 		::System::Single RightJoyStickThreshold; // 0x73C
-		::System::Boolean OpenMatCapFade; // 0x740
-		::System::Single MatCapFadeDuration; // 0x744
-		::System::Single MinRopeMixinTimeScale; // 0x748
-		::System::Boolean UseTestRopeDampingScale; // 0x74C
-		::System::Single TestYiXuanUIFadeoutDelay; // 0x750
-		::System::Boolean SpecialEffectForceCheckDestroyEveryFrame; // 0x754
-		::System::Single TeleportSelectDelay; // 0x758
-		::System::Boolean OpenTestGhost; // 0x75C
-		::System::Int32 MaxGhostCount; // 0x760
-		::System::Single GhostEchoTime; // 0x764
-		::System::Single GhostLifeTime; // 0x768
-		::System::Boolean NameEffectsMgrEnable; // 0x76C
-		::System::Boolean RoleHudUltGoHandleEnable; // 0x76D
-		::System::Boolean AttachPointsRegisterHandleEnable; // 0x76E
-		::System::Int32 ElementEffectiveResistThreshold; // 0x770
-		::System::Int32 ElementIneffectiveResistThreshold; // 0x774
-		::System::String* SolidProjectileTagName; // 0x778
-		::System::String* IndicatedLightModelPath; // 0x780
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Shader*>* Shaders; // 0x788
-		::System::Boolean isOpenTrafficArea; // 0x790
-		::System::Collections::Generic::List_1<::MoleMole::Traffic_Area*>* TrafficAreas; // 0x798
-		::System::Int32 CloudPlatformPerfectSwitchExtentFrame; // 0x7A0
-		::System::Collections::Generic::List_1<::System::String*>* PromoteMonsterEnableTags; // 0x7A8
-		::System::Single BigSceneReportPropertiesTime; // 0x7B0
-		::System::String* ReplaceTeamMatAniKey; // 0x7B8
-		::System::Single MonsterLevelHUDShowDistanceOnIdle; // 0x7C0
-		::System::Single MonsterLevelHUDHideDelayOnIdle; // 0x7C4
-		::System::Single MonsterLevelHUDShowDurationOnEnterBattle; // 0x7C8
-		::System::String* MonsterLevelHUDRedMatPath; // 0x7D0
-		::System::String* IgnisFatuusEffAttachPoint; // 0x7D8
-		::System::String* IgnisFatuusMatPropertyModifierKey; // 0x7E0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EntityType, ::System::String*>* EntityIgnisFatuusEffects; // 0x7E8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMisc_EffectMaterialControlConfig>* IgnisFatuusEffectMaterialControls; // 0x7F0
-		::System::Single SocialCirlceMsgCacheTime; // 0x7F8
+		::System::Single LeftJoyStickRatio; // 0x740
+		::System::Boolean OpenMatCapFade; // 0x744
+		::System::Single MatCapFadeDuration; // 0x748
+		::System::Single MinRopeMixinTimeScale; // 0x74C
+		::System::Boolean UseTestRopeDampingScale; // 0x750
+		::System::Single TestYiXuanUIFadeoutDelay; // 0x754
+		::System::Boolean SpecialEffectForceCheckDestroyEveryFrame; // 0x758
+		::System::Single TeleportSelectDelay; // 0x75C
+		::System::Boolean OpenTestGhost; // 0x760
+		::System::Int32 MaxGhostCount; // 0x764
+		::System::Single GhostEchoTime; // 0x768
+		::System::Single GhostLifeTime; // 0x76C
+		::System::Boolean NameEffectsMgrEnable; // 0x770
+		::System::Boolean RoleHudUltGoHandleEnable; // 0x771
+		::System::Boolean AttachPointsRegisterHandleEnable; // 0x772
+		::System::Int32 ElementEffectiveResistThreshold; // 0x774
+		::System::Int32 ElementIneffectiveResistThreshold; // 0x778
+		::System::Collections::Generic::HashSet_1<::System::String*>* ElementAllActorPropertyList; // 0x780
+		::System::String* SolidProjectileTagName; // 0x788
+		::System::String* IndicatedLightModelPath; // 0x790
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Shader*>* Shaders; // 0x798
+		::System::Boolean isOpenTrafficArea; // 0x7A0
+		::System::Collections::Generic::List_1<::MoleMole::Traffic_Area*>* TrafficAreas; // 0x7A8
+		::System::Int32 CloudPlatformPerfectSwitchExtentFrame; // 0x7B0
+		::System::Collections::Generic::List_1<::System::String*>* PromoteMonsterEnableTags; // 0x7B8
+		::System::Single BigSceneReportPropertiesTime; // 0x7C0
+		::System::String* ReplaceTeamMatAniKey; // 0x7C8
+		::System::Single MonsterLevelHUDShowDistanceOnIdle; // 0x7D0
+		::System::Single MonsterLevelHUDHideDelayOnIdle; // 0x7D4
+		::System::Single MonsterLevelHUDShowDurationOnEnterBattle; // 0x7D8
+		::System::String* MonsterLevelHUDRedMatPath; // 0x7E0
+		::System::String* IgnisFatuusEffAttachPoint; // 0x7E8
+		::System::String* IgnisFatuusMatPropertyModifierKey; // 0x7F0
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EntityType, ::System::String*>* EntityIgnisFatuusEffects; // 0x7F8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMisc_EffectMaterialControlConfig>* IgnisFatuusEffectMaterialControls; // 0x800
+		::System::Single SocialCirlceMsgCacheTime; // 0x808
 
 		::System::Void _ctor()
 		{

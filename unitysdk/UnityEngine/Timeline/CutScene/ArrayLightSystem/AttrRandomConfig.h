@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ATTRRANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A3B20)
+#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ATTRRANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1718D0)
 
 namespace UnityEngine::Timeline::CutScene::ArrayLightSystem
 {
-	inline static constexpr unsigned int AttrRandomConfig_TypeDefinitionIndex = 30375;
+	inline static constexpr unsigned int AttrRandomConfig_TypeDefinitionIndex = 30904;
 
 	class AttrRandomConfig : public ::System::Object
 	{

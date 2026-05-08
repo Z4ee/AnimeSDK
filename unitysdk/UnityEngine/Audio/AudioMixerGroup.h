@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_AUDIO_AUDIOMIXERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B582930)
+#define UNITYENGINE_AUDIO_AUDIOMIXERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2594B0)
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioMixerGroup_TypeDefinitionIndex = 9624;
+	inline static constexpr unsigned int AudioMixerGroup_TypeDefinitionIndex = 9635;
 
 	class AudioMixerGroup : public ::UnityEngine::Object
 	{

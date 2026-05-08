@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MonsterFunctionType_TypeDefinitionIndex = 43092;
+	inline static constexpr unsigned int MonsterFunctionType_TypeDefinitionIndex = 45952;
 
 	enum class MonsterFunctionType : ::System::Int32
 	{
-		Destruction = 2,
-		NPC = 3,
-		Summoned = 4,
 		Trap = 5,
+		Summoned = 4,
+		NPC = 3,
 		Monster = 1,
 		Other = 0,
+		Destruction = 2,
 	};
 }

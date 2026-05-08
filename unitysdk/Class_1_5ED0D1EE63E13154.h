@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-template <typename T1, typename T2> class Class_3_B60F6C2F126D2E2F_5;
+template <typename T1, typename T2> class Class_3_B60F6C2F126D2E26_3;
 
-inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_TypeDefinitionIndex = 25175;
+inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_TypeDefinitionIndex = 25704;
 
 class Class_1_5ED0D1EE63E13154 : public ::System::Object
 {

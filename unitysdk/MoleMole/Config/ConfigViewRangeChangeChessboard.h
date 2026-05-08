@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGVIEWRANGECHANGECHESSBOARD_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x10AA6B60)
-#define MOLEMOLE_CONFIG_CONFIGVIEWRANGECHANGECHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA6C40)
+#define MOLEMOLE_CONFIG_CONFIGVIEWRANGECHANGECHESSBOARD_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x183D0740)
+#define MOLEMOLE_CONFIG_CONFIGVIEWRANGECHANGECHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x183D0800)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewRangeChangeChessboard_TypeDefinitionIndex = 51817;
+	inline static constexpr unsigned int ConfigViewRangeChangeChessboard_TypeDefinitionIndex = 38923;
 
 	class ConfigViewRangeChangeChessboard : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

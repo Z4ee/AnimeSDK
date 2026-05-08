@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCShortcutWheelOperateType_TypeDefinitionIndex = 45959;
+	inline static constexpr unsigned int PCShortcutWheelOperateType_TypeDefinitionIndex = 74491;
 
 	enum class PCShortcutWheelOperateType : ::System::Int32
 	{
 		ReleaseTrigger = 2,
-		ClickTrigger = 1,
 		None = 0,
+		ClickTrigger = 1,
 	};
 }

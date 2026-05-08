@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_DIRECTORY_SEARCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19853AF0)
+#define SYSTEM_IO_DIRECTORY_SEARCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3A56E0)
 
 namespace System::IO
 {
@@ -14,8 +14,8 @@ namespace System::IO
 	class Directory_SearchData : public ::System::Object
 	{
 	public:
-		::System::String* fullPath; // 0x10
-		::System::String* userPath; // 0x18
+		::System::String* userPath; // 0x10
+		::System::String* fullPath; // 0x18
 		::System::IO::SearchOption searchOption; // 0x20
 
 		::System::Void _ctor(::System::String* fullPath, ::System::String* userPath, ::System::IO::SearchOption searchOption)

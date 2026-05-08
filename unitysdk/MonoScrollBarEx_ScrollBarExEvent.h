@@ -4,9 +4,9 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MONOSCROLLBAREX_SCROLLBAREXEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x7927AE0)
+#define MONOSCROLLBAREX_SCROLLBAREXEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF645D40)
 
-inline static constexpr unsigned int MonoScrollBarEx_ScrollBarExEvent_TypeDefinitionIndex = 46706;
+inline static constexpr unsigned int MonoScrollBarEx_ScrollBarExEvent_TypeDefinitionIndex = 66505;
 
 class MonoScrollBarEx_ScrollBarExEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::PointerEventData*>
 {

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int ContourOrientation_TypeDefinitionIndex = 29238;
+	inline static constexpr unsigned int ContourOrientation_TypeDefinitionIndex = 29757;
 
 	enum class ContourOrientation : ::System::Int32
 	{

@@ -8,11 +8,11 @@ namespace MoleMole::MiniGame::TartarusHounds::View { class PlayerExtraSheetConfi
 namespace MoleMole::MiniGame::TartarusHounds::View { class PlayerSheetConfigData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EE460)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1542AB60)
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int PLayerSheetConfig_TypeDefinitionIndex = 48011;
+	inline static constexpr unsigned int PLayerSheetConfig_TypeDefinitionIndex = 58141;
 
 	class PLayerSheetConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

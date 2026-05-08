@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SelectOnString_1_TypeDefinitionIndex = 27510;
+	inline static constexpr unsigned int SelectOnString_1_TypeDefinitionIndex = 28184;
 
 	template <typename T>
 	class SelectOnString_1 : public ::FlowCanvas::Nodes::FlowControlNode

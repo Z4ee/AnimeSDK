@@ -6,34 +6,34 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0A7AA0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A7AE0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__FROMLAYOUT_B__15_0_OFFSET UNITYSDK_OFFSET(0x1A0A7B10)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__FROMLAYOUT_B__15_1_OFFSET UNITYSDK_OFFSET(0x1A0A7B30)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__TOLAYOUT_B__14_0_OFFSET UNITYSDK_OFFSET(0x1A0A7AF0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF98320)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF98360)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__FROMLAYOUT_B__15_0_OFFSET UNITYSDK_OFFSET(0x1AF98390)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__FROMLAYOUT_B__15_1_OFFSET UNITYSDK_OFFSET(0x1AF983B0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON___C__TOLAYOUT_B__14_0_OFFSET UNITYSDK_OFFSET(0x1AF98370)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_LayoutJson___c_TypeDefinitionIndex = 28811;
+	inline static constexpr unsigned int InputControlLayout_LayoutJson___c_TypeDefinitionIndex = 29329;
 
 	class InputControlLayout_LayoutJson___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson___c** StaticGet___9()
-		{
-			return (::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson___c**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x21CA0);
-		}
 		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>** StaticGet___9__15_1()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x21CA8);
-		}
-		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>** StaticGet___9__15_0()
-		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x21CB0);
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x22810);
 		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::InputSystem::Utilities::InternedString>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::InputSystem::Utilities::InternedString>**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x21CB8);
+			return (::System::Func_2<::System::String*, ::UnityEngine::InputSystem::Utilities::InternedString>**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x22818);
+		}
+		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson___c** StaticGet___9()
+		{
+			return (::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson___c**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x22820);
+		}
+		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>** StaticGet___9__15_0()
+		{
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_LayoutJson___c_TypeDefinitionIndex)->GetStaticField(0x22828);
 		}
 
 		static ::System::Void _cctor()

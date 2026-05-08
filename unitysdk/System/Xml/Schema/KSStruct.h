@@ -5,7 +5,7 @@
 namespace System::Xml::Schema { class KeySequence; }
 namespace System::Xml::Schema { class LocatedActiveAxis; }
 
-#define SYSTEM_XML_SCHEMA_KSSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD0000)
+#define SYSTEM_XML_SCHEMA_KSSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73E5C0)
 
 namespace System::Xml::Schema
 {

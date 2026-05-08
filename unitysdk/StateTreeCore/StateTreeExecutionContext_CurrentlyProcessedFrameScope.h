@@ -7,12 +7,12 @@
 #include "unitysdk/UnrealTypes/RawPtr_1.h"
 #include "unitysdk/UnrealTypes/ReadOnlyRawPtr_1.h"
 
-#define STATETREECORE_STATETREEEXECUTIONCONTEXT_CURRENTLYPROCESSEDFRAMESCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x986B50)
-#define STATETREECORE_STATETREEEXECUTIONCONTEXT_CURRENTLYPROCESSEDFRAMESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x986B00)
+#define STATETREECORE_STATETREEEXECUTIONCONTEXT_CURRENTLYPROCESSEDFRAMESCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9BC050)
+#define STATETREECORE_STATETREEEXECUTIONCONTEXT_CURRENTLYPROCESSEDFRAMESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x9BC000)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeExecutionContext_CurrentlyProcessedFrameScope_TypeDefinitionIndex = 27760;
+	inline static constexpr unsigned int StateTreeExecutionContext_CurrentlyProcessedFrameScope_TypeDefinitionIndex = 28278;
 
 	struct alignas(8) StateTreeExecutionContext_CurrentlyProcessedFrameScope
 	{

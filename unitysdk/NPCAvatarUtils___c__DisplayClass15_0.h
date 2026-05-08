@@ -4,10 +4,10 @@
 
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 
-#define NPCAVATARUTILS___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x69D2C00)
-#define NPCAVATARUTILS___C__DISPLAYCLASS15_0__RENDERERFADEOPERATIONASYNC_G__ONTASKCALL_0_OFFSET UNITYSDK_OFFSET(0x69D2C10)
+#define NPCAVATARUTILS___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18268590)
+#define NPCAVATARUTILS___C__DISPLAYCLASS15_0__RENDERERFADEOPERATIONASYNC_G__ONTASKCALL_0_OFFSET UNITYSDK_OFFSET(0x182685A0)
 
-inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass15_0_TypeDefinitionIndex = 48384;
+inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass15_0_TypeDefinitionIndex = 59889;
 
 class NPCAvatarUtils___c__DisplayClass15_0 : public ::System::Object
 {

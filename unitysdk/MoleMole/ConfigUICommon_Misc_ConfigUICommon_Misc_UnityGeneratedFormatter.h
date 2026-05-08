@@ -20,58 +20,58 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB0ADFA0)
-#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB0ADFB0)
-#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB0AE720)
-#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB0AEBB0)
-#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB0AEB70)
+#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1103F030)
+#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1103F040)
+#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1103F790)
+#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1103FC00)
+#define MOLEMOLE_CONFIGUICOMMON_MISC_CONFIGUICOMMON_MISC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1103FBC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex = 42281;
+	inline static constexpr unsigned int ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex = 52814;
 
 	class ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigUICommon_Misc*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ItemRarityConfigs*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ItemRarityConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCB0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionRarityConfigs*>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionRarityConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCB8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::BattleEvaluteConfigs*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BattleEvaluteConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCC0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Share::EHollowQuestType, ::UnityEngine::Color>*>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Share::EHollowQuestType, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCC8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::AreaPositionConfig*>*>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::AreaPositionConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCD0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::DepositoryPageTabConfigs*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::DepositoryPageTabConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCD8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionConfigs*>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCE0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>*>** StaticGet_CachedSerializer8()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCE8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::DepositoryPageTabConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E710);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::RoleRarityIconConfigs*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::RoleRarityIconConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCF0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::RoleRarityIconConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E718);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Share::EHollowQuestType, ::UnityEngine::Color>*>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::Share::EHollowQuestType, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E720);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::AreaPositionConfig*>*>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::AreaPositionConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E728);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>*>** StaticGet_CachedSerializer8()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E730);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionConfigs*>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E738);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionRarityConfigs*>** StaticGet_CachedSerializer7()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CardOptionRarityConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E740);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::BattleEvaluteConfigs*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BattleEvaluteConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E748);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ItemRarityConfigs*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ItemRarityConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E750);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::ItemIconTweenConfig*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ItemIconTweenConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2DCF8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::ItemIconTweenConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Misc_ConfigUICommon_Misc_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2E758);
 		}
 
 		::System::Void _ctor()

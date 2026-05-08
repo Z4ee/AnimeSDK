@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_NAMEDVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8616A0)
+#define BEHAVIORDESIGNER_RUNTIME_NAMEDVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4284E0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int NamedVariable_TypeDefinitionIndex = 31207;
+	inline static constexpr unsigned int NamedVariable_TypeDefinitionIndex = 31736;
 
 	class NamedVariable : public ::BehaviorDesigner::Runtime::GenericVariable
 	{

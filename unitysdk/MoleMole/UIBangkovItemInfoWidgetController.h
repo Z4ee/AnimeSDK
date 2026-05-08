@@ -1,0 +1,454 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_01618AD0437C8486.h"
+#include "unitysdk/Enum_3_81A3942BCC6E42B5.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/InputLogicEventType.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/Struct_2_3659D99D9E0DCBB9_3.h"
+
+class Class_2_208CC9941471731A_35;
+class Class_2_79F6D62CE30E3F8E_176;
+class Class_2_D1CED082B4F1459A;
+class Class_3_7A267C1006DF3527;
+class Class_3_C3F0E3B5AB5977AE_3;
+namespace MoleMole { class UIBangkovInfoRowWidgetController; }
+namespace MoleMole { class UIBangkovItemInfoWidgetController_Context; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIFadeConfig; }
+namespace MoleMole { class UIGeneralButtonController; }
+namespace System { class Action; }
+namespace System { class EventArgs; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine::Events { class UnityAction; }
+
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ADDPROPERTYROW_OFFSET UNITYSDK_OFFSET(0x14E689B0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_CANSPLITCURRENTITEM_OFFSET UNITYSDK_OFFSET(0x14E64250)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_CLOSEALLPROPERTYROWS_OFFSET UNITYSDK_OFFSET(0x14E65720)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_DIFFERBUTTONSHOW_OFFSET UNITYSDK_OFFSET(0x14E64670)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_FORMATPROPERTYVALUEFALLBACK_OFFSET UNITYSDK_OFFSET(0x14E68880)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_FORMATZKPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x14E68BB0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETBUTTONMONOINPUTKEY_OFFSET UNITYSDK_OFFSET(0x14E642D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETMENUINTERACTACTION_OFFSET UNITYSDK_OFFSET(0x14E63FA0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEINANIM_OFFSET UNITYSDK_OFFSET(0x14E63E30)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x14E63EF0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETREWARDPREVIEW_OFFSET UNITYSDK_OFFSET(0x14E68600)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GET_ITEMINFOSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x14E636D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ISGIFTBOXBYITEMCLASS_OFFSET UNITYSDK_OFFSET(0x14E66990)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ISTRANSITIONVALID_OFFSET UNITYSDK_OFFSET(0x14E63370)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_MOVEITEMTOBAG_OFFSET UNITYSDK_OFFSET(0x14E699C0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONBANGKOVITEMUSECDCHANGED_OFFSET UNITYSDK_OFFSET(0x14E6B350)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKDESTROY_OFFSET UNITYSDK_OFFSET(0x14E69210)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKEQUIP_OFFSET UNITYSDK_OFFSET(0x14E69F00)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKMOVETOCONTAINER_OFFSET UNITYSDK_OFFSET(0x14E6A080)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKOPEN_OFFSET UNITYSDK_OFFSET(0x14E6AB60)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPICKUP_OFFSET UNITYSDK_OFFSET(0x14E68D50)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPUTBAG_OFFSET UNITYSDK_OFFSET(0x14E69E00)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPUTSAFEBOX_OFFSET UNITYSDK_OFFSET(0x14E69E80)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPUTSTORAGE_OFFSET UNITYSDK_OFFSET(0x14E69940)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKREPAIR_OFFSET UNITYSDK_OFFSET(0x14E6AE90)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKSELL_OFFSET UNITYSDK_OFFSET(0x14E69680)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKSPLIT_OFFSET UNITYSDK_OFFSET(0x14E6A420)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKUSEITEM_OFFSET UNITYSDK_OFFSET(0x14E6A870)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E65560)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x14E63D00)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONKOVBAGSYNCVALIDATESLOTITEM_OFFSET UNITYSDK_OFFSET(0x14E65950)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x14E64E20)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14E655F0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E63730)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14E63C10)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_OPENSPLITDIALOG_OFFSET UNITYSDK_OFFSET(0x14E6A6B0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_PLAYDIRECTIONALFADEIN_OFFSET UNITYSDK_OFFSET(0x14E63620)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_PLAYDIRECTIONALFADEOUT_OFFSET UNITYSDK_OFFSET(0x14E65480)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_PLAYREFRESHANIMDEFERRED_OFFSET UNITYSDK_OFFSET(0x14E65400)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHBASEINFO_OFFSET UNITYSDK_OFFSET(0x14E65DB0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHBUTTONS_OFFSET UNITYSDK_OFFSET(0x14E666D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x14E633C0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHEQUIPPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x14E67460)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHEXPANDAREA_OFFSET UNITYSDK_OFFSET(0x14E65B20)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHQUALITYVIEW_OFFSET UNITYSDK_OFFSET(0x14E66DB0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHREWARDINFO_OFFSET UNITYSDK_OFFSET(0x14E66EE0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHSKILLDESC_OFFSET UNITYSDK_OFFSET(0x14E683D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHSTACKINFO_OFFSET UNITYSDK_OFFSET(0x14E66BA0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHUSEITEMBTNINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x14E64C70)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x14E65190)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_SETBUTTONMONOINPUTKEY_OFFSET UNITYSDK_OFFSET(0x14E644D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_SETQUALITYBGFORANIM_OFFSET UNITYSDK_OFFSET(0x14E652D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_TRYGETBAGINDEX_OFFSET UNITYSDK_OFFSET(0x14E68CE0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_TRYREGISTERKOVBAGSLOTSYNCWATCHER_OFFSET UNITYSDK_OFFSET(0x14E65210)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14E6B3A0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKDESTROY_B__61_0_OFFSET UNITYSDK_OFFSET(0x14E6B480)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKDESTROY_B__61_2_OFFSET UNITYSDK_OFFSET(0x14E6B4E0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKOPEN_B__73_0_OFFSET UNITYSDK_OFFSET(0x14E6B5A0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKSELL_B__62_0_OFFSET UNITYSDK_OFFSET(0x14E6B540)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEINANIM_OFFSET UNITYSDK_OFFSET(0x14E6B5B0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x14E6B5C0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E6B5D0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x14E6B660)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x14E6B690)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14E6B730)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E6B7C0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14E6B850)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangkovItemInfoWidgetController_TypeDefinitionIndex = 77021;
+
+	class UIBangkovItemInfoWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		// static const ::System::Int32 ItemClassGiftBox = 0x7C; // 0x0
+		// static const ::System::Int32 MaxButtonCount = 0x5; // 0x0
+		// static const ::System::Int32 MenuInteractUseItem = 0x3F2; // 0x0
+		::Class_2_D1CED082B4F1459A* _bangkovModel; // 0x2B8
+		::System::Int32 packageID; // 0x2C0
+		::Class_2_79F6D62CE30E3F8E_176* _view; // 0x2C8
+		::MoleMole::UIBangkovItemInfoWidgetController_Context* _context; // 0x2D0
+		::System::Collections::Generic::List_1<::MoleMole::UIBangkovInfoRowWidgetController*>* _propertyRowControllers; // 0x2D8
+		::Il2CppArray<::MoleMole::UIGeneralButtonController*>* _btnSlots; // 0x2E0
+		::MoleMole::UIGeneralButtonController* _useItemBtn; // 0x2E8
+		::System::Boolean _isRefresh; // 0x2F0
+		::System::Boolean _durabilityLessZero; // 0x2F1
+		::System::Int32 _transitionGen; // 0x2F4
+		::System::Int32 _sellPrice; // 0x2F8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_ItemInfoSlotIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GET_ITEMINFOSLOTINDEX_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::String* GetOverrideFadeInAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_81A3942BCC6E42B5 fromCtrl)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_81A3942BCC6E42B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEINANIM_OFFSET))(this, fadeData, fromCtrl);
+		}
+
+		::System::String* GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_81A3942BCC6E42B5 nextPage)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_81A3942BCC6E42B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET))(this, fadeData, nextPage);
+		}
+
+		::UnityEngine::Events::UnityAction* GetMenuInteractAction(::System::Int32 menuInteractId)
+		{
+			return ((::UnityEngine::Events::UnityAction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETMENUINTERACTACTION_OFFSET))(this, menuInteractId);
+		}
+
+		::MoleMole::InputLogicEventType GetButtonMonoInputKey(::System::Int32 menuInteractId)
+		{
+			return ((::MoleMole::InputLogicEventType(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETBUTTONMONOINPUTKEY_OFFSET))(this, menuInteractId);
+		}
+
+		::System::Void SetButtonMonoInputKey(::MoleMole::UIGeneralButtonController* button, ::System::Int32 menuInteractId)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_SETBUTTONMONOINPUTKEY_OFFSET))(this, button, menuInteractId);
+		}
+
+		::System::Void DifferButtonShow(::System::Int32 menuID, ::System::Int32 packageID, ::Enum_3_01618AD0437C8486 type)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Enum_3_01618AD0437C8486))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_DIFFERBUTTONSHOW_OFFSET))(this, menuID, packageID, type);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::System::Single>* PlayRefreshAnimDeferred()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_PLAYREFRESHANIMDEFERRED_OFFSET))(this);
+		}
+
+		::System::Void RefreshData(::MoleMole::UIBangkovItemInfoWidgetController_Context* newCtx, ::System::Boolean playRefreshAnim)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIBangkovItemInfoWidgetController_Context*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHDATA_OFFSET))(this, newCtx, playRefreshAnim);
+		}
+
+		::System::Int32 PlayDirectionalFadeOut(::System::Action* onComplete)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_PLAYDIRECTIONALFADEOUT_OFFSET))(this, onComplete);
+		}
+
+		::System::Boolean IsTransitionValid(::System::Int32 gen)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ISTRANSITIONVALID_OFFSET))(this, gen);
+		}
+
+		::System::Void PlayDirectionalFadeIn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_PLAYDIRECTIONALFADEIN_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void CloseAllPropertyRows()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_CLOSEALLPROPERTYROWS_OFFSET))(this);
+		}
+
+		::System::Void TryRegisterKovBagSlotSyncWatcher()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_TRYREGISTERKOVBAGSLOTSYNCWATCHER_OFFSET))(this);
+		}
+
+		::System::Void OnKovBagSyncValidateSlotItem(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONKOVBAGSYNCVALIDATESLOTITEM_OFFSET))(this, args);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		static ::System::Boolean IsGiftBoxByItemClass(::System::Int32 itemId)
+		{
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ISGIFTBOXBYITEMCLASS_OFFSET))(itemId);
+		}
+
+		::System::Void RefreshBaseInfo(::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHBASEINFO_OFFSET))(this, itemId);
+		}
+
+		::System::Void RefreshStackInfo(::Class_2_208CC9941471731A_35* zkItemData, ::Class_3_7A267C1006DF3527* kovItem)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_35*, ::Class_3_7A267C1006DF3527*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHSTACKINFO_OFFSET))(this, zkItemData, kovItem);
+		}
+
+		::System::Void RefreshQualityView(::System::Int32 quality)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHQUALITYVIEW_OFFSET))(this, quality);
+		}
+
+		::System::Void SetQualityBgForAnim(::System::Int32 quality)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_SETQUALITYBGFORANIM_OFFSET))(this, quality);
+		}
+
+		::System::Void RefreshExpandArea(::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHEXPANDAREA_OFFSET))(this, itemId);
+		}
+
+		::System::Collections::Generic::List_1<::Struct_2_3659D99D9E0DCBB9_3>* GetRewardPreview(::System::Int32 rewardItemId)
+		{
+			return ((::System::Collections::Generic::List_1<::Struct_2_3659D99D9E0DCBB9_3>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_GETREWARDPREVIEW_OFFSET))(this, rewardItemId);
+		}
+
+		::System::Void RefreshRewardInfo(::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHREWARDINFO_OFFSET))(this, itemId);
+		}
+
+		::System::Void RefreshEquipPropertyList(::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHEQUIPPROPERTYLIST_OFFSET))(this, itemId);
+		}
+
+		::System::Void AddPropertyRow(::System::String* nameText, ::System::String* valueText)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ADDPROPERTYROW_OFFSET))(this, nameText, valueText);
+		}
+
+		static ::System::String* FormatZKPropertyValue(::System::Single value, ::System::String* showForm)
+		{
+			return ((::System::String*(*)(::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_FORMATZKPROPERTYVALUE_OFFSET))(value, showForm);
+		}
+
+		static ::System::String* FormatPropertyValueFallback(::System::Int32 value, ::System::Int32 enlarge, ::System::String* showForm)
+		{
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_FORMATPROPERTYVALUEFALLBACK_OFFSET))(value, enlarge, showForm);
+		}
+
+		::System::Void RefreshSkillDesc(::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHSKILLDESC_OFFSET))(this, itemId);
+		}
+
+		::System::Void RefreshButtons(::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHBUTTONS_OFFSET))(this, itemId);
+		}
+
+		::System::Boolean TryGetBagIndex(::Class_3_C3F0E3B5AB5977AE_3*& bagIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_3_C3F0E3B5AB5977AE_3*&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_TRYGETBAGINDEX_OFFSET))(this, bagIndex);
+		}
+
+		::System::Void OnClickPickUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPICKUP_OFFSET))(this);
+		}
+
+		::System::Void OnClickDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnClickSell()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKSELL_OFFSET))(this);
+		}
+
+		::System::Void OnClickPutStorage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPUTSTORAGE_OFFSET))(this);
+		}
+
+		::System::Void OnClickPutBag()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPUTBAG_OFFSET))(this);
+		}
+
+		::System::Void OnClickPutSafeBox()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKPUTSAFEBOX_OFFSET))(this);
+		}
+
+		::System::Void OnClickEquip()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKEQUIP_OFFSET))(this);
+		}
+
+		::System::Void MoveItemToBag(::Enum_3_01618AD0437C8486 targetBagType, ::System::String* fullTipsKey, ::System::UInt32 slotId)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_01618AD0437C8486, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_MOVEITEMTOBAG_OFFSET))(this, targetBagType, fullTipsKey, slotId);
+		}
+
+		::System::Void OnClickMoveToContainer()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKMOVETOCONTAINER_OFFSET))(this);
+		}
+
+		::System::Boolean CanSplitCurrentItem()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_CANSPLITCURRENTITEM_OFFSET))(this);
+		}
+
+		::System::Void OnClickSplit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKSPLIT_OFFSET))(this);
+		}
+
+		::System::Void OpenSplitDialog(::System::Int32 itemId, ::System::String* itemName, ::System::Int32 currentNum, ::System::Int32 maxSplitNum, ::System::Action_1<::System::Int32>* onConfirm)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_OPENSPLITDIALOG_OFFSET))(this, itemId, itemName, currentNum, maxSplitNum, onConfirm);
+		}
+
+		::System::Void OnClickUseItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKUSEITEM_OFFSET))(this);
+		}
+
+		::System::Void OnClickOpen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKOPEN_OFFSET))(this);
+		}
+
+		::System::Void OnClickRepair()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONCLICKREPAIR_OFFSET))(this);
+		}
+
+		::System::Void RefreshUseItemBtnInteractable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_REFRESHUSEITEMBTNINTERACTABLE_OFFSET))(this);
+		}
+
+		::System::Void OnBangkovItemUseCdChanged(::System::EventArgs* _)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER_ONBANGKOVITEMUSECDCHANGED_OFFSET))(this, _);
+		}
+
+		::System::Void _OnClickDestroy_b__61_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKDESTROY_B__61_0_OFFSET))(this);
+		}
+
+		::System::Void _OnClickDestroy_b__61_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKDESTROY_B__61_2_OFFSET))(this);
+		}
+
+		::System::Void _OnClickSell_b__62_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKSELL_B__62_0_OFFSET))(this);
+		}
+
+		::System::Void _OnClickOpen_b__73_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER__ONCLICKOPEN_B__73_0_OFFSET))(this);
+		}
+
+		::System::String* __base_GetOverrideFadeInAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_81A3942BCC6E42B5 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_81A3942BCC6E42B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEINANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::String* __base_GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_81A3942BCC6E42B5 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_81A3942BCC6E42B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

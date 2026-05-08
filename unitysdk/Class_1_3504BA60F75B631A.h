@@ -5,9 +5,9 @@
 class Class_1_3056A65E74601914;
 namespace MoleMole { class MonoGamepadNavigatableList; }
 
-#define CLASS_1_3504BA60F75B631A__CTOR_OFFSET UNITYSDK_OFFSET(0x8ACB330)
+#define CLASS_1_3504BA60F75B631A__CTOR_OFFSET UNITYSDK_OFFSET(0x18192430)
 
-inline static constexpr unsigned int Class_1_3504BA60F75B631A_TypeDefinitionIndex = 52498;
+inline static constexpr unsigned int Class_1_3504BA60F75B631A_TypeDefinitionIndex = 78996;
 
 class Class_1_3504BA60F75B631A : public ::System::Object
 {

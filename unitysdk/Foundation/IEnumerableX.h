@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEnumerableX_TypeDefinitionIndex = 7867;
+	inline static constexpr unsigned int IEnumerableX_TypeDefinitionIndex = 8317;
 
 	class IEnumerableX : public ::System::Object
 	{

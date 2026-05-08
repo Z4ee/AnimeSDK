@@ -7,7 +7,7 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IVisualTreeUpdater_TypeDefinitionIndex = 24467;
+	inline static constexpr unsigned int IVisualTreeUpdater_TypeDefinitionIndex = 24981;
 
 	class IVisualTreeUpdater
 	{

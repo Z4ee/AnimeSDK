@@ -4,7 +4,7 @@
 
 namespace Utf8Json::Internal::DoubleConversion
 {
-	inline static constexpr unsigned int UnionDoubleULong_TypeDefinitionIndex = 83963;
+	inline static constexpr unsigned int UnionDoubleULong_TypeDefinitionIndex = 85691;
 
 	struct alignas(1) UnionDoubleULong
 	{

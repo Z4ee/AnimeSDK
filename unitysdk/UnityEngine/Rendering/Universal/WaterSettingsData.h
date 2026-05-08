@@ -7,11 +7,11 @@
 
 namespace UnityEngine { class Cubemap; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19EDFE00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B373AF0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterSettingsData_TypeDefinitionIndex = 29425;
+	inline static constexpr unsigned int WaterSettingsData_TypeDefinitionIndex = 29944;
 
 	class WaterSettingsData : public ::UnityEngine::ScriptableObject
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_C219469667DBAA6A_Class_1_0D917C9760BF007D;
+class Class_2_C219469667DBAA6A_Class_1_42788263D0E1130D;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define CLASS_2_C219469667DBAA6A_CLASS_1_260FA82F880DE40F_METHOD_1_70C53C44D861ADA9_OFFSET UNITYSDK_OFFSET(0x8AAC490)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_260FA82F880DE40F__CTOR_OFFSET UNITYSDK_OFFSET(0x8AAC480)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_260FA82F880DE40F_METHOD_1_70C53C44D861ADA9_OFFSET UNITYSDK_OFFSET(0x121CD520)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_260FA82F880DE40F__CTOR_OFFSET UNITYSDK_OFFSET(0x121CD510)
 
-inline static constexpr unsigned int Class_2_C219469667DBAA6A_Class_1_260FA82F880DE40F_TypeDefinitionIndex = 39306;
+inline static constexpr unsigned int Class_2_C219469667DBAA6A_Class_1_260FA82F880DE40F_TypeDefinitionIndex = 59404;
 
 class Class_2_C219469667DBAA6A_Class_1_260FA82F880DE40F : public ::System::Object
 {
 public:
 	::System::Action_3<::Foundation::AssetPath, ::System::Int32, ::System::Int32>* Field_1_1; // 0x10
-	::Class_2_C219469667DBAA6A_Class_1_0D917C9760BF007D* Field_1_0; // 0x18
+	::Class_2_C219469667DBAA6A_Class_1_42788263D0E1130D* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

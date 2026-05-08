@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x6F6C7C0)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x6F6C910)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16B181A0)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x16B182D0)
 
 namespace Code::Logic::Canvas::LevelDesign
 {
-	inline static constexpr unsigned int LDMakeVector3_TypeDefinitionIndex = 38806;
+	inline static constexpr unsigned int LDMakeVector3_TypeDefinitionIndex = 63787;
 
 	class LDMakeVector3 : public ::FlowCanvas::FlowNode
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_WPGRAPHSECTIONASSETSO_SECTIONPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x69DDA30)
+#define NPCCROWD_AI_WPGRAPHSECTIONASSETSO_SECTIONPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD285D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WPGraphSectionAssetSO_SectionPathData_TypeDefinitionIndex = 45681;
+	inline static constexpr unsigned int WPGraphSectionAssetSO_SectionPathData_TypeDefinitionIndex = 41543;
 
 	class WPGraphSectionAssetSO_SectionPathData : public ::System::Object
 	{

@@ -9,26 +9,26 @@ namespace MoleMole { class MultipleVideoPlayerManager; }
 namespace MoleMole { class UIFullScreenVideoV2PopInNormalWindowController; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB8A8110)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A82B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xB8A82D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0xB8A8950)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0xB8A87A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_3_OFFSET UNITYSDK_OFFSET(0xB8A8880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16E52E60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x16E52FE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16E53020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x16E537D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0x16E53580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_3_OFFSET UNITYSDK_OFFSET(0x16E53640)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_PlayFullScreenVideo_TypeDefinitionIndex = 39622;
+	inline static constexpr unsigned int LD_PlayFullScreenVideo_TypeDefinitionIndex = 58753;
 
 	class LD_PlayFullScreenVideo : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _loop; // 0xA8
-		::FlowCanvas::FlowOutput* _stopOut; // 0xB0
+		::MoleMole::UIFullScreenVideoV2PopInNormalWindowController* _ctrler; // 0xA8
+		::FlowCanvas::FlowOutput* _finish; // 0xB0
 		::FlowCanvas::FlowOutput* _out; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::String*>* _videoPath; // 0xC0
-		::FlowCanvas::FlowOutput* _finish; // 0xC8
-		::MoleMole::UIFullScreenVideoV2PopInNormalWindowController* _ctrler; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _loop; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* _videoPath; // 0xC8
+		::FlowCanvas::FlowOutput* _stopOut; // 0xD0
 
 		::System::Void _ctor()
 		{

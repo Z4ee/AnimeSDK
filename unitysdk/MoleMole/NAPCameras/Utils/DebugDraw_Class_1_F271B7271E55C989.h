@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_NAPCAMERAS_UTILS_DEBUGDRAW_CLASS_1_F271B7271E55C989__CTOR_OFFSET UNITYSDK_OFFSET(0x6EBEB30)
+#define MOLEMOLE_NAPCAMERAS_UTILS_DEBUGDRAW_CLASS_1_F271B7271E55C989__CTOR_OFFSET UNITYSDK_OFFSET(0x10E4A540)
 
 namespace MoleMole::NAPCameras::Utils
 {
-	inline static constexpr unsigned int DebugDraw_Class_1_F271B7271E55C989_TypeDefinitionIndex = 78553;
+	inline static constexpr unsigned int DebugDraw_Class_1_F271B7271E55C989_TypeDefinitionIndex = 69873;
 
 	class DebugDraw_Class_1_F271B7271E55C989 : public ::System::Object
 	{

@@ -6,19 +6,19 @@
 namespace MoleMole { class UIActivityAetherXRolePoolDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x987B2E0)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x987B2F0)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x987B4D0)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A89E40)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x15A89E50)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x15A8A030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityAetherXRolePoolDialogPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 53442;
+	inline static constexpr unsigned int UIActivityAetherXRolePoolDialogPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 75007;
 
 	class UIActivityAetherXRolePoolDialogPopWindowController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController* __4__this; // 0x10
-		::System::Action* __9__2; // 0x18
+		::System::Action* __9__2; // 0x10
+		::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController* __4__this; // 0x18
 		::System::Single fadeDuration; // 0x20
 
 		::System::Void _ctor()

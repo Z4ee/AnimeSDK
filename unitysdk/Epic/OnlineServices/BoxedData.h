@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_BOXEDDATA_GET_DATA_OFFSET UNITYSDK_OFFSET(0x19269960)
-#define EPIC_ONLINESERVICES_BOXEDDATA_SET_DATA_OFFSET UNITYSDK_OFFSET(0x19269970)
-#define EPIC_ONLINESERVICES_BOXEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19269980)
+#define EPIC_ONLINESERVICES_BOXEDDATA_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1A1D0D90)
+#define EPIC_ONLINESERVICES_BOXEDDATA_SET_DATA_OFFSET UNITYSDK_OFFSET(0x1A1D0DA0)
+#define EPIC_ONLINESERVICES_BOXEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D0DB0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int BoxedData_TypeDefinitionIndex = 32742;
+	inline static constexpr unsigned int BoxedData_TypeDefinitionIndex = 33278;
 
 	class BoxedData : public ::System::Object
 	{

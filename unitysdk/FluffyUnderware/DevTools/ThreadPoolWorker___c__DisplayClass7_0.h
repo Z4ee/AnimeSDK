@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_THREADPOOLWORKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80EAB0)
-#define FLUFFYUNDERWARE_DEVTOOLS_THREADPOOLWORKER___C__DISPLAYCLASS7_0__QUEUEWORKITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1A80EF40)
+#define FLUFFYUNDERWARE_DEVTOOLS_THREADPOOLWORKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D7650)
+#define FLUFFYUNDERWARE_DEVTOOLS_THREADPOOLWORKER___C__DISPLAYCLASS7_0__QUEUEWORKITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1B2D7B20)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int ThreadPoolWorker___c__DisplayClass7_0_TypeDefinitionIndex = 25372;
+	inline static constexpr unsigned int ThreadPoolWorker___c__DisplayClass7_0_TypeDefinitionIndex = 25886;
 
 	class ThreadPoolWorker___c__DisplayClass7_0 : public ::System::Object
 	{

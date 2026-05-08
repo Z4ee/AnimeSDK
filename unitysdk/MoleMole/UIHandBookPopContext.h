@@ -3,13 +3,13 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIHandBookPopWindowController_EHandBookTab.h"
 
-#define MOLEMOLE_UIHANDBOOKPOPCONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x9D1EF40)
-#define MOLEMOLE_UIHANDBOOKPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9D1EFC0)
-#define MOLEMOLE_UIHANDBOOKPOPCONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x9D1EFD0)
+#define MOLEMOLE_UIHANDBOOKPOPCONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x149F8760)
+#define MOLEMOLE_UIHANDBOOKPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x149F87C0)
+#define MOLEMOLE_UIHANDBOOKPOPCONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x149F87D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookPopContext_TypeDefinitionIndex = 68092;
+	inline static constexpr unsigned int UIHandBookPopContext_TypeDefinitionIndex = 46789;
 
 	class UIHandBookPopContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -8,27 +8,27 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XftWeapon { class SplineControlPoint; }
 
-#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_BONESHAPE_OFFSET UNITYSDK_OFFSET(0x1A5D8500)
-#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_CUSTOMSHAPE_OFFSET UNITYSDK_OFFSET(0x1A5D7EC0)
-#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_INNERGETINTPLUSONE_OFFSET UNITYSDK_OFFSET(0x1A5D8E30)
-#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A5D7A10)
-#define XFTWEAPON_BSPLINE_EVALUATE_BONESHAPE_OFFSET UNITYSDK_OFFSET(0x1A5D8440)
-#define XFTWEAPON_BSPLINE_EVALUATE_CUSTOMSHAPE_OFFSET UNITYSDK_OFFSET(0x1A5D7E00)
-#define XFTWEAPON_BSPLINE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5D7950)
-#define XFTWEAPON_BSPLINE_SAMPLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1A5D7530)
-#define XFTWEAPON_BSPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D8E50)
+#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_BONESHAPE_OFFSET UNITYSDK_OFFSET(0x1B16CDE0)
+#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_CUSTOMSHAPE_OFFSET UNITYSDK_OFFSET(0x1B16C780)
+#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_INNERGETINTPLUSONE_OFFSET UNITYSDK_OFFSET(0x1B16D710)
+#define XFTWEAPON_BSPLINE_EVALUATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B16C2A0)
+#define XFTWEAPON_BSPLINE_EVALUATE_BONESHAPE_OFFSET UNITYSDK_OFFSET(0x1B16CD20)
+#define XFTWEAPON_BSPLINE_EVALUATE_CUSTOMSHAPE_OFFSET UNITYSDK_OFFSET(0x1B16C6C0)
+#define XFTWEAPON_BSPLINE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B16C1E0)
+#define XFTWEAPON_BSPLINE_SAMPLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1B16BDC0)
+#define XFTWEAPON_BSPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B16D730)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int BSpline_TypeDefinitionIndex = 37129;
+	inline static constexpr unsigned int BSpline_TypeDefinitionIndex = 37673;
 
 	class BSpline : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>>* tempList; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>>* tempList_customShape; // 0x18
-		::System::Collections::Generic::List_1<::XftWeapon::SplineControlPoint*>* _pointsCache; // 0x20
-		::System::Collections::Generic::List_1<::XftWeapon::SplineControlPoint*>* tempList_boneShape; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>>* tempList_customShape; // 0x10
+		::System::Collections::Generic::List_1<::XftWeapon::SplineControlPoint*>* _pointsCache; // 0x18
+		::System::Collections::Generic::List_1<::XftWeapon::SplineControlPoint*>* tempList_boneShape; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>>* tempList; // 0x28
 
 		::System::Void _ctor()
 		{

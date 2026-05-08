@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ShoppingMallBaseContextBase.h"
 
-class Class_0_16E4307DCC419505_133;
+class Class_0_16E4307DCC419505_196;
 namespace MoleMole { class MonoGamepadRegion; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SHOPPINGMALLCURRENCYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB934220)
+#define MOLEMOLE_SHOPPINGMALLCURRENCYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1585CEA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShoppingMallCurrencyContext_TypeDefinitionIndex = 67308;
+	inline static constexpr unsigned int ShoppingMallCurrencyContext_TypeDefinitionIndex = 45055;
 
 	class ShoppingMallCurrencyContext : public ::MoleMole::ShoppingMallBaseContextBase
 	{
 	public:
-		::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_133*>* goods, ::MoleMole::MonoGamepadRegion* region, ::System::Action_1<::System::Int32>* onClick)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_196*>* goods, ::MoleMole::MonoGamepadRegion* region, ::System::Action_1<::System::Int32>* onClick)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_133*>*, ::MoleMole::MonoGamepadRegion*, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SHOPPINGMALLCURRENCYCONTEXT__CTOR_OFFSET))(this, goods, region, onClick);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_196*>*, ::MoleMole::MonoGamepadRegion*, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SHOPPINGMALLCURRENCYCONTEXT__CTOR_OFFSET))(this, goods, region, onClick);
 		}
 	};
 }

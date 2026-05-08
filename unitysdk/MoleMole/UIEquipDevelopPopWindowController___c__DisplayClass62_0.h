@@ -5,12 +5,12 @@
 class MatAnimation;
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADCB510)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS62_0__ONLEVELUPMATCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xADCB520)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EE3DB0)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS62_0__ONLEVELUPMATCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x15EE3DC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c__DisplayClass62_0_TypeDefinitionIndex = 71930;
+	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c__DisplayClass62_0_TypeDefinitionIndex = 44464;
 
 	class UIEquipDevelopPopWindowController___c__DisplayClass62_0 : public ::System::Object
 	{

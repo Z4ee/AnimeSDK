@@ -7,20 +7,20 @@ class Class_2_D02DABCF41CDA271;
 namespace MoleMole { class UIFriendChatCommonInfoUIWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIFRIENDCHATCOMMONINFOUIWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0F9E40)
-#define MOLEMOLE_UIFRIENDCHATCOMMONINFOUIWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITCIRCLEPLAYERICONBTN_B__0_OFFSET UNITYSDK_OFFSET(0xC0F9E50)
-#define MOLEMOLE_UIFRIENDCHATCOMMONINFOUIWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITCIRCLEPLAYERICONBTN_B__1_OFFSET UNITYSDK_OFFSET(0xC0FA380)
+#define MOLEMOLE_UIFRIENDCHATCOMMONINFOUIWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1699AC30)
+#define MOLEMOLE_UIFRIENDCHATCOMMONINFOUIWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITCIRCLEPLAYERICONBTN_B__0_OFFSET UNITYSDK_OFFSET(0x1699AC40)
+#define MOLEMOLE_UIFRIENDCHATCOMMONINFOUIWIDGETCONTROLLER___C__DISPLAYCLASS16_0__INITCIRCLEPLAYERICONBTN_B__1_OFFSET UNITYSDK_OFFSET(0x1699B0C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatCommonInfoUIWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 69965;
+	inline static constexpr unsigned int UIFriendChatCommonInfoUIWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 81585;
 
 	class UIFriendChatCommonInfoUIWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::Class_2_D02DABCF41CDA271*, ::System::Boolean>* __9__1; // 0x10
-		::MoleMole::UIFriendChatCommonInfoUIWidgetController* __4__this; // 0x18
-		::Class_1_BE6BF7909AD9D940* brief; // 0x20
+		::MoleMole::UIFriendChatCommonInfoUIWidgetController* __4__this; // 0x10
+		::Class_1_BE6BF7909AD9D940* brief; // 0x18
+		::System::Func_2<::Class_2_D02DABCF41CDA271*, ::System::Boolean>* __9__1; // 0x20
 
 		::System::Void _ctor()
 		{

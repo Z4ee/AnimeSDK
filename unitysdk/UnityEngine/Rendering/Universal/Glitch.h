@@ -11,13 +11,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector4Parameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GLITCH_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x17779FE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GLITCH_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1777A100)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GLITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1777A140)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GLITCH_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x18FE6F30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GLITCH_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x18FE7050)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GLITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE7090)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int Glitch_TypeDefinitionIndex = 29599;
+	inline static constexpr unsigned int Glitch_TypeDefinitionIndex = 30127;
 
 	class Glitch : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A3ADDA0)
-#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A3ADE80)
-#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A3AE120)
-#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AE390)
+#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B0BCBC0)
+#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1B0BCC00)
+#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1B0BCEA0)
+#define NODECANVAS_TASKS_CONDITIONS_ISINFRONT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BD180)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int IsInFront2D_TypeDefinitionIndex = 26564;
+	inline static constexpr unsigned int IsInFront2D_TypeDefinitionIndex = 27144;
 
 	class IsInFront2D : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* checkTarget; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* checkTarget; // 0x68
 
 		::System::Void _ctor()
 		{

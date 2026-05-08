@@ -7,22 +7,22 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM_CHECK_OFFSET UNITYSDK_OFFSET(0xA7CFFA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA7CFE80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D0520)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xA7D0540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM_CHECK_OFFSET UNITYSDK_OFFSET(0x1603FE80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1603FD50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x160403B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHASPERFORM__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x160403F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHasPerform_TypeDefinitionIndex = 60465;
+	inline static constexpr unsigned int LDHasPerform_TypeDefinitionIndex = 65101;
 
 	class LDHasPerform : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::System::Int32>* inputPerformId; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::PerformType>* inputPerform; // 0xB0
-		::FlowCanvas::FlowOutput* FalseOutput; // 0xB8
-		::FlowCanvas::FlowOutput* TrueOutput; // 0xC0
+		::FlowCanvas::FlowOutput* FalseOutput; // 0xB0
+		::FlowCanvas::FlowOutput* TrueOutput; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::PerformType>* inputPerform; // 0xC0
 
 		::System::Void _ctor()
 		{

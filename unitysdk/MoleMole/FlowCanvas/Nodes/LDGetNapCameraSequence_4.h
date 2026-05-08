@@ -6,7 +6,7 @@ namespace MoleMole::Utils { class NapCameraSequence; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetNapCameraSequence_4_TypeDefinitionIndex = 44274;
+	inline static constexpr unsigned int LDGetNapCameraSequence_4_TypeDefinitionIndex = 46151;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class LDGetNapCameraSequence_4 : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::MoleMole::Utils::NapCameraSequence*, T1, T2, T3, T4>

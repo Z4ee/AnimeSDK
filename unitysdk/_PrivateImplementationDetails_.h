@@ -7,7 +7,7 @@
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_44.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_6.h"
 
-inline static constexpr unsigned int _PrivateImplementationDetails__TypeDefinitionIndex = 84083;
+inline static constexpr unsigned int _PrivateImplementationDetails__TypeDefinitionIndex = 85811;
 
 class _PrivateImplementationDetails_ : public ::System::Object
 {

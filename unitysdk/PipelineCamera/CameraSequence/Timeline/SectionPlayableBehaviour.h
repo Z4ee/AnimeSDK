@@ -6,12 +6,12 @@
 
 namespace PipelineCamera::CameraSequence::Timeline { class SectionClip; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1B76EF60)
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76EF70)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1C55E050)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55E060)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int SectionPlayableBehaviour_TypeDefinitionIndex = 83187;
+	inline static constexpr unsigned int SectionPlayableBehaviour_TypeDefinitionIndex = 84915;
 
 	class SectionPlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

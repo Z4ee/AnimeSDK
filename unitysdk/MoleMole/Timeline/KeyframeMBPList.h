@@ -5,11 +5,11 @@
 namespace MoleMole::Timeline { class KeyframeMBP; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINE_KEYFRAMEMBPLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xC330360)
+#define MOLEMOLE_TIMELINE_KEYFRAMEMBPLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5DE10)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int KeyframeMBPList_TypeDefinitionIndex = 74989;
+	inline static constexpr unsigned int KeyframeMBPList_TypeDefinitionIndex = 76370;
 
 	class KeyframeMBPList : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_DRIFTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9D14440)
+#define MOLEMOLE_CONFIG_DRIFTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x123189D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DriftOverrideConfig_TypeDefinitionIndex = 37465;
+	inline static constexpr unsigned int DriftOverrideConfig_TypeDefinitionIndex = 64308;
 
 	class DriftOverrideConfig : public ::System::Object
 	{

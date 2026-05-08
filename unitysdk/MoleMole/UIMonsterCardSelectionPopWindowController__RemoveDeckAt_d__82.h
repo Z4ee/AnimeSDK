@@ -7,21 +7,21 @@
 namespace MoleMole { class UIMonsterCardSelectionPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER__REMOVEDECKAT_D__82_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x471C90)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER__REMOVEDECKAT_D__82_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x30F550)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER__REMOVEDECKAT_D__82_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79BF20)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER__REMOVEDECKAT_D__82_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5C4D00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController__RemoveDeckAt_d__82_TypeDefinitionIndex = 44376;
+	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController__RemoveDeckAt_d__82_TypeDefinitionIndex = 59565;
 
 	struct alignas(8) UIMonsterCardSelectionPopWindowController__RemoveDeckAt_d__82
 	{
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
 		::MoleMole::UIMonsterCardSelectionPopWindowController* __4__this; // 0x20
 		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x28
-		::System::Int32 __1__state; // 0x48
+		::System::Int32 index; // 0x48
 		::System::Int32 _curIndex_5__2; // 0x4C
-		::System::Int32 index; // 0x50
+		::System::Int32 __1__state; // 0x50
 
 		::System::Void MoveNext()
 		{

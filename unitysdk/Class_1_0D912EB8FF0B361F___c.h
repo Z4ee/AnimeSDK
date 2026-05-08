@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 template <typename T> class Class_1_0D912EB8FF0B361F___c;
 
-inline static constexpr unsigned int Class_1_0D912EB8FF0B361F___c_TypeDefinitionIndex = 25048;
+inline static constexpr unsigned int Class_1_0D912EB8FF0B361F___c_TypeDefinitionIndex = 25543;
 
 template <typename T>
 class Class_1_0D912EB8FF0B361F___c : public ::System::Object

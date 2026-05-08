@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FD8808A45CC5AF9E;
+class Class_1_0C1B1543EF9571C1;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_3_C91109162D964E4D_CLASS_1_3AB622976AB7D02F_METHOD_1_904DE03378530D9E_OFFSET UNITYSDK_OFFSET(0x74A9D90)
-#define CLASS_3_C91109162D964E4D_CLASS_1_3AB622976AB7D02F__CTOR_OFFSET UNITYSDK_OFFSET(0x74A9D80)
+#define CLASS_3_C91109162D964E4D_CLASS_1_3AB622976AB7D02F_METHOD_1_904DE03378530D9E_OFFSET UNITYSDK_OFFSET(0x111CE190)
+#define CLASS_3_C91109162D964E4D_CLASS_1_3AB622976AB7D02F__CTOR_OFFSET UNITYSDK_OFFSET(0x111CE180)
 
-inline static constexpr unsigned int Class_3_C91109162D964E4D_Class_1_3AB622976AB7D02F_TypeDefinitionIndex = 50794;
+inline static constexpr unsigned int Class_3_C91109162D964E4D_Class_1_3AB622976AB7D02F_TypeDefinitionIndex = 47092;
 
 class Class_3_C91109162D964E4D_Class_1_3AB622976AB7D02F : public ::System::Object
 {
 public:
-	::Class_1_FD8808A45CC5AF9E* Field_1_0; // 0x10
-	::System::Func_2<::System::Int32, ::System::Boolean>* Field_1_1; // 0x18
+	::System::Func_2<::System::Int32, ::System::Boolean>* Field_1_1; // 0x10
+	::Class_1_0C1B1543EF9571C1* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

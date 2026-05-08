@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_A0F01A2BF1C14442.h"
+#include "unitysdk/Class_1_CC6544DCEA8E336D.h"
 
-class Class_0_16E4307DCC419505_259;
+class Class_0_16E4307DCC419505_454;
 template <typename T1, typename T2, typename T3> class Class_2_365320ED98B00F7E;
 
-inline static constexpr unsigned int Class_2_365320ED98B00F7E_TypeDefinitionIndex = 44390;
+inline static constexpr unsigned int Class_2_365320ED98B00F7E_TypeDefinitionIndex = 70088;
 
 template <typename TModule, typename TBlendModule, typename TPostModule>
-class Class_2_365320ED98B00F7E : public ::Class_1_A0F01A2BF1C14442
+class Class_2_365320ED98B00F7E : public ::Class_1_CC6544DCEA8E336D
 {
 public:
 	TModule Field_2_0; // 0x0

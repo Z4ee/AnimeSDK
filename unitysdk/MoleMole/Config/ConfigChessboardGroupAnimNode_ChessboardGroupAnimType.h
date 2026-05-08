@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardGroupAnimNode_ChessboardGroupAnimType_TypeDefinitionIndex = 65781;
+	inline static constexpr unsigned int ConfigChessboardGroupAnimNode_ChessboardGroupAnimType_TypeDefinitionIndex = 43341;
 
 	enum class ConfigChessboardGroupAnimNode_ChessboardGroupAnimType : ::System::Int32
 	{

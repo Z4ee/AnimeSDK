@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define DEBUGUTIL_LOGERROR_OFFSET UNITYSDK_OFFSET(0x18D04FF0)
-#define DEBUGUTIL_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x18D05040)
-#define DEBUGUTIL_LOG_OFFSET UNITYSDK_OFFSET(0x18D05080)
-#define DEBUGUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x18D050C0)
+#define DEBUGUTIL_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1A2DEED0)
+#define DEBUGUTIL_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1A2DEF20)
+#define DEBUGUTIL_LOG_OFFSET UNITYSDK_OFFSET(0x1A2DEF60)
+#define DEBUGUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2DEFA0)
 
-inline static constexpr unsigned int DebugUtil_TypeDefinitionIndex = 28977;
+inline static constexpr unsigned int DebugUtil_TypeDefinitionIndex = 29496;
 
 class DebugUtil : public ::System::Object
 {

@@ -7,14 +7,14 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x6EE19A0)
-#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x6EE1D80)
-#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0x6EE1DC0)
-#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x6EE1D90)
+#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x11E05260)
+#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x11E056F0)
+#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x11E05760)
+#define MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11E05700)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TVTextureSheetTrack_TypeDefinitionIndex = 49291;
+	inline static constexpr unsigned int TVTextureSheetTrack_TypeDefinitionIndex = 80845;
 
 	class TVTextureSheetTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -34,9 +34,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TVTEXTURESHEETTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

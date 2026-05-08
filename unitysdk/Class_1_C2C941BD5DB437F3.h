@@ -2,24 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C2C941BD5DB437F3_METHOD_1_28718D08835F451A_OFFSET UNITYSDK_OFFSET(0x1A0DC630)
-#define CLASS_1_C2C941BD5DB437F3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0D7870)
+class Class_1_BCFCE5B9C398A736;
 
-inline static constexpr unsigned int Class_1_C2C941BD5DB437F3_TypeDefinitionIndex = 31817;
+#define CLASS_1_C2C941BD5DB437F3_METHOD_1_28718D08835F451A_OFFSET UNITYSDK_OFFSET(0x1ABC8840)
+#define CLASS_1_C2C941BD5DB437F3_METHOD_1_3C301397B4596391_OFFSET UNITYSDK_OFFSET(0x1ABC54C0)
+#define CLASS_1_C2C941BD5DB437F3_METHOD_1_65C710033AD4410E_OFFSET UNITYSDK_OFFSET(0x1ABC88B0)
+#define CLASS_1_C2C941BD5DB437F3__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABC88A0)
+
+inline static constexpr unsigned int Class_1_C2C941BD5DB437F3_TypeDefinitionIndex = 32346;
 
 class Class_1_C2C941BD5DB437F3 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::Byte>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
+	::Il2CppArray<::System::Byte>* Field_1_1; // 0x10
+	::System::UInt32 Field_1_0; // 0x18
 
-	::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::UInt32 a2)
+	::System::Void _ctor(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_C2C941BD5DB437F3__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_C2C941BD5DB437F3__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_28718D08835F451A(::Il2CppArray<::System::Byte>*& a1, ::System::UInt32& a2)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*&, ::System::UInt32&))((::PBYTE)hIl2Cpp + CLASS_1_C2C941BD5DB437F3_METHOD_1_28718D08835F451A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_3C301397B4596391(::Class_1_BCFCE5B9C398A736* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_BCFCE5B9C398A736*))((::PBYTE)hIl2Cpp + CLASS_1_C2C941BD5DB437F3_METHOD_1_3C301397B4596391_OFFSET))(this, a1);
+	}
+
+	static ::Il2CppArray<::System::Byte>* Method_1_65C710033AD4410E(::System::UInt64 a1, ::System::UInt64 a2)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_C2C941BD5DB437F3_METHOD_1_65C710033AD4410E_OFFSET))(a1, a2);
 	}
 };

@@ -7,20 +7,20 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMEREPLACEAVATARCONFIG_PROCESS_OFFSET UNITYSDK_OFFSET(0xB8A3370)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMEREPLACEAVATARCONFIG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB8A3260)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMEREPLACEAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A3B70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMEREPLACEAVATARCONFIG_PROCESS_OFFSET UNITYSDK_OFFSET(0x16E4E1C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMEREPLACEAVATARCONFIG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16E4E0D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMEREPLACEAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4EA80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShootGameReplaceAvatarConfig_TypeDefinitionIndex = 39103;
+	inline static constexpr unsigned int LDShootGameReplaceAvatarConfig_TypeDefinitionIndex = 44874;
 
 	class LDShootGameReplaceAvatarConfig : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::System::Int32>* avatarTemplateIdInput; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
-		::FlowCanvas::FlowInput* input; // 0xB8
+		::FlowCanvas::FlowInput* input; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
 
 		::System::Void _ctor()
 		{

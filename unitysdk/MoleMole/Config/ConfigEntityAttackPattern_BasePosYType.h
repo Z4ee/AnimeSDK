@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackPattern_BasePosYType_TypeDefinitionIndex = 53377;
+	inline static constexpr unsigned int ConfigEntityAttackPattern_BasePosYType_TypeDefinitionIndex = 71092;
 
 	enum class ConfigEntityAttackPattern_BasePosYType : ::System::Int32
 	{

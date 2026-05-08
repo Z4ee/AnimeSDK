@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AddLightMode_TypeDefinitionIndex = 53319;
+	inline static constexpr unsigned int AddLightMode_TypeDefinitionIndex = 50793;
 
 	enum class AddLightMode : ::System::Int32
 	{
 		Ambient = 2,
-		Toon = 3,
 		Blend = 1,
+		Toon = 3,
 	};
 }

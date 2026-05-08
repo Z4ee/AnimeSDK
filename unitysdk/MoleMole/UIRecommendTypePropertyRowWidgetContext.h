@@ -3,20 +3,20 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 class Class_2_12BDE7300F0E061C;
-class Class_3_C3F0E3B5AB5977AE;
+class Class_3_C3F0E3B5AB5977AE_40;
 namespace MoleMole { template <typename T> class UIRoleEquipRecommendPopContext_1; }
 
-#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x96E7410)
+#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x147EE620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecommendTypePropertyRowWidgetContext_TypeDefinitionIndex = 70467;
+	inline static constexpr unsigned int UIRecommendTypePropertyRowWidgetContext_TypeDefinitionIndex = 65073;
 
 	class UIRecommendTypePropertyRowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_C3F0E3B5AB5977AE* avatarRecommendPropertyData; // 0x28
-		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* RoleEquipRecommendPopContext; // 0x30
+		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* RoleEquipRecommendPopContext; // 0x28
+		::Class_3_C3F0E3B5AB5977AE_40* avatarRecommendPropertyData; // 0x30
 
 		::System::Void _ctor()
 		{

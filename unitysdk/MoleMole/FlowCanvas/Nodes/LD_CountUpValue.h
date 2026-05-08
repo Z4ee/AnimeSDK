@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_COUNTUPVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA506520)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_COUNTUPVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xA5065C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_COUNTUPVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E15210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_COUNTUPVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E15290)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CountUpValue_TypeDefinitionIndex = 62992;
+	inline static constexpr unsigned int LD_CountUpValue_TypeDefinitionIndex = 78390;
 
 	class LD_CountUpValue : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Single>
 	{

@@ -16,39 +16,39 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_REACTIONSYSTEM_CHECKACTIVEREACTION_OFFSET UNITYSDK_OFFSET(0x69DD0D0)
-#define NPCCROWD_AI_REACTIONSYSTEM_CLEARFRAMEDATA_OFFSET UNITYSDK_OFFSET(0x69DAE70)
-#define NPCCROWD_AI_REACTIONSYSTEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x69DD400)
-#define NPCCROWD_AI_REACTIONSYSTEM_FLUSHDELAYREACTIONS_OFFSET UNITYSDK_OFFSET(0x69DA390)
-#define NPCCROWD_AI_REACTIONSYSTEM_FLUSHFRAMEDATA_OFFSET UNITYSDK_OFFSET(0x69DB740)
-#define NPCCROWD_AI_REACTIONSYSTEM_FLUSHSTIMULUS_OFFSET UNITYSDK_OFFSET(0x69DA7D0)
-#define NPCCROWD_AI_REACTIONSYSTEM_INTERNALTRIGGERDURATIONSTIMULUS_OFFSET UNITYSDK_OFFSET(0x69DB900)
-#define NPCCROWD_AI_REACTIONSYSTEM_INTERNALTRIGGERSTIMULUS_OFFSET UNITYSDK_OFFSET(0x69DC6F0)
-#define NPCCROWD_AI_REACTIONSYSTEM_ONENDOFFRAMEUPDATE_OFFSET UNITYSDK_OFFSET(0x69DA2F0)
-#define NPCCROWD_AI_REACTIONSYSTEM_REGISTER_OFFSET UNITYSDK_OFFSET(0x69D99F0)
-#define NPCCROWD_AI_REACTIONSYSTEM_TRIGGERSTIMULUS_1_OFFSET UNITYSDK_OFFSET(0x69DA190)
-#define NPCCROWD_AI_REACTIONSYSTEM_TRIGGERSTIMULUS_OFFSET UNITYSDK_OFFSET(0x69D9EB0)
-#define NPCCROWD_AI_REACTIONSYSTEM_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x69D9C50)
-#define NPCCROWD_AI_REACTIONSYSTEM_UPDATESTIMULUSCD_OFFSET UNITYSDK_OFFSET(0x69DAFB0)
-#define NPCCROWD_AI_REACTIONSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x69DD580)
+#define NPCCROWD_AI_REACTIONSYSTEM_CHECKACTIVEREACTION_OFFSET UNITYSDK_OFFSET(0xCD27C90)
+#define NPCCROWD_AI_REACTIONSYSTEM_CLEARFRAMEDATA_OFFSET UNITYSDK_OFFSET(0xCD25A80)
+#define NPCCROWD_AI_REACTIONSYSTEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD27FA0)
+#define NPCCROWD_AI_REACTIONSYSTEM_FLUSHDELAYREACTIONS_OFFSET UNITYSDK_OFFSET(0xCD24FD0)
+#define NPCCROWD_AI_REACTIONSYSTEM_FLUSHFRAMEDATA_OFFSET UNITYSDK_OFFSET(0xCD26370)
+#define NPCCROWD_AI_REACTIONSYSTEM_FLUSHSTIMULUS_OFFSET UNITYSDK_OFFSET(0xCD25400)
+#define NPCCROWD_AI_REACTIONSYSTEM_INTERNALTRIGGERDURATIONSTIMULUS_OFFSET UNITYSDK_OFFSET(0xCD26510)
+#define NPCCROWD_AI_REACTIONSYSTEM_INTERNALTRIGGERSTIMULUS_OFFSET UNITYSDK_OFFSET(0xCD272E0)
+#define NPCCROWD_AI_REACTIONSYSTEM_ONENDOFFRAMEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD24F50)
+#define NPCCROWD_AI_REACTIONSYSTEM_REGISTER_OFFSET UNITYSDK_OFFSET(0xCD24720)
+#define NPCCROWD_AI_REACTIONSYSTEM_TRIGGERSTIMULUS_1_OFFSET UNITYSDK_OFFSET(0xCD24E10)
+#define NPCCROWD_AI_REACTIONSYSTEM_TRIGGERSTIMULUS_OFFSET UNITYSDK_OFFSET(0xCD24B80)
+#define NPCCROWD_AI_REACTIONSYSTEM_UNREGISTER_OFFSET UNITYSDK_OFFSET(0xCD24950)
+#define NPCCROWD_AI_REACTIONSYSTEM_UPDATESTIMULUSCD_OFFSET UNITYSDK_OFFSET(0xCD25BA0)
+#define NPCCROWD_AI_REACTIONSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD28100)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionSystem_TypeDefinitionIndex = 38074;
+	inline static constexpr unsigned int ReactionSystem_TypeDefinitionIndex = 75276;
 
 	class ReactionSystem : public ::Foundation::Singleton_1<::NPCCrowd::AI::ReactionSystem*>
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* indexCache; // 0x10
-		::Foundation::ObjectPool_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::CDCountItem*>*>* CDCountListPool; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::NPCCrowd::AI::CDCountItem*>*>* CDCountItems; // 0x20
-		::Foundation::ObjectPool_1<::NPCCrowd::AI::CDCountItem*>* CDCountItemPool; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::RegisterItem>* CurFrameActiveReactions; // 0x30
-		::System::Collections::Generic::HashSet_1<::NPCCrowd::AI::RegisterItem>* DelayUnRegisterReactions; // 0x38
-		::System::Collections::Generic::HashSet_1<::NPCCrowd::AI::RegisterItem>* DelayRegisterReactions; // 0x40
-		::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FGameplayTag, ::System::Collections::Generic::HashSet_1<::NPCCrowd::AI::RegisterItem>*>* Reactions; // 0x48
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::StimulusItem>* DelayStimulus; // 0x50
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::StimulusItem>* DurationStimulus; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::NPCCrowd::AI::CDCountItem*>*>* CDCountItems; // 0x10
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::StimulusItem>* DurationStimulus; // 0x18
+		::System::Collections::Generic::HashSet_1<::NPCCrowd::AI::RegisterItem>* DelayRegisterReactions; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* indexCache; // 0x28
+		::System::Collections::Generic::HashSet_1<::NPCCrowd::AI::RegisterItem>* DelayUnRegisterReactions; // 0x30
+		::Foundation::ObjectPool_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::CDCountItem*>*>* CDCountListPool; // 0x38
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::StimulusItem>* DelayStimulus; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::RegisterItem>* CurFrameActiveReactions; // 0x48
+		::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FGameplayTag, ::System::Collections::Generic::HashSet_1<::NPCCrowd::AI::RegisterItem>*>* Reactions; // 0x50
+		::Foundation::ObjectPool_1<::NPCCrowd::AI::CDCountItem*>* CDCountItemPool; // 0x58
 
 		::System::Void _ctor()
 		{

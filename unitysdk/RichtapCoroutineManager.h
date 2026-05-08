@@ -7,20 +7,20 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Coroutine; }
 
-#define RICHTAPCOROUTINEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AD95450)
-#define RICHTAPCOROUTINEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AD95410)
-#define RICHTAPCOROUTINEMANAGER_STARTCOROUTINETASK_OFFSET UNITYSDK_OFFSET(0x1AD8BB40)
-#define RICHTAPCOROUTINEMANAGER_STOPCOROUTINETASK_OFFSET UNITYSDK_OFFSET(0x1AD8BD70)
-#define RICHTAPCOROUTINEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD95580)
+#define RICHTAPCOROUTINEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BABB490)
+#define RICHTAPCOROUTINEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BABB480)
+#define RICHTAPCOROUTINEMANAGER_STARTCOROUTINETASK_OFFSET UNITYSDK_OFFSET(0x1BAB0CF0)
+#define RICHTAPCOROUTINEMANAGER_STOPCOROUTINETASK_OFFSET UNITYSDK_OFFSET(0x1BAB0F20)
+#define RICHTAPCOROUTINEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABB690)
 
-inline static constexpr unsigned int RichtapCoroutineManager_TypeDefinitionIndex = 35921;
+inline static constexpr unsigned int RichtapCoroutineManager_TypeDefinitionIndex = 36465;
 
 class RichtapCoroutineManager : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::RichtapCoroutineManager** StaticGet__instance()
 	{
-		return (::RichtapCoroutineManager**)Il2CppClass::FromTypeDefinitionIndex(RichtapCoroutineManager_TypeDefinitionIndex)->GetStaticField(0x26630);
+		return (::RichtapCoroutineManager**)Il2CppClass::FromTypeDefinitionIndex(RichtapCoroutineManager_TypeDefinitionIndex)->GetStaticField(0x271E0);
 	}
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Coroutine*>* runningCoroutines; // 0x18
 

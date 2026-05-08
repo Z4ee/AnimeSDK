@@ -4,34 +4,34 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF2A250)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF2A290)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__ONSHOW_B__32_1_OFFSET UNITYSDK_OFFSET(0xBF2A2A0)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__TRYJOININVITETEAMROOM_B__79_1_OFFSET UNITYSDK_OFFSET(0xBF2A350)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__TRYJOININVITETEAMROOM_B__79_3_OFFSET UNITYSDK_OFFSET(0xBF2A400)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x167F6660)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167F66A0)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__ONSHOW_B__32_1_OFFSET UNITYSDK_OFFSET(0x167F66B0)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__TRYJOININVITETEAMROOM_B__79_1_OFFSET UNITYSDK_OFFSET(0x167F6740)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__TRYJOININVITETEAMROOM_B__79_3_OFFSET UNITYSDK_OFFSET(0x167F67D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadePageController___c_TypeDefinitionIndex = 57175;
+	inline static constexpr unsigned int UIArcadePageController___c_TypeDefinitionIndex = 75632;
 
 	class UIArcadePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIArcadePageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIArcadePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D570);
-		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__79_3()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D578);
-		}
-		static ::System::Action_1<::System::Int32>** StaticGet___9__79_1()
-		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D580);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3ED00);
 		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__32_1()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D588);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3ED08);
+		}
+		static ::MoleMole::UIArcadePageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIArcadePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3ED10);
+		}
+		static ::System::Action_1<::System::Int32>** StaticGet___9__79_1()
+		{
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadePageController___c_TypeDefinitionIndex)->GetStaticField(0x3ED18);
 		}
 
 		static ::System::Void _cctor()

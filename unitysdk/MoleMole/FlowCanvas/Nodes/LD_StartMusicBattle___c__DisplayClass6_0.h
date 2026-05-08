@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_StartMusicBattle; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A9750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE___C__DISPLAYCLASS6_0__PLAYTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0xB8A9760)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E545C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE___C__DISPLAYCLASS6_0__PLAYTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x16E545D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_StartMusicBattle___c__DisplayClass6_0_TypeDefinitionIndex = 66767;
+	inline static constexpr unsigned int LD_StartMusicBattle___c__DisplayClass6_0_TypeDefinitionIndex = 42791;
 
 	class LD_StartMusicBattle___c__DisplayClass6_0 : public ::System::Object
 	{

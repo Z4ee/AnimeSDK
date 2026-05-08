@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_TIMELINE_PAUSEWAITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B500280)
+#define UNITYENGINE_TIMELINE_PAUSEWAITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3894C0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PauseWaitInfo_TypeDefinitionIndex = 30259;
+	inline static constexpr unsigned int PauseWaitInfo_TypeDefinitionIndex = 30788;
 
 	class PauseWaitInfo : public ::System::Object
 	{

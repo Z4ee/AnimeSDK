@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMiniscapeMainPageController___c__DisplayClass20_0; }
 
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x897E070)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS20_1__PLAYLEVELUPGRADE_B__1_OFFSET UNITYSDK_OFFSET(0x897E0D0)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D86FF0)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS20_1__PLAYLEVELUPGRADE_B__1_OFFSET UNITYSDK_OFFSET(0x14D87050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeMainPageController___c__DisplayClass20_1_TypeDefinitionIndex = 55555;
+	inline static constexpr unsigned int UIMiniscapeMainPageController___c__DisplayClass20_1_TypeDefinitionIndex = 39376;
 
 	class UIMiniscapeMainPageController___c__DisplayClass20_1 : public ::System::Object
 	{

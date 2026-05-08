@@ -7,24 +7,24 @@ class Class_1_4F9417780723166C;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB1D7C0)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1D800)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER___C__SHOWRELICBRANCHACTIVEVIEW_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB1D810)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CB5E00)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15CB5E40)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER___C__SHOWRELICBRANCHACTIVEVIEW_B__1_0_OFFSET UNITYSDK_OFFSET(0x15CB5E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsAbyssS2DialogPopWindowController___c_TypeDefinitionIndex = 71671;
+	inline static constexpr unsigned int UIHollowCardOptionsAbyssS2DialogPopWindowController___c_TypeDefinitionIndex = 51120;
 
 	class UIHollowCardOptionsAbyssS2DialogPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::Class_1_4F9417780723166C*>*>, ::System::Int32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::Class_1_4F9417780723166C*>*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsAbyssS2DialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31B40);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::Class_1_4F9417780723166C*>*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsAbyssS2DialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32830);
 		}
 		static ::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsAbyssS2DialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31B48);
+			return (::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsAbyssS2DialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32838);
 		}
 
 		static ::System::Void _cctor()

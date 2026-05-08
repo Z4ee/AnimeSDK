@@ -6,18 +6,18 @@ namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_Flash; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xACC5A70)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xACC5C70)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175364F0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x17536710)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_Flash___c__DisplayClass3_0_TypeDefinitionIndex = 79808;
+	inline static constexpr unsigned int ConfigHollowChessboard_Flash___c__DisplayClass3_0_TypeDefinitionIndex = 43448;
 
 	class ConfigHollowChessboard_Flash___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback; // 0x10
-		::MoleMole::Config::ConfigHollowChessboard_Flash* __4__this; // 0x18
+		::MoleMole::Config::ConfigHollowChessboard_Flash* __4__this; // 0x10
+		::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback; // 0x18
 
 		::System::Void _ctor()
 		{

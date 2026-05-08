@@ -1,0 +1,119 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_EC48112425141A9B.h"
+
+class Class_2_A9A857AD270B9CE1;
+namespace MoleMole { class NotificationBadgeEx; }
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIGeneralButtonController; }
+namespace System { class String; }
+
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_1_OFFSET UNITYSDK_OFFSET(0x17F2B420)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_2_OFFSET UNITYSDK_OFFSET(0x17F2B430)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_3_OFFSET UNITYSDK_OFFSET(0x17F2B450)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_4_OFFSET UNITYSDK_OFFSET(0x17F2B470)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_OFFSET UNITYSDK_OFFSET(0x17F2B3E0)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_209E85F2CEAC8DDA_OFFSET UNITYSDK_OFFSET(0x17F2B460)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_41EE8711A9018A61_OFFSET UNITYSDK_OFFSET(0x17F2B3F0)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_1_OFFSET UNITYSDK_OFFSET(0x17F2B410)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_2_OFFSET UNITYSDK_OFFSET(0x17F2B440)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_3_OFFSET UNITYSDK_OFFSET(0x17F2B480)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_4_OFFSET UNITYSDK_OFFSET(0x17F2B490)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_OFFSET UNITYSDK_OFFSET(0x17F2B400)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_5176DC743E478510_OFFSET UNITYSDK_OFFSET(0x17F2B070)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_F542621131A5D653_OFFSET UNITYSDK_OFFSET(0x17F2AF50)
+#define CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3__CTOR_OFFSET UNITYSDK_OFFSET(0x17F2B350)
+
+inline static constexpr unsigned int Class_3_CA4B440C699C9254_1_Class_4_6D4779E7641127C3_TypeDefinitionIndex = 72686;
+
+class Class_3_CA4B440C699C9254_1_Class_4_6D4779E7641127C3 : public ::Class_3_EC48112425141A9B
+{
+public:
+	// static const ::System::String* Field_4_0; // 0x0
+	// static const ::System::String* Field_4_1; // 0x0
+	// static const ::System::String* Field_4_2; // 0x0
+	// static const ::System::String* Field_4_3; // 0x0
+	// static const ::System::String* Field_4_4; // 0x0
+	// static const ::System::String* Field_4_5; // 0x0
+	::MoleMole::UIGeneralButtonController* Field_4_6; // 0x28
+	::MoleMole::UIGeneralButtonController* Field_4_8; // 0x30
+	::MoleMole::UIGeneralButtonController* Field_4_7; // 0x38
+	::MoleMole::NotificationBadgeEx* Field_4_11; // 0x40
+	::MoleMole::UIGeneralButtonController* Field_4_10; // 0x48
+	::MoleMole::UIGeneralButtonController* Field_4_9; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_F542621131A5D653(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_F542621131A5D653_OFFSET))(this, a1, a2);
+	}
+
+	::MoleMole::UIGeneralButtonController* Method_4_082DE155818A77D8()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_OFFSET))(this);
+	}
+
+	::MoleMole::NotificationBadgeEx* Method_4_41EE8711A9018A61()
+	{
+		return ((::MoleMole::NotificationBadgeEx*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_41EE8711A9018A61_OFFSET))(this);
+	}
+
+	::System::Void Method_4_4F75C9B796DF2E67(::MoleMole::UIGeneralButtonController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_4F75C9B796DF2E67_1(::MoleMole::UIGeneralButtonController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_1_OFFSET))(this, a1);
+	}
+
+	::MoleMole::UIGeneralButtonController* Method_4_082DE155818A77D8_1()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_1_OFFSET))(this);
+	}
+
+	::MoleMole::UIGeneralButtonController* Method_4_082DE155818A77D8_2()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_2_OFFSET))(this);
+	}
+
+	::System::Void Method_4_4F75C9B796DF2E67_2(::MoleMole::UIGeneralButtonController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_2_OFFSET))(this, a1);
+	}
+
+	::MoleMole::UIGeneralButtonController* Method_4_082DE155818A77D8_3()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_3_OFFSET))(this);
+	}
+
+	::System::Void Method_4_209E85F2CEAC8DDA(::MoleMole::NotificationBadgeEx* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::NotificationBadgeEx*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_209E85F2CEAC8DDA_OFFSET))(this, a1);
+	}
+
+	::MoleMole::UIGeneralButtonController* Method_4_082DE155818A77D8_4()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_082DE155818A77D8_4_OFFSET))(this);
+	}
+
+	::System::Void Method_4_5176DC743E478510()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_5176DC743E478510_OFFSET))(this);
+	}
+
+	::System::Void Method_4_4F75C9B796DF2E67_3(::MoleMole::UIGeneralButtonController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_4F75C9B796DF2E67_4(::MoleMole::UIGeneralButtonController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + CLASS_3_CA4B440C699C9254_1_CLASS_4_6D4779E7641127C3_METHOD_4_4F75C9B796DF2E67_4_OFFSET))(this, a1);
+	}
+};

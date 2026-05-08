@@ -6,10 +6,10 @@ class Class_3_F41D242A20F8FE06;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6; }
 
-#define CLASS_1_87283A6158188D15_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x66E9C00)
-#define CLASS_1_87283A6158188D15__CTOR_OFFSET UNITYSDK_OFFSET(0x66E9BF0)
+#define CLASS_1_87283A6158188D15_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18C98350)
+#define CLASS_1_87283A6158188D15__CTOR_OFFSET UNITYSDK_OFFSET(0x18C98340)
 
-inline static constexpr unsigned int Class_1_87283A6158188D15_TypeDefinitionIndex = 80463;
+inline static constexpr unsigned int Class_1_87283A6158188D15_TypeDefinitionIndex = 42590;
 
 class Class_1_87283A6158188D15 : public ::System::Object
 {

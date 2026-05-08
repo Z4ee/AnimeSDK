@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/XR/InputTrackingState.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XR_POSESTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x935CF0)
-#define UNITYENGINE_INPUTSYSTEM_XR_POSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x935D00)
+#define UNITYENGINE_INPUTSYSTEM_XR_POSESTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x973490)
+#define UNITYENGINE_INPUTSYSTEM_XR_POSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9734A0)
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int PoseState_TypeDefinitionIndex = 28538;
+	inline static constexpr unsigned int PoseState_TypeDefinitionIndex = 29056;
 
 	struct alignas(4) PoseState
 	{

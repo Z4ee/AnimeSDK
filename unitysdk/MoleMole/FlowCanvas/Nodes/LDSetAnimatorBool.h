@@ -8,21 +8,21 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB8A1FD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A2120)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xB8A2140)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16E4CF10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4D040)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16E4D080)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetAnimatorBool_TypeDefinitionIndex = 73282;
+	inline static constexpr unsigned int LDSetAnimatorBool_TypeDefinitionIndex = 77878;
 
 	class LDSetAnimatorBool : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* Key; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* SceneEntity; // 0xB0
-		::FlowCanvas::FlowOutput* output; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* Value; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* Value; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* Key; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* SceneEntity; // 0xC0
 
 		::System::Void _ctor()
 		{

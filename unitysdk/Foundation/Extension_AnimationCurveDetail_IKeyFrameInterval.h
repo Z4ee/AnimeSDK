@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Extension_AnimationCurveDetail_IKeyFrameInterval_TypeDefinitionIndex = 9037;
+	inline static constexpr unsigned int Extension_AnimationCurveDetail_IKeyFrameInterval_TypeDefinitionIndex = 9114;
 
 	class Extension_AnimationCurveDetail_IKeyFrameInterval
 	{

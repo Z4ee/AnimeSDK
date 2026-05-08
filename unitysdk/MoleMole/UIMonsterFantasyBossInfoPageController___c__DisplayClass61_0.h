@@ -5,18 +5,18 @@
 namespace MoleMole { class UIMonsterFantasyBossInfoPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE15E00)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__ONBACKBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0xAE15E10)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12DF3D60)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS61_0__ONBACKBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x12DF3D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass61_0_TypeDefinitionIndex = 53006;
+	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass61_0_TypeDefinitionIndex = 79940;
 
 	class UIMonsterFantasyBossInfoPageController___c__DisplayClass61_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* inTeamMonsterIDs; // 0x10
-		::MoleMole::UIMonsterFantasyBossInfoPageController* __4__this; // 0x18
+		::MoleMole::UIMonsterFantasyBossInfoPageController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* inTeamMonsterIDs; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISWITCHTEAMBATTLEQUICKTEAMDIALOGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6BD8F0)
+#define MOLEMOLE_UISWITCHTEAMBATTLEQUICKTEAMDIALOGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11B7F360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISwitchTeamBattleQuickTeamDialogPageController_Context_TypeDefinitionIndex = 68617;
+	inline static constexpr unsigned int UISwitchTeamBattleQuickTeamDialogPageController_Context_TypeDefinitionIndex = 71297;
 
 	class UISwitchTeamBattleQuickTeamDialogPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

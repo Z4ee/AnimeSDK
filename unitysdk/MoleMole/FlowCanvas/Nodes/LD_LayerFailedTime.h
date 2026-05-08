@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_LAYERFAILEDTIME_INVOKE_OFFSET UNITYSDK_OFFSET(0xA7D87F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_LAYERFAILEDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D8950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_LAYERFAILEDTIME_INVOKE_OFFSET UNITYSDK_OFFSET(0x16048960)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_LAYERFAILEDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x16048AA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_LayerFailedTime_TypeDefinitionIndex = 43903;
+	inline static constexpr unsigned int LD_LayerFailedTime_TypeDefinitionIndex = 39311;
 
 	class LD_LayerFailedTime : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Single>
 	{

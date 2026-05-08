@@ -10,25 +10,25 @@ namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17698E70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x17698E80)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x17699650)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x17699620)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__6_OFFSET UNITYSDK_OFFSET(0x176996E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBD7A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x18DBD7B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x18DBDF70)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x18DBDF40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_0__PAY_B__6_OFFSET UNITYSDK_OFFSET(0x18DBE000)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass11_0_TypeDefinitionIndex = 19008;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass11_0_TypeDefinitionIndex = 19359;
 
 	class HoYoChannelGooglePlay___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x10
-		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__6; // 0x18
-		::MiHoYo::SDK::AccountModel* accountModel; // 0x20
-		::System::Action* __9__4; // 0x28
-		::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* gamePayInfo; // 0x30
-		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x38
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__6; // 0x10
+		::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* gamePayInfo; // 0x18
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x20
+		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x28
+		::MiHoYo::SDK::AccountModel* accountModel; // 0x30
+		::System::Action* __9__4; // 0x38
 
 		::System::Void _ctor()
 		{

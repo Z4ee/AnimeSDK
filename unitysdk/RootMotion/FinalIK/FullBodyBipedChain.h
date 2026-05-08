@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int FullBodyBipedChain_TypeDefinitionIndex = 36076;
+	inline static constexpr unsigned int FullBodyBipedChain_TypeDefinitionIndex = 36620;
 
 	enum class FullBodyBipedChain : ::System::Int32
 	{

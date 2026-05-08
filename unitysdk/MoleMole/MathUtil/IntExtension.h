@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_MATHUTIL_INTEXTENSION_PACKTOUINT64_OFFSET UNITYSDK_OFFSET(0xB8B5600)
-#define MOLEMOLE_MATHUTIL_INTEXTENSION_UNPACKUINT64_OFFSET UNITYSDK_OFFSET(0xB8B5670)
+#define MOLEMOLE_MATHUTIL_INTEXTENSION_PACKTOUINT64_OFFSET UNITYSDK_OFFSET(0x16E5D970)
+#define MOLEMOLE_MATHUTIL_INTEXTENSION_UNPACKUINT64_OFFSET UNITYSDK_OFFSET(0x16E5D9C0)
 
 namespace MoleMole::MathUtil
 {
-	inline static constexpr unsigned int IntExtension_TypeDefinitionIndex = 54470;
+	inline static constexpr unsigned int IntExtension_TypeDefinitionIndex = 38748;
 
 	class IntExtension : public ::System::Object
 	{

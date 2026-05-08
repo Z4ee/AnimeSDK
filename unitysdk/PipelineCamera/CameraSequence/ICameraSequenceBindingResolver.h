@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ICameraSequenceBindingResolver_TypeDefinitionIndex = 35768;
+	inline static constexpr unsigned int ICameraSequenceBindingResolver_TypeDefinitionIndex = 36312;
 
 	class ICameraSequenceBindingResolver
 	{

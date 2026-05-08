@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHLAYER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A60AF60)
-#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHLAYER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A60B1B0)
-#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60B2A0)
+#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHLAYER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B4A52B0)
+#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHLAYER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4A5500)
+#define NODECANVAS_TASKS_ACTIONS_FINDALLWITHLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A55F0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FindAllWithLayer_TypeDefinitionIndex = 27514;
+	inline static constexpr unsigned int FindAllWithLayer_TypeDefinitionIndex = 27438;
 
 	class FindAllWithLayer : public ::NodeCanvas::Framework::ActionTask
 	{

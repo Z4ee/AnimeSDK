@@ -7,24 +7,24 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EParticleLodLevel.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EParticleResolutionLevel.h"
 
-#define MOLEMOLE_PARTICLEQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9851860)
+#define MOLEMOLE_PARTICLEQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1177FC10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ParticleQualityProfileContext_TypeDefinitionIndex = 63363;
+	inline static constexpr unsigned int ParticleQualityProfileContext_TypeDefinitionIndex = 62840;
 
 	class ParticleQualityProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{
 	public:
-		::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality DamageDecalQuality; // 0x18
-		::MoleMole::EMaterialModifierPerformanceLevel MaterialModifierPerformanceLevel; // 0x1C
-		::System::Boolean DisableGhostEffect; // 0x20
-		::System::Boolean DisableDropItemBornIdleEffect; // 0x21
-		::System::Boolean DisableCutMarks; // 0x22
-		::System::Boolean DisableAbilityActionEffect; // 0x23
-		::UnityEngine::Rendering::Universal::GraphicSettings_EParticleLightLevel ParticleLightLevel; // 0x24
-		::UnityEngine::Rendering::Universal::GraphicSettings_EParticleResolutionLevel ParticleResolutionLevel; // 0x28
-		::UnityEngine::Rendering::Universal::GraphicSettings_EParticleLodLevel ParticleLodLevel; // 0x2C
+		::System::Boolean DisableGhostEffect; // 0x18
+		::System::Boolean DisableCutMarks; // 0x19
+		::System::Boolean DisableDropItemBornIdleEffect; // 0x1A
+		::System::Boolean DisableAbilityActionEffect; // 0x1B
+		::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality DamageDecalQuality; // 0x1C
+		::MoleMole::EMaterialModifierPerformanceLevel MaterialModifierPerformanceLevel; // 0x20
+		::UnityEngine::Rendering::Universal::GraphicSettings_EParticleLodLevel ParticleLodLevel; // 0x24
+		::UnityEngine::Rendering::Universal::GraphicSettings_EParticleLightLevel ParticleLightLevel; // 0x28
+		::UnityEngine::Rendering::Universal::GraphicSettings_EParticleResolutionLevel ParticleResolutionLevel; // 0x2C
 
 		::System::Void _ctor()
 		{

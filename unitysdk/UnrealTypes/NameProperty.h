@@ -6,12 +6,12 @@
 namespace UnrealTypes { class IFieldVariant; }
 namespace UnrealTypes { class NamePropertyParams; }
 
-#define UNREALTYPES_NAMEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A204660)
-#define UNREALTYPES_NAMEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20C580)
+#define UNREALTYPES_NAMEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD9B170)
+#define UNREALTYPES_NAMEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA32B0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NameProperty_TypeDefinitionIndex = 24776;
+	inline static constexpr unsigned int NameProperty_TypeDefinitionIndex = 25290;
 
 	class NameProperty : public ::UnrealTypes::UnmanagedProperty_1<::Foundation::Unreal::FName>
 	{

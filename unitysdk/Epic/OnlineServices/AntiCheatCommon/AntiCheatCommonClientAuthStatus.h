@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int AntiCheatCommonClientAuthStatus_TypeDefinitionIndex = 34141;
+	inline static constexpr unsigned int AntiCheatCommonClientAuthStatus_TypeDefinitionIndex = 34677;
 
 	enum class AntiCheatCommonClientAuthStatus : ::System::Int32
 	{

@@ -7,12 +7,12 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_SCREENPLAYER_TEXTURESHEET_CLASS_1_D85ED1E4128CE075_METHOD_1_FE35A114C8230DE1_OFFSET UNITYSDK_OFFSET(0xD4497B0)
-#define MOLEMOLE_SCREENPLAYER_TEXTURESHEET_CLASS_1_D85ED1E4128CE075__CTOR_OFFSET UNITYSDK_OFFSET(0xD4497A0)
+#define MOLEMOLE_SCREENPLAYER_TEXTURESHEET_CLASS_1_D85ED1E4128CE075_METHOD_1_FE35A114C8230DE1_OFFSET UNITYSDK_OFFSET(0x11781D50)
+#define MOLEMOLE_SCREENPLAYER_TEXTURESHEET_CLASS_1_D85ED1E4128CE075__CTOR_OFFSET UNITYSDK_OFFSET(0x11781D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScreenPlayer_TextureSheet_Class_1_D85ED1E4128CE075_TypeDefinitionIndex = 68972;
+	inline static constexpr unsigned int ScreenPlayer_TextureSheet_Class_1_D85ED1E4128CE075_TypeDefinitionIndex = 48054;
 
 	class ScreenPlayer_TextureSheet_Class_1_D85ED1E4128CE075 : public ::System::Object
 	{

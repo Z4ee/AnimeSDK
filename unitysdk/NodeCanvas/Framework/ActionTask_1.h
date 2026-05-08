@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ActionTask_1_TypeDefinitionIndex = 26179;
+	inline static constexpr unsigned int ActionTask_1_TypeDefinitionIndex = 26721;
 
 	template <typename T>
 	class ActionTask_1 : public ::NodeCanvas::Framework::ActionTask

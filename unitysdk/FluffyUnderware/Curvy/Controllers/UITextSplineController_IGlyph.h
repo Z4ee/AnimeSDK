@@ -5,7 +5,7 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int UITextSplineController_IGlyph_TypeDefinitionIndex = 36744;
+	inline static constexpr unsigned int UITextSplineController_IGlyph_TypeDefinitionIndex = 37288;
 
 	class UITextSplineController_IGlyph
 	{

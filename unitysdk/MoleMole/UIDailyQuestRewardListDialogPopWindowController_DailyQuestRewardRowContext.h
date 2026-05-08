@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIDAILYQUESTREWARDLISTDIALOGPOPWINDOWCONTROLLER_DAILYQUESTREWARDROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xACFD990)
+#define MOLEMOLE_UIDAILYQUESTREWARDLISTDIALOGPOPWINDOWCONTROLLER_DAILYQUESTREWARDROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157D6210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDailyQuestRewardListDialogPopWindowController_DailyQuestRewardRowContext_TypeDefinitionIndex = 49801;
+	inline static constexpr unsigned int UIDailyQuestRewardListDialogPopWindowController_DailyQuestRewardRowContext_TypeDefinitionIndex = 55177;
 
 	class UIDailyQuestRewardListDialogPopWindowController_DailyQuestRewardRowContext : public ::System::Object
 	{

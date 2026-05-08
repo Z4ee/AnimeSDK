@@ -8,13 +8,13 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMODIFYPOSITIONTASKEXCLUDE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB82BC50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMODIFYPOSITIONTASKEXCLUDE_START_OFFSET UNITYSDK_OFFSET(0xB82BDA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMODIFYPOSITIONTASKEXCLUDE__CTOR_OFFSET UNITYSDK_OFFSET(0xB82C6D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMODIFYPOSITIONTASKEXCLUDE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x178042B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMODIFYPOSITIONTASKEXCLUDE_START_OFFSET UNITYSDK_OFFSET(0x178043E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMODIFYPOSITIONTASKEXCLUDE__CTOR_OFFSET UNITYSDK_OFFSET(0x17804D20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDModifyPositionTaskExclude_TypeDefinitionIndex = 60843;
+	inline static constexpr unsigned int LDModifyPositionTaskExclude_TypeDefinitionIndex = 73838;
 
 	class LDModifyPositionTaskExclude : public ::FlowCanvas::Nodes::FlowControlNode
 	{

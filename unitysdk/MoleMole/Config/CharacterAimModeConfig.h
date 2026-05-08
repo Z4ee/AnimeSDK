@@ -9,11 +9,11 @@ namespace MoleMole::Config { class CharacterAimControlConfig; }
 namespace MoleMole::Config { class IAimModeCameraConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHARACTERAIMMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xACB9490)
+#define MOLEMOLE_CONFIG_CHARACTERAIMMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175298C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAimModeConfig_TypeDefinitionIndex = 61159;
+	inline static constexpr unsigned int CharacterAimModeConfig_TypeDefinitionIndex = 52221;
 
 	class CharacterAimModeConfig : public ::System::Object
 	{

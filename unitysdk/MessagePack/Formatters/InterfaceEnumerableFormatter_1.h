@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int InterfaceEnumerableFormatter_1_TypeDefinitionIndex = 27535;
+	inline static constexpr unsigned int InterfaceEnumerableFormatter_1_TypeDefinitionIndex = 27668;
 
 	template <typename T>
 	class InterfaceEnumerableFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::Il2CppArray<T>*, ::System::Collections::Generic::IEnumerable_1<T>*>

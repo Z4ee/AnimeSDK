@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NPCStreamingProxy_StreamingState_TypeDefinitionIndex = 60102;
+inline static constexpr unsigned int NPCStreamingProxy_StreamingState_TypeDefinitionIndex = 62141;
 
 enum class NPCStreamingProxy_StreamingState : ::System::Byte
 {
-	Loading = 0x1,
 	Unloaded = 0x0,
+	Loading = 0x1,
 	Loaded = 0x2,
 };

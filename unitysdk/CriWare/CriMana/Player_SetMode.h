@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_SetMode_TypeDefinitionIndex = 32321;
+	inline static constexpr unsigned int Player_SetMode_TypeDefinitionIndex = 32850;
 
 	enum class Player_SetMode : ::System::Int32
 	{

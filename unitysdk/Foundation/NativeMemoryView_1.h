@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryView_1_TypeDefinitionIndex = 9057;
+	inline static constexpr unsigned int NativeMemoryView_1_TypeDefinitionIndex = 8919;
 
 	template <typename T>
 	struct NativeMemoryView_1

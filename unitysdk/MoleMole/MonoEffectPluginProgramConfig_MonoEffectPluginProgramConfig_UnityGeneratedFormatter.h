@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x75B12D0)
-#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x75B12E0)
-#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x75B1430)
-#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x75B1590)
-#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x75B1550)
+#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12F9D370)
+#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12F9D380)
+#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12F9D4B0)
+#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F9D5F0)
+#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG_MONOEFFECTPLUGINPROGRAMCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12F9D5B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginProgramConfig_MonoEffectPluginProgramConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 57476;
+	inline static constexpr unsigned int MonoEffectPluginProgramConfig_MonoEffectPluginProgramConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 81311;
 
 	class MonoEffectPluginProgramConfig_MonoEffectPluginProgramConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoEffectPluginProgramConfig*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AnimatorStateTimeSegment*>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AnimatorStateTimeSegment*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginProgramConfig_MonoEffectPluginProgramConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45F30);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::AnimatorStateTimeSegment*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginProgramConfig_MonoEffectPluginProgramConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x469C0);
 		}
 
 		::System::Void _ctor()

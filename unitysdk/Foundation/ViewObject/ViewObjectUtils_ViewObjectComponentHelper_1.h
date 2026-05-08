@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectUtils_ViewObjectComponentHelper_1_TypeDefinitionIndex = 42273;
+	inline static constexpr unsigned int ViewObjectUtils_ViewObjectComponentHelper_1_TypeDefinitionIndex = 66918;
 
 	template <typename T>
 	class ViewObjectUtils_ViewObjectComponentHelper_1 : public ::System::Object

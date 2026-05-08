@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentMeta_1_TypeDefinitionIndex = 35223;
+	inline static constexpr unsigned int EcsComponentMeta_1_TypeDefinitionIndex = 35769;
 
 	template <typename T>
 	class EcsComponentMeta_1 : public ::System::Object

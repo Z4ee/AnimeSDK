@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/Utilities/GlobalConfigAttribute.h"
 
-#define SIRENIX_UTILITIES_SIRENIXEDITORCONFIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AECB120)
+#define SIRENIX_UTILITIES_SIRENIXEDITORCONFIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BADBF40)
 
 namespace Sirenix::Utilities
 {

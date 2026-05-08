@@ -6,11 +6,11 @@ namespace MoleMole::Config { class AtmosphereData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDATMOSPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0xACC5D20)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDATMOSPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x175367C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardAtmosphere_TypeDefinitionIndex = 59784;
+	inline static constexpr unsigned int ConfigHollowChessboardAtmosphere_TypeDefinitionIndex = 60049;
 
 	class ConfigHollowChessboardAtmosphere : public ::Foundation::MihoyoSerializedScriptableObject
 	{

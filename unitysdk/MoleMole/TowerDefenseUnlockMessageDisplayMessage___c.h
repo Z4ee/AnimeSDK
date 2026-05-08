@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_TOWERDEFENSEUNLOCKMESSAGEDISPLAYMESSAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4A0DB0)
-#define MOLEMOLE_TOWERDEFENSEUNLOCKMESSAGEDISPLAYMESSAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A0DF0)
-#define MOLEMOLE_TOWERDEFENSEUNLOCKMESSAGEDISPLAYMESSAGE___C__ONPROCESS_B__3_0_OFFSET UNITYSDK_OFFSET(0xA4A0E00)
+#define MOLEMOLE_TOWERDEFENSEUNLOCKMESSAGEDISPLAYMESSAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12FD29B0)
+#define MOLEMOLE_TOWERDEFENSEUNLOCKMESSAGEDISPLAYMESSAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12FD29F0)
+#define MOLEMOLE_TOWERDEFENSEUNLOCKMESSAGEDISPLAYMESSAGE___C__ONPROCESS_B__3_0_OFFSET UNITYSDK_OFFSET(0x12FD2A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TowerDefenseUnlockMessageDisplayMessage___c_TypeDefinitionIndex = 67234;
+	inline static constexpr unsigned int TowerDefenseUnlockMessageDisplayMessage___c_TypeDefinitionIndex = 76365;
 
 	class TowerDefenseUnlockMessageDisplayMessage___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::TowerDefenseUnlockMessageDisplayMessage___c** StaticGet___9()
-		{
-			return (::MoleMole::TowerDefenseUnlockMessageDisplayMessage___c**)Il2CppClass::FromTypeDefinitionIndex(TowerDefenseUnlockMessageDisplayMessage___c_TypeDefinitionIndex)->GetStaticField(0x3D4F0);
-		}
 		static ::System::Action** StaticGet___9__3_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(TowerDefenseUnlockMessageDisplayMessage___c_TypeDefinitionIndex)->GetStaticField(0x3D4F8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(TowerDefenseUnlockMessageDisplayMessage___c_TypeDefinitionIndex)->GetStaticField(0x3EC70);
+		}
+		static ::MoleMole::TowerDefenseUnlockMessageDisplayMessage___c** StaticGet___9()
+		{
+			return (::MoleMole::TowerDefenseUnlockMessageDisplayMessage___c**)Il2CppClass::FromTypeDefinitionIndex(TowerDefenseUnlockMessageDisplayMessage___c_TypeDefinitionIndex)->GetStaticField(0x3EC78);
 		}
 
 		static ::System::Void _cctor()

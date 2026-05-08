@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_ArrayFormatter_1_TypeDefinitionIndex = 26690;
+	inline static constexpr unsigned int Graph_ArrayFormatter_1_TypeDefinitionIndex = 28254;
 
 	template <typename T>
 	class Graph_ArrayFormatter_1 : public ::System::Object

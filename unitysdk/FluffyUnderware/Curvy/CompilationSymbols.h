@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CompilationSymbols_TypeDefinitionIndex = 36634;
+	inline static constexpr unsigned int CompilationSymbols_TypeDefinitionIndex = 37178;
 
 	class CompilationSymbols : public ::System::Object
 	{

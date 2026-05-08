@@ -8,13 +8,13 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json::Internal { class AutomataDictionary; }
 
-#define UTF8JSON_UNITY_VECTOR4FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B70ABE0)
-#define UTF8JSON_UNITY_VECTOR4FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B70A800)
-#define UTF8JSON_UNITY_VECTOR4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70A440)
+#define UTF8JSON_UNITY_VECTOR4FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C4BAC10)
+#define UTF8JSON_UNITY_VECTOR4FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C4BA830)
+#define UTF8JSON_UNITY_VECTOR4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BA470)
 
 namespace Utf8Json::Unity
 {
-	inline static constexpr unsigned int Vector4Formatter_TypeDefinitionIndex = 83795;
+	inline static constexpr unsigned int Vector4Formatter_TypeDefinitionIndex = 85523;
 
 	class Vector4Formatter : public ::System::Object
 	{

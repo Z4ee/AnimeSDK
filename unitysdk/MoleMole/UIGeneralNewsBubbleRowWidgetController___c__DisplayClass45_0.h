@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralNewsBubbleRowWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6C67950)
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS45_0____SHOWFAIRYTIPBUBBLE_B__0_OFFSET UNITYSDK_OFFSET(0x6C67960)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x155B8CB0)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER___C__DISPLAYCLASS45_0____SHOWFAIRYTIPBUBBLE_B__0_OFFSET UNITYSDK_OFFSET(0x155B8CC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController___c__DisplayClass45_0_TypeDefinitionIndex = 73182;
+	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController___c__DisplayClass45_0_TypeDefinitionIndex = 73360;
 
 	class UIGeneralNewsBubbleRowWidgetController___c__DisplayClass45_0 : public ::System::Object
 	{

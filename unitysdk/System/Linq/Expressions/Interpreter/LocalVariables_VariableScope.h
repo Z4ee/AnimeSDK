@@ -5,7 +5,7 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_VARIABLESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AB650)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_VARIABLESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDAD270)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -14,8 +14,8 @@ namespace System::Linq::Expressions::Interpreter
 	class LocalVariables_VariableScope : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Interpreter::LocalVariable* Variable; // 0x10
-		::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* ChildScopes; // 0x18
+		::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* ChildScopes; // 0x10
+		::System::Linq::Expressions::Interpreter::LocalVariable* Variable; // 0x18
 		::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope* Parent; // 0x20
 		::System::Int32 Start; // 0x28
 		::System::Int32 Stop; // 0x2C

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SampleDistanceMode_TypeDefinitionIndex = 29626;
+	inline static constexpr unsigned int SampleDistanceMode_TypeDefinitionIndex = 30154;
 
 	enum class SampleDistanceMode : ::System::Int32
 	{

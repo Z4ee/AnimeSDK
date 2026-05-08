@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class PathGraphGuidePointPathSpawnGroupConfig_SpawnPathInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x6512510)
+#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC6F10)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupConfig_TypeDefinitionIndex = 65032;
+	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupConfig_TypeDefinitionIndex = 41252;
 
 	class PathGraphGuidePointPathSpawnGroupConfig : public ::NPCCrowd::AI::PathGraphSpawnGroupConfig
 	{

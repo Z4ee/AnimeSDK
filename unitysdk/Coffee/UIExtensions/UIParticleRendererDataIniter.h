@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERERDATAINITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A749530)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERERDATAINITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B588040)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleRendererDataIniter_TypeDefinitionIndex = 32148;
+	inline static constexpr unsigned int UIParticleRendererDataIniter_TypeDefinitionIndex = 32677;
 
 	class UIParticleRendererDataIniter : public ::UnityEngine::MonoBehaviour
 	{

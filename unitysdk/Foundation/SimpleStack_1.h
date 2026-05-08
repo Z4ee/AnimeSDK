@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SimpleStack_1_TypeDefinitionIndex = 71341;
+	inline static constexpr unsigned int SimpleStack_1_TypeDefinitionIndex = 81873;
 
 	template <typename T>
 	class SimpleStack_1 : public ::System::Object

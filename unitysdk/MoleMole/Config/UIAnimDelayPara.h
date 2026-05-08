@@ -5,12 +5,12 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class AnimationState; }
 
-#define MOLEMOLE_CONFIG_UIANIMDELAYPARA_GETWAITTIME_OFFSET UNITYSDK_OFFSET(0x81FAEC0)
-#define MOLEMOLE_CONFIG_UIANIMDELAYPARA__CTOR_OFFSET UNITYSDK_OFFSET(0x81FAF50)
+#define MOLEMOLE_CONFIG_UIANIMDELAYPARA_GETWAITTIME_OFFSET UNITYSDK_OFFSET(0xFB13D80)
+#define MOLEMOLE_CONFIG_UIANIMDELAYPARA__CTOR_OFFSET UNITYSDK_OFFSET(0xFB13DF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIAnimDelayPara_TypeDefinitionIndex = 80194;
+	inline static constexpr unsigned int UIAnimDelayPara_TypeDefinitionIndex = 46536;
 
 	class UIAnimDelayPara : public ::UnityEngine::MonoBehaviour
 	{

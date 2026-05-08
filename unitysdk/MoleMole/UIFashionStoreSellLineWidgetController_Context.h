@@ -5,22 +5,22 @@
 class Class_1_BD2BE7927F889C7B;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT_ADDPRODUCT_OFFSET UNITYSDK_OFFSET(0x9BCD3D0)
-#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT_FILLWITHNULL_OFFSET UNITYSDK_OFFSET(0x9BCD520)
-#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT_GETPRODUCTARRAY_OFFSET UNITYSDK_OFFSET(0x9BCD660)
-#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9BCD350)
+#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT_ADDPRODUCT_OFFSET UNITYSDK_OFFSET(0x1431C8A0)
+#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT_FILLWITHNULL_OFFSET UNITYSDK_OFFSET(0x1431C9D0)
+#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT_GETPRODUCTARRAY_OFFSET UNITYSDK_OFFSET(0x1431CAF0)
+#define MOLEMOLE_UIFASHIONSTORESELLLINEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1431C820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreSellLineWidgetController_Context_TypeDefinitionIndex = 43438;
+	inline static constexpr unsigned int UIFashionStoreSellLineWidgetController_Context_TypeDefinitionIndex = 52171;
 
 	class UIFashionStoreSellLineWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_2<::System::Int32, ::System::Int32>* OnClickProduct; // 0x28
-		::Il2CppArray<::Class_1_BD2BE7927F889C7B*>* _productArray; // 0x30
-		::System::Int32 row; // 0x38
-		::System::Int32 currIdx; // 0x3C
+		::Il2CppArray<::Class_1_BD2BE7927F889C7B*>* _productArray; // 0x28
+		::System::Action_2<::System::Int32, ::System::Int32>* OnClickProduct; // 0x30
+		::System::Int32 currIdx; // 0x38
+		::System::Int32 row; // 0x3C
 
 		::System::Void _ctor(::System::Int32 rowIndex, ::System::Action_2<::System::Int32, ::System::Int32>* onClick)
 		{

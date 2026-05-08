@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define VIDEOLIGHTSYNC___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB4AF0)
-#define VIDEOLIGHTSYNC___C__DISPLAYCLASS11_0__UPDATEVIDEONAME_B__0_OFFSET UNITYSDK_OFFSET(0x10BB4B00)
+#define VIDEOLIGHTSYNC___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC0DB0)
+#define VIDEOLIGHTSYNC___C__DISPLAYCLASS11_0__UPDATEVIDEONAME_B__0_OFFSET UNITYSDK_OFFSET(0x18EC0DC0)
 
-inline static constexpr unsigned int VideoLightSync___c__DisplayClass11_0_TypeDefinitionIndex = 54684;
+inline static constexpr unsigned int VideoLightSync___c__DisplayClass11_0_TypeDefinitionIndex = 66828;
 
 class VideoLightSync___c__DisplayClass11_0 : public ::System::Object
 {

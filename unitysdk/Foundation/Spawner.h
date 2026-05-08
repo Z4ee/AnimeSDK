@@ -10,23 +10,23 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define FOUNDATION_SPAWNER_DESPAWN_OFFSET UNITYSDK_OFFSET(0x1AD5BC40)
-#define FOUNDATION_SPAWNER_PRESPAWN_OFFSET UNITYSDK_OFFSET(0x1AD5BEE0)
-#define FOUNDATION_SPAWNER_SPAWN_1_OFFSET UNITYSDK_OFFSET(0x1AD5B8D0)
-#define FOUNDATION_SPAWNER_SPAWN_OFFSET UNITYSDK_OFFSET(0x1AD5B1F0)
-#define FOUNDATION_SPAWNER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD5C200)
-#define FOUNDATION_SPAWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5C1D0)
+#define FOUNDATION_SPAWNER_DESPAWN_OFFSET UNITYSDK_OFFSET(0x1BAE7FD0)
+#define FOUNDATION_SPAWNER_PRESPAWN_OFFSET UNITYSDK_OFFSET(0x1BAE82F0)
+#define FOUNDATION_SPAWNER_SPAWN_1_OFFSET UNITYSDK_OFFSET(0x1BAE7C20)
+#define FOUNDATION_SPAWNER_SPAWN_OFFSET UNITYSDK_OFFSET(0x1BAE7570)
+#define FOUNDATION_SPAWNER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAE8650)
+#define FOUNDATION_SPAWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE85F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Spawner_TypeDefinitionIndex = 8266;
+	inline static constexpr unsigned int Spawner_TypeDefinitionIndex = 7944;
 
 	class Spawner : public ::Foundation::MonoSingletonExt_1<::Foundation::Spawner*>
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::SpawnerPool*>** StaticGet_PoolList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::SpawnerPool*>**)Il2CppClass::FromTypeDefinitionIndex(Spawner_TypeDefinitionIndex)->GetStaticField(0x69E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::SpawnerPool*>**)Il2CppClass::FromTypeDefinitionIndex(Spawner_TypeDefinitionIndex)->GetStaticField(0x6A00);
 		}
 
 		::System::Void _ctor()

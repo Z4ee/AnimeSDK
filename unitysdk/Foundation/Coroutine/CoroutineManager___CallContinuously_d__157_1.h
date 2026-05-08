@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___CallContinuously_d__157_1_TypeDefinitionIndex = 7839;
+	inline static constexpr unsigned int CoroutineManager___CallContinuously_d__157_1_TypeDefinitionIndex = 7855;
 
 	template <typename T>
 	class CoroutineManager___CallContinuously_d__157_1 : public ::System::Object

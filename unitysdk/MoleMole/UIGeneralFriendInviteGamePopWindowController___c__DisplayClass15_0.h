@@ -6,12 +6,12 @@ class Class_1_81D34D116310A358;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALFRIENDINVITEGAMEPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD12ED10)
-#define MOLEMOLE_UIGENERALFRIENDINVITEGAMEPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKCHECKBTN_B__3_OFFSET UNITYSDK_OFFSET(0xD12ED20)
+#define MOLEMOLE_UIGENERALFRIENDINVITEGAMEPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CCFF70)
+#define MOLEMOLE_UIGENERALFRIENDINVITEGAMEPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKCHECKBTN_B__3_OFFSET UNITYSDK_OFFSET(0x16CCFF80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralFriendInviteGamePopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 45155;
+	inline static constexpr unsigned int UIGeneralFriendInviteGamePopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 82201;
 
 	class UIGeneralFriendInviteGamePopWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

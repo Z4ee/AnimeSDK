@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ABYSSS2_GET_GUARANTEE_AREA_ID_OFFSET UNITYSDK_OFFSET(0xA30EAA0)
+#define MOLEMOLE_ABYSSS2_GET_GUARANTEE_AREA_ID_OFFSET UNITYSDK_OFFSET(0x10FFF990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_TypeDefinitionIndex = 77490;
+	inline static constexpr unsigned int AbyssS2_TypeDefinitionIndex = 82309;
 
 	class AbyssS2 : public ::System::Object
 	{

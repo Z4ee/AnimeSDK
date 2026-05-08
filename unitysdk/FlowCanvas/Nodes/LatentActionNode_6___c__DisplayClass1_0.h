@@ -8,7 +8,7 @@ namespace FlowCanvas::Nodes { template <typename T1, typename T2, typename T3, t
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LatentActionNode_6___c__DisplayClass1_0_TypeDefinitionIndex = 27409;
+	inline static constexpr unsigned int LatentActionNode_6___c__DisplayClass1_0_TypeDefinitionIndex = 27453;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class LatentActionNode_6___c__DisplayClass1_0 : public ::System::Object

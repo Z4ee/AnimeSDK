@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ABYSSS2PATTERNMONSTERCREATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9FF930)
+#define MOLEMOLE_FLOWCANVAS_NODES_ABYSSS2PATTERNMONSTERCREATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D343E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AbyssS2PatternMonsterCreate_TypeDefinitionIndex = 64282;
+	inline static constexpr unsigned int AbyssS2PatternMonsterCreate_TypeDefinitionIndex = 74186;
 
 	class AbyssS2PatternMonsterCreate : public ::MoleMole::FlowCanvas::Nodes::PatternMonsterCreate
 	{

@@ -6,18 +6,18 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class ScriptableRenderPass; }
 
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT_SETUP_OFFSET UNITYSDK_OFFSET(0x1767B7E0)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1767B820)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT_SETUP_OFFSET UNITYSDK_OFFSET(0x19151190)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPHELPEREXECUTECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x191511D0)
 
 namespace UnityEngine::Rendering::Unversal
 {
-	inline static constexpr unsigned int SRPHelperExecuteContext_TypeDefinitionIndex = 29281;
+	inline static constexpr unsigned int SRPHelperExecuteContext_TypeDefinitionIndex = 29800;
 
 	class SRPHelperExecuteContext : public ::System::Object
 	{
 	public:
-		::UnityEngine::NAPRenderPipeline0::RenderingData RenderingData; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass*>* Passes; // 0x5A8
+		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass*>* Passes; // 0x10
+		::UnityEngine::NAPRenderPipeline0::RenderingData RenderingData; // 0x18
 		::System::Boolean Quit; // 0x5B0
 
 		::System::Void _ctor()

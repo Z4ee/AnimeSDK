@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_5_A6F8D19602712D95_Class_1_61AE483B33052410_29;
+namespace MoleMole::Config { class ConfigHollowChessboard_CameraShake; }
+namespace System { class Action; }
+
+#define CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xF613B30)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF613F50)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF613FB0)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xF613F60)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF613B20)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B__CTOR_OFFSET UNITYSDK_OFFSET(0xF613B10)
+
+inline static constexpr unsigned int Class_5_A6F8D19602712D95_Class_1_F728667856493F0B_TypeDefinitionIndex = 52612;
+
+class Class_5_A6F8D19602712D95_Class_1_F728667856493F0B : public ::System::Object
+{
+public:
+	::MoleMole::Config::ConfigHollowChessboard_CameraShake* Field_1_3; // 0x10
+	::Class_5_A6F8D19602712D95_Class_1_61AE483B33052410_29* Field_1_4; // 0x18
+	::System::Object* Field_1_1; // 0x20
+	::System::Action* Field_1_2; // 0x28
+	::System::Int32 Field_1_0; // 0x30
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_A6F8D19602712D95_CLASS_1_F728667856493F0B_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

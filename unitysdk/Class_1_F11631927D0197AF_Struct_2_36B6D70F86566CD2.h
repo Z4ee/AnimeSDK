@@ -3,14 +3,14 @@
 #include "unitysdk/Struct_2_E614D3B245F96744_1.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_06946D1A8A6532A9;
+class Class_1_DA77831942E480A9;
 
-inline static constexpr unsigned int Class_1_F11631927D0197AF_Struct_2_36B6D70F86566CD2_TypeDefinitionIndex = 83507;
+inline static constexpr unsigned int Class_1_F11631927D0197AF_Struct_2_36B6D70F86566CD2_TypeDefinitionIndex = 85366;
 
 struct alignas(8) Class_1_F11631927D0197AF_Struct_2_36B6D70F86566CD2
 {
 	::System::Int32 Field_2_0; // 0x10
-	::Class_1_06946D1A8A6532A9* Field_2_1; // 0x18
+	::Class_1_DA77831942E480A9* Field_2_1; // 0x18
 	::Struct_2_E614D3B245F96744_1 Field_2_2; // 0x20
 	::System::Boolean Field_2_3; // 0x28
 };

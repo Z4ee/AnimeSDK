@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_58D6E6CBE8DF407A.h"
+#include "unitysdk/Class_1_495D7A3E0E5529B6.h"
 #include "unitysdk/Enum_3_D97372C4EB93BA22.h"
 
 class Class_1_A9AA6EB96ECB0DFA;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_628AB21DA8A62A15_METHOD_2_2809962C17A1C69C_OFFSET UNITYSDK_OFFSET(0x742BF50)
-#define CLASS_2_628AB21DA8A62A15_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x742C390)
-#define CLASS_2_628AB21DA8A62A15_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x742BF30)
-#define CLASS_2_628AB21DA8A62A15__CTOR_OFFSET UNITYSDK_OFFSET(0x742BF40)
+#define CLASS_2_628AB21DA8A62A15_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x181986E0)
+#define CLASS_2_628AB21DA8A62A15_METHOD_2_7D8DC7460DC5B539_OFFSET UNITYSDK_OFFSET(0x18198190)
+#define CLASS_2_628AB21DA8A62A15_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x18198170)
+#define CLASS_2_628AB21DA8A62A15__CTOR_OFFSET UNITYSDK_OFFSET(0x18198180)
 
-inline static constexpr unsigned int Class_2_628AB21DA8A62A15_TypeDefinitionIndex = 38884;
+inline static constexpr unsigned int Class_2_628AB21DA8A62A15_TypeDefinitionIndex = 51501;
 
-class Class_2_628AB21DA8A62A15 : public ::Class_1_58D6E6CBE8DF407A
+class Class_2_628AB21DA8A62A15 : public ::Class_1_495D7A3E0E5529B6
 {
 public:
-	::UnityEngine::Transform* Field_2_2; // 0x28
+	::UnityEngine::Transform* Field_2_1; // 0x28
 	::Class_1_A9AA6EB96ECB0DFA* Field_2_0; // 0x30
-	::UnityEngine::Transform* Field_2_1; // 0x38
+	::UnityEngine::Transform* Field_2_2; // 0x38
 	::System::Single Field_2_6; // 0x40
 	::System::Single Field_2_3; // 0x44
 	::System::Single Field_2_5; // 0x48
@@ -34,9 +34,9 @@ public:
 		return ((::Enum_3_D97372C4EB93BA22(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_628AB21DA8A62A15_METHOD_2_A96DCA30C6927810_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_2809962C17A1C69C()
+	::System::Boolean Method_2_7D8DC7460DC5B539()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_628AB21DA8A62A15_METHOD_2_2809962C17A1C69C_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_628AB21DA8A62A15_METHOD_2_7D8DC7460DC5B539_OFFSET))(this);
 	}
 
 	::System::Boolean Method_2_391A84BCD9F51317()

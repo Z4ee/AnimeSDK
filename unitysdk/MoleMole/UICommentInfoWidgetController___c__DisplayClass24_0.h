@@ -5,12 +5,12 @@
 namespace MoleMole { class UICommentInfoWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOMMENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0BA450)
-#define MOLEMOLE_UICOMMENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__SETGENERALLEVELID_B__0_OFFSET UNITYSDK_OFFSET(0xC0BA460)
+#define MOLEMOLE_UICOMMENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E863B0)
+#define MOLEMOLE_UICOMMENTINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__SETGENERALLEVELID_B__0_OFFSET UNITYSDK_OFFSET(0x14E863C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICommentInfoWidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 58389;
+	inline static constexpr unsigned int UICommentInfoWidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 38013;
 
 	class UICommentInfoWidgetController___c__DisplayClass24_0 : public ::System::Object
 	{

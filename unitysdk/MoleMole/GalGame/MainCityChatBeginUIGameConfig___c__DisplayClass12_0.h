@@ -7,21 +7,21 @@ namespace MoleMole::GalGame { class MainCityChatBeginUIGameConfig; }
 namespace MoleMole::GalGame { class MainCityChatShowUIConfig_OnCloseWithIndex; }
 namespace System { class Action; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATBEGINUIGAMECONFIG___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA14740)
-#define MOLEMOLE_GALGAME_MAINCITYCHATBEGINUIGAMECONFIG___C__DISPLAYCLASS12_0__ONOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xBA14750)
-#define MOLEMOLE_GALGAME_MAINCITYCHATBEGINUIGAMECONFIG___C__DISPLAYCLASS12_0__ONOPEN_B__2_OFFSET UNITYSDK_OFFSET(0xBA148E0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBEGINUIGAMECONFIG___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D48C30)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBEGINUIGAMECONFIG___C__DISPLAYCLASS12_0__ONOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x16D48C40)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBEGINUIGAMECONFIG___C__DISPLAYCLASS12_0__ONOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x16D48DD0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatBeginUIGameConfig___c__DisplayClass12_0_TypeDefinitionIndex = 59003;
+	inline static constexpr unsigned int MainCityChatBeginUIGameConfig___c__DisplayClass12_0_TypeDefinitionIndex = 40295;
 
 	class MainCityChatBeginUIGameConfig___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::GalGame::MainCityChatBeginUIGameConfig* __4__this; // 0x10
-		::System::Action* __9__2; // 0x18
-		::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* onClose; // 0x20
-		::Class_2_1737D2629B3D075C* node; // 0x28
+		::Class_2_1737D2629B3D075C* node; // 0x18
+		::System::Action* __9__2; // 0x20
+		::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* onClose; // 0x28
 
 		::System::Void _ctor()
 		{

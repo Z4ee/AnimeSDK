@@ -6,22 +6,22 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x7A662B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x7A66440)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x7A66460)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x7A66B20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12331D70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x12331EE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x12331F20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETLEVELCONDITIONTARGETNUM__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x123325C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SetLevelConditionTargetNum_TypeDefinitionIndex = 66758;
+	inline static constexpr unsigned int LD_SetLevelConditionTargetNum_TypeDefinitionIndex = 44822;
 
 	class LD_SetLevelConditionTargetNum : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* _levelConditionID; // 0xA8
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Single>* _levelConditionDuration; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _levelConditionNum; // 0xC0
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _levelConditionID; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _levelConditionNum; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Single>* _levelConditionDuration; // 0xC0
 
 		::System::Void _ctor()
 		{

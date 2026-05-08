@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectHashSetPool_TypeDefinitionIndex = 7796;
+	inline static constexpr unsigned int ObjectHashSetPool_TypeDefinitionIndex = 8308;
 
 	class ObjectHashSetPool : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DofDebugMode_TypeDefinitionIndex = 29588;
+	inline static constexpr unsigned int DofDebugMode_TypeDefinitionIndex = 30116;
 
 	enum class DofDebugMode : ::System::Int32
 	{

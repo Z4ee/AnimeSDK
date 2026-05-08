@@ -5,11 +5,11 @@
 namespace BehaviorDesigner::Runtime::Tasks { class Task; }
 namespace System::Reflection { class FieldInfo; }
 
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_TASKFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x301710)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_TASKFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int JSONDeserialization_TaskField_TypeDefinitionIndex = 31167;
+	inline static constexpr unsigned int JSONDeserialization_TaskField_TypeDefinitionIndex = 31696;
 
 	struct alignas(8) JSONDeserialization_TaskField
 	{

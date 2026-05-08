@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/Unreal/FRotator.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30F540)
+#define PIPELINECAMERA_CAMERASEQUENCE_ROTATORDAMPINGPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE05D20)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int RotatorDampingPolicy_TypeDefinitionIndex = 35765;
+	inline static constexpr unsigned int RotatorDampingPolicy_TypeDefinitionIndex = 36309;
 
 	class RotatorDampingPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::Foundation::Unreal::FRotator, ::Foundation::Unreal::FRotator, ::Foundation::Unreal::FRotator>
 	{

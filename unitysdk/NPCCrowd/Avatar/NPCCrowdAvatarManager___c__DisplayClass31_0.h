@@ -5,19 +5,19 @@
 
 namespace NPCCrowd::Animation { class NPCCPUAnimationSlotInfo; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6FB06A0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__POSTLOADAVATARGOGALGAME_B__1_OFFSET UNITYSDK_OFFSET(0x6FB06B0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__POSTLOADAVATARGOGALGAME_B__2_OFFSET UNITYSDK_OFFSET(0x6FB06D0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEC8F3A0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__POSTLOADAVATARGOGALGAME_B__1_OFFSET UNITYSDK_OFFSET(0xEC8F3B0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__POSTLOADAVATARGOGALGAME_B__2_OFFSET UNITYSDK_OFFSET(0xEC8F3D0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass31_0_TypeDefinitionIndex = 51678;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass31_0_TypeDefinitionIndex = 58958;
 
 	class NPCCrowdAvatarManager___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::NPCCrowd::FNPCAttachPointNameHandle headBoneNameHandle; // 0x10
-		::NPCCrowd::FNPCAttachPointNameHandle middlePointNameHandle; // 0x14
+		::NPCCrowd::FNPCAttachPointNameHandle middlePointNameHandle; // 0x10
+		::NPCCrowd::FNPCAttachPointNameHandle headBoneNameHandle; // 0x14
 
 		::System::Void _ctor()
 		{

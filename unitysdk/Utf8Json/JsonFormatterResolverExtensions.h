@@ -7,11 +7,11 @@ namespace System { class Type; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_JSONFORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1B61C270)
+#define UTF8JSON_JSONFORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1C38B5F0)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonFormatterResolverExtensions_TypeDefinitionIndex = 83774;
+	inline static constexpr unsigned int JsonFormatterResolverExtensions_TypeDefinitionIndex = 85502;
 
 	class JsonFormatterResolverExtensions : public ::System::Object
 	{

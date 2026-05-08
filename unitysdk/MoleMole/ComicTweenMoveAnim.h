@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_COMICTWEENMOVEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE31790)
+#define MOLEMOLE_COMICTWEENMOVEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC63260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicTweenMoveAnim_TypeDefinitionIndex = 30059;
+	inline static constexpr unsigned int ComicTweenMoveAnim_TypeDefinitionIndex = 30588;
 
 	class ComicTweenMoveAnim : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 targetImgAnchorPos; // 0x10
-		::MoleMole::ComicImgPart imgTarget; // 0x18
-		::UnityEngine::Vector2 targetAnchorSize; // 0x1C
-		::UnityEngine::Vector2 targetAnchorPos; // 0x24
+		::UnityEngine::Vector2 targetAnchorSize; // 0x10
+		::UnityEngine::Vector2 targetAnchorPos; // 0x18
+		::MoleMole::ComicImgPart imgTarget; // 0x20
+		::UnityEngine::Vector2 targetImgAnchorPos; // 0x24
 
 		::System::Void _ctor()
 		{

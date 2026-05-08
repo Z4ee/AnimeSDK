@@ -6,23 +6,23 @@
 namespace UnityEngine::UI { class VertexHelper; }
 namespace UnityEngine::UI::Extension { class PathGuide; }
 
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x91A2FB0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x91A2A70)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x91A3230)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x91A32B0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x91A32A0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x91A33C0)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_1947BC35B7A7FCB8_OFFSET UNITYSDK_OFFSET(0x11CC1DC0)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x11CC1840)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x11CC2100)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CC2160)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC2150)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x11CC2270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DebugPathGuidePoints_TypeDefinitionIndex = 44560;
+	inline static constexpr unsigned int DebugPathGuidePoints_TypeDefinitionIndex = 60602;
 
 	class DebugPathGuidePoints : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_8_2()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(DebugPathGuidePoints_TypeDefinitionIndex)->GetStaticField(0x3D1B0);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(DebugPathGuidePoints_TypeDefinitionIndex)->GetStaticField(0x3E920);
 		}
 		::UnityEngine::UI::Extension::PathGuide* PathGuideComponent; // 0xF8
 		::UnityEngine::UI::Extension::PathGuide* Field_8_1; // 0x100
@@ -52,9 +52,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_8_10054BB010E03EDD()
+		::System::Void Method_8_1947BC35B7A7FCB8()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_10054BB010E03EDD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_1947BC35B7A7FCB8_OFFSET))(this);
 		}
 	};
 }

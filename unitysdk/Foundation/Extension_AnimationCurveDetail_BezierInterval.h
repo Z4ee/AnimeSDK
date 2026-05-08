@@ -5,28 +5,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_BUILDCONVERTERFROMUTOT_OFFSET UNITYSDK_OFFSET(0x1A8376D0)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1A839080)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_INTEGRAL_OFFSET UNITYSDK_OFFSET(0x1A8378B0)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_INTEGRALINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A837090)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8390B0)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_BUILDCONVERTERFROMUTOT_OFFSET UNITYSDK_OFFSET(0x1B37D5A0)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1B37EF50)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_IKEYFRAMEINTERVAL_INTEGRAL_OFFSET UNITYSDK_OFFSET(0x1B37D780)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL_INTEGRALINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B37CF60)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_BEZIERINTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37EF80)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Extension_AnimationCurveDetail_BezierInterval_TypeDefinitionIndex = 9039;
+	inline static constexpr unsigned int Extension_AnimationCurveDetail_BezierInterval_TypeDefinitionIndex = 9112;
 
 	class Extension_AnimationCurveDetail_BezierInterval : public ::System::Object
 	{
 	public:
-		::Foundation::Function::FixedPolynomial _evaluatePolynomial; // 0x10
-		::System::Single _lhsOutWeight; // 0x34
-		::Foundation::Function::FixedPolynomial _timeTransform; // 0x38
-		::Foundation::Function::FixedPolynomial _converterDerivative; // 0x5C
-		::Foundation::Function::FixedPolynomial _bezierDerivative; // 0x80
-		::System::Single _integralZeroCache; // 0xA4
-		::Foundation::Function::FixedPolynomial _integralPolynomial; // 0xA8
-		::System::Single _integralOneCache; // 0xCC
-		::System::Single _rhsInWeight; // 0xD0
+		::System::Single _integralZeroCache; // 0x10
+		::System::Single _lhsOutWeight; // 0x14
+		::Foundation::Function::FixedPolynomial _converterDerivative; // 0x18
+		::Foundation::Function::FixedPolynomial _timeTransform; // 0x3C
+		::Foundation::Function::FixedPolynomial _bezierDerivative; // 0x60
+		::Foundation::Function::FixedPolynomial _integralPolynomial; // 0x84
+		::System::Single _integralOneCache; // 0xA8
+		::System::Single _rhsInWeight; // 0xAC
+		::Foundation::Function::FixedPolynomial _evaluatePolynomial; // 0xB0
 		::Foundation::Unreal::Interval_1<::System::Single> _timeInterval; // 0xD4
 
 		::System::Void _ctor(::UnityEngine::Keyframe& lhs, ::UnityEngine::Keyframe& rhs, ::System::Boolean inclusiveRight)

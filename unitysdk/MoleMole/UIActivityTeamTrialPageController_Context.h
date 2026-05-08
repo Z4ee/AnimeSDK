@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIActivityTeamTrialPageController_PageState.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYTEAMTRIALPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xDEEA410)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1633B680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialPageController_Context_TypeDefinitionIndex = 79107;
+	inline static constexpr unsigned int UIActivityTeamTrialPageController_Context_TypeDefinitionIndex = 67540;
 
 	class UIActivityTeamTrialPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,22 +3,24 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Input_PanelType_TypeDefinitionIndex = 63106;
+	inline static constexpr unsigned int ConfigUICommon_Input_PanelType_TypeDefinitionIndex = 52107;
 
 	enum class ConfigUICommon_Input_PanelType : ::System::Int32
 	{
-		Hollow_JoyStick = 31,
 		InLevel_JoyStick = 11,
+		BigScene_JoyStick = 61,
+		BigScene_Action = 62,
+		TriggerTPS_JoyStick = 51,
+		Hollow_JoyStick = 31,
+		Bangkov_JoyStick = 71,
 		MainCity_Action = 22,
-		Bangboo_JoyStick = 41,
 		InLevel_Action = 12,
 		None = 0,
-		MainCity_JoyStick = 21,
-		InLevel_QTE = 13,
-		TriggerTPS_Action = 52,
-		BigScene_JoyStick = 61,
-		TriggerTPS_JoyStick = 51,
+		Bangkov_Action = 72,
+		Bangboo_JoyStick = 41,
 		Bangboo_Action = 42,
-		BigScene_Action = 62,
+		TriggerTPS_Action = 52,
+		InLevel_QTE = 13,
+		MainCity_JoyStick = 21,
 	};
 }

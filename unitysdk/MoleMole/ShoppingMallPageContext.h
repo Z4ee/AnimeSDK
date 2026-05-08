@@ -4,21 +4,21 @@
 
 class Class_1_402812A65CC3A690;
 
-#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x9855950)
-#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9855A80)
-#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x9855A90)
+#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x117825E0)
+#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11782720)
+#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x11782730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShoppingMallPageContext_TypeDefinitionIndex = 61481;
+	inline static constexpr unsigned int ShoppingMallPageContext_TypeDefinitionIndex = 68271;
 
 	class ShoppingMallPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_1_402812A65CC3A690* ItemDataPair; // 0x28
 		::System::Int32 TabID; // 0x30
-		::System::Int32 TabGroupID; // 0x34
-		::System::Int32 RecommendID; // 0x38
+		::System::Int32 RecommendID; // 0x34
+		::System::Int32 TabGroupID; // 0x38
 
 		::System::Void _ctor()
 		{

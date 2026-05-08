@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ScopedReaderLock_1_TypeDefinitionIndex = 8818;
+	inline static constexpr unsigned int ScopedReaderLock_1_TypeDefinitionIndex = 8922;
 
 	template <typename T>
 	struct ScopedReaderLock_1

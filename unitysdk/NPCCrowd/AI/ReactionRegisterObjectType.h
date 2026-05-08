@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionRegisterObjectType_TypeDefinitionIndex = 60282;
+	inline static constexpr unsigned int ReactionRegisterObjectType_TypeDefinitionIndex = 63614;
 
 	enum class ReactionRegisterObjectType : ::System::Int32
 	{

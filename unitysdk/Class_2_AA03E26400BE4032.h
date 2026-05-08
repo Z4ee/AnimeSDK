@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIGeneralNumTabBtnWidgetController_GeneralNumTabBtnData.h"
 
-#define CLASS_2_AA03E26400BE4032__CTOR_OFFSET UNITYSDK_OFFSET(0xE8278F0)
+#define CLASS_2_AA03E26400BE4032__CTOR_OFFSET UNITYSDK_OFFSET(0x11966580)
 
-inline static constexpr unsigned int Class_2_AA03E26400BE4032_TypeDefinitionIndex = 41927;
+inline static constexpr unsigned int Class_2_AA03E26400BE4032_TypeDefinitionIndex = 76572;
 
 class Class_2_AA03E26400BE4032 : public ::MoleMole::UIGeneralNumTabBtnWidgetController_GeneralNumTabBtnData
 {

@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ReadOnlyRawPtr_1_TypeDefinitionIndex = 24689;
+	inline static constexpr unsigned int ReadOnlyRawPtr_1_TypeDefinitionIndex = 25203;
 
 	template <typename T>
 	struct ReadOnlyRawPtr_1

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_COMICSHAKEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AC510)
+#define MOLEMOLE_COMICSHAKEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BD730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicShakeInfo_TypeDefinitionIndex = 30061;
+	inline static constexpr unsigned int ComicShakeInfo_TypeDefinitionIndex = 30590;
 
 	class ComicShakeInfo : public ::System::Object
 	{

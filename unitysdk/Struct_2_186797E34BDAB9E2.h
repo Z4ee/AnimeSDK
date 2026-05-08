@@ -4,9 +4,9 @@
 
 namespace Nap::NapECS { class EcsFilter; }
 
-#define STRUCT_2_186797E34BDAB9E2__CTOR_OFFSET UNITYSDK_OFFSET(0x360200)
+#define STRUCT_2_186797E34BDAB9E2__CTOR_OFFSET UNITYSDK_OFFSET(0x3493D0)
 
-inline static constexpr unsigned int Struct_2_186797E34BDAB9E2_TypeDefinitionIndex = 48069;
+inline static constexpr unsigned int Struct_2_186797E34BDAB9E2_TypeDefinitionIndex = 62935;
 
 struct alignas(8) Struct_2_186797E34BDAB9E2
 {

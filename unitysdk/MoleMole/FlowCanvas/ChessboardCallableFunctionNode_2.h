@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardCallableFunctionNode_2_TypeDefinitionIndex = 43555;
+	inline static constexpr unsigned int ChessboardCallableFunctionNode_2_TypeDefinitionIndex = 45612;
 
 	template <typename TResult, typename T1>
 	class ChessboardCallableFunctionNode_2 : public ::FlowCanvas::Nodes::CallableFunctionNode_2<TResult, T1>

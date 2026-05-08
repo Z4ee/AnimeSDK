@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMERGEAREAIDBYORDERNO_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8347D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMERGEAREAIDBYORDERNO__CTOR_OFFSET UNITYSDK_OFFSET(0xB834A90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMERGEAREAIDBYORDERNO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1780C930)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMERGEAREAIDBYORDERNO__CTOR_OFFSET UNITYSDK_OFFSET(0x1780CBA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetMergeAreaIDByOrderNo_TypeDefinitionIndex = 42977;
+	inline static constexpr unsigned int LD_AbyssS2_GetMergeAreaIDByOrderNo_TypeDefinitionIndex = 51496;
 
 	class LD_AbyssS2_GetMergeAreaIDByOrderNo : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::System::Int32>
 	{

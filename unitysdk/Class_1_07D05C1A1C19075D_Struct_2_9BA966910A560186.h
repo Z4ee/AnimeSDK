@@ -7,7 +7,7 @@
 
 namespace Share { class CVector2; }
 
-inline static constexpr unsigned int Class_1_07D05C1A1C19075D_Struct_2_9BA966910A560186_TypeDefinitionIndex = 61422;
+inline static constexpr unsigned int Class_1_07D05C1A1C19075D_Struct_2_9BA966910A560186_TypeDefinitionIndex = 69356;
 
 struct alignas(8) Class_1_07D05C1A1C19075D_Struct_2_9BA966910A560186
 {

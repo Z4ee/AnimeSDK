@@ -3,24 +3,24 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AvatarSkeletonBoneIndex_TypeDefinitionIndex = 59641;
+	inline static constexpr unsigned int AnimationSubManager_AvatarSkeletonBoneIndex_TypeDefinitionIndex = 70454;
 
 	enum class AnimationSubManager_AvatarSkeletonBoneIndex : ::System::Int32
 	{
-		Max = 14,
-		Spine1 = 9,
-		Root = 0,
-		RightFoot = 5,
-		LeftToe = 12,
+		LeftFoot = 4,
+		Bip001Head = 2,
 		Neck = 11,
-		LeftHand = 6,
 		RightHand = 7,
 		RightToe = 13,
-		Bip001Head = 2,
-		Pelvis = 3,
-		Spine = 8,
-		LeftFoot = 4,
-		Bip001 = 1,
+		Max = 14,
 		Spine2 = 10,
+		Spine = 8,
+		Root = 0,
+		Spine1 = 9,
+		RightFoot = 5,
+		LeftToe = 12,
+		Pelvis = 3,
+		Bip001 = 1,
+		LeftHand = 6,
 	};
 }

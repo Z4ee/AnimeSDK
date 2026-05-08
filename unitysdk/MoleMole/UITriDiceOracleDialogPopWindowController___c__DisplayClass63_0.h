@@ -5,12 +5,12 @@
 namespace MoleMole { class UITriDiceOracleDialogPopWindowController; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7909820)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS63_0__SHOWONLYONETIP_B__0_OFFSET UNITYSDK_OFFSET(0x7909830)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF629330)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS63_0__SHOWONLYONETIP_B__0_OFFSET UNITYSDK_OFFSET(0xF629340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController___c__DisplayClass63_0_TypeDefinitionIndex = 76538;
+	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController___c__DisplayClass63_0_TypeDefinitionIndex = 53822;
 
 	class UITriDiceOracleDialogPopWindowController___c__DisplayClass63_0 : public ::System::Object
 	{

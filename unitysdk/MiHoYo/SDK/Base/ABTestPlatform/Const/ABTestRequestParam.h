@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_CONST_ABTESTREQUESTPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18BC8300)
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_CONST_ABTESTREQUESTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC82F0)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_CONST_ABTESTREQUESTPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A50CDB0)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_CONST_ABTESTREQUESTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50CDA0)
 
 namespace MiHoYo::SDK::Base::ABTestPlatform::Const
 {
-	inline static constexpr unsigned int ABTestRequestParam_TypeDefinitionIndex = 19090;
+	inline static constexpr unsigned int ABTestRequestParam_TypeDefinitionIndex = 19441;
 
 	class ABTestRequestParam : public ::System::Object
 	{

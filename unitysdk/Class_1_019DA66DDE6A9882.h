@@ -8,7 +8,7 @@ template <typename T> class Class_1_019DA66DDE6A9882;
 template <typename T> class Class_1_0D9CBF4DAA435A5B;
 template <typename T> class Class_3_B60F6C2F126D2E26_5;
 
-inline static constexpr unsigned int Class_1_019DA66DDE6A9882_TypeDefinitionIndex = 25781;
+inline static constexpr unsigned int Class_1_019DA66DDE6A9882_TypeDefinitionIndex = 26370;
 
 template <typename T>
 class Class_1_019DA66DDE6A9882 : public ::System::Object

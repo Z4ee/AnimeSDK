@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventShowTipEntry_ShowTipEntryConfig_TypeDefinitionIndex = 61687;
+	inline static constexpr unsigned int AnimatorEventShowTipEntry_ShowTipEntryConfig_TypeDefinitionIndex = 80567;
 
 	struct alignas(4) AnimatorEventShowTipEntry_ShowTipEntryConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkCommonOutputSettings_PanningRule_TypeDefinitionIndex = 30979;
+inline static constexpr unsigned int AkCommonOutputSettings_PanningRule_TypeDefinitionIndex = 31508;
 
 enum class AkCommonOutputSettings_PanningRule : ::System::Int32
 {

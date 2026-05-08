@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PanelClearFlags_TypeDefinitionIndex = 24441;
+	inline static constexpr unsigned int PanelClearFlags_TypeDefinitionIndex = 24955;
 
 	enum class PanelClearFlags : ::System::Int32
 	{

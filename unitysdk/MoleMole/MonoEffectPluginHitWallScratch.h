@@ -6,13 +6,13 @@ namespace MoleMole::Battle { class ScratchConfigObject; }
 namespace MoleMole::Config { class HitWallCameraShakeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLSCRATCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xBA243D0)
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLSCRATCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBA24370)
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLSCRATCH__CTOR_OFFSET UNITYSDK_OFFSET(0xBA24430)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLSCRATCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16D59210)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLSCRATCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16D591D0)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLSCRATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x16D59250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginHitWallScratch_TypeDefinitionIndex = 47349;
+	inline static constexpr unsigned int MonoEffectPluginHitWallScratch_TypeDefinitionIndex = 81455;
 
 	class MonoEffectPluginHitWallScratch : public ::MoleMole::MonoEffectSerializedPluginBase
 	{

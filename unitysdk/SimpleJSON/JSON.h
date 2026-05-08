@@ -5,19 +5,19 @@
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x199AB850)
-#define SIMPLEJSON_JSON__CCTOR_OFFSET UNITYSDK_OFFSET(0x199AB970)
+#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1A02E880)
+#define SIMPLEJSON_JSON__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A02E9A0)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8150;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8026;
 
 	class JSON : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_static_parse_lock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(JSON_TypeDefinitionIndex)->GetStaticField(0x6D30);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(JSON_TypeDefinitionIndex)->GetStaticField(0x6D40);
 		}
 
 		static ::System::Void _cctor()

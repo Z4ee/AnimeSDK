@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliPayCode_TypeDefinitionIndex = 19547;
+	inline static constexpr unsigned int BiliBiliPayCode_TypeDefinitionIndex = 19904;
 
 	enum class BiliBiliPayCode : ::System::Int32
 	{

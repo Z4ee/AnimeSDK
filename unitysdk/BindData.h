@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class GameObject; }
 
-#define BINDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1CEA0)
+#define BINDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6CF30)
 
-inline static constexpr unsigned int BindData_TypeDefinitionIndex = 28944;
+inline static constexpr unsigned int BindData_TypeDefinitionIndex = 29462;
 
 class BindData : public ::System::Object
 {

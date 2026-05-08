@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/CrowdConditionBase.h"
 
-#define NPCCROWD_AI_FALSECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x6336F50)
-#define NPCCROWD_AI_FALSECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x6336F40)
+#define NPCCROWD_AI_FALSECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xBDD0110)
+#define NPCCROWD_AI_FALSECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD0100)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FalseCondition_TypeDefinitionIndex = 47666;
+	inline static constexpr unsigned int FalseCondition_TypeDefinitionIndex = 68720;
 
 	class FalseCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

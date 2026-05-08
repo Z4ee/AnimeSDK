@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIMissionTipsContainerWidgetController_MissionTipData.h"
 #include "unitysdk/MoleMole/UIMissionTipsContainerWidgetController_MissionTipType.h"
 
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_INTERKNOTTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB404040)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_INTERKNOTTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14530F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_InterKnotTipData_TypeDefinitionIndex = 70927;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_InterKnotTipData_TypeDefinitionIndex = 55058;
 
 	class UIMissionTipsContainerWidgetController_InterKnotTipData : public ::MoleMole::UIMissionTipsContainerWidgetController_MissionTipData
 	{

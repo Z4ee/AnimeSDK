@@ -8,19 +8,19 @@ namespace MoleMole { class UIActivityCompWeekRewardBtnWidgetController; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYCOMPWEEKREWARDBTNWIDGETCONTROLLER__PLAYJUMPBUBBLE_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BC410)
-#define MOLEMOLE_UIACTIVITYCOMPWEEKREWARDBTNWIDGETCONTROLLER__PLAYJUMPBUBBLE_D__29_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIACTIVITYCOMPWEEKREWARDBTNWIDGETCONTROLLER__PLAYJUMPBUBBLE_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7B84E0)
+#define MOLEMOLE_UIACTIVITYCOMPWEEKREWARDBTNWIDGETCONTROLLER__PLAYJUMPBUBBLE_D__29_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCompWeekRewardBtnWidgetController__PlayJumpBubble_d__29_TypeDefinitionIndex = 77635;
+	inline static constexpr unsigned int UIActivityCompWeekRewardBtnWidgetController__PlayJumpBubble_d__29_TypeDefinitionIndex = 45359;
 
 	struct alignas(8) UIActivityCompWeekRewardBtnWidgetController__PlayJumpBubble_d__29
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
-		::System::String* bubbleText; // 0x28
-		::MoleMole::UIActivityCompWeekRewardBtnWidgetController* __4__this; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIActivityCompWeekRewardBtnWidgetController* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::System::String* bubbleText; // 0x30
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

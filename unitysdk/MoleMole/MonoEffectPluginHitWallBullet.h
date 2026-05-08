@@ -6,11 +6,11 @@ namespace MoleMole::Battle { class BulletHoleConfigObject; }
 namespace MoleMole::Config { class HitWallCameraShakeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C8980)
+#define MOLEMOLE_MONOEFFECTPLUGINHITWALLBULLET__CTOR_OFFSET UNITYSDK_OFFSET(0x15B91070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginHitWallBullet_TypeDefinitionIndex = 74430;
+	inline static constexpr unsigned int MonoEffectPluginHitWallBullet_TypeDefinitionIndex = 57030;
 
 	class MonoEffectPluginHitWallBullet : public ::MoleMole::MonoEffectSerializedPluginBase
 	{

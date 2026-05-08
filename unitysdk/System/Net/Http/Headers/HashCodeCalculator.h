@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HashCodeCalculator_TypeDefinitionIndex = 24220;
+	inline static constexpr unsigned int HashCodeCalculator_TypeDefinitionIndex = 24733;
 
 	class HashCodeCalculator : public ::System::Object
 	{

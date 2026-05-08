@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NapBloomQuality.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPBLOOMQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A695F30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPBLOOMQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B661270)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

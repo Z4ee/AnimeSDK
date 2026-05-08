@@ -4,7 +4,7 @@
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDManager_DebugInfo_TypeDefinitionIndex = 29198;
+	inline static constexpr unsigned int RBDManager_DebugInfo_TypeDefinitionIndex = 29717;
 
 	struct alignas(4) RBDManager_DebugInfo
 	{

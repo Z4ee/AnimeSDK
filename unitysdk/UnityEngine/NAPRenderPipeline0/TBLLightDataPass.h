@@ -11,9 +11,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A3674E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A367860)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A367450)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B187B20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B187F80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B187A90)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
@@ -24,7 +24,7 @@ namespace UnityEngine::NAPRenderPipeline0
 	public:
 		static ::UnityEngine::Vector2Int* StaticGet_preScreenSize()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(TBLLightDataPass_TypeDefinitionIndex)->GetStaticField(0x2D90);
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(TBLLightDataPass_TypeDefinitionIndex)->GetStaticField(0x2DA0);
 		}
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_DepthTexture; // 0xA8
 

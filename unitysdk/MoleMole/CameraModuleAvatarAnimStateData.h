@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CAMERAMODULEAVATARANIMSTATEDATA_LERP_OFFSET UNITYSDK_OFFSET(0xB8FD3B0)
-#define MOLEMOLE_CAMERAMODULEAVATARANIMSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FD430)
+#define MOLEMOLE_CAMERAMODULEAVATARANIMSTATEDATA_LERP_OFFSET UNITYSDK_OFFSET(0x139887F0)
+#define MOLEMOLE_CAMERAMODULEAVATARANIMSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13988850)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModuleAvatarAnimStateData_TypeDefinitionIndex = 61075;
+	inline static constexpr unsigned int CameraModuleAvatarAnimStateData_TypeDefinitionIndex = 60181;
 
 	class CameraModuleAvatarAnimStateData : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Cache_1_TypeDefinitionIndex = 27271;
+	inline static constexpr unsigned int Cache_1_TypeDefinitionIndex = 27000;
 
 	template <typename T>
 	class Cache_1 : public ::FlowCanvas::Nodes::CallableFunctionNode_2<T, T>

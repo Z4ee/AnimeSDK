@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PARADOXNOTION_DESIGN_EXPOSEASDEFINITIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65FC20)
+#define PARADOXNOTION_DESIGN_EXPOSEASDEFINITIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B425E60)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int ExposeAsDefinitionAttribute_TypeDefinitionIndex = 26790;
+	inline static constexpr unsigned int ExposeAsDefinitionAttribute_TypeDefinitionIndex = 28123;
 
 	class ExposeAsDefinitionAttribute : public ::System::Attribute
 	{

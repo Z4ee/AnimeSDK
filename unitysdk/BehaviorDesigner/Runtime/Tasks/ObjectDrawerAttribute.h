@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_OBJECTDRAWERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2335A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_OBJECTDRAWERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C013860)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int ObjectDrawerAttribute_TypeDefinitionIndex = 31242;
+	inline static constexpr unsigned int ObjectDrawerAttribute_TypeDefinitionIndex = 31771;
 
 	class ObjectDrawerAttribute : public ::System::Attribute
 	{

@@ -6,11 +6,11 @@ namespace Foundation::Version { class AssetGroup_AssetSubGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_VERSION_ASSETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x804E640)
+#define FOUNDATION_VERSION_ASSETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1401EDF0)
 
 namespace Foundation::Version
 {
-	inline static constexpr unsigned int AssetGroup_TypeDefinitionIndex = 79700;
+	inline static constexpr unsigned int AssetGroup_TypeDefinitionIndex = 54688;
 
 	class AssetGroup : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

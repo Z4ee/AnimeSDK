@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_80.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_85.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_F45B22F3BBA809FA_2_METHOD_2_43535ED8A0DF5FF8_OFFSET UNITYSDK_OFFSET(0x9F5D620)
-#define CLASS_2_F45B22F3BBA809FA_2__CTOR_OFFSET UNITYSDK_OFFSET(0x9F5D600)
+#define CLASS_2_F45B22F3BBA809FA_2_METHOD_2_43535ED8A0DF5FF8_OFFSET UNITYSDK_OFFSET(0xFDDE240)
+#define CLASS_2_F45B22F3BBA809FA_2__CTOR_OFFSET UNITYSDK_OFFSET(0xFDDE230)
 
-inline static constexpr unsigned int Class_2_F45B22F3BBA809FA_2_TypeDefinitionIndex = 52847;
+inline static constexpr unsigned int Class_2_F45B22F3BBA809FA_2_TypeDefinitionIndex = 54443;
 
-class Class_2_F45B22F3BBA809FA_2 : public ::Class_1_43BD383C98B4C0C5_80
+class Class_2_F45B22F3BBA809FA_2 : public ::Class_1_43BD383C98B4C0C5_85
 {
 public:
 	::System::Collections::Generic::List_1<::System::String*>* Field_2_0; // 0x10

@@ -7,20 +7,20 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWGENERALBOTTOMTIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB984EB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWGENERALBOTTOMTIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB985000)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWGENERALBOTTOMTIP__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0xB985020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWGENERALBOTTOMTIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18212240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWGENERALBOTTOMTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18212360)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWGENERALBOTTOMTIP__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x182123A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowGeneralBottomTip_TypeDefinitionIndex = 62229;
+	inline static constexpr unsigned int LDShowGeneralBottomTip_TypeDefinitionIndex = 70002;
 
 	class LDShowGeneralBottomTip : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* textMapKey; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Single>* duration; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Single>* duration; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* textMapKey; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
 
 		::System::Void _ctor()
 		{

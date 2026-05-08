@@ -10,25 +10,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BC8B3F44D806899C_METHOD_1_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0xBCE8A30)
-#define CLASS_1_BC8B3F44D806899C_METHOD_1_546E1E770BA6E537_OFFSET UNITYSDK_OFFSET(0xBCE9000)
-#define CLASS_1_BC8B3F44D806899C_METHOD_1_8698864D7CE4D9D4_OFFSET UNITYSDK_OFFSET(0xBCE9290)
-#define CLASS_1_BC8B3F44D806899C_METHOD_1_A784F8108FC3A63B_OFFSET UNITYSDK_OFFSET(0xBCE8560)
-#define CLASS_1_BC8B3F44D806899C_METHOD_1_BC0D62BCBFDA9D60_OFFSET UNITYSDK_OFFSET(0xBCE7D60)
-#define CLASS_1_BC8B3F44D806899C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBCE7C40)
+#define CLASS_1_BC8B3F44D806899C_METHOD_1_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0x169F0070)
+#define CLASS_1_BC8B3F44D806899C_METHOD_1_546E1E770BA6E537_OFFSET UNITYSDK_OFFSET(0x169F16F0)
+#define CLASS_1_BC8B3F44D806899C_METHOD_1_A784F8108FC3A63B_OFFSET UNITYSDK_OFFSET(0x169F11C0)
+#define CLASS_1_BC8B3F44D806899C_METHOD_1_BC0D62BCBFDA9D60_OFFSET UNITYSDK_OFFSET(0x169F0610)
+#define CLASS_1_BC8B3F44D806899C_METHOD_1_C5DF6610A57B6A4A_OFFSET UNITYSDK_OFFSET(0x169F0DF0)
+#define CLASS_1_BC8B3F44D806899C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169EFF50)
 
-inline static constexpr unsigned int Class_1_BC8B3F44D806899C_TypeDefinitionIndex = 44608;
+inline static constexpr unsigned int Class_1_BC8B3F44D806899C_TypeDefinitionIndex = 50205;
 
 class Class_1_BC8B3F44D806899C : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::SortedList_2<::System::String*, ::MoleMole::Config::AnimatorEventPattern*>*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::SortedList_2<::System::String*, ::MoleMole::Config::AnimatorEventPattern*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BC8B3F44D806899C_TypeDefinitionIndex)->GetStaticField(0x37F00);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::SortedList_2<::System::String*, ::MoleMole::Config::AnimatorEventPattern*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BC8B3F44D806899C_TypeDefinitionIndex)->GetStaticField(0x3FB00);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorEventPattern*>*>*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorEventPattern*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BC8B3F44D806899C_TypeDefinitionIndex)->GetStaticField(0x37F08);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorEventPattern*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BC8B3F44D806899C_TypeDefinitionIndex)->GetStaticField(0x3FB08);
 	}
 
 	static ::System::Void _cctor()
@@ -36,19 +36,19 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C__CCTOR_OFFSET))();
 	}
 
+	static ::System::Void Method_1_3CCA0B8A31B650A8()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_3CCA0B8A31B650A8_OFFSET))();
+	}
+
 	static ::System::Void Method_1_BC0D62BCBFDA9D60(::MoleMole::SkillCharacterScriptConfig* a1)
 	{
 		return ((::System::Void(*)(::MoleMole::SkillCharacterScriptConfig*))((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_BC0D62BCBFDA9D60_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_A784F8108FC3A63B(::MoleMole::Config::ConfigAnimatorEventPattern* a1, ::System::String* a2, ::System::Boolean a3)
+	static ::System::Void Method_1_C5DF6610A57B6A4A(::MoleMole::SkillCharacterScriptConfig* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::MoleMole::Config::ConfigAnimatorEventPattern*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_A784F8108FC3A63B_OFFSET))(a1, a2, a3);
-	}
-
-	static ::System::Void Method_1_3CCA0B8A31B650A8()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_3CCA0B8A31B650A8_OFFSET))();
+		return ((::System::Void(*)(::MoleMole::SkillCharacterScriptConfig*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_C5DF6610A57B6A4A_OFFSET))(a1, a2);
 	}
 
 	static ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorEventPattern*>* Method_1_546E1E770BA6E537(::MoleMole::SkillCharacterScriptConfig* a1, ::System::String* a2, ::System::Boolean a3)
@@ -56,8 +56,8 @@ public:
 		return ((::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorEventPattern*>*(*)(::MoleMole::SkillCharacterScriptConfig*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_546E1E770BA6E537_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void Method_1_8698864D7CE4D9D4(::MoleMole::SkillCharacterScriptConfig* a1, ::System::Boolean a2)
+	static ::System::Void Method_1_A784F8108FC3A63B(::MoleMole::Config::ConfigAnimatorEventPattern* a1, ::System::String* a2, ::System::Boolean a3)
 	{
-		return ((::System::Void(*)(::MoleMole::SkillCharacterScriptConfig*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_8698864D7CE4D9D4_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::MoleMole::Config::ConfigAnimatorEventPattern*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BC8B3F44D806899C_METHOD_1_A784F8108FC3A63B_OFFSET))(a1, a2, a3);
 	}
 };

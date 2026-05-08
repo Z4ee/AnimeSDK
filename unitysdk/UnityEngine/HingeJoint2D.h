@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/AnchoredJoint2D.h"
 
-#define UNITYENGINE_HINGEJOINT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B077AD0)
+#define UNITYENGINE_HINGEJOINT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC4E160)
 
 namespace UnityEngine
 {

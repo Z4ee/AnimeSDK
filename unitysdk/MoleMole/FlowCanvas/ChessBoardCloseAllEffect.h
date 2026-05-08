@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCLOSEALLEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0xC25EDC0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCLOSEALLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC25EF10)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCLOSEALLEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x14273C40)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCLOSEALLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x14273D70)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardCloseAllEffect_TypeDefinitionIndex = 63522;
+	inline static constexpr unsigned int ChessBoardCloseAllEffect_TypeDefinitionIndex = 70349;
 
 	class ChessBoardCloseAllEffect : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
 	{

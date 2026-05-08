@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRoleSelectPageContext; }
 
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x96E4C20)
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__ONROLEEDITORCLICKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x96E4C30)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x147EBB00)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__ONROLEEDITORCLICKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x147EBB10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuickEditPopWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 55612;
+	inline static constexpr unsigned int UIQuickEditPopWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 74599;
 
 	class UIQuickEditPopWindowController___c__DisplayClass26_0 : public ::System::Object
 	{

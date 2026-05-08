@@ -9,7 +9,7 @@ namespace System { template <typename T> class Lazy_1; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int LazyFormatter_1_TypeDefinitionIndex = 26879;
+	inline static constexpr unsigned int LazyFormatter_1_TypeDefinitionIndex = 27458;
 
 	template <typename T>
 	class LazyFormatter_1 : public ::System::Object

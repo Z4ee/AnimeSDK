@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_AVATARUIELEMENTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x81CA3E0)
+#define MOLEMOLE_AVATARUIELEMENTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE2AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarUIElementColor_TypeDefinitionIndex = 57901;
+	inline static constexpr unsigned int AvatarUIElementColor_TypeDefinitionIndex = 64556;
 
 	class AvatarUIElementColor : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-#define MOLEMOLE_UIGACHAPANELWIDGET_GET_IGNOREFADING_OFFSET UNITYSDK_OFFSET(0xA97A570)
-#define MOLEMOLE_UIGACHAPANELWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0xA97A580)
+#define MOLEMOLE_UIGACHAPANELWIDGET_GET_IGNOREFADING_OFFSET UNITYSDK_OFFSET(0x15199CA0)
+#define MOLEMOLE_UIGACHAPANELWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x15199CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPanelWidget_TypeDefinitionIndex = 73472;
+	inline static constexpr unsigned int UIGachaPanelWidget_TypeDefinitionIndex = 44890;
 
 	class UIGachaPanelWidget : public ::MoleMole::UIWidgetController
 	{

@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREEPARAMETERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B66F0D0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREEPARAMETERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66F110)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREEPARAMETERS___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1B66F120)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREEPARAMETERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C44D320)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREEPARAMETERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C44D360)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREEPARAMETERS___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C44D370)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c_TypeDefinitionIndex = 27929;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c_TypeDefinitionIndex = 28447;
 
 	class RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c_TypeDefinitionIndex)->GetStaticField(0x20A80);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CompactStateTreeParameters___c_TypeDefinitionIndex)->GetStaticField(0x215F0);
 		}
 
 		static ::System::Void _cctor()

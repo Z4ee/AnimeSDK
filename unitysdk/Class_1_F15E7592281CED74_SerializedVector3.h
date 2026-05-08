@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_F15E7592281CED74_SERIALIZEDVECTOR3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x94C4930)
-#define CLASS_1_F15E7592281CED74_SERIALIZEDVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x94C4B10)
+#define CLASS_1_F15E7592281CED74_SERIALIZEDVECTOR3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x104DBEE0)
+#define CLASS_1_F15E7592281CED74_SERIALIZEDVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x104DBED0)
 
-inline static constexpr unsigned int Class_1_F15E7592281CED74_SerializedVector3_TypeDefinitionIndex = 77199;
+inline static constexpr unsigned int Class_1_F15E7592281CED74_SerializedVector3_TypeDefinitionIndex = 65409;
 
 class Class_1_F15E7592281CED74_SerializedVector3 : public ::System::Object
 {

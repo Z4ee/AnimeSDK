@@ -6,18 +6,18 @@ namespace MoleMole::Config { class ConfigHollowChessboard_CameraShake; }
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERASHAKE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBAFC890)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERASHAKE___C__DISPLAYCLASS2_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xBAFC8A0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERASHAKE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB630)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERASHAKE___C__DISPLAYCLASS2_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x186BB640)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_CameraShake___c__DisplayClass2_0_TypeDefinitionIndex = 79828;
+	inline static constexpr unsigned int ConfigHollowChessboard_CameraShake___c__DisplayClass2_0_TypeDefinitionIndex = 43427;
 
 	class ConfigHollowChessboard_CameraShake___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::Config::ConfigHollowChessboard_CameraShake* __4__this; // 0x10
-		::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback; // 0x18
+		::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback; // 0x10
+		::MoleMole::Config::ConfigHollowChessboard_CameraShake* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

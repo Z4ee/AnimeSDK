@@ -6,19 +6,19 @@
 
 class Class_1_0340E479638D8801;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYSCENEPROPERTY_CREATECONDITION_OFFSET UNITYSDK_OFFSET(0xF2CEAB0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYSCENEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xF2CEBB0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYSCENEPROPERTY_CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x159ED880)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYSCENEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x159ED960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractConditionBySceneProperty_TypeDefinitionIndex = 42928;
+	inline static constexpr unsigned int ConfigHollowInteractConditionBySceneProperty_TypeDefinitionIndex = 78538;
 
 	class ConfigHollowInteractConditionBySceneProperty : public ::MoleMole::Config::ConfigHollowInteractCondition
 	{
 	public:
-		::Share::EScenePropertyType Property; // 0x10
-		::MoleMole::Config::ValueCompareType CompareType; // 0x14
-		::System::Int32 Target; // 0x18
+		::System::Int32 Target; // 0x10
+		::Share::EScenePropertyType Property; // 0x14
+		::MoleMole::Config::ValueCompareType CompareType; // 0x18
 
 		::System::Void _ctor()
 		{

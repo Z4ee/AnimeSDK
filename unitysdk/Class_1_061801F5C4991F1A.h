@@ -5,26 +5,26 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_2_4521B631ACA75155;
+class Class_2_7C9A70DC3FC57CDC;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_061801F5C4991F1A_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x9DC0B90)
-#define CLASS_1_061801F5C4991F1A_FROMFLX_OFFSET UNITYSDK_OFFSET(0x9DC1020)
-#define CLASS_1_061801F5C4991F1A_METHOD_1_00531776927FE5B6_OFFSET UNITYSDK_OFFSET(0x9DC10A0)
-#define CLASS_1_061801F5C4991F1A_METHOD_1_41430AFD3BF44B19_OFFSET UNITYSDK_OFFSET(0x9DC0BF0)
-#define CLASS_1_061801F5C4991F1A__CTOR_OFFSET UNITYSDK_OFFSET(0x9DC1960)
+#define CLASS_1_061801F5C4991F1A_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xF28BDD0)
+#define CLASS_1_061801F5C4991F1A_FROMFLX_OFFSET UNITYSDK_OFFSET(0xF28C260)
+#define CLASS_1_061801F5C4991F1A_METHOD_1_00531776927FE5B6_OFFSET UNITYSDK_OFFSET(0xF28C2E0)
+#define CLASS_1_061801F5C4991F1A_METHOD_1_41430AFD3BF44B19_OFFSET UNITYSDK_OFFSET(0xF28BE30)
+#define CLASS_1_061801F5C4991F1A__CTOR_OFFSET UNITYSDK_OFFSET(0xF28CBA0)
 
-inline static constexpr unsigned int Class_1_061801F5C4991F1A_TypeDefinitionIndex = 51025;
+inline static constexpr unsigned int Class_1_061801F5C4991F1A_TypeDefinitionIndex = 51429;
 
 class Class_1_061801F5C4991F1A : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_2_4521B631ACA75155*>* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::Class_2_4521B631ACA75155*>* Field_1_1; // 0x20
-	::System::Collections::Generic::List_1<::Class_2_4521B631ACA75155*>* Field_1_3; // 0x28
-	::System::Collections::Generic::List_1<::Class_2_4521B631ACA75155*>* Field_1_4; // 0x30
+	::System::Collections::Generic::List_1<::Class_2_7C9A70DC3FC57CDC*>* Field_1_3; // 0x10
+	::System::Collections::Generic::List_1<::Class_2_7C9A70DC3FC57CDC*>* Field_1_4; // 0x18
+	::System::Collections::Generic::List_1<::Class_2_7C9A70DC3FC57CDC*>* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::Class_2_7C9A70DC3FC57CDC*>* Field_1_1; // 0x28
+	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x30
 
 	::System::Void _ctor()
 	{

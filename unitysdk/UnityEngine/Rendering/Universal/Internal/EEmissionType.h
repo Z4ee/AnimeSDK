@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int EEmissionType_TypeDefinitionIndex = 29891;
+	inline static constexpr unsigned int EEmissionType_TypeDefinitionIndex = 30419;
 
 	enum class EEmissionType : ::System::Int32
 	{

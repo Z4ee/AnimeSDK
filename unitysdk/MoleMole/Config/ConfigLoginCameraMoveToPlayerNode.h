@@ -5,21 +5,21 @@
 class Class_1_D72537470FC2F779;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAMOVETOPLAYERNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xB4734F0)
-#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAMOVETOPLAYERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB473580)
+#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAMOVETOPLAYERNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17D24AB0)
+#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAMOVETOPLAYERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D24B20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLoginCameraMoveToPlayerNode_TypeDefinitionIndex = 64212;
+	inline static constexpr unsigned int ConfigLoginCameraMoveToPlayerNode_TypeDefinitionIndex = 57743;
 
 	class ConfigLoginCameraMoveToPlayerNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::UnityEngine::AnimationCurve* RotationCurve; // 0x18
-		::UnityEngine::AnimationCurve* PositionCurve; // 0x20
-		::UnityEngine::AnimationCurve* FovCurve; // 0x28
-		::System::Single PositionMoveTime; // 0x30
-		::System::Single FovTime; // 0x34
+		::UnityEngine::AnimationCurve* PositionCurve; // 0x18
+		::UnityEngine::AnimationCurve* FovCurve; // 0x20
+		::UnityEngine::AnimationCurve* RotationCurve; // 0x28
+		::System::Single FovTime; // 0x30
+		::System::Single PositionMoveTime; // 0x34
 		::System::Single RotationTime; // 0x38
 
 		::System::Void _ctor()

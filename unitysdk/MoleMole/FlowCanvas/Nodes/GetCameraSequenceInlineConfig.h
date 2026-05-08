@@ -6,12 +6,12 @@ namespace MoleMole::Utils { class INapCameraSequenceDataTableEntry; }
 namespace MoleMole::Utils { class NapCameraSequence; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_GETCAMERASEQUENCEINLINECONFIG_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5C8AA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_GETCAMERASEQUENCEINLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C8C60)
+#define MOLEMOLE_FLOWCANVAS_NODES_GETCAMERASEQUENCEINLINECONFIG_INVOKE_OFFSET UNITYSDK_OFFSET(0x15406020)
+#define MOLEMOLE_FLOWCANVAS_NODES_GETCAMERASEQUENCEINLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x154062C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetCameraSequenceInlineConfig_TypeDefinitionIndex = 60792;
+	inline static constexpr unsigned int GetCameraSequenceInlineConfig_TypeDefinitionIndex = 81256;
 
 	class GetCameraSequenceInlineConfig : public ::MoleMole::FlowCanvas::Nodes::LDGetNapCameraSequenceDataTableEntry_2<::System::String*, ::MoleMole::Utils::NapCameraSequence*>
 	{

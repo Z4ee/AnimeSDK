@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_4.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_19.h"
 #include "unitysdk/System/Object.h"
 
 class Class_2_787A64751D1D3DEF;
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_787A64751D1D3DEF_CLASS_1_135DE542BD21A8D3_METHOD_1_9EEC788190D86B12_OFFSET UNITYSDK_OFFSET(0x9604C70)
-#define CLASS_2_787A64751D1D3DEF_CLASS_1_135DE542BD21A8D3__CTOR_OFFSET UNITYSDK_OFFSET(0x9604C60)
+#define CLASS_2_787A64751D1D3DEF_CLASS_1_135DE542BD21A8D3_METHOD_1_9EEC788190D86B12_OFFSET UNITYSDK_OFFSET(0x150812E0)
+#define CLASS_2_787A64751D1D3DEF_CLASS_1_135DE542BD21A8D3__CTOR_OFFSET UNITYSDK_OFFSET(0x150812D0)
 
-inline static constexpr unsigned int Class_2_787A64751D1D3DEF_Class_1_135DE542BD21A8D3_TypeDefinitionIndex = 39084;
+inline static constexpr unsigned int Class_2_787A64751D1D3DEF_Class_1_135DE542BD21A8D3_TypeDefinitionIndex = 78416;
 
 class Class_2_787A64751D1D3DEF_Class_1_135DE542BD21A8D3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x10
+	::System::Action_1<::System::Boolean>* Field_1_0; // 0x10
 	::Class_2_787A64751D1D3DEF* Field_1_2; // 0x18
-	::System::Action_1<::System::Boolean>* Field_1_0; // 0x20
-	::Enum_3_DB663931210BBC27_4 Field_1_1; // 0x28
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x20
+	::Enum_3_DB663931210BBC27_19 Field_1_1; // 0x28
 
 	::System::Void _ctor()
 	{

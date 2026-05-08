@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug_ColorEnum_TypeDefinitionIndex = 8160;
+	inline static constexpr unsigned int SuperDebug_ColorEnum_TypeDefinitionIndex = 7774;
 
 	enum class SuperDebug_ColorEnum : ::System::Int32
 	{
+		white = 7,
+		black = 0,
+		gray = 3,
+		red = 5,
 		cyan = 2,
 		magenta = 8,
-		yellow = 6,
-		white = 7,
-		green = 4,
-		gray = 3,
-		black = 0,
 		blue = 1,
-		red = 5,
+		yellow = 6,
+		green = 4,
 	};
 }

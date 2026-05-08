@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define SQLITE_COLUMNATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A62F300)
-#define SQLITE_COLUMNATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A62F310)
-#define SQLITE_COLUMNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62F320)
+#define SQLITE_COLUMNATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B276270)
+#define SQLITE_COLUMNATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B276280)
+#define SQLITE_COLUMNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B276290)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int ColumnAttribute_TypeDefinitionIndex = 36226;
+	inline static constexpr unsigned int ColumnAttribute_TypeDefinitionIndex = 36770;
 
 	class ColumnAttribute : public ::System::Attribute
 	{

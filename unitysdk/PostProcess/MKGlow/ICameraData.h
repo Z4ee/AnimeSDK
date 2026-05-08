@@ -5,7 +5,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int ICameraData_TypeDefinitionIndex = 29136;
+	inline static constexpr unsigned int ICameraData_TypeDefinitionIndex = 29655;
 
 	class ICameraData
 	{

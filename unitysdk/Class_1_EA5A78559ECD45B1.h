@@ -7,20 +7,20 @@
 class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class DynamicFloat; }
 
-#define CLASS_1_EA5A78559ECD45B1_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x7C0D130)
-#define CLASS_1_EA5A78559ECD45B1_FROMFLX_OFFSET UNITYSDK_OFFSET(0x7C0D400)
-#define CLASS_1_EA5A78559ECD45B1_METHOD_1_4A800470AF0169D6_OFFSET UNITYSDK_OFFSET(0x7C0D190)
-#define CLASS_1_EA5A78559ECD45B1_METHOD_1_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0x7C0D480)
-#define CLASS_1_EA5A78559ECD45B1__CTOR_OFFSET UNITYSDK_OFFSET(0x7C0D9C0)
+#define CLASS_1_EA5A78559ECD45B1_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x12CCAF20)
+#define CLASS_1_EA5A78559ECD45B1_FROMFLX_OFFSET UNITYSDK_OFFSET(0x12CCB1F0)
+#define CLASS_1_EA5A78559ECD45B1_METHOD_1_4A800470AF0169D6_OFFSET UNITYSDK_OFFSET(0x12CCAF80)
+#define CLASS_1_EA5A78559ECD45B1_METHOD_1_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0x12CCB270)
+#define CLASS_1_EA5A78559ECD45B1__CTOR_OFFSET UNITYSDK_OFFSET(0x12CCB7B0)
 
-inline static constexpr unsigned int Class_1_EA5A78559ECD45B1_TypeDefinitionIndex = 70639;
+inline static constexpr unsigned int Class_1_EA5A78559ECD45B1_TypeDefinitionIndex = 75042;
 
 class Class_1_EA5A78559ECD45B1 : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x10
+	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x10
 	::MoleMole::Config::DynamicFloat* Field_1_1; // 0x18
-	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x20
+	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -37,13 +37,13 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_1_EA5A78559ECD45B1_FROMFLX_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_4A800470AF0169D6(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_EA5A78559ECD45B1_METHOD_1_4A800470AF0169D6_OFFSET))(this, a1, a2);
-	}
-
 	::System::Boolean Method_1_DF413489329CBAF8(::FlexBuffers::FlxMap a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_1_EA5A78559ECD45B1_METHOD_1_DF413489329CBAF8_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_4A800470AF0169D6(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_EA5A78559ECD45B1_METHOD_1_4A800470AF0169D6_OFFSET))(this, a1, a2);
 	}
 };

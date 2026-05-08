@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGTIMEDRIVENATTACKCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A0DF0)
+#define MOLEMOLE_CONFIG_CONFIGTIMEDRIVENATTACKCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B42CD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTimeDrivenAttackCollider_TypeDefinitionIndex = 76984;
+	inline static constexpr unsigned int ConfigTimeDrivenAttackCollider_TypeDefinitionIndex = 58636;
 
 	class ConfigTimeDrivenAttackCollider : public ::System::Object
 	{

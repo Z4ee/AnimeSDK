@@ -6,12 +6,12 @@ namespace NPCCrowd::AI { class PathGraphFeaturePointPathConfig; }
 namespace NPCCrowd::AI { class PathGraphGuidePointPathSpawnGroupRuntime; }
 namespace NPCCrowd::AI { class PathGraphSpawnPointComponentRuntime; }
 
-#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E64F0)
-#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__TRYSPAWNNPC_B__0_OFFSET UNITYSDK_OFFSET(0xC2E8160)
+#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11D83630)
+#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__TRYSPAWNNPC_B__0_OFFSET UNITYSDK_OFFSET(0x11D83640)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupRuntime___c__DisplayClass13_0_TypeDefinitionIndex = 63042;
+	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupRuntime___c__DisplayClass13_0_TypeDefinitionIndex = 60027;
 
 	class PathGraphGuidePointPathSpawnGroupRuntime___c__DisplayClass13_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace UnrealTypes { class Class; }
 
-#define UNREALTYPES_OBJECTPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A202C20)
+#define UNREALTYPES_OBJECTPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD99670)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ObjectPropertyParams_TypeDefinitionIndex = 24742;
+	inline static constexpr unsigned int ObjectPropertyParams_TypeDefinitionIndex = 25256;
 
 	class ObjectPropertyParams : public ::UnrealTypes::PropertyParamsBase
 	{

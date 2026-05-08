@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x18DAAA70)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x18DAA9A0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18DAAA00)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x18DAA940)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAB700)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x193DB820)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x193DB6C0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x193DB770)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x193DB610)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x193DC6C0)
 
 namespace System::Runtime::Remoting
 {
@@ -19,13 +19,13 @@ namespace System::Runtime::Remoting
 	class ChannelData : public ::System::Object
 	{
 	public:
-		::System::String* DelayLoadAsClientChannel; // 0x10
-		::System::Collections::ArrayList* _serverProviders; // 0x18
-		::System::String* Type; // 0x20
-		::System::String* Id; // 0x28
-		::System::Collections::Hashtable* _customProperties; // 0x30
-		::System::String* Ref; // 0x38
-		::System::Collections::ArrayList* _clientProviders; // 0x40
+		::System::Collections::Hashtable* _customProperties; // 0x10
+		::System::String* Type; // 0x18
+		::System::String* Id; // 0x20
+		::System::String* DelayLoadAsClientChannel; // 0x28
+		::System::String* Ref; // 0x30
+		::System::Collections::ArrayList* _clientProviders; // 0x38
+		::System::Collections::ArrayList* _serverProviders; // 0x40
 
 		::System::Void _ctor()
 		{

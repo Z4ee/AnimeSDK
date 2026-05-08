@@ -6,7 +6,7 @@
 class MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper;
 namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper___c__DisplayClass11_0_TypeDefinitionIndex = 64439;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper___c__DisplayClass11_0_TypeDefinitionIndex = 54062;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper___c__DisplayClass11_0
 {

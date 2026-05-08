@@ -13,21 +13,21 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_2_A1D87FC6A37D09B4_CLASS_1_816A0AF9FD129AC3_METHOD_1_E02B58F3103F82E9_OFFSET UNITYSDK_OFFSET(0x78398C0)
-#define CLASS_2_A1D87FC6A37D09B4_CLASS_1_816A0AF9FD129AC3__CTOR_OFFSET UNITYSDK_OFFSET(0x78398B0)
+#define CLASS_2_A1D87FC6A37D09B4_CLASS_1_816A0AF9FD129AC3_METHOD_1_E02B58F3103F82E9_OFFSET UNITYSDK_OFFSET(0x1284F260)
+#define CLASS_2_A1D87FC6A37D09B4_CLASS_1_816A0AF9FD129AC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1284F250)
 
-inline static constexpr unsigned int Class_2_A1D87FC6A37D09B4_Class_1_816A0AF9FD129AC3_TypeDefinitionIndex = 74169;
+inline static constexpr unsigned int Class_2_A1D87FC6A37D09B4_Class_1_816A0AF9FD129AC3_TypeDefinitionIndex = 41531;
 
 class Class_2_A1D87FC6A37D09B4_Class_1_816A0AF9FD129AC3 : public ::System::Object
 {
 public:
 	::System::Action_3<::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Vector4, ::System::Int32>* Field_1_4; // 0x10
 	::Class_2_A1D87FC6A37D09B4* Field_1_0; // 0x18
-	::System::Action_3<::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Color, ::System::Int32>* Field_1_3; // 0x20
+	::System::Action* Field_1_6; // 0x20
 	::System::Action_2<::Class_1_5A6771CD0CA2718D*, ::MoleMole::HollowPieceBlendMode>* Field_1_2; // 0x28
-	::System::Action* Field_1_6; // 0x30
-	::System::Nullable_1<::System::Int32> Field_1_1; // 0x38
-	::System::Boolean Field_1_5; // 0x40
+	::System::Action_3<::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Color, ::System::Int32>* Field_1_3; // 0x30
+	::System::Boolean Field_1_5; // 0x38
+	::System::Nullable_1<::System::Int32> Field_1_1; // 0x3C
 
 	::System::Void _ctor()
 	{

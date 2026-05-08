@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTTRANSFORMSPOTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2DF5C0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTTRANSFORMSPOTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2DF600)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTTRANSFORMSPOTS___C__REFRESH_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B2DF610)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTTRANSFORMSPOTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C17C240)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTTRANSFORMSPOTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C17C280)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTTRANSFORMSPOTS___C__REFRESH_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C17C290)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int InputTransformSpots___c_TypeDefinitionIndex = 36880;
+	inline static constexpr unsigned int InputTransformSpots___c_TypeDefinitionIndex = 37424;
 
 	class InputTransformSpots___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::Modules::InputTransformSpots_TransformSpot, ::System::Boolean>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::Modules::InputTransformSpots_TransformSpot, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputTransformSpots___c_TypeDefinitionIndex)->GetStaticField(0x26D70);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::Modules::InputTransformSpots_TransformSpot, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputTransformSpots___c_TypeDefinitionIndex)->GetStaticField(0x27920);
 		}
 		static ::FluffyUnderware::Curvy::Generator::Modules::InputTransformSpots___c** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::InputTransformSpots___c**)Il2CppClass::FromTypeDefinitionIndex(InputTransformSpots___c_TypeDefinitionIndex)->GetStaticField(0x26D78);
+			return (::FluffyUnderware::Curvy::Generator::Modules::InputTransformSpots___c**)Il2CppClass::FromTypeDefinitionIndex(InputTransformSpots___c_TypeDefinitionIndex)->GetStaticField(0x27928);
 		}
 
 		static ::System::Void _cctor()

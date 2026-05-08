@@ -5,9 +5,9 @@
 namespace System { class Object; }
 namespace System::ComponentModel { class MemberDescriptor; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTCHANGINGEVENTARGS_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x19B18640)
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTCHANGINGEVENTARGS_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x19B18650)
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTCHANGINGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B18660)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTCHANGINGEVENTARGS_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x1A7D7A10)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTCHANGINGEVENTARGS_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x1A7D7A20)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTCHANGINGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7D7A30)
 
 namespace System::ComponentModel::Design
 {
@@ -16,8 +16,8 @@ namespace System::ComponentModel::Design
 	class ComponentChangingEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Object* component; // 0x10
-		::System::ComponentModel::MemberDescriptor* member; // 0x18
+		::System::ComponentModel::MemberDescriptor* member; // 0x10
+		::System::Object* component; // 0x18
 
 		::System::Void _ctor(::System::Object* component, ::System::ComponentModel::MemberDescriptor* member)
 		{

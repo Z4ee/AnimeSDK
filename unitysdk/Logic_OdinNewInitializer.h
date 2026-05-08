@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LOGIC_ODINNEWINITIALIZER_INITODINNEW_OFFSET UNITYSDK_OFFSET(0xE83E450)
-#define LOGIC_ODINNEWINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xE84D610)
+#define LOGIC_ODINNEWINITIALIZER_INITODINNEW_OFFSET UNITYSDK_OFFSET(0x1655E740)
+#define LOGIC_ODINNEWINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1656D960)
 
-inline static constexpr unsigned int Logic_OdinNewInitializer_TypeDefinitionIndex = 49202;
+inline static constexpr unsigned int Logic_OdinNewInitializer_TypeDefinitionIndex = 72963;
 
 class Logic_OdinNewInitializer : public ::System::Object
 {

@@ -8,39 +8,39 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_ADVANCE_OFFSET UNITYSDK_OFFSET(0xB895270)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB894D30)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_RESETCOUNT_OFFSET UNITYSDK_OFFSET(0xB895080)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_START_OFFSET UNITYSDK_OFFSET(0xB8950F0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_STOP_OFFSET UNITYSDK_OFFSET(0xB894FA0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB895430)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_0_OFFSET UNITYSDK_OFFSET(0xB895450)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_1_OFFSET UNITYSDK_OFFSET(0xB895480)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_2_OFFSET UNITYSDK_OFFSET(0xB8954B0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_3_OFFSET UNITYSDK_OFFSET(0xB8954E0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_4_OFFSET UNITYSDK_OFFSET(0xB8954F0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_ADVANCE_OFFSET UNITYSDK_OFFSET(0x16E40700)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16E40270)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_RESETCOUNT_OFFSET UNITYSDK_OFFSET(0x16E40550)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_START_OFFSET UNITYSDK_OFFSET(0x16E405A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE_STOP_OFFSET UNITYSDK_OFFSET(0x16E404B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E40870)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_0_OFFSET UNITYSDK_OFFSET(0x16E408B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_1_OFFSET UNITYSDK_OFFSET(0x16E408E0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_2_OFFSET UNITYSDK_OFFSET(0x16E40910)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_3_OFFSET UNITYSDK_OFFSET(0x16E40940)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTIMERNODE__REGISTERPORTS_B__14_4_OFFSET UNITYSDK_OFFSET(0x16E40950)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardTimerNode_TypeDefinitionIndex = 52161;
+	inline static constexpr unsigned int ChessboardTimerNode_TypeDefinitionIndex = 50230;
 
 	class ChessboardTimerNode : public ::MoleMole::FlowCanvas::ChessboardFlowNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _then; // 0xA8
+		::FlowCanvas::FlowInput* _start; // 0xA8
 		::FlowCanvas::ValueOutput_1<::System::Single>* _totalTime; // 0xB0
-		::FlowCanvas::FlowOutput* _update; // 0xB8
-		::FlowCanvas::ValueOutput_1<::System::Single>* _leftTime; // 0xC0
-		::FlowCanvas::FlowInput* _stop; // 0xC8
-		::FlowCanvas::FlowInput* _advance; // 0xD0
-		::FlowCanvas::FlowInput* _pause; // 0xD8
-		::FlowCanvas::FlowInput* _resume; // 0xE0
-		::FlowCanvas::FlowOutput* _finish; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Single>* _inTotalTime; // 0xF0
-		::FlowCanvas::FlowInput* _start; // 0xF8
+		::FlowCanvas::FlowOutput* _then; // 0xB8
+		::FlowCanvas::FlowOutput* _update; // 0xC0
+		::FlowCanvas::FlowInput* _advance; // 0xC8
+		::FlowCanvas::FlowInput* _pause; // 0xD0
+		::FlowCanvas::FlowOutput* _finish; // 0xD8
+		::FlowCanvas::ValueOutput_1<::System::Single>* _leftTime; // 0xE0
+		::FlowCanvas::FlowInput* _resume; // 0xE8
+		::FlowCanvas::FlowInput* _stop; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Single>* _inTotalTime; // 0xF8
 		::System::Boolean inCounting; // 0x100
-		::System::Single _totalTimeValue; // 0x104
-		::System::Single _leftTimeValue; // 0x108
+		::System::Single _leftTimeValue; // 0x104
+		::System::Single _totalTimeValue; // 0x108
 
 		::System::Void _ctor()
 		{

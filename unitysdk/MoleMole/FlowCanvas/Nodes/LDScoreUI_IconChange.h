@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD0D51E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D5360)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16B81840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B819A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDScoreUI_IconChange_TypeDefinitionIndex = 80081;
+	inline static constexpr unsigned int LDScoreUI_IconChange_TypeDefinitionIndex = 77534;
 
 	class LDScoreUI_IconChange : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::BubbleType, ::System::String*, ::System::Boolean>
 	{

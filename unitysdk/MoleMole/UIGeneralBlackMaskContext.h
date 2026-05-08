@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALBLACKMASKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9BE1070)
+#define MOLEMOLE_UIGENERALBLACKMASKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162BF7E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBlackMaskContext_TypeDefinitionIndex = 77321;
+	inline static constexpr unsigned int UIGeneralBlackMaskContext_TypeDefinitionIndex = 48843;
 
 	class UIGeneralBlackMaskContext : public ::MoleMole::UIControllerContextBase
 	{

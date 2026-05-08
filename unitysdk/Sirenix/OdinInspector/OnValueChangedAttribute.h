@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_ONVALUECHANGEDATTRIBUTE_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x1B1153C0)
-#define SIRENIX_ODININSPECTOR_ONVALUECHANGEDATTRIBUTE_SET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x1B1153D0)
-#define SIRENIX_ODININSPECTOR_ONVALUECHANGEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1153E0)
+#define SIRENIX_ODININSPECTOR_ONVALUECHANGEDATTRIBUTE_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x1C020870)
+#define SIRENIX_ODININSPECTOR_ONVALUECHANGEDATTRIBUTE_SET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x1C020880)
+#define SIRENIX_ODININSPECTOR_ONVALUECHANGEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C020890)
 
 namespace Sirenix::OdinInspector
 {
@@ -16,9 +16,9 @@ namespace Sirenix::OdinInspector
 	{
 	public:
 		::System::String* Action; // 0x10
-		::System::Boolean InvokeOnUndoRedo; // 0x18
-		::System::Boolean InvokeOnInitialize; // 0x19
-		::System::Boolean IncludeChildren; // 0x1A
+		::System::Boolean IncludeChildren; // 0x18
+		::System::Boolean InvokeOnUndoRedo; // 0x19
+		::System::Boolean InvokeOnInitialize; // 0x1A
 
 		::System::Void _ctor(::System::String* action, ::System::Boolean includeChildren)
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseScriptableAnimationNode.h"
 
-#define MOLEMOLE_CONFIG_CONFIGUIBASEACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xE357820)
+#define MOLEMOLE_CONFIG_CONFIGUIBASEACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A868B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIBaseActionNode_TypeDefinitionIndex = 52557;
+	inline static constexpr unsigned int ConfigUIBaseActionNode_TypeDefinitionIndex = 74040;
 
 	class ConfigUIBaseActionNode : public ::MoleMole::Config::ConfigUIBaseScriptableAnimationNode
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0xB9FDC30)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM__CTOR_OFFSET UNITYSDK_OFFSET(0xB9FDD50)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D325A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D32690)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_SetAntivirusRateNum_TypeDefinitionIndex = 63545;
+	inline static constexpr unsigned int ChessBoard_SetAntivirusRateNum_TypeDefinitionIndex = 60788;
 
 	class ChessBoard_SetAntivirusRateNum : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
 	{

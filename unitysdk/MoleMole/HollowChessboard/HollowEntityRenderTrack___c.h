@@ -5,34 +5,34 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8B03D0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B0410)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__GETFILTEREDSECTIONTYPELIST_B__10_0_OFFSET UNITYSDK_OFFSET(0xB8B0420)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__GETFILTEREDSECTIONTYPELIST_B__10_1_OFFSET UNITYSDK_OFFSET(0xB8B0450)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__GETFILTEREDSECTIONTYPELIST_B__10_2_OFFSET UNITYSDK_OFFSET(0xB8B0480)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E5AAF0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16E5AB30)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__GETFILTEREDSECTIONTYPELIST_B__10_0_OFFSET UNITYSDK_OFFSET(0x16E5AB40)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__GETFILTEREDSECTIONTYPELIST_B__10_1_OFFSET UNITYSDK_OFFSET(0x16E5AB70)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK___C__GETFILTEREDSECTIONTYPELIST_B__10_2_OFFSET UNITYSDK_OFFSET(0x16E5ABA0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowEntityRenderTrack___c_TypeDefinitionIndex = 68765;
+	inline static constexpr unsigned int HollowEntityRenderTrack___c_TypeDefinitionIndex = 72118;
 
 	class HollowEntityRenderTrack___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__10_0()
+		static ::MoleMole::HollowChessboard::HollowEntityRenderTrack___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x31750);
+			return (::MoleMole::HollowChessboard::HollowEntityRenderTrack___c**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x323F0);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__10_1()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x31758);
-		}
-		static ::MoleMole::HollowChessboard::HollowEntityRenderTrack___c** StaticGet___9()
-		{
-			return (::MoleMole::HollowChessboard::HollowEntityRenderTrack___c**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x31760);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x323F8);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__10_2()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x31768);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x32400);
+		}
+		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityRenderTrack___c_TypeDefinitionIndex)->GetStaticField(0x32408);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x19D229A0)
-#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19D22A00)
-#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_GET_ISLOCALIZABLE_OFFSET UNITYSDK_OFFSET(0x19D228F0)
-#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19D22900)
-#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D22A10)
-#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D228E0)
+#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AA956B0)
+#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AA95710)
+#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_GET_ISLOCALIZABLE_OFFSET UNITYSDK_OFFSET(0x1AA95610)
+#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1AA95620)
+#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA95720)
+#define SYSTEM_COMPONENTMODEL_LOCALIZABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA95600)
 
 namespace System::ComponentModel
 {
@@ -18,15 +18,15 @@ namespace System::ComponentModel
 	class LocalizableAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::LocalizableAttribute** StaticGet_No()
+		static ::System::ComponentModel::LocalizableAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::LocalizableAttribute**)Il2CppClass::FromTypeDefinitionIndex(LocalizableAttribute_TypeDefinitionIndex)->GetStaticField(0x26B0);
 		}
-		static ::System::ComponentModel::LocalizableAttribute** StaticGet_Default()
+		static ::System::ComponentModel::LocalizableAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::LocalizableAttribute**)Il2CppClass::FromTypeDefinitionIndex(LocalizableAttribute_TypeDefinitionIndex)->GetStaticField(0x26B8);
 		}
-		static ::System::ComponentModel::LocalizableAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::LocalizableAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::LocalizableAttribute**)Il2CppClass::FromTypeDefinitionIndex(LocalizableAttribute_TypeDefinitionIndex)->GetStaticField(0x26C0);
 		}

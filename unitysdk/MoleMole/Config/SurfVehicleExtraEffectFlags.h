@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SurfVehicleExtraEffectFlags_TypeDefinitionIndex = 74876;
+	inline static constexpr unsigned int SurfVehicleExtraEffectFlags_TypeDefinitionIndex = 55403;
 
 	enum class SurfVehicleExtraEffectFlags : ::System::Int32
 	{
-		None = 0,
 		BuffProlong = 2,
+		None = 0,
 		DebuffImmune = 1,
 	};
 }

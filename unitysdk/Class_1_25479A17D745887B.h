@@ -3,14 +3,14 @@
 #include "unitysdk/MoleMole/InputActionEvent.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_60DDD9C206686F44;
+class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UIBaseScenePageController; }
 
-#define CLASS_1_25479A17D745887B_METHOD_1_4E705512CD0D1478_OFFSET UNITYSDK_OFFSET(0xE287210)
-#define CLASS_1_25479A17D745887B_METHOD_1_8B49155631097E37_OFFSET UNITYSDK_OFFSET(0xE2874D0)
-#define CLASS_1_25479A17D745887B__CTOR_OFFSET UNITYSDK_OFFSET(0xE287200)
+#define CLASS_1_25479A17D745887B_METHOD_1_4E705512CD0D1478_OFFSET UNITYSDK_OFFSET(0x11598C90)
+#define CLASS_1_25479A17D745887B_METHOD_1_9F10E6E7925E011B_OFFSET UNITYSDK_OFFSET(0x11598F10)
+#define CLASS_1_25479A17D745887B__CTOR_OFFSET UNITYSDK_OFFSET(0x11598C80)
 
-inline static constexpr unsigned int Class_1_25479A17D745887B_TypeDefinitionIndex = 75336;
+inline static constexpr unsigned int Class_1_25479A17D745887B_TypeDefinitionIndex = 62988;
 
 class Class_1_25479A17D745887B : public ::System::Object
 {
@@ -22,13 +22,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBaseScenePageController*))((::PBYTE)hIl2Cpp + CLASS_1_25479A17D745887B__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_4E705512CD0D1478(::MoleMole::InputActionEvent a1, ::Class_2_60DDD9C206686F44* a2)
+	::System::Boolean Method_1_4E705512CD0D1478(::MoleMole::InputActionEvent a1, ::Class_2_B4378B46E0020E85* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent, ::Class_2_60DDD9C206686F44*))((::PBYTE)hIl2Cpp + CLASS_1_25479A17D745887B_METHOD_1_4E705512CD0D1478_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent, ::Class_2_B4378B46E0020E85*))((::PBYTE)hIl2Cpp + CLASS_1_25479A17D745887B_METHOD_1_4E705512CD0D1478_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_8B49155631097E37(::MoleMole::InputActionEvent a1)
+	::System::Boolean Method_1_9F10E6E7925E011B(::MoleMole::InputActionEvent a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + CLASS_1_25479A17D745887B_METHOD_1_8B49155631097E37_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + CLASS_1_25479A17D745887B_METHOD_1_9F10E6E7925E011B_OFFSET))(this, a1);
 	}
 };

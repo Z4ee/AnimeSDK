@@ -7,11 +7,11 @@ namespace MoleMole { class ConfigTempleLevelUpSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGTEMPLELEVELUP__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0C630)
+#define MOLEMOLE_CONFIGTEMPLELEVELUP__CTOR_OFFSET UNITYSDK_OFFSET(0x14958180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTempleLevelUp_TypeDefinitionIndex = 49541;
+	inline static constexpr unsigned int ConfigTempleLevelUp_TypeDefinitionIndex = 60556;
 
 	class ConfigTempleLevelUp : public ::Foundation::MihoyoSerializedScriptableObject
 	{

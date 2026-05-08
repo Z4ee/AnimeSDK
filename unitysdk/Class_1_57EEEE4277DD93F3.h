@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define CLASS_1_57EEEE4277DD93F3_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x6198B60)
-#define CLASS_1_57EEEE4277DD93F3_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x6198BE0)
-#define CLASS_1_57EEEE4277DD93F3__CTOR_OFFSET UNITYSDK_OFFSET(0x6198C70)
+#define CLASS_1_57EEEE4277DD93F3_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x13364B70)
+#define CLASS_1_57EEEE4277DD93F3_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x13364BD0)
+#define CLASS_1_57EEEE4277DD93F3__CTOR_OFFSET UNITYSDK_OFFSET(0x13364C40)
 
-inline static constexpr unsigned int Class_1_57EEEE4277DD93F3_TypeDefinitionIndex = 62975;
+inline static constexpr unsigned int Class_1_57EEEE4277DD93F3_TypeDefinitionIndex = 71086;
 
 class Class_1_57EEEE4277DD93F3 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 	::System::Boolean Field_1_1; // 0x18
 	::System::Boolean Field_1_3; // 0x19
 	::System::Nullable_1<::Foundation::Unreal::FTransform> Field_1_5; // 0x1C
-	::MoleMole::UIHollowChessPieceParticle_AttachPointType Field_1_2; // 0x40
-	::MoleMole::UIHollowChessPieceParticle_TransformType Field_1_4; // 0x44
+	::MoleMole::UIHollowChessPieceParticle_TransformType Field_1_4; // 0x40
+	::MoleMole::UIHollowChessPieceParticle_AttachPointType Field_1_2; // 0x44
 
 	::System::Void _ctor()
 	{

@@ -3,16 +3,16 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphExitPointComponent_ExitStyle_TypeDefinitionIndex = 72747;
+	inline static constexpr unsigned int PathGraphExitPointComponent_ExitStyle_TypeDefinitionIndex = 74248;
 
 	enum class PathGraphExitPointComponent_ExitStyle : ::System::Int32
 	{
-		MoveFromSplineEndPoint = 4,
-		MoveFromSplineNearestPoint = 5,
-		MoveFromSplineStartPoint = 3,
 		ExitAtSplineEndPoint = 1,
-		ExitAtSplineNearestPoint = 2,
+		MoveFromSplineEndPoint = 4,
+		MoveFromSplineStartPoint = 3,
+		MoveFromSplineNearestPoint = 5,
 		ExitAtSplineStartPoint = 0,
+		ExitAtSplineNearestPoint = 2,
 		MoveBlendWithSplinePoints = 6,
 	};
 }

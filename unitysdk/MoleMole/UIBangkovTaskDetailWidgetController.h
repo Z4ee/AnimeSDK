@@ -1,0 +1,187 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_03024D6472FC8F3A.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_1_1685EC66FBD28897;
+class Class_2_79AE422BA06F6D26_19;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIBangkovTaskDetailWidgetController_Context; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIItemIconBtnWidgetController; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_APPLYBANGKOVBAGONLYINFOTIPTOWISHLIST_OFFSET UNITYSDK_OFFSET(0x14E6DC50)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_CREATETASKDETAILBANGKOVITEMTIPCALLBACK_OFFSET UNITYSDK_OFFSET(0x14E6DBA0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_GET_ITEMINFOROOT_OFFSET UNITYSDK_OFFSET(0x14E6C500)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_INITVIEWBYDATA_OFFSET UNITYSDK_OFFSET(0x14E6CB80)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKBTNGIVEUP_OFFSET UNITYSDK_OFFSET(0x14E6E6C0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKGOBTN_OFFSET UNITYSDK_OFFSET(0x14E6E550)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKWAREHOUSEBTN_OFFSET UNITYSDK_OFFSET(0x14E6E830)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKWISHLISTBTN_OFFSET UNITYSDK_OFFSET(0x14E6EC80)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E6DA90)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x14E6E870)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x14E6C960)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14E6DB20)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E6C560)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_REFRESHBTNS_OFFSET UNITYSDK_OFFSET(0x14E6DE10)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_REFRESHWISHLISTBTNSTATE_OFFSET UNITYSDK_OFFSET(0x14E6E230)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14E6F3A0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKBTNGIVEUP_B__17_0_OFFSET UNITYSDK_OFFSET(0x14E6F530)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKGOBTN_B__16_0_OFFSET UNITYSDK_OFFSET(0x14E6F4C0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__20_0_OFFSET UNITYSDK_OFFSET(0x14E6F5A0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__20_2_OFFSET UNITYSDK_OFFSET(0x14E6F5B0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONSHOW_B__7_0_OFFSET UNITYSDK_OFFSET(0x14E6F480)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E6F5C0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x14E6F650)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x14E6F700)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14E6F7A0)
+#define MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E6F830)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangkovTaskDetailWidgetController_TypeDefinitionIndex = 38953;
+
+	class UIBangkovTaskDetailWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::System::Collections::Generic::List_1<::MoleMole::UIItemIconBtnWidgetController*>* _rewardItems; // 0x2B8
+		::Class_2_79AE422BA06F6D26_19* _view; // 0x2C0
+		::MoleMole::UIBangkovTaskDetailWidgetController_Context* _context; // 0x2C8
+		::System::Int32 currentQuestID; // 0x2D0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_ItemInfoRoot()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_GET_ITEMINFOROOT_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Action_1<::MoleMole::UIItemIconBtnWidgetController*>* CreateTaskDetailBangkovItemTipCallback(::System::Int32 itemId)
+		{
+			return ((::System::Action_1<::MoleMole::UIItemIconBtnWidgetController*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_CREATETASKDETAILBANGKOVITEMTIPCALLBACK_OFFSET))(this, itemId);
+		}
+
+		::System::Void ApplyBangkovBagOnlyInfoTipToWishList(::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* itemList)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_APPLYBANGKOVBAGONLYINFOTIPTOWISHLIST_OFFSET))(this, itemList);
+		}
+
+		::System::Void InitViewByData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_INITVIEWBYDATA_OFFSET))(this);
+		}
+
+		::System::Void RefreshWishListBtnState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_REFRESHWISHLISTBTNSTATE_OFFSET))(this);
+		}
+
+		::System::Void RefreshBtns()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_REFRESHBTNS_OFFSET))(this);
+		}
+
+		::System::Void OnClickGoBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKGOBTN_OFFSET))(this);
+		}
+
+		::System::Void OnClickBtnGiveUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKBTNGIVEUP_OFFSET))(this);
+		}
+
+		::System::Void OnClickWareHouseBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKWAREHOUSEBTN_OFFSET))(this);
+		}
+
+		::System::Void OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* gamepadModule, ::System::Int32 index, ::UnityEngine::Transform* trans, ::Enum_3_03024D6472FC8F3A result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, gamepadModule, index, trans, result);
+		}
+
+		::System::Void OnClickWishListBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER_ONCLICKWISHLISTBTN_OFFSET))(this);
+		}
+
+		::System::Void _OnShow_b__7_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONSHOW_B__7_0_OFFSET))(this);
+		}
+
+		::System::Void _OnClickGoBtn_b__16_0(::System::Boolean b)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKGOBTN_B__16_0_OFFSET))(this, b);
+		}
+
+		::System::Void _OnClickBtnGiveUp_b__17_0(::System::Boolean b)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKBTNGIVEUP_B__17_0_OFFSET))(this, b);
+		}
+
+		::System::Void _OnClickWishListBtn_b__20_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__20_0_OFFSET))(this);
+		}
+
+		::System::Void _OnClickWishListBtn_b__20_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__20_2_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* P0, ::System::Int32 P1, ::UnityEngine::Transform* P2, ::Enum_3_03024D6472FC8F3A P3)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, P0, P1, P2, P3);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

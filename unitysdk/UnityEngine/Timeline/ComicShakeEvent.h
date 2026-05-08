@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_COMICSHAKEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59B850)
+#define UNITYENGINE_TIMELINE_COMICSHAKEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C405840)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicShakeEvent_TypeDefinitionIndex = 30255;
+	inline static constexpr unsigned int ComicShakeEvent_TypeDefinitionIndex = 30784;
 
 	class ComicShakeEvent : public ::UnityEngine::Timeline::LogicEventBase
 	{

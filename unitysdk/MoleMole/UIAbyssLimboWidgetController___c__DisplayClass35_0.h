@@ -5,20 +5,20 @@
 namespace MoleMole { class UIAbyssLimboWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB714F10)
-#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__REFRESHSTATE_B__4_OFFSET UNITYSDK_OFFSET(0xB714F20)
-#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__REFRESHSTATE_B__5_OFFSET UNITYSDK_OFFSET(0xB714FC0)
-#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__REFRESHSTATE_B__6_OFFSET UNITYSDK_OFFSET(0xB715050)
+#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2EFA0)
+#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__REFRESHSTATE_B__4_OFFSET UNITYSDK_OFFSET(0x12B2EFB0)
+#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__REFRESHSTATE_B__5_OFFSET UNITYSDK_OFFSET(0x12B2F050)
+#define MOLEMOLE_UIABYSSLIMBOWIDGETCONTROLLER___C__DISPLAYCLASS35_0__REFRESHSTATE_B__6_OFFSET UNITYSDK_OFFSET(0x12B2F0E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssLimboWidgetController___c__DisplayClass35_0_TypeDefinitionIndex = 71588;
+	inline static constexpr unsigned int UIAbyssLimboWidgetController___c__DisplayClass35_0_TypeDefinitionIndex = 73959;
 
 	class UIAbyssLimboWidgetController___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAbyssLimboWidgetController* __4__this; // 0x10
-		::System::Action* __9__6; // 0x18
+		::System::Action* __9__6; // 0x10
+		::MoleMole::UIAbyssLimboWidgetController* __4__this; // 0x18
 		::System::Action* __9__5; // 0x20
 		::System::Int32 playProgressIndex; // 0x28
 

@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class ComparisonCache_1___c; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ComparisonCache_1___c_TypeDefinitionIndex = 8270;
+	inline static constexpr unsigned int ComparisonCache_1___c_TypeDefinitionIndex = 7862;
 
 	template <typename T>
 	class ComparisonCache_1___c : public ::System::Object

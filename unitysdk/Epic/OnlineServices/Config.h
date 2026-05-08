@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int Config_TypeDefinitionIndex = 32743;
+	inline static constexpr unsigned int Config_TypeDefinitionIndex = 33279;
 
 	class Config : public ::System::Object
 	{

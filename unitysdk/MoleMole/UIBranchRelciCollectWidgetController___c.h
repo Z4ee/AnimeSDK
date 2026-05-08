@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xACEDA90)
-#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xACEDAD0)
-#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0xACEDAE0)
+#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1636CB40)
+#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1636CB80)
+#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1636CB90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex = 58041;
+	inline static constexpr unsigned int UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex = 71239;
 
 	class UIBranchRelciCollectWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBranchRelciCollectWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIBranchRelciCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34380);
-		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34388);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34E90);
+		}
+		static ::MoleMole::UIBranchRelciCollectWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIBranchRelciCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34E98);
 		}
 
 		static ::System::Void _cctor()

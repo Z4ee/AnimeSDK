@@ -8,44 +8,44 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Mesh; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAA35E0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA3620)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__REFRESH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1AAA3630)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__REFRESH_B__8_1_OFFSET UNITYSDK_OFFSET(0x1AAA36B0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__WARNABOUTINVALIDINPUTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1AAA3840)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__WARNABOUTINVALIDINPUTS_B__10_1_OFFSET UNITYSDK_OFFSET(0x1AAA38C0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__WARNABOUTINVALIDINPUTS_B__10_2_OFFSET UNITYSDK_OFFSET(0x1AAA38E0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B927F20)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B927F60)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__REFRESH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1B927F70)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__REFRESH_B__8_1_OFFSET UNITYSDK_OFFSET(0x1B928080)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__WARNABOUTINVALIDINPUTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B928210)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__WARNABOUTINVALIDINPUTS_B__10_1_OFFSET UNITYSDK_OFFSET(0x1B928320)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_INPUTMESH___C__WARNABOUTINVALIDINPUTS_B__10_2_OFFSET UNITYSDK_OFFSET(0x1B928340)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int InputMesh___c_TypeDefinitionIndex = 36874;
+	inline static constexpr unsigned int InputMesh___c_TypeDefinitionIndex = 37418;
 
 	class InputMesh___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::FluffyUnderware::Curvy::Generator::CGMeshProperties*>** StaticGet___9__10_0()
 		{
-			return (::System::Predicate_1<::FluffyUnderware::Curvy::Generator::CGMeshProperties*>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x26D40);
-		}
-		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::FluffyUnderware::Curvy::Generator::CGVMesh*>** StaticGet___9__8_1()
-		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::FluffyUnderware::Curvy::Generator::CGVMesh*>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x26D48);
-		}
-		static ::System::Func_2<::UnityEngine::Mesh*, ::System::Boolean>** StaticGet___9__10_2()
-		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x26D50);
-		}
-		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::System::Boolean>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x26D58);
-		}
-		static ::FluffyUnderware::Curvy::Generator::Modules::InputMesh___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::InputMesh___c**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x26D60);
+			return (::System::Predicate_1<::FluffyUnderware::Curvy::Generator::CGMeshProperties*>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x278F0);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::UnityEngine::Mesh*>** StaticGet___9__10_1()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x26D68);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x278F8);
+		}
+		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::System::Boolean>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x27900);
+		}
+		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::FluffyUnderware::Curvy::Generator::CGVMesh*>** StaticGet___9__8_1()
+		{
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGMeshProperties*, ::FluffyUnderware::Curvy::Generator::CGVMesh*>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x27908);
+		}
+		static ::System::Func_2<::UnityEngine::Mesh*, ::System::Boolean>** StaticGet___9__10_2()
+		{
+			return (::System::Func_2<::UnityEngine::Mesh*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x27910);
+		}
+		static ::FluffyUnderware::Curvy::Generator::Modules::InputMesh___c** StaticGet___9()
+		{
+			return (::FluffyUnderware::Curvy::Generator::Modules::InputMesh___c**)Il2CppClass::FromTypeDefinitionIndex(InputMesh___c_TypeDefinitionIndex)->GetStaticField(0x27918);
 		}
 
 		static ::System::Void _cctor()

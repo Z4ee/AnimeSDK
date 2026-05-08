@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace MoleMole { class UIMainCityNavigationTeleportRowWidgetController; }
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x865CFE0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x865D360)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3E5D0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x14D3E9E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 44880;
+	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 78445;
 
 	class UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

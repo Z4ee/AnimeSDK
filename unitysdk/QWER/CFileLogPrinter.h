@@ -9,36 +9,36 @@ namespace System { class String; }
 namespace System::IO { class StreamWriter; }
 namespace System::Threading::Tasks { class Task; }
 
-#define QWER_CFILELOGPRINTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B00E120)
-#define QWER_CFILELOGPRINTER_GET_OUTPATH_OFFSET UNITYSDK_OFFSET(0x1B00E100)
-#define QWER_CFILELOGPRINTER_QWER_ILOGPRINTER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1B00E670)
-#define QWER_CFILELOGPRINTER_QWER_ILOGPRINTER_PRINT_OFFSET UNITYSDK_OFFSET(0x1B00E730)
-#define QWER_CFILELOGPRINTER_SET_OUTPATH_OFFSET UNITYSDK_OFFSET(0x1B00E110)
-#define QWER_CFILELOGPRINTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B00E7E0)
-#define QWER_CFILELOGPRINTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00E320)
-#define QWER_CFILELOGPRINTER__ONCHECKTIMER_OFFSET UNITYSDK_OFFSET(0x1B00E490)
-#define QWER_CFILELOGPRINTER__REOPEN_OFFSET UNITYSDK_OFFSET(0x1B00E520)
-#define QWER_CFILELOGPRINTER___CTOR_B__11_0_OFFSET UNITYSDK_OFFSET(0x1B00E820)
+#define QWER_CFILELOGPRINTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE87440)
+#define QWER_CFILELOGPRINTER_GET_OUTPATH_OFFSET UNITYSDK_OFFSET(0x1BE87420)
+#define QWER_CFILELOGPRINTER_QWER_ILOGPRINTER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1BE87AD0)
+#define QWER_CFILELOGPRINTER_QWER_ILOGPRINTER_PRINT_OFFSET UNITYSDK_OFFSET(0x1BE87B90)
+#define QWER_CFILELOGPRINTER_SET_OUTPATH_OFFSET UNITYSDK_OFFSET(0x1BE87430)
+#define QWER_CFILELOGPRINTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE87C40)
+#define QWER_CFILELOGPRINTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE87640)
+#define QWER_CFILELOGPRINTER__ONCHECKTIMER_OFFSET UNITYSDK_OFFSET(0x1BE87820)
+#define QWER_CFILELOGPRINTER__REOPEN_OFFSET UNITYSDK_OFFSET(0x1BE878F0)
+#define QWER_CFILELOGPRINTER___CTOR_B__11_0_OFFSET UNITYSDK_OFFSET(0x1BE87C70)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CFileLogPrinter_TypeDefinitionIndex = 84117;
+	inline static constexpr unsigned int CFileLogPrinter_TypeDefinitionIndex = 85845;
 
 	class CFileLogPrinter : public ::System::Object
 	{
 	public:
-		static ::QWER::CFileLogPrinter** StaticGet_m_oInstance()
-		{
-			return (::QWER::CFileLogPrinter**)Il2CppClass::FromTypeDefinitionIndex(CFileLogPrinter_TypeDefinitionIndex)->GetStaticField(0x49060);
-		}
 		static ::System::Object** StaticGet_m_oMutex()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CFileLogPrinter_TypeDefinitionIndex)->GetStaticField(0x49068);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CFileLogPrinter_TypeDefinitionIndex)->GetStaticField(0x4ABD0);
 		}
-		::System::String* _OutPath_k__BackingField; // 0x10
-		::System::String* m_strCurDate; // 0x18
-		::System::IO::StreamWriter* m_oStreamWriter; // 0x20
-		::QWER::CThreadGroup* m_oThreadGroup; // 0x28
+		static ::QWER::CFileLogPrinter** StaticGet_m_oInstance()
+		{
+			return (::QWER::CFileLogPrinter**)Il2CppClass::FromTypeDefinitionIndex(CFileLogPrinter_TypeDefinitionIndex)->GetStaticField(0x4ABD8);
+		}
+		::System::String* m_strCurDate; // 0x10
+		::System::String* _OutPath_k__BackingField; // 0x18
+		::QWER::CThreadGroup* m_oThreadGroup; // 0x20
+		::System::IO::StreamWriter* m_oStreamWriter; // 0x28
 
 		::System::Void _ctor()
 		{

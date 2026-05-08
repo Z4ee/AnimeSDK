@@ -11,26 +11,26 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TEXTURESHEET_PLAYLIST_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA509170)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TEXTURESHEET_PLAYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xA509370)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TEXTURESHEET_PLAYLIST__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xA509390)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TEXTURESHEET_PLAYLIST_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E18030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TEXTURESHEET_PLAYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x10E18210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TEXTURESHEET_PLAYLIST__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x10E18250)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_TextureSheet_PlayList_TypeDefinitionIndex = 60252;
+	inline static constexpr unsigned int LD_TextureSheet_PlayList_TypeDefinitionIndex = 73293;
 
 	class LD_TextureSheet_PlayList : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* _textureSheetKeyList; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _targetEntity; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* _isForceUpdate; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _targetEntity; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Boolean>*>* _textureSheetKeyListLoopSet; // 0xC0
-		::FlowCanvas::FlowOutput* _output; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _isKeepLastFrame; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::String*>* _meshPath; // 0xD8
-		::FlowCanvas::ValueInput_1<::MoleMole::Config::TextureSheetInterruptType>* _interruptType; // 0xE0
-		::FlowCanvas::ValueInput_1<::MoleMole::StaticSceneObjectListLoopType>* _listLoopType; // 0xE8
+		::FlowCanvas::ValueInput_1<::MoleMole::Config::TextureSheetInterruptType>* _interruptType; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* _meshPath; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Boolean>*>* _textureSheetKeyListLoopSet; // 0xC8
+		::FlowCanvas::FlowOutput* _output; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::StaticSceneObjectListLoopType>* _listLoopType; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* _textureSheetKeyList; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _isKeepLastFrame; // 0xE8
 
 		::System::Void _ctor()
 		{

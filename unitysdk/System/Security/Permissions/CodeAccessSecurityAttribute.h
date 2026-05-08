@@ -3,7 +3,7 @@
 #include "unitysdk/System/Security/Permissions/SecurityAction.h"
 #include "unitysdk/System/Security/Permissions/SecurityAttribute.h"
 
-#define SYSTEM_SECURITY_PERMISSIONS_CODEACCESSSECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD1ED0)
+#define SYSTEM_SECURITY_PERMISSIONS_CODEACCESSSECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7CD570)
 
 namespace System::Security::Permissions
 {

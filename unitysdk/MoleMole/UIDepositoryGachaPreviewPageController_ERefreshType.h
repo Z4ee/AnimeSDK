@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryGachaPreviewPageController_ERefreshType_TypeDefinitionIndex = 47411;
+	inline static constexpr unsigned int UIDepositoryGachaPreviewPageController_ERefreshType_TypeDefinitionIndex = 75691;
 
 	enum class UIDepositoryGachaPreviewPageController_ERefreshType : ::System::Int32
 	{
-		AnimationOnly = 0,
 		Full = 2,
+		AnimationOnly = 0,
 		SortOnly = 1,
 	};
 }

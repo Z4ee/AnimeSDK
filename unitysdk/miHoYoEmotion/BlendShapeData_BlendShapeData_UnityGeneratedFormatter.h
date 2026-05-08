@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18FBCF80)
-#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18FBCF90)
-#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18FBD200)
-#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FBD3F0)
-#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBD390)
+#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x19776A80)
+#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x19776A90)
+#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x19776D00)
+#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19776EF0)
+#define MIHOYOEMOTION_BLENDSHAPEDATA_BLENDSHAPEDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19776E90)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex = 37233;
+	inline static constexpr unsigned int BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex = 37777;
 
 	class BlendShapeData_BlendShapeData_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::miHoYoEmotion::BlendShapeData>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x28680);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x28688);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x29230);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x28690);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x29238);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BlendShapeData_BlendShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x29240);
 		}
 
 		::System::Void _ctor()

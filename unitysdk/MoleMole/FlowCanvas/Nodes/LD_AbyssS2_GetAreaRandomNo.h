@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREARANDOMNO_INVOKE_OFFSET UNITYSDK_OFFSET(0xA38B620)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREARANDOMNO__CTOR_OFFSET UNITYSDK_OFFSET(0xA38B910)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREARANDOMNO_INVOKE_OFFSET UNITYSDK_OFFSET(0x170CB270)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREARANDOMNO__CTOR_OFFSET UNITYSDK_OFFSET(0x170CB540)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetAreaRandomNo_TypeDefinitionIndex = 58257;
+	inline static constexpr unsigned int LD_AbyssS2_GetAreaRandomNo_TypeDefinitionIndex = 61948;
 
 	class LD_AbyssS2_GetAreaRandomNo : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::System::Boolean>
 	{

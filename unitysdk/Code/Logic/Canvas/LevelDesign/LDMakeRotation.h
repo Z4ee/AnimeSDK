@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEROTATION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x76A52C0)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x76A5410)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEROTATION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x133E8100)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x133E8230)
 
 namespace Code::Logic::Canvas::LevelDesign
 {
-	inline static constexpr unsigned int LDMakeRotation_TypeDefinitionIndex = 47916;
+	inline static constexpr unsigned int LDMakeRotation_TypeDefinitionIndex = 44380;
 
 	class LDMakeRotation : public ::FlowCanvas::FlowNode
 	{

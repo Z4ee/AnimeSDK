@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE67880)
-#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE678C0)
-#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__REFRESHPLAYERINFO_B__26_1_OFFSET UNITYSDK_OFFSET(0xBE678D0)
+#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C8D400)
+#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C8D440)
+#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__REFRESHPLAYERINFO_B__26_1_OFFSET UNITYSDK_OFFSET(0x15C8D450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoFrameChildWindowController___c_TypeDefinitionIndex = 45743;
+	inline static constexpr unsigned int UIPhotoFrameChildWindowController___c_TypeDefinitionIndex = 50768;
 
 	class UIPhotoFrameChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIPhotoFrameChildWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIPhotoFrameChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31D20);
-		}
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__26_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31D28);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32A20);
+		}
+		static ::MoleMole::UIPhotoFrameChildWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIPhotoFrameChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32A28);
 		}
 
 		static ::System::Void _cctor()

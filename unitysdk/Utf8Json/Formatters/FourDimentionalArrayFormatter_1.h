@@ -8,7 +8,7 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int FourDimentionalArrayFormatter_1_TypeDefinitionIndex = 84030;
+	inline static constexpr unsigned int FourDimentionalArrayFormatter_1_TypeDefinitionIndex = 85758;
 
 	template <typename T>
 	class FourDimentionalArrayFormatter_1 : public ::System::Object

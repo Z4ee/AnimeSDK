@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleRuleDialogPopWindowController_TabType_TypeDefinitionIndex = 50906;
+	inline static constexpr unsigned int UIAutoBattleRuleDialogPopWindowController_TabType_TypeDefinitionIndex = 75470;
 
 	enum class UIAutoBattleRuleDialogPopWindowController_TabType : ::System::Int32
 	{
-		Rank = 1,
-		Gold = 0,
 		HP = 2,
+		Gold = 0,
 		Arcade = 3,
+		Rank = 1,
 	};
 }

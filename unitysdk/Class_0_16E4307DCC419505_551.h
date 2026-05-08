@@ -1,16 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_E147DFD2A4EE8B0B.h"
-#include "unitysdk/Struct_2_E33A8767CD3B76C6.h"
+#include "unitysdk/Struct_2_519740F826A15881.h"
+#include "unitysdk/Struct_2_6E1B724B14572104_1.h"
+#include "unitysdk/Struct_2_C006DA4A56FC21E6.h"
 
-class Class_0_16E4307DCC419505_181;
-class Class_0_16E4307DCC419505_182;
-class Class_0_16E4307DCC419505_195;
-class Class_3_24D8B6D1AB5590E1;
-class Class_3_631700BC8A8FBE1D;
-namespace System { class Object; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_551_TypeDefinitionIndex = 78653;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_551_TypeDefinitionIndex = 56303;
 
 class Class_0_16E4307DCC419505_551
 {

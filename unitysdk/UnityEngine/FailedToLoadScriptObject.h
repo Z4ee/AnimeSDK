@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_FAILEDTOLOADSCRIPTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A360960)
+#define UNITYENGINE_FAILEDTOLOADSCRIPTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B180EE0)
 
 namespace UnityEngine
 {

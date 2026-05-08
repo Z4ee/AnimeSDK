@@ -15,91 +15,91 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPAREBINARY2_OFFSET UNITYSDK_OFFSET(0x1B121270)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPAREBINARY_OFFSET UNITYSDK_OFFSET(0x1B120F10)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPAREOPTIONSFROMSQLCOMPAREOPTIONS_OFFSET UNITYSDK_OFFSET(0x1B121440)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x987CB0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPARETO_OFFSET UNITYSDK_OFFSET(0x987CA0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B121560)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x987DD0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_FBINARYSORT_OFFSET UNITYSDK_OFFSET(0x987C80)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x987DE0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1B1222B0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x987BA0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x987BB0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1B120AC0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B1216B0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B1209B0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SETCOMPAREINFO_OFFSET UNITYSDK_OFFSET(0x987C10)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_STRINGCOMPARE_OFFSET UNITYSDK_OFFSET(0x1B120BD0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x2F75F0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x987DF0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x987E00)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x987C60)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING_VALIDATESQLCOMPAREOPTIONS_OFFSET UNITYSDK_OFFSET(0x1B120630)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B122330)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x987AA0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_2_OFFSET UNITYSDK_OFFSET(0x987AB0)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_3_OFFSET UNITYSDK_OFFSET(0x987B90)
-#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x987A90)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPAREBINARY2_OFFSET UNITYSDK_OFFSET(0x1BE4DE10)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPAREBINARY_OFFSET UNITYSDK_OFFSET(0x1BE4DBC0)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPAREOPTIONSFROMSQLCOMPAREOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BE4E1E0)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x9B7A30)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPARETO_OFFSET UNITYSDK_OFFSET(0x9B7A20)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BE4E300)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B7B50)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_FBINARYSORT_OFFSET UNITYSDK_OFFSET(0x9B7A00)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9B7B60)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1BE4EFD0)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x9B7900)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x9B7910)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1BE4D680)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BE4E450)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BE4D5B0)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SETCOMPAREINFO_OFFSET UNITYSDK_OFFSET(0x9B7970)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_STRINGCOMPARE_OFFSET UNITYSDK_OFFSET(0x1BE4D790)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x304470)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x9B7B70)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x9B7B80)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9B79C0)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING_VALIDATESQLCOMPAREOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BE4D290)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE4F050)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9B7860)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_2_OFFSET UNITYSDK_OFFSET(0x9B7870)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_3_OFFSET UNITYSDK_OFFSET(0x9B78F0)
+#define SYSTEM_DATA_SQLTYPES_SQLSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x9B7850)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlString_TypeDefinitionIndex = 36565;
+	inline static constexpr unsigned int SqlString_TypeDefinitionIndex = 37109;
 
 	struct alignas(8) SqlString
 	{
 		static ::System::Data::SqlTypes::SqlString* StaticGet_Null()
 		{
-			return (::System::Data::SqlTypes::SqlString*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x268E0);
+			return (::System::Data::SqlTypes::SqlString*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x27490);
 		}
 		static ::System::Text::UnicodeEncoding** StaticGet_s_unicodeEncoding()
 		{
-			return (::System::Text::UnicodeEncoding**)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x26900);
-		}
-		static ::System::Int32* StaticGet_IgnoreKanaType()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C30);
-		}
-		static ::System::Data::SqlTypes::SqlCompareOptions* StaticGet_s_iValidSqlCompareOptionMask()
-		{
-			return (::System::Data::SqlTypes::SqlCompareOptions*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C34);
-		}
-		static ::System::Data::SqlTypes::SqlCompareOptions* StaticGet_s_iDefaultFlag()
-		{
-			return (::System::Data::SqlTypes::SqlCompareOptions*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C38);
-		}
-		static ::System::Int32* StaticGet_s_lcidUSEnglish()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C3C);
-		}
-		static ::System::Globalization::CompareOptions* StaticGet_s_iValidCompareOptionMask()
-		{
-			return (::System::Globalization::CompareOptions*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C40);
-		}
-		static ::System::Int32* StaticGet_BinarySort2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C44);
+			return (::System::Text::UnicodeEncoding**)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x274B0);
 		}
 		static ::System::Int32* StaticGet_IgnoreNonSpace()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C48);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D00);
 		}
 		static ::System::Int32* StaticGet_BinarySort()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C4C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D04);
 		}
-		static ::System::Int32* StaticGet_IgnoreWidth()
+		static ::System::Data::SqlTypes::SqlCompareOptions* StaticGet_s_iDefaultFlag()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C50);
+			return (::System::Data::SqlTypes::SqlCompareOptions*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D08);
+		}
+		static ::System::Data::SqlTypes::SqlCompareOptions* StaticGet_s_iValidSqlCompareOptionMask()
+		{
+			return (::System::Data::SqlTypes::SqlCompareOptions*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D0C);
+		}
+		static ::System::Int32* StaticGet_IgnoreKanaType()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D10);
+		}
+		static ::System::Int32* StaticGet_BinarySort2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D14);
 		}
 		static ::System::Int32* StaticGet_s_lcidBinary()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C54);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D18);
+		}
+		static ::System::Int32* StaticGet_s_lcidUSEnglish()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D1C);
+		}
+		static ::System::Globalization::CompareOptions* StaticGet_s_iValidCompareOptionMask()
+		{
+			return (::System::Globalization::CompareOptions*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D20);
 		}
 		static ::System::Int32* StaticGet_IgnoreCase()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8C58);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D24);
+		}
+		static ::System::Int32* StaticGet_IgnoreWidth()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlString_TypeDefinitionIndex)->GetStaticField(0x8D28);
 		}
 		::System::String* m_value; // 0x10
 		::System::Globalization::CompareInfo* m_cmpInfo; // 0x18

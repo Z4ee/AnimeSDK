@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define NAPSTREAMING_NAPSTREAMINGVIRTUALGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x6BC3210)
+#define NAPSTREAMING_NAPSTREAMINGVIRTUALGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x112CD6D0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingVirtualGrid_TypeDefinitionIndex = 63197;
+	inline static constexpr unsigned int NapStreamingVirtualGrid_TypeDefinitionIndex = 38228;
 
 	class NapStreamingVirtualGrid : public ::UnityEngine::MonoBehaviour
 	{

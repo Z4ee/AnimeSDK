@@ -10,34 +10,34 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class VolumetricCloudConfig; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_BLITVOLUMETRICCLOUD_OFFSET UNITYSDK_OFFSET(0x17425EF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_DRAWFALLBACKCLOUD_OFFSET UNITYSDK_OFFSET(0x17426240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17425E30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_RENDERVOLUMETRICRT_OFFSET UNITYSDK_OFFSET(0x174265C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17428940)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17425EE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_BLITVOLUMETRICCLOUD_OFFSET UNITYSDK_OFFSET(0x190C96E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_DRAWFALLBACKCLOUD_OFFSET UNITYSDK_OFFSET(0x190C9AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x190C95F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER_RENDERVOLUMETRICRT_OFFSET UNITYSDK_OFFSET(0x190C9E90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x190CC4B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPVOLUMETRICCLOUDMANGER__CTOR_OFFSET UNITYSDK_OFFSET(0x190C96D0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapVolumetricCloudManger_TypeDefinitionIndex = 30022;
+	inline static constexpr unsigned int NapVolumetricCloudManger_TypeDefinitionIndex = 30551;
 
 	class NapVolumetricCloudManger : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_pattern_array1()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapVolumetricCloudManger_TypeDefinitionIndex)->GetStaticField(0x24BD0);
+		}
 		static ::UnityEngine::Rendering::Universal::Internal::NapVolumetricCloudManger** StaticGet_m_Instance()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::NapVolumetricCloudManger**)Il2CppClass::FromTypeDefinitionIndex(NapVolumetricCloudManger_TypeDefinitionIndex)->GetStaticField(0x24050);
+			return (::UnityEngine::Rendering::Universal::Internal::NapVolumetricCloudManger**)Il2CppClass::FromTypeDefinitionIndex(NapVolumetricCloudManger_TypeDefinitionIndex)->GetStaticField(0x24BD8);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_pattern_array0()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapVolumetricCloudManger_TypeDefinitionIndex)->GetStaticField(0x24058);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapVolumetricCloudManger_TypeDefinitionIndex)->GetStaticField(0x24BE0);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_pattern_array1()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapVolumetricCloudManger_TypeDefinitionIndex)->GetStaticField(0x24060);
-		}
-		::UnityEngine::Vector2Int traceRes; // 0x10
-		::UnityEngine::Vector2Int ResScaled; // 0x18
+		::UnityEngine::Vector2Int ResScaled; // 0x10
+		::UnityEngine::Vector2Int traceRes; // 0x18
 		::UnityEngine::Vector2Int targetRes; // 0x20
 
 		::System::Void _ctor()

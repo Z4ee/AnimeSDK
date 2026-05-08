@@ -12,31 +12,31 @@ namespace MoleMole::Config { class ConfigHollowInteractCondition; }
 namespace MoleMole::Config { class ConfigHollowInteractEffect; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D07870)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1230C2C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractBase_TypeDefinitionIndex = 64224;
+	inline static constexpr unsigned int ConfigHollowInteractBase_TypeDefinitionIndex = 51978;
 
 	class ConfigHollowInteractBase : public ::System::Object
 	{
 	public:
-		::MoleMole::Config::ConfigHollowInteractCondition* Condition; // 0x10
-		::MoleMole::Config::ConfigHollowInteractEffect* Effect; // 0x18
-		::MoleMole::Config::ConfigHollowInteractEffect* FailureEffect; // 0x20
-		::MoleMole::Config::InteractTargetType Type; // 0x28
-		::MoleMole::InputLogicEventType ConsoleOrKeyboardEvent; // 0x2C
-		::System::Int32 Priority; // 0x30
-		::System::Int32 Group; // 0x34
-		::System::Boolean ForbidMove; // 0x38
-		::System::Boolean DestroyAfterInteract; // 0x39
-		::System::Boolean TryMoveToTarget; // 0x3A
-		::System::Boolean BreakSleep; // 0x3B
-		::System::Boolean EnableDefault; // 0x3C
-		::System::Boolean IsInteractFailure; // 0x3D
-		::MoleMole::Config::HollowInteractType InteractType; // 0x40
-		::MoleMole::Config::InteractPosType PosType; // 0x44
-		::MoleMole::Config::BindSendMsgType BindMove; // 0x48
+		::MoleMole::Config::ConfigHollowInteractEffect* Effect; // 0x10
+		::MoleMole::Config::ConfigHollowInteractEffect* FailureEffect; // 0x18
+		::MoleMole::Config::ConfigHollowInteractCondition* Condition; // 0x20
+		::MoleMole::Config::HollowInteractType InteractType; // 0x28
+		::MoleMole::Config::InteractTargetType Type; // 0x2C
+		::MoleMole::InputLogicEventType ConsoleOrKeyboardEvent; // 0x30
+		::MoleMole::Config::InteractPosType PosType; // 0x34
+		::System::Int32 Group; // 0x38
+		::System::Boolean BreakSleep; // 0x3C
+		::System::Boolean DestroyAfterInteract; // 0x3D
+		::System::Boolean EnableDefault; // 0x3E
+		::System::Boolean ForbidMove; // 0x3F
+		::MoleMole::Config::BindSendMsgType BindMove; // 0x40
+		::System::Int32 Priority; // 0x44
+		::System::Boolean IsInteractFailure; // 0x48
+		::System::Boolean TryMoveToTarget; // 0x49
 
 		::System::Void _ctor()
 		{

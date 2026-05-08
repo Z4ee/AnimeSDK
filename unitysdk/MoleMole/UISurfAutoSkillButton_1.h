@@ -5,13 +5,13 @@
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 #include "unitysdk/MoleMole/UIInLevelGamePlayButtonBaseController.h"
 
-class Class_2_60DDD9C206686F44;
+class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UIControlReference; }
 namespace UnityEngine { class RectTransform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISurfAutoSkillButton_1_TypeDefinitionIndex = 47537;
+	inline static constexpr unsigned int UISurfAutoSkillButton_1_TypeDefinitionIndex = 68912;
 
 	template <typename TView>
 	class UISurfAutoSkillButton_1 : public ::MoleMole::UIInLevelGamePlayButtonBaseController

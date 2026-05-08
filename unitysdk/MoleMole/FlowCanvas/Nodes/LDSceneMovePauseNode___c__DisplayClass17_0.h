@@ -5,19 +5,19 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDSceneMovePauseNode; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB17F840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0xB17F850)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_G__FINISH_1_OFFSET UNITYSDK_OFFSET(0xB17F8A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BAA080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x10BAA090)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_G__FINISH_1_OFFSET UNITYSDK_OFFSET(0x10BAA0E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSceneMovePauseNode___c__DisplayClass17_0_TypeDefinitionIndex = 39671;
+	inline static constexpr unsigned int LDSceneMovePauseNode___c__DisplayClass17_0_TypeDefinitionIndex = 43492;
 
 	class LDSceneMovePauseNode___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Flow f; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDSceneMovePauseNode* __4__this; // 0x38
+		::MoleMole::FlowCanvas::Nodes::LDSceneMovePauseNode* __4__this; // 0x10
+		::FlowCanvas::Flow f; // 0x18
 
 		::System::Void _ctor()
 		{

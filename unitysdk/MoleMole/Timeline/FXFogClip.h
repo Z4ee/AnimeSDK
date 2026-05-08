@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class FXFogBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_FXFOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA482390)
-#define MOLEMOLE_TIMELINE_FXFOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA482380)
-#define MOLEMOLE_TIMELINE_FXFOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA482590)
+#define MOLEMOLE_TIMELINE_FXFOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12FB1DF0)
+#define MOLEMOLE_TIMELINE_FXFOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12FB1DE0)
+#define MOLEMOLE_TIMELINE_FXFOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x12FB1FD0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FXFogClip_TypeDefinitionIndex = 69522;
+	inline static constexpr unsigned int FXFogClip_TypeDefinitionIndex = 82511;
 
 	class FXFogClip : public ::UnityEngine::Playables::PlayableAsset
 	{

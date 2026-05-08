@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA22B4B0)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1300DAA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewsStandPuzzleGameContext_TypeDefinitionIndex = 66208;
+	inline static constexpr unsigned int UINewsStandPuzzleGameContext_TypeDefinitionIndex = 79432;
 
 	class UINewsStandPuzzleGameContext : public ::MoleMole::UIControllerContextBase
 	{

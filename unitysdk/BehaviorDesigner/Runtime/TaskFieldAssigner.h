@@ -9,13 +9,13 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDASSIGNER_SETTASKFIELD_OFFSET UNITYSDK_OFFSET(0x953DC0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDASSIGNER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x953D90)
-#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDASSIGNER__CTOR_OFFSET UNITYSDK_OFFSET(0x953D70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDASSIGNER_SETTASKFIELD_OFFSET UNITYSDK_OFFSET(0x9A2C60)
+#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDASSIGNER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9A2C30)
+#define BEHAVIORDESIGNER_RUNTIME_TASKFIELDASSIGNER__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2C10)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int TaskFieldAssigner_TypeDefinitionIndex = 31180;
+	inline static constexpr unsigned int TaskFieldAssigner_TypeDefinitionIndex = 31709;
 
 	struct alignas(8) TaskFieldAssigner
 	{

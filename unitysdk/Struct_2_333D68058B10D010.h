@@ -4,7 +4,7 @@
 
 namespace System { class Action; }
 
-inline static constexpr unsigned int Struct_2_333D68058B10D010_TypeDefinitionIndex = 62760;
+inline static constexpr unsigned int Struct_2_333D68058B10D010_TypeDefinitionIndex = 64728;
 
 struct alignas(8) Struct_2_333D68058B10D010
 {

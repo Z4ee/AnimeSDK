@@ -6,7 +6,7 @@ namespace Nap::NapECS { class EcsWorld; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentTaskExtension_TypeDefinitionIndex = 35149;
+	inline static constexpr unsigned int EcsComponentTaskExtension_TypeDefinitionIndex = 35703;
 
 	class EcsComponentTaskExtension : public ::System::Object
 	{

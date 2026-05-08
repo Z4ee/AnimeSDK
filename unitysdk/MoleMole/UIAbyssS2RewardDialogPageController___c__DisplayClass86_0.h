@@ -5,12 +5,12 @@
 namespace MoleMole { class UIAbyssS2RewardDialogPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC806C20)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS86_0__ONTAKEALLREWARDERRORHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0xC806C30)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E34FD0)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS86_0__ONTAKEALLREWARDERRORHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x17E34FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass86_0_TypeDefinitionIndex = 52209;
+	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass86_0_TypeDefinitionIndex = 49896;
 
 	class UIAbyssS2RewardDialogPageController___c__DisplayClass86_0 : public ::System::Object
 	{

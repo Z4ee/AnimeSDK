@@ -3,8 +3,8 @@
 #include "unitysdk/MoleMole/UIGachaStage3DModelControllerBase.h"
 #include "unitysdk/MoleMole/UIGachaStage3DModelControllerBase_UITextInfo.h"
 
-class Class_2_208CC9941471731A_672;
-class Class_2_208CC9941471731A_89;
+class Class_2_208CC9941471731A_102;
+class Class_2_208CC9941471731A_595;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -14,81 +14,81 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GETCHARACTERLIGHTSTLPATH_OFFSET UNITYSDK_OFFSET(0xB0EEE50)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GETLIGHTCUTSCENEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xB0EEEC0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GETLIGHTIDS_OFFSET UNITYSDK_OFFSET(0xB0EEDE0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GET_BLUEPRINT_NAME_OFFSET UNITYSDK_OFFSET(0xB0EF210)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GET_RARITY_TV_INDEX_OFFSET UNITYSDK_OFFSET(0xB0EF250)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GET_TOTAL_TV_NUM_OFFSET UNITYSDK_OFFSET(0xB0EF200)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_HANDLEONOPEN_OFFSET UNITYSDK_OFFSET(0xB0EC5A0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_HANDLEUPDATE_OFFSET UNITYSDK_OFFSET(0xB0EC9D0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_INITLIGHTS_OFFSET UNITYSDK_OFFSET(0xB0EEBA0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ISVIDEOTVINDEX_OFFSET UNITYSDK_OFFSET(0xB0EEB30)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONREFRESHSTAGE_OFFSET UNITYSDK_OFFSET(0xB0ECD70)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0xB0ECA80)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0xB0EC4F0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_PRELOADSTAGEBEFOREPLAY_OFFSET UNITYSDK_OFFSET(0xB0ECB60)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_STOPSOUND_OFFSET UNITYSDK_OFFSET(0xB0EEFE0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB0EF260)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE__ONREFRESHSTAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xB0EF380)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_GETLIGHTCUTSCENEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xB0EF590)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_HANDLEONOPEN_OFFSET UNITYSDK_OFFSET(0xB0EF5F0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_HANDLEUPDATE_OFFSET UNITYSDK_OFFSET(0xB0EF600)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_ISVIDEOTVINDEX_OFFSET UNITYSDK_OFFSET(0xB0EF670)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0xB0EF6E0)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0xB0EF520)
-#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_STOPSOUND_OFFSET UNITYSDK_OFFSET(0xB0EF6F0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GETCHARACTERLIGHTSTLPATH_OFFSET UNITYSDK_OFFSET(0x13E97610)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GETLIGHTCUTSCENEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x13E97670)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GETLIGHTIDS_OFFSET UNITYSDK_OFFSET(0x13E975B0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GET_BLUEPRINT_NAME_OFFSET UNITYSDK_OFFSET(0x13E979F0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GET_RARITY_TV_INDEX_OFFSET UNITYSDK_OFFSET(0x13E97A30)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_GET_TOTAL_TV_NUM_OFFSET UNITYSDK_OFFSET(0x13E979E0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_HANDLEONOPEN_OFFSET UNITYSDK_OFFSET(0x13E94B80)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_HANDLEUPDATE_OFFSET UNITYSDK_OFFSET(0x13E94F90)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_INITLIGHTS_OFFSET UNITYSDK_OFFSET(0x13E97370)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ISVIDEOTVINDEX_OFFSET UNITYSDK_OFFSET(0x13E97320)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONREFRESHSTAGE_OFFSET UNITYSDK_OFFSET(0x13E95280)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x13E94FF0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x13E94B20)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_PRELOADSTAGEBEFOREPLAY_OFFSET UNITYSDK_OFFSET(0x13E950B0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_STOPSOUND_OFFSET UNITYSDK_OFFSET(0x13E97770)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x13E97A40)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE__ONREFRESHSTAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0x13E97B60)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_GETLIGHTCUTSCENEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x13E97E10)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_HANDLEONOPEN_OFFSET UNITYSDK_OFFSET(0x13E97EA0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_HANDLEUPDATE_OFFSET UNITYSDK_OFFSET(0x13E97EB0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_ISVIDEOTVINDEX_OFFSET UNITYSDK_OFFSET(0x13E97F40)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x13E97FD0)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x13E97D80)
+#define MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE___BASE_STOPSOUND_OFFSET UNITYSDK_OFFSET(0x13E97FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaStageAvatar3DModelControllerBase_TypeDefinitionIndex = 75912;
+	inline static constexpr unsigned int UIGachaStageAvatar3DModelControllerBase_TypeDefinitionIndex = 70319;
 
 	class UIGachaStageAvatar3DModelControllerBase : public ::MoleMole::UIGachaStage3DModelControllerBase
 	{
 	public:
-		::UnityEngine::Transform* _itemPosTrans; // 0x628
-		::UnityEngine::GameObject* _flagGo1; // 0x630
-		::UnityEngine::GameObject* _flagGo2; // 0x638
-		::UnityEngine::Transform* _platform; // 0x640
-		::UnityEngine::Transform* _leftUITextRoot; // 0x648
-		::UnityEngine::Transform* _leftUITextParent; // 0x650
-		::UnityEngine::Transform* _leftUITextRoot1; // 0x658
-		::UnityEngine::Transform* _leftUITextParent1; // 0x660
-		::UnityEngine::Transform* _leftUITextRoot2; // 0x668
-		::UnityEngine::Transform* _leftUITextParent2; // 0x670
-		::UnityEngine::Transform* _rightUITextRoot; // 0x678
-		::UnityEngine::Transform* _rightUITextParent; // 0x680
-		::UnityEngine::Transform* _rightUITextRoot1; // 0x688
-		::UnityEngine::Transform* _rightUITextParent1; // 0x690
-		::UnityEngine::Transform* _upUITextRoot; // 0x698
-		::UnityEngine::Transform* _upUITextParent; // 0x6A0
-		::UnityEngine::Transform* _topLight; // 0x6A8
-		::UnityEngine::Transform* _faceLight; // 0x6B0
-		::UnityEngine::Transform* _uiTextUp; // 0x6B8
-		::UnityEngine::Transform* _uiTextLeft; // 0x6C0
-		::UnityEngine::Transform* _uiTextRight; // 0x6C8
-		::UnityEngine::GameObject* _monoCGCustomGlobalAnimationGo; // 0x6D0
-		::System::String* FLAG_MAT_TEXTURE_PROPERTY_NAME; // 0x6D8
-		::System::String* FLAG_MAT_NORMAL_PROPERTY_NAME; // 0x6E0
-		::System::String* FLAG_MAT_MASK_PROPERTY_NAME; // 0x6E8
-		::System::String* Flag1Go; // 0x6F0
-		::System::String* Flag2Go; // 0x6F8
-		::System::String* CamShakeDelay; // 0x700
-		::System::String* LeftUITextRoot; // 0x708
-		::System::String* LeftUITextMats; // 0x710
-		::System::String* RightUITextRoot; // 0x718
-		::System::String* RightUITextMats; // 0x720
-		::System::String* UpUITextRoot; // 0x728
-		::System::String* UpUITextMats; // 0x730
-		::System::String* LeftUITextMoveDistance; // 0x738
-		::System::String* RightUITextMoveDistance; // 0x740
-		::System::String* UITextMoveThinkInterval; // 0x748
-		::System::String* AvatarTextshotTLDelay; // 0x750
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _flagMats; // 0x758
-		::System::Collections::Generic::List_1<::MoleMole::UIGachaStage3DModelControllerBase_UITextInfo>* _leftUITextInfos; // 0x760
-		::System::Collections::Generic::List_1<::MoleMole::UIGachaStage3DModelControllerBase_UITextInfo>* _rightUITextInfos; // 0x768
-		::Class_2_208CC9941471731A_89* _avatarPerformTemplate; // 0x770
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Texture2D*>* _loadedFlagTextures; // 0x778
+		::UnityEngine::Transform* _itemPosTrans; // 0x640
+		::UnityEngine::GameObject* _flagGo1; // 0x648
+		::UnityEngine::GameObject* _flagGo2; // 0x650
+		::UnityEngine::Transform* _platform; // 0x658
+		::UnityEngine::Transform* _leftUITextRoot; // 0x660
+		::UnityEngine::Transform* _leftUITextParent; // 0x668
+		::UnityEngine::Transform* _leftUITextRoot1; // 0x670
+		::UnityEngine::Transform* _leftUITextParent1; // 0x678
+		::UnityEngine::Transform* _leftUITextRoot2; // 0x680
+		::UnityEngine::Transform* _leftUITextParent2; // 0x688
+		::UnityEngine::Transform* _rightUITextRoot; // 0x690
+		::UnityEngine::Transform* _rightUITextParent; // 0x698
+		::UnityEngine::Transform* _rightUITextRoot1; // 0x6A0
+		::UnityEngine::Transform* _rightUITextParent1; // 0x6A8
+		::UnityEngine::Transform* _upUITextRoot; // 0x6B0
+		::UnityEngine::Transform* _upUITextParent; // 0x6B8
+		::UnityEngine::Transform* _topLight; // 0x6C0
+		::UnityEngine::Transform* _faceLight; // 0x6C8
+		::UnityEngine::Transform* _uiTextUp; // 0x6D0
+		::UnityEngine::Transform* _uiTextLeft; // 0x6D8
+		::UnityEngine::Transform* _uiTextRight; // 0x6E0
+		::UnityEngine::GameObject* _monoCGCustomGlobalAnimationGo; // 0x6E8
+		::System::String* FLAG_MAT_TEXTURE_PROPERTY_NAME; // 0x6F0
+		::System::String* FLAG_MAT_NORMAL_PROPERTY_NAME; // 0x6F8
+		::System::String* FLAG_MAT_MASK_PROPERTY_NAME; // 0x700
+		::System::String* Flag1Go; // 0x708
+		::System::String* Flag2Go; // 0x710
+		::System::String* CamShakeDelay; // 0x718
+		::System::String* LeftUITextRoot; // 0x720
+		::System::String* LeftUITextMats; // 0x728
+		::System::String* RightUITextRoot; // 0x730
+		::System::String* RightUITextMats; // 0x738
+		::System::String* UpUITextRoot; // 0x740
+		::System::String* UpUITextMats; // 0x748
+		::System::String* LeftUITextMoveDistance; // 0x750
+		::System::String* RightUITextMoveDistance; // 0x758
+		::System::String* UITextMoveThinkInterval; // 0x760
+		::System::String* AvatarTextshotTLDelay; // 0x768
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _flagMats; // 0x770
+		::System::Collections::Generic::List_1<::MoleMole::UIGachaStage3DModelControllerBase_UITextInfo>* _leftUITextInfos; // 0x778
+		::System::Collections::Generic::List_1<::MoleMole::UIGachaStage3DModelControllerBase_UITextInfo>* _rightUITextInfos; // 0x780
+		::Class_2_208CC9941471731A_102* _avatarPerformTemplate; // 0x788
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Texture2D*>* _loadedFlagTextures; // 0x790
 
 		::System::Void _ctor()
 		{
@@ -115,9 +115,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_ONUICLOSE_OFFSET))(this);
 		}
 
-		::System::Void PreloadStageBeforePlay(::Class_2_208CC9941471731A_672* template_, ::System::Action* preloadComplete)
+		::System::Void PreloadStageBeforePlay(::Class_2_208CC9941471731A_595* template_, ::System::Action* preloadComplete)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_672*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_PRELOADSTAGEBEFOREPLAY_OFFSET))(this, template_, preloadComplete);
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_595*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHASTAGEAVATAR3DMODELCONTROLLERBASE_PRELOADSTAGEBEFOREPLAY_OFFSET))(this, template_, preloadComplete);
 		}
 
 		::System::Void OnRefreshStage()

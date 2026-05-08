@@ -5,18 +5,18 @@
 namespace MoleMole { class UITransitionPanelPopWindowController; }
 namespace System { class Action; }
 
-#define CLASS_1_72108342D7142693_CLASS_1_FB37E8CBACB20E37_METHOD_1_2DCDFF29E7FDDAA8_OFFSET UNITYSDK_OFFSET(0x645F4D0)
-#define CLASS_1_72108342D7142693_CLASS_1_FB37E8CBACB20E37_METHOD_1_D1305BC17A89C222_OFFSET UNITYSDK_OFFSET(0x645F350)
-#define CLASS_1_72108342D7142693_CLASS_1_FB37E8CBACB20E37__CTOR_OFFSET UNITYSDK_OFFSET(0x645F340)
+#define CLASS_1_72108342D7142693_CLASS_1_FB37E8CBACB20E37_METHOD_1_2DCDFF29E7FDDAA8_OFFSET UNITYSDK_OFFSET(0xE506D10)
+#define CLASS_1_72108342D7142693_CLASS_1_FB37E8CBACB20E37_METHOD_1_D1305BC17A89C222_OFFSET UNITYSDK_OFFSET(0xE506B90)
+#define CLASS_1_72108342D7142693_CLASS_1_FB37E8CBACB20E37__CTOR_OFFSET UNITYSDK_OFFSET(0xE500B50)
 
-inline static constexpr unsigned int Class_1_72108342D7142693_Class_1_FB37E8CBACB20E37_TypeDefinitionIndex = 47361;
+inline static constexpr unsigned int Class_1_72108342D7142693_Class_1_FB37E8CBACB20E37_TypeDefinitionIndex = 67328;
 
 class Class_1_72108342D7142693_Class_1_FB37E8CBACB20E37 : public ::System::Object
 {
 public:
-	::MoleMole::UITransitionPanelPopWindowController* Field_1_2; // 0x10
-	::System::Action* Field_1_3; // 0x18
-	::System::Action* Field_1_0; // 0x20
+	::System::Action* Field_1_3; // 0x10
+	::System::Action* Field_1_0; // 0x18
+	::MoleMole::UITransitionPanelPopWindowController* Field_1_2; // 0x20
 	::System::Single Field_1_1; // 0x28
 
 	::System::Void _ctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightLodManager_LightOptimizeConfigUnmanaged.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_LIGHTOPTIMIZECONFIGSUNMANAGED_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x7D3A50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_LIGHTOPTIMIZECONFIGSUNMANAGED_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x7D3A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_LIGHTOPTIMIZECONFIGSUNMANAGED_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x86AB50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_LIGHTOPTIMIZECONFIGSUNMANAGED_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x86AB60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLodManager_LightOptimizeConfigsUnmanaged_TypeDefinitionIndex = 29499;
+	inline static constexpr unsigned int LightLodManager_LightOptimizeConfigsUnmanaged_TypeDefinitionIndex = 30027;
 
 	struct alignas(4) LightLodManager_LightOptimizeConfigsUnmanaged
 	{

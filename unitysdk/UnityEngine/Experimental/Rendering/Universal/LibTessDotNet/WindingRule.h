@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int WindingRule_TypeDefinitionIndex = 29236;
+	inline static constexpr unsigned int WindingRule_TypeDefinitionIndex = 29755;
 
 	enum class WindingRule : ::System::Int32
 	{

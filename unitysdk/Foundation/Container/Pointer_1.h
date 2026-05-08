@@ -4,7 +4,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int Pointer_1_TypeDefinitionIndex = 8871;
+	inline static constexpr unsigned int Pointer_1_TypeDefinitionIndex = 8976;
 
 	template <typename T>
 	struct Pointer_1

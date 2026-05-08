@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerNotifications_TypeDefinitionIndex = 28536;
+	inline static constexpr unsigned int PlayerNotifications_TypeDefinitionIndex = 29054;
 
 	enum class PlayerNotifications : ::System::Int32
 	{

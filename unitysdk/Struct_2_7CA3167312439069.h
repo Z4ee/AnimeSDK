@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-inline static constexpr unsigned int Struct_2_7CA3167312439069_TypeDefinitionIndex = 64560;
+inline static constexpr unsigned int Struct_2_7CA3167312439069_TypeDefinitionIndex = 57187;
 
 struct alignas(4) Struct_2_7CA3167312439069
 {

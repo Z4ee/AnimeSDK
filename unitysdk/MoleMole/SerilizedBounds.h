@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_SERILIZEDBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x6ECA340)
+#define MOLEMOLE_SERILIZEDBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x11DEDDC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SerilizedBounds_TypeDefinitionIndex = 53371;
+	inline static constexpr unsigned int SerilizedBounds_TypeDefinitionIndex = 54464;
 
 	class SerilizedBounds : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_5F814DBCD2974AFB_1;
+class Class_3_5F814DBCD2974AFB_2;
 
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCA906C0)
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_1__ONPRODUCT_B__12_OFFSET UNITYSDK_OFFSET(0xCA906D0)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14DBD540)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_1__ONPRODUCT_B__12_OFFSET UNITYSDK_OFFSET(0x14DBD550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductionRightWidgetController___c__DisplayClass23_1_TypeDefinitionIndex = 39144;
+	inline static constexpr unsigned int UISuibianProductionRightWidgetController___c__DisplayClass23_1_TypeDefinitionIndex = 62884;
 
 	class UISuibianProductionRightWidgetController___c__DisplayClass23_1 : public ::System::Object
 	{
 	public:
-		::Class_3_5F814DBCD2974AFB_1* otherBench; // 0x10
+		::Class_3_5F814DBCD2974AFB_2* otherBench; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIMonoController.h"
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENPAGEBGCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCB22DA0)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENPAGEBGCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x167700A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenPageBgController_TypeDefinitionIndex = 51108;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenPageBgController_TypeDefinitionIndex = 72000;
 
 	class UIAvatarSpecialAwakenPageBgController : public ::MoleMole::UIMonoController
 	{

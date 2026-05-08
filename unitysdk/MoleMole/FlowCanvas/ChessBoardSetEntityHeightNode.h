@@ -11,24 +11,24 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole { class ChessEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xD7F5B70)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_START_OFFSET UNITYSDK_OFFSET(0xD7F5CB0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD7F6B40)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xD7F6BE0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18A33680)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_START_OFFSET UNITYSDK_OFFSET(0x18A337A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A34680)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x18A34740)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardSetEntityHeightNode_TypeDefinitionIndex = 58785;
+	inline static constexpr unsigned int ChessBoardSetEntityHeightNode_TypeDefinitionIndex = 81278;
 
 	class ChessBoardSetEntityHeightNode : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
+		::FlowCanvas::FlowInput* input; // 0xA8
 		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntity*>* entity; // 0xB0
 		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* tmpCells; // 0xB8
-		::FlowCanvas::ValueInput_1<::Share::GridDir>* targetDir; // 0xC0
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* nextCells; // 0xC8
-		::FlowCanvas::FlowInput* input; // 0xD0
+		::FlowCanvas::FlowOutput* output; // 0xC0
+		::FlowCanvas::ValueInput_1<::Share::GridDir>* targetDir; // 0xC8
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* nextCells; // 0xD0
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_GEOMETRY_DEFAULTSURFACEDIMENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D5450)
+#define FOUNDATION_GEOMETRY_DEFAULTSURFACEDIMENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C48A6E0)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int DefaultSurfaceDimension_TypeDefinitionIndex = 8789;
+	inline static constexpr unsigned int DefaultSurfaceDimension_TypeDefinitionIndex = 8851;
 
 	class DefaultSurfaceDimension : public ::System::Object
 	{

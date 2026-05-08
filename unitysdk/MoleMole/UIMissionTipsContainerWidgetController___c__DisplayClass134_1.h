@@ -6,19 +6,19 @@ namespace MoleMole { class UIMissionTipsContainerWidgetController___c__DisplayCl
 namespace MoleMole { class UIMissionTipsRowMultiWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAF7DFC0)
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYRECOMMENDTRACK_B__3_OFFSET UNITYSDK_OFFSET(0xAF7DFD0)
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYRECOMMENDTRACK_B__4_OFFSET UNITYSDK_OFFSET(0xAF7E060)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC8A70)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYMISSIONSYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15DC8AD0)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYMISSIONSYNC_B__2_OFFSET UNITYSDK_OFFSET(0x15DC8A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController___c__DisplayClass134_1_TypeDefinitionIndex = 70941;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController___c__DisplayClass134_1_TypeDefinitionIndex = 55057;
 
 	class UIMissionTipsContainerWidgetController___c__DisplayClass134_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__4; // 0x10
-		::MoleMole::UIMissionTipsRowMultiWidgetController* widget; // 0x18
+		::System::Action* __9__2; // 0x10
+		::MoleMole::UIMissionTipsRowMultiWidgetController* tmp; // 0x18
 		::MoleMole::UIMissionTipsContainerWidgetController___c__DisplayClass134_0* CS___8__locals1; // 0x20
 
 		::System::Void _ctor()
@@ -26,14 +26,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PlayRecommendTrack_b__3()
+		::System::Void _PlayMissionSync_b__2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYRECOMMENDTRACK_B__3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYMISSIONSYNC_B__2_OFFSET))(this);
 		}
 
-		::System::Void _PlayRecommendTrack_b__4()
+		::System::Void _PlayMissionSync_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYRECOMMENDTRACK_B__4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__DISPLAYCLASS134_1__PLAYMISSIONSYNC_B__0_OFFSET))(this);
 		}
 	};
 }

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_2__CTOR_OFFSET UNITYSDK_OFFSET(0xC1336A0)
-#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_2__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0xC1336B0)
+#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_2__CTOR_OFFSET UNITYSDK_OFFSET(0x169CD8B0)
+#define MOLEMOLE_UIHOLLOWINFOREPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS6_2__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x169CD8C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoReportRowWidgetController___c__DisplayClass6_2_TypeDefinitionIndex = 57520;
+	inline static constexpr unsigned int UIHollowInfoReportRowWidgetController___c__DisplayClass6_2_TypeDefinitionIndex = 73669;
 
 	class UIHollowInfoReportRowWidgetController___c__DisplayClass6_2 : public ::System::Object
 	{

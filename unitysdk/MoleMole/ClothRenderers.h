@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_CLOTHRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0x81DAC70)
+#define MOLEMOLE_CLOTHRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0xFAF34C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClothRenderers_TypeDefinitionIndex = 46875;
+	inline static constexpr unsigned int ClothRenderers_TypeDefinitionIndex = 44184;
 
 	class ClothRenderers : public ::System::Object
 	{

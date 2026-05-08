@@ -5,12 +5,12 @@
 namespace MoleMole { class MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG_GETCONFIGITEM_OFFSET UNITYSDK_OFFSET(0xD43F1A0)
-#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD43F320)
+#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG_GETCONFIGITEM_OFFSET UNITYSDK_OFFSET(0x170350F0)
+#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17035240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIOverlordFeastLevelConfig_TypeDefinitionIndex = 51223;
+	inline static constexpr unsigned int MonoUIOverlordFeastLevelConfig_TypeDefinitionIndex = 73692;
 
 	class MonoUIOverlordFeastLevelConfig : public ::UnityEngine::MonoBehaviour
 	{

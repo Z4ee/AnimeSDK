@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowLayerResultPageV2PopWindowController_RankDataItem_TypeDefinitionIndex = 59212;
+	inline static constexpr unsigned int UIHollowLayerResultPageV2PopWindowController_RankDataItem_TypeDefinitionIndex = 58497;
 
 	struct alignas(8) UIHollowLayerResultPageV2PopWindowController_RankDataItem
 	{

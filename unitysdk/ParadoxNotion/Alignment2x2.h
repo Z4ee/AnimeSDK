@@ -3,14 +3,14 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int Alignment2x2_TypeDefinitionIndex = 27148;
+	inline static constexpr unsigned int Alignment2x2_TypeDefinitionIndex = 26919;
 
 	enum class Alignment2x2 : ::System::Int32
 	{
-		Right = 2,
 		Default = 0,
-		Top = 3,
-		Left = 1,
 		Bottom = 4,
+		Left = 1,
+		Top = 3,
+		Right = 2,
 	};
 }

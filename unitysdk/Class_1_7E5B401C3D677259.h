@@ -2,27 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7E5B401C3D677259_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x71F8270)
-#define CLASS_1_7E5B401C3D677259_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x71F8200)
-#define CLASS_1_7E5B401C3D677259_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x71F8280)
-#define CLASS_1_7E5B401C3D677259__CTOR_OFFSET UNITYSDK_OFFSET(0x71F8190)
+#define CLASS_1_7E5B401C3D677259_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0xFEAEBC0)
+#define CLASS_1_7E5B401C3D677259_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xFEAEB60)
+#define CLASS_1_7E5B401C3D677259_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xFEAEBB0)
+#define CLASS_1_7E5B401C3D677259__CTOR_OFFSET UNITYSDK_OFFSET(0xFEAEB10)
 
-inline static constexpr unsigned int Class_1_7E5B401C3D677259_TypeDefinitionIndex = 55303;
+inline static constexpr unsigned int Class_1_7E5B401C3D677259_TypeDefinitionIndex = 81288;
 
 class Class_1_7E5B401C3D677259 : public ::System::Object
 {
 public:
-	::System::Boolean Field_1_1; // 0x10
-	::System::Boolean Field_1_0; // 0x11
+	::System::Boolean Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x11
 
 	::System::Void _ctor(::System::Boolean a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7E5B401C3D677259__CTOR_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_1_C74E50CBD41F0264(::System::Boolean a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7E5B401C3D677259_METHOD_1_C74E50CBD41F0264_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_F0088C88851A7DFB()
@@ -33,5 +28,10 @@ public:
 	::System::Void Method_1_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7E5B401C3D677259_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_C74E50CBD41F0264(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7E5B401C3D677259_METHOD_1_C74E50CBD41F0264_OFFSET))(this, a1);
 	}
 };

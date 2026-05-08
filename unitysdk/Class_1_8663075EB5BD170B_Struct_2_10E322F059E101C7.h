@@ -5,7 +5,7 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-inline static constexpr unsigned int Class_1_8663075EB5BD170B_Struct_2_10E322F059E101C7_TypeDefinitionIndex = 58629;
+inline static constexpr unsigned int Class_1_8663075EB5BD170B_Struct_2_10E322F059E101C7_TypeDefinitionIndex = 58403;
 
 struct alignas(8) Class_1_8663075EB5BD170B_Struct_2_10E322F059E101C7
 {

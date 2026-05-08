@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDDeformDistanceConstraint_TypeDefinitionIndex = 24334;
+	inline static constexpr unsigned int PBDDeformDistanceConstraint_TypeDefinitionIndex = 24847;
 
 	struct alignas(4) PBDDeformDistanceConstraint
 	{

@@ -3,7 +3,7 @@
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int IMigratable_TypeDefinitionIndex = 26867;
+	inline static constexpr unsigned int IMigratable_TypeDefinitionIndex = 28248;
 
 	class IMigratable
 	{

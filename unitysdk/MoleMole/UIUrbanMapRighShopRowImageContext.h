@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIURBANMAPRIGHSHOPROWIMAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x790B8A0)
+#define MOLEMOLE_UIURBANMAPRIGHSHOPROWIMAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF62B9A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRighShopRowImageContext_TypeDefinitionIndex = 52688;
+	inline static constexpr unsigned int UIUrbanMapRighShopRowImageContext_TypeDefinitionIndex = 62144;
 
 	class UIUrbanMapRighShopRowImageContext : public ::MoleMole::UIControllerContextBase
 	{

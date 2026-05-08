@@ -5,20 +5,20 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x94F9150)
+#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x124157E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CampTypeConfig_CampTypeItem_TypeDefinitionIndex = 38599;
+	inline static constexpr unsigned int CampTypeConfig_CampTypeItem_TypeDefinitionIndex = 65245;
 
 	class CampTypeConfig_CampTypeItem : public ::System::Object
 	{
 	public:
-		::UnityEngine::AnimationCurve* AngleBasedTargetValue; // 0x10
-		::UnityEngine::AnimationCurve* DistanceBasedTargetValue; // 0x18
-		::MoleMole::Config::TeamRelationship relationship; // 0x20
-		::System::Single SelectedTargetAdditionalTargetValue; // 0x24
-		::System::Single weight; // 0x28
+		::UnityEngine::AnimationCurve* DistanceBasedTargetValue; // 0x10
+		::UnityEngine::AnimationCurve* AngleBasedTargetValue; // 0x18
+		::System::Single SelectedTargetAdditionalTargetValue; // 0x20
+		::System::Single weight; // 0x24
+		::MoleMole::Config::TeamRelationship relationship; // 0x28
 		::System::Single targetValueRatio; // 0x2C
 
 		::System::Void _ctor()

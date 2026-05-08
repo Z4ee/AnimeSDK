@@ -6,19 +6,19 @@ namespace MoleMole { class UIActivityRhythmClickPageController; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDD8AAF0)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS107_0__PLAYREACHRANKEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDD8AB00)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS107_0__PLAYREACHRANKEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xDD8ABA0)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E4B5A0)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS107_0__PLAYREACHRANKEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17E4B5B0)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__DISPLAYCLASS107_0__PLAYREACHRANKEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x17E4B650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmClickPageController___c__DisplayClass107_0_TypeDefinitionIndex = 42749;
+	inline static constexpr unsigned int UIActivityRhythmClickPageController___c__DisplayClass107_0_TypeDefinitionIndex = 46822;
 
 	class UIActivityRhythmClickPageController___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityRhythmClickPageController* __4__this; // 0x10
-		::System::String* effectName; // 0x18
+		::System::String* effectName; // 0x10
+		::MoleMole::UIActivityRhythmClickPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

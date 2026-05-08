@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Specialized/NotifyCollectionChangedAction.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_645_TypeDefinitionIndex = 67843;
+class Class_0_16E4307DCC419505_215;
+namespace System { template <typename T> class Action_1; }
 
-template <typename T, typename TOther>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_645_TypeDefinitionIndex = 78761;
+
 class Class_0_16E4307DCC419505_645
 {
 public:

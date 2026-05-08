@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleValueType_TypeDefinitionIndex = 24590;
+	inline static constexpr unsigned int StyleValueType_TypeDefinitionIndex = 25104;
 
 	enum class StyleValueType : ::System::Int32
 	{

@@ -8,32 +8,32 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B592450)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_CLOSESTPOINTONSEGMENT_OFFSET UNITYSDK_OFFSET(0x1B592C20)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_CONFINEPOINT_OFFSET UNITYSDK_OFFSET(0x1B592490)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_DOESINTERSECTORIGINAL_OFFSET UNITYSDK_OFFSET(0x1B592EA0)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_FINDINTERSECTION_OFFSET UNITYSDK_OFFSET(0x1B593070)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_GET_FRUSTUMHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B5923B0)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_INTPOINTDIFFSQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1B593250)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_INTPOINTLERP_OFFSET UNITYSDK_OFFSET(0x1B592CD0)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_ISINSIDEORIGINAL_OFFSET UNITYSDK_OFFSET(0x1B592B70)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B592460)
-#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5923C0)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C355CE0)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_CLOSESTPOINTONSEGMENT_OFFSET UNITYSDK_OFFSET(0x1C3564B0)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_CONFINEPOINT_OFFSET UNITYSDK_OFFSET(0x1C355D20)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_DOESINTERSECTORIGINAL_OFFSET UNITYSDK_OFFSET(0x1C356730)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_FINDINTERSECTION_OFFSET UNITYSDK_OFFSET(0x1C356900)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_GET_FRUSTUMHEIGHT_OFFSET UNITYSDK_OFFSET(0x1C355C50)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_INTPOINTDIFFSQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1C356AE0)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_INTPOINTLERP_OFFSET UNITYSDK_OFFSET(0x1C356560)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_ISINSIDEORIGINAL_OFFSET UNITYSDK_OFFSET(0x1C356400)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C355CF0)
+#define CINEMACHINE_CONFINEROVEN_BAKEDSOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C355C60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ConfinerOven_BakedSolution_TypeDefinitionIndex = 32053;
+	inline static constexpr unsigned int ConfinerOven_BakedSolution_TypeDefinitionIndex = 32582;
 
 	class ConfinerOven_BakedSolution : public ::System::Object
 	{
 	public:
 		// static const ::System::Double k_ClipperEpsilon; // 0x0
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* m_Solution; // 0x10
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* m_OriginalPolygon; // 0x18
-		::System::Boolean m_HasBones; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* m_OriginalPolygon; // 0x10
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* m_Solution; // 0x18
+		::System::Single m_frustumSizeIntSpace; // 0x20
 		::Cinemachine::ConfinerOven_AspectStretcher m_AspectStretcher; // 0x24
-		::System::Single _FrustumHeight_k__BackingField; // 0x30
-		::System::Single m_frustumSizeIntSpace; // 0x34
+		::System::Boolean m_HasBones; // 0x30
+		::System::Single _FrustumHeight_k__BackingField; // 0x34
 		::System::Double m_SqrPolygonDiagonal; // 0x38
 
 		::System::Void _ctor(::System::Single aspectRatio, ::System::Single frustumHeight, ::System::Boolean hasBones, ::UnityEngine::Rect polygonBounds, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* originalPolygon, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* solution)

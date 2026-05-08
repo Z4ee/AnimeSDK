@@ -2,18 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7807B2B04302CD7B_44__CTOR_OFFSET UNITYSDK_OFFSET(0x6B453B0)
+#define CLASS_1_7807B2B04302CD7B_44__CTOR_OFFSET UNITYSDK_OFFSET(0x107E18A0)
 
-inline static constexpr unsigned int Class_1_7807B2B04302CD7B_44_TypeDefinitionIndex = 72966;
+inline static constexpr unsigned int Class_1_7807B2B04302CD7B_44_TypeDefinitionIndex = 69554;
 
 class Class_1_7807B2B04302CD7B_44 : public ::System::Object
 {
 public:
-	// static const ::System::Int32 Field_1_0 = 0x0; // 0x0
-	// static const ::System::Int32 Field_1_1 = 0x1; // 0x0
-	// static const ::System::Int32 Field_1_2 = 0x2; // 0x0
-	// static const ::System::Int32 Field_1_3 = 0x3; // 0x0
-	// static const ::System::Int32 Field_1_4 = 0x4; // 0x0
+	// static const ::System::Int32 Field_1_0 = 0x1; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0x2; // 0x0
+	// static const ::System::Int32 Field_1_2 = 0x3; // 0x0
+	// static const ::System::Int32 Field_1_3 = 0x4; // 0x0
+	// static const ::System::Int32 Field_1_4 = 0x5; // 0x0
+	// static const ::System::Int32 Field_1_5 = 0x6; // 0x0
+	// static const ::System::Int32 Field_1_6 = 0x7; // 0x0
+	// static const ::System::Int32 Field_1_7 = 0x8; // 0x0
+	// static const ::System::Int32 Field_1_8 = 0x9; // 0x0
 
 	::System::Void _ctor()
 	{

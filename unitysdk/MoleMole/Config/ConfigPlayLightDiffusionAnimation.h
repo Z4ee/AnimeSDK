@@ -6,20 +6,20 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYLIGHTDIFFUSIONANIMATION_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x10A9D300)
-#define MOLEMOLE_CONFIG_CONFIGPLAYLIGHTDIFFUSIONANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x10A9D3E0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYLIGHTDIFFUSIONANIMATION_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x183C7B20)
+#define MOLEMOLE_CONFIG_CONFIGPLAYLIGHTDIFFUSIONANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x183C7BE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayLightDiffusionAnimation_TypeDefinitionIndex = 43739;
+	inline static constexpr unsigned int ConfigPlayLightDiffusionAnimation_TypeDefinitionIndex = 51330;
 
 	class ConfigPlayLightDiffusionAnimation : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::System::Boolean UsePlayerPos; // 0x18
-		::MoleMole::Config::ConfigPlayLightDiffusionAnimation_DiffusionType Diffusion; // 0x1C
-		::System::Single DiffusionDuration; // 0x20
-		::MoleMole::Vector2Int StartPos; // 0x24
+		::MoleMole::Vector2Int StartPos; // 0x1C
+		::MoleMole::Config::ConfigPlayLightDiffusionAnimation_DiffusionType Diffusion; // 0x24
+		::System::Single DiffusionDuration; // 0x28
 
 		::System::Void _ctor()
 		{

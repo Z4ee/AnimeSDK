@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_1AF58D2D7D5CC9BA_Class_2_A48BE173508FDECD_Enum_3_F93E225BD5C15014_TypeDefinitionIndex = 57408;
+inline static constexpr unsigned int Class_2_1AF58D2D7D5CC9BA_Class_2_A48BE173508FDECD_Enum_3_F93E225BD5C15014_TypeDefinitionIndex = 79511;
 
 enum class Class_2_1AF58D2D7D5CC9BA_Class_2_A48BE173508FDECD_Enum_3_F93E225BD5C15014 : ::System::Int32
 {
-	Quest = 1,
-	MiniScapeWeeklyTask = 2,
 	None = 0,
+	MiniScapeWeeklyTask = 2,
+	Quest = 1,
 };

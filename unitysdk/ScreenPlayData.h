@@ -7,9 +7,9 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define SCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15346F10)
+#define SCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8D900)
 
-inline static constexpr unsigned int ScreenPlayData_TypeDefinitionIndex = 60548;
+inline static constexpr unsigned int ScreenPlayData_TypeDefinitionIndex = 81847;
 
 class ScreenPlayData : public ::System::Object
 {

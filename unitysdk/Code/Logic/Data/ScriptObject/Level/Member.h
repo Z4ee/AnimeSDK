@@ -5,11 +5,11 @@
 
 namespace Code::Logic::Data::ScriptObject::Level { class MoveCoordinate; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_MEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x87C4C60)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_MEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x139DF1A0)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int Member_TypeDefinitionIndex = 78089;
+	inline static constexpr unsigned int Member_TypeDefinitionIndex = 79589;
 
 	class Member : public ::System::Object
 	{

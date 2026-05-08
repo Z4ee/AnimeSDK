@@ -8,7 +8,7 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntToEnum_1_TypeDefinitionIndex = 58301;
+	inline static constexpr unsigned int IntToEnum_1_TypeDefinitionIndex = 40341;
 
 	template <typename T>
 	class IntToEnum_1 : public ::FlowCanvas::Nodes::FlowControlNode

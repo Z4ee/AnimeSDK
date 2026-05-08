@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define SIRENIX_UTILITIES_PROJECTPATHFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEC8610)
+#define SIRENIX_UTILITIES_PROJECTPATHFINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD92D0)
 
 namespace Sirenix::Utilities
 {

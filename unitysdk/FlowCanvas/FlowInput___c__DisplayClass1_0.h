@@ -6,18 +6,18 @@
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowNode; }
 
-#define FLOWCANVAS_FLOWINPUT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196D4860)
-#define FLOWCANVAS_FLOWINPUT___C__DISPLAYCLASS1_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x196D4870)
+#define FLOWCANVAS_FLOWINPUT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F37D0)
+#define FLOWCANVAS_FLOWINPUT___C__DISPLAYCLASS1_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A1F37E0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowInput___c__DisplayClass1_0_TypeDefinitionIndex = 26993;
+	inline static constexpr unsigned int FlowInput___c__DisplayClass1_0_TypeDefinitionIndex = 28231;
 
 	class FlowInput___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowInput* __4__this; // 0x10
-		::FlowCanvas::FlowNode* parent; // 0x18
+		::FlowCanvas::FlowNode* parent; // 0x10
+		::FlowCanvas::FlowInput* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

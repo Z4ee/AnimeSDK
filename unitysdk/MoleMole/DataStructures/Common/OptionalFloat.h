@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DataStructures/Common/Optional_1.h"
 
-#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B525330)
+#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C265590)
 
 namespace MoleMole::DataStructures::Common
 {
-	inline static constexpr unsigned int OptionalFloat_TypeDefinitionIndex = 25033;
+	inline static constexpr unsigned int OptionalFloat_TypeDefinitionIndex = 25807;
 
 	class OptionalFloat : public ::MoleMole::DataStructures::Common::Optional_1<::System::Single>
 	{

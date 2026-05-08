@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGGENERALICONBADGECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CF590)
+#define MOLEMOLE_CONFIGGENERALICONBADGECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1243FA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigGeneralIconBadgeColor_TypeDefinitionIndex = 39994;
+	inline static constexpr unsigned int ConfigGeneralIconBadgeColor_TypeDefinitionIndex = 51188;
 
 	class ConfigGeneralIconBadgeColor : public ::System::Object
 	{

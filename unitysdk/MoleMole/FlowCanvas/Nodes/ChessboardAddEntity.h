@@ -5,12 +5,12 @@
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDADDENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0xD7FAC50)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDADDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0xD7FADD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDADDENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A38620)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDADDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18A38780)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardAddEntity_TypeDefinitionIndex = 64079;
+	inline static constexpr unsigned int ChessboardAddEntity_TypeDefinitionIndex = 72535;
 
 	class ChessboardAddEntity : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_4<::MoleMole::ChessEntity*, ::System::UInt32, ::MoleMole::ChessEntityCollection*, ::System::Boolean>
 	{

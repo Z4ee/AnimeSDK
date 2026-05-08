@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALSTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x19462670)
+#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALSTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A32C1E0)
 
 namespace System::Net::NetworkInformation
 {

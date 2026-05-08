@@ -7,9 +7,9 @@ namespace Nap::NapECS { template <typename T> class QuickList_1; }
 namespace System { class Delegate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_D1166CDBC8C81352_METHOD_2_FDD23D2499AB1928_OFFSET UNITYSDK_OFFSET(0x6198DC0)
+#define STRUCT_2_D1166CDBC8C81352_METHOD_2_FDD23D2499AB1928_OFFSET UNITYSDK_OFFSET(0x117AAB90)
 
-inline static constexpr unsigned int Struct_2_D1166CDBC8C81352_TypeDefinitionIndex = 53729;
+inline static constexpr unsigned int Struct_2_D1166CDBC8C81352_TypeDefinitionIndex = 58916;
 
 struct alignas(8) Struct_2_D1166CDBC8C81352
 {

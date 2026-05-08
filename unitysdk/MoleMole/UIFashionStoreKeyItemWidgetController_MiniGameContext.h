@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFASHIONSTOREKEYITEMWIDGETCONTROLLER_MINIGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAC55030)
+#define MOLEMOLE_UIFASHIONSTOREKEYITEMWIDGETCONTROLLER_MINIGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED7A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreKeyItemWidgetController_MiniGameContext_TypeDefinitionIndex = 51824;
+	inline static constexpr unsigned int UIFashionStoreKeyItemWidgetController_MiniGameContext_TypeDefinitionIndex = 60583;
 
 	class UIFashionStoreKeyItemWidgetController_MiniGameContext : public ::MoleMole::UIControllerContextBase
 	{

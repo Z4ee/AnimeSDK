@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceComposite_5___c__13_6_TypeDefinitionIndex = 35656;
+	inline static constexpr unsigned int CameraSequenceComposite_5___c__13_6_TypeDefinitionIndex = 36200;
 
 	template <typename TSequence, typename TSegment, typename TBaseTrack, typename TAdditiveTrack, typename T, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class CameraSequenceComposite_5___c__13_6 : public ::System::Object

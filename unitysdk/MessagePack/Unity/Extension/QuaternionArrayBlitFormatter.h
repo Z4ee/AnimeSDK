@@ -3,12 +3,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_QUATERNIONARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1A5684B0)
-#define MESSAGEPACK_UNITY_EXTENSION_QUATERNIONARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5684C0)
+#define MESSAGEPACK_UNITY_EXTENSION_QUATERNIONARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B32B7D0)
+#define MESSAGEPACK_UNITY_EXTENSION_QUATERNIONARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32B7E0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int QuaternionArrayBlitFormatter_TypeDefinitionIndex = 26097;
+	inline static constexpr unsigned int QuaternionArrayBlitFormatter_TypeDefinitionIndex = 26851;
 
 	class QuaternionArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_1<::UnityEngine::Quaternion>
 	{

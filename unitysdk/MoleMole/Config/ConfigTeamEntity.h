@@ -12,11 +12,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGTEAMENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0xE2D0700)
+#define MOLEMOLE_CONFIG_CONFIGTEAMENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x174566D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTeamEntity_TypeDefinitionIndex = 71818;
+	inline static constexpr unsigned int ConfigTeamEntity_TypeDefinitionIndex = 57998;
 
 	class ConfigTeamEntity : public ::Foundation::MihoyoSerializedScriptableObject
 	{

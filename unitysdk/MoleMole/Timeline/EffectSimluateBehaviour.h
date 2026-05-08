@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD44C740)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17042570)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EffectSimluateBehaviour_TypeDefinitionIndex = 60062;
+	inline static constexpr unsigned int EffectSimluateBehaviour_TypeDefinitionIndex = 77841;
 
 	class EffectSimluateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

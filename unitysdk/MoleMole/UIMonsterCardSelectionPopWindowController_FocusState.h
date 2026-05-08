@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController_FocusState_TypeDefinitionIndex = 44372;
+	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController_FocusState_TypeDefinitionIndex = 59566;
 
 	enum class UIMonsterCardSelectionPopWindowController_FocusState : ::System::Int32
 	{

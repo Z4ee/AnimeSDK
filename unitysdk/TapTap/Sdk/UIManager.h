@@ -10,36 +10,36 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TapTap::Sdk { class UIElement; }
 namespace UnityEngine { class GameObject; }
 
-#define TAPTAP_SDK_UIMANAGER_CREATECONTAINER_OFFSET UNITYSDK_OFFSET(0x1ADAE270)
-#define TAPTAP_SDK_UIMANAGER_DESTORYCONTAINER_OFFSET UNITYSDK_OFFSET(0x1ADAE480)
-#define TAPTAP_SDK_UIMANAGER_POPUIELEMENT_OFFSET UNITYSDK_OFFSET(0x1ADADE60)
-#define TAPTAP_SDK_UIMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x1ADA8180)
-#define TAPTAP_SDK_UIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADAE670)
-#define TAPTAP_SDK_UIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAE5D0)
-#define TAPTAP_SDK_UIMANAGER__DESTORYCONTAINER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1ADAE6B0)
+#define TAPTAP_SDK_UIMANAGER_CREATECONTAINER_OFFSET UNITYSDK_OFFSET(0x1BB6C490)
+#define TAPTAP_SDK_UIMANAGER_DESTORYCONTAINER_OFFSET UNITYSDK_OFFSET(0x1BB6C6E0)
+#define TAPTAP_SDK_UIMANAGER_POPUIELEMENT_OFFSET UNITYSDK_OFFSET(0x1BB6BFD0)
+#define TAPTAP_SDK_UIMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x1BB65D50)
+#define TAPTAP_SDK_UIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6C980)
+#define TAPTAP_SDK_UIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6C8A0)
+#define TAPTAP_SDK_UIMANAGER__DESTORYCONTAINER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1BB6C990)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int UIManager_TypeDefinitionIndex = 9454;
+	inline static constexpr unsigned int UIManager_TypeDefinitionIndex = 9465;
 
 	class UIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_RESULT_CLOSE()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x4100);
-		}
 		static ::System::Int32* StaticGet_RESULT_BACK()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x4104);
-		}
-		static ::System::Int32* StaticGet_RESULT_FAILED()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x4108);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x4110);
 		}
 		static ::System::Int32* StaticGet_RESULT_SUCCESS()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x410C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x4114);
+		}
+		static ::System::Int32* StaticGet_RESULT_FAILED()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x4118);
+		}
+		static ::System::Int32* StaticGet_RESULT_CLOSE()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x411C);
 		}
 		::UnityEngine::GameObject* containerObj; // 0x18
 		::System::Collections::Generic::List_1<::TapTap::Sdk::UIElement*>* uiElements; // 0x20

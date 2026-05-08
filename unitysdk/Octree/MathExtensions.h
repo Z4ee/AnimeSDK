@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OCTREE_MATHEXTENSIONS_CLAMP_OFFSET UNITYSDK_OFFSET(0x75E5E60)
+#define OCTREE_MATHEXTENSIONS_CLAMP_OFFSET UNITYSDK_OFFSET(0xF259310)
 
 namespace Octree
 {
-	inline static constexpr unsigned int MathExtensions_TypeDefinitionIndex = 70093;
+	inline static constexpr unsigned int MathExtensions_TypeDefinitionIndex = 44626;
 
 	class MathExtensions : public ::System::Object
 	{

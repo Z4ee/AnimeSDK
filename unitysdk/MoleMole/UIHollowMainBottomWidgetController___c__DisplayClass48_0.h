@@ -5,19 +5,19 @@
 class Class_1_D7305149E3DC417E;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x97FD9C0)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS48_0__PLAYGETITEMANIM_B__0_OFFSET UNITYSDK_OFFSET(0x97FD9D0)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FAA060)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS48_0__PLAYGETITEMANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15FAA070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass48_0_TypeDefinitionIndex = 76048;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass48_0_TypeDefinitionIndex = 57757;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:
 		::Class_1_D7305149E3DC417E* entry; // 0x10
-		::System::Int32 count; // 0x18
-		::System::Boolean add; // 0x1C
+		::System::Boolean add; // 0x18
+		::System::Int32 count; // 0x1C
 
 		::System::Void _ctor()
 		{

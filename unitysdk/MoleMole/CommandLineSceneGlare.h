@@ -5,13 +5,13 @@
 
 namespace MoleMole { class SceneGlareProfileContext; }
 
-#define MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_B0048AB04EB15F61_OFFSET UNITYSDK_OFFSET(0x9BB8FC0)
-#define MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_B1618326A96071B9_OFFSET UNITYSDK_OFFSET(0x9BB8E80)
-#define MOLEMOLE_COMMANDLINESCENEGLARE__CTOR_OFFSET UNITYSDK_OFFSET(0x9BB8F80)
+#define MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_B1618326A96071B9_OFFSET UNITYSDK_OFFSET(0x12D226B0)
+#define MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_F7972A50AC4D3FFB_OFFSET UNITYSDK_OFFSET(0x12D227C0)
+#define MOLEMOLE_COMMANDLINESCENEGLARE__CTOR_OFFSET UNITYSDK_OFFSET(0x12D22780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineSceneGlare_TypeDefinitionIndex = 49096;
+	inline static constexpr unsigned int CommandLineSceneGlare_TypeDefinitionIndex = 47647;
 
 	class CommandLineSceneGlare : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::SceneGlareProfileContext*, ::MoleMole::CommandLineSceneGlare*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineSceneGlare*(*)(::PVOID, ::MoleMole::SceneGlareProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_B1618326A96071B9_OFFSET))(this, a1);
 		}
 
-		::MoleMole::SceneGlareProfileContext* Method_2_B0048AB04EB15F61(::MoleMole::SceneGlareProfileContext* a1)
+		::MoleMole::SceneGlareProfileContext* Method_2_F7972A50AC4D3FFB(::MoleMole::SceneGlareProfileContext* a1)
 		{
-			return ((::MoleMole::SceneGlareProfileContext*(*)(::PVOID, ::MoleMole::SceneGlareProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_B0048AB04EB15F61_OFFSET))(this, a1);
+			return ((::MoleMole::SceneGlareProfileContext*(*)(::PVOID, ::MoleMole::SceneGlareProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEGLARE_METHOD_2_F7972A50AC4D3FFB_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace Foundation { class ITimerClock; }
 
-#define FOUNDATION_TIMERCLOCKMANAGER_GET_TIMERCLOCKROOT_OFFSET UNITYSDK_OFFSET(0x1B0F8E50)
-#define FOUNDATION_TIMERCLOCKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F8EF0)
+#define FOUNDATION_TIMERCLOCKMANAGER_GET_TIMERCLOCKROOT_OFFSET UNITYSDK_OFFSET(0x1C010430)
+#define FOUNDATION_TIMERCLOCKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0104B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TimerClockManager_TypeDefinitionIndex = 8171;
+	inline static constexpr unsigned int TimerClockManager_TypeDefinitionIndex = 8322;
 
 	class TimerClockManager : public ::Foundation::Singleton_1<::Foundation::TimerClockManager*>
 	{

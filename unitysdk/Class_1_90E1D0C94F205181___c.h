@@ -5,7 +5,7 @@
 namespace System { class Action; }
 template <typename T1, typename T2> class Class_1_90E1D0C94F205181___c;
 
-inline static constexpr unsigned int Class_1_90E1D0C94F205181___c_TypeDefinitionIndex = 61336;
+inline static constexpr unsigned int Class_1_90E1D0C94F205181___c_TypeDefinitionIndex = 47391;
 
 template <typename TController, typename TContext>
 class Class_1_90E1D0C94F205181___c : public ::System::Object
@@ -15,7 +15,7 @@ public:
 	{
 		return (::Class_1_90E1D0C94F205181___c<TController, TContext>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_90E1D0C94F205181___c_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	static ::System::Action** StaticGet___9__113_0()
+	static ::System::Action** StaticGet___9__114_0()
 	{
 		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_90E1D0C94F205181___c_TypeDefinitionIndex)->GetStaticField(0x0);
 	}

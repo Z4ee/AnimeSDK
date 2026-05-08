@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStorePageController_SheetState_TypeDefinitionIndex = 38084;
+	inline static constexpr unsigned int UIFashionStorePageController_SheetState_TypeDefinitionIndex = 54591;
 
 	enum class UIFashionStorePageController_SheetState : ::System::Int32
 	{
-		Preview = 0,
 		Edit = 1,
+		Preview = 0,
 	};
 }

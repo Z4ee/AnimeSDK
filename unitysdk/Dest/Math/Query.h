@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DEST_MATH_QUERY_SORT_1_OFFSET UNITYSDK_OFFSET(0x1B7190A0)
-#define DEST_MATH_QUERY_SORT_2_OFFSET UNITYSDK_OFFSET(0x1B719110)
-#define DEST_MATH_QUERY_SORT_OFFSET UNITYSDK_OFFSET(0x1B719080)
-#define DEST_MATH_QUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B719070)
+#define DEST_MATH_QUERY_SORT_1_OFFSET UNITYSDK_OFFSET(0x1C4A4DF0)
+#define DEST_MATH_QUERY_SORT_2_OFFSET UNITYSDK_OFFSET(0x1C4A4E60)
+#define DEST_MATH_QUERY_SORT_OFFSET UNITYSDK_OFFSET(0x1C4A4DD0)
+#define DEST_MATH_QUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A4DC0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Query_TypeDefinitionIndex = 32691;
+	inline static constexpr unsigned int Query_TypeDefinitionIndex = 33226;
 
 	class Query : public ::System::Object
 	{

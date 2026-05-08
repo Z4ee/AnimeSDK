@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIGDOWNLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D17940)
+#define MOLEMOLE_CONFIGDOWNLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1231BD50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigDownloader_TypeDefinitionIndex = 37780;
+	inline static constexpr unsigned int ConfigDownloader_TypeDefinitionIndex = 70599;
 
 	class ConfigDownloader : public ::System::Object
 	{

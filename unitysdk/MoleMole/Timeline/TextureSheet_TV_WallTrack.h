@@ -8,16 +8,16 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x6EE21C0)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x6EE1E60)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x6EE21B0)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x6EE22C0)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0x6EE2300)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x6EE2290)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x11E05B20)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x11E057A0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x11E05B10)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x11E05C30)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x11E05C70)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11E05BD0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextureSheet_TV_WallTrack_TypeDefinitionIndex = 39750;
+	inline static constexpr unsigned int TextureSheet_TV_WallTrack_TypeDefinitionIndex = 63649;
 
 	class TextureSheet_TV_WallTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -47,9 +47,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_652F102150AC9967_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

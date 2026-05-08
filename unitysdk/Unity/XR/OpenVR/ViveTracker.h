@@ -4,22 +4,22 @@
 
 namespace UnityEngine::InputSystem::Controls { class Vector3Control; }
 
-#define UNITY_XR_OPENVR_VIVETRACKER_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1A5536B0)
-#define UNITY_XR_OPENVR_VIVETRACKER_GET_DEVICEANGULARVELOCITY_OFFSET UNITYSDK_OFFSET(0x1A553690)
-#define UNITY_XR_OPENVR_VIVETRACKER_GET_DEVICEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1A553670)
-#define UNITY_XR_OPENVR_VIVETRACKER_SET_DEVICEANGULARVELOCITY_OFFSET UNITYSDK_OFFSET(0x1A5536A0)
-#define UNITY_XR_OPENVR_VIVETRACKER_SET_DEVICEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1A553680)
-#define UNITY_XR_OPENVR_VIVETRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A553720)
+#define UNITY_XR_OPENVR_VIVETRACKER_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1B3F2F20)
+#define UNITY_XR_OPENVR_VIVETRACKER_GET_DEVICEANGULARVELOCITY_OFFSET UNITYSDK_OFFSET(0x1B3F2F00)
+#define UNITY_XR_OPENVR_VIVETRACKER_GET_DEVICEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1B3F2EE0)
+#define UNITY_XR_OPENVR_VIVETRACKER_SET_DEVICEANGULARVELOCITY_OFFSET UNITYSDK_OFFSET(0x1B3F2F10)
+#define UNITY_XR_OPENVR_VIVETRACKER_SET_DEVICEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1B3F2EF0)
+#define UNITY_XR_OPENVR_VIVETRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F2F90)
 
 namespace Unity::XR::OpenVR
 {
-	inline static constexpr unsigned int ViveTracker_TypeDefinitionIndex = 28333;
+	inline static constexpr unsigned int ViveTracker_TypeDefinitionIndex = 28851;
 
 	class ViveTracker : public ::UnityEngine::InputSystem::TrackedDevice
 	{
 	public:
-		::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField; // 0x178
-		::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField; // 0x180
+		::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField; // 0x178
+		::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField; // 0x180
 
 		::System::Void _ctor()
 		{

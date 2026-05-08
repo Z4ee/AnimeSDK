@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInterKnotPostRowWidgetController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD90BD0)
-#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS25_0__PLAYIMAGEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xAD90BE0)
+#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163B7590)
+#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS25_0__PLAYIMAGEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x163B75A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostRowWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 70752;
+	inline static constexpr unsigned int UIInterKnotPostRowWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 41374;
 
 	class UIInterKnotPostRowWidgetController___c__DisplayClass25_0 : public ::System::Object
 	{

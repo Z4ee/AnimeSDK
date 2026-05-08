@@ -6,7 +6,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BattleRegionSubsystem___c__DisplayClass32_0_TypeDefinitionIndex = 45468;
+	inline static constexpr unsigned int BattleRegionSubsystem___c__DisplayClass32_0_TypeDefinitionIndex = 77002;
 
 	struct alignas(8) BattleRegionSubsystem___c__DisplayClass32_0
 	{

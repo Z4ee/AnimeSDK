@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_208CC9941471731A_536;
+class Class_2_208CC9941471731A_889;
 namespace MoleMole { class UIBaseController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_UITAGCOMPONENT_SETHINT_OFFSET UNITYSDK_OFFSET(0xA6BE320)
-#define MOLEMOLE_UITAGCOMPONENT_SETTAG_OFFSET UNITYSDK_OFFSET(0xA6BE000)
-#define MOLEMOLE_UITAGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6BE430)
+#define MOLEMOLE_UITAGCOMPONENT_SETHINT_OFFSET UNITYSDK_OFFSET(0x11B7FCA0)
+#define MOLEMOLE_UITAGCOMPONENT_SETTAG_OFFSET UNITYSDK_OFFSET(0x11B7F9A0)
+#define MOLEMOLE_UITAGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11B7FD90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITagComponent_TypeDefinitionIndex = 79427;
+	inline static constexpr unsigned int UITagComponent_TypeDefinitionIndex = 43128;
 
 	class UITagComponent : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,7 +22,7 @@ namespace MoleMole
 		::UnityEngine::UI::Image* _tagIcon; // 0x18
 		::UnityEngine::UI::Text* _tagParam; // 0x20
 		::UnityEngine::GameObject* lvGO; // 0x28
-		::Class_2_208CC9941471731A_536* Field_5_3; // 0x30
+		::Class_2_208CC9941471731A_889* Field_5_3; // 0x30
 
 		::System::Void _ctor()
 		{

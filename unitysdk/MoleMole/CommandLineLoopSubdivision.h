@@ -5,13 +5,13 @@
 
 namespace MoleMole { class LoopSubdivisionProfileContext; }
 
-#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_B803F7DBC34AF411_OFFSET UNITYSDK_OFFSET(0xCACF0A0)
-#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_BE3FE5ABE9D35D0A_OFFSET UNITYSDK_OFFSET(0xCACF1F0)
-#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION__CTOR_OFFSET UNITYSDK_OFFSET(0xCACF1B0)
+#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_8C4EB15C90E465ED_OFFSET UNITYSDK_OFFSET(0xF966AB0)
+#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_B803F7DBC34AF411_OFFSET UNITYSDK_OFFSET(0xF966990)
+#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION__CTOR_OFFSET UNITYSDK_OFFSET(0xF966A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineLoopSubdivision_TypeDefinitionIndex = 77765;
+	inline static constexpr unsigned int CommandLineLoopSubdivision_TypeDefinitionIndex = 42344;
 
 	class CommandLineLoopSubdivision : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::LoopSubdivisionProfileContext*, ::MoleMole::CommandLineLoopSubdivision*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineLoopSubdivision*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_B803F7DBC34AF411_OFFSET))(this, a1);
 		}
 
-		::MoleMole::LoopSubdivisionProfileContext* Method_2_BE3FE5ABE9D35D0A(::MoleMole::LoopSubdivisionProfileContext* a1)
+		::MoleMole::LoopSubdivisionProfileContext* Method_2_8C4EB15C90E465ED(::MoleMole::LoopSubdivisionProfileContext* a1)
 		{
-			return ((::MoleMole::LoopSubdivisionProfileContext*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_BE3FE5ABE9D35D0A_OFFSET))(this, a1);
+			return ((::MoleMole::LoopSubdivisionProfileContext*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_8C4EB15C90E465ED_OFFSET))(this, a1);
 		}
 	};
 }

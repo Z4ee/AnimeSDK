@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EInteractTraget_TypeDefinitionIndex = 17889;
+	inline static constexpr unsigned int EInteractTraget_TypeDefinitionIndex = 14638;
 
 	enum class EInteractTraget : ::System::Int16
 	{
-		TriggerBox = 1,
 		EnumCount = 2,
+		TriggerBox = 1,
 		NPC = 0,
 	};
 }

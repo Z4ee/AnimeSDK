@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_65390B67EF8301C5.h"
 #include "unitysdk/Enum_3_6D746669983E39EA.h"
+#include "unitysdk/Enum_3_7C181D7C1FDFA7A2.h"
 #include "unitysdk/MoleMole/EffectSimulate/IEvaluateCurve_1.h"
 
 namespace MoleMole::EffectSimulate { class ESAvatarMatChange; }
@@ -10,7 +10,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int Keyframeable01Curve_1_TypeDefinitionIndex = 41321;
+	inline static constexpr unsigned int Keyframeable01Curve_1_TypeDefinitionIndex = 40044;
 
 	template <typename T>
 	class Keyframeable01Curve_1 : public ::MoleMole::EffectSimulate::IEvaluateCurve_1<T>

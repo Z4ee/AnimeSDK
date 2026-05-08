@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/CullingBehaviour_Struct_2_52AD02145F5FCE36_18.h"
+#include "unitysdk/MoleMole/Timeline/CullingBehaviour_Struct_2_52AD02145F5FCE36_33.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
@@ -9,26 +9,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class Culling; }
 
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0xC7DB590)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0xC7DE300)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0xC7DE330)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_80313B77C31AD02B_OFFSET UNITYSDK_OFFSET(0xC7DBED0)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0xC7DE320)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0xC7DE310)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B39D466EDF92F6FD_OFFSET UNITYSDK_OFFSET(0xC7DB980)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xC7DBD40)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xC7DD870)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0xC7DDA70)
-#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xC7DE2C0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x10E52870)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x10E556D0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x10E556E0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET UNITYSDK_OFFSET(0x10E53240)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_9B97EC47CC6F2369_OFFSET UNITYSDK_OFFSET(0x10E52CE0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x10E556C0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x10E556B0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x10E530D0)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x10E54D10)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x10E54F90)
+#define MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x10E55670)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CullingBehaviour_TypeDefinitionIndex = 56725;
+	inline static constexpr unsigned int CullingBehaviour_TypeDefinitionIndex = 72596;
 
 	class CullingBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::CullingBehaviour_Struct_2_52AD02145F5FCE36_18 _methodParm; // 0x18
+		::MoleMole::Timeline::CullingBehaviour_Struct_2_52AD02145F5FCE36_33 _methodParm; // 0x18
 		::System::Boolean enabled; // 0x74
 		::System::Boolean active_EnableHizCulling; // 0x75
 		::System::Boolean use_EnableHizCulling; // 0x76
@@ -102,19 +102,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Rendering::Universal::Culling* Method_4_B39D466EDF92F6FD(::System::Object* a1)
+		::System::Void Method_4_8DC55F996A78F0A1()
 		{
-			return ((::UnityEngine::Rendering::Universal::Culling*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B39D466EDF92F6FD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_8DC55F996A78F0A1_OFFSET))(this);
 		}
 
 		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
@@ -122,14 +117,19 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
 		}
 
+		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+		}
+
 		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_80313B77C31AD02B()
+		::UnityEngine::Rendering::Universal::Culling* Method_4_9B97EC47CC6F2369(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_80313B77C31AD02B_OFFSET))(this);
+			return ((::UnityEngine::Rendering::Universal::Culling*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CULLINGBEHAVIOUR_METHOD_4_9B97EC47CC6F2369_OFFSET))(this, a1);
 		}
 	};
 }

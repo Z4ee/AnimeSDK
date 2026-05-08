@@ -7,14 +7,14 @@ namespace RootMotion::FinalIK { class LimbIK; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_TGSPVLEGIKCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xA541360)
-#define MOLEMOLE_TGSPVLEGIKCONTROLLER_GET_LIMBNODES_OFFSET UNITYSDK_OFFSET(0xA5412F0)
-#define MOLEMOLE_TGSPVLEGIKCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xA541300)
-#define MOLEMOLE_TGSPVLEGIKCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA541540)
+#define MOLEMOLE_TGSPVLEGIKCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x15BB72C0)
+#define MOLEMOLE_TGSPVLEGIKCONTROLLER_GET_LIMBNODES_OFFSET UNITYSDK_OFFSET(0x15BB7270)
+#define MOLEMOLE_TGSPVLEGIKCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x15BB7280)
+#define MOLEMOLE_TGSPVLEGIKCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB7480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TgsPvLegIkController_TypeDefinitionIndex = 80547;
+	inline static constexpr unsigned int TgsPvLegIkController_TypeDefinitionIndex = 58823;
 
 	class TgsPvLegIkController : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

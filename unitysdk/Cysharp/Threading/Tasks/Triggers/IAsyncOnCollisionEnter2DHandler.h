@@ -6,7 +6,7 @@ namespace UnityEngine { class Collision2D; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnCollisionEnter2DHandler_TypeDefinitionIndex = 28174;
+	inline static constexpr unsigned int IAsyncOnCollisionEnter2DHandler_TypeDefinitionIndex = 28692;
 
 	class IAsyncOnCollisionEnter2DHandler
 	{

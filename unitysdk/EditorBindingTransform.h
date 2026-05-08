@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define EDITORBINDINGTRANSFORM_EDITORUPDATE_OFFSET UNITYSDK_OFFSET(0x1B676CA0)
-#define EDITORBINDINGTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B676F60)
+#define EDITORBINDINGTRANSFORM_EDITORUPDATE_OFFSET UNITYSDK_OFFSET(0x1C466F80)
+#define EDITORBINDINGTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467390)
 
-inline static constexpr unsigned int EditorBindingTransform_TypeDefinitionIndex = 83759;
+inline static constexpr unsigned int EditorBindingTransform_TypeDefinitionIndex = 85484;
 
 class EditorBindingTransform : public ::EditorUpdateScript
 {

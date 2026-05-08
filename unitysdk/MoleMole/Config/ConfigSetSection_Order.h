@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetSection_Order_TypeDefinitionIndex = 78446;
+	inline static constexpr unsigned int ConfigSetSection_Order_TypeDefinitionIndex = 80757;
 
 	enum class ConfigSetSection_Order : ::System::Int32
 	{
 		Prv = 1,
-		Temp = 2,
 		Cur = 0,
+		Temp = 2,
 	};
 }

@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml::Serialization { class XmlSerializationReadCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_WRITECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41F180)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_WRITECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFFAD0)
 
 namespace System::Xml::Serialization
 {
@@ -16,8 +16,8 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::Xml::Serialization::XmlSerializationReadCallback* Callback; // 0x10
-		::System::String* TypeName; // 0x18
-		::System::Type* Type; // 0x20
+		::System::Type* Type; // 0x18
+		::System::String* TypeName; // 0x20
 		::System::String* TypeNs; // 0x28
 
 		::System::Void _ctor()

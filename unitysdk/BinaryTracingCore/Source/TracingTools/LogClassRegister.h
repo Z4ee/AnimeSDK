@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1D0950)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D0A70)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF016E0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF017F0)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogClassRegister_TypeDefinitionIndex = 31871;
+	inline static constexpr unsigned int LogClassRegister_TypeDefinitionIndex = 32400;
 
 	class LogClassRegister : public ::System::Object
 	{

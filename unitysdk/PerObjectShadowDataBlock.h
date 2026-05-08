@@ -6,9 +6,9 @@
 
 class PerObjectShadow;
 
-#define PEROBJECTSHADOWDATABLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x822D60)
+#define PEROBJECTSHADOWDATABLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x8A8540)
 
-inline static constexpr unsigned int PerObjectShadowDataBlock_TypeDefinitionIndex = 29098;
+inline static constexpr unsigned int PerObjectShadowDataBlock_TypeDefinitionIndex = 29617;
 
 struct alignas(4) PerObjectShadowDataBlock
 {

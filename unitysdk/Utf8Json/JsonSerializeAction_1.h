@@ -10,7 +10,7 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonSerializeAction_1_TypeDefinitionIndex = 83765;
+	inline static constexpr unsigned int JsonSerializeAction_1_TypeDefinitionIndex = 85493;
 
 	template <typename T>
 	class JsonSerializeAction_1 : public ::System::MulticastDelegate

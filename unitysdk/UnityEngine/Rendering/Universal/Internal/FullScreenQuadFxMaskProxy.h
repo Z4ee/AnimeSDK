@@ -14,32 +14,32 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_DRAWMASKPROXY_OFFSET UNITYSDK_OFFSET(0x1763E1C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1763DFE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1763DBA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1763D940)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1763DA70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1763EF70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1763EE60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_DRAWMASKPROXY_OFFSET UNITYSDK_OFFSET(0x1910F730)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1910F500)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1910EF80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1910ED20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1910EE50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19110620)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FULLSCREENQUADFXMASKPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x191104E0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FullScreenQuadFxMaskProxy_TypeDefinitionIndex = 29826;
+	inline static constexpr unsigned int FullScreenQuadFxMaskProxy_TypeDefinitionIndex = 30354;
 
 	class FullScreenQuadFxMaskProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::FullScreenQuadFxMaskProxy*>** StaticGet_s_ShadowCasterList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::FullScreenQuadFxMaskProxy*>**)Il2CppClass::FromTypeDefinitionIndex(FullScreenQuadFxMaskProxy_TypeDefinitionIndex)->GetStaticField(0x23890);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::FullScreenQuadFxMaskProxy*>**)Il2CppClass::FromTypeDefinitionIndex(FullScreenQuadFxMaskProxy_TypeDefinitionIndex)->GetStaticField(0x24410);
 		}
 		static ::UnityEngine::Material** StaticGet_s_ShadowProjectorMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(FullScreenQuadFxMaskProxy_TypeDefinitionIndex)->GetStaticField(0x23898);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(FullScreenQuadFxMaskProxy_TypeDefinitionIndex)->GetStaticField(0x24418);
 		}
 		static ::System::Int32* StaticGet__FullScreenQuadFxMask()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FullScreenQuadFxMaskProxy_TypeDefinitionIndex)->GetStaticField(0x6AA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FullScreenQuadFxMaskProxy_TypeDefinitionIndex)->GetStaticField(0x6B20);
 		}
 		::Il2CppArray<::UnityEngine::GameObject*>* maskObjects; // 0x18
 		::UnityEngine::Vector2 depthBias; // 0x20

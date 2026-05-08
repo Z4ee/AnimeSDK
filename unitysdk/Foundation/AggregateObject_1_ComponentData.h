@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class AggregateObject_1_ComponentDe
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObject_1_ComponentData_TypeDefinitionIndex = 9188;
+	inline static constexpr unsigned int AggregateObject_1_ComponentData_TypeDefinitionIndex = 9168;
 
 	template <typename TEvent>
 	struct AggregateObject_1_ComponentData

@@ -6,21 +6,21 @@ namespace MoleMole { class UIAbyssArpeggioRowWidgetController___c__DisplayClass1
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC340E10)
-#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__REFRESHSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xC341620)
-#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__REFRESHSTATE_B__1_OFFSET UNITYSDK_OFFSET(0xC3416C0)
-#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__REFRESHSTATE_B__2_OFFSET UNITYSDK_OFFSET(0xC341A40)
+#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6E3D0)
+#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__REFRESHSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x15E6EC40)
+#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__REFRESHSTATE_B__1_OFFSET UNITYSDK_OFFSET(0x15E6ECE0)
+#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_1__REFRESHSTATE_B__2_OFFSET UNITYSDK_OFFSET(0x15E6F040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioRowWidgetController___c__DisplayClass13_1_TypeDefinitionIndex = 71111;
+	inline static constexpr unsigned int UIAbyssArpeggioRowWidgetController___c__DisplayClass13_1_TypeDefinitionIndex = 66970;
 
 	class UIAbyssArpeggioRowWidgetController___c__DisplayClass13_1 : public ::System::Object
 	{
 	public:
 		::System::String* unlockName; // 0x10
-		::System::Action* __9__1; // 0x18
-		::MoleMole::UIAbyssArpeggioRowWidgetController___c__DisplayClass13_0* CS___8__locals1; // 0x20
+		::MoleMole::UIAbyssArpeggioRowWidgetController___c__DisplayClass13_0* CS___8__locals1; // 0x18
+		::System::Action* __9__1; // 0x20
 		::System::Action* __9__2; // 0x28
 
 		::System::Void _ctor()

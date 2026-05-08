@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/ConfigPageCamera.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_HOLLOWRESULTCONFIGPAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xC2418C0)
+#define MOLEMOLE_CONFIG_HOLLOWRESULTCONFIGPAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x142523B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowResultConfigPageCamera_TypeDefinitionIndex = 57436;
+	inline static constexpr unsigned int HollowResultConfigPageCamera_TypeDefinitionIndex = 60330;
 
 	class HollowResultConfigPageCamera : public ::MoleMole::Config::ConfigPageCamera
 	{

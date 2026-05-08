@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_BASECONFIGANIMATORBEHITPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0xEC380C0)
+#define MOLEMOLE_CONFIG_BASECONFIGANIMATORBEHITPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x12D2FF50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BaseConfigAnimatorBeHitPriority_TypeDefinitionIndex = 57256;
+	inline static constexpr unsigned int BaseConfigAnimatorBeHitPriority_TypeDefinitionIndex = 54004;
 
 	class BaseConfigAnimatorBeHitPriority : public ::System::Object
 	{

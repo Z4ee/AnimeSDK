@@ -6,7 +6,7 @@ namespace Ara { template <typename T> class ElasticArray_1; }
 
 namespace Ara
 {
-	inline static constexpr unsigned int ElasticArray_1__GetEnumerator_d__2_TypeDefinitionIndex = 30850;
+	inline static constexpr unsigned int ElasticArray_1__GetEnumerator_d__2_TypeDefinitionIndex = 31379;
 
 	template <typename T>
 	class ElasticArray_1__GetEnumerator_d__2 : public ::System::Object

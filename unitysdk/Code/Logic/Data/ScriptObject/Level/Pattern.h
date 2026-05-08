@@ -4,11 +4,11 @@
 
 namespace Code::Logic::Data::ScriptObject::Level { class Member; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_PATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0xD61FDE0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_PATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x11E5A9F0)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int Pattern_TypeDefinitionIndex = 49384;
+	inline static constexpr unsigned int Pattern_TypeDefinitionIndex = 55263;
 
 	class Pattern : public ::System::Object
 	{

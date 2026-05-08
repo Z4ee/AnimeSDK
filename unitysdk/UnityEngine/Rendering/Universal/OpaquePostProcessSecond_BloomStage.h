@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_BLOOMSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F0AE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND_BLOOMSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xF7FD3F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OpaquePostProcessSecond_BloomStage_TypeDefinitionIndex = 29678;
+	inline static constexpr unsigned int OpaquePostProcessSecond_BloomStage_TypeDefinitionIndex = 30206;
 
 	class OpaquePostProcessSecond_BloomStage : public ::System::Object
 	{

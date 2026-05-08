@@ -4,11 +4,11 @@
 
 class Class_3_9D33A2E94B3E53DC;
 
-#define MOLEMOLE_UISUMMERFISHACCUMULATEITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA7270)
+#define MOLEMOLE_UISUMMERFISHACCUMULATEITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14DD3680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishAccumulateItemContext_TypeDefinitionIndex = 38119;
+	inline static constexpr unsigned int UISummerFishAccumulateItemContext_TypeDefinitionIndex = 56952;
 
 	class UISummerFishAccumulateItemContext : public ::MoleMole::UIControllerContextBase
 	{

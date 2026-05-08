@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class URPBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_URPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB93FF60)
-#define MOLEMOLE_TIMELINE_URPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB93FF50)
-#define MOLEMOLE_TIMELINE_URPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB9400D0)
+#define MOLEMOLE_TIMELINE_URPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x158694C0)
+#define MOLEMOLE_TIMELINE_URPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x158694B0)
+#define MOLEMOLE_TIMELINE_URPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15869610)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int URPClip_TypeDefinitionIndex = 54596;
+	inline static constexpr unsigned int URPClip_TypeDefinitionIndex = 80860;
 
 	class URPClip : public ::UnityEngine::Playables::PlayableAsset
 	{

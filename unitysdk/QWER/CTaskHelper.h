@@ -7,14 +7,14 @@
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define QWER_CTASKHELPER_CREATEPENDINGTASK_OFFSET UNITYSDK_OFFSET(0x1B00D7D0)
-#define QWER_CTASKHELPER_DELAY_OFFSET UNITYSDK_OFFSET(0x1B011910)
-#define QWER_CTASKHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B011A20)
-#define QWER_CTASKHELPER___OFFSET UNITYSDK_OFFSET(0x1B011850)
+#define QWER_CTASKHELPER_CREATEPENDINGTASK_OFFSET UNITYSDK_OFFSET(0x1BE86AA0)
+#define QWER_CTASKHELPER_DELAY_OFFSET UNITYSDK_OFFSET(0x1BE8AF30)
+#define QWER_CTASKHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8B090)
+#define QWER_CTASKHELPER___OFFSET UNITYSDK_OFFSET(0x1BE8AE70)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CTaskHelper_TypeDefinitionIndex = 84140;
+	inline static constexpr unsigned int CTaskHelper_TypeDefinitionIndex = 85868;
 
 	class CTaskHelper : public ::System::Object
 	{

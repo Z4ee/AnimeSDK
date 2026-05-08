@@ -9,7 +9,7 @@
 #include "unitysdk/UnityEngine/Animations/PropertyStreamHandle.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-class Class_1_A238E29B18A7ED1A;
+class Class_1_3A8CBD6A2FB912AF;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace MoleMole::Photo { class Skeleton; }
@@ -19,19 +19,19 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class AvatarMask; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_BUILDPROPERTYHANDLES_OFFSET UNITYSDK_OFFSET(0xD442F60)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET UNITYSDK_OFFSET(0xD442530)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETBLENDSHAPEPARAMCOUNT_OFFSET UNITYSDK_OFFSET(0xD443EE0)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETSKINNEDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0xD443C50)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0xD442520)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0xD4433A0)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD4440D0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_BUILDPROPERTYHANDLES_OFFSET UNITYSDK_OFFSET(0x17038BC0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET UNITYSDK_OFFSET(0x170380D0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETBLENDSHAPEPARAMCOUNT_OFFSET UNITYSDK_OFFSET(0x17039C70)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETSKINNEDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x17039A00)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x170380C0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x17039040)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17039EA0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableUnitBlendShapeConfig_TypeDefinitionIndex = 60494;
+	inline static constexpr unsigned int PlayableUnitBlendShapeConfig_TypeDefinitionIndex = 81030;
 
-	class PlayableUnitBlendShapeConfig : public ::MoleMole::Photo::PlayableUnitConfig_1<::Class_1_A238E29B18A7ED1A*>
+	class PlayableUnitBlendShapeConfig : public ::MoleMole::Photo::PlayableUnitConfig_1<::Class_1_3A8CBD6A2FB912AF*>
 	{
 	public:
 		// static const ::System::String* BlendShapePrefix; // 0x0
@@ -54,9 +54,9 @@ namespace MoleMole::Photo
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET))(this);
 		}
 
-		::Class_1_A238E29B18A7ED1A* CreatePlayableUnit(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786 context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
+		::Class_1_3A8CBD6A2FB912AF* CreatePlayableUnit(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786 context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
 		{
-			return ((::Class_1_A238E29B18A7ED1A*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET))(this, graph, animator, context, memory, variables);
+			return ((::Class_1_3A8CBD6A2FB912AF*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET))(this, graph, animator, context, memory, variables);
 		}
 
 		::System::Void RequestMemory(::UnityEngine::Animator* animator, ::MoleMole::Photo::Skeleton* skeleton, ::Foundation::NativeMemoryBuilder* builder, ::System::Span_1<::Foundation::NativeMemoryRequestHandle> output)

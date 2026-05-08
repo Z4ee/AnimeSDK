@@ -5,7 +5,7 @@
 namespace System { class Action; }
 template <typename T> class Class_3_C6CB00B19F1FE9BC;
 
-inline static constexpr unsigned int Class_3_C6CB00B19F1FE9BC_Class_1_5E48C159D972B8CE_TypeDefinitionIndex = 14848;
+inline static constexpr unsigned int Class_3_C6CB00B19F1FE9BC_Class_1_5E48C159D972B8CE_TypeDefinitionIndex = 16776;
 
 template <typename T>
 class Class_3_C6CB00B19F1FE9BC_Class_1_5E48C159D972B8CE : public ::System::Object

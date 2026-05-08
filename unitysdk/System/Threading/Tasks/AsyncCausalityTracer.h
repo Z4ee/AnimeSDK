@@ -4,7 +4,7 @@
 #include "unitysdk/System/Threading/Tasks/CausalitySynchronousWork.h"
 #include "unitysdk/System/Threading/Tasks/CausalityTraceLevel.h"
 
-#define SYSTEM_THREADING_TASKS_ASYNCCAUSALITYTRACER_TRACESYNCHRONOUSWORKSTART_OFFSET UNITYSDK_OFFSET(0x19866B30)
+#define SYSTEM_THREADING_TASKS_ASYNCCAUSALITYTRACER_TRACESYNCHRONOUSWORKSTART_OFFSET UNITYSDK_OFFSET(0x1A3B99D0)
 
 namespace System::Threading::Tasks
 {

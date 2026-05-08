@@ -8,14 +8,14 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_2F5AF86AF3904C2F_OFFSET UNITYSDK_OFFSET(0xD7CEE50)
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_B292B8A21B3BECAC_OFFSET UNITYSDK_OFFSET(0xD7CF110)
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_E019DDC9C0301A0D_OFFSET UNITYSDK_OFFSET(0xD7CE450)
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CF0B0)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_2F5AF86AF3904C2F_OFFSET UNITYSDK_OFFSET(0x1243F300)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_576260B5694D646F_OFFSET UNITYSDK_OFFSET(0x1243E8A0)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_B292B8A21B3BECAC_OFFSET UNITYSDK_OFFSET(0x1243F5A0)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1243F540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SummonByTagAbilityTarget_TypeDefinitionIndex = 50183;
+	inline static constexpr unsigned int SummonByTagAbilityTarget_TypeDefinitionIndex = 38621;
 
 	class SummonByTagAbilityTarget : public ::MoleMole::Config::ConfigAbilityTarget
 	{
@@ -30,9 +30,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>* Method_2_E019DDC9C0301A0D(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5)
+		::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>* Method_2_576260B5694D646F(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5, ::System::UInt32 a6)
 		{
-			return ((::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_E019DDC9C0301A0D_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_576260B5694D646F_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Int32 Method_2_B292B8A21B3BECAC(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2)

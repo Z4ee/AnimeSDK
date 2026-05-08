@@ -10,40 +10,40 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA423C50)
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA423C90)
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__GETMISSIONLIST_B__10_0_OFFSET UNITYSDK_OFFSET(0xA423CA0)
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHLOSETIPS_B__12_0_OFFSET UNITYSDK_OFFSET(0xA423CC0)
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHLOSETIPS_B__12_1_OFFSET UNITYSDK_OFFSET(0xA423CF0)
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_16_0_OFFSET UNITYSDK_OFFSET(0xA423D10)
-#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHSAB_B__11_0_OFFSET UNITYSDK_OFFSET(0xA423CB0)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15106BE0)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15106C20)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__GETMISSIONLIST_B__10_0_OFFSET UNITYSDK_OFFSET(0x15106C30)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHLOSETIPS_B__12_0_OFFSET UNITYSDK_OFFSET(0x15106C50)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHLOSETIPS_B__12_1_OFFSET UNITYSDK_OFFSET(0x15106C80)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_16_0_OFFSET UNITYSDK_OFFSET(0x15106CA0)
+#define MOLEMOLE_UIMONSTERFANTASYRESULTPAGECONTROLLER___C__REFRESHSAB_B__11_0_OFFSET UNITYSDK_OFFSET(0x15106C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyResultPageController___c_TypeDefinitionIndex = 43259;
+	inline static constexpr unsigned int UIMonsterFantasyResultPageController___c_TypeDefinitionIndex = 41564;
 
 	class UIMonsterFantasyResultPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIMonsterFantasyResultPageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMonsterFantasyResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34770);
-		}
-		static ::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>** StaticGet___9__10_0()
-		{
-			return (::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34778);
-		}
 		static ::System::Func_2<::System::Int32, ::MoleMole::UIMonsterFantasyResultRowWidgetController_RowData>** StaticGet___9__12_1()
 		{
-			return (::System::Func_2<::System::Int32, ::MoleMole::UIMonsterFantasyResultRowWidgetController_RowData>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34780);
+			return (::System::Func_2<::System::Int32, ::MoleMole::UIMonsterFantasyResultRowWidgetController_RowData>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x35290);
 		}
 		static ::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34788);
+			return (::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x35298);
+		}
+		static ::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>** StaticGet___9__10_0()
+		{
+			return (::System::Comparison_1<::MoleMole::UIHollowLayerResultPageV2PopWindowController_RankDataItem>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x352A0);
+		}
+		static ::MoleMole::UIMonsterFantasyResultPageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIMonsterFantasyResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x352A8);
 		}
 		static ::System::Func_2<::System::String*, ::MoleMole::UIMonsterFantasyResultRowWidgetController_RowData>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::System::String*, ::MoleMole::UIMonsterFantasyResultRowWidgetController_RowData>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x34790);
+			return (::System::Func_2<::System::String*, ::MoleMole::UIMonsterFantasyResultRowWidgetController_RowData>**)Il2CppClass::FromTypeDefinitionIndex(UIMonsterFantasyResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x352B0);
 		}
 
 		static ::System::Void _cctor()

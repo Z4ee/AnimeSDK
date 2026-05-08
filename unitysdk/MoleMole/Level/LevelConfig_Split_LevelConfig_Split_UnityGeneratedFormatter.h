@@ -31,86 +31,86 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB993E90)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB993EA0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB994C00)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9953C0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB995380)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x182214A0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x182214B0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x182221F0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18222990)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_SPLIT_LEVELCONFIG_SPLIT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18222950)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex = 76328;
+	inline static constexpr unsigned int LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex = 56143;
 
 	class LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Level::LevelConfig_Split*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_DayTimeRange>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_DayTimeRange>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F30);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayTypeTemplate, ::MoleMole::Level::BangbooAbilityTemplateConfig>*>** StaticGet_CachedSerializer15()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayTypeTemplate, ::MoleMole::Level::BangbooAbilityTemplateConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F38);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>*>** StaticGet_CachedSerializer13()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F40);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::BangbooFindObjConfig*>*>** StaticGet_CachedSerializer16()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::BangbooFindObjConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F48);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>*>** StaticGet_CachedSerializer11()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F50);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TerrainMatType, ::System::String*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TerrainMatType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F58);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::VoidFrontSubGameType, ::System::String*>*>** StaticGet_CachedSerializer10()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::VoidFrontSubGameType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F60);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_DayTimeRange>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x487E0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Level::LevelConfig_RankingItemConfig>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Level::LevelConfig_RankingItemConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F68);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>*>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F70);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_SceneMoveGroup*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_SceneMoveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F78);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>*>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F80);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Level::LevelConfig_GlobalAIUpgradePair*>*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Level::LevelConfig_GlobalAIUpgradePair*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F88);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Level::LevelConfig_RankingItemConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x487E8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelChatConfig>*>** StaticGet_CachedSerializer7()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelChatConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F90);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_FocusUIIconSetting*>*>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_FocusUIIconSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F98);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelChatConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x487F0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooAbilityType, ::MoleMole::Level::BangbooAbilityConfig>*>** StaticGet_CachedSerializer14()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooAbilityType, ::MoleMole::Level::BangbooAbilityConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42FA0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooAbilityType, ::MoleMole::Level::BangbooAbilityConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x487F8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_SceneMoveGroup*>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_SceneMoveGroup*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48800);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_FocusUIIconSetting*>*>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_FocusUIIconSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48808);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelMultiChatConfig>*>** StaticGet_CachedSerializer8()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelMultiChatConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42FA8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelMultiChatConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48810);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>*>** StaticGet_CachedSerializer11()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48818);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TerrainMatType, ::System::String*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TerrainMatType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48820);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Level::LevelConfig_GlobalAIUpgradePair*>*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Level::LevelConfig_GlobalAIUpgradePair*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48828);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::VoidFrontSubGameType, ::System::String*>*>** StaticGet_CachedSerializer10()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::VoidFrontSubGameType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48830);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>*>** StaticGet_CachedSerializer13()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48838);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>*>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48840);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::BangbooFindObjConfig*>*>** StaticGet_CachedSerializer16()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::BangbooFindObjConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48848);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::MoleMole::Level::BangbooPlayTypeConfig>*>** StaticGet_CachedSerializer12()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::MoleMole::Level::BangbooPlayTypeConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42FB0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::MoleMole::Level::BangbooPlayTypeConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48850);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>*>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48858);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayTypeTemplate, ::MoleMole::Level::BangbooAbilityTemplateConfig>*>** StaticGet_CachedSerializer15()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayTypeTemplate, ::MoleMole::Level::BangbooAbilityTemplateConfig>*>**)Il2CppClass::FromTypeDefinitionIndex(LevelConfig_Split_LevelConfig_Split_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48860);
 		}
 
 		::System::Void _ctor()

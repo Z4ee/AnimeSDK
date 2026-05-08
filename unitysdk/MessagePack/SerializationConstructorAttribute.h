@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MESSAGEPACK_SERIALIZATIONCONSTRUCTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11A830)
+#define MESSAGEPACK_SERIALIZATIONCONSTRUCTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B459FF0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SerializationConstructorAttribute_TypeDefinitionIndex = 27599;
+	inline static constexpr unsigned int SerializationConstructorAttribute_TypeDefinitionIndex = 27532;
 
 	class SerializationConstructorAttribute : public ::System::Attribute
 	{

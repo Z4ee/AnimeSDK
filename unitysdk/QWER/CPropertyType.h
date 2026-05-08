@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define QWER_CPROPERTYTYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B755210)
-#define QWER_CPROPERTYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B755850)
+#define QWER_CPROPERTYTYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C533910)
+#define QWER_CPROPERTYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C533F50)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CPropertyType_TypeDefinitionIndex = 9671;
+	inline static constexpr unsigned int CPropertyType_TypeDefinitionIndex = 9682;
 
 	class CPropertyType : public ::System::Object
 	{

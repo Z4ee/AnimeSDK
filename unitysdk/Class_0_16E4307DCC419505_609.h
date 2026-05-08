@@ -1,10 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_D97372C4EB93BA22.h"
 
-namespace System { template <typename T> class Action_1; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_609_TypeDefinitionIndex = 74555;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_609_TypeDefinitionIndex = 67091;
 
 class Class_0_16E4307DCC419505_609
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Services/SubTask.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SERVICES_INNERDECORATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF6500)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SERVICES_INNERDECORATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBFC10)
 
 namespace BehaviorDesigner::Runtime::Tasks::Services
 {
-	inline static constexpr unsigned int InnerDecorator_TypeDefinitionIndex = 31768;
+	inline static constexpr unsigned int InnerDecorator_TypeDefinitionIndex = 32297;
 
 	class InnerDecorator : public ::BehaviorDesigner::Runtime::Tasks::Services::SubTask
 	{

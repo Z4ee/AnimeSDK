@@ -15,7 +15,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraDataProcessorSubModule_1_TypeDefinitionIndex = 35866;
+	inline static constexpr unsigned int CameraDataProcessorSubModule_1_TypeDefinitionIndex = 36410;
 
 	template <typename T>
 	class CameraDataProcessorSubModule_1 : public ::System::Object

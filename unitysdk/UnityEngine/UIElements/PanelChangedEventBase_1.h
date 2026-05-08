@@ -6,7 +6,7 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PanelChangedEventBase_1_TypeDefinitionIndex = 24531;
+	inline static constexpr unsigned int PanelChangedEventBase_1_TypeDefinitionIndex = 25045;
 
 	template <typename T>
 	class PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>

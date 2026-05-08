@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class RTXVolumeBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_RTXVOLUMECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xC26D720)
-#define MOLEMOLE_TIMELINE_RTXVOLUMECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xC26D710)
-#define MOLEMOLE_TIMELINE_RTXVOLUMECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xC26D920)
+#define MOLEMOLE_TIMELINE_RTXVOLUMECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x160712F0)
+#define MOLEMOLE_TIMELINE_RTXVOLUMECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x160712E0)
+#define MOLEMOLE_TIMELINE_RTXVOLUMECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x160714D0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RTXVolumeClip_TypeDefinitionIndex = 51610;
+	inline static constexpr unsigned int RTXVolumeClip_TypeDefinitionIndex = 61536;
 
 	class RTXVolumeClip : public ::UnityEngine::Playables::PlayableAsset
 	{

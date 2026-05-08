@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define MOLEMOLE_TIMELINE_RENDERING_RENDERINGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x6EDFD40)
+#define MOLEMOLE_TIMELINE_RENDERING_RENDERINGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11E03430)
 
 namespace MoleMole::Timeline::Rendering
 {
-	inline static constexpr unsigned int RenderingTrack_TypeDefinitionIndex = 71879;
+	inline static constexpr unsigned int RenderingTrack_TypeDefinitionIndex = 75823;
 
 	class RenderingTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

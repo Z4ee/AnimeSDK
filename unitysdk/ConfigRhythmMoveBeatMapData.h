@@ -8,19 +8,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CONFIGRHYTHMMOVEBEATMAPDATA_GETBEATMAP_OFFSET UNITYSDK_OFFSET(0x6457490)
-#define CONFIGRHYTHMMOVEBEATMAPDATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x6457140)
-#define CONFIGRHYTHMMOVEBEATMAPDATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x6457250)
-#define CONFIGRHYTHMMOVEBEATMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x64575D0)
+#define CONFIGRHYTHMMOVEBEATMAPDATA_GETBEATMAP_OFFSET UNITYSDK_OFFSET(0x120BB500)
+#define CONFIGRHYTHMMOVEBEATMAPDATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x120BB200)
+#define CONFIGRHYTHMMOVEBEATMAPDATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x120BB2F0)
+#define CONFIGRHYTHMMOVEBEATMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x120BB620)
 
-inline static constexpr unsigned int ConfigRhythmMoveBeatMapData_TypeDefinitionIndex = 60725;
+inline static constexpr unsigned int ConfigRhythmMoveBeatMapData_TypeDefinitionIndex = 60643;
 
 class ConfigRhythmMoveBeatMapData : public ::System::Object
 {
 public:
 	static ::MoleMole::ConfigRhythmMoveBeatMap** StaticGet_config()
 	{
-		return (::MoleMole::ConfigRhythmMoveBeatMap**)Il2CppClass::FromTypeDefinitionIndex(ConfigRhythmMoveBeatMapData_TypeDefinitionIndex)->GetStaticField(0x3C4D0);
+		return (::MoleMole::ConfigRhythmMoveBeatMap**)Il2CppClass::FromTypeDefinitionIndex(ConfigRhythmMoveBeatMapData_TypeDefinitionIndex)->GetStaticField(0x3D980);
 	}
 
 	::System::Void _ctor()

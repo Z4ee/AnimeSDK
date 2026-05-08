@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOUIIMAGENUM_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x6EBE7E0)
-#define MOLEMOLE_MONOUIIMAGENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x6EBE940)
+#define MOLEMOLE_MONOUIIMAGENUM_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x11DE25C0)
+#define MOLEMOLE_MONOUIIMAGENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x11DE2770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIImageNum_TypeDefinitionIndex = 38797;
+	inline static constexpr unsigned int MonoUIImageNum_TypeDefinitionIndex = 82191;
 
 	class MonoUIImageNum : public ::UnityEngine::MonoBehaviour
 	{

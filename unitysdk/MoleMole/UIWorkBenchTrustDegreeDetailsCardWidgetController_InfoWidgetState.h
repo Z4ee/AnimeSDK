@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustDegreeDetailsCardWidgetController_InfoWidgetState_TypeDefinitionIndex = 41064;
+	inline static constexpr unsigned int UIWorkBenchTrustDegreeDetailsCardWidgetController_InfoWidgetState_TypeDefinitionIndex = 39521;
 
 	enum class UIWorkBenchTrustDegreeDetailsCardWidgetController_InfoWidgetState : ::System::Int32
 	{
-		Memory = 3,
-		Base = 1,
-		Detail = 2,
 		None = 0,
+		Base = 1,
+		Memory = 3,
+		Detail = 2,
 	};
 }

@@ -6,19 +6,19 @@
 namespace System { class Type; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTPROCESSOR_GETVALUETYPEFROMTYPE_OFFSET UNITYSDK_OFFSET(0x1AAC5A90)
-#define UNITYENGINE_INPUTSYSTEM_INPUTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC5E30)
+#define UNITYENGINE_INPUTSYSTEM_INPUTPROCESSOR_GETVALUETYPEFROMTYPE_OFFSET UNITYSDK_OFFSET(0x1B98BD00)
+#define UNITYENGINE_INPUTSYSTEM_INPUTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B98C0C0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputProcessor_TypeDefinitionIndex = 28451;
+	inline static constexpr unsigned int InputProcessor_TypeDefinitionIndex = 28969;
 
 	class InputProcessor : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::InputSystem::Utilities::TypeTable* StaticGet_s_Processors()
 		{
-			return (::UnityEngine::InputSystem::Utilities::TypeTable*)Il2CppClass::FromTypeDefinitionIndex(InputProcessor_TypeDefinitionIndex)->GetStaticField(0x21D50);
+			return (::UnityEngine::InputSystem::Utilities::TypeTable*)Il2CppClass::FromTypeDefinitionIndex(InputProcessor_TypeDefinitionIndex)->GetStaticField(0x228C0);
 		}
 
 		::System::Void _ctor()

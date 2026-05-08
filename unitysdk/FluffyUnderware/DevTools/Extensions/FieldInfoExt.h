@@ -6,7 +6,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int FieldInfoExt_TypeDefinitionIndex = 25405;
+	inline static constexpr unsigned int FieldInfoExt_TypeDefinitionIndex = 25919;
 
 	class FieldInfoExt : public ::System::Object
 	{

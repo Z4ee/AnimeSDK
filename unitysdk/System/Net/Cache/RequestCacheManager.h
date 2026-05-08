@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Net::Cache { class RequestCacheBinding; }
 namespace System::Net::Cache { class RequestCachingSectionInternal; }
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_GETBINDING_OFFSET UNITYSDK_OFFSET(0x191BABF0)
-#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_GET_ISCACHINGENABLED_OFFSET UNITYSDK_OFFSET(0x191BB030)
-#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_LOADCONFIGSETTINGS_OFFSET UNITYSDK_OFFSET(0x191BAEC0)
-#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_SETBINDING_OFFSET UNITYSDK_OFFSET(0x191BB110)
-#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x191BB3D0)
-#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x191BABE0)
+#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_GETBINDING_OFFSET UNITYSDK_OFFSET(0x19AE7E50)
+#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_GET_ISCACHINGENABLED_OFFSET UNITYSDK_OFFSET(0x19AE8290)
+#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_LOADCONFIGSETTINGS_OFFSET UNITYSDK_OFFSET(0x19AE8120)
+#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER_SETBINDING_OFFSET UNITYSDK_OFFSET(0x19AE8370)
+#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AE8630)
+#define SYSTEM_NET_CACHE_REQUESTCACHEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE7E40)
 
 namespace System::Net::Cache
 {
@@ -24,15 +24,15 @@ namespace System::Net::Cache
 		{
 			return (::System::Net::Cache::RequestCachingSectionInternal**)Il2CppClass::FromTypeDefinitionIndex(RequestCacheManager_TypeDefinitionIndex)->GetStaticField(0x2E20);
 		}
-		static ::System::Net::Cache::RequestCacheBinding** StaticGet_s_DefaultGlobalBinding()
+		static ::System::Net::Cache::RequestCacheBinding** StaticGet_s_DefaultHttpBinding()
 		{
 			return (::System::Net::Cache::RequestCacheBinding**)Il2CppClass::FromTypeDefinitionIndex(RequestCacheManager_TypeDefinitionIndex)->GetStaticField(0x2E28);
 		}
-		static ::System::Net::Cache::RequestCacheBinding** StaticGet_s_DefaultFtpBinding()
+		static ::System::Net::Cache::RequestCacheBinding** StaticGet_s_DefaultGlobalBinding()
 		{
 			return (::System::Net::Cache::RequestCacheBinding**)Il2CppClass::FromTypeDefinitionIndex(RequestCacheManager_TypeDefinitionIndex)->GetStaticField(0x2E30);
 		}
-		static ::System::Net::Cache::RequestCacheBinding** StaticGet_s_DefaultHttpBinding()
+		static ::System::Net::Cache::RequestCacheBinding** StaticGet_s_DefaultFtpBinding()
 		{
 			return (::System::Net::Cache::RequestCacheBinding**)Il2CppClass::FromTypeDefinitionIndex(RequestCacheManager_TypeDefinitionIndex)->GetStaticField(0x2E38);
 		}

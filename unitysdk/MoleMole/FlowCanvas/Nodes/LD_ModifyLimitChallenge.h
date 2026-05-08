@@ -7,20 +7,20 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYLIMITCHALLENGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xBA120F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYLIMITCHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0xBA12220)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYLIMITCHALLENGE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xBA12240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYLIMITCHALLENGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16D466C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYLIMITCHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D467D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MODIFYLIMITCHALLENGE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16D46810)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ModifyLimitChallenge_TypeDefinitionIndex = 61928;
+	inline static constexpr unsigned int LD_ModifyLimitChallenge_TypeDefinitionIndex = 47859;
 
 	class LD_ModifyLimitChallenge : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Single>* LeftDeltaTime; // 0xA8
-		::FlowCanvas::FlowInput* inFlow; // 0xB0
-		::FlowCanvas::FlowOutput* outFlow; // 0xB8
+		::FlowCanvas::FlowInput* inFlow; // 0xA8
+		::FlowCanvas::FlowOutput* outFlow; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Single>* LeftDeltaTime; // 0xB8
 		::FlowCanvas::ValueInput_1<::System::Int32>* ChallengeID; // 0xC0
 
 		::System::Void _ctor()

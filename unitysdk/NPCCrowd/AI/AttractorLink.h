@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorLink_TypeDefinitionIndex = 39634;
+	inline static constexpr unsigned int AttractorLink_TypeDefinitionIndex = 74966;
 
 	struct alignas(4) AttractorLink
 	{

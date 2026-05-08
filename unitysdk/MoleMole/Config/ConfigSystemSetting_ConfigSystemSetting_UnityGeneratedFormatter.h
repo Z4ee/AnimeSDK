@@ -13,26 +13,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE36DF50)
-#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE36DF60)
-#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE36E160)
-#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE36E320)
-#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE36E2E0)
+#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16A9E120)
+#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16A9E130)
+#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16A9E310)
+#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9E4B0)
+#define MOLEMOLE_CONFIG_CONFIGSYSTEMSETTING_CONFIGSYSTEMSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9E470)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 77030;
+	inline static constexpr unsigned int ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 61591;
 
 	class ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSystemSetting*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ESystemSettingType, ::System::String*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ESystemSettingType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31370);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ESystemSettingType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32010);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31378);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSystemSetting_ConfigSystemSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32018);
 		}
 
 		::System::Void _ctor()

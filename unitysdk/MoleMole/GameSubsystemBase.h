@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SubsystemBase.h"
 
-#define MOLEMOLE_GAMESUBSYSTEMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EB3A0)
+#define MOLEMOLE_GAMESUBSYSTEMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15428150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameSubsystemBase_TypeDefinitionIndex = 54442;
+	inline static constexpr unsigned int GameSubsystemBase_TypeDefinitionIndex = 40774;
 
 	class GameSubsystemBase : public ::MoleMole::SubsystemBase
 	{

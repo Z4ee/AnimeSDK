@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xACC27A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xACC27B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xACC29B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xACC2B70)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xACC2B30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17532DE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17532DF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17532FD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17533170)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERASTRETCH_CONFIGENTITYCAMERASTRETCH_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17533130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter_TypeDefinitionIndex = 65775;
+	inline static constexpr unsigned int ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter_TypeDefinitionIndex = 73022;
 
 	class ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigEntityCameraStretch*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39040);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39048);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A280);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraStretch_ConfigEntityCameraStretch_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A288);
 		}
 
 		::System::Void _ctor()

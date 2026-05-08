@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIActivitySignInPopWindowController; }
 
-#define MOLEMOLE_UIACTIVITYSIGNINPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8CCCB50)
-#define MOLEMOLE_UIACTIVITYSIGNINPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__SETDAYLIST_B__0_OFFSET UNITYSDK_OFFSET(0x8CCCB60)
+#define MOLEMOLE_UIACTIVITYSIGNINPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13EEBF30)
+#define MOLEMOLE_UIACTIVITYSIGNINPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__SETDAYLIST_B__0_OFFSET UNITYSDK_OFFSET(0x13EEBF40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitySignInPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 58327;
+	inline static constexpr unsigned int UIActivitySignInPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 77913;
 
 	class UIActivitySignInPopWindowController___c__DisplayClass21_0 : public ::System::Object
 	{

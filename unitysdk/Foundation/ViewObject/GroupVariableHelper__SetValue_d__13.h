@@ -11,23 +11,23 @@ namespace Foundation::ViewObject { class GroupVariableHelper; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__SETVALUE_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x323CD0)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__SETVALUE_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__SETVALUE_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x71A1A0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__SETVALUE_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper__SetValue_d__13_TypeDefinitionIndex = 41682;
+	inline static constexpr unsigned int GroupVariableHelper__SetValue_d__13_TypeDefinitionIndex = 46017;
 
 	struct alignas(8) GroupVariableHelper__SetValue_d__13
 	{
-		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x10
-		::Class_3_3EC97B498E0B85D2* reason; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__2; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x48
-		::System::ValueTuple_2<::System::UInt32, ::System::String*> key; // 0x58
-		::System::Int32 value; // 0x68
-		::System::Int32 __1__state; // 0x6C
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__2; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x30
+		::System::ValueTuple_2<::System::UInt32, ::System::String*> key; // 0x38
+		::Class_3_3EC97B498E0B85D2* reason; // 0x48
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x50
+		::System::Int32 __1__state; // 0x68
+		::System::Int32 value; // 0x6C
 
 		::System::Void MoveNext()
 		{

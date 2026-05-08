@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigInLevelScoreUIRatingIconPrefab; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGINLEVELSCOREUIRATING__CTOR_OFFSET UNITYSDK_OFFSET(0xEC428C0)
+#define MOLEMOLE_CONFIG_CONFIGINLEVELSCOREUIRATING__CTOR_OFFSET UNITYSDK_OFFSET(0x181CAFD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInLevelScoreUIRating_TypeDefinitionIndex = 48320;
+	inline static constexpr unsigned int ConfigInLevelScoreUIRating_TypeDefinitionIndex = 79870;
 
 	class ConfigInLevelScoreUIRating : public ::Foundation::MihoyoSerializedScriptableObject
 	{

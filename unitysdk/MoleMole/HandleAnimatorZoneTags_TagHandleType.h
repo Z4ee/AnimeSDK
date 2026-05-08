@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HandleAnimatorZoneTags_TagHandleType_TypeDefinitionIndex = 60680;
+	inline static constexpr unsigned int HandleAnimatorZoneTags_TagHandleType_TypeDefinitionIndex = 73045;
 
 	enum class HandleAnimatorZoneTags_TagHandleType : ::System::Int32
 	{
-		Add = 0,
 		Remove = 1,
+		Add = 0,
 	};
 }

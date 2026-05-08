@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GraphicSettings_EParticleResolutionLevel_TypeDefinitionIndex = 29484;
+	inline static constexpr unsigned int GraphicSettings_EParticleResolutionLevel_TypeDefinitionIndex = 30004;
 
 	enum class GraphicSettings_EParticleResolutionLevel : ::System::Int32
 	{

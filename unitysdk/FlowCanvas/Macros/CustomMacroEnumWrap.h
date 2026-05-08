@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLOWCANVAS_MACROS_CUSTOMMACROENUMWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x196D4990)
+#define FLOWCANVAS_MACROS_CUSTOMMACROENUMWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F3900)
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int CustomMacroEnumWrap_TypeDefinitionIndex = 26323;
+	inline static constexpr unsigned int CustomMacroEnumWrap_TypeDefinitionIndex = 27633;
 
 	class CustomMacroEnumWrap : public ::System::Object
 	{

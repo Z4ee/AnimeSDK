@@ -8,7 +8,7 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int Struct_2_D3FBEE9DE3F34F60_TypeDefinitionIndex = 43549;
+inline static constexpr unsigned int Struct_2_D3FBEE9DE3F34F60_TypeDefinitionIndex = 46420;
 
 struct alignas(8) Struct_2_D3FBEE9DE3F34F60
 {

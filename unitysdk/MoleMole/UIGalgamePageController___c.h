@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9119F30)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CHECKMAINCITYBGM_B__12_0_OFFSET UNITYSDK_OFFSET(0x9119F80)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9119F70)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A16D90)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CHECKMAINCITYBGM_B__65_0_OFFSET UNITYSDK_OFFSET(0x15A16DE0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A16DD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c_TypeDefinitionIndex = 58932;
+	inline static constexpr unsigned int UIGalgamePageController___c_TypeDefinitionIndex = 41798;
 
 	class UIGalgamePageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIGalgamePageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGalgamePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x372C0);
+			return (::MoleMole::UIGalgamePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x37D10);
 		}
-		static ::System::Action** StaticGet___9__12_0()
+		static ::System::Action** StaticGet___9__65_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x372C8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController___c_TypeDefinitionIndex)->GetStaticField(0x37D18);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CheckMaincityBGM_b__12_0()
+		::System::Void _CheckMaincityBGM_b__65_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CHECKMAINCITYBGM_B__12_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__CHECKMAINCITYBGM_B__65_0_OFFSET))(this);
 		}
 	};
 }

@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputBindingComposite_1_TypeDefinitionIndex = 28406;
+	inline static constexpr unsigned int InputBindingComposite_1_TypeDefinitionIndex = 28924;
 
 	template <typename TValue>
 	class InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite

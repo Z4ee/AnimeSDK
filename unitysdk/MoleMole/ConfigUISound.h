@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUISOUND_RELOADDATA_OFFSET UNITYSDK_OFFSET(0x81FEFC0)
-#define MOLEMOLE_CONFIGUISOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x81FF030)
+#define MOLEMOLE_CONFIGUISOUND_RELOADDATA_OFFSET UNITYSDK_OFFSET(0xFB17F90)
+#define MOLEMOLE_CONFIGUISOUND__CTOR_OFFSET UNITYSDK_OFFSET(0xFB17FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUISound_TypeDefinitionIndex = 57698;
+	inline static constexpr unsigned int ConfigUISound_TypeDefinitionIndex = 75884;
 
 	class ConfigUISound : public ::Foundation::MihoyoSerializedScriptableObject
 	{

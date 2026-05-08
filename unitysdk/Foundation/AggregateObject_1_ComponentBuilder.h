@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class AggregateObject_1_ComponentBu
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObject_1_ComponentBuilder_TypeDefinitionIndex = 9189;
+	inline static constexpr unsigned int AggregateObject_1_ComponentBuilder_TypeDefinitionIndex = 9164;
 
 	template <typename TEvent>
 	class AggregateObject_1_ComponentBuilder : public ::System::Object

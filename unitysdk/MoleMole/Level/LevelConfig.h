@@ -36,13 +36,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0xA0299E0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0xA029B20)
-#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA029C60)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x11759B90)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x11759CA0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11759DB0)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 39452;
+	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 48336;
 
 	class LevelConfig : public ::MoleMole::NapSplitSerialized_MainScriptableObject
 	{

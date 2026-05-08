@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A1360)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x3A1370)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_EQUALS_OFFSET UNITYSDK_OFFSET(0x7D61D0)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x7D61E0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int FieldInfo_EventInfo_K_Count_TypeDefinitionIndex = 70421;
+	inline static constexpr unsigned int FieldInfo_EventInfo_K_Count_TypeDefinitionIndex = 70023;
 
 	struct alignas(8) FieldInfo_EventInfo_K_Count
 	{

@@ -5,18 +5,18 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOWUITEXTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xB4770E0)
-#define MOLEMOLE_CONFIG_CONFIGSHOWUITEXTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB477170)
+#define MOLEMOLE_CONFIG_CONFIGSHOWUITEXTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17D28700)
+#define MOLEMOLE_CONFIG_CONFIGSHOWUITEXTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D28770)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShowUITextNode_TypeDefinitionIndex = 41831;
+	inline static constexpr unsigned int ConfigShowUITextNode_TypeDefinitionIndex = 70571;
 
 	class ConfigShowUITextNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* UIText; // 0x18
-		::System::String* TextKey; // 0x20
+		::System::String* TextKey; // 0x18
+		::System::String* UIText; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -7,19 +7,19 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xE36B270)
-#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xE36B300)
+#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16A9B6C0)
+#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9B730)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShowGachaPerformanceLightsNode_TypeDefinitionIndex = 46649;
+	inline static constexpr unsigned int ConfigShowGachaPerformanceLightsNode_TypeDefinitionIndex = 57235;
 
 	class ConfigShowGachaPerformanceLightsNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::System::String* StartOffset; // 0x18
-		::MoleMole::Config::ConfigShowGachaPerformanceLightsNode_GachaPerformanceCtrlType CtrlType; // 0x20
-		::MoleMole::Config::ConfigShowGachaPerformanceLightsNode_GachaPerformanceLightType LightType; // 0x24
+		::MoleMole::Config::ConfigShowGachaPerformanceLightsNode_GachaPerformanceLightType LightType; // 0x20
+		::MoleMole::Config::ConfigShowGachaPerformanceLightsNode_GachaPerformanceCtrlType CtrlType; // 0x24
 
 		::System::Void _ctor()
 		{

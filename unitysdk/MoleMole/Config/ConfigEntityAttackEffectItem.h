@@ -10,32 +10,32 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xACC2340)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_FROMFLX_OFFSET UNITYSDK_OFFSET(0xACC1140)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xACC23A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xACC11C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xACC2790)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17532980)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_FROMFLX_OFFSET UNITYSDK_OFFSET(0x17531780)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x175329E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x17531800)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17532DD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackEffectItem_TypeDefinitionIndex = 46538;
+	inline static constexpr unsigned int ConfigEntityAttackEffectItem_TypeDefinitionIndex = 39243;
 
 	class ConfigEntityAttackEffectItem : public ::System::Object
 	{
 	public:
 		::System::String* EffectName; // 0x10
-		::MoleMole::Config::AttackEffectTriggerAt ZPosOffsetType; // 0x18
-		::MoleMole::Config::AttackEffectTriggerAt YPosOffsetType; // 0x1C
-		::System::Single ZRotOffset; // 0x20
-		::MoleMole::Config::HitDirectionType DefaultEffectRot; // 0x24
-		::System::Single XPosOffset; // 0x28
+		::MoleMole::Config::HitDirectionType DefaultEffectRot; // 0x18
+		::MoleMole::Config::AttackEffectTriggerAt XPosOffsetType; // 0x1C
+		::UnityEngine::Vector3 PosRandom; // 0x20
 		::UnityEngine::Vector3 RotRandom; // 0x2C
-		::System::Single YRotOffset; // 0x38
-		::System::Single ZPosOffset; // 0x3C
-		::UnityEngine::Vector3 PosRandom; // 0x40
-		::System::Single YPosOffset; // 0x4C
-		::MoleMole::Config::AttackEffectTriggerAt XPosOffsetType; // 0x50
-		::System::Single XRotOffset; // 0x54
+		::System::Single ZRotOffset; // 0x38
+		::MoleMole::Config::AttackEffectTriggerAt ZPosOffsetType; // 0x3C
+		::System::Single XRotOffset; // 0x40
+		::MoleMole::Config::AttackEffectTriggerAt YPosOffsetType; // 0x44
+		::System::Single YPosOffset; // 0x48
+		::System::Single ZPosOffset; // 0x4C
+		::System::Single YRotOffset; // 0x50
+		::System::Single XPosOffset; // 0x54
 
 		::System::Void _ctor()
 		{

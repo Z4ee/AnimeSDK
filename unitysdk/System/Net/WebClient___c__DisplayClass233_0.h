@@ -7,8 +7,8 @@ namespace System::ComponentModel { class AsyncCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS233_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19247DF0)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS233_0__DOWNLOADFILETASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19247E00)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS233_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBC260)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS233_0__DOWNLOADFILETASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19BBC270)
 
 namespace System::Net
 {

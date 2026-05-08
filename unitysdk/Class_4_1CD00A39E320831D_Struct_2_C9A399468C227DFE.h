@@ -8,9 +8,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_4_1CD00A39E320831D_STRUCT_2_C9A399468C227DFE_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x34E040)
+#define CLASS_4_1CD00A39E320831D_STRUCT_2_C9A399468C227DFE_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x6CDC70)
 
-inline static constexpr unsigned int Class_4_1CD00A39E320831D_Struct_2_C9A399468C227DFE_TypeDefinitionIndex = 60336;
+inline static constexpr unsigned int Class_4_1CD00A39E320831D_Struct_2_C9A399468C227DFE_TypeDefinitionIndex = 57813;
 
 struct alignas(8) Class_4_1CD00A39E320831D_Struct_2_C9A399468C227DFE
 {

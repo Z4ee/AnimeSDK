@@ -5,13 +5,13 @@
 namespace MoleMole { class UICloudController_UIRTCItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICLOUDCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xADC1D20)
-#define MOLEMOLE_UICLOUDCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xADC1C80)
-#define MOLEMOLE_UICLOUDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xADC1DC0)
+#define MOLEMOLE_UICLOUDCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15EDA7E0)
+#define MOLEMOLE_UICLOUDCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15EDA760)
+#define MOLEMOLE_UICLOUDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDA860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICloudController_TypeDefinitionIndex = 48234;
+	inline static constexpr unsigned int UICloudController_TypeDefinitionIndex = 50796;
 
 	class UICloudController : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

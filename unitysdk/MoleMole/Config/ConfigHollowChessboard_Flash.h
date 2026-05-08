@@ -5,21 +5,21 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 
 class Class_1_8CE3173023BA2453;
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0xACC5A90)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0xACC5A80)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_RUN_OFFSET UNITYSDK_OFFSET(0xACC58A0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH__CTOR_OFFSET UNITYSDK_OFFSET(0xACC5B00)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0xACC5C00)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x17536510)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x17536500)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_RUN_OFFSET UNITYSDK_OFFSET(0x17536370)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH__CTOR_OFFSET UNITYSDK_OFFSET(0x17536560)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x17536680)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_Flash_TypeDefinitionIndex = 79807;
+	inline static constexpr unsigned int ConfigHollowChessboard_Flash_TypeDefinitionIndex = 43447;
 
 	class ConfigHollowChessboard_Flash : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
@@ -33,9 +33,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_5_0B648F1F8F6AC84A* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
+		::System::Void Run(::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
+			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_FLASH_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
 		}
 
 		::System::Single get_totalDuration()

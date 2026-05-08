@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_6.h"
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTFLOATBYPLATFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0xD0CC2D0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTFLOATBYPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD0CC460)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTFLOATBYPLATFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x16B78C00)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTFLOATBYPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x16B78D70)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameSelectFloatByPlatform_TypeDefinitionIndex = 71043;
+	inline static constexpr unsigned int HackerGameSelectFloatByPlatform_TypeDefinitionIndex = 53009;
 
 	class HackerGameSelectFloatByPlatform : public ::FlowCanvas::Nodes::CallableFunctionNode_6<::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
 	{

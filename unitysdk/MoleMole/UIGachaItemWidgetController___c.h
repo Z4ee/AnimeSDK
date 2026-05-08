@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIGACHAITEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC60450)
-#define MOLEMOLE_UIGACHAITEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAC60490)
-#define MOLEMOLE_UIGACHAITEMWIDGETCONTROLLER___C__ONPLAYANIMFINISH_B__16_0_OFFSET UNITYSDK_OFFSET(0xAC604A0)
+#define MOLEMOLE_UIGACHAITEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14EE2640)
+#define MOLEMOLE_UIGACHAITEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14EE2680)
+#define MOLEMOLE_UIGACHAITEMWIDGETCONTROLLER___C__ONPLAYANIMFINISH_B__16_0_OFFSET UNITYSDK_OFFSET(0x14EE2690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaItemWidgetController___c_TypeDefinitionIndex = 56486;
+	inline static constexpr unsigned int UIGachaItemWidgetController___c_TypeDefinitionIndex = 75508;
 
 	class UIGachaItemWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__16_0()
-		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(UIGachaItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0C0);
-		}
 		static ::MoleMole::UIGachaItemWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGachaItemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGachaItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0C8);
+			return (::MoleMole::UIGachaItemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGachaItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46A70);
+		}
+		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__16_0()
+		{
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(UIGachaItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46A78);
 		}
 
 		static ::System::Void _cctor()

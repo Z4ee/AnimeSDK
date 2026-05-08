@@ -6,19 +6,19 @@ class Class_3_9FEE7E7D3F46814D;
 namespace MoleMole { class UIAbyssArpeggioRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA55AA30)
-#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHSTATE_B__3_OFFSET UNITYSDK_OFFSET(0xA55AA40)
+#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD0400)
+#define MOLEMOLE_UIABYSSARPEGGIOROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHSTATE_B__3_OFFSET UNITYSDK_OFFSET(0x15BD0410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioRowWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 71112;
+	inline static constexpr unsigned int UIAbyssArpeggioRowWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 66971;
 
 	class UIAbyssArpeggioRowWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAbyssArpeggioRowWidgetController* __4__this; // 0x10
-		::System::Action* __9__3; // 0x18
-		::Class_3_9FEE7E7D3F46814D* chapterData; // 0x20
+		::Class_3_9FEE7E7D3F46814D* chapterData; // 0x18
+		::System::Action* __9__3; // 0x20
 		::System::Boolean isUnlock; // 0x28
 
 		::System::Void _ctor()

@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EE8D70)
-#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE8DB0)
-#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__GETBUFF_G__GETTEXTMAPTEXT_5_1_OFFSET UNITYSDK_OFFSET(0x9EE8DC0)
+#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x126A76A0)
+#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x126A76E0)
+#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__GETBUFF_G__GETTEXTMAPTEXT_5_1_OFFSET UNITYSDK_OFFSET(0x126A76F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseBattleInfoWidgetController___c_TypeDefinitionIndex = 73525;
+	inline static constexpr unsigned int UITowerDefenseBattleInfoWidgetController___c_TypeDefinitionIndex = 63693;
 
 	class UITowerDefenseBattleInfoWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UITowerDefenseBattleInfoWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UITowerDefenseBattleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UITowerDefenseBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x433D0);
+			return (::MoleMole::UITowerDefenseBattleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UITowerDefenseBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43A20);
 		}
 
 		static ::System::Void _cctor()

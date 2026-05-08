@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES3D___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30D3C0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWLINES3D___C__DISPLAYCLASS4_0__DRAW_B__0_OFFSET UNITYSDK_OFFSET(0x1A30D3D0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES3D___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE03E70)
+#define PIPELINECAMERA_CAMERADEBUGDRAWLINES3D___C__DISPLAYCLASS4_0__DRAW_B__0_OFFSET UNITYSDK_OFFSET(0x1AE03E80)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawLines3D___c__DisplayClass4_0_TypeDefinitionIndex = 35480;
+	inline static constexpr unsigned int CameraDebugDrawLines3D___c__DisplayClass4_0_TypeDefinitionIndex = 36024;
 
 	class CameraDebugDrawLines3D___c__DisplayClass4_0 : public ::System::Object
 	{

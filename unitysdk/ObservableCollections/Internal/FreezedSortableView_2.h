@@ -18,7 +18,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int FreezedSortableView_2_TypeDefinitionIndex = 25226;
+	inline static constexpr unsigned int FreezedSortableView_2_TypeDefinitionIndex = 25662;
 
 	template <typename T, typename TView>
 	class FreezedSortableView_2 : public ::System::Object

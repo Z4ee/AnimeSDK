@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0xA38E850)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xA38E9D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x170CE220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x170CE3B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_StringListToGamePlayTagList_TypeDefinitionIndex = 38564;
+	inline static constexpr unsigned int LD_StringListToGamePlayTagList_TypeDefinitionIndex = 47476;
 
 	class LD_StringListToGamePlayTagList : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Collections::Generic::List_1<::MoleMole::GameplayTag>*, ::System::Collections::Generic::List_1<::System::String*>*>
 	{

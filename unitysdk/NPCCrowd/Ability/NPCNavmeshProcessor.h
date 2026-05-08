@@ -19,68 +19,78 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_ADDDEPENDENCYTOWORLD_OFFSET UNITYSDK_OFFSET(0x7844EB0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_CHECKPATHQUERYVALID_OFFSET UNITYSDK_OFFSET(0x78445B0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_CHECKQUERYRESULT_OFFSET UNITYSDK_OFFSET(0x7843260)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_CLEARCACHEDDATA_OFFSET UNITYSDK_OFFSET(0x7842210)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_EXECUTECOMMONQUERY_OFFSET UNITYSDK_OFFSET(0x7842CD0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x7842770)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_GETPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x7844B20)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_INITDATA_OFFSET UNITYSDK_OFFSET(0x7841EA0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_INITPROCESSOR_OFFSET UNITYSDK_OFFSET(0x78441A0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_ISMINPATHQUERYFINISHED_OFFSET UNITYSDK_OFFSET(0x7843FA0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_PREEXECUTEBEFOREJOB_OFFSET UNITYSDK_OFFSET(0x78431A0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_QUERYMINPATHSYNC_OFFSET UNITYSDK_OFFSET(0x7844830)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_QUERYMINPATH_1_OFFSET UNITYSDK_OFFSET(0x78447A0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_QUERYMINPATH_OFFSET UNITYSDK_OFFSET(0x7844290)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_REFRESHDELAYEDQUERY_OFFSET UNITYSDK_OFFSET(0x7843C60)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_REGISTERQUERYCALLBACK_OFFSET UNITYSDK_OFFSET(0x7844CD0)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_REMOVEFINISHEDMINPATHQUERY_OFFSET UNITYSDK_OFFSET(0x7844080)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x7844F60)
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x7844F50)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_ADDDEPENDENCYTOWORLD_OFFSET UNITYSDK_OFFSET(0x11B187F0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_CHECKPATHQUERYVALID_OFFSET UNITYSDK_OFFSET(0x11B17EF0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_CHECKQUERYRESULT_OFFSET UNITYSDK_OFFSET(0x11B166A0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_CLEARCACHEDDATA_OFFSET UNITYSDK_OFFSET(0x11B14A60)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_EXECUTECOMMONQUERY_OFFSET UNITYSDK_OFFSET(0x11B16150)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11B15BF0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_GETPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x11B184A0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_GET_ISCACHEINITIALIZED_OFFSET UNITYSDK_OFFSET(0x11B14480)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_INITDATA_OFFSET UNITYSDK_OFFSET(0x11B14540)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_INITPROCESSOR_OFFSET UNITYSDK_OFFSET(0x11B179A0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_ISMINPATHQUERYFINISHED_OFFSET UNITYSDK_OFFSET(0x11B177E0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_PREEXECUTEBEFOREJOB_OFFSET UNITYSDK_OFFSET(0x11B16600)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_QUERYMINPATHSYNC_OFFSET UNITYSDK_OFFSET(0x11B181D0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_QUERYMINPATH_1_OFFSET UNITYSDK_OFFSET(0x11B18160)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_QUERYMINPATH_OFFSET UNITYSDK_OFFSET(0x11B17A70)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_REFRESHDELAYEDQUERY_OFFSET UNITYSDK_OFFSET(0x11B17080)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_REGISTERQUERYCALLBACK_OFFSET UNITYSDK_OFFSET(0x11B18630)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_REMOVEFINISHEDMINPATHQUERY_OFFSET UNITYSDK_OFFSET(0x11B178A0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_SET_ISCACHEINITIALIZED_OFFSET UNITYSDK_OFFSET(0x11B144E0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x11B18880)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11B18870)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCNavmeshProcessor_TypeDefinitionIndex = 67609;
+	inline static constexpr unsigned int NPCNavmeshProcessor_TypeDefinitionIndex = 75461;
 
 	class NPCNavmeshProcessor : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_tmpList()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32500);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>** StaticGet_delayMinPathQueries()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32508);
-		}
-		static ::System::Collections::Concurrent::ConcurrentStack_1<::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment>>** StaticGet_nativeArrayPool()
-		{
-			return (::System::Collections::Concurrent::ConcurrentStack_1<::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment>>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32510);
-		}
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryResult>** StaticGet_finishedPathQueries()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryResult>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32518);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::NPCCrowd::Ability::MinPathQueryResult>*>** StaticGet_callbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::NPCCrowd::Ability::MinPathQueryResult>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32520);
-		}
-		static ::System::Collections::Concurrent::ConcurrentStack_1<::Il2CppArray<::UnityEngine::Experimental::AI::NavMeshQuery>*>** StaticGet_navMeshQueryListPool()
-		{
-			return (::System::Collections::Concurrent::ConcurrentStack_1<::Il2CppArray<::UnityEngine::Experimental::AI::NavMeshQuery>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32528);
-		}
-		static ::System::Collections::Concurrent::ConcurrentStack_1<::UnityEngine::Experimental::AI::NavMeshQuery>** StaticGet_navMeshQueryPool()
-		{
-			return (::System::Collections::Concurrent::ConcurrentStack_1<::UnityEngine::Experimental::AI::NavMeshQuery>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32530);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryResult>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32E80);
 		}
 		static ::NPCCrowd::IdGenerator** StaticGet_IDGen()
 		{
-			return (::NPCCrowd::IdGenerator**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32538);
+			return (::NPCCrowd::IdGenerator**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32E88);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>** StaticGet_minPathQueries()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32540);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32E90);
+		}
+		static ::System::Collections::Concurrent::ConcurrentStack_1<::Il2CppArray<::UnityEngine::Experimental::AI::NavMeshQuery>*>** StaticGet_navMeshQueryListPool()
+		{
+			return (::System::Collections::Concurrent::ConcurrentStack_1<::Il2CppArray<::UnityEngine::Experimental::AI::NavMeshQuery>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32E98);
+		}
+		static ::System::Collections::Concurrent::ConcurrentStack_1<::UnityEngine::Experimental::AI::NavMeshQuery>** StaticGet_navMeshQueryPool()
+		{
+			return (::System::Collections::Concurrent::ConcurrentStack_1<::UnityEngine::Experimental::AI::NavMeshQuery>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32EA0);
+		}
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_tmpList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32EA8);
+		}
+		static ::System::Collections::Concurrent::ConcurrentStack_1<::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment>>** StaticGet_nativeArrayPool()
+		{
+			return (::System::Collections::Concurrent::ConcurrentStack_1<::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment>>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32EB0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>** StaticGet_delayMinPathQueries()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::MinPathQueryData>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32EB8);
+		}
+		static ::System::Object** StaticGet_navmeshPoolLock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32EC0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::NPCCrowd::Ability::MinPathQueryResult>*>** StaticGet_callbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::NPCCrowd::Ability::MinPathQueryResult>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0x32EC8);
+		}
+		static ::System::Boolean* StaticGet__IsCacheInitialized_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCNavmeshProcessor_TypeDefinitionIndex)->GetStaticField(0xC6B0);
 		}
 		// static const ::System::Int32 MaxPathSize = 0xA; // 0x0
 		// static const ::System::Int32 MaxNavMeshNodes = 0x800; // 0x0
@@ -97,6 +107,16 @@ namespace NPCCrowd::Ability
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR__CCTOR_OFFSET))();
+		}
+
+		static ::System::Boolean get_IsCacheInitialized()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_GET_ISCACHEINITIALIZED_OFFSET))();
+		}
+
+		static ::System::Void set_IsCacheInitialized(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_SET_ISCACHEINITIALIZED_OFFSET))(value);
 		}
 
 		static ::System::Void InitData()

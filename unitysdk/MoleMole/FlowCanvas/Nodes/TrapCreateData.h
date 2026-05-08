@@ -5,11 +5,11 @@
 namespace MoleMole::FlowCanvas::Nodes { class BandTrapData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_TRAPCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AA850)
+#define MOLEMOLE_FLOWCANVAS_NODES_TRAPCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E55620)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TrapCreateData_TypeDefinitionIndex = 57638;
+	inline static constexpr unsigned int TrapCreateData_TypeDefinitionIndex = 57408;
 
 	class TrapCreateData : public ::MoleMole::FlowCanvas::Nodes::MonsterCreateDataBase
 	{

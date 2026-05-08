@@ -5,13 +5,13 @@
 namespace System { class EventArgs; }
 namespace System { class EventHandler; }
 
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1DA4E0)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1DA520)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B1DA530)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEDA640)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEDA680)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1BEDA690)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int NativeArrayAllocator___c_TypeDefinitionIndex = 8726;
+	inline static constexpr unsigned int NativeArrayAllocator___c_TypeDefinitionIndex = 8737;
 
 	class NativeArrayAllocator___c : public ::System::Object
 	{

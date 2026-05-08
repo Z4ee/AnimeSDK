@@ -8,19 +8,19 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { class ValueInput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETLEVELSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x7A59C60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETLEVELSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x7A59A00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETLEVELSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x7A5A260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETLEVELSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x1841AC40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETLEVELSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1841AA00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETLEVELSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1841B240)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetLevelState_TypeDefinitionIndex = 76989;
+	inline static constexpr unsigned int LDSetLevelState_TypeDefinitionIndex = 79908;
 
 	class LDSetLevelState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput* inputValue; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput* inputValue; // 0xB0
 		::FlowCanvas::FlowInput* beginFlowInput; // 0xB8
 		::MoleMole::LevelStateDefine_ELevelStateName LevelStateName; // 0xC0
 

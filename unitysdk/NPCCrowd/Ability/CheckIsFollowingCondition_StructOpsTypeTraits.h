@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_CHECKISFOLLOWINGCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x9AF9690)
-#define NPCCROWD_ABILITY_CHECKISFOLLOWINGCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x9AF96A0)
+#define NPCCROWD_ABILITY_CHECKISFOLLOWINGCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xF84D140)
+#define NPCCROWD_ABILITY_CHECKISFOLLOWINGCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xF84D150)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CheckIsFollowingCondition_StructOpsTypeTraits_TypeDefinitionIndex = 65109;
+	inline static constexpr unsigned int CheckIsFollowingCondition_StructOpsTypeTraits_TypeDefinitionIndex = 59838;
 
 	class CheckIsFollowingCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

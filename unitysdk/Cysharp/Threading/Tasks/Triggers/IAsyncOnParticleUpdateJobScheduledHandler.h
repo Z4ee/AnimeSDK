@@ -5,7 +5,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnParticleUpdateJobScheduledHandler_TypeDefinitionIndex = 28220;
+	inline static constexpr unsigned int IAsyncOnParticleUpdateJobScheduledHandler_TypeDefinitionIndex = 28738;
 
 	class IAsyncOnParticleUpdateJobScheduledHandler
 	{

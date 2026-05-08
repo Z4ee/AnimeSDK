@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGSPOTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B1F5030)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGSPOTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F5140)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGSPOTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C0BC2F0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGSPOTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BC400)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGSpotComparer_TypeDefinitionIndex = 36798;
+	inline static constexpr unsigned int CGSpotComparer_TypeDefinitionIndex = 37342;
 
 	class CGSpotComparer : public ::System::Object
 	{

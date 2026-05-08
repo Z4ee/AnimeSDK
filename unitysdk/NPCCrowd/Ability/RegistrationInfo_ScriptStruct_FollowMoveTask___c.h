@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FOLLOWMOVETASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x6BA3C10)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FOLLOWMOVETASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x6BA3C50)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FOLLOWMOVETASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x6BA3C60)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FOLLOWMOVETASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF3EA130)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FOLLOWMOVETASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF3EA170)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FOLLOWMOVETASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF3EA180)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FollowMoveTask___c_TypeDefinitionIndex = 71117;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FollowMoveTask___c_TypeDefinitionIndex = 60943;
 
 	class RegistrationInfo_ScriptStruct_FollowMoveTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FollowMoveTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FollowMoveTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FollowMoveTask___c_TypeDefinitionIndex)->GetStaticField(0x2EDC0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FollowMoveTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FollowMoveTask___c_TypeDefinitionIndex)->GetStaticField(0x2F5C0);
 		}
 
 		static ::System::Void _cctor()

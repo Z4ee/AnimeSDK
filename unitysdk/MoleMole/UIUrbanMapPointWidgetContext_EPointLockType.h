@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointWidgetContext_EPointLockType_TypeDefinitionIndex = 56984;
+	inline static constexpr unsigned int UIUrbanMapPointWidgetContext_EPointLockType_TypeDefinitionIndex = 72186;
 
 	enum class UIUrbanMapPointWidgetContext_EPointLockType : ::System::Int32
 	{
-		Hide = 1,
 		EnableClick = 0,
+		Hide = 1,
 		DisableClick = 2,
 	};
 }

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CONFIGLIGHTSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6F6CB50)
+#define CONFIGLIGHTSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16B18560)
 
-inline static constexpr unsigned int ConfigLightSettingData_TypeDefinitionIndex = 70426;
+inline static constexpr unsigned int ConfigLightSettingData_TypeDefinitionIndex = 43118;
 
 class ConfigLightSettingData : public ::System::Object
 {

@@ -5,12 +5,12 @@
 class Class_2_3B0F8CEEFA465A87;
 namespace MoleMole { class UIABInLevelPlayerInfoWidgetController; }
 
-#define MOLEMOLE_UIABINLEVELPLAYERINFOWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD47B5A0)
-#define MOLEMOLE_UIABINLEVELPLAYERINFOWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REFRESHBANGBOO_B__2_OFFSET UNITYSDK_OFFSET(0xD47B5B0)
+#define MOLEMOLE_UIABINLEVELPLAYERINFOWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1706F000)
+#define MOLEMOLE_UIABINLEVELPLAYERINFOWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REFRESHBANGBOO_B__2_OFFSET UNITYSDK_OFFSET(0x1706F010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelPlayerInfoWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 55467;
+	inline static constexpr unsigned int UIABInLevelPlayerInfoWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 67457;
 
 	class UIABInLevelPlayerInfoWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{

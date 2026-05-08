@@ -7,23 +7,23 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__STARTFEVERTIME_D__52_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x448320)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__STARTFEVERTIME_D__52_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__STARTFEVERTIME_D__52_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79EBA0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__STARTFEVERTIME_D__52_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__StartFeverTime_d__52_TypeDefinitionIndex = 44141;
+	inline static constexpr unsigned int UIRidusGotBooPageController__StartFeverTime_d__52_TypeDefinitionIndex = 75512;
 
 	struct alignas(8) UIRidusGotBooPageController__StartFeverTime_d__52
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x30
 		::System::Single _remainSwitchFeverTime_5__3; // 0x38
 		::System::Single _playerInteractTime_5__2; // 0x3C
 		::System::Int32 __1__state; // 0x40
-		::System::Boolean _firstSkillPlayed_5__4; // 0x44
-		::System::Boolean _playEndEffect_5__5; // 0x45
+		::System::Boolean _playEndEffect_5__5; // 0x44
+		::System::Boolean _firstSkillPlayed_5__4; // 0x45
 
 		::System::Void MoveNext()
 		{

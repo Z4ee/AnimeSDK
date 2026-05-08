@@ -12,49 +12,49 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_CHECKINTERACTVALID_OFFSET UNITYSDK_OFFSET(0x62D2710)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_INITDATA_OFFSET UNITYSDK_OFFSET(0x62D20B0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x62D1C20)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_ONSTARTINTERACT_OFFSET UNITYSDK_OFFSET(0x62D3760)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x62D1A60)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_REALRELEASESLOT_OFFSET UNITYSDK_OFFSET(0x62D3E50)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_TRYOCCUPYVALIDSLOT_OFFSET UNITYSDK_OFFSET(0x62D2B90)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_TRYRELEASESLOT_OFFSET UNITYSDK_OFFSET(0x62D3FD0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_UPDATESLOTS_OFFSET UNITYSDK_OFFSET(0x62D37D0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x62D4360)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x62D42A0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_CHECKINTERACTVALID_OFFSET UNITYSDK_OFFSET(0x62D43A0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_ONSTARTINTERACT_OFFSET UNITYSDK_OFFSET(0x62D4480)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_TRYOCCUPYVALIDSLOT_OFFSET UNITYSDK_OFFSET(0x62D44F0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_TRYRELEASESLOT_OFFSET UNITYSDK_OFFSET(0x62D45B0)
-#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_UPDATESLOTS_OFFSET UNITYSDK_OFFSET(0x62D4620)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_CHECKINTERACTVALID_OFFSET UNITYSDK_OFFSET(0xD231580)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_INITDATA_OFFSET UNITYSDK_OFFSET(0xD230ED0)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xD230AB0)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_ONSTARTINTERACT_OFFSET UNITYSDK_OFFSET(0xD2324D0)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xD230980)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_REALRELEASESLOT_OFFSET UNITYSDK_OFFSET(0xD232B50)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_TRYOCCUPYVALIDSLOT_OFFSET UNITYSDK_OFFSET(0xD231990)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_TRYRELEASESLOT_OFFSET UNITYSDK_OFFSET(0xD232CB0)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT_UPDATESLOTS_OFFSET UNITYSDK_OFFSET(0xD232520)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT__CCTOR_OFFSET UNITYSDK_OFFSET(0xD233010)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xD232F50)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_CHECKINTERACTVALID_OFFSET UNITYSDK_OFFSET(0xD233050)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_ONSTARTINTERACT_OFFSET UNITYSDK_OFFSET(0xD233160)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_TRYOCCUPYVALIDSLOT_OFFSET UNITYSDK_OFFSET(0xD2331F0)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_TRYRELEASESLOT_OFFSET UNITYSDK_OFFSET(0xD2332E0)
+#define NPCCROWD_ABILITY_INTERACTWAITINGSLOT___BASE_UPDATESLOTS_OFFSET UNITYSDK_OFFSET(0xD233370)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int InteractWaitingSlot_TypeDefinitionIndex = 73685;
+	inline static constexpr unsigned int InteractWaitingSlot_TypeDefinitionIndex = 57170;
 
 	class InteractWaitingSlot : public ::NPCCrowd::Ability::InteractTargetBase
 	{
 	public:
 		static ::NPCCrowd::AI::WaitingSlotTemplatesSO** StaticGet_WaitingSlotTemplateAsset()
 		{
-			return (::NPCCrowd::AI::WaitingSlotTemplatesSO**)Il2CppClass::FromTypeDefinitionIndex(InteractWaitingSlot_TypeDefinitionIndex)->GetStaticField(0x3BD90);
+			return (::NPCCrowd::AI::WaitingSlotTemplatesSO**)Il2CppClass::FromTypeDefinitionIndex(InteractWaitingSlot_TypeDefinitionIndex)->GetStaticField(0x3D100);
 		}
 		static ::System::String** StaticGet_TEMPLATE_ASSET_SO()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(InteractWaitingSlot_TypeDefinitionIndex)->GetStaticField(0x3BD98);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(InteractWaitingSlot_TypeDefinitionIndex)->GetStaticField(0x3D108);
 		}
 		static ::Foundation::AssetRequestHandle* StaticGet_AssetRequest()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(InteractWaitingSlot_TypeDefinitionIndex)->GetStaticField(0x3BDA0);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(InteractWaitingSlot_TypeDefinitionIndex)->GetStaticField(0x3D110);
 		}
-		::System::Collections::Generic::List_1<::System::UInt32>* tmpList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::NPCCrowd::Ability::InteractSlot*>*>* node2NearestSlots; // 0x28
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSplineLocatorComponent*>* _fromLocators; // 0x30
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSplineLocatorComponent*>* _toLocators; // 0x38
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSplineLocatorComponent*>* _fromLocators; // 0x20
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSplineLocatorComponent*>* _toLocators; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::NPCCrowd::Ability::InteractSlot*>*>* node2NearestSlots; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* tmpList; // 0x38
 		::System::Single effectRange; // 0x40
-		::UnityEngine::Vector3 rotation; // 0x44
-		::UnityEngine::Vector3 position; // 0x50
+		::UnityEngine::Vector3 position; // 0x44
+		::UnityEngine::Vector3 rotation; // 0x50
 
 		::System::Void _ctor()
 		{

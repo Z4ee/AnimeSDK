@@ -12,25 +12,25 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_DELAYDURATION_OFFSET UNITYSDK_OFFSET(0xB5D8B00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB5D84E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_START_OFFSET UNITYSDK_OFFSET(0xB5D8650)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D8BB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0xB5D8BD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0xB5D8BE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_DELAYDURATION_OFFSET UNITYSDK_OFFSET(0x15416050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15415B00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_START_OFFSET UNITYSDK_OFFSET(0x15415C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x154160E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x15416120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x15416130)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRegisterTask_TypeDefinitionIndex = 52005;
+	inline static constexpr unsigned int LDRegisterTask_TypeDefinitionIndex = 43060;
 
 	class LDRegisterTask : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::Class_2_D6F9B792012303A1* taskNode; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* taskName; // 0xA8
 		::FlowCanvas::ValueInput_1<::MoleMole::MultiTaskNodeHandle>* multiTaskNodeInput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* taskName; // 0xB8
-		::FlowCanvas::FlowOutput* _output; // 0xC0
-		::UnityEngine::Coroutine* delayHandle; // 0xC8
+		::FlowCanvas::FlowOutput* _output; // 0xB8
+		::UnityEngine::Coroutine* delayHandle; // 0xC0
+		::Class_2_D6F9B792012303A1* taskNode; // 0xC8
 
 		::System::Void _ctor()
 		{

@@ -5,7 +5,7 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int BlendPosePerBoneBranchFilter_TypeDefinitionIndex = 44394;
+	inline static constexpr unsigned int BlendPosePerBoneBranchFilter_TypeDefinitionIndex = 40147;
 
 	struct alignas(8) BlendPosePerBoneBranchFilter
 	{

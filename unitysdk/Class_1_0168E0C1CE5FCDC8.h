@@ -8,19 +8,19 @@ class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0168E0C1CE5FCDC8_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xAEE4D30)
-#define CLASS_1_0168E0C1CE5FCDC8_FROMFLX_OFFSET UNITYSDK_OFFSET(0xAEE5060)
-#define CLASS_1_0168E0C1CE5FCDC8_METHOD_1_8F38D1E0FC0C448C_OFFSET UNITYSDK_OFFSET(0xAEE4D90)
-#define CLASS_1_0168E0C1CE5FCDC8_METHOD_1_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0xAEE50E0)
-#define CLASS_1_0168E0C1CE5FCDC8__CTOR_OFFSET UNITYSDK_OFFSET(0xAEE54A0)
+#define CLASS_1_0168E0C1CE5FCDC8_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x166AE040)
+#define CLASS_1_0168E0C1CE5FCDC8_FROMFLX_OFFSET UNITYSDK_OFFSET(0x166AE370)
+#define CLASS_1_0168E0C1CE5FCDC8_METHOD_1_8F38D1E0FC0C448C_OFFSET UNITYSDK_OFFSET(0x166AE0A0)
+#define CLASS_1_0168E0C1CE5FCDC8_METHOD_1_DF413489329CBAF8_OFFSET UNITYSDK_OFFSET(0x166AE3F0)
+#define CLASS_1_0168E0C1CE5FCDC8__CTOR_OFFSET UNITYSDK_OFFSET(0x166AE7B0)
 
-inline static constexpr unsigned int Class_1_0168E0C1CE5FCDC8_TypeDefinitionIndex = 40063;
+inline static constexpr unsigned int Class_1_0168E0C1CE5FCDC8_TypeDefinitionIndex = 49293;
 
 class Class_1_0168E0C1CE5FCDC8 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_1; // 0x10
-	::System::String* Field_1_0; // 0x18
+	::System::String* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -37,13 +37,13 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_1_0168E0C1CE5FCDC8_FROMFLX_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_8F38D1E0FC0C448C(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0168E0C1CE5FCDC8_METHOD_1_8F38D1E0FC0C448C_OFFSET))(this, a1, a2);
-	}
-
 	::System::Boolean Method_1_DF413489329CBAF8(::FlexBuffers::FlxMap a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_1_0168E0C1CE5FCDC8_METHOD_1_DF413489329CBAF8_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_8F38D1E0FC0C448C(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0168E0C1CE5FCDC8_METHOD_1_8F38D1E0FC0C448C_OFFSET))(this, a1, a2);
 	}
 };

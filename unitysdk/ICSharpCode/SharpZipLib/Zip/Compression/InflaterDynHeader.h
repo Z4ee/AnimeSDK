@@ -5,11 +5,11 @@
 namespace ICSharpCode::SharpZipLib::Zip::Compression { class InflaterHuffmanTree; }
 namespace ICSharpCode::SharpZipLib::Zip::Compression::Streams { class StreamManipulator; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER_BUILDDISTTREE_OFFSET UNITYSDK_OFFSET(0x1A84EDB0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER_BUILDLITLENTREE_OFFSET UNITYSDK_OFFSET(0x1A84ED30)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER_DECODE_OFFSET UNITYSDK_OFFSET(0x1A84E820)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A84EE30)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A84E810)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER_BUILDDISTTREE_OFFSET UNITYSDK_OFFSET(0x1B2C5F80)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER_BUILDLITLENTREE_OFFSET UNITYSDK_OFFSET(0x1B2C5F00)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER_DECODE_OFFSET UNITYSDK_OFFSET(0x1B2C59F0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2C6000)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERDYNHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C59E0)
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression
 {
@@ -18,15 +18,15 @@ namespace ICSharpCode::SharpZipLib::Zip::Compression
 	class InflaterDynHeader : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_repBits()
+		static ::Il2CppArray<::System::Int32>** StaticGet_repMin()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(InflaterDynHeader_TypeDefinitionIndex)->GetStaticField(0x5BD0);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_BL_ORDER()
+		static ::Il2CppArray<::System::Int32>** StaticGet_repBits()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(InflaterDynHeader_TypeDefinitionIndex)->GetStaticField(0x5BD8);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_repMin()
+		static ::Il2CppArray<::System::Int32>** StaticGet_BL_ORDER()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(InflaterDynHeader_TypeDefinitionIndex)->GetStaticField(0x5BE0);
 		}
@@ -37,16 +37,16 @@ namespace ICSharpCode::SharpZipLib::Zip::Compression
 		// static const ::System::Int32 LENS = 0x4; // 0x0
 		// static const ::System::Int32 REPS = 0x5; // 0x0
 		::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree* blTree; // 0x10
-		::Il2CppArray<::System::Byte>* blLens; // 0x18
-		::Il2CppArray<::System::Byte>* litdistLens; // 0x20
-		::System::Int32 mode; // 0x28
-		::System::Int32 dnum; // 0x2C
-		::System::Int32 lnum; // 0x30
-		::System::Int32 num; // 0x34
-		::System::Int32 repSymbol; // 0x38
-		::System::Int32 ptr; // 0x3C
+		::Il2CppArray<::System::Byte>* litdistLens; // 0x18
+		::Il2CppArray<::System::Byte>* blLens; // 0x20
+		::System::Int32 blnum; // 0x28
+		::System::Int32 mode; // 0x2C
+		::System::Int32 repSymbol; // 0x30
+		::System::Int32 dnum; // 0x34
+		::System::Int32 ptr; // 0x38
+		::System::Int32 lnum; // 0x3C
 		::System::Byte lastLen; // 0x40
-		::System::Int32 blnum; // 0x44
+		::System::Int32 num; // 0x44
 
 		::System::Void _ctor()
 		{

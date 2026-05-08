@@ -5,22 +5,22 @@
 namespace MoleMole { class UIMarcelNameWidgetController; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_0B94CD9F9343FE1E___C_METHOD_1_F6AB2B6B1590C935_OFFSET UNITYSDK_OFFSET(0x91C3950)
-#define CLASS_1_0B94CD9F9343FE1E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x91C3900)
-#define CLASS_1_0B94CD9F9343FE1E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x91C3940)
+#define CLASS_1_0B94CD9F9343FE1E___C_METHOD_1_F6AB2B6B1590C935_OFFSET UNITYSDK_OFFSET(0x12463C70)
+#define CLASS_1_0B94CD9F9343FE1E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12463C20)
+#define CLASS_1_0B94CD9F9343FE1E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12463C60)
 
-inline static constexpr unsigned int Class_1_0B94CD9F9343FE1E___c_TypeDefinitionIndex = 65491;
+inline static constexpr unsigned int Class_1_0B94CD9F9343FE1E___c_TypeDefinitionIndex = 68388;
 
 class Class_1_0B94CD9F9343FE1E___c : public ::System::Object
 {
 public:
 	static ::Class_1_0B94CD9F9343FE1E___c** StaticGet___9()
 	{
-		return (::Class_1_0B94CD9F9343FE1E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0B94CD9F9343FE1E___c_TypeDefinitionIndex)->GetStaticField(0x30990);
+		return (::Class_1_0B94CD9F9343FE1E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0B94CD9F9343FE1E___c_TypeDefinitionIndex)->GetStaticField(0x3BAD0);
 	}
 	static ::System::Predicate_1<::MoleMole::UIMarcelNameWidgetController*>** StaticGet___9__6_0()
 	{
-		return (::System::Predicate_1<::MoleMole::UIMarcelNameWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0B94CD9F9343FE1E___c_TypeDefinitionIndex)->GetStaticField(0x30998);
+		return (::System::Predicate_1<::MoleMole::UIMarcelNameWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0B94CD9F9343FE1E___c_TypeDefinitionIndex)->GetStaticField(0x3BAD8);
 	}
 
 	static ::System::Void _cctor()

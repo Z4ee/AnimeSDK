@@ -8,19 +8,19 @@ namespace MoleMole::Config { class ScenePerformConfig; }
 namespace MoleMole::FlowCanvas::Nodes { class LDLevelEndNode___c__DisplayClass18_0; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D2190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS18_1___TRYPLAYDYNAMICENDPERFORMS_B__0_OFFSET UNITYSDK_OFFSET(0xB5D21A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1540F7C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS18_1___TRYPLAYDYNAMICENDPERFORMS_B__0_OFFSET UNITYSDK_OFFSET(0x1540F7D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelEndNode___c__DisplayClass18_1_TypeDefinitionIndex = 68175;
+	inline static constexpr unsigned int LDLevelEndNode___c__DisplayClass18_1_TypeDefinitionIndex = 51719;
 
 	class LDLevelEndNode___c__DisplayClass18_1 : public ::System::Object
 	{
 	public:
 		::MoleMole::Config::ScenePerformConfig* scenePerformConfig; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode___c__DisplayClass18_0* CS___8__locals1; // 0x18
-		::Class_1_FC3A9C07FC781527* blackCurtain; // 0x20
+		::Class_1_FC3A9C07FC781527* blackCurtain; // 0x18
+		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode___c__DisplayClass18_0* CS___8__locals1; // 0x20
 		::System::Collections::Generic::List_1<::System::Int32>* performIDs; // 0x28
 
 		::System::Void _ctor()

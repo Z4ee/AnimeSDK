@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F57C3EEEB03201AF.h"
+#include "unitysdk/Class_1_F4299CC27263318B.h"
 
-template <typename T> class Class_0_16E4307DCC419505_118;
+template <typename T> class Class_0_16E4307DCC41950C_14;
 
-#define CLASS_2_94A48E46CF6A15AF_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x61FFA50)
-#define CLASS_2_94A48E46CF6A15AF__CTOR_OFFSET UNITYSDK_OFFSET(0x61FFAF0)
+#define CLASS_2_94A48E46CF6A15AF_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x111EB0B0)
+#define CLASS_2_94A48E46CF6A15AF__CTOR_OFFSET UNITYSDK_OFFSET(0x111EB130)
 
-inline static constexpr unsigned int Class_2_94A48E46CF6A15AF_TypeDefinitionIndex = 40193;
+inline static constexpr unsigned int Class_2_94A48E46CF6A15AF_TypeDefinitionIndex = 49081;
 
-class Class_2_94A48E46CF6A15AF : public ::Class_1_F57C3EEEB03201AF
+class Class_2_94A48E46CF6A15AF : public ::Class_1_F4299CC27263318B
 {
 public:
-	::Class_0_16E4307DCC419505_118<::System::Int32>* Field_2_0; // 0x60
+	::Class_0_16E4307DCC41950C_14<::System::Int32>* Field_2_0; // 0x70
 
 	::System::Void _ctor()
 	{

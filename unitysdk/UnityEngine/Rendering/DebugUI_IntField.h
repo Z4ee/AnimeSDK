@@ -4,21 +4,21 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_INTFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x18A438F0)
-#define UNITYENGINE_RENDERING_DEBUGUI_INTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18A43990)
-#define UNITYENGINE_RENDERING_DEBUGUI_INTFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x18A439A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_INTFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x191F58C0)
+#define UNITYENGINE_RENDERING_DEBUGUI_INTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x191F5960)
+#define UNITYENGINE_RENDERING_DEBUGUI_INTFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x191F5970)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_IntField_TypeDefinitionIndex = 9542;
+	inline static constexpr unsigned int DebugUI_IntField_TypeDefinitionIndex = 9553;
 
 	class DebugUI_IntField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::Int32>
 	{
 	public:
-		::System::Func_1<::System::Int32>* max; // 0x50
-		::System::Func_1<::System::Int32>* min; // 0x58
-		::System::Int32 incStep; // 0x60
-		::System::Int32 intStepMult; // 0x64
+		::System::Func_1<::System::Int32>* min; // 0x50
+		::System::Func_1<::System::Int32>* max; // 0x58
+		::System::Int32 intStepMult; // 0x60
+		::System::Int32 incStep; // 0x64
 
 		::System::Void _ctor()
 		{

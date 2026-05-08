@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFOODTRUCKPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA934AF0)
+#define MOLEMOLE_UIFOODTRUCKPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x149D1CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodTruckPageContext_TypeDefinitionIndex = 75268;
+	inline static constexpr unsigned int UIFoodTruckPageContext_TypeDefinitionIndex = 53521;
 
 	class UIFoodTruckPageContext : public ::MoleMole::UIControllerContextBase
 	{

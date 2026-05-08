@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FreeCam_RotationAxes_TypeDefinitionIndex = 66760;
+inline static constexpr unsigned int FreeCam_RotationAxes_TypeDefinitionIndex = 71387;
 
 enum class FreeCam_RotationAxes : ::System::Int32
 {
-	MouseXAndY = 0,
 	MouseX = 1,
+	MouseXAndY = 0,
 	MouseY = 2,
 };

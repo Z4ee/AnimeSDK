@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ComputeShader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E5A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF7EFE60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassCommonConfig_TypeDefinitionIndex = 29704;
+	inline static constexpr unsigned int GPUGrassCommonConfig_TypeDefinitionIndex = 30232;
 
 	class GPUGrassCommonConfig : public ::UnityEngine::ScriptableObject
 	{

@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Trigger_5_TypeDefinitionIndex = 8151;
+	inline static constexpr unsigned int Trigger_5_TypeDefinitionIndex = 7957;
 
 	template <typename Key, typename T1, typename T2, typename T3, typename T4>
 	class Trigger_5 : public ::Foundation::TriggerBase_2<Key, ::System::Action_4<T1, T2, T3, T4>*>

@@ -4,21 +4,21 @@
 #include "unitysdk/Struct_2_A85DD0CF7A2118D1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 class Class_5_AF65C3A968E836D2;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C_METHOD_1_50AE1B79B340F141_OFFSET UNITYSDK_OFFSET(0xB553580)
-#define CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C__CTOR_OFFSET UNITYSDK_OFFSET(0xB553570)
+#define CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C_METHOD_1_50AE1B79B340F141_OFFSET UNITYSDK_OFFSET(0xDAFC8D0)
+#define CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C__CTOR_OFFSET UNITYSDK_OFFSET(0xDAFC8C0)
 
-inline static constexpr unsigned int Class_5_12295D592E32B8BA_Class_1_EF2C6B724F58234C_TypeDefinitionIndex = 42040;
+inline static constexpr unsigned int Class_5_12295D592E32B8BA_Class_1_EF2C6B724F58234C_TypeDefinitionIndex = 37974;
 
 class Class_5_12295D592E32B8BA_Class_1_EF2C6B724F58234C : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::Struct_2_A85DD0CF7A2118D1>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::Struct_2_A85DD0CF7A2118D1>* Field_1_2; // 0x18
 	::Class_5_AF65C3A968E836D2* Field_1_0; // 0x20
 
 	::System::Void _ctor()
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_50AE1B79B340F141(::Class_5_0B648F1F8F6AC84A* a1)
+	::System::Boolean Method_1_50AE1B79B340F141(::Class_5_A6F8D19602712D95* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*))((::PBYTE)hIl2Cpp + CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C_METHOD_1_50AE1B79B340F141_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_5_A6F8D19602712D95*))((::PBYTE)hIl2Cpp + CLASS_5_12295D592E32B8BA_CLASS_1_EF2C6B724F58234C_METHOD_1_50AE1B79B340F141_OFFSET))(this, a1);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController_EStickType_TypeDefinitionIndex = 73438;
+	inline static constexpr unsigned int UIMindscapeWidgetController_EStickType_TypeDefinitionIndex = 38781;
 
 	enum class UIMindscapeWidgetController_EStickType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIHadalZoneLayer_RankingRowWidgetController; }
 
-#define MOLEMOLE_UILEVEL_HADALRESULT_POPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE26640)
-#define MOLEMOLE_UILEVEL_HADALRESULT_POPWINDOWCONTROLLER___C__DISPLAYCLASS8_0___ON_CUSTOMUI_DELAY_MESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0xBE26650)
+#define MOLEMOLE_UILEVEL_HADALRESULT_POPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C49E60)
+#define MOLEMOLE_UILEVEL_HADALRESULT_POPWINDOWCONTROLLER___C__DISPLAYCLASS8_0___ON_CUSTOMUI_DELAY_MESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15C49E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevel_HadalResult_PopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 61235;
+	inline static constexpr unsigned int UILevel_HadalResult_PopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 60183;
 
 	class UILevel_HadalResult_PopWindowController___c__DisplayClass8_0 : public ::System::Object
 	{

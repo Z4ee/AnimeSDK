@@ -5,12 +5,12 @@
 namespace NodeCanvas::DialogueTrees::UI::Examples { class DialogueUGUI___c__DisplayClass29_0; }
 namespace UnityEngine::UI { class Button; }
 
-#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI___C__DISPLAYCLASS29_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65C4E0)
-#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI___C__DISPLAYCLASS29_1__ONMULTIPLECHOICEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1A65C4F0)
+#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI___C__DISPLAYCLASS29_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4221B0)
+#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI___C__DISPLAYCLASS29_1__ONMULTIPLECHOICEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1B4221C0)
 
 namespace NodeCanvas::DialogueTrees::UI::Examples
 {
-	inline static constexpr unsigned int DialogueUGUI___c__DisplayClass29_1_TypeDefinitionIndex = 26524;
+	inline static constexpr unsigned int DialogueUGUI___c__DisplayClass29_1_TypeDefinitionIndex = 27372;
 
 	class DialogueUGUI___c__DisplayClass29_1 : public ::System::Object
 	{

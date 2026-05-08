@@ -8,17 +8,17 @@
 namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_8FB027E4F0CF7ACD_CLASS_1_6DB5F9A55F79A92B_METHOD_1_68D3C9BCD843A33F_OFFSET UNITYSDK_OFFSET(0xB2E1100)
-#define CLASS_1_8FB027E4F0CF7ACD_CLASS_1_6DB5F9A55F79A92B__CTOR_OFFSET UNITYSDK_OFFSET(0xB2E10F0)
+#define CLASS_1_8FB027E4F0CF7ACD_CLASS_1_6DB5F9A55F79A92B_METHOD_1_68D3C9BCD843A33F_OFFSET UNITYSDK_OFFSET(0x11BBB240)
+#define CLASS_1_8FB027E4F0CF7ACD_CLASS_1_6DB5F9A55F79A92B__CTOR_OFFSET UNITYSDK_OFFSET(0x11BBB230)
 
-inline static constexpr unsigned int Class_1_8FB027E4F0CF7ACD_Class_1_6DB5F9A55F79A92B_TypeDefinitionIndex = 40296;
+inline static constexpr unsigned int Class_1_8FB027E4F0CF7ACD_Class_1_6DB5F9A55F79A92B_TypeDefinitionIndex = 51225;
 
 class Class_1_8FB027E4F0CF7ACD_Class_1_6DB5F9A55F79A92B : public ::System::Object
 {
 public:
 	::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>* Field_1_1; // 0x10
-	::UnityEngine::LayerMask Field_1_0; // 0x18
-	::System::Single Field_1_3; // 0x1C
+	::System::Single Field_1_3; // 0x18
+	::UnityEngine::LayerMask Field_1_0; // 0x1C
 	::System::Single Field_1_2; // 0x20
 
 	::System::Void _ctor()

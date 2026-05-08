@@ -6,24 +6,24 @@
 
 namespace System { class String; }
 
-#define CLASS_1_207C741E4BA7C817_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD5D84E0)
-#define CLASS_1_207C741E4BA7C817__CTOR_OFFSET UNITYSDK_OFFSET(0xD5D8360)
+#define CLASS_1_207C741E4BA7C817_COMPARETO_OFFSET UNITYSDK_OFFSET(0xFD50170)
+#define CLASS_1_207C741E4BA7C817__CTOR_OFFSET UNITYSDK_OFFSET(0xFD4FFF0)
 
-inline static constexpr unsigned int Class_1_207C741E4BA7C817_TypeDefinitionIndex = 73000;
+inline static constexpr unsigned int Class_1_207C741E4BA7C817_TypeDefinitionIndex = 52252;
 
 class Class_1_207C741E4BA7C817 : public ::System::Object
 {
 public:
 	::System::String* Field_1_8; // 0x10
 	::System::String* Field_1_7; // 0x18
-	::System::String* Field_1_9; // 0x20
-	::System::String* Field_1_6; // 0x28
-	::Enum_3_DADEC6F00CA21198 Field_1_3; // 0x30
+	::System::String* Field_1_6; // 0x20
+	::System::String* Field_1_9; // 0x28
+	::System::Single Field_1_1; // 0x30
 	::System::Single Field_1_5; // 0x34
-	::System::Int32 Field_1_2; // 0x38
-	::System::Single Field_1_1; // 0x3C
-	::System::Int32 Field_1_4; // 0x40
-	::MoleMole::CinemaSingleBeatMapConfig_BeatMap_BeatItem Field_1_0; // 0x44
+	::System::Int32 Field_1_4; // 0x38
+	::System::Int32 Field_1_2; // 0x3C
+	::MoleMole::CinemaSingleBeatMapConfig_BeatMap_BeatItem Field_1_0; // 0x40
+	::Enum_3_DADEC6F00CA21198 Field_1_3; // 0x50
 
 	::System::Void _ctor(::MoleMole::CinemaSingleBeatMapConfig_BeatMap_BeatItem a1, ::System::Single a2, ::System::Int32 a3, ::Enum_3_DADEC6F00CA21198 a4, ::System::Int32 a5, ::System::Single a6)
 	{

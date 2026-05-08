@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_5;
+class Class_0_16E4307DCC419505_11;
 namespace MoleMole { class UIMainCityRevivalPageController; }
 
-#define MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x984E820)
-#define MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__REFRESHDATA_B__0_OFFSET UNITYSDK_OFFSET(0x984E830)
+#define MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4C730)
+#define MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__REFRESHDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15D4C740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRevivalPageController___c__DisplayClass26_0_TypeDefinitionIndex = 71999;
+	inline static constexpr unsigned int UIMainCityRevivalPageController___c__DisplayClass26_0_TypeDefinitionIndex = 65234;
 
 	class UIMainCityRevivalPageController___c__DisplayClass26_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RefreshData_b__0(::Class_0_16E4307DCC419505_5* message)
+		::System::Void _RefreshData_b__0(::Class_0_16E4307DCC419505_11* message)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__REFRESHDATA_B__0_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_11*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYREVIVALPAGECONTROLLER___C__DISPLAYCLASS26_0__REFRESHDATA_B__0_OFFSET))(this, message);
 		}
 	};
 }

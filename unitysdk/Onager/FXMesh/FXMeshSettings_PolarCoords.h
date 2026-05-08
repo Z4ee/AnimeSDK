@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ONAGER_FXMESH_FXMESHSETTINGS_POLARCOORDS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x98D200)
-#define ONAGER_FXMESH_FXMESHSETTINGS_POLARCOORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x2F3C30)
+#define ONAGER_FXMESH_FXMESHSETTINGS_POLARCOORDS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9CC010)
+#define ONAGER_FXMESH_FXMESHSETTINGS_POLARCOORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x293FB0)
 
 namespace Onager::FXMesh
 {
-	inline static constexpr unsigned int FXMeshSettings_PolarCoords_TypeDefinitionIndex = 35903;
+	inline static constexpr unsigned int FXMeshSettings_PolarCoords_TypeDefinitionIndex = 36447;
 
 	struct alignas(4) FXMeshSettings_PolarCoords
 	{

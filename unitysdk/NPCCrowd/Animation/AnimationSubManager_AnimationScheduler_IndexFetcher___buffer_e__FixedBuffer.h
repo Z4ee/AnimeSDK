@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_IndexFetcher___buffer_e__FixedBuffer_TypeDefinitionIndex = 59671;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_IndexFetcher___buffer_e__FixedBuffer_TypeDefinitionIndex = 70435;
 
 	struct alignas(4) AnimationSubManager_AnimationScheduler_IndexFetcher___buffer_e__FixedBuffer
 	{

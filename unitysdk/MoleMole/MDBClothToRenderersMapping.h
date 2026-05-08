@@ -3,27 +3,27 @@
 #include "unitysdk/MoleMole/MDBClothToRenderersMapping_Struct_2_5D4D097EFCB9C87F_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_320D01457FBD007D;
+class Class_1_BD9D7FEFB6D77718;
 namespace MoleMole { class ClothToRenderersDataDic; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MdbComponent; }
 
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHEVISIBILITYCHANGEANDCALCULATE_OFFSET UNITYSDK_OFFSET(0xB8B5070)
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHE_OFFSET UNITYSDK_OFFSET(0xB8B4790)
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_GET_MDBCOMPONENT_OFFSET UNITYSDK_OFFSET(0xB8B4620)
-#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B55A0)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHEVISIBILITYCHANGEANDCALCULATE_OFFSET UNITYSDK_OFFSET(0x16E5D3E0)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_CACHE_OFFSET UNITYSDK_OFFSET(0x16E5CB70)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING_GET_MDBCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16E5C9B0)
+#define MOLEMOLE_MDBCLOTHTORENDERERSMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16E5D8E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MDBClothToRenderersMapping_TypeDefinitionIndex = 80096;
+	inline static constexpr unsigned int MDBClothToRenderersMapping_TypeDefinitionIndex = 80068;
 
 	class MDBClothToRenderersMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::MdbComponent* Field_5_0; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_320D01457FBD007D*>* MdbClothIndexToRenderersState; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_BD9D7FEFB6D77718*>* MdbClothIndexToRenderersState; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* RendererInstanceIDToClothIndices; // 0x28
 		::MoleMole::ClothToRenderersDataDic* Data; // 0x30
 

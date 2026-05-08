@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessShowUIView_CanvasRTParams_TypeDefinitionIndex = 50254;
+	inline static constexpr unsigned int ChessShowUIView_CanvasRTParams_TypeDefinitionIndex = 78961;
 
 	struct alignas(8) ChessShowUIView_CanvasRTParams
 	{

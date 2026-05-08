@@ -6,30 +6,30 @@
 
 namespace UnityEngine::Rendering::Universal { class ISunShadowPVSProvider; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_REGISTER_OFFSET UNITYSDK_OFFSET(0x189FB880)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_SETUPCULLINGPARAMETER_OFFSET UNITYSDK_OFFSET(0x189FBA20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x189FB8F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_UPDATEMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x189FB990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x189FBB50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_REGISTER_OFFSET UNITYSDK_OFFSET(0x19AC6AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_SETUPCULLINGPARAMETER_OFFSET UNITYSDK_OFFSET(0x19AC6CB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x19AC6B30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER_UPDATEMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x19AC6C00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SUNSHADOWPVSPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AC6E00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SunShadowPVSProvider_TypeDefinitionIndex = 29702;
+	inline static constexpr unsigned int SunShadowPVSProvider_TypeDefinitionIndex = 30230;
 
 	class SunShadowPVSProvider : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::ISunShadowPVSProvider** StaticGet_provider()
 		{
-			return (::UnityEngine::Rendering::Universal::ISunShadowPVSProvider**)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSProvider_TypeDefinitionIndex)->GetStaticField(0x231E0);
+			return (::UnityEngine::Rendering::Universal::ISunShadowPVSProvider**)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSProvider_TypeDefinitionIndex)->GetStaticField(0x23D60);
 		}
 		static ::UnityEngine::Vector3* StaticGet_mainLightDir()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSProvider_TypeDefinitionIndex)->GetStaticField(0x6640);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSProvider_TypeDefinitionIndex)->GetStaticField(0x66B0);
 		}
 		static ::System::Boolean* StaticGet_Enable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSProvider_TypeDefinitionIndex)->GetStaticField(0x664C);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SunShadowPVSProvider_TypeDefinitionIndex)->GetStaticField(0x66BC);
 		}
 
 		static ::System::Void _cctor()

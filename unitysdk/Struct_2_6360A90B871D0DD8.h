@@ -3,15 +3,15 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_6360A90B871D0DD8__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAC9010)
+#define STRUCT_2_6360A90B871D0DD8__CCTOR_OFFSET UNITYSDK_OFFSET(0x128B5470)
 
-inline static constexpr unsigned int Struct_2_6360A90B871D0DD8_TypeDefinitionIndex = 74094;
+inline static constexpr unsigned int Struct_2_6360A90B871D0DD8_TypeDefinitionIndex = 77095;
 
 struct alignas(4) Struct_2_6360A90B871D0DD8
 {
 	static ::Struct_2_6360A90B871D0DD8* StaticGet_Field_2_3()
 	{
-		return (::Struct_2_6360A90B871D0DD8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6360A90B871D0DD8_TypeDefinitionIndex)->GetStaticField(0xD3C0);
+		return (::Struct_2_6360A90B871D0DD8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6360A90B871D0DD8_TypeDefinitionIndex)->GetStaticField(0xCA90);
 	}
 	::System::Boolean Field_2_0; // 0x10
 	::System::Boolean Field_2_1; // 0x11

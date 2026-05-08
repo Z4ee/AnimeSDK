@@ -8,17 +8,17 @@ class PhotoFrame;
 namespace MoleMole { class PhotoFrameRender; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_841BB7283C5EE854_STRUCT_2_873540E0926A7F35_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x357870)
-#define CLASS_1_841BB7283C5EE854_STRUCT_2_873540E0926A7F35_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_1_841BB7283C5EE854_STRUCT_2_873540E0926A7F35_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x5DE700)
+#define CLASS_1_841BB7283C5EE854_STRUCT_2_873540E0926A7F35_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_1_841BB7283C5EE854_Struct_2_873540E0926A7F35_TypeDefinitionIndex = 72892;
+inline static constexpr unsigned int Class_1_841BB7283C5EE854_Struct_2_873540E0926A7F35_TypeDefinitionIndex = 46415;
 
 struct alignas(8) Class_1_841BB7283C5EE854_Struct_2_873540E0926A7F35
 {
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::MoleMole::PhotoFrameRender*> Field_2_1; // 0x10
-	::PhotoFrame* Field_2_2; // 0x28
-	::MoleMole::PhotoFrameRender* Field_2_3; // 0x30
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_4; // 0x38
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_4; // 0x10
+	::MoleMole::PhotoFrameRender* Field_2_3; // 0x20
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::MoleMole::PhotoFrameRender*> Field_2_1; // 0x28
+	::PhotoFrame* Field_2_2; // 0x40
 	::System::Int32 Field_2_0; // 0x48
 
 	::System::Void MoveNext()

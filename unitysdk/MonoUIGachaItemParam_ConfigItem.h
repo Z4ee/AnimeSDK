@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define MONOUIGACHAITEMPARAM_CONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x7927B10)
+#define MONOUIGACHAITEMPARAM_CONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF645DA0)
 
-inline static constexpr unsigned int MonoUIGachaItemParam_ConfigItem_TypeDefinitionIndex = 76037;
+inline static constexpr unsigned int MonoUIGachaItemParam_ConfigItem_TypeDefinitionIndex = 77261;
 
 class MonoUIGachaItemParam_ConfigItem : public ::System::Object
 {

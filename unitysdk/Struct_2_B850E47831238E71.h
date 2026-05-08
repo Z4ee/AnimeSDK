@@ -7,12 +7,12 @@
 namespace MoleMole { class UIAvatarLightSetting; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define STRUCT_2_B850E47831238E71_METHOD_2_23EC84018340F48F_OFFSET UNITYSDK_OFFSET(0x3236D0)
-#define STRUCT_2_B850E47831238E71_METHOD_2_570C5557A774C69E_OFFSET UNITYSDK_OFFSET(0x3236F0)
-#define STRUCT_2_B850E47831238E71_METHOD_2_AB7FA3C3A4CF154D_OFFSET UNITYSDK_OFFSET(0x3236E0)
-#define STRUCT_2_B850E47831238E71_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x3076B0)
+#define STRUCT_2_B850E47831238E71_METHOD_2_23EC84018340F48F_OFFSET UNITYSDK_OFFSET(0x580790)
+#define STRUCT_2_B850E47831238E71_METHOD_2_570C5557A774C69E_OFFSET UNITYSDK_OFFSET(0x580710)
+#define STRUCT_2_B850E47831238E71_METHOD_2_AB7FA3C3A4CF154D_OFFSET UNITYSDK_OFFSET(0x580700)
+#define STRUCT_2_B850E47831238E71_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x5806F0)
 
-inline static constexpr unsigned int Struct_2_B850E47831238E71_TypeDefinitionIndex = 67487;
+inline static constexpr unsigned int Struct_2_B850E47831238E71_TypeDefinitionIndex = 77973;
 
 struct alignas(8) Struct_2_B850E47831238E71
 {
@@ -23,9 +23,9 @@ struct alignas(8) Struct_2_B850E47831238E71
 	::UnityEngine::Vector2 Field_2_4; // 0x24
 	::UnityEngine::AnimationCurve* Field_2_5; // 0x30
 
-	::UnityEngine::Vector2 Method_2_23EC84018340F48F(::System::Single a1, ::UnityEngine::Vector2 a2)
+	::System::Boolean Method_2_F0088C88851A7DFB()
 	{
-		return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + STRUCT_2_B850E47831238E71_METHOD_2_23EC84018340F48F_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B850E47831238E71_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
 	}
 
 	::UnityEngine::Vector2 Method_2_AB7FA3C3A4CF154D(::MoleMole::UIAvatarLightSetting* a1, ::UnityEngine::Vector2 a2)
@@ -33,13 +33,13 @@ struct alignas(8) Struct_2_B850E47831238E71
 		return ((::UnityEngine::Vector2(*)(::PVOID, ::MoleMole::UIAvatarLightSetting*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + STRUCT_2_B850E47831238E71_METHOD_2_AB7FA3C3A4CF154D_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_F0088C88851A7DFB()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B850E47831238E71_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
-	}
-
 	::System::Single Method_2_570C5557A774C69E(::System::Single a1)
 	{
 		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_B850E47831238E71_METHOD_2_570C5557A774C69E_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Vector2 Method_2_23EC84018340F48F(::System::Single a1, ::UnityEngine::Vector2 a2)
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + STRUCT_2_B850E47831238E71_METHOD_2_23EC84018340F48F_OFFSET))(this, a1, a2);
 	}
 };

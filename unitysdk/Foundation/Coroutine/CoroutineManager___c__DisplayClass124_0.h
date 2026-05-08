@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class WWW; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B433DA0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS124_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1B433DB0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A74E0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS124_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1C1A74F0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass124_0_TypeDefinitionIndex = 7834;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass124_0_TypeDefinitionIndex = 7846;
 
 	class CoroutineManager___c__DisplayClass124_0 : public ::System::Object
 	{

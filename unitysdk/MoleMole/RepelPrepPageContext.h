@@ -5,18 +5,18 @@
 
 class Class_1_A13822D5BC2AB737;
 
-#define MOLEMOLE_REPELPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9852680)
+#define MOLEMOLE_REPELPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11780990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RepelPrepPageContext_TypeDefinitionIndex = 77246;
+	inline static constexpr unsigned int RepelPrepPageContext_TypeDefinitionIndex = 53434;
 
 	class RepelPrepPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_1_A13822D5BC2AB737* data; // 0x28
-		::System::Boolean disableAutoOpenLevelInfo; // 0x30
-		::UnityEngine::Vector2 focusDir; // 0x34
+		::UnityEngine::Vector2 focusDir; // 0x30
+		::System::Boolean disableAutoOpenLevelInfo; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_DISTORTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB9391B0)
-#define MOLEMOLE_TIMELINE_DISTORTIONTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xB939480)
-#define MOLEMOLE_TIMELINE_DISTORTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB939450)
+#define MOLEMOLE_TIMELINE_DISTORTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15862000)
+#define MOLEMOLE_TIMELINE_DISTORTIONTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x158622B0)
+#define MOLEMOLE_TIMELINE_DISTORTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15862250)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int DistortionTrack_TypeDefinitionIndex = 68344;
+	inline static constexpr unsigned int DistortionTrack_TypeDefinitionIndex = 69479;
 
 	class DistortionTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_DISTORTIONTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_DISTORTIONTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_DISTORTIONTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

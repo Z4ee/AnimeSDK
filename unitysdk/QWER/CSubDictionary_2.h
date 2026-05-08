@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace QWER
 {
-	inline static constexpr unsigned int CSubDictionary_2_TypeDefinitionIndex = 9673;
+	inline static constexpr unsigned int CSubDictionary_2_TypeDefinitionIndex = 9684;
 
 	template <typename TKey, typename TValue>
 	class CSubDictionary_2 : public ::System::Object

@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_ShootingPlayFinish; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x75883F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH___C__DISPLAYCLASS2_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x7588400)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149A0020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH___C__DISPLAYCLASS2_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x149A0030)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ShootingPlayFinish___c__DisplayClass2_0_TypeDefinitionIndex = 61129;
+	inline static constexpr unsigned int LD_ShootingPlayFinish___c__DisplayClass2_0_TypeDefinitionIndex = 81928;
 
 	class LD_ShootingPlayFinish___c__DisplayClass2_0 : public ::System::Object
 	{

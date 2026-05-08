@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoRenderEntity_UVSet_TypeDefinitionIndex = 29050;
+inline static constexpr unsigned int MonoRenderEntity_UVSet_TypeDefinitionIndex = 29569;
 
 enum class MonoRenderEntity_UVSet : ::System::Int32
 {

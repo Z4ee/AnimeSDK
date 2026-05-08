@@ -1,0 +1,160 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_2_79F6D62CE30E3F8E_48;
+namespace MoleMole { class UIBangkovSplitPopWindowController_Context; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace UnityEngine::UI { class Image; }
+
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x12B6BC50)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONCONFIRM_OFFSET UNITYSDK_OFFSET(0x16C95C80)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x12B6BC60)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x16C94880)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x12B6C100)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSLIDERADD_OFFSET UNITYSDK_OFFSET(0x16C95B40)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSLIDERREDUCE_OFFSET UNITYSDK_OFFSET(0x16C95BE0)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSLIDERVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x16C95A20)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x12B6C1C0)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x12B6BCF0)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_REFRESHITEMINFO_OFFSET UNITYSDK_OFFSET(0x16C95150)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_REFRESHSLIDERUI_OFFSET UNITYSDK_OFFSET(0x16C95910)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x16C94A40)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_SETSLIDER_OFFSET UNITYSDK_OFFSET(0x16C955B0)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C95D70)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER__ONUIINIT_B__10_0_OFFSET UNITYSDK_OFFSET(0x16C95D90)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER__REFRESHVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0x16C95DA0)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16C95DB0)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x16C95E40)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x16C95E70)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16C95E80)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x16C95E90)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangkovSplitPopWindowController_TypeDefinitionIndex = 73492;
+
+	class UIBangkovSplitPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		::Class_2_79F6D62CE30E3F8E_48* _view; // 0x310
+		::MoleMole::UIBangkovSplitPopWindowController_Context* _context; // 0x318
+		::UnityEngine::UI::Image* _sliderHandleImage; // 0x320
+		::System::Int32 _curValue; // 0x328
+		::System::Int32 _minValue; // 0x32C
+		::System::Int32 _maxValue; // 0x330
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void RefreshItemInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_REFRESHITEMINFO_OFFSET))(this);
+		}
+
+		::System::Void SetSlider(::System::Int32 min, ::System::Int32 max)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_SETSLIDER_OFFSET))(this, min, max);
+		}
+
+		::System::Void OnSliderValueChanged(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSLIDERVALUECHANGED_OFFSET))(this, value);
+		}
+
+		::System::Void OnSliderAdd()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSLIDERADD_OFFSET))(this);
+		}
+
+		::System::Void OnSliderReduce()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONSLIDERREDUCE_OFFSET))(this);
+		}
+
+		::System::Void RefreshSliderUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_REFRESHSLIDERUI_OFFSET))(this);
+		}
+
+		::System::Void OnConfirm()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_ONCONFIRM_OFFSET))(this);
+		}
+
+		::System::Void _OnUIInit_b__10_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER__ONUIINIT_B__10_0_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__14_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER__REFRESHVIEW_B__14_0_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

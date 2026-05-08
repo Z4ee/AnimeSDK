@@ -5,11 +5,11 @@
 namespace MoleMole { class ItemRarityBgColor; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_ITEMRARITYCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x75A6280)
+#define MOLEMOLE_ITEMRARITYCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x12F935E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ItemRarityConfigs_TypeDefinitionIndex = 51570;
+	inline static constexpr unsigned int ItemRarityConfigs_TypeDefinitionIndex = 69181;
 
 	class ItemRarityConfigs : public ::System::Object
 	{

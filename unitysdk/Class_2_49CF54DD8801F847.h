@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_7FD0C6F4D0CF0F96.h"
+
+class Class_1_156BE44D1D984E46;
+namespace MoleMole::Config { class PhotoCameraModeOverride; }
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_2_49CF54DD8801F847_METHOD_2_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x1786FD70)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x17870020)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x17870120)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_1ABE634E489C2299_OFFSET UNITYSDK_OFFSET(0x1786FD10)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x1786FF80)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_4D10873DB5CC58E4_OFFSET UNITYSDK_OFFSET(0x178700F0)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0x17870100)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_9CA5A80F6B5B9E01_OFFSET UNITYSDK_OFFSET(0x17870110)
+#define CLASS_2_49CF54DD8801F847_METHOD_2_BA0CFC6A675C2791_OFFSET UNITYSDK_OFFSET(0x17870070)
+#define CLASS_2_49CF54DD8801F847__CTOR_OFFSET UNITYSDK_OFFSET(0x178700E0)
+
+inline static constexpr unsigned int Class_2_49CF54DD8801F847_TypeDefinitionIndex = 52088;
+
+class Class_2_49CF54DD8801F847 : public ::Class_1_7FD0C6F4D0CF0F96
+{
+public:
+	::System::String* Field_2_0; // 0x18
+	::UnityEngine::GameObject* Field_2_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1ABE634E489C2299(::Class_1_156BE44D1D984E46* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_156BE44D1D984E46*))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_1ABE634E489C2299_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_10054BB010E03EDD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_10054BB010E03EDD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BA0CFC6A675C2791(::MoleMole::Config::PhotoCameraModeOverride* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::PhotoCameraModeOverride*))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_BA0CFC6A675C2791_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_4D10873DB5CC58E4(::UnityEngine::GameObject* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_4D10873DB5CC58E4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_33ACA6CB2ABC73F7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_33ACA6CB2ABC73F7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_0FD0EC313FAAB75A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_0FD0EC313FAAB75A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7D201B4343E63821(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_7D201B4343E63821_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::GameObject* Method_2_9CA5A80F6B5B9E01()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_9CA5A80F6B5B9E01_OFFSET))(this);
+	}
+
+	::System::String* Method_2_126AB3935214AA22()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49CF54DD8801F847_METHOD_2_126AB3935214AA22_OFFSET))(this);
+	}
+};

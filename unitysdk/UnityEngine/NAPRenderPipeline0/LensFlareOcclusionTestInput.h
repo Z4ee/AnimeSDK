@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LensFlareOcclusionTestInput_TypeDefinitionIndex = 24183;
+	inline static constexpr unsigned int LensFlareOcclusionTestInput_TypeDefinitionIndex = 24696;
 
 	struct alignas(4) LensFlareOcclusionTestInput
 	{

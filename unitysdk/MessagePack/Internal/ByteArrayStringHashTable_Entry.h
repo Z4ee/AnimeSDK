@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MESSAGEPACK_INTERNAL_BYTEARRAYSTRINGHASHTABLE_ENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x933B40)
+#define MESSAGEPACK_INTERNAL_BYTEARRAYSTRINGHASHTABLE_ENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x96B180)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ByteArrayStringHashTable_Entry_TypeDefinitionIndex = 27326;
+	inline static constexpr unsigned int ByteArrayStringHashTable_Entry_TypeDefinitionIndex = 26793;
 
 	struct alignas(8) ByteArrayStringHashTable_Entry
 	{

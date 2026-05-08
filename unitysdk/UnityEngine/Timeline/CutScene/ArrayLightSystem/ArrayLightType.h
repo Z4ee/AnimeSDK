@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline::CutScene::ArrayLightSystem
 {
-	inline static constexpr unsigned int ArrayLightType_TypeDefinitionIndex = 30374;
+	inline static constexpr unsigned int ArrayLightType_TypeDefinitionIndex = 30903;
 
 	enum class ArrayLightType : ::System::Int32
 	{

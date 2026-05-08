@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_C9A08F2A8603B39E;
+namespace MoleMole { class UIUrbanMapRightWidgetController; }
+
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_1C69C4858084D1D2_3_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x15488CC0)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_1C69C4858084D1D2_3__CTOR_OFFSET UNITYSDK_OFFSET(0x15488CB0)
+
+inline static constexpr unsigned int Class_2_C9A08F2A8603B39E_Class_1_1C69C4858084D1D2_3_TypeDefinitionIndex = 51670;
+
+class Class_2_C9A08F2A8603B39E_Class_1_1C69C4858084D1D2_3 : public ::System::Object
+{
+public:
+	::Class_2_C9A08F2A8603B39E* Field_1_1; // 0x10
+	::MoleMole::UIUrbanMapRightWidgetController* Field_1_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_1C69C4858084D1D2_3__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_1C69C4858084D1D2_3_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+};

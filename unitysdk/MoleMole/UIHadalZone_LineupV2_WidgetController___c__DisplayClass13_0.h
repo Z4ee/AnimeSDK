@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHadalZone_LineupV2_WidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FB870)
-#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__DISPLAYCLASS13_0___CLOSEPREV_RANKINGWIDGETS_B__0_OFFSET UNITYSDK_OFFSET(0xB0FB880)
+#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB5790)
+#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__DISPLAYCLASS13_0___CLOSEPREV_RANKINGWIDGETS_B__0_OFFSET UNITYSDK_OFFSET(0x14FB57A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LineupV2_WidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 58801;
+	inline static constexpr unsigned int UIHadalZone_LineupV2_WidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 49102;
 
 	class UIHadalZone_LineupV2_WidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action* finish; // 0x10
-		::System::Action* __9__0; // 0x18
+		::System::Action* __9__0; // 0x10
+		::System::Action* finish; // 0x18
 		::MoleMole::UIHadalZone_LineupV2_WidgetController* __4__this; // 0x20
 
 		::System::Void _ctor()

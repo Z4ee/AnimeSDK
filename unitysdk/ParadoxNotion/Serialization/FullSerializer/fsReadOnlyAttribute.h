@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSREADONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A56FC20)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSREADONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B333580)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsReadOnlyAttribute_TypeDefinitionIndex = 27123;
+	inline static constexpr unsigned int fsReadOnlyAttribute_TypeDefinitionIndex = 27889;
 
 	class fsReadOnlyAttribute : public ::System::Attribute
 	{

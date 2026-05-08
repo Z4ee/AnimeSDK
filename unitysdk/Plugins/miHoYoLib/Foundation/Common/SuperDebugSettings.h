@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define PLUGINS_MIHOYOLIB_FOUNDATION_COMMON_SUPERDEBUGSETTINGS_GET_SETTING_OFFSET UNITYSDK_OFFSET(0x19780740)
-#define PLUGINS_MIHOYOLIB_FOUNDATION_COMMON_SUPERDEBUGSETTINGS_SET_SETTING_OFFSET UNITYSDK_OFFSET(0x197807F0)
-#define PLUGINS_MIHOYOLIB_FOUNDATION_COMMON_SUPERDEBUGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19780820)
+#define PLUGINS_MIHOYOLIB_FOUNDATION_COMMON_SUPERDEBUGSETTINGS_GET_SETTING_OFFSET UNITYSDK_OFFSET(0x19DBD540)
+#define PLUGINS_MIHOYOLIB_FOUNDATION_COMMON_SUPERDEBUGSETTINGS_SET_SETTING_OFFSET UNITYSDK_OFFSET(0x19DBD5D0)
+#define PLUGINS_MIHOYOLIB_FOUNDATION_COMMON_SUPERDEBUGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBD5E0)
 
 namespace Plugins::miHoYoLib::Foundation::Common
 {
-	inline static constexpr unsigned int SuperDebugSettings_TypeDefinitionIndex = 7810;
+	inline static constexpr unsigned int SuperDebugSettings_TypeDefinitionIndex = 7906;
 
 	class SuperDebugSettings : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet__init()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebugSettings_TypeDefinitionIndex)->GetStaticField(0x38F0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebugSettings_TypeDefinitionIndex)->GetStaticField(0x3900);
 		}
 		static ::Plugins::miHoYoLib::Foundation::Common::SuperDebugConfig* StaticGet__setting()
 		{
-			return (::Plugins::miHoYoLib::Foundation::Common::SuperDebugConfig*)Il2CppClass::FromTypeDefinitionIndex(SuperDebugSettings_TypeDefinitionIndex)->GetStaticField(0x38F4);
+			return (::Plugins::miHoYoLib::Foundation::Common::SuperDebugConfig*)Il2CppClass::FromTypeDefinitionIndex(SuperDebugSettings_TypeDefinitionIndex)->GetStaticField(0x3904);
 		}
 		// static const ::System::String* ConfigKey; // 0x0
 

@@ -6,7 +6,7 @@ namespace UnityEngine::UI { class Image; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIImageNumberWithKUnity_ImageUnit_TypeDefinitionIndex = 71396;
+	inline static constexpr unsigned int MonoUIImageNumberWithKUnity_ImageUnit_TypeDefinitionIndex = 46006;
 
 	struct alignas(8) MonoUIImageNumberWithKUnity_ImageUnit
 	{

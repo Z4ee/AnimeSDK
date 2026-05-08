@@ -3,16 +3,16 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int DayOfWeekFlag_TypeDefinitionIndex = 61753;
+	inline static constexpr unsigned int DayOfWeekFlag_TypeDefinitionIndex = 43869;
 
 	enum class DayOfWeekFlag : ::System::Int32
 	{
-		Tuesday = 4,
-		Monday = 2,
-		Thursday = 16,
-		Friday = 32,
 		Saturday = 64,
-		Sunday = 1,
+		Monday = 2,
 		Wednesday = 8,
+		Tuesday = 4,
+		Thursday = 16,
+		Sunday = 1,
+		Friday = 32,
 	};
 }

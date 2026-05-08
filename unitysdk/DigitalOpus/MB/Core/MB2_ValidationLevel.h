@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_ValidationLevel_TypeDefinitionIndex = 83301;
+	inline static constexpr unsigned int MB2_ValidationLevel_TypeDefinitionIndex = 85029;
 
 	enum class MB2_ValidationLevel : ::System::Int32
 	{

@@ -5,9 +5,9 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9CFA2C562F612E08_CLASS_1_D3EB61F136290F79__CTOR_OFFSET UNITYSDK_OFFSET(0x9CAE8A0)
+#define CLASS_1_9CFA2C562F612E08_CLASS_1_D3EB61F136290F79__CTOR_OFFSET UNITYSDK_OFFSET(0xFE6B700)
 
-inline static constexpr unsigned int Class_1_9CFA2C562F612E08_Class_1_D3EB61F136290F79_TypeDefinitionIndex = 79337;
+inline static constexpr unsigned int Class_1_9CFA2C562F612E08_Class_1_D3EB61F136290F79_TypeDefinitionIndex = 66426;
 
 class Class_1_9CFA2C562F612E08_Class_1_D3EB61F136290F79 : public ::System::Object
 {

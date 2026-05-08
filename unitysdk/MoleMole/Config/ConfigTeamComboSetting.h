@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGTEAMCOMBOSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xB4780F0)
+#define MOLEMOLE_CONFIG_CONFIGTEAMCOMBOSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17D29E50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTeamComboSetting_TypeDefinitionIndex = 53559;
+	inline static constexpr unsigned int ConfigTeamComboSetting_TypeDefinitionIndex = 47665;
 
 	class ConfigTeamComboSetting : public ::System::Object
 	{
 	public:
-		::System::Int32 MaxComboCurLevel; // 0x10
+		::System::Single FeverAddPercentage; // 0x10
 		::System::Single FeverAddAmount; // 0x14
-		::System::Single FeverAddPercentage; // 0x18
+		::System::Int32 MaxComboCurLevel; // 0x18
 
 		::System::Void _ctor()
 		{

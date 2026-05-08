@@ -12,26 +12,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 
-#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD5886F0)
-#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD588700)
-#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD588900)
-#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD588AC0)
-#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD588A80)
+#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16880C20)
+#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16880C30)
+#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16880E10)
+#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16880FB0)
+#define MOLEMOLE_UIHADALZONE_LAYERCONFIG_UIHADALZONE_LAYERCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16880F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 39935;
+	inline static constexpr unsigned int UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 54415;
 
 	class UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::UIHadalZone_LayerConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Sprite*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Sprite*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46030);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UIHadalZone_Common_ZoneLayerStatus, ::UnityEngine::GameObject*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UIHadalZone_Common_ZoneLayerStatus, ::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46038);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::UIHadalZone_Common_ZoneLayerStatus, ::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A90);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Sprite*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Sprite*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LayerConfig_UIHadalZone_LayerConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46A98);
 		}
 
 		::System::Void _ctor()

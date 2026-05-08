@@ -6,19 +6,19 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_0FF8F02331739F34_OFFSET UNITYSDK_OFFSET(0x3269F0)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_119553AE546A1818_OFFSET UNITYSDK_OFFSET(0x735D280)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_63D6023A59A290D2_OFFSET UNITYSDK_OFFSET(0x326C50)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_1_OFFSET UNITYSDK_OFFSET(0x326D60)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_2_OFFSET UNITYSDK_OFFSET(0x326DD0)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_OFFSET UNITYSDK_OFFSET(0x326CF0)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_1_OFFSET UNITYSDK_OFFSET(0x326C20)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_2_OFFSET UNITYSDK_OFFSET(0x326E40)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_OFFSET UNITYSDK_OFFSET(0x326BF0)
-#define STRUCT_2_47AA8C86D96256B3_METHOD_2_F88FD45BBDDA8143_OFFSET UNITYSDK_OFFSET(0x735CF80)
-#define STRUCT_2_47AA8C86D96256B3__CTOR_OFFSET UNITYSDK_OFFSET(0x326920)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_0FF8F02331739F34_OFFSET UNITYSDK_OFFSET(0x5AE480)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_119553AE546A1818_OFFSET UNITYSDK_OFFSET(0xDB069A0)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_63D6023A59A290D2_OFFSET UNITYSDK_OFFSET(0x5AE3E0)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_1_OFFSET UNITYSDK_OFFSET(0x5AE6F0)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_2_OFFSET UNITYSDK_OFFSET(0x5AE7C0)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_OFFSET UNITYSDK_OFFSET(0x5AE680)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_1_OFFSET UNITYSDK_OFFSET(0x5AE760)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_2_OFFSET UNITYSDK_OFFSET(0x5AE790)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_OFFSET UNITYSDK_OFFSET(0x5AE3B0)
+#define STRUCT_2_47AA8C86D96256B3_METHOD_2_F88FD45BBDDA8143_OFFSET UNITYSDK_OFFSET(0xDB066C0)
+#define STRUCT_2_47AA8C86D96256B3__CTOR_OFFSET UNITYSDK_OFFSET(0x5AE2E0)
 
-inline static constexpr unsigned int Struct_2_47AA8C86D96256B3_TypeDefinitionIndex = 45385;
+inline static constexpr unsigned int Struct_2_47AA8C86D96256B3_TypeDefinitionIndex = 43298;
 
 struct alignas(8) Struct_2_47AA8C86D96256B3
 {
@@ -40,13 +40,6 @@ struct alignas(8) Struct_2_47AA8C86D96256B3
 	}
 
 	/*
-	::System::Void Method_2_0FF8F02331739F34(::NPCCrowd::Animation::FRefPose a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::FRefPose, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_0FF8F02331739F34_OFFSET))(this, a1, a2, a3);
-	}
-	*/
-
-	/*
 	::System::Void Method_2_9BB30562B48EB664(::Struct_2_63DDC2FA7A3D55CD& a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::Struct_2_63DDC2FA7A3D55CD&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_OFFSET))(this, a1, a2, a3);
@@ -59,16 +52,16 @@ struct alignas(8) Struct_2_47AA8C86D96256B3
 	}
 
 	/*
-	::System::Void Method_2_9BB30562B48EB664_1(::Struct_2_63DDC2FA7A3D55CD& a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+	::System::Void Method_2_63D6023A59A290D2(::Struct_2_63DDC2FA7A3D55CD& a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_63DDC2FA7A3D55CD&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_1_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_63DDC2FA7A3D55CD&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_63D6023A59A290D2_OFFSET))(this, a1, a2, a3);
 	}
 	*/
 
 	/*
-	::System::Void Method_2_63D6023A59A290D2(::Struct_2_63DDC2FA7A3D55CD& a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+	::System::Void Method_2_0FF8F02331739F34(::NPCCrowd::Animation::FRefPose a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_63DDC2FA7A3D55CD&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_63D6023A59A290D2_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::FRefPose, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_0FF8F02331739F34_OFFSET))(this, a1, a2, a3);
 	}
 	*/
 
@@ -87,13 +80,6 @@ struct alignas(8) Struct_2_47AA8C86D96256B3
 	*/
 
 	/*
-	::System::Void Method_2_8F975AEB24C29F61_2(::NPCCrowd::Animation::FRefPose a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::FRefPose, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_2_OFFSET))(this, a1, a2, a3);
-	}
-	*/
-
-	/*
 	static ::UnityEngine::Quaternion Method_2_119553AE546A1818(::UnityEngine::Quaternion a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 	{
 		return ((::UnityEngine::Quaternion(*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_119553AE546A1818_OFFSET))(a1, a2, a3, a4);
@@ -101,9 +87,23 @@ struct alignas(8) Struct_2_47AA8C86D96256B3
 	*/
 
 	/*
+	::System::Void Method_2_9BB30562B48EB664_1(::Struct_2_63DDC2FA7A3D55CD& a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_63DDC2FA7A3D55CD&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_1_OFFSET))(this, a1, a2, a3);
+	}
+	*/
+
+	/*
 	::System::Void Method_2_9BB30562B48EB664_2(::Struct_2_63DDC2FA7A3D55CD& a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::Struct_2_63DDC2FA7A3D55CD&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_9BB30562B48EB664_2_OFFSET))(this, a1, a2, a3);
+	}
+	*/
+
+	/*
+	::System::Void Method_2_8F975AEB24C29F61_2(::NPCCrowd::Animation::FRefPose a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::FRefPose, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_47AA8C86D96256B3_METHOD_2_8F975AEB24C29F61_2_OFFSET))(this, a1, a2, a3);
 	}
 	*/
 };

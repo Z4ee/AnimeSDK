@@ -16,7 +16,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESMatAnimBehavior_2_TypeDefinitionIndex = 61738;
+	inline static constexpr unsigned int ESMatAnimBehavior_2_TypeDefinitionIndex = 82482;
 
 	template <typename EvaluateCurveType, typename ValType>
 	class ESMatAnimBehavior_2 : public ::MoleMole::EffectSimulate::ESLoopable_2<EvaluateCurveType, ValType>

@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define IFIX_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECC5A0)
+#define IFIX_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7AD5D0)
 
 namespace IFix
 {

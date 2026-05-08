@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IReaderLock_TypeDefinitionIndex = 8911;
+	inline static constexpr unsigned int IReaderLock_TypeDefinitionIndex = 8811;
 
 	class IReaderLock
 	{

@@ -8,13 +8,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERACONFIG_GET_RUNTIMEMAXPITCH_OFFSET UNITYSDK_OFFSET(0xB3808B0)
-#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERACONFIG_GET_RUNTIMEMINPITCH_OFFSET UNITYSDK_OFFSET(0xB3808A0)
-#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB3808C0)
+#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERACONFIG_GET_RUNTIMEMAXPITCH_OFFSET UNITYSDK_OFFSET(0x141D82C0)
+#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERACONFIG_GET_RUNTIMEMINPITCH_OFFSET UNITYSDK_OFFSET(0x141D82B0)
+#define MOLEMOLE_CAMERAS_OVERSHOULDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x141D82D0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int OverShoulderCameraConfig_TypeDefinitionIndex = 70782;
+	inline static constexpr unsigned int OverShoulderCameraConfig_TypeDefinitionIndex = 38378;
 
 	class OverShoulderCameraConfig : public ::System::Object
 	{
@@ -56,6 +56,7 @@ namespace MoleMole::Cameras
 		::System::Boolean EnableShake; // 0xBC
 		::System::Single ShakeScale; // 0xC0
 		::System::Boolean EnableZoom; // 0xC4
+		::System::Boolean EnablePipelineOverrideZoom; // 0xC5
 		::System::Single ZoomScale; // 0xC8
 		::System::Boolean EnableStretch; // 0xCC
 		::System::Single StretchScale; // 0xD0

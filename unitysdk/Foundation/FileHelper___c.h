@@ -5,18 +5,18 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::IO { class FileInfo; }
 
-#define FOUNDATION_FILEHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA5DA50)
-#define FOUNDATION_FILEHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA5DA90)
-#define FOUNDATION_FILEHELPER___C__DELETEFILES_B__35_0_OFFSET UNITYSDK_OFFSET(0x1AA5DAA0)
+#define FOUNDATION_FILEHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B76CFF0)
+#define FOUNDATION_FILEHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76D030)
+#define FOUNDATION_FILEHELPER___C__DELETEFILES_B__36_0_OFFSET UNITYSDK_OFFSET(0x1B76D040)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FileHelper___c_TypeDefinitionIndex = 7958;
+	inline static constexpr unsigned int FileHelper___c_TypeDefinitionIndex = 7948;
 
 	class FileHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::IO::FileInfo*>** StaticGet___9__35_0()
+		static ::System::Action_1<::System::IO::FileInfo*>** StaticGet___9__36_0()
 		{
 			return (::System::Action_1<::System::IO::FileInfo*>**)Il2CppClass::FromTypeDefinitionIndex(FileHelper___c_TypeDefinitionIndex)->GetStaticField(0x6CD0);
 		}
@@ -35,9 +35,9 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_FILEHELPER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _DeleteFiles_b__35_0(::System::IO::FileInfo* fi)
+		::System::Void _DeleteFiles_b__36_0(::System::IO::FileInfo* fi)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::FileInfo*))((::PBYTE)hIl2Cpp + FOUNDATION_FILEHELPER___C__DELETEFILES_B__35_0_OFFSET))(this, fi);
+			return ((::System::Void(*)(::PVOID, ::System::IO::FileInfo*))((::PBYTE)hIl2Cpp + FOUNDATION_FILEHELPER___C__DELETEFILES_B__36_0_OFFSET))(this, fi);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-inline static constexpr unsigned int ACLStreamingCacheDisplayer_RowRects_TypeDefinitionIndex = 84210;
+inline static constexpr unsigned int ACLStreamingCacheDisplayer_RowRects_TypeDefinitionIndex = 85914;
 
 struct alignas(4) ACLStreamingCacheDisplayer_RowRects
 {

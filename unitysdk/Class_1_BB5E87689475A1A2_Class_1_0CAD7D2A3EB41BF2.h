@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_35D50070BC469EAB;
+class Class_1_BB5E87689475A1A2_Class_1_6A90028D873A938C;
+class Class_3_7BF98046FA3EA064;
+class Class_3_F41D242A20F8FE06;
+namespace System { template <typename T> class Func_1; }
+
+#define CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2_METHOD_1_8A73F741B648E1B6_OFFSET UNITYSDK_OFFSET(0x10506600)
+#define CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2_METHOD_1_8ABD92AA3DA91FA3_OFFSET UNITYSDK_OFFSET(0x10506A40)
+#define CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2_METHOD_1_F252E7462E4EB563_OFFSET UNITYSDK_OFFSET(0x10506840)
+#define CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2__CTOR_OFFSET UNITYSDK_OFFSET(0x105065F0)
+
+inline static constexpr unsigned int Class_1_BB5E87689475A1A2_Class_1_0CAD7D2A3EB41BF2_TypeDefinitionIndex = 62474;
+
+class Class_1_BB5E87689475A1A2_Class_1_0CAD7D2A3EB41BF2 : public ::System::Object
+{
+public:
+	::Class_3_F41D242A20F8FE06* Field_1_2; // 0x10
+	::Class_1_35D50070BC469EAB* Field_1_4; // 0x18
+	::Class_1_BB5E87689475A1A2_Class_1_6A90028D873A938C* Field_1_3; // 0x20
+	::System::Func_1<::System::Boolean>* Field_1_5; // 0x28
+	::MoleMole::EntityHandle Field_1_1; // 0x30
+	::Class_3_7BF98046FA3EA064* Field_1_0; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_8A73F741B648E1B6(::System::Int32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2_METHOD_1_8A73F741B648E1B6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_F252E7462E4EB563(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2_METHOD_1_F252E7462E4EB563_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_8ABD92AA3DA91FA3()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BB5E87689475A1A2_CLASS_1_0CAD7D2A3EB41BF2_METHOD_1_8ABD92AA3DA91FA3_OFFSET))(this);
+	}
+};

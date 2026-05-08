@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIEtherEyesSkillBtnChildWindowController; }
 
-#define MOLEMOLE_UIETHEREYESSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0xDF92D60)
-#define MOLEMOLE_UIETHEREYESSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF92D50)
+#define MOLEMOLE_UIETHEREYESSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x15F62100)
+#define MOLEMOLE_UIETHEREYESSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F620F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEtherEyesSkillBtnChildWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 51339;
+	inline static constexpr unsigned int UIEtherEyesSkillBtnChildWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 58745;
 
 	class UIEtherEyesSkillBtnChildWindowController___c__DisplayClass14_0 : public ::System::Object
 	{

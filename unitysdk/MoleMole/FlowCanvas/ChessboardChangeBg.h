@@ -8,13 +8,13 @@
 class Class_5_AF65C3A968E836D2;
 namespace MoleMole::FlowCanvas { class ChessboardChangeBg_ParaInfo; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_CHANGEPIECECENTER_OFFSET UNITYSDK_OFFSET(0x756A3B0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_INVOKE_OFFSET UNITYSDK_OFFSET(0x7569D50)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG__CTOR_OFFSET UNITYSDK_OFFSET(0x756ABD0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_CHANGEPIECECENTER_OFFSET UNITYSDK_OFFSET(0x14982C90)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_INVOKE_OFFSET UNITYSDK_OFFSET(0x14982600)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG__CTOR_OFFSET UNITYSDK_OFFSET(0x149833B0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardChangeBg_TypeDefinitionIndex = 50679;
+	inline static constexpr unsigned int ChessboardChangeBg_TypeDefinitionIndex = 79555;
 
 	class ChessboardChangeBg : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo*>
 	{

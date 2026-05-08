@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A83BD70)
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A83BDB0)
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER___C___CCTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A83BDC0)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B381BA0)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B381BE0)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER___C___CCTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1B381BF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NameValueContainerBuilder___c_TypeDefinitionIndex = 8809;
+	inline static constexpr unsigned int NameValueContainerBuilder___c_TypeDefinitionIndex = 9194;
 
 	class NameValueContainerBuilder___c : public ::System::Object
 	{

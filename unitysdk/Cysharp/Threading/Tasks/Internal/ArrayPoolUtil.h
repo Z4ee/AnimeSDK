@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ArrayPoolUtil_TypeDefinitionIndex = 28297;
+	inline static constexpr unsigned int ArrayPoolUtil_TypeDefinitionIndex = 28815;
 
 	class ArrayPoolUtil : public ::System::Object
 	{

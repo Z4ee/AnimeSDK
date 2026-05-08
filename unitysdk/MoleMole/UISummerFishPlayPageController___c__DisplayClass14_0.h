@@ -6,19 +6,19 @@
 namespace MoleMole { class UISummerFishPlayPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS14_0__CLOSEUI_B__0_OFFSET UNITYSDK_OFFSET(0xD3DC060)
-#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS14_0__CLOSEUI_B__1_OFFSET UNITYSDK_OFFSET(0xD3DC2F0)
-#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DC050)
+#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS14_0__CLOSEUI_B__0_OFFSET UNITYSDK_OFFSET(0x1551BD30)
+#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS14_0__CLOSEUI_B__1_OFFSET UNITYSDK_OFFSET(0x1551BFA0)
+#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1551BD20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishPlayPageController___c__DisplayClass14_0_TypeDefinitionIndex = 37413;
+	inline static constexpr unsigned int UISummerFishPlayPageController___c__DisplayClass14_0_TypeDefinitionIndex = 62375;
 
 	class UISummerFishPlayPageController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::MoleMole::UISummerFishPlayPageController* __4__this; // 0x18
+		::MoleMole::UISummerFishPlayPageController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::MoleMole::UISummerFishPlayPageController_ECloseReason reason; // 0x20
 
 		::System::Void _ctor()

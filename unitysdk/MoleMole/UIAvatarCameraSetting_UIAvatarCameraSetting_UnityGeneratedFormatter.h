@@ -14,50 +14,50 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD248F90)
-#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD248FA0)
-#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD249E60)
-#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD24A710)
-#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD24A6D0)
+#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16459650)
+#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16459660)
+#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1645A500)
+#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1645AD80)
+#define MOLEMOLE_UIAVATARCAMERASETTING_UIAVATARCAMERASETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1645AD40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 78107;
+	inline static constexpr unsigned int UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 66899;
 
 	class UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::UIAvatarCameraSetting*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer2()
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::CameraOverrideOption>** StaticGet_CachedSerializer7()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DB0);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::CameraOverrideOption>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43800);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DB8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43808);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::CameraRotType>** StaticGet_CachedSerializer5()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CameraRotType>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DC0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CameraRotType>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43810);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::AntialiasingMode>** StaticGet_CachedSerializer6()
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::AntialiasingMode>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DC8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::CameraOverrideOption>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::CameraOverrideOption>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DD0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Rect>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Rect>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DD8);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43818);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DE0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43820);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Rect>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Rect>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43828);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::AntialiasingMode>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::NAPRenderPipeline0::AntialiasingMode>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43830);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::CameraChangeType*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CameraChangeType*>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46DE8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::CameraChangeType*>**)Il2CppClass::FromTypeDefinitionIndex(UIAvatarCameraSetting_UIAvatarCameraSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43838);
 		}
 
 		::System::Void _ctor()

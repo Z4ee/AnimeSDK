@@ -6,7 +6,7 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SelectOnInt_1___c__DisplayClass1_0_TypeDefinitionIndex = 26139;
+	inline static constexpr unsigned int SelectOnInt_1___c__DisplayClass1_0_TypeDefinitionIndex = 27520;
 
 	template <typename T>
 	class SelectOnInt_1___c__DisplayClass1_0 : public ::System::Object

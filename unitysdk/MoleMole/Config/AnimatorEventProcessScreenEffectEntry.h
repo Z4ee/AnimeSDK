@@ -7,19 +7,19 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPROCESSSCREENEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xE2B1250)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPROCESSSCREENEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xE2B12F0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPROCESSSCREENEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x174359F0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPROCESSSCREENEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17435A70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventProcessScreenEffectEntry_TypeDefinitionIndex = 38880;
+	inline static constexpr unsigned int AnimatorEventProcessScreenEffectEntry_TypeDefinitionIndex = 66255;
 
 	class AnimatorEventProcessScreenEffectEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::MoleMole::Config::ConfigPosRot* FollowConfigPosRot; // 0x58
-		::System::String* ScreenEffectKey; // 0x60
-		::System::String* FollowAttachPointName; // 0x68
+		::System::String* ScreenEffectKey; // 0x58
+		::System::String* FollowAttachPointName; // 0x60
+		::MoleMole::Config::ConfigPosRot* FollowConfigPosRot; // 0x68
 		::System::Boolean Follow; // 0x70
 		::System::Boolean AlwaysFollow; // 0x71
 		::MoleMole::Config::ScreenEffectType EffectType; // 0x74

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B617470)
-#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B617430)
+#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C371560)
+#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3714F0)
 
-inline static constexpr unsigned int AkCallbackManager_InitializationSettings_TypeDefinitionIndex = 30976;
+inline static constexpr unsigned int AkCallbackManager_InitializationSettings_TypeDefinitionIndex = 31505;
 
 class AkCallbackManager_InitializationSettings : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_DefaultBufferSize()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_InitializationSettings_TypeDefinitionIndex)->GetStaticField(0x7BE0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_InitializationSettings_TypeDefinitionIndex)->GetStaticField(0x7C80);
 	}
 	static ::System::Boolean* StaticGet_DefaultIsLoggingEnabled()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_InitializationSettings_TypeDefinitionIndex)->GetStaticField(0x7BE4);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_InitializationSettings_TypeDefinitionIndex)->GetStaticField(0x7C84);
 	}
 	::System::Int32 BufferSize; // 0x10
 	::System::Boolean IsLoggingEnabled; // 0x14

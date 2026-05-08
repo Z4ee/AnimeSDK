@@ -10,58 +10,58 @@ namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset
 namespace UnityEngine::Rendering::Universal::Internal { class NapLodProxy; }
 namespace UnityEngine::Rendering::Universal::Internal { class NapMaterialLodSettings; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_LATEUPDATELOD_OFFSET UNITYSDK_OFFSET(0x18F10320)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_ONSCENEEFFECTQUALITYSETTINGCHANGE_OFFSET UNITYSDK_OFFSET(0x18F0ED50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_REGISTERLODPROXY_1_OFFSET UNITYSDK_OFFSET(0x18F0F640)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_REGISTERLODPROXY_OFFSET UNITYSDK_OFFSET(0x18F0F0F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_UNREGISTERLODPROXY_1_OFFSET UNITYSDK_OFFSET(0x18F0F730)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_UNREGISTERLODPROXY_OFFSET UNITYSDK_OFFSET(0x18F0F380)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_UPDATELOD_OFFSET UNITYSDK_OFFSET(0x18F0F820)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F10530)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18F10520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_LATEUPDATELOD_OFFSET UNITYSDK_OFFSET(0x1A6A4A40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_ONSCENEEFFECTQUALITYSETTINGCHANGE_OFFSET UNITYSDK_OFFSET(0x1A6A3100)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_REGISTERLODPROXY_1_OFFSET UNITYSDK_OFFSET(0x1A6A3A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_REGISTERLODPROXY_OFFSET UNITYSDK_OFFSET(0x1A6A3510)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_UNREGISTERLODPROXY_1_OFFSET UNITYSDK_OFFSET(0x1A6A3BB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_UNREGISTERLODPROXY_OFFSET UNITYSDK_OFFSET(0x1A6A37C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM_UPDATELOD_OFFSET UNITYSDK_OFFSET(0x1A6A3CE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6A4CE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLODSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A4CD0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapLodSystem_TypeDefinitionIndex = 29916;
+	inline static constexpr unsigned int NapLodSystem_TypeDefinitionIndex = 30444;
 
 	class NapLodSystem : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>** StaticGet_s_PerFrameLodList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x239F0);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapMaterialLodSettings*>** StaticGet_s_MaterialLodSettingsList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapMaterialLodSettings*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x239F8);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>** StaticGet_s_UnProcessedOnceTimeLodList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x23A00);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_NapLodSystemLateUpdateLod()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x23A08);
-		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>** StaticGet_s_OnceTimeLodList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x23A10);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x24570);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_NapLodSystemUpdateLod()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x23A18);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x24578);
 		}
-		static ::System::Int32* StaticGet_UPDATE_COUNT_LIMIT()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_NapLodSystemLateUpdateLod()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x7090);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x24580);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapMaterialLodSettings*>** StaticGet_s_MaterialLodSettingsList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapMaterialLodSettings*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x24588);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>** StaticGet_s_UnProcessedOnceTimeLodList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x24590);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>** StaticGet_s_PerFrameLodList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::NapLodProxy*>**)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x24598);
 		}
 		static ::System::Int32* StaticGet_s_UpdateLodIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x7094);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x7110);
+		}
+		static ::System::Int32* StaticGet_UPDATE_COUNT_LIMIT()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x7114);
 		}
 		static ::System::Int32* StaticGet_s_UpdateMatLodIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x7098);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLodSystem_TypeDefinitionIndex)->GetStaticField(0x7118);
 		}
 
 		::System::Void _ctor()

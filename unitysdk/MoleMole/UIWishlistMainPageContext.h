@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2A640)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE489FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistMainPageContext_TypeDefinitionIndex = 52183;
+	inline static constexpr unsigned int UIWishlistMainPageContext_TypeDefinitionIndex = 58746;
 
 	class UIWishlistMainPageContext : public ::MoleMole::UIControllerContextBase
 	{

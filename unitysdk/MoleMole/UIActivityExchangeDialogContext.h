@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYEXCHANGEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8B9DB80)
+#define MOLEMOLE_UIACTIVITYEXCHANGEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152D0360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityExchangeDialogContext_TypeDefinitionIndex = 75773;
+	inline static constexpr unsigned int UIActivityExchangeDialogContext_TypeDefinitionIndex = 49553;
 
 	class UIActivityExchangeDialogContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_C87160B061D233FA;
+class Class_3_9BB78F244CBCC9B8;
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UIMPLEVELRESULTPAGECONTEXT_MOLEMOLE_ILEVELRESULTCONTEXT_GET_DUNGEONDONERET_OFFSET UNITYSDK_OFFSET(0x8F19D60)
-#define MOLEMOLE_UIMPLEVELRESULTPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8F19DC0)
+#define MOLEMOLE_UIMPLEVELRESULTPAGECONTEXT_MOLEMOLE_ILEVELRESULTCONTEXT_GET_DUNGEONDONERET_OFFSET UNITYSDK_OFFSET(0x15008530)
+#define MOLEMOLE_UIMPLEVELRESULTPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15008570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMPLevelResultPageContext_TypeDefinitionIndex = 56209;
+	inline static constexpr unsigned int UIMPLevelResultPageContext_TypeDefinitionIndex = 40010;
 
 	class UIMPLevelResultPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_C87160B061D233FA* dungeonDoneRet; // 0x28
+		::Class_3_9BB78F244CBCC9B8* dungeonDoneRet; // 0x28
 		::System::Action* OnContinueAction; // 0x30
 		::System::Boolean isWin; // 0x38
 

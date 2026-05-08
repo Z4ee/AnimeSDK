@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_DTVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A807AD0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2CFDD0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTVersionAttribute_TypeDefinitionIndex = 25333;
+	inline static constexpr unsigned int DTVersionAttribute_TypeDefinitionIndex = 25847;
 
 	class DTVersionAttribute : public ::System::Attribute
 	{

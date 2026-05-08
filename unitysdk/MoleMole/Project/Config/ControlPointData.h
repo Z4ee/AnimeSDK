@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_D3D10D3B12657E0D.h"
 #include "unitysdk/MoleMole/Project/Config/PointBaseData.h"
 
-#define MOLEMOLE_PROJECT_CONFIG_CONTROLPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E10B00)
+#define MOLEMOLE_PROJECT_CONFIG_CONTROLPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16701C60)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int ControlPointData_TypeDefinitionIndex = 12130;
+	inline static constexpr unsigned int ControlPointData_TypeDefinitionIndex = 17999;
 
 	class ControlPointData : public ::MoleMole::Project::Config::PointBaseData
 	{

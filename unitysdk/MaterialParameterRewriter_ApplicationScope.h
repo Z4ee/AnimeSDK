@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MaterialParameterRewriter_ApplicationScope_TypeDefinitionIndex = 28949;
+inline static constexpr unsigned int MaterialParameterRewriter_ApplicationScope_TypeDefinitionIndex = 29467;
 
 enum class MaterialParameterRewriter_ApplicationScope : ::System::Int32
 {

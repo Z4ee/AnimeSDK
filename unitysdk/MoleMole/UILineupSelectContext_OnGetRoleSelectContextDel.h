@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_2_D89CCC627A66D0AD;
+class Class_2_1824EF69C8E376A3;
 namespace MoleMole { class UIRoleSelectPageContext; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x876DA50)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x876DAB0)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x876D710)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x876D6F0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B889A0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B88A20)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B88660)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14B88650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectContext_OnGetRoleSelectContextDel_TypeDefinitionIndex = 56002;
+	inline static constexpr unsigned int UILineupSelectContext_OnGetRoleSelectContextDel_TypeDefinitionIndex = 57535;
 
 	class UILineupSelectContext_OnGetRoleSelectContextDel : public ::System::MulticastDelegate
 	{
@@ -25,14 +25,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL__CTOR_OFFSET))(this, object, method);
 		}
 
-		::MoleMole::UIRoleSelectPageContext* Invoke(::System::Int32 selectIndex, ::Il2CppArray<::Class_2_D89CCC627A66D0AD*>* currentSelected)
+		::MoleMole::UIRoleSelectPageContext* Invoke(::System::Int32 selectIndex, ::Il2CppArray<::Class_2_1824EF69C8E376A3*>* currentSelected)
 		{
-			return ((::MoleMole::UIRoleSelectPageContext*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::Class_2_D89CCC627A66D0AD*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_INVOKE_OFFSET))(this, selectIndex, currentSelected);
+			return ((::MoleMole::UIRoleSelectPageContext*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::Class_2_1824EF69C8E376A3*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_INVOKE_OFFSET))(this, selectIndex, currentSelected);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 selectIndex, ::Il2CppArray<::Class_2_D89CCC627A66D0AD*>* currentSelected, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 selectIndex, ::Il2CppArray<::Class_2_1824EF69C8E376A3*>* currentSelected, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::Class_2_D89CCC627A66D0AD*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_BEGININVOKE_OFFSET))(this, selectIndex, currentSelected, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::Class_2_1824EF69C8E376A3*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONGETROLESELECTCONTEXTDEL_BEGININVOKE_OFFSET))(this, selectIndex, currentSelected, callback, object);
 		}
 
 		::MoleMole::UIRoleSelectPageContext* EndInvoke(::System::IAsyncResult* result)

@@ -6,11 +6,11 @@ namespace MoleMole { class CDNDesignData; }
 namespace MoleMole { class CDNGameRes; }
 namespace MoleMole { class CDNSilenceData; }
 
-#define MOLEMOLE_CDN_DISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC5700)
+#define MOLEMOLE_CDN_DISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF95CB00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CDN_DispatchData_TypeDefinitionIndex = 66197;
+	inline static constexpr unsigned int CDN_DispatchData_TypeDefinitionIndex = 39010;
 
 	class CDN_DispatchData : public ::System::Object
 	{

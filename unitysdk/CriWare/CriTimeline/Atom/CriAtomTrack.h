@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B671F10)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B672630)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C489C20)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C48A3E0)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomTrack_TypeDefinitionIndex = 32312;
+	inline static constexpr unsigned int CriAtomTrack_TypeDefinitionIndex = 32841;
 
 	class CriAtomTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

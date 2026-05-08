@@ -5,12 +5,12 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingPerBoneCollection_1.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_ENSURE01_OFFSET UNITYSDK_OFFSET(0x6349480)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_GETLOOPCOUNT_OFFSET UNITYSDK_OFFSET(0x63494E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_ENSURE01_OFFSET UNITYSDK_OFFSET(0xBDE1E80)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_GETLOOPCOUNT_OFFSET UNITYSDK_OFFSET(0xBDE1EE0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationBlendingUtils_TypeDefinitionIndex = 59690;
+	inline static constexpr unsigned int AnimationSubManager_AnimationBlendingUtils_TypeDefinitionIndex = 70476;
 
 	class AnimationSubManager_AnimationBlendingUtils : public ::System::Object
 	{

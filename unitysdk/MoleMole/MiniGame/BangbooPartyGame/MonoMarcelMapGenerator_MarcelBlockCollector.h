@@ -5,12 +5,12 @@
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoMarcelBlock; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOMARCELMAPGENERATOR_MARCELBLOCKCOLLECTOR_COLLECT_OFFSET UNITYSDK_OFFSET(0xB842D50)
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOMARCELMAPGENERATOR_MARCELBLOCKCOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB842D40)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOMARCELMAPGENERATOR_MARCELBLOCKCOLLECTOR_COLLECT_OFFSET UNITYSDK_OFFSET(0x1781C3A0)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOMARCELMAPGENERATOR_MARCELBLOCKCOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1781C390)
 
 namespace MoleMole::MiniGame::BangbooPartyGame
 {
-	inline static constexpr unsigned int MonoMarcelMapGenerator_MarcelBlockCollector_TypeDefinitionIndex = 47036;
+	inline static constexpr unsigned int MonoMarcelMapGenerator_MarcelBlockCollector_TypeDefinitionIndex = 50151;
 
 	class MonoMarcelMapGenerator_MarcelBlockCollector : public ::System::Object
 	{

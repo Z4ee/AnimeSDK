@@ -3,7 +3,7 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int PressTypes_TypeDefinitionIndex = 26303;
+	inline static constexpr unsigned int PressTypes_TypeDefinitionIndex = 26607;
 
 	enum class PressTypes : ::System::Int32
 	{

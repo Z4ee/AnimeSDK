@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int AddLightMode_TypeDefinitionIndex = 29554;
+	inline static constexpr unsigned int AddLightMode_TypeDefinitionIndex = 30082;
 
 	enum class AddLightMode : ::System::UInt32
 	{

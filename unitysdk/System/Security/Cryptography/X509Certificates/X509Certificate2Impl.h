@@ -14,7 +14,7 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateImplCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509ExtensionCollection; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1907D370)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x19A742C0)
 
 namespace System::Security::Cryptography::X509Certificates
 {

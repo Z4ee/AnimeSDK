@@ -11,31 +11,31 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_BEGIN_OFFSET UNITYSDK_OFFSET(0xB5E1840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0xB5E2A30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB5E1620)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_TRYADDAVATARGUIDEITEM_OFFSET UNITYSDK_OFFSET(0xB5E3170)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E3260)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0xB5E3280)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0xB5E32C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_BEGIN_OFFSET UNITYSDK_OFFSET(0x1541EDE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x15420030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1541EBE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_TRYADDAVATARGUIDEITEM_OFFSET UNITYSDK_OFFSET(0x154207C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x154208A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x154208E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x15420920)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CreateMainCityAvatar_TypeDefinitionIndex = 71033;
+	inline static constexpr unsigned int LD_CreateMainCityAvatar_TypeDefinitionIndex = 74543;
 
 	class LD_CreateMainCityAvatar : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* OverrideAIPath; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _notShowAvatarGuideItem; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* MainCityAvatarId; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* MainCityAvatarId; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* OverrideAIPath; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* BornPosSpawnPoint; // 0xB8
 		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* Offset; // 0xC0
 		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* BornPosByEntity; // 0xC8
 		::FlowCanvas::FlowOutput* output; // 0xD0
-		::FlowCanvas::FlowOutput* finishOutput; // 0xD8
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xE0
-		::MoleMole::Battle::Entity* createEntity; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::String*>* BornPosSpawnPoint; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _notShowAvatarGuideItem; // 0xD8
+		::MoleMole::Battle::Entity* createEntity; // 0xE0
+		::FlowCanvas::FlowOutput* finishOutput; // 0xE8
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xF0
 		::System::UInt32 uFightID; // 0xF8
 
 		::System::Void _ctor()

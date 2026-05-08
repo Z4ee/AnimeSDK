@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int SlotInfo_SlotArrayType_TypeDefinitionIndex = 36835;
+	inline static constexpr unsigned int SlotInfo_SlotArrayType_TypeDefinitionIndex = 37379;
 
 	enum class SlotInfo_SlotArrayType : ::System::Int32
 	{

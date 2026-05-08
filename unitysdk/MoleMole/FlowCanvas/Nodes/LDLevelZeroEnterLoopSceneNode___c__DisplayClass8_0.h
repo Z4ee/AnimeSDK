@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F35B080B137ECC46;
+class Class_3_DFD5D1FDB9D2A4AC;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D0750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7CEB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0_TypeDefinitionIndex = 69321;
+	inline static constexpr unsigned int LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0_TypeDefinitionIndex = 71468;
 
 	class LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::Battle::Entity* localAvatar; // 0x10
-		::Class_3_F35B080B137ECC46* modelComp; // 0x18
+		::Class_3_DFD5D1FDB9D2A4AC* modelComp; // 0x18
 
 		::System::Void _ctor()
 		{

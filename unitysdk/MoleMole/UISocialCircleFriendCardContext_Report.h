@@ -5,11 +5,11 @@
 class Class_1_B96586FA1613D67F;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDCONTEXT_REPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xB6F6420)
+#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDCONTEXT_REPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E7E440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleFriendCardContext_Report_TypeDefinitionIndex = 70289;
+	inline static constexpr unsigned int UISocialCircleFriendCardContext_Report_TypeDefinitionIndex = 56991;
 
 	class UISocialCircleFriendCardContext_Report : public ::MoleMole::UISocialCircleFriendCardContext
 	{

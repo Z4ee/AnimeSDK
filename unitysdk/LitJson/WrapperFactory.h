@@ -7,14 +7,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define LITJSON_WRAPPERFACTORY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B182010)
-#define LITJSON_WRAPPERFACTORY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B182040)
-#define LITJSON_WRAPPERFACTORY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B181D70)
-#define LITJSON_WRAPPERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B181D50)
+#define LITJSON_WRAPPERFACTORY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BEE07F0)
+#define LITJSON_WRAPPERFACTORY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BEE0820)
+#define LITJSON_WRAPPERFACTORY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BEE0550)
+#define LITJSON_WRAPPERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE0540)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int WrapperFactory_TypeDefinitionIndex = 7859;
+	inline static constexpr unsigned int WrapperFactory_TypeDefinitionIndex = 8310;
 
 	class WrapperFactory : public ::System::MulticastDelegate
 	{

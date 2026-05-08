@@ -6,19 +6,19 @@ class Class_2_AF4036FBC298303A;
 namespace MoleMole { class UIFlowerMainListWidgetController_Data; }
 namespace MoleMole { class UIFlowerMain_RightWidgetController; }
 
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD121B20)
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS21_0__REFRESHSCROLLVIEWDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD121B30)
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS21_0__REFRESHSCROLLVIEWDATA_B__1_OFFSET UNITYSDK_OFFSET(0xD121CE0)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC45F0)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS21_0__REFRESHSCROLLVIEWDATA_B__0_OFFSET UNITYSDK_OFFSET(0x16CC4600)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS21_0__REFRESHSCROLLVIEWDATA_B__1_OFFSET UNITYSDK_OFFSET(0x16CC47A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerMain_RightWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 50336;
+	inline static constexpr unsigned int UIFlowerMain_RightWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 77226;
 
 	class UIFlowerMain_RightWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIFlowerMain_RightWidgetController* __4__this; // 0x10
-		::Class_2_AF4036FBC298303A* currentSelectFlowerFeatureData; // 0x18
+		::Class_2_AF4036FBC298303A* currentSelectFlowerFeatureData; // 0x10
+		::MoleMole::UIFlowerMain_RightWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

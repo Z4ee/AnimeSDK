@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOFISHPOLEDUMMY__CTOR_OFFSET UNITYSDK_OFFSET(0xA521A90)
+#define MOLEMOLE_MONOFISHPOLEDUMMY__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2F700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFishPoleDummy_TypeDefinitionIndex = 67738;
+	inline static constexpr unsigned int MonoFishPoleDummy_TypeDefinitionIndex = 63433;
 
 	class MonoFishPoleDummy : public ::UnityEngine::MonoBehaviour
 	{

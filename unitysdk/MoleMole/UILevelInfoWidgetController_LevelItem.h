@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UILEVELINFOWIDGETCONTROLLER_LEVELITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x8F15700)
+#define MOLEMOLE_UILEVELINFOWIDGETCONTROLLER_LEVELITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15004140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelInfoWidgetController_LevelItem_TypeDefinitionIndex = 41344;
+	inline static constexpr unsigned int UILevelInfoWidgetController_LevelItem_TypeDefinitionIndex = 42696;
 
 	class UILevelInfoWidgetController_LevelItem : public ::System::Object
 	{

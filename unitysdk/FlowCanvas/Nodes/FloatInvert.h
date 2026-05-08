@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
-#define FLOWCANVAS_NODES_FLOATINVERT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19178D70)
-#define FLOWCANVAS_NODES_FLOATINVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x19178D80)
+#define FLOWCANVAS_NODES_FLOATINVERT_INVOKE_OFFSET UNITYSDK_OFFSET(0x198467E0)
+#define FLOWCANVAS_NODES_FLOATINVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x198467F0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FloatInvert_TypeDefinitionIndex = 26905;
+	inline static constexpr unsigned int FloatInvert_TypeDefinitionIndex = 27685;
 
 	class FloatInvert : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::Single>
 	{

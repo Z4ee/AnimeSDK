@@ -6,20 +6,20 @@ namespace System::IO { class Stream; }
 namespace System::Net { class TransportContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_SERIALIZETOSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1A3C6140)
-#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_TRYCOMPUTELENGTH_OFFSET UNITYSDK_OFFSET(0x1A3C61A0)
-#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3C60C0)
+#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_SERIALIZETOSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1B00CA30)
+#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_TRYCOMPUTELENGTH_OFFSET UNITYSDK_OFFSET(0x1B00CAC0)
+#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00C9B0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int ByteArrayContent_TypeDefinitionIndex = 24192;
+	inline static constexpr unsigned int ByteArrayContent_TypeDefinitionIndex = 24705;
 
 	class ByteArrayContent : public ::System::Net::Http::HttpContent
 	{
 	public:
 		::Il2CppArray<::System::Byte>* content; // 0x28
-		::System::Int32 offset; // 0x30
-		::System::Int32 count; // 0x34
+		::System::Int32 count; // 0x30
+		::System::Int32 offset; // 0x34
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* content)
 		{

@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF2D55C0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF2D55D0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF2D59F0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2D5CB0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF2D5C70)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159F4120)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159F4130)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159F4530)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159F47D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_CONDITION_CONFIGSOUNDACTION_CONDITION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159F4790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex = 62283;
+	inline static constexpr unsigned int ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex = 42333;
 
 	class ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundAction_Condition*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EC30);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EC38);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49310);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49318);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EC40);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_Condition_ConfigSoundAction_Condition_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49320);
 		}
 
 		::System::Void _ctor()

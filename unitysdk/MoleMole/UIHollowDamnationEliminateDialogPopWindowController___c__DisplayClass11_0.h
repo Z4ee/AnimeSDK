@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_00EADCA3A1989FAA;
+class Class_2_416175823F05B577;
 namespace MoleMole { class UIHollowDamnationEliminateDialogPopWindowController; }
 
-#define MOLEMOLE_UIHOLLOWDAMNATIONELIMINATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C0D780)
-#define MOLEMOLE_UIHOLLOWDAMNATIONELIMINATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__INITVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x9C0D790)
+#define MOLEMOLE_UIHOLLOWDAMNATIONELIMINATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162EB490)
+#define MOLEMOLE_UIHOLLOWDAMNATIONELIMINATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__INITVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x162EB4A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowDamnationEliminateDialogPopWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 64837;
+	inline static constexpr unsigned int UIHollowDamnationEliminateDialogPopWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 44074;
 
 	class UIHollowDamnationEliminateDialogPopWindowController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowDamnationEliminateDialogPopWindowController* __4__this; // 0x10
-		::Class_2_00EADCA3A1989FAA* curse; // 0x18
+		::Class_2_416175823F05B577* curse; // 0x10
+		::MoleMole::UIHollowDamnationEliminateDialogPopWindowController* __4__this; // 0x18
 		::System::Int32 index; // 0x20
 
 		::System::Void _ctor()

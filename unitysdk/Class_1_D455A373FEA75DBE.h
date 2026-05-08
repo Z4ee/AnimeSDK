@@ -7,18 +7,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_D455A373FEA75DBE_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x766F4B0)
-#define CLASS_1_D455A373FEA75DBE_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x766F3A0)
-#define CLASS_1_D455A373FEA75DBE__CCTOR_OFFSET UNITYSDK_OFFSET(0x766F390)
+#define CLASS_1_D455A373FEA75DBE_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x143FE7E0)
+#define CLASS_1_D455A373FEA75DBE_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x143FE6F0)
+#define CLASS_1_D455A373FEA75DBE__CCTOR_OFFSET UNITYSDK_OFFSET(0x143FE6E0)
 
-inline static constexpr unsigned int Class_1_D455A373FEA75DBE_TypeDefinitionIndex = 59073;
+inline static constexpr unsigned int Class_1_D455A373FEA75DBE_TypeDefinitionIndex = 40717;
 
 class Class_1_D455A373FEA75DBE : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::LevelShootGameConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::LevelShootGameConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D455A373FEA75DBE_TypeDefinitionIndex)->GetStaticField(0x2ECE0);
+		return (::MoleMole::Config::LevelShootGameConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D455A373FEA75DBE_TypeDefinitionIndex)->GetStaticField(0x31C00);
 	}
 
 	static ::System::Void _cctor()

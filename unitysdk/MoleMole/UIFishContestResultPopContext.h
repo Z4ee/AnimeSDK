@@ -4,22 +4,22 @@
 
 class Class_1_2A154C6D4517B879;
 namespace System { class Action; }
-template <typename T1, typename T2> class Class_1_D4CCA64101A9C471;
+template <typename T1, typename T2> class Class_1_516A565475879095;
 
-#define MOLEMOLE_UIFISHCONTESTRESULTPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E96F0)
+#define MOLEMOLE_UIFISHCONTESTRESULTPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16989FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishContestResultPopContext_TypeDefinitionIndex = 46504;
+	inline static constexpr unsigned int UIFishContestResultPopContext_TypeDefinitionIndex = 54961;
 
 	class UIFishContestResultPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_D4CCA64101A9C471<::System::UInt32, ::System::UInt32>* RewardItemMap; // 0x28
-		::System::Action* OnClose; // 0x30
-		::Class_1_2A154C6D4517B879* FishData; // 0x38
-		::System::Boolean HideNew; // 0x40
-		::System::Boolean ForceBg; // 0x41
+		::System::Action* OnClose; // 0x28
+		::Class_1_2A154C6D4517B879* FishData; // 0x30
+		::Class_1_516A565475879095<::System::UInt32, ::System::UInt32>* RewardItemMap; // 0x38
+		::System::Boolean ForceBg; // 0x40
+		::System::Boolean HideNew; // 0x41
 		::System::UInt32 RewardTypeMask; // 0x44
 
 		::System::Void _ctor()

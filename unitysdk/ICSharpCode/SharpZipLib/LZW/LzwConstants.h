@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_LZW_LZWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B0CB0)
+#define ICSHARPCODE_SHARPZIPLIB_LZW_LZWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C216B90)
 
 namespace ICSharpCode::SharpZipLib::LZW
 {

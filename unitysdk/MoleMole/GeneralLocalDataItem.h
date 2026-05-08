@@ -7,15 +7,15 @@ namespace MoleMole { class SystemSettingLocalData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_53FF97471C47820D_OFFSET UNITYSDK_OFFSET(0x759D450)
-#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x759DDB0)
-#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x759D8E0)
-#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_F3E7BAD1D97562A8_OFFSET UNITYSDK_OFFSET(0x759D950)
-#define MOLEMOLE_GENERALLOCALDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x759D150)
+#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x12F8AF20)
+#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_7737B966587652CA_OFFSET UNITYSDK_OFFSET(0x12F8AFD0)
+#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12F8AF90)
+#define MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_F2696DA0EBD87308_OFFSET UNITYSDK_OFFSET(0x12F8A9F0)
+#define MOLEMOLE_GENERALLOCALDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12F8A5F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralLocalDataItem_TypeDefinitionIndex = 62036;
+	inline static constexpr unsigned int GeneralLocalDataItem_TypeDefinitionIndex = 79395;
 
 	class GeneralLocalDataItem : public ::System::Object
 	{
@@ -50,9 +50,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::MoleMole::GeneralLocalDataItem* Method_1_53FF97471C47820D(::System::String* a1)
+		static ::MoleMole::GeneralLocalDataItem* Method_1_F2696DA0EBD87308(::System::String* a1)
 		{
-			return ((::MoleMole::GeneralLocalDataItem*(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_53FF97471C47820D_OFFSET))(a1);
+			return ((::MoleMole::GeneralLocalDataItem*(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_F2696DA0EBD87308_OFFSET))(a1);
+		}
+
+		::System::Void Method_1_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_4343F372F34C05BF_OFFSET))(this);
 		}
 
 		::System::Void Method_1_CA373AA1C7054598()
@@ -60,14 +65,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 		}
 
-		static ::System::String* Method_1_F3E7BAD1D97562A8(::MoleMole::GeneralLocalDataItem* a1)
+		static ::System::String* Method_1_7737B966587652CA(::MoleMole::GeneralLocalDataItem* a1)
 		{
-			return ((::System::String*(*)(::MoleMole::GeneralLocalDataItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_F3E7BAD1D97562A8_OFFSET))(a1);
-		}
-
-		::System::Void Method_1_CA373AA1C7054598_1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::String*(*)(::MoleMole::GeneralLocalDataItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALLOCALDATAITEM_METHOD_1_7737B966587652CA_OFFSET))(a1);
 		}
 	};
 }

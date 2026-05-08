@@ -3,21 +3,21 @@
 #include "unitysdk/Foundation/Unreal/IntervalBoundType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_EXCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1B31FF50)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1B31FF30)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B320060)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B31FF70)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B320140)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_EXCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1BFE5F40)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1BFE5F20)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1BFE6050)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BFE5F60)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFE6130)
 
 namespace Foundation::Unreal::Unsafe
 {
-	inline static constexpr unsigned int IntervalBound_TypeDefinitionIndex = 9100;
+	inline static constexpr unsigned int IntervalBound_TypeDefinitionIndex = 9048;
 
 	struct alignas(4) IntervalBound
 	{
 		static ::Foundation::Unreal::Unsafe::IntervalBound* StaticGet_Open()
 		{
-			return (::Foundation::Unreal::Unsafe::IntervalBound*)Il2CppClass::FromTypeDefinitionIndex(IntervalBound_TypeDefinitionIndex)->GetStaticField(0x3DE0);
+			return (::Foundation::Unreal::Unsafe::IntervalBound*)Il2CppClass::FromTypeDefinitionIndex(IntervalBound_TypeDefinitionIndex)->GetStaticField(0x3DF0);
 		}
 		::System::Single _value; // 0x10
 		::Foundation::Unreal::IntervalBoundType _type; // 0x14

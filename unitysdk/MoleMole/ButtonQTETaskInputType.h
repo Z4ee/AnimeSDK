@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ButtonQTETaskInputType_TypeDefinitionIndex = 42304;
+	inline static constexpr unsigned int ButtonQTETaskInputType_TypeDefinitionIndex = 78172;
 
 	enum class ButtonQTETaskInputType : ::System::Int32
 	{
 		InLevelEvade = 4,
-		InLevelSpecialAttack = 2,
-		MonsterFantasyQTEAttack = 6,
 		InLevelCommonSkill = 8,
 		InLevelExQTEAttack = 3,
-		InLevelSwitchAvatar = 5,
-		InLevelNormalAttack = 1,
-		MonsterFantasyQTEEvade = 7,
 		None = 0,
+		InLevelNormalAttack = 1,
+		InLevelSpecialAttack = 2,
+		MonsterFantasyQTEEvade = 7,
+		MonsterFantasyQTEAttack = 6,
+		InLevelSwitchAvatar = 5,
 	};
 }

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGTEMPLELEVELUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A2960)
+#define MOLEMOLE_CONFIGTEMPLELEVELUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x153DFCB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTempleLevelUpEvent_TypeDefinitionIndex = 47831;
+	inline static constexpr unsigned int ConfigTempleLevelUpEvent_TypeDefinitionIndex = 62537;
 
 	class ConfigTempleLevelUpEvent : public ::System::Object
 	{

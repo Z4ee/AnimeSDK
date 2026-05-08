@@ -7,13 +7,13 @@ namespace MoleMole { class MonoSpawnPoint; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_METHOD_5_1073B8C441C31009_OFFSET UNITYSDK_OFFSET(0xA043C80)
-#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_REFRESHMASKEDSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0xA043A20)
-#define MOLEMOLE_MONOSPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0xA044710)
+#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_METHOD_5_1073B8C441C31009_OFFSET UNITYSDK_OFFSET(0x11774BE0)
+#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_REFRESHMASKEDSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x11774930)
+#define MOLEMOLE_MONOSPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x117756B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSpawnPointMaskRegion_TypeDefinitionIndex = 60326;
+	inline static constexpr unsigned int MonoSpawnPointMaskRegion_TypeDefinitionIndex = 45333;
 
 	class MonoSpawnPointMaskRegion : public ::UnityEngine::MonoBehaviour
 	{

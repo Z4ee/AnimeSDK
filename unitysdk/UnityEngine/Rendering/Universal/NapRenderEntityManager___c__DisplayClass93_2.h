@@ -6,12 +6,12 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityManager___c__DisplayClass93_2_TypeDefinitionIndex = 29553;
+	inline static constexpr unsigned int NapRenderEntityManager___c__DisplayClass93_2_TypeDefinitionIndex = 30081;
 
 	struct alignas(4) NapRenderEntityManager___c__DisplayClass93_2
 	{
-		::UnityEngine::Vector3 direction; // 0x10
-		::UnityEngine::Vector4 attenCoeff; // 0x1C
-		::UnityEngine::Vector3 forward; // 0x2C
+		::UnityEngine::Vector4 attenCoeff; // 0x10
+		::UnityEngine::Vector3 forward; // 0x20
+		::UnityEngine::Vector3 direction; // 0x2C
 	};
 }

@@ -3,18 +3,18 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int ChallengeSubTypeItem_EChallengeSubType_TypeDefinitionIndex = 50863;
+	inline static constexpr unsigned int ChallengeSubTypeItem_EChallengeSubType_TypeDefinitionIndex = 69975;
 
 	enum class ChallengeSubTypeItem_EChallengeSubType : ::System::Int16
 	{
-		LevelConditionLink = 7,
 		None = -1,
-		MonsterKill = 1,
-		RegionVisited = 6,
-		ExploreCollect = 4,
-		OccupyInteractive = 5,
-		ManualCondition = 8,
 		CharacterStatus = 2,
+		LevelConditionLink = 7,
+		ManualCondition = 8,
+		OccupyInteractive = 5,
+		RegionVisited = 6,
 		AliveOrNpcGuard = 3,
+		MonsterKill = 1,
+		ExploreCollect = 4,
 	};
 }

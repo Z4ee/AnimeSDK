@@ -3,7 +3,7 @@
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int IEmoTickable_TypeDefinitionIndex = 37182;
+	inline static constexpr unsigned int IEmoTickable_TypeDefinitionIndex = 37726;
 
 	class IEmoTickable
 	{

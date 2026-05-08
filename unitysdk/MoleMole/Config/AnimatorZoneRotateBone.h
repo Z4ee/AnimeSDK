@@ -9,100 +9,81 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_BDDDDB46A99CFF4C;
-class Class_2_E071819179BF845B;
-class Class_3_4C6078A35E3A3F33;
-class Class_3_4C6078A35E3A3F33_Class_1_B39C476F3023E577;
-class Class_3_F33F9DC5F4112336;
+class Class_1_677CEA8C88AC78AB;
+class Class_2_E57CEAB8F723AEA1;
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALCLAMPEDANGLESINGED_OFFSET UNITYSDK_OFFSET(0x917BEC0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALLIMITMIDDLE_OFFSET UNITYSDK_OFFSET(0x91792D0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALSIGNEDANGLE_OFFSET UNITYSDK_OFFSET(0x917B7A0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CHECKJOINKEY_OFFSET UNITYSDK_OFFSET(0x917A0D0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x9179230)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_DRAWAXIS_OFFSET UNITYSDK_OFFSET(0x917B740)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0x917A680)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GET_CURZONEINFO_OFFSET UNITYSDK_OFFSET(0x9179220)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x917C310)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_IGNOREOTHERWHENSAMEKEY_OFFSET UNITYSDK_OFFSET(0x9179EF0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_JOINOTHERZONE_OFFSET UNITYSDK_OFFSET(0x9179D80)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_LOCALAXISTYPE2VEC3_OFFSET UNITYSDK_OFFSET(0x9179970)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x91793A0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x917BA40)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_PROCESSFIXEDANIMATORPARAM_OFFSET UNITYSDK_OFFSET(0x917B350)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_RELEASESAMEKEYIGNORE_OFFSET UNITYSDK_OFFSET(0x917BC90)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_REVISEBYLIMIT_OFFSET UNITYSDK_OFFSET(0x917B1D0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ROTATETOTARGET_OFFSET UNITYSDK_OFFSET(0x917A750)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATELOCALROTATECOORDINATE_OFFSET UNITYSDK_OFFSET(0x917B020)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATEROTATE_OFFSET UNITYSDK_OFFSET(0x917A220)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x917C320)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x917C360)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x917C3E0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x917C470)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALCLAMPEDANGLESINGED_OFFSET UNITYSDK_OFFSET(0x11C99EA0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALLIMITMIDDLE_OFFSET UNITYSDK_OFFSET(0x11C97220)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALSIGNEDANGLE_OFFSET UNITYSDK_OFFSET(0x11C99760)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CHECKJOINKEY_OFFSET UNITYSDK_OFFSET(0x11C98060)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x11C97190)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_DRAWAXIS_OFFSET UNITYSDK_OFFSET(0x11C99710)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0x11C986D0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_IGNOREOTHERWHENSAMEKEY_OFFSET UNITYSDK_OFFSET(0x11C97E90)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_JOINOTHERZONE_OFFSET UNITYSDK_OFFSET(0x11C97D20)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_LOCALAXISTYPE2VEC3_OFFSET UNITYSDK_OFFSET(0x11C978F0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x11C972F0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x11C99A00)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_PROCESSFIXEDANIMATORPARAM_OFFSET UNITYSDK_OFFSET(0x11C99360)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_RELEASESAMEKEYIGNORE_OFFSET UNITYSDK_OFFSET(0x11C99C80)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_REVISEBYLIMIT_OFFSET UNITYSDK_OFFSET(0x11C991C0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ROTATETOTARGET_OFFSET UNITYSDK_OFFSET(0x11C98780)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATELOCALROTATECOORDINATE_OFFSET UNITYSDK_OFFSET(0x11C98FF0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATEROTATE_OFFSET UNITYSDK_OFFSET(0x11C981C0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x11C9A2D0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x11C9A310)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x11C9A3E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x11C9A490)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneRotateBone_TypeDefinitionIndex = 80837;
+	inline static constexpr unsigned int AnimatorZoneRotateBone_TypeDefinitionIndex = 49258;
 
 	class AnimatorZoneRotateBone : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
-		::Class_2_E071819179BF845B* _zoneInfo; // 0x50
-		::Class_3_4C6078A35E3A3F33_Class_1_B39C476F3023E577* _info; // 0x58
-		::MoleMole::Config::ConfigPosRot* ConfigPosRot; // 0x60
-		::System::String* ZoneKey; // 0x68
-		::System::Collections::Generic::List_1<::System::String*>* JoinZoneKeyList; // 0x70
-		::MoleMole::Battle::ProceduralAnimFixedParam TickFixedParam; // 0x78
-		::System::String* RotateBoneName; // 0xB8
-		::MoleMole::Battle::ProceduralAnimFixedParam ExitFixedParam; // 0xC0
-		::Class_3_4C6078A35E3A3F33* _proceduralAnimComponent; // 0x100
-		::UnityEngine::Transform* _entityTrans; // 0x108
-		::UnityEngine::Transform* _boneTrans; // 0x110
-		::Class_3_F33F9DC5F4112336* _animatorComponent; // 0x118
-		::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType ForwardAxisType; // 0x120
-		::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType UpAxisType; // 0x124
-		::MoleMole::Battle::ProceduralAnimDamperParam TickDamperParam; // 0x128
-		::MoleMole::Battle::ProceduralAnimType ExitAnimType; // 0x138
-		::System::Boolean _isValidFixedAxisRot; // 0x13C
-		::System::Boolean _shouldResetSkipCounter; // 0x13D
-		::System::Boolean InverseUpAxis; // 0x13E
-		::System::Boolean InverseForwardAxis; // 0x13F
-		::System::Single RotAngleLimitRight; // 0x140
-		::UnityEngine::Vector3 _initDir; // 0x144
-		::System::Single RotAngleLimitLeft; // 0x150
-		::MoleMole::Battle::ProceduralAnimDamperParam ExitDamperParam; // 0x154
-		::System::Single SelfRotAngleOffset; // 0x164
-		::MoleMole::Battle::ProceduralAnimType TickAnimType; // 0x168
-		::System::Boolean ExitNeedReset; // 0x16C
+		::System::String* ZoneKey; // 0x50
+		::MoleMole::Battle::ProceduralAnimFixedParam ExitFixedParam; // 0x58
+		::System::String* RotateBoneName; // 0x98
+		::System::Collections::Generic::List_1<::System::String*>* JoinZoneKeyList; // 0xA0
+		::MoleMole::Config::ConfigPosRot* ConfigPosRot; // 0xA8
+		::MoleMole::Battle::ProceduralAnimFixedParam TickFixedParam; // 0xB0
+		::System::Single RotAngleLimitLeft; // 0xF0
+		::MoleMole::Battle::ProceduralAnimType ExitAnimType; // 0xF4
+		::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType ForwardAxisType; // 0xF8
+		::System::Boolean InverseForwardAxis; // 0xFC
+		::System::Boolean InverseUpAxis; // 0xFD
+		::System::Boolean ExitNeedReset; // 0xFE
+		::System::Single SelfRotAngleOffset; // 0x100
+		::MoleMole::Battle::ProceduralAnimType TickAnimType; // 0x104
+		::MoleMole::Battle::ProceduralAnimDamperParam TickDamperParam; // 0x108
+		::System::Single RotAngleLimitRight; // 0x118
+		::MoleMole::Battle::ProceduralAnimDamperParam ExitDamperParam; // 0x11C
+		::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType UpAxisType; // 0x12C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_E071819179BF845B* get_CurZoneInfo()
+		::Class_1_677CEA8C88AC78AB* CreateZoneInfoInstance()
 		{
-			return ((::Class_2_E071819179BF845B*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GET_CURZONEINFO_OFFSET))(this);
+			return ((::Class_1_677CEA8C88AC78AB*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CREATEZONEINFOINSTANCE_OFFSET))(this);
 		}
 
-		::Class_1_BDDDDB46A99CFF4C* CreateZoneInfoInstance()
+		::System::Void CalLimitMiddle(::Class_2_E57CEAB8F723AEA1* zi)
 		{
-			return ((::Class_1_BDDDDB46A99CFF4C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CREATEZONEINFOINSTANCE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALLIMITMIDDLE_OFFSET))(this, zi);
 		}
 
-		::System::Void CalLimitMiddle()
+		::System::Void OnZoneEnter(::MoleMole::Battle::Entity* entity, ::UnityEngine::AnimatorStateInfo& curStateInfo, ::Class_1_677CEA8C88AC78AB* zoneInfo, ::System::Single deltaTime)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALLIMITMIDDLE_OFFSET))(this);
-		}
-
-		::System::Void OnZoneEnter(::MoleMole::Battle::Entity* entity, ::UnityEngine::AnimatorStateInfo& curStateInfo, ::Class_1_BDDDDB46A99CFF4C* zoneInfo, ::System::Single deltaTime)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEENTER_OFFSET))(this, entity, curStateInfo, zoneInfo, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEENTER_OFFSET))(this, entity, curStateInfo, zoneInfo, deltaTime);
 		}
 
 		::System::Boolean CheckJoinKey(::System::Int32 key)
@@ -110,54 +91,54 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CHECKJOINKEY_OFFSET))(this, key);
 		}
 
-		::System::Single JoinOtherZone()
+		::System::Single JoinOtherZone(::Class_2_E57CEAB8F723AEA1* zi)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_JOINOTHERZONE_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_JOINOTHERZONE_OFFSET))(this, zi);
 		}
 
-		::System::Void UpdateRotate(::MoleMole::Battle::Entity* entity)
+		::System::Void UpdateRotate(::MoleMole::Battle::Entity* entity, ::Class_2_E57CEAB8F723AEA1* zi)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATEROTATE_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_2_E57CEAB8F723AEA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATEROTATE_OFFSET))(this, entity, zi);
 		}
 
-		::System::Void RotateToTarget(::MoleMole::Battle::Entity* entity, ::UnityEngine::Vector3 targetDir, ::UnityEngine::Quaternion sourceRotation, ::System::Boolean useLimit)
+		::System::Void RotateToTarget(::Class_2_E57CEAB8F723AEA1* zi, ::MoleMole::Battle::Entity* entity, ::UnityEngine::Vector3 targetDir, ::UnityEngine::Quaternion sourceRotation, ::System::Boolean useLimit)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ROTATETOTARGET_OFFSET))(this, entity, targetDir, sourceRotation, useLimit);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ROTATETOTARGET_OFFSET))(this, zi, entity, targetDir, sourceRotation, useLimit);
 		}
 
-		::System::Void DrawAxis()
+		::System::Void DrawAxis(::Class_2_E57CEAB8F723AEA1* zi)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_DRAWAXIS_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_DRAWAXIS_OFFSET))(this, zi);
 		}
 
-		::System::Void CalSignedAngle(::System::Single limitAngle, ::System::Boolean outsideOfLimit, ::System::Single& f, ::UnityEngine::Vector3& projectTargetDirInZox, ::UnityEngine::Quaternion& quaternion)
+		::System::Void CalSignedAngle(::Class_2_E57CEAB8F723AEA1* zi, ::System::Single limitAngle, ::System::Boolean outsideOfLimit, ::System::Single& f, ::UnityEngine::Vector3& projectTargetDirInZox, ::UnityEngine::Quaternion& quaternion)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean, ::System::Single&, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALSIGNEDANGLE_OFFSET))(this, limitAngle, outsideOfLimit, f, projectTargetDirInZox, quaternion);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*, ::System::Single, ::System::Boolean, ::System::Single&, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALSIGNEDANGLE_OFFSET))(this, zi, limitAngle, outsideOfLimit, f, projectTargetDirInZox, quaternion);
 		}
 
-		::System::Void ReviseByLimit(::System::Single& signedAngle, ::UnityEngine::Vector3& projectTargetDirInZOX, ::UnityEngine::Quaternion& customSpaceDeltaRot)
+		::System::Void ReviseByLimit(::Class_2_E57CEAB8F723AEA1* zi, ::System::Single& signedAngle, ::UnityEngine::Vector3& projectTargetDirInZOX, ::UnityEngine::Quaternion& customSpaceDeltaRot)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_REVISEBYLIMIT_OFFSET))(this, signedAngle, projectTargetDirInZOX, customSpaceDeltaRot);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*, ::System::Single&, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_REVISEBYLIMIT_OFFSET))(this, zi, signedAngle, projectTargetDirInZOX, customSpaceDeltaRot);
 		}
 
-		::System::Void OnZoneExit(::MoleMole::Battle::Entity* entity, ::System::Single stateNormalizedTime, ::Class_1_BDDDDB46A99CFF4C* zoneInfo, ::System::Single deltaTime)
+		::System::Void OnZoneExit(::MoleMole::Battle::Entity* entity, ::System::Single stateNormalizedTime, ::Class_1_677CEA8C88AC78AB* zoneInfo, ::System::Single deltaTime)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEEXIT_OFFSET))(this, entity, stateNormalizedTime, zoneInfo, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_ONZONEEXIT_OFFSET))(this, entity, stateNormalizedTime, zoneInfo, deltaTime);
 		}
 
-		::System::Void ProcessFixedAnimatorParam(::MoleMole::Battle::ProceduralAnimFixedParam param)
+		::System::Void ProcessFixedAnimatorParam(::Class_2_E57CEAB8F723AEA1* zi, ::MoleMole::Battle::ProceduralAnimFixedParam param)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::ProceduralAnimFixedParam))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_PROCESSFIXEDANIMATORPARAM_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*, ::MoleMole::Battle::ProceduralAnimFixedParam))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_PROCESSFIXEDANIMATORPARAM_OFFSET))(this, zi, param);
 		}
 
-		::System::Void IgnoreOtherWhenSameKey()
+		::System::Void IgnoreOtherWhenSameKey(::Class_2_E57CEAB8F723AEA1* zi)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_IGNOREOTHERWHENSAMEKEY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_IGNOREOTHERWHENSAMEKEY_OFFSET))(this, zi);
 		}
 
-		::System::Void ReleaseSameKeyIgnore()
+		::System::Void ReleaseSameKeyIgnore(::Class_2_E57CEAB8F723AEA1* zi)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_RELEASESAMEKEYIGNORE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_RELEASESAMEKEYIGNORE_OFFSET))(this, zi);
 		}
 
 		::System::Single CalClampedAngleSinged(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, ::UnityEngine::Vector3 axisUp)
@@ -165,9 +146,9 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_CALCLAMPEDANGLESINGED_OFFSET))(this, from, to, axisUp);
 		}
 
-		::System::Void UpdateLocalRotateCoordinate(::UnityEngine::Vector3& axisUpFinal, ::UnityEngine::Vector3& axisForwardFinal, ::UnityEngine::Vector3& axisRightFinal)
+		::System::Void UpdateLocalRotateCoordinate(::Class_2_E57CEAB8F723AEA1* zi, ::UnityEngine::Vector3& axisUpFinal, ::UnityEngine::Vector3& axisForwardFinal, ::UnityEngine::Vector3& axisRightFinal)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATELOCALROTATECOORDINATE_OFFSET))(this, axisUpFinal, axisForwardFinal, axisRightFinal);
+			return ((::System::Void(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_UPDATELOCALROTATECOORDINATE_OFFSET))(this, zi, axisUpFinal, axisForwardFinal, axisRightFinal);
 		}
 
 		::UnityEngine::Vector3 GetTargetPos(::MoleMole::Battle::Entity* entity)
@@ -175,29 +156,24 @@ namespace MoleMole::Config
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GETTARGETPOS_OFFSET))(this, entity);
 		}
 
-		::UnityEngine::Vector3 LocalAxisType2Vec3(::UnityEngine::Transform* t, ::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType type, ::System::Boolean inverse)
+		::UnityEngine::Vector3 LocalAxisType2Vec3(::Class_2_E57CEAB8F723AEA1* zi, ::UnityEngine::Transform* t, ::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType type, ::System::Boolean inverse)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Transform*, ::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_LOCALAXISTYPE2VEC3_OFFSET))(this, t, type, inverse);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Class_2_E57CEAB8F723AEA1*, ::UnityEngine::Transform*, ::MoleMole::Config::AnimatorZoneRotateBone_LocalAxisType, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_LOCALAXISTYPE2VEC3_OFFSET))(this, zi, t, type, inverse);
 		}
 
-		::Class_3_4C6078A35E3A3F33_Class_1_B39C476F3023E577* get_Info()
+		::Class_1_677CEA8C88AC78AB* __base_CreateZoneInfoInstance()
 		{
-			return ((::Class_3_4C6078A35E3A3F33_Class_1_B39C476F3023E577*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE_GET_INFO_OFFSET))(this);
+			return ((::Class_1_677CEA8C88AC78AB*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_CREATEZONEINFOINSTANCE_OFFSET))(this);
 		}
 
-		::Class_1_BDDDDB46A99CFF4C* __base_CreateZoneInfoInstance()
+		::System::Void __base_OnZoneEnter(::MoleMole::Battle::Entity* P0, ::UnityEngine::AnimatorStateInfo& P1, ::Class_1_677CEA8C88AC78AB* P2, ::System::Single P3)
 		{
-			return ((::Class_1_BDDDDB46A99CFF4C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_CREATEZONEINFOINSTANCE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEENTER_OFFSET))(this, P0, P1, P2, P3);
 		}
 
-		::System::Void __base_OnZoneEnter(::MoleMole::Battle::Entity* P0, ::UnityEngine::AnimatorStateInfo& P1, ::Class_1_BDDDDB46A99CFF4C* P2, ::System::Single P3)
+		::System::Void __base_OnZoneExit(::MoleMole::Battle::Entity* P0, ::System::Single P1, ::Class_1_677CEA8C88AC78AB* P2, ::System::Single P3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEENTER_OFFSET))(this, P0, P1, P2, P3);
-		}
-
-		::System::Void __base_OnZoneExit(::MoleMole::Battle::Entity* P0, ::System::Single P1, ::Class_1_BDDDDB46A99CFF4C* P2, ::System::Single P3)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEEXIT_OFFSET))(this, P0, P1, P2, P3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEROTATEBONE___BASE_ONZONEEXIT_OFFSET))(this, P0, P1, P2, P3);
 		}
 	};
 }

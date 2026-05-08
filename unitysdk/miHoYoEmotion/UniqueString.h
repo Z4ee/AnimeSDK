@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYOEMOTION_UNIQUESTRING_CLEAR_OFFSET UNITYSDK_OFFSET(0x18FE2B30)
-#define MIHOYOEMOTION_UNIQUESTRING_INTERNSTRINGARRAY_OFFSET UNITYSDK_OFFSET(0x18FE2C80)
-#define MIHOYOEMOTION_UNIQUESTRING_INTERNSTRINGLIST_OFFSET UNITYSDK_OFFSET(0x18FE2DA0)
-#define MIHOYOEMOTION_UNIQUESTRING_INTERNSTRING_OFFSET UNITYSDK_OFFSET(0x18FE2C10)
-#define MIHOYOEMOTION_UNIQUESTRING_INTERN_OFFSET UNITYSDK_OFFSET(0x18FE28A0)
-#define MIHOYOEMOTION_UNIQUESTRING_ISINTERNED_OFFSET UNITYSDK_OFFSET(0x18FE29E0)
-#define MIHOYOEMOTION_UNIQUESTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FE2E80)
+#define MIHOYOEMOTION_UNIQUESTRING_CLEAR_OFFSET UNITYSDK_OFFSET(0x197A1310)
+#define MIHOYOEMOTION_UNIQUESTRING_INTERNSTRINGARRAY_OFFSET UNITYSDK_OFFSET(0x197A14B0)
+#define MIHOYOEMOTION_UNIQUESTRING_INTERNSTRINGLIST_OFFSET UNITYSDK_OFFSET(0x197A1590)
+#define MIHOYOEMOTION_UNIQUESTRING_INTERNSTRING_OFFSET UNITYSDK_OFFSET(0x197A1420)
+#define MIHOYOEMOTION_UNIQUESTRING_INTERN_OFFSET UNITYSDK_OFFSET(0x197A1000)
+#define MIHOYOEMOTION_UNIQUESTRING_ISINTERNED_OFFSET UNITYSDK_OFFSET(0x197A1190)
+#define MIHOYOEMOTION_UNIQUESTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x197A16A0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int UniqueString_TypeDefinitionIndex = 37236;
+	inline static constexpr unsigned int UniqueString_TypeDefinitionIndex = 37780;
 
 	class UniqueString : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_m_strings()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UniqueString_TypeDefinitionIndex)->GetStaticField(0x28780);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UniqueString_TypeDefinitionIndex)->GetStaticField(0x29330);
 		}
 
 		static ::System::Void _cctor()

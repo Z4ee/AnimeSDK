@@ -2,40 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_44EFB945CAE441A3;
-class Class_3_48A3D3A34C52331D_16;
+class Class_1_E081FCEC8F87505A;
+class Class_3_48A3D3A34C52331D_6;
 namespace MoleMole { class UIBangBooUAVLevelPageController; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADB7680)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0xADB7690)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__1_OFFSET UNITYSDK_OFFSET(0xADB7BE0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15ECFED0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0x15ECFEE0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__1_OFFSET UNITYSDK_OFFSET(0x15ED0450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass12_0_TypeDefinitionIndex = 40628;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass12_0_TypeDefinitionIndex = 41731;
 
 	class UIBangBooUAVLevelPageController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangBooUAVLevelPageController* __4__this; // 0x10
+		::System::Action_1<::Class_3_48A3D3A34C52331D_6*>* __9__1; // 0x10
 		::System::Collections::Generic::List_1<::System::Int32>* enhanceList; // 0x18
-		::System::Action_1<::Class_3_48A3D3A34C52331D_16*>* __9__1; // 0x20
+		::MoleMole::UIBangBooUAVLevelPageController* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnStart_b__0(::Class_1_44EFB945CAE441A3* data)
+		::System::Void _OnStart_b__0(::Class_1_E081FCEC8F87505A* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_44EFB945CAE441A3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__0_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E081FCEC8F87505A*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__0_OFFSET))(this, data);
 		}
 
-		::System::Void _OnStart_b__1(::Class_3_48A3D3A34C52331D_16* ret)
+		::System::Void _OnStart_b__1(::Class_3_48A3D3A34C52331D_6* ret)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_16*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__1_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_6*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSTART_B__1_OFFSET))(this, ret);
 		}
 	};
 }

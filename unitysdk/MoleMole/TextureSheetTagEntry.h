@@ -6,17 +6,17 @@
 namespace Foundation::Unreal { class SerializableGameplayTagQuery; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TEXTURESHEETTAGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x9855D10)
+#define MOLEMOLE_TEXTURESHEETTAGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11782AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetTagEntry_TypeDefinitionIndex = 79932;
+	inline static constexpr unsigned int TextureSheetTagEntry_TypeDefinitionIndex = 67013;
 
 	class TextureSheetTagEntry : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Foundation::Unreal::SerializableGameplayTagQuery*>* Queries; // 0x10
-		::MoleMole::HollowChessboard::EffectResult EffectResult; // 0x18
+		::MoleMole::HollowChessboard::EffectResult EffectResult; // 0x10
+		::System::Collections::Generic::List_1<::Foundation::Unreal::SerializableGameplayTagQuery*>* Queries; // 0x20
 
 		::System::Void _ctor()
 		{

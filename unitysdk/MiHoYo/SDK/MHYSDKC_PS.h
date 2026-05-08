@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PS_TypeDefinitionIndex = 34429;
+	inline static constexpr unsigned int MHYSDKC_PS_TypeDefinitionIndex = 34965;
 
 	class MHYSDKC_PS : public ::System::Object
 	{
@@ -52,12 +52,14 @@ namespace MiHoYo::SDK
 		// static const ::System::String* PLAYGO_GET_CHUNK_LOCUS; // 0x0
 		// static const ::System::String* PLAYGO_GET_CHUNK_TOTAL_SIZE; // 0x0
 		// static const ::System::String* PLAYGO_GET_CHUNK_PROGRESS_SIZE; // 0x0
+		// static const ::System::String* PLAYGO_SET_LANGUAGE_MASK; // 0x0
 		// static const ::System::String* DIALOG_OPEN_PLAYGO_DIALOG; // 0x0
 		// static const ::System::String* KEY_PLAYGO_MODE; // 0x0
 		// static const ::System::String* KEY_PLAYGO_CHUNK_LISTS; // 0x0
 		// static const ::System::String* KEY_PLAYGO_CHUNK_IDS; // 0x0
 		// static const ::System::String* KEY_PLAYGO_LABEL; // 0x0
 		// static const ::System::String* KEY_PLAYGO_LANGUAGE; // 0x0
+		// static const ::System::String* KEY_PLAYGO_LANGUAGES; // 0x0
 		// static const ::System::String* KEY_PLAYGO_CHUNK_ID; // 0x0
 		// static const ::System::String* KEY_PLAYGO_LOCUS; // 0x0
 		// static const ::System::String* KEY_PLAYGO_PROGRESS_SIZE; // 0x0

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Utils { class NapCameraSequence; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_GETINLEVELUIGAMECAMERASEQUENCE_INVOKE_OFFSET UNITYSDK_OFFSET(0xC264230)
-#define MOLEMOLE_FLOWCANVAS_NODES_GETINLEVELUIGAMECAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xC2642B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_GETINLEVELUIGAMECAMERASEQUENCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x142790C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_GETINLEVELUIGAMECAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x14279120)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetInLevelUIGameCameraSequence_TypeDefinitionIndex = 74871;
+	inline static constexpr unsigned int GetInLevelUIGameCameraSequence_TypeDefinitionIndex = 44772;
 
 	class GetInLevelUIGameCameraSequence : public ::MoleMole::FlowCanvas::Nodes::LDGetNapCameraSequence
 	{

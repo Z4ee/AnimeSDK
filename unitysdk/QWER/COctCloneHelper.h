@@ -6,12 +6,12 @@
 namespace QWER { class COctStream; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define QWER_COCTCLONEHELPER_CLONEOCTSTREAM_OFFSET UNITYSDK_OFFSET(0x1B76C250)
-#define QWER_COCTCLONEHELPER_CLONETOOCTSTREAM_OFFSET UNITYSDK_OFFSET(0x1B76C2A0)
+#define QWER_COCTCLONEHELPER_CLONEOCTSTREAM_OFFSET UNITYSDK_OFFSET(0x1C558260)
+#define QWER_COCTCLONEHELPER_CLONETOOCTSTREAM_OFFSET UNITYSDK_OFFSET(0x1C5582E0)
 
 namespace QWER
 {
-	inline static constexpr unsigned int COctCloneHelper_TypeDefinitionIndex = 8578;
+	inline static constexpr unsigned int COctCloneHelper_TypeDefinitionIndex = 8589;
 
 	class COctCloneHelper : public ::System::Object
 	{

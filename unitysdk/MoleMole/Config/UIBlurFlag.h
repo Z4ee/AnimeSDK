@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_UIBLURFLAG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9199380)
-#define MOLEMOLE_CONFIG_UIBLURFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x91995E0)
+#define MOLEMOLE_CONFIG_UIBLURFLAG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11CB8760)
+#define MOLEMOLE_CONFIG_UIBLURFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB88D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIBlurFlag_TypeDefinitionIndex = 50508;
+	inline static constexpr unsigned int UIBlurFlag_TypeDefinitionIndex = 76636;
 
 	class UIBlurFlag : public ::UnityEngine::MonoBehaviour
 	{

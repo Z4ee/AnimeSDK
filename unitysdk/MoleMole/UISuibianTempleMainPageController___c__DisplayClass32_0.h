@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianTempleMainPageController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS32_0__BINDLOCKDAILY_B__0_OFFSET UNITYSDK_OFFSET(0x9589AF0)
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9589AE0)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS32_0__BINDLOCKDAILY_B__0_OFFSET UNITYSDK_OFFSET(0x12742580)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12742570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleMainPageController___c__DisplayClass32_0_TypeDefinitionIndex = 79171;
+	inline static constexpr unsigned int UISuibianTempleMainPageController___c__DisplayClass32_0_TypeDefinitionIndex = 75993;
 
 	class UISuibianTempleMainPageController___c__DisplayClass32_0 : public ::System::Object
 	{

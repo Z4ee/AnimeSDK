@@ -7,12 +7,12 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A641C70)
-#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS36_0__GETPUBLICMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x1A641F90)
+#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B289370)
+#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS36_0__GETPUBLICMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x1B289690)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableMapping___c__DisplayClass36_0_TypeDefinitionIndex = 36243;
+	inline static constexpr unsigned int TableMapping___c__DisplayClass36_0_TypeDefinitionIndex = 36787;
 
 	class TableMapping___c__DisplayClass36_0 : public ::System::Object
 	{

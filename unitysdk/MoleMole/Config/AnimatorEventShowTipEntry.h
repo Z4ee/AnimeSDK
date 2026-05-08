@@ -5,19 +5,19 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xCAD2910)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xCAD29B0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xF96A0A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF96A120)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventShowTipEntry_TypeDefinitionIndex = 61686;
+	inline static constexpr unsigned int AnimatorEventShowTipEntry_TypeDefinitionIndex = 80566;
 
 	class AnimatorEventShowTipEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
 		::Il2CppArray<::MoleMole::Config::AnimatorEventShowTipEntry_ShowTipEntryConfig>* TipEntryConfigs; // 0x58
-		::System::Int32 LimitCountOfShowTips; // 0x60
-		::System::Single Probability; // 0x64
+		::System::Single Probability; // 0x60
+		::System::Int32 LimitCountOfShowTips; // 0x64
 
 		::System::Void _ctor()
 		{

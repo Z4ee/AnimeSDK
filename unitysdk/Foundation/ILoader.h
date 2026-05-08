@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ILoader_TypeDefinitionIndex = 7856;
+	inline static constexpr unsigned int ILoader_TypeDefinitionIndex = 7705;
 
 	class ILoader
 	{

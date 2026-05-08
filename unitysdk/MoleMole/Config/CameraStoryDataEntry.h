@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class CameraStoryDataActiveCondition; }
 namespace MoleMole::Config { class ConfigCameraStory; }
 
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAENTRY_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xEC39EB0)
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xEC39F30)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAENTRY_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12D31C10)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12D31C70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraStoryDataEntry_TypeDefinitionIndex = 53367;
+	inline static constexpr unsigned int CameraStoryDataEntry_TypeDefinitionIndex = 57823;
 
 	class CameraStoryDataEntry : public ::System::Object
 	{

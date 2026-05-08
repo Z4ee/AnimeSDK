@@ -5,12 +5,12 @@
 namespace MoleMole { class UIFishingContestStarWidgetController; }
 namespace MoleMole { class UIFishingContestTipsPopWindowController_StarInfo; }
 
-#define MOLEMOLE_UIFISHINGCONTESTSTARWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF9B650)
-#define MOLEMOLE_UIFISHINGCONTESTSTARWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xDF9B660)
+#define MOLEMOLE_UIFISHINGCONTESTSTARWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6AD30)
+#define MOLEMOLE_UIFISHINGCONTESTSTARWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x15F6AD40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestStarWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 40068;
+	inline static constexpr unsigned int UIFishingContestStarWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 74386;
 
 	class UIFishingContestStarWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{

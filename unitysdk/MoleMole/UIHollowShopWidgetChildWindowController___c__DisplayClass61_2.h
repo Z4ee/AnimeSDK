@@ -10,27 +10,27 @@ namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI::Extension { class UIButtonBase; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__CTOR_OFFSET UNITYSDK_OFFSET(0x97FFAC0)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x97FFAD0)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x97FFE90)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__2_OFFSET UNITYSDK_OFFSET(0x97FFFC0)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__3_OFFSET UNITYSDK_OFFSET(0x97FFC30)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15FAC080)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x15FAC090)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x15FAC340)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__2_OFFSET UNITYSDK_OFFSET(0x15FAC470)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__3_OFFSET UNITYSDK_OFFSET(0x15FAC180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_2_TypeDefinitionIndex = 48590;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_2_TypeDefinitionIndex = 51854;
 
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass61_2 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Animation* anim; // 0x10
-		::UnityEngine::Transform* tran; // 0x18
-		::UnityEngine::UI::Extension::UITabButton* btn; // 0x20
-		::UnityEngine::Events::UnityAction* __9__3; // 0x28
-		::UnityEngine::UI::Extension::UIButtonBase* realBtn; // 0x30
+		::UnityEngine::Events::UnityAction* __9__3; // 0x10
+		::UnityEngine::UI::Extension::UIButtonBase* realBtn; // 0x18
+		::UnityEngine::Transform* tran; // 0x20
+		::UnityEngine::Animation* anim; // 0x28
+		::UnityEngine::UI::Extension::UITabButton* btn; // 0x30
 		::MoleMole::UIHollowShopWidgetChildWindowController___c__DisplayClass61_1* CS___8__locals2; // 0x38
-		::Enum_3_0FC29DF8FB514794 currentPos; // 0x40
-		::System::Int32 cardIndex; // 0x44
+		::System::Int32 cardIndex; // 0x40
+		::Enum_3_0FC29DF8FB514794 currentPos; // 0x44
 
 		::System::Void _ctor()
 		{

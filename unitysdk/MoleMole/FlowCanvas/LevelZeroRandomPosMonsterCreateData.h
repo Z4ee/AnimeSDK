@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/LevelZeroMonsterCreateDataBase.h"
 
-#define MOLEMOLE_FLOWCANVAS_LEVELZERORANDOMPOSMONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x7A50310)
+#define MOLEMOLE_FLOWCANVAS_LEVELZERORANDOMPOSMONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18411590)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LevelZeroRandomPosMonsterCreateData_TypeDefinitionIndex = 60821;
+	inline static constexpr unsigned int LevelZeroRandomPosMonsterCreateData_TypeDefinitionIndex = 45235;
 
 	class LevelZeroRandomPosMonsterCreateData : public ::MoleMole::FlowCanvas::LevelZeroMonsterCreateDataBase
 	{

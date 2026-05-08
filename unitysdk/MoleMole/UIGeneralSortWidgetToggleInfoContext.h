@@ -4,11 +4,11 @@
 
 class Class_1_546C6222FBEA4460;
 
-#define MOLEMOLE_UIGENERALSORTWIDGETTOGGLEINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF22F060)
+#define MOLEMOLE_UIGENERALSORTWIDGETTOGGLEINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x146673C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSortWidgetToggleInfoContext_TypeDefinitionIndex = 66207;
+	inline static constexpr unsigned int UIGeneralSortWidgetToggleInfoContext_TypeDefinitionIndex = 66379;
 
 	class UIGeneralSortWidgetToggleInfoContext : public ::MoleMole::UIControllerContextBase
 	{

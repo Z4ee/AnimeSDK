@@ -13,7 +13,7 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-inline static constexpr unsigned int Class_1_42E6215496E57F55_TypeDefinitionIndex = 68694;
+inline static constexpr unsigned int Class_1_42E6215496E57F55_TypeDefinitionIndex = 57456;
 
 template <typename TKey, typename TValue>
 class Class_1_42E6215496E57F55 : public ::System::Object

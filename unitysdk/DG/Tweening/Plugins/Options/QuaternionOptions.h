@@ -7,7 +7,7 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int QuaternionOptions_TypeDefinitionIndex = 24951;
+	inline static constexpr unsigned int QuaternionOptions_TypeDefinitionIndex = 25465;
 
 	struct alignas(4) QuaternionOptions
 	{

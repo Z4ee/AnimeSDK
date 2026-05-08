@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYBGSEQUENCEVENODE_GETALLVEKEY_OFFSET UNITYSDK_OFFSET(0xEC429E0)
-#define MOLEMOLE_CONFIG_CONFIGPLAYBGSEQUENCEVENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xEC42940)
-#define MOLEMOLE_CONFIG_CONFIGPLAYBGSEQUENCEVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC42A80)
+#define MOLEMOLE_CONFIG_CONFIGPLAYBGSEQUENCEVENODE_GETALLVEKEY_OFFSET UNITYSDK_OFFSET(0x181CB130)
+#define MOLEMOLE_CONFIG_CONFIGPLAYBGSEQUENCEVENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x181CB0B0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYBGSEQUENCEVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x181CB1B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayBGSequenceVENode_TypeDefinitionIndex = 47192;
+	inline static constexpr unsigned int ConfigPlayBGSequenceVENode_TypeDefinitionIndex = 50012;
 
 	class ConfigPlayBGSequenceVENode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* VEPool; // 0x18
-		::System::String* SwitchStartEffectPath; // 0x20
-		::System::String* SwitchEndEffectPath; // 0x28
-		::UnityEngine::AnimationCurve* AlphaCurve; // 0x30
-		::System::String* ChangeVEEffectPath; // 0x38
-		::System::Single durationTime; // 0x40
-		::System::Boolean isOnlyVisbile; // 0x44
+		::UnityEngine::AnimationCurve* AlphaCurve; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* VEPool; // 0x20
+		::System::String* ChangeVEEffectPath; // 0x28
+		::System::String* SwitchEndEffectPath; // 0x30
+		::System::String* SwitchStartEffectPath; // 0x38
+		::System::Boolean isOnlyVisbile; // 0x40
+		::System::Single durationTime; // 0x44
 
 		::System::Void _ctor()
 		{

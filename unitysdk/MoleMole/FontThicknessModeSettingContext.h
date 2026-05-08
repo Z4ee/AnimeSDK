@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/FontThicknessMode.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_FONTTHICKNESSMODESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBA13520)
+#define MOLEMOLE_FONTTHICKNESSMODESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D479F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FontThicknessModeSettingContext_TypeDefinitionIndex = 38832;
+	inline static constexpr unsigned int FontThicknessModeSettingContext_TypeDefinitionIndex = 59774;
 
 	class FontThicknessModeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

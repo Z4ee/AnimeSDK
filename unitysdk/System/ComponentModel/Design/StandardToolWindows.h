@@ -3,8 +3,8 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDTOOLWINDOWS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B953A0)
-#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDTOOLWINDOWS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B95390)
+#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDTOOLWINDOWS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1939A340)
+#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDTOOLWINDOWS__CTOR_OFFSET UNITYSDK_OFFSET(0x1939A330)
 
 namespace System::ComponentModel::Design
 {
@@ -13,15 +13,15 @@ namespace System::ComponentModel::Design
 	class StandardToolWindows : public ::System::Object
 	{
 	public:
-		static ::System::Guid* StaticGet_TaskList()
+		static ::System::Guid* StaticGet_RelatedLinks()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x1260);
 		}
-		static ::System::Guid* StaticGet_OutputWindow()
+		static ::System::Guid* StaticGet_ObjectBrowser()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x1270);
 		}
-		static ::System::Guid* StaticGet_ServerExplorer()
+		static ::System::Guid* StaticGet_ProjectExplorer()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x1280);
 		}
@@ -29,19 +29,19 @@ namespace System::ComponentModel::Design
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x1290);
 		}
-		static ::System::Guid* StaticGet_ProjectExplorer()
+		static ::System::Guid* StaticGet_PropertyBrowser()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x12A0);
 		}
-		static ::System::Guid* StaticGet_RelatedLinks()
+		static ::System::Guid* StaticGet_ServerExplorer()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x12B0);
 		}
-		static ::System::Guid* StaticGet_PropertyBrowser()
+		static ::System::Guid* StaticGet_OutputWindow()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x12C0);
 		}
-		static ::System::Guid* StaticGet_ObjectBrowser()
+		static ::System::Guid* StaticGet_TaskList()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardToolWindows_TypeDefinitionIndex)->GetStaticField(0x12D0);
 		}

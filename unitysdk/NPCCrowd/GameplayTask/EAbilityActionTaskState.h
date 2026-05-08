@@ -3,14 +3,14 @@
 
 namespace NPCCrowd::GameplayTask
 {
-	inline static constexpr unsigned int EAbilityActionTaskState_TypeDefinitionIndex = 76134;
+	inline static constexpr unsigned int EAbilityActionTaskState_TypeDefinitionIndex = 68389;
 
 	enum class EAbilityActionTaskState : ::System::Int32
 	{
-		Uninitialized = 0,
 		Paused = 2,
-		Finished = 4,
+		Uninitialized = 0,
 		AwaitingActivation = 1,
+		Finished = 4,
 		Active = 3,
 	};
 }

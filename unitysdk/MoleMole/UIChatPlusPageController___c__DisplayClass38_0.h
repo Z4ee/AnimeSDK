@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_A72BA6D8C1BF0087_1;
+class Class_3_848BA58F81F05F34_1;
 namespace MoleMole { class UIChatPlusPageController; }
 namespace MoleMole::GalGame { class PlayChatPlusStoryNode; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA904720)
-#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0xA905340)
-#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__2_OFFSET UNITYSDK_OFFSET(0xA905390)
-#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__3_OFFSET UNITYSDK_OFFSET(0xA905420)
-#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__5_OFFSET UNITYSDK_OFFSET(0xA905410)
-#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_G__DOPLAYSTORYNODE_0_OFFSET UNITYSDK_OFFSET(0xA904730)
+#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F7B250)
+#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x12F7BEA0)
+#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__2_OFFSET UNITYSDK_OFFSET(0x12F7BEF0)
+#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__3_OFFSET UNITYSDK_OFFSET(0x12F7BF80)
+#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_B__5_OFFSET UNITYSDK_OFFSET(0x12F7BF70)
+#define MOLEMOLE_UICHATPLUSPAGECONTROLLER___C__DISPLAYCLASS38_0__PLAYSTORYNODE_G__DOPLAYSTORYNODE_0_OFFSET UNITYSDK_OFFSET(0x12F7B260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatPlusPageController___c__DisplayClass38_0_TypeDefinitionIndex = 45784;
+	inline static constexpr unsigned int UIChatPlusPageController___c__DisplayClass38_0_TypeDefinitionIndex = 51466;
 
 	class UIChatPlusPageController___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::Class_3_A72BA6D8C1BF0087_1* __9__5; // 0x10
-		::MoleMole::GalGame::PlayChatPlusStoryNode* config; // 0x18
-		::MoleMole::UIChatPlusPageController* __4__this; // 0x20
-		::System::Action_1<::System::Boolean>* finishFunc; // 0x28
-		::System::Action* voiceEndFunc; // 0x30
+		::MoleMole::GalGame::PlayChatPlusStoryNode* config; // 0x10
+		::Class_3_848BA58F81F05F34_1* __9__5; // 0x18
+		::System::Action_1<::System::Boolean>* finishFunc; // 0x20
+		::System::Action* voiceEndFunc; // 0x28
+		::MoleMole::UIChatPlusPageController* __4__this; // 0x30
 		::System::Boolean isSkip; // 0x38
 
 		::System::Void _ctor()

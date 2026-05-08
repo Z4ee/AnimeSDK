@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRidusGotBooChangeClothPageController; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA7EFD0)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS38_0__SHOWTAB_B__2_OFFSET UNITYSDK_OFFSET(0xCA82890)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DACDB0)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS38_0__SHOWTAB_B__2_OFFSET UNITYSDK_OFFSET(0x14DB0610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c__DisplayClass38_0_TypeDefinitionIndex = 68244;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c__DisplayClass38_0_TypeDefinitionIndex = 79203;
 
 	class UIRidusGotBooChangeClothPageController___c__DisplayClass38_0 : public ::System::Object
 	{

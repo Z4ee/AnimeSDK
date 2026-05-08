@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x9D10380)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x9D10390)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x9D10850)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D10B70)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D10B30)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12314B20)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12314B30)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12314FD0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x123152D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_CONFIGSOUNDACTION_RETARGETTOATTACHPOINT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12315290)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex = 46776;
+	inline static constexpr unsigned int ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex = 48784;
 
 	class ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundAction_RetargetToAttachPoint*>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C400);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B0E0);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C408);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B0E8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B0F0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_RetargetToAttachPoint_ConfigSoundAction_RetargetToAttachPoint_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C410);
 		}
 
 		::System::Void _ctor()

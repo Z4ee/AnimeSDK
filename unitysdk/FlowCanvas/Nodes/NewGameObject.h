@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define FLOWCANVAS_NODES_NEWGAMEOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A720B40)
-#define FLOWCANVAS_NODES_NEWGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A720C00)
+#define FLOWCANVAS_NODES_NEWGAMEOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4AD4E0)
+#define FLOWCANVAS_NODES_NEWGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AD600)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewGameObject_TypeDefinitionIndex = 26304;
+	inline static constexpr unsigned int NewGameObject_TypeDefinitionIndex = 27461;
 
 	class NewGameObject : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::UnityEngine::GameObject*, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion>
 	{

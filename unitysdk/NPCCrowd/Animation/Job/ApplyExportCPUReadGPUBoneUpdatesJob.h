@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define NPCCROWD_ANIMATION_JOB_APPLYEXPORTCPUREADGPUBONEUPDATESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3073E0)
+#define NPCCROWD_ANIMATION_JOB_APPLYEXPORTCPUREADGPUBONEUPDATESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5A16F0)
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int ApplyExportCPUReadGPUBoneUpdatesJob_TypeDefinitionIndex = 77046;
+	inline static constexpr unsigned int ApplyExportCPUReadGPUBoneUpdatesJob_TypeDefinitionIndex = 62873;
 
 	struct alignas(8) ApplyExportCPUReadGPUBoneUpdatesJob
 	{

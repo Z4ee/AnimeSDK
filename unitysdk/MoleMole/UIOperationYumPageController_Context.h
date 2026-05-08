@@ -5,11 +5,11 @@
 class Class_2_6EC930B690591576_Class_1_EA06DA1092863621;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x74873F0)
+#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14852760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOperationYumPageController_Context_TypeDefinitionIndex = 54539;
+	inline static constexpr unsigned int UIOperationYumPageController_Context_TypeDefinitionIndex = 40377;
 
 	class UIOperationYumPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

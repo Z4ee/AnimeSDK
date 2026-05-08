@@ -6,16 +6,16 @@
 class PushBoxGameView;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1919BB40)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__TRYENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1919BB50)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A154C70)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__TRYENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1A154C80)
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass67_0_TypeDefinitionIndex = 71310;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass67_0_TypeDefinitionIndex = 64656;
 
 class PushBoxGameView___c__DisplayClass67_0 : public ::System::Object
 {
 public:
-	::System::Action_2<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell>* onMoveSuccess; // 0x10
-	::PushBoxGameView* __4__this; // 0x18
+	::PushBoxGameView* __4__this; // 0x10
+	::System::Action_2<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell>* onMoveSuccess; // 0x18
 
 	::System::Void _ctor()
 	{

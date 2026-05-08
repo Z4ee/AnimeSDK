@@ -5,11 +5,11 @@
 
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_ACTIVITYCOLORIMAGESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC28A0)
+#define MOLEMOLE_ACTIVITYCOLORIMAGESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xF95A9D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityColorImageSetting_TypeDefinitionIndex = 59844;
+	inline static constexpr unsigned int ActivityColorImageSetting_TypeDefinitionIndex = 41107;
 
 	class ActivityColorImageSetting : public ::System::Object
 	{

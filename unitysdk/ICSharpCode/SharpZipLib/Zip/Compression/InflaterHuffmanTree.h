@@ -4,10 +4,10 @@
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression::Streams { class StreamManipulator; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE_BUILDTREE_OFFSET UNITYSDK_OFFSET(0x1B4E1430)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE_GETSYMBOL_OFFSET UNITYSDK_OFFSET(0x1B4E1BE0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4E0CF0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E1420)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE_BUILDTREE_OFFSET UNITYSDK_OFFSET(0x1C255D30)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE_GETSYMBOL_OFFSET UNITYSDK_OFFSET(0x1C2564E0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2555F0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_INFLATERHUFFMANTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C255D20)
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression
 {
@@ -16,11 +16,11 @@ namespace ICSharpCode::SharpZipLib::Zip::Compression
 	class InflaterHuffmanTree : public ::System::Object
 	{
 	public:
-		static ::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree** StaticGet_defLitLenTree()
+		static ::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree** StaticGet_defDistTree()
 		{
 			return (::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree**)Il2CppClass::FromTypeDefinitionIndex(InflaterHuffmanTree_TypeDefinitionIndex)->GetStaticField(0x5B50);
 		}
-		static ::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree** StaticGet_defDistTree()
+		static ::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree** StaticGet_defLitLenTree()
 		{
 			return (::ICSharpCode::SharpZipLib::Zip::Compression::InflaterHuffmanTree**)Il2CppClass::FromTypeDefinitionIndex(InflaterHuffmanTree_TypeDefinitionIndex)->GetStaticField(0x5B58);
 		}

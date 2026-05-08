@@ -5,39 +5,39 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GLOBALRESOURCEIDS_SETUPONSRPINIT_OFFSET UNITYSDK_OFFSET(0x1777A840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GLOBALRESOURCEIDS_SETUPPERFRAME_OFFSET UNITYSDK_OFFSET(0x1777A9C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GLOBALRESOURCEIDS_SETUPONSRPINIT_OFFSET UNITYSDK_OFFSET(0x18FE77E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GLOBALRESOURCEIDS_SETUPPERFRAME_OFFSET UNITYSDK_OFFSET(0x18FE7960)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GlobalResourceIds_TypeDefinitionIndex = 29482;
+	inline static constexpr unsigned int GlobalResourceIds_TypeDefinitionIndex = 30002;
 
 	class GlobalResourceIds : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Texture** StaticGet_WhiteTextureObj()
-		{
-			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x21DC0);
-		}
 		static ::UnityEngine::Texture** StaticGet_BlackTextureObj()
 		{
-			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x21DC8);
+			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x22930);
 		}
-		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_BlackTextureID()
+		static ::UnityEngine::Texture** StaticGet_WhiteTextureObj()
 		{
-			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x56C0);
+			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x22938);
 		}
 		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_RedTextureID()
 		{
-			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x56E8);
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x56F0);
 		}
-		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_WhiteTextureID()
+		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_BlackTextureID()
 		{
-			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x5710);
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x5718);
 		}
 		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_FSRLuminanceBiasLutID()
 		{
-			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x5738);
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x5740);
+		}
+		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_WhiteTextureID()
+		{
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(GlobalResourceIds_TypeDefinitionIndex)->GetStaticField(0x5768);
 		}
 
 		static ::System::Void SetupOnSRPInit()

@@ -6,7 +6,7 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_PostponedClip_TypeDefinitionIndex = 27961;
+	inline static constexpr unsigned int SVGDocument_PostponedClip_TypeDefinitionIndex = 28479;
 
 	struct alignas(8) SVGDocument_PostponedClip
 	{

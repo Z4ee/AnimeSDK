@@ -2,10 +2,8 @@
 #include "unitysdk/unitysdk.h"
 
 class Class_0_16E4307DCC419505_217;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_216_TypeDefinitionIndex = 40033;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_216_TypeDefinitionIndex = 40446;
 
 class Class_0_16E4307DCC419505_216
 {

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_F33340E023067DAF.h"
+#include "unitysdk/Class_2_40CD888D5D4FCB5B.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/NPCCrowd/NPCCrowdModuleMainSystem_EModulePreloadPhase.h"
 
@@ -16,115 +16,115 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x65297E0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_DISABLEMODULE_OFFSET UNITYSDK_OFFSET(0x6529AB0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ENABLEMODULE_OFFSET UNITYSDK_OFFSET(0x6529A30)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ENABLESYSTEM_OFFSET UNITYSDK_OFFSET(0x652C220)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_END_OFFSET UNITYSDK_OFFSET(0x6529B60)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_GETISPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x65286A0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_GET_BISLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0x6526ED0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0x650B000)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x652B260)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_LOADALLCONFIGDATAASYNC_OFFSET UNITYSDK_OFFSET(0x6527A50)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x652BEA0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONNPCCROWDTICKPAUSE_OFFSET UNITYSDK_OFFSET(0x652BDC0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONNPCCROWDTICKRESUME_OFFSET UNITYSDK_OFFSET(0x652BE30)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONPRELOADFINISHEDCHECK_OFFSET UNITYSDK_OFFSET(0x6528500)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x65288E0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONPREUPDATE_OFFSET UNITYSDK_OFFSET(0x652A160)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x652BA30)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_POSTUPDATE_OFFSET UNITYSDK_OFFSET(0x652AC80)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x6527B00)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x6527940)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_SETSTREAMINGABILITYTICKENABLE_OFFSET UNITYSDK_OFFSET(0x6529760)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_SETTICKPAUSESTATE_OFFSET UNITYSDK_OFFSET(0x65291D0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_START_OFFSET UNITYSDK_OFFSET(0x6528B70)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0x652A6C0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x652C2A0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x6526F00)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x652C2C0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x652C330)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x652C390)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x652C3F0)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_START_OFFSET UNITYSDK_OFFSET(0x652C450)
-#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x652C4B0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD4597F0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_DISABLEMODULE_OFFSET UNITYSDK_OFFSET(0xD459A90)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ENABLEMODULE_OFFSET UNITYSDK_OFFSET(0xD459A10)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ENABLESYSTEM_OFFSET UNITYSDK_OFFSET(0xD45BFD0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_END_OFFSET UNITYSDK_OFFSET(0xD459B40)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_GETISPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xD4587E0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_GET_BISLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xD457010)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0xD44F3B0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD45B0F0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_LOADALLCONFIGDATAASYNC_OFFSET UNITYSDK_OFFSET(0xD457C50)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD45BCB0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONNPCCROWDTICKPAUSE_OFFSET UNITYSDK_OFFSET(0xD45BC10)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONNPCCROWDTICKRESUME_OFFSET UNITYSDK_OFFSET(0xD45BC60)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONPRELOADFINISHEDCHECK_OFFSET UNITYSDK_OFFSET(0xD458640)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xD458A00)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_ONPREUPDATE_OFFSET UNITYSDK_OFFSET(0xD45A0D0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD45B8A0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_POSTUPDATE_OFFSET UNITYSDK_OFFSET(0xD45AB50)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xD457CE0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0xD457B60)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_SETSTREAMINGABILITYTICKENABLE_OFFSET UNITYSDK_OFFSET(0xD459770)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_SETTICKPAUSESTATE_OFFSET UNITYSDK_OFFSET(0xD459240)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_START_OFFSET UNITYSDK_OFFSET(0xD458C60)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD45A5F0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD45C050)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD457070)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD45C060)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD45C0F0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD45C180)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD45C210)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_START_OFFSET UNITYSDK_OFFSET(0xD45C2A0)
+#define NPCCROWD_NPCCROWDMODULEMAINSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD45C330)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdModuleMainSystem_TypeDefinitionIndex = 53283;
+	inline static constexpr unsigned int NPCCrowdModuleMainSystem_TypeDefinitionIndex = 63035;
 
-	class NPCCrowdModuleMainSystem : public ::Class_2_F33340E023067DAF
+	class NPCCrowdModuleMainSystem : public ::Class_2_40CD888D5D4FCB5B
 	{
 	public:
 		static ::System::Action** StaticGet_loadAssetsFinishedAction()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0x2CDF0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0x30350);
 		}
 		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_waitedAssetsRequest()
 		{
-			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0x2CDF8);
+			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0x30358);
 		}
 		static ::NPCCrowd::NPCCrowdModuleMainSystem** StaticGet__self()
 		{
-			return (::NPCCrowd::NPCCrowdModuleMainSystem**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0x2CE00);
-		}
-		static ::NPCCrowd::NPCCrowdModuleMainSystem_EModulePreloadPhase* StaticGet_preloadPhase()
-		{
-			return (::NPCCrowd::NPCCrowdModuleMainSystem_EModulePreloadPhase*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xA190);
-		}
-		static ::System::Boolean* StaticGet_enableSkipTickWhenNoNPC()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xA194);
+			return (::NPCCrowd::NPCCrowdModuleMainSystem**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0x30360);
 		}
 		static ::System::Boolean* StaticGet_PauseNpcCrowdFlag()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xA195);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xBAB0);
 		}
 		static ::System::Boolean* StaticGet_EnableLODSystem()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xA196);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xBAB1);
 		}
 		static ::System::Boolean* StaticGet_DisableSubsystemInStreamingGame()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xA197);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xBAB2);
 		}
-		::NPCCrowd::NPCCrowdModuleManagerBase* avatarDitherManager; // 0x20
-		::NPCCrowd::NPCCrowdModuleManagerBase* abilityManager; // 0x28
-		::NPCCrowd::NPCCrowdModuleManagerBase* accessoryManager; // 0x30
-		::NPCCrowd::NPCCrowdModuleManagerBase* accessoryAnimatorManager; // 0x38
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* avatarSubSystem; // 0x40
-		::NPCCrowd::NPCCrowdModuleManagerBase* montageManager; // 0x48
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdModuleManagerBase*>* allManager; // 0x50
-		::NPCCrowd::NPCCrowdModuleManagerBase* interactTargetManager; // 0x58
-		::Nap::NapECS::EcsFilter* npcFilter; // 0x60
-		::NPCCrowd::NPCCrowdModuleManagerBase* timelineManager; // 0x68
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdModuleSubSystemBase*>* allSubSystem; // 0x70
-		::NPCCrowd::NPCCrowdModuleManagerBase* cityPopulationManager; // 0x78
-		::NPCCrowd::NPCCrowdModuleManagerBase* reactionManager; // 0x80
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* gpTaskContainerSubSystem; // 0x88
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* physicsSubSystem; // 0x90
-		::NPCCrowd::NPCCrowdModuleManagerBase* accessoryMeshManager; // 0x98
-		::NPCCrowd::NPCCrowdModuleManagerBase* debuggerManager; // 0xA0
-		::NPCCrowd::NPCCrowdModuleManagerBase* wpPathFinderManager; // 0xA8
-		::NPCCrowd::NPCCrowdModuleManagerBase* stateTreeManager; // 0xB0
-		::NPCCrowd::NPCCrowdModuleManagerBase* crowdAnimationManager; // 0xB8
-		::NPCCrowd::NPCCrowdModuleManagerBase* physicsManager; // 0xC0
-		::NPCCrowd::NPCCrowdModuleManagerBase* pathGraphManager; // 0xC8
-		::NPCCrowd::NPCCrowdModuleManagerBase* spawnManager; // 0xD0
-		::NPCCrowd::NPCCrowdModuleManagerBase* actionManager; // 0xD8
-		::NPCCrowd::NPCCrowdModuleManagerBase* unionAnimatorManager; // 0xE0
-		::NPCCrowd::NPCCrowdModuleManagerBase* crowdAvatarManager; // 0xE8
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* abilityFlushSubSystem; // 0xF0
-		::NPCCrowd::NPCCrowdModuleManagerBase* customIldeManager; // 0xF8
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* animationSubSystem; // 0x100
-		::NPCCrowd::NPCCrowdModuleManagerBase* performanceManager; // 0x108
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* debuggerAvatarSubSystem; // 0x110
-		::NPCCrowd::NPCCrowdModuleManagerBase* lodManager; // 0x118
-		::NPCCrowd::NPCCrowdModuleSubSystemBase* lodSubSystem; // 0x120
-		::NPCCrowd::NPCCrowdModuleManagerBase* avatarMeshManager; // 0x128
-		::NPCCrowd::NPCCrowdModuleManagerBase* distanceManager; // 0x130
-		::NPCCrowd::NPCCrowdModuleManagerBase* cpuAnimatorManager; // 0x138
-		::Nap::NapECS::EcsWorld* ecsWorld; // 0x140
+		static ::System::Boolean* StaticGet_enableSkipTickWhenNoNPC()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xBAB3);
+		}
+		static ::NPCCrowd::NPCCrowdModuleMainSystem_EModulePreloadPhase* StaticGet_preloadPhase()
+		{
+			return (::NPCCrowd::NPCCrowdModuleMainSystem_EModulePreloadPhase*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdModuleMainSystem_TypeDefinitionIndex)->GetStaticField(0xBAB4);
+		}
+		::NPCCrowd::NPCCrowdModuleManagerBase* debuggerManager; // 0x20
+		::NPCCrowd::NPCCrowdModuleManagerBase* cityPopulationManager; // 0x28
+		::NPCCrowd::NPCCrowdModuleManagerBase* customIldeManager; // 0x30
+		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdModuleSubSystemBase*>* allSubSystem; // 0x38
+		::NPCCrowd::NPCCrowdModuleManagerBase* stateTreeManager; // 0x40
+		::NPCCrowd::NPCCrowdModuleManagerBase* wpPathFinderManager; // 0x48
+		::Nap::NapECS::EcsFilter* npcFilter; // 0x50
+		::Nap::NapECS::EcsWorld* ecsWorld; // 0x58
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* avatarSubSystem; // 0x60
+		::NPCCrowd::NPCCrowdModuleManagerBase* spawnManager; // 0x68
+		::NPCCrowd::NPCCrowdModuleManagerBase* cpuAnimatorManager; // 0x70
+		::NPCCrowd::NPCCrowdModuleManagerBase* abilityManager; // 0x78
+		::NPCCrowd::NPCCrowdModuleManagerBase* physicsManager; // 0x80
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* abilityFlushSubSystem; // 0x88
+		::NPCCrowd::NPCCrowdModuleManagerBase* performanceManager; // 0x90
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* lodSubSystem; // 0x98
+		::NPCCrowd::NPCCrowdModuleManagerBase* accessoryManager; // 0xA0
+		::NPCCrowd::NPCCrowdModuleManagerBase* accessoryAnimatorManager; // 0xA8
+		::NPCCrowd::NPCCrowdModuleManagerBase* accessoryMeshManager; // 0xB0
+		::NPCCrowd::NPCCrowdModuleManagerBase* pathGraphManager; // 0xB8
+		::NPCCrowd::NPCCrowdModuleManagerBase* crowdAvatarManager; // 0xC0
+		::NPCCrowd::NPCCrowdModuleManagerBase* distanceManager; // 0xC8
+		::NPCCrowd::NPCCrowdModuleManagerBase* avatarMeshManager; // 0xD0
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* physicsSubSystem; // 0xD8
+		::NPCCrowd::NPCCrowdModuleManagerBase* lodManager; // 0xE0
+		::NPCCrowd::NPCCrowdModuleManagerBase* reactionManager; // 0xE8
+		::NPCCrowd::NPCCrowdModuleManagerBase* crowdAnimationManager; // 0xF0
+		::NPCCrowd::NPCCrowdModuleManagerBase* montageManager; // 0xF8
+		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdModuleManagerBase*>* allManager; // 0x100
+		::NPCCrowd::NPCCrowdModuleManagerBase* actionManager; // 0x108
+		::NPCCrowd::NPCCrowdModuleManagerBase* interactTargetManager; // 0x110
+		::NPCCrowd::NPCCrowdModuleManagerBase* timelineManager; // 0x118
+		::NPCCrowd::NPCCrowdModuleManagerBase* avatarDitherManager; // 0x120
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* gpTaskContainerSubSystem; // 0x128
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* debuggerAvatarSubSystem; // 0x130
+		::NPCCrowd::NPCCrowdModuleSubSystemBase* animationSubSystem; // 0x138
+		::NPCCrowd::NPCCrowdModuleManagerBase* unionAnimatorManager; // 0x140
 
 		::System::Void _ctor()
 		{

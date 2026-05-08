@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDMINIGAMECHANGERTPC_INVOKE_OFFSET UNITYSDK_OFFSET(0xD0C9920)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDMINIGAMECHANGERTPC__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C9B20)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDMINIGAMECHANGERTPC_INVOKE_OFFSET UNITYSDK_OFFSET(0x16B76560)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDMINIGAMECHANGERTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x16B767A0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardMiniGameChangeRTPC_TypeDefinitionIndex = 39688;
+	inline static constexpr unsigned int ChessBoardMiniGameChangeRTPC_TypeDefinitionIndex = 42238;
 
 	class ChessBoardMiniGameChangeRTPC : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::String*, ::System::Single>
 	{

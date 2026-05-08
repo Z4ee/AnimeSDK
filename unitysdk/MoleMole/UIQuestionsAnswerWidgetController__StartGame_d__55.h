@@ -4,30 +4,30 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_208CC9941471731A_384;
-class Class_2_360F008FD42AEBAC;
-class Class_2_BC6EAC72521F25DD;
+class Class_2_208CC9941471731A_996;
+class Class_2_719AB4D2FEFA4E3C;
+class Class_2_B137C6DF18207AB7;
 namespace MoleMole { class UIQuestionsAnswerWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__STARTGAME_D__55_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3AAAE0)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__STARTGAME_D__55_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__STARTGAME_D__55_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x778F70)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__STARTGAME_D__55_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController__StartGame_d__55_TypeDefinitionIndex = 66340;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController__StartGame_d__55_TypeDefinitionIndex = 74570;
 
 	struct alignas(8) UIQuestionsAnswerWidgetController__StartGame_d__55
 	{
-		::MoleMole::UIQuestionsAnswerWidgetController* __4__this; // 0x10
-		::Class_2_360F008FD42AEBAC* _config_5__2; // 0x18
-		::Class_2_208CC9941471731A_384* _nextConfig_5__3; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
-		::Class_2_BC6EAC72521F25DD* _eventConfig_5__4; // 0x40
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::Class_2_208CC9941471731A_996* _nextConfig_5__3; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::Class_2_B137C6DF18207AB7* _eventConfig_5__4; // 0x30
+		::Class_2_719AB4D2FEFA4E3C* _config_5__2; // 0x38
+		::MoleMole::UIQuestionsAnswerWidgetController* __4__this; // 0x40
 		::System::Int32 __1__state; // 0x48
-		::System::Int32 stageId; // 0x4C
-		::System::Boolean restart; // 0x50
+		::System::Boolean restart; // 0x4C
+		::System::Int32 stageId; // 0x50
 
 		::System::Void MoveNext()
 		{

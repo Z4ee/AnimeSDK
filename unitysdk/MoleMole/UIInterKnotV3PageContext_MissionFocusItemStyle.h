@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_MISSIONFOCUSITEMSTYLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EBFCD0)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_MISSIONFOCUSITEMSTYLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x386240)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_MISSIONFOCUSITEMSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x386230)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_MISSIONFOCUSITEMSTYLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16411460)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_MISSIONFOCUSITEMSTYLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x7AE260)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_MISSIONFOCUSITEMSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x7AE250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotV3PageContext_MissionFocusItemStyle_TypeDefinitionIndex = 57008;
+	inline static constexpr unsigned int UIInterKnotV3PageContext_MissionFocusItemStyle_TypeDefinitionIndex = 71582;
 
 	struct alignas(4) UIInterKnotV3PageContext_MissionFocusItemStyle
 	{
 		static ::System::Char* StaticGet_SplitContextJumpArg()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(UIInterKnotV3PageContext_MissionFocusItemStyle_TypeDefinitionIndex)->GetStaticField(0x11410);
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(UIInterKnotV3PageContext_MissionFocusItemStyle_TypeDefinitionIndex)->GetStaticField(0x11090);
 		}
 		// static const ::System::String* QuestKey; // 0x0
 		// static const ::System::String* FocusModeKey; // 0x0

@@ -9,22 +9,22 @@
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__WAITUNTILTIMECURSOR_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x488980)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__WAITUNTILTIMECURSOR_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__WAITUNTILTIMECURSOR_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x77F6C0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__WAITUNTILTIMECURSOR_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__WaitUntilTimeCursor_d__25_TypeDefinitionIndex = 38054;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__WaitUntilTimeCursor_d__25_TypeDefinitionIndex = 66477;
 
 	struct alignas(8) UICinemaSinglePlayWidgetController__WaitUntilTimeCursor_d__25
 	{
-		::System::Threading::CancellationToken token; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
-		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x20
+		::System::Threading::CancellationToken token; // 0x28
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
-		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x40
-		::System::Int32 __1__state; // 0x44
-		::System::Single resumeTime; // 0x48
+		::System::Int32 __1__state; // 0x40
+		::System::Single resumeTime; // 0x44
+		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x48
 
 		::System::Void MoveNext()
 		{

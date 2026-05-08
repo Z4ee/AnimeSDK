@@ -3,29 +3,29 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_013DB5EBD89922B2;
-class Class_2_A8F5ABF31E066ED4;
+class Class_2_1A39E1B51756BF41;
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER_GET_AVATARTEMPLATE_OFFSET UNITYSDK_OFFSET(0xA248BD0)
-#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0xA248C50)
-#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER_SET_AVATARTEMPLATE_OFFSET UNITYSDK_OFFSET(0xA248BE0)
-#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xA249020)
+#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER_GET_AVATARTEMPLATE_OFFSET UNITYSDK_OFFSET(0x13029D90)
+#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x13029DF0)
+#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER_SET_AVATARTEMPLATE_OFFSET UNITYSDK_OFFSET(0x13029DA0)
+#define MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1302A170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleTrustButtonWidgetController_AvatarDataHelper_TypeDefinitionIndex = 56604;
+	inline static constexpr unsigned int UIRoleTrustButtonWidgetController_AvatarDataHelper_TypeDefinitionIndex = 38868;
 
 	class UIRoleTrustButtonWidgetController_AvatarDataHelper : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::Extension::UILocalizationText* RoleName; // 0x10
-		::Class_2_A8F5ABF31E066ED4* ElementIcon; // 0x18
-		::Class_2_013DB5EBD89922B2* _avatarTemplate; // 0x20
-		::Class_2_A8F5ABF31E066ED4* ProfessionIcon; // 0x28
+		::Class_2_1A39E1B51756BF41* ProfessionIcon; // 0x18
+		::Class_2_1A39E1B51756BF41* ElementIcon; // 0x20
+		::Class_2_013DB5EBD89922B2* _avatarTemplate; // 0x28
 
-		::System::Void _ctor(::UnityEngine::UI::Extension::UILocalizationText* roleName, ::Class_2_A8F5ABF31E066ED4* professionIcon, ::Class_2_A8F5ABF31E066ED4* elementIcon)
+		::System::Void _ctor(::UnityEngine::UI::Extension::UILocalizationText* roleName, ::Class_2_1A39E1B51756BF41* professionIcon, ::Class_2_1A39E1B51756BF41* elementIcon)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*, ::Class_2_A8F5ABF31E066ED4*, ::Class_2_A8F5ABF31E066ED4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER__CTOR_OFFSET))(this, roleName, professionIcon, elementIcon);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*, ::Class_2_1A39E1B51756BF41*, ::Class_2_1A39E1B51756BF41*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLETRUSTBUTTONWIDGETCONTROLLER_AVATARDATAHELPER__CTOR_OFFSET))(this, roleName, professionIcon, elementIcon);
 		}
 
 		::Class_2_013DB5EBD89922B2* get_avatarTemplate()

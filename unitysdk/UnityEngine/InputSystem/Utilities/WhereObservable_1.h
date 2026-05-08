@@ -9,7 +9,7 @@ namespace System { template <typename T> class IObserver_1; }
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int WhereObservable_1_TypeDefinitionIndex = 28899;
+	inline static constexpr unsigned int WhereObservable_1_TypeDefinitionIndex = 29417;
 
 	template <typename TValue>
 	class WhereObservable_1 : public ::System::Object

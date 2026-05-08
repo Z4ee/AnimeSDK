@@ -6,12 +6,12 @@ namespace MoleMole { class ComicPageData; }
 namespace MoleMole { class UIComicPageController___c__DisplayClass356_0; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA914050)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_1__SHOWSPLITSCREENPERFORMANCE_G__AUDIOLISTMOVENEXT_1_OFFSET UNITYSDK_OFFSET(0xA914060)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_1__CTOR_OFFSET UNITYSDK_OFFSET(0x149B29C0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_1__SHOWSPLITSCREENPERFORMANCE_G__AUDIOLISTMOVENEXT_1_OFFSET UNITYSDK_OFFSET(0x149B29D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass356_1_TypeDefinitionIndex = 62548;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass356_1_TypeDefinitionIndex = 40017;
 
 	class UIComicPageController___c__DisplayClass356_1 : public ::System::Object
 	{

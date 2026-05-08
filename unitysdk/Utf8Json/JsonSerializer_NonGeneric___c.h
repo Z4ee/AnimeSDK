@@ -5,20 +5,20 @@
 namespace System { class Type; }
 namespace Utf8Json { class JsonSerializer_NonGeneric_CompiledMethods; }
 
-#define UTF8JSON_JSONSERIALIZER_NONGENERIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3D8D70)
-#define UTF8JSON_JSONSERIALIZER_NONGENERIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D8DB0)
-#define UTF8JSON_JSONSERIALIZER_NONGENERIC___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1B3D8DC0)
+#define UTF8JSON_JSONSERIALIZER_NONGENERIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0015F0)
+#define UTF8JSON_JSONSERIALIZER_NONGENERIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C001630)
+#define UTF8JSON_JSONSERIALIZER_NONGENERIC___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C001640)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonSerializer_NonGeneric___c_TypeDefinitionIndex = 83785;
+	inline static constexpr unsigned int JsonSerializer_NonGeneric___c_TypeDefinitionIndex = 85513;
 
 	class JsonSerializer_NonGeneric___c : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::JsonSerializer_NonGeneric___c** StaticGet___9()
 		{
-			return (::Utf8Json::JsonSerializer_NonGeneric___c**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializer_NonGeneric___c_TypeDefinitionIndex)->GetStaticField(0x48480);
+			return (::Utf8Json::JsonSerializer_NonGeneric___c**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializer_NonGeneric___c_TypeDefinitionIndex)->GetStaticField(0x49FF0);
 		}
 
 		static ::System::Void _cctor()

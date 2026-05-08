@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_1EB8C469AAE7B7DE.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
 #include "unitysdk/Struct_2_575273D27F02957E.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -10,15 +10,15 @@ namespace MoleMole { class UIUrbanMapTrackLineWidgetContext; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 template <typename T> class Class_2_000597E145D7A42A;
 
-#define CLASS_2_4565DCF72DE284B9_METHOD_2_1FC94BA33A151EF7_OFFSET UNITYSDK_OFFSET(0xA0A1F60)
-#define CLASS_2_4565DCF72DE284B9_METHOD_2_4363F2A11989416A_OFFSET UNITYSDK_OFFSET(0xA0A2350)
-#define CLASS_2_4565DCF72DE284B9_METHOD_2_624537007A4B6A85_OFFSET UNITYSDK_OFFSET(0xA0A23E0)
-#define CLASS_2_4565DCF72DE284B9_METHOD_2_DC462D8B67651BD2_OFFSET UNITYSDK_OFFSET(0xA0A21C0)
-#define CLASS_2_4565DCF72DE284B9__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A2170)
+#define CLASS_2_4565DCF72DE284B9_METHOD_2_1FC94BA33A151EF7_OFFSET UNITYSDK_OFFSET(0x1286DA80)
+#define CLASS_2_4565DCF72DE284B9_METHOD_2_221DC1B6077F2FAE_OFFSET UNITYSDK_OFFSET(0x1286DCA0)
+#define CLASS_2_4565DCF72DE284B9_METHOD_2_48B21D1DB0B82321_OFFSET UNITYSDK_OFFSET(0x1286DFB0)
+#define CLASS_2_4565DCF72DE284B9_METHOD_2_618D4BB5E449D8F5_OFFSET UNITYSDK_OFFSET(0x1286E040)
+#define CLASS_2_4565DCF72DE284B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1286DC50)
 
-inline static constexpr unsigned int Class_2_4565DCF72DE284B9_TypeDefinitionIndex = 62942;
+inline static constexpr unsigned int Class_2_4565DCF72DE284B9_TypeDefinitionIndex = 60179;
 
-class Class_2_4565DCF72DE284B9 : public ::Class_1_1EB8C469AAE7B7DE
+class Class_2_4565DCF72DE284B9 : public ::Class_1_37DF30C8B3AA0F39
 {
 public:
 	::Class_2_000597E145D7A42A<::MoleMole::UIUrbanMapTrackLineWidgetContext*>* Field_2_0; // 0x50
@@ -33,18 +33,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_1FC94BA33A151EF7_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2>* Method_2_DC462D8B67651BD2()
+	::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2>* Method_2_221DC1B6077F2FAE()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_DC462D8B67651BD2_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_221DC1B6077F2FAE_OFFSET))(this);
 	}
 
-	::UnityEngine::Color Method_2_4363F2A11989416A()
+	::System::Void Method_2_48B21D1DB0B82321(::MoleMole::UIUrbanMapTrackLineWidgetContext* a1)
 	{
-		return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_4363F2A11989416A_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapTrackLineWidgetContext*))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_48B21D1DB0B82321_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_624537007A4B6A85(::MoleMole::UIUrbanMapTrackLineWidgetContext* a1)
+	::UnityEngine::Color Method_2_618D4BB5E449D8F5()
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapTrackLineWidgetContext*))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_624537007A4B6A85_OFFSET))(this, a1);
+		return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4565DCF72DE284B9_METHOD_2_618D4BB5E449D8F5_OFFSET))(this);
 	}
 };

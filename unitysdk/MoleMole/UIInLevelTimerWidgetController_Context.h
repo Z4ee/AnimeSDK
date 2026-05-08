@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/Struct_2_2140EBF640BC9674.h"
 
-#define MOLEMOLE_UIINLEVELTIMERWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8C81BA0)
+#define MOLEMOLE_UIINLEVELTIMERWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA6840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelTimerWidgetController_Context_TypeDefinitionIndex = 56553;
+	inline static constexpr unsigned int UIInLevelTimerWidgetController_Context_TypeDefinitionIndex = 78937;
 
 	class UIInLevelTimerWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

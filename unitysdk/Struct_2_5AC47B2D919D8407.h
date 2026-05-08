@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-inline static constexpr unsigned int Struct_2_5AC47B2D919D8407_TypeDefinitionIndex = 68214;
+inline static constexpr unsigned int Struct_2_5AC47B2D919D8407_TypeDefinitionIndex = 40373;
 
 struct alignas(4) Struct_2_5AC47B2D919D8407
 {

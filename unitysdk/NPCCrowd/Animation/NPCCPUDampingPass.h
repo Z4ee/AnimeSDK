@@ -17,36 +17,36 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_CREATEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0x65238C0)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DESTROY_OFFSET UNITYSDK_OFFSET(0x6523110)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DISABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0x6523B30)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_ENABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0x6523340)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_RELEASEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0x65231C0)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_SETDAMPINGROOTTRANS_OFFSET UNITYSDK_OFFSET(0x6523BA0)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x6522E90)
-#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS___BASE_DESTROY_OFFSET UNITYSDK_OFFSET(0x6523DD0)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_CREATEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0xD453AC0)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DESTROY_OFFSET UNITYSDK_OFFSET(0xD453370)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_DISABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0xD453D30)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_ENABLEDAMPINGIK_OFFSET UNITYSDK_OFFSET(0xD453550)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_RELEASEDAMPINGIKBUFFER_OFFSET UNITYSDK_OFFSET(0xD4533E0)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS_SETDAMPINGROOTTRANS_OFFSET UNITYSDK_OFFSET(0xD453D80)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0xD453040)
+#define NPCCROWD_ANIMATION_NPCCPUDAMPINGPASS___BASE_DESTROY_OFFSET UNITYSDK_OFFSET(0xD453F50)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUDampingPass_TypeDefinitionIndex = 38752;
+	inline static constexpr unsigned int NPCCPUDampingPass_TypeDefinitionIndex = 78593;
 
 	class NPCCPUDampingPass : public ::NPCCrowd::Animation::NPCCPUJobPassBase
 	{
 	public:
-		::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIKInfo; // 0x38
-		::Il2CppArray<::UnityEngine::Transform*>* dampingTrans; // 0x40
+		::Il2CppArray<::UnityEngine::Transform*>* dampingTrans; // 0x38
+		::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIKInfo; // 0x40
 		::UnityEngine::Animator* animator; // 0x48
-		::Unity::Collections::NativeArray_1<::System::Single> damping_rootParams; // 0x50
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_LocalPositions; // 0x60
-		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> damping_LocalRotations; // 0x70
-		::UnityEngine::Playables::PlayableGraph graph; // 0x80
-		::NPCCrowd::Animation::Job::DampingJob dampingJob; // 0x90
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Positions; // 0x118
-		::Unity::Collections::NativeArray_1<::System::Single> damping_smooths; // 0x128
-		::Unity::Collections::NativeArray_1<::UnityEngine::Animations::TransformStreamHandle> damping_Handles; // 0x138
-		::UnityEngine::Animations::AnimationScriptPlayable dampingPlayable; // 0x148
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Velocities; // 0x158
-		::System::Boolean bIsEnableDampingIK; // 0x168
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Velocities; // 0x50
+		::UnityEngine::Playables::PlayableGraph graph; // 0x60
+		::System::Boolean bIsEnableDampingIK; // 0x70
+		::UnityEngine::Animations::AnimationScriptPlayable dampingPlayable; // 0x78
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_Positions; // 0x88
+		::Unity::Collections::NativeArray_1<::System::Single> damping_smooths; // 0x98
+		::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> damping_LocalRotations; // 0xA8
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> damping_LocalPositions; // 0xB8
+		::Unity::Collections::NativeArray_1<::UnityEngine::Animations::TransformStreamHandle> damping_Handles; // 0xC8
+		::Unity::Collections::NativeArray_1<::System::Single> damping_rootParams; // 0xD8
+		::NPCCrowd::Animation::Job::DampingJob dampingJob; // 0xE8
 
 		::System::Void _ctor(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIK, ::NPCCrowd::Animation::NPCAccessoryLegacyAnimator* npccpuAnimator)
 		{

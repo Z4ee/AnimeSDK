@@ -3,7 +3,7 @@
 
 namespace QWER
 {
-	inline static constexpr unsigned int EPropertyFieldType_TypeDefinitionIndex = 9674;
+	inline static constexpr unsigned int EPropertyFieldType_TypeDefinitionIndex = 9685;
 
 	enum class EPropertyFieldType : ::System::Int32
 	{

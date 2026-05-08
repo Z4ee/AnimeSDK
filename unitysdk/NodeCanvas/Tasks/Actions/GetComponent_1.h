@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetComponent_1_TypeDefinitionIndex = 26934;
+	inline static constexpr unsigned int GetComponent_1_TypeDefinitionIndex = 26460;
 
 	template <typename T>
 	class GetComponent_1 : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>

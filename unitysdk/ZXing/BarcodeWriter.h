@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/ZXing/BarcodeWriterGeneric_1.h"
 
-#define ZXING_BARCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18424700)
+#define ZXING_BARCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x188585A0)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int BarcodeWriter_TypeDefinitionIndex = 8593;
+	inline static constexpr unsigned int BarcodeWriter_TypeDefinitionIndex = 8604;
 
 	class BarcodeWriter : public ::ZXing::BarcodeWriterGeneric_1<::Il2CppArray<::UnityEngine::Color32>*>
 	{

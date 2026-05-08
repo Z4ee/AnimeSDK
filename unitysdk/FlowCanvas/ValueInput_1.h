@@ -13,7 +13,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int ValueInput_1_TypeDefinitionIndex = 27447;
+	inline static constexpr unsigned int ValueInput_1_TypeDefinitionIndex = 27643;
 
 	template <typename T>
 	class ValueInput_1 : public ::FlowCanvas::ValueInput

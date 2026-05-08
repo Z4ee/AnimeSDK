@@ -7,18 +7,18 @@
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__PLAYFEVERSTARTEFFECT_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A1CC0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__PLAYFEVERSTARTEFFECT_D__16_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__PLAYFEVERSTARTEFFECT_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7ADE00)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__PLAYFEVERSTARTEFFECT_D__16_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__PlayFeverStartEffect_d__16_TypeDefinitionIndex = 38060;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__PlayFeverStartEffect_d__16_TypeDefinitionIndex = 66488;
 
 	struct alignas(8) UICinemaSinglePlayWidgetController__PlayFeverStartEffect_d__16
 	{
-		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
+		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x30
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

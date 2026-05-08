@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_F8A58546C7F49B7F_TypeDefinitionIndex = 76300;
+inline static constexpr unsigned int Class_1_F8A58546C7F49B7F_TypeDefinitionIndex = 68052;
 
 template <typename TState>
 class Class_1_F8A58546C7F49B7F : public ::System::Object

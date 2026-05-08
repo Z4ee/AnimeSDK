@@ -6,7 +6,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeExecutionContext___c__DisplayClass46_0_TypeDefinitionIndex = 27763;
+	inline static constexpr unsigned int StateTreeExecutionContext___c__DisplayClass46_0_TypeDefinitionIndex = 28281;
 
 	struct alignas(8) StateTreeExecutionContext___c__DisplayClass46_0
 	{

@@ -3,7 +3,7 @@
 
 namespace Foundation::Version
 {
-	inline static constexpr unsigned int AssetGroup_AssetSubGroup_ESubGroupMode_TypeDefinitionIndex = 79702;
+	inline static constexpr unsigned int AssetGroup_AssetSubGroup_ESubGroupMode_TypeDefinitionIndex = 54690;
 
 	enum class AssetGroup_AssetSubGroup_ESubGroupMode : ::System::Int32
 	{

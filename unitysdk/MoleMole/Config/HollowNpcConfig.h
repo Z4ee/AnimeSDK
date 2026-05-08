@@ -6,11 +6,11 @@ namespace MoleMole::Config { class HollowNpcTextureConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_HOLLOWNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE2D8C30)
+#define MOLEMOLE_CONFIG_HOLLOWNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x153D07B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowNpcConfig_TypeDefinitionIndex = 67231;
+	inline static constexpr unsigned int HollowNpcConfig_TypeDefinitionIndex = 37994;
 
 	class HollowNpcConfig : public ::System::Object
 	{

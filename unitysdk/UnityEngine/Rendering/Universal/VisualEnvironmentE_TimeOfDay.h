@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_TimeOfDay_TypeDefinitionIndex = 29390;
+	inline static constexpr unsigned int VisualEnvironmentE_TimeOfDay_TypeDefinitionIndex = 29909;
 
 	enum class VisualEnvironmentE_TimeOfDay : ::System::Int32
 	{

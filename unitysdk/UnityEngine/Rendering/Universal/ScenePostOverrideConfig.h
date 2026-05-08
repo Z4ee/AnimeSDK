@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x17791180)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17791240)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18FFE510)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFE5D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScenePostOverrideConfig_TypeDefinitionIndex = 29464;
+	inline static constexpr unsigned int ScenePostOverrideConfig_TypeDefinitionIndex = 29984;
 
 	class ScenePostOverrideConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::ScenePostOverrideConfig*>
 	{

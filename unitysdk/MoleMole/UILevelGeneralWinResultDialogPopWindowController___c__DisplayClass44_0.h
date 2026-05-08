@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_87D98DA5C1AD6384_Enum_3_3DCE6AAF7E47B319.h"
+#include "unitysdk/Class_1_451601B8BB62C38C_Enum_3_3DCE6AAF7E47B319.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_60DDD9C206686F44;
+class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UILevelGeneralWinResultDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8967800)
-#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0___BINDBTNCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x8967810)
-#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0___BINDBTNCALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x8967A60)
+#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15299D40)
+#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0___BINDBTNCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15299D50)
+#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS44_0___BINDBTNCALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x1529A020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelGeneralWinResultDialogPopWindowController___c__DisplayClass44_0_TypeDefinitionIndex = 63510;
+	inline static constexpr unsigned int UILevelGeneralWinResultDialogPopWindowController___c__DisplayClass44_0_TypeDefinitionIndex = 82017;
 
 	class UILevelGeneralWinResultDialogPopWindowController___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::System::Action* __9__1; // 0x18
-		::Class_2_60DDD9C206686F44* targetBtn; // 0x20
-		::MoleMole::UILevelGeneralWinResultDialogPopWindowController* __4__this; // 0x28
-		::Class_1_87D98DA5C1AD6384_Enum_3_3DCE6AAF7E47B319 btnTag; // 0x30
+		::System::Action* __9__1; // 0x10
+		::Class_2_B4378B46E0020E85* targetBtn; // 0x18
+		::MoleMole::UILevelGeneralWinResultDialogPopWindowController* __4__this; // 0x20
+		::System::Action* callback; // 0x28
+		::Class_1_451601B8BB62C38C_Enum_3_3DCE6AAF7E47B319 btnTag; // 0x30
 
 		::System::Void _ctor()
 		{

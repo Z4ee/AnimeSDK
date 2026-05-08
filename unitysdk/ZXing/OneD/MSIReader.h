@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18443510)
-#define ZXING_ONED_MSIREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18443420)
-#define ZXING_ONED_MSIREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x18443340)
+#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1887AF50)
+#define ZXING_ONED_MSIREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1887AE60)
+#define ZXING_ONED_MSIREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1887AD80)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 8635;
+	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 8646;
 
 	class MSIReader : public ::ZXing::OneD::OneDReader
 	{

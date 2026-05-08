@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEnvironment___c__DisplayClass7_0_7_TypeDefinitionIndex = 35800;
+	inline static constexpr unsigned int CameraSequenceEnvironment___c__DisplayClass7_0_7_TypeDefinitionIndex = 36344;
 
 	template <typename T, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class CameraSequenceEnvironment___c__DisplayClass7_0_7 : public ::System::Object

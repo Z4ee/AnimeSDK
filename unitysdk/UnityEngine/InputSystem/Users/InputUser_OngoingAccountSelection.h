@@ -6,7 +6,7 @@ namespace UnityEngine::InputSystem { class InputDevice; }
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUser_OngoingAccountSelection_TypeDefinitionIndex = 28581;
+	inline static constexpr unsigned int InputUser_OngoingAccountSelection_TypeDefinitionIndex = 29099;
 
 	struct alignas(8) InputUser_OngoingAccountSelection
 	{

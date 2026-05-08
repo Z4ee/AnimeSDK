@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDICONANIMV2_ICONANIMITEM_GETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x7A50360)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDICONANIMV2_ICONANIMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x7A50430)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDICONANIMV2_ICONANIMITEM_GETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x184115E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDICONANIMV2_ICONANIMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18411670)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardIconAnimV2_IconAnimItem_TypeDefinitionIndex = 71569;
+	inline static constexpr unsigned int ChessboardIconAnimV2_IconAnimItem_TypeDefinitionIndex = 53778;
 
 	class ChessboardIconAnimV2_IconAnimItem : public ::System::Object
 	{
 	public:
 		::System::String* AnimKey; // 0x10
 		::System::String* VideoPath; // 0x18
-		::System::Int32 ScreenIndex; // 0x20
-		::System::Boolean UseVideo; // 0x24
-		::MoleMole::HollowPieceBlendMode BlendMode; // 0x28
+		::MoleMole::HollowPieceBlendMode BlendMode; // 0x20
+		::System::Int32 ScreenIndex; // 0x24
+		::System::Boolean UseVideo; // 0x28
 		::MoleMole::HollowChessboard::HollowConstant_RenderPriority RenderPriority; // 0x2C
 
 		::System::Void _ctor()

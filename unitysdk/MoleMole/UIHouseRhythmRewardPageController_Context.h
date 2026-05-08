@@ -4,11 +4,11 @@
 
 class Class_2_4E7D4B0E2476C0A5;
 
-#define MOLEMOLE_UIHOUSERHYTHMREWARDPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x914C930)
+#define MOLEMOLE_UIHOUSERHYTHMREWARDPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A46E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmRewardPageController_Context_TypeDefinitionIndex = 67249;
+	inline static constexpr unsigned int UIHouseRhythmRewardPageController_Context_TypeDefinitionIndex = 63681;
 
 	class UIHouseRhythmRewardPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

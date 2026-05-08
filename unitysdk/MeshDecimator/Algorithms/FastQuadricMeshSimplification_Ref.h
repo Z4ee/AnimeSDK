@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MESHDECIMATOR_ALGORITHMS_FASTQUADRICMESHSIMPLIFICATION_REF_SET_OFFSET UNITYSDK_OFFSET(0x2F3C30)
+#define MESHDECIMATOR_ALGORITHMS_FASTQUADRICMESHSIMPLIFICATION_REF_SET_OFFSET UNITYSDK_OFFSET(0x293FB0)
 
 namespace MeshDecimator::Algorithms
 {
-	inline static constexpr unsigned int FastQuadricMeshSimplification_Ref_TypeDefinitionIndex = 32738;
+	inline static constexpr unsigned int FastQuadricMeshSimplification_Ref_TypeDefinitionIndex = 33273;
 
 	struct alignas(4) FastQuadricMeshSimplification_Ref
 	{

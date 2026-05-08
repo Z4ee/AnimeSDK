@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputActionAsset; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONASSET_READFILEJSON_TOASSET_OFFSET UNITYSDK_OFFSET(0x863390)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONASSET_READFILEJSON_TOASSET_OFFSET UNITYSDK_OFFSET(0x880EC0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionAsset_ReadFileJson_TypeDefinitionIndex = 28357;
+	inline static constexpr unsigned int InputActionAsset_ReadFileJson_TypeDefinitionIndex = 28875;
 
 	struct alignas(8) InputActionAsset_ReadFileJson
 	{

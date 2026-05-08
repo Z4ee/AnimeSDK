@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/MonoEffectContrllerModule/GroupPredicate.h"
 #include "unitysdk/MoleMole/MonoEffectContrllerModule/TraceGroupConfig.h"
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_TRACEGROUPCONFIGWITHPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA642E90)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_TRACEGROUPCONFIGWITHPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13854E70)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int TraceGroupConfigWithPredicate_TypeDefinitionIndex = 78022;
+	inline static constexpr unsigned int TraceGroupConfigWithPredicate_TypeDefinitionIndex = 39036;
 
 	class TraceGroupConfigWithPredicate : public ::MoleMole::MonoEffectContrllerModule::TraceGroupConfig
 	{

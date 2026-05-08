@@ -8,21 +8,21 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::FlowCanvas::Nodes { class EntitySaveDataMap; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER_PROCESS_OFFSET UNITYSDK_OFFSET(0xBA02E40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xBA02D10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBA031B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xBA031D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER_PROCESS_OFFSET UNITYSDK_OFFSET(0x16D37670)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16D37560)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D379D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDKILLMONSTER__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16D37A10)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDKillMonster_TypeDefinitionIndex = 62733;
+	inline static constexpr unsigned int LDKillMonster_TypeDefinitionIndex = 64280;
 
 	class LDKillMonster : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* flowIn; // 0xA8
-		::FlowCanvas::FlowOutput* flowOut; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>* monsterInput; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>* monsterInput; // 0xA8
+		::FlowCanvas::FlowInput* flowIn; // 0xB0
+		::FlowCanvas::FlowOutput* flowOut; // 0xB8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* isAllMonsterInput; // 0xC0
 
 		::System::Void _ctor()

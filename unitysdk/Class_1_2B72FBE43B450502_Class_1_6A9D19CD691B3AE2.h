@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_41536F26CBEE8D4C.h"
+#include "unitysdk/Enum_3_34F7035555410463_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class DownloadFileInfo; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_2B72FBE43B450502_CLASS_1_6A9D19CD691B3AE2_METHOD_1_DB04ABFA7C510F9B_OFFSET UNITYSDK_OFFSET(0x69AEC90)
-#define CLASS_1_2B72FBE43B450502_CLASS_1_6A9D19CD691B3AE2__CTOR_OFFSET UNITYSDK_OFFSET(0x69AEC80)
+#define CLASS_1_2B72FBE43B450502_CLASS_1_6A9D19CD691B3AE2_METHOD_1_DB04ABFA7C510F9B_OFFSET UNITYSDK_OFFSET(0x12C0FEB0)
+#define CLASS_1_2B72FBE43B450502_CLASS_1_6A9D19CD691B3AE2__CTOR_OFFSET UNITYSDK_OFFSET(0x12C0FEA0)
 
-inline static constexpr unsigned int Class_1_2B72FBE43B450502_Class_1_6A9D19CD691B3AE2_TypeDefinitionIndex = 70643;
+inline static constexpr unsigned int Class_1_2B72FBE43B450502_Class_1_6A9D19CD691B3AE2_TypeDefinitionIndex = 76091;
 
 class Class_1_2B72FBE43B450502_Class_1_6A9D19CD691B3AE2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IEnumerable_1<::Enum_3_41536F26CBEE8D4C>* Field_1_0; // 0x10
+	::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{

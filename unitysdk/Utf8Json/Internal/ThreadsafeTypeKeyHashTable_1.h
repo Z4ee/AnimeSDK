@@ -8,7 +8,7 @@ namespace Utf8Json::Internal { template <typename T> class ThreadsafeTypeKeyHash
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1_TypeDefinitionIndex = 83942;
+	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1_TypeDefinitionIndex = 85670;
 
 	template <typename TValue>
 	class ThreadsafeTypeKeyHashTable_1 : public ::System::Object

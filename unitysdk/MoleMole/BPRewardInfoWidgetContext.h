@@ -5,17 +5,17 @@
 namespace MoleMole { class UIBPPagePageController; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_BPREWARDINFOWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A3700)
+#define MOLEMOLE_BPREWARDINFOWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17428670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BPRewardInfoWidgetContext_TypeDefinitionIndex = 79598;
+	inline static constexpr unsigned int BPRewardInfoWidgetContext_TypeDefinitionIndex = 49507;
 
 	class BPRewardInfoWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::UnityEngine::Events::UnityAction* advanceBtnClick; // 0x28
-		::MoleMole::UIBPPagePageController* bpPageController; // 0x30
+		::MoleMole::UIBPPagePageController* bpPageController; // 0x28
+		::UnityEngine::Events::UnityAction* advanceBtnClick; // 0x30
 
 		::System::Void _ctor()
 		{

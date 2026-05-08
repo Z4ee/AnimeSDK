@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Timeline { class ComicEventBase; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ACE2D10)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE2D50)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__EXISTKEYEVENT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1ACE2D60)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB0B6B0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0B6F0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__EXISTKEYEVENT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BB0B700)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerMarkerInfo___c_TypeDefinitionIndex = 30235;
+	inline static constexpr unsigned int EventTriggerMarkerInfo___c_TypeDefinitionIndex = 30764;
 
 	class EventTriggerMarkerInfo___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Timeline::EventTriggerMarkerInfo___c** StaticGet___9()
-		{
-			return (::UnityEngine::Timeline::EventTriggerMarkerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x241D0);
-		}
 		static ::System::Func_2<::UnityEngine::Timeline::ComicEventBase*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::UnityEngine::Timeline::ComicEventBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x241D8);
+			return (::System::Func_2<::UnityEngine::Timeline::ComicEventBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x24D50);
+		}
+		static ::UnityEngine::Timeline::EventTriggerMarkerInfo___c** StaticGet___9()
+		{
+			return (::UnityEngine::Timeline::EventTriggerMarkerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x24D58);
 		}
 
 		static ::System::Void _cctor()

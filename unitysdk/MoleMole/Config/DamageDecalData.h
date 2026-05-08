@@ -6,7 +6,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DamageDecalData_TypeDefinitionIndex = 43197;
+	inline static constexpr unsigned int DamageDecalData_TypeDefinitionIndex = 75700;
 
 	struct alignas(4) DamageDecalData
 	{

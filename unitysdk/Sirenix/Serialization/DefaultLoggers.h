@@ -4,9 +4,9 @@
 
 namespace Sirenix::Serialization { class ILogger; }
 
-#define SIRENIX_SERIALIZATION_DEFAULTLOGGERS_GET_DEFAULTLOGGER_OFFSET UNITYSDK_OFFSET(0x1B76D510)
-#define SIRENIX_SERIALIZATION_DEFAULTLOGGERS_GET_UNITYLOGGER_OFFSET UNITYSDK_OFFSET(0x1B76D540)
-#define SIRENIX_SERIALIZATION_DEFAULTLOGGERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B76D7D0)
+#define SIRENIX_SERIALIZATION_DEFAULTLOGGERS_GET_DEFAULTLOGGER_OFFSET UNITYSDK_OFFSET(0x1C559540)
+#define SIRENIX_SERIALIZATION_DEFAULTLOGGERS_GET_UNITYLOGGER_OFFSET UNITYSDK_OFFSET(0x1C5595A0)
+#define SIRENIX_SERIALIZATION_DEFAULTLOGGERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C559830)
 
 namespace Sirenix::Serialization
 {
@@ -15,13 +15,13 @@ namespace Sirenix::Serialization
 	class DefaultLoggers : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DefaultLoggers_TypeDefinitionIndex)->GetStaticField(0x5A40);
-		}
 		static ::Sirenix::Serialization::ILogger** StaticGet_unityLogger()
 		{
-			return (::Sirenix::Serialization::ILogger**)Il2CppClass::FromTypeDefinitionIndex(DefaultLoggers_TypeDefinitionIndex)->GetStaticField(0x5A48);
+			return (::Sirenix::Serialization::ILogger**)Il2CppClass::FromTypeDefinitionIndex(DefaultLoggers_TypeDefinitionIndex)->GetStaticField(0x5A40);
+		}
+		static ::System::Object** StaticGet_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DefaultLoggers_TypeDefinitionIndex)->GetStaticField(0x5A48);
 		}
 
 		static ::System::Void _cctor()

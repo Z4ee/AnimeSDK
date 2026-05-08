@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ISoundActionTriggerCondition; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGLOBALSOUNDACTIONTRIGGERCONDITIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF2CD8C0)
+#define MOLEMOLE_CONFIG_CONFIGGLOBALSOUNDACTIONTRIGGERCONDITIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x159EC6B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGlobalSoundActionTriggerConditionEntry_TypeDefinitionIndex = 69072;
+	inline static constexpr unsigned int ConfigGlobalSoundActionTriggerConditionEntry_TypeDefinitionIndex = 77354;
 
 	class ConfigGlobalSoundActionTriggerConditionEntry : public ::System::Object
 	{

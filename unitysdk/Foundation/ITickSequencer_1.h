@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ITickSequencer_1_TypeDefinitionIndex = 8989;
+	inline static constexpr unsigned int ITickSequencer_1_TypeDefinitionIndex = 8827;
 
 	template <typename TTickingGroup>
 	class ITickSequencer_1

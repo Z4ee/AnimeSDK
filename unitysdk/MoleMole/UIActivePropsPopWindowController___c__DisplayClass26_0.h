@@ -5,17 +5,17 @@
 namespace MoleMole { class UIActivePropsPopWindowController; }
 namespace MoleMole { class UserLocalDataItem; }
 
-#define MOLEMOLE_UIACTIVEPROPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC27A0B0)
+#define MOLEMOLE_UIACTIVEPROPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F250E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivePropsPopWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 74526;
+	inline static constexpr unsigned int UIActivePropsPopWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 71978;
 
 	class UIActivePropsPopWindowController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivePropsPopWindowController* __4__this; // 0x10
-		::MoleMole::UserLocalDataItem* localData; // 0x18
+		::MoleMole::UserLocalDataItem* localData; // 0x10
+		::MoleMole::UIActivePropsPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

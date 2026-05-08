@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IGraphAssignable_TypeDefinitionIndex = 27474;
+	inline static constexpr unsigned int IGraphAssignable_TypeDefinitionIndex = 27190;
 
 	class IGraphAssignable
 	{

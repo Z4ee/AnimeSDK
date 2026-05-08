@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define RICHTAPTOOLMANAGER_FILEMODEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AD95380)
-#define RICHTAPTOOLMANAGER_FILEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD94F70)
+#define RICHTAPTOOLMANAGER_FILEMODEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BABB3F0)
+#define RICHTAPTOOLMANAGER_FILEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABAFD0)
 
-inline static constexpr unsigned int RichTapToolManager_FileModel_TypeDefinitionIndex = 35926;
+inline static constexpr unsigned int RichTapToolManager_FileModel_TypeDefinitionIndex = 36470;
 
 class RichTapToolManager_FileModel : public ::System::Object
 {

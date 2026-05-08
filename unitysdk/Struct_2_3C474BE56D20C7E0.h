@@ -5,7 +5,7 @@
 
 namespace MoleMole { class SimpleGameplayTagTable; }
 
-inline static constexpr unsigned int Struct_2_3C474BE56D20C7E0_TypeDefinitionIndex = 41983;
+inline static constexpr unsigned int Struct_2_3C474BE56D20C7E0_TypeDefinitionIndex = 55359;
 
 struct alignas(8) Struct_2_3C474BE56D20C7E0
 {

@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEnumerableX_Set_1_Slot_TypeDefinitionIndex = 7870;
+	inline static constexpr unsigned int IEnumerableX_Set_1_Slot_TypeDefinitionIndex = 8320;
 
 	template <typename TElement>
 	struct IEnumerableX_Set_1_Slot

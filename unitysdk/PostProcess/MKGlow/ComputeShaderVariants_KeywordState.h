@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define POSTPROCESS_MKGLOW_COMPUTESHADERVARIANTS_KEYWORDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x3244D0)
+#define POSTPROCESS_MKGLOW_COMPUTESHADERVARIANTS_KEYWORDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x744500)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int ComputeShaderVariants_KeywordState_TypeDefinitionIndex = 29131;
+	inline static constexpr unsigned int ComputeShaderVariants_KeywordState_TypeDefinitionIndex = 29650;
 
 	struct alignas(4) ComputeShaderVariants_KeywordState
 	{

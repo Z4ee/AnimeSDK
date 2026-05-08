@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int UnsafeHashMapData__firstFreeTLS_e__FixedBuffer_TypeDefinitionIndex = 19807;
+	inline static constexpr unsigned int UnsafeHashMapData__firstFreeTLS_e__FixedBuffer_TypeDefinitionIndex = 20167;
 
 	struct alignas(4) UnsafeHashMapData__firstFreeTLS_e__FixedBuffer
 	{

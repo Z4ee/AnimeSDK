@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL_GETMATERIALDBUFFERCOUNT_OFFSET UNITYSDK_OFFSET(0x18B3B860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL_GETMATERIALDBUFFERDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x18B3B8A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B3B940)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3B930)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL_GETMATERIALDBUFFERCOUNT_OFFSET UNITYSDK_OFFSET(0x19B8DA40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL_GETMATERIALDBUFFERDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x19B8DA80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B8DB20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19B8DB10)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Decal_TypeDefinitionIndex = 29806;
+	inline static constexpr unsigned int Decal_TypeDefinitionIndex = 30334;
 
 	class Decal : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Experimental::Rendering::GraphicsFormat>** StaticGet_m_RTFormat()
 		{
-			return (::Il2CppArray<::UnityEngine::Experimental::Rendering::GraphicsFormat>**)Il2CppClass::FromTypeDefinitionIndex(Decal_TypeDefinitionIndex)->GetStaticField(0x236A0);
+			return (::Il2CppArray<::UnityEngine::Experimental::Rendering::GraphicsFormat>**)Il2CppClass::FromTypeDefinitionIndex(Decal_TypeDefinitionIndex)->GetStaticField(0x24220);
 		}
 
 		::System::Void _ctor()

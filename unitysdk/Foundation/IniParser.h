@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FOUNDATION_INIPARSER_LOADANDPARSE_OFFSET UNITYSDK_OFFSET(0x1998CAE0)
+#define FOUNDATION_INIPARSER_LOADANDPARSE_OFFSET UNITYSDK_OFFSET(0x1A00ED20)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IniParser_TypeDefinitionIndex = 8079;
+	inline static constexpr unsigned int IniParser_TypeDefinitionIndex = 7783;
 
 	class IniParser : public ::System::Object
 	{

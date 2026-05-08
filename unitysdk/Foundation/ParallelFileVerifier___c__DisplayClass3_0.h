@@ -5,12 +5,12 @@
 
 namespace Foundation { class ParallelFileVerifier; }
 
-#define FOUNDATION_PARALLELFILEVERIFIER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FFD60)
-#define FOUNDATION_PARALLELFILEVERIFIER___C__DISPLAYCLASS3_0__DOSLICE_PREFASTCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xA3FFD70)
+#define FOUNDATION_PARALLELFILEVERIFIER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13637EA0)
+#define FOUNDATION_PARALLELFILEVERIFIER___C__DISPLAYCLASS3_0__DOSLICE_PREFASTCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x13637EB0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ParallelFileVerifier___c__DisplayClass3_0_TypeDefinitionIndex = 56572;
+	inline static constexpr unsigned int ParallelFileVerifier___c__DisplayClass3_0_TypeDefinitionIndex = 62636;
 
 	class ParallelFileVerifier___c__DisplayClass3_0 : public ::System::Object
 	{

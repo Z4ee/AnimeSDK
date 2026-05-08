@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGTARGETPERFECTSWITCHAIDTRIGGERFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x9D134F0)
-#define MOLEMOLE_CONFIG_CONFIGTARGETPERFECTSWITCHAIDTRIGGERFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D13760)
+#define MOLEMOLE_CONFIG_CONFIGTARGETPERFECTSWITCHAIDTRIGGERFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x12317B20)
+#define MOLEMOLE_CONFIG_CONFIGTARGETPERFECTSWITCHAIDTRIGGERFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12317D40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTargetPerfectSwitchAidTriggerFilter_TypeDefinitionIndex = 63115;
+	inline static constexpr unsigned int ConfigTargetPerfectSwitchAidTriggerFilter_TypeDefinitionIndex = 47981;
 
 	class ConfigTargetPerfectSwitchAidTriggerFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

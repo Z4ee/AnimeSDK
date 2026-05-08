@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_SURFPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6650F0)
+#define MOLEMOLE_SURFPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x13876310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SurfPoint_TypeDefinitionIndex = 72086;
+	inline static constexpr unsigned int SurfPoint_TypeDefinitionIndex = 62038;
 
 	class SurfPoint : public ::System::Object
 	{

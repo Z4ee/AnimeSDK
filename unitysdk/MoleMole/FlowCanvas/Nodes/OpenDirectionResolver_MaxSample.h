@@ -10,27 +10,27 @@ namespace MoleMole::FlowCanvas::Nodes { class OpenDirectionSelector; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0xCD54EF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_GETDATA_OFFSET UNITYSDK_OFFSET(0xCD550B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0xCD55690)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_006A039FD955061C_OFFSET UNITYSDK_OFFSET(0xCD55830)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_427F9234AFC9D15D_OFFSET UNITYSDK_OFFSET(0xCD559B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0xCD557C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0xCD55700)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_SETPATH_OFFSET UNITYSDK_OFFSET(0xCD54E30)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD556C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD556A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x125CA4B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x125CA650)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x125CABB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_006A039FD955061C_OFFSET UNITYSDK_OFFSET(0x125CADE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_427F9234AFC9D15D_OFFSET UNITYSDK_OFFSET(0x125CAD30)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x125CAF40)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x125CAC40)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_SETPATH_OFFSET UNITYSDK_OFFSET(0x125CA410)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x125CABE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x125CABC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int OpenDirectionResolver_MaxSample_TypeDefinitionIndex = 55324;
+	inline static constexpr unsigned int OpenDirectionResolver_MaxSample_TypeDefinitionIndex = 76236;
 
 	class OpenDirectionResolver_MaxSample : public ::MoleMole::FlowCanvas::Nodes::OpenDirectionResolver
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_SampleResult()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionResolver_MaxSample_TypeDefinitionIndex)->GetStaticField(0x11850);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionResolver_MaxSample_TypeDefinitionIndex)->GetStaticField(0x112A0);
 		}
 		::MoleMole::FlowCanvas::Nodes::OpenDirectionSelector* selector; // 0x40
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* SampleResult; // 0x48
@@ -71,9 +71,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_5A60CCF7370A1875_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Method_4_427F9234AFC9D15D(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_439B588EB4881570_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_427F9234AFC9D15D_OFFSET))(this, a1);
 		}
 
 		::System::Single Method_4_006A039FD955061C(::UnityEngine::Vector3 a1, ::System::Single a2, ::PipelineCamera::CameraSequence::CameraSequenceContext*& a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
@@ -81,9 +81,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_006A039FD955061C_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Method_4_427F9234AFC9D15D(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Void Method_4_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_427F9234AFC9D15D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER_MAXSAMPLE_METHOD_4_439B588EB4881570_OFFSET))(this, a1);
 		}
 	};
 }

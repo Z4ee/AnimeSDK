@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLEXBUFFERS_CSVTOFLEXBUFFERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1A8511C0)
+#define FLEXBUFFERS_CSVTOFLEXBUFFERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1B20BB00)
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int CsvToFlexBufferConverter_TypeDefinitionIndex = 8741;
+	inline static constexpr unsigned int CsvToFlexBufferConverter_TypeDefinitionIndex = 8752;
 
 	class CsvToFlexBufferConverter : public ::System::Object
 	{

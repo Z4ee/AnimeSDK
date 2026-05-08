@@ -6,19 +6,19 @@
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace Cinemachine { class ConfinerOven_BakedSolution; }
 
-#define CINEMACHINE_CINEMACHINECONFINER2D_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C2670)
+#define CINEMACHINE_CINEMACHINECONFINER2D_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF61E40)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineConfiner2D_VcamExtraState_TypeDefinitionIndex = 31944;
+	inline static constexpr unsigned int CinemachineConfiner2D_VcamExtraState_TypeDefinitionIndex = 32473;
 
 	class CinemachineConfiner2D_VcamExtraState : public ::System::Object
 	{
 	public:
-		::Cinemachine::ConfinerOven_BakedSolution* m_BakedSolution; // 0x10
-		::Cinemachine::CinemachineVirtualCameraBase* m_vcam; // 0x18
-		::UnityEngine::Vector3 m_DampedDisplacement; // 0x20
-		::UnityEngine::Vector3 m_PreviousDisplacement; // 0x2C
+		::Cinemachine::CinemachineVirtualCameraBase* m_vcam; // 0x10
+		::Cinemachine::ConfinerOven_BakedSolution* m_BakedSolution; // 0x18
+		::UnityEngine::Vector3 m_PreviousDisplacement; // 0x20
+		::UnityEngine::Vector3 m_DampedDisplacement; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -11,38 +11,38 @@ namespace MS::Internal::Xml::XPath { class XPathScanner; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CHECKNODESET_OFFSET UNITYSDK_OFFSET(0x19473760)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CHECKTOKEN_OFFSET UNITYSDK_OFFSET(0x19474C50)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CREATEAXESTABLE_OFFSET UNITYSDK_OFFSET(0x19476350)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CREATEFUNCTIONTABLE_OFFSET UNITYSDK_OFFSET(0x19475B70)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_GETAXIS_OFFSET UNITYSDK_OFFSET(0x194746E0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_ISNODETYPE_OFFSET UNITYSDK_OFFSET(0x194737D0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_ISPRIMARYEXPR_OFFSET UNITYSDK_OFFSET(0x19473900)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_ISSTEP_OFFSET UNITYSDK_OFFSET(0x19474380)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_NEXTLEX_OFFSET UNITYSDK_OFFSET(0x19472C40)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEADDITIVEEXPR_OFFSET UNITYSDK_OFFSET(0x194730B0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEANDEXPR_OFFSET UNITYSDK_OFFSET(0x19472AC0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEEQUALITYEXPR_OFFSET UNITYSDK_OFFSET(0x19472C60)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEEXPRESION_OFFSET UNITYSDK_OFFSET(0x19472940)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEFILTEREXPR_OFFSET UNITYSDK_OFFSET(0x19473990)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSELOCATIONPATH_OFFSET UNITYSDK_OFFSET(0x19473CD0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEMETHOD_OFFSET UNITYSDK_OFFSET(0x19474CC0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEMULTIPLICATIVEEXPR_OFFSET UNITYSDK_OFFSET(0x19473170)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSENODETEST_OFFSET UNITYSDK_OFFSET(0x19474810)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEOREXPR_OFFSET UNITYSDK_OFFSET(0x194729B0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEPATHEXPR_OFFSET UNITYSDK_OFFSET(0x194735A0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEPREDICATE_OFFSET UNITYSDK_OFFSET(0x19474130)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEPRIMARYEXPR_OFFSET UNITYSDK_OFFSET(0x19473E10)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSERELATIONALEXPR_OFFSET UNITYSDK_OFFSET(0x19472ED0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSERELATIVELOCATIONPATH_OFFSET UNITYSDK_OFFSET(0x19473BF0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSESTEP_OFFSET UNITYSDK_OFFSET(0x194743B0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEUNARYEXPR_OFFSET UNITYSDK_OFFSET(0x19473300)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEUNIONEXPR_OFFSET UNITYSDK_OFFSET(0x194733F0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEXPATHEXPRESION_OFFSET UNITYSDK_OFFSET(0x19472710)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PASSTOKEN_OFFSET UNITYSDK_OFFSET(0x19474310)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_TESTOP_OFFSET UNITYSDK_OFFSET(0x19472BD0)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19476650)
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x19472700)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CHECKNODESET_OFFSET UNITYSDK_OFFSET(0x19D2B8F0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CHECKTOKEN_OFFSET UNITYSDK_OFFSET(0x19D2CC20)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CREATEAXESTABLE_OFFSET UNITYSDK_OFFSET(0x19D2E3D0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_CREATEFUNCTIONTABLE_OFFSET UNITYSDK_OFFSET(0x19D2DB40)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_GETAXIS_OFFSET UNITYSDK_OFFSET(0x19D2C6B0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_ISNODETYPE_OFFSET UNITYSDK_OFFSET(0x19D2B960)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_ISPRIMARYEXPR_OFFSET UNITYSDK_OFFSET(0x19D2BA90)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_ISSTEP_OFFSET UNITYSDK_OFFSET(0x19D2C350)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_NEXTLEX_OFFSET UNITYSDK_OFFSET(0x19D2AEA0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEADDITIVEEXPR_OFFSET UNITYSDK_OFFSET(0x19D2B160)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEANDEXPR_OFFSET UNITYSDK_OFFSET(0x19D2ACD0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEEQUALITYEXPR_OFFSET UNITYSDK_OFFSET(0x19D2AEC0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEEXPRESION_OFFSET UNITYSDK_OFFSET(0x19D2AB20)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEFILTEREXPR_OFFSET UNITYSDK_OFFSET(0x19D2BB20)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSELOCATIONPATH_OFFSET UNITYSDK_OFFSET(0x19D2BC90)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEMETHOD_OFFSET UNITYSDK_OFFSET(0x19D2CC90)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEMULTIPLICATIVEEXPR_OFFSET UNITYSDK_OFFSET(0x19D2B220)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSENODETEST_OFFSET UNITYSDK_OFFSET(0x19D2C7E0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEOREXPR_OFFSET UNITYSDK_OFFSET(0x19D2AB90)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEPATHEXPR_OFFSET UNITYSDK_OFFSET(0x19D2B6D0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEPREDICATE_OFFSET UNITYSDK_OFFSET(0x19D2C100)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEPRIMARYEXPR_OFFSET UNITYSDK_OFFSET(0x19D2BDD0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSERELATIONALEXPR_OFFSET UNITYSDK_OFFSET(0x19D2AF80)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSERELATIVELOCATIONPATH_OFFSET UNITYSDK_OFFSET(0x19D2BBB0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSESTEP_OFFSET UNITYSDK_OFFSET(0x19D2C380)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEUNARYEXPR_OFFSET UNITYSDK_OFFSET(0x19D2B430)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEUNIONEXPR_OFFSET UNITYSDK_OFFSET(0x19D2B520)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARSEXPATHEXPRESION_OFFSET UNITYSDK_OFFSET(0x19D2A920)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PASSTOKEN_OFFSET UNITYSDK_OFFSET(0x19D2C2E0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_TESTOP_OFFSET UNITYSDK_OFFSET(0x19D2AE10)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D2E6D0)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2A910)
 
 namespace MS::Internal::Xml::XPath
 {
@@ -51,49 +51,49 @@ namespace MS::Internal::Xml::XPath
 	class XPathParser : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray7()
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray6()
 		{
 			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E20);
 		}
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray6()
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray8()
 		{
 			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E28);
 		}
-		static ::System::Collections::Hashtable** StaticGet_functionTable()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E30);
-		}
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray2()
-		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E38);
-		}
 		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray1()
 		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E40);
-		}
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray3()
-		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E48);
-		}
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray8()
-		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E50);
-		}
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray4()
-		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E58);
-		}
-		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray5()
-		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E60);
-		}
-		static ::System::Collections::Hashtable** StaticGet_AxesTable()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E68);
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E30);
 		}
 		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray9()
 		{
-			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E70);
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E38);
+		}
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray4()
+		{
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E40);
+		}
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray7()
+		{
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E48);
+		}
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray5()
+		{
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E50);
+		}
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray3()
+		{
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E58);
+		}
+		static ::System::Collections::Hashtable** StaticGet_AxesTable()
+		{
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E60);
+		}
+		static ::Il2CppArray<::System::Xml::XPath::XPathResultType>** StaticGet_temparray2()
+		{
+			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E68);
+		}
+		static ::System::Collections::Hashtable** StaticGet_functionTable()
+		{
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(XPathParser_TypeDefinitionIndex)->GetStaticField(0x1E70);
 		}
 		::MS::Internal::Xml::XPath::XPathScanner* scanner; // 0x10
 		::System::Int32 parseDepth; // 0x18

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int _PrivateImplementationDetails____StaticArrayInitTypeSize_20_TypeDefinitionIndex = 82278;
+inline static constexpr unsigned int _PrivateImplementationDetails____StaticArrayInitTypeSize_20_TypeDefinitionIndex = 84019;
 
 struct alignas(1) _PrivateImplementationDetails____StaticArrayInitTypeSize_20
 {

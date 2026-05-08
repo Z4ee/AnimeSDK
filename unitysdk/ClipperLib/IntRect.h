@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLIPPERLIB_INTRECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x915C80)
-#define CLIPPERLIB_INTRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B6380)
+#define CLIPPERLIB_INTRECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x924660)
+#define CLIPPERLIB_INTRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x3E8500)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int IntRect_TypeDefinitionIndex = 30692;
+	inline static constexpr unsigned int IntRect_TypeDefinitionIndex = 31221;
 
 	struct alignas(8) IntRect
 	{

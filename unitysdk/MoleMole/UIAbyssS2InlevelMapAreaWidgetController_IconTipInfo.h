@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIABYSSS2INLEVELMAPAREAWIDGETCONTROLLER_ICONTIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC278550)
+#define MOLEMOLE_UIABYSSS2INLEVELMAPAREAWIDGETCONTROLLER_ICONTIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12F23790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2InlevelMapAreaWidgetController_IconTipInfo_TypeDefinitionIndex = 58847;
+	inline static constexpr unsigned int UIAbyssS2InlevelMapAreaWidgetController_IconTipInfo_TypeDefinitionIndex = 45757;
 
 	class UIAbyssS2InlevelMapAreaWidgetController_IconTipInfo : public ::System::Object
 	{
 	public:
-		::System::String* Title; // 0x10
+		::System::String* Desc; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::String* Desc; // 0x20
+		::System::String* Title; // 0x20
 		::UnityEngine::Color IconColor; // 0x28
 
 		::System::Void _ctor()

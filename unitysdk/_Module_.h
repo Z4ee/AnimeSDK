@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int _Module__TypeDefinitionIndex = 84227;
+inline static constexpr unsigned int _Module__TypeDefinitionIndex = 85951;
 
 class _Module_
 {

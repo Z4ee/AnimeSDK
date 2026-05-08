@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOBANGBOOPARTYAIPATHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E5710)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOBANGBOOPARTYAIPATHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16055590)
 
 namespace MoleMole::MiniGame::BangbooPartyGame
 {
-	inline static constexpr unsigned int MonoBangbooPartyAIPathPoint_TypeDefinitionIndex = 40640;
+	inline static constexpr unsigned int MonoBangbooPartyAIPathPoint_TypeDefinitionIndex = 58786;
 
 	class MonoBangbooPartyAIPathPoint : public ::UnityEngine::MonoBehaviour
 	{

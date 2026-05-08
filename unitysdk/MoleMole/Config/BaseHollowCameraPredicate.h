@@ -3,11 +3,11 @@
 #include "unitysdk/Struct_2_31FD36EFA5418B17.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_BASEHOLLOWCAMERAPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB092750)
+#define MOLEMOLE_CONFIG_BASEHOLLOWCAMERAPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x11023670)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BaseHollowCameraPredicate_TypeDefinitionIndex = 48961;
+	inline static constexpr unsigned int BaseHollowCameraPredicate_TypeDefinitionIndex = 52206;
 
 	class BaseHollowCameraPredicate : public ::System::Object
 	{

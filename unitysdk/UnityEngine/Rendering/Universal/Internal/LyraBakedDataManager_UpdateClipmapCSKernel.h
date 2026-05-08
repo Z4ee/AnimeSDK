@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_UpdateClipmapCSKernel_TypeDefinitionIndex = 29944;
+	inline static constexpr unsigned int LyraBakedDataManager_UpdateClipmapCSKernel_TypeDefinitionIndex = 30472;
 
 	enum class LyraBakedDataManager_UpdateClipmapCSKernel : ::System::Int32
 	{

@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_EXPANDCOLLAPSENAPATTRIBUTE_GET_HASEXPANDVALUE_OFFSET UNITYSDK_OFFSET(0x1A02D950)
-#define SIRENIX_ODININSPECTOR_EXPANDCOLLAPSENAPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A02D970)
-#define SIRENIX_ODININSPECTOR_EXPANDCOLLAPSENAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02D960)
+#define SIRENIX_ODININSPECTOR_EXPANDCOLLAPSENAPATTRIBUTE_GET_HASEXPANDVALUE_OFFSET UNITYSDK_OFFSET(0x1AA14D30)
+#define SIRENIX_ODININSPECTOR_EXPANDCOLLAPSENAPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AA14D50)
+#define SIRENIX_ODININSPECTOR_EXPANDCOLLAPSENAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA14D40)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ExpandCollapseNapAttribute_TypeDefinitionIndex = 8101;
+	inline static constexpr unsigned int ExpandCollapseNapAttribute_TypeDefinitionIndex = 7999;
 
 	class ExpandCollapseNapAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* OnCollapsed; // 0x10
-		::System::String* OnExpanded; // 0x18
-		::System::String* ExpandIf; // 0x20
-		::System::Boolean IsOnType; // 0x28
-		::System::Boolean _HasExpandValue_k__BackingField; // 0x29
-		::System::Boolean Expand; // 0x2A
+		::System::String* ExpandIf; // 0x18
+		::System::String* OnExpanded; // 0x20
+		::System::Boolean Expand; // 0x28
+		::System::Boolean IsOnType; // 0x29
+		::System::Boolean _HasExpandValue_k__BackingField; // 0x2A
 
 		::System::Void _ctor()
 		{

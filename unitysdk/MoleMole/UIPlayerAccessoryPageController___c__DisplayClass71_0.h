@@ -5,19 +5,19 @@
 namespace MoleMole { class UIPlayerAccessoryPageController; }
 namespace MoleMole { class UIPlayerAccessoryPageControllerContext; }
 
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7493A20)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS71_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x7493A30)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS71_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x7493A50)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1485F910)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS71_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1485F920)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS71_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x1485F940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController___c__DisplayClass71_0_TypeDefinitionIndex = 39886;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController___c__DisplayClass71_0_TypeDefinitionIndex = 65530;
 
 	class UIPlayerAccessoryPageController___c__DisplayClass71_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIPlayerAccessoryPageControllerContext* ctx; // 0x10
-		::MoleMole::UIPlayerAccessoryPageController* __4__this; // 0x18
+		::MoleMole::UIPlayerAccessoryPageController* __4__this; // 0x10
+		::MoleMole::UIPlayerAccessoryPageControllerContext* ctx; // 0x18
 
 		::System::Void _ctor()
 		{

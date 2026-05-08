@@ -6,18 +6,18 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class PureReflectedMethodNode___c__DisplayClass16_0; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A652330)
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE___C__DISPLAYCLASS16_1__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A652340)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B417AD0)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE___C__DISPLAYCLASS16_1__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1B417AE0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectedMethodNode___c__DisplayClass16_1_TypeDefinitionIndex = 27248;
+	inline static constexpr unsigned int PureReflectedMethodNode___c__DisplayClass16_1_TypeDefinitionIndex = 27961;
 
 	class PureReflectedMethodNode___c__DisplayClass16_1 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::PureReflectedMethodNode___c__DisplayClass16_0* CS___8__locals1; // 0x10
-		::FlowCanvas::FlowOutput* output; // 0x18
+		::FlowCanvas::FlowOutput* output; // 0x10
+		::FlowCanvas::Nodes::PureReflectedMethodNode___c__DisplayClass16_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

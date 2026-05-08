@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_CFA256898B7F5607_TypeDefinitionIndex = 53894;
+inline static constexpr unsigned int Enum_3_CFA256898B7F5607_TypeDefinitionIndex = 49477;
 
 enum class Enum_3_CFA256898B7F5607 : ::System::Int32
 {
-	Joy = 2,
-	Rustic = 10,
-	Pop = 9,
-	SciFi = 5,
 	Gothic = 11,
+	SciFi = 5,
+	Joy = 2,
+	Pop = 9,
+	Rustic = 10,
 	Athletic = 7,
-	Fairytale = 6,
-	None = 0,
 	Elegant = 4,
-	Holiday = 12,
+	Fairytale = 6,
 	Original = 1,
+	None = 0,
 	Retro = 8,
 	Primal = 3,
+	Holiday = 12,
 };

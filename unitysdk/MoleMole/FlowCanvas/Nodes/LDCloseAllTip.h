@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCLOSEALLTIP_INVOKE_OFFSET UNITYSDK_OFFSET(0x7A535E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCLOSEALLTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x7A53F00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCLOSEALLTIP_INVOKE_OFFSET UNITYSDK_OFFSET(0x18414770)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCLOSEALLTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18415070)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCloseAllTip_TypeDefinitionIndex = 47655;
+	inline static constexpr unsigned int LDCloseAllTip_TypeDefinitionIndex = 40102;
 
 	class LDCloseAllTip : public ::FlowCanvas::Nodes::CallableActionNode
 	{

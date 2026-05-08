@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EUIType_TypeDefinitionIndex = 17903;
+	inline static constexpr unsigned int EUIType_TypeDefinitionIndex = 12608;
 
 	enum class EUIType : ::System::Int16
 	{
+		EnumCount = 4,
 		Default = 0,
+		Archive = 3,
 		HollowQuest = 2,
 		None = 1,
-		Archive = 3,
-		EnumCount = 4,
 	};
 }

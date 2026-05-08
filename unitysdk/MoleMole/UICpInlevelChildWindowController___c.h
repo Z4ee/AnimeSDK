@@ -3,20 +3,20 @@
 #include "unitysdk/MoleMole/UICpInlevelChildWindowController_TagInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DE3990)
-#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18DE39D0)
-#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER___C___CCTOR_B__136_0_OFFSET UNITYSDK_OFFSET(0x18DE39E0)
+#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF98810)
+#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF98850)
+#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER___C___CCTOR_B__136_0_OFFSET UNITYSDK_OFFSET(0x1BF98860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInlevelChildWindowController___c_TypeDefinitionIndex = 83488;
+	inline static constexpr unsigned int UICpInlevelChildWindowController___c_TypeDefinitionIndex = 85329;
 
 	class UICpInlevelChildWindowController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UICpInlevelChildWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UICpInlevelChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UICpInlevelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48290);
+			return (::MoleMole::UICpInlevelChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UICpInlevelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49E30);
 		}
 
 		static ::System::Void _cctor()

@@ -7,35 +7,35 @@
 class PerFrameData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PARTICLEANIMATIONDATA_GETFRAMEBOUNDS_OFFSET UNITYSDK_OFFSET(0x177F9560)
-#define PARTICLEANIMATIONDATA_GETFRAMEDATA_1_OFFSET UNITYSDK_OFFSET(0x177F9710)
-#define PARTICLEANIMATIONDATA_GETFRAMEDATA_OFFSET UNITYSDK_OFFSET(0x177F9670)
-#define PARTICLEANIMATIONDATA_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x177F9540)
-#define PARTICLEANIMATIONDATA_GET_PARTICLECOUNT_OFFSET UNITYSDK_OFFSET(0x177F9530)
-#define PARTICLEANIMATIONDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x177F9780)
-#define PARTICLEANIMATIONDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x177F98B0)
-#define PARTICLEANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x177F97E0)
+#define PARTICLEANIMATIONDATA_GETFRAMEBOUNDS_OFFSET UNITYSDK_OFFSET(0x19277550)
+#define PARTICLEANIMATIONDATA_GETFRAMEDATA_1_OFFSET UNITYSDK_OFFSET(0x19277700)
+#define PARTICLEANIMATIONDATA_GETFRAMEDATA_OFFSET UNITYSDK_OFFSET(0x19277660)
+#define PARTICLEANIMATIONDATA_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x19277530)
+#define PARTICLEANIMATIONDATA_GET_PARTICLECOUNT_OFFSET UNITYSDK_OFFSET(0x19277520)
+#define PARTICLEANIMATIONDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x19277770)
+#define PARTICLEANIMATIONDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x192778E0)
+#define PARTICLEANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x192777D0)
 
-inline static constexpr unsigned int ParticleAnimationData_TypeDefinitionIndex = 28983;
+inline static constexpr unsigned int ParticleAnimationData_TypeDefinitionIndex = 29502;
 
 class ParticleAnimationData : public ::UnityEngine::ScriptableObject
 {
 public:
+	static ::System::Int32* StaticGet_AgePercentPropertyName()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A40);
+	}
 	static ::System::Int32* StaticGet_CustomData2PropertyName()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A10);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A44);
 	}
 	static ::System::Int32* StaticGet_VertexColorPropertyName()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A14);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A48);
 	}
 	static ::System::Int32* StaticGet_CustomData1PropertyName()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A18);
-	}
-	static ::System::Int32* StaticGet_AgePercentPropertyName()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A1C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParticleAnimationData_TypeDefinitionIndex)->GetStaticField(0x5A4C);
 	}
 	::System::Int32 maxParticleCount; // 0x18
 	::System::Collections::Generic::List_1<::System::UInt32>* allParticleSeeds; // 0x20

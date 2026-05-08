@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ILayoutLimiter_TypeDefinitionIndex = 8393;
+	inline static constexpr unsigned int ILayoutLimiter_TypeDefinitionIndex = 8403;
 
 	class ILayoutLimiter
 	{

@@ -5,12 +5,12 @@
 namespace DigitalOpus::MB::Core { class MB3_TextureCombinerPipeline___c__DisplayClass7_0; }
 namespace DigitalOpus::MB::Core { class ShaderTextureProperty; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F19C0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS7_1___COLLECTPROPERTYNAMES_B__0_OFFSET UNITYSDK_OFFSET(0x1B6F19D0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E34D0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS7_1___COLLECTPROPERTYNAMES_B__0_OFFSET UNITYSDK_OFFSET(0x1C4E34E0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPipeline___c__DisplayClass7_1_TypeDefinitionIndex = 83443;
+	inline static constexpr unsigned int MB3_TextureCombinerPipeline___c__DisplayClass7_1_TypeDefinitionIndex = 85171;
 
 	class MB3_TextureCombinerPipeline___c__DisplayClass7_1 : public ::System::Object
 	{

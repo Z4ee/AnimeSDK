@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SharpEvent_1_TypeDefinitionIndex = 26684;
+	inline static constexpr unsigned int SharpEvent_1_TypeDefinitionIndex = 27172;
 
 	template <typename T>
 	class SharpEvent_1 : public ::FlowCanvas::Nodes::SharpEvent

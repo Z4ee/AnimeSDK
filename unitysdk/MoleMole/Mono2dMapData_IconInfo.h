@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB5F41C0)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1542FE10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Mono2dMapData_IconInfo_TypeDefinitionIndex = 38111;
+	inline static constexpr unsigned int Mono2dMapData_IconInfo_TypeDefinitionIndex = 55545;
 
 	class Mono2dMapData_IconInfo : public ::System::Object
 	{

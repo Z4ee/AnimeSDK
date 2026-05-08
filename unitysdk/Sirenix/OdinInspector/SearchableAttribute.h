@@ -3,7 +3,7 @@
 #include "unitysdk/Sirenix/OdinInspector/SearchFilterOptions.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_SEARCHABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B115B00)
+#define SIRENIX_ODININSPECTOR_SEARCHABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C020FA0)
 
 namespace Sirenix::OdinInspector
 {
@@ -12,9 +12,9 @@ namespace Sirenix::OdinInspector
 	class SearchableAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Boolean FuzzySearch; // 0x10
-		::System::Boolean IgnoreCaseWhenExactMatch; // 0x11
-		::System::Boolean Recursive; // 0x12
+		::System::Boolean Recursive; // 0x10
+		::System::Boolean FuzzySearch; // 0x11
+		::System::Boolean IgnoreCaseWhenExactMatch; // 0x12
 		::System::Boolean SmartFuzzySearch; // 0x13
 		::Sirenix::OdinInspector::SearchFilterOptions FilterOptions; // 0x14
 

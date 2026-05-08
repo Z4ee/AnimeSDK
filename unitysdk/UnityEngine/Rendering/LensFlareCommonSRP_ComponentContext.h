@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareCommonSRP_ComponentContext_TypeDefinitionIndex = 29275;
+	inline static constexpr unsigned int LensFlareCommonSRP_ComponentContext_TypeDefinitionIndex = 29794;
 
 	struct alignas(4) LensFlareCommonSRP_ComponentContext
 	{

@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGTASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x6F9B830)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGTASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x6F9B6C0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGTASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xEC7A3E0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGTASK__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC7A270)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DebugLogTask_TypeDefinitionIndex = 37826;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DebugLogTask_TypeDefinitionIndex = 52795;
 
 	class RegistrationInfo_ScriptStruct_DebugLogTask : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogTask_TypeDefinitionIndex)->GetStaticField(0x32590);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogTask_TypeDefinitionIndex)->GetStaticField(0x32F10);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogTask_TypeDefinitionIndex)->GetStaticField(0x32598);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogTask_TypeDefinitionIndex)->GetStaticField(0x32F18);
 		}
 
 		static ::System::Void _cctor()

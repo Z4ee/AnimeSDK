@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/XInput/LowLevel/XInputControllerWindowsState_Button.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XINPUT_LOWLEVEL_XINPUTCONTROLLERWINDOWSSTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x935C30)
-#define UNITYENGINE_INPUTSYSTEM_XINPUT_LOWLEVEL_XINPUTCONTROLLERWINDOWSSTATE_WITHBUTTON_OFFSET UNITYSDK_OFFSET(0x935C40)
+#define UNITYENGINE_INPUTSYSTEM_XINPUT_LOWLEVEL_XINPUTCONTROLLERWINDOWSSTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x9733D0)
+#define UNITYENGINE_INPUTSYSTEM_XINPUT_LOWLEVEL_XINPUTCONTROLLERWINDOWSSTATE_WITHBUTTON_OFFSET UNITYSDK_OFFSET(0x9733E0)
 
 namespace UnityEngine::InputSystem::XInput::LowLevel
 {
-	inline static constexpr unsigned int XInputControllerWindowsState_TypeDefinitionIndex = 28574;
+	inline static constexpr unsigned int XInputControllerWindowsState_TypeDefinitionIndex = 29092;
 
 	struct alignas(2) XInputControllerWindowsState
 	{

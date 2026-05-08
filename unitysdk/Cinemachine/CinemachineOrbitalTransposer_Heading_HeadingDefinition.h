@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer_Heading_HeadingDefinition_TypeDefinitionIndex = 31994;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_Heading_HeadingDefinition_TypeDefinitionIndex = 32523;
 
 	enum class CinemachineOrbitalTransposer_Heading_HeadingDefinition : ::System::Int32
 	{

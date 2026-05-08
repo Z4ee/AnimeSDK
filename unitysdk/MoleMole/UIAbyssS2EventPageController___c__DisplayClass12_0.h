@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAbyssS2EventPageController; }
 
-#define MOLEMOLE_UIABYSSS2EVENTPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA68AE20)
-#define MOLEMOLE_UIABYSSS2EVENTPAGECONTROLLER___C__DISPLAYCLASS12_0__ONABYSSS2EVENTSELECT_B__0_OFFSET UNITYSDK_OFFSET(0xA68AE30)
+#define MOLEMOLE_UIABYSSS2EVENTPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15605810)
+#define MOLEMOLE_UIABYSSS2EVENTPAGECONTROLLER___C__DISPLAYCLASS12_0__ONABYSSS2EVENTSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x15605820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EventPageController___c__DisplayClass12_0_TypeDefinitionIndex = 65729;
+	inline static constexpr unsigned int UIAbyssS2EventPageController___c__DisplayClass12_0_TypeDefinitionIndex = 82029;
 
 	class UIAbyssS2EventPageController___c__DisplayClass12_0 : public ::System::Object
 	{

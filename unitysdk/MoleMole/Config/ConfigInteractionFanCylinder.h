@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInteractionFanCylinder_TypeDefinitionIndex = 56630;
+	inline static constexpr unsigned int ConfigInteractionFanCylinder_TypeDefinitionIndex = 71923;
 
 	struct alignas(4) ConfigInteractionFanCylinder
 	{

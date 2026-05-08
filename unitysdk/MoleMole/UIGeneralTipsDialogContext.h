@@ -6,22 +6,22 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALTIPSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FA140)
+#define MOLEMOLE_UIGENERALTIPSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB40C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTipsDialogContext_TypeDefinitionIndex = 73743;
+	inline static constexpr unsigned int UIGeneralTipsDialogContext_TypeDefinitionIndex = 81345;
 
 	class UIGeneralTipsDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* okBtnCb; // 0x28
-		::System::String* desc; // 0x30
-		::System::Action* cancelBtnCb; // 0x38
+		::System::String* title; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* idList; // 0x30
+		::System::Action* OnClose; // 0x38
 		::System::String* replaceClickBtnText; // 0x40
-		::System::Action* OnClose; // 0x48
-		::System::Collections::Generic::List_1<::System::Int32>* idList; // 0x50
-		::System::String* title; // 0x58
+		::System::Action* okBtnCb; // 0x48
+		::System::Action* cancelBtnCb; // 0x50
+		::System::String* desc; // 0x58
 		::System::Boolean forceDisableJump; // 0x60
 		::System::Boolean DontPauseGame; // 0x61
 

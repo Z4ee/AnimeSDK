@@ -6,7 +6,7 @@
 namespace System { class Object; }
 template <typename T1, typename T2> class Class_1_0409B2CBCEF1FADA;
 
-inline static constexpr unsigned int Class_1_0409B2CBCEF1FADA_Struct_2_8F2B8E42EA9C0C2D_TypeDefinitionIndex = 25287;
+inline static constexpr unsigned int Class_1_0409B2CBCEF1FADA_Struct_2_8F2B8E42EA9C0C2D_TypeDefinitionIndex = 25771;
 
 template <typename TPriority, typename TValue>
 struct Class_1_0409B2CBCEF1FADA_Struct_2_8F2B8E42EA9C0C2D

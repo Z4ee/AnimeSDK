@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SPECIALFOOTPRINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x182DE390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SPECIALFOOTPRINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1968F210)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int SpecialFootPrintConfig_TypeDefinitionIndex = 29963;
+	inline static constexpr unsigned int SpecialFootPrintConfig_TypeDefinitionIndex = 30491;
 
 	class SpecialFootPrintConfig : public ::System::Object
 	{

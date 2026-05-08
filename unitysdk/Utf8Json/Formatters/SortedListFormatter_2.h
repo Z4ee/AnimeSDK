@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int SortedListFormatter_2_TypeDefinitionIndex = 84014;
+	inline static constexpr unsigned int SortedListFormatter_2_TypeDefinitionIndex = 85742;
 
 	template <typename TKey, typename TValue>
 	class SortedListFormatter_2 : public ::Utf8Json::Formatters::DictionaryFormatterBase_3<TKey, TValue, ::System::Collections::Generic::SortedList_2<TKey, TValue>*>

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SRPBatcherProfiler_SRPBMarkers_TypeDefinitionIndex = 29370;
+	inline static constexpr unsigned int SRPBatcherProfiler_SRPBMarkers_TypeDefinitionIndex = 29889;
 
 	enum class SRPBatcherProfiler_SRPBMarkers : ::System::Int32
 	{

@@ -4,8 +4,8 @@
 
 namespace IFix::Core { class VirtualMachine; }
 
-#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x19EADE00)
-#define IFIX_CORE_GENERICDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EADDE0)
+#define IFIX_CORE_GENERICDELEGATE_ACTION_OFFSET UNITYSDK_OFFSET(0x1A78E820)
+#define IFIX_CORE_GENERICDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78E800)
 
 namespace IFix::Core
 {
@@ -17,8 +17,8 @@ namespace IFix::Core
 		::System::Object* anonObj; // 0x10
 		::IFix::Core::VirtualMachine* virtualMachine; // 0x18
 		::System::Int32 extraArgNum; // 0x20
-		::System::Int32 methodId; // 0x24
-		::System::Boolean pushSelf; // 0x28
+		::System::Boolean pushSelf; // 0x24
+		::System::Int32 methodId; // 0x28
 
 		::System::Void _ctor(::IFix::Core::VirtualMachine* virtualMachine, ::System::Int32 methodId, ::System::Object* anonObj)
 		{

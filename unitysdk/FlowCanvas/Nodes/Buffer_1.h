@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 26696;
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 27258;
 
 	template <typename T>
 	class Buffer_1 : public ::FlowCanvas::Nodes::PureFunctionNode_3<T, T, ::System::Int32>

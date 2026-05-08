@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_FD0F27B95B6D23FF.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Class_2_963DFC790B1338E6.h"
 
-#define CLASS_3_651898F6349F75B4_5__CTOR_OFFSET UNITYSDK_OFFSET(0xCEB8A60)
+#define CLASS_3_651898F6349F75B4_5__CTOR_OFFSET UNITYSDK_OFFSET(0x10C47E70)
 
-inline static constexpr unsigned int Class_3_651898F6349F75B4_5_TypeDefinitionIndex = 70649;
+inline static constexpr unsigned int Class_3_651898F6349F75B4_5_TypeDefinitionIndex = 56687;
 
-class Class_3_651898F6349F75B4_5 : public ::Class_2_FD0F27B95B6D23FF<::UnityEngine::Vector3>
+class Class_3_651898F6349F75B4_5 : public ::Class_2_963DFC790B1338E6<::System::Boolean>
 {
 public:
 	::System::Void _ctor()

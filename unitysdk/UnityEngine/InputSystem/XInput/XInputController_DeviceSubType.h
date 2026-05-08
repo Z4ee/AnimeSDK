@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::XInput
 {
-	inline static constexpr unsigned int XInputController_DeviceSubType_TypeDefinitionIndex = 28569;
+	inline static constexpr unsigned int XInputController_DeviceSubType_TypeDefinitionIndex = 29087;
 
 	enum class XInputController_DeviceSubType : ::System::Int32
 	{

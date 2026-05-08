@@ -2,36 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSoundActionGeneral.h"
 
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_147;
 namespace MoleMole::Config { class ConfigSoundAction_GlobalValue_BranchOperation; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xEC4B600)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0xEC4B440)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_ISMATCH_OFFSET UNITYSDK_OFFSET(0xEC4BDC0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_WALK_OFFSET UNITYSDK_OFFSET(0xEC4BF90)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC4C1D0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC4C1C0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE___BASE_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0xEC4C330)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0xEC4C340)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE___BASE_WALK_OFFSET UNITYSDK_OFFSET(0xEC4C350)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x181D3F80)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x181D3DA0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0x181D3DE0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x181D46B0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_WALK_OFFSET UNITYSDK_OFFSET(0x181D4860)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x181D4A80)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x181D4A40)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE___BASE_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0x181D4BE0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x181D4BF0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x181D4C00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_TypeDefinitionIndex = 61351;
+	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_TypeDefinitionIndex = 57579;
 
 	class ConfigSoundAction_GlobalValue : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
 		static ::System::Collections::IEnumerable** StaticGet_operateTypes()
 		{
-			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_TypeDefinitionIndex)->GetStaticField(0x42DE0);
+			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_TypeDefinitionIndex)->GetStaticField(0x486B0);
 		}
-		::System::String* scopeName; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigSoundAction_GlobalValue_BranchOperation*>* branchList; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigSoundAction_GlobalValue_BranchOperation*>* branchList; // 0x20
+		::System::String* scopeName; // 0x28
 		::System::Int32 operateType; // 0x30
 		::System::Int32 value; // 0x34
 
@@ -45,14 +46,19 @@ namespace MoleMole::Config
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE__CCTOR_OFFSET))();
 		}
 
+		::System::String* get_InspectorLabel()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_GET_INSPECTORLABEL_OFFSET))(this);
+		}
+
 		::System::String* get_ParamHint()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_GET_PARAMHINT_OFFSET))(this);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_148* context)
+		::System::Void Execute(::Class_0_16E4307DCC419505_147* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_148*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_EXECUTE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

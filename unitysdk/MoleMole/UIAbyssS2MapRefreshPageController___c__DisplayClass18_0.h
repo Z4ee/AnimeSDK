@@ -4,21 +4,21 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_3_9EF9F60B4C5E8B82;
+class Class_3_FEAEF2C224F31131;
 namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskCompletionSource_1; }
 
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE8EFF70)
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__0_OFFSET UNITYSDK_OFFSET(0xE8EFF80)
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__1_OFFSET UNITYSDK_OFFSET(0xE8F0030)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E14190)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__0_OFFSET UNITYSDK_OFFSET(0x11E141A0)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__1_OFFSET UNITYSDK_OFFSET(0x11E14250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController___c__DisplayClass18_0_TypeDefinitionIndex = 67302;
+	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController___c__DisplayClass18_0_TypeDefinitionIndex = 49121;
 
 	class UIAbyssS2MapRefreshPageController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::ValueTuple_2<::System::Boolean, ::Class_3_9EF9F60B4C5E8B82*>>* tcs; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::ValueTuple_2<::System::Boolean, ::Class_3_FEAEF2C224F31131*>>* tcs; // 0x10
 		::System::Threading::CancellationToken ctsToken; // 0x18
 
 		::System::Void _ctor()
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__0_OFFSET))(this);
 		}
 
-		::System::Void _SendRefreshMapReq_b__1(::System::Boolean b, ::Class_3_9EF9F60B4C5E8B82* map)
+		::System::Void _SendRefreshMapReq_b__1(::System::Boolean b, ::Class_3_FEAEF2C224F31131* map)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_3_9EF9F60B4C5E8B82*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__1_OFFSET))(this, b, map);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_3_FEAEF2C224F31131*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__DISPLAYCLASS18_0__SENDREFRESHMAPREQ_B__1_OFFSET))(this, b, map);
 		}
 	};
 }

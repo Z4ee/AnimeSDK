@@ -10,25 +10,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A1248A0)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A124980)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A125770)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A126060)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY__ONCHECK_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A1261B0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B464C90)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1B464CD0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1B4659E0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B466340)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY__ONCHECK_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B466480)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CanSeeTargetAny_TypeDefinitionIndex = 27581;
+	inline static constexpr unsigned int CanSeeTargetAny_TypeDefinitionIndex = 28239;
 
 	class CanSeeTargetAny : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* closerResult; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetObjects; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* allResults; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x78
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* awarnessDistance; // 0x80
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxDistance; // 0x88
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* awarnessDistance; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* closerResult; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxDistance; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetObjects; // 0x80
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* allResults; // 0x88
 		::UnityEngine::RaycastHit hit; // 0x90
 		::UnityEngine::Vector3 offset; // 0xC4
 

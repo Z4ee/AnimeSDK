@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ZzzFluid_WindSourceType_TypeDefinitionIndex = 29746;
+	inline static constexpr unsigned int ZzzFluid_WindSourceType_TypeDefinitionIndex = 30275;
 
 	enum class ZzzFluid_WindSourceType : ::System::Int32
 	{

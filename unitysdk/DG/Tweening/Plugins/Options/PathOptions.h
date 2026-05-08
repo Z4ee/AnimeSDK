@@ -11,7 +11,7 @@ namespace UnityEngine { class Transform; }
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int PathOptions_TypeDefinitionIndex = 24950;
+	inline static constexpr unsigned int PathOptions_TypeDefinitionIndex = 25464;
 
 	struct alignas(8) PathOptions
 	{

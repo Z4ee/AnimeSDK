@@ -8,11 +8,11 @@ namespace MoleMole { class HollowCardCombineConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD__CTOR_OFFSET UNITYSDK_OFFSET(0x81FEAE0)
+#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD__CTOR_OFFSET UNITYSDK_OFFSET(0xFB179B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_HollowCard_TypeDefinitionIndex = 79894;
+	inline static constexpr unsigned int ConfigUICommon_HollowCard_TypeDefinitionIndex = 48467;
 
 	class ConfigUICommon_HollowCard : public ::Foundation::MihoyoSerializedScriptableObject
 	{

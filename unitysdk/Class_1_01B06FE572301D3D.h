@@ -5,7 +5,7 @@
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-inline static constexpr unsigned int Class_1_01B06FE572301D3D_TypeDefinitionIndex = 75106;
+inline static constexpr unsigned int Class_1_01B06FE572301D3D_TypeDefinitionIndex = 39765;
 
 template <typename T>
 class Class_1_01B06FE572301D3D : public ::System::Object

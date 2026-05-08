@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCB06DA0)
-#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCB06DB0)
-#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCB07070)
-#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB07280)
-#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCB07240)
+#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14952E30)
+#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14952E40)
+#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x149530E0)
+#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x149532D0)
+#define MOLEMOLE_CONFIGGALGAMEAVATARSHOW_CONFIGGALGAMEAVATARSHOW_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14953290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter_TypeDefinitionIndex = 37879;
+	inline static constexpr unsigned int ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter_TypeDefinitionIndex = 55823;
 
 	class ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigGalGameAvatarShow*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GalGameFacialSetting*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GalGameFacialSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45E10);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::UIAvatarCommonLightSetting*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::UIAvatarCommonLightSetting*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45E18);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::UIAvatarCommonLightSetting*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x468C0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GalGameFacialSetting*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GalGameFacialSetting*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGalGameAvatarShow_ConfigGalGameAvatarShow_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x468C8);
 		}
 
 		::System::Void _ctor()

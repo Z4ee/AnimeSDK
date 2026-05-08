@@ -3,15 +3,15 @@
 #include "unitysdk/LyraSector/LyraSectorCoord.h"
 #include "unitysdk/System/Object.h"
 
-#define TESTLYRASECTORLOADER_LYRASECTORASYNCLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17801840)
+#define TESTLYRASECTORLOADER_LYRASECTORASYNCLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1927FAC0)
 
-inline static constexpr unsigned int TestLyraSectorLoader_LyraSectorAsyncLoadingData_TypeDefinitionIndex = 29043;
+inline static constexpr unsigned int TestLyraSectorLoader_LyraSectorAsyncLoadingData_TypeDefinitionIndex = 29562;
 
 class TestLyraSectorLoader_LyraSectorAsyncLoadingData : public ::System::Object
 {
 public:
-	::LyraSector::LyraSectorCoord coord; // 0x10
-	::System::Boolean isForDistanceField; // 0x20
+	::System::Boolean isForDistanceField; // 0x10
+	::LyraSector::LyraSectorCoord coord; // 0x14
 
 	::System::Void _ctor()
 	{

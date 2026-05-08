@@ -6,13 +6,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ColorParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHROMATICABERRATION_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19B5EE50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHROMATICABERRATION_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x19B5EEB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHROMATICABERRATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5EEF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHROMATICABERRATION_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1B079C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHROMATICABERRATION_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1B079C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHROMATICABERRATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B079CC0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ChromaticAberration_TypeDefinitionIndex = 29581;
+	inline static constexpr unsigned int ChromaticAberration_TypeDefinitionIndex = 30109;
 
 	class ChromaticAberration : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

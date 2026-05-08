@@ -5,12 +5,12 @@
 namespace MoleMole { class UIControllerContextBase; }
 namespace MoleMole { class UIWindowController; }
 
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_STREAMINGPAUSECONFIGGAMELOGIC_ISNOPAUSE_OFFSET UNITYSDK_OFFSET(0x10ABCE00)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_STREAMINGPAUSECONFIGGAMELOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x10ABCE80)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_STREAMINGPAUSECONFIGGAMELOGIC_ISNOPAUSE_OFFSET UNITYSDK_OFFSET(0x183E5830)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_STREAMINGPAUSECONFIGGAMELOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x183E5890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_UIPage_StreamingPauseConfigGameLogic_TypeDefinitionIndex = 38934;
+	inline static constexpr unsigned int ConfigUICommon_UIPage_StreamingPauseConfigGameLogic_TypeDefinitionIndex = 52158;
 
 	class ConfigUICommon_UIPage_StreamingPauseConfigGameLogic : public ::MoleMole::ConfigUICommon_UIPage_StreamingPagePauseGameLogic
 	{

@@ -5,11 +5,11 @@
 namespace System { class Type; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_REDIRECTCOMPONENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x197F23C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_REDIRECTCOMPONENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA8410)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RedirectComponentHandler_TypeDefinitionIndex = 29560;
+	inline static constexpr unsigned int RedirectComponentHandler_TypeDefinitionIndex = 30088;
 
 	class RedirectComponentHandler : public ::System::Object
 	{

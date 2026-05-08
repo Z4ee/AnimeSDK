@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LinkedHashMap_2_TypeDefinitionIndex = 7964;
+	inline static constexpr unsigned int LinkedHashMap_2_TypeDefinitionIndex = 8233;
 
 	template <typename TKey, typename TValue>
 	class LinkedHashMap_2 : public ::System::Object

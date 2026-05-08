@@ -12,7 +12,7 @@ namespace System::Security::Principal
 	class WindowsPrincipal : public ::System::Security::Claims::ClaimsPrincipal
 	{
 	public:
-		::Il2CppArray<::System::String*>* m_roles; // 0x30
-		::System::Security::Principal::WindowsIdentity* _identity; // 0x38
+		::System::Security::Principal::WindowsIdentity* _identity; // 0x30
+		::Il2CppArray<::System::String*>* m_roles; // 0x38
 	};
 }

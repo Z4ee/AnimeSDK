@@ -6,7 +6,7 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_1_0A124D96A25F6632_TypeDefinitionIndex = 72929;
+inline static constexpr unsigned int Class_1_0A124D96A25F6632_TypeDefinitionIndex = 62020;
 
 template <typename TKey, typename TValue>
 class Class_1_0A124D96A25F6632 : public ::System::Object

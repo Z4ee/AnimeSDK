@@ -4,24 +4,24 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-class Class_2_5AD8A37AA06A2983_3;
+class Class_2_5AD8A37AA06A2983_2;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_WWISESTATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD4712E0)
-#define MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xD471500)
-#define MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_87318FF00D6BC7EB_OFFSET UNITYSDK_OFFSET(0xD4715A0)
-#define MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_960032BA2E22793D_OFFSET UNITYSDK_OFFSET(0xD471780)
-#define MOLEMOLE_TIMELINE_WWISESTATETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD471460)
+#define MOLEMOLE_TIMELINE_WWISESTATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x170661D0)
+#define MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_6916CB2AB9451DD7_OFFSET UNITYSDK_OFFSET(0x170665E0)
+#define MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_87318FF00D6BC7EB_OFFSET UNITYSDK_OFFSET(0x17066420)
+#define MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x170663E0)
+#define MOLEMOLE_TIMELINE_WWISESTATETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17066330)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int WwiseStateTrack_TypeDefinitionIndex = 63096;
+	inline static constexpr unsigned int WwiseStateTrack_TypeDefinitionIndex = 65546;
 
 	class WwiseStateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_2_5AD8A37AA06A2983_3*>* paramList; // 0xB0
+		::System::Collections::Generic::List_1<::Class_2_5AD8A37AA06A2983_2*>* paramList; // 0xB0
 
 		::System::Void _ctor()
 		{
@@ -33,9 +33,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISESTATETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_5_87318FF00D6BC7EB()
@@ -43,9 +43,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_87318FF00D6BC7EB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_960032BA2E22793D()
+		::System::Void Method_5_6916CB2AB9451DD7()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_960032BA2E22793D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISESTATETRACK_METHOD_5_6916CB2AB9451DD7_OFFSET))(this);
 		}
 	};
 }

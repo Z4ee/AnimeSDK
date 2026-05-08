@@ -10,29 +10,29 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKISANIMATORNAME_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x916B7F0)
-#define MOLEMOLE_CHECKISANIMATORNAME_ONRESET_OFFSET UNITYSDK_OFFSET(0x916C260)
-#define MOLEMOLE_CHECKISANIMATORNAME_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x916B9D0)
-#define MOLEMOLE_CHECKISANIMATORNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x916C360)
-#define MOLEMOLE_CHECKISANIMATORNAME___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x916C3A0)
-#define MOLEMOLE_CHECKISANIMATORNAME___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x916C430)
-#define MOLEMOLE_CHECKISANIMATORNAME___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x916C4C0)
+#define MOLEMOLE_CHECKISANIMATORNAME_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11C89880)
+#define MOLEMOLE_CHECKISANIMATORNAME_ONRESET_OFFSET UNITYSDK_OFFSET(0x11C8A280)
+#define MOLEMOLE_CHECKISANIMATORNAME_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11C89A30)
+#define MOLEMOLE_CHECKISANIMATORNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x11C8A310)
+#define MOLEMOLE_CHECKISANIMATORNAME___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11C8A3A0)
+#define MOLEMOLE_CHECKISANIMATORNAME___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x11C8A430)
+#define MOLEMOLE_CHECKISANIMATORNAME___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11C8A4C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckIsAnimatorName_TypeDefinitionIndex = 46425;
+	inline static constexpr unsigned int CheckIsAnimatorName_TypeDefinitionIndex = 66437;
 
 	class CheckIsAnimatorName : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedInt* startFrame; // 0x50
-		::BehaviorDesigner::Runtime::SharedBool* maxEndFrame; // 0x58
+		::BehaviorDesigner::Runtime::SharedInt* index; // 0x58
 		::BehaviorDesigner::Runtime::SharedBool* maxStartFrame; // 0x60
 		::Class_3_F33F9DC5F4112336* animatorComponent; // 0x68
 		::MoleMole::Battle::Entity* ownerEntity; // 0x70
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x78
-		::BehaviorDesigner::Runtime::SharedInt* index; // 0x80
-		::BehaviorDesigner::Runtime::SharedString* name; // 0x88
+		::BehaviorDesigner::Runtime::SharedString* name; // 0x78
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x80
+		::BehaviorDesigner::Runtime::SharedBool* maxEndFrame; // 0x88
 		::BehaviorDesigner::Runtime::SharedInt* endFrame; // 0x90
 
 		::System::Void _ctor()

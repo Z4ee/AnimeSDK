@@ -5,19 +5,19 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_InLevelInteractionFeedback; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA508940)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK___C__DISPLAYCLASS2_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0xA508950)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK___C__DISPLAYCLASS2_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0xA5089A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10E17820)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK___C__DISPLAYCLASS2_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x10E17830)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK___C__DISPLAYCLASS2_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x10E17880)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_InLevelInteractionFeedback___c__DisplayClass2_0_TypeDefinitionIndex = 63002;
+	inline static constexpr unsigned int LD_InLevelInteractionFeedback___c__DisplayClass2_0_TypeDefinitionIndex = 75938;
 
 	class LD_InLevelInteractionFeedback___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Flow flow; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LD_InLevelInteractionFeedback* __4__this; // 0x38
+		::MoleMole::FlowCanvas::Nodes::LD_InLevelInteractionFeedback* __4__this; // 0x10
+		::FlowCanvas::Flow flow; // 0x18
 
 		::System::Void _ctor()
 		{

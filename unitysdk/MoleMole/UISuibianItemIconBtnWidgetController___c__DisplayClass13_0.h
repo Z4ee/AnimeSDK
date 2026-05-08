@@ -5,12 +5,12 @@
 namespace MoleMole { class UISuibianItemIconBtnWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x869A3E0)
-#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x869A3F0)
+#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D7A1E0)
+#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14D7A1F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianItemIconBtnWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 44315;
+	inline static constexpr unsigned int UISuibianItemIconBtnWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 49006;
 
 	class UISuibianItemIconBtnWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{

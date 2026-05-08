@@ -7,14 +7,14 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA4927E0)
-#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA492C80)
-#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xA492CC0)
-#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA492C90)
+#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x12FC2460)
+#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12FC29E0)
+#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x12FC2A50)
+#define MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC29F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TVGroupTextureSheetTrack_TypeDefinitionIndex = 69542;
+	inline static constexpr unsigned int TVGroupTextureSheetTrack_TypeDefinitionIndex = 47301;
 
 	class TVGroupTextureSheetTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -34,9 +34,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TVGROUPTEXTURESHEETTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

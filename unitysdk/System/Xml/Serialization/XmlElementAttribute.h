@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x19F74EF0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x19F74EB0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x19F74ED0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F74EA0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F74E90)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1AB23E80)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1AB23E40)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1AB23E60)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB23E30)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB23E20)
 
 namespace System::Xml::Serialization
 {
@@ -20,13 +20,13 @@ namespace System::Xml::Serialization
 	class XmlElementAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::String* dataType; // 0x18
-		::System::String* ns; // 0x20
-		::System::String* elementName; // 0x28
-		::System::Boolean isNullable; // 0x30
-		::System::Int32 order; // 0x34
-		::System::Xml::Schema::XmlSchemaForm form; // 0x38
+		::System::String* ns; // 0x10
+		::System::String* elementName; // 0x18
+		::System::String* dataType; // 0x20
+		::System::Type* type; // 0x28
+		::System::Int32 order; // 0x30
+		::System::Xml::Schema::XmlSchemaForm form; // 0x34
+		::System::Boolean isNullable; // 0x38
 
 		::System::Void _ctor()
 		{

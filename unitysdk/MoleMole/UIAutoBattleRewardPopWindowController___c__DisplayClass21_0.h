@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAutoBattleRewardPopWindowController; }
 
-#define MOLEMOLE_UIAUTOBATTLEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BAE4C0)
-#define MOLEMOLE_UIAUTOBATTLEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__ONITEMCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x8BAE4D0)
+#define MOLEMOLE_UIAUTOBATTLEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152E0110)
+#define MOLEMOLE_UIAUTOBATTLEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__ONITEMCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x152E0120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleRewardPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 38391;
+	inline static constexpr unsigned int UIAutoBattleRewardPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 61848;
 
 	class UIAutoBattleRewardPopWindowController___c__DisplayClass21_0 : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace QWER { template <typename T1, typename T2> class CPropertyDictionaryMo
 
 namespace QWER
 {
-	inline static constexpr unsigned int CPropertyDictionaryModule_2___c__DisplayClass21_0_TypeDefinitionIndex = 9654;
+	inline static constexpr unsigned int CPropertyDictionaryModule_2___c__DisplayClass21_0_TypeDefinitionIndex = 9665;
 
 	template <typename TKey, typename TValue>
 	class CPropertyDictionaryModule_2___c__DisplayClass21_0 : public ::System::Object

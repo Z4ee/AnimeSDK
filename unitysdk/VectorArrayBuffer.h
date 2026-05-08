@@ -9,31 +9,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define VECTORARRAYBUFFER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x177923D0)
-#define VECTORARRAYBUFFER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x17791E30)
-#define VECTORARRAYBUFFER_GET_OFFSET UNITYSDK_OFFSET(0x17792730)
-#define VECTORARRAYBUFFER_NEW_OFFSET UNITYSDK_OFFSET(0x17791E50)
-#define VECTORARRAYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x17792190)
-#define VECTORARRAYBUFFER_SET_1_OFFSET UNITYSDK_OFFSET(0x17792570)
-#define VECTORARRAYBUFFER_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x17791E40)
-#define VECTORARRAYBUFFER_SET_OFFSET UNITYSDK_OFFSET(0x17792490)
-#define VECTORARRAYBUFFER_SYNCTOGPUIFDIRTY_OFFSET UNITYSDK_OFFSET(0x177926C0)
-#define VECTORARRAYBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x177928B0)
-#define VECTORARRAYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x177920D0)
+#define VECTORARRAYBUFFER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x18FFF7D0)
+#define VECTORARRAYBUFFER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x18FFF210)
+#define VECTORARRAYBUFFER_GET_OFFSET UNITYSDK_OFFSET(0x18FFFB30)
+#define VECTORARRAYBUFFER_NEW_OFFSET UNITYSDK_OFFSET(0x18FFF230)
+#define VECTORARRAYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x18FFF590)
+#define VECTORARRAYBUFFER_SET_1_OFFSET UNITYSDK_OFFSET(0x18FFF970)
+#define VECTORARRAYBUFFER_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x18FFF220)
+#define VECTORARRAYBUFFER_SET_OFFSET UNITYSDK_OFFSET(0x18FFF890)
+#define VECTORARRAYBUFFER_SYNCTOGPUIFDIRTY_OFFSET UNITYSDK_OFFSET(0x18FFFAC0)
+#define VECTORARRAYBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FFFCB0)
+#define VECTORARRAYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFF4B0)
 
-inline static constexpr unsigned int VectorArrayBuffer_TypeDefinitionIndex = 28935;
+inline static constexpr unsigned int VectorArrayBuffer_TypeDefinitionIndex = 29453;
 
 class VectorArrayBuffer : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Stack_1<::VectorArrayBuffer*>*>** StaticGet_Pools()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Stack_1<::VectorArrayBuffer*>*>**)Il2CppClass::FromTypeDefinitionIndex(VectorArrayBuffer_TypeDefinitionIndex)->GetStaticField(0x22730);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Stack_1<::VectorArrayBuffer*>*>**)Il2CppClass::FromTypeDefinitionIndex(VectorArrayBuffer_TypeDefinitionIndex)->GetStaticField(0x232A0);
 	}
 	::Il2CppArray<::UnityEngine::Vector4>* cpuData; // 0x10
 	::UnityEngine::ComputeBuffer* GPUBuffer; // 0x18
-	::System::Boolean dirty; // 0x20
-	::System::Int32 _length_k__BackingField; // 0x24
+	::System::Int32 _length_k__BackingField; // 0x20
+	::System::Boolean dirty; // 0x24
 
 	::System::Void _ctor(::System::String* name, ::System::Int32 length, ::UnityEngine::ComputeBufferMode bufferMode)
 	{

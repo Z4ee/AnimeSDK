@@ -3,7 +3,7 @@
 
 namespace SharpJson
 {
-	inline static constexpr unsigned int Lexer_Token_TypeDefinitionIndex = 30716;
+	inline static constexpr unsigned int Lexer_Token_TypeDefinitionIndex = 31245;
 
 	enum class Lexer_Token : ::System::Int32
 	{

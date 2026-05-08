@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_383;
+class Class_2_208CC9941471731A_151;
 namespace MoleMole { class UITowerDefenseLevelPageController; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABACE40)
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS24_0__REFRESHDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0xABACE50)
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS24_0__REFRESHDETAIL_B__2_OFFSET UNITYSDK_OFFSET(0xABACFB0)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D50C90)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS24_0__REFRESHDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x10D50CA0)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS24_0__REFRESHDETAIL_B__2_OFFSET UNITYSDK_OFFSET(0x10D50DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass24_0_TypeDefinitionIndex = 70551;
+	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass24_0_TypeDefinitionIndex = 79481;
 
 	class UITowerDefenseLevelPageController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::Class_2_208CC9941471731A_383* template_; // 0x18
-		::MoleMole::UITowerDefenseLevelPageController* __4__this; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* monsterList; // 0x28
+		::Class_2_208CC9941471731A_151* template_; // 0x10
+		::MoleMole::UITowerDefenseLevelPageController* __4__this; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* monsterList; // 0x20
+		::System::Action* __9__2; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,17 +5,17 @@
 class MonoUITableScrollV2_ConfigItemAnim;
 class MonoUITableScrollV2_TableScrollPluginOnShowSupport;
 
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGINONSHOWSUPPORT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9ACD1E0)
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGINONSHOWSUPPORT___C__DISPLAYCLASS4_0__PLAYONSHOWANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x9ACD1F0)
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGINONSHOWSUPPORT___C__DISPLAYCLASS4_0__PLAYONSHOWANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x9ACD310)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGINONSHOWSUPPORT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF8107E0)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGINONSHOWSUPPORT___C__DISPLAYCLASS4_0__PLAYONSHOWANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xF8107F0)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGINONSHOWSUPPORT___C__DISPLAYCLASS4_0__PLAYONSHOWANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0xF810910)
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginOnShowSupport___c__DisplayClass4_0_TypeDefinitionIndex = 64494;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginOnShowSupport___c__DisplayClass4_0_TypeDefinitionIndex = 54113;
 
 class MonoUITableScrollV2_TableScrollPluginOnShowSupport___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::MonoUITableScrollV2_ConfigItemAnim* onShowAnim; // 0x10
-	::MonoUITableScrollV2_TableScrollPluginOnShowSupport* __4__this; // 0x18
+	::MonoUITableScrollV2_TableScrollPluginOnShowSupport* __4__this; // 0x10
+	::MonoUITableScrollV2_ConfigItemAnim* onShowAnim; // 0x18
 
 	::System::Void _ctor()
 	{

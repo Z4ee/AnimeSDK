@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace Share
 {
-	inline static constexpr unsigned int CPolymorphsimModule_1_CData_TypeDefinitionIndex = 14134;
+	inline static constexpr unsigned int CPolymorphsimModule_1_CData_TypeDefinitionIndex = 11233;
 
 	template <typename T>
 	class CPolymorphsimModule_1_CData : public ::QWER::CPropertyObjectModule

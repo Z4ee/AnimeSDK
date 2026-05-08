@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FairyTextUpdateType_TypeDefinitionIndex = 72814;
+	inline static constexpr unsigned int FairyTextUpdateType_TypeDefinitionIndex = 71524;
 
 	enum class FairyTextUpdateType : ::System::Int32
 	{

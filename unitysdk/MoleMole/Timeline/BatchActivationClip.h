@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class BatchActivationBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x6ED8F80)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x6ED8F70)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x6ED9180)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x11DFB8B0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x11DFB8A0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x11DFBA90)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int BatchActivationClip_TypeDefinitionIndex = 62709;
+	inline static constexpr unsigned int BatchActivationClip_TypeDefinitionIndex = 71787;
 
 	class BatchActivationClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -3,14 +3,14 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int OperationMethod_TypeDefinitionIndex = 26623;
+	inline static constexpr unsigned int OperationMethod_TypeDefinitionIndex = 28103;
 
 	enum class OperationMethod : ::System::Int32
 	{
-		Subtract = 2,
-		Set = 0,
 		Multiply = 3,
-		Add = 1,
+		Set = 0,
 		Divide = 4,
+		Subtract = 2,
+		Add = 1,
 	};
 }

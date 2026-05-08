@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_TypeDefinitionIndex = 25447;
+	inline static constexpr unsigned int FieldCodec_1_TypeDefinitionIndex = 25961;
 
 	template <typename T>
 	class FieldCodec_1 : public ::System::Object

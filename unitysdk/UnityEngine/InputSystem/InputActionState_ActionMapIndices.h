@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionState_ActionMapIndices_TypeDefinitionIndex = 28394;
+	inline static constexpr unsigned int InputActionState_ActionMapIndices_TypeDefinitionIndex = 28912;
 
 	struct alignas(4) InputActionState_ActionMapIndices
 	{

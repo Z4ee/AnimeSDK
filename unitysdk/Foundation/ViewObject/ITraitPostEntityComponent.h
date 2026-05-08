@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ITraitPostEntityComponent_TypeDefinitionIndex = 56644;
+	inline static constexpr unsigned int ITraitPostEntityComponent_TypeDefinitionIndex = 72178;
 
 	class ITraitPostEntityComponent
 	{

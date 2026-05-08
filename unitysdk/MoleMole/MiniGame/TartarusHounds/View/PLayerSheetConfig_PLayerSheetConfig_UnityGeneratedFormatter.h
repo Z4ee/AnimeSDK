@@ -13,26 +13,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x75AAB50)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x75AAB60)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x75AAD60)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x75AAF20)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x75AAEE0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12F975E0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12F975F0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12F977D0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F97970)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_PLAYERSHEETCONFIG_PLAYERSHEETCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12F97930)
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 48012;
+	inline static constexpr unsigned int PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 58142;
 
 	class PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MiniGame::TartarusHounds::View::PLayerSheetConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerMainStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerSheetConfigData*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerMainStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerSheetConfigData*>*>**)Il2CppClass::FromTypeDefinitionIndex(PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45F10);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerAddedTextureStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerExtraSheetConfigData*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerAddedTextureStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerExtraSheetConfigData*>*>**)Il2CppClass::FromTypeDefinitionIndex(PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45F18);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerAddedTextureStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerExtraSheetConfigData*>*>**)Il2CppClass::FromTypeDefinitionIndex(PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x469B0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerMainStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerSheetConfigData*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::MiniGame::TartarusHounds::HoundPlayerMainStatus, ::MoleMole::MiniGame::TartarusHounds::View::PlayerSheetConfigData*>*>**)Il2CppClass::FromTypeDefinitionIndex(PLayerSheetConfig_PLayerSheetConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x469B8);
 		}
 
 		::System::Void _ctor()

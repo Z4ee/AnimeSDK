@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_A28CAE54D52ECE6D;
-class Class_2_E71E286B10A21FB0;
+class Class_2_3BF61D3ABCA6E611;
+class Class_2_CE3D9FA6CFDF456D;
 namespace MoleMole { class UIBangBooAutoBattleInLevelPageController; }
 
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS73_0__BINDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xBF367E0)
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF367D0)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS73_0__BINDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x16802020)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16802010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c__DisplayClass73_0_TypeDefinitionIndex = 66421;
+	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c__DisplayClass73_0_TypeDefinitionIndex = 60388;
 
 	class UIBangBooAutoBattleInLevelPageController___c__DisplayClass73_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangBooAutoBattleInLevelPageController* __4__this; // 0x10
-		::Class_2_E71E286B10A21FB0* inLevelData; // 0x18
-		::Class_2_A28CAE54D52ECE6D* rewardData; // 0x20
+		::Class_2_3BF61D3ABCA6E611* rewardData; // 0x10
+		::MoleMole::UIBangBooAutoBattleInLevelPageController* __4__this; // 0x18
+		::Class_2_CE3D9FA6CFDF456D* inLevelData; // 0x20
 
 		::System::Void _ctor()
 		{

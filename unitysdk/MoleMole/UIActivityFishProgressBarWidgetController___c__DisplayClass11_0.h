@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityFishProgressBarWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE9058A0)
-#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS11_0__GETREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xE9058B0)
+#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E299E0)
+#define MOLEMOLE_UIACTIVITYFISHPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS11_0__GETREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x11E299F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishProgressBarWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 50578;
+	inline static constexpr unsigned int UIActivityFishProgressBarWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 52138;
 
 	class UIActivityFishProgressBarWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

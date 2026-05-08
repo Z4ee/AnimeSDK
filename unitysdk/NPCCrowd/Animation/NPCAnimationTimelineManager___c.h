@@ -5,24 +5,24 @@
 namespace NPCCrowd::Animation { class AnimatorZoneSegmentWrap; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define NPCCROWD_ANIMATION_NPCANIMATIONTIMELINEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x64143C0)
-#define NPCCROWD_ANIMATION_NPCANIMATIONTIMELINEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x6414400)
-#define NPCCROWD_ANIMATION_NPCANIMATIONTIMELINEMANAGER___C__INITZONEDATA_B__22_0_OFFSET UNITYSDK_OFFSET(0x6414410)
+#define NPCCROWD_ANIMATION_NPCANIMATIONTIMELINEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0DA3A0)
+#define NPCCROWD_ANIMATION_NPCANIMATIONTIMELINEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD0DA3E0)
+#define NPCCROWD_ANIMATION_NPCANIMATIONTIMELINEMANAGER___C__INITZONEDATA_B__22_0_OFFSET UNITYSDK_OFFSET(0xD0DA3F0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCAnimationTimelineManager___c_TypeDefinitionIndex = 53056;
+	inline static constexpr unsigned int NPCAnimationTimelineManager___c_TypeDefinitionIndex = 76940;
 
 	class NPCAnimationTimelineManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>** StaticGet___9__22_0()
-		{
-			return (::System::Comparison_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAnimationTimelineManager___c_TypeDefinitionIndex)->GetStaticField(0x326C0);
-		}
 		static ::NPCCrowd::Animation::NPCAnimationTimelineManager___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Animation::NPCAnimationTimelineManager___c**)Il2CppClass::FromTypeDefinitionIndex(NPCAnimationTimelineManager___c_TypeDefinitionIndex)->GetStaticField(0x326C8);
+			return (::NPCCrowd::Animation::NPCAnimationTimelineManager___c**)Il2CppClass::FromTypeDefinitionIndex(NPCAnimationTimelineManager___c_TypeDefinitionIndex)->GetStaticField(0x33040);
+		}
+		static ::System::Comparison_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>** StaticGet___9__22_0()
+		{
+			return (::System::Comparison_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAnimationTimelineManager___c_TypeDefinitionIndex)->GetStaticField(0x33048);
 		}
 
 		static ::System::Void _cctor()

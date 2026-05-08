@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDGICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x91856F0)
+#define MOLEMOLE_CONFIG_CHESSBOARDGICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA3480)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardGIConfig_TypeDefinitionIndex = 72094;
+	inline static constexpr unsigned int ChessboardGIConfig_TypeDefinitionIndex = 48692;
 
 	class ChessboardGIConfig : public ::System::Object
 	{

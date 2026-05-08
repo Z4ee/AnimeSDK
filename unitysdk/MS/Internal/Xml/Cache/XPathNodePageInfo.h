@@ -11,7 +11,7 @@ namespace MS::Internal::Xml::Cache
 	{
 	public:
 		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageNext; // 0x10
-		::System::Int32 pageNum; // 0x18
-		::System::Int32 nodeCount; // 0x1C
+		::System::Int32 nodeCount; // 0x18
+		::System::Int32 pageNum; // 0x1C
 	};
 }

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardUpdateStateMachineParams_StateMachineParamsWrapper_TypeDefinitionIndex = 46877;
+	inline static constexpr unsigned int ChessboardUpdateStateMachineParams_StateMachineParamsWrapper_TypeDefinitionIndex = 65511;
 
 	struct alignas(8) ChessboardUpdateStateMachineParams_StateMachineParamsWrapper
 	{

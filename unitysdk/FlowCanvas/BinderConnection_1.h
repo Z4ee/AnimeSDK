@@ -4,7 +4,7 @@
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int BinderConnection_1_TypeDefinitionIndex = 27375;
+	inline static constexpr unsigned int BinderConnection_1_TypeDefinitionIndex = 28009;
 
 	template <typename T>
 	class BinderConnection_1 : public ::FlowCanvas::BinderConnection

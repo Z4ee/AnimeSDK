@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityBehavioursDefine_TypeDefinitionIndex = 72690;
+	inline static constexpr unsigned int NPCAbilityBehavioursDefine_TypeDefinitionIndex = 46033;
 
 	struct alignas(4) NPCAbilityBehavioursDefine
 	{

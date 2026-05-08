@@ -6,25 +6,25 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_RESETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x9852690)
-#define MOLEMOLE_RESETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x98527C0)
-#define MOLEMOLE_RESETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x98529A0)
-#define MOLEMOLE_RESETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x98529E0)
-#define MOLEMOLE_RESETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x9852A70)
+#define MOLEMOLE_RESETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x117809A0)
+#define MOLEMOLE_RESETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11780AF0)
+#define MOLEMOLE_RESETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x11780CB0)
+#define MOLEMOLE_RESETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11780D50)
+#define MOLEMOLE_RESETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11780DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ResetTargetValue_TypeDefinitionIndex = 52375;
+	inline static constexpr unsigned int ResetTargetValue_TypeDefinitionIndex = 41663;
 
 	class ResetTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::MoleMole::Battle::Entity* ownerEntity; // 0x58
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::System::Boolean ResetSelectTargetValues; // 0x68
-		::System::Boolean ResetAttackerTargetValues; // 0x69
-		::System::Boolean ResetAllDynamicTargetValues; // 0x6A
-		::System::Boolean ResetInRangeTargetValue; // 0x6B
+		::System::Boolean ResetAttackerTargetValues; // 0x68
+		::System::Boolean ResetAllDynamicTargetValues; // 0x69
+		::System::Boolean ResetInRangeTargetValue; // 0x6A
+		::System::Boolean ResetSelectTargetValues; // 0x6B
 
 		::System::Void _ctor()
 		{

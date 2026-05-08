@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ENPCAnimatorRuntimeInstanceDataFlag_TypeDefinitionIndex = 63892;
+	inline static constexpr unsigned int ENPCAnimatorRuntimeInstanceDataFlag_TypeDefinitionIndex = 81016;
 
 	enum class ENPCAnimatorRuntimeInstanceDataFlag : ::System::Byte
 	{
-		IsStarted = 0x2,
 		DrivenByStateMachine = 0x4,
+		IsStarted = 0x2,
 		None = 0x0,
 		Looping = 0x1,
 	};

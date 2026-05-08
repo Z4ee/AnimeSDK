@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelEntitlementsResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CHECKENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1769A5D0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1769A5C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CHECKENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x18DBEEE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBEED0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass16_0_TypeDefinitionIndex = 19014;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass16_0_TypeDefinitionIndex = 19365;
 
 	class HoYoChannelGooglePlay___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::AccountModel* account; // 0x10
-		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x18
+		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x10
+		::MiHoYo::SDK::AccountModel* account; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,7 +5,7 @@ namespace ParadoxNotion::Serialization::FullSerializer { class ISerializationCol
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int ISerializationCollector_TypeDefinitionIndex = 26921;
+	inline static constexpr unsigned int ISerializationCollector_TypeDefinitionIndex = 28167;
 
 	class ISerializationCollector
 	{

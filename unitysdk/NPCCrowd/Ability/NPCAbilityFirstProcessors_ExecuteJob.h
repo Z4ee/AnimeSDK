@@ -5,11 +5,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2F5A50)
+#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x50C270)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFirstProcessors_ExecuteJob_TypeDefinitionIndex = 43726;
+	inline static constexpr unsigned int NPCAbilityFirstProcessors_ExecuteJob_TypeDefinitionIndex = 82033;
 
 	struct alignas(8) NPCAbilityFirstProcessors_ExecuteJob
 	{

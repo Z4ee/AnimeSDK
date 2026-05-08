@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FXColorCorrection_FxScreenLightMode_TypeDefinitionIndex = 29350;
+	inline static constexpr unsigned int FXColorCorrection_FxScreenLightMode_TypeDefinitionIndex = 29869;
 
 	enum class FXColorCorrection_FxScreenLightMode : ::System::Int32
 	{

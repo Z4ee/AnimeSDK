@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_BATTLE_CHARACTERAIWATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F9C10)
+#define MOLEMOLE_BATTLE_CHARACTERAIWATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x139853D0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CharacterAIWatcher_TypeDefinitionIndex = 47552;
+	inline static constexpr unsigned int CharacterAIWatcher_TypeDefinitionIndex = 68215;
 
 	class CharacterAIWatcher : public ::UnityEngine::MonoBehaviour
 	{

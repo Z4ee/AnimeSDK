@@ -7,10 +7,10 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_168094139BE35B1D_METHOD_3_DA93AA6C5355C127_OFFSET UNITYSDK_OFFSET(0x6802EB0)
-#define CLASS_3_168094139BE35B1D__CTOR_OFFSET UNITYSDK_OFFSET(0x6803080)
+#define CLASS_3_168094139BE35B1D_METHOD_3_DA93AA6C5355C127_OFFSET UNITYSDK_OFFSET(0x12C5EFC0)
+#define CLASS_3_168094139BE35B1D__CTOR_OFFSET UNITYSDK_OFFSET(0x12C5F170)
 
-inline static constexpr unsigned int Class_3_168094139BE35B1D_TypeDefinitionIndex = 43769;
+inline static constexpr unsigned int Class_3_168094139BE35B1D_TypeDefinitionIndex = 78497;
 
 class Class_3_168094139BE35B1D : public ::Class_2_427CF9B2137C5720<::System::Collections::Generic::List_1<::Foundation::ViewObject::ViewObjectHandle>*>
 {

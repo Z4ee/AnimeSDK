@@ -7,12 +7,12 @@ namespace MoleMole { class UIHollowShopWidgetChildWindowController; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS66_0__BUYHOLLOWITEM_B__0_OFFSET UNITYSDK_OFFSET(0x9800460)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9800450)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS66_0__BUYHOLLOWITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15FAC8F0)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FAC8E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass66_0_TypeDefinitionIndex = 48602;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass66_0_TypeDefinitionIndex = 51850;
 
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass66_0 : public ::System::Object
 	{

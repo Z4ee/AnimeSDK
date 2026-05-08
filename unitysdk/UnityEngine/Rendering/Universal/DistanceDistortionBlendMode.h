@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DistanceDistortionBlendMode_TypeDefinitionIndex = 29363;
+	inline static constexpr unsigned int DistanceDistortionBlendMode_TypeDefinitionIndex = 29882;
 
 	enum class DistanceDistortionBlendMode : ::System::Int32
 	{

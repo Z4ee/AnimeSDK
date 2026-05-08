@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::UI
 {
-	inline static constexpr unsigned int InputSystemUIInputModule_InputActionReferenceState_TypeDefinitionIndex = 28594;
+	inline static constexpr unsigned int InputSystemUIInputModule_InputActionReferenceState_TypeDefinitionIndex = 29112;
 
 	struct alignas(4) InputSystemUIInputModule_InputActionReferenceState
 	{

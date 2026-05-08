@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB98E630)
-#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB98E640)
-#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB98E840)
-#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB98EA00)
-#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB98E9C0)
+#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1821B5B0)
+#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1821B5C0)
+#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1821B7A0)
+#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1821B940)
+#define MOLEMOLE_GALGAME_MAINCITYMULTICHATNPCENTERACTION_MAINCITYMULTICHATNPCENTERACTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1821B900)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter_TypeDefinitionIndex = 74416;
+	inline static constexpr unsigned int MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter_TypeDefinitionIndex = 40965;
 
 	class MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityMultiChatNPCEnterAction*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::InLevelChatEntitySlot>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::InLevelChatEntitySlot>**)Il2CppClass::FromTypeDefinitionIndex(MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F10);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42F18);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x487C0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::InLevelChatEntitySlot>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::InLevelChatEntitySlot>**)Il2CppClass::FromTypeDefinitionIndex(MainCityMultiChatNPCEnterAction_MainCityMultiChatNPCEnterAction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x487C8);
 		}
 
 		::System::Void _ctor()

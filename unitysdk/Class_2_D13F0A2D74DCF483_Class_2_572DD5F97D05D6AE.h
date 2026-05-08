@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_20.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_18.h"
 
-class Class_2_60DDD9C206686F44;
+class Class_2_B4378B46E0020E85;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE_METHOD_2_A8F6F688241E6DBC_OFFSET UNITYSDK_OFFSET(0x18207CB0)
-#define CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE__CTOR_OFFSET UNITYSDK_OFFSET(0x18207E00)
+#define CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE_METHOD_2_93097B60EF70000E_OFFSET UNITYSDK_OFFSET(0x14E309F0)
+#define CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE__CTOR_OFFSET UNITYSDK_OFFSET(0x14E30C30)
 
-inline static constexpr unsigned int Class_2_D13F0A2D74DCF483_Class_2_572DD5F97D05D6AE_TypeDefinitionIndex = 72157;
+inline static constexpr unsigned int Class_2_D13F0A2D74DCF483_Class_2_572DD5F97D05D6AE_TypeDefinitionIndex = 59348;
 
-class Class_2_D13F0A2D74DCF483_Class_2_572DD5F97D05D6AE : public ::Class_1_43BD383C98B4C0C5_20
+class Class_2_D13F0A2D74DCF483_Class_2_572DD5F97D05D6AE : public ::Class_1_43BD383C98B4C0C5_18
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x10
-	::UnityEngine::Transform* Field_2_1; // 0x18
-	::Class_2_60DDD9C206686F44* Field_2_2; // 0x20
+	::UnityEngine::Transform* Field_2_1; // 0x10
+	::Class_2_B4378B46E0020E85* Field_2_2; // 0x18
+	::UnityEngine::Transform* Field_2_0; // 0x20
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_A8F6F688241E6DBC()
+	::System::Boolean Method_2_93097B60EF70000E()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE_METHOD_2_A8F6F688241E6DBC_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D13F0A2D74DCF483_CLASS_2_572DD5F97D05D6AE_METHOD_2_93097B60EF70000E_OFFSET))(this);
 	}
 };

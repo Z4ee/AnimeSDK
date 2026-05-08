@@ -3,7 +3,7 @@
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EyeKey_TickFrom_TypeDefinitionIndex = 37174;
+	inline static constexpr unsigned int EyeKey_TickFrom_TypeDefinitionIndex = 37718;
 
 	enum class EyeKey_TickFrom : ::System::Byte
 	{

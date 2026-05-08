@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBangbooModGaragePageController___c__DisplayClass16_0; }
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD9A9520)
-#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__ONFAVORITEBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0xD9A9530)
+#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x142CBCC0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__ONFAVORITEBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0x142CBCD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooModGaragePageController___c__DisplayClass16_1_TypeDefinitionIndex = 51473;
+	inline static constexpr unsigned int UIBangbooModGaragePageController___c__DisplayClass16_1_TypeDefinitionIndex = 63153;
 
 	class UIBangbooModGaragePageController___c__DisplayClass16_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralTipsPopWindowController* ctrl; // 0x10
-		::MoleMole::UIBangbooModGaragePageController___c__DisplayClass16_0* CS___8__locals1; // 0x18
+		::MoleMole::UIBangbooModGaragePageController___c__DisplayClass16_0* CS___8__locals1; // 0x10
+		::MoleMole::UIGeneralTipsPopWindowController* ctrl; // 0x18
 
 		::System::Void _ctor()
 		{

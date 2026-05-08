@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Experimental/Rendering/RayTracingAccelerationStructure_ManagementMode.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RayTracingAccelerationStructure_RayTracingModeMask.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RAYTRACINGACCELERATIONSTRUCTURE_RASSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x37EE40)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RAYTRACINGACCELERATIONSTRUCTURE_RASSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3EABD0)
 
 namespace UnityEngine::Experimental::Rendering
 {

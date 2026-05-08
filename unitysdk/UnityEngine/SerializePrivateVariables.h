@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SERIALIZEPRIVATEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4358B0)
+#define UNITYENGINE_SERIALIZEPRIVATEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E63B0)
 
 namespace UnityEngine
 {

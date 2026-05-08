@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_AA4EE15A8D4DB005_4_TypeDefinitionIndex = 83693;
+	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_AA4EE15A8D4DB005_4_TypeDefinitionIndex = 85382;
 
 	struct alignas(4) UISnakeEndingAnimScript_Struct_2_AA4EE15A8D4DB005_4
 	{

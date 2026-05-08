@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PSInfo_NpState_TypeDefinitionIndex = 34513;
+	inline static constexpr unsigned int MHYSDKC_PSInfo_NpState_TypeDefinitionIndex = 35049;
 
 	class MHYSDKC_PSInfo_NpState : public ::System::Object
 	{

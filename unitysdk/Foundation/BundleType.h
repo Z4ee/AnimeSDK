@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BundleType_TypeDefinitionIndex = 7740;
+	inline static constexpr unsigned int BundleType_TypeDefinitionIndex = 8065;
 
 	enum class BundleType : ::System::Byte
 	{

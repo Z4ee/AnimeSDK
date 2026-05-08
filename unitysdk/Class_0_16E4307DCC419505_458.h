@@ -1,11 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_6E1B724B14572104_1.h"
 
-class Class_0_16E4307DCC419505_459;
-namespace UnityEngine { class Camera; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_458_TypeDefinitionIndex = 50748;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_458_TypeDefinitionIndex = 60352;
 
 class Class_0_16E4307DCC419505_458
 {

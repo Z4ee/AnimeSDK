@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_ATTITUDESTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x92E030)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_ATTITUDESTATE_GET_KFORMAT_OFFSET UNITYSDK_OFFSET(0x1A57BFB0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_ATTITUDESTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x9703F0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_ATTITUDESTATE_GET_KFORMAT_OFFSET UNITYSDK_OFFSET(0x1B4ED730)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int AttitudeState_TypeDefinitionIndex = 28717;
+	inline static constexpr unsigned int AttitudeState_TypeDefinitionIndex = 29235;
 
 	struct alignas(4) AttitudeState
 	{

@@ -9,23 +9,23 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_HANDLEANIMATORZONETAGS_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xA397610)
-#define MOLEMOLE_HANDLEANIMATORZONETAGS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA397740)
-#define MOLEMOLE_HANDLEANIMATORZONETAGS__CTOR_OFFSET UNITYSDK_OFFSET(0xA397D40)
-#define MOLEMOLE_HANDLEANIMATORZONETAGS___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xA397D80)
-#define MOLEMOLE_HANDLEANIMATORZONETAGS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA397E10)
+#define MOLEMOLE_HANDLEANIMATORZONETAGS_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x170D6B10)
+#define MOLEMOLE_HANDLEANIMATORZONETAGS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x170D6C60)
+#define MOLEMOLE_HANDLEANIMATORZONETAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x170D72A0)
+#define MOLEMOLE_HANDLEANIMATORZONETAGS___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x170D7330)
+#define MOLEMOLE_HANDLEANIMATORZONETAGS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x170D73C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HandleAnimatorZoneTags_TypeDefinitionIndex = 60679;
+	inline static constexpr unsigned int HandleAnimatorZoneTags_TypeDefinitionIndex = 73044;
 
 	class HandleAnimatorZoneTags : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Il2CppArray<::BehaviorDesigner::Runtime::SharedString*>* SharedZoneTags; // 0x58
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
 		::BehaviorDesigner::Runtime::SharedString* CustomTargetKey; // 0x60
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x70
+		::Il2CppArray<::BehaviorDesigner::Runtime::SharedString*>* SharedZoneTags; // 0x70
 		::MoleMole::HandleAnimatorZoneTags_TagHandleType HandleType; // 0x78
 		::BehaviorDesigner::Runtime::Tasks::Basic::UnityAnimator::EntityTargetType TargetType; // 0x7C
 

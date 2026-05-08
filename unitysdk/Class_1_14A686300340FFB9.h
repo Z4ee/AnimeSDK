@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_14A686300340FFB9_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x64434D0)
-#define CLASS_1_14A686300340FFB9_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x64436D0)
-#define CLASS_1_14A686300340FFB9_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x64433F0)
-#define CLASS_1_14A686300340FFB9__CTOR_OFFSET UNITYSDK_OFFSET(0x6443400)
+#define CLASS_1_14A686300340FFB9_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0xD0AF260)
+#define CLASS_1_14A686300340FFB9_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0xD0AF430)
+#define CLASS_1_14A686300340FFB9_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xD0AF180)
+#define CLASS_1_14A686300340FFB9__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AF190)
 
-inline static constexpr unsigned int Class_1_14A686300340FFB9_TypeDefinitionIndex = 51859;
+inline static constexpr unsigned int Class_1_14A686300340FFB9_TypeDefinitionIndex = 56804;
 
 class Class_1_14A686300340FFB9 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_0; // 0x10
-	::System::Boolean Field_1_2; // 0x14
-	::System::Boolean Field_1_3; // 0x15
-	::System::Boolean Field_1_1; // 0x16
+	::System::Boolean Field_1_1; // 0x10
+	::System::Boolean Field_1_2; // 0x11
+	::System::Boolean Field_1_3; // 0x12
+	::System::Int32 Field_1_0; // 0x14
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3)
 	{

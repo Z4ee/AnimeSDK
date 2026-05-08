@@ -5,20 +5,20 @@
 namespace MoleMole { class UIBabeltowerFightingInfoWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE93DE20)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__ONGO_B__1_OFFSET UNITYSDK_OFFSET(0xE93DE30)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__ONGO_B__2_OFFSET UNITYSDK_OFFSET(0xE93DE50)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__ONGO_B__4_OFFSET UNITYSDK_OFFSET(0xE93DE80)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158B41D0)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__ONGO_B__1_OFFSET UNITYSDK_OFFSET(0x158B41E0)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__ONGO_B__2_OFFSET UNITYSDK_OFFSET(0x158B4200)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGINFOWIDGETCONTROLLER___C__DISPLAYCLASS49_0__ONGO_B__4_OFFSET UNITYSDK_OFFSET(0x158B4230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController___c__DisplayClass49_0_TypeDefinitionIndex = 65879;
+	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController___c__DisplayClass49_0_TypeDefinitionIndex = 41137;
 
 	class UIBabeltowerFightingInfoWidgetController___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* selectAvatars; // 0x10
-		::MoleMole::UIBabeltowerFightingInfoWidgetController* __4__this; // 0x18
+		::MoleMole::UIBabeltowerFightingInfoWidgetController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* selectAvatars; // 0x18
 
 		::System::Void _ctor()
 		{

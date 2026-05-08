@@ -6,24 +6,24 @@
 class Class_1_D7D6091F64F551A7;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD0DD00)
-#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__CLEARSEGMENTFORSWITCH_B__10_0_OFFSET UNITYSDK_OFFSET(0xBD0DD50)
-#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD0DD40)
+#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169D1FA0)
+#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__CLEARSEGMENTFORSWITCH_B__10_0_OFFSET UNITYSDK_OFFSET(0x169D1FF0)
+#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x169D1FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowTimeRewindWidgetWidgetController___c_TypeDefinitionIndex = 55517;
+	inline static constexpr unsigned int UIHollowTimeRewindWidgetWidgetController___c_TypeDefinitionIndex = 54737;
 
 	class UIHollowTimeRewindWidgetWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_D7D6091F64F551A7*, ::Enum_3_0761BC6DC5342529>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::Class_1_D7D6091F64F551A7*, ::Enum_3_0761BC6DC5342529>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowTimeRewindWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40700);
+			return (::System::Func_2<::Class_1_D7D6091F64F551A7*, ::Enum_3_0761BC6DC5342529>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowTimeRewindWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40850);
 		}
 		static ::MoleMole::UIHollowTimeRewindWidgetWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowTimeRewindWidgetWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowTimeRewindWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40708);
+			return (::MoleMole::UIHollowTimeRewindWidgetWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowTimeRewindWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40858);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController_CurrencyCountType_TypeDefinitionIndex = 48598;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController_CurrencyCountType_TypeDefinitionIndex = 51853;
 
 	enum class UIHollowShopWidgetChildWindowController_CurrencyCountType : ::System::Int32
 	{

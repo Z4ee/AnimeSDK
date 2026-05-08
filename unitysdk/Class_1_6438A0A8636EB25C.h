@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_333D68058B10D010.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_677BD2A1DAB39F39;
+class Class_2_208CC9941471731A_524;
+namespace MoleMole { class UICinemaOngoingTipsWidgetController; }
+namespace MoleMole { class UICinemaPlayPageController; }
+namespace System { class Action; }
+
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_134017AC3A2C19AD_OFFSET UNITYSDK_OFFSET(0x141BA150)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x141BAD90)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_32B989397639D246_OFFSET UNITYSDK_OFFSET(0x141BA9C0)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_362CDC19D09E2971_OFFSET UNITYSDK_OFFSET(0x141BA7A0)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x141BA220)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_5ABA59393A92C1A6_OFFSET UNITYSDK_OFFSET(0x141BA330)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_7204FC7FAE611C51_OFFSET UNITYSDK_OFFSET(0x141BAE00)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x141BA280)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_ABCEB622290B4D63_OFFSET UNITYSDK_OFFSET(0x141BA530)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_D67BA7B821EB953C_OFFSET UNITYSDK_OFFSET(0x141BAAF0)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_E67FA6A042436B76_OFFSET UNITYSDK_OFFSET(0x141BA4D0)
+#define CLASS_1_6438A0A8636EB25C_METHOD_1_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0x141BA470)
+#define CLASS_1_6438A0A8636EB25C__CTOR_OFFSET UNITYSDK_OFFSET(0x141BA140)
+
+inline static constexpr unsigned int Class_1_6438A0A8636EB25C_TypeDefinitionIndex = 76372;
+
+class Class_1_6438A0A8636EB25C : public ::System::Object
+{
+public:
+	// static const ::System::Int32 Field_1_7 = 0x1; // 0x0
+	// static const ::System::Int32 Field_1_8 = 0x2; // 0x0
+	::MoleMole::UICinemaPlayPageController* Field_1_0; // 0x10
+	::Class_1_677BD2A1DAB39F39* Field_1_1; // 0x18
+	::System::Action* Field_1_5; // 0x20
+	::MoleMole::UICinemaOngoingTipsWidgetController* Field_1_2; // 0x28
+	::System::Boolean Field_1_6; // 0x30
+	::System::Boolean Field_1_3; // 0x31
+	::System::Boolean Field_1_4; // 0x32
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_134017AC3A2C19AD(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_134017AC3A2C19AD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_5ABA59393A92C1A6(::MoleMole::UICinemaPlayPageController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UICinemaPlayPageController*))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_5ABA59393A92C1A6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E727F9956B5BD78B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_E727F9956B5BD78B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E67FA6A042436B76()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_E67FA6A042436B76_OFFSET))(this);
+	}
+
+	::System::Void Method_1_ABCEB622290B4D63(::Struct_2_333D68058B10D010 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_333D68058B10D010))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_ABCEB622290B4D63_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_362CDC19D09E2971(::Class_2_208CC9941471731A_524* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_524*))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_362CDC19D09E2971_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::MoleMole::UICinemaOngoingTipsWidgetController* Method_1_32B989397639D246()
+	{
+		return ((::MoleMole::UICinemaOngoingTipsWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_32B989397639D246_OFFSET))(this);
+	}
+
+	::System::Void Method_1_D67BA7B821EB953C(::Class_2_208CC9941471731A_524* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_524*))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_D67BA7B821EB953C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_25DEA5C65A602671()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_25DEA5C65A602671_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7204FC7FAE611C51(::Class_2_208CC9941471731A_524* a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_524*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6438A0A8636EB25C_METHOD_1_7204FC7FAE611C51_OFFSET))(this, a1, a2);
+	}
+};

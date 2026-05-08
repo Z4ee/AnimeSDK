@@ -3,7 +3,7 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS_SHELLGUIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1944C800)
+#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS_SHELLGUIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A316310)
 
 namespace System::ComponentModel::Design
 {
@@ -20,15 +20,15 @@ namespace System::ComponentModel::Design
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1200);
 		}
-		static ::System::Guid* StaticGet_VSStandardCommandSet97()
+		static ::System::Guid* StaticGet_GUID_VSTASKCATEGORY_DATADESIGNER()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1210);
 		}
-		static ::System::Guid* StaticGet_GUID_VSTASKCATEGORY_DATADESIGNER()
+		static ::System::Guid* StaticGet_GUID_PropertyBrowserToolWindow()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1220);
 		}
-		static ::System::Guid* StaticGet_GUID_PropertyBrowserToolWindow()
+		static ::System::Guid* StaticGet_VSStandardCommandSet97()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_ShellGuids_TypeDefinitionIndex)->GetStaticField(0x1230);
 		}

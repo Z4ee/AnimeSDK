@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_12.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_6.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1704923342A35604_METHOD_1_3E6AC5C61AF5F9BF_OFFSET UNITYSDK_OFFSET(0xAFEB3D0)
+#define CLASS_1_1704923342A35604_METHOD_1_3E6AC5C61AF5F9BF_OFFSET UNITYSDK_OFFSET(0x10474E90)
 
-inline static constexpr unsigned int Class_1_1704923342A35604_TypeDefinitionIndex = 41369;
+inline static constexpr unsigned int Class_1_1704923342A35604_TypeDefinitionIndex = 47082;
 
 class Class_1_1704923342A35604 : public ::System::Object
 {
 public:
-	static ::System::Boolean Method_1_3E6AC5C61AF5F9BF(::System::Int32 a1, ::Enum_3_4608E37A1B3D374A_12& a2)
+	static ::System::Boolean Method_1_3E6AC5C61AF5F9BF(::System::Int32 a1, ::Enum_3_4608E37A1B3D374A_6& a2)
 	{
-		return ((::System::Boolean(*)(::System::Int32, ::Enum_3_4608E37A1B3D374A_12&))((::PBYTE)hIl2Cpp + CLASS_1_1704923342A35604_METHOD_1_3E6AC5C61AF5F9BF_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::System::Int32, ::Enum_3_4608E37A1B3D374A_6&))((::PBYTE)hIl2Cpp + CLASS_1_1704923342A35604_METHOD_1_3E6AC5C61AF5F9BF_OFFSET))(a1, a2);
 	}
 };

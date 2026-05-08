@@ -16,54 +16,54 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_ATTACHSUBREQUEST_OFFSET UNITYSDK_OFFSET(0x1B465130)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GETTOPPARENTLOADITEM_OFFSET UNITYSDK_OFFSET(0x1B465220)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_ASYNCHANDLE_OFFSET UNITYSDK_OFFSET(0x1B4650F0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_PARENTLOADITEM_OFFSET UNITYSDK_OFFSET(0x1B465200)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_SUBTREELOADDATA_OFFSET UNITYSDK_OFFSET(0x1B465190)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_TAGID_OFFSET UNITYSDK_OFFSET(0x1B465110)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_REFRESH_OFFSET UNITYSDK_OFFSET(0x1B465460)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_RESET_OFFSET UNITYSDK_OFFSET(0x1B465410)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_ASYNCHANDLE_OFFSET UNITYSDK_OFFSET(0x1B465100)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_PARENTLOADITEM_OFFSET UNITYSDK_OFFSET(0x1B465210)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_SUBTREELOADDATA_OFFSET UNITYSDK_OFFSET(0x1B4651A0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_TAGID_OFFSET UNITYSDK_OFFSET(0x1B465120)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4655E0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B465290)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_ATTACHSUBREQUEST_OFFSET UNITYSDK_OFFSET(0x1C2A8400)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GETTOPPARENTLOADITEM_OFFSET UNITYSDK_OFFSET(0x1C2A84F0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_ASYNCHANDLE_OFFSET UNITYSDK_OFFSET(0x1C2A83C0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_PARENTLOADITEM_OFFSET UNITYSDK_OFFSET(0x1C2A84D0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_SUBTREELOADDATA_OFFSET UNITYSDK_OFFSET(0x1C2A8460)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_GET_TAGID_OFFSET UNITYSDK_OFFSET(0x1C2A83E0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_REFRESH_OFFSET UNITYSDK_OFFSET(0x1C2A8760)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_RESET_OFFSET UNITYSDK_OFFSET(0x1C2A8710)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_ASYNCHANDLE_OFFSET UNITYSDK_OFFSET(0x1C2A83D0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_PARENTLOADITEM_OFFSET UNITYSDK_OFFSET(0x1C2A84E0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_SUBTREELOADDATA_OFFSET UNITYSDK_OFFSET(0x1C2A8470)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM_SET_TAGID_OFFSET UNITYSDK_OFFSET(0x1C2A83F0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2A8A50)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A8560)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorAsyncLoadItem_TypeDefinitionIndex = 31141;
+	inline static constexpr unsigned int BehaviorManager_BehaviorAsyncLoadItem_TypeDefinitionIndex = 31670;
 
 	class BehaviorManager_BehaviorAsyncLoadItem : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_s_HandleIDGen()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorAsyncLoadItem_TypeDefinitionIndex)->GetStaticField(0x7C60);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorAsyncLoadItem_TypeDefinitionIndex)->GetStaticField(0x7D00);
 		}
-		::BehaviorDesigner::Runtime::Tasks::GameObjectGetter* Getter; // 0x10
-		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSubTreeLoadData* _subTreeLoadData; // 0x18
-		::BehaviorDesigner::Runtime::Behavior* loadBehavior; // 0x20
-		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree* behaviorTree; // 0x28
-		::System::String* errorString; // 0x30
-		::UnityEngine::Transform* transform; // 0x38
-		::System::Action* ExtraOnTreeReadyCallback; // 0x40
-		::System::String* gameObjectName; // 0x48
-		::UnityEngine::GameObject* gameObject; // 0x50
+		::UnityEngine::Transform* transform; // 0x10
+		::BehaviorDesigner::Runtime::ExternalBehavior* externBehavior; // 0x18
+		::UnityEngine::GameObject* gameObject; // 0x20
+		::System::String* loadAssetName; // 0x28
+		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSubTreeLoadData* _subTreeLoadData; // 0x30
+		::BehaviorDesigner::Runtime::Behavior* loadBehavior; // 0x38
+		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree* behaviorTree; // 0x40
+		::System::Action* ExtraOnTreeReadyCallback; // 0x48
+		::System::String* gameObjectName; // 0x50
 		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::System::UInt32>* SubLoadHandles; // 0x58
 		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem* _ParentLoadItem_k__BackingField; // 0x60
-		::BehaviorDesigner::Runtime::ExternalBehavior* externBehavior; // 0x68
-		::System::Action_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* asyncLoadFinishCallback; // 0x70
-		::System::String* loadAssetName; // 0x78
-		::System::Action_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree*>* OnTreeReadyCallback; // 0x80
-		::System::Int32 StartFrame; // 0x88
-		::System::Single logTime; // 0x8C
+		::System::Action_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree*>* OnTreeReadyCallback; // 0x68
+		::BehaviorDesigner::Runtime::Tasks::GameObjectGetter* Getter; // 0x70
+		::System::String* errorString; // 0x78
+		::System::Action_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* asyncLoadFinishCallback; // 0x80
+		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadMode loadWorkMode; // 0x88
+		::System::Int32 _TagID_k__BackingField; // 0x8C
 		::System::Single startLoadTime; // 0x90
-		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadMode loadWorkMode; // 0x94
-		::System::Int32 _TagID_k__BackingField; // 0x98
+		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSerializeRequestHandle _AsyncHandle_k__BackingField; // 0x94
 		::System::Int32 loadVersion; // 0x9C
-		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorSerializeRequestHandle _AsyncHandle_k__BackingField; // 0xA0
+		::System::Int32 StartFrame; // 0xA0
+		::System::Single logTime; // 0xA4
 
 		::System::Void _ctor(::System::UInt32 entityID, ::BehaviorDesigner::Runtime::Behavior* loadBehavior, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadMode loadWorkMode, ::BehaviorDesigner::Runtime::ExternalBehavior* externalBehavior)
 		{

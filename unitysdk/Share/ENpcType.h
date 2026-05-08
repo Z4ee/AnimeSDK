@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ENpcType_TypeDefinitionIndex = 17857;
+	inline static constexpr unsigned int ENpcType_TypeDefinitionIndex = 15261;
 
 	enum class ENpcType : ::System::Int16
 	{

@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_BUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40B8E0)
+#define UNITYENGINE_TIMELINE_BUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C288F30)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int BubbleInfo_TypeDefinitionIndex = 30223;
+	inline static constexpr unsigned int BubbleInfo_TypeDefinitionIndex = 30752;
 
 	class BubbleInfo : public ::System::Object
 	{

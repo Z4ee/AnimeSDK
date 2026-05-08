@@ -3,10 +3,10 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define EFFECTCASTRECORDER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C78C0)
-#define EFFECTCASTRECORDER___C__DISPLAYCLASS18_0__WRITEFILEIFNEED_B__3_OFFSET UNITYSDK_OFFSET(0xA3C78D0)
+#define EFFECTCASTRECORDER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x135F3A00)
+#define EFFECTCASTRECORDER___C__DISPLAYCLASS18_0__WRITEFILEIFNEED_B__3_OFFSET UNITYSDK_OFFSET(0x135F3A10)
 
-inline static constexpr unsigned int EffectCastRecorder___c__DisplayClass18_0_TypeDefinitionIndex = 67638;
+inline static constexpr unsigned int EffectCastRecorder___c__DisplayClass18_0_TypeDefinitionIndex = 39427;
 
 class EffectCastRecorder___c__DisplayClass18_0 : public ::System::Object
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MONOCHARACTERGIDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED9010)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MONOCHARACTERGIDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36C600)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MonoCharacterGIDebugger_TypeDefinitionIndex = 29524;
+	inline static constexpr unsigned int MonoCharacterGIDebugger_TypeDefinitionIndex = 30052;
 
 	class MonoCharacterGIDebugger : public ::UnityEngine::MonoBehaviour
 	{

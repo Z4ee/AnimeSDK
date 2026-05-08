@@ -9,23 +9,23 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xEC7B5F0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_START_OFFSET UNITYSDK_OFFSET(0xEC7B750)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xEC7BA60)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0xEC7BA80)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18201770)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_START_OFFSET UNITYSDK_OFFSET(0x182018B0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18201BB0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x18201BF0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameEntitySetEffect_TypeDefinitionIndex = 42920;
+	inline static constexpr unsigned int HackerGameEntitySetEffect_TypeDefinitionIndex = 44448;
 
 	class HackerGameEntitySetEffect : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::FlowInput* start; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntity*>* chessEntity; // 0xB8
+		::FlowCanvas::FlowInput* start; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntity*>* chessEntity; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::StatusEffectType>* effectType; // 0xB8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* value; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::StatusEffectType>* effectType; // 0xC8
+		::FlowCanvas::FlowOutput* output; // 0xC8
 
 		::System::Void _ctor()
 		{

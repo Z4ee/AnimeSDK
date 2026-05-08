@@ -6,11 +6,11 @@ namespace MoleMole { class AllEffectParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGGALGAMEEFFECTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0xEC581F0)
+#define MOLEMOLE_CONFIGGALGAMEEFFECTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x181DF950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigGalgameEffectDictionary_TypeDefinitionIndex = 52543;
+	inline static constexpr unsigned int ConfigGalgameEffectDictionary_TypeDefinitionIndex = 55317;
 
 	class ConfigGalgameEffectDictionary : public ::Foundation::MihoyoSerializedScriptableObject
 	{

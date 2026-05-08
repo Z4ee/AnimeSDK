@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ITickFunctionCollector_TypeDefinitionIndex = 8826;
+	inline static constexpr unsigned int ITickFunctionCollector_TypeDefinitionIndex = 9177;
 
 	class ITickFunctionCollector
 	{

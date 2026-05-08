@@ -8,13 +8,13 @@ namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETPLAYER_OFFSET UNITYSDK_OFFSET(0xBA14B10)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETTARGET_OFFSET UNITYSDK_OFFSET(0xBA14C40)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xBA14D70)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETPLAYER_OFFSET UNITYSDK_OFFSET(0x16D49000)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETTARGET_OFFSET UNITYSDK_OFFSET(0x16D490E0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D491E0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCameraParam_TypeDefinitionIndex = 73940;
+	inline static constexpr unsigned int MainCityChatCameraParam_TypeDefinitionIndex = 62327;
 
 	class MainCityChatCameraParam : public ::System::Object
 	{

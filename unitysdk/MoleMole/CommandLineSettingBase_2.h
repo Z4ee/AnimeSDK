@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineSettingBase_2_TypeDefinitionIndex = 71986;
+	inline static constexpr unsigned int CommandLineSettingBase_2_TypeDefinitionIndex = 52993;
 
 	template <typename ProfilerDataCls, typename CMDDataCls>
 	class CommandLineSettingBase_2 : public ::System::Object

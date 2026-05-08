@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_TAGBOOLPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xB98EA80)
+#define MOLEMOLE_GALGAME_TAGBOOLPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1821B9C0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TagBoolPair_TypeDefinitionIndex = 53153;
+	inline static constexpr unsigned int TagBoolPair_TypeDefinitionIndex = 38154;
 
 	class TagBoolPair : public ::System::Object
 	{

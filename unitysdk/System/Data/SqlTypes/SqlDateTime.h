@@ -12,143 +12,143 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x980B50)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_COMPARETO_OFFSET UNITYSDK_OFFSET(0x980B40)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_EQUALS_OFFSET UNITYSDK_OFFSET(0x980B80)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_FROMDATETIME_OFFSET UNITYSDK_OFFSET(0x1AFDEF40)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_FROMTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1AFDF350)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x980B90)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1AFE0330)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_DAYTICKS_OFFSET UNITYSDK_OFFSET(0x9809B0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x3602B0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_TIMETICKS_OFFSET UNITYSDK_OFFSET(0x980A10)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x9809A0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1AFDFA80)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1AFDF9B0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1AFDF830)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1AFDF930)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1AFDF650)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1AFDF8B0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x2F75F0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x980BC0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x980BD0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_TODATETIME_OFFSET UNITYSDK_OFFSET(0x1AFDF1E0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x980A70)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_TOTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1AFDF150)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFE03B0)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x980870)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CTOR_2_OFFSET UNITYSDK_OFFSET(0x980990)
-#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x980860)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x9B3D20)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_COMPARETO_OFFSET UNITYSDK_OFFSET(0x9B3D10)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B3D50)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_FROMDATETIME_OFFSET UNITYSDK_OFFSET(0x1BD5C330)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_FROMTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1BD5C770)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9B3D60)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1BD5D710)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_DAYTICKS_OFFSET UNITYSDK_OFFSET(0x9B3B50)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x74E200)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_TIMETICKS_OFFSET UNITYSDK_OFFSET(0x9B3BB0)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x9B3B40)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1BD5CED0)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1BD5CE00)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BD5CC80)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1BD5CD80)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BD5CA70)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1BD5CD00)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x304470)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x9B3D90)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x9B3DA0)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_TODATETIME_OFFSET UNITYSDK_OFFSET(0x1BD5C5D0)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9B3C10)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME_TOTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1BD5C540)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D790)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9B3A10)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CTOR_2_OFFSET UNITYSDK_OFFSET(0x9B3B30)
+#define SYSTEM_DATA_SQLTYPES_SQLDATETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x9B3A00)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlDateTime_TypeDefinitionIndex = 36555;
+	inline static constexpr unsigned int SqlDateTime_TypeDefinitionIndex = 37099;
 
 	struct alignas(4) SqlDateTime
 	{
-		static ::System::String** StaticGet_s_ISO8601_DateTimeFormat()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x268A0);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_daysToMonth365()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x268A8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x27450);
+		}
+		static ::System::String** StaticGet_s_ISO8601_DateTimeFormat()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x27458);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_dateTimeFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x268B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x27460);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_daysToMonth366()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x268B8);
-		}
-		static ::System::Int32* StaticGet_s_minYear()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8B90);
-		}
-		static ::System::Int32* StaticGet_s_minTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8B94);
-		}
-		static ::System::TimeSpan* StaticGet_s_minTimeSpan()
-		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8B98);
-		}
-		static ::System::DateTime* StaticGet_s_maxDateTime()
-		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BA0);
-		}
-		static ::System::Int32* StaticGet_s_SQLTicksPerDay()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BA8);
-		}
-		static ::System::Data::SqlTypes::SqlDateTime* StaticGet_Null()
-		{
-			return (::System::Data::SqlTypes::SqlDateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BAC);
-		}
-		static ::System::Int32* StaticGet_SQLTicksPerSecond()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BB8);
-		}
-		static ::System::Int32* StaticGet_s_maxYear()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BBC);
-		}
-		static ::System::Int64* StaticGet_s_SQLBaseDateTicks()
-		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BC0);
-		}
-		static ::System::TimeSpan* StaticGet_s_maxTimeSpan()
-		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BC8);
-		}
-		static ::System::Int32* StaticGet_SQLTicksPerHour()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BD0);
-		}
-		static ::System::Int32* StaticGet_s_minDay()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BD4);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x27468);
 		}
 		static ::System::Int64* StaticGet_s_ticksPerSecond()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BD8);
-		}
-		static ::System::DateTime* StaticGet_s_minDateTime()
-		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BE0);
-		}
-		static ::System::Double* StaticGet_s_SQLTicksPerMillisecond()
-		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BE8);
-		}
-		static ::System::DateTime* StaticGet_s_SQLBaseDate()
-		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BF0);
-		}
-		static ::System::Int32* StaticGet_s_dayBase()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BF8);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C60);
 		}
 		static ::System::Int32* StaticGet_s_maxTime()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8BFC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C68);
 		}
-		static ::System::Int32* StaticGet_s_maxDay()
+		static ::System::Int32* StaticGet_s_minDay()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C00);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C6C);
 		}
-		static ::System::Data::SqlTypes::SqlDateTime* StaticGet_MaxValue()
+		static ::System::Int32* StaticGet_s_SQLTicksPerDay()
 		{
-			return (::System::Data::SqlTypes::SqlDateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C04);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C70);
 		}
-		static ::System::Data::SqlTypes::SqlDateTime* StaticGet_MinValue()
+		static ::System::Int32* StaticGet_SQLTicksPerHour()
 		{
-			return (::System::Data::SqlTypes::SqlDateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C10);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C74);
 		}
 		static ::System::Int32* StaticGet_SQLTicksPerMinute()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C1C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C78);
+		}
+		static ::System::Data::SqlTypes::SqlDateTime* StaticGet_Null()
+		{
+			return (::System::Data::SqlTypes::SqlDateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C7C);
+		}
+		static ::System::Double* StaticGet_s_SQLTicksPerMillisecond()
+		{
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C88);
+		}
+		static ::System::TimeSpan* StaticGet_s_maxTimeSpan()
+		{
+			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C90);
+		}
+		static ::System::DateTime* StaticGet_s_maxDateTime()
+		{
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8C98);
+		}
+		static ::System::DateTime* StaticGet_s_minDateTime()
+		{
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CA0);
+		}
+		static ::System::Int64* StaticGet_s_SQLBaseDateTicks()
+		{
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CA8);
+		}
+		static ::System::Int32* StaticGet_s_minTime()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CB0);
+		}
+		static ::System::Int32* StaticGet_s_dayBase()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CB4);
+		}
+		static ::System::Data::SqlTypes::SqlDateTime* StaticGet_MinValue()
+		{
+			return (::System::Data::SqlTypes::SqlDateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CB8);
+		}
+		static ::System::Int32* StaticGet_SQLTicksPerSecond()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CC4);
+		}
+		static ::System::TimeSpan* StaticGet_s_minTimeSpan()
+		{
+			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CC8);
+		}
+		static ::System::Int32* StaticGet_s_maxYear()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CD0);
+		}
+		static ::System::Int32* StaticGet_s_maxDay()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CD4);
+		}
+		static ::System::DateTime* StaticGet_s_SQLBaseDate()
+		{
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CD8);
+		}
+		static ::System::Int32* StaticGet_s_minYear()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CE0);
+		}
+		static ::System::Data::SqlTypes::SqlDateTime* StaticGet_MaxValue()
+		{
+			return (::System::Data::SqlTypes::SqlDateTime*)Il2CppClass::FromTypeDefinitionIndex(SqlDateTime_TypeDefinitionIndex)->GetStaticField(0x8CE4);
 		}
 		::System::Boolean m_fNotNull; // 0x10
 		::System::Int32 m_day; // 0x14

@@ -10,34 +10,34 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xACC9090)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xACC90A0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xACC9410)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xACC9680)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xACC9640)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1753A770)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1753A780)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1753AAD0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1753AD20)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTRTPC_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1753ACE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex = 41960;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex = 77346;
 
 	class ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundActionTriggerCondition_ObjectRTPC*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39080);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionTriggerCondition_ObjectRTPC_RtpccompareOp>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionTriggerCondition_ObjectRTPC_RtpccompareOp>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39088);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionTriggerCondition_ObjectRTPC_RtpccompareOp>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A2C0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39090);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A2C8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39098);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A2D0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundActionTriggerCondition_ObjectRTPC_ConfigSoundActionTriggerCondition_ObjectRTPC_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A2D8);
 		}
 
 		::System::Void _ctor()

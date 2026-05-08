@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LOCALAPPCONTEXTSWITCHES__CCTOR_OFFSET UNITYSDK_OFFSET(0x188F0340)
+#define SYSTEM_LOCALAPPCONTEXTSWITCHES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1921D240)
 
 namespace System
 {

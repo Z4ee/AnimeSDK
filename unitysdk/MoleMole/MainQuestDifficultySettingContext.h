@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/MainQuestDifficultyLevel.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_MAINQUESTDIFFICULTYSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x7A7CD10)
+#define MOLEMOLE_MAINQUESTDIFFICULTYSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12347170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MainQuestDifficultySettingContext_TypeDefinitionIndex = 60564;
+	inline static constexpr unsigned int MainQuestDifficultySettingContext_TypeDefinitionIndex = 60132;
 
 	class MainQuestDifficultySettingContext : public ::MoleMole::SystemSettingContextBase
 	{

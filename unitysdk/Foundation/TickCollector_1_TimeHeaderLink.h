@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_TimeHeaderLink_TypeDefinitionIndex = 8853;
+	inline static constexpr unsigned int TickCollector_1_TimeHeaderLink_TypeDefinitionIndex = 8805;
 
 	template <typename TTickingGroup>
 	struct TickCollector_1_TimeHeaderLink

@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF77350)
-#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAF77390)
-#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER___C__ONCLICKINVITECALLBACK_B__13_1_OFFSET UNITYSDK_OFFSET(0xAF773A0)
+#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC2B00)
+#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC2B40)
+#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER___C__ONCLICKINVITECALLBACK_B__13_1_OFFSET UNITYSDK_OFFSET(0x15DC2B50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMarcelFriendCardRowWidgetController___c_TypeDefinitionIndex = 68185;
+	inline static constexpr unsigned int UIMarcelFriendCardRowWidgetController___c_TypeDefinitionIndex = 56937;
 
 	class UIMarcelFriendCardRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIMarcelFriendCardRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMarcelFriendCardRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34730);
+			return (::MoleMole::UIMarcelFriendCardRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35250);
 		}
 		static ::System::Action_2<::System::Int32, ::System::Int32>** StaticGet___9__13_1()
 		{
-			return (::System::Action_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34738);
+			return (::System::Action_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelFriendCardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35258);
 		}
 
 		static ::System::Void _cctor()

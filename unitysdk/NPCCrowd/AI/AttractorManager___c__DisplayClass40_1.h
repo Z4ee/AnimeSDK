@@ -5,12 +5,12 @@
 namespace NPCCrowd::AI { class AttractorManager___c__DisplayClass40_0; }
 namespace NPCCrowd::AI { class AttractorRuntime; }
 
-#define NPCCROWD_AI_ATTRACTORMANAGER___C__DISPLAYCLASS40_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8559270)
-#define NPCCROWD_AI_ATTRACTORMANAGER___C__DISPLAYCLASS40_1__INITHANDLECONFLICT_B__0_OFFSET UNITYSDK_OFFSET(0x8559280)
+#define NPCCROWD_AI_ATTRACTORMANAGER___C__DISPLAYCLASS40_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD226F60)
+#define NPCCROWD_AI_ATTRACTORMANAGER___C__DISPLAYCLASS40_1__INITHANDLECONFLICT_B__0_OFFSET UNITYSDK_OFFSET(0xD226F70)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorManager___c__DisplayClass40_1_TypeDefinitionIndex = 55383;
+	inline static constexpr unsigned int AttractorManager___c__DisplayClass40_1_TypeDefinitionIndex = 74668;
 
 	class AttractorManager___c__DisplayClass40_1 : public ::System::Object
 	{

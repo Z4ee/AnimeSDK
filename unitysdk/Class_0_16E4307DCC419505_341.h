@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7F3F4476896DB547.h"
 
-class Class_1_A0B58236B258B7B2;
-namespace MoleMole { class MonoRenderHandler; }
+class Class_0_16E4307DCC419505_167;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_341_TypeDefinitionIndex = 43996;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_341_TypeDefinitionIndex = 45130;
 
 class Class_0_16E4307DCC419505_341
 {

@@ -16,11 +16,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICINEMA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0ADB90)
+#define MOLEMOLE_CONFIGUICINEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1103EBE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICinema_TypeDefinitionIndex = 37421;
+	inline static constexpr unsigned int ConfigUICinema_TypeDefinitionIndex = 81784;
 
 	class ConfigUICinema : public ::Foundation::MihoyoSerializedScriptableObject
 	{

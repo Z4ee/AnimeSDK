@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_REGIONSWITCHFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0xB1BD5E0)
+#define MOLEMOLE_REGIONSWITCHFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x10BE7520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RegionSwitchFunc_TypeDefinitionIndex = 60950;
+	inline static constexpr unsigned int RegionSwitchFunc_TypeDefinitionIndex = 71282;
 
 	class RegionSwitchFunc : public ::System::Object
 	{
@@ -71,10 +71,11 @@ namespace MoleMole
 		::System::Int32 Disable_Delete_Redundant_Res; // 0xF4
 		::System::Int32 Disable_Packages_Manage; // 0xF8
 		::System::Int32 Enable_PC_Packages_Manage; // 0xFC
-		::System::Int32 Enable_Products_Cache; // 0x100
-		::System::Int32 Disable_Report_RootSize; // 0x104
-		::System::Int32 Force_Console_AllLangAudio; // 0x108
-		::System::Int32 Show_CloudGameEntrance; // 0x10C
+		::System::Int32 Enable_Base_Packages_Manage; // 0x100
+		::System::Int32 Enable_Products_Cache; // 0x104
+		::System::Int32 Disable_Report_RootSize; // 0x108
+		::System::Int32 Force_Console_AllLangAudio; // 0x10C
+		::System::Int32 Show_CloudGameEntrance; // 0x110
 
 		::System::Void _ctor()
 		{

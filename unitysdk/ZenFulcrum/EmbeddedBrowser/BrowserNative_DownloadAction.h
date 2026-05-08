@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_DownloadAction_TypeDefinitionIndex = 30489;
+	inline static constexpr unsigned int BrowserNative_DownloadAction_TypeDefinitionIndex = 31018;
 
 	enum class BrowserNative_DownloadAction : ::System::Int32
 	{

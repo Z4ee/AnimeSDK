@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-inline static constexpr unsigned int Class_1_E413DC13E1674C07_TypeDefinitionIndex = 54489;
+inline static constexpr unsigned int Class_1_E413DC13E1674C07_TypeDefinitionIndex = 50384;
 
 template <typename TKey, typename TValue>
 class Class_1_E413DC13E1674C07 : public ::System::Object

@@ -6,7 +6,7 @@ namespace MoleMole::EffectSimulate { class Vector401KeyframeCurve; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int Vector401KeyframeCurve_Struct_2_38C62D43D5BBA5B1_TypeDefinitionIndex = 73066;
+	inline static constexpr unsigned int Vector401KeyframeCurve_Struct_2_38C62D43D5BBA5B1_TypeDefinitionIndex = 58505;
 
 	struct alignas(8) Vector401KeyframeCurve_Struct_2_38C62D43D5BBA5B1
 	{

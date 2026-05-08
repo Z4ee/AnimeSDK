@@ -7,11 +7,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CONFIGFEATURETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x9D17970)
+#define MOLEMOLE_CONFIGFEATURETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1231BD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigFeatureTarget_TypeDefinitionIndex = 66173;
+	inline static constexpr unsigned int ConfigFeatureTarget_TypeDefinitionIndex = 64250;
 
 	class ConfigFeatureTarget : public ::System::Object
 	{

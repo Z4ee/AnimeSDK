@@ -3,28 +3,28 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_1AF3C5BF111F3525;
-class Class_1_571902F418F29BB4;
+class Class_1_E398E2F4402CE967;
 namespace MoleMole { class UISurveyPointsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAF8F70)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0xAAF8F80)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0xAAF9400)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0xAAF91D0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C29020)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x14C29030)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0x14C294B0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x14C29280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 70923;
+	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 74129;
 
 	class UISurveyPointsWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISurveyPointsWidgetController* __4__this; // 0x10
-		::Class_1_1AF3C5BF111F3525* viewdata; // 0x18
-		::Class_1_571902F418F29BB4* data; // 0x20
-		::System::Action* __9__6; // 0x28
-		::System::Single timer; // 0x30
-		::System::Int32 newLevel; // 0x34
+		::System::Action* __9__6; // 0x18
+		::Class_1_1AF3C5BF111F3525* viewdata; // 0x20
+		::Class_1_E398E2F4402CE967* data; // 0x28
+		::System::Int32 newLevel; // 0x30
+		::System::Single timer; // 0x34
 
 		::System::Void _ctor()
 		{

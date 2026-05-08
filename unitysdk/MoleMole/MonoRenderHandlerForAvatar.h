@@ -17,7 +17,7 @@
 class Class_1_8019128448F0E9D5;
 class Class_1_9610394F487FC231;
 class Class_1_A0B58236B258B7B2;
-namespace MoleMole { class MonoRenderHandlerForAvatar_Class_1_E54BA21CBF653C4D; }
+namespace MoleMole { class MonoRenderHandlerForAvatar_Class_1_E31A828FD7691185; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -26,248 +26,249 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_FORCEUPDATEFXCLIP_OFFSET UNITYSDK_OFFSET(0xB856B80)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_INVALIDATEUPDATESWITCHCACHE_OFFSET UNITYSDK_OFFSET(0xB856B10)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_2FBA3D05C069B62E_OFFSET UNITYSDK_OFFSET(0xB860D70)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_34FCC3BBBC925A82_OFFSET UNITYSDK_OFFSET(0xB860420)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_36971FC3F16E2CEB_OFFSET UNITYSDK_OFFSET(0xB8580C0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4A001F27E8ECB274_OFFSET UNITYSDK_OFFSET(0xB856780)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4D8DE63ACD68BAC3_OFFSET UNITYSDK_OFFSET(0xB854180)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4D9CF8B767C64CC8_OFFSET UNITYSDK_OFFSET(0xB855A50)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_5D5F16A6230C8F33_OFFSET UNITYSDK_OFFSET(0xB860290)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6C1C4CBB2C90871C_OFFSET UNITYSDK_OFFSET(0xB850210)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6D3FB7CC639EF394_OFFSET UNITYSDK_OFFSET(0xB8530E0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_77E3CF907BA6F8B7_OFFSET UNITYSDK_OFFSET(0xB850720)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_7F349DA94A1B78DF_OFFSET UNITYSDK_OFFSET(0xB852110)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_82B605ACB448F4B0_OFFSET UNITYSDK_OFFSET(0xB854B50)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_83D69C60802E274D_OFFSET UNITYSDK_OFFSET(0xB850820)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_96B03403C56455CD_OFFSET UNITYSDK_OFFSET(0xB857A40)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_9D8CB5E47C1952BD_OFFSET UNITYSDK_OFFSET(0xB850300)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_A476CAA54063C150_OFFSET UNITYSDK_OFFSET(0xB853660)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xB858000)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_CC6DB8EC922ACB38_OFFSET UNITYSDK_OFFSET(0xB857070)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_D41D7B87AEBE6BD0_OFFSET UNITYSDK_OFFSET(0xB852CD0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E12043F46AB48C94_OFFSET UNITYSDK_OFFSET(0xB857580)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E9D90F1C7434F23D_OFFSET UNITYSDK_OFFSET(0xB854890)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_F38D8B4A37B7184A_OFFSET UNITYSDK_OFFSET(0xB856430)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB856DE0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_REVERTSHADER_OFFSET UNITYSDK_OFFSET(0xB856E90)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETFXUNCLIPKEYWORDSFORCUTSCENETIMELINE_OFFSET UNITYSDK_OFFSET(0xB857670)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETFXUNCLIPKEYWORDS_OFFSET UNITYSDK_OFFSET(0xB8572A0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETUPALLMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0xB84FD40)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETUPANDSTARTMATPROPERTIESPATTERN_OFFSET UNITYSDK_OFFSET(0xB8579D0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYCREATEMATERIALMODIFIERINSTANCE_OFFSET UNITYSDK_OFFSET(0xB8507B0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_1_OFFSET UNITYSDK_OFFSET(0xB852C50)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_2_OFFSET UNITYSDK_OFFSET(0xB853060)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_3_OFFSET UNITYSDK_OFFSET(0xB8535E0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_4_OFFSET UNITYSDK_OFFSET(0xB854100)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_5_OFFSET UNITYSDK_OFFSET(0xB854730)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_6_OFFSET UNITYSDK_OFFSET(0xB8547B0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_OFFSET UNITYSDK_OFFSET(0xB852090)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_UPDATECOMMONSWITCH_OFFSET UNITYSDK_OFFSET(0xB854930)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0xB85CF70)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xB858C40)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_DOONDESTROY_OFFSET UNITYSDK_OFFSET(0xB85FC90)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB85FCA0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_SETUPALLDEFAULTMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0xB85FD00)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_SETUPALLMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0xB85FD60)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_SETUPANDSTARTMATPROPERTIESPATTERN_OFFSET UNITYSDK_OFFSET(0xB85FDC0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYCREATEMATERIALMODIFIERINSTANCE_OFFSET UNITYSDK_OFFSET(0xB85FE30)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_1_OFFSET UNITYSDK_OFFSET(0xB85FF20)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_2_OFFSET UNITYSDK_OFFSET(0xB85FFA0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_3_OFFSET UNITYSDK_OFFSET(0xB860020)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_4_OFFSET UNITYSDK_OFFSET(0xB8600B0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_5_OFFSET UNITYSDK_OFFSET(0xB860130)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_6_OFFSET UNITYSDK_OFFSET(0xB8601B0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_OFFSET UNITYSDK_OFFSET(0xB85FEA0)
-#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_UPDATECOMMONSWITCH_OFFSET UNITYSDK_OFFSET(0xB860230)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_FORCEUPDATEDITHERFXCLIP_OFFSET UNITYSDK_OFFSET(0x178304D0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_FORCEUPDATEFXCLIP_OFFSET UNITYSDK_OFFSET(0x178301C0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_INVALIDATEUPDATESWITCHCACHE_OFFSET UNITYSDK_OFFSET(0x17830160)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_36971FC3F16E2CEB_OFFSET UNITYSDK_OFFSET(0x178319D0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_3E5E39D0D3E9B5CD_OFFSET UNITYSDK_OFFSET(0x1782ED60)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4D8DE63ACD68BAC3_OFFSET UNITYSDK_OFFSET(0x1782D200)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_515C5D9412196CB3_OFFSET UNITYSDK_OFFSET(0x1782FD50)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_5D5F16A6230C8F33_OFFSET UNITYSDK_OFFSET(0x1783AFB0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_62A845E20C4260F0_OFFSET UNITYSDK_OFFSET(0x1783A3E0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6D3FB7CC639EF394_OFFSET UNITYSDK_OFFSET(0x1782C1E0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6EFB9FF221105F53_OFFSET UNITYSDK_OFFSET(0x1782F980)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_77E3CF907BA6F8B7_OFFSET UNITYSDK_OFFSET(0x17829920)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_7F349DA94A1B78DF_OFFSET UNITYSDK_OFFSET(0x1782B290)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_8028CA7CF379A879_OFFSET UNITYSDK_OFFSET(0x1782DC30)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_83D69C60802E274D_OFFSET UNITYSDK_OFFSET(0x178299E0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_93C64601FA6F7E9D_OFFSET UNITYSDK_OFFSET(0x17839A60)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_96B03403C56455CD_OFFSET UNITYSDK_OFFSET(0x17831390)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_9D8CB5E47C1952BD_OFFSET UNITYSDK_OFFSET(0x17829630)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_A476CAA54063C150_OFFSET UNITYSDK_OFFSET(0x1782C720)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0x17831930)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_C0940C3855FBCBCA_OFFSET UNITYSDK_OFFSET(0x17830A70)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_D41D7B87AEBE6BD0_OFFSET UNITYSDK_OFFSET(0x1782BE10)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_D624E2057E4C2061_OFFSET UNITYSDK_OFFSET(0x17829510)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E12043F46AB48C94_OFFSET UNITYSDK_OFFSET(0x17830F40)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E9D90F1C7434F23D_OFFSET UNITYSDK_OFFSET(0x1782D890)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17830800)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_REVERTSHADER_OFFSET UNITYSDK_OFFSET(0x17830850)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETFXUNCLIPKEYWORDSFORCUTSCENETIMELINE_OFFSET UNITYSDK_OFFSET(0x17831000)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETFXUNCLIPKEYWORDS_OFFSET UNITYSDK_OFFSET(0x17830C60)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETUPALLMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0x17829040)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_SETUPANDSTARTMATPROPERTIESPATTERN_OFFSET UNITYSDK_OFFSET(0x17831340)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYCREATEMATERIALMODIFIERINSTANCE_OFFSET UNITYSDK_OFFSET(0x17829990)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_1_OFFSET UNITYSDK_OFFSET(0x1782BDB0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_2_OFFSET UNITYSDK_OFFSET(0x1782C180)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_3_OFFSET UNITYSDK_OFFSET(0x1782C6C0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_4_OFFSET UNITYSDK_OFFSET(0x1782D1A0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_5_OFFSET UNITYSDK_OFFSET(0x1782D790)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_6_OFFSET UNITYSDK_OFFSET(0x1782D7F0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_TRYGETMATERIALMODIFIER_OFFSET UNITYSDK_OFFSET(0x1782B230)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR_UPDATECOMMONSWITCH_OFFSET UNITYSDK_OFFSET(0x1782D910)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x178368A0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x17832540)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_DOONDESTROY_OFFSET UNITYSDK_OFFSET(0x178392B0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x178392C0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_SETUPALLDEFAULTMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0x178392D0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_SETUPALLMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0x17839360)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_SETUPANDSTARTMATPROPERTIESPATTERN_OFFSET UNITYSDK_OFFSET(0x178393F0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYCREATEMATERIALMODIFIERINSTANCE_OFFSET UNITYSDK_OFFSET(0x17839480)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_1_OFFSET UNITYSDK_OFFSET(0x178395C0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_2_OFFSET UNITYSDK_OFFSET(0x17839670)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_3_OFFSET UNITYSDK_OFFSET(0x17839720)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_4_OFFSET UNITYSDK_OFFSET(0x178397D0)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_5_OFFSET UNITYSDK_OFFSET(0x17839880)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_6_OFFSET UNITYSDK_OFFSET(0x17839920)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_TRYGETMATERIALMODIFIER_OFFSET UNITYSDK_OFFSET(0x17839510)
+#define MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_UPDATECOMMONSWITCH_OFFSET UNITYSDK_OFFSET(0x178399D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRenderHandlerForAvatar_TypeDefinitionIndex = 66664;
+	inline static constexpr unsigned int MonoRenderHandlerForAvatar_TypeDefinitionIndex = 79424;
 
 	class MonoRenderHandlerForAvatar : public ::MoleMole::MonoRenderHandler
 	{
 	public:
-		static ::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Struct_2_E6333E5B8A276D86>** StaticGet_Field_6_325()
+		static ::Il2CppArray<::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Class_1_E31A828FD7691185*>*>** StaticGet_Field_6_327()
 		{
-			return (::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Struct_2_E6333E5B8A276D86>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x45140);
+			return (::Il2CppArray<::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Class_1_E31A828FD7691185*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x447F0);
 		}
-		static ::Il2CppArray<::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Class_1_E54BA21CBF653C4D*>*>** StaticGet_Field_6_326()
+		static ::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Struct_2_E6333E5B8A276D86>** StaticGet_Field_6_326()
 		{
-			return (::Il2CppArray<::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Class_1_E54BA21CBF653C4D*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x45148);
+			return (::Il2CppArray<::MoleMole::MonoRenderHandlerForAvatar_Struct_2_E6333E5B8A276D86>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x447F8);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_Field_6_324()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_Field_6_325()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x45150);
-		}
-		static ::System::Int32* StaticGet_Field_6_297()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FD0);
-		}
-		static ::System::Int32* StaticGet_Field_6_288()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FD4);
-		}
-		static ::System::Int32* StaticGet_Field_6_301()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FD8);
-		}
-		static ::System::Int32* StaticGet_Field_6_300()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FDC);
-		}
-		static ::System::UInt32* StaticGet_Field_6_311()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FE0);
-		}
-		static ::System::UInt32* StaticGet_Field_6_312()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FE4);
-		}
-		static ::System::Int32* StaticGet_Field_6_286()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FE8);
-		}
-		static ::System::Int32* StaticGet_Field_6_302()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FEC);
-		}
-		static ::System::Int32* StaticGet_Field_6_291()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FF0);
-		}
-		static ::System::UInt32* StaticGet_Field_6_313()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FF4);
-		}
-		static ::System::Int32* StaticGet_Field_6_289()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FF8);
-		}
-		static ::System::UInt32* StaticGet_Field_6_303()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10FFC);
-		}
-		static ::System::UInt32* StaticGet_Field_6_308()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11000);
-		}
-		static ::System::UInt32* StaticGet_Field_6_310()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11004);
-		}
-		static ::System::Int32* StaticGet_Field_6_294()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11008);
-		}
-		static ::System::Int32* StaticGet_Field_6_282()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1100C);
-		}
-		static ::System::UInt32* StaticGet_Field_6_307()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11010);
-		}
-		static ::System::Int32* StaticGet_Field_6_295()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11014);
-		}
-		static ::System::UInt32* StaticGet_Field_6_314()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11018);
-		}
-		static ::System::UInt32* StaticGet_Field_6_318()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1101C);
-		}
-		static ::System::Int32* StaticGet_Field_6_293()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11020);
-		}
-		static ::System::Int32* StaticGet_Field_6_284()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11024);
-		}
-		static ::System::Int32* StaticGet_Field_6_299()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11028);
-		}
-		static ::System::Int32* StaticGet_Field_6_290()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1102C);
-		}
-		static ::System::UInt32* StaticGet_Field_6_316()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11030);
-		}
-		static ::System::UInt32* StaticGet_Field_6_315()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11034);
-		}
-		static ::System::UInt32* StaticGet_Field_6_320()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11038);
-		}
-		static ::System::UInt32* StaticGet_Field_6_304()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1103C);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x44800);
 		}
 		static ::System::UInt32* StaticGet_Field_6_321()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11040);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10550);
 		}
-		static ::System::UInt32* StaticGet_Field_6_305()
+		static ::System::Int32* StaticGet_Field_6_303()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11044);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10554);
 		}
-		static ::System::UInt32* StaticGet_Field_6_322()
+		static ::System::Int32* StaticGet_Field_6_288()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11048);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10558);
 		}
-		static ::System::Int32* StaticGet_Field_6_287()
+		static ::System::UInt32* StaticGet_Field_6_314()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1104C);
-		}
-		static ::System::Int32* StaticGet_Field_6_285()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11050);
-		}
-		static ::System::Int32* StaticGet_Field_6_292()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11054);
-		}
-		static ::System::UInt32* StaticGet_Field_6_309()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11058);
-		}
-		static ::System::UInt32* StaticGet_Field_6_317()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1105C);
-		}
-		static ::System::UInt32* StaticGet_Field_6_306()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11060);
-		}
-		static ::System::Int32* StaticGet_Field_6_283()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11064);
-		}
-		static ::System::Int32* StaticGet_Field_6_296()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11068);
-		}
-		static ::System::UInt32* StaticGet_Field_6_319()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1106C);
-		}
-		static ::System::UInt32* StaticGet_Field_6_323()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11070);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1055C);
 		}
 		static ::System::Int32* StaticGet_Field_6_298()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x11074);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10560);
+		}
+		static ::System::Int32* StaticGet_Field_6_301()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10564);
+		}
+		static ::System::Int32* StaticGet_Field_6_289()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10568);
+		}
+		static ::System::UInt32* StaticGet_Field_6_315()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1056C);
+		}
+		static ::System::UInt32* StaticGet_Field_6_320()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10570);
+		}
+		static ::System::UInt32* StaticGet_Field_6_304()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10574);
+		}
+		static ::System::UInt32* StaticGet_Field_6_311()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10578);
+		}
+		static ::System::UInt32* StaticGet_Field_6_318()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1057C);
+		}
+		static ::System::Int32* StaticGet_Field_6_291()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10580);
+		}
+		static ::System::Int32* StaticGet_Field_6_290()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10584);
+		}
+		static ::System::UInt32* StaticGet_Field_6_308()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10588);
+		}
+		static ::System::Int32* StaticGet_Field_6_287()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1058C);
+		}
+		static ::System::UInt32* StaticGet_Field_6_305()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10590);
+		}
+		static ::System::Int32* StaticGet_Field_6_283()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10594);
+		}
+		static ::System::UInt32* StaticGet_Field_6_323()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x10598);
+		}
+		static ::System::Int32* StaticGet_Field_6_299()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x1059C);
+		}
+		static ::System::Int32* StaticGet_Field_6_302()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105A0);
+		}
+		static ::System::Int32* StaticGet_Field_6_295()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105A4);
+		}
+		static ::System::UInt32* StaticGet_Field_6_322()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105A8);
+		}
+		static ::System::UInt32* StaticGet_Field_6_310()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105AC);
+		}
+		static ::System::UInt32* StaticGet_Field_6_316()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105B0);
+		}
+		static ::System::UInt32* StaticGet_Field_6_307()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105B4);
+		}
+		static ::System::UInt32* StaticGet_Field_6_319()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105B8);
+		}
+		static ::System::Int32* StaticGet_Field_6_294()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105BC);
+		}
+		static ::System::Int32* StaticGet_Field_6_296()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105C0);
+		}
+		static ::System::Int32* StaticGet_Field_6_300()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105C4);
+		}
+		static ::System::Int32* StaticGet_Field_6_284()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105C8);
+		}
+		static ::System::Int32* StaticGet_Field_6_286()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105CC);
+		}
+		static ::System::Int32* StaticGet_Field_6_285()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105D0);
+		}
+		static ::System::UInt32* StaticGet_Field_6_309()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105D4);
+		}
+		static ::System::UInt32* StaticGet_Field_6_317()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105D8);
+		}
+		static ::System::Int32* StaticGet_Field_6_297()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105DC);
+		}
+		static ::System::UInt32* StaticGet_Field_6_313()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105E0);
+		}
+		static ::System::UInt32* StaticGet_Field_6_312()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105E4);
+		}
+		static ::System::Int32* StaticGet_Field_6_292()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105E8);
+		}
+		static ::System::Int32* StaticGet_Field_6_293()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105EC);
+		}
+		static ::System::UInt32* StaticGet_Field_6_324()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105F0);
+		}
+		static ::System::UInt32* StaticGet_Field_6_306()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderHandlerForAvatar_TypeDefinitionIndex)->GetStaticField(0x105F4);
 		}
 		::MoleMole::StaticBoolMaterialModifier _Transition; // 0xC8
 		::MoleMole::StaticFloatMaterialModifier _TransitionCompletion; // 0xE0
@@ -551,6 +552,7 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Shader*>* Field_6_279; // 0x2A88
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Int32>* Field_6_280; // 0x2A90
 		::Il2CppArray<::Il2CppArray<::System::Boolean>*>* Field_6_281; // 0x2A98
+		::Il2CppArray<::System::Boolean>* Field_6_282; // 0x2AA0
 
 		::System::Void _ctor()
 		{
@@ -625,6 +627,11 @@ namespace MoleMole
 		::System::Void ForceUpdateFxClip(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_FORCEUPDATEFXCLIP_OFFSET))(this, a1);
+		}
+
+		::System::Void ForceUpdateDitherFxClip(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_FORCEUPDATEDITHERFXCLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDisable()
@@ -727,29 +734,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR___BASE_UPDATECOMMONSWITCH_OFFSET))(this);
 		}
 
-		::System::Void Method_6_82B605ACB448F4B0(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_82B605ACB448F4B0_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Boolean Method_6_5D5F16A6230C8F33(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Material* a3)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_5D5F16A6230C8F33_OFFSET))(this, a1, a2, a3);
-		}
-
 		::System::Boolean Method_6_D41D7B87AEBE6BD0(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticTextureMaterialModifier& a2)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticTextureMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_D41D7B87AEBE6BD0_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_6_77E3CF907BA6F8B7(::Enum_3_7F3F4476896DB547 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_7F3F4476896DB547))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_77E3CF907BA6F8B7_OFFSET))(this, a1);
-		}
-
-		::System::Boolean Method_6_7F349DA94A1B78DF(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticFloatMaterialModifier& a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticFloatMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_7F349DA94A1B78DF_OFFSET))(this, a1, a2);
 		}
 
 		::Class_1_8019128448F0E9D5* Method_6_96B03403C56455CD(::Class_1_9610394F487FC231* a1)
@@ -757,64 +744,9 @@ namespace MoleMole
 			return ((::Class_1_8019128448F0E9D5*(*)(::PVOID, ::Class_1_9610394F487FC231*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_96B03403C56455CD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_4D9CF8B767C64CC8(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Boolean a3)
+		::Class_1_A0B58236B258B7B2* Method_6_D624E2057E4C2061(::Enum_3_7F3F4476896DB547 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4D9CF8B767C64CC8_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void Method_6_4A001F27E8ECB274(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4A001F27E8ECB274_OFFSET))(this, a1, a2);
-		}
-
-		::Class_1_A0B58236B258B7B2* Method_6_83D69C60802E274D(::Enum_3_7F3F4476896DB547 a1)
-		{
-			return ((::Class_1_A0B58236B258B7B2*(*)(::PVOID, ::Enum_3_7F3F4476896DB547))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_83D69C60802E274D_OFFSET))(this, a1);
-		}
-
-		::System::Boolean Method_6_6D3FB7CC639EF394(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticVectorMaterialModifier& a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticVectorMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6D3FB7CC639EF394_OFFSET))(this, a1, a2);
-		}
-
-		::Class_1_A0B58236B258B7B2* Method_6_6C1C4CBB2C90871C(::Enum_3_7F3F4476896DB547 a1)
-		{
-			return ((::Class_1_A0B58236B258B7B2*(*)(::PVOID, ::Enum_3_7F3F4476896DB547))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6C1C4CBB2C90871C_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_6_36971FC3F16E2CEB()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_36971FC3F16E2CEB_OFFSET))(this);
-		}
-
-		::System::Boolean Method_6_A476CAA54063C150(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticColorMaterialModifier& a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticColorMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_A476CAA54063C150_OFFSET))(this, a1, a2);
-		}
-
-		::System::Boolean Method_6_E9D90F1C7434F23D(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticKeywordFloatMaterialModifier& a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticKeywordFloatMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E9D90F1C7434F23D_OFFSET))(this, a1, a2);
-		}
-
-		::System::Boolean Method_6_4D8DE63ACD68BAC3(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticBoolMaterialModifier& a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticBoolMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4D8DE63ACD68BAC3_OFFSET))(this, a1, a2);
-		}
-
-		static ::System::Boolean Method_6_34FCC3BBBC925A82(::MoleMole::MonoRenderHandlerForAvatar_Struct_2_7952382059FE8D18& a1)
-		{
-			return ((::System::Boolean(*)(::MoleMole::MonoRenderHandlerForAvatar_Struct_2_7952382059FE8D18&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_34FCC3BBBC925A82_OFFSET))(a1);
-		}
-
-		::System::Void Method_6_CC6DB8EC922ACB38(::UnityEngine::Material* a1, ::UnityEngine::Shader* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Shader*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_CC6DB8EC922ACB38_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_6_F38D8B4A37B7184A(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_F38D8B4A37B7184A_OFFSET))(this, a1, a2);
+			return ((::Class_1_A0B58236B258B7B2*(*)(::PVOID, ::Enum_3_7F3F4476896DB547))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_D624E2057E4C2061_OFFSET))(this, a1);
 		}
 
 		static ::System::Int32 Method_6_E12043F46AB48C94(::UnityEngine::Material* a1)
@@ -822,9 +754,84 @@ namespace MoleMole
 			return ((::System::Int32(*)(::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E12043F46AB48C94_OFFSET))(a1);
 		}
 
-		::System::Void Method_6_2FBA3D05C069B62E(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Material* a3, ::System::UInt32 a4, ::Il2CppArray<::System::Int32>* a5, ::System::Int32 a6)
+		::System::Void Method_6_77E3CF907BA6F8B7(::Enum_3_7F3F4476896DB547 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Material*, ::System::UInt32, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_2FBA3D05C069B62E_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_7F3F4476896DB547))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_77E3CF907BA6F8B7_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_6_E9D90F1C7434F23D(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticKeywordFloatMaterialModifier& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticKeywordFloatMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_E9D90F1C7434F23D_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_6_C0940C3855FBCBCA(::UnityEngine::Material* a1, ::UnityEngine::Shader* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Shader*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_C0940C3855FBCBCA_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_6_3E5E39D0D3E9B5CD(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Boolean a3, ::System::Int32 a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_3E5E39D0D3E9B5CD_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_6_62A845E20C4260F0(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Material* a3, ::System::UInt32 a4, ::Il2CppArray<::System::Int32>* a5, ::System::Int32 a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Material*, ::System::UInt32, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_62A845E20C4260F0_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Boolean Method_6_5D5F16A6230C8F33(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Material* a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_5D5F16A6230C8F33_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Boolean Method_6_7F349DA94A1B78DF(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticFloatMaterialModifier& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticFloatMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_7F349DA94A1B78DF_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Boolean Method_6_93C64601FA6F7E9D(::MoleMole::MonoRenderHandlerForAvatar_Struct_2_7952382059FE8D18& a1)
+		{
+			return ((::System::Boolean(*)(::MoleMole::MonoRenderHandlerForAvatar_Struct_2_7952382059FE8D18&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_93C64601FA6F7E9D_OFFSET))(a1);
+		}
+
+		::System::Boolean Method_6_6D3FB7CC639EF394(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticVectorMaterialModifier& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticVectorMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6D3FB7CC639EF394_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_6_8028CA7CF379A879(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_8028CA7CF379A879_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Method_6_36971FC3F16E2CEB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_36971FC3F16E2CEB_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_4D8DE63ACD68BAC3(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticBoolMaterialModifier& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticBoolMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_4D8DE63ACD68BAC3_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_6_6EFB9FF221105F53(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_6EFB9FF221105F53_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_6_515C5D9412196CB3(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_515C5D9412196CB3_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Method_6_A476CAA54063C150(::Enum_3_7F3F4476896DB547 a1, ::MoleMole::StaticColorMaterialModifier& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_7F3F4476896DB547, ::MoleMole::StaticColorMaterialModifier&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_A476CAA54063C150_OFFSET))(this, a1, a2);
+		}
+
+		::Class_1_A0B58236B258B7B2* Method_6_83D69C60802E274D(::Enum_3_7F3F4476896DB547 a1)
+		{
+			return ((::Class_1_A0B58236B258B7B2*(*)(::PVOID, ::Enum_3_7F3F4476896DB547))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORENDERHANDLERFORAVATAR_METHOD_6_83D69C60802E274D_OFFSET))(this, a1);
 		}
 	};
 }

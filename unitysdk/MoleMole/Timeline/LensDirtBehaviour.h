@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/LensDirtBehaviour_Struct_2_52AD02145F5FCE3A_1.h"
+#include "unitysdk/MoleMole/Timeline/LensDirtBehaviour_Struct_2_52AD02145F5FCE3A_28.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Vector4.h"
@@ -10,26 +10,26 @@ namespace System { class String; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class LensDirt; }
 
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0xD44C9C0)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0xD44E220)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_46744B55F75226ED_OFFSET UNITYSDK_OFFSET(0xD44CC80)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_6112A1276899AF0F_OFFSET UNITYSDK_OFFSET(0xD44D160)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0xD44E200)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0xD44E230)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0xD44E210)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xD44D040)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD44DBB0)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0xD44DD50)
-#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD44E1B0)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x17042800)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET UNITYSDK_OFFSET(0x17043040)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x17044220)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_6350DE3AC1B8C899_OFFSET UNITYSDK_OFFSET(0x17042B40)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x17044250)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x17044240)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x17044230)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x17042F30)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x17043B70)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x17043D90)
+#define MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x170441D0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LensDirtBehaviour_TypeDefinitionIndex = 37870;
+	inline static constexpr unsigned int LensDirtBehaviour_TypeDefinitionIndex = 78839;
 
 	class LensDirtBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::LensDirtBehaviour_Struct_2_52AD02145F5FCE3A_1 _methodParm; // 0x18
+		::MoleMole::Timeline::LensDirtBehaviour_Struct_2_52AD02145F5FCE3A_28 _methodParm; // 0x18
 		::System::Boolean enabled; // 0x78
 		::System::Boolean active_dirtTexture; // 0x79
 		::System::Boolean use_dirtTexture; // 0x7A
@@ -79,19 +79,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_6112A1276899AF0F()
+		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_6112A1276899AF0F_OFFSET))(this);
-		}
-
-		::UnityEngine::Rendering::Universal::LensDirt* Method_4_46744B55F75226ED(::System::Object* a1)
-		{
-			return ((::UnityEngine::Rendering::Universal::LensDirt*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_46744B55F75226ED_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
@@ -99,14 +89,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Rendering::Universal::LensDirt* Method_4_6350DE3AC1B8C899(::System::Object* a1)
+		{
+			return ((::UnityEngine::Rendering::Universal::LensDirt*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_6350DE3AC1B8C899_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_4_146BFCE7108816B9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET))(this);
+		}
+
+		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LENSDIRTBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 	};
 }

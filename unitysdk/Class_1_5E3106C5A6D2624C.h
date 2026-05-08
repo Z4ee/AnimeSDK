@@ -3,9 +3,9 @@
 #include "unitysdk/MoleMole/EffectSimulate/NapEffectSimulatorMgr_Enum_3_B9C5FC3D38ACE99C.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_5E3106C5A6D2624C_METHOD_1_3E3B1E1FAB9D1692_OFFSET UNITYSDK_OFFSET(0x6A8FF10)
+#define CLASS_1_5E3106C5A6D2624C_METHOD_1_3E3B1E1FAB9D1692_OFFSET UNITYSDK_OFFSET(0x1038F700)
 
-inline static constexpr unsigned int Class_1_5E3106C5A6D2624C_TypeDefinitionIndex = 73944;
+inline static constexpr unsigned int Class_1_5E3106C5A6D2624C_TypeDefinitionIndex = 60555;
 
 class Class_1_5E3106C5A6D2624C : public ::System::Object
 {

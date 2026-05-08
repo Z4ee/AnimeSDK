@@ -3,7 +3,7 @@
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int GlobalDisplaySettings_HandleType_TypeDefinitionIndex = 35294;
+	inline static constexpr unsigned int GlobalDisplaySettings_HandleType_TypeDefinitionIndex = 35838;
 
 	enum class GlobalDisplaySettings_HandleType : ::System::Int32
 	{

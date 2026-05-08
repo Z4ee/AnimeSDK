@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_982D1D66E14C5EA5;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_0D6706375CDAAE8C;
+namespace MoleMole { class UIWidgetController; }
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_431_TypeDefinitionIndex = 68231;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_431_TypeDefinitionIndex = 50004;
 
 class Class_0_16E4307DCC419505_431
 {

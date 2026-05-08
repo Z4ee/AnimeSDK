@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76A8F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55B820)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyEventArgs_TypeDefinitionIndex = 36638;
+	inline static constexpr unsigned int CurvyEventArgs_TypeDefinitionIndex = 37182;
 
 	class CurvyEventArgs : public ::System::EventArgs
 	{

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_50C9EB011AF67869.h"
+#include "unitysdk/Struct_2_FFE1714EF1F6DB9E.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_5119F8C34F295015_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x383720)
-#define STRUCT_2_5119F8C34F295015__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C53610)
+#define STRUCT_2_5119F8C34F295015_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x7031D0)
+#define STRUCT_2_5119F8C34F295015__CCTOR_OFFSET UNITYSDK_OFFSET(0x10C3C970)
 
-inline static constexpr unsigned int Struct_2_5119F8C34F295015_TypeDefinitionIndex = 64536;
+inline static constexpr unsigned int Struct_2_5119F8C34F295015_TypeDefinitionIndex = 50579;
 
 struct alignas(8) Struct_2_5119F8C34F295015
 {
 	static ::Struct_2_5119F8C34F295015* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_5119F8C34F295015*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5119F8C34F295015_TypeDefinitionIndex)->GetStaticField(0x36860);
+		return (::Struct_2_5119F8C34F295015*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5119F8C34F295015_TypeDefinitionIndex)->GetStaticField(0x31740);
 	}
 	::System::Int32 Field_2_1; // 0x10
-	::Struct_2_50C9EB011AF67869 Field_2_2; // 0x18
-	::UnityEngine::Vector3 Field_2_3; // 0x48
-	::UnityEngine::Vector3 Field_2_4; // 0x54
+	::Struct_2_FFE1714EF1F6DB9E Field_2_2; // 0x18
+	::UnityEngine::Vector3 Field_2_3; // 0x68
+	::UnityEngine::Vector3 Field_2_4; // 0x74
 
 	static ::System::Void _cctor()
 	{

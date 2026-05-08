@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseDayTabWidgetController_State_TypeDefinitionIndex = 45564;
+	inline static constexpr unsigned int UITowerDefenseDayTabWidgetController_State_TypeDefinitionIndex = 74309;
 
 	enum class UITowerDefenseDayTabWidgetController_State : ::System::Int32
 	{

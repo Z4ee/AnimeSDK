@@ -5,19 +5,19 @@
 namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System { class String; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS48_0__CREATEINDEXASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1A636870)
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6339C0)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS48_0__CREATEINDEXASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B27DA00)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27AA80)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass48_0_TypeDefinitionIndex = 36285;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass48_0_TypeDefinitionIndex = 36829;
 
 	class SQLiteAsyncConnection___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:
-		::System::String* indexName; // 0x10
+		::Il2CppArray<::System::String*>* columnNames; // 0x10
 		::System::String* tableName; // 0x18
-		::Il2CppArray<::System::String*>* columnNames; // 0x20
+		::System::String* indexName; // 0x20
 		::System::Boolean unique; // 0x28
 
 		::System::Void _ctor()

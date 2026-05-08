@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController_IconPair_TypeDefinitionIndex = 73207;
+	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController_IconPair_TypeDefinitionIndex = 73367;
 
 	struct alignas(8) UIGeneralNewsBubbleRowWidgetController_IconPair
 	{

@@ -5,12 +5,12 @@
 class Class_1_5AA2BE468EDCE452;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_MONOSTEER_GETSTEER_OFFSET UNITYSDK_OFFSET(0x984F520)
-#define MOLEMOLE_MONOSTEER__CTOR_OFFSET UNITYSDK_OFFSET(0x984F820)
+#define MOLEMOLE_MONOSTEER_GETSTEER_OFFSET UNITYSDK_OFFSET(0x1177D2D0)
+#define MOLEMOLE_MONOSTEER__CTOR_OFFSET UNITYSDK_OFFSET(0x1177D690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSteer_TypeDefinitionIndex = 80953;
+	inline static constexpr unsigned int MonoSteer_TypeDefinitionIndex = 70549;
 
 	class MonoSteer : public ::UnityEngine::MonoBehaviour
 	{

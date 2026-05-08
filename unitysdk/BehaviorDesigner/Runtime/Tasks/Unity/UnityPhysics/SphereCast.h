@@ -9,30 +9,30 @@ namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST_ONRESET_OFFSET UNITYSDK_OFFSET(0x1A4A77B0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A4A6ED0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A7880)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1A4A78F0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A4A7980)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B053C10)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B053280)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B053CE0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B053DA0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_SPHERECAST___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B053E30)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityPhysics
 {
-	inline static constexpr unsigned int SphereCast_TypeDefinitionIndex = 31524;
+	inline static constexpr unsigned int SphereCast_TypeDefinitionIndex = 32053;
 
 	class SphereCast : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedGameObject* storeHitObject; // 0x58
+		::BehaviorDesigner::Runtime::SharedVector3* originPosition; // 0x58
 		::BehaviorDesigner::Runtime::SharedVector3* direction; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector3* originPosition; // 0x68
+		::BehaviorDesigner::Runtime::SharedVector3* storeHitPoint; // 0x68
 		::BehaviorDesigner::Runtime::SharedFloat* radius; // 0x70
-		::BehaviorDesigner::Runtime::SharedVector3* storeHitNormal; // 0x78
-		::BehaviorDesigner::Runtime::SharedFloat* distance; // 0x80
-		::BehaviorDesigner::Runtime::SharedFloat* storeHitDistance; // 0x88
-		::BehaviorDesigner::Runtime::SharedVector3* storeHitPoint; // 0x90
-		::BehaviorDesigner::Runtime::SharedGameObject* originGameObject; // 0x98
-		::UnityEngine::LayerMask layerMask; // 0xA0
-		::UnityEngine::Space space; // 0xA4
+		::BehaviorDesigner::Runtime::SharedFloat* distance; // 0x78
+		::BehaviorDesigner::Runtime::SharedFloat* storeHitDistance; // 0x80
+		::BehaviorDesigner::Runtime::SharedGameObject* storeHitObject; // 0x88
+		::BehaviorDesigner::Runtime::SharedGameObject* originGameObject; // 0x90
+		::BehaviorDesigner::Runtime::SharedVector3* storeHitNormal; // 0x98
+		::UnityEngine::Space space; // 0xA0
+		::UnityEngine::LayerMask layerMask; // 0xA4
 
 		::System::Void _ctor()
 		{

@@ -5,24 +5,24 @@
 namespace LyraSector { class LyraSparseTreeBakedData; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define LYRASECTOR_LYRASECTORRENDERINGDATA_EMPTY_OFFSET UNITYSDK_OFFSET(0x182CD350)
-#define LYRASECTOR_LYRASECTORRENDERINGDATA_FINALIZE_OFFSET UNITYSDK_OFFSET(0x182CD5B0)
-#define LYRASECTOR_LYRASECTORRENDERINGDATA_INIT_OFFSET UNITYSDK_OFFSET(0x182CD3B0)
-#define LYRASECTOR_LYRASECTORRENDERINGDATA_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x182CD2E0)
-#define LYRASECTOR_LYRASECTORRENDERINGDATA_RELEASE_OFFSET UNITYSDK_OFFSET(0x182CD6F0)
-#define LYRASECTOR_LYRASECTORRENDERINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182CD800)
+#define LYRASECTOR_LYRASECTORRENDERINGDATA_EMPTY_OFFSET UNITYSDK_OFFSET(0x1967CD00)
+#define LYRASECTOR_LYRASECTORRENDERINGDATA_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1967CF90)
+#define LYRASECTOR_LYRASECTORRENDERINGDATA_INIT_OFFSET UNITYSDK_OFFSET(0x1967CD60)
+#define LYRASECTOR_LYRASECTORRENDERINGDATA_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1967CC90)
+#define LYRASECTOR_LYRASECTORRENDERINGDATA_RELEASE_OFFSET UNITYSDK_OFFSET(0x1967D090)
+#define LYRASECTOR_LYRASECTORRENDERINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1967D110)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int LyraSectorRenderingData_TypeDefinitionIndex = 29173;
+	inline static constexpr unsigned int LyraSectorRenderingData_TypeDefinitionIndex = 29692;
 
 	class LyraSectorRenderingData : public ::System::Object
 	{
 	public:
-		::UnityEngine::ComputeBuffer* m_NodeArrayBuffer; // 0x10
-		::UnityEngine::ComputeBuffer* m_EntityBuffer; // 0x18
-		::System::Int32 m_EmissionPaletteOffset; // 0x20
-		::System::Int32 m_EmissionNodeArrayOffset; // 0x24
+		::UnityEngine::ComputeBuffer* m_EntityBuffer; // 0x10
+		::UnityEngine::ComputeBuffer* m_NodeArrayBuffer; // 0x18
+		::System::Int32 m_EmissionNodeArrayOffset; // 0x20
+		::System::Int32 m_EmissionPaletteOffset; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUMMERFISHAQUARIUMPUTFISHDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DC040)
+#define MOLEMOLE_UISUMMERFISHAQUARIUMPUTFISHDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1551BD10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishAquariumPutFishDialogPopWindowControllerContext_TypeDefinitionIndex = 58006;
+	inline static constexpr unsigned int UISummerFishAquariumPutFishDialogPopWindowControllerContext_TypeDefinitionIndex = 45913;
 
 	class UISummerFishAquariumPutFishDialogPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

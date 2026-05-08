@@ -8,25 +8,25 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B67C300)
-#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B67BDE0)
-#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B67CCC0)
-#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67CCB0)
+#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3FB940)
+#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3FB420)
+#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3FC360)
+#define UTF8JSON_FORMATTERS_ISO8601TIMESPANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FC350)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int ISO8601TimeSpanFormatter_TypeDefinitionIndex = 84007;
+	inline static constexpr unsigned int ISO8601TimeSpanFormatter_TypeDefinitionIndex = 85735;
 
 	class ISO8601TimeSpanFormatter : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_minValue()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ISO8601TimeSpanFormatter_TypeDefinitionIndex)->GetStaticField(0x48C40);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ISO8601TimeSpanFormatter_TypeDefinitionIndex)->GetStaticField(0x4A7B0);
 		}
 		static ::Utf8Json::IJsonFormatter_1<::System::TimeSpan>** StaticGet_Default()
 		{
-			return (::Utf8Json::IJsonFormatter_1<::System::TimeSpan>**)Il2CppClass::FromTypeDefinitionIndex(ISO8601TimeSpanFormatter_TypeDefinitionIndex)->GetStaticField(0x48C48);
+			return (::Utf8Json::IJsonFormatter_1<::System::TimeSpan>**)Il2CppClass::FromTypeDefinitionIndex(ISO8601TimeSpanFormatter_TypeDefinitionIndex)->GetStaticField(0x4A7B8);
 		}
 
 		::System::Void _ctor()

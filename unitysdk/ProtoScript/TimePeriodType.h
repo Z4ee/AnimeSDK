@@ -3,15 +3,15 @@
 
 namespace ProtoScript
 {
-	inline static constexpr unsigned int TimePeriodType_TypeDefinitionIndex = 21792;
+	inline static constexpr unsigned int TimePeriodType_TypeDefinitionIndex = 22849;
 
 	enum class TimePeriodType : ::System::Int32
 	{
-		NIGHT = 4,
-		TIME_PERIOD_TYPE_NONE = 0,
 		EVENING = 3,
-		MORNING = 1,
+		NIGHT = 4,
 		AFTERNOON = 2,
+		MORNING = 1,
 		NOW = 99,
+		TIME_PERIOD_TYPE_NONE = 0,
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK { class Alert_OnAlertDelegate; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17699E60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_2__PAY_B__7_OFFSET UNITYSDK_OFFSET(0x17699E70)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBE770)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS11_2__PAY_B__7_OFFSET UNITYSDK_OFFSET(0x18DBE780)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass11_2_TypeDefinitionIndex = 19010;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass11_2_TypeDefinitionIndex = 19361;
 
 	class HoYoChannelGooglePlay___c__DisplayClass11_2 : public ::System::Object
 	{

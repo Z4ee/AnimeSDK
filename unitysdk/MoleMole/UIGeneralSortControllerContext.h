@@ -5,11 +5,11 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALSORTCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C99E0)
+#define MOLEMOLE_UIGENERALSORTCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15255190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSortControllerContext_TypeDefinitionIndex = 42910;
+	inline static constexpr unsigned int UIGeneralSortControllerContext_TypeDefinitionIndex = 44630;
 
 	class UIGeneralSortControllerContext : public ::MoleMole::UIControllerContextBase
 	{

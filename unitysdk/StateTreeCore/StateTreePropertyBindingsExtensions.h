@@ -11,7 +11,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyBindingsExtensions_TypeDefinitionIndex = 27849;
+	inline static constexpr unsigned int StateTreePropertyBindingsExtensions_TypeDefinitionIndex = 28367;
 
 	class StateTreePropertyBindingsExtensions : public ::System::Object
 	{

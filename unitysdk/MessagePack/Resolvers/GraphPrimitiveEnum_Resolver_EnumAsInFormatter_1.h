@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int GraphPrimitiveEnum_Resolver_EnumAsInFormatter_1_TypeDefinitionIndex = 26070;
+	inline static constexpr unsigned int GraphPrimitiveEnum_Resolver_EnumAsInFormatter_1_TypeDefinitionIndex = 27436;
 
 	template <typename T>
 	class GraphPrimitiveEnum_Resolver_EnumAsInFormatter_1 : public ::System::Object

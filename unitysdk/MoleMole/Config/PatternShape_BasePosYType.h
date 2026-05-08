@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PatternShape_BasePosYType_TypeDefinitionIndex = 54988;
+	inline static constexpr unsigned int PatternShape_BasePosYType_TypeDefinitionIndex = 77296;
 
 	enum class PatternShape_BasePosYType : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace Foundation { class VersionFileInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_VERSIONFILEINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B438F00)
+#define FOUNDATION_VERSIONFILEINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1ACA20)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int VersionFileInfoList_TypeDefinitionIndex = 7857;
+	inline static constexpr unsigned int VersionFileInfoList_TypeDefinitionIndex = 7837;
 
 	class VersionFileInfoList : public ::System::Object
 	{

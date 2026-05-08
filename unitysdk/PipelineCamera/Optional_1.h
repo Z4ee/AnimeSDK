@@ -9,7 +9,7 @@ namespace PipelineCamera { template <typename T> class Optional_1_Delegate_RetSe
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Optional_1_TypeDefinitionIndex = 35534;
+	inline static constexpr unsigned int Optional_1_TypeDefinitionIndex = 36078;
 
 	template <typename T>
 	struct Optional_1

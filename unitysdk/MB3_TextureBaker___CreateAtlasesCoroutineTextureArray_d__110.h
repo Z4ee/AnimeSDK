@@ -9,29 +9,29 @@ namespace DigitalOpus::MB::Core { class MB3_TextureCombiner; }
 namespace DigitalOpus::MB::Core { class MB3_TextureCombiner_CreateAtlasesCoroutineResult; }
 namespace DigitalOpus::MB::Core { class ProgressUpdateDelegate; }
 
-#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B112930)
-#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B1139C0)
-#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B113A20)
-#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B1139D0)
-#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B112920)
-#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110__CTOR_OFFSET UNITYSDK_OFFSET(0x1B112910)
+#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BEC97D0)
+#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BECA810)
+#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BECA870)
+#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BECA820)
+#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEC97C0)
+#define MB3_TEXTUREBAKER___CREATEATLASESCOROUTINETEXTUREARRAY_D__110__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC97B0)
 
-inline static constexpr unsigned int MB3_TextureBaker___CreateAtlasesCoroutineTextureArray_d__110_TypeDefinitionIndex = 83253;
+inline static constexpr unsigned int MB3_TextureBaker___CreateAtlasesCoroutineTextureArray_d__110_TypeDefinitionIndex = 84981;
 
 class MB3_TextureBaker___CreateAtlasesCoroutineTextureArray_d__110 : public ::System::Object
 {
 public:
-	::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x10
-	::System::Object* __2__current; // 0x18
-	::MB3_TextureBaker* __4__this; // 0x20
+	::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* editorMethods; // 0x10
+	::MB3_TextureBaker* __4__this; // 0x18
+	::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x20
 	::DigitalOpus::MB::Core::MB3_TextureCombiner_CreateAtlasesCoroutineResult* coroutineResult; // 0x28
-	::Il2CppArray<::MB_TextureArrayResultMaterial*>* _bakedMatsAndSlices_5__2; // 0x30
-	::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* editorMethods; // 0x38
+	::System::Object* __2__current; // 0x30
+	::Il2CppArray<::MB_TextureArrayResultMaterial*>* _bakedMatsAndSlices_5__2; // 0x38
 	::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x40
-	::System::Single maxTimePerFrame; // 0x48
-	::System::Boolean saveAtlasesAsAssets; // 0x4C
-	::System::Int32 _resMatIdx_5__3; // 0x50
-	::System::Int32 __1__state; // 0x54
+	::System::Int32 __1__state; // 0x48
+	::System::Int32 _resMatIdx_5__3; // 0x4C
+	::System::Single maxTimePerFrame; // 0x50
+	::System::Boolean saveAtlasesAsAssets; // 0x54
 
 	::System::Void _ctor(::System::Int32 __1__state)
 	{

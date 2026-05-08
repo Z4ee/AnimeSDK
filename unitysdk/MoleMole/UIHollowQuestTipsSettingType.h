@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowQuestTipsSettingType_TypeDefinitionIndex = 43947;
+	inline static constexpr unsigned int UIHollowQuestTipsSettingType_TypeDefinitionIndex = 55260;
 
 	enum class UIHollowQuestTipsSettingType : ::System::Int32
 	{

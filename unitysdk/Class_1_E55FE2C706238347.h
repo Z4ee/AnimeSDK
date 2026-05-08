@@ -4,9 +4,9 @@
 #include "unitysdk/ProtoScript/HollowSystemUIState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E55FE2C706238347__CTOR_OFFSET UNITYSDK_OFFSET(0x6851F10)
+#define CLASS_1_E55FE2C706238347__CTOR_OFFSET UNITYSDK_OFFSET(0x14AAD560)
 
-inline static constexpr unsigned int Class_1_E55FE2C706238347_TypeDefinitionIndex = 46050;
+inline static constexpr unsigned int Class_1_E55FE2C706238347_TypeDefinitionIndex = 38577;
 
 class Class_1_E55FE2C706238347 : public ::System::Object
 {

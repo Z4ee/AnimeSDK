@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EShowType_TypeDefinitionIndex = 9837;
+	inline static constexpr unsigned int EShowType_TypeDefinitionIndex = 16745;
 
 	enum class EShowType : ::System::Int16
 	{

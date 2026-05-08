@@ -3,17 +3,17 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InlevelCameraState_TypeDefinitionIndex = 59981;
+	inline static constexpr unsigned int InlevelCameraState_TypeDefinitionIndex = 68640;
 
 	enum class InlevelCameraState : ::System::Int32
 	{
-		Normal = 0,
-		Fighting = 1,
-		MainCityIndoor = 7,
-		Observe = 5,
-		Custom = 2,
 		MainCityNormal = 6,
-		FightingLevel2 = 3,
 		FightingLevel3 = 4,
+		Custom = 2,
+		MainCityIndoor = 7,
+		Fighting = 1,
+		Normal = 0,
+		FightingLevel2 = 3,
+		Observe = 5,
 	};
 }

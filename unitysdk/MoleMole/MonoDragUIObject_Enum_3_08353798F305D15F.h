@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoDragUIObject_Enum_3_08353798F305D15F_TypeDefinitionIndex = 67951;
+	inline static constexpr unsigned int MonoDragUIObject_Enum_3_08353798F305D15F_TypeDefinitionIndex = 75899;
 
 	enum class MonoDragUIObject_Enum_3_08353798F305D15F : ::System::Int32
 	{
-		BoundBack = 2,
+		Drag = 1,
 		Default = 0,
 		Settle = 3,
-		Drag = 1,
+		BoundBack = 2,
 	};
 }

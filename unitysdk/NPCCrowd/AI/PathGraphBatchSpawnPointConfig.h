@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHBATCHSPAWNPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x6B9D7A0)
+#define NPCCROWD_AI_PATHGRAPHBATCHSPAWNPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E4000)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphBatchSpawnPointConfig_TypeDefinitionIndex = 45710;
+	inline static constexpr unsigned int PathGraphBatchSpawnPointConfig_TypeDefinitionIndex = 81146;
 
 	class PathGraphBatchSpawnPointConfig : public ::NPCCrowd::AI::PathGraphFeaturePointConfig
 	{

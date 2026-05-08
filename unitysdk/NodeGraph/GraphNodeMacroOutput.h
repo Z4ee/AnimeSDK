@@ -4,11 +4,11 @@
 
 namespace NodeGraph { class NodeGraphBase; }
 
-#define NODEGRAPH_GRAPHNODEMACROOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x7862C30)
+#define NODEGRAPH_GRAPHNODEMACROOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x11B33E70)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphNodeMacroOutput_TypeDefinitionIndex = 69953;
+	inline static constexpr unsigned int GraphNodeMacroOutput_TypeDefinitionIndex = 46735;
 
 	class GraphNodeMacroOutput : public ::NodeGraph::GraphNodeBase
 	{

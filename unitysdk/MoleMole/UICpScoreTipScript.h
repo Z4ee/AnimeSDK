@@ -6,11 +6,11 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class TextItalicAdobeStyle; }
 
-#define MOLEMOLE_UICPSCORETIPSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE82560)
+#define MOLEMOLE_UICPSCORETIPSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B860B10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpScoreTipScript_TypeDefinitionIndex = 83625;
+	inline static constexpr unsigned int UICpScoreTipScript_TypeDefinitionIndex = 85294;
 
 	class UICpScoreTipScript : public ::UnityEngine::MonoBehaviour
 	{

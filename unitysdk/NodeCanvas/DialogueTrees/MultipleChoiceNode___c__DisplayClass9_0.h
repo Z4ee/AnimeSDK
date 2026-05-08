@@ -4,12 +4,12 @@
 
 namespace NodeCanvas::DialogueTrees { class MultipleChoiceNode; }
 
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A225BF0)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE___C__DISPLAYCLASS9_0__ONOPTIONSELECTED_B__0_OFFSET UNITYSDK_OFFSET(0x1A225C00)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A900A30)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE___C__DISPLAYCLASS9_0__ONOPTIONSELECTED_B__0_OFFSET UNITYSDK_OFFSET(0x1A900A40)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int MultipleChoiceNode___c__DisplayClass9_0_TypeDefinitionIndex = 27739;
+	inline static constexpr unsigned int MultipleChoiceNode___c__DisplayClass9_0_TypeDefinitionIndex = 28129;
 
 	class MultipleChoiceNode___c__DisplayClass9_0 : public ::System::Object
 	{

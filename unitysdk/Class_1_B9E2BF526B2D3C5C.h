@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_DF2C726EEEEC912D;
-class Class_3_4C38211F5303CD66;
+class Class_3_06F526E9A8E279F3;
 
-#define CLASS_1_B9E2BF526B2D3C5C_METHOD_1_6CFAEAA9B715F18D_OFFSET UNITYSDK_OFFSET(0x94B4950)
-#define CLASS_1_B9E2BF526B2D3C5C__CCTOR_OFFSET UNITYSDK_OFFSET(0x94B4910)
+#define CLASS_1_B9E2BF526B2D3C5C_METHOD_1_6CFAEAA9B715F18D_OFFSET UNITYSDK_OFFSET(0x125603F0)
+#define CLASS_1_B9E2BF526B2D3C5C__CCTOR_OFFSET UNITYSDK_OFFSET(0x125603D0)
 
-inline static constexpr unsigned int Class_1_B9E2BF526B2D3C5C_TypeDefinitionIndex = 40353;
+inline static constexpr unsigned int Class_1_B9E2BF526B2D3C5C_TypeDefinitionIndex = 46937;
 
 class Class_1_B9E2BF526B2D3C5C : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B9E2BF526B2D3C5C_TypeDefinitionIndex)->GetStaticField(0xCCA0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B9E2BF526B2D3C5C_TypeDefinitionIndex)->GetStaticField(0x9720);
 	}
 	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B9E2BF526B2D3C5C_TypeDefinitionIndex)->GetStaticField(0xCCA4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B9E2BF526B2D3C5C_TypeDefinitionIndex)->GetStaticField(0x9724);
 	}
 
 	static ::System::Void _cctor()
@@ -27,8 +27,8 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_B9E2BF526B2D3C5C__CCTOR_OFFSET))();
 	}
 
-	static ::Class_3_4C38211F5303CD66* Method_1_6CFAEAA9B715F18D(::Class_2_DF2C726EEEEC912D* a1)
+	static ::Class_3_06F526E9A8E279F3* Method_1_6CFAEAA9B715F18D(::Class_2_DF2C726EEEEC912D* a1)
 	{
-		return ((::Class_3_4C38211F5303CD66*(*)(::Class_2_DF2C726EEEEC912D*))((::PBYTE)hIl2Cpp + CLASS_1_B9E2BF526B2D3C5C_METHOD_1_6CFAEAA9B715F18D_OFFSET))(a1);
+		return ((::Class_3_06F526E9A8E279F3*(*)(::Class_2_DF2C726EEEEC912D*))((::PBYTE)hIl2Cpp + CLASS_1_B9E2BF526B2D3C5C_METHOD_1_6CFAEAA9B715F18D_OFFSET))(a1);
 	}
 };

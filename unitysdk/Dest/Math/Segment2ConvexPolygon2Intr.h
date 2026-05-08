@@ -6,7 +6,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Segment2ConvexPolygon2Intr_TypeDefinitionIndex = 32601;
+	inline static constexpr unsigned int Segment2ConvexPolygon2Intr_TypeDefinitionIndex = 33136;
 
 	struct alignas(4) Segment2ConvexPolygon2Intr
 	{

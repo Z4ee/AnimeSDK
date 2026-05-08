@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/Foundation/Unreal/FTransform.h"
 
-class Class_1_6A3A26AD0CB7F995;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_493_TypeDefinitionIndex = 57566;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_493_TypeDefinitionIndex = 52657;
 
 class Class_0_16E4307DCC419505_493
 {

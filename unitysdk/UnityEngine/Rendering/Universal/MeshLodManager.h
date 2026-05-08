@@ -5,21 +5,21 @@
 
 namespace UnityEngine { class LODGroup; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER_LODSETOVER_OFFSET UNITYSDK_OFFSET(0x18662B10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER_REBINDLODLIGHTMAPINFO_OFFSET UNITYSDK_OFFSET(0x18662C00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER_SETCURRENTSCENEMESHLODSETOVER_OFFSET UNITYSDK_OFFSET(0x18662B90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18663040)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER_LODSETOVER_OFFSET UNITYSDK_OFFSET(0x19F342D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER_REBINDLODLIGHTMAPINFO_OFFSET UNITYSDK_OFFSET(0x19F34390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER_SETCURRENTSCENEMESHLODSETOVER_OFFSET UNITYSDK_OFFSET(0x19F34350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MESHLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F34920)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MeshLodManager_TypeDefinitionIndex = 29345;
+	inline static constexpr unsigned int MeshLodManager_TypeDefinitionIndex = 29864;
 
 	class MeshLodManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::SceneManagement::Scene* StaticGet_preActiveScene()
 		{
-			return (::UnityEngine::SceneManagement::Scene*)Il2CppClass::FromTypeDefinitionIndex(MeshLodManager_TypeDefinitionIndex)->GetStaticField(0x7640);
+			return (::UnityEngine::SceneManagement::Scene*)Il2CppClass::FromTypeDefinitionIndex(MeshLodManager_TypeDefinitionIndex)->GetStaticField(0x76E0);
 		}
 
 		::System::Void _ctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_BANGBOOUAVCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB37D740)
+#define MOLEMOLE_BANGBOOUAVCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x141D50D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BangBooUAVContext_TypeDefinitionIndex = 41135;
+	inline static constexpr unsigned int BangBooUAVContext_TypeDefinitionIndex = 54494;
 
 	class BangBooUAVContext : public ::MoleMole::UIControllerContextBase
 	{

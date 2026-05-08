@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/VisualEnvironmentE_Quality.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1967D300)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1967D550)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1AD1D080)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1D2D0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LightShaftConfig_TypeDefinitionIndex = 29762;
+	inline static constexpr unsigned int LightShaftConfig_TypeDefinitionIndex = 30291;
 
 	class LightShaftConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::LightShaftConfig*>
 	{

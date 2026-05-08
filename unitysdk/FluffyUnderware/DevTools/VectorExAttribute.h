@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_VECTOREXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80FA70)
+#define FLUFFYUNDERWARE_DEVTOOLS_VECTOREXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D86B0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int VectorExAttribute_TypeDefinitionIndex = 25350;
+	inline static constexpr unsigned int VectorExAttribute_TypeDefinitionIndex = 25864;
 
 	class VectorExAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

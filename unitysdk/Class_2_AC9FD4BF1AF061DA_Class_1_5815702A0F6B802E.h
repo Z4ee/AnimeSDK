@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/MonoTowerHolderObject_Enum_3_E5C15D19CFB0B4E0.h"
+#include "unitysdk/MoleMole/MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3.h"
 #include "unitysdk/System/Object.h"
 
 class Class_2_AC9FD4BF1AF061DA;
 namespace MoleMole::Battle { class Entity; }
 
-#define CLASS_2_AC9FD4BF1AF061DA_CLASS_1_5815702A0F6B802E_METHOD_1_79B26FFCD26B6FE1_OFFSET UNITYSDK_OFFSET(0xAFFF900)
-#define CLASS_2_AC9FD4BF1AF061DA_CLASS_1_5815702A0F6B802E__CTOR_OFFSET UNITYSDK_OFFSET(0xAFFF8F0)
+#define CLASS_2_AC9FD4BF1AF061DA_CLASS_1_5815702A0F6B802E_METHOD_1_79B26FFCD26B6FE1_OFFSET UNITYSDK_OFFSET(0x15374F50)
+#define CLASS_2_AC9FD4BF1AF061DA_CLASS_1_5815702A0F6B802E__CTOR_OFFSET UNITYSDK_OFFSET(0x15374F40)
 
-inline static constexpr unsigned int Class_2_AC9FD4BF1AF061DA_Class_1_5815702A0F6B802E_TypeDefinitionIndex = 51563;
+inline static constexpr unsigned int Class_2_AC9FD4BF1AF061DA_Class_1_5815702A0F6B802E_TypeDefinitionIndex = 66121;
 
 class Class_2_AC9FD4BF1AF061DA_Class_1_5815702A0F6B802E : public ::System::Object
 {
 public:
 	::Class_2_AC9FD4BF1AF061DA* Field_1_0; // 0x10
-	::MoleMole::MonoTowerHolderObject_Enum_3_E5C15D19CFB0B4E0 Field_1_1; // 0x18
+	::MoleMole::MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3 Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

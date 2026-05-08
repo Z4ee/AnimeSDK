@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuffMisc_EffectByCharacterSize_TypeDefinitionIndex = 40307;
+	inline static constexpr unsigned int ConfigBuffMisc_EffectByCharacterSize_TypeDefinitionIndex = 57129;
 
 	struct alignas(8) ConfigBuffMisc_EffectByCharacterSize
 	{

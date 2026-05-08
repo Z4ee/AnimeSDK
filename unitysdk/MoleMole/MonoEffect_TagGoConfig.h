@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOEFFECT_TAGGOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB99ADC0)
+#define MOLEMOLE_MONOEFFECT_TAGGOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15B34A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffect_TagGoConfig_TypeDefinitionIndex = 38977;
+	inline static constexpr unsigned int MonoEffect_TagGoConfig_TypeDefinitionIndex = 39614;
 
 	class MonoEffect_TagGoConfig : public ::System::Object
 	{

@@ -6,12 +6,12 @@
 namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace FluffyUnderware::Curvy::ImportExport { class SerializedCurvySpline; }
 
-#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SPLINEJSONCONVERTER___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE7480)
-#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SPLINEJSONCONVERTER___C__DISPLAYCLASS0_0__SPLINESTOJSON_B__0_OFFSET UNITYSDK_OFFSET(0x1ADE7490)
+#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SPLINEJSONCONVERTER___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCE0290)
+#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SPLINEJSONCONVERTER___C__DISPLAYCLASS0_0__SPLINESTOJSON_B__0_OFFSET UNITYSDK_OFFSET(0x1BCE02A0)
 
 namespace FluffyUnderware::Curvy::ImportExport
 {
-	inline static constexpr unsigned int SplineJsonConverter___c__DisplayClass0_0_TypeDefinitionIndex = 36721;
+	inline static constexpr unsigned int SplineJsonConverter___c__DisplayClass0_0_TypeDefinitionIndex = 37265;
 
 	class SplineJsonConverter___c__DisplayClass0_0 : public ::System::Object
 	{

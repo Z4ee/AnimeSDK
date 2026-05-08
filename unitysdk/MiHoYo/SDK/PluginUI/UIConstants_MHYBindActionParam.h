@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_MHYBindActionParam_TypeDefinitionIndex = 35055;
+	inline static constexpr unsigned int UIConstants_MHYBindActionParam_TypeDefinitionIndex = 35599;
 
 	class UIConstants_MHYBindActionParam : public ::System::Object
 	{

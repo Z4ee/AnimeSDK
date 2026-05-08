@@ -7,20 +7,20 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENDINLEVELCHATBYDYNAMICCHATID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB836360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENDINLEVELCHATBYDYNAMICCHATID__CTOR_OFFSET UNITYSDK_OFFSET(0xB836470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENDINLEVELCHATBYDYNAMICCHATID__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xB836490)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENDINLEVELCHATBYDYNAMICCHATID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1780E240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENDINLEVELCHATBYDYNAMICCHATID__CTOR_OFFSET UNITYSDK_OFFSET(0x1780E330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENDINLEVELCHATBYDYNAMICCHATID__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1780E370)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_EndInLevelChatByDynamicChatId_TypeDefinitionIndex = 58618;
+	inline static constexpr unsigned int LD_EndInLevelChatByDynamicChatId_TypeDefinitionIndex = 42170;
 
 	class LD_EndInLevelChatByDynamicChatId : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* _in; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Int32>* ChatID; // 0xB0
-		::FlowCanvas::FlowOutput* _out; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* ChatID; // 0xA8
+		::FlowCanvas::FlowOutput* _out; // 0xB0
+		::FlowCanvas::FlowInput* _in; // 0xB8
 		::System::Boolean CutCameraBlendOut; // 0xC0
 
 		::System::Void _ctor()

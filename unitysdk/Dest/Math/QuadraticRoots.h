@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define DEST_MATH_QUADRATICROOTS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x9BB540)
+#define DEST_MATH_QUADRATICROOTS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x9EB650)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int QuadraticRoots_TypeDefinitionIndex = 32662;
+	inline static constexpr unsigned int QuadraticRoots_TypeDefinitionIndex = 33197;
 
 	struct alignas(4) QuadraticRoots
 	{

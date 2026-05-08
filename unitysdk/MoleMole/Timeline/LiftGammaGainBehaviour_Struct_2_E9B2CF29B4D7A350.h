@@ -5,7 +5,7 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LiftGammaGainBehaviour_Struct_2_E9B2CF29B4D7A350_TypeDefinitionIndex = 39408;
+	inline static constexpr unsigned int LiftGammaGainBehaviour_Struct_2_E9B2CF29B4D7A350_TypeDefinitionIndex = 77678;
 
 	struct alignas(4) LiftGammaGainBehaviour_Struct_2_E9B2CF29B4D7A350
 	{

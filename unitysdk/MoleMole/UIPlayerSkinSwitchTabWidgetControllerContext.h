@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIPLAYERSKINSWITCHTABWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA430890)
+#define MOLEMOLE_UIPLAYERSKINSWITCHTABWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15112CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerSkinSwitchTabWidgetControllerContext_TypeDefinitionIndex = 52150;
+	inline static constexpr unsigned int UIPlayerSkinSwitchTabWidgetControllerContext_TypeDefinitionIndex = 79111;
 
 	class UIPlayerSkinSwitchTabWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

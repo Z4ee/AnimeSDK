@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHANGEBGDIFFUSION__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C6F00)
+#define MOLEMOLE_CONFIG_CONFIGCHANGEBGDIFFUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x159E5FD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChangeBGDiffusion_TypeDefinitionIndex = 69948;
+	inline static constexpr unsigned int ConfigChangeBGDiffusion_TypeDefinitionIndex = 48769;
 
 	class ConfigChangeBGDiffusion : public ::System::Object
 	{
 	public:
-		::System::String* DiffusionOutKey; // 0x10
-		::System::String* DiffusionInKey; // 0x18
+		::System::String* DiffusionInKey; // 0x10
+		::System::String* DiffusionOutKey; // 0x18
 		::System::Single FadeOutDuration; // 0x20
 		::System::Single FadeInDuration; // 0x24
 

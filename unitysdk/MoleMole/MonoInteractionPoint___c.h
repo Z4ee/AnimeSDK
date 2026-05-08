@@ -6,24 +6,24 @@
 namespace MoleMole { class InteractionPoint; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_MONOINTERACTIONPOINT___C_METHOD_1_E6A3DB74FD95A566_OFFSET UNITYSDK_OFFSET(0xB9A4650)
-#define MOLEMOLE_MONOINTERACTIONPOINT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9A4610)
-#define MOLEMOLE_MONOINTERACTIONPOINT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4640)
+#define MOLEMOLE_MONOINTERACTIONPOINT___C_METHOD_1_E6A3DB74FD95A566_OFFSET UNITYSDK_OFFSET(0x15B3E550)
+#define MOLEMOLE_MONOINTERACTIONPOINT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B3E500)
+#define MOLEMOLE_MONOINTERACTIONPOINT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B3E540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInteractionPoint___c_TypeDefinitionIndex = 43675;
+	inline static constexpr unsigned int MonoInteractionPoint___c_TypeDefinitionIndex = 71326;
 
 	class MonoInteractionPoint___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::MonoInteractionPoint___c** StaticGet___9()
-		{
-			return (::MoleMole::MonoInteractionPoint___c**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x41AB0);
-		}
 		static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x41AB8);
+			return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x41D70);
+		}
+		static ::MoleMole::MonoInteractionPoint___c** StaticGet___9()
+		{
+			return (::MoleMole::MonoInteractionPoint___c**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x41D78);
 		}
 
 		static ::System::Void _cctor()

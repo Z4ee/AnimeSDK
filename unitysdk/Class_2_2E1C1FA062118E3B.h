@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIBangkovTaskRowWidgetController_Context; }
+template <typename T> class Class_0_16E4307DCC41950C_13;
+
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x10939BB0)
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_784FFFF5F0814706_OFFSET UNITYSDK_OFFSET(0x10939DA0)
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_9D768FB7C06C1DF3_OFFSET UNITYSDK_OFFSET(0x10939B60)
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_BB36563CFEAFAF01_OFFSET UNITYSDK_OFFSET(0x10939D00)
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x10939D10)
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x10939DB0)
+#define CLASS_2_2E1C1FA062118E3B_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10939C70)
+#define CLASS_2_2E1C1FA062118E3B__CTOR_OFFSET UNITYSDK_OFFSET(0x10939CB0)
+
+inline static constexpr unsigned int Class_2_2E1C1FA062118E3B_TypeDefinitionIndex = 76688;
+
+class Class_2_2E1C1FA062118E3B : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTaskRowWidgetController_Context*>* Field_2_0; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9D768FB7C06C1DF3(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_9D768FB7C06C1DF3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_43D99DDD80B1E30C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_43D99DDD80B1E30C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BB36563CFEAFAF01(::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTaskRowWidgetController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTaskRowWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_BB36563CFEAFAF01_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTaskRowWidgetController_Context*>* Method_2_784FFFF5F0814706()
+	{
+		return ((::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTaskRowWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_784FFFF5F0814706_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2E1C1FA062118E3B_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+};

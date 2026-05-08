@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_ViewObjectLog_TypeDefinitionIndex = 74568;
+	inline static constexpr unsigned int ViewObjectManager_ViewObjectLog_TypeDefinitionIndex = 66392;
 
 	struct alignas(8) ViewObjectManager_ViewObjectLog
 	{

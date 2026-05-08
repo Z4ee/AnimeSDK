@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ReadOnlyMemoryFormatter_1_TypeDefinitionIndex = 27706;
+	inline static constexpr unsigned int ReadOnlyMemoryFormatter_1_TypeDefinitionIndex = 28253;
 
 	template <typename T>
 	class ReadOnlyMemoryFormatter_1 : public ::System::Object

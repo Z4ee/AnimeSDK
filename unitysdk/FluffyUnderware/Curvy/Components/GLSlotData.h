@@ -8,13 +8,13 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define FLUFFYUNDERWARE_CURVY_COMPONENTS_GLSLOTDATA_GETVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1AA96C70)
-#define FLUFFYUNDERWARE_CURVY_COMPONENTS_GLSLOTDATA_RENDER_OFFSET UNITYSDK_OFFSET(0x1AA96EE0)
-#define FLUFFYUNDERWARE_CURVY_COMPONENTS_GLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA97100)
+#define FLUFFYUNDERWARE_CURVY_COMPONENTS_GLSLOTDATA_GETVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1B91A4B0)
+#define FLUFFYUNDERWARE_CURVY_COMPONENTS_GLSLOTDATA_RENDER_OFFSET UNITYSDK_OFFSET(0x1B91A720)
+#define FLUFFYUNDERWARE_CURVY_COMPONENTS_GLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B91A940)
 
 namespace FluffyUnderware::Curvy::Components
 {
-	inline static constexpr unsigned int GLSlotData_TypeDefinitionIndex = 36708;
+	inline static constexpr unsigned int GLSlotData_TypeDefinitionIndex = 37252;
 
 	class GLSlotData : public ::System::Object
 	{

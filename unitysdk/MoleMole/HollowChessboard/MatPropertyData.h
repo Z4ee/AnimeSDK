@@ -7,22 +7,22 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB83B610)
-#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_GET_SHADERPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xB83B5F0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB83B620)
-#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_SET_SHADERPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xB83B600)
-#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB83B260)
+#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17813300)
+#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_GET_SHADERPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x178132E0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x17813310)
+#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA_SET_SHADERPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x178132F0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_MATPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17812C60)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int MatPropertyData_TypeDefinitionIndex = 41315;
+	inline static constexpr unsigned int MatPropertyData_TypeDefinitionIndex = 72194;
 
 	class MatPropertyData : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::System::Boolean NeedSave; // 0x18
-		::UnityEngine::Rendering::ShaderPropertyType _ShaderPropertyType_k__BackingField; // 0x1C
+		::UnityEngine::Rendering::ShaderPropertyType _ShaderPropertyType_k__BackingField; // 0x18
+		::System::Boolean NeedSave; // 0x1C
 
 		::System::Void _ctor(::UnityEngine::Rendering::ShaderPropertyType shaderPropertyType, ::System::String* name)
 		{

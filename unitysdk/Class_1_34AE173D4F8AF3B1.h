@@ -5,9 +5,9 @@
 
 namespace MoleMole { class UIGeneralTipsWidgetController; }
 
-#define CLASS_1_34AE173D4F8AF3B1__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB2830)
+#define CLASS_1_34AE173D4F8AF3B1__CTOR_OFFSET UNITYSDK_OFFSET(0x161B0BF0)
 
-inline static constexpr unsigned int Class_1_34AE173D4F8AF3B1_TypeDefinitionIndex = 74385;
+inline static constexpr unsigned int Class_1_34AE173D4F8AF3B1_TypeDefinitionIndex = 75218;
 
 class Class_1_34AE173D4F8AF3B1 : public ::System::Object
 {

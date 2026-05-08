@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-inline static constexpr unsigned int Class_1_B379B1FD6E6174F6_TypeDefinitionIndex = 59588;
+inline static constexpr unsigned int Class_1_B379B1FD6E6174F6_TypeDefinitionIndex = 47237;
 
 template <typename T>
 class Class_1_B379B1FD6E6174F6 : public ::System::Object

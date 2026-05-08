@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD0A3CF0)
-#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD0A3D00)
-#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD0A3F00)
-#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A40C0)
-#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A4080)
+#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16B46390)
+#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16B463A0)
+#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16B46580)
+#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B46720)
+#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM_HITROTATIONOVERRIDEMAPITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B466E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter_TypeDefinitionIndex = 65976;
+	inline static constexpr unsigned int HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter_TypeDefinitionIndex = 76638;
 
 	class HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::HitRotationOverrideMapItem*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitEffectMapItem*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitEffectMapItem*>**)Il2CppClass::FromTypeDefinitionIndex(HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x417B0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x417B8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41A40);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitEffectMapItem*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::HitEffectMapItem*>**)Il2CppClass::FromTypeDefinitionIndex(HitRotationOverrideMapItem_HitRotationOverrideMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41A48);
 		}
 
 		::System::Void _ctor()

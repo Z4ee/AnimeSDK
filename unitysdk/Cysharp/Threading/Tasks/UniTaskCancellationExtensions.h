@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Component; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B5BDA60)
+#define CYSHARP_THREADING_TASKS_UNITASKCANCELLATIONEXTENSIONS_GETCANCELLATIONTOKENONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C326700)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCancellationExtensions_TypeDefinitionIndex = 28060;
+	inline static constexpr unsigned int UniTaskCancellationExtensions_TypeDefinitionIndex = 28578;
 
 	class UniTaskCancellationExtensions : public ::System::Object
 	{

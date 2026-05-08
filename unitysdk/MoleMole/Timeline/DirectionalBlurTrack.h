@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xC32FE70)
-#define MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xC330140)
-#define MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC330110)
+#define MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15E5D9E0)
+#define MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x15E5DC90)
+#define MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5DC30)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int DirectionalBlurTrack_TypeDefinitionIndex = 52981;
+	inline static constexpr unsigned int DirectionalBlurTrack_TypeDefinitionIndex = 61926;
 
 	class DirectionalBlurTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_DIRECTIONALBLURTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

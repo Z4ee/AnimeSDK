@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class EffectSimluateBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB9C13D0)
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB9C13C0)
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C1540)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15B5C7C0)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15B5C7B0)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15B5C910)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EffectSimluateClip_TypeDefinitionIndex = 51816;
+	inline static constexpr unsigned int EffectSimluateClip_TypeDefinitionIndex = 63364;
 
 	class EffectSimluateClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -8,25 +8,25 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoMarcelBlock; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_0D3E1861111CA25D_CLASS_1_FF0D933DEAE4BD01__CTOR_OFFSET UNITYSDK_OFFSET(0xD600910)
+#define CLASS_2_0D3E1861111CA25D_CLASS_1_FF0D933DEAE4BD01__CTOR_OFFSET UNITYSDK_OFFSET(0x17851D50)
 
-inline static constexpr unsigned int Class_2_0D3E1861111CA25D_Class_1_FF0D933DEAE4BD01_TypeDefinitionIndex = 57209;
+inline static constexpr unsigned int Class_2_0D3E1861111CA25D_Class_1_FF0D933DEAE4BD01_TypeDefinitionIndex = 59486;
 
 class Class_2_0D3E1861111CA25D_Class_1_FF0D933DEAE4BD01 : public ::System::Object
 {
 public:
-	::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock*>* Field_1_9; // 0x18
-	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock*>* Field_1_11; // 0x20
-	::MoleMole::Battle::Entity* Field_1_0; // 0x28
-	::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock* Field_1_1; // 0x30
+	::MoleMole::Battle::Entity* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_2_0D3E1861111CA25D_Class_1_B63F27A9FEEF1BA1*>* Field_1_8; // 0x18
+	::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock* Field_1_2; // 0x20
+	::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock* Field_1_1; // 0x28
+	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock*>* Field_1_9; // 0x30
 	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock*>* Field_1_10; // 0x38
-	::System::Collections::Generic::List_1<::Class_2_0D3E1861111CA25D_Class_1_B63F27A9FEEF1BA1*>* Field_1_8; // 0x40
+	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoMarcelBlock*>* Field_1_11; // 0x40
 	::System::Single Field_1_6; // 0x48
-	::System::Single Field_1_7; // 0x4C
-	::System::Boolean Field_1_3; // 0x50
-	::System::Boolean Field_1_4; // 0x51
-	::Class_2_0D3E1861111CA25D_Enum_3_D18311BD420527DE Field_1_5; // 0x54
+	::Class_2_0D3E1861111CA25D_Enum_3_D18311BD420527DE Field_1_5; // 0x4C
+	::System::Boolean Field_1_4; // 0x50
+	::System::Boolean Field_1_3; // 0x51
+	::System::Single Field_1_7; // 0x54
 
 	::System::Void _ctor()
 	{

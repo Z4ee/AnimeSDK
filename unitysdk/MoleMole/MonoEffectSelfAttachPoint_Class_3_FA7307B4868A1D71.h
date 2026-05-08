@@ -11,22 +11,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB8C9DD0)
-#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB8C9DE0)
-#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71_WRITE_OFFSET UNITYSDK_OFFSET(0xB8C9F30)
-#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8CA090)
-#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71__CTOR_OFFSET UNITYSDK_OFFSET(0xB8CA050)
+#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x170E3520)
+#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71_READMEMBER_OFFSET UNITYSDK_OFFSET(0x170E3530)
+#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71_WRITE_OFFSET UNITYSDK_OFFSET(0x170E3660)
+#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71__CCTOR_OFFSET UNITYSDK_OFFSET(0x170E37A0)
+#define MOLEMOLE_MONOEFFECTSELFATTACHPOINT_CLASS_3_FA7307B4868A1D71__CTOR_OFFSET UNITYSDK_OFFSET(0x170E3760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectSelfAttachPoint_Class_3_FA7307B4868A1D71_TypeDefinitionIndex = 54631;
+	inline static constexpr unsigned int MonoEffectSelfAttachPoint_Class_3_FA7307B4868A1D71_TypeDefinitionIndex = 73886;
 
 	class MonoEffectSelfAttachPoint_Class_3_FA7307B4868A1D71 : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoEffectSelfAttachPoint*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>*>** StaticGet_Field_3_0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectSelfAttachPoint_Class_3_FA7307B4868A1D71_TypeDefinitionIndex)->GetStaticField(0x317D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectSelfAttachPoint_Class_3_FA7307B4868A1D71_TypeDefinitionIndex)->GetStaticField(0x49570);
 		}
 
 		::System::Void _ctor()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19446ED0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F10AC0)
 
 namespace System::Text::RegularExpressions
 {
@@ -11,8 +11,8 @@ namespace System::Text::RegularExpressions
 	class RegexCharClass_SingleRange : public ::System::Object
 	{
 	public:
-		::System::Char _first; // 0x10
-		::System::Char _last; // 0x12
+		::System::Char _last; // 0x10
+		::System::Char _first; // 0x12
 
 		::System::Void _ctor(::System::Char first, ::System::Char last)
 		{

@@ -4,9 +4,9 @@
 #include "unitysdk/NapLodController_NapLODLevel.h"
 
 class BlackCurtainEffect;
-class Class_3_9AE843FF905C0BDB;
-class Class_3_A5AF8EA2F7094EFB;
-class Class_3_F35B080B137ECC46;
+class Class_3_D6DA183EF60F02C8;
+class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_FFD0045B4597F294;
 namespace Foundation { template <typename T> class CustomEventAction_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigBlackCurtain; }
@@ -17,79 +17,79 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define BLACKCURTAINMANAGER_ACTIVE_OFFSET UNITYSDK_OFFSET(0x6CDF050)
-#define BLACKCURTAINMANAGER_CASTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x6CE4EC0)
-#define BLACKCURTAINMANAGER_DEACTIVE_OFFSET UNITYSDK_OFFSET(0x6CE1A20)
-#define BLACKCURTAINMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6CDEC40)
-#define BLACKCURTAINMANAGER_DOAVATARBACKUP_OFFSET UNITYSDK_OFFSET(0x6CE4480)
-#define BLACKCURTAINMANAGER_DOAVATAR_OFFSET UNITYSDK_OFFSET(0x6CE16F0)
-#define BLACKCURTAINMANAGER_DOBUDDY_OFFSET UNITYSDK_OFFSET(0x6CE2D10)
-#define BLACKCURTAINMANAGER_DOENTITY_OFFSET UNITYSDK_OFFSET(0x6CE3CF0)
-#define BLACKCURTAINMANAGER_DOLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x6CE2AC0)
-#define BLACKCURTAINMANAGER_DOMONSTER_OFFSET UNITYSDK_OFFSET(0x6CE11A0)
-#define BLACKCURTAINMANAGER_DOPARTNERAVATAR_OFFSET UNITYSDK_OFFSET(0x6CE27C0)
-#define BLACKCURTAINMANAGER_DOPARTNERFOLLOWAVATAR_OFFSET UNITYSDK_OFFSET(0x6CE4B90)
-#define BLACKCURTAINMANAGER_DOSTAGEROOT_OFFSET UNITYSDK_OFFSET(0x6CE3330)
-#define BLACKCURTAINMANAGER_DOTEAMAVATAR_OFFSET UNITYSDK_OFFSET(0x6CE2500)
-#define BLACKCURTAINMANAGER_FORCEDEACTIVEALL_OFFSET UNITYSDK_OFFSET(0x6CDECB0)
-#define BLACKCURTAINMANAGER_GETCASTERENTITY_OFFSET UNITYSDK_OFFSET(0x6CE0F80)
-#define BLACKCURTAINMANAGER_GETEFFECTRENDERENABLE_OFFSET UNITYSDK_OFFSET(0x6CE5B20)
-#define BLACKCURTAINMANAGER_ISACITVE_OFFSET UNITYSDK_OFFSET(0x6CDEF80)
-#define BLACKCURTAINMANAGER_ISCASTERENABLE_OFFSET UNITYSDK_OFFSET(0x6CE3B40)
-#define BLACKCURTAINMANAGER_ISDISABLEQTE_OFFSET UNITYSDK_OFFSET(0x6CDEFE0)
-#define BLACKCURTAINMANAGER_ISINENTITYWHITELIST_OFFSET UNITYSDK_OFFSET(0x6CE3980)
-#define BLACKCURTAINMANAGER_ONCREATE_OFFSET UNITYSDK_OFFSET(0x6CDEE70)
-#define BLACKCURTAINMANAGER_OVERRIDELODLEVEL_OFFSET UNITYSDK_OFFSET(0x6CE46F0)
-#define BLACKCURTAINMANAGER_PROCESSEFFECTLIGHT_OFFSET UNITYSDK_OFFSET(0x6CE60A0)
-#define BLACKCURTAINMANAGER_PROCESSEFFECTRENDERINGLAYERMASK_1_OFFSET UNITYSDK_OFFSET(0x6CE6330)
-#define BLACKCURTAINMANAGER_PROCESSEFFECTRENDERINGLAYERMASK_2_OFFSET UNITYSDK_OFFSET(0x6CE0B30)
-#define BLACKCURTAINMANAGER_PROCESSEFFECTRENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0x6CE59B0)
-#define BLACKCURTAINMANAGER_REFRESHSUMMONER_OFFSET UNITYSDK_OFFSET(0x6CE0C60)
-#define BLACKCURTAINMANAGER_REGISTERCARRYABLEEFFECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x6CE5EC0)
-#define BLACKCURTAINMANAGER_RESETBYCONFIG_OFFSET UNITYSDK_OFFSET(0x6CDF7B0)
-#define BLACKCURTAINMANAGER_SETHIZ_OFFSET UNITYSDK_OFFSET(0x6CE5130)
-#define BLACKCURTAINMANAGER_SETLIGHTENABLE_OFFSET UNITYSDK_OFFSET(0x6CE2300)
-#define BLACKCURTAINMANAGER_SETRECEIVESHADOWS_1_OFFSET UNITYSDK_OFFSET(0x6CE57B0)
-#define BLACKCURTAINMANAGER_SETRECEIVESHADOWS_OFFSET UNITYSDK_OFFSET(0x6CE5630)
-#define BLACKCURTAINMANAGER_SETRENDERINGLAYERMASKLAYER5_OFFSET UNITYSDK_OFFSET(0x6CE21B0)
-#define BLACKCURTAINMANAGER_SETSHADOWCOLORFADEBYZ_OFFSET UNITYSDK_OFFSET(0x6CE53A0)
-#define BLACKCURTAINMANAGER_SUSPENDCURRENTMATPROPERTYMODIFIERS_OFFSET UNITYSDK_OFFSET(0x6CE0880)
-#define BLACKCURTAINMANAGER_UNREGISTERCARRYABLEEFFECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x6CE5F70)
-#define BLACKCURTAINMANAGER_UNSUSPENDCURRENTMATPROPERTYMODIFIERS_OFFSET UNITYSDK_OFFSET(0x6CE1F50)
-#define BLACKCURTAINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x6CE6800)
-#define BLACKCURTAINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x6CE6490)
+#define BLACKCURTAINMANAGER_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1165B350)
+#define BLACKCURTAINMANAGER_CASTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x11661690)
+#define BLACKCURTAINMANAGER_DEACTIVE_OFFSET UNITYSDK_OFFSET(0x1165DF00)
+#define BLACKCURTAINMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1165AFF0)
+#define BLACKCURTAINMANAGER_DOAVATARBACKUP_OFFSET UNITYSDK_OFFSET(0x11660B00)
+#define BLACKCURTAINMANAGER_DOAVATAR_OFFSET UNITYSDK_OFFSET(0x1165DC00)
+#define BLACKCURTAINMANAGER_DOBUDDY_OFFSET UNITYSDK_OFFSET(0x1165F220)
+#define BLACKCURTAINMANAGER_DOENTITY_OFFSET UNITYSDK_OFFSET(0x116601B0)
+#define BLACKCURTAINMANAGER_DOLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x1165EFF0)
+#define BLACKCURTAINMANAGER_DOMONSTER_OFFSET UNITYSDK_OFFSET(0x1165D6F0)
+#define BLACKCURTAINMANAGER_DOPARTNERAVATAR_OFFSET UNITYSDK_OFFSET(0x1165ED10)
+#define BLACKCURTAINMANAGER_DOPARTNERFOLLOWAVATAR_OFFSET UNITYSDK_OFFSET(0x11661380)
+#define BLACKCURTAINMANAGER_DOSTAGEROOT_OFFSET UNITYSDK_OFFSET(0x1165F7E0)
+#define BLACKCURTAINMANAGER_DOTEAMAVATAR_OFFSET UNITYSDK_OFFSET(0x1165EA80)
+#define BLACKCURTAINMANAGER_FORCEDEACTIVEALL_OFFSET UNITYSDK_OFFSET(0x1165B040)
+#define BLACKCURTAINMANAGER_GETCASTERENTITY_OFFSET UNITYSDK_OFFSET(0x1165D500)
+#define BLACKCURTAINMANAGER_GETEFFECTRENDERENABLE_OFFSET UNITYSDK_OFFSET(0x11662360)
+#define BLACKCURTAINMANAGER_ISACITVE_OFFSET UNITYSDK_OFFSET(0x1165B2B0)
+#define BLACKCURTAINMANAGER_ISCASTERENABLE_OFFSET UNITYSDK_OFFSET(0x11660080)
+#define BLACKCURTAINMANAGER_ISDISABLEQTE_OFFSET UNITYSDK_OFFSET(0x1165B2F0)
+#define BLACKCURTAINMANAGER_ISINENTITYWHITELIST_OFFSET UNITYSDK_OFFSET(0x1165FF00)
+#define BLACKCURTAINMANAGER_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1165B1D0)
+#define BLACKCURTAINMANAGER_OVERRIDELODLEVEL_OFFSET UNITYSDK_OFFSET(0x11660D50)
+#define BLACKCURTAINMANAGER_PROCESSEFFECTLIGHT_OFFSET UNITYSDK_OFFSET(0x11662820)
+#define BLACKCURTAINMANAGER_PROCESSEFFECTRENDERINGLAYERMASK_1_OFFSET UNITYSDK_OFFSET(0x11662B80)
+#define BLACKCURTAINMANAGER_PROCESSEFFECTRENDERINGLAYERMASK_2_OFFSET UNITYSDK_OFFSET(0x1165D090)
+#define BLACKCURTAINMANAGER_PROCESSEFFECTRENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0x116621F0)
+#define BLACKCURTAINMANAGER_REFRESHSUMMONER_OFFSET UNITYSDK_OFFSET(0x1165D240)
+#define BLACKCURTAINMANAGER_REGISTERCARRYABLEEFFECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x11662660)
+#define BLACKCURTAINMANAGER_RESETBYCONFIG_OFFSET UNITYSDK_OFFSET(0x1165BB90)
+#define BLACKCURTAINMANAGER_SETHIZ_OFFSET UNITYSDK_OFFSET(0x11661950)
+#define BLACKCURTAINMANAGER_SETLIGHTENABLE_OFFSET UNITYSDK_OFFSET(0x1165E830)
+#define BLACKCURTAINMANAGER_SETRECEIVESHADOWS_1_OFFSET UNITYSDK_OFFSET(0x11662010)
+#define BLACKCURTAINMANAGER_SETRECEIVESHADOWS_OFFSET UNITYSDK_OFFSET(0x11661EB0)
+#define BLACKCURTAINMANAGER_SETRENDERINGLAYERMASKLAYER5_OFFSET UNITYSDK_OFFSET(0x1165E660)
+#define BLACKCURTAINMANAGER_SETSHADOWCOLORFADEBYZ_OFFSET UNITYSDK_OFFSET(0x11661C10)
+#define BLACKCURTAINMANAGER_SUSPENDCURRENTMATPROPERTYMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1165CE20)
+#define BLACKCURTAINMANAGER_UNREGISTERCARRYABLEEFFECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x11662710)
+#define BLACKCURTAINMANAGER_UNSUSPENDCURRENTMATPROPERTYMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1165E440)
+#define BLACKCURTAINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11663110)
+#define BLACKCURTAINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11662D60)
 
-inline static constexpr unsigned int BlackCurtainManager_TypeDefinitionIndex = 81033;
+inline static constexpr unsigned int BlackCurtainManager_TypeDefinitionIndex = 81368;
 
 class BlackCurtainManager : public ::Foundation::SingletonDisposable_1<::BlackCurtainManager*>
 {
 public:
-	static ::System::UInt32* StaticGet_RenderingLayer5Mask()
-	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager_TypeDefinitionIndex)->GetStaticField(0xCB30);
-	}
 	static ::System::Int32* StaticGet_ShadowColorFadeByZ()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager_TypeDefinitionIndex)->GetStaticField(0xCB34);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager_TypeDefinitionIndex)->GetStaticField(0xCAC0);
 	}
 	static ::System::UInt32* StaticGet_RenderingLayer5UnMask()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager_TypeDefinitionIndex)->GetStaticField(0xCB38);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager_TypeDefinitionIndex)->GetStaticField(0xCAC4);
+	}
+	static ::System::UInt32* StaticGet_RenderingLayer5Mask()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager_TypeDefinitionIndex)->GetStaticField(0xCAC8);
 	}
 	// static const ::System::Int32 layer = 0x4; // 0x0
 	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* _carryableEffectRenders; // 0x10
-	::System::Collections::Generic::List_1<::BlackCurtainEffect*>* _activeEffects; // 0x18
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Boolean>* _disabledShadowRenderDict; // 0x20
-	::MoleMole::Config::ConfigBlackCurtain* _activeConfig; // 0x28
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Boolean>* _disabledReceiveShadowRenderDict; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::BlackCurtainEffect*>* _activeEffectDic; // 0x38
-	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* _changedRenders; // 0x40
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Boolean>* _disabledReceiveShadowMaterialDict; // 0x48
-	::Foundation::CustomEventAction_1<::System::Boolean>* OnBlackCurtainChangedCallback; // 0x50
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Light*, ::System::Int32>* _disabledLightsDict; // 0x58
-	::System::Collections::Generic::List_1<::UnityEngine::Light*>* _changedLights; // 0x60
-	::System::Boolean _isActive; // 0x68
-	::System::Boolean _isDisableQTE; // 0x69
+	::MoleMole::Config::ConfigBlackCurtain* _activeConfig; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Light*>* _changedLights; // 0x20
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Boolean>* _disabledReceiveShadowMaterialDict; // 0x28
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Boolean>* _disabledShadowRenderDict; // 0x30
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Boolean>* _disabledReceiveShadowRenderDict; // 0x38
+	::Foundation::CustomEventAction_1<::System::Boolean>* OnBlackCurtainChangedCallback; // 0x40
+	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* _changedRenders; // 0x48
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Light*, ::System::Int32>* _disabledLightsDict; // 0x50
+	::System::Collections::Generic::List_1<::BlackCurtainEffect*>* _activeEffects; // 0x58
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::BlackCurtainEffect*>* _activeEffectDic; // 0x60
+	::System::Boolean _isDisableQTE; // 0x68
+	::System::Boolean _isActive; // 0x69
 
 	::System::Void _ctor()
 	{
@@ -211,14 +211,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::Config::ConfigBlackCurtain*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_DOBUDDY_OFFSET))(this, enable, config, casterEntity);
 	}
 
-	::System::Void CastPerObjectShadow(::Class_3_F35B080B137ECC46* model, ::System::Boolean enable)
+	::System::Void CastPerObjectShadow(::Class_3_DFD5D1FDB9D2A4AC* model, ::System::Boolean enable)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_F35B080B137ECC46*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_CASTPEROBJECTSHADOW_OFFSET))(this, model, enable);
+		return ((::System::Void(*)(::PVOID, ::Class_3_DFD5D1FDB9D2A4AC*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_CASTPEROBJECTSHADOW_OFFSET))(this, model, enable);
 	}
 
-	::System::Void SetHiz(::Class_3_F35B080B137ECC46* model, ::System::Boolean enable)
+	::System::Void SetHiz(::Class_3_DFD5D1FDB9D2A4AC* model, ::System::Boolean enable)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_F35B080B137ECC46*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_SETHIZ_OFFSET))(this, model, enable);
+		return ((::System::Void(*)(::PVOID, ::Class_3_DFD5D1FDB9D2A4AC*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_SETHIZ_OFFSET))(this, model, enable);
 	}
 
 	::System::Void DoStageRoot(::System::Boolean enable, ::MoleMole::Config::ConfigBlackCurtain* config)
@@ -226,14 +226,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::Config::ConfigBlackCurtain*))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_DOSTAGEROOT_OFFSET))(this, enable, config);
 	}
 
-	::System::Void DoEntity(::Class_3_F35B080B137ECC46* model, ::System::Boolean enableInBlackCurtain, ::MoleMole::Config::ConfigBlackCurtain* config, ::System::Boolean processMDB)
+	::System::Void DoEntity(::Class_3_DFD5D1FDB9D2A4AC* model, ::System::Boolean enableInBlackCurtain, ::MoleMole::Config::ConfigBlackCurtain* config, ::System::Boolean processMDB)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_F35B080B137ECC46*, ::System::Boolean, ::MoleMole::Config::ConfigBlackCurtain*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_DOENTITY_OFFSET))(this, model, enableInBlackCurtain, config, processMDB);
+		return ((::System::Void(*)(::PVOID, ::Class_3_DFD5D1FDB9D2A4AC*, ::System::Boolean, ::MoleMole::Config::ConfigBlackCurtain*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_DOENTITY_OFFSET))(this, model, enableInBlackCurtain, config, processMDB);
 	}
 
-	::System::Void OverrideLodLevel(::Class_3_F35B080B137ECC46* model, ::System::Boolean enable, ::NapLodController_NapLODLevel lodLevel)
+	::System::Void OverrideLodLevel(::Class_3_DFD5D1FDB9D2A4AC* model, ::System::Boolean enable, ::NapLodController_NapLODLevel lodLevel)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_F35B080B137ECC46*, ::System::Boolean, ::NapLodController_NapLODLevel))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_OVERRIDELODLEVEL_OFFSET))(this, model, enable, lodLevel);
+		return ((::System::Void(*)(::PVOID, ::Class_3_DFD5D1FDB9D2A4AC*, ::System::Boolean, ::NapLodController_NapLODLevel))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_OVERRIDELODLEVEL_OFFSET))(this, model, enable, lodLevel);
 	}
 
 	::System::Boolean ProcessEffectRenderingLayerMask(::MoleMole::Battle::Entity* casterEntity, ::Il2CppArray<::UnityEngine::Renderer*>* renderers)
@@ -251,9 +251,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_UNREGISTERCARRYABLEEFFECTRENDERERS_OFFSET))(this, renderers);
 	}
 
-	::System::Boolean ProcessEffectLight(::MoleMole::Battle::Entity* casterEntity, ::Class_3_A5AF8EA2F7094EFB* modelComponent, ::System::Boolean isNewEffect)
+	::System::Boolean ProcessEffectLight(::MoleMole::Battle::Entity* casterEntity, ::Class_3_D6DA183EF60F02C8* modelComponent, ::System::Boolean isNewEffect)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_A5AF8EA2F7094EFB*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_PROCESSEFFECTLIGHT_OFFSET))(this, casterEntity, modelComponent, isNewEffect);
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_D6DA183EF60F02C8*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_PROCESSEFFECTLIGHT_OFFSET))(this, casterEntity, modelComponent, isNewEffect);
 	}
 
 	::System::Void ProcessEffectRenderingLayerMask_1(::MoleMole::Battle::Entity* casterEntity, ::UnityEngine::Renderer* renderer)
@@ -276,9 +276,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_SETRENDERINGLAYERMASKLAYER5_OFFSET))(this, renderer, isValid);
 	}
 
-	::System::Void SetShadowColorFadeByZ(::Class_3_9AE843FF905C0BDB* materialComponent, ::UnityEngine::Renderer* renderer, ::System::Boolean isEnable)
+	::System::Void SetShadowColorFadeByZ(::Class_3_FFD0045B4597F294* materialComponent, ::UnityEngine::Renderer* renderer, ::System::Boolean isEnable)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_9AE843FF905C0BDB*, ::UnityEngine::Renderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_SETSHADOWCOLORFADEBYZ_OFFSET))(this, materialComponent, renderer, isEnable);
+		return ((::System::Void(*)(::PVOID, ::Class_3_FFD0045B4597F294*, ::UnityEngine::Renderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLACKCURTAINMANAGER_SETSHADOWCOLORFADEBYZ_OFFSET))(this, materialComponent, renderer, isEnable);
 	}
 
 	::System::Void SetReceiveShadows(::UnityEngine::Renderer* renderer, ::System::Boolean isEnable)

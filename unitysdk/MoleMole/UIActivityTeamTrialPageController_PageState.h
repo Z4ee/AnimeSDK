@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialPageController_PageState_TypeDefinitionIndex = 79105;
+	inline static constexpr unsigned int UIActivityTeamTrialPageController_PageState_TypeDefinitionIndex = 67541;
 
 	enum class UIActivityTeamTrialPageController_PageState : ::System::Int32
 	{
-		LevelInfo = 2,
 		LevelList = 1,
 		None = 0,
+		LevelInfo = 2,
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_35.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_33.h"
 
 class Class_2_D02DABCF41CDA271;
 class Class_2_DF2C726EEEEC912D;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_2_7A02298D799E8726_METHOD_2_B7A0FE6242924BC4_OFFSET UNITYSDK_OFFSET(0x76F2A00)
-#define CLASS_2_7A02298D799E8726__CTOR_OFFSET UNITYSDK_OFFSET(0x76F2AD0)
+#define CLASS_2_7A02298D799E8726_METHOD_2_B7A0FE6242924BC4_OFFSET UNITYSDK_OFFSET(0x121C0CF0)
+#define CLASS_2_7A02298D799E8726__CTOR_OFFSET UNITYSDK_OFFSET(0x121C0DA0)
 
-inline static constexpr unsigned int Class_2_7A02298D799E8726_TypeDefinitionIndex = 46852;
+inline static constexpr unsigned int Class_2_7A02298D799E8726_TypeDefinitionIndex = 79285;
 
-class Class_2_7A02298D799E8726 : public ::Class_1_43BD383C98B4C0C5_35
+class Class_2_7A02298D799E8726 : public ::Class_1_43BD383C98B4C0C5_33
 {
 public:
 	::System::Void _ctor()

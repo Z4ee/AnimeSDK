@@ -12,22 +12,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace miHoYoEmotion { class StopShapeData; }
 
-#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18FE2470)
-#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18FE2480)
-#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18FE25B0)
-#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FE26F0)
-#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE26B0)
+#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x197A0B60)
+#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x197A0B70)
+#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x197A0CA0)
+#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x197A0DE0)
+#define MIHOYOEMOTION_STOPSHAPEDATA_STOPSHAPEDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x197A0DA0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int StopShapeData_StopShapeData_UnityGeneratedFormatter_TypeDefinitionIndex = 37230;
+	inline static constexpr unsigned int StopShapeData_StopShapeData_UnityGeneratedFormatter_TypeDefinitionIndex = 37774;
 
 	class StopShapeData_StopShapeData_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::miHoYoEmotion::StopShapeData*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::miHoYoEmotion::BlendShapeData>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::miHoYoEmotion::BlendShapeData>*>*>**)Il2CppClass::FromTypeDefinitionIndex(StopShapeData_StopShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x28770);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::miHoYoEmotion::BlendShapeData>*>*>**)Il2CppClass::FromTypeDefinitionIndex(StopShapeData_StopShapeData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x29320);
 		}
 
 		::System::Void _ctor()

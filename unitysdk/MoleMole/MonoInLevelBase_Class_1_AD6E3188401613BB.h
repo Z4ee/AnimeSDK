@@ -9,7 +9,7 @@ namespace UnityEngine { class Object; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInLevelBase_Class_1_AD6E3188401613BB_TypeDefinitionIndex = 42716;
+	inline static constexpr unsigned int MonoInLevelBase_Class_1_AD6E3188401613BB_TypeDefinitionIndex = 63904;
 
 	template <typename T>
 	class MonoInLevelBase_Class_1_AD6E3188401613BB : public ::System::Object

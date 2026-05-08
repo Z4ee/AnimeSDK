@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAnimatorStateType_TypeDefinitionIndex = 73912;
+	inline static constexpr unsigned int CharacterAnimatorStateType_TypeDefinitionIndex = 61575;
 
 	enum class CharacterAnimatorStateType : ::System::Int32
 	{
-		Max = 3,
-		Floor = 2,
-		Ground = 0,
 		Sky = 1,
+		Floor = 2,
+		Max = 3,
+		Ground = 0,
 	};
 }

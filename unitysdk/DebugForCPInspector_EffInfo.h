@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int DebugForCPInspector_EffInfo_TypeDefinitionIndex = 83524;
+inline static constexpr unsigned int DebugForCPInspector_EffInfo_TypeDefinitionIndex = 85215;
 
 struct alignas(8) DebugForCPInspector_EffInfo
 {

@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x78E1CA0)
-#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x78E1F20)
-#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x78E2070)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x159BAF80)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x159BB380)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x159BB4B0)
 
 namespace MoleMole::Audio
 {
-	inline static constexpr unsigned int MonoSoundSceneObject_TypeDefinitionIndex = 75165;
+	inline static constexpr unsigned int MonoSoundSceneObject_TypeDefinitionIndex = 42061;
 
 	class MonoSoundSceneObject : public ::UnityEngine::MonoBehaviour
 	{

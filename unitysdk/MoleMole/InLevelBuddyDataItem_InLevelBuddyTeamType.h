@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelBuddyDataItem_InLevelBuddyTeamType_TypeDefinitionIndex = 61520;
+	inline static constexpr unsigned int InLevelBuddyDataItem_InLevelBuddyTeamType_TypeDefinitionIndex = 52246;
 
 	enum class InLevelBuddyDataItem_InLevelBuddyTeamType : ::System::Int32
 	{

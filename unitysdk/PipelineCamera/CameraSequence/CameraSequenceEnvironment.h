@@ -14,12 +14,12 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A645130)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6451F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B0729F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B072A90)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEnvironment_TypeDefinitionIndex = 35794;
+	inline static constexpr unsigned int CameraSequenceEnvironment_TypeDefinitionIndex = 36338;
 
 	class CameraSequenceEnvironment : public ::System::Object
 	{

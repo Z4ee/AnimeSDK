@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_TABLECOLUMNWIDTHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1166D0)
+#define SIRENIX_ODININSPECTOR_TABLECOLUMNWIDTHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021BA0)
 
 namespace Sirenix::OdinInspector
 {
@@ -11,8 +11,8 @@ namespace Sirenix::OdinInspector
 	class TableColumnWidthAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Boolean Resizable; // 0x10
-		::System::Int32 Width; // 0x14
+		::System::Int32 Width; // 0x10
+		::System::Boolean Resizable; // 0x14
 
 		::System::Void _ctor(::System::Int32 width, ::System::Boolean resizable)
 		{

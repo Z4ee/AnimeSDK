@@ -4,21 +4,21 @@
 
 namespace System::Reflection { class ConstructorInfo; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4EA4D0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EA510)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1B4EA520)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C___CCTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1B4EA560)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C221630)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C221670)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1C221680)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO___C___CCTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1C2216C0)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo___c_TypeDefinitionIndex = 83848;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo___c_TypeDefinitionIndex = 85576;
 
 	class DynamicObjectTypeBuilder_EmitInfo___c : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_EmitInfo___c** StaticGet___9()
 		{
-			return (::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_EmitInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_EmitInfo___c_TypeDefinitionIndex)->GetStaticField(0x48F30);
+			return (::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_EmitInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_EmitInfo___c_TypeDefinitionIndex)->GetStaticField(0x4AAA0);
 		}
 
 		static ::System::Void _cctor()

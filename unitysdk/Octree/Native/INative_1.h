@@ -4,7 +4,7 @@
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int INative_1_TypeDefinitionIndex = 44379;
+	inline static constexpr unsigned int INative_1_TypeDefinitionIndex = 41484;
 
 	template <typename T>
 	class INative_1

@@ -5,29 +5,29 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__BINDVIEWCALLBACKS_B__14_0_OFFSET UNITYSDK_OFFSET(0xD562C10)
-#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__BINDVIEWCALLBACKS_B__14_10_OFFSET UNITYSDK_OFFSET(0xD562CA0)
-#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD562BC0)
-#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD562C00)
+#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__BINDVIEWCALLBACKS_B__14_0_OFFSET UNITYSDK_OFFSET(0x15794480)
+#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__BINDVIEWCALLBACKS_B__14_10_OFFSET UNITYSDK_OFFSET(0x15794510)
+#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15794430)
+#define MOLEMOLE_UIFLOWERSHOPPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15794470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopPrepPageController___c_TypeDefinitionIndex = 59566;
+	inline static constexpr unsigned int UIFlowerShopPrepPageController___c_TypeDefinitionIndex = 60010;
 
 	class UIFlowerShopPrepPageController___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__14_0()
+		static ::MoleMole::UIFlowerShopPrepPageController___c** StaticGet___9()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerShopPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x39770);
+			return (::MoleMole::UIFlowerShopPrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerShopPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x3AA30);
 		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__14_10()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerShopPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x39778);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerShopPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x3AA38);
 		}
-		static ::MoleMole::UIFlowerShopPrepPageController___c** StaticGet___9()
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__14_0()
 		{
-			return (::MoleMole::UIFlowerShopPrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerShopPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x39780);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerShopPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x3AA40);
 		}
 
 		static ::System::Void _cctor()

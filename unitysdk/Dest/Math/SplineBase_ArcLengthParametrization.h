@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION_GETAPPROXIMATETIMEPARAMETER_OFFSET UNITYSDK_OFFSET(0x1B660400)
-#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B660560)
+#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION_GETAPPROXIMATETIMEPARAMETER_OFFSET UNITYSDK_OFFSET(0x1C3AF890)
+#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3AF9F0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int SplineBase_ArcLengthParametrization_TypeDefinitionIndex = 32700;
+	inline static constexpr unsigned int SplineBase_ArcLengthParametrization_TypeDefinitionIndex = 33235;
 
 	class SplineBase_ArcLengthParametrization : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* tSample; // 0x10
-		::Il2CppArray<::System::Single>* tsSlope; // 0x18
-		::Il2CppArray<::System::Single>* sSample; // 0x20
+		::Il2CppArray<::System::Single>* sSample; // 0x18
+		::Il2CppArray<::System::Single>* tsSlope; // 0x20
 		::System::Single L; // 0x28
 
 		::System::Void _ctor()

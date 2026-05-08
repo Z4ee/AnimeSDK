@@ -4,7 +4,7 @@
 #include "unitysdk/MoleMole/HollowChessboard/GeometryHeightType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_11287F05B515FFA7_TypeDefinitionIndex = 44296;
+inline static constexpr unsigned int Struct_2_11287F05B515FFA7_TypeDefinitionIndex = 39829;
 
 struct alignas(4) Struct_2_11287F05B515FFA7
 {

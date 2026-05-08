@@ -5,24 +5,24 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8FE540)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FE580)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__FILTERQTECAMERABASEINFO_B__24_1_OFFSET UNITYSDK_OFFSET(0xB8FE590)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13989B50)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13989B90)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__FILTERQTECAMERABASEINFO_B__24_1_OFFSET UNITYSDK_OFFSET(0x13989BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfigBase___c_TypeDefinitionIndex = 61931;
+	inline static constexpr unsigned int CharacterScriptConfigBase___c_TypeDefinitionIndex = 78434;
 
 	class CharacterScriptConfigBase___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfigBase___c_TypeDefinitionIndex)->GetStaticField(0x38EC0);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfigBase___c_TypeDefinitionIndex)->GetStaticField(0x3A100);
 		}
 		static ::MoleMole::CharacterScriptConfigBase___c** StaticGet___9()
 		{
-			return (::MoleMole::CharacterScriptConfigBase___c**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfigBase___c_TypeDefinitionIndex)->GetStaticField(0x38EC8);
+			return (::MoleMole::CharacterScriptConfigBase___c**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfigBase___c_TypeDefinitionIndex)->GetStaticField(0x3A108);
 		}
 
 		static ::System::Void _cctor()

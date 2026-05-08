@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA38E9F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA38EC20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x170CE3D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x170CE670)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_UpdateGlobalVariable_TypeDefinitionIndex = 74380;
+	inline static constexpr unsigned int LD_UpdateGlobalVariable_TypeDefinitionIndex = 47424;
 
 	class LD_UpdateGlobalVariable : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::String*, ::System::Int32>
 	{

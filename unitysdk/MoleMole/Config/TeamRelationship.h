@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TeamRelationship_TypeDefinitionIndex = 76703;
+	inline static constexpr unsigned int TeamRelationship_TypeDefinitionIndex = 47631;
 
 	enum class TeamRelationship : ::System::Int32
 	{

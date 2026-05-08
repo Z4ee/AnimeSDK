@@ -7,11 +7,11 @@ namespace System { class Type; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x19BF3240)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x19BF3230)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x19BF3300)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x19BF3310)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD9EC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1A3F0F80)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1A3F0F70)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A3F1040)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1A3F1050)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D7480)
 
 namespace System::Linq::Expressions
 {
@@ -20,11 +20,11 @@ namespace System::Linq::Expressions
 	class InvocationExpression5 : public ::System::Linq::Expressions::InvocationExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg2; // 0x20
-		::System::Linq::Expressions::Expression* _arg3; // 0x28
-		::System::Object* _arg0; // 0x30
-		::System::Linq::Expressions::Expression* _arg4; // 0x38
-		::System::Linq::Expressions::Expression* _arg1; // 0x40
+		::System::Linq::Expressions::Expression* _arg4; // 0x20
+		::System::Linq::Expressions::Expression* _arg1; // 0x28
+		::System::Linq::Expressions::Expression* _arg3; // 0x30
+		::System::Linq::Expressions::Expression* _arg2; // 0x38
+		::System::Object* _arg0; // 0x40
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4)
 		{

@@ -7,7 +7,7 @@ namespace MoleMole { class UISuibianTempleDeployBangbooDetailWidgetController; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 50872;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 81108;
 
 	struct alignas(8) UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass19_0
 	{

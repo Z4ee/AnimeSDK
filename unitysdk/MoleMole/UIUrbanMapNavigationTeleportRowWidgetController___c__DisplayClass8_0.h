@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace MoleMole { class UIUrbanMapNavigationTeleportRowWidgetController; }
 
-#define MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9538D70)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x9538D80)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE8512A0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__3_OFFSET UNITYSDK_OFFSET(0xE8512B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapNavigationTeleportRowWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 73335;
+	inline static constexpr unsigned int UIUrbanMapNavigationTeleportRowWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 52904;
 
 	class UIUrbanMapNavigationTeleportRowWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnUIInit_b__2()
+		::System::Void _OnUIInit_b__3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__3_OFFSET))(this);
 		}
 	};
 }

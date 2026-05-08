@@ -5,18 +5,18 @@
 namespace MoleMole { class UIActivityHotPotStrategyWidgetController; }
 namespace MoleMole { class UIActivityHotPotStrategyWidgetController_Data; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF8920)
-#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xCFF8930)
+#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B7DBC0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15B7DBD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotStrategyWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 69926;
+	inline static constexpr unsigned int UIActivityHotPotStrategyWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 47610;
 
 	class UIActivityHotPotStrategyWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityHotPotStrategyWidgetController* __4__this; // 0x10
-		::MoleMole::UIActivityHotPotStrategyWidgetController_Data* context; // 0x18
+		::MoleMole::UIActivityHotPotStrategyWidgetController_Data* context; // 0x10
+		::MoleMole::UIActivityHotPotStrategyWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

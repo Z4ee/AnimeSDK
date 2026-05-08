@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int RelayControl_TypeDefinitionIndex = 33433;
+	inline static constexpr unsigned int RelayControl_TypeDefinitionIndex = 33969;
 
 	enum class RelayControl : ::System::Int32
 	{

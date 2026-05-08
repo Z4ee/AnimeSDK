@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIMainCityChatPlayContext.h"
 
-class Class_1_BC9D27E6028F322B;
+class Class_1_D65512A83CF70AB7;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CHATPLUSPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xACACF30)
+#define MOLEMOLE_CHATPLUSPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1751DC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChatPlusPlayContext_TypeDefinitionIndex = 53794;
+	inline static constexpr unsigned int ChatPlusPlayContext_TypeDefinitionIndex = 76160;
 
 	class ChatPlusPlayContext : public ::MoleMole::UIMainCityChatPlayContext
 	{
 	public:
-		::System::Action_1<::Class_1_BC9D27E6028F322B*>* OnFinishCallBack; // 0x58
+		::System::Action_1<::Class_1_D65512A83CF70AB7*>* OnFinishCallBack; // 0x58
 
 		::System::Void _ctor()
 		{

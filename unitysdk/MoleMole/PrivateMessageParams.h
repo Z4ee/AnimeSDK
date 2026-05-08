@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_PRIVATEMESSAGEPARAMS_AWAKE_OFFSET UNITYSDK_OFFSET(0xB9AF020)
-#define MOLEMOLE_PRIVATEMESSAGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xB9AF220)
+#define MOLEMOLE_PRIVATEMESSAGEPARAMS_AWAKE_OFFSET UNITYSDK_OFFSET(0x15B49F00)
+#define MOLEMOLE_PRIVATEMESSAGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x15B4A0E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PrivateMessageParams_TypeDefinitionIndex = 49008;
+	inline static constexpr unsigned int PrivateMessageParams_TypeDefinitionIndex = 44871;
 
 	class PrivateMessageParams : public ::UnityEngine::MonoBehaviour
 	{

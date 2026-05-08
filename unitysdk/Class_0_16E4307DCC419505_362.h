@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/Struct_2_7D31A50BD2150408.h"
 
-namespace System { class String; }
-template <typename T> class Class_1_E3C0D403BBA51922;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_362_TypeDefinitionIndex = 46303;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_362_TypeDefinitionIndex = 45066;
-
-template <typename T>
 class Class_0_16E4307DCC419505_362
 {
 public:

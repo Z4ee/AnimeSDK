@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ZXING_ONED_EANMANUFACTURERORGSUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x18441B40)
+#define ZXING_ONED_EANMANUFACTURERORGSUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x188792A0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int EANManufacturerOrgSupport_TypeDefinitionIndex = 8667;
+	inline static constexpr unsigned int EANManufacturerOrgSupport_TypeDefinitionIndex = 8678;
 
 	class EANManufacturerOrgSupport : public ::System::Object
 	{

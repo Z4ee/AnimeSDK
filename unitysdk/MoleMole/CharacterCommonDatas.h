@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CHARACTERCOMMONDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x7BB8480)
+#define MOLEMOLE_CHARACTERCOMMONDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0xFE997F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterCommonDatas_TypeDefinitionIndex = 49879;
+	inline static constexpr unsigned int CharacterCommonDatas_TypeDefinitionIndex = 57349;
 
 	class CharacterCommonDatas : public ::Foundation::MihoyoSerializedScriptableObject
 	{

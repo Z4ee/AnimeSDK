@@ -8,23 +8,23 @@ namespace MoleMole::Config { class RenderMaterial; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMATERIALPROPERTYMODIFIERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xCAD26B0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMATERIALPROPERTYMODIFIERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xCAD2730)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMATERIALPROPERTYMODIFIERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xF969DF0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMATERIALPROPERTYMODIFIERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF969E70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventMaterialPropertyModifierEntry_TypeDefinitionIndex = 76286;
+	inline static constexpr unsigned int AnimatorEventMaterialPropertyModifierEntry_TypeDefinitionIndex = 41473;
 
 	class AnimatorEventMaterialPropertyModifierEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::MoleMole::Battle::MaterialPropertyModifierExtraParams ExtraParams; // 0x58
-		::System::String* Key; // 0x78
-		::System::Collections::Generic::List_1<::MoleMole::Config::RenderMaterial*>* RenderList; // 0x80
+		::System::Collections::Generic::List_1<::MoleMole::Config::RenderMaterial*>* RenderList; // 0x58
+		::System::String* Key; // 0x60
+		::MoleMole::Battle::MaterialPropertyModifierExtraParams ExtraParams; // 0x68
 		::System::String* AttachPoint; // 0x88
 		::System::String* Tag; // 0x90
-		::System::Int32 Priority; // 0x98
-		::System::Boolean ApplyAllRenderers; // 0x9C
+		::System::Boolean ApplyAllRenderers; // 0x98
+		::System::Int32 Priority; // 0x9C
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class FootPrintConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC240420)
+#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x14250FF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FootPrintConfigs_TypeDefinitionIndex = 72351;
+	inline static constexpr unsigned int FootPrintConfigs_TypeDefinitionIndex = 60853;
 
 	class FootPrintConfigs : public ::Foundation::MihoyoSerializedScriptableObject
 	{

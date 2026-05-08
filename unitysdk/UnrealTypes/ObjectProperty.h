@@ -8,13 +8,13 @@ namespace UnrealTypes { class IFieldVariant; }
 namespace UnrealTypes { class Object; }
 namespace UnrealTypes { class ObjectPropertyParams; }
 
-#define UNREALTYPES_OBJECTPROPERTY_GETOBJECTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1A20C5C0)
-#define UNREALTYPES_OBJECTPROPERTY_SETOBJECTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1A20C610)
-#define UNREALTYPES_OBJECTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A202B50)
+#define UNREALTYPES_OBJECTPROPERTY_GETOBJECTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1ADA32F0)
+#define UNREALTYPES_OBJECTPROPERTY_SETOBJECTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1ADA3340)
+#define UNREALTYPES_OBJECTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD99590)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ObjectProperty_TypeDefinitionIndex = 24774;
+	inline static constexpr unsigned int ObjectProperty_TypeDefinitionIndex = 25288;
 
 	class ObjectProperty : public ::UnrealTypes::ObjectPropertyBase_1<::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>
 	{

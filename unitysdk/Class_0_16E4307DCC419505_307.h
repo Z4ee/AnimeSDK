@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_7162AE539CEC5D38_Struct_2_64FE122F26515195.h"
 
-class Class_4_7162AE539CEC5D38;
-class Class_5_AF65C3A968E836D2;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace MoleMole { class UIMainCityChatPlayContext; }
+namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_307_TypeDefinitionIndex = 42310;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_307_TypeDefinitionIndex = 43913;
 
 class Class_0_16E4307DCC419505_307
 {

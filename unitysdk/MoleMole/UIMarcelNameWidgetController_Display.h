@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMarcelNameWidgetController_Display_TypeDefinitionIndex = 53784;
+	inline static constexpr unsigned int UIMarcelNameWidgetController_Display_TypeDefinitionIndex = 73027;
 
 	enum class UIMarcelNameWidgetController_Display : ::System::Int32
 	{
-		Other = 2,
 		Self = 0,
+		Other = 2,
 		Teammate = 1,
 	};
 }

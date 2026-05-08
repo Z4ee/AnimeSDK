@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_HUMANPOSE_INIT_OFFSET UNITYSDK_OFFSET(0x9A8700)
+#define UNITYENGINE_HUMANPOSE_INIT_OFFSET UNITYSDK_OFFSET(0x9D2C20)
 
 namespace UnityEngine
 {

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalProjector_UVMirrorType_TypeDefinitionIndex = 29813;
+	inline static constexpr unsigned int DecalProjector_UVMirrorType_TypeDefinitionIndex = 30341;
 
 	enum class DecalProjector_UVMirrorType : ::System::Int32
 	{

@@ -6,28 +6,28 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_4_0DC61513D73BCE61_GETCLASSID_OFFSET UNITYSDK_OFFSET(0x64F3280)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_248F2887B0C2212A_OFFSET UNITYSDK_OFFSET(0x64F3510)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_7810D6DCCECD04DA_OFFSET UNITYSDK_OFFSET(0x64F35D0)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_7B58B56E62248330_OFFSET UNITYSDK_OFFSET(0x64F3730)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_944725D8BEE125D5_OFFSET UNITYSDK_OFFSET(0x64F35C0)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x64F3750)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_1_OFFSET UNITYSDK_OFFSET(0x64F3710)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_OFFSET UNITYSDK_OFFSET(0x64F35A0)
-#define CLASS_4_0DC61513D73BCE61_METHOD_4_DA401FEFA3B30845_OFFSET UNITYSDK_OFFSET(0x64F3740)
-#define CLASS_4_0DC61513D73BCE61_ONCLEAN_OFFSET UNITYSDK_OFFSET(0x64F3360)
-#define CLASS_4_0DC61513D73BCE61__CCTOR_OFFSET UNITYSDK_OFFSET(0x64F32E0)
-#define CLASS_4_0DC61513D73BCE61__CTOR_OFFSET UNITYSDK_OFFSET(0x64F3460)
+#define CLASS_4_0DC61513D73BCE61_GETCLASSID_OFFSET UNITYSDK_OFFSET(0x18D43E30)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_248F2887B0C2212A_OFFSET UNITYSDK_OFFSET(0x18D44090)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_7810D6DCCECD04DA_OFFSET UNITYSDK_OFFSET(0x18D44150)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_7B58B56E62248330_OFFSET UNITYSDK_OFFSET(0x18D44270)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_944725D8BEE125D5_OFFSET UNITYSDK_OFFSET(0x18D44280)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x18D44290)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_1_OFFSET UNITYSDK_OFFSET(0x18D44120)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_OFFSET UNITYSDK_OFFSET(0x18D44100)
+#define CLASS_4_0DC61513D73BCE61_METHOD_4_DA401FEFA3B30845_OFFSET UNITYSDK_OFFSET(0x18D44140)
+#define CLASS_4_0DC61513D73BCE61_ONCLEAN_OFFSET UNITYSDK_OFFSET(0x18D43F00)
+#define CLASS_4_0DC61513D73BCE61__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D43E80)
+#define CLASS_4_0DC61513D73BCE61__CTOR_OFFSET UNITYSDK_OFFSET(0x18D43FE0)
 
-inline static constexpr unsigned int Class_4_0DC61513D73BCE61_TypeDefinitionIndex = 45150;
+inline static constexpr unsigned int Class_4_0DC61513D73BCE61_TypeDefinitionIndex = 40707;
 
 class Class_4_0DC61513D73BCE61 : public ::Class_3_95932C222EBC5BA5
 {
 public:
-	// static const ::System::Int32 Field_4_0 = 0x138; // 0x0
+	// static const ::System::Int32 Field_4_0 = 0x238; // 0x0
 	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>* Field_4_3; // 0x50
-	::MoleMole::HollowChessboard::HollowCell Field_4_1; // 0x58
-	::MoleMole::HollowChessboard::HollowCell Field_4_2; // 0x64
+	::MoleMole::HollowChessboard::HollowCell Field_4_2; // 0x58
+	::MoleMole::HollowChessboard::HollowCell Field_4_1; // 0x64
 
 	static ::System::Void _cctor()
 	{
@@ -59,9 +59,14 @@ public:
 		return ((::MoleMole::HollowChessboard::HollowCell(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_OFFSET))(this);
 	}
 
-	::System::Void Method_4_944725D8BEE125D5(::MoleMole::HollowChessboard::HollowCell a1)
+	::MoleMole::HollowChessboard::HollowCell Method_4_AF081070273CE162_1()
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_944725D8BEE125D5_OFFSET))(this, a1);
+		return ((::MoleMole::HollowChessboard::HollowCell(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_1_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>* Method_4_DA401FEFA3B30845()
+	{
+		return ((::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_DA401FEFA3B30845_OFFSET))(this);
 	}
 
 	static ::Class_4_0DC61513D73BCE61* Method_4_7810D6DCCECD04DA()
@@ -69,19 +74,14 @@ public:
 		return ((::Class_4_0DC61513D73BCE61*(*)())((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_7810D6DCCECD04DA_OFFSET))();
 	}
 
-	::MoleMole::HollowChessboard::HollowCell Method_4_AF081070273CE162_1()
-	{
-		return ((::MoleMole::HollowChessboard::HollowCell(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_AF081070273CE162_1_OFFSET))(this);
-	}
-
 	::System::Void Method_4_7B58B56E62248330(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>*))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_7B58B56E62248330_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>* Method_4_DA401FEFA3B30845()
+	::System::Void Method_4_944725D8BEE125D5(::MoleMole::HollowChessboard::HollowCell a1)
 	{
-		return ((::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_DA401FEFA3B30845_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_4_0DC61513D73BCE61_METHOD_4_944725D8BEE125D5_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_4_A1D8CD775DEC3C21()

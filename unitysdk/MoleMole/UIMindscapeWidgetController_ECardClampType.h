@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController_ECardClampType_TypeDefinitionIndex = 73446;
+	inline static constexpr unsigned int UIMindscapeWidgetController_ECardClampType_TypeDefinitionIndex = 38776;
 
 	enum class UIMindscapeWidgetController_ECardClampType : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGOVERRIDEJSON_FROMBINDING_OFFSET UNITYSDK_OFFSET(0x1AD36410)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGOVERRIDEJSON_FROMBINDING_OFFSET UNITYSDK_OFFSET(0x1BCC30A0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_BindingOverrideJson_TypeDefinitionIndex = 28364;
+	inline static constexpr unsigned int InputActionMap_BindingOverrideJson_TypeDefinitionIndex = 28882;
 
 	struct alignas(8) InputActionMap_BindingOverrideJson
 	{

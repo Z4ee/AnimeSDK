@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x7A56580)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x7A56770)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x18417580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x184177C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHideAvatarGuideItem_TypeDefinitionIndex = 76435;
+	inline static constexpr unsigned int LDHideAvatarGuideItem_TypeDefinitionIndex = 72821;
 
 	class LDHideAvatarGuideItem : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
 	{

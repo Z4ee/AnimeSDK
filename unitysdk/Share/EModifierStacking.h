@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EModifierStacking_TypeDefinitionIndex = 15471;
+	inline static constexpr unsigned int EModifierStacking_TypeDefinitionIndex = 12655;
 
 	enum class EModifierStacking : ::System::Int16
 	{

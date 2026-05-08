@@ -8,20 +8,20 @@ namespace PipelineCamera { class CameraCommandUnSpawnSubModules; }
 namespace PipelineCamera { class ICameraDataBlenderBuilder; }
 namespace PipelineCamera { template <typename T> class ICameraSubModuleBuilder_1; }
 
-#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER_ADD_OFFSET UNITYSDK_OFFSET(0x1AD309B0)
-#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER_END_OFFSET UNITYSDK_OFFSET(0x1AD30B90)
-#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER_ISRECORDING_OFFSET UNITYSDK_OFFSET(0x1AD30CA0)
-#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD30D20)
+#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER_ADD_OFFSET UNITYSDK_OFFSET(0x1BABB770)
+#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER_END_OFFSET UNITYSDK_OFFSET(0x1BABB8B0)
+#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER_ISRECORDING_OFFSET UNITYSDK_OFFSET(0x1BABB970)
+#define PIPELINECAMERA_CAMERACOMMANDSUBMODULESBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABB9D0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraCommandSubModulesBuilder_TypeDefinitionIndex = 35331;
+	inline static constexpr unsigned int CameraCommandSubModulesBuilder_TypeDefinitionIndex = 35875;
 
 	class CameraCommandSubModulesBuilder : public ::System::Object
 	{
 	public:
-		::PipelineCamera::CameraCommandSpawnSubModules* _spawnCommand; // 0x10
-		::PipelineCamera::CameraCommandUnSpawnSubModules* _unspawnCommand; // 0x18
+		::PipelineCamera::CameraCommandUnSpawnSubModules* _unspawnCommand; // 0x10
+		::PipelineCamera::CameraCommandSpawnSubModules* _spawnCommand; // 0x18
 
 		::System::Void _ctor()
 		{

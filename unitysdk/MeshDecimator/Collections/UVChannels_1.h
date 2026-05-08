@@ -6,7 +6,7 @@ namespace MeshDecimator::Collections { template <typename T> class ResizableArra
 
 namespace MeshDecimator::Collections
 {
-	inline static constexpr unsigned int UVChannels_1_TypeDefinitionIndex = 32732;
+	inline static constexpr unsigned int UVChannels_1_TypeDefinitionIndex = 33267;
 
 	template <typename TVec>
 	class UVChannels_1 : public ::System::Object

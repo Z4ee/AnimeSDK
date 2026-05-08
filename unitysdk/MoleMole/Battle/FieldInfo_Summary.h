@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/Battle/FieldInfo_MonsterInfo.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_BATTLE_FIELDINFO_SUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0x414AD0)
+#define MOLEMOLE_BATTLE_FIELDINFO_SUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0x6AFEC0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int FieldInfo_Summary_TypeDefinitionIndex = 73230;
+	inline static constexpr unsigned int FieldInfo_Summary_TypeDefinitionIndex = 42247;
 
 	struct alignas(8) FieldInfo_Summary
 	{

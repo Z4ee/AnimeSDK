@@ -5,12 +5,12 @@
 class Class_2_51B971E69E38047E;
 namespace MoleMole { class UIPhotoWallWatchModeWidgetController; }
 
-#define MOLEMOLE_UIPHOTOWALLWATCHMODEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2889A0)
-#define MOLEMOLE_UIPHOTOWALLWATCHMODEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONCLICKCHANGESHOWCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xD289950)
+#define MOLEMOLE_UIPHOTOWALLWATCHMODEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16126E20)
+#define MOLEMOLE_UIPHOTOWALLWATCHMODEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONCLICKCHANGESHOWCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x16127DD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoWallWatchModeWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 42733;
+	inline static constexpr unsigned int UIPhotoWallWatchModeWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 49136;
 
 	class UIPhotoWallWatchModeWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{

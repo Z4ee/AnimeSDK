@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class VREffectsBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_VREFFECTSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB711750)
-#define MOLEMOLE_TIMELINE_VREFFECTSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB711740)
-#define MOLEMOLE_TIMELINE_VREFFECTSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB711950)
+#define MOLEMOLE_TIMELINE_VREFFECTSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12B2B3B0)
+#define MOLEMOLE_TIMELINE_VREFFECTSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12B2B3A0)
+#define MOLEMOLE_TIMELINE_VREFFECTSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2B590)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int VREffectsClip_TypeDefinitionIndex = 71374;
+	inline static constexpr unsigned int VREffectsClip_TypeDefinitionIndex = 49853;
 
 	class VREffectsClip : public ::UnityEngine::Playables::PlayableAsset
 	{

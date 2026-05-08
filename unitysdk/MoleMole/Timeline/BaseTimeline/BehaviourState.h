@@ -3,7 +3,7 @@
 
 namespace MoleMole::Timeline::BaseTimeline
 {
-	inline static constexpr unsigned int BehaviourState_TypeDefinitionIndex = 30156;
+	inline static constexpr unsigned int BehaviourState_TypeDefinitionIndex = 30685;
 
 	enum class BehaviourState : ::System::Int32
 	{

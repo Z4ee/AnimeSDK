@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_A3CFC20DC3954F5C_1;
+class Class_2_3B1E761D184CCDAF;
 namespace MoleMole { class UIEquipStateController; }
 
-#define MOLEMOLE_UIEQUIPSTATECONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD07690)
-#define MOLEMOLE_UIEQUIPSTATECONTROLLER___C__DISPLAYCLASS20_0__TOGGLEDELETE_B__0_OFFSET UNITYSDK_OFFSET(0xAD076A0)
+#define MOLEMOLE_UIEQUIPSTATECONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157DFCA0)
+#define MOLEMOLE_UIEQUIPSTATECONTROLLER___C__DISPLAYCLASS20_0__TOGGLEDELETE_B__0_OFFSET UNITYSDK_OFFSET(0x157DFCB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipStateController___c__DisplayClass20_0_TypeDefinitionIndex = 71094;
+	inline static constexpr unsigned int UIEquipStateController___c__DisplayClass20_0_TypeDefinitionIndex = 67839;
 
 	class UIEquipStateController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::Class_2_A3CFC20DC3954F5C_1* equip; // 0x10
+		::Class_2_3B1E761D184CCDAF* equip; // 0x10
 		::MoleMole::UIEquipStateController* __4__this; // 0x18
 
 		::System::Void _ctor()

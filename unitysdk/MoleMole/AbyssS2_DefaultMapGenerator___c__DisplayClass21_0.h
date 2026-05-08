@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/AbyssS2_GenConfigMeta.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xACA1FF0)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR___C__DISPLAYCLASS21_0___SORTROUTEPOINTLISTBYFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0xACA2000)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17512C70)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR___C__DISPLAYCLASS21_0___SORTROUTEPOINTLISTBYFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0x17512C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator___c__DisplayClass21_0_TypeDefinitionIndex = 77495;
+	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator___c__DisplayClass21_0_TypeDefinitionIndex = 82330;
 
 	class AbyssS2_DefaultMapGenerator___c__DisplayClass21_0 : public ::System::Object
 	{

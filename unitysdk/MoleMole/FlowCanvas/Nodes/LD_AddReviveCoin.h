@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ADDREVIVECOIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x7A63400)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ADDREVIVECOIN__CTOR_OFFSET UNITYSDK_OFFSET(0x7A63640)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ADDREVIVECOIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1232EFF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ADDREVIVECOIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1232F1F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AddReviveCoin_TypeDefinitionIndex = 57311;
+	inline static constexpr unsigned int LD_AddReviveCoin_TypeDefinitionIndex = 65127;
 
 	class LD_AddReviveCoin : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Int32, ::System::Single>
 	{

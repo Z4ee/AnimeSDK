@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_UIPlayMode_TypeDefinitionIndex = 58935;
+	inline static constexpr unsigned int UIGalgamePageController_UIPlayMode_TypeDefinitionIndex = 41783;
 
 	enum class UIGalgamePageController_UIPlayMode : ::System::Byte
 	{
-		Queue = 0x1,
 		Single = 0x0,
+		Queue = 0x1,
 	};
 }

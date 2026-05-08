@@ -5,20 +5,20 @@
 namespace Spine { class MeshAttachment; }
 namespace System { class String; }
 
-#define SPINE_SKELETONLOADER_LINKEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B69F5F0)
+#define SPINE_SKELETONLOADER_LINKEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A21E0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonLoader_LinkedMesh_TypeDefinitionIndex = 30820;
+	inline static constexpr unsigned int SkeletonLoader_LinkedMesh_TypeDefinitionIndex = 31349;
 
 	class SkeletonLoader_LinkedMesh : public ::System::Object
 	{
 	public:
 		::System::String* skin; // 0x10
-		::System::String* parent; // 0x18
-		::Spine::MeshAttachment* mesh; // 0x20
-		::System::Boolean inheritTimelines; // 0x28
-		::System::Int32 slotIndex; // 0x2C
+		::Spine::MeshAttachment* mesh; // 0x18
+		::System::String* parent; // 0x20
+		::System::Int32 slotIndex; // 0x28
+		::System::Boolean inheritTimelines; // 0x2C
 
 		::System::Void _ctor(::Spine::MeshAttachment* mesh, ::System::String* skin, ::System::Int32 slotIndex, ::System::String* parent, ::System::Boolean inheritTimelines)
 		{

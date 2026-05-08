@@ -7,7 +7,7 @@ class Class_1_0AEBFEBDADDA07AC;
 class PushBoxGameView;
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass28_0_TypeDefinitionIndex = 71311;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass28_0_TypeDefinitionIndex = 64660;
 
 struct alignas(8) PushBoxGameView___c__DisplayClass28_0
 {

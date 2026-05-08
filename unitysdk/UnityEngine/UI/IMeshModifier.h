@@ -6,7 +6,7 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMeshModifier_TypeDefinitionIndex = 8472;
+	inline static constexpr unsigned int IMeshModifier_TypeDefinitionIndex = 8482;
 
 	class IMeshModifier
 	{

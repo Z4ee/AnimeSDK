@@ -10,15 +10,15 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class AnimationTrack; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xC330AA0)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xC330A90)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_METHOD_4_4E497FF5F288E9D7_OFFSET UNITYSDK_OFFSET(0xC3309F0)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_METHOD_4_C433AF37CE9D6E5B_OFFSET UNITYSDK_OFFSET(0xC330CF0)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xC330C10)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15E5E550)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15E5E540)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_METHOD_4_19A05AA5B9E9DB20_OFFSET UNITYSDK_OFFSET(0x15E5E4C0)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_METHOD_4_C433AF37CE9D6E5B_OFFSET UNITYSDK_OFFSET(0x15E5E7C0)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5E6A0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RuntimeMaterialPlayableAsset_TypeDefinitionIndex = 43038;
+	inline static constexpr unsigned int RuntimeMaterialPlayableAsset_TypeDefinitionIndex = 57933;
 
 	class RuntimeMaterialPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -30,9 +30,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_4_4E497FF5F288E9D7(::UnityEngine::GameObject* a1, ::UnityEngine::Timeline::AnimationTrack* a2, ::UnityEngine::Timeline::TimelineClip* a3)
+		::System::Void Method_4_19A05AA5B9E9DB20(::UnityEngine::GameObject* a1, ::UnityEngine::Timeline::AnimationTrack* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::AnimationTrack*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_METHOD_4_4E497FF5F288E9D7_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::AnimationTrack*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_RUNTIMEMATERIALPLAYABLEASSET_METHOD_4_19A05AA5B9E9DB20_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()

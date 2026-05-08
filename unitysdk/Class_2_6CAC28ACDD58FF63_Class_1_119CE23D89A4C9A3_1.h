@@ -3,9 +3,9 @@
 #include "unitysdk/Enum_3_92883740E544236B.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_2_6CAC28ACDD58FF63_CLASS_1_119CE23D89A4C9A3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x7AC4C90)
+#define CLASS_2_6CAC28ACDD58FF63_CLASS_1_119CE23D89A4C9A3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16B325F0)
 
-inline static constexpr unsigned int Class_2_6CAC28ACDD58FF63_Class_1_119CE23D89A4C9A3_1_TypeDefinitionIndex = 49761;
+inline static constexpr unsigned int Class_2_6CAC28ACDD58FF63_Class_1_119CE23D89A4C9A3_1_TypeDefinitionIndex = 60799;
 
 class Class_2_6CAC28ACDD58FF63_Class_1_119CE23D89A4C9A3_1 : public ::System::Object
 {

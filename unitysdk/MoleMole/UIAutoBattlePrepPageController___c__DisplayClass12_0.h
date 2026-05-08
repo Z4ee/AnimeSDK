@@ -5,12 +5,12 @@
 namespace MoleMole { class UIAutoBattlePrepPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB22330)
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__SHOWINVITE_B__0_OFFSET UNITYSDK_OFFSET(0xCB22340)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1676F620)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__SHOWINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1676F630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePrepPageController___c__DisplayClass12_0_TypeDefinitionIndex = 65809;
+	inline static constexpr unsigned int UIAutoBattlePrepPageController___c__DisplayClass12_0_TypeDefinitionIndex = 52811;
 
 	class UIAutoBattlePrepPageController___c__DisplayClass12_0 : public ::System::Object
 	{

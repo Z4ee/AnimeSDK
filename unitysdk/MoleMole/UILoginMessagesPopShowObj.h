@@ -7,25 +7,25 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UILOGINMESSAGESPOPSHOWOBJ_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x8EC3980)
-#define MOLEMOLE_UILOGINMESSAGESPOPSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x8EC3A40)
-#define MOLEMOLE_UILOGINMESSAGESPOPSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x8EC3990)
+#define MOLEMOLE_UILOGINMESSAGESPOPSHOWOBJ_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x147B50F0)
+#define MOLEMOLE_UILOGINMESSAGESPOPSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x147B51B0)
+#define MOLEMOLE_UILOGINMESSAGESPOPSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x147B5100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginMessagesPopShowObj_TypeDefinitionIndex = 79409;
+	inline static constexpr unsigned int UILoginMessagesPopShowObj_TypeDefinitionIndex = 63821;
 
 	class UILoginMessagesPopShowObj : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Nullable_1<::Foundation::AssetPath> cancelBtnIcon; // 0x28
-		::System::Nullable_1<::Foundation::AssetPath> okBtnIcon; // 0x40
-		::System::String* content; // 0x58
-		::System::String* cancelText; // 0x60
-		::System::String* okText; // 0x68
-		::System::Action* okBtnCb; // 0x70
-		::System::Action* cancelBtnCb; // 0x78
-		::System::String* title; // 0x80
+		::System::String* title; // 0x28
+		::System::String* content; // 0x30
+		::System::String* okText; // 0x38
+		::System::Action* okBtnCb; // 0x40
+		::System::Action* cancelBtnCb; // 0x48
+		::System::Nullable_1<::Foundation::AssetPath> okBtnIcon; // 0x50
+		::System::String* cancelText; // 0x68
+		::System::Nullable_1<::Foundation::AssetPath> cancelBtnIcon; // 0x70
 		::System::Boolean hideCancel; // 0x88
 
 		::System::Void _ctor(::System::String* title, ::System::String* content, ::System::Boolean hideCancel, ::System::String* okText, ::System::Action* okBtnCb, ::System::Nullable_1<::Foundation::AssetPath> okBtnIcon, ::System::String* cancelText, ::System::Action* cancelBtnCb, ::System::Nullable_1<::Foundation::AssetPath> cancelBtnIcon)

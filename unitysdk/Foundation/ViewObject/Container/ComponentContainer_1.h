@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int ComponentContainer_1_TypeDefinitionIndex = 81079;
+	inline static constexpr unsigned int ComponentContainer_1_TypeDefinitionIndex = 68208;
 
 	template <typename T>
 	class ComponentContainer_1 : public ::System::Object

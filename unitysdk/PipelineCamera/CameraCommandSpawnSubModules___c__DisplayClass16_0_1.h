@@ -9,7 +9,7 @@ namespace PipelineCamera { template <typename T> class ICameraSubModuleBuilder_1
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraCommandSpawnSubModules___c__DisplayClass16_0_1_TypeDefinitionIndex = 35327;
+	inline static constexpr unsigned int CameraCommandSpawnSubModules___c__DisplayClass16_0_1_TypeDefinitionIndex = 35871;
 
 	template <typename T>
 	class CameraCommandSpawnSubModules___c__DisplayClass16_0_1 : public ::System::Object

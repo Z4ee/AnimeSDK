@@ -6,10 +6,10 @@ class NapMaterial;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define NAPRENDERENTITY_MATCAPINFO_INIT_OFFSET UNITYSDK_OFFSET(0x81B920)
-#define NAPRENDERENTITY_MATCAPINFO_RELEASE_OFFSET UNITYSDK_OFFSET(0x81B930)
+#define NAPRENDERENTITY_MATCAPINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8EDE70)
+#define NAPRENDERENTITY_MATCAPINFO_RELEASE_OFFSET UNITYSDK_OFFSET(0x8EDE80)
 
-inline static constexpr unsigned int NapRenderEntity_MatCapInfo_TypeDefinitionIndex = 29062;
+inline static constexpr unsigned int NapRenderEntity_MatCapInfo_TypeDefinitionIndex = 29581;
 
 struct alignas(8) NapRenderEntity_MatCapInfo
 {

@@ -8,12 +8,12 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1B462B60)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1B4633C0)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1B462ED0)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1B462840)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_PRF_OFFSET UNITYSDK_OFFSET(0x1B463060)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B462690)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1C201B90)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1C2023C0)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1C201F40)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1C201830)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_PRF_OFFSET UNITYSDK_OFFSET(0x1C202060)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C201680)
 
 namespace Mono::Security::Protocol::Tls
 {
@@ -23,8 +23,8 @@ namespace Mono::Security::Protocol::Tls
 	{
 	public:
 		// static const ::System::Int32 MacHeaderLength = 0xB; // 0x0
-		::Il2CppArray<::System::Byte>* pad1; // 0x70
-		::Il2CppArray<::System::Byte>* pad2; // 0x78
+		::Il2CppArray<::System::Byte>* pad2; // 0x70
+		::Il2CppArray<::System::Byte>* pad1; // 0x78
 		::Il2CppArray<::System::Byte>* header; // 0x80
 
 		::System::Void _ctor(::System::Int16 code, ::System::String* name, ::Mono::Security::Protocol::Tls::CipherAlgorithmType cipherAlgorithmType, ::Mono::Security::Protocol::Tls::HashAlgorithmType hashAlgorithmType, ::Mono::Security::Protocol::Tls::ExchangeAlgorithmType exchangeAlgorithmType, ::System::Boolean exportable, ::System::Boolean blockMode, ::System::Byte keyMaterialSize, ::System::Byte expandedKeyMaterialSize, ::System::Int16 effectiveKeyBytes, ::System::Byte ivSize, ::System::Byte blockSize)

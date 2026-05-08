@@ -5,19 +5,19 @@
 namespace MoleMole { class UIInputFieldEx; }
 namespace MoleMole { class UIInterKnotV3PageController; }
 
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7F91F50)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS59_0__NORMALSETNAMEUI_B__0_OFFSET UNITYSDK_OFFSET(0x7F91F60)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS59_0__NORMALSETNAMEUI_B__1_OFFSET UNITYSDK_OFFSET(0x7F92020)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146A3A10)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS59_0__NORMALSETNAMEUI_B__0_OFFSET UNITYSDK_OFFSET(0x146A3A20)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTROLLER___C__DISPLAYCLASS59_0__NORMALSETNAMEUI_B__1_OFFSET UNITYSDK_OFFSET(0x146A3AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotV3PageController___c__DisplayClass59_0_TypeDefinitionIndex = 78570;
+	inline static constexpr unsigned int UIInterKnotV3PageController___c__DisplayClass59_0_TypeDefinitionIndex = 44909;
 
 	class UIInterKnotV3PageController___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIInterKnotV3PageController* __4__this; // 0x10
-		::MoleMole::UIInputFieldEx* input; // 0x18
+		::MoleMole::UIInputFieldEx* input; // 0x10
+		::MoleMole::UIInterKnotV3PageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

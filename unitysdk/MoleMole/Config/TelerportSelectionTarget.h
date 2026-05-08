@@ -8,13 +8,13 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_023427FCE8E9C83B_OFFSET UNITYSDK_OFFSET(0xACDB9C0)
-#define MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_0DF2500188396E1E_OFFSET UNITYSDK_OFFSET(0xACDB590)
-#define MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xACDB9B0)
+#define MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_3CD672CDD3381762_OFFSET UNITYSDK_OFFSET(0x1754AFC0)
+#define MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_6783D6CE95762415_OFFSET UNITYSDK_OFFSET(0x1754B3C0)
+#define MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1754B3B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TelerportSelectionTarget_TypeDefinitionIndex = 70299;
+	inline static constexpr unsigned int TelerportSelectionTarget_TypeDefinitionIndex = 50148;
 
 	class TelerportSelectionTarget : public ::MoleMole::Config::ConfigAbilityTarget
 	{
@@ -28,14 +28,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>* Method_2_0DF2500188396E1E(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5)
+		::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>* Method_2_3CD672CDD3381762(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5, ::System::UInt32 a6)
 		{
-			return ((::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_0DF2500188396E1E_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_3CD672CDD3381762_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::MoleMole::Battle::Entity* Method_2_023427FCE8E9C83B(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5)
+		::MoleMole::Battle::Entity* Method_2_6783D6CE95762415(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5, ::System::UInt32 a6)
 		{
-			return ((::MoleMole::Battle::Entity*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_023427FCE8E9C83B_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::MoleMole::Battle::Entity*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TELERPORTSELECTIONTARGET_METHOD_2_6783D6CE95762415_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

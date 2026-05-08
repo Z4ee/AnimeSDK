@@ -4,7 +4,7 @@
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int SceneMarkData_1_TypeDefinitionIndex = 45628;
+	inline static constexpr unsigned int SceneMarkData_1_TypeDefinitionIndex = 38616;
 
 	template <typename T>
 	class SceneMarkData_1 : public ::MoleMole::SceneMark::SceneMarkDataBase

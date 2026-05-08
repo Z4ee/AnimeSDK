@@ -3,21 +3,21 @@
 #include "unitysdk/Enum_3_E64C24AE0799EB7C.h"
 #include "unitysdk/MoleMole/SystemSettingEntryBase.h"
 
-#define MOLEMOLE_INTNUMSETTINGENTRY_GETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0xBA19D00)
-#define MOLEMOLE_INTNUMSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0xBA19CF0)
-#define MOLEMOLE_INTNUMSETTINGENTRY_GET__ISHIDEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0xBA19CE0)
-#define MOLEMOLE_INTNUMSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xBA19CB0)
+#define MOLEMOLE_INTNUMSETTINGENTRY_GETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x16D4DB10)
+#define MOLEMOLE_INTNUMSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x16D4DB00)
+#define MOLEMOLE_INTNUMSETTINGENTRY_GET__ISHIDEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x16D4DAF0)
+#define MOLEMOLE_INTNUMSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4DAC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int IntNumSettingEntry_TypeDefinitionIndex = 69709;
+	inline static constexpr unsigned int IntNumSettingEntry_TypeDefinitionIndex = 40118;
 
 	class IntNumSettingEntry : public ::MoleMole::SystemSettingEntryBase
 	{
 	public:
-		::System::Int32 MaxValue; // 0x30
-		::System::Int32 MinValue; // 0x34
-		::System::Int32 DefaultValue; // 0x38
+		::System::Int32 MinValue; // 0x30
+		::System::Int32 DefaultValue; // 0x34
+		::System::Int32 MaxValue; // 0x38
 
 		::System::Void _ctor()
 		{

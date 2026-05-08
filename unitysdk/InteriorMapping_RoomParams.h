@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define INTERIORMAPPING_ROOMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D5350)
+#define INTERIORMAPPING_ROOMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A1090)
 
-inline static constexpr unsigned int InteriorMapping_RoomParams_TypeDefinitionIndex = 32550;
+inline static constexpr unsigned int InteriorMapping_RoomParams_TypeDefinitionIndex = 33085;
 
 class InteriorMapping_RoomParams : public ::System::Object
 {

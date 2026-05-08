@@ -8,29 +8,29 @@ class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class ConfigCameraComposer; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xC230550)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_FROMFLX_OFFSET UNITYSDK_OFFSET(0xC22F4C0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xC2305B0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xC22F540)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0xC230AB0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xED130D0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_FROMFLX_OFFSET UNITYSDK_OFFSET(0xED12040)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xED13130)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xED120C0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCREENOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0xED13630)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraScreenOffset_TypeDefinitionIndex = 67617;
+	inline static constexpr unsigned int ConfigCameraScreenOffset_TypeDefinitionIndex = 43041;
 
 	class ConfigCameraScreenOffset : public ::System::Object
 	{
 	public:
-		::System::String* EndCurveKey; // 0x10
-		::MoleMole::Config::ConfigCameraComposer* CameraComposerParam; // 0x18
+		::MoleMole::Config::ConfigCameraComposer* CameraComposerParam; // 0x10
+		::System::String* EndCurveKey; // 0x18
 		::System::String* StartCurveKey; // 0x20
-		::System::Single RecoilTime; // 0x28
-		::System::Boolean KeepCameraDirection; // 0x2C
-		::System::Boolean MuteDelay; // 0x2D
-		::System::Boolean IngoreTimeScale; // 0x2E
-		::System::Single HoldTime; // 0x30
+		::System::Single HoldTime; // 0x28
+		::System::Single RecoilTime; // 0x2C
+		::System::Single DelayTime; // 0x30
 		::System::Single StretchTime; // 0x34
-		::System::Single DelayTime; // 0x38
+		::System::Boolean KeepCameraDirection; // 0x38
+		::System::Boolean MuteDelay; // 0x39
+		::System::Boolean IngoreTimeScale; // 0x3A
 
 		::System::Void _ctor()
 		{

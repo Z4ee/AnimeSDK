@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int TargetComponent_TypeDefinitionIndex = 36739;
+	inline static constexpr unsigned int TargetComponent_TypeDefinitionIndex = 37283;
 
 	enum class TargetComponent : ::System::Int32
 	{

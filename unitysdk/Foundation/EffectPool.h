@@ -16,102 +16,102 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_EFFECTPOOL_CLEARALLPOOLINSTANCE_OFFSET UNITYSDK_OFFSET(0x1976ACF0)
-#define FOUNDATION_EFFECTPOOL_CLEAREFFECTSHAPEPSPOOL_OFFSET UNITYSDK_OFFSET(0x1976AFB0)
-#define FOUNDATION_EFFECTPOOL_CLEARPOOLEDINSTANCE_OFFSET UNITYSDK_OFFSET(0x19769F90)
-#define FOUNDATION_EFFECTPOOL_CLEARUNUSEDEFFECTCAUTIOUSLYSTEP_OFFSET UNITYSDK_OFFSET(0x1976A690)
-#define FOUNDATION_EFFECTPOOL_CLEARUNUSEDEFFECTSAGGRESSIVELY_OFFSET UNITYSDK_OFFSET(0x1976B990)
-#define FOUNDATION_EFFECTPOOL_CLEARUNUSEDEFFECTSCAUTIOUSLY_OFFSET UNITYSDK_OFFSET(0x1976A1B0)
-#define FOUNDATION_EFFECTPOOL_GETINSTANCEASYNC_OFFSET UNITYSDK_OFFSET(0x19767850)
-#define FOUNDATION_EFFECTPOOL_GETINSTANCESYNC_OFFSET UNITYSDK_OFFSET(0x19767260)
-#define FOUNDATION_EFFECTPOOL_GET_EFFECTINPOOLNOTADDTOEFFECTROOTCONFIG_OFFSET UNITYSDK_OFFSET(0x19766140)
-#define FOUNDATION_EFFECTPOOL_GET_EFFECTINPOOLNOTADDTOEFFECTROOT_OFFSET UNITYSDK_OFFSET(0x19766200)
-#define FOUNDATION_EFFECTPOOL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19765DC0)
-#define FOUNDATION_EFFECTPOOL_GET_ISINEDITOR_OFFSET UNITYSDK_OFFSET(0x19766330)
-#define FOUNDATION_EFFECTPOOL_GET_ROOTTF_OFFSET UNITYSDK_OFFSET(0x19766340)
-#define FOUNDATION_EFFECTPOOL_INSTANCEASYNC_OFFSET UNITYSDK_OFFSET(0x197680E0)
-#define FOUNDATION_EFFECTPOOL_ISASSETSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x19766350)
-#define FOUNDATION_EFFECTPOOL_LOADINSTANCEFROMPOOL_OFFSET UNITYSDK_OFFSET(0x197691C0)
-#define FOUNDATION_EFFECTPOOL_POPEFFECTSHAPEPSGO_OFFSET UNITYSDK_OFFSET(0x1976DD00)
-#define FOUNDATION_EFFECTPOOL_PRELOADINSTANCECACHE_OFFSET UNITYSDK_OFFSET(0x19766440)
-#define FOUNDATION_EFFECTPOOL_PRINTALLEFFECTSINPOOL_OFFSET UNITYSDK_OFFSET(0x1976BE50)
-#define FOUNDATION_EFFECTPOOL_PRINTALLNONPRELOADEFFECTSINPOOL_OFFSET UNITYSDK_OFFSET(0x1976C960)
-#define FOUNDATION_EFFECTPOOL_PUSHBACKTOPOOL_OFFSET UNITYSDK_OFFSET(0x19769A80)
-#define FOUNDATION_EFFECTPOOL_PUSHEFFECTSHAPEPSGO_OFFSET UNITYSDK_OFFSET(0x1976D810)
-#define FOUNDATION_EFFECTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1976B600)
-#define FOUNDATION_EFFECTPOOL_SET_EFFECTINPOOLNOTADDTOEFFECTROOTCONFIG_OFFSET UNITYSDK_OFFSET(0x197661A0)
-#define FOUNDATION_EFFECTPOOL_SUGGESTEFFECTTOUNLOAD_OFFSET UNITYSDK_OFFSET(0x19766B10)
-#define FOUNDATION_EFFECTPOOL_SYNCINSTANCEASYNC_OFFSET UNITYSDK_OFFSET(0x19768890)
-#define FOUNDATION_EFFECTPOOL_TRYGETPOOLEDOBJECT_OFFSET UNITYSDK_OFFSET(0x19768540)
-#define FOUNDATION_EFFECTPOOL_TRYLOADINSTANCECACHE_OFFSET UNITYSDK_OFFSET(0x19766500)
-#define FOUNDATION_EFFECTPOOL_UNLOADEFFECT_OFFSET UNITYSDK_OFFSET(0x19766CB0)
-#define FOUNDATION_EFFECTPOOL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1976D250)
-#define FOUNDATION_EFFECTPOOL_WARMUPINSTANCE_OFFSET UNITYSDK_OFFSET(0x19767D20)
-#define FOUNDATION_EFFECTPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1976E1C0)
-#define FOUNDATION_EFFECTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19765ED0)
+#define FOUNDATION_EFFECTPOOL_CLEARALLPOOLINSTANCE_OFFSET UNITYSDK_OFFSET(0x19DA7E40)
+#define FOUNDATION_EFFECTPOOL_CLEAREFFECTSHAPEPSPOOL_OFFSET UNITYSDK_OFFSET(0x19DA80A0)
+#define FOUNDATION_EFFECTPOOL_CLEARPOOLEDINSTANCE_OFFSET UNITYSDK_OFFSET(0x19DA7190)
+#define FOUNDATION_EFFECTPOOL_CLEARUNUSEDEFFECTCAUTIOUSLYSTEP_OFFSET UNITYSDK_OFFSET(0x19DA7810)
+#define FOUNDATION_EFFECTPOOL_CLEARUNUSEDEFFECTSAGGRESSIVELY_OFFSET UNITYSDK_OFFSET(0x19DA8BA0)
+#define FOUNDATION_EFFECTPOOL_CLEARUNUSEDEFFECTSCAUTIOUSLY_OFFSET UNITYSDK_OFFSET(0x19DA7390)
+#define FOUNDATION_EFFECTPOOL_GETINSTANCEASYNC_OFFSET UNITYSDK_OFFSET(0x19DA4D30)
+#define FOUNDATION_EFFECTPOOL_GETINSTANCESYNC_OFFSET UNITYSDK_OFFSET(0x19DA4710)
+#define FOUNDATION_EFFECTPOOL_GET_EFFECTINPOOLNOTADDTOEFFECTROOTCONFIG_OFFSET UNITYSDK_OFFSET(0x19DA3630)
+#define FOUNDATION_EFFECTPOOL_GET_EFFECTINPOOLNOTADDTOEFFECTROOT_OFFSET UNITYSDK_OFFSET(0x19DA36F0)
+#define FOUNDATION_EFFECTPOOL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19DA3320)
+#define FOUNDATION_EFFECTPOOL_GET_ISINEDITOR_OFFSET UNITYSDK_OFFSET(0x19DA3800)
+#define FOUNDATION_EFFECTPOOL_GET_ROOTTF_OFFSET UNITYSDK_OFFSET(0x19DA3810)
+#define FOUNDATION_EFFECTPOOL_INSTANCEASYNC_OFFSET UNITYSDK_OFFSET(0x19DA5520)
+#define FOUNDATION_EFFECTPOOL_ISASSETSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x19DA3820)
+#define FOUNDATION_EFFECTPOOL_LOADINSTANCEFROMPOOL_OFFSET UNITYSDK_OFFSET(0x19DA6390)
+#define FOUNDATION_EFFECTPOOL_POPEFFECTSHAPEPSGO_OFFSET UNITYSDK_OFFSET(0x19DAAF50)
+#define FOUNDATION_EFFECTPOOL_PRELOADINSTANCECACHE_OFFSET UNITYSDK_OFFSET(0x19DA38F0)
+#define FOUNDATION_EFFECTPOOL_PRINTALLEFFECTSINPOOL_OFFSET UNITYSDK_OFFSET(0x19DA9000)
+#define FOUNDATION_EFFECTPOOL_PRINTALLNONPRELOADEFFECTSINPOOL_OFFSET UNITYSDK_OFFSET(0x19DA9AA0)
+#define FOUNDATION_EFFECTPOOL_PUSHBACKTOPOOL_OFFSET UNITYSDK_OFFSET(0x19DA6D10)
+#define FOUNDATION_EFFECTPOOL_PUSHEFFECTSHAPEPSGO_OFFSET UNITYSDK_OFFSET(0x19DAA900)
+#define FOUNDATION_EFFECTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x19DA8880)
+#define FOUNDATION_EFFECTPOOL_SET_EFFECTINPOOLNOTADDTOEFFECTROOTCONFIG_OFFSET UNITYSDK_OFFSET(0x19DA3690)
+#define FOUNDATION_EFFECTPOOL_SUGGESTEFFECTTOUNLOAD_OFFSET UNITYSDK_OFFSET(0x19DA3FC0)
+#define FOUNDATION_EFFECTPOOL_SYNCINSTANCEASYNC_OFFSET UNITYSDK_OFFSET(0x19DA5BF0)
+#define FOUNDATION_EFFECTPOOL_TRYGETPOOLEDOBJECT_OFFSET UNITYSDK_OFFSET(0x19DA5910)
+#define FOUNDATION_EFFECTPOOL_TRYLOADINSTANCECACHE_OFFSET UNITYSDK_OFFSET(0x19DA3990)
+#define FOUNDATION_EFFECTPOOL_UNLOADEFFECT_OFFSET UNITYSDK_OFFSET(0x19DA4150)
+#define FOUNDATION_EFFECTPOOL_UPDATE_OFFSET UNITYSDK_OFFSET(0x19DAA360)
+#define FOUNDATION_EFFECTPOOL_WARMUPINSTANCE_OFFSET UNITYSDK_OFFSET(0x19DA5170)
+#define FOUNDATION_EFFECTPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DAB520)
+#define FOUNDATION_EFFECTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA3400)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EffectPool_TypeDefinitionIndex = 8070;
+	inline static constexpr unsigned int EffectPool_TypeDefinitionIndex = 8167;
 
 	class EffectPool : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::GameObject*>** StaticGet_pooledObjectDestroyCallback()
-		{
-			return (::System::Action_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x7250);
-		}
 		static ::System::Diagnostics::Stopwatch** StaticGet__stopWatch()
 		{
-			return (::System::Diagnostics::Stopwatch**)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x7258);
+			return (::System::Diagnostics::Stopwatch**)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x72A0);
 		}
 		static ::Foundation::EffectPool** StaticGet__instance()
 		{
-			return (::Foundation::EffectPool**)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x7260);
+			return (::Foundation::EffectPool**)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x72A8);
 		}
-		static ::System::Boolean* StaticGet_debugLogEffectPoolInOut()
+		static ::System::Action_1<::UnityEngine::GameObject*>** StaticGet_pooledObjectDestroyCallback()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3880);
-		}
-		static ::System::Boolean* StaticGet_enableStepUnload()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3881);
+			return (::System::Action_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x72B0);
 		}
 		static ::System::Boolean* StaticGet_debugPrintAllSyncLoadEffect()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3882);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3890);
+		}
+		static ::System::Boolean* StaticGet_debugLogEffectPoolInOut()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3891);
 		}
 		static ::System::Boolean* StaticGet_enableUnloadLog()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3883);
-		}
-		static ::System::Single* StaticGet_checkEffectShouldClearTime()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3884);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3892);
 		}
 		static ::System::Boolean* StaticGet__EffectInPoolNotAddToEffectRootConfig_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3888);
-		}
-		static ::System::Boolean* StaticGet_debugLogEffectEffectCountChange()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3889);
-		}
-		static ::System::Single* StaticGet_stepUnloadTimeOut()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x388C);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3893);
 		}
 		static ::System::Single* StaticGet_notUsedEffectClearTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3890);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3894);
+		}
+		static ::System::Boolean* StaticGet_enableStepUnload()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3898);
+		}
+		static ::System::Boolean* StaticGet_debugLogEffectEffectCountChange()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x3899);
+		}
+		static ::System::Single* StaticGet_stepUnloadTimeOut()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x389C);
+		}
+		static ::System::Single* StaticGet_checkEffectShouldClearTime()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(EffectPool_TypeDefinitionIndex)->GetStaticField(0x38A0);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* effectShapePsPool; // 0x10
-		::UnityEngine::Transform* effectShapePoolRoot; // 0x18
-		::System::Collections::Generic::HashSet_1<::Foundation::AssetPath>* _delayUnloadList; // 0x20
-		::UnityEngine::Transform* _RootTf_k__BackingField; // 0x28
-		::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::Foundation::EffectPool_AssetInfo*>* _cachedAssetInfos; // 0x30
-		::System::Boolean _finishWork; // 0x38
-		::System::Single _curClearTime; // 0x3C
+		::UnityEngine::Transform* _RootTf_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::Foundation::EffectPool_AssetInfo*>* _cachedAssetInfos; // 0x20
+		::System::Collections::Generic::HashSet_1<::Foundation::AssetPath>* _delayUnloadList; // 0x28
+		::UnityEngine::Transform* effectShapePoolRoot; // 0x30
+		::System::Single _curClearTime; // 0x38
+		::System::Boolean _finishWork; // 0x3C
 
 		::System::Void _ctor()
 		{

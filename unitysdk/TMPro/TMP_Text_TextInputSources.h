@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text_TextInputSources_TypeDefinitionIndex = 37045;
+	inline static constexpr unsigned int TMP_Text_TextInputSources_TypeDefinitionIndex = 37589;
 
 	enum class TMP_Text_TextInputSources : ::System::Int32
 	{

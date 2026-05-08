@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_A48F3719AA1CF200.h"
 
-#define CLASS_3_C287DAAD4C733A89_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B016BA0)
+#define CLASS_3_C287DAAD4C733A89_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C3550)
 
-inline static constexpr unsigned int Class_3_C287DAAD4C733A89_3_TypeDefinitionIndex = 81477;
+inline static constexpr unsigned int Class_3_C287DAAD4C733A89_3_TypeDefinitionIndex = 83185;
 
 class Class_3_C287DAAD4C733A89_3 : public ::Class_2_A48F3719AA1CF200
 {
 public:
-	::System::UInt32 Field_3_2; // 0x10
+	::System::UInt32 Field_3_1; // 0x10
 	::System::UInt32 Field_3_0; // 0x14
-	::System::UInt32 Field_3_1; // 0x18
+	::System::UInt32 Field_3_2; // 0x18
+	::System::UInt32 Field_3_3; // 0x1C
 
 	::System::Void _ctor()
 	{

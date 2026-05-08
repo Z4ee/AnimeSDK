@@ -3,30 +3,30 @@
 #include "unitysdk/MoleMole/ActivityDemoTrialContext_EShowType.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_5A585DEB704A07E2;
+class Class_1_1EA8435E138F2E03;
 
-#define MOLEMOLE_ACTIVITYDEMOTRIALCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x84E33F0)
+#define MOLEMOLE_ACTIVITYDEMOTRIALCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xECE0D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityDemoTrialContext_TypeDefinitionIndex = 37642;
+	inline static constexpr unsigned int ActivityDemoTrialContext_TypeDefinitionIndex = 74381;
 
 	class ActivityDemoTrialContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_5A585DEB704A07E2* notificationNode; // 0x28
-		::System::Boolean hideNumImage; // 0x30
-		::System::Boolean isSelect; // 0x31
-		::System::Boolean canDirectTake; // 0x32
-		::System::Boolean isFocus; // 0x33
-		::System::Int32 gachaScheduleId; // 0x34
-		::System::Int32 trialQuestID; // 0x38
-		::System::Int32 weaponId; // 0x3C
-		::System::Int32 gachaId; // 0x40
-		::MoleMole::ActivityDemoTrialContext_EShowType showType; // 0x44
-		::System::Boolean muteSound; // 0x48
-		::System::Boolean isCanClick; // 0x49
-		::System::Int32 trialRoleID; // 0x4C
+		::Class_1_1EA8435E138F2E03* notificationNode; // 0x28
+		::MoleMole::ActivityDemoTrialContext_EShowType showType; // 0x30
+		::System::Int32 gachaId; // 0x34
+		::System::Int32 trialRoleID; // 0x38
+		::System::Int32 gachaScheduleId; // 0x3C
+		::System::Boolean isCanClick; // 0x40
+		::System::Boolean muteSound; // 0x41
+		::System::Boolean isSelect; // 0x42
+		::System::Boolean hideNumImage; // 0x43
+		::System::Boolean canDirectTake; // 0x44
+		::System::Boolean isFocus; // 0x45
+		::System::Int32 trialQuestID; // 0x48
+		::System::Int32 weaponId; // 0x4C
 
 		::System::Void _ctor()
 		{

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7609C87F8335DE37.h"
+#include "unitysdk/Enum_3_7609C87F8335DE37_1.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-class Class_2_9E3E3CDA608A4F58;
-class Class_2_A8F5ABF31E066ED4;
+class Class_2_1A39E1B51756BF41;
+class Class_2_FDFE69FE7B72463B;
 class Class_3_F97B015544BE936B;
 class ShaderAniHelp;
 namespace DG::Tweening { class Tweener; }
@@ -12,57 +12,57 @@ namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_ATTACHENTITY_OFFSET UNITYSDK_OFFSET(0xB992BF0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_GETNORMALIZEDHPPERCENT_OFFSET UNITYSDK_OFFSET(0xB992B00)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_GET_ISHPTWEENING_OFFSET UNITYSDK_OFFSET(0xB9914F0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB991580)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_STARTHPTWEEN_OFFSET UNITYSDK_OFFSET(0xB992670)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_UPDATEHPSHIELD_OFFSET UNITYSDK_OFFSET(0xB991640)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_UPDATEHPTWEENTARGET_OFFSET UNITYSDK_OFFSET(0xB992150)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xB9920E0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0xB992DE0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB992DB0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__STARTHPTWEEN_B__34_0_OFFSET UNITYSDK_OFFSET(0xB9930B0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__STARTHPTWEEN_B__34_1_OFFSET UNITYSDK_OFFSET(0xB9930C0)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_1_OFFSET UNITYSDK_OFFSET(0xB992E30)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_2_OFFSET UNITYSDK_OFFSET(0xB992E40)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_4_OFFSET UNITYSDK_OFFSET(0xB992F70)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_5_OFFSET UNITYSDK_OFFSET(0xB992F80)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPTWEENTARGET_B__35_0_OFFSET UNITYSDK_OFFSET(0xB993170)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPTWEENTARGET_B__35_1_OFFSET UNITYSDK_OFFSET(0xB993180)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_ATTACHENTITY_OFFSET UNITYSDK_OFFSET(0x1821FE20)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_GETNORMALIZEDHPPERCENT_OFFSET UNITYSDK_OFFSET(0x1821FD80)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_GET_ISHPTWEENING_OFFSET UNITYSDK_OFFSET(0x1821E410)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1821E470)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_STARTHPTWEEN_OFFSET UNITYSDK_OFFSET(0x1821F770)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_UPDATEHPSHIELD_OFFSET UNITYSDK_OFFSET(0x1821E510)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_UPDATEHPTWEENTARGET_OFFSET UNITYSDK_OFFSET(0x1821F160)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1821F110)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18220050)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1821FFF0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__STARTHPTWEEN_B__34_0_OFFSET UNITYSDK_OFFSET(0x182204C0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__STARTHPTWEEN_B__34_1_OFFSET UNITYSDK_OFFSET(0x182204D0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_1_OFFSET UNITYSDK_OFFSET(0x182200A0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_2_OFFSET UNITYSDK_OFFSET(0x182200B0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_4_OFFSET UNITYSDK_OFFSET(0x182202B0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPSHIELD_B__33_5_OFFSET UNITYSDK_OFFSET(0x182202C0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPTWEENTARGET_B__35_0_OFFSET UNITYSDK_OFFSET(0x18220580)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE__UPDATEHPTWEENTARGET_B__35_1_OFFSET UNITYSDK_OFFSET(0x18220590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelMonsterBarrierWidgetControllerBase_TypeDefinitionIndex = 80756;
+	inline static constexpr unsigned int InLevelMonsterBarrierWidgetControllerBase_TypeDefinitionIndex = 65377;
 
 	class InLevelMonsterBarrierWidgetControllerBase : public ::MoleMole::UIWidgetController
 	{
 	public:
 		static ::System::Int32* StaticGet_HpPercentShaderParamID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InLevelMonsterBarrierWidgetControllerBase_TypeDefinitionIndex)->GetStaticField(0xDF90);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InLevelMonsterBarrierWidgetControllerBase_TypeDefinitionIndex)->GetStaticField(0xE570);
 		}
 		static ::System::Int32* StaticGet_WaveHeightParamID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InLevelMonsterBarrierWidgetControllerBase_TypeDefinitionIndex)->GetStaticField(0xDF94);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InLevelMonsterBarrierWidgetControllerBase_TypeDefinitionIndex)->GetStaticField(0xE574);
 		}
 		// static const ::System::Single TweenDurationPerUnit; // 0x0
 		// static const ::System::Single TweenMinDuration; // 0x0
 		// static const ::System::Single TweenMaxDuration; // 0x0
-		::Class_3_F97B015544BE936B* _dataComponent; // 0x2A0
-		::Enum_3_7609C87F8335DE37 _monsterHpShieldShowType; // 0x2A8
-		::UnityEngine::GameObject* _hpProgressGo; // 0x2B0
-		::UnityEngine::GameObject* _hpProgressGoBottom; // 0x2B8
-		::UnityEngine::UI::Image* _hpProgressImg; // 0x2C0
-		::System::Func_1<::System::Single>* _getHpRatioFront; // 0x2C8
-		::System::Func_1<::System::Boolean>* _hasMultipleHpBars; // 0x2D0
-		::System::Single _lastHpShield; // 0x2D8
-		::System::Int32 _generation; // 0x2DC
-		::System::Single _currentDisplayPercentage; // 0x2E0
-		::System::Single _currentHpDisplayPercentage; // 0x2E4
-		::System::Single _hpTweenTargetPercentage; // 0x2E8
-		::DG::Tweening::Tweener* _percentageTweener; // 0x2F0
-		::DG::Tweening::Tweener* _hpPercentageTweener; // 0x2F8
+		::Class_3_F97B015544BE936B* _dataComponent; // 0x2B8
+		::Enum_3_7609C87F8335DE37_1 _monsterHpShieldShowType; // 0x2C0
+		::UnityEngine::GameObject* _hpProgressGo; // 0x2C8
+		::UnityEngine::GameObject* _hpProgressGoBottom; // 0x2D0
+		::UnityEngine::UI::Image* _hpProgressImg; // 0x2D8
+		::System::Func_1<::System::Single>* _getHpRatioFront; // 0x2E0
+		::System::Func_1<::System::Boolean>* _hasMultipleHpBars; // 0x2E8
+		::System::Single _lastHpShield; // 0x2F0
+		::System::Int32 _generation; // 0x2F4
+		::System::Single _currentDisplayPercentage; // 0x2F8
+		::System::Single _currentHpDisplayPercentage; // 0x2FC
+		::System::Single _hpTweenTargetPercentage; // 0x300
+		::DG::Tweening::Tweener* _percentageTweener; // 0x308
+		::DG::Tweening::Tweener* _hpPercentageTweener; // 0x310
 
 		::System::Void _ctor()
 		{
@@ -109,9 +109,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_GETNORMALIZEDHPPERCENT_OFFSET))(this, ratio);
 		}
 
-		::System::Void AttachEntity(::Class_3_F97B015544BE936B* dataComponent, ::Enum_3_7609C87F8335DE37 hpShieldShowType, ::UnityEngine::GameObject* hpProgressGo, ::UnityEngine::GameObject* hpProgressGoBottom, ::System::Func_1<::System::Single>* getHpRatioFront, ::System::Func_1<::System::Boolean>* hasMultipleHpBars)
+		::System::Void AttachEntity(::Class_3_F97B015544BE936B* dataComponent, ::Enum_3_7609C87F8335DE37_1 hpShieldShowType, ::UnityEngine::GameObject* hpProgressGo, ::UnityEngine::GameObject* hpProgressGoBottom, ::System::Func_1<::System::Single>* getHpRatioFront, ::System::Func_1<::System::Boolean>* hasMultipleHpBars)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F97B015544BE936B*, ::Enum_3_7609C87F8335DE37, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Func_1<::System::Single>*, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_ATTACHENTITY_OFFSET))(this, dataComponent, hpShieldShowType, hpProgressGo, hpProgressGoBottom, getHpRatioFront, hasMultipleHpBars);
+			return ((::System::Void(*)(::PVOID, ::Class_3_F97B015544BE936B*, ::Enum_3_7609C87F8335DE37_1, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Func_1<::System::Single>*, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE_ATTACHENTITY_OFFSET))(this, dataComponent, hpShieldShowType, hpProgressGo, hpProgressGoBottom, getHpRatioFront, hasMultipleHpBars);
 		}
 
 		::System::Single _UpdateHpShield_b__33_1()

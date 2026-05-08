@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_VERTICALGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1B117350)
-#define SIRENIX_ODININSPECTOR_VERTICALGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1172B0)
-#define SIRENIX_ODININSPECTOR_VERTICALGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B117240)
+#define SIRENIX_ODININSPECTOR_VERTICALGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1C022880)
+#define SIRENIX_ODININSPECTOR_VERTICALGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0227E0)
+#define SIRENIX_ODININSPECTOR_VERTICALGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C022770)
 
 namespace Sirenix::OdinInspector
 {
@@ -15,8 +15,8 @@ namespace Sirenix::OdinInspector
 	class VerticalGroupAttribute : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{
 	public:
-		::System::Single PaddingBottom; // 0x30
-		::System::Single PaddingTop; // 0x34
+		::System::Single PaddingTop; // 0x30
+		::System::Single PaddingBottom; // 0x34
 
 		::System::Void _ctor(::System::String* groupId, ::System::Single order)
 		{

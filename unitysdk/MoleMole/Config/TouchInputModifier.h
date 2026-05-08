@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_TOUCHINPUTMODIFIER_MAKEDEFAULT_OFFSET UNITYSDK_OFFSET(0xB47F460)
+#define MOLEMOLE_CONFIG_TOUCHINPUTMODIFIER_MAKEDEFAULT_OFFSET UNITYSDK_OFFSET(0x17D30790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TouchInputModifier_TypeDefinitionIndex = 68264;
+	inline static constexpr unsigned int TouchInputModifier_TypeDefinitionIndex = 77798;
 
 	struct alignas(4) TouchInputModifier
 	{

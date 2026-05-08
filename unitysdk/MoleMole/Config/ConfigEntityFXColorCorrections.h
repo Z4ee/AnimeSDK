@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigEntityFXColorCorrection; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXCOLORCORRECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF99F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXCOLORCORRECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x186B8340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFXColorCorrections_TypeDefinitionIndex = 49543;
+	inline static constexpr unsigned int ConfigEntityFXColorCorrections_TypeDefinitionIndex = 45462;
 
 	class ConfigEntityFXColorCorrections : public ::Foundation::MihoyoSerializedScriptableObject
 	{

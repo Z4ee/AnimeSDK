@@ -10,21 +10,21 @@ namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK { class Web_OnUniWebViewMessageDelegate; }
 namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187973B0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS39_0__REQUESTCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x187973C0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS39_0__REQUESTCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x18798690)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199596F0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS39_0__REQUESTCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x19959700)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS39_0__REQUESTCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x1995A8F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass39_0_TypeDefinitionIndex = 19568;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass39_0_TypeDefinitionIndex = 19925;
 
 	class OverseaPayManager___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::Web_OnUniWebViewMessageDelegate* __9__1; // 0x10
-		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x18
-		::MiHoYo::SDK::JSONNode* vendor; // 0x20
-		::MiHoYo::SDK::JSONNode* payInfo; // 0x28
+		::MiHoYo::SDK::JSONNode* payInfo; // 0x18
+		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x20
+		::MiHoYo::SDK::JSONNode* vendor; // 0x28
 		::MiHoYo::SDK::ReportType reportType; // 0x30
 
 		::System::Void _ctor()

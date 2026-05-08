@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_F8FEC3ABC4732593_Class_1_53C4A549F094DEF6_Struct_2_68FD7A89F31219F3.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIBaseController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_08E3100851AC3E29_OFFSET UNITYSDK_OFFSET(0x12A0A130)
+#define CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_7A75AFE63B6F101E_1_OFFSET UNITYSDK_OFFSET(0x12A09D60)
+#define CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_7A75AFE63B6F101E_OFFSET UNITYSDK_OFFSET(0x12A09BC0)
+#define CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_C7B96E51AB29AA24_OFFSET UNITYSDK_OFFSET(0x12A09F00)
+#define CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6__CTOR_OFFSET UNITYSDK_OFFSET(0x12A09B60)
+
+inline static constexpr unsigned int Class_2_F8FEC3ABC4732593_Class_1_53C4A549F094DEF6_TypeDefinitionIndex = 48914;
+
+class Class_2_F8FEC3ABC4732593_Class_1_53C4A549F094DEF6 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::Class_2_F8FEC3ABC4732593_Class_1_53C4A549F094DEF6_Struct_2_68FD7A89F31219F3>* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7A75AFE63B6F101E(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_7A75AFE63B6F101E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7A75AFE63B6F101E_1(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_7A75AFE63B6F101E_1_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_C7B96E51AB29AA24(::MoleMole::UIBaseController* a1, ::MoleMole::UIBaseController* a2)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::MoleMole::UIBaseController*, ::MoleMole::UIBaseController*))((::PBYTE)hIl2Cpp + CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_C7B96E51AB29AA24_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_08E3100851AC3E29(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_F8FEC3ABC4732593_CLASS_1_53C4A549F094DEF6_METHOD_1_08E3100851AC3E29_OFFSET))(this, a1);
+	}
+};

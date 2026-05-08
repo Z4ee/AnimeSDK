@@ -8,7 +8,7 @@ namespace UnityEngine { class GUIContent; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class TouchScreenKeyboard; }
 
-#define UNITYENGINE_TEXTEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2013E0)
+#define UNITYENGINE_TEXTEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACFA360)
 
 namespace UnityEngine
 {

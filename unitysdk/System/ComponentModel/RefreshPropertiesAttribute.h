@@ -5,12 +5,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A5F0550)
-#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A5F05B0)
-#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_GET_REFRESHPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A5F0540)
-#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A5F05C0)
-#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5F0680)
-#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F0530)
+#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B1E5890)
+#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1E58F0)
+#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_GET_REFRESHPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B1E5880)
+#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B1E5900)
+#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1E59C0)
+#define SYSTEM_COMPONENTMODEL_REFRESHPROPERTIESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1E5870)
 
 namespace System::ComponentModel
 {
@@ -19,7 +19,7 @@ namespace System::ComponentModel
 	class RefreshPropertiesAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::RefreshPropertiesAttribute** StaticGet_All()
+		static ::System::ComponentModel::RefreshPropertiesAttribute** StaticGet_Repaint()
 		{
 			return (::System::ComponentModel::RefreshPropertiesAttribute**)Il2CppClass::FromTypeDefinitionIndex(RefreshPropertiesAttribute_TypeDefinitionIndex)->GetStaticField(0x25C0);
 		}
@@ -27,7 +27,7 @@ namespace System::ComponentModel
 		{
 			return (::System::ComponentModel::RefreshPropertiesAttribute**)Il2CppClass::FromTypeDefinitionIndex(RefreshPropertiesAttribute_TypeDefinitionIndex)->GetStaticField(0x25C8);
 		}
-		static ::System::ComponentModel::RefreshPropertiesAttribute** StaticGet_Repaint()
+		static ::System::ComponentModel::RefreshPropertiesAttribute** StaticGet_All()
 		{
 			return (::System::ComponentModel::RefreshPropertiesAttribute**)Il2CppClass::FromTypeDefinitionIndex(RefreshPropertiesAttribute_TypeDefinitionIndex)->GetStaticField(0x25D0);
 		}

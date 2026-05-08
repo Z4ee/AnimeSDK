@@ -6,18 +6,18 @@ namespace MoleMole::GalGame { class AudioEventItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_SWITCHSCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB83A040)
+#define MOLEMOLE_GALGAME_SWITCHSCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17811A30)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int SwitchSceneConfig_TypeDefinitionIndex = 53167;
+	inline static constexpr unsigned int SwitchSceneConfig_TypeDefinitionIndex = 70194;
 
 	class SwitchSceneConfig : public ::System::Object
 	{
 	public:
-		::System::String* voiceKey; // 0x10
+		::System::String* dialogueKey; // 0x10
 		::System::String* audioKey; // 0x18
-		::System::String* dialogueKey; // 0x20
+		::System::String* voiceKey; // 0x20
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>* audioEventItems; // 0x28
 		::System::Boolean isTypeWriter; // 0x30
 

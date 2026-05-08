@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRecommendGroupRowWidgetController; }
 namespace MoleMole { class UIRecommendTypePropertyRowWidgetController; }
 
-#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4364F0)
-#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHVIEWFORPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0xB436500)
+#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1455FC60)
+#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHVIEWFORPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1455FC70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecommendGroupRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 79322;
+	inline static constexpr unsigned int UIRecommendGroupRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 51382;
 
 	class UIRecommendGroupRowWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

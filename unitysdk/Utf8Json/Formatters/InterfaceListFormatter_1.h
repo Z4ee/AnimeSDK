@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int InterfaceListFormatter_1_TypeDefinitionIndex = 83987;
+	inline static constexpr unsigned int InterfaceListFormatter_1_TypeDefinitionIndex = 85715;
 
 	template <typename T>
 	class InterfaceListFormatter_1 : public ::Utf8Json::Formatters::CollectionFormatterBase_3<T, ::System::Collections::Generic::List_1<T>*, ::System::Collections::Generic::IList_1<T>*>

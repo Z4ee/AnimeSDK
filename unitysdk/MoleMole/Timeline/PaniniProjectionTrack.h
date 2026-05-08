@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB9C42E0)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xB9C45B0)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C4580)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15B5FBE0)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x15B5FE90)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15B5FE30)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int PaniniProjectionTrack_TypeDefinitionIndex = 58111;
+	inline static constexpr unsigned int PaniniProjectionTrack_TypeDefinitionIndex = 67528;
 
 	class PaniniProjectionTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

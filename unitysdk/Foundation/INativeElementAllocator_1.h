@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int INativeElementAllocator_1_TypeDefinitionIndex = 9001;
+	inline static constexpr unsigned int INativeElementAllocator_1_TypeDefinitionIndex = 8992;
 
 	template <typename T>
 	class INativeElementAllocator_1

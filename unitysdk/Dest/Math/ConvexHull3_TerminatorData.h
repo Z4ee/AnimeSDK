@@ -4,11 +4,11 @@
 
 namespace Dest::Math { class ConvexHull3_Triangle; }
 
-#define DEST_MATH_CONVEXHULL3_TERMINATORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE828C0)
+#define DEST_MATH_CONVEXHULL3_TERMINATORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14D90)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull3_TerminatorData_TypeDefinitionIndex = 32576;
+	inline static constexpr unsigned int ConvexHull3_TerminatorData_TypeDefinitionIndex = 33111;
 
 	class ConvexHull3_TerminatorData : public ::System::Object
 	{

@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC23CA50)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1424CC40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertySettings_TypeDefinitionIndex = 46568;
+	inline static constexpr unsigned int ConfigMaterialPropertySettings_TypeDefinitionIndex = 74662;
 
 	class ConfigMaterialPropertySettings : public ::Foundation::MihoyoSerializedScriptableObject
 	{

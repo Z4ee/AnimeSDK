@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1955B290)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1955B5A0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1955BBE0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1955BD20)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D__ONCHECK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1955BDB0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A2A9320)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A2A9630)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A2A9BF0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A9DA0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECTANY2D__ONCHECK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1A2A9E30)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckDistanceToGameObjectAny2D_TypeDefinitionIndex = 27180;
+	inline static constexpr unsigned int CheckDistanceToGameObjectAny2D_TypeDefinitionIndex = 26830;
 
 	class CheckDistanceToGameObjectAny2D : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* allResults; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetObjects; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* closerResult; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetObjects; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* closerResult; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* allResults; // 0x70
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x78
 		::System::Single floatingPoint; // 0x80
 		::ParadoxNotion::CompareMethod checkType; // 0x84

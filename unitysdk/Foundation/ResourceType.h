@@ -3,13 +3,13 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ResourceType_TypeDefinitionIndex = 8264;
+	inline static constexpr unsigned int ResourceType_TypeDefinitionIndex = 8218;
 
 	enum class ResourceType : ::System::Int32
 	{
-		Update_Resource = 2,
 		Local_Bundle = 1,
-		Local_Resource = 0,
 		Empty = 3,
+		Local_Resource = 0,
+		Update_Resource = 2,
 	};
 }

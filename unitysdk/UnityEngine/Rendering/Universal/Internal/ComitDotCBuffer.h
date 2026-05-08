@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ComitDotCBuffer_TypeDefinitionIndex = 29872;
+	inline static constexpr unsigned int ComitDotCBuffer_TypeDefinitionIndex = 30400;
 
 	struct alignas(4) ComitDotCBuffer
 	{

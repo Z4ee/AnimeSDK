@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERCLOSESCANLINE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD34E50)
-#define MOLEMOLE_FLOWCANVAS_HACKERCLOSESCANLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD356A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERCLOSESCANLINE_INVOKE_OFFSET UNITYSDK_OFFSET(0x125A9BF0)
+#define MOLEMOLE_FLOWCANVAS_HACKERCLOSESCANLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x125AA620)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerCloseScanLine_TypeDefinitionIndex = 38732;
+	inline static constexpr unsigned int HackerCloseScanLine_TypeDefinitionIndex = 39062;
 
 	class HackerCloseScanLine : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>
 	{

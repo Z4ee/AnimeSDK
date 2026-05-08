@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int TweenCallback_1_TypeDefinitionIndex = 24828;
+	inline static constexpr unsigned int TweenCallback_1_TypeDefinitionIndex = 25342;
 
 	template <typename T>
 	class TweenCallback_1 : public ::System::MulticastDelegate

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine::Events { class UnityAction; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_560_TypeDefinitionIndex = 59999;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_560_TypeDefinitionIndex = 82611;
 
 class Class_0_16E4307DCC419505_560
 {

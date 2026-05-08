@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int FreezedView_2__GetEnumerator_d__19_TypeDefinitionIndex = 25035;
+	inline static constexpr unsigned int FreezedView_2__GetEnumerator_d__19_TypeDefinitionIndex = 25802;
 
 	template <typename T, typename TView>
 	class FreezedView_2__GetEnumerator_d__19 : public ::System::Object

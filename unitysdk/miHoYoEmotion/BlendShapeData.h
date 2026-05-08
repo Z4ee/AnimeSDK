@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_BLENDSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x876270)
+#define MIHOYOEMOTION_BLENDSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x883BF0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BlendShapeData_TypeDefinitionIndex = 37232;
+	inline static constexpr unsigned int BlendShapeData_TypeDefinitionIndex = 37776;
 
 	struct alignas(8) BlendShapeData
 	{

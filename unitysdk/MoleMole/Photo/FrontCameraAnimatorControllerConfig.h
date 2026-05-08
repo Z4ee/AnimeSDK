@@ -4,11 +4,11 @@
 
 namespace MoleMole::Photo { class PlayableGraphAnimatorControllerBool; }
 
-#define MOLEMOLE_PHOTO_FRONTCAMERAANIMATORCONTROLLERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB86DAC0)
+#define MOLEMOLE_PHOTO_FRONTCAMERAANIMATORCONTROLLERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B11840)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int FrontCameraAnimatorControllerConfig_TypeDefinitionIndex = 48540;
+	inline static constexpr unsigned int FrontCameraAnimatorControllerConfig_TypeDefinitionIndex = 70402;
 
 	class FrontCameraAnimatorControllerConfig : public ::MoleMole::Photo::PlayableGraphAnimatorControllerConfig
 	{

@@ -5,13 +5,13 @@
 
 namespace MoleMole { class DOFProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEDOF_METHOD_2_2133B72CEC412931_OFFSET UNITYSDK_OFFSET(0xF2BA6D0)
-#define MOLEMOLE_COMMANDLINEDOF_METHOD_2_C9532B1FA6270727_OFFSET UNITYSDK_OFFSET(0xF2BA810)
-#define MOLEMOLE_COMMANDLINEDOF__CTOR_OFFSET UNITYSDK_OFFSET(0xF2BA7D0)
+#define MOLEMOLE_COMMANDLINEDOF_METHOD_2_2133B72CEC412931_OFFSET UNITYSDK_OFFSET(0x159D9980)
+#define MOLEMOLE_COMMANDLINEDOF_METHOD_2_B0123943C68C9BC5_OFFSET UNITYSDK_OFFSET(0x159D9A90)
+#define MOLEMOLE_COMMANDLINEDOF__CTOR_OFFSET UNITYSDK_OFFSET(0x159D9A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineDOF_TypeDefinitionIndex = 53846;
+	inline static constexpr unsigned int CommandLineDOF_TypeDefinitionIndex = 63140;
 
 	class CommandLineDOF : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::DOFProfileContext*, ::MoleMole::CommandLineDOF*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineDOF*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_METHOD_2_2133B72CEC412931_OFFSET))(this, a1);
 		}
 
-		::MoleMole::DOFProfileContext* Method_2_C9532B1FA6270727(::MoleMole::DOFProfileContext* a1)
+		::MoleMole::DOFProfileContext* Method_2_B0123943C68C9BC5(::MoleMole::DOFProfileContext* a1)
 		{
-			return ((::MoleMole::DOFProfileContext*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_METHOD_2_C9532B1FA6270727_OFFSET))(this, a1);
+			return ((::MoleMole::DOFProfileContext*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_METHOD_2_B0123943C68C9BC5_OFFSET))(this, a1);
 		}
 	};
 }

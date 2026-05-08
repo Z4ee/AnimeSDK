@@ -7,12 +7,12 @@ namespace MoleMole { class ConfigTimelineCamera_CameraCurveGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGTIMELINECAMERA_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0xB0AD130)
-#define MOLEMOLE_CONFIGTIMELINECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0AD220)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1103DF60)
+#define MOLEMOLE_CONFIGTIMELINECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1103E070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTimelineCamera_TypeDefinitionIndex = 50522;
+	inline static constexpr unsigned int ConfigTimelineCamera_TypeDefinitionIndex = 61106;
 
 	class ConfigTimelineCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{

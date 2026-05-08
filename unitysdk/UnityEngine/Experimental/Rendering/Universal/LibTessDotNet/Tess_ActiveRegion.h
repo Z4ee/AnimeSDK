@@ -5,11 +5,11 @@
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { class MeshUtils_Edge; }
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { template <typename T> class Dict_1_Node; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_TESS_ACTIVEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x189D7580)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_LIBTESSDOTNET_TESS_ACTIVEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9E9F0)
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int Tess_ActiveRegion_TypeDefinitionIndex = 29235;
+	inline static constexpr unsigned int Tess_ActiveRegion_TypeDefinitionIndex = 29754;
 
 	class Tess_ActiveRegion : public ::System::Object
 	{

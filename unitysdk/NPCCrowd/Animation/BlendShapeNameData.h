@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_BLENDSHAPENAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8489560)
+#define NPCCROWD_ANIMATION_BLENDSHAPENAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFC0F410)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int BlendShapeNameData_TypeDefinitionIndex = 62458;
+	inline static constexpr unsigned int BlendShapeNameData_TypeDefinitionIndex = 58808;
 
 	class BlendShapeNameData : public ::System::Object
 	{

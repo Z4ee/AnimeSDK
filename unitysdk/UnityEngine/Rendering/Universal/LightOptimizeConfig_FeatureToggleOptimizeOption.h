@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightOptimizeConfig_FeatureToggleOptimizeOption_TypeDefinitionIndex = 29492;
+	inline static constexpr unsigned int LightOptimizeConfig_FeatureToggleOptimizeOption_TypeDefinitionIndex = 30020;
 
 	enum class LightOptimizeConfig_FeatureToggleOptimizeOption : ::System::Int32
 	{

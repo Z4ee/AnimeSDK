@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CAMERAORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x30B360)
+#define MOLEMOLE_CAMERAORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x43F560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraOrbit_TypeDefinitionIndex = 59457;
+	inline static constexpr unsigned int CameraOrbit_TypeDefinitionIndex = 72566;
 
 	struct alignas(4) CameraOrbit
 	{

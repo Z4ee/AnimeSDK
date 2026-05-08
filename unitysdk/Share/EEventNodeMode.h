@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EEventNodeMode_TypeDefinitionIndex = 9687;
+	inline static constexpr unsigned int EEventNodeMode_TypeDefinitionIndex = 16054;
 
 	enum class EEventNodeMode : ::System::Int16
 	{
-		EnumCount = 3,
-		OnlyClient = 0,
-		ClientRequest = 2,
 		OnlyServer = 1,
+		OnlyClient = 0,
+		EnumCount = 3,
+		ClientRequest = 2,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapProfileId_TypeDefinitionIndex = 29620;
+	inline static constexpr unsigned int NapProfileId_TypeDefinitionIndex = 30148;
 
 	enum class NapProfileId : ::System::Int32
 	{

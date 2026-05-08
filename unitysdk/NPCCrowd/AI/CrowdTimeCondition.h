@@ -5,12 +5,12 @@
 #include "unitysdk/NPCCrowd/AI/DayOfWeekFlag.h"
 #include "unitysdk/NPCCrowd/AI/TimePeriodTypeFlag.h"
 
-#define NPCCROWD_AI_CROWDTIMECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x69D55D0)
-#define NPCCROWD_AI_CROWDTIMECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x69D55C0)
+#define NPCCROWD_AI_CROWDTIMECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x1826AF10)
+#define NPCCROWD_AI_CROWDTIMECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1826AF00)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int CrowdTimeCondition_TypeDefinitionIndex = 50545;
+	inline static constexpr unsigned int CrowdTimeCondition_TypeDefinitionIndex = 82852;
 
 	class CrowdTimeCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

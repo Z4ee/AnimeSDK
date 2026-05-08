@@ -7,20 +7,20 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIEDITBTNSMALLWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD11F200)
+#define MOLEMOLE_UIEDITBTNSMALLWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC1E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEditBtnSmallWidgetController_Context_TypeDefinitionIndex = 56092;
+	inline static constexpr unsigned int UIEditBtnSmallWidgetController_Context_TypeDefinitionIndex = 77742;
 
 	class UIEditBtnSmallWidgetController_Context : public ::System::Object
 	{
 	public:
-		::System::Action* OnClick; // 0x10
-		::System::String* Key; // 0x18
-		::System::Boolean IsInteractable; // 0x20
-		::Enum_3_DEC0174660AB7EDF BtnType; // 0x24
-		::Share::ENotificationBadgeType RedDotType; // 0x28
+		::System::String* Key; // 0x10
+		::System::Action* OnClick; // 0x18
+		::Share::ENotificationBadgeType RedDotType; // 0x20
+		::System::Boolean IsInteractable; // 0x24
+		::Enum_3_DEC0174660AB7EDF BtnType; // 0x28
 
 		::System::Void _ctor()
 		{

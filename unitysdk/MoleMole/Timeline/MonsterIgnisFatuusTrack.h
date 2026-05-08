@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB9C3A80)
-#define MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xB9C3D50)
-#define MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C3D20)
+#define MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15B5F3A0)
+#define MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x15B5F650)
+#define MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15B5F5F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MonsterIgnisFatuusTrack_TypeDefinitionIndex = 53212;
+	inline static constexpr unsigned int MonsterIgnisFatuusTrack_TypeDefinitionIndex = 38813;
 
 	class MonsterIgnisFatuusTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_MONSTERIGNISFATUUSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

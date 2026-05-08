@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD810350)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD810360)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD810860)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD810B90)
-#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD810B30)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13839F00)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13839F10)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1383A3E0)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1383A6F0)
+#define MOLEMOLE_MATERIALPROPERTYMODIFIERVALUETEXTURE_MATERIALPROPERTYMODIFIERVALUETEXTURE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1383A690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex = 65547;
+	inline static constexpr unsigned int MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex = 55234;
 
 	class MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MaterialPropertyModifierValueTexture>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40400);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x404D0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40408);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x404D8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40410);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyModifierValueTexture_MaterialPropertyModifierValueTexture_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x404E0);
 		}
 
 		::System::Void _ctor()

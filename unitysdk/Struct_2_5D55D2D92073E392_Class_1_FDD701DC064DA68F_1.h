@@ -4,9 +4,9 @@
 
 namespace Nap::NapECS { class EcsWorld; }
 
-#define STRUCT_2_5D55D2D92073E392_CLASS_1_FDD701DC064DA68F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x80809B0)
+#define STRUCT_2_5D55D2D92073E392_CLASS_1_FDD701DC064DA68F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12BF6910)
 
-inline static constexpr unsigned int Struct_2_5D55D2D92073E392_Class_1_FDD701DC064DA68F_1_TypeDefinitionIndex = 46030;
+inline static constexpr unsigned int Struct_2_5D55D2D92073E392_Class_1_FDD701DC064DA68F_1_TypeDefinitionIndex = 78855;
 
 class Struct_2_5D55D2D92073E392_Class_1_FDD701DC064DA68F_1 : public ::System::Object
 {

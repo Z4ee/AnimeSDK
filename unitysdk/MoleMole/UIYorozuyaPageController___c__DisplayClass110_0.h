@@ -5,18 +5,18 @@
 namespace MoleMole { class UILineupSelectContext; }
 namespace MoleMole { class UIYorozuyaPageController; }
 
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS110_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2ED10)
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS110_0__GOTOUILINEUPSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x9A2ED20)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS110_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE48E430)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS110_0__GOTOUILINEUPSELECT_B__0_OFFSET UNITYSDK_OFFSET(0xE48E440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass110_0_TypeDefinitionIndex = 39327;
+	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass110_0_TypeDefinitionIndex = 79302;
 
 	class UIYorozuyaPageController___c__DisplayClass110_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIYorozuyaPageController* __4__this; // 0x10
-		::MoleMole::UILineupSelectContext* context; // 0x18
+		::MoleMole::UILineupSelectContext* context; // 0x10
+		::MoleMole::UIYorozuyaPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class ExternalKeyboard; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B62A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__0_OFFSET UNITYSDK_OFFSET(0x1B5B7400)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__1_OFFSET UNITYSDK_OFFSET(0x1B5B74B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F1850)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__0_OFFSET UNITYSDK_OFFSET(0x1C3F2B80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__1_OFFSET UNITYSDK_OFFSET(0x1C3F2D00)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ExternalKeyboard___c__DisplayClass16_0_TypeDefinitionIndex = 30603;
+	inline static constexpr unsigned int ExternalKeyboard___c__DisplayClass16_0_TypeDefinitionIndex = 31132;
 
 	class ExternalKeyboard___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::ExternalKeyboard* __4__this; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::ExternalKeyboard* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

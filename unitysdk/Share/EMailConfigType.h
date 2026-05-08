@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMailConfigType_TypeDefinitionIndex = 17568;
+	inline static constexpr unsigned int EMailConfigType_TypeDefinitionIndex = 10017;
 
 	enum class EMailConfigType : ::System::Int16
 	{

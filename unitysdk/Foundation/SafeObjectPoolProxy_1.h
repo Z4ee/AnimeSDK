@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class SafeObject_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SafeObjectPoolProxy_1_TypeDefinitionIndex = 7899;
+	inline static constexpr unsigned int SafeObjectPoolProxy_1_TypeDefinitionIndex = 7896;
 
 	template <typename T>
 	class SafeObjectPoolProxy_1

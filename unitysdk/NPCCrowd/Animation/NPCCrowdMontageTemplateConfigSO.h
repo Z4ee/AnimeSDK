@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGETEMPLATECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x9B08C20)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGETEMPLATECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF85BAE0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageTemplateConfigSO_TypeDefinitionIndex = 77091;
+	inline static constexpr unsigned int NPCCrowdMontageTemplateConfigSO_TypeDefinitionIndex = 60328;
 
 	class NPCCrowdMontageTemplateConfigSO : public ::Foundation::MihoyoSerializedScriptableObject
 	{

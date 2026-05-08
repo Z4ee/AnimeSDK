@@ -5,11 +5,11 @@
 class Class_1_BE6BF7909AD9D940;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIINGAMEINVITEFRIENDROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9C126A0)
+#define MOLEMOLE_UIINGAMEINVITEFRIENDROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162F02B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInGameInviteFriendRowContext_TypeDefinitionIndex = 52677;
+	inline static constexpr unsigned int UIInGameInviteFriendRowContext_TypeDefinitionIndex = 41057;
 
 	class UIInGameInviteFriendRowContext : public ::MoleMole::UIControllerContextBase
 	{

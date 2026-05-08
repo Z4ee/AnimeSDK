@@ -4,19 +4,19 @@
 
 namespace LitJson { class Lexer; }
 
-#define LITJSON_FSMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x199A4D70)
+#define LITJSON_FSMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A026FD0)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int FsmContext_TypeDefinitionIndex = 7761;
+	inline static constexpr unsigned int FsmContext_TypeDefinitionIndex = 7798;
 
 	class FsmContext : public ::System::Object
 	{
 	public:
 		::LitJson::Lexer* L; // 0x10
 		::System::Int32 NextState; // 0x18
-		::System::Boolean Return; // 0x1C
-		::System::Int32 StateStack; // 0x20
+		::System::Int32 StateStack; // 0x1C
+		::System::Boolean Return; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int DefaultFollowSettingConfig_TypeDefinitionIndex = 35858;
+	inline static constexpr unsigned int DefaultFollowSettingConfig_TypeDefinitionIndex = 36402;
 
 	struct alignas(4) DefaultFollowSettingConfig
 	{

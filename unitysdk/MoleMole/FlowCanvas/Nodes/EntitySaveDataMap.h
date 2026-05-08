@@ -6,13 +6,13 @@ namespace MoleMole::FlowCanvas::Nodes { class EntityData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_GETVALUE_OFFSET UNITYSDK_OFFSET(0xA7C8D60)
-#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_SETVALUE_OFFSET UNITYSDK_OFFSET(0xA7C8E80)
-#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C8F50)
+#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16039050)
+#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_SETVALUE_OFFSET UNITYSDK_OFFSET(0x16039140)
+#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16039220)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EntitySaveDataMap_TypeDefinitionIndex = 67555;
+	inline static constexpr unsigned int EntitySaveDataMap_TypeDefinitionIndex = 46769;
 
 	class EntitySaveDataMap : public ::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<::MoleMole::FlowCanvas::Nodes::EntityData*, ::System::String*>
 	{

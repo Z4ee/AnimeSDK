@@ -11,12 +11,12 @@ namespace MoleMole { class ConfigNewbie_HighLightData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0xD0B0BE0)
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B1A70)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x16B52850)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x16B536F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 73609;
+	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 56124;
 
 	class ConfigNewbie_NewbieStep : public ::System::Object
 	{

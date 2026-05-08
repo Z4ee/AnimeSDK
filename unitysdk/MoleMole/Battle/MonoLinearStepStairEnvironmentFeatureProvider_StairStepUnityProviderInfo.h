@@ -7,7 +7,7 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonoLinearStepStairEnvironmentFeatureProvider_StairStepUnityProviderInfo_TypeDefinitionIndex = 74874;
+	inline static constexpr unsigned int MonoLinearStepStairEnvironmentFeatureProvider_StairStepUnityProviderInfo_TypeDefinitionIndex = 74114;
 
 	struct alignas(4) MonoLinearStepStairEnvironmentFeatureProvider_StairStepUnityProviderInfo
 	{

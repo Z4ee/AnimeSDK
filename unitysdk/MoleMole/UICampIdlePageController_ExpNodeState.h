@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController_ExpNodeState_TypeDefinitionIndex = 66514;
+	inline static constexpr unsigned int UICampIdlePageController_ExpNodeState_TypeDefinitionIndex = 69145;
 
 	enum class UICampIdlePageController_ExpNodeState : ::System::Int32
 	{
-		AvatarSet = 2,
-		AvatarSelected = 1,
 		NoAvatar = 0,
+		AvatarSelected = 1,
+		AvatarSet = 2,
 	};
 }

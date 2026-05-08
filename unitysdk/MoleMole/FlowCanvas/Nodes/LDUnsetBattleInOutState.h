@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDUNSETBATTLEINOUTSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8A56C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDUNSETBATTLEINOUTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A58A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDUNSETBATTLEINOUTSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E505D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDUNSETBATTLEINOUTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E50770)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDUnsetBattleInOutState_TypeDefinitionIndex = 68672;
+	inline static constexpr unsigned int LDUnsetBattleInOutState_TypeDefinitionIndex = 60713;
 
 	class LDUnsetBattleInOutState : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Boolean>
 	{

@@ -7,12 +7,12 @@
 namespace MoleMole { class ConfigBaseDynamicCheckTreeNode; }
 namespace System { class String; }
 
-#define MOLEMOLE_DYNAMICCHECKTREEDATAENTRY_GETEXPAND_OFFSET UNITYSDK_OFFSET(0x3AA5C0)
-#define MOLEMOLE_DYNAMICCHECKTREEDATAENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x3AA630)
+#define MOLEMOLE_DYNAMICCHECKTREEDATAENTRY_GETEXPAND_OFFSET UNITYSDK_OFFSET(0x7D9710)
+#define MOLEMOLE_DYNAMICCHECKTREEDATAENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x7D9760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DynamicCheckTreeDataEntry_TypeDefinitionIndex = 74257;
+	inline static constexpr unsigned int DynamicCheckTreeDataEntry_TypeDefinitionIndex = 66357;
 
 	struct alignas(8) DynamicCheckTreeDataEntry
 	{

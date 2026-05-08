@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int YogaMeasureMode_TypeDefinitionIndex = 24417;
+	inline static constexpr unsigned int YogaMeasureMode_TypeDefinitionIndex = 24931;
 
 	enum class YogaMeasureMode : ::System::Int32
 	{

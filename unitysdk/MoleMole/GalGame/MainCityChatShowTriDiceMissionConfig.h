@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_340DE32BA097F66C.h"
+#include "unitysdk/Enum_3_81A3942BCC6E42B5.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatShowUIConfig.h"
 
 class Class_2_1737D2629B3D075C;
 namespace MoleMole::GalGame { class MainCityChatShowUIConfig_OnCloseWithIndex; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET UNITYSDK_OFFSET(0x7A6B8D0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_ONOPEN_OFFSET UNITYSDK_OFFSET(0x7A6B8E0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7A6BA90)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET UNITYSDK_OFFSET(0x12336B90)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_ONOPEN_OFFSET UNITYSDK_OFFSET(0x12336BA0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12336D20)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowTriDiceMissionConfig_TypeDefinitionIndex = 65858;
+	inline static constexpr unsigned int MainCityChatShowTriDiceMissionConfig_TypeDefinitionIndex = 42881;
 
 	class MainCityChatShowTriDiceMissionConfig : public ::MoleMole::GalGame::MainCityChatShowUIConfig
 	{
@@ -26,9 +26,9 @@ namespace MoleMole::GalGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_340DE32BA097F66C get_UICtrl()
+		::Enum_3_81A3942BCC6E42B5 get_UICtrl()
 		{
-			return ((::Enum_3_340DE32BA097F66C(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET))(this);
+			return ((::Enum_3_81A3942BCC6E42B5(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET))(this);
 		}
 
 		::System::Void OnOpen(::Class_2_1737D2629B3D075C* node, ::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* onClose)

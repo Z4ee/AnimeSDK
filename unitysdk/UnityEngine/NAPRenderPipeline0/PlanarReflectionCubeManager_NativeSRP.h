@@ -8,7 +8,7 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine::NAPRenderPipeline0 { class PlanarReflectionCubeProbe_NativeSRP; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONCUBEMANAGER_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5324D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONCUBEMANAGER_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C51B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

@@ -7,7 +7,7 @@ namespace ObservableCollections::Internal { template <typename T1, typename T2> 
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int FreezedSortableView_2__GetEnumerator_d__18_TypeDefinitionIndex = 25229;
+	inline static constexpr unsigned int FreezedSortableView_2__GetEnumerator_d__18_TypeDefinitionIndex = 25663;
 
 	template <typename T, typename TView>
 	class FreezedSortableView_2__GetEnumerator_d__18 : public ::System::Object

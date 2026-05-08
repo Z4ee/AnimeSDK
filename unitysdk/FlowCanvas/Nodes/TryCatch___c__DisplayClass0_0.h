@@ -5,19 +5,19 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6543E0)
-#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A6543F0)
+#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41A050)
+#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B41A060)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TryCatch___c__DisplayClass0_0_TypeDefinitionIndex = 26104;
+	inline static constexpr unsigned int TryCatch___c__DisplayClass0_0_TypeDefinitionIndex = 27896;
 
 	class TryCatch___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowOutput* fCatch; // 0x10
-		::FlowCanvas::FlowOutput* fFinally; // 0x18
-		::FlowCanvas::FlowOutput* fTry; // 0x20
+		::FlowCanvas::FlowOutput* fFinally; // 0x10
+		::FlowCanvas::FlowOutput* fTry; // 0x18
+		::FlowCanvas::FlowOutput* fCatch; // 0x20
 
 		::System::Void _ctor()
 		{

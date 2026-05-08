@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace NodeGraph::MainCity { class MoveTo; }
 
-#define NODEGRAPH_MAINCITY_MOVETO___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6FB6C20)
-#define NODEGRAPH_MAINCITY_MOVETO___C__DISPLAYCLASS31_0__ONNODEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x6FB6C30)
+#define NODEGRAPH_MAINCITY_MOVETO___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEC99CC0)
+#define NODEGRAPH_MAINCITY_MOVETO___C__DISPLAYCLASS31_0__ONNODEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xEC99CD0)
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int MoveTo___c__DisplayClass31_0_TypeDefinitionIndex = 48174;
+	inline static constexpr unsigned int MoveTo___c__DisplayClass31_0_TypeDefinitionIndex = 76937;
 
 	class MoveTo___c__DisplayClass31_0 : public ::System::Object
 	{

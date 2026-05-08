@@ -6,20 +6,20 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xD0D05E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D06C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE__HANDLE_OFFSET UNITYSDK_OFFSET(0xD0D0340)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD0D06E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16B7CD40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7CE00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE__HANDLE_OFFSET UNITYSDK_OFFSET(0x16B7CAC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEBUDDYNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x16B7CE40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHideBuddyNode_TypeDefinitionIndex = 58653;
+	inline static constexpr unsigned int LDHideBuddyNode_TypeDefinitionIndex = 40779;
 
 	class LDHideBuddyNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::String* ToRemoveBuddyZoneTag; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::System::String* ToRemoveBuddyZoneTag; // 0xB0
 
 		::System::Void _ctor()
 		{

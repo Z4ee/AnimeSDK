@@ -6,13 +6,13 @@
 
 namespace MoleMole { class AnisotropicSamplingProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_ABACFB27553ACD1B_OFFSET UNITYSDK_OFFSET(0x916F0F0)
-#define MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_E6607C8AAE89B36D_OFFSET UNITYSDK_OFFSET(0x916F230)
-#define MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING__CTOR_OFFSET UNITYSDK_OFFSET(0x916F1F0)
+#define MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_035B471DAE7665D5_OFFSET UNITYSDK_OFFSET(0x11C8D670)
+#define MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_ABACFB27553ACD1B_OFFSET UNITYSDK_OFFSET(0x11C8D560)
+#define MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING__CTOR_OFFSET UNITYSDK_OFFSET(0x11C8D630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineAnisotropicSampling_TypeDefinitionIndex = 70427;
+	inline static constexpr unsigned int CommandLineAnisotropicSampling_TypeDefinitionIndex = 46424;
 
 	class CommandLineAnisotropicSampling : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::AnisotropicSamplingProfileContext*, ::MoleMole::CommandLineAnisotropicSampling*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineAnisotropicSampling*(*)(::PVOID, ::MoleMole::AnisotropicSamplingProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_ABACFB27553ACD1B_OFFSET))(this, a1);
 		}
 
-		::MoleMole::AnisotropicSamplingProfileContext* Method_2_E6607C8AAE89B36D(::MoleMole::AnisotropicSamplingProfileContext* a1)
+		::MoleMole::AnisotropicSamplingProfileContext* Method_2_035B471DAE7665D5(::MoleMole::AnisotropicSamplingProfileContext* a1)
 		{
-			return ((::MoleMole::AnisotropicSamplingProfileContext*(*)(::PVOID, ::MoleMole::AnisotropicSamplingProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_E6607C8AAE89B36D_OFFSET))(this, a1);
+			return ((::MoleMole::AnisotropicSamplingProfileContext*(*)(::PVOID, ::MoleMole::AnisotropicSamplingProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEANISOTROPICSAMPLING_METHOD_2_035B471DAE7665D5_OFFSET))(this, a1);
 		}
 	};
 }

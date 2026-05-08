@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A843FEC42C53F62F.h"
+#include "unitysdk/Enum_3_A865FEC42C70DCB5.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_D375C91CCE5D3999;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A3854F4E08841E2B_METHOD_1_3BE0C15BA155428B_OFFSET UNITYSDK_OFFSET(0x7DD93F0)
-#define CLASS_1_A3854F4E08841E2B_METHOD_1_82D66E624C92FF2B_OFFSET UNITYSDK_OFFSET(0x7DD9510)
-#define CLASS_1_A3854F4E08841E2B__CCTOR_OFFSET UNITYSDK_OFFSET(0x7DD9350)
+#define CLASS_1_A3854F4E08841E2B_METHOD_1_3BE0C15BA155428B_OFFSET UNITYSDK_OFFSET(0x147A1E40)
+#define CLASS_1_A3854F4E08841E2B_METHOD_1_82D66E624C92FF2B_OFFSET UNITYSDK_OFFSET(0x147A1F10)
+#define CLASS_1_A3854F4E08841E2B__CCTOR_OFFSET UNITYSDK_OFFSET(0x147A1DA0)
 
-inline static constexpr unsigned int Class_1_A3854F4E08841E2B_TypeDefinitionIndex = 68235;
+inline static constexpr unsigned int Class_1_A3854F4E08841E2B_TypeDefinitionIndex = 53908;
 
 class Class_1_A3854F4E08841E2B : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::Enum_3_A843FEC42C53F62F>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::Enum_3_A865FEC42C70DCB5>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::List_1<::Enum_3_A843FEC42C53F62F>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A3854F4E08841E2B_TypeDefinitionIndex)->GetStaticField(0x463B0);
+		return (::System::Collections::Generic::List_1<::Enum_3_A865FEC42C70DCB5>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A3854F4E08841E2B_TypeDefinitionIndex)->GetStaticField(0x39C90);
 	}
 
 	static ::System::Void _cctor()

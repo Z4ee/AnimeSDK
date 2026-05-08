@@ -9,17 +9,17 @@ class Class_1_CEBEFC8BE3C58B6D;
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_CEBEFC8BE3C58B6D_STRUCT_2_F7D75274FD21829D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x34ED40)
-#define CLASS_1_CEBEFC8BE3C58B6D_STRUCT_2_F7D75274FD21829D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_1_CEBEFC8BE3C58B6D_STRUCT_2_F7D75274FD21829D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81C540)
+#define CLASS_1_CEBEFC8BE3C58B6D_STRUCT_2_F7D75274FD21829D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_1_CEBEFC8BE3C58B6D_Struct_2_F7D75274FD21829D_TypeDefinitionIndex = 63717;
+inline static constexpr unsigned int Class_1_CEBEFC8BE3C58B6D_Struct_2_F7D75274FD21829D_TypeDefinitionIndex = 74718;
 
 struct alignas(8) Class_1_CEBEFC8BE3C58B6D_Struct_2_F7D75274FD21829D
 {
-	::Class_1_CEBEFC8BE3C58B6D* Field_2_2; // 0x10
-	::MoleMole::Cameras::CameraTrackBlending* Field_2_4; // 0x18
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x20
-	::PipelineCamera::ScopedDelegateHandle Field_2_5; // 0x30
+	::MoleMole::Cameras::CameraTrackBlending* Field_2_4; // 0x10
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x18
+	::PipelineCamera::ScopedDelegateHandle Field_2_5; // 0x28
+	::Class_1_CEBEFC8BE3C58B6D* Field_2_2; // 0x30
 	::MoleMole::Cameras::CameraTrackBlending* Field_2_3; // 0x38
 	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x40
 	::System::Int32 Field_2_0; // 0x48

@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_SUPERDEBUG___C__DISPLAYCLASS112_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199AB710)
-#define MOLEMOLE_SUPERDEBUG___C__DISPLAYCLASS112_0__DRAWCIRCLE_B__0_OFFSET UNITYSDK_OFFSET(0x199AB720)
+#define MOLEMOLE_SUPERDEBUG___C__DISPLAYCLASS112_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02DBF0)
+#define MOLEMOLE_SUPERDEBUG___C__DISPLAYCLASS112_0__DRAWCIRCLE_B__0_OFFSET UNITYSDK_OFFSET(0x1A02DC00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug___c__DisplayClass112_0_TypeDefinitionIndex = 8156;
+	inline static constexpr unsigned int SuperDebug___c__DisplayClass112_0_TypeDefinitionIndex = 7777;
 
 	class SuperDebug___c__DisplayClass112_0 : public ::System::Object
 	{
 	public:
-		::System::Single size; // 0x10
-		::System::Single duration; // 0x14
-		::System::Boolean depthTest; // 0x18
-		::UnityEngine::Vector3 centerPoint; // 0x1C
-		::UnityEngine::Color color; // 0x28
+		::UnityEngine::Color color; // 0x10
+		::UnityEngine::Vector3 centerPoint; // 0x20
+		::System::Single duration; // 0x2C
+		::System::Single size; // 0x30
+		::System::Boolean depthTest; // 0x34
 
 		::System::Void _ctor()
 		{

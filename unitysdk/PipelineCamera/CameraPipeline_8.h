@@ -14,7 +14,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraPipeline_8_TypeDefinitionIndex = 35371;
+	inline static constexpr unsigned int CameraPipeline_8_TypeDefinitionIndex = 35915;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	struct CameraPipeline_8

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int AvailableTrackingData_TypeDefinitionIndex = 24637;
+	inline static constexpr unsigned int AvailableTrackingData_TypeDefinitionIndex = 25151;
 
 	enum class AvailableTrackingData : ::System::Int32
 	{

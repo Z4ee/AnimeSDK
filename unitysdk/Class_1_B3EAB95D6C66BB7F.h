@@ -8,7 +8,7 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-inline static constexpr unsigned int Class_1_B3EAB95D6C66BB7F_TypeDefinitionIndex = 69596;
+inline static constexpr unsigned int Class_1_B3EAB95D6C66BB7F_TypeDefinitionIndex = 70635;
 
 template <typename TBase>
 class Class_1_B3EAB95D6C66BB7F : public ::System::Object

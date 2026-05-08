@@ -21,27 +21,27 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class RenderingUtils_SpotMeshData; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_CLEARSYSTEMINFOCACHE_OFFSET UNITYSDK_OFFSET(0x19E9DE60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_CREATECUBEMESH_OFFSET UNITYSDK_OFFSET(0x19E9C880)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_CREATEQUADMESH_OFFSET UNITYSDK_OFFSET(0x19E9CF30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ENSUREERRORMATERIAL_OFFSET UNITYSDK_OFFSET(0x19E9EBE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ENSUREFULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x19E9E6C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ENSURERENDERUTILSASSETS_OFFSET UNITYSDK_OFFSET(0x19E9E650)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETBLACKSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x19E9D150)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETDECALMESH_OFFSET UNITYSDK_OFFSET(0x19E9D880)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x19E995C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETSPOTMESH_OFFSET UNITYSDK_OFFSET(0x19E992D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETVALIDCOLORBUFFERCOUNT_OFFSET UNITYSDK_OFFSET(0x19E9E310)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GET_BLACKCUBEMAPARRAY_OFFSET UNITYSDK_OFFSET(0x19E9C160)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GET_PLACEHOLDERBUFFER_OFFSET UNITYSDK_OFFSET(0x19E9C710)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ISMRT_OFFSET UNITYSDK_OFFSET(0x19E9E470)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_LASTVALID_OFFSET UNITYSDK_OFFSET(0x19E9E4D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_REMOVESPOTMESH_OFFSET UNITYSDK_OFFSET(0x19E9D570)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SEQUENCEEQUAL_OFFSET UNITYSDK_OFFSET(0x19E9E550)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SETVIEWANDPROJECTIONMATRICES_OFFSET UNITYSDK_OFFSET(0x19E9DA50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SUPPORTSGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x19E9E160)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SUPPORTSRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x19E9DFC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E9EE30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_CLEARSYSTEMINFOCACHE_OFFSET UNITYSDK_OFFSET(0x1AFB3D40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_CREATECUBEMESH_OFFSET UNITYSDK_OFFSET(0x1AFB24C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_CREATEQUADMESH_OFFSET UNITYSDK_OFFSET(0x1AFB2BD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ENSUREERRORMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AFB4B60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ENSUREFULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x1AFB45B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ENSURERENDERUTILSASSETS_OFFSET UNITYSDK_OFFSET(0x1AFB4540)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETBLACKSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1AFB2E50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETDECALMESH_OFFSET UNITYSDK_OFFSET(0x1AFB36F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x1AFAF020)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETSPOTMESH_OFFSET UNITYSDK_OFFSET(0x1AFAEC40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GETVALIDCOLORBUFFERCOUNT_OFFSET UNITYSDK_OFFSET(0x1AFB4200)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GET_BLACKCUBEMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1AFB1D30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_GET_PLACEHOLDERBUFFER_OFFSET UNITYSDK_OFFSET(0x1AFB2350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_ISMRT_OFFSET UNITYSDK_OFFSET(0x1AFB4360)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_LASTVALID_OFFSET UNITYSDK_OFFSET(0x1AFB43C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_REMOVESPOTMESH_OFFSET UNITYSDK_OFFSET(0x1AFB3270)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SEQUENCEEQUAL_OFFSET UNITYSDK_OFFSET(0x1AFB4440)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SETVIEWANDPROJECTIONMATRICES_OFFSET UNITYSDK_OFFSET(0x1AFB3930)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SUPPORTSGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x1AFB4050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS_SUPPORTSRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1AFB3EA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERINGUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFB4DD0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
@@ -50,61 +50,61 @@ namespace UnityEngine::NAPRenderPipeline0
 	class RenderingUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>** StaticGet_m_RenderTextureFormatSupport()
+		static ::UnityEngine::Material** StaticGet_errorMaterial()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5210);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>** StaticGet_m_LegacyShaderPassNames()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5218);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet_m_BlackShadowMapArray()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5220);
-		}
-		static ::UnityEngine::CubemapArray** StaticGet_m_BlackCubeArrayTexture()
-		{
-			return (::UnityEngine::CubemapArray**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5228);
-		}
-		static ::UnityEngine::Mesh** StaticGet_fullscreenMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5230);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Boolean>** StaticGet_m_GraphicsFormatSupport()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5238);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5210);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Light*, ::UnityEngine::NAPRenderPipeline0::RenderingUtils_SpotMeshData*>** StaticGet_s_SpotMeshList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Light*, ::UnityEngine::NAPRenderPipeline0::RenderingUtils_SpotMeshData*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5240);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Light*, ::UnityEngine::NAPRenderPipeline0::RenderingUtils_SpotMeshData*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5218);
 		}
-		static ::UnityEngine::Material** StaticGet_errorMaterial()
+		static ::UnityEngine::Mesh** StaticGet_m_DecalMesh()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5248);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5220);
+		}
+		static ::UnityEngine::Mesh** StaticGet_fullscreenMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5228);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>** StaticGet_m_LegacyShaderPassNames()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5230);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_SphereMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5238);
+		}
+		static ::UnityEngine::CubemapArray** StaticGet_m_BlackCubeArrayTexture()
+		{
+			return (::UnityEngine::CubemapArray**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5240);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Boolean>** StaticGet_m_GraphicsFormatSupport()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5248);
 		}
 		static ::UnityEngine::ComputeBuffer** StaticGet_m_PlaceHolderBuffer()
 		{
 			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5250);
 		}
-		static ::UnityEngine::Mesh** StaticGet_s_SphereMesh()
+		static ::UnityEngine::RenderTexture** StaticGet_m_BlackShadowMapArray()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5258);
+			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5258);
 		}
-		static ::UnityEngine::Mesh** StaticGet_m_DecalMesh()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>** StaticGet_m_RenderTextureFormatSupport()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5260);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x5260);
 		}
 		static ::UnityEngine::Rendering::RenderTargetIdentifier* StaticGet_DefaultRTI()
 		{
-			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x2B90);
+			return (::UnityEngine::Rendering::RenderTargetIdentifier*)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x2BA0);
 		}
 		static ::System::Int32* StaticGet_errorMaterialID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x2BB8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x2BC8);
 		}
 		static ::System::Int32* StaticGet_fullscreenMeshID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x2BBC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingUtils_TypeDefinitionIndex)->GetStaticField(0x2BCC);
 		}
 
 		static ::System::Void _cctor()

@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_DEVICESETTINGPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0CBD0)
+#define MOLEMOLE_DEVICESETTINGPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x149587B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DeviceSettingProfile_TypeDefinitionIndex = 51427;
+	inline static constexpr unsigned int DeviceSettingProfile_TypeDefinitionIndex = 39348;
 
 	class DeviceSettingProfile : public ::System::Object
 	{
 	public:
-		::System::String* PerformanceSettingKey; // 0x10
-		::System::String* DefaultGraphicSettingKey; // 0x18
+		::System::String* DefaultGraphicSettingKey; // 0x10
+		::System::String* PerformanceSettingKey; // 0x18
 
 		::System::Void _ctor()
 		{

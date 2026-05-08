@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ScopedDelegateHandle_1_TypeDefinitionIndex = 35541;
+	inline static constexpr unsigned int ScopedDelegateHandle_1_TypeDefinitionIndex = 36085;
 
 	template <typename TContext>
 	struct ScopedDelegateHandle_1

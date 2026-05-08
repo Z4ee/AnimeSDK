@@ -6,20 +6,20 @@ namespace MoleMole { class UIGeneralNewsBubbleRowWidgetController; }
 namespace MoleMole { class UIGeneralNewsBubbleWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALNEWSBUBBLEWIDGETCONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC6C470)
-#define MOLEMOLE_UIGENERALNEWSBUBBLEWIDGETCONTROLLER___C__DISPLAYCLASS49_0__PAUSEBUBBLEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xAC6C480)
-#define MOLEMOLE_UIGENERALNEWSBUBBLEWIDGETCONTROLLER___C__DISPLAYCLASS49_0__PAUSEBUBBLEGROUP_B__1_OFFSET UNITYSDK_OFFSET(0xAC6C550)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEWIDGETCONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14EED100)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEWIDGETCONTROLLER___C__DISPLAYCLASS49_0__PAUSEBUBBLEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x14EED110)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEWIDGETCONTROLLER___C__DISPLAYCLASS49_0__PAUSEBUBBLEGROUP_B__1_OFFSET UNITYSDK_OFFSET(0x14EED1E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleWidgetController___c__DisplayClass49_0_TypeDefinitionIndex = 68353;
+	inline static constexpr unsigned int UIGeneralNewsBubbleWidgetController___c__DisplayClass49_0_TypeDefinitionIndex = 58774;
 
 	class UIGeneralNewsBubbleWidgetController___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralNewsBubbleWidgetController* __4__this; // 0x10
-		::MoleMole::UIGeneralNewsBubbleRowWidgetController* ctrl; // 0x18
-		::System::Action* __9__1; // 0x20
+		::MoleMole::UIGeneralNewsBubbleRowWidgetController* ctrl; // 0x10
+		::System::Action* __9__1; // 0x18
+		::MoleMole::UIGeneralNewsBubbleWidgetController* __4__this; // 0x20
 		::System::Boolean useSort; // 0x28
 
 		::System::Void _ctor()

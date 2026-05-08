@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class SkinPreviewDataOfAvatar; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SKINPREVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC247640)
+#define MOLEMOLE_CONFIG_SKINPREVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14257B30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SkinPreviewData_TypeDefinitionIndex = 59870;
+	inline static constexpr unsigned int SkinPreviewData_TypeDefinitionIndex = 42634;
 
 	class SkinPreviewData : public ::System::Object
 	{

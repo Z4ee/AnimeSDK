@@ -3,18 +3,18 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_PhaseEvent_TypeDefinitionIndex = 59666;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_PhaseEvent_TypeDefinitionIndex = 70438;
 
 	enum class AnimationSubManager_AnimationScheduler_PhaseEvent : ::System::Int32
 	{
-		Count = 8,
+		AfterPostUpdate = 5,
+		BeforePreUpdate = 0,
+		AfterPreUpdate = 1,
 		BeforePostUpdate = 4,
+		BeforeLateUpdate = 6,
+		AfterUpdate = 3,
 		BeforeUpdate = 2,
 		AfterLateUpdate = 7,
-		AfterUpdate = 3,
-		BeforePreUpdate = 0,
-		BeforeLateUpdate = 6,
-		AfterPreUpdate = 1,
-		AfterPostUpdate = 5,
+		Count = 8,
 	};
 }

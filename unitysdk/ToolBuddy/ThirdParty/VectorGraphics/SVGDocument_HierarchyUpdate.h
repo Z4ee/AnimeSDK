@@ -6,7 +6,7 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_HierarchyUpdate_TypeDefinitionIndex = 27947;
+	inline static constexpr unsigned int SVGDocument_HierarchyUpdate_TypeDefinitionIndex = 28465;
 
 	struct alignas(8) SVGDocument_HierarchyUpdate
 	{

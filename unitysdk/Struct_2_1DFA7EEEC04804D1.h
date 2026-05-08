@@ -6,7 +6,7 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-inline static constexpr unsigned int Struct_2_1DFA7EEEC04804D1_TypeDefinitionIndex = 83596;
+inline static constexpr unsigned int Struct_2_1DFA7EEEC04804D1_TypeDefinitionIndex = 85217;
 
 struct alignas(8) Struct_2_1DFA7EEEC04804D1
 {

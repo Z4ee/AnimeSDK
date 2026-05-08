@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::AI
 {
-	inline static constexpr unsigned int NavMeshPolyTypes_TypeDefinitionIndex = 24310;
+	inline static constexpr unsigned int NavMeshPolyTypes_TypeDefinitionIndex = 24823;
 
 	enum class NavMeshPolyTypes : ::System::Int32
 	{

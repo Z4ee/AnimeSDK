@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ONEWAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x194E5D60)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ONEWAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0AAF70)
 
 namespace System::Runtime::Remoting::Messaging
 {

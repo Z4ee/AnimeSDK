@@ -5,12 +5,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRANSFERENTITYBYVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0xA7D4760)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRANSFERENTITYBYVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D4960)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRANSFERENTITYBYVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x16044810)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRANSFERENTITYBYVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x160449F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTransferEntityByVector3_TypeDefinitionIndex = 63634;
+	inline static constexpr unsigned int LDTransferEntityByVector3_TypeDefinitionIndex = 81895;
 
 	class LDTransferEntityByVector3 : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3>
 	{

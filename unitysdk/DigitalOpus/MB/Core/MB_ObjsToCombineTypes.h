@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_ObjsToCombineTypes_TypeDefinitionIndex = 83294;
+	inline static constexpr unsigned int MB_ObjsToCombineTypes_TypeDefinitionIndex = 85022;
 
 	enum class MB_ObjsToCombineTypes : ::System::Int32
 	{

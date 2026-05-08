@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_DA8BF519212BAE65;
+class Class_2_E621E51D351EB960;
 namespace MoleMole { class UIHollowResultPageController; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS74_0__BIND_B__2_OFFSET UNITYSDK_OFFSET(0x8C486F0)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8C486E0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS74_0__BIND_B__2_OFFSET UNITYSDK_OFFSET(0x157CDC90)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157CDC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass74_0_TypeDefinitionIndex = 61278;
+	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass74_0_TypeDefinitionIndex = 80793;
 
 	class UIHollowResultPageController___c__DisplayClass74_0 : public ::System::Object
 	{
 	public:
-		::Class_2_DA8BF519212BAE65* abyssModel; // 0x10
-		::MoleMole::UIHollowResultPageController* __4__this; // 0x18
+		::MoleMole::UIHollowResultPageController* __4__this; // 0x10
+		::Class_2_E621E51D351EB960* abyssModel; // 0x18
 
 		::System::Void _ctor()
 		{

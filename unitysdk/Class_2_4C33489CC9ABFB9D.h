@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define CLASS_2_4C33489CC9ABFB9D__CTOR_OFFSET UNITYSDK_OFFSET(0x7E7AED0)
+#define CLASS_2_4C33489CC9ABFB9D__CTOR_OFFSET UNITYSDK_OFFSET(0x110EF500)
 
-inline static constexpr unsigned int Class_2_4C33489CC9ABFB9D_TypeDefinitionIndex = 57464;
+inline static constexpr unsigned int Class_2_4C33489CC9ABFB9D_TypeDefinitionIndex = 64795;
 
 class Class_2_4C33489CC9ABFB9D : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Boolean Field_2_1; // 0x10
-	::System::Boolean Field_2_0; // 0x11
-	::System::ValueTuple_2<::System::Double, ::System::Double> Field_2_2; // 0x18
+	::System::ValueTuple_2<::System::Double, ::System::Double> Field_2_2; // 0x10
+	::System::Boolean Field_2_1; // 0x20
+	::System::Boolean Field_2_0; // 0x21
 
 	::System::Void _ctor()
 	{

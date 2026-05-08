@@ -4,11 +4,11 @@
 
 class Class_1_4865323EE33E9248;
 
-#define MOLEMOLE_UIACTIVITYPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x988A260)
+#define MOLEMOLE_UIACTIVITYPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A99FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityPopContext_TypeDefinitionIndex = 65279;
+	inline static constexpr unsigned int UIActivityPopContext_TypeDefinitionIndex = 59336;
 
 	class UIActivityPopContext : public ::MoleMole::UIControllerContextBase
 	{

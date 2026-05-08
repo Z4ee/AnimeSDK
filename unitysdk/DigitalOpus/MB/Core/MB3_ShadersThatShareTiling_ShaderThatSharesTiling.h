@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_ShadersThatShareTiling_ShaderThatSharesTiling_TypeDefinitionIndex = 83351;
+	inline static constexpr unsigned int MB3_ShadersThatShareTiling_ShaderThatSharesTiling_TypeDefinitionIndex = 85079;
 
 	struct alignas(8) MB3_ShadersThatShareTiling_ShaderThatSharesTiling
 	{

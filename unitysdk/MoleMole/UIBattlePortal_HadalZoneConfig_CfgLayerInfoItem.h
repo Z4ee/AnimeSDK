@@ -6,7 +6,7 @@ namespace UnityEngine { class Sprite; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBattlePortal_HadalZoneConfig_CfgLayerInfoItem_TypeDefinitionIndex = 76642;
+	inline static constexpr unsigned int UIBattlePortal_HadalZoneConfig_CfgLayerInfoItem_TypeDefinitionIndex = 49143;
 
 	struct alignas(8) UIBattlePortal_HadalZoneConfig_CfgLayerInfoItem
 	{

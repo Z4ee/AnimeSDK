@@ -3,13 +3,13 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_Config_MoveType_TypeDefinitionIndex = 67186;
+	inline static constexpr unsigned int CurveMoveComponent_Config_MoveType_TypeDefinitionIndex = 54014;
 
 	enum class CurveMoveComponent_Config_MoveType : ::System::Int32
 	{
-		MovePosition = 2,
 		SetPosition = 3,
 		KinematicVelocity = 1,
 		Velocity = 0,
+		MovePosition = 2,
 	};
 }

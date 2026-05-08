@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TurnBattleUnitQueryFilter_TypeDefinitionIndex = 72455;
+	inline static constexpr unsigned int TurnBattleUnitQueryFilter_TypeDefinitionIndex = 55399;
 
 	enum class TurnBattleUnitQueryFilter : ::System::Int32
 	{

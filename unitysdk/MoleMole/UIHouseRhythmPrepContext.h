@@ -4,11 +4,11 @@
 
 class Class_2_4E7D4B0E2476C0A5;
 
-#define MOLEMOLE_UIHOUSERHYTHMPREPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAD60750)
+#define MOLEMOLE_UIHOUSERHYTHMPREPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16388DA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmPrepContext_TypeDefinitionIndex = 57564;
+	inline static constexpr unsigned int UIHouseRhythmPrepContext_TypeDefinitionIndex = 80909;
 
 	class UIHouseRhythmPrepContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine::InputSystem::LowLevel { template <typename T> class Input
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputStateHistory_1_Enumerator_TypeDefinitionIndex = 28782;
+	inline static constexpr unsigned int InputStateHistory_1_Enumerator_TypeDefinitionIndex = 29300;
 
 	template <typename TValue>
 	struct InputStateHistory_1_Enumerator

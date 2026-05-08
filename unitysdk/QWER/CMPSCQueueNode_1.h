@@ -7,7 +7,7 @@ namespace QWER { template <typename T> class CMPSCQueue_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CMPSCQueueNode_1_TypeDefinitionIndex = 8562;
+	inline static constexpr unsigned int CMPSCQueueNode_1_TypeDefinitionIndex = 8573;
 
 	template <typename T>
 	class CMPSCQueueNode_1 : public ::System::Object

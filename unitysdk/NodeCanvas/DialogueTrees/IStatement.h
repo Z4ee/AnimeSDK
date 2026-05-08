@@ -6,7 +6,7 @@ namespace UnityEngine { class AudioClip; }
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int IStatement_TypeDefinitionIndex = 26978;
+	inline static constexpr unsigned int IStatement_TypeDefinitionIndex = 27952;
 
 	class IStatement
 	{

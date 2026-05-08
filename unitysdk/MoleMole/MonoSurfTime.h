@@ -3,15 +3,15 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_777A5D016ADC7368;
+class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class MonoSurfDoubleDigit; }
 
-#define MOLEMOLE_MONOSURFTIME_SETVALUE_OFFSET UNITYSDK_OFFSET(0xA7ED5F0)
-#define MOLEMOLE_MONOSURFTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA7ED720)
+#define MOLEMOLE_MONOSURFTIME_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1605F180)
+#define MOLEMOLE_MONOSURFTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1605F290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSurfTime_TypeDefinitionIndex = 57630;
+	inline static constexpr unsigned int MonoSurfTime_TypeDefinitionIndex = 81809;
 
 	class MonoSurfTime : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFTIME__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::Int32 a1, ::Class_2_777A5D016ADC7368* a2)
+		::System::Void SetValue(::System::Int32 a1, ::Class_2_A9A857AD270B9CE1* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_777A5D016ADC7368*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFTIME_SETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_A9A857AD270B9CE1*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFTIME_SETVALUE_OFFSET))(this, a1, a2);
 		}
 	};
 }

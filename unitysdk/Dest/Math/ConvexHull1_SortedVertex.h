@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DEST_MATH_CONVEXHULL1_SORTEDVERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B513C70)
+#define DEST_MATH_CONVEXHULL1_SORTEDVERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2278D0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull1_SortedVertex_TypeDefinitionIndex = 32570;
+	inline static constexpr unsigned int ConvexHull1_SortedVertex_TypeDefinitionIndex = 33105;
 
 	class ConvexHull1_SortedVertex : public ::System::Object
 	{

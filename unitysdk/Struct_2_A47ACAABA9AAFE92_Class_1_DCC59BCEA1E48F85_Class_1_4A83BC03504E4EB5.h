@@ -5,7 +5,7 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Struct_2_A47ACAABA9AAFE92_Class_1_DCC59BCEA1E48F85_Class_1_4A83BC03504E4EB5_TypeDefinitionIndex = 80827;
+inline static constexpr unsigned int Struct_2_A47ACAABA9AAFE92_Class_1_DCC59BCEA1E48F85_Class_1_4A83BC03504E4EB5_TypeDefinitionIndex = 53277;
 
 template <typename T>
 class Struct_2_A47ACAABA9AAFE92_Class_1_DCC59BCEA1E48F85_Class_1_4A83BC03504E4EB5 : public ::System::Object

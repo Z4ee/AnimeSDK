@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIHollowCardItemBtnWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWCARDITEMBTNWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7F65D20)
+#define MOLEMOLE_UIHOLLOWCARDITEMBTNWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146783C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemBtnWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 62082;
+	inline static constexpr unsigned int UIHollowCardItemBtnWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 47163;
 
 	class UIHollowCardItemBtnWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class PaniniProjectionBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA48F3A0)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA48F390)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA48F5A0)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12FBF040)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x12FBF030)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x12FBF220)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int PaniniProjectionClip_TypeDefinitionIndex = 51010;
+	inline static constexpr unsigned int PaniniProjectionClip_TypeDefinitionIndex = 80299;
 
 	class PaniniProjectionClip : public ::UnityEngine::Playables::PlayableAsset
 	{

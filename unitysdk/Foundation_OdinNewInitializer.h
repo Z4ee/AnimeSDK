@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_ODINNEWINITIALIZER_INITODINNEW_OFFSET UNITYSDK_OFFSET(0x1A679C40)
-#define FOUNDATION_ODINNEWINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A679DF0)
+#define FOUNDATION_ODINNEWINITIALIZER_INITODINNEW_OFFSET UNITYSDK_OFFSET(0x1B061510)
+#define FOUNDATION_ODINNEWINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B061630)
 
-inline static constexpr unsigned int Foundation_OdinNewInitializer_TypeDefinitionIndex = 7892;
+inline static constexpr unsigned int Foundation_OdinNewInitializer_TypeDefinitionIndex = 7967;
 
 class Foundation_OdinNewInitializer : public ::System::Object
 {

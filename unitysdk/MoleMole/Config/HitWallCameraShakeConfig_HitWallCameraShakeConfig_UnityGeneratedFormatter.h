@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCAFC9C0)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCAFC9D0)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCAFCBD0)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAFCD90)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCAFCD50)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14948730)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14948740)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x14948920)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14948AC0)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_HITWALLCAMERASHAKECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14948A80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 54983;
+	inline static constexpr unsigned int HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 48837;
 
 	class HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::HitWallCameraShakeConfig*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45DB0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46860);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45DB8);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HitWallCameraShakeConfig_HitWallCameraShakeConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46868);
 		}
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace MoleMole::MusicGame { class LiveHouseLevelConfig; }
 
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSELEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE1E20)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSELEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0xF9789C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigActivityLiveHouseLevel_TypeDefinitionIndex = 42727;
+	inline static constexpr unsigned int ConfigActivityLiveHouseLevel_TypeDefinitionIndex = 79415;
 
 	class ConfigActivityLiveHouseLevel : public ::Foundation::MihoyoSerializedScriptableObject
 	{

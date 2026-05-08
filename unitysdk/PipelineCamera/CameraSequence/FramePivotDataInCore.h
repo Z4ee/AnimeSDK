@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTDATAINCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x936970)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTDATAINCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x96C1C0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FramePivotDataInCore_TypeDefinitionIndex = 35831;
+	inline static constexpr unsigned int FramePivotDataInCore_TypeDefinitionIndex = 36375;
 
 	struct alignas(4) FramePivotDataInCore
 	{

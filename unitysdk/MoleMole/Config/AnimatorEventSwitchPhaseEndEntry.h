@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSWITCHPHASEENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xACB0380)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSWITCHPHASEENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xACB0420)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSWITCHPHASEENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x17520EA0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSWITCHPHASEENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17520F20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventSwitchPhaseEndEntry_TypeDefinitionIndex = 54975;
+	inline static constexpr unsigned int AnimatorEventSwitchPhaseEndEntry_TypeDefinitionIndex = 74030;
 
 	class AnimatorEventSwitchPhaseEndEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

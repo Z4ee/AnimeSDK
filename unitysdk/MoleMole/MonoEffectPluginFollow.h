@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0EBF15FC645ED991.h"
+#include "unitysdk/Enum_3_3E48DFCDC4A97B6A.h"
 #include "unitysdk/Enum_3_AA5E322261F64EE5.h"
 #include "unitysdk/MoleMole/MonoEffectPluginBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -8,18 +8,18 @@
 namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINFOLLOW_GET_FOLLOWATTACHTOBONE_OFFSET UNITYSDK_OFFSET(0xCD61A60)
-#define MOLEMOLE_MONOEFFECTPLUGINFOLLOW_RUNTIMEBAKE_OFFSET UNITYSDK_OFFSET(0xCD61A80)
-#define MOLEMOLE_MONOEFFECTPLUGINFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0xCD61C10)
+#define MOLEMOLE_MONOEFFECTPLUGINFOLLOW_GET_FOLLOWATTACHTOBONE_OFFSET UNITYSDK_OFFSET(0x125D6520)
+#define MOLEMOLE_MONOEFFECTPLUGINFOLLOW_RUNTIMEBAKE_OFFSET UNITYSDK_OFFSET(0x125D6540)
+#define MOLEMOLE_MONOEFFECTPLUGINFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x125D6750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginFollow_TypeDefinitionIndex = 56461;
+	inline static constexpr unsigned int MonoEffectPluginFollow_TypeDefinitionIndex = 69055;
 
 	class MonoEffectPluginFollow : public ::MoleMole::MonoEffectPluginBase
 	{
 	public:
-		::Enum_3_0EBF15FC645ED991 Option; // 0x18
+		::Enum_3_3E48DFCDC4A97B6A Option; // 0x18
 		::Enum_3_AA5E322261F64EE5 posOffsetRelativeOption; // 0x1C
 		::Enum_3_AA5E322261F64EE5 angleOffsetRelativeOption; // 0x20
 		::System::Boolean lockRotationX; // 0x24

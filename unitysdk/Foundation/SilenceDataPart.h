@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_SILENCEDATAPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1A679C30)
+#define FOUNDATION_SILENCEDATAPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1B061500)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SilenceDataPart_TypeDefinitionIndex = 7874;
+	inline static constexpr unsigned int SilenceDataPart_TypeDefinitionIndex = 8152;
 
 	class SilenceDataPart : public ::System::Object
 	{
 	public:
-		::System::String* md5_files; // 0x10
-		::System::String* silence_revision; // 0x18
-		::System::String* base_url; // 0x20
+		::System::String* base_url; // 0x10
+		::System::String* md5_files; // 0x18
+		::System::String* silence_revision; // 0x20
 
 		::System::Void _ctor()
 		{

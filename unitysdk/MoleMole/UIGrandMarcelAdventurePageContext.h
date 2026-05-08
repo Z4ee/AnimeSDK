@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIGrandMarcelAdventurePageContext_RoomType.h"
 
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBB15C40)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15CAE170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventurePageContext_TypeDefinitionIndex = 42654;
+	inline static constexpr unsigned int UIGrandMarcelAdventurePageContext_TypeDefinitionIndex = 64956;
 
 	class UIGrandMarcelAdventurePageContext : public ::MoleMole::UIControllerContextBase
 	{

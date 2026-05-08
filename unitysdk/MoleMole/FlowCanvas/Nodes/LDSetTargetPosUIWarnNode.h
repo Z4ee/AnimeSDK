@@ -4,12 +4,12 @@
 
 class Class_1_B419CE8F81850DEC;
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETPOSUIWARNNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB982F10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETPOSUIWARNNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9830A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETPOSUIWARNNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x182102C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETPOSUIWARNNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18210430)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetTargetPosUIWarnNode_TypeDefinitionIndex = 55511;
+	inline static constexpr unsigned int LDSetTargetPosUIWarnNode_TypeDefinitionIndex = 75293;
 
 	class LDSetTargetPosUIWarnNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Boolean, ::System::Int32>
 	{

@@ -7,7 +7,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ShadowWiggle_ShadowInfo_TypeDefinitionIndex = 59184;
+	inline static constexpr unsigned int ShadowWiggle_ShadowInfo_TypeDefinitionIndex = 75073;
 
 	struct alignas(4) ShadowWiggle_ShadowInfo
 	{

@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FeverSoundType_TypeDefinitionIndex = 42656;
+	inline static constexpr unsigned int FeverSoundType_TypeDefinitionIndex = 65627;
 
 	enum class FeverSoundType : ::System::Int32
 	{
-		LevelUp = 1,
 		ExitFeverMode = 4,
+		EnterFeverMode = 3,
 		MaxLevel = 0,
 		LevelDown = 2,
-		EnterFeverMode = 3,
+		LevelUp = 1,
 	};
 }

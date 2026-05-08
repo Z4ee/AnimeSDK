@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBangbooModGarageDialogPopWindowController; }
 
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF10290)
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__SETCURRENCY_B__0_OFFSET UNITYSDK_OFFSET(0xDF10790)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1635F820)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__SETCURRENCY_B__0_OFFSET UNITYSDK_OFFSET(0x1635FD00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooModGarageDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 50635;
+	inline static constexpr unsigned int UIBangbooModGarageDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 44333;
 
 	class UIBangbooModGarageDialogPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{

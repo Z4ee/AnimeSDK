@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowEventModificationType_TypeDefinitionIndex = 13518;
+	inline static constexpr unsigned int EHollowEventModificationType_TypeDefinitionIndex = 12410;
 
 	enum class EHollowEventModificationType : ::System::Int16
 	{
-		Foreach = 2,
 		Random = 1,
+		Foreach = 2,
 	};
 }

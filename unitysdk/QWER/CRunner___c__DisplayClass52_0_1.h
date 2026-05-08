@@ -8,7 +8,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CRunner___c__DisplayClass52_0_1_TypeDefinitionIndex = 84128;
+	inline static constexpr unsigned int CRunner___c__DisplayClass52_0_1_TypeDefinitionIndex = 85856;
 
 	template <typename T>
 	class CRunner___c__DisplayClass52_0_1 : public ::System::Object

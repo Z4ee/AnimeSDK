@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObjectCache_ComponentData_TypeDefinitionIndex = 8946;
+	inline static constexpr unsigned int AggregateObjectCache_ComponentData_TypeDefinitionIndex = 8968;
 
 	struct alignas(8) AggregateObjectCache_ComponentData
 	{

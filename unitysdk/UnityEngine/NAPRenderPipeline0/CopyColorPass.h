@@ -11,11 +11,11 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTECOPYCOLORPASS_OFFSET UNITYSDK_OFFSET(0x1A300990)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A301D50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1A301E60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1A3006D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A302010)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTECOPYCOLORPASS_OFFSET UNITYSDK_OFFSET(0x1B39F4D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B3A0830)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1B3A0940)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1B39F210)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3A0AF0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
@@ -24,25 +24,25 @@ namespace UnityEngine::NAPRenderPipeline0
 	class CopyColorPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPing()
+		static ::Il2CppArray<::System::Int32>** StaticGet_sizes()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51C0);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_sizes()
+		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPong()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51C8);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPong()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51D0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_blurryTextureStrings()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51D8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51D0);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPing()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51D8);
 		}
 		static ::System::Boolean* StaticGet_s_TempMipBufferExist()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x2A00);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x2A10);
 		}
 
 		static ::System::Void _cctor()

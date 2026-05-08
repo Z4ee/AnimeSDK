@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CONFIG_WEAPONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10AAB180)
+#define MOLEMOLE_CONFIG_WEAPONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4A00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int WeaponInfo_TypeDefinitionIndex = 56242;
+	inline static constexpr unsigned int WeaponInfo_TypeDefinitionIndex = 42980;
 
 	class WeaponInfo : public ::System::Object
 	{

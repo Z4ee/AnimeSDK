@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICOOPMATCHSTARTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x90F3E60)
+#define MOLEMOLE_UICOOPMATCHSTARTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16483C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopMatchStartDialogPopWindowController_Context_TypeDefinitionIndex = 44726;
+	inline static constexpr unsigned int UICoopMatchStartDialogPopWindowController_Context_TypeDefinitionIndex = 56916;
 
 	class UICoopMatchStartDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

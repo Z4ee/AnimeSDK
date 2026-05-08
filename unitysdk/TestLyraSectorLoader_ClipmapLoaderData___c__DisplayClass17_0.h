@@ -6,10 +6,10 @@
 class TestLyraSectorLoader_PackedAssetRequestInfo;
 namespace UnityEngine { class Object; }
 
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18655310)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x18655320)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F25EA0)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x19F25EB0)
 
-inline static constexpr unsigned int TestLyraSectorLoader_ClipmapLoaderData___c__DisplayClass17_0_TypeDefinitionIndex = 29045;
+inline static constexpr unsigned int TestLyraSectorLoader_ClipmapLoaderData___c__DisplayClass17_0_TypeDefinitionIndex = 29564;
 
 class TestLyraSectorLoader_ClipmapLoaderData___c__DisplayClass17_0 : public ::System::Object
 {

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/CustomYieldInstruction.h"
 
-#define FOUNDATION_IENUMERATORLOADERYIELD_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AA5DAC0)
-#define FOUNDATION_IENUMERATORLOADERYIELD_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1AA5DB80)
-#define FOUNDATION_IENUMERATORLOADERYIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA5DB70)
+#define FOUNDATION_IENUMERATORLOADERYIELD_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B76D060)
+#define FOUNDATION_IENUMERATORLOADERYIELD_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1B76D100)
+#define FOUNDATION_IENUMERATORLOADERYIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76D0F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEnumeratorLoaderYield_TypeDefinitionIndex = 8166;
+	inline static constexpr unsigned int IEnumeratorLoaderYield_TypeDefinitionIndex = 8069;
 
 	class IEnumeratorLoaderYield : public ::UnityEngine::CustomYieldInstruction
 	{
 	public:
 		static ::Foundation::IEnumeratorLoaderYield** StaticGet__instance()
 		{
-			return (::Foundation::IEnumeratorLoaderYield**)Il2CppClass::FromTypeDefinitionIndex(IEnumeratorLoaderYield_TypeDefinitionIndex)->GetStaticField(0x7430);
+			return (::Foundation::IEnumeratorLoaderYield**)Il2CppClass::FromTypeDefinitionIndex(IEnumeratorLoaderYield_TypeDefinitionIndex)->GetStaticField(0x7040);
 		}
 		::System::Boolean isWaiting; // 0x10
 

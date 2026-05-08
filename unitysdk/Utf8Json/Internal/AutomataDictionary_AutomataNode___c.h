@@ -5,29 +5,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace Utf8Json::Internal { class AutomataDictionary_AutomataNode; }
 
-#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4E55F0)
-#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E5630)
-#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__19_0_OFFSET UNITYSDK_OFFSET(0x1B4E5640)
-#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__19_1_OFFSET UNITYSDK_OFFSET(0x1B4E5660)
+#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C21C7D0)
+#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C21C810)
+#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__19_0_OFFSET UNITYSDK_OFFSET(0x1C21C820)
+#define UTF8JSON_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__19_1_OFFSET UNITYSDK_OFFSET(0x1C21C840)
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int AutomataDictionary_AutomataNode___c_TypeDefinitionIndex = 83926;
+	inline static constexpr unsigned int AutomataDictionary_AutomataNode___c_TypeDefinitionIndex = 85654;
 
 	class AutomataDictionary_AutomataNode___c : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Internal::AutomataDictionary_AutomataNode___c** StaticGet___9()
 		{
-			return (::Utf8Json::Internal::AutomataDictionary_AutomataNode___c**)Il2CppClass::FromTypeDefinitionIndex(AutomataDictionary_AutomataNode___c_TypeDefinitionIndex)->GetStaticField(0x48A80);
+			return (::Utf8Json::Internal::AutomataDictionary_AutomataNode___c**)Il2CppClass::FromTypeDefinitionIndex(AutomataDictionary_AutomataNode___c_TypeDefinitionIndex)->GetStaticField(0x4A5F0);
 		}
 		static ::System::Func_2<::Utf8Json::Internal::AutomataDictionary_AutomataNode*, ::System::Boolean>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::AutomataDictionary_AutomataNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AutomataDictionary_AutomataNode___c_TypeDefinitionIndex)->GetStaticField(0x48A88);
+			return (::System::Func_2<::Utf8Json::Internal::AutomataDictionary_AutomataNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AutomataDictionary_AutomataNode___c_TypeDefinitionIndex)->GetStaticField(0x4A5F8);
 		}
 		static ::System::Func_2<::Utf8Json::Internal::AutomataDictionary_AutomataNode*, ::System::Boolean>** StaticGet___9__19_1()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::AutomataDictionary_AutomataNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AutomataDictionary_AutomataNode___c_TypeDefinitionIndex)->GetStaticField(0x48A90);
+			return (::System::Func_2<::Utf8Json::Internal::AutomataDictionary_AutomataNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AutomataDictionary_AutomataNode___c_TypeDefinitionIndex)->GetStaticField(0x4A600);
 		}
 
 		static ::System::Void _cctor()

@@ -7,11 +7,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_INDICATORLIGHTSPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xEC50520)
+#define MOLEMOLE_CONFIG_INDICATORLIGHTSPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x181D8B10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IndicatorLightsPreset_TypeDefinitionIndex = 57954;
+	inline static constexpr unsigned int IndicatorLightsPreset_TypeDefinitionIndex = 69128;
 
 	class IndicatorLightsPreset : public ::System::Object
 	{

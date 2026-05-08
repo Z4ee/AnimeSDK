@@ -7,7 +7,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskComplet
 namespace UnityEngine { class Object; }
 template <typename T> class NPCSoftAssetPathUtils_CancelCaptureData_1;
 
-inline static constexpr unsigned int NPCSoftAssetPathUtils_LoadCompleteUserData_1_TypeDefinitionIndex = 66016;
+inline static constexpr unsigned int NPCSoftAssetPathUtils_LoadCompleteUserData_1_TypeDefinitionIndex = 40961;
 
 template <typename T>
 class NPCSoftAssetPathUtils_LoadCompleteUserData_1 : public ::System::Object

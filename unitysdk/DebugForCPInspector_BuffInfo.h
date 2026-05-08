@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int DebugForCPInspector_BuffInfo_TypeDefinitionIndex = 83525;
+inline static constexpr unsigned int DebugForCPInspector_BuffInfo_TypeDefinitionIndex = 85214;
 
 struct alignas(4) DebugForCPInspector_BuffInfo
 {

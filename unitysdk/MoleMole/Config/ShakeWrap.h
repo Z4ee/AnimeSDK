@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class DynamicInt; }
 
-#define MOLEMOLE_CONFIG_SHAKEWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CC380)
+#define MOLEMOLE_CONFIG_SHAKEWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1243CDC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShakeWrap_TypeDefinitionIndex = 72716;
+	inline static constexpr unsigned int ShakeWrap_TypeDefinitionIndex = 71471;
 
 	class ShakeWrap : public ::System::Object
 	{

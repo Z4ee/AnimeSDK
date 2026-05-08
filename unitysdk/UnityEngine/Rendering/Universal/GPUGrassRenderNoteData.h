@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassRenderNoteData_TypeDefinitionIndex = 29707;
+	inline static constexpr unsigned int GPUGrassRenderNoteData_TypeDefinitionIndex = 30235;
 
 	struct alignas(4) GPUGrassRenderNoteData
 	{

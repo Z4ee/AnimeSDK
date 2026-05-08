@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int ElementType_TypeDefinitionIndex = 29237;
+	inline static constexpr unsigned int ElementType_TypeDefinitionIndex = 29756;
 
 	enum class ElementType : ::System::Int32
 	{

@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class LightCompBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x8B8A650)
-#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x8B8A640)
-#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x8B8A7C0)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x152BBB20)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x152BBB10)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x152BBC70)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LightCompClip_TypeDefinitionIndex = 47210;
+	inline static constexpr unsigned int LightCompClip_TypeDefinitionIndex = 45345;
 
 	class LightCompClip : public ::UnityEngine::Playables::PlayableAsset
 	{

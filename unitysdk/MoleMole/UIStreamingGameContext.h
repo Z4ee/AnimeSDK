@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C0FE5C5ECCA2F598.h"
+#include "unitysdk/Enum_3_D9968D936B3A50DA.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISTREAMINGGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA460800)
+#define MOLEMOLE_UISTREAMINGGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x137890E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStreamingGameContext_TypeDefinitionIndex = 38808;
+	inline static constexpr unsigned int UIStreamingGameContext_TypeDefinitionIndex = 40709;
 
 	class UIStreamingGameContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_C0FE5C5ECCA2F598 DefaultHUDSubState; // 0x28
+		::Enum_3_D9968D936B3A50DA DefaultHUDSubState; // 0x28
 
 		::System::Void _ctor()
 		{

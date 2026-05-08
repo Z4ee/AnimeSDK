@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALSUMMERPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FA020)
+#define MOLEMOLE_UIGENERALSUMMERPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB3FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSummerPopWindowController_Context_TypeDefinitionIndex = 38459;
+	inline static constexpr unsigned int UIGeneralSummerPopWindowController_Context_TypeDefinitionIndex = 46869;
 
 	class UIGeneralSummerPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* titleKey; // 0x28
-		::System::String* itemNameKey; // 0x30
-		::System::String* itemDescKey; // 0x38
-		::System::String* itemIconPath; // 0x40
+		::System::String* itemNameKey; // 0x28
+		::System::String* itemDescKey; // 0x30
+		::System::String* itemIconPath; // 0x38
+		::System::String* titleKey; // 0x40
 
 		::System::Void _ctor()
 		{

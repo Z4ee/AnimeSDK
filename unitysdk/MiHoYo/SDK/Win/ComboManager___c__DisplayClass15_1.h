@@ -7,13 +7,13 @@ namespace MiHoYo::SDK { class ComboUserModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager___c__DisplayClass15_0; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0x189566B0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_1__LOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x18956790)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_1__LOGIN_B__4_OFFSET UNITYSDK_OFFSET(0x189566C0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB6FF0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_1__LOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x19CB70D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_1__LOGIN_B__4_OFFSET UNITYSDK_OFFSET(0x19CB7000)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass15_1_TypeDefinitionIndex = 19634;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass15_1_TypeDefinitionIndex = 19991;
 
 	class ComboManager___c__DisplayClass15_1 : public ::System::Object
 	{

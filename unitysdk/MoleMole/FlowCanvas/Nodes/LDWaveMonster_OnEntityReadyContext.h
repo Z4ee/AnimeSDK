@@ -6,12 +6,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class LDWaveMonster; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADYCONTEXT_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0xB5DEEC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DEEB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADYCONTEXT_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1541C580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1541C570)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonster_OnEntityReadyContext_TypeDefinitionIndex = 51975;
+	inline static constexpr unsigned int LDWaveMonster_OnEntityReadyContext_TypeDefinitionIndex = 58484;
 
 	class LDWaveMonster_OnEntityReadyContext : public ::System::Object
 	{

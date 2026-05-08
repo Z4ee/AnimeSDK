@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class ColliderEventDispatcher; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER_METHOD_1_1F314C19CC343C6F_OFFSET UNITYSDK_OFFSET(0x78E3770)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x78E3760)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER_METHOD_1_88ADECB5899D6E5A_OFFSET UNITYSDK_OFFSET(0x159BD100)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x159BD0F0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_TriggerConfig_ConfigCollider_TypeDefinitionIndex = 59126;
+	inline static constexpr unsigned int CurveMoveComponent_TriggerConfig_ConfigCollider_TypeDefinitionIndex = 46718;
 
 	class CurveMoveComponent_TriggerConfig_ConfigCollider : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_1F314C19CC343C6F(::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>* a1)
+		::System::Void Method_1_88ADECB5899D6E5A(::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER_METHOD_1_1F314C19CC343C6F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_TRIGGERCONFIG_CONFIGCOLLIDER_METHOD_1_88ADECB5899D6E5A_OFFSET))(this, a1);
 		}
 	};
 }

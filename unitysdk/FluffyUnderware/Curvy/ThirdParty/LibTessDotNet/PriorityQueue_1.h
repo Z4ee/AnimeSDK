@@ -8,7 +8,7 @@ namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet { template <typename
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 25425;
+	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 25939;
 
 	template <typename TValue>
 	class PriorityQueue_1 : public ::System::Object

@@ -7,17 +7,17 @@
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESUMMON__CCTOR_OFFSET UNITYSDK_OFFSET(0xC23B4B0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESUMMON__CCTOR_OFFSET UNITYSDK_OFFSET(0x1424B6C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceSummon_TypeDefinitionIndex = 43012;
+	inline static constexpr unsigned int ConfigGachaPerformanceSummon_TypeDefinitionIndex = 45017;
 
 	struct alignas(8) ConfigGachaPerformanceSummon
 	{
 		static ::Sirenix::OdinInspector::ValueDropdownList_1<::MoleMole::Config::EntityType>** StaticGet_OnUIEntityTypeDropDown()
 		{
-			return (::Sirenix::OdinInspector::ValueDropdownList_1<::MoleMole::Config::EntityType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGachaPerformanceSummon_TypeDefinitionIndex)->GetStaticField(0x43E80);
+			return (::Sirenix::OdinInspector::ValueDropdownList_1<::MoleMole::Config::EntityType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGachaPerformanceSummon_TypeDefinitionIndex)->GetStaticField(0x457D0);
 		}
 		::MoleMole::Config::EntityType UIEntityType; // 0x10
 		::System::Int32 CharacterTemplateID; // 0x14

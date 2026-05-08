@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int InterfaceListFormatter2_1_TypeDefinitionIndex = 26243;
+	inline static constexpr unsigned int InterfaceListFormatter2_1_TypeDefinitionIndex = 27897;
 
 	template <typename T>
 	class InterfaceListFormatter2_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::System::Collections::Generic::List_1<T>*, ::System::Collections::Generic::IList_1<T>*>

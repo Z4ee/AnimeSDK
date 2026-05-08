@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETSAFEZONEKEY_INVOKE_OFFSET UNITYSDK_OFFSET(0xD7FA8B0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETSAFEZONEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xD7FAA30)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETSAFEZONEKEY_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A382D0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETSAFEZONEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x18A38420)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameSetSafeZoneKey_TypeDefinitionIndex = 54638;
+	inline static constexpr unsigned int HackerGameSetSafeZoneKey_TypeDefinitionIndex = 69679;
 
 	class HackerGameSetSafeZoneKey : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::String*>
 	{

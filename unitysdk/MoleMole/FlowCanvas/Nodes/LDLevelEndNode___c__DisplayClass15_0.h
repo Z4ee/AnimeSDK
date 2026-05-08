@@ -5,23 +5,23 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDLevelEndNode; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE250)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS15_0___ENDPERFORMCALL_B__1_OFFSET UNITYSDK_OFFSET(0xB5CFF40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS15_0___ENDPERFORMCALL_G____CALLPERFORMS_0_OFFSET UNITYSDK_OFFSET(0xB5CE260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1540B800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS15_0___ENDPERFORMCALL_B__1_OFFSET UNITYSDK_OFFSET(0x1540D580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS15_0___ENDPERFORMCALL_G____CALLPERFORMS_0_OFFSET UNITYSDK_OFFSET(0x1540B810)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelEndNode___c__DisplayClass15_0_TypeDefinitionIndex = 68172;
+	inline static constexpr unsigned int LDLevelEndNode___c__DisplayClass15_0_TypeDefinitionIndex = 51724;
 
 	class LDLevelEndNode___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode* __4__this; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode_LevelEndPerformType performType; // 0x18
-		::System::Boolean success; // 0x1C
-		::System::Boolean __IsPrepareCalled; // 0x1D
-		::System::Boolean enableDelayExit; // 0x1E
-		::System::Boolean handlePlayLevelEndCameraPerformElseWhere; // 0x1F
+		::System::Boolean enableDelayExit; // 0x18
+		::System::Boolean __IsPrepareCalled; // 0x19
+		::System::Boolean handlePlayLevelEndCameraPerformElseWhere; // 0x1A
+		::System::Boolean success; // 0x1B
+		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode_LevelEndPerformType performType; // 0x1C
 		::System::Single overrideDelayExitTime; // 0x20
 
 		::System::Void _ctor()

@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F213AC3D3FBF57B9_2.h"
+#include "unitysdk/Foundation/Unreal/FName.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_623_TypeDefinitionIndex = 65748;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_623_TypeDefinitionIndex = 62427;
 
 class Class_0_16E4307DCC419505_623
 {

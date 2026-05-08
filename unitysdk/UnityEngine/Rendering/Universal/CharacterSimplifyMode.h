@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CharacterSimplifyMode_TypeDefinitionIndex = 29533;
+	inline static constexpr unsigned int CharacterSimplifyMode_TypeDefinitionIndex = 30061;
 
 	enum class CharacterSimplifyMode : ::System::Int32
 	{

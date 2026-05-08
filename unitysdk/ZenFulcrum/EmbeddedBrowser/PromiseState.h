@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PromiseState_TypeDefinitionIndex = 30616;
+	inline static constexpr unsigned int PromiseState_TypeDefinitionIndex = 31145;
 
 	enum class PromiseState : ::System::Int32
 	{

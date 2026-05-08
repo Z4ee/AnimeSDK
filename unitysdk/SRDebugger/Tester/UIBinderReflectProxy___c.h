@@ -5,29 +5,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11B24A60)
-#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11B24AA0)
-#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__FINDOPENDIALOGMETHOD_B__1_0_OFFSET UNITYSDK_OFFSET(0x11B24CF0)
-#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__FINDOPENPAGEMETHOD_B__0_0_OFFSET UNITYSDK_OFFSET(0x11B24AB0)
+#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10344230)
+#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10344270)
+#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__FINDOPENDIALOGMETHOD_B__1_0_OFFSET UNITYSDK_OFFSET(0x103444C0)
+#define SRDEBUGGER_TESTER_UIBINDERREFLECTPROXY___C__FINDOPENPAGEMETHOD_B__0_0_OFFSET UNITYSDK_OFFSET(0x10344280)
 
 namespace SRDebugger::Tester
 {
-	inline static constexpr unsigned int UIBinderReflectProxy___c_TypeDefinitionIndex = 84226;
+	inline static constexpr unsigned int UIBinderReflectProxy___c_TypeDefinitionIndex = 85963;
 
 	class UIBinderReflectProxy___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBinderReflectProxy___c_TypeDefinitionIndex)->GetStaticField(0x49110);
-		}
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBinderReflectProxy___c_TypeDefinitionIndex)->GetStaticField(0x49118);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBinderReflectProxy___c_TypeDefinitionIndex)->GetStaticField(0x4AC80);
 		}
 		static ::SRDebugger::Tester::UIBinderReflectProxy___c** StaticGet___9()
 		{
-			return (::SRDebugger::Tester::UIBinderReflectProxy___c**)Il2CppClass::FromTypeDefinitionIndex(UIBinderReflectProxy___c_TypeDefinitionIndex)->GetStaticField(0x49120);
+			return (::SRDebugger::Tester::UIBinderReflectProxy___c**)Il2CppClass::FromTypeDefinitionIndex(UIBinderReflectProxy___c_TypeDefinitionIndex)->GetStaticField(0x4AC88);
+		}
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBinderReflectProxy___c_TypeDefinitionIndex)->GetStaticField(0x4AC90);
 		}
 
 		static ::System::Void _cctor()

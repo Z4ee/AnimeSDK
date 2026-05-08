@@ -5,13 +5,13 @@
 
 namespace MoleMole { class VSyncProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_BBEB22AFF699E501_OFFSET UNITYSDK_OFFSET(0x94E9EF0)
-#define MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_F7068DE2A441A97B_OFFSET UNITYSDK_OFFSET(0x94EA030)
-#define MOLEMOLE_COMMANDLINEVSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x94E9FF0)
+#define MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_B56A04952F869EF9_OFFSET UNITYSDK_OFFSET(0x12405E90)
+#define MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_BBEB22AFF699E501_OFFSET UNITYSDK_OFFSET(0x12405D80)
+#define MOLEMOLE_COMMANDLINEVSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x12405E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineVSync_TypeDefinitionIndex = 54060;
+	inline static constexpr unsigned int CommandLineVSync_TypeDefinitionIndex = 49190;
 
 	class CommandLineVSync : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::VSyncProfileContext*, ::MoleMole::CommandLineVSync*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineVSync*(*)(::PVOID, ::MoleMole::VSyncProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_BBEB22AFF699E501_OFFSET))(this, a1);
 		}
 
-		::MoleMole::VSyncProfileContext* Method_2_F7068DE2A441A97B(::MoleMole::VSyncProfileContext* a1)
+		::MoleMole::VSyncProfileContext* Method_2_B56A04952F869EF9(::MoleMole::VSyncProfileContext* a1)
 		{
-			return ((::MoleMole::VSyncProfileContext*(*)(::PVOID, ::MoleMole::VSyncProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_F7068DE2A441A97B_OFFSET))(this, a1);
+			return ((::MoleMole::VSyncProfileContext*(*)(::PVOID, ::MoleMole::VSyncProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVSYNC_METHOD_2_B56A04952F869EF9_OFFSET))(this, a1);
 		}
 	};
 }

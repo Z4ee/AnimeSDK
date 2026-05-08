@@ -8,7 +8,7 @@ namespace UnityEngine::InputSystem { class InputAction; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int IInputActionCollection2_TypeDefinitionIndex = 28348;
+	inline static constexpr unsigned int IInputActionCollection2_TypeDefinitionIndex = 28866;
 
 	class IInputActionCollection2
 	{

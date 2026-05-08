@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationData.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_SHAREDSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x32E640)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_SHAREDSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x68E100)
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int SharedStateData_TypeDefinitionIndex = 74278;
+	inline static constexpr unsigned int SharedStateData_TypeDefinitionIndex = 68195;
 
 	struct alignas(4) SharedStateData
 	{

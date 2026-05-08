@@ -7,38 +7,38 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define FOUNDATION_OBJECTPOOLMANAGER_ADDOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0x197700D0)
-#define FOUNDATION_OBJECTPOOLMANAGER_ALLOCATEFREEPROXYREF_OFFSET UNITYSDK_OFFSET(0x1976F790)
-#define FOUNDATION_OBJECTPOOLMANAGER_CLEARALLPOOL_OFFSET UNITYSDK_OFFSET(0x1976FA30)
-#define FOUNDATION_OBJECTPOOLMANAGER_DEALLOCATEFREEPROXYREF_OFFSET UNITYSDK_OFFSET(0x1976F930)
-#define FOUNDATION_OBJECTPOOLMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19770380)
+#define FOUNDATION_OBJECTPOOLMANAGER_ADDOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0x19DAD1B0)
+#define FOUNDATION_OBJECTPOOLMANAGER_ALLOCATEFREEPROXYREF_OFFSET UNITYSDK_OFFSET(0x19DAC8F0)
+#define FOUNDATION_OBJECTPOOLMANAGER_CLEARALLPOOL_OFFSET UNITYSDK_OFFSET(0x19DACB40)
+#define FOUNDATION_OBJECTPOOLMANAGER_DEALLOCATEFREEPROXYREF_OFFSET UNITYSDK_OFFSET(0x19DACA70)
+#define FOUNDATION_OBJECTPOOLMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DAD430)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolManager_TypeDefinitionIndex = 7722;
+	inline static constexpr unsigned int ObjectPoolManager_TypeDefinitionIndex = 8302;
 
 	class ObjectPoolManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Queue_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>** StaticGet_PoolProxyRefPool()
-		{
-			return (::System::Collections::Generic::Queue_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x7280);
-		}
 		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>** StaticGet__normalPools()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x7288);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x72D0);
+		}
+		static ::System::Collections::Generic::Queue_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>** StaticGet_PoolProxyRefPool()
+		{
+			return (::System::Collections::Generic::Queue_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x72D8);
 		}
 		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>** StaticGet__threadSafePools()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x7290);
-		}
-		static ::System::Int32* StaticGet_AllPoolCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x38B0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::Foundation::ObjectPoolProxy*>*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x72E0);
 		}
 		static ::System::Boolean* StaticGet_ReleaseCacheAndMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x38B4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x38C0);
+		}
+		static ::System::Int32* StaticGet_AllPoolCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolManager_TypeDefinitionIndex)->GetStaticField(0x38C4);
 		}
 		// static const ::System::Int32 maximumPoolCountForJob = 0x2; // 0x0
 

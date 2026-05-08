@@ -4,22 +4,22 @@
 
 namespace ZXing::PDF417::Internal { class BarcodeRow; }
 
-#define ZXING_PDF417_INTERNAL_BARCODEMATRIX_GETCURRENTROW_OFFSET UNITYSDK_OFFSET(0x184483B0)
-#define ZXING_PDF417_INTERNAL_BARCODEMATRIX_GETSCALEDMATRIX_OFFSET UNITYSDK_OFFSET(0x184483F0)
-#define ZXING_PDF417_INTERNAL_BARCODEMATRIX_STARTROW_OFFSET UNITYSDK_OFFSET(0x184483A0)
-#define ZXING_PDF417_INTERNAL_BARCODEMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x18448270)
+#define ZXING_PDF417_INTERNAL_BARCODEMATRIX_GETCURRENTROW_OFFSET UNITYSDK_OFFSET(0x18880B60)
+#define ZXING_PDF417_INTERNAL_BARCODEMATRIX_GETSCALEDMATRIX_OFFSET UNITYSDK_OFFSET(0x18880BA0)
+#define ZXING_PDF417_INTERNAL_BARCODEMATRIX_STARTROW_OFFSET UNITYSDK_OFFSET(0x18880B50)
+#define ZXING_PDF417_INTERNAL_BARCODEMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x188809E0)
 
 namespace ZXing::PDF417::Internal
 {
-	inline static constexpr unsigned int BarcodeMatrix_TypeDefinitionIndex = 8644;
+	inline static constexpr unsigned int BarcodeMatrix_TypeDefinitionIndex = 8655;
 
 	class BarcodeMatrix : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::ZXing::PDF417::Internal::BarcodeRow*>* matrix; // 0x10
 		::System::Int32 currentRow; // 0x18
-		::System::Int32 height; // 0x1C
-		::System::Int32 width; // 0x20
+		::System::Int32 width; // 0x1C
+		::System::Int32 height; // 0x20
 
 		::System::Void _ctor(::System::Int32 height, ::System::Int32 width)
 		{

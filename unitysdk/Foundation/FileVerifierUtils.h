@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_FILEVERIFIERUTILS_CREATEERRORINFO_OFFSET UNITYSDK_OFFSET(0x74DB600)
-#define FOUNDATION_FILEVERIFIERUTILS_GETDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x74DAC60)
-#define FOUNDATION_FILEVERIFIERUTILS_GET_PARALLELFILEHASHCONFIG_OFFSET UNITYSDK_OFFSET(0x74DABF0)
-#define FOUNDATION_FILEVERIFIERUTILS_ISHUAWEIDEVICE_OFFSET UNITYSDK_OFFSET(0x74DADC0)
-#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_1_OFFSET UNITYSDK_OFFSET(0x74DB150)
-#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_OFFSET UNITYSDK_OFFSET(0x74DAE80)
+#define FOUNDATION_FILEVERIFIERUTILS_CREATEERRORINFO_OFFSET UNITYSDK_OFFSET(0x1407C410)
+#define FOUNDATION_FILEVERIFIERUTILS_GETDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x132EF7C0)
+#define FOUNDATION_FILEVERIFIERUTILS_GET_PARALLELFILEHASHCONFIG_OFFSET UNITYSDK_OFFSET(0x132EF780)
+#define FOUNDATION_FILEVERIFIERUTILS_ISHUAWEIDEVICE_OFFSET UNITYSDK_OFFSET(0x132EF8E0)
+#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_1_OFFSET UNITYSDK_OFFSET(0x1407BF90)
+#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_OFFSET UNITYSDK_OFFSET(0x1407BCF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FileVerifierUtils_TypeDefinitionIndex = 61015;
+	inline static constexpr unsigned int FileVerifierUtils_TypeDefinitionIndex = 40306;
 
 	class FileVerifierUtils : public ::System::Object
 	{
 	public:
 		static ::Foundation::ParallelFileHash_Config** StaticGet__parallelFileHashConfig()
 		{
-			return (::Foundation::ParallelFileHash_Config**)Il2CppClass::FromTypeDefinitionIndex(FileVerifierUtils_TypeDefinitionIndex)->GetStaticField(0x3A730);
+			return (::Foundation::ParallelFileHash_Config**)Il2CppClass::FromTypeDefinitionIndex(FileVerifierUtils_TypeDefinitionIndex)->GetStaticField(0x3B9E0);
 		}
 
 		static ::Foundation::ParallelFileHash_Config* get_ParallelFileHashConfig()

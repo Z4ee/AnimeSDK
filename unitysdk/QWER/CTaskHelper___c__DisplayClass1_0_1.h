@@ -8,7 +8,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CTaskHelper___c__DisplayClass1_0_1_TypeDefinitionIndex = 84142;
+	inline static constexpr unsigned int CTaskHelper___c__DisplayClass1_0_1_TypeDefinitionIndex = 85870;
 
 	template <typename T>
 	class CTaskHelper___c__DisplayClass1_0_1 : public ::System::Object

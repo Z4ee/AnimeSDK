@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeLeakDetectionMode.h"
 
-#define UNITY_COLLECTIONS_NATIVELEAKDETECTION_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A52CB00)
-#define UNITY_COLLECTIONS_NATIVELEAKDETECTION_SET_MODE_OFFSET UNITYSDK_OFFSET(0x1A52CB40)
+#define UNITY_COLLECTIONS_NATIVELEAKDETECTION_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B3BF750)
+#define UNITY_COLLECTIONS_NATIVELEAKDETECTION_SET_MODE_OFFSET UNITYSDK_OFFSET(0x1B3BF760)
 
 namespace Unity::Collections
 {
@@ -15,7 +15,7 @@ namespace Unity::Collections
 	public:
 		static ::System::Int32* StaticGet_s_NativeLeakDetectionMode()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NativeLeakDetection_TypeDefinitionIndex)->GetStaticField(0x2DB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NativeLeakDetection_TypeDefinitionIndex)->GetStaticField(0x2DC0);
 		}
 
 		static ::System::Void Initialize()

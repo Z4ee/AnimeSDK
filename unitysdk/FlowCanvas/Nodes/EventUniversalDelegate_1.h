@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EventUniversalDelegate_1_TypeDefinitionIndex = 26918;
+	inline static constexpr unsigned int EventUniversalDelegate_1_TypeDefinitionIndex = 27151;
 
 	template <typename T1>
 	class EventUniversalDelegate_1 : public ::System::MulticastDelegate

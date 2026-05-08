@@ -8,18 +8,18 @@ namespace MiHoYo::SDK::Win { class PayManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184B0F20)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS18_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x184B0F30)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19492E40)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS18_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19492E50)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayManager___c__DisplayClass18_0_TypeDefinitionIndex = 19686;
+	inline static constexpr unsigned int PayManager___c__DisplayClass18_0_TypeDefinitionIndex = 20043;
 
 	class PayManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::PayManager* __4__this; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::Win::PayManager* __4__this; // 0x18
 		::MiHoYo::SDK::JSONArray* productArray; // 0x20
 
 		::System::Void _ctor()

@@ -7,22 +7,22 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xD7FDC50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL_START_OFFSET UNITYSDK_OFFSET(0xD7FDD80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL__CONTROLINTERACT_OFFSET UNITYSDK_OFFSET(0xD7FE0C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD7FE3B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD7FE3D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18A3B3A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL_START_OFFSET UNITYSDK_OFFSET(0x18A3B4B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL__CONTROLINTERACT_OFFSET UNITYSDK_OFFSET(0x18A3B7D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3BAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINTERACTCONTROL__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x18A3BAE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDInteractControl_TypeDefinitionIndex = 78883;
+	inline static constexpr unsigned int LDInteractControl_TypeDefinitionIndex = 64928;
 
 	class LDInteractControl : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* controlEntity; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* Pause; // 0xB0
-		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* Pause; // 0xB8
 
 		::System::Void _ctor()
 		{

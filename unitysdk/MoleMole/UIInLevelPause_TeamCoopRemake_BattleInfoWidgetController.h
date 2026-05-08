@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIInLevelPause_TeamCoop_BattleInfoWidgetController.h"
+
+class Class_2_208CC9941471731A_288;
+class Class_2_208CC9941471731A_763;
+namespace MoleMole { class UICombatPauseMissionWidgetController; }
+namespace MoleMole { class UIControlReference; }
+
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15277C20)
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER_REFRESHACTCHALLENGELIST_OFFSET UNITYSDK_OFFSET(0x152782D0)
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER_REFRESHACTVIEW_OFFSET UNITYSDK_OFFSET(0x15277D10)
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15278BA0)
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15278BB0)
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER___BASE_REFRESHACTCHALLENGELIST_OFFSET UNITYSDK_OFFSET(0x15278BC0)
+#define MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER___BASE_REFRESHACTVIEW_OFFSET UNITYSDK_OFFSET(0x15278BD0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIInLevelPause_TeamCoopRemake_BattleInfoWidgetController_TypeDefinitionIndex = 53962;
+
+	class UIInLevelPause_TeamCoopRemake_BattleInfoWidgetController : public ::MoleMole::UIInLevelPause_TeamCoop_BattleInfoWidgetController
+	{
+	public:
+		::MoleMole::UICombatPauseMissionWidgetController* _combatPauseMissionWidgetController; // 0x2F8
+		::Class_2_208CC9941471731A_288* _template; // 0x300
+		::Class_2_208CC9941471731A_763* _activityBattleQuestTeamTrialTemplate; // 0x308
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void RefreshACTView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER_REFRESHACTVIEW_OFFSET))(this);
+		}
+
+		::System::Void RefreshACTChallengeList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER_REFRESHACTCHALLENGELIST_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_RefreshACTChallengeList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER___BASE_REFRESHACTCHALLENGELIST_OFFSET))(this);
+		}
+
+		::System::Void __base_RefreshACTView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELPAUSE_TEAMCOOPREMAKE_BATTLEINFOWIDGETCONTROLLER___BASE_REFRESHACTVIEW_OFFSET))(this);
+		}
+	};
+}

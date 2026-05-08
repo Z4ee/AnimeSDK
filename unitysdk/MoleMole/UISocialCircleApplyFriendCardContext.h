@@ -5,17 +5,17 @@
 class Class_2_1E137DD457416AF2;
 class Class_2_DF2C726EEEEC912D;
 
-#define MOLEMOLE_UISOCIALCIRCLEAPPLYFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x96FBC80)
+#define MOLEMOLE_UISOCIALCIRCLEAPPLYFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14802CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleApplyFriendCardContext_TypeDefinitionIndex = 53736;
+	inline static constexpr unsigned int UISocialCircleApplyFriendCardContext_TypeDefinitionIndex = 57591;
 
 	class UISocialCircleApplyFriendCardContext : public ::MoleMole::UIFriendCardContext
 	{
 	public:
-		::Class_2_1E137DD457416AF2* CircleMemberApplyData; // 0x60
-		::Class_2_DF2C726EEEEC912D* CircleData; // 0x68
+		::Class_2_DF2C726EEEEC912D* CircleData; // 0x60
+		::Class_2_1E137DD457416AF2* CircleMemberApplyData; // 0x68
 
 		::System::Void _ctor()
 		{

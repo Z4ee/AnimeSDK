@@ -9,28 +9,28 @@ namespace MoleMole { class UIGeneralTabBtnWidgetController_Data_OnClickSubItem; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGESUBID_OFFSET UNITYSDK_OFFSET(0xB0FA050)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGETYPE_OFFSET UNITYSDK_OFFSET(0xB0FA040)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0xB0FA090)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0xB0FA070)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_TEXT_OFFSET UNITYSDK_OFFSET(0xB0FA030)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0xB0FA0A0)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0xB0FA080)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FA0B0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGESUBID_OFFSET UNITYSDK_OFFSET(0x14FB3FD0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGETYPE_OFFSET UNITYSDK_OFFSET(0x14FB3FC0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0x14FB4010)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0x14FB3FF0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x14FB3FB0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0x14FB4020)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0x14FB4000)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB4030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTabBtnWidgetController_Data_TypeDefinitionIndex = 53972;
+	inline static constexpr unsigned int UIGeneralTabBtnWidgetController_Data_TypeDefinitionIndex = 43068;
 
 	class UIGeneralTabBtnWidgetController_Data : public ::System::Object
 	{
 	public:
-		::System::String* _text_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>* _subDatas_k__BackingField; // 0x18
-		::MoleMole::UIGeneralTabBtnWidgetController_Data_OnClickSubItem* _onSelectSubItem_k__BackingField; // 0x20
-		::System::Nullable_1<::NodeGraph::VariantUnion> _badgeSubId_k__BackingField; // 0x28
-		::System::Boolean expand; // 0x40
-		::System::Int32 selectIndex; // 0x44
+		::MoleMole::UIGeneralTabBtnWidgetController_Data_OnClickSubItem* _onSelectSubItem_k__BackingField; // 0x10
+		::System::Nullable_1<::NodeGraph::VariantUnion> _badgeSubId_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>* _subDatas_k__BackingField; // 0x30
+		::System::String* _text_k__BackingField; // 0x38
+		::System::Int32 selectIndex; // 0x40
+		::System::Boolean expand; // 0x44
 		::System::Nullable_1<::Share::ENotificationBadgeType> _badgeType_k__BackingField; // 0x48
 
 		::System::Void _ctor()

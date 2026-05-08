@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Recoil_Handedness_TypeDefinitionIndex = 36182;
+	inline static constexpr unsigned int Recoil_Handedness_TypeDefinitionIndex = 36726;
 
 	enum class Recoil_Handedness : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintManager_FootPrintSpawnerType_TypeDefinitionIndex = 29966;
+	inline static constexpr unsigned int FootPrintManager_FootPrintSpawnerType_TypeDefinitionIndex = 30494;
 
 	enum class FootPrintManager_FootPrintSpawnerType : ::System::Int32
 	{

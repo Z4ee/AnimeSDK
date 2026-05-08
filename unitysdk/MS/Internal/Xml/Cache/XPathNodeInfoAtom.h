@@ -15,11 +15,11 @@ namespace MS::Internal::Xml::Cache
 	{
 	public:
 		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageSibling; // 0x10
-		::System::String* prefix; // 0x18
-		::System::String* localName; // 0x20
+		::System::String* localName; // 0x18
+		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageParent; // 0x20
 		::System::String* namespaceUri; // 0x28
-		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageParent; // 0x30
-		::MS::Internal::Xml::Cache::XPathNodePageInfo* pageInfo; // 0x38
+		::MS::Internal::Xml::Cache::XPathNodePageInfo* pageInfo; // 0x30
+		::System::String* prefix; // 0x38
 		::System::Xml::XPath::XPathDocument* doc; // 0x40
 		::System::Int32 lineNumBase; // 0x48
 		::System::Int32 linePosBase; // 0x4C

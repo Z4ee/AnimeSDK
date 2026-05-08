@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityMissionWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7470AE0)
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS9_0__SHOWCURRENTMISSIONFINISHANDSWITCH_B__0_OFFSET UNITYSDK_OFFSET(0x7470AF0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1483BEB0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS9_0__SHOWCURRENTMISSIONFINISHANDSWITCH_B__0_OFFSET UNITYSDK_OFFSET(0x1483BEC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 53703;
+	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 52947;
 
 	class UIMainCityMissionWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemSortMode_TypeDefinitionIndex = 24385;
+	inline static constexpr unsigned int ParticleSystemSortMode_TypeDefinitionIndex = 24898;
 
 	enum class ParticleSystemSortMode : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace PipelineCamera::CameraSequence { template <typename T1, typename T2> c
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceSegment_2___c_TypeDefinitionIndex = 35716;
+	inline static constexpr unsigned int CameraSequenceSegment_2___c_TypeDefinitionIndex = 36260;
 
 	template <typename TSequence, typename T>
 	class CameraSequenceSegment_2___c : public ::System::Object

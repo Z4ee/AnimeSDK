@@ -4,11 +4,11 @@
 
 class Class_1_8459E51EACDDD3EF;
 
-#define MOLEMOLE_UIURBANMAPMISSIONPROGRESSROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE9A50)
+#define MOLEMOLE_UIURBANMAPMISSIONPROGRESSROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x126A8280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapMissionProgressRowContext_TypeDefinitionIndex = 64850;
+	inline static constexpr unsigned int UIUrbanMapMissionProgressRowContext_TypeDefinitionIndex = 75246;
 
 	class UIUrbanMapMissionProgressRowContext : public ::MoleMole::UIControllerContextBase
 	{

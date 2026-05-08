@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LUMINOUSMESH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1966D0B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LUMINOUSMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1966D150)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LUMINOUSMESH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AD0BCA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LUMINOUSMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0BDA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LuminousMesh_TypeDefinitionIndex = 29508;
+	inline static constexpr unsigned int LuminousMesh_TypeDefinitionIndex = 30036;
 
 	class LuminousMesh : public ::UnityEngine::MonoBehaviour
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ReadOnlyArray_1_TypeDefinitionIndex = 28904;
+	inline static constexpr unsigned int ReadOnlyArray_1_TypeDefinitionIndex = 29422;
 
 	template <typename TValue>
 	struct ReadOnlyArray_1

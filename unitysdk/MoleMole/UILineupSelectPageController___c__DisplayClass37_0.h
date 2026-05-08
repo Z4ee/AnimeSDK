@@ -5,12 +5,12 @@
 class Class_1_BD4090BA6A3D23F8;
 namespace MoleMole { class UILineupSelectPageController; }
 
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x876E130)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS37_0__ONMPBACKBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x876E140)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B89050)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS37_0__ONMPBACKBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x14B89060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass37_0_TypeDefinitionIndex = 78690;
+	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass37_0_TypeDefinitionIndex = 56005;
 
 	class UILineupSelectPageController___c__DisplayClass37_0 : public ::System::Object
 	{

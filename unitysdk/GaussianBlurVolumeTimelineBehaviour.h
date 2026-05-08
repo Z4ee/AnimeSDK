@@ -6,17 +6,17 @@
 
 namespace System { class Object; }
 
-#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB39C810)
-#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB39C8C0)
-#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR___BASE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB39C8D0)
+#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x124705A0)
+#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12470630)
+#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR___BASE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x12470640)
 
-inline static constexpr unsigned int GaussianBlurVolumeTimelineBehaviour_TypeDefinitionIndex = 41277;
+inline static constexpr unsigned int GaussianBlurVolumeTimelineBehaviour_TypeDefinitionIndex = 71172;
 
 class GaussianBlurVolumeTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Boolean isActive; // 0x10
-	::System::Single maskRotation; // 0x14
+	::System::Single maskRotation; // 0x10
+	::System::Boolean isActive; // 0x14
 	::System::Single maskTiling; // 0x18
 
 	::System::Void _ctor()

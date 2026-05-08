@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_MESHRECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AECE180)
+#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_MESHRECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF9E30)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_AtlasPackerRenderTextureUsingMesh_MeshRectInfo_TypeDefinitionIndex = 83427;
+	inline static constexpr unsigned int MB3_AtlasPackerRenderTextureUsingMesh_MeshRectInfo_TypeDefinitionIndex = 85155;
 
 	class MB3_AtlasPackerRenderTextureUsingMesh_MeshRectInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 triIdx; // 0x10
-		::System::Int32 vertIdx; // 0x14
-		::System::Int32 atlasIdx; // 0x18
+		::System::Int32 vertIdx; // 0x10
+		::System::Int32 atlasIdx; // 0x14
+		::System::Int32 triIdx; // 0x18
 
 		::System::Void _ctor()
 		{

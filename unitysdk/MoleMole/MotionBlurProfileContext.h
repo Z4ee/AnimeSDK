@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 
-#define MOLEMOLE_MOTIONBLURPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA7F0D10)
+#define MOLEMOLE_MOTIONBLURPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160624B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MotionBlurProfileContext_TypeDefinitionIndex = 64190;
+	inline static constexpr unsigned int MotionBlurProfileContext_TypeDefinitionIndex = 65124;
 
 	class MotionBlurProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

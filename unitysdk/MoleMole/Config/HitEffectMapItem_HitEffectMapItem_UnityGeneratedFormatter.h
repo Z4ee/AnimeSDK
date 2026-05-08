@@ -12,34 +12,34 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD0A3620)
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD0A3630)
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD0A39A0)
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A3C10)
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A3BD0)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16B45D00)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16B45D10)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16B46060)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B462B0)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_HITEFFECTMAPITEM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B46270)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex = 49446;
+	inline static constexpr unsigned int HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex = 52336;
 
 	class HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::HitEffectMapItem*>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorAirHitType>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorAirHitType>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41A20);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorHitEffect>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorHitEffect>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41790);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorHitEffect>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41A28);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorGroundHitType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorGroundHitType>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41798);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorAirHitType>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorAirHitType>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x417A0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorGroundHitType>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41A30);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CharacterAnimatorStateType>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CharacterAnimatorStateType>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x417A8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CharacterAnimatorStateType>**)Il2CppClass::FromTypeDefinitionIndex(HitEffectMapItem_HitEffectMapItem_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41A38);
 		}
 
 		::System::Void _ctor()

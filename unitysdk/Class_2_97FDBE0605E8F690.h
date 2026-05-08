@@ -4,17 +4,17 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_97FDBE0605E8F690_METHOD_2_9A6DA36CCAE7D188_OFFSET UNITYSDK_OFFSET(0xAA9A660)
-#define CLASS_2_97FDBE0605E8F690__CTOR_OFFSET UNITYSDK_OFFSET(0xAA9A5E0)
+#define CLASS_2_97FDBE0605E8F690_METHOD_2_9A6DA36CCAE7D188_OFFSET UNITYSDK_OFFSET(0x141CDEF0)
+#define CLASS_2_97FDBE0605E8F690__CTOR_OFFSET UNITYSDK_OFFSET(0x141CDE90)
 
-inline static constexpr unsigned int Class_2_97FDBE0605E8F690_TypeDefinitionIndex = 77956;
+inline static constexpr unsigned int Class_2_97FDBE0605E8F690_TypeDefinitionIndex = 45522;
 
 class Class_2_97FDBE0605E8F690 : public ::ResourceModeBase
 {
 public:
-	::System::Int32 Field_2_1; // 0x18
+	::System::Int32 Field_2_2; // 0x18
 	::System::Int32 Field_2_0; // 0x1C
-	::System::Int32 Field_2_2; // 0x20
+	::System::Int32 Field_2_1; // 0x20
 
 	::System::Void _ctor(::System::Action* a1)
 	{

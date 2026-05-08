@@ -4,12 +4,12 @@
 
 namespace BehaviorDesigner::Runtime { class NamedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A0FF350)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FF280)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1AD2F4A0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD2F410)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedNamedVariable_TypeDefinitionIndex = 31208;
+	inline static constexpr unsigned int SharedNamedVariable_TypeDefinitionIndex = 31737;
 
 	class SharedNamedVariable : public ::BehaviorDesigner::Runtime::SharedVariable_1<::BehaviorDesigner::Runtime::NamedVariable*>
 	{

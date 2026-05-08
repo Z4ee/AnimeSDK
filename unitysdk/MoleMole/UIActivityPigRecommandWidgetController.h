@@ -1,0 +1,313 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_1_27AF56145329D764;
+class Class_1_EADE0AA2443F1473;
+class Class_2_60638234271CCDB8_68;
+namespace MoleMole { class ActivityPigRecommandContext; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace System { class EventArgs; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDAILYNUMONLY_OFFSET UNITYSDK_OFFSET(0x16449F80)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDEPOSITEDANDMAX_ANIM_OFFSET UNITYSDK_OFFSET(0x1644AD70)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDEPOSITEDANDMAX_OFFSET UNITYSDK_OFFSET(0x1644A010)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDISPLAYNUMBERS_OFFSET UNITYSDK_OFFSET(0x16449BD0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYEFFECTPROHEIGHT_OFFSET UNITYSDK_OFFSET(0x16449C60)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_CANCELNUMANIMCOROUTINE_OFFSET UNITYSDK_OFFSET(0x16448E30)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_CANCELTVNUMBERANIMATIONDELAY_OFFSET UNITYSDK_OFFSET(0x16448DA0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_CHECKANDPLAYANI_OFFSET UNITYSDK_OFFSET(0x1644A630)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_COMPUTEDISPLAYNUMBERSCORE_OFFSET UNITYSDK_OFFSET(0x16448F60)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_DEPOSITEDNUMSCROLLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1644B100)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ENSUREGENERALTIPSCLOSELISTENER_OFFSET UNITYSDK_OFFSET(0x1644A970)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_GETDAILYREWARD_OFFSET UNITYSDK_OFFSET(0x1644C220)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_GETDEPOSITREWARD_OFFSET UNITYSDK_OFFSET(0x1644A7F0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16448AD0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONDAILYREWARDTIPSCLOSEDBYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1644B560)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONGENERALTIPSCLOSED_OFFSET UNITYSDK_OFFSET(0x1644B1F0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x16447D20)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16448B60)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x16447B80)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16448A60)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUNLOCKTIPSCLOSEDBYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1644B2D0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REFRESHUI_OFFSET UNITYSDK_OFFSET(0x16447E20)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REFRESHUNLOCKEDDATAWITHOUTHIDINGLOCK_OFFSET UNITYSDK_OFFSET(0x1644B5B0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REGISTERDAILYREWARDTIPSCLOSE_OFFSET UNITYSDK_OFFSET(0x1644AAA0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REGISTERUNLOCKTIPSCLOSE_OFFSET UNITYSDK_OFFSET(0x16448F00)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REQUESTCLAIMALLANDREGISTERFORTVANIMATION_OFFSET UNITYSDK_OFFSET(0x1644AB00)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_RUNTVNUMBERANIMATIONAFTERCLOSES_OFFSET UNITYSDK_OFFSET(0x1644B9C0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_SCHEDULEACTIVITYEXPIRECHECK_OFFSET UNITYSDK_OFFSET(0x16448740)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_SHOWNOTBUY_OFFSET UNITYSDK_OFFSET(0x16448EC0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_TRYCOMPUTEDISPLAYNUMBERS_OFFSET UNITYSDK_OFFSET(0x16449EB0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_TRYREMOVEGENERALTIPSCLOSELISTENER_OFFSET UNITYSDK_OFFSET(0x1644AA20)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UNREGISTERDAILYREWARDTIPSCLOSE_OFFSET UNITYSDK_OFFSET(0x16448C60)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UNREGISTERUNLOCKTIPSCLOSE_OFFSET UNITYSDK_OFFSET(0x16448D00)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UPDATEDAILYREWARDBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1644A4B0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UPDATETAKEDISPOSTBTN_OFFSET UNITYSDK_OFFSET(0x16449810)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1644C460)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__GETDAILYREWARD_B__53_0_OFFSET UNITYSDK_OFFSET(0x1644C5D0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__GETDAILYREWARD_B__53_1_OFFSET UNITYSDK_OFFSET(0x1644CD80)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__GETDEPOSITREWARD_B__34_0_OFFSET UNITYSDK_OFFSET(0x1644C4C0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__ONUNLOCKTIPSCLOSEDBYCALLBACK_B__49_0_OFFSET UNITYSDK_OFFSET(0x1644C4D0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1644CE40)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1644CED0)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1644CF70)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1644D000)
+#define MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1644D090)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIActivityPigRecommandWidgetController_TypeDefinitionIndex = 77991;
+
+	class UIActivityPigRecommandWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::Class_2_60638234271CCDB8_68* _view; // 0x2B8
+		::MoleMole::ActivityPigRecommandContext* _context; // 0x2C0
+		::Class_1_27AF56145329D764* loginFundData; // 0x2C8
+		::System::Boolean _wasLockedBeforeLastRefresh; // 0x2D0
+		::System::Boolean _pendingDailyRewardAnim; // 0x2D1
+		::Foundation::Coroutine::CoroutineHandle _dailyRewardFadeInDelayHandle; // 0x2D4
+		::Foundation::Coroutine::CoroutineHandle _unlockAnimDelayHandle; // 0x2D8
+		::System::Boolean _hasPendingDisplay; // 0x2DC
+		::System::Int32 _pendingCombineReward; // 0x2E0
+		::System::Int32 _pendingMaxNum; // 0x2E4
+		::System::Int32 _pendingShowValue; // 0x2E8
+		::System::Int32 _pendingDepositRewardSum; // 0x2EC
+		::System::Int32 _expectedDailyTipsCloseCount; // 0x2F0
+		::System::Boolean _pendingUnlockAnim; // 0x2F4
+		::System::Boolean _listeningDailyTipsClose; // 0x2F5
+		::System::Boolean _listeningUnlockTipsClose; // 0x2F6
+		::System::Boolean _isGeneralTipsCloseRegistered; // 0x2F7
+		::Foundation::Coroutine::CoroutineHandle _numAnimCoroutineHandle; // 0x2F8
+		::System::Int32 _numAnimOldCombineReward; // 0x2FC
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void ShowNotBuy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_SHOWNOTBUY_OFFSET))(this);
+		}
+
+		::System::Void RefreshUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REFRESHUI_OFFSET))(this);
+		}
+
+		::System::Boolean ComputeDisplayNumbersCore(::Class_1_EADE0AA2443F1473* pigData, ::Class_1_27AF56145329D764* fundData, ::System::Int32& combineReward, ::System::Int32& maxNum, ::System::Int32& showValue, ::System::Int32& depositRewardSum, ::System::Boolean& todayIsGet, ::System::Boolean& isAllTake)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_EADE0AA2443F1473*, ::Class_1_27AF56145329D764*, ::System::Int32&, ::System::Int32&, ::System::Int32&, ::System::Int32&, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_COMPUTEDISPLAYNUMBERSCORE_OFFSET))(this, pigData, fundData, combineReward, maxNum, showValue, depositRewardSum, todayIsGet, isAllTake);
+		}
+
+		::System::Boolean TryComputeDisplayNumbers(::Class_1_EADE0AA2443F1473* loginInfoData, ::Class_1_27AF56145329D764* fundData, ::System::Int32& combineReward, ::System::Int32& maxNum, ::System::Int32& showValue, ::System::Int32& depositRewardSum)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_EADE0AA2443F1473*, ::Class_1_27AF56145329D764*, ::System::Int32&, ::System::Int32&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_TRYCOMPUTEDISPLAYNUMBERS_OFFSET))(this, loginInfoData, fundData, combineReward, maxNum, showValue, depositRewardSum);
+		}
+
+		::System::Void ApplyDailyNumOnly(::System::Int32 showValue)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDAILYNUMONLY_OFFSET))(this, showValue);
+		}
+
+		::System::Void ApplyDepositedAndMax(::System::Int32 combineReward, ::System::Int32 maxNum, ::System::Int32 depositRewardSum)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDEPOSITEDANDMAX_OFFSET))(this, combineReward, maxNum, depositRewardSum);
+		}
+
+		::System::Void ApplyDisplayNumbers(::System::Int32 combineReward, ::System::Int32 maxNum, ::System::Int32 showValue, ::System::Int32 depositRewardSum)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDISPLAYNUMBERS_OFFSET))(this, combineReward, maxNum, showValue, depositRewardSum);
+		}
+
+		::System::Void UpdateTakeDispostBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UPDATETAKEDISPOSTBTN_OFFSET))(this);
+		}
+
+		::System::Void UpdateDailyRewardButtonState(::System::Boolean isAllTake)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UPDATEDAILYREWARDBUTTONSTATE_OFFSET))(this, isAllTake);
+		}
+
+		::System::Void CheckAndPlayAni(::Class_1_27AF56145329D764* loginFundData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_27AF56145329D764*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_CHECKANDPLAYANI_OFFSET))(this, loginFundData);
+		}
+
+		::System::Void GetDepositReward()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_GETDEPOSITREWARD_OFFSET))(this);
+		}
+
+		::System::Void EnsureGeneralTipsCloseListener()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ENSUREGENERALTIPSCLOSELISTENER_OFFSET))(this);
+		}
+
+		::System::Void TryRemoveGeneralTipsCloseListener()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_TRYREMOVEGENERALTIPSCLOSELISTENER_OFFSET))(this);
+		}
+
+		::System::Void RegisterDailyRewardTipsClose(::System::Int32 expectedPopupCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REGISTERDAILYREWARDTIPSCLOSE_OFFSET))(this, expectedPopupCount);
+		}
+
+		::System::Void RegisterUnlockTipsClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REGISTERUNLOCKTIPSCLOSE_OFFSET))(this);
+		}
+
+		::System::Void RequestClaimAllAndRegisterForTvAnimation(::Il2CppArray<::System::Int32>* canTakeRewardIndexArr, ::System::Int32 expectedPopupCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REQUESTCLAIMALLANDREGISTERFORTVANIMATION_OFFSET))(this, canTakeRewardIndexArr, expectedPopupCount);
+		}
+
+		::System::Void UnregisterDailyRewardTipsClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UNREGISTERDAILYREWARDTIPSCLOSE_OFFSET))(this);
+		}
+
+		::System::Void UnregisterUnlockTipsClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_UNREGISTERUNLOCKTIPSCLOSE_OFFSET))(this);
+		}
+
+		::System::Void CancelTvNumberAnimationDelay()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_CANCELTVNUMBERANIMATIONDELAY_OFFSET))(this);
+		}
+
+		::System::Void CancelNumAnimCoroutine()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_CANCELNUMANIMCOROUTINE_OFFSET))(this);
+		}
+
+		::System::Void ApplyDepositedAndMax_Anim(::System::Int32 oldCombineReward, ::System::Int32 newCombineReward, ::System::Int32 maxNum, ::System::Single duration, ::System::Int32 count)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYDEPOSITEDANDMAX_ANIM_OFFSET))(this, oldCombineReward, newCombineReward, maxNum, duration, count);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::System::Single>* DepositedNumScrollCoroutine(::System::Int32 startVal, ::System::Int32 endVal, ::System::Int32 totalDelta, ::System::Int32 count, ::System::Single stepInterval, ::System::Boolean isMax)
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_DEPOSITEDNUMSCROLLCOROUTINE_OFFSET))(this, startVal, endVal, totalDelta, count, stepInterval, isMax);
+		}
+
+		::System::Void ApplyEffectProHeight(::System::Int32 combineReward, ::System::Int32 maxNum)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_APPLYEFFECTPROHEIGHT_OFFSET))(this, combineReward, maxNum);
+		}
+
+		::System::Void ScheduleActivityExpireCheck()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_SCHEDULEACTIVITYEXPIRECHECK_OFFSET))(this);
+		}
+
+		::System::Void OnGeneralTipsClosed(::System::EventArgs* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONGENERALTIPSCLOSED_OFFSET))(this, arg);
+		}
+
+		::System::Void OnUnlockTipsClosedByCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONUNLOCKTIPSCLOSEDBYCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void OnDailyRewardTipsClosedByCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_ONDAILYREWARDTIPSCLOSEDBYCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void RefreshUnlockedDataWithoutHidingLock()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_REFRESHUNLOCKEDDATAWITHOUTHIDINGLOCK_OFFSET))(this);
+		}
+
+		::System::Void RunTvNumberAnimationAfterCloses()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_RUNTVNUMBERANIMATIONAFTERCLOSES_OFFSET))(this);
+		}
+
+		::System::Void GetDailyReward()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER_GETDAILYREWARD_OFFSET))(this);
+		}
+
+		::System::Void _GetDepositReward_b__34_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__GETDEPOSITREWARD_B__34_0_OFFSET))(this);
+		}
+
+		::System::Void _OnUnlockTipsClosedByCallback_b__49_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__ONUNLOCKTIPSCLOSEDBYCALLBACK_B__49_0_OFFSET))(this);
+		}
+
+		::System::Void _GetDailyReward_b__53_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__GETDAILYREWARD_B__53_0_OFFSET))(this);
+		}
+
+		::System::Void _GetDailyReward_b__53_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER__GETDAILYREWARD_B__53_1_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYPIGRECOMMANDWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

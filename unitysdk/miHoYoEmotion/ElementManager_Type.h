@@ -3,7 +3,7 @@
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ElementManager_Type_TypeDefinitionIndex = 37166;
+	inline static constexpr unsigned int ElementManager_Type_TypeDefinitionIndex = 37710;
 
 	enum class ElementManager_Type : ::System::Int32
 	{

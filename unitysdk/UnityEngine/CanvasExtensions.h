@@ -5,11 +5,11 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
 
-#define UNITYENGINE_CANVASEXTENSIONS_SAFESETWORLDCAMERA_OFFSET UNITYSDK_OFFSET(0xAEA7570)
+#define UNITYENGINE_CANVASEXTENSIONS_SAFESETWORLDCAMERA_OFFSET UNITYSDK_OFFSET(0x18D51AD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CanvasExtensions_TypeDefinitionIndex = 37820;
+	inline static constexpr unsigned int CanvasExtensions_TypeDefinitionIndex = 55725;
 
 	class CanvasExtensions : public ::System::Object
 	{

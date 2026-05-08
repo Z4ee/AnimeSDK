@@ -3,7 +3,7 @@
 
 namespace TapTap::Sdk::MiniJSON
 {
-	inline static constexpr unsigned int Json_Parser_TOKEN_TypeDefinitionIndex = 9476;
+	inline static constexpr unsigned int Json_Parser_TOKEN_TypeDefinitionIndex = 9487;
 
 	enum class Json_Parser_TOKEN : ::System::Int32
 	{

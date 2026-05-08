@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CPriorityQueue_1_TypeDefinitionIndex = 8564;
+	inline static constexpr unsigned int CPriorityQueue_1_TypeDefinitionIndex = 8575;
 
 	template <typename T>
 	class CPriorityQueue_1 : public ::System::Object

@@ -8,7 +8,7 @@ namespace MoleMole::Config { class ChessboardPerformEventTimeLineElement; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardTimeLineConfig_TypeDefinitionIndex = 74227;
+	inline static constexpr unsigned int ChessboardTimeLineConfig_TypeDefinitionIndex = 50564;
 
 	struct alignas(8) ChessboardTimeLineConfig
 	{

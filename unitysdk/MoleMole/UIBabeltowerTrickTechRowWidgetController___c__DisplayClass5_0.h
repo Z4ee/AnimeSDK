@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIBABELTOWERTRICKTECHROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB74A6D0)
-#define MOLEMOLE_UIBABELTOWERTRICKTECHROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xB74A6E0)
+#define MOLEMOLE_UIBABELTOWERTRICKTECHROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B604F0)
+#define MOLEMOLE_UIBABELTOWERTRICKTECHROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x12B60500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerTrickTechRowWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 44597;
+	inline static constexpr unsigned int UIBabeltowerTrickTechRowWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 79161;
 
 	class UIBabeltowerTrickTechRowWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{

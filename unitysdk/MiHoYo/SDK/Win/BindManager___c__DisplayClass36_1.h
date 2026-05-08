@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::Win { class BindManager___c__DisplayClass36_0; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1899FC90)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS36_1__ONCHECKACCOUNT_B__14_OFFSET UNITYSDK_OFFSET(0x1899FCA0)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS36_1__ONCHECKACCOUNT_B__16_OFFSET UNITYSDK_OFFSET(0x1899FE00)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19B63E40)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS36_1__ONCHECKACCOUNT_B__14_OFFSET UNITYSDK_OFFSET(0x19B63E50)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS36_1__ONCHECKACCOUNT_B__16_OFFSET UNITYSDK_OFFSET(0x19B63FB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass36_1_TypeDefinitionIndex = 19614;
+	inline static constexpr unsigned int BindManager___c__DisplayClass36_1_TypeDefinitionIndex = 19971;
 
 	class BindManager___c__DisplayClass36_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::BindManager___c__DisplayClass36_0* CS___8__locals1; // 0x10
-		::System::Action* OnBindMail; // 0x18
+		::System::Action* OnBindMail; // 0x10
+		::MiHoYo::SDK::Win::BindManager___c__DisplayClass36_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

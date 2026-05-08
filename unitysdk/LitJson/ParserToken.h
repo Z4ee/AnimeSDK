@@ -3,29 +3,29 @@
 
 namespace LitJson
 {
-	inline static constexpr unsigned int ParserToken_TypeDefinitionIndex = 8123;
+	inline static constexpr unsigned int ParserToken_TypeDefinitionIndex = 7870;
 
 	enum class ParserToken : ::System::Int32
 	{
-		Char = 65542,
-		Pair = 65546,
-		CharSeq = 65541,
-		Value = 65550,
-		Null = 65540,
+		True = 65538,
+		Object = 65544,
 		ArrayPrime = 65549,
-		ObjectPrime = 65545,
-		False = 65539,
-		Text = 65543,
-		Comment = 65553,
-		Epsilon = 65555,
-		Number = 65537,
 		PairRest = 65547,
 		Array = 65548,
-		True = 65538,
-		ValueRest = 65551,
-		String = 65552,
+		Char = 65542,
+		Comment = 65553,
 		End = 65554,
-		Object = 65544,
+		Number = 65537,
+		CharSeq = 65541,
+		Null = 65540,
+		String = 65552,
+		Value = 65550,
+		Epsilon = 65555,
+		Pair = 65546,
 		None = 65536,
+		ValueRest = 65551,
+		Text = 65543,
+		ObjectPrime = 65545,
+		False = 65539,
 	};
 }

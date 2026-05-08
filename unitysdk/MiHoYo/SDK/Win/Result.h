@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int Result_TypeDefinitionIndex = 19483;
+	inline static constexpr unsigned int Result_TypeDefinitionIndex = 19840;
 
 	enum class Result : ::System::Int32
 	{

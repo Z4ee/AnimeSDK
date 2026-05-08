@@ -6,24 +6,24 @@ namespace NodeCanvas::DialogueTrees { class DialogueTree_ActorParameter; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A608120)
-#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A608160)
-#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__GET_DEFINEDACTORPARAMETERNAMES_B__46_0_OFFSET UNITYSDK_OFFSET(0x1A608170)
+#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4A2230)
+#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A2270)
+#define NODECANVAS_DIALOGUETREES_DIALOGUETREE___C__GET_DEFINEDACTORPARAMETERNAMES_B__46_0_OFFSET UNITYSDK_OFFSET(0x1B4A2280)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int DialogueTree___c_TypeDefinitionIndex = 25959;
+	inline static constexpr unsigned int DialogueTree___c_TypeDefinitionIndex = 26841;
 
 	class DialogueTree___c : public ::System::Object
 	{
 	public:
 		static ::NodeCanvas::DialogueTrees::DialogueTree___c** StaticGet___9()
 		{
-			return (::NodeCanvas::DialogueTrees::DialogueTree___c**)Il2CppClass::FromTypeDefinitionIndex(DialogueTree___c_TypeDefinitionIndex)->GetStaticField(0x202F0);
+			return (::NodeCanvas::DialogueTrees::DialogueTree___c**)Il2CppClass::FromTypeDefinitionIndex(DialogueTree___c_TypeDefinitionIndex)->GetStaticField(0x20E60);
 		}
 		static ::System::Func_2<::NodeCanvas::DialogueTrees::DialogueTree_ActorParameter*, ::System::String*>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::NodeCanvas::DialogueTrees::DialogueTree_ActorParameter*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueTree___c_TypeDefinitionIndex)->GetStaticField(0x202F8);
+			return (::System::Func_2<::NodeCanvas::DialogueTrees::DialogueTree_ActorParameter*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueTree___c_TypeDefinitionIndex)->GetStaticField(0x20E68);
 		}
 
 		static ::System::Void _cctor()

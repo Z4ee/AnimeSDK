@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ICinemachineTargetGroup_TypeDefinitionIndex = 31967;
+	inline static constexpr unsigned int ICinemachineTargetGroup_TypeDefinitionIndex = 32496;
 
 	class ICinemachineTargetGroup
 	{

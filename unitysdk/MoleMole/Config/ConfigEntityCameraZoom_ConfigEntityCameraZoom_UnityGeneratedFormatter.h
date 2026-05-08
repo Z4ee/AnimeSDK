@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCAE56D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCAE56E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCAE58E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAE5AA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE5A60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF97C030)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF97C040)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF97C220)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF97C3C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAMERAZOOM_CONFIGENTITYCAMERAZOOM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF97C380)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter_TypeDefinitionIndex = 72586;
+	inline static constexpr unsigned int ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter_TypeDefinitionIndex = 77236;
 
 	class ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigEntityCameraZoom*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45CD0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46780);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45CD8);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEntityCameraZoom_ConfigEntityCameraZoom_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46788);
 		}
 
 		::System::Void _ctor()

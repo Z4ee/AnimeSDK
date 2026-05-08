@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA66750)
-#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__RESETBLOCKBTNUI_B__2_OFFSET UNITYSDK_OFFSET(0xCA66860)
+#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D93AC0)
+#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__RESETBLOCKBTNUI_B__2_OFFSET UNITYSDK_OFFSET(0x14D93C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMoreOptionPopWindowController___c__DisplayClass34_0_TypeDefinitionIndex = 71481;
+	inline static constexpr unsigned int UIMoreOptionPopWindowController___c__DisplayClass34_0_TypeDefinitionIndex = 42130;
 
 	class UIMoreOptionPopWindowController___c__DisplayClass34_0 : public ::System::Object
 	{

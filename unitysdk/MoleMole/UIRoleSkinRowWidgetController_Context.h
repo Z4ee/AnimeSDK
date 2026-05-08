@@ -3,21 +3,21 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIRoleSkinRowWidgetController_ERoleCardType.h"
 
-class Class_2_25B3E66D74D4E517;
+class Class_2_927E2D0470CF77A4;
 
-#define MOLEMOLE_UIROLESKINROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xDF34B30)
+#define MOLEMOLE_UIROLESKINROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14580B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSkinRowWidgetController_Context_TypeDefinitionIndex = 76747;
+	inline static constexpr unsigned int UIRoleSkinRowWidgetController_Context_TypeDefinitionIndex = 44386;
 
 	class UIRoleSkinRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_25B3E66D74D4E517* data; // 0x28
-		::MoleMole::UIRoleSkinRowWidgetController_ERoleCardType roleCardType; // 0x30
-		::System::Boolean isAvatarObtained; // 0x34
-		::System::Boolean isGetMethodPreview; // 0x35
+		::Class_2_927E2D0470CF77A4* data; // 0x28
+		::System::Boolean isAvatarObtained; // 0x30
+		::System::Boolean isGetMethodPreview; // 0x31
+		::MoleMole::UIRoleSkinRowWidgetController_ERoleCardType roleCardType; // 0x34
 
 		::System::Void _ctor()
 		{

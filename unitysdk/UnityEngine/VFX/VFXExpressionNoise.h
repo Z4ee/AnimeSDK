@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_VFX_VFXEXPRESSIONNOISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76FDC0)
+#define UNITYENGINE_VFX_VFXEXPRESSIONNOISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C558A30)
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXExpressionNoise_TypeDefinitionIndex = 82504;
+	inline static constexpr unsigned int VFXExpressionNoise_TypeDefinitionIndex = 84232;
 
 	class VFXExpressionNoise : public ::System::Object
 	{

@@ -11,6 +11,7 @@
 
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class OffscreenParticleManager_IResourceLoader; }
 namespace UnityEngine::NAPRenderPipeline0 { class OffscreenParticleManager_OffscreenParticleItem; }
@@ -19,71 +20,72 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class ForwardRendererData_SpecialDamageBloomConfig; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ADDITEM_OFFSET UNITYSDK_OFFSET(0x19ECF2F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x19ECF0A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_DOWNSAMPLEANDBLUR_OFFSET UNITYSDK_OFFSET(0x19ECFFC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ENABLESIMULATION_OFFSET UNITYSDK_OFFSET(0x19ECFCD0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_GETRT_OFFSET UNITYSDK_OFFSET(0x19ECFF20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ISVALID_OFFSET UNITYSDK_OFFSET(0x19ECFAC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ONBATTLEEND_OFFSET UNITYSDK_OFFSET(0x19ECFC90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_REFRESHITEMSIMULATION_OFFSET UNITYSDK_OFFSET(0x19ECF640)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_REINITDRAWSETIDS_OFFSET UNITYSDK_OFFSET(0x19ECE920)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_REMOVEITEM_OFFSET UNITYSDK_OFFSET(0x19ECFB70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_RESIZE_OFFSET UNITYSDK_OFFSET(0x19ECFE60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_SETRESOURCELOADER_OFFSET UNITYSDK_OFFSET(0x19ECE9C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_UPDATEINSRP_OFFSET UNITYSDK_OFFSET(0x19ED0CA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ED1FC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECEA50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B3611F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1B360FB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_DOWNSAMPLEANDBLUR_OFFSET UNITYSDK_OFFSET(0x1B361FC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ENABLESIMULATION_OFFSET UNITYSDK_OFFSET(0x1B361C60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_GETGOINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B361F20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_GETRT_OFFSET UNITYSDK_OFFSET(0x1B361E80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B361A50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_ONBATTLEEND_OFFSET UNITYSDK_OFFSET(0x1B361C20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_REFRESHITEMSIMULATION_OFFSET UNITYSDK_OFFSET(0x1B3614A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_REINITDRAWSETIDS_OFFSET UNITYSDK_OFFSET(0x1B360730)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_REMOVEITEM_OFFSET UNITYSDK_OFFSET(0x1B361B00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_RESIZE_OFFSET UNITYSDK_OFFSET(0x1B361DC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_SETRESOURCELOADER_OFFSET UNITYSDK_OFFSET(0x1B3607D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_UPDATEINSRP_OFFSET UNITYSDK_OFFSET(0x1B362CA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B364160)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B360860)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OffscreenParticleManager_TypeDefinitionIndex = 29243;
+	inline static constexpr unsigned int OffscreenParticleManager_TypeDefinitionIndex = 29762;
 
 	class OffscreenParticleManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_Initialize()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23360);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager** StaticGet_Instance()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23368);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_Alloc()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23370);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_SetupThings()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23378);
+			return (::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23EE0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_IResourceLoader** StaticGet_s_Loader()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_IResourceLoader**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23380);
+			return (::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_IResourceLoader**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23EE8);
 		}
-		static ::System::Boolean* StaticGet_EnableOffscreenParticleBloom()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_Initialize()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x6710);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23EF0);
 		}
-		static ::System::Boolean* StaticGet_ShowLoadName()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_Alloc()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x6711);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23EF8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_SetupThings()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x23F00);
 		}
 		static ::System::Int32* StaticGet_kInstantiateCacheFrames()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x6714);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x6780);
 		}
-		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* m_Processed; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* m_ToReorder; // 0x18
-		::Il2CppArray<::System::Int32>* _BloomTempMips; // 0x20
-		::System::Collections::Generic::LinkedList_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* m_UsedList; // 0x28
-		::Il2CppArray<::System::Int32>* _BloomMips; // 0x30
+		static ::System::Boolean* StaticGet_EnableOffscreenParticleBloom()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x6784);
+		}
+		static ::System::Boolean* StaticGet_ShowLoadName()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OffscreenParticleManager_TypeDefinitionIndex)->GetStaticField(0x6785);
+		}
+		::Il2CppArray<::System::Int32>* _BloomMips; // 0x10
+		::System::Collections::Generic::LinkedList_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* m_UsedList; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* m_ToReorder; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_OffscreenParticleItem*>* m_Processed; // 0x28
+		::Il2CppArray<::System::Int32>* _BloomTempMips; // 0x30
 		::System::Collections::Generic::List_1<::System::Byte>* m_AvailDrawSetIds; // 0x38
 		::System::Boolean m_Running; // 0x40
-		::UnityEngine::Rendering::DrawingSettings m_DrawSetting; // 0x44
-		::UnityEngine::Rendering::ScriptableCullingParameters m_CullingParam; // 0x180
-		::UnityEngine::Rendering::FilteringSettings m_FilterSettings; // 0x868
+		::UnityEngine::Rendering::FilteringSettings m_FilterSettings; // 0x44
+		::UnityEngine::Rendering::DrawingSettings m_DrawSetting; // 0x60
+		::UnityEngine::Rendering::ScriptableCullingParameters m_CullingParam; // 0x198
 
 		::System::Void _ctor()
 		{
@@ -148,6 +150,11 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::RenderTexture* GetRT(::System::Object* handle)
 		{
 			return ((::UnityEngine::RenderTexture*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_GETRT_OFFSET))(this, handle);
+		}
+
+		::UnityEngine::GameObject* GetGOInstance(::System::Object* handle)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_GETGOINSTANCE_OFFSET))(this, handle);
 		}
 
 		::System::Void DownSampleAndBlur(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 mipIndex, ::UnityEngine::Vector2Int sourceSize, ::UnityEngine::RenderTexture* sourceColor, ::UnityEngine::Rendering::Universal::ForwardRendererData_SpecialDamageBloomConfig* napBloomConfig)

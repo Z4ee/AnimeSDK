@@ -5,11 +5,11 @@
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationClip; }
 
-#define MOLEMOLE_MODULE_SLOT_MIXEDSLOTANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xB5F41A0)
+#define MOLEMOLE_MODULE_SLOT_MIXEDSLOTANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1542FDC0)
 
 namespace MoleMole::Module::Slot
 {
-	inline static constexpr unsigned int MixedSlotAnimation_TypeDefinitionIndex = 69483;
+	inline static constexpr unsigned int MixedSlotAnimation_TypeDefinitionIndex = 78828;
 
 	class MixedSlotAnimation : public ::UnityEngine::MonoBehaviour
 	{

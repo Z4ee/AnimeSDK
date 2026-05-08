@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x9CD9400)
-#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD9460)
+#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x122DF980)
+#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x122DF9C0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int LayerConfig_TypeDefinitionIndex = 75895;
+	inline static constexpr unsigned int LayerConfig_TypeDefinitionIndex = 79795;
 
 	class LayerConfig : public ::MoleMole::ChessStateMachine::ConfigBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* transitionGuids; // 0x28
-		::System::Collections::Generic::List_1<::System::String*>* nodeGuids; // 0x30
+		::System::Collections::Generic::List_1<::System::String*>* nodeGuids; // 0x28
+		::System::Collections::Generic::List_1<::System::String*>* transitionGuids; // 0x30
 
 		::System::Void _ctor()
 		{

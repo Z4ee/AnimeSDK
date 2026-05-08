@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass86_0_1_TypeDefinitionIndex = 36322;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass86_0_1_TypeDefinitionIndex = 36866;
 
 	template <typename T>
 	class SQLiteAsyncConnection___c__DisplayClass86_0_1 : public ::System::Object

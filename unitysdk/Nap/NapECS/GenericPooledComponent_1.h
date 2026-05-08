@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int GenericPooledComponent_1_TypeDefinitionIndex = 35209;
+	inline static constexpr unsigned int GenericPooledComponent_1_TypeDefinitionIndex = 35744;
 
 	template <typename T>
 	class GenericPooledComponent_1 : public ::System::Object

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_A0DBCDCD2690B426;
+class Class_2_487E4F5C060C58D7;
 
-#define MOLEMOLE_UIMONSTERCARDDECKWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x866A0D0)
-#define MOLEMOLE_UIMONSTERCARDDECKWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONADDSUITECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x866A0E0)
+#define MOLEMOLE_UIMONSTERCARDDECKWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D4C210)
+#define MOLEMOLE_UIMONSTERCARDDECKWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONADDSUITECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x14D4C220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardDeckWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 67176;
+	inline static constexpr unsigned int UIMonsterCardDeckWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 58578;
 
 	class UIMonsterCardDeckWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Class_2_A0DBCDCD2690B426* uiModel; // 0x10
+		::Class_2_487E4F5C060C58D7* uiModel; // 0x10
 
 		::System::Void _ctor()
 		{

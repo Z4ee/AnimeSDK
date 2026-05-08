@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD4A4E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD4A520)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___C__GETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x1AD4A530)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B6420)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B6460)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___C__GETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B9B6470)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int AlphaGeneratorPolicy_Spring___c_TypeDefinitionIndex = 35736;
+	inline static constexpr unsigned int AlphaGeneratorPolicy_Spring___c_TypeDefinitionIndex = 36280;
 
 	class AlphaGeneratorPolicy_Spring___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::Foundation::Equation::OrdinaryDifferential::SecondOrderHomogeneous>** StaticGet___9__7_0()
 		{
-			return (::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::Foundation::Equation::OrdinaryDifferential::SecondOrderHomogeneous>**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring___c_TypeDefinitionIndex)->GetStaticField(0x26520);
+			return (::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::Foundation::Equation::OrdinaryDifferential::SecondOrderHomogeneous>**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring___c_TypeDefinitionIndex)->GetStaticField(0x270D0);
 		}
 		static ::PipelineCamera::CameraSequence::AlphaGeneratorPolicy_Spring___c** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::AlphaGeneratorPolicy_Spring___c**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring___c_TypeDefinitionIndex)->GetStaticField(0x26528);
+			return (::PipelineCamera::CameraSequence::AlphaGeneratorPolicy_Spring___c**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring___c_TypeDefinitionIndex)->GetStaticField(0x270D8);
 		}
 
 		static ::System::Void _cctor()

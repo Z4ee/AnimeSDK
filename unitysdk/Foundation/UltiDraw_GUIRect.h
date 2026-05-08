@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define FOUNDATION_ULTIDRAW_GUIRECT_GETPOSITION_OFFSET UNITYSDK_OFFSET(0x199A4640)
-#define FOUNDATION_ULTIDRAW_GUIRECT_GETSIZE_OFFSET UNITYSDK_OFFSET(0x199A46A0)
-#define FOUNDATION_ULTIDRAW_GUIRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x199A4700)
+#define FOUNDATION_ULTIDRAW_GUIRECT_GETPOSITION_OFFSET UNITYSDK_OFFSET(0x1A026510)
+#define FOUNDATION_ULTIDRAW_GUIRECT_GETSIZE_OFFSET UNITYSDK_OFFSET(0x1A026550)
+#define FOUNDATION_ULTIDRAW_GUIRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A026590)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int UltiDraw_GUIRect_TypeDefinitionIndex = 7991;
+	inline static constexpr unsigned int UltiDraw_GUIRect_TypeDefinitionIndex = 7697;
 
 	class UltiDraw_GUIRect : public ::System::Object
 	{

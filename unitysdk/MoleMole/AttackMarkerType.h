@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AttackMarkerType_TypeDefinitionIndex = 57758;
+	inline static constexpr unsigned int AttackMarkerType_TypeDefinitionIndex = 57560;
 
 	enum class AttackMarkerType : ::System::Int32
 	{

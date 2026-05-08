@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_2_BE40C25CC1FE4CF3;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIStrategyGuideRoleCardRowWidgetControllerContext; }
+
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONBUTTONSELFCLICK_OFFSET UNITYSDK_OFFSET(0xEBA9F20)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0xEBA9DA0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0xEBA9E30)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0xEBA9380)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0xEBA94E0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0xEBA95D0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_SETCONTEXT_OFFSET UNITYSDK_OFFSET(0xEBA9EC0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xEBAA170)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0xEBAA1D0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0xEBAA260)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0xEBAA2F0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0xEBAA380)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIStrategyGuideRoleCardRowWidgetController_TypeDefinitionIndex = 68699;
+
+	class UIStrategyGuideRoleCardRowWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::Class_2_BE40C25CC1FE4CF3* _view; // 0x2B8
+		::MoleMole::UIStrategyGuideRoleCardRowWidgetControllerContext* _context; // 0x2C0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void SetContext(::MoleMole::UIStrategyGuideRoleCardRowWidgetControllerContext* ctx)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIStrategyGuideRoleCardRowWidgetControllerContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_SETCONTEXT_OFFSET))(this, ctx);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnButtonSelfClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER_ONBUTTONSELFCLICK_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

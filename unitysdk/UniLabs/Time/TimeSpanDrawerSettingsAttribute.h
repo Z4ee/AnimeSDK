@@ -3,20 +3,20 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/UniLabs/Time/TimeUnit.h"
 
-#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B6F5090)
-#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B6F50A0)
-#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1B6F50C0)
-#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5080)
+#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C499100)
+#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C499110)
+#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C499130)
+#define UNILABS_TIME_TIMESPANDRAWERSETTINGSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4990F0)
 
 namespace UniLabs::Time
 {
-	inline static constexpr unsigned int TimeSpanDrawerSettingsAttribute_TypeDefinitionIndex = 84093;
+	inline static constexpr unsigned int TimeSpanDrawerSettingsAttribute_TypeDefinitionIndex = 85821;
 
 	class TimeSpanDrawerSettingsAttribute : public ::System::Attribute
 	{
 	public:
-		::UniLabs::Time::TimeUnit HighestUnit; // 0x10
-		::UniLabs::Time::TimeUnit LowestUnit; // 0x14
+		::UniLabs::Time::TimeUnit LowestUnit; // 0x10
+		::UniLabs::Time::TimeUnit HighestUnit; // 0x14
 
 		::System::Void _ctor()
 		{

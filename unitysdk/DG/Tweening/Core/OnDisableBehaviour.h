@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int OnDisableBehaviour_TypeDefinitionIndex = 32406;
+	inline static constexpr unsigned int OnDisableBehaviour_TypeDefinitionIndex = 32935;
 
 	enum class OnDisableBehaviour : ::System::Int32
 	{

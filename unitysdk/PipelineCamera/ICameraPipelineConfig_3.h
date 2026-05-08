@@ -5,7 +5,7 @@ namespace PipelineCamera { class ICameraCommonContext; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraPipelineConfig_3_TypeDefinitionIndex = 35396;
+	inline static constexpr unsigned int ICameraPipelineConfig_3_TypeDefinitionIndex = 35940;
 
 	template <typename T1, typename T2, typename T3>
 	class ICameraPipelineConfig_3

@@ -5,11 +5,11 @@
 namespace Foundation { class ExceptionInfo; }
 namespace System { class String; }
 
-#define FOUNDATION_DOWNLOADDIFFPATCHER_DIFFFILEMOVERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x92139D0)
+#define FOUNDATION_DOWNLOADDIFFPATCHER_DIFFFILEMOVERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x111AEFC0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DownloadDiffPatcher_DiffFileMoveResult_TypeDefinitionIndex = 43880;
+	inline static constexpr unsigned int DownloadDiffPatcher_DiffFileMoveResult_TypeDefinitionIndex = 80174;
 
 	class DownloadDiffPatcher_DiffFileMoveResult : public ::System::Object
 	{

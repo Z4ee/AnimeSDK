@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteConnection_IndexedColumn_TypeDefinitionIndex = 36213;
+	inline static constexpr unsigned int SQLiteConnection_IndexedColumn_TypeDefinitionIndex = 36757;
 
 	struct alignas(8) SQLiteConnection_IndexedColumn
 	{

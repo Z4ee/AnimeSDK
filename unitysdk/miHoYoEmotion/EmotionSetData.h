@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_EMOTIONSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD5260)
+#define MIHOYOEMOTION_EMOTIONSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19791FD0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EmotionSetData_TypeDefinitionIndex = 37203;
+	inline static constexpr unsigned int EmotionSetData_TypeDefinitionIndex = 37747;
 
 	class EmotionSetData : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

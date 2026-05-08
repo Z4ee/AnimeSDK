@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BehaviorManager_1_FSlot_TypeDefinitionIndex = 8972;
+	inline static constexpr unsigned int BehaviorManager_1_FSlot_TypeDefinitionIndex = 8783;
 
 	template <typename TData>
 	struct BehaviorManager_1_FSlot

@@ -6,12 +6,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABILITYSPECIALMODIFIER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB897D10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABILITYSPECIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xB897F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABILITYSPECIALMODIFIER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E42F70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABILITYSPECIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E43170)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAbilitySpecialModifier_TypeDefinitionIndex = 45473;
+	inline static constexpr unsigned int LDAbilitySpecialModifier_TypeDefinitionIndex = 76998;
 
 	class LDAbilitySpecialModifier : public ::FlowCanvas::Nodes::CallableActionNode_5<::MoleMole::Battle::Entity*, ::System::String*, ::System::String*, ::MoleMole::Config::AbilitySpecialParamType, ::System::String*>
 	{

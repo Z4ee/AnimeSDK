@@ -9,25 +9,25 @@ namespace MessagePack::Formatters { class DynamicObjectTypeFallbackFormatter_Ser
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
 
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1954B820)
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1954A5A0)
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1954B950)
-#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1954A590)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A299250)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A298020)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A299380)
+#define MESSAGEPACK_FORMATTERS_DYNAMICOBJECTTYPEFALLBACKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A298010)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 26833;
+	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 26975;
 
 	class DynamicObjectTypeFallbackFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::Formatters::DynamicObjectTypeFallbackFormatter_SerializeMethod*>** StaticGet_SerializerDelegates()
-		{
-			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::Formatters::DynamicObjectTypeFallbackFormatter_SerializeMethod*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x1FEE0);
-		}
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x1FEE8);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x20A50);
+		}
+		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::Formatters::DynamicObjectTypeFallbackFormatter_SerializeMethod*>** StaticGet_SerializerDelegates()
+		{
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::Formatters::DynamicObjectTypeFallbackFormatter_SerializeMethod*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex)->GetStaticField(0x20A58);
 		}
 
 		::System::Void _ctor()

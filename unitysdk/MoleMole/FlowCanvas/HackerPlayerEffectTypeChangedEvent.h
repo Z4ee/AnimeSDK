@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0xB895730)
-#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB895790)
+#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x16E40BD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E40C30)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerPlayerEffectTypeChangedEvent_TypeDefinitionIndex = 70042;
+	inline static constexpr unsigned int HackerPlayerEffectTypeChangedEvent_TypeDefinitionIndex = 56993;
 
 	class HackerPlayerEffectTypeChangedEvent : public ::MoleMole::FlowCanvas::ChessboardEventNode_1<::MoleMole::HackerGamePlayerEffectTypeChangedData>
 	{

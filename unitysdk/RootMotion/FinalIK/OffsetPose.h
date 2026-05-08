@@ -6,13 +6,13 @@
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
 namespace RootMotion::FinalIK { class OffsetPose_EffectorLink; }
 
-#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1A822F10)
-#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_OFFSET UNITYSDK_OFFSET(0x1A822E10)
-#define ROOTMOTION_FINALIK_OFFSETPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A822FB0)
+#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1B688320)
+#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_OFFSET UNITYSDK_OFFSET(0x1B688220)
+#define ROOTMOTION_FINALIK_OFFSETPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6883C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int OffsetPose_TypeDefinitionIndex = 36174;
+	inline static constexpr unsigned int OffsetPose_TypeDefinitionIndex = 36718;
 
 	class OffsetPose : public ::UnityEngine::MonoBehaviour
 	{

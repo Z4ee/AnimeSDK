@@ -5,10 +5,10 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1AAFBA00)
-#define AKTRIGGEREXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAFBBB0)
+#define AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1B575430)
+#define AKTRIGGEREXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5755F0)
 
-inline static constexpr unsigned int AkTriggerExit_TypeDefinitionIndex = 31108;
+inline static constexpr unsigned int AkTriggerExit_TypeDefinitionIndex = 31637;
 
 class AkTriggerExit : public ::AkTriggerBase
 {

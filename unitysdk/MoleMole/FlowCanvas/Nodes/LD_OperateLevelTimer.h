@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB18E8F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xB18E990)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BB8E40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB8EC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_OperateLevelTimer_TypeDefinitionIndex = 80143;
+	inline static constexpr unsigned int LD_OperateLevelTimer_TypeDefinitionIndex = 46603;
 
 	class LD_OperateLevelTimer : public ::FlowCanvas::Nodes::CallableActionNode_3<::System::String*, ::Enum_3_E6DDDFA618D1C311, ::System::Single>
 	{

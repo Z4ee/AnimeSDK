@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EActionType_TypeDefinitionIndex = 11964;
+	inline static constexpr unsigned int EActionType_TypeDefinitionIndex = 11704;
 
 	enum class EActionType : ::System::Int16
 	{

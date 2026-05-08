@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraModuleIdentifier_2_TypeDefinitionIndex = 35409;
+	inline static constexpr unsigned int CameraModuleIdentifier_2_TypeDefinitionIndex = 35953;
 
 	template <typename TCameraController, typename TPlayerController>
 	struct CameraModuleIdentifier_2

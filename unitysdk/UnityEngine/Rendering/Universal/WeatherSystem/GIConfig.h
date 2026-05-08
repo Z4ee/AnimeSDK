@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18667170)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_GETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x18666FF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186673E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x19F39580)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_GETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x19F39400)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F397F0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 29763;
+	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 30292;
 
 	class GIConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::GIConfig*>
 	{

@@ -5,18 +5,18 @@
 namespace MoleMole { class UIActivityDemoTrialBGEffectWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYDEMOTRIALBGEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC811770)
-#define MOLEMOLE_UIACTIVITYDEMOTRIALBGEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS15_0__EXTENSIONDATAANIM_B__0_OFFSET UNITYSDK_OFFSET(0xC811780)
+#define MOLEMOLE_UIACTIVITYDEMOTRIALBGEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3FD70)
+#define MOLEMOLE_UIACTIVITYDEMOTRIALBGEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS15_0__EXTENSIONDATAANIM_B__0_OFFSET UNITYSDK_OFFSET(0x17E3FD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDemoTrialBGEffectWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 51270;
+	inline static constexpr unsigned int UIActivityDemoTrialBGEffectWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 70215;
 
 	class UIActivityDemoTrialBGEffectWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::String* animName; // 0x10
-		::MoleMole::UIActivityDemoTrialBGEffectWidgetController* __4__this; // 0x18
+		::MoleMole::UIActivityDemoTrialBGEffectWidgetController* __4__this; // 0x10
+		::System::String* animName; // 0x18
 
 		::System::Void _ctor()
 		{

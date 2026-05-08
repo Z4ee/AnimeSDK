@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IEndDragHandler_TypeDefinitionIndex = 8509;
+	inline static constexpr unsigned int IEndDragHandler_TypeDefinitionIndex = 8520;
 
 	class IEndDragHandler
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERSUBTRACT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A828D50)
-#define FLOWCANVAS_NODES_INTEGERSUBTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A828D60)
+#define FLOWCANVAS_NODES_INTEGERSUBTRACT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B7E1730)
+#define FLOWCANVAS_NODES_INTEGERSUBTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E1740)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerSubtract_TypeDefinitionIndex = 26736;
+	inline static constexpr unsigned int IntegerSubtract_TypeDefinitionIndex = 28031;
 
 	class IntegerSubtract : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Int32, ::System::Int32>
 	{

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCDitherStateFragment_TypeDefinitionIndex = 47449;
+	inline static constexpr unsigned int FNPCDitherStateFragment_TypeDefinitionIndex = 38241;
 
 	struct alignas(4) FNPCDitherStateFragment
 	{

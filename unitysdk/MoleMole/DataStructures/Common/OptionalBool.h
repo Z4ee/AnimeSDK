@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DataStructures/Common/Optional_1.h"
 
-#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5252E0)
+#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C265540)
 
 namespace MoleMole::DataStructures::Common
 {
-	inline static constexpr unsigned int OptionalBool_TypeDefinitionIndex = 25182;
+	inline static constexpr unsigned int OptionalBool_TypeDefinitionIndex = 25671;
 
 	class OptionalBool : public ::MoleMole::DataStructures::Common::Optional_1<::System::Boolean>
 	{

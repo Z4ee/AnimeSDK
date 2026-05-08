@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GEOMETRYUTILS_SEGMENTSEGMENTCPA_OFFSET UNITYSDK_OFFSET(0x7B0B3B0)
-#define GEOMETRYUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x7B0B6D0)
+#define GEOMETRYUTILS_SEGMENTSEGMENTCPA_OFFSET UNITYSDK_OFFSET(0x1359FC50)
+#define GEOMETRYUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1359FF50)
 
-inline static constexpr unsigned int GeometryUtils_TypeDefinitionIndex = 77964;
+inline static constexpr unsigned int GeometryUtils_TypeDefinitionIndex = 50945;
 
 class GeometryUtils : public ::System::Object
 {

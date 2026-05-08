@@ -4,33 +4,33 @@
 
 namespace UnityEngine::UI { class LayoutElement; }
 
-#define MOLEMOLE_MONOUILAYOUTELEMENT_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0xB862100)
-#define MOLEMOLE_MONOUILAYOUTELEMENT_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0xB862120)
-#define MOLEMOLE_MONOUILAYOUTELEMENT_REINITFROMLAYOUTELEMENT_OFFSET UNITYSDK_OFFSET(0xB861E70)
-#define MOLEMOLE_MONOUILAYOUTELEMENT_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0xB862110)
-#define MOLEMOLE_MONOUILAYOUTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB861E60)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1783B490)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1783B4B0)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_REINITFROMLAYOUTELEMENT_OFFSET UNITYSDK_OFFSET(0x1783B180)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1783B4A0)
+#define MOLEMOLE_MONOUILAYOUTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1783B170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUILayoutElement_TypeDefinitionIndex = 47686;
+	inline static constexpr unsigned int MonoUILayoutElement_TypeDefinitionIndex = 79904;
 
 	class MonoUILayoutElement : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::LayoutElement* layoutElement; // 0x10
-		::System::Single flexibleHeight; // 0x18
-		::System::Single preferredWidth; // 0x1C
-		::System::Single preferredHeight; // 0x20
-		::System::Boolean isFlexibleHeight; // 0x24
-		::System::Boolean isFlexibleWidth; // 0x25
-		::System::Boolean isPreferredWidth; // 0x26
-		::System::Boolean isPreFerredHeight; // 0x27
-		::System::Single minHeight; // 0x28
-		::System::Int32 layoutPriority; // 0x2C
-		::System::Single flexibleWidth; // 0x30
-		::System::Boolean ignoreLayout; // 0x34
-		::System::Boolean _valueChanged_k__BackingField; // 0x35
-		::System::Boolean isMinWidth; // 0x36
+		::System::Boolean _valueChanged_k__BackingField; // 0x18
+		::System::Boolean isMinWidth; // 0x19
+		::System::Boolean isFlexibleHeight; // 0x1A
+		::System::Boolean isPreferredWidth; // 0x1B
+		::System::Single preferredHeight; // 0x1C
+		::System::Single minHeight; // 0x20
+		::System::Single flexibleWidth; // 0x24
+		::System::Single preferredWidth; // 0x28
+		::System::Single flexibleHeight; // 0x2C
+		::System::Int32 layoutPriority; // 0x30
+		::System::Boolean isPreFerredHeight; // 0x34
+		::System::Boolean ignoreLayout; // 0x35
+		::System::Boolean isFlexibleWidth; // 0x36
 		::System::Boolean isMinHeight; // 0x37
 		::System::Single minWidth; // 0x38
 

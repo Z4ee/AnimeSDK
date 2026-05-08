@@ -10,23 +10,23 @@ namespace MoleMole::Timeline { class TextureSheet_TV_WallBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB93F550)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB93F540)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_METHOD_4_0F2138E056F9294A_OFFSET UNITYSDK_OFFSET(0xB93F790)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_METHOD_4_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xB93F940)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xB93F930)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB93F8D0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x158688F0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x158688E0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_METHOD_4_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x15868CC0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_METHOD_4_8A8F4D8840527053_OFFSET UNITYSDK_OFFSET(0x15868B00)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x15868CB0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15868C20)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextureSheet_TV_WallClip_TypeDefinitionIndex = 73787;
+	inline static constexpr unsigned int TextureSheet_TV_WallClip_TypeDefinitionIndex = 40248;
 
 	class TextureSheet_TV_WallClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::Boolean* StaticGet_isLoadConfig()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextureSheet_TV_WallClip_TypeDefinitionIndex)->GetStaticField(0xF560);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextureSheet_TV_WallClip_TypeDefinitionIndex)->GetStaticField(0x11BA0);
 		}
 		::Il2CppArray<::MoleMole::SceneObjectStateWidget*>* walls; // 0x18
 		::System::String* configKey; // 0x20
@@ -53,9 +53,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void Method_4_0F2138E056F9294A()
+		static ::System::Void Method_4_8A8F4D8840527053()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_METHOD_4_0F2138E056F9294A_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLCLIP_METHOD_4_8A8F4D8840527053_OFFSET))();
 		}
 
 		static ::System::Void Method_4_5790A55946AA509D()

@@ -4,12 +4,12 @@
 
 namespace BinaryTracingFramework::Serialize { class BaseArchive; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_GETTYPEGUID_OFFSET UNITYSDK_OFFSET(0x98EE20)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x98EDD0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_GETTYPEGUID_OFFSET UNITYSDK_OFFSET(0x9BB4F0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x9BB4A0)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogRefProperty_TypeDefinitionIndex = 31873;
+	inline static constexpr unsigned int LogRefProperty_TypeDefinitionIndex = 32402;
 
 	struct alignas(4) LogRefProperty
 	{

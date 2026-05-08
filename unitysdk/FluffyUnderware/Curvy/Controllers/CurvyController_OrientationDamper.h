@@ -6,21 +6,21 @@
 
 namespace FluffyUnderware::Curvy::Controllers { class CurvyController; }
 
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER_DAMPENVECTOR_OFFSET UNITYSDK_OFFSET(0x1A53B740)
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER_DAMP_OFFSET UNITYSDK_OFFSET(0x1A53B270)
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER_RESET_OFFSET UNITYSDK_OFFSET(0x1A53B810)
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A53B260)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER_DAMPENVECTOR_OFFSET UNITYSDK_OFFSET(0x1B028820)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER_DAMP_OFFSET UNITYSDK_OFFSET(0x1B028350)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER_RESET_OFFSET UNITYSDK_OFFSET(0x1B0288F0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CURVYCONTROLLER_ORIENTATIONDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B028340)
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int CurvyController_OrientationDamper_TypeDefinitionIndex = 36728;
+	inline static constexpr unsigned int CurvyController_OrientationDamper_TypeDefinitionIndex = 37272;
 
 	class CurvyController_OrientationDamper : public ::System::Object
 	{
 	public:
 		::FluffyUnderware::Curvy::Controllers::CurvyController* controller; // 0x10
-		::UnityEngine::Vector3 UpDampingVelocity; // 0x18
-		::UnityEngine::Vector3 DirectionDampingVelocity; // 0x24
+		::UnityEngine::Vector3 DirectionDampingVelocity; // 0x18
+		::UnityEngine::Vector3 UpDampingVelocity; // 0x24
 
 		::System::Void _ctor(::FluffyUnderware::Curvy::Controllers::CurvyController* controller)
 		{

@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18B3CB50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3CAA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19B8EF40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B8EE00)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int GPUGrassUpdatePass_TypeDefinitionIndex = 30018;
+	inline static constexpr unsigned int GPUGrassUpdatePass_TypeDefinitionIndex = 30547;
 
 	class GPUGrassUpdatePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

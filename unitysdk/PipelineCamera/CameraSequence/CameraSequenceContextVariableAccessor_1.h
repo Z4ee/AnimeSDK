@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceContextVariableAccessor_1_TypeDefinitionIndex = 35792;
+	inline static constexpr unsigned int CameraSequenceContextVariableAccessor_1_TypeDefinitionIndex = 36336;
 
 	template <typename T>
 	class CameraSequenceContextVariableAccessor_1 : public ::System::Object

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_STATEMACHINE_STATEMETADATA_GET_TRANSITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x9ADBA0)
-#define FOUNDATION_STATEMACHINE_STATEMETADATA_GET_TRANSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x9ADB90)
+#define FOUNDATION_STATEMACHINE_STATEMETADATA_GET_TRANSITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x9DA260)
+#define FOUNDATION_STATEMACHINE_STATEMETADATA_GET_TRANSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x9DA250)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int StateMetadata_TypeDefinitionIndex = 9117;
+	inline static constexpr unsigned int StateMetadata_TypeDefinitionIndex = 8781;
 
 	struct alignas(2) StateMetadata
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/NodeCanvas/Framework/GraphCustomData_Meta.h"
 #include "unitysdk/System/Object.h"
 
-#define NODECANVAS_FRAMEWORK_GRAPHCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A830570)
+#define NODECANVAS_FRAMEWORK_GRAPHCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E9350)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphCustomData_TypeDefinitionIndex = 27403;
+	inline static constexpr unsigned int GraphCustomData_TypeDefinitionIndex = 28243;
 
 	class GraphCustomData : public ::System::Object
 	{

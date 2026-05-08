@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UITRAININGROOMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9716470)
+#define MOLEMOLE_UITRAININGROOMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1132C190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrainingRoomContext_TypeDefinitionIndex = 60631;
+	inline static constexpr unsigned int UITrainingRoomContext_TypeDefinitionIndex = 72439;
 
 	class UITrainingRoomContext : public ::MoleMole::UIControllerContextBase
 	{

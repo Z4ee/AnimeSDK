@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC73870)
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC738B0)
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__GETALLRENDERERS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1AC738C0)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA83B60)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA83BA0)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__GETALLRENDERERS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BA83BB0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialBaseBehavior___c_TypeDefinitionIndex = 30094;
+	inline static constexpr unsigned int MaterialBaseBehavior___c_TypeDefinitionIndex = 30623;
 
 	class MaterialBaseBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__25_0()
-		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x24220);
-		}
 		static ::MoleMole::Timeline::MaterialBaseBehavior___c** StaticGet___9()
 		{
-			return (::MoleMole::Timeline::MaterialBaseBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x24228);
+			return (::MoleMole::Timeline::MaterialBaseBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x24DA0);
+		}
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__25_0()
+		{
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x24DA8);
 		}
 
 		static ::System::Void _cctor()

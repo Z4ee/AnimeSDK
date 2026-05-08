@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController_NewbieExtraFlag_TypeDefinitionIndex = 79910;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController_NewbieExtraFlag_TypeDefinitionIndex = 53743;
 
 	enum class UIActivityHotpotInGamePageController_NewbieExtraFlag : ::System::Int32
 	{

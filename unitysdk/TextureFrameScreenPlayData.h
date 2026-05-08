@@ -5,9 +5,9 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define TEXTUREFRAMESCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAEA4F30)
+#define TEXTUREFRAMESCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4EE60)
 
-inline static constexpr unsigned int TextureFrameScreenPlayData_TypeDefinitionIndex = 46393;
+inline static constexpr unsigned int TextureFrameScreenPlayData_TypeDefinitionIndex = 65381;
 
 class TextureFrameScreenPlayData : public ::ScreenPlayData
 {

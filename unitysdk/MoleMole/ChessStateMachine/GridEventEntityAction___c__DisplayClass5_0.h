@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_5A6771CD0CA2718D;
-class Class_4_AC6D98911872E0CE;
+class Class_4_DA19DD65175B97CF;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD9070)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x9CD9080)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x122DF640)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x122DF650)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridEventEntityAction___c__DisplayClass5_0_TypeDefinitionIndex = 78311;
+	inline static constexpr unsigned int GridEventEntityAction___c__DisplayClass5_0_TypeDefinitionIndex = 40558;
 
 	class GridEventEntityAction___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_4_AC6D98911872E0CE* chessPieceProxy; // 0x10
+		::Class_4_DA19DD65175B97CF* chessPieceProxy; // 0x10
 
 		::System::Void _ctor()
 		{

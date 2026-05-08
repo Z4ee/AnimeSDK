@@ -8,7 +8,7 @@ namespace ZenFulcrum::EmbeddedBrowser { class IRejectable; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 30644;
+	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 31173;
 
 	struct alignas(8) RejectHandler
 	{

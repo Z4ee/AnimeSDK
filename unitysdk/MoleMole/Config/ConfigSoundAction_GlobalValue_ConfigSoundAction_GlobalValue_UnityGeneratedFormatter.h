@@ -11,30 +11,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x81F14E0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x81F14F0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x81F1910)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x81F1BD0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x81F1B90)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB0AF20)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB0AF30)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB0B330)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB0B5D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_CONFIGSOUNDACTION_GLOBALVALUE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0B590)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex = 61354;
+	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex = 57580;
 
 	class ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundAction_GlobalValue*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigSoundAction_GlobalValue_BranchOperation*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigSoundAction_GlobalValue_BranchOperation*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44F50);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44F58);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::ConfigSoundAction_GlobalValue_BranchOperation*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44650);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44F60);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44658);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_ConfigSoundAction_GlobalValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44660);
 		}
 
 		::System::Void _ctor()

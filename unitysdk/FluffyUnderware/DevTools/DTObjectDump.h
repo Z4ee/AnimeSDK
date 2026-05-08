@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP_APPENDHEADER_OFFSET UNITYSDK_OFFSET(0x1A803550)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP_APPENDMEMBER_OFFSET UNITYSDK_OFFSET(0x1A803600)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A804520)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A802FC0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP_APPENDHEADER_OFFSET UNITYSDK_OFFSET(0x1B2CB7D0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP_APPENDMEMBER_OFFSET UNITYSDK_OFFSET(0x1B2CB880)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B2CC7A0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTOBJECTDUMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2CB240)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTObjectDump_TypeDefinitionIndex = 25326;
+	inline static constexpr unsigned int DTObjectDump_TypeDefinitionIndex = 25840;
 
 	class DTObjectDump : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 INDENTSPACES = 0x5; // 0x0
 		::System::String* mIndent; // 0x10
-		::System::Text::StringBuilder* mSB; // 0x18
-		::System::Object* mObject; // 0x20
+		::System::Object* mObject; // 0x18
+		::System::Text::StringBuilder* mSB; // 0x20
 
 		::System::Void _ctor(::System::Object* o, ::System::Int32 indent)
 		{

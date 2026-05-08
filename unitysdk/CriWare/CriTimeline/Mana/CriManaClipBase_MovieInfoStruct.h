@@ -5,7 +5,7 @@
 
 namespace CriWare::CriTimeline::Mana
 {
-	inline static constexpr unsigned int CriManaClipBase_MovieInfoStruct_TypeDefinitionIndex = 32298;
+	inline static constexpr unsigned int CriManaClipBase_MovieInfoStruct_TypeDefinitionIndex = 32827;
 
 	struct alignas(4) CriManaClipBase_MovieInfoStruct
 	{

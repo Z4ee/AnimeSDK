@@ -8,11 +8,11 @@ namespace NPCCrowd::Animation { class ICPUAnimationLib; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x784C1D0)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11B1FC30)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationControllerData_TypeDefinitionIndex = 63447;
+	inline static constexpr unsigned int AnimationControllerData_TypeDefinitionIndex = 81013;
 
 	class AnimationControllerData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

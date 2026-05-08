@@ -7,12 +7,12 @@ namespace MoleMole::Config { class UISpecialNumGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM_GETVALUE_OFFSET UNITYSDK_OFFSET(0x10AA8AA0)
-#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA8A40)
+#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM_GETVALUE_OFFSET UNITYSDK_OFFSET(0x183D2640)
+#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x183D25E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ListCellUISpecialNum_TypeDefinitionIndex = 50110;
+	inline static constexpr unsigned int ListCellUISpecialNum_TypeDefinitionIndex = 57295;
 
 	class ListCellUISpecialNum : public ::MoleMole::Config::TValueUISpecialNum_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>
 	{

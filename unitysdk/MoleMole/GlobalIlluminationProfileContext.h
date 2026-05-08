@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ENapGIQuality.h"
 
-#define MOLEMOLE_GLOBALILLUMINATIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AF700)
+#define MOLEMOLE_GLOBALILLUMINATIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E59F00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GlobalIlluminationProfileContext_TypeDefinitionIndex = 49978;
+	inline static constexpr unsigned int GlobalIlluminationProfileContext_TypeDefinitionIndex = 43676;
 
 	class GlobalIlluminationProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

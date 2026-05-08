@@ -4,7 +4,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConcaveHull2_InnerPoint_TypeDefinitionIndex = 32567;
+	inline static constexpr unsigned int ConcaveHull2_InnerPoint_TypeDefinitionIndex = 33102;
 
 	struct alignas(4) ConcaveHull2_InnerPoint
 	{

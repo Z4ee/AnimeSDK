@@ -5,7 +5,7 @@
 
 namespace MoleMole { class BattleMapSubsystem; }
 
-inline static constexpr unsigned int Struct_2_46F3CFD626EFE3F5_TypeDefinitionIndex = 69531;
+inline static constexpr unsigned int Struct_2_46F3CFD626EFE3F5_TypeDefinitionIndex = 71849;
 
 struct alignas(8) Struct_2_46F3CFD626EFE3F5
 {

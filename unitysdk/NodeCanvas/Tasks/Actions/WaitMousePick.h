@@ -10,24 +10,24 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_WAITMOUSEPICK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A832EB0)
-#define NODECANVAS_TASKS_ACTIONS_WAITMOUSEPICK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A832F40)
-#define NODECANVAS_TASKS_ACTIONS_WAITMOUSEPICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A833220)
+#define NODECANVAS_TASKS_ACTIONS_WAITMOUSEPICK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B7EBFB0)
+#define NODECANVAS_TASKS_ACTIONS_WAITMOUSEPICK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B7EC030)
+#define NODECANVAS_TASKS_ACTIONS_WAITMOUSEPICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC350)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int WaitMousePick_TypeDefinitionIndex = 27621;
+	inline static constexpr unsigned int WaitMousePick_TypeDefinitionIndex = 27225;
 
 	class WaitMousePick : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePositionAs; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveObjectAs; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveDistanceAs; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveObjectAs; // 0x70
-		::UnityEngine::RaycastHit hit; // 0x78
-		::System::Int32 buttonID; // 0xAC
-		::NodeCanvas::Tasks::Actions::WaitMousePick_ButtonKeys buttonKey; // 0xB0
-		::UnityEngine::LayerMask mask; // 0xB4
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePositionAs; // 0x70
+		::NodeCanvas::Tasks::Actions::WaitMousePick_ButtonKeys buttonKey; // 0x78
+		::UnityEngine::LayerMask mask; // 0x7C
+		::UnityEngine::RaycastHit hit; // 0x80
+		::System::Int32 buttonID; // 0xB4
 
 		::System::Void _ctor()
 		{

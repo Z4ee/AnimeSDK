@@ -7,7 +7,7 @@ namespace UnityEngine::InputSystem::Utilities { template <typename T> class Save
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int SavedStructState_1_TypeDefinitionIndex = 28908;
+	inline static constexpr unsigned int SavedStructState_1_TypeDefinitionIndex = 29426;
 
 	template <typename T>
 	class SavedStructState_1 : public ::System::Object

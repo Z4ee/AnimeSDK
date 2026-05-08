@@ -4,7 +4,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeSchema_TypeDefinitionIndex = 27880;
+	inline static constexpr unsigned int StateTreeSchema_TypeDefinitionIndex = 28398;
 
 	struct alignas(1) StateTreeSchema
 	{

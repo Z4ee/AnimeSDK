@@ -3,11 +3,11 @@
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int EName_TypeDefinitionIndex = 8992;
+	inline static constexpr unsigned int EName_TypeDefinitionIndex = 8823;
 
 	enum class EName : ::System::Int32
 	{
-		MaxHardcodeNameIndex = 1,
 		None = 0,
+		MaxHardcodeNameIndex = 1,
 	};
 }

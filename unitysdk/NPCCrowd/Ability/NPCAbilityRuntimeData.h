@@ -34,60 +34,60 @@ namespace NPCCrowd::Ability { class NPCAbilityTransformAdaptor; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_CREATEBUFFER_OFFSET UNITYSDK_OFFSET(0x6396260)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_GETOBSTACLEGRID_OFFSET UNITYSDK_OFFSET(0x6396060)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_GET_ENTITYMAP_OFFSET UNITYSDK_OFFSET(0x6396150)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_GET_OBSTACLEGRID_OFFSET UNITYSDK_OFFSET(0x63960D0)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_INITENTITY_OFFSET UNITYSDK_OFFSET(0x6396B90)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_INIT_OFFSET UNITYSDK_OFFSET(0x63961D0)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_RELEASE_OFFSET UNITYSDK_OFFSET(0x63982F0)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_SWITCHANDREMOVELAST_OFFSET UNITYSDK_OFFSET(0x6397500)
-#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6398A60)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_CREATEBUFFER_OFFSET UNITYSDK_OFFSET(0xB533D00)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_GETOBSTACLEGRID_OFFSET UNITYSDK_OFFSET(0xB533B20)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_GET_ENTITYMAP_OFFSET UNITYSDK_OFFSET(0xB533C10)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_GET_OBSTACLEGRID_OFFSET UNITYSDK_OFFSET(0xB533B90)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_INITENTITY_OFFSET UNITYSDK_OFFSET(0xB534630)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xB533C90)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_RELEASE_OFFSET UNITYSDK_OFFSET(0xB535CF0)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA_SWITCHANDREMOVELAST_OFFSET UNITYSDK_OFFSET(0xB534F20)
+#define NPCCROWD_ABILITY_NPCABILITYRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB536420)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityRuntimeData_TypeDefinitionIndex = 49596;
+	inline static constexpr unsigned int NPCAbilityRuntimeData_TypeDefinitionIndex = 50244;
 
 	class NPCAbilityRuntimeData : public ::System::Object
 	{
 	public:
 		static ::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc>* StaticGet_Dummy()
 		{
-			return (::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc>*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityRuntimeData_TypeDefinitionIndex)->GetStaticField(0xC8F0);
+			return (::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc>*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityRuntimeData_TypeDefinitionIndex)->GetStaticField(0xC990);
 		}
 		static ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>* StaticGet_DummyData()
 		{
-			return (::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityRuntimeData_TypeDefinitionIndex)->GetStaticField(0xC940);
+			return (::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityRuntimeData_TypeDefinitionIndex)->GetStaticField(0xC9E0);
 		}
 		::NPCCrowd::Ability::NPCAbilityTransformAdaptor* transformAdaptor; // 0x10
-		::System::Collections::Generic::List_1<::NPCCrowd::Ability::FNPCNavmeshData>* navmeshDatas; // 0x18
-		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbility*>* handles; // 0x20
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbility*>* handles; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::FNPCNavmeshData>* navmeshDatas; // 0x20
 		::NPCCrowd::Ability::NPCAbilityParameters* parameters; // 0x28
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAttractorControlFragment> attractorControlData; // 0x30
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> transform; // 0x30
 		::Unity::Collections::NativeArray_1<::Foundation::Container::NativeHashSetElementId> EntityMapIds; // 0x40
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragment> pathFollow; // 0x50
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshFragment> navmesh; // 0x60
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment> movement; // 0x70
-		::Unity::Collections::NativeArray_1<::StateTreeCore::StateTreeInstanceData> stateTreeInstances; // 0x80
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityStandingSteeringFragment> standingSteering; // 0x90
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> moveTarget; // 0xA0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> lastFrameTransform; // 0xB0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment> navmeshQueryData; // 0xC0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCBaseDataFragment> baseData; // 0xD0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2> pathFollowV2; // 0xE0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityGhostLocationFragment> ghost; // 0xF0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCDitherStateFragment> DitherState; // 0x100
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCMontageDataFragment> montageData; // 0x110
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavigationObstacleGridCellLocationFragment> ObstacleLocation; // 0x120
-		::System::Int32 Count; // 0x130
-		::System::Int32 capcity; // 0x134
-		::Unity::Collections::NativeArray_1<::System::Boolean> bIsUsing; // 0x138
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCCPUAnimatorFragment> animatorBufferData; // 0x148
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAIBlackboardFragment> blackBoard; // 0x158
-		::Unity::Collections::NativeArray_1<::System::UInt32> EntityIds; // 0x168
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> transform; // 0x178
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilitySteeringFragment> steering; // 0x188
-		::Unity::Collections::NativeArray_1<::System::Int32> stateTreeIndices; // 0x198
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavigationObstacleGridCellLocationFragment> ObstacleLocation; // 0x50
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityGhostLocationFragment> ghost; // 0x60
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCDitherStateFragment> DitherState; // 0x70
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCCPUAnimatorFragment> animatorBufferData; // 0x80
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCMontageDataFragment> montageData; // 0x90
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> lastFrameTransform; // 0xA0
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCBaseDataFragment> baseData; // 0xB0
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragment> pathFollow; // 0xC0
+		::Unity::Collections::NativeArray_1<::StateTreeCore::StateTreeInstanceData> stateTreeInstances; // 0xD0
+		::Unity::Collections::NativeArray_1<::System::Boolean> bIsUsing; // 0xE0
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshFragment> navmesh; // 0xF0
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> moveTarget; // 0x100
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilitySteeringFragment> steering; // 0x110
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAIBlackboardFragment> blackBoard; // 0x120
+		::Unity::Collections::NativeArray_1<::System::Int32> stateTreeIndices; // 0x130
+		::System::Int32 capcity; // 0x140
+		::System::Int32 Count; // 0x144
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAttractorControlFragment> attractorControlData; // 0x148
+		::Unity::Collections::NativeArray_1<::System::UInt32> EntityIds; // 0x158
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment> movement; // 0x168
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2> pathFollowV2; // 0x178
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment> navmeshQueryData; // 0x188
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityStandingSteeringFragment> standingSteering; // 0x198
 
 		::System::Void _ctor()
 		{

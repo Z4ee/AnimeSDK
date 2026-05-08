@@ -3,21 +3,21 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoSkillChildWindowController_SubViewType_TypeDefinitionIndex = 48916;
+	inline static constexpr unsigned int UIRoleInfoSkillChildWindowController_SubViewType_TypeDefinitionIndex = 79293;
 
 	enum class UIRoleInfoSkillChildWindowController_SubViewType : ::System::Int32
 	{
-		EnumCount = 10,
-		Attribute = 6,
+		LevelUpButton = 8,
+		TabBtns = 3,
+		AwakeBtn = 0,
+		Backgrounds = 9,
+		SelectedMode = 11,
+		RecommendBtn = 2,
 		TutorialBtn = 1,
 		DetailTitle = 4,
-		Backgrounds = 9,
-		LevelUpButton = 8,
-		ItemsList = 7,
-		SelectedMode = 11,
-		TabBtns = 3,
 		Detail = 5,
-		RecommendBtn = 2,
-		AwakeBtn = 0,
+		ItemsList = 7,
+		EnumCount = 10,
+		Attribute = 6,
 	};
 }

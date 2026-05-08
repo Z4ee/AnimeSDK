@@ -3,7 +3,7 @@
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpHeaderKind_TypeDefinitionIndex = 24227;
+	inline static constexpr unsigned int HttpHeaderKind_TypeDefinitionIndex = 24740;
 
 	enum class HttpHeaderKind : ::System::Int32
 	{

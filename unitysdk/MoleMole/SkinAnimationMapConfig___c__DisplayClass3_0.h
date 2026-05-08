@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SKINANIMATIONMAPCONFIG___C__DISPLAYCLASS3_0__ADDCOLLECT_B__0_OFFSET UNITYSDK_OFFSET(0x6ED6310)
-#define MOLEMOLE_SKINANIMATIONMAPCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6ED6300)
+#define MOLEMOLE_SKINANIMATIONMAPCONFIG___C__DISPLAYCLASS3_0__ADDCOLLECT_B__0_OFFSET UNITYSDK_OFFSET(0x11DF9110)
+#define MOLEMOLE_SKINANIMATIONMAPCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11DF9100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkinAnimationMapConfig___c__DisplayClass3_0_TypeDefinitionIndex = 69622;
+	inline static constexpr unsigned int SkinAnimationMapConfig___c__DisplayClass3_0_TypeDefinitionIndex = 69600;
 
 	class SkinAnimationMapConfig___c__DisplayClass3_0 : public ::System::Object
 	{

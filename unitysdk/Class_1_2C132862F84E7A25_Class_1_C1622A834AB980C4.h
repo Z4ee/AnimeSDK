@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 template <typename T1, typename T2> class Class_1_2C132862F84E7A25;
 template <typename T1, typename T2> class Class_1_2C132862F84E7A25_Class_1_C1622A834AB980C4;
 
-inline static constexpr unsigned int Class_1_2C132862F84E7A25_Class_1_C1622A834AB980C4_TypeDefinitionIndex = 71418;
+inline static constexpr unsigned int Class_1_2C132862F84E7A25_Class_1_C1622A834AB980C4_TypeDefinitionIndex = 49330;
 
 template <typename TItemType, typename TSort>
 class Class_1_2C132862F84E7A25_Class_1_C1622A834AB980C4 : public ::System::Object

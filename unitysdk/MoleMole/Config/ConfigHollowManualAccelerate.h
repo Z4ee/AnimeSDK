@@ -4,12 +4,12 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWMANUALACCELERATE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xB099C50)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWMANUALACCELERATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB099D30)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWMANUALACCELERATE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1102BC50)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWMANUALACCELERATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1102BD10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowManualAccelerate_TypeDefinitionIndex = 50957;
+	inline static constexpr unsigned int ConfigHollowManualAccelerate_TypeDefinitionIndex = 43918;
 
 	class ConfigHollowManualAccelerate : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

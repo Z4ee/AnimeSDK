@@ -8,12 +8,12 @@ namespace Code::Logic::Data::ScriptObject::Level { class Pattern; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x65D8690)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x65D8700)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x14DFBBF0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_SUMMEREVENTMONSTERSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14DFBC40)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int SummerEventMonsterSpawnConfig_TypeDefinitionIndex = 41633;
+	inline static constexpr unsigned int SummerEventMonsterSpawnConfig_TypeDefinitionIndex = 80765;
 
 	class SummerEventMonsterSpawnConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

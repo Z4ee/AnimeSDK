@@ -4,11 +4,11 @@
 
 namespace Spine::Unity { class AnimationReferenceAsset; }
 
-#define MOLEMOLE_ACTIVITYSPINEANIMATIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x9F95060)
+#define MOLEMOLE_ACTIVITYSPINEANIMATIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xFEFA9A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivitySpineAnimationReference_TypeDefinitionIndex = 63070;
+	inline static constexpr unsigned int ActivitySpineAnimationReference_TypeDefinitionIndex = 77724;
 
 	class ActivitySpineAnimationReference : public ::System::Object
 	{

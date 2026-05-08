@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class OverseaPayManager___c__DisplayClass60_0; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_1__CTOR_OFFSET UNITYSDK_OFFSET(0x184B0C70)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_1__REQUESTADYENCREATEORDER_G__FAILEDCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x184B0CB0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19492B60)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_1__REQUESTADYENCREATEORDER_G__FAILEDCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x19492BD0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass60_1_TypeDefinitionIndex = 19571;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass60_1_TypeDefinitionIndex = 19928;
 
 	class OverseaPayManager___c__DisplayClass60_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::NetworkResponseModelEx* response; // 0x10
-		::MiHoYo::SDK::Win::OverseaPayManager___c__DisplayClass60_0* CS___8__locals1; // 0x18
+		::MiHoYo::SDK::Win::OverseaPayManager___c__DisplayClass60_0* CS___8__locals1; // 0x10
+		::MiHoYo::SDK::NetworkResponseModelEx* response; // 0x18
 
 		::System::Void _ctor()
 		{

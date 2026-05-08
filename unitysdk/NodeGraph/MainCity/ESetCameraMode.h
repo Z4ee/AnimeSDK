@@ -3,15 +3,15 @@
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int ESetCameraMode_TypeDefinitionIndex = 64559;
+	inline static constexpr unsigned int ESetCameraMode_TypeDefinitionIndex = 80295;
 
 	enum class ESetCameraMode : ::System::Int32
 	{
-		None = 0,
-		FixPos = 100,
 		FocusCamera = 500,
-		FocusAround = 300,
+		None = 0,
 		SetMainCity = 400,
 		TwoEntityMiddle = 200,
+		FixPos = 100,
+		FocusAround = 300,
 	};
 }

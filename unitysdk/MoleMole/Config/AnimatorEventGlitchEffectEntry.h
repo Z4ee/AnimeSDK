@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTGLITCHEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x10A80370)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTGLITCHEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x10A80410)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTGLITCHEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x141DF5D0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTGLITCHEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x141DF650)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventGlitchEffectEntry_TypeDefinitionIndex = 56315;
+	inline static constexpr unsigned int AnimatorEventGlitchEffectEntry_TypeDefinitionIndex = 76711;
 
 	class AnimatorEventGlitchEffectEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

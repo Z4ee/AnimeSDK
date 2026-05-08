@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_WALLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEA41F60)
+#define MOLEMOLE_WALLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13B4B9F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int WallConfig_TypeDefinitionIndex = 46858;
+	inline static constexpr unsigned int WallConfig_TypeDefinitionIndex = 61823;
 
 	class WallConfig : public ::System::Object
 	{

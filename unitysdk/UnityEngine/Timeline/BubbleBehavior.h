@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define UNITYENGINE_TIMELINE_BUBBLEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B740060)
+#define UNITYENGINE_TIMELINE_BUBBLEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5326A0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int BubbleBehavior_TypeDefinitionIndex = 30221;
+	inline static constexpr unsigned int BubbleBehavior_TypeDefinitionIndex = 30750;
 
 	class BubbleBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -7,18 +7,18 @@ namespace Foundation { class MultiVersionInfo_HandleAssetPathDelegate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA5DC80)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__GETASSETPATHS_B__0_OFFSET UNITYSDK_OFFSET(0x1AA5DC90)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76D230)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS3_0__GETASSETPATHS_B__0_OFFSET UNITYSDK_OFFSET(0x1B76D240)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionDiffConfig___c__DisplayClass3_0_TypeDefinitionIndex = 7764;
+	inline static constexpr unsigned int MultiVersionDiffConfig___c__DisplayClass3_0_TypeDefinitionIndex = 7973;
 
 	class MultiVersionDiffConfig___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::String*>* result; // 0x10
-		::Foundation::MultiVersionInfo_HandleAssetPathDelegate* __9__0; // 0x18
+		::Foundation::MultiVersionInfo_HandleAssetPathDelegate* __9__0; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::String*>* result; // 0x18
 		::Foundation::MultiVer currentType; // 0x20
 
 		::System::Void _ctor()

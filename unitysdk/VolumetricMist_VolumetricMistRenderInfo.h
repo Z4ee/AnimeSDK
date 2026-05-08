@@ -5,7 +5,7 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int VolumetricMist_VolumetricMistRenderInfo_TypeDefinitionIndex = 28996;
+inline static constexpr unsigned int VolumetricMist_VolumetricMistRenderInfo_TypeDefinitionIndex = 29515;
 
 struct alignas(8) VolumetricMist_VolumetricMistRenderInfo
 {

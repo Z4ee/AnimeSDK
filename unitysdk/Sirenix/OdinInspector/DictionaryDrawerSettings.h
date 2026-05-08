@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_DICTIONARYDRAWERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B114270)
+#define SIRENIX_ODININSPECTOR_DICTIONARYDRAWERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F700)
 
 namespace Sirenix::OdinInspector
 {
@@ -17,9 +17,9 @@ namespace Sirenix::OdinInspector
 		::System::String* KeyLabel; // 0x10
 		::System::String* ExpandedKey; // 0x18
 		::System::String* ValueLabel; // 0x20
-		::System::Int32 ExpandedLevel; // 0x28
+		::Sirenix::OdinInspector::DictionaryDisplayOptions DisplayMode; // 0x28
 		::System::Boolean IsReadOnly; // 0x2C
-		::Sirenix::OdinInspector::DictionaryDisplayOptions DisplayMode; // 0x30
+		::System::Int32 ExpandedLevel; // 0x30
 
 		::System::Void _ctor()
 		{

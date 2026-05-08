@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianProductInfoWidgetController; }
 
-#define MOLEMOLE_UISUIBIANPRODUCTINFOWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAADB760)
-#define MOLEMOLE_UISUIBIANPRODUCTINFOWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xAADB770)
+#define MOLEMOLE_UISUIBIANPRODUCTINFOWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0D3B0)
+#define MOLEMOLE_UISUIBIANPRODUCTINFOWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14C0D3C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductInfoWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 80309;
+	inline static constexpr unsigned int UISuibianProductInfoWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 71767;
 
 	class UISuibianProductInfoWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{

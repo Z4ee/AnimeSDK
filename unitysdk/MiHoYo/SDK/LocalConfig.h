@@ -14,11 +14,11 @@ namespace MiHoYo::SDK { class SteamParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3BE60)
+#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F6A70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 18432;
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 18771;
 
 	class LocalConfig : public ::System::Object
 	{
@@ -57,6 +57,7 @@ namespace MiHoYo::SDK
 		::System::Boolean enable_googleplaypc_v2; // 0xDA
 		::MiHoYo::SDK::GooglePlayAbTestConfig* googleplay_abtest; // 0xE0
 		::MiHoYo::SDK::SteamParametersModel* steam_parameters; // 0xE8
+		::System::Boolean enable_device_limit; // 0xF0
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Struct_2_4BEB4678906A5980_TypeDefinitionIndex = 38276;
+inline static constexpr unsigned int Struct_2_4BEB4678906A5980_TypeDefinitionIndex = 39853;
 
 template <typename TKey, typename TValue>
 struct Struct_2_4BEB4678906A5980

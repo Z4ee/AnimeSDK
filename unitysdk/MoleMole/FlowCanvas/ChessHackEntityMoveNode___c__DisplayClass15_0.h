@@ -4,12 +4,12 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4EFDB0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE___C__DISPLAYCLASS15_0__SOLVECOLLISION_B__0_OFFSET UNITYSDK_OFFSET(0xA4EFDC0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10DFF120)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE___C__DISPLAYCLASS15_0__SOLVECOLLISION_B__0_OFFSET UNITYSDK_OFFSET(0x10DFF130)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessHackEntityMoveNode___c__DisplayClass15_0_TypeDefinitionIndex = 40902;
+	inline static constexpr unsigned int ChessHackEntityMoveNode___c__DisplayClass15_0_TypeDefinitionIndex = 77919;
 
 	class ChessHackEntityMoveNode___c__DisplayClass15_0 : public ::System::Object
 	{

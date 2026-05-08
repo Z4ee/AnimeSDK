@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_45D3736F1EE7E236_METHOD_3_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xD656CF0)
-#define CLASS_3_45D3736F1EE7E236_METHOD_3_489E0B827662C211_OFFSET UNITYSDK_OFFSET(0xD656D70)
-#define CLASS_3_45D3736F1EE7E236_METHOD_3_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0xD656D00)
-#define CLASS_3_45D3736F1EE7E236_METHOD_3_D0CD9A971CA3B1CF_OFFSET UNITYSDK_OFFSET(0xD6572C0)
-#define CLASS_3_45D3736F1EE7E236_METHOD_3_D78E7E5921B8B1C4_OFFSET UNITYSDK_OFFSET(0xD6571B0)
-#define CLASS_3_45D3736F1EE7E236__CTOR_OFFSET UNITYSDK_OFFSET(0xD656D10)
+#define CLASS_3_45D3736F1EE7E236_METHOD_3_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x10B5ACD0)
+#define CLASS_3_45D3736F1EE7E236_METHOD_3_369F47CCB61A607A_OFFSET UNITYSDK_OFFSET(0x10B5B1B0)
+#define CLASS_3_45D3736F1EE7E236_METHOD_3_489E0B827662C211_OFFSET UNITYSDK_OFFSET(0x10B5AD50)
+#define CLASS_3_45D3736F1EE7E236_METHOD_3_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0x10B5ACE0)
+#define CLASS_3_45D3736F1EE7E236_METHOD_3_D0CD9A971CA3B1CF_OFFSET UNITYSDK_OFFSET(0x10B5B310)
+#define CLASS_3_45D3736F1EE7E236__CTOR_OFFSET UNITYSDK_OFFSET(0x10B5ACF0)
 
-inline static constexpr unsigned int Class_3_45D3736F1EE7E236_TypeDefinitionIndex = 59276;
+inline static constexpr unsigned int Class_3_45D3736F1EE7E236_TypeDefinitionIndex = 74107;
 
 class Class_3_45D3736F1EE7E236 : public ::Class_2_2E40794F1F3D2434
 {
 public:
-	::System::String* Field_3_2; // 0x30
-	::Il2CppArray<::System::UInt64>* Field_3_3; // 0x38
-	::System::Action_2<::System::Int32, ::System::String*>* Field_3_1; // 0x40
-	::System::String* Field_3_0; // 0x48
+	::Il2CppArray<::System::UInt64>* Field_3_3; // 0x30
+	::System::String* Field_3_0; // 0x38
+	::System::String* Field_3_2; // 0x40
+	::System::Action_2<::System::Int32, ::System::String*>* Field_3_1; // 0x48
 
 	::System::Void _ctor(::System::Action_2<::System::Int32, ::System::String*>* a1, ::System::String* a2, ::Il2CppArray<::System::UInt64>* a3)
 	{
@@ -42,9 +42,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_45D3736F1EE7E236_METHOD_3_489E0B827662C211_OFFSET))(this);
 	}
 
-	::System::Void Method_3_D78E7E5921B8B1C4(::System::String* a1)
+	::System::Void Method_3_369F47CCB61A607A(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_45D3736F1EE7E236_METHOD_3_D78E7E5921B8B1C4_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_45D3736F1EE7E236_METHOD_3_369F47CCB61A607A_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_D0CD9A971CA3B1CF()

@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_IDLEANIMATIONTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2EB1C0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_IDLEANIMATIONTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EB200)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_IDLEANIMATIONTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xC2EB210)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_IDLEANIMATIONTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D86350)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_IDLEANIMATIONTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11D86390)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_IDLEANIMATIONTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x11D863A0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_IdleAnimationTask___c_TypeDefinitionIndex = 72637;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_IdleAnimationTask___c_TypeDefinitionIndex = 74979;
 
 	class RegistrationInfo_ScriptStruct_IdleAnimationTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_IdleAnimationTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_IdleAnimationTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_IdleAnimationTask___c_TypeDefinitionIndex)->GetStaticField(0x3F4E0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_IdleAnimationTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_IdleAnimationTask___c_TypeDefinitionIndex)->GetStaticField(0x43B60);
 		}
 
 		static ::System::Void _cctor()

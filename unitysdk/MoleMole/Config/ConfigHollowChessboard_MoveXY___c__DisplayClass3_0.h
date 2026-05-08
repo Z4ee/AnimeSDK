@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_MoveXY; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_MOVEXY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEC41FE0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_MOVEXY___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xEC41FF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_MOVEXY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181CA700)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_MOVEXY___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x181CA710)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_MoveXY___c__DisplayClass3_0_TypeDefinitionIndex = 79800;
+	inline static constexpr unsigned int ConfigHollowChessboard_MoveXY___c__DisplayClass3_0_TypeDefinitionIndex = 43472;
 
 	class ConfigHollowChessboard_MoveXY___c__DisplayClass3_0 : public ::System::Object
 	{

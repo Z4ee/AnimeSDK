@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::DualShock
 {
-	inline static constexpr unsigned int IDualShockHaptics_TypeDefinitionIndex = 28654;
+	inline static constexpr unsigned int IDualShockHaptics_TypeDefinitionIndex = 29172;
 
 	class IDualShockHaptics
 	{

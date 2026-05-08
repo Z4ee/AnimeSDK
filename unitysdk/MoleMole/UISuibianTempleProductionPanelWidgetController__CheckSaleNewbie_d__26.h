@@ -6,12 +6,12 @@
 
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKSALENEWBIE_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x37AEC0)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKSALENEWBIE_D__26_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKSALENEWBIE_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x78CCB0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKSALENEWBIE_D__26_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController__CheckSaleNewbie_d__26_TypeDefinitionIndex = 58129;
+	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController__CheckSaleNewbie_d__26_TypeDefinitionIndex = 77201;
 
 	struct alignas(8) UISuibianTempleProductionPanelWidgetController__CheckSaleNewbie_d__26
 	{

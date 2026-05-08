@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18B50EB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B51160)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x19BA5470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA5720)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int MainLightConfig_TypeDefinitionIndex = 29760;
+	inline static constexpr unsigned int MainLightConfig_TypeDefinitionIndex = 30289;
 
 	class MainLightConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::MainLightConfig*>
 	{

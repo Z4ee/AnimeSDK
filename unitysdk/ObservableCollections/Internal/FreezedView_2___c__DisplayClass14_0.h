@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int FreezedView_2___c__DisplayClass14_0_TypeDefinitionIndex = 25036;
+	inline static constexpr unsigned int FreezedView_2___c__DisplayClass14_0_TypeDefinitionIndex = 25801;
 
 	template <typename T, typename TView>
 	class FreezedView_2___c__DisplayClass14_0 : public ::System::Object

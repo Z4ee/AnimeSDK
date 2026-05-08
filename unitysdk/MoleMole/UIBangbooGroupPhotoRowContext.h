@@ -4,11 +4,11 @@
 
 class Class_1_5111A21FA8B904B1;
 
-#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD0218E0)
+#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E4A030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooGroupPhotoRowContext_TypeDefinitionIndex = 80863;
+	inline static constexpr unsigned int UIBangbooGroupPhotoRowContext_TypeDefinitionIndex = 58508;
 
 	class UIBangbooGroupPhotoRowContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_92D28DDE4833EDF9;
+class Class_1_EA67DE3E7B7C743B;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2_ValueCollection; }
 
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOLEVELMISSIONROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBD20F70)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOLEVELMISSIONROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16088120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseBattleInfoLevelMissionRowContext_TypeDefinitionIndex = 68602;
+	inline static constexpr unsigned int UIInLevelPauseBattleInfoLevelMissionRowContext_TypeDefinitionIndex = 60186;
 
 	class UIInLevelPauseBattleInfoLevelMissionRowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2_ValueCollection<::System::Int32, ::Class_1_92D28DDE4833EDF9*>* Quests; // 0x28
+		::System::Collections::Generic::Dictionary_2_ValueCollection<::System::Int32, ::Class_1_EA67DE3E7B7C743B*>* Quests; // 0x28
 
 		::System::Void _ctor()
 		{

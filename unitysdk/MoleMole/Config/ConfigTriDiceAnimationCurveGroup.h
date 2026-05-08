@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGTRIDICEANIMATIONCURVEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x9D13770)
+#define MOLEMOLE_CONFIG_CONFIGTRIDICEANIMATIONCURVEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x12317D50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTriDiceAnimationCurveGroup_TypeDefinitionIndex = 65489;
+	inline static constexpr unsigned int ConfigTriDiceAnimationCurveGroup_TypeDefinitionIndex = 69381;
 
 	class ConfigTriDiceAnimationCurveGroup : public ::System::Object
 	{
 	public:
-		::System::String* clipPath; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Quaternion>* Rotations; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* diceBone; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Quaternion>* Rotations; // 0x20
+		::System::String* clipPath; // 0x20
 
 		::System::Void _ctor()
 		{

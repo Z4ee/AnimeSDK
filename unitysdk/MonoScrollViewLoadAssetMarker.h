@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOSCROLLVIEWLOADASSETMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xA142070)
+#define MONOSCROLLVIEWLOADASSETMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xD07F960)
 
-inline static constexpr unsigned int MonoScrollViewLoadAssetMarker_TypeDefinitionIndex = 40379;
+inline static constexpr unsigned int MonoScrollViewLoadAssetMarker_TypeDefinitionIndex = 76997;
 
 class MonoScrollViewLoadAssetMarker : public ::UnityEngine::MonoBehaviour
 {

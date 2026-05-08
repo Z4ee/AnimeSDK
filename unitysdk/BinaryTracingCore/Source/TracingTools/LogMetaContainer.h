@@ -7,20 +7,20 @@ namespace BinaryTracingCore::Source::TracingTools { class LogMeta; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER_REGISTERLOGMETA_OFFSET UNITYSDK_OFFSET(0x1B1D1710)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER_TRYGETMETA_1_OFFSET UNITYSDK_OFFSET(0x1B1D18E0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER_TRYGETMETA_OFFSET UNITYSDK_OFFSET(0x1B1D1820)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D19C0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER_REGISTERLOGMETA_OFFSET UNITYSDK_OFFSET(0x1BF02490)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER_TRYGETMETA_1_OFFSET UNITYSDK_OFFSET(0x1BF02680)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER_TRYGETMETA_OFFSET UNITYSDK_OFFSET(0x1BF025B0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETACONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF02760)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogMetaContainer_TypeDefinitionIndex = 31880;
+	inline static constexpr unsigned int LogMetaContainer_TypeDefinitionIndex = 32409;
 
 	class LogMetaContainer : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Guid, ::BinaryTracingCore::Source::TracingTools::LogMeta*>* LogMetasMap; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::BinaryTracingCore::Source::TracingTools::LogMeta*>* LogArchetypesNameMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::BinaryTracingCore::Source::TracingTools::LogMeta*>* LogArchetypesNameMap; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Guid, ::BinaryTracingCore::Source::TracingTools::LogMeta*>* LogMetasMap; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int fsRecoveryProcessor_2___c__DisplayClass3_0_TypeDefinitionIndex = 27258;
+	inline static constexpr unsigned int fsRecoveryProcessor_2___c__DisplayClass3_0_TypeDefinitionIndex = 27051;
 
 	template <typename TCanProcess, typename TMissing>
 	class fsRecoveryProcessor_2___c__DisplayClass3_0 : public ::System::Object

@@ -6,17 +6,17 @@ namespace MoleMole { class ActivitySpineAnimationReference; }
 namespace Spine::Unity { class SkeletonGraphic; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ACTIVITBGSPINESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x94D9D70)
+#define MOLEMOLE_ACTIVITBGSPINESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x123F5A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivitBGSpineSequence_TypeDefinitionIndex = 73777;
+	inline static constexpr unsigned int ActivitBGSpineSequence_TypeDefinitionIndex = 59852;
 
 	class ActivitBGSpineSequence : public ::System::Object
 	{
 	public:
-		::Spine::Unity::SkeletonGraphic* spineGraphic; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::ActivitySpineAnimationReference*>* animList; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::ActivitySpineAnimationReference*>* animList; // 0x10
+		::Spine::Unity::SkeletonGraphic* spineGraphic; // 0x18
 
 		::System::Void _ctor()
 		{

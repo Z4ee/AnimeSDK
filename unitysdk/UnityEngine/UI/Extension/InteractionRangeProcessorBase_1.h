@@ -10,7 +10,7 @@ namespace UnityEngine::UI::Extension { template <typename T> class Range_1; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionRangeProcessorBase_1_TypeDefinitionIndex = 67633;
+	inline static constexpr unsigned int InteractionRangeProcessorBase_1_TypeDefinitionIndex = 58704;
 
 	template <typename T>
 	class InteractionRangeProcessorBase_1 : public ::UnityEngine::UI::Extension::InteractionRangeProcessorBase

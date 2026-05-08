@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ISynchronizedView_2_TypeDefinitionIndex = 25086;
+	inline static constexpr unsigned int ISynchronizedView_2_TypeDefinitionIndex = 25593;
 
 	template <typename T, typename TView>
 	class ISynchronizedView_2

@@ -3,35 +3,35 @@
 #include "unitysdk/MoleMole/UIFashionStorePreviewPanelWidgetController_NotePlayHelper.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_106;
-class Class_2_6C100683412065D7_Class_0_16E7307DCC43CB2C;
-class Class_2_6C100683412065D7_Class_2_97C8D60D51E8546D;
+class Class_0_16E4307DCC419505_103;
+class Class_2_720FD421F092FF93_Class_0_16E7307DCC43CB2C_5;
+class Class_2_720FD421F092FF93_Class_2_97C8D60D51E8546D_1;
 namespace MoleMole { class UIFashionStorePreviewPanelWidgetController_MusicRowData; }
-template <typename T> class Class_0_16E4307DCC419505_95;
+template <typename T> class Class_0_16E4307DCC41950C_12;
 
-#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER_INIT_OFFSET UNITYSDK_OFFSET(0xF1E4030)
-#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER_PLAYSOUND_OFFSET UNITYSDK_OFFSET(0xF1E40F0)
-#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xF1E4020)
-#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER___BASE_PLAYSOUND_OFFSET UNITYSDK_OFFSET(0xF1E4870)
+#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER_INIT_OFFSET UNITYSDK_OFFSET(0x16EF1910)
+#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER_PLAYSOUND_OFFSET UNITYSDK_OFFSET(0x16EF19C0)
+#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF1900)
+#define MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER___BASE_PLAYSOUND_OFFSET UNITYSDK_OFFSET(0x16EF2110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreEditPanelWidgetController_NotePlayHelper_TypeDefinitionIndex = 55706;
+	inline static constexpr unsigned int UIFashionStoreEditPanelWidgetController_NotePlayHelper_TypeDefinitionIndex = 39289;
 
 	class UIFashionStoreEditPanelWidgetController_NotePlayHelper : public ::MoleMole::UIFashionStorePreviewPanelWidgetController_NotePlayHelper
 	{
 	public:
-		::Class_2_6C100683412065D7_Class_2_97C8D60D51E8546D* _trackData; // 0x50
+		::Class_2_720FD421F092FF93_Class_2_97C8D60D51E8546D_1* _trackData; // 0x50
 		::MoleMole::UIFashionStorePreviewPanelWidgetController_MusicRowData* _musicRowData; // 0x58
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_106* autoDisposePool)
+		::System::Void _ctor(::Class_0_16E4307DCC419505_103* autoDisposePool)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_106*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER__CTOR_OFFSET))(this, autoDisposePool);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_103*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER__CTOR_OFFSET))(this, autoDisposePool);
 		}
 
-		::System::Void Init(::Class_2_6C100683412065D7_Class_0_16E7307DCC43CB2C* fashionStoreData, ::Class_2_6C100683412065D7_Class_2_97C8D60D51E8546D* fashionStoreTrackData, ::MoleMole::UIFashionStorePreviewPanelWidgetController_MusicRowData* musicRowData, ::Class_0_16E4307DCC419505_95<::System::Boolean>* isShow)
+		::System::Void Init(::Class_2_720FD421F092FF93_Class_0_16E7307DCC43CB2C_5* fashionStoreData, ::Class_2_720FD421F092FF93_Class_2_97C8D60D51E8546D_1* fashionStoreTrackData, ::MoleMole::UIFashionStorePreviewPanelWidgetController_MusicRowData* musicRowData, ::Class_0_16E4307DCC41950C_12<::System::Boolean>* isShow)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_6C100683412065D7_Class_0_16E7307DCC43CB2C*, ::Class_2_6C100683412065D7_Class_2_97C8D60D51E8546D*, ::MoleMole::UIFashionStorePreviewPanelWidgetController_MusicRowData*, ::Class_0_16E4307DCC419505_95<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER_INIT_OFFSET))(this, fashionStoreData, fashionStoreTrackData, musicRowData, isShow);
+			return ((::System::Void(*)(::PVOID, ::Class_2_720FD421F092FF93_Class_0_16E7307DCC43CB2C_5*, ::Class_2_720FD421F092FF93_Class_2_97C8D60D51E8546D_1*, ::MoleMole::UIFashionStorePreviewPanelWidgetController_MusicRowData*, ::Class_0_16E4307DCC41950C_12<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFASHIONSTOREEDITPANELWIDGETCONTROLLER_NOTEPLAYHELPER_INIT_OFFSET))(this, fashionStoreData, fashionStoreTrackData, musicRowData, isShow);
 		}
 
 		::System::Void PlaySound(::System::ValueTuple_2<::System::Int32, ::System::Int32> startNoteIndex, ::System::ValueTuple_2<::System::Int32, ::System::Int32> endNoteIndex)

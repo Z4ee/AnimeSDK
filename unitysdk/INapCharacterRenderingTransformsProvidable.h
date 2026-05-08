@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int INapCharacterRenderingTransformsProvidable_TypeDefinitionIndex = 29066;
+inline static constexpr unsigned int INapCharacterRenderingTransformsProvidable_TypeDefinitionIndex = 29585;
 
 class INapCharacterRenderingTransformsProvidable
 {

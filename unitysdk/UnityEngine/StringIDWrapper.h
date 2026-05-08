@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_STRINGIDWRAPPER_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1B772110)
-#define UNITYENGINE_STRINGIDWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDFB0)
+#define UNITYENGINE_STRINGIDWRAPPER_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C55DA70)
+#define UNITYENGINE_STRINGIDWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x9EBB00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int StringIDWrapper_TypeDefinitionIndex = 37112;
+	inline static constexpr unsigned int StringIDWrapper_TypeDefinitionIndex = 37656;
 
 	struct alignas(4) StringIDWrapper
 	{

@@ -3,33 +3,33 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_0D6706375CDAAE8C;
-class Class_3_1699D6295DC3F818;
-class Class_3_9F8B7B204F0D8E1D_4;
+class Class_3_1699D6295DC3F818_1;
+class Class_3_9F8B7B204F0D8E1D_13;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB17210)
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB17250)
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0xBB17260)
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__TRYTAKEALLBINGOREWARDS_B__23_1_OFFSET UNITYSDK_OFFSET(0xBB17290)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CAF6A0)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15CAF6E0)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0x15CAF6F0)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__TRYTAKEALLBINGOREWARDS_B__23_1_OFFSET UNITYSDK_OFFSET(0x15CAF720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex = 44770;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex = 42154;
 
 	class UIHIADoubleWeekActivityPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_3_9F8B7B204F0D8E1D_4*, ::System::Boolean>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::Class_3_9F8B7B204F0D8E1D_4*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31AB0);
-		}
-		static ::System::Func_2<::Class_3_1699D6295DC3F818*, ::Class_1_0D6706375CDAAE8C*>** StaticGet___9__23_1()
-		{
-			return (::System::Func_2<::Class_3_1699D6295DC3F818*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31AB8);
-		}
 		static ::MoleMole::UIHIADoubleWeekActivityPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHIADoubleWeekActivityPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x31AC0);
+			return (::MoleMole::UIHIADoubleWeekActivityPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x327A0);
+		}
+		static ::System::Func_2<::Class_3_1699D6295DC3F818_1*, ::Class_1_0D6706375CDAAE8C*>** StaticGet___9__23_1()
+		{
+			return (::System::Func_2<::Class_3_1699D6295DC3F818_1*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x327A8);
+		}
+		static ::System::Func_2<::Class_3_9F8B7B204F0D8E1D_13*, ::System::Boolean>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::Class_3_9F8B7B204F0D8E1D_13*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHIADoubleWeekActivityPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x327B0);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshView_b__11_0(::Class_3_9F8B7B204F0D8E1D_4* reward)
+		::System::Boolean _RefreshView_b__11_0(::Class_3_9F8B7B204F0D8E1D_13* reward)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_9F8B7B204F0D8E1D_4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__11_0_OFFSET))(this, reward);
+			return ((::System::Boolean(*)(::PVOID, ::Class_3_9F8B7B204F0D8E1D_13*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__11_0_OFFSET))(this, reward);
 		}
 
-		::Class_1_0D6706375CDAAE8C* _TryTakeAllBingoRewards_b__23_1(::Class_3_1699D6295DC3F818* reward)
+		::Class_1_0D6706375CDAAE8C* _TryTakeAllBingoRewards_b__23_1(::Class_3_1699D6295DC3F818_1* reward)
 		{
-			return ((::Class_1_0D6706375CDAAE8C*(*)(::PVOID, ::Class_3_1699D6295DC3F818*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__TRYTAKEALLBINGOREWARDS_B__23_1_OFFSET))(this, reward);
+			return ((::Class_1_0D6706375CDAAE8C*(*)(::PVOID, ::Class_3_1699D6295DC3F818_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__TRYTAKEALLBINGOREWARDS_B__23_1_OFFSET))(this, reward);
 		}
 	};
 }

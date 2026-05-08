@@ -6,7 +6,7 @@ namespace Sirenix::Serialization { class IUnityGeneratedFormatter; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_UNITYOBJECTCACHEDATA_GET_OFFSET UNITYSDK_OFFSET(0x9562E0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_UNITYOBJECTCACHEDATA_GET_OFFSET UNITYSDK_OFFSET(0x9971E0)
 
 namespace Sirenix::Serialization
 {

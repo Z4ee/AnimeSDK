@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/JSONObject.h"
 
-#define MIHOYO_SDK_HOYOUI_COLORSTRINGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1916CD20)
+#define MIHOYO_SDK_HOYOUI_COLORSTRINGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB4C80)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int ColorStringMap_TypeDefinitionIndex = 34958;
+	inline static constexpr unsigned int ColorStringMap_TypeDefinitionIndex = 35496;
 
 	class ColorStringMap : public ::MiHoYo::SDK::JSONObject
 	{

@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define PLANARREFLECTIONPROXY_REFLECTIONCAMERADEBUGVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EED8A0)
+#define PLANARREFLECTIONPROXY_REFLECTIONCAMERADEBUGVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6806B0)
 
-inline static constexpr unsigned int PlanarReflectionProxy_ReflectionCameraDebugViewData_TypeDefinitionIndex = 28963;
+inline static constexpr unsigned int PlanarReflectionProxy_ReflectionCameraDebugViewData_TypeDefinitionIndex = 29482;
 
 class PlanarReflectionProxy_ReflectionCameraDebugViewData : public ::System::Object
 {

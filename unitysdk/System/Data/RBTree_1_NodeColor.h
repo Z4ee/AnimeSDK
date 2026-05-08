@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RBTree_1_NodeColor_TypeDefinitionIndex = 36504;
+	inline static constexpr unsigned int RBTree_1_NodeColor_TypeDefinitionIndex = 37048;
 
 	enum class RBTree_1_NodeColor : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICOOPROLESELECTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD044110)
+#define MOLEMOLE_UICOOPROLESELECTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E717C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopRoleSelectWidgetController_Context_TypeDefinitionIndex = 76950;
+	inline static constexpr unsigned int UICoopRoleSelectWidgetController_Context_TypeDefinitionIndex = 59684;
 
 	class UICoopRoleSelectWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_INTERRUPT_INVOKE_OFFSET UNITYSDK_OFFSET(0xB837570)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_INTERRUPT__CTOR_OFFSET UNITYSDK_OFFSET(0xB8376B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_INTERRUPT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1780F360)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_INTERRUPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1780F480)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SceneVideo_Interrupt_TypeDefinitionIndex = 43770;
+	inline static constexpr unsigned int LD_SceneVideo_Interrupt_TypeDefinitionIndex = 71182;
 
 	class LD_SceneVideo_Interrupt : public ::FlowCanvas::Nodes::CallableActionNode_1<::MoleMole::Battle::Entity*>
 	{

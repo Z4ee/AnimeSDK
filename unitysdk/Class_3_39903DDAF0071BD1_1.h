@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_52F82E04F7FEE529.h"
-#include "unitysdk/Struct_2_FE667B282E242C72.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-template <typename T> class Class_4_179456445C225AB4;
-template <typename T> class Class_4_D0B094D0B900A9F0;
+template <typename T> class Class_4_2FF7D360A2F3EC48;
+template <typename T> class Class_4_8D3E479B491881B3;
 
-#define CLASS_3_39903DDAF0071BD1_1_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xDA1DA90)
-#define CLASS_3_39903DDAF0071BD1_1_METHOD_3_556DB850615E0921_OFFSET UNITYSDK_OFFSET(0xDA1DCF0)
-#define CLASS_3_39903DDAF0071BD1_1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDA1E030)
-#define CLASS_3_39903DDAF0071BD1_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDA1DED0)
+#define CLASS_3_39903DDAF0071BD1_1_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xEF97380)
+#define CLASS_3_39903DDAF0071BD1_1_METHOD_3_556DB850615E0921_OFFSET UNITYSDK_OFFSET(0xEF97530)
+#define CLASS_3_39903DDAF0071BD1_1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xEF977D0)
+#define CLASS_3_39903DDAF0071BD1_1__CTOR_OFFSET UNITYSDK_OFFSET(0xEF97670)
 
-inline static constexpr unsigned int Class_3_39903DDAF0071BD1_1_TypeDefinitionIndex = 80883;
+inline static constexpr unsigned int Class_3_39903DDAF0071BD1_1_TypeDefinitionIndex = 39019;
 
 class Class_3_39903DDAF0071BD1_1 : public ::Class_2_52F82E04F7FEE529
 {
 public:
-	::Class_4_179456445C225AB4<::UnityEngine::Vector3>* Field_3_0; // 0x18
-	::Class_4_D0B094D0B900A9F0<::UnityEngine::Vector3>* Field_3_3; // 0x20
-	::Class_4_179456445C225AB4<::UnityEngine::Vector3>* Field_3_1; // 0x28
-	::Class_4_179456445C225AB4<::System::Single>* Field_3_2; // 0x30
+	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_3_1; // 0x18
+	::Class_4_8D3E479B491881B3<::UnityEngine::Vector3>* Field_3_3; // 0x20
+	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_3_0; // 0x28
+	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_3_2; // 0x30
 
 	::System::Void _ctor()
 	{
@@ -32,9 +32,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_39903DDAF0071BD1_1_METHOD_3_41A074549EF25F63_OFFSET))(this);
 	}
 
-	::System::Void Method_3_556DB850615E0921(::Struct_2_FE667B282E242C72& a1)
+	::System::Void Method_3_556DB850615E0921(::Struct_2_29439DBE2B63DCF3& a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_FE667B282E242C72&))((::PBYTE)hIl2Cpp + CLASS_3_39903DDAF0071BD1_1_METHOD_3_556DB850615E0921_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_3_39903DDAF0071BD1_1_METHOD_3_556DB850615E0921_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_CA373AA1C7054598()

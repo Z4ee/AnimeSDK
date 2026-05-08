@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_371;
+class Class_3_DEF6B8E2ED2D1FB3_1;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_435_TypeDefinitionIndex = 54751;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_435_TypeDefinitionIndex = 50258;
 
 class Class_0_16E4307DCC419505_435
 {

@@ -6,11 +6,11 @@ class Class_1_737370D674376C00;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGALGAMEREVIEWDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB4AD90)
+#define MOLEMOLE_UIGALGAMEREVIEWDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1679DEB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgameReviewDialogPopWindowController_Context_TypeDefinitionIndex = 64787;
+	inline static constexpr unsigned int UIGalgameReviewDialogPopWindowController_Context_TypeDefinitionIndex = 39648;
 
 	class UIGalgameReviewDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

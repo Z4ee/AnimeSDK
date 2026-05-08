@@ -9,26 +9,26 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FRAMEENDREFRESHMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x14EFD960)
-#define FRAMEENDREFRESHMANAGER_BOOTSTRAP_OFFSET UNITYSDK_OFFSET(0x14EFD750)
-#define FRAMEENDREFRESHMANAGER_DEFER_OFFSET UNITYSDK_OFFSET(0x14EFDF90)
-#define FRAMEENDREFRESHMANAGER_ENSUREINSTANCE_OFFSET UNITYSDK_OFFSET(0x14EFD7B0)
-#define FRAMEENDREFRESHMANAGER_FLUSH_OFFSET UNITYSDK_OFFSET(0x14EFDC50)
-#define FRAMEENDREFRESHMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14EFDBE0)
-#define FRAMEENDREFRESHMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x14EFE2C0)
+#define FRAMEENDREFRESHMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x13817810)
+#define FRAMEENDREFRESHMANAGER_BOOTSTRAP_OFFSET UNITYSDK_OFFSET(0x138175A0)
+#define FRAMEENDREFRESHMANAGER_DEFER_OFFSET UNITYSDK_OFFSET(0x13817E30)
+#define FRAMEENDREFRESHMANAGER_ENSUREINSTANCE_OFFSET UNITYSDK_OFFSET(0x138175E0)
+#define FRAMEENDREFRESHMANAGER_FLUSH_OFFSET UNITYSDK_OFFSET(0x13817AD0)
+#define FRAMEENDREFRESHMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13817A80)
+#define FRAMEENDREFRESHMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x138181C0)
 
-inline static constexpr unsigned int FrameEndRefreshManager_TypeDefinitionIndex = 68154;
+inline static constexpr unsigned int FrameEndRefreshManager_TypeDefinitionIndex = 74879;
 
 class FrameEndRefreshManager : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::FrameEndRefreshManager** StaticGet__instance()
 	{
-		return (::FrameEndRefreshManager**)Il2CppClass::FromTypeDefinitionIndex(FrameEndRefreshManager_TypeDefinitionIndex)->GetStaticField(0x36040);
+		return (::FrameEndRefreshManager**)Il2CppClass::FromTypeDefinitionIndex(FrameEndRefreshManager_TypeDefinitionIndex)->GetStaticField(0x36C40);
 	}
 	static ::System::Boolean* StaticGet__isFlushing()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FrameEndRefreshManager_TypeDefinitionIndex)->GetStaticField(0xD3A0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FrameEndRefreshManager_TypeDefinitionIndex)->GetStaticField(0xD8F0);
 	}
 	::System::Collections::Generic::List_1<::FrameEndRefreshManager_QueuedAction>* _queue; // 0x18
 	::System::Collections::Generic::Dictionary_2<::FrameEndRefreshManager_CallKey, ::System::Int32>* _map; // 0x20

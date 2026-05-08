@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int Ease_TypeDefinitionIndex = 24834;
+	inline static constexpr unsigned int Ease_TypeDefinitionIndex = 25348;
 
 	enum class Ease : ::System::Int32
 	{

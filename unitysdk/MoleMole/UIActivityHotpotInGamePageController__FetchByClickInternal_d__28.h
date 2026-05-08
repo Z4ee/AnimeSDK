@@ -8,17 +8,17 @@
 namespace MoleMole { class UIActivityHotpotInGamePageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x4C1E90)
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7AD910)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController__FetchByClickInternal_d__28_TypeDefinitionIndex = 79912;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController__FetchByClickInternal_d__28_TypeDefinitionIndex = 53758;
 
 	struct alignas(8) UIActivityHotpotInGamePageController__FetchByClickInternal_d__28
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9> __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9> __u__1; // 0x20
 		::MoleMole::UIActivityHotpotInGamePageController* __4__this; // 0x40
 		::System::Int32 __1__state; // 0x48
 

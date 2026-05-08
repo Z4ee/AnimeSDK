@@ -5,11 +5,11 @@
 namespace MoleMole { class TelescopeCameraControlConfigInput; }
 namespace MoleMole::Cameras { class TelescopeCameraConfig; }
 
-#define MOLEMOLE_CONFIGCAMERATELESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0xB4800F0)
+#define MOLEMOLE_CONFIGCAMERATELESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D312F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigCameraTelescope_TypeDefinitionIndex = 65040;
+	inline static constexpr unsigned int ConfigCameraTelescope_TypeDefinitionIndex = 49843;
 
 	class ConfigCameraTelescope : public ::System::Object
 	{

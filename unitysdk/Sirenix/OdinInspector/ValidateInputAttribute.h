@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_GET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1B117110)
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_SET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1B117120)
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B117150)
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B117130)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_GET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1C022640)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_SET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1C022650)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C022680)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C022660)
 
 namespace Sirenix::OdinInspector
 {
@@ -17,12 +17,12 @@ namespace Sirenix::OdinInspector
 	class ValidateInputAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Condition; // 0x10
-		::System::String* MemberName; // 0x18
-		::System::String* DefaultMessage; // 0x20
-		::Sirenix::OdinInspector::InfoMessageType MessageType; // 0x28
-		::System::Boolean ContinuousValidationCheck; // 0x2C
-		::System::Boolean IncludeChildren; // 0x2D
+		::System::String* MemberName; // 0x10
+		::System::String* DefaultMessage; // 0x18
+		::System::String* Condition; // 0x20
+		::System::Boolean IncludeChildren; // 0x28
+		::System::Boolean ContinuousValidationCheck; // 0x29
+		::Sirenix::OdinInspector::InfoMessageType MessageType; // 0x2C
 
 		::System::Void _ctor(::System::String* condition, ::System::String* defaultMessage, ::Sirenix::OdinInspector::InfoMessageType messageType)
 		{

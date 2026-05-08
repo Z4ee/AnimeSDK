@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int DocumentationSortingAttribute_Level_TypeDefinitionIndex = 32047;
+	inline static constexpr unsigned int DocumentationSortingAttribute_Level_TypeDefinitionIndex = 32576;
 
 	enum class DocumentationSortingAttribute_Level : ::System::Int32
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB82AEA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB82B030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x178035A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x178036E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetMonsterCardPlayMode_TypeDefinitionIndex = 51123;
+	inline static constexpr unsigned int LDGetMonsterCardPlayMode_TypeDefinitionIndex = 56424;
 
 	class LDGetMonsterCardPlayMode : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

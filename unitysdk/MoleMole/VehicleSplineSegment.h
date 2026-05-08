@@ -6,11 +6,11 @@
 
 namespace PathCreation { class PathCreator; }
 
-#define MOLEMOLE_VEHICLESPLINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9ACAAD0)
+#define MOLEMOLE_VEHICLESPLINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF80DE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VehicleSplineSegment_TypeDefinitionIndex = 67844;
+	inline static constexpr unsigned int VehicleSplineSegment_TypeDefinitionIndex = 66783;
 
 	class VehicleSplineSegment : public ::System::Object
 	{

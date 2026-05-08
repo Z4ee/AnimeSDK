@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_13CC4AB159CE79F2.h"
+#include "unitysdk/UnityEngine/BoundingSphere.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_4;
-class Class_1_5BABA5458AC99975;
-class Class_2_8758E40D9FAA51DB;
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_715_TypeDefinitionIndex = 77856;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_715_TypeDefinitionIndex = 74770;
 
 class Class_0_16E4307DCC419505_715
 {

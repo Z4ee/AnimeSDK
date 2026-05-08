@@ -5,22 +5,22 @@
 namespace MoleMole::FlowCanvas::Nodes { class SummerEventBeatMap; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_C16B966F3428AAC0___C_METHOD_1_2009C29D620DEF76_OFFSET UNITYSDK_OFFSET(0xBCBEEB0)
-#define CLASS_1_C16B966F3428AAC0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBCBEE60)
-#define CLASS_1_C16B966F3428AAC0___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBCBEEA0)
+#define CLASS_1_C16B966F3428AAC0___C_METHOD_1_2009C29D620DEF76_OFFSET UNITYSDK_OFFSET(0x12ED2760)
+#define CLASS_1_C16B966F3428AAC0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12ED2710)
+#define CLASS_1_C16B966F3428AAC0___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12ED2750)
 
-inline static constexpr unsigned int Class_1_C16B966F3428AAC0___c_TypeDefinitionIndex = 41481;
+inline static constexpr unsigned int Class_1_C16B966F3428AAC0___c_TypeDefinitionIndex = 40391;
 
 class Class_1_C16B966F3428AAC0___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::MoleMole::FlowCanvas::Nodes::SummerEventBeatMap*, ::System::Single>** StaticGet___9__0_0()
 	{
-		return (::System::Func_2<::MoleMole::FlowCanvas::Nodes::SummerEventBeatMap*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16B966F3428AAC0___c_TypeDefinitionIndex)->GetStaticField(0x37DA0);
+		return (::System::Func_2<::MoleMole::FlowCanvas::Nodes::SummerEventBeatMap*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16B966F3428AAC0___c_TypeDefinitionIndex)->GetStaticField(0x33470);
 	}
 	static ::Class_1_C16B966F3428AAC0___c** StaticGet___9()
 	{
-		return (::Class_1_C16B966F3428AAC0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16B966F3428AAC0___c_TypeDefinitionIndex)->GetStaticField(0x37DA8);
+		return (::Class_1_C16B966F3428AAC0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16B966F3428AAC0___c_TypeDefinitionIndex)->GetStaticField(0x33478);
 	}
 
 	static ::System::Void _cctor()

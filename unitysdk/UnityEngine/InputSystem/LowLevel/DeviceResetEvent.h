@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputEvent.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_DEVICERESETEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1A5879A0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_DEVICERESETEVENT_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x92F190)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_DEVICERESETEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1B355080)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_DEVICERESETEVENT_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x964FF0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int DeviceResetEvent_TypeDefinitionIndex = 28730;
+	inline static constexpr unsigned int DeviceResetEvent_TypeDefinitionIndex = 29248;
 
 	struct alignas(1) DeviceResetEvent
 	{

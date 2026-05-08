@@ -7,22 +7,22 @@ namespace MoleMole { class UITape3DModelController; }
 namespace MoleMole { class UITapesGroup3DModelController; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE32D0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS40_0__PERFORMANCEEXPAND_G__GETOFFSET_0_OFFSET UNITYSDK_OFFSET(0x9EE32E0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x126A1D70)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS40_0__PERFORMANCEEXPAND_G__GETOFFSET_0_OFFSET UNITYSDK_OFFSET(0x126A1D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass40_0_TypeDefinitionIndex = 53123;
+	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass40_0_TypeDefinitionIndex = 46594;
 
 	class UITapesGroup3DModelController___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::UITape3DModelController*>* tapes; // 0x10
-		::MoleMole::UITapesGroup3DModelController* __4__this; // 0x18
-		::UnityEngine::Vector3 centerTapeLocalPosition; // 0x20
-		::System::Single speed; // 0x2C
-		::System::Int32 finishCount; // 0x30
-		::System::Int32 totalNum; // 0x34
+		::MoleMole::UITapesGroup3DModelController* __4__this; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::UITape3DModelController*>* tapes; // 0x18
+		::System::Int32 finishCount; // 0x20
+		::System::Int32 totalNum; // 0x24
+		::UnityEngine::Vector3 centerTapeLocalPosition; // 0x28
+		::System::Single speed; // 0x34
 
 		::System::Void _ctor()
 		{

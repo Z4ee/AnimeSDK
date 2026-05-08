@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int LoopType_TypeDefinitionIndex = 24843;
+	inline static constexpr unsigned int LoopType_TypeDefinitionIndex = 25357;
 
 	enum class LoopType : ::System::Int32
 	{

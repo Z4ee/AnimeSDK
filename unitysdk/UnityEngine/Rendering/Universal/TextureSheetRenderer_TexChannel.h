@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int TextureSheetRenderer_TexChannel_TypeDefinitionIndex = 29383;
+	inline static constexpr unsigned int TextureSheetRenderer_TexChannel_TypeDefinitionIndex = 29902;
 
 	enum class TextureSheetRenderer_TexChannel : ::System::Int32
 	{

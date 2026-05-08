@@ -21,44 +21,44 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11> class Func_11; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKPATTERN_GETCOLLISIONCENTER_OFFSET UNITYSDK_OFFSET(0xBAF1350)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF1580)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKPATTERN_GETCOLLISIONCENTER_OFFSET UNITYSDK_OFFSET(0x186B0410)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x186B0610)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackPattern_TypeDefinitionIndex = 53375;
+	inline static constexpr unsigned int ConfigEntityAttackPattern_TypeDefinitionIndex = 71087;
 
 	class ConfigEntityAttackPattern : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::GameplayTag>* BeBlockTags; // 0x10
-		::Il2CppArray<::System::String*>* TagList; // 0x18
-		::System::String* BaseAttachPoint; // 0x20
-		::System::Func_14<::Class_1_1CDA382D823F8E80*, ::MoleMole::Config::ConfigEntityAttackPattern*, ::MoleMole::Battle::Entity*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_Enum_3_C3BBA2B066959E6E, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::UInt32, ::System::Boolean, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::List_1<::Class_1_560B23058CA4940C*>*, ::Struct_2_B76C9DBDAECC6C19, ::System::Boolean, ::System::Boolean>* patternMethodWithPosRot; // 0x28
-		::System::Func_11<::Class_1_1CDA382D823F8E80*, ::MoleMole::Config::ConfigEntityAttackPattern*, ::MoleMole::Battle::Entity*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_Enum_3_C3BBA2B066959E6E, ::System::Boolean, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::List_1<::Class_1_560B23058CA4940C*>*, ::Struct_2_B76C9DBDAECC6C19, ::System::Boolean, ::System::Boolean>* patternMethod; // 0x30
-		::System::String* BaseCenterTargetCustomKey; // 0x38
-		::System::Single CenterZOffset; // 0x40
-		::System::Boolean LockXAxis; // 0x44
-		::System::Boolean IsAngleOffsetLocal; // 0x45
-		::System::Boolean LockZAxis; // 0x46
-		::MoleMole::Config::ConfigEntityAttackPattern_BaseRotYType BaseYRotType; // 0x48
-		::System::Single CenterXOffset; // 0x4C
-		::MoleMole::Config::AbilityTargetting BaseCenterTarget; // 0x50
-		::System::Boolean IsSubtractive; // 0x54
-		::System::Boolean ShowDebug; // 0x55
-		::System::Single AngleYOffset; // 0x58
-		::System::Single DebugAttackRate; // 0x5C
-		::System::Single AttackResultFilterCoreDistance; // 0x60
-		::System::Single AngleXOffset; // 0x64
-		::MoleMole::Config::ConfigEntityAttackPattern_BaseRotXZType BaseXZRotType; // 0x68
-		::MoleMole::Config::ConfigEntityAttackPattern_BasePosXZType BaseXZType; // 0x6C
-		::System::Boolean IgnoreOnParryBeingHitCallback; // 0x70
-		::System::Boolean OpenDebugAttackRate; // 0x71
-		::System::Boolean ForceAttackInvincibleTarget; // 0x72
-		::System::Boolean LockYAxis; // 0x73
-		::MoleMole::Config::ConfigEntityAttackPattern_BasePosYType BaseYType; // 0x74
-		::System::Single CenterYOffset; // 0x78
-		::System::Single AngleZOffset; // 0x7C
+		::System::String* BaseAttachPoint; // 0x10
+		::System::String* BaseCenterTargetCustomKey; // 0x18
+		::System::Func_14<::Class_1_1CDA382D823F8E80*, ::MoleMole::Config::ConfigEntityAttackPattern*, ::MoleMole::Battle::Entity*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_Enum_3_C3BBA2B066959E6E, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::UInt32, ::System::Boolean, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::List_1<::Class_1_560B23058CA4940C*>*, ::Struct_2_B76C9DBDAECC6C19, ::System::Boolean, ::System::Boolean>* patternMethodWithPosRot; // 0x20
+		::Il2CppArray<::System::String*>* TagList; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::GameplayTag>* BeBlockTags; // 0x30
+		::System::Func_11<::Class_1_1CDA382D823F8E80*, ::MoleMole::Config::ConfigEntityAttackPattern*, ::MoleMole::Battle::Entity*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_Enum_3_C3BBA2B066959E6E, ::System::Boolean, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::List_1<::Class_1_560B23058CA4940C*>*, ::Struct_2_B76C9DBDAECC6C19, ::System::Boolean, ::System::Boolean>* patternMethod; // 0x38
+		::MoleMole::Config::AbilityTargetting BaseCenterTarget; // 0x40
+		::System::Single CenterYOffset; // 0x44
+		::System::Single AngleXOffset; // 0x48
+		::System::Single CenterZOffset; // 0x4C
+		::MoleMole::Config::ConfigEntityAttackPattern_BaseRotXZType BaseXZRotType; // 0x50
+		::System::Single AngleZOffset; // 0x54
+		::System::Boolean OpenDebugAttackRate; // 0x58
+		::System::Boolean LockZAxis; // 0x59
+		::System::Boolean IsSubtractive; // 0x5A
+		::MoleMole::Config::ConfigEntityAttackPattern_BasePosYType BaseYType; // 0x5C
+		::System::Single AngleYOffset; // 0x60
+		::System::Boolean ForceAttackInvincibleTarget; // 0x64
+		::System::Boolean IsAngleOffsetLocal; // 0x65
+		::MoleMole::Config::ConfigEntityAttackPattern_BasePosXZType BaseXZType; // 0x68
+		::System::Single DebugAttackRate; // 0x6C
+		::MoleMole::Config::ConfigEntityAttackPattern_BaseRotYType BaseYRotType; // 0x70
+		::System::Single AttackResultFilterCoreDistance; // 0x74
+		::System::Boolean IgnoreOnParryBeingHitCallback; // 0x78
+		::System::Boolean LockYAxis; // 0x79
+		::System::Boolean LockXAxis; // 0x7A
+		::System::Boolean ShowDebug; // 0x7B
+		::System::Single CenterXOffset; // 0x7C
 
 		::System::Void _ctor()
 		{

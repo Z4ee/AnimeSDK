@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_PAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x37A130)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_PAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x5786E0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyString_Pair_TypeDefinitionIndex = 80977;
+	inline static constexpr unsigned int RubyString_Pair_TypeDefinitionIndex = 75658;
 
 	struct alignas(8) RubyString_Pair
 	{

@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIFlowerMainTagWidgetController; }
-template <typename T> class Class_0_16E4307DCC419505_95;
+template <typename T> class Class_0_16E4307DCC41950C_12;
 
-#define MOLEMOLE_UIFLOWERMAINTARGETROLE_TAGNUMWIDGETCONTROLLER___C__DISPLAYCLASS7_1__BUILDDATABINDING_B__2_OFFSET UNITYSDK_OFFSET(0xA96E8C0)
-#define MOLEMOLE_UIFLOWERMAINTARGETROLE_TAGNUMWIDGETCONTROLLER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA96E8B0)
+#define MOLEMOLE_UIFLOWERMAINTARGETROLE_TAGNUMWIDGETCONTROLLER___C__DISPLAYCLASS7_1__BUILDDATABINDING_B__2_OFFSET UNITYSDK_OFFSET(0x1518E7A0)
+#define MOLEMOLE_UIFLOWERMAINTARGETROLE_TAGNUMWIDGETCONTROLLER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1518E790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerMainTargetRole_TagNumWidgetController___c__DisplayClass7_1_TypeDefinitionIndex = 46960;
+	inline static constexpr unsigned int UIFlowerMainTargetRole_TagNumWidgetController___c__DisplayClass7_1_TypeDefinitionIndex = 71987;
 
 	class UIFlowerMainTargetRole_TagNumWidgetController___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIFlowerMainTagWidgetController* widget; // 0x10
-		::Class_0_16E4307DCC419505_95<::System::Int32>* property; // 0x18
+		::Class_0_16E4307DCC41950C_12<::System::Int32>* property; // 0x18
 
 		::System::Void _ctor()
 		{

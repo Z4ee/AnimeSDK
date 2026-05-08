@@ -40,7 +40,7 @@ namespace UnityEngine { class Camera; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraContext_2_TypeDefinitionIndex = 35333;
+	inline static constexpr unsigned int CameraContext_2_TypeDefinitionIndex = 35877;
 
 	template <typename TCameraController, typename TPlayerController>
 	class CameraContext_2 : public ::System::Object

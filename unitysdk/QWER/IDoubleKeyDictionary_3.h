@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace QWER
 {
-	inline static constexpr unsigned int IDoubleKeyDictionary_3_TypeDefinitionIndex = 8576;
+	inline static constexpr unsigned int IDoubleKeyDictionary_3_TypeDefinitionIndex = 8587;
 
 	template <typename TKey, typename TSubKey, typename TValue>
 	class IDoubleKeyDictionary_3

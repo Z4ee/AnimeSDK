@@ -3,24 +3,24 @@
 #include "unitysdk/MoleMole/MonoPartySceneObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_46F9B5CD0413848F;
+class Class_1_F30FB7E64B027333;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONORECYCLEOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0xC321B00)
-#define MOLEMOLE_MONORECYCLEOBJ_METHOD_8_01BEC92F3CDF67C6_OFFSET UNITYSDK_OFFSET(0xC322440)
-#define MOLEMOLE_MONORECYCLEOBJ_METHOD_8_BA21ABBB8FC549AB_OFFSET UNITYSDK_OFFSET(0xC322070)
-#define MOLEMOLE_MONORECYCLEOBJ_METHOD_8_CB8990539979E8D7_OFFSET UNITYSDK_OFFSET(0xC321FE0)
-#define MOLEMOLE_MONORECYCLEOBJ_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC322290)
-#define MOLEMOLE_MONORECYCLEOBJ_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0xC321C90)
-#define MOLEMOLE_MONORECYCLEOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xC322360)
-#define MOLEMOLE_MONORECYCLEOBJ___BASE_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0xC3223D0)
+#define MOLEMOLE_MONORECYCLEOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E4F3D0)
+#define MOLEMOLE_MONORECYCLEOBJ_METHOD_8_01BEC92F3CDF67C6_OFFSET UNITYSDK_OFFSET(0x15E4FCB0)
+#define MOLEMOLE_MONORECYCLEOBJ_METHOD_8_3D25BCF2F8C75054_OFFSET UNITYSDK_OFFSET(0x15E4F8C0)
+#define MOLEMOLE_MONORECYCLEOBJ_METHOD_8_C5EF8C7D91E6717A_OFFSET UNITYSDK_OFFSET(0x15E4F850)
+#define MOLEMOLE_MONORECYCLEOBJ_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E4FAC0)
+#define MOLEMOLE_MONORECYCLEOBJ_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0x15E4F540)
+#define MOLEMOLE_MONORECYCLEOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x15E4FB70)
+#define MOLEMOLE_MONORECYCLEOBJ___BASE_ONDOUPDATE_OFFSET UNITYSDK_OFFSET(0x15E4FC20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRecycleObj_TypeDefinitionIndex = 63138;
+	inline static constexpr unsigned int MonoRecycleObj_TypeDefinitionIndex = 50018;
 
 	class MonoRecycleObj : public ::MoleMole::MonoPartySceneObject
 	{
@@ -31,8 +31,8 @@ namespace MoleMole
 		::UnityEngine::Vector3 rotationEuler; // 0x48
 		::System::Single thresholdY; // 0x54
 		::System::Int32 Field_8_5; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_46F9B5CD0413848F*>* generatedItemDict; // 0x60
-		::System::Collections::Generic::Queue_1<::Class_1_46F9B5CD0413848F*>* recycledItems; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_F30FB7E64B027333*>* generatedItemDict; // 0x60
+		::System::Collections::Generic::Queue_1<::Class_1_F30FB7E64B027333*>* recycledItems; // 0x68
 		::System::Collections::Generic::List_1<::System::UInt32>* toRecycleList; // 0x70
 
 		::System::Void _ctor()
@@ -60,19 +60,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ___BASE_ONDOUPDATE_OFFSET))(this, a1);
 		}
 
-		::Class_1_46F9B5CD0413848F* Method_8_01BEC92F3CDF67C6()
+		::Class_1_F30FB7E64B027333* Method_8_01BEC92F3CDF67C6()
 		{
-			return ((::Class_1_46F9B5CD0413848F*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ_METHOD_8_01BEC92F3CDF67C6_OFFSET))(this);
+			return ((::Class_1_F30FB7E64B027333*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ_METHOD_8_01BEC92F3CDF67C6_OFFSET))(this);
 		}
 
-		::System::Void Method_8_BA21ABBB8FC549AB(::System::UInt32 a1)
+		::System::Void Method_8_C5EF8C7D91E6717A(::Class_1_F30FB7E64B027333* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ_METHOD_8_BA21ABBB8FC549AB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F30FB7E64B027333*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ_METHOD_8_C5EF8C7D91E6717A_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_8_CB8990539979E8D7(::Class_1_46F9B5CD0413848F* a1)
+		::System::Void Method_8_3D25BCF2F8C75054(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_46F9B5CD0413848F*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ_METHOD_8_CB8990539979E8D7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONORECYCLEOBJ_METHOD_8_3D25BCF2F8C75054_OFFSET))(this, a1);
 		}
 	};
 }

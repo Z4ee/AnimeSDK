@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableQueue_1_TypeDefinitionIndex = 25167;
+	inline static constexpr unsigned int ObservableQueue_1_TypeDefinitionIndex = 25789;
 
 	template <typename T>
 	class ObservableQueue_1 : public ::System::Object

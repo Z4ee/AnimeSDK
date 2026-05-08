@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_UIINTERKNOTPAGECONFIG_MAINCITYQUESTTYPEROWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7F91E70)
+#define MOLEMOLE_UIINTERKNOTPAGECONFIG_MAINCITYQUESTTYPEROWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x146A3920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPageConfig_MainCityQuestTypeRowConfig_TypeDefinitionIndex = 46944;
+	inline static constexpr unsigned int UIInterKnotPageConfig_MainCityQuestTypeRowConfig_TypeDefinitionIndex = 62790;
 
 	class UIInterKnotPageConfig_MainCityQuestTypeRowConfig : public ::System::Object
 	{

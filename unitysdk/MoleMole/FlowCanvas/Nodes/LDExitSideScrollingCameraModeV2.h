@@ -7,20 +7,20 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSIDESCROLLINGCAMERAMODEV2_HANDLEFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x1164B0F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSIDESCROLLINGCAMERAMODEV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1164AFA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSIDESCROLLINGCAMERAMODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1164B730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSIDESCROLLINGCAMERAMODEV2_HANDLEFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x10BA3F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSIDESCROLLINGCAMERAMODEV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10BA3E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSIDESCROLLINGCAMERAMODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA4580)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDExitSideScrollingCameraModeV2_TypeDefinitionIndex = 60614;
+	inline static constexpr unsigned int LDExitSideScrollingCameraModeV2_TypeDefinitionIndex = 49526;
 
 	class LDExitSideScrollingCameraModeV2 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* _tag; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _isBlendOutCut; // 0xB0
-		::FlowCanvas::FlowOutput* _output; // 0xB8
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* _tag; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _isBlendOutCut; // 0xB8
 		::FlowCanvas::FlowOutput* _onBlendOutFinished; // 0xC0
 
 		::System::Void _ctor()

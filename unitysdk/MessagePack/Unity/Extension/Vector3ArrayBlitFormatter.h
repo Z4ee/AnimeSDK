@@ -3,12 +3,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_VECTOR3ARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x19FF7C30)
-#define MESSAGEPACK_UNITY_EXTENSION_VECTOR3ARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF7C40)
+#define MESSAGEPACK_UNITY_EXTENSION_VECTOR3ARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1ADB67C0)
+#define MESSAGEPACK_UNITY_EXTENSION_VECTOR3ARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB67D0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int Vector3ArrayBlitFormatter_TypeDefinitionIndex = 25990;
+	inline static constexpr unsigned int Vector3ArrayBlitFormatter_TypeDefinitionIndex = 28164;
 
 	class Vector3ArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_1<::UnityEngine::Vector3>
 	{

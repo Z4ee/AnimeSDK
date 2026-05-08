@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LazyUtil_1_TypeDefinitionIndex = 18501;
+	inline static constexpr unsigned int LazyUtil_1_TypeDefinitionIndex = 18840;
 
 	template <typename T>
 	class LazyUtil_1 : public ::System::Object

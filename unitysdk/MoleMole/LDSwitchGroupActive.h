@@ -6,21 +6,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_LDSWITCHGROUPACTIVE_INPUT_OFFSET UNITYSDK_OFFSET(0xB83DDE0)
-#define MOLEMOLE_LDSWITCHGROUPACTIVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB83DC90)
-#define MOLEMOLE_LDSWITCHGROUPACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB83E240)
+#define MOLEMOLE_LDSWITCHGROUPACTIVE_INPUT_OFFSET UNITYSDK_OFFSET(0x17817880)
+#define MOLEMOLE_LDSWITCHGROUPACTIVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17817750)
+#define MOLEMOLE_LDSWITCHGROUPACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17817CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LDSwitchGroupActive_TypeDefinitionIndex = 73799;
+	inline static constexpr unsigned int LDSwitchGroupActive_TypeDefinitionIndex = 62835;
 
 	class LDSwitchGroupActive : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::UInt32>* _groupId; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _isActive; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::UInt32>* _suiteId; // 0xB8
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::UInt32>* _suiteId; // 0xA8
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::UInt32>* _groupId; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _isActive; // 0xC0
 
 		::System::Void _ctor()
 		{

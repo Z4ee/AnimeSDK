@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ICreatable_TypeDefinitionIndex = 8023;
+	inline static constexpr unsigned int ICreatable_TypeDefinitionIndex = 7933;
 
 	class ICreatable
 	{

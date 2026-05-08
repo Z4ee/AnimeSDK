@@ -7,18 +7,18 @@
 namespace MoleMole { class UIBangBooUAVLevelPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C0CB0)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x75AEE0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController__ShowTipsAsync_d__22_TypeDefinitionIndex = 40626;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController__ShowTipsAsync_d__22_TypeDefinitionIndex = 41738;
 
 	struct alignas(8) UIBangBooUAVLevelPageController__ShowTipsAsync_d__22
 	{
-		::MoleMole::UIBangBooUAVLevelPageController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIBangBooUAVLevelPageController* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

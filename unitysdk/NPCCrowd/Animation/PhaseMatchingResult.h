@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_GET_COMPAREVECTOR_OFFSET UNITYSDK_OFFSET(0x316380)
-#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_UPDATE_OFFSET UNITYSDK_OFFSET(0x316320)
+#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_GET_COMPAREVECTOR_OFFSET UNITYSDK_OFFSET(0x687F70)
+#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_UPDATE_OFFSET UNITYSDK_OFFSET(0x687F10)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int PhaseMatchingResult_TypeDefinitionIndex = 39188;
+	inline static constexpr unsigned int PhaseMatchingResult_TypeDefinitionIndex = 60120;
 
 	struct alignas(4) PhaseMatchingResult
 	{

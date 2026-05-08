@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass44_1_TypeDefinitionIndex = 64641;
+	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass44_1_TypeDefinitionIndex = 72942;
 
 	struct alignas(4) UIVHSStoreWidgetWidgetController___c__DisplayClass44_1
 	{

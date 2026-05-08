@@ -6,25 +6,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1B68A420)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_DISPOSECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B68A630)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_REGISTERWITHOUTCAPTUREEXECUTIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1B68A470)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B68A720)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1C4429F0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_DISPOSECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C442BD0)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_REGISTERWITHOUTCAPTUREEXECUTIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C442A60)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C442CF0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CancellationTokenExtensions_TypeDefinitionIndex = 28007;
+	inline static constexpr unsigned int CancellationTokenExtensions_TypeDefinitionIndex = 28525;
 
 	class CancellationTokenExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet_cancellationTokenCallback()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CancellationTokenExtensions_TypeDefinitionIndex)->GetStaticField(0x21190);
-		}
 		static ::System::Action_1<::System::Object*>** StaticGet_disposeCallback()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CancellationTokenExtensions_TypeDefinitionIndex)->GetStaticField(0x21198);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CancellationTokenExtensions_TypeDefinitionIndex)->GetStaticField(0x21D00);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationTokenCallback()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CancellationTokenExtensions_TypeDefinitionIndex)->GetStaticField(0x21D08);
 		}
 
 		static ::System::Void _cctor()

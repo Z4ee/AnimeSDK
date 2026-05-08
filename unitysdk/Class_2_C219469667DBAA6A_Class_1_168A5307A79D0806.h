@@ -10,21 +10,21 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_2_C219469667DBAA6A_CLASS_1_168A5307A79D0806_METHOD_1_2CA7A456F23971D0_OFFSET UNITYSDK_OFFSET(0xAEDE500)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_168A5307A79D0806_METHOD_1_4B4F27F8A1528C8D_OFFSET UNITYSDK_OFFSET(0xAEDE5F0)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_168A5307A79D0806__CTOR_OFFSET UNITYSDK_OFFSET(0xAEDE4F0)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_168A5307A79D0806_METHOD_1_2CA7A456F23971D0_OFFSET UNITYSDK_OFFSET(0x104F3630)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_168A5307A79D0806_METHOD_1_4B4F27F8A1528C8D_OFFSET UNITYSDK_OFFSET(0x104F3700)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_168A5307A79D0806__CTOR_OFFSET UNITYSDK_OFFSET(0x104F3620)
 
-inline static constexpr unsigned int Class_2_C219469667DBAA6A_Class_1_168A5307A79D0806_TypeDefinitionIndex = 39299;
+inline static constexpr unsigned int Class_2_C219469667DBAA6A_Class_1_168A5307A79D0806_TypeDefinitionIndex = 59415;
 
 class Class_2_C219469667DBAA6A_Class_1_168A5307A79D0806 : public ::System::Object
 {
 public:
-	::System::Action_3<::Foundation::AssetPath, ::System::Int32, ::System::Int32>* Field_1_0; // 0x10
-	::Class_2_C219469667DBAA6A* Field_1_4; // 0x18
-	::System::Int32 Field_1_2; // 0x20
-	::System::UInt64 Field_1_1; // 0x28
-	::System::Int32 Field_1_3; // 0x30
-	::Class_2_C219469667DBAA6A_Enum_3_554CAED038424452 Field_1_5; // 0x34
+	::Class_2_C219469667DBAA6A* Field_1_4; // 0x10
+	::System::Action_3<::Foundation::AssetPath, ::System::Int32, ::System::Int32>* Field_1_0; // 0x18
+	::System::UInt64 Field_1_1; // 0x20
+	::System::Int32 Field_1_3; // 0x28
+	::System::Int32 Field_1_2; // 0x2C
+	::Class_2_C219469667DBAA6A_Enum_3_554CAED038424452 Field_1_5; // 0x30
 
 	::System::Void _ctor()
 	{

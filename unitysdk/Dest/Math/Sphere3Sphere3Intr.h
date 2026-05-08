@@ -7,7 +7,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Sphere3Sphere3Intr_TypeDefinitionIndex = 32634;
+	inline static constexpr unsigned int Sphere3Sphere3Intr_TypeDefinitionIndex = 33169;
 
 	struct alignas(4) Sphere3Sphere3Intr
 	{

@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FramePivotInCoreChannel_TypeDefinitionIndex = 35832;
+	inline static constexpr unsigned int FramePivotInCoreChannel_TypeDefinitionIndex = 36376;
 
 	enum class FramePivotInCoreChannel : ::System::Int32
 	{

@@ -10,11 +10,11 @@
 
 namespace System { class String; }
 
-#define DG_TWEENING_CORE_DOTWEENSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5DCFB0)
+#define DG_TWEENING_CORE_DOTWEENSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A8B40)
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int DOTweenSettings_TypeDefinitionIndex = 24983;
+	inline static constexpr unsigned int DOTweenSettings_TypeDefinitionIndex = 25497;
 
 	class DOTweenSettings : public ::UnityEngine::ScriptableObject
 	{

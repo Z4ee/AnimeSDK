@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ALLENTITYSELECTOR_METHOD_2_D21063487E31AA56_OFFSET UNITYSDK_OFFSET(0xCAD2090)
-#define MOLEMOLE_CONFIG_ALLENTITYSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCAD21C0)
+#define MOLEMOLE_CONFIG_ALLENTITYSELECTOR_METHOD_2_7ED352960D29933F_OFFSET UNITYSDK_OFFSET(0xF9697A0)
+#define MOLEMOLE_CONFIG_ALLENTITYSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xF9698A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AllEntitySelector_TypeDefinitionIndex = 69170;
+	inline static constexpr unsigned int AllEntitySelector_TypeDefinitionIndex = 42484;
 
 	class AllEntitySelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
@@ -20,9 +20,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ALLENTITYSELECTOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_D21063487E31AA56(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_7ED352960D29933F(::MoleMole::Battle::Entity* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ALLENTITYSELECTOR_METHOD_2_D21063487E31AA56_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ALLENTITYSELECTOR_METHOD_2_7ED352960D29933F_OFFSET))(this, a1);
 		}
 	};
 }

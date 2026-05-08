@@ -6,12 +6,12 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYSKILLCDPAUSESTATEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x94ECBB0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYSKILLCDPAUSESTATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x94ECCA0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYSKILLCDPAUSESTATEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x124095C0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYSKILLCDPAUSESTATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x124096D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventModifySkillCdPauseStateEntry_TypeDefinitionIndex = 80489;
+	inline static constexpr unsigned int AnimatorEventModifySkillCdPauseStateEntry_TypeDefinitionIndex = 71678;
 
 	class AnimatorEventModifySkillCdPauseStateEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

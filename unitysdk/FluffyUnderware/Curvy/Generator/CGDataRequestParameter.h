@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTPARAMETER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A8C5C60)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C5C70)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTPARAMETER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B727570)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B727580)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGDataRequestParameter_TypeDefinitionIndex = 36756;
+	inline static constexpr unsigned int CGDataRequestParameter_TypeDefinitionIndex = 37300;
 
 	class CGDataRequestParameter : public ::System::Object
 	{

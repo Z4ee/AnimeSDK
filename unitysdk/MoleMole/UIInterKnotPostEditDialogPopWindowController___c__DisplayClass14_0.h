@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_900;
+class Class_2_208CC9941471731A_549;
 namespace MoleMole { class NotificationBadgeEx; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8E6D0)
-#define MOLEMOLE_UIINTERKNOTPOSTEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHTAB_B__0_OFFSET UNITYSDK_OFFSET(0x9A8E6E0)
+#define MOLEMOLE_UIINTERKNOTPOSTEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15551710)
+#define MOLEMOLE_UIINTERKNOTPOSTEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHTAB_B__0_OFFSET UNITYSDK_OFFSET(0x15551720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostEditDialogPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 45723;
+	inline static constexpr unsigned int UIInterKnotPostEditDialogPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 71539;
 
 	class UIInterKnotPostEditDialogPopWindowController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_900* item; // 0x10
+		::Class_2_208CC9941471731A_549* item; // 0x10
 
 		::System::Void _ctor()
 		{

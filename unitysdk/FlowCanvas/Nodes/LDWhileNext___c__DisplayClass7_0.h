@@ -6,13 +6,13 @@
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Nodes { class LDWhileNext; }
 
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FF650)
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0xA3FF660)
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0xA3FF720)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x136376B0)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x136376C0)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x13637850)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWhileNext___c__DisplayClass7_0_TypeDefinitionIndex = 47710;
+	inline static constexpr unsigned int LDWhileNext___c__DisplayClass7_0_TypeDefinitionIndex = 46802;
 
 	class LDWhileNext___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_TokenType_TypeDefinitionIndex = 18800;
+	inline static constexpr unsigned int HoYoPassSDK_TokenType_TypeDefinitionIndex = 19149;
 
 	enum class HoYoPassSDK_TokenType : ::System::Int32
 	{

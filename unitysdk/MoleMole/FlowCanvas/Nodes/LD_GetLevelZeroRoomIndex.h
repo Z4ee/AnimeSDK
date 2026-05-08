@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELZEROROOMINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0xA7D80E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELZEROROOMINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D8270)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELZEROROOMINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x16048210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELZEROROOMINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x160483F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetLevelZeroRoomIndex_TypeDefinitionIndex = 66730;
+	inline static constexpr unsigned int LD_GetLevelZeroRoomIndex_TypeDefinitionIndex = 47179;
 
 	class LD_GetLevelZeroRoomIndex : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
 	{

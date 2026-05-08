@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x311B30)
-#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x311B40)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x570CD0)
+#define NPCCROWD_ANIMATION_LOGICARCHETYPEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x570CE0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int LogicArchetypeKey_TypeDefinitionIndex = 52836;
+	inline static constexpr unsigned int LogicArchetypeKey_TypeDefinitionIndex = 73253;
 
 	struct alignas(1) LogicArchetypeKey
 	{

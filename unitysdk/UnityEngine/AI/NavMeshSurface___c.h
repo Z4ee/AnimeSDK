@@ -7,39 +7,39 @@ namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::AI { class NavMeshModifier; }
 namespace UnityEngine::AI { class NavMeshModifierVolume; }
 
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__APPENDMODIFIERVOLUMES_B__81_0_OFFSET UNITYSDK_OFFSET(0x1B5B3C20)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5B3BD0)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__82_0_OFFSET UNITYSDK_OFFSET(0x1B5B3C40)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__82_1_OFFSET UNITYSDK_OFFSET(0x1B5B3C60)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__82_2_OFFSET UNITYSDK_OFFSET(0x1B5B3E10)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B3C10)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__APPENDMODIFIERVOLUMES_B__81_0_OFFSET UNITYSDK_OFFSET(0x1C39ABA0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C39AB50)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__82_0_OFFSET UNITYSDK_OFFSET(0x1C39ABC0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__82_1_OFFSET UNITYSDK_OFFSET(0x1C39ABE0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__82_2_OFFSET UNITYSDK_OFFSET(0x1C39AE80)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C39AB90)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshSurface___c_TypeDefinitionIndex = 35239;
+	inline static constexpr unsigned int NavMeshSurface___c_TypeDefinitionIndex = 35783;
 
 	class NavMeshSurface___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>** StaticGet___9__82_2()
-		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26320);
-		}
 		static ::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>** StaticGet___9__82_1()
 		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26328);
-		}
-		static ::UnityEngine::AI::NavMeshSurface___c** StaticGet___9()
-		{
-			return (::UnityEngine::AI::NavMeshSurface___c**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26330);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26ED0);
 		}
 		static ::System::Predicate_1<::UnityEngine::AI::NavMeshModifierVolume*>** StaticGet___9__81_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifierVolume*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26338);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifierVolume*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26ED8);
+		}
+		static ::UnityEngine::AI::NavMeshSurface___c** StaticGet___9()
+		{
+			return (::UnityEngine::AI::NavMeshSurface___c**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26EE0);
+		}
+		static ::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>** StaticGet___9__82_2()
+		{
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26EE8);
 		}
 		static ::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>** StaticGet___9__82_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26340);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x26EF0);
 		}
 
 		static ::System::Void _cctor()

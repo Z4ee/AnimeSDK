@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS12_0__BINDCLICKCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x9128DF0)
-#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9128DE0)
+#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS12_0__BINDCLICKCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15A24D30)
+#define MOLEMOLE_UIGENERALTOGGLEWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A24D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralToggleWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 72431;
+	inline static constexpr unsigned int UIGeneralToggleWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 55227;
 
 	class UIGeneralToggleWidgetController___c__DisplayClass12_0 : public ::System::Object
 	{

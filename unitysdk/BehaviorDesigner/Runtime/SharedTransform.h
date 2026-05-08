@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B32F4B0)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32F550)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C1B66C0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B6780)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedTransform_TypeDefinitionIndex = 31214;
+	inline static constexpr unsigned int SharedTransform_TypeDefinitionIndex = 31743;
 
 	class SharedTransform : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Transform*>
 	{

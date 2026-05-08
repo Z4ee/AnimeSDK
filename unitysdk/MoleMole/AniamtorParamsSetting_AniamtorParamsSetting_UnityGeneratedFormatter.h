@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE2A0F70)
-#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE2A0F80)
-#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE2A12F0)
-#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE2A1560)
-#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A1520)
+#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x174264D0)
+#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x174264E0)
+#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17426840)
+#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17426A90)
+#define MOLEMOLE_ANIAMTORPARAMSSETTING_ANIAMTORPARAMSSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17426A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 71561;
+	inline static constexpr unsigned int AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 55984;
 
 	class AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::AniamtorParamsSetting*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33BA0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33BA8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x346A0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33BB0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x346A8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(AniamtorParamsSetting_AniamtorParamsSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x346B0);
 		}
 
 		::System::Void _ctor()

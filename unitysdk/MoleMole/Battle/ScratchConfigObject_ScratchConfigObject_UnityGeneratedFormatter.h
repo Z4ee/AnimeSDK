@@ -19,74 +19,74 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x84E7DF0)
-#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x84E7E00)
-#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x84E8D10)
-#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x84E9610)
-#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x84E95D0)
+#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xECE5620)
+#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xECE5630)
+#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xECE6510)
+#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xECE6DE0)
+#define MOLEMOLE_BATTLE_SCRATCHCONFIGOBJECT_SCRATCHCONFIGOBJECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xECE6DA0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex = 47912;
+	inline static constexpr unsigned int ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex = 69343;
 
 	class ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Battle::ScratchConfigObject*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayAxis>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayAxis>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CB0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::WeaponDamageDecalType>** StaticGet_CachedSerializer10()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::WeaponDamageDecalType>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CB8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_CachedSerializer11()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CC0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer9()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CC8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CD0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayMethod>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayMethod>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CD8);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer8()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CE0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::Vector3Range>** StaticGet_CachedSerializer12()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::Vector3Range>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CE8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>** StaticGet_CachedSerializer13()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CF0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_ScratchPreferMethod>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_ScratchPreferMethod>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43CF8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer7()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D00);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45600);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_NormalMethod>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_NormalMethod>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D08);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_NormalMethod>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45608);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer6()
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayMethod>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D10);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayMethod>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45610);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D18);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45618);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer7()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45620);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayAxis>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_RayAxis>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45628);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::WeaponDamageDecalType>** StaticGet_CachedSerializer10()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::WeaponDamageDecalType>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45630);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_ScratchPreferMethod>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneHitWallEffect_ScratchPreferMethod>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45638);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>** StaticGet_CachedSerializer13()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45640);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::Vector3Range>** StaticGet_CachedSerializer12()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::Vector3Range>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45648);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45650);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45658);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_CachedSerializer11()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45660);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer9()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ScratchConfigObject_ScratchConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45668);
 		}
 
 		::System::Void _ctor()

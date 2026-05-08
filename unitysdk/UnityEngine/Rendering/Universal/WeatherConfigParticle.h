@@ -4,22 +4,22 @@
 
 namespace UnityEngine::Rendering::Universal { class SingleWeatherConfigParticle; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE_DEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x19B71A90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE_GETINDEX_OFFSET UNITYSDK_OFFSET(0x19B71AF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE_LERP_OFFSET UNITYSDK_OFFSET(0x19B71BF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B71FB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B71F60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE_DEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x1B08E720)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1B08E7A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE_LERP_OFFSET UNITYSDK_OFFSET(0x1B08E960)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B08EE20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B08ED90)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigParticle_TypeDefinitionIndex = 29288;
+	inline static constexpr unsigned int WeatherConfigParticle_TypeDefinitionIndex = 29807;
 
 	class WeatherConfigParticle : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::SingleWeatherConfigParticle** StaticGet_s_CachedParticleConfig()
 		{
-			return (::UnityEngine::Rendering::Universal::SingleWeatherConfigParticle**)Il2CppClass::FromTypeDefinitionIndex(WeatherConfigParticle_TypeDefinitionIndex)->GetStaticField(0x22FB0);
+			return (::UnityEngine::Rendering::Universal::SingleWeatherConfigParticle**)Il2CppClass::FromTypeDefinitionIndex(WeatherConfigParticle_TypeDefinitionIndex)->GetStaticField(0x23B20);
 		}
 		::System::Boolean isDynamicTime; // 0x18
 		::Il2CppArray<::UnityEngine::Rendering::Universal::SingleWeatherConfigParticle*>* configs; // 0x20

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
-#include "unitysdk/MoleMole/Timeline/VignetteBehaviour_Struct_2_52AD02145F5FCE36_26.h"
+#include "unitysdk/MoleMole/Timeline/VignetteBehaviour_Struct_2_52AD02145F5FCE36_37.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -10,26 +10,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class Vignette; }
 
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0xA495460)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_049F28789E693AA7_OFFSET UNITYSDK_OFFSET(0xA495640)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0xA4968D0)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0xA4968C0)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_AE828D899505A3B4_OFFSET UNITYSDK_OFFSET(0xA495AF0)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0xA4968B0)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0xA4968A0)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xA495A00)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xA496390)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0xA4964F0)
-#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xA496860)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x12FC5C60)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET UNITYSDK_OFFSET(0x12FC6380)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x12FC72A0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x12FC72B0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x12FC72D0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x12FC72C0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_C94BFD63C57EEA33_OFFSET UNITYSDK_OFFSET(0x12FC5EC0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x12FC62B0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x12FC6CE0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x12FC6EC0)
+#define MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC7260)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int VignetteBehaviour_TypeDefinitionIndex = 66403;
+	inline static constexpr unsigned int VignetteBehaviour_TypeDefinitionIndex = 76862;
 
 	class VignetteBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::VignetteBehaviour_Struct_2_52AD02145F5FCE36_26 _methodParm; // 0x18
+		::MoleMole::Timeline::VignetteBehaviour_Struct_2_52AD02145F5FCE36_37 _methodParm; // 0x18
 		::System::Boolean enabled; // 0x50
 		::System::Boolean active_color; // 0x51
 		::System::Boolean use_color; // 0x52
@@ -73,19 +73,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Rendering::Universal::Vignette* Method_4_049F28789E693AA7(::System::Object* a1)
-		{
-			return ((::UnityEngine::Rendering::Universal::Vignette*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_049F28789E693AA7_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
@@ -93,14 +83,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_AE828D899505A3B4()
+		::UnityEngine::Rendering::Universal::Vignette* Method_4_C94BFD63C57EEA33(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_AE828D899505A3B4_OFFSET))(this);
+			return ((::UnityEngine::Rendering::Universal::Vignette*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_C94BFD63C57EEA33_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_4_146BFCE7108816B9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VIGNETTEBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET))(this);
 		}
 	};
 }

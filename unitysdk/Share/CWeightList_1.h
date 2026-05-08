@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Share
 {
-	inline static constexpr unsigned int CWeightList_1_TypeDefinitionIndex = 15682;
+	inline static constexpr unsigned int CWeightList_1_TypeDefinitionIndex = 10401;
 
 	template <typename T>
 	class CWeightList_1 : public ::System::Object

@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_LEVEL_DYNAMICNAVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xBA1B6A0)
+#define MOLEMOLE_LEVEL_DYNAMICNAVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4F170)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int DynamicNavmesh_TypeDefinitionIndex = 45846;
+	inline static constexpr unsigned int DynamicNavmesh_TypeDefinitionIndex = 77526;
 
 	class DynamicNavmesh : public ::UnityEngine::MonoBehaviour
 	{

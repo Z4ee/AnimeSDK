@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IInputUpdateCallbackReceiver_TypeDefinitionIndex = 28704;
+	inline static constexpr unsigned int IInputUpdateCallbackReceiver_TypeDefinitionIndex = 29222;
 
 	class IInputUpdateCallbackReceiver
 	{

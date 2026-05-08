@@ -3,17 +3,17 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ValueCompareType_TypeDefinitionIndex = 40843;
+	inline static constexpr unsigned int ValueCompareType_TypeDefinitionIndex = 60160;
 
 	enum class ValueCompareType : ::System::Int32
 	{
-		Greater = 0,
-		Between = 5,
-		LessEqual = 4,
-		GreaterEqual = 1,
-		Less = 3,
 		NotEqual = 6,
+		Greater = 0,
+		LessEqual = 4,
 		NotNullOrEmpty = 7,
+		GreaterEqual = 1,
 		Equal = 2,
+		Between = 5,
+		Less = 3,
 	};
 }

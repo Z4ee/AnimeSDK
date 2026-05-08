@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VolumeConfig_TypeDefinitionIndex = 34517;
+	inline static constexpr unsigned int MHYSDKC_VolumeConfig_TypeDefinitionIndex = 35053;
 
 	class MHYSDKC_VolumeConfig : public ::System::Object
 	{

@@ -5,39 +5,39 @@
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1318B0)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC1318F0)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__EXITCHOICEEVENT_B__28_1_OFFSET UNITYSDK_OFFSET(0xC131A40)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_0_OFFSET UNITYSDK_OFFSET(0xC131900)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_2_OFFSET UNITYSDK_OFFSET(0xC131A20)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__ONCHOICERESPONSE_B__26_1_OFFSET UNITYSDK_OFFSET(0xC131A30)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169CBBB0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x169CBBF0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__EXITCHOICEEVENT_B__28_1_OFFSET UNITYSDK_OFFSET(0x169CBD50)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_0_OFFSET UNITYSDK_OFFSET(0x169CBC00)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_2_OFFSET UNITYSDK_OFFSET(0x169CBD30)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__ONCHOICERESPONSE_B__26_1_OFFSET UNITYSDK_OFFSET(0x169CBD40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex = 47085;
+	inline static constexpr unsigned int UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex = 64356;
 
 	class UIHollowCardOptionsDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__28_1()
+		static ::System::Action** StaticGet___9__26_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34640);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35160);
 		}
 		static ::MoleMole::UIHollowCardOptionsDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowCardOptionsDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34648);
-		}
-		static ::System::Action** StaticGet___9__26_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34650);
-		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_0()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34658);
+			return (::MoleMole::UIHollowCardOptionsDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35168);
 		}
 		static ::System::Action** StaticGet___9__11_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34660);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35170);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_0()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35178);
+		}
+		static ::System::Action** StaticGet___9__28_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35180);
 		}
 
 		static ::System::Void _cctor()

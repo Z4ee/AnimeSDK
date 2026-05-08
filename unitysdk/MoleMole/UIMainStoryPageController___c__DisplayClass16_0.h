@@ -5,19 +5,19 @@
 namespace MoleMole { class UIMainStoryPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4119E0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSHOWTAPE_B__0_OFFSET UNITYSDK_OFFSET(0xA4119F0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSHOWTAPE_B__1_OFFSET UNITYSDK_OFFSET(0xA411AC0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150F4EB0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSHOWTAPE_B__0_OFFSET UNITYSDK_OFFSET(0x150F4EC0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS16_0__ONSHOWTAPE_B__1_OFFSET UNITYSDK_OFFSET(0x150F4F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass16_0_TypeDefinitionIndex = 40400;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass16_0_TypeDefinitionIndex = 56280;
 
 	class UIMainStoryPageController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainStoryPageController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UIMainStoryPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

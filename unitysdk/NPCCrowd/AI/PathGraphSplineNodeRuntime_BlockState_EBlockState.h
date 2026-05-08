@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineNodeRuntime_BlockState_EBlockState_TypeDefinitionIndex = 46463;
+	inline static constexpr unsigned int PathGraphSplineNodeRuntime_BlockState_EBlockState_TypeDefinitionIndex = 66631;
 
 	enum class PathGraphSplineNodeRuntime_BlockState_EBlockState : ::System::Int32
 	{
-		BlockAtExit = 2,
 		BlockImmediately = 3,
-		BlockAtEnter = 1,
+		BlockAtExit = 2,
 		None = 0,
+		BlockAtEnter = 1,
 	};
 }

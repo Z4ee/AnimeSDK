@@ -4,11 +4,11 @@
 #include "unitysdk/NapStreaming/POIGroupMask.h"
 #include "unitysdk/System/Object.h"
 
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGPOIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC300810)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGPOIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11D98FB0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingData_StreamingPOIData_TypeDefinitionIndex = 76077;
+	inline static constexpr unsigned int NapStreamingData_StreamingPOIData_TypeDefinitionIndex = 68169;
 
 	class NapStreamingData_StreamingPOIData : public ::System::Object
 	{

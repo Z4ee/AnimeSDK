@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int AMLegIKExt_PredictState_TypeDefinitionIndex = 42123;
+inline static constexpr unsigned int AMLegIKExt_PredictState_TypeDefinitionIndex = 57495;
 
 struct alignas(4) AMLegIKExt_PredictState
 {

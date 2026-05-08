@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_AVATARDISPLAYSETTING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC60960)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_AVATARDISPLAYSETTING___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAC609A0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_AVATARDISPLAYSETTING___C__INITTEXTURESHEETUSING_B__62_0_OFFSET UNITYSDK_OFFSET(0xAC609B0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_AVATARDISPLAYSETTING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14EE2AC0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_AVATARDISPLAYSETTING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14EE2B00)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_AVATARDISPLAYSETTING___C__INITTEXTURESHEETUSING_B__62_0_OFFSET UNITYSDK_OFFSET(0x14EE2B10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_AvatarDisplaySetting___c_TypeDefinitionIndex = 58915;
+	inline static constexpr unsigned int UIGalgamePageController_AvatarDisplaySetting___c_TypeDefinitionIndex = 41814;
 
 	class UIGalgamePageController_AvatarDisplaySetting___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__62_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController_AvatarDisplaySetting___c_TypeDefinitionIndex)->GetStaticField(0x3F0F0);
-		}
 		static ::MoleMole::UIGalgamePageController_AvatarDisplaySetting___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGalgamePageController_AvatarDisplaySetting___c**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController_AvatarDisplaySetting___c_TypeDefinitionIndex)->GetStaticField(0x3F0F8);
+			return (::MoleMole::UIGalgamePageController_AvatarDisplaySetting___c**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController_AvatarDisplaySetting___c_TypeDefinitionIndex)->GetStaticField(0x489B0);
+		}
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__62_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIGalgamePageController_AvatarDisplaySetting___c_TypeDefinitionIndex)->GetStaticField(0x489B8);
 		}
 
 		static ::System::Void _cctor()

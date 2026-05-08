@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SafeMobileVerifyMail; }
 
-#define MIHOYO_SDK_WIN_SAFEMOBILEVERIFYMAIL___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B850E0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEVERIFYMAIL___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18B850F0)
+#define MIHOYO_SDK_WIN_SAFEMOBILEVERIFYMAIL___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08E0C0)
+#define MIHOYO_SDK_WIN_SAFEMOBILEVERIFYMAIL___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A08E0D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SafeMobileVerifyMail___c__DisplayClass24_0_TypeDefinitionIndex = 19711;
+	inline static constexpr unsigned int SafeMobileVerifyMail___c__DisplayClass24_0_TypeDefinitionIndex = 20068;
 
 	class SafeMobileVerifyMail___c__DisplayClass24_0 : public ::System::Object
 	{

@@ -6,11 +6,11 @@
 class Class_2_3B0F8CEEFA465A87;
 namespace UnityEngine { class Canvas; }
 
-#define MOLEMOLE_UIAUTOBATTLEMONSTERHUDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC29A8B0)
+#define MOLEMOLE_UIAUTOBATTLEMONSTERHUDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F42980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleMonsterHudWidgetController_Context_TypeDefinitionIndex = 75266;
+	inline static constexpr unsigned int UIAutoBattleMonsterHudWidgetController_Context_TypeDefinitionIndex = 81540;
 
 	class UIAutoBattleMonsterHudWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

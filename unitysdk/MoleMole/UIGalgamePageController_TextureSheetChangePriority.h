@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_TextureSheetChangePriority_TypeDefinitionIndex = 58923;
+	inline static constexpr unsigned int UIGalgamePageController_TextureSheetChangePriority_TypeDefinitionIndex = 41763;
 
 	enum class UIGalgamePageController_TextureSheetChangePriority : ::System::Int32
 	{
-		None = 0,
 		Facial = 2,
+		None = 0,
 		PoseEnd = 1,
 		Pose = 3,
 	};

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Uri; }
 
-#define SYSTEM_NET_CREDENTIALKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A5F5130)
-#define SYSTEM_NET_CREDENTIALKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A5F4FF0)
-#define SYSTEM_NET_CREDENTIALKEY_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x1A5F4D30)
-#define SYSTEM_NET_CREDENTIALKEY_MATCH_OFFSET UNITYSDK_OFFSET(0x1A5F4CC0)
-#define SYSTEM_NET_CREDENTIALKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A5F51D0)
-#define SYSTEM_NET_CREDENTIALKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F4C70)
+#define SYSTEM_NET_CREDENTIALKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B1EA870)
+#define SYSTEM_NET_CREDENTIALKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1EA790)
+#define SYSTEM_NET_CREDENTIALKEY_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x1B1EA4B0)
+#define SYSTEM_NET_CREDENTIALKEY_MATCH_OFFSET UNITYSDK_OFFSET(0x1B1EA410)
+#define SYSTEM_NET_CREDENTIALKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B1EA910)
+#define SYSTEM_NET_CREDENTIALKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1EA3C0)
 
 namespace System::Net
 {
@@ -19,11 +19,11 @@ namespace System::Net
 	class CredentialKey : public ::System::Object
 	{
 	public:
-		::System::Uri* UriPrefix; // 0x10
-		::System::String* AuthenticationType; // 0x18
-		::System::Boolean m_ComputedHashCode; // 0x20
+		::System::String* AuthenticationType; // 0x10
+		::System::Uri* UriPrefix; // 0x18
+		::System::Int32 m_HashCode; // 0x20
 		::System::Int32 UriPrefixLength; // 0x24
-		::System::Int32 m_HashCode; // 0x28
+		::System::Boolean m_ComputedHashCode; // 0x28
 
 		::System::Void _ctor(::System::Uri* uriPrefix, ::System::String* authenticationType)
 		{

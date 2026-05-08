@@ -8,10 +8,10 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define OPAQUESOFTEDGERENDERER_OBJECTINFO_POPUPDRAWCALL_OFFSET UNITYSDK_OFFSET(0x189D60E0)
-#define OPAQUESOFTEDGERENDERER_OBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x189D6320)
+#define OPAQUESOFTEDGERENDERER_OBJECTINFO_POPUPDRAWCALL_OFFSET UNITYSDK_OFFSET(0x19A9CDE0)
+#define OPAQUESOFTEDGERENDERER_OBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9D130)
 
-inline static constexpr unsigned int OpaqueSoftEdgeRenderer_ObjectInfo_TypeDefinitionIndex = 29081;
+inline static constexpr unsigned int OpaqueSoftEdgeRenderer_ObjectInfo_TypeDefinitionIndex = 29600;
 
 class OpaqueSoftEdgeRenderer_ObjectInfo : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 	::UnityEngine::MeshRenderer* meshRenderer; // 0x18
 	::UnityEngine::MaterialPropertyBlock* propertyBlock; // 0x20
 	::UnityEngine::Material* material; // 0x28
-	::System::Int32 softEdgePass; // 0x30
-	::System::Int32 subMeshID; // 0x34
+	::System::Int32 subMeshID; // 0x30
+	::System::Int32 softEdgePass; // 0x34
 
 	::System::Void _ctor()
 	{

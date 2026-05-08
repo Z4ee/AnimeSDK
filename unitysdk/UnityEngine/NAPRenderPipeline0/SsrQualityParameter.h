@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/SsrQuality.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A52B4D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B498630)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

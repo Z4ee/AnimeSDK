@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x75A6DE0)
-#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x75A6DF0)
-#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x75A6FF0)
-#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x75A71B0)
-#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x75A7170)
+#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12F940F0)
+#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12F94100)
+#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12F942E0)
+#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F94480)
+#define MOLEMOLE_LIGHTOVERRIDESHOWSETTING_LIGHTOVERRIDESHOWSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12F94440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 72255;
+	inline static constexpr unsigned int LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter_TypeDefinitionIndex = 79015;
 
 	class LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::LightOverrideShowSetting*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45EE0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::UIAvatarLightSetting*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::UIAvatarLightSetting*>**)Il2CppClass::FromTypeDefinitionIndex(LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45EE8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::UIAvatarLightSetting*>**)Il2CppClass::FromTypeDefinitionIndex(LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46980);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LightOverrideShowSetting_LightOverrideShowSetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46988);
 		}
 
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int AsCoreCameraDataType_2_TypeDefinitionIndex = 35415;
+	inline static constexpr unsigned int AsCoreCameraDataType_2_TypeDefinitionIndex = 35959;
 
 	template <typename TNullable, typename T>
 	struct AsCoreCameraDataType_2

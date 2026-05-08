@@ -1,0 +1,155 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
+
+namespace MoleMole::Timeline
+{
+	inline static constexpr unsigned int CharacterColorCorrectionBehaviour_Struct_2_52AD02145F5FCE3A_14_TypeDefinitionIndex = 54294;
+
+	struct alignas(8) CharacterColorCorrectionBehaviour_Struct_2_52AD02145F5FCE3A_14
+	{
+		::System::Boolean Field_2_0; // 0x10
+		::System::Boolean Field_2_1; // 0x11
+		::System::Boolean Field_2_2; // 0x12
+		::System::Boolean Field_2_3; // 0x13
+		::UnityEngine::Color Field_2_4; // 0x14
+		::System::Boolean Field_2_5; // 0x24
+		::System::Boolean Field_2_6; // 0x25
+		::UnityEngine::Color Field_2_7; // 0x28
+		::System::Boolean Field_2_8; // 0x38
+		::System::Boolean Field_2_9; // 0x39
+		::UnityEngine::Color Field_2_10; // 0x3C
+		::System::Boolean Field_2_11; // 0x4C
+		::System::Boolean Field_2_12; // 0x4D
+		::UnityEngine::Color Field_2_13; // 0x50
+		::System::Boolean Field_2_14; // 0x60
+		::System::Boolean Field_2_15; // 0x61
+		::UnityEngine::Color Field_2_16; // 0x64
+		::System::Boolean Field_2_17; // 0x74
+		::System::Boolean Field_2_18; // 0x75
+		::UnityEngine::Color Field_2_19; // 0x78
+		::System::Boolean Field_2_20; // 0x88
+		::System::Boolean Field_2_21; // 0x89
+		::UnityEngine::Color Field_2_22; // 0x8C
+		::System::Boolean Field_2_23; // 0x9C
+		::System::Boolean Field_2_24; // 0x9D
+		::UnityEngine::Color Field_2_25; // 0xA0
+		::System::Boolean Field_2_26; // 0xB0
+		::System::Boolean Field_2_27; // 0xB1
+		::UnityEngine::Color Field_2_28; // 0xB4
+		::System::Boolean Field_2_29; // 0xC4
+		::System::Boolean Field_2_30; // 0xC5
+		::UnityEngine::Color Field_2_31; // 0xC8
+		::System::Boolean Field_2_32; // 0xD8
+		::System::Boolean Field_2_33; // 0xD9
+		::UnityEngine::Color Field_2_34; // 0xDC
+		::System::Boolean Field_2_35; // 0xEC
+		::System::Boolean Field_2_36; // 0xED
+		::UnityEngine::Color Field_2_37; // 0xF0
+		::System::Boolean Field_2_38; // 0x100
+		::System::Boolean Field_2_39; // 0x101
+		::UnityEngine::Color Field_2_40; // 0x104
+		::System::Boolean Field_2_41; // 0x114
+		::System::Boolean Field_2_42; // 0x115
+		::UnityEngine::Color Field_2_43; // 0x118
+		::System::Boolean Field_2_44; // 0x128
+		::System::Boolean Field_2_45; // 0x129
+		::System::Boolean Field_2_46; // 0x12A
+		::System::Boolean Field_2_47; // 0x12B
+		::System::Boolean Field_2_48; // 0x12C
+		::UnityEngine::Color Field_2_49; // 0x130
+		::System::Boolean Field_2_50; // 0x140
+		::System::Boolean Field_2_51; // 0x141
+		::System::Single Field_2_52; // 0x144
+		::System::Boolean Field_2_53; // 0x148
+		::System::Boolean Field_2_54; // 0x149
+		::System::Single Field_2_55; // 0x14C
+		::System::Boolean Field_2_56; // 0x150
+		::System::Boolean Field_2_57; // 0x151
+		::System::Single Field_2_58; // 0x154
+		::System::Boolean Field_2_59; // 0x158
+		::System::Boolean Field_2_60; // 0x159
+		::System::Single Field_2_61; // 0x15C
+		::System::Boolean Field_2_62; // 0x160
+		::System::Boolean Field_2_63; // 0x161
+		::System::Single Field_2_64; // 0x164
+		::System::Boolean Field_2_65; // 0x168
+		::System::Boolean Field_2_66; // 0x169
+		::System::Single Field_2_67; // 0x16C
+		::System::Boolean Field_2_68; // 0x170
+		::System::Boolean Field_2_69; // 0x171
+		::UnityEngine::Vector4 Field_2_70; // 0x174
+		::System::Boolean Field_2_71; // 0x184
+		::System::Boolean Field_2_72; // 0x185
+		::UnityEngine::Vector4 Field_2_73; // 0x188
+		::System::Boolean Field_2_74; // 0x198
+		::System::Boolean Field_2_75; // 0x199
+		::UnityEngine::Vector4 Field_2_76; // 0x19C
+		::System::Boolean Field_2_77; // 0x1AC
+		::System::Boolean Field_2_78; // 0x1AD
+		::System::Single Field_2_79; // 0x1B0
+		::System::Boolean Field_2_80; // 0x1B4
+		::System::Boolean Field_2_81; // 0x1B5
+		::System::Single Field_2_82; // 0x1B8
+		::System::Boolean Field_2_83; // 0x1BC
+		::System::Boolean Field_2_84; // 0x1BD
+		::System::Single Field_2_85; // 0x1C0
+		::System::Boolean Field_2_86; // 0x1C4
+		::System::Boolean Field_2_87; // 0x1C5
+		::System::Single Field_2_88; // 0x1C8
+		::System::Boolean Field_2_89; // 0x1CC
+		::System::Boolean Field_2_90; // 0x1CD
+		::System::Single Field_2_91; // 0x1D0
+		::System::Boolean Field_2_92; // 0x1D4
+		::System::Boolean Field_2_93; // 0x1D5
+		::System::Boolean Field_2_94; // 0x1D6
+		::System::Boolean Field_2_95; // 0x1D7
+		::System::Boolean Field_2_96; // 0x1D8
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_97; // 0x1E0
+		::System::Boolean Field_2_98; // 0x1E8
+		::System::Boolean Field_2_99; // 0x1E9
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_100; // 0x1F0
+		::System::Boolean Field_2_101; // 0x1F8
+		::System::Boolean Field_2_102; // 0x1F9
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_103; // 0x200
+		::System::Boolean Field_2_104; // 0x208
+		::System::Boolean Field_2_105; // 0x209
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_106; // 0x210
+		::System::Boolean Field_2_107; // 0x218
+		::System::Boolean Field_2_108; // 0x219
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_109; // 0x220
+		::System::Boolean Field_2_110; // 0x228
+		::System::Boolean Field_2_111; // 0x229
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_112; // 0x230
+		::System::Boolean Field_2_113; // 0x238
+		::System::Boolean Field_2_114; // 0x239
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_115; // 0x240
+		::System::Boolean Field_2_116; // 0x248
+		::System::Boolean Field_2_117; // 0x249
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_2_118; // 0x250
+		::System::Boolean Field_2_119; // 0x258
+		::System::Boolean Field_2_120; // 0x259
+		::UnityEngine::Color Field_2_121; // 0x25C
+		::System::Boolean Field_2_122; // 0x26C
+		::System::Boolean Field_2_123; // 0x26D
+		::System::Single Field_2_124; // 0x270
+		::System::Boolean Field_2_125; // 0x274
+		::System::Boolean Field_2_126; // 0x275
+		::System::Single Field_2_127; // 0x278
+		::System::Boolean Field_2_128; // 0x27C
+		::System::Boolean Field_2_129; // 0x27D
+		::System::Single Field_2_130; // 0x280
+		::System::Boolean Field_2_131; // 0x284
+		::System::Boolean Field_2_132; // 0x285
+		::System::Single Field_2_133; // 0x288
+		::System::Boolean Field_2_134; // 0x28C
+		::System::Boolean Field_2_135; // 0x28D
+		::System::Boolean Field_2_136; // 0x28E
+		::System::Boolean Field_2_137; // 0x28F
+		::System::Boolean Field_2_138; // 0x290
+	};
+}

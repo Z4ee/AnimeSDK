@@ -26,7 +26,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1_TypeDefinitionIndex = 35877;
+	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1_TypeDefinitionIndex = 36421;
 
 	template <typename T>
 	class CameraSequenceCollectionPlayer_1 : public ::System::Object

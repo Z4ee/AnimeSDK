@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_F53BAAE38A584428_1_OFFSET UNITYSDK_OFFSET(0xB711360)
-#define MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_F53BAAE38A584428_OFFSET UNITYSDK_OFFSET(0xB710F80)
-#define MOLEMOLE_TIMELINE_URPSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xB710F70)
+#define MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_289F28027FF47717_1_OFFSET UNITYSDK_OFFSET(0x12B2AD30)
+#define MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_289F28027FF47717_OFFSET UNITYSDK_OFFSET(0x12B2A6C0)
+#define MOLEMOLE_TIMELINE_URPSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2A6B0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int URPSetting_TypeDefinitionIndex = 37976;
+	inline static constexpr unsigned int URPSetting_TypeDefinitionIndex = 71878;
 
 	class URPSetting : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPSETTING__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_F53BAAE38A584428()
+		::System::Void Method_1_289F28027FF47717()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_F53BAAE38A584428_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_289F28027FF47717_OFFSET))(this);
 		}
 
-		::System::Void Method_1_F53BAAE38A584428_1()
+		::System::Void Method_1_289F28027FF47717_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_F53BAAE38A584428_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPSETTING_METHOD_1_289F28027FF47717_1_OFFSET))(this);
 		}
 	};
 }

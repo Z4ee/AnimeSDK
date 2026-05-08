@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_777A5D016ADC7368;
+class Class_2_A9A857AD270B9CE1;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -10,15 +10,15 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOSOULHOUNDSCORE_METHOD_5_448C960F8C07057B_OFFSET UNITYSDK_OFFSET(0xB1AAC80)
-#define MOLEMOLE_MONOSOULHOUNDSCORE_PAUSE_OFFSET UNITYSDK_OFFSET(0xB1AAE80)
-#define MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET UNITYSDK_OFFSET(0xB1AA920)
-#define MOLEMOLE_MONOSOULHOUNDSCORE_UPDATE_OFFSET UNITYSDK_OFFSET(0xB1AAFB0)
-#define MOLEMOLE_MONOSOULHOUNDSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AB070)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_METHOD_5_448C960F8C07057B_OFFSET UNITYSDK_OFFSET(0x10BD5590)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_PAUSE_OFFSET UNITYSDK_OFFSET(0x10BD5770)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET UNITYSDK_OFFSET(0x10BD51E0)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10BD5920)
+#define MOLEMOLE_MONOSOULHOUNDSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD59C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSoulHoundScore_TypeDefinitionIndex = 52701;
+	inline static constexpr unsigned int MonoSoulHoundScore_TypeDefinitionIndex = 60479;
 
 	class MonoSoulHoundScore : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,9 +41,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSOULHOUNDSCORE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ShowScoreNumber(::System::Int32 a1, ::Class_2_777A5D016ADC7368* a2, ::System::Action* a3)
+		::System::Void ShowScoreNumber(::System::Int32 a1, ::Class_2_A9A857AD270B9CE1* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_777A5D016ADC7368*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_A9A857AD270B9CE1*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Pause(::System::Boolean a1)

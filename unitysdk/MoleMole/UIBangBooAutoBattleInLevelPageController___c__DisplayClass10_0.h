@@ -5,18 +5,18 @@
 class Class_2_3B0F8CEEFA465A87;
 namespace MoleMole { class UIBangBooAutoBattleInLevelPageController; }
 
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB7A70)
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS10_0__ONINPUTACTION_B__0_OFFSET UNITYSDK_OFFSET(0xDDB7A80)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC2750)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__DISPLAYCLASS10_0__ONINPUTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x16EC2760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c__DisplayClass10_0_TypeDefinitionIndex = 66422;
+	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c__DisplayClass10_0_TypeDefinitionIndex = 60386;
 
 	class UIBangBooAutoBattleInLevelPageController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangBooAutoBattleInLevelPageController* __4__this; // 0x10
-		::Class_2_3B0F8CEEFA465A87* slot; // 0x18
+		::Class_2_3B0F8CEEFA465A87* slot; // 0x10
+		::MoleMole::UIBangBooAutoBattleInLevelPageController* __4__this; // 0x18
 		::System::UInt32 serverId; // 0x20
 
 		::System::Void _ctor()

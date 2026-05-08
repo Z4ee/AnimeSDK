@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SendEvent_1_TypeDefinitionIndex = 26130;
+	inline static constexpr unsigned int SendEvent_1_TypeDefinitionIndex = 26750;
 
 	template <typename T>
 	class SendEvent_1 : public ::FlowCanvas::Nodes::CallableActionNode_3<::NodeCanvas::Framework::GraphOwner*, ::System::String*, T>

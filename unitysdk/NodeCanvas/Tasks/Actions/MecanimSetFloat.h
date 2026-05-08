@@ -6,23 +6,23 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A3AB4C0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_OFFSET UNITYSDK_OFFSET(0x1A3AB750)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A3AB5B0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A3AB850)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_SET_OFFSET UNITYSDK_OFFSET(0x1A3AB630)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3ABA80)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B0BA330)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_OFFSET UNITYSDK_OFFSET(0x1B0BA5C0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B0BA420)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B0BA6C0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_SET_OFFSET UNITYSDK_OFFSET(0x1B0BA4A0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BA790)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetFloat_TypeDefinitionIndex = 27502;
+	inline static constexpr unsigned int MecanimSetFloat_TypeDefinitionIndex = 28132;
 
 	class MecanimSetFloat : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* setTo; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* parameterHashID; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* parameter; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* parameter; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* setTo; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* parameterHashID; // 0x70
 		::System::Single currentValue; // 0x78
 		::System::Single transitTime; // 0x7C
 

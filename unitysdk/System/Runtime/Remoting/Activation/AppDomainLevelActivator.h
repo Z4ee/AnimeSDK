@@ -7,9 +7,9 @@ namespace System::Runtime::Remoting::Activation { class IActivator; }
 namespace System::Runtime::Remoting::Activation { class IConstructionCallMessage; }
 namespace System::Runtime::Remoting::Activation { class IConstructionReturnMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_APPDOMAINLEVELACTIVATOR_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x19B02BE0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_APPDOMAINLEVELACTIVATOR_GET_NEXTACTIVATOR_OFFSET UNITYSDK_OFFSET(0x19B02BD0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_APPDOMAINLEVELACTIVATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B02BC0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_APPDOMAINLEVELACTIVATOR_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A6C04A0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_APPDOMAINLEVELACTIVATOR_GET_NEXTACTIVATOR_OFFSET UNITYSDK_OFFSET(0x1A6C0490)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_APPDOMAINLEVELACTIVATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C0480)
 
 namespace System::Runtime::Remoting::Activation
 {
@@ -18,8 +18,8 @@ namespace System::Runtime::Remoting::Activation
 	class AppDomainLevelActivator : public ::System::Object
 	{
 	public:
-		::System::String* _activationUrl; // 0x10
-		::System::Runtime::Remoting::Activation::IActivator* _next; // 0x18
+		::System::Runtime::Remoting::Activation::IActivator* _next; // 0x10
+		::System::String* _activationUrl; // 0x18
 
 		::System::Void _ctor(::System::String* activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next)
 		{

@@ -7,11 +7,11 @@
 #include "unitysdk/MoleMole/Config/ConfigSurfVisualAudio.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSURFVEHICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA5090)
+#define MOLEMOLE_CONFIG_CONFIGSURFVEHICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x183CEBC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfVehicle_TypeDefinitionIndex = 69806;
+	inline static constexpr unsigned int ConfigSurfVehicle_TypeDefinitionIndex = 81158;
 
 	class ConfigSurfVehicle : public ::System::Object
 	{

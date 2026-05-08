@@ -10,7 +10,7 @@ namespace System { class Type; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int FastColumnSetter___c__DisplayClass1_0_1_TypeDefinitionIndex = 36256;
+	inline static constexpr unsigned int FastColumnSetter___c__DisplayClass1_0_1_TypeDefinitionIndex = 36800;
 
 	template <typename T>
 	class FastColumnSetter___c__DisplayClass1_0_1 : public ::System::Object

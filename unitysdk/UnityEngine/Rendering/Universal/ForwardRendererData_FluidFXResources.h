@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_FLUIDFXRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3AB00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_FLUIDFXRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x19B8CA40)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_FluidFXResources_TypeDefinitionIndex = 29329;
+	inline static constexpr unsigned int ForwardRendererData_FluidFXResources_TypeDefinitionIndex = 29848;
 
 	class ForwardRendererData_FluidFXResources : public ::System::Object
 	{

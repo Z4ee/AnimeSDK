@@ -20,7 +20,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int SortedView_3_TypeDefinitionIndex = 25147;
+	inline static constexpr unsigned int SortedView_3_TypeDefinitionIndex = 25729;
 
 	template <typename T, typename TKey, typename TView>
 	class SortedView_3 : public ::System::Object

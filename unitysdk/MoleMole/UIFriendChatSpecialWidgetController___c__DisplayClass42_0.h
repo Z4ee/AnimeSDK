@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 
 class Class_3_48C7D152812F0173;
-class Class_3_920D00A4D2C57DD8_13;
+class Class_3_920D00A4D2C57DD8_4;
 namespace MoleMole { class UIFriendChatSpecialWidgetController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0FB3F0)
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS42_0__PROCESSFORUMPOSTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC0FB400)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1699C230)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS42_0__PROCESSFORUMPOSTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1699C240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass42_0_TypeDefinitionIndex = 61065;
+	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass42_0_TypeDefinitionIndex = 68393;
 
 	class UIFriendChatSpecialWidgetController___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::Class_3_920D00A4D2C57DD8_13* forumPost; // 0x10
+		::Class_3_920D00A4D2C57DD8_4* forumPost; // 0x10
 		::MoleMole::UIFriendChatSpecialWidgetController* __4__this; // 0x18
 		::System::Action_1<::MoleMole::UIFriendChatSpecialWidgetController_ForumPostDataResult>* onSuccess; // 0x20
 

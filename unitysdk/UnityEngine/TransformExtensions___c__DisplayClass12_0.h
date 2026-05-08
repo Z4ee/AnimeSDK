@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_TRANSFORMEXTENSIONS___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1853AB60)
-#define UNITYENGINE_TRANSFORMEXTENSIONS___C__DISPLAYCLASS12_0__SAFEFINDALLCHILDTRANSWITHNAMERECURSIVELY_B__0_OFFSET UNITYSDK_OFFSET(0x1853AB70)
+#define UNITYENGINE_TRANSFORMEXTENSIONS___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA6770)
+#define UNITYENGINE_TRANSFORMEXTENSIONS___C__DISPLAYCLASS12_0__SAFEFINDALLCHILDTRANSWITHNAMERECURSIVELY_B__0_OFFSET UNITYSDK_OFFSET(0x12AA6780)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TransformExtensions___c__DisplayClass12_0_TypeDefinitionIndex = 59468;
+	inline static constexpr unsigned int TransformExtensions___c__DisplayClass12_0_TypeDefinitionIndex = 54451;
 
 	class TransformExtensions___c__DisplayClass12_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMINTNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x6E87170)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMINTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x6E87360)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMINTNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14280C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMINTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14280E90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWriteAIParamIntNode_TypeDefinitionIndex = 62063;
+	inline static constexpr unsigned int LDWriteAIParamIntNode_TypeDefinitionIndex = 57335;
 
 	class LDWriteAIParamIntNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*, ::System::Int32>
 	{

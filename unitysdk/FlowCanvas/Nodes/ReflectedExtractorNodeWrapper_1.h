@@ -11,7 +11,7 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ReflectedExtractorNodeWrapper_1_TypeDefinitionIndex = 26311;
+	inline static constexpr unsigned int ReflectedExtractorNodeWrapper_1_TypeDefinitionIndex = 26691;
 
 	template <typename T>
 	class ReflectedExtractorNodeWrapper_1 : public ::FlowCanvas::FlowNode

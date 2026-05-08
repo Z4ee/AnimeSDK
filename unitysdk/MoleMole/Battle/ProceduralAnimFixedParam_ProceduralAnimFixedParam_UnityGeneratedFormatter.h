@@ -10,38 +10,38 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB441190)
-#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB4411A0)
-#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB441620)
-#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB441920)
-#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB4418C0)
+#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFF01360)
+#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFF01370)
+#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFF017D0)
+#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFF01AB0)
+#define MOLEMOLE_BATTLE_PROCEDURALANIMFIXEDPARAM_PROCEDURALANIMFIXEDPARAM_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFF01A50)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex = 49726;
+	inline static constexpr unsigned int ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex = 62806;
 
 	class ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Battle::ProceduralAnimFixedParam>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473C0);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47350);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473C8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47358);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473D0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimatorStateInfo>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimatorStateInfo>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47360);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimatorStateInfo>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473D8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47368);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47370);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ProceduralAnimFixedParam_ProceduralAnimFixedParam_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473E0);
 		}
 
 		::System::Void _ctor()

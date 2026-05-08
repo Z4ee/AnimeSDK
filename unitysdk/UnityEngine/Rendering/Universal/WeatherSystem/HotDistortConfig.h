@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_HOTDISTORTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18A07D80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_HOTDISTORTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A08070)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_HOTDISTORTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x19AD4990)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_HOTDISTORTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD4C80)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int HotDistortConfig_TypeDefinitionIndex = 29783;
+	inline static constexpr unsigned int HotDistortConfig_TypeDefinitionIndex = 30312;
 
 	class HotDistortConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::HotDistortConfig*>
 	{

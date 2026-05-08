@@ -7,30 +7,30 @@
 namespace FlowCanvas::Nodes { class TweenPosition; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A5630C0)
-#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A5633D0)
-#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A563430)
-#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A5633E0)
-#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5630B0)
-#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5630A0)
+#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B3261F0)
+#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B326510)
+#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B326570)
+#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B326520)
+#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B3261E0)
+#define FLOWCANVAS_NODES_TWEENPOSITION__INVOKE_D__0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3261D0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenPosition__Invoke_d__0_TypeDefinitionIndex = 26330;
+	inline static constexpr unsigned int TweenPosition__Invoke_d__0_TypeDefinitionIndex = 27470;
 
 	class TweenPosition__Invoke_d__0 : public ::System::Object
 	{
 	public:
 		::System::Object* __2__current; // 0x10
-		::FlowCanvas::Nodes::TweenPosition* __4__this; // 0x18
-		::UnityEngine::Transform* transform; // 0x20
-		::System::Single _t_5__2; // 0x28
-		::UnityEngine::Vector3 position; // 0x2C
-		::System::Boolean relative; // 0x38
-		::UnityEngine::Vector3 _from_5__3; // 0x3C
-		::System::Single duration; // 0x48
-		::ParadoxNotion::Animation::EaseType interpolation; // 0x4C
-		::System::Int32 __1__state; // 0x50
+		::UnityEngine::Transform* transform; // 0x18
+		::FlowCanvas::Nodes::TweenPosition* __4__this; // 0x20
+		::System::Boolean relative; // 0x28
+		::UnityEngine::Vector3 _from_5__3; // 0x2C
+		::System::Int32 __1__state; // 0x38
+		::System::Single _t_5__2; // 0x3C
+		::System::Single duration; // 0x40
+		::UnityEngine::Vector3 position; // 0x44
+		::ParadoxNotion::Animation::EaseType interpolation; // 0x50
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB5EA980)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB5EA990)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB5EAC50)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5EAE60)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EAE20)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x15427C00)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x15427C10)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x15427EB0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x154280A0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYVOICENODE_MAINCITYCHATPLAYVOICENODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15428060)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex = 68730;
+	inline static constexpr unsigned int MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex = 65689;
 
 	class MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatPlayVoiceNode*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x340C0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x340C8);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34BC0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34BC8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x340D0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatPlayVoiceNode_MainCityChatPlayVoiceNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34BD0);
 		}
 
 		::System::Void _ctor()

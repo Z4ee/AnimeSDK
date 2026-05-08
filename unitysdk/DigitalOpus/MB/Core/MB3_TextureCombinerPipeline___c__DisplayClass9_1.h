@@ -5,12 +5,12 @@
 namespace DigitalOpus::MB::Core { class MB3_TextureCombinerPipeline___c__DisplayClass9_0; }
 namespace DigitalOpus::MB::Core { class MB_TexSet; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F1A90)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS9_1____STEP1_COLLECTDISTINCTMATTEXTURESANDUSEDOBJECTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B6F1AA0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E35D0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE___C__DISPLAYCLASS9_1____STEP1_COLLECTDISTINCTMATTEXTURESANDUSEDOBJECTS_B__0_OFFSET UNITYSDK_OFFSET(0x1C4E35E0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPipeline___c__DisplayClass9_1_TypeDefinitionIndex = 83445;
+	inline static constexpr unsigned int MB3_TextureCombinerPipeline___c__DisplayClass9_1_TypeDefinitionIndex = 85173;
 
 	class MB3_TextureCombinerPipeline___c__DisplayClass9_1 : public ::System::Object
 	{

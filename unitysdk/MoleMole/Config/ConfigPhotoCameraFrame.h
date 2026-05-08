@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGPHOTOCAMERAFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x10A9D2F0)
+#define MOLEMOLE_CONFIG_CONFIGPHOTOCAMERAFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x183C7B10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPhotoCameraFrame_TypeDefinitionIndex = 47785;
+	inline static constexpr unsigned int ConfigPhotoCameraFrame_TypeDefinitionIndex = 75701;
 
 	class ConfigPhotoCameraFrame : public ::System::Object
 	{

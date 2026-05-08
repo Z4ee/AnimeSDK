@@ -8,22 +8,22 @@
 
 namespace MoleMole { class UIAvatarLightSetting; }
 
-#define MOLEMOLE_UIAVATARCOMMONLIGHTSETTING_PARSEAVATARLIGHTSETTING_OFFSET UNITYSDK_OFFSET(0xADB3670)
-#define MOLEMOLE_UIAVATARCOMMONLIGHTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xADB3730)
+#define MOLEMOLE_UIAVATARCOMMONLIGHTSETTING_PARSEAVATARLIGHTSETTING_OFFSET UNITYSDK_OFFSET(0x15ECC060)
+#define MOLEMOLE_UIAVATARCOMMONLIGHTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x15ECC120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarCommonLightSetting_TypeDefinitionIndex = 78753;
+	inline static constexpr unsigned int UIAvatarCommonLightSetting_TypeDefinitionIndex = 58165;
 
 	class UIAvatarCommonLightSetting : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAvatarLightChangeSettings ChangeSettings; // 0x10
-		::UnityEngine::Vector3 LightRotOffset; // 0x28
-		::System::Boolean EnableLightAvatarPart; // 0x34
-		::System::Single LightIntensity; // 0x38
-		::UnityEngine::Vector4 LightAvatarPartRotOffset; // 0x3C
-		::UnityEngine::Color LightColor; // 0x4C
+		::System::Single LightIntensity; // 0x28
+		::UnityEngine::Vector4 LightAvatarPartRotOffset; // 0x2C
+		::UnityEngine::Vector3 LightRotOffset; // 0x3C
+		::UnityEngine::Color LightColor; // 0x48
+		::System::Boolean EnableLightAvatarPart; // 0x58
 
 		::System::Void _ctor()
 		{

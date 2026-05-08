@@ -6,27 +6,27 @@ class RecordKit_RecordNode;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RECORDKIT_CONTAINKEY_OFFSET UNITYSDK_OFFSET(0x1AD60A60)
-#define RECORDKIT_DELETEALL_OFFSET UNITYSDK_OFFSET(0x1AD60FA0)
-#define RECORDKIT_DELETE_OFFSET UNITYSDK_OFFSET(0x1AD60D80)
-#define RECORDKIT_GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1AD60D20)
-#define RECORDKIT_GET_RECORDROOTPATH_OFFSET UNITYSDK_OFFSET(0x1AD60830)
-#define RECORDKIT_SAVE_OFFSET UNITYSDK_OFFSET(0x1AD610C0)
-#define RECORDKIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD61230)
-#define RECORDKIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD61220)
+#define RECORDKIT_CONTAINKEY_OFFSET UNITYSDK_OFFSET(0x1BAEB920)
+#define RECORDKIT_DELETEALL_OFFSET UNITYSDK_OFFSET(0x1BAEBD60)
+#define RECORDKIT_DELETE_OFFSET UNITYSDK_OFFSET(0x1BAEBB80)
+#define RECORDKIT_GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1BAEBB40)
+#define RECORDKIT_GET_RECORDROOTPATH_OFFSET UNITYSDK_OFFSET(0x1BAEB740)
+#define RECORDKIT_SAVE_OFFSET UNITYSDK_OFFSET(0x1BAEBE90)
+#define RECORDKIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAEC010)
+#define RECORDKIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAEC000)
 
-inline static constexpr unsigned int RecordKit_TypeDefinitionIndex = 7875;
+inline static constexpr unsigned int RecordKit_TypeDefinitionIndex = 8084;
 
 class RecordKit : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RecordKit_RecordNode*>** StaticGet_recordDic()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RecordKit_RecordNode*>**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6A40);
-	}
 	static ::System::String** StaticGet_m_recordPath()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6A48);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6A50);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RecordKit_RecordNode*>** StaticGet_recordDic()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RecordKit_RecordNode*>**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6A58);
 	}
 	// static const ::System::String* EXTENSION; // 0x0
 

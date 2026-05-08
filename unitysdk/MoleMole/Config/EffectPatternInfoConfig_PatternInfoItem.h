@@ -8,11 +8,11 @@
 
 namespace MoleMole::Config::EffectPattern { class MonoEffectPluginFollowSoData_New; }
 
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_PATTERNINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA6D20)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_PATTERNINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x183D0900)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectPatternInfoConfig_PatternInfoItem_TypeDefinitionIndex = 51190;
+	inline static constexpr unsigned int EffectPatternInfoConfig_PatternInfoItem_TypeDefinitionIndex = 77214;
 
 	class EffectPatternInfoConfig_PatternInfoItem : public ::System::Object
 	{

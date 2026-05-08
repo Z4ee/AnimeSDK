@@ -3,11 +3,11 @@
 #include "unitysdk/Class_2_CA81EEAA0E1B3609_Enum_3_D9F6F92CA4C186D8.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAC47820)
+#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14ECABA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopClueLevelThemeTabWidgetController_Context_TypeDefinitionIndex = 47976;
+	inline static constexpr unsigned int UICoopClueLevelThemeTabWidgetController_Context_TypeDefinitionIndex = 75757;
 
 	class UICoopClueLevelThemeTabWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

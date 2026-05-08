@@ -10,24 +10,24 @@ class Class_1_CE2E7DC9D5241F3C;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class DynamicInt; }
 
-#define CLASS_1_5396A5A796E56E82_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xA058E90)
-#define CLASS_1_5396A5A796E56E82_FROMFLX_OFFSET UNITYSDK_OFFSET(0xA0593F0)
-#define CLASS_1_5396A5A796E56E82_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0xA059470)
-#define CLASS_1_5396A5A796E56E82_METHOD_1_41430AFD3BF44B19_OFFSET UNITYSDK_OFFSET(0xA058EF0)
-#define CLASS_1_5396A5A796E56E82__CTOR_OFFSET UNITYSDK_OFFSET(0xA05A380)
+#define CLASS_1_5396A5A796E56E82_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x12C88E00)
+#define CLASS_1_5396A5A796E56E82_FROMFLX_OFFSET UNITYSDK_OFFSET(0x12C89360)
+#define CLASS_1_5396A5A796E56E82_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x12C893E0)
+#define CLASS_1_5396A5A796E56E82_METHOD_1_41430AFD3BF44B19_OFFSET UNITYSDK_OFFSET(0x12C88E60)
+#define CLASS_1_5396A5A796E56E82__CTOR_OFFSET UNITYSDK_OFFSET(0x12C8A2F0)
 
-inline static constexpr unsigned int Class_1_5396A5A796E56E82_TypeDefinitionIndex = 65755;
+inline static constexpr unsigned int Class_1_5396A5A796E56E82_TypeDefinitionIndex = 74220;
 
 class Class_1_5396A5A796E56E82 : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicFloat* Field_1_5; // 0x10
-	::MoleMole::Config::DynamicFloat* Field_1_6; // 0x18
-	::Class_1_CE2E7DC9D5241F3C* Field_1_1; // 0x20
-	::MoleMole::Config::DynamicInt* Field_1_3; // 0x28
-	::MoleMole::Config::DynamicFloat* Field_1_4; // 0x30
-	::MoleMole::Config::DynamicFloat* Field_1_7; // 0x38
-	::MoleMole::Config::DynamicFloat* Field_1_8; // 0x40
+	::MoleMole::Config::DynamicFloat* Field_1_4; // 0x10
+	::MoleMole::Config::DynamicFloat* Field_1_7; // 0x18
+	::MoleMole::Config::DynamicFloat* Field_1_6; // 0x20
+	::Class_1_CE2E7DC9D5241F3C* Field_1_1; // 0x28
+	::MoleMole::Config::DynamicFloat* Field_1_8; // 0x30
+	::MoleMole::Config::DynamicInt* Field_1_3; // 0x38
+	::MoleMole::Config::DynamicFloat* Field_1_5; // 0x40
 	::UnityEngine::Vector3 Field_1_2; // 0x48
 	::System::Boolean Field_1_0; // 0x54
 

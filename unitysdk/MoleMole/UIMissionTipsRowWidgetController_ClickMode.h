@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsRowWidgetController_ClickMode_TypeDefinitionIndex = 70855;
+	inline static constexpr unsigned int UIMissionTipsRowWidgetController_ClickMode_TypeDefinitionIndex = 39247;
 
 	enum class UIMissionTipsRowWidgetController_ClickMode : ::System::Int32
 	{
-		knot = 3,
 		None = 0,
+		knot = 3,
 		Interact = 2,
-		OpenMap = 4,
 		ChangeTrack = 1,
+		OpenMap = 4,
 	};
 }

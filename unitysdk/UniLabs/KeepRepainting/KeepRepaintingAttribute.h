@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define UNILABS_KEEPREPAINTING_KEEPREPAINTINGATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B6F5050)
-#define UNILABS_KEEPREPAINTING_KEEPREPAINTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5040)
+#define UNILABS_KEEPREPAINTING_KEEPREPAINTINGATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4990C0)
+#define UNILABS_KEEPREPAINTING_KEEPREPAINTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4990B0)
 
 namespace UniLabs::KeepRepainting
 {
-	inline static constexpr unsigned int KeepRepaintingAttribute_TypeDefinitionIndex = 84103;
+	inline static constexpr unsigned int KeepRepaintingAttribute_TypeDefinitionIndex = 85831;
 
 	class KeepRepaintingAttribute : public ::System::Attribute
 	{

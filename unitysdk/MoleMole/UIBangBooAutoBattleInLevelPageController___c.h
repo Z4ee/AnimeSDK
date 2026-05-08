@@ -6,29 +6,29 @@ namespace System { class Action; }
 namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC09DB30)
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC09DB70)
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__ONINPUTACTION_B__10_1_OFFSET UNITYSDK_OFFSET(0xC09DB80)
-#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__ONUIINIT_B__67_0_OFFSET UNITYSDK_OFFSET(0xC09DB90)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E5EA20)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14E5EA60)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__ONINPUTACTION_B__10_1_OFFSET UNITYSDK_OFFSET(0x14E5EA70)
+#define MOLEMOLE_UIBANGBOOAUTOBATTLEINLEVELPAGECONTROLLER___C__ONUIINIT_B__67_0_OFFSET UNITYSDK_OFFSET(0x14E5EA80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex = 66420;
+	inline static constexpr unsigned int UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex = 60385;
 
 	class UIBangBooAutoBattleInLevelPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBangBooAutoBattleInLevelPageController___c** StaticGet___9()
+		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__67_0()
 		{
-			return (::MoleMole::UIBangBooAutoBattleInLevelPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E300);
+			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x2EBC0);
 		}
 		static ::System::Action** StaticGet___9__10_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E308);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x2EBC8);
 		}
-		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__67_0()
+		static ::MoleMole::UIBangBooAutoBattleInLevelPageController___c** StaticGet___9()
 		{
-			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E310);
+			return (::MoleMole::UIBangBooAutoBattleInLevelPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooAutoBattleInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x2EBD0);
 		}
 
 		static ::System::Void _cctor()

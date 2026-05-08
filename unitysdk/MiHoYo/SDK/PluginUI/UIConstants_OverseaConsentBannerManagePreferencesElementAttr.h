@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaConsentBannerManagePreferencesElementAttr_TypeDefinitionIndex = 35102;
+	inline static constexpr unsigned int UIConstants_OverseaConsentBannerManagePreferencesElementAttr_TypeDefinitionIndex = 35646;
 
 	class UIConstants_OverseaConsentBannerManagePreferencesElementAttr : public ::System::Object
 	{

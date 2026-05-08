@@ -8,7 +8,7 @@ namespace FlowCanvas::Nodes::Legacy { template <typename T1, typename T2, typena
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedFunctionNode_7___c__DisplayClass4_0_TypeDefinitionIndex = 26884;
+	inline static constexpr unsigned int ReflectedFunctionNode_7___c__DisplayClass4_0_TypeDefinitionIndex = 27697;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename TResult>
 	class ReflectedFunctionNode_7___c__DisplayClass4_0 : public ::System::Object

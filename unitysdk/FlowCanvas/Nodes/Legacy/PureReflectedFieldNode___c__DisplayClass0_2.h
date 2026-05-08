@@ -5,12 +5,12 @@
 namespace FlowCanvas { class ValueInput; }
 namespace FlowCanvas::Nodes::Legacy { class PureReflectedFieldNode___c__DisplayClass0_0; }
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEF2C0)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x19FEF2D0)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADADE80)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1ADADE90)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_2_TypeDefinitionIndex = 26542;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_2_TypeDefinitionIndex = 27645;
 
 	class PureReflectedFieldNode___c__DisplayClass0_2 : public ::System::Object
 	{

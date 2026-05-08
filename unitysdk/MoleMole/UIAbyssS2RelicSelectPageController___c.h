@@ -9,44 +9,44 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB94ACE0)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__CREATEOPTIONDATALIST_B__18_0_OFFSET UNITYSDK_OFFSET(0xB94AD50)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB94AD20)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__INITRELICITEMLIST_B__21_0_OFFSET UNITYSDK_OFFSET(0xB94AD70)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__INITRELICITEMLIST_B__21_1_OFFSET UNITYSDK_OFFSET(0xB94AE80)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__INITSCROLLVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0xB94AD30)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__PROCESSNORMALCONFIRM_B__56_1_OFFSET UNITYSDK_OFFSET(0xB94AE90)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15875280)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__CREATEOPTIONDATALIST_B__18_0_OFFSET UNITYSDK_OFFSET(0x158752F0)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x158752C0)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__INITRELICITEMLIST_B__21_0_OFFSET UNITYSDK_OFFSET(0x15875310)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__INITRELICITEMLIST_B__21_1_OFFSET UNITYSDK_OFFSET(0x15875420)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__INITSCROLLVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0x158752D0)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__PROCESSNORMALCONFIRM_B__56_1_OFFSET UNITYSDK_OFFSET(0x15875430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex = 44426;
+	inline static constexpr unsigned int UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex = 42693;
 
 	class UIAbyssS2RelicSelectPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_2_FEB0042A043413D3*, ::System::Int32>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::Class_2_FEB0042A043413D3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF80);
-		}
-		static ::System::Action** StaticGet___9__56_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF88);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__14_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF90);
-		}
 		static ::MoleMole::UIAbyssS2RelicSelectPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2RelicSelectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EF98);
+			return (::MoleMole::UIAbyssS2RelicSelectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46A20);
 		}
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__21_1()
+		static ::System::Func_2<::Class_2_FEB0042A043413D3*, ::System::Int32>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EFA0);
+			return (::System::Func_2<::Class_2_FEB0042A043413D3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46A28);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3EFA8);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46A30);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__21_1()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46A38);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__14_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46A40);
+		}
+		static ::System::Action** StaticGet___9__56_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46A48);
 		}
 
 		static ::System::Void _cctor()

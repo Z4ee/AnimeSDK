@@ -5,11 +5,11 @@
 namespace MoleMole { class UICtrlEnum; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIFADECONFIG_OVERRIDEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x9101130)
+#define MOLEMOLE_UIFADECONFIG_OVERRIDEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x16491650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFadeConfig_OverrideAnim_TypeDefinitionIndex = 42600;
+	inline static constexpr unsigned int UIFadeConfig_OverrideAnim_TypeDefinitionIndex = 64541;
 
 	class UIFadeConfig_OverrideAnim : public ::System::Object
 	{

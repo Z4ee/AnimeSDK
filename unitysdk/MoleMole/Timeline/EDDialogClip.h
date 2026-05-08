@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class EDDialogBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_EDDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD44C4E0)
-#define MOLEMOLE_TIMELINE_EDDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD44C4D0)
-#define MOLEMOLE_TIMELINE_EDDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD44C6E0)
+#define MOLEMOLE_TIMELINE_EDDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17042300)
+#define MOLEMOLE_TIMELINE_EDDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x170422F0)
+#define MOLEMOLE_TIMELINE_EDDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x170424E0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EDDialogClip_TypeDefinitionIndex = 67197;
+	inline static constexpr unsigned int EDDialogClip_TypeDefinitionIndex = 82908;
 
 	class EDDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{

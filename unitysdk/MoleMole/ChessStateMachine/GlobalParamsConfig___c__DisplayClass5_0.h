@@ -6,12 +6,12 @@ namespace MoleMole::ChessStateMachine { class GlobalParamsConfig; }
 namespace MoleMole::ChessStateMachine { class ParamsClass; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BA9CD0)
-#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG___C__DISPLAYCLASS5_0__DEEPCOPY_B__0_OFFSET UNITYSDK_OFFSET(0x9BA9CE0)
+#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12D13830)
+#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG___C__DISPLAYCLASS5_0__DEEPCOPY_B__0_OFFSET UNITYSDK_OFFSET(0x12D13840)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GlobalParamsConfig___c__DisplayClass5_0_TypeDefinitionIndex = 41643;
+	inline static constexpr unsigned int GlobalParamsConfig___c__DisplayClass5_0_TypeDefinitionIndex = 55735;
 
 	class GlobalParamsConfig___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -7,19 +7,19 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB5DA2F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DA400)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0xB5DA420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15417860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x15417950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x15417990)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSmashBro_ActiveTimer_TypeDefinitionIndex = 66818;
+	inline static constexpr unsigned int LDSmashBro_ActiveTimer_TypeDefinitionIndex = 52079;
 
 	class LDSmashBro_ActiveTimer : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* _timerKey; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* _timerKey; // 0xB0
 
 		::System::Void _ctor()
 		{

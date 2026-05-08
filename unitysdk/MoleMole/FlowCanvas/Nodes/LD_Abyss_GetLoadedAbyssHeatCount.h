@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETLOADEDABYSSHEATCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0xA01D9F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETLOADEDABYSSHEATCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0xA01DB50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETLOADEDABYSSHEATCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1174DC10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETLOADEDABYSSHEATCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1174DDD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_Abyss_GetLoadedAbyssHeatCount_TypeDefinitionIndex = 46551;
+	inline static constexpr unsigned int LD_Abyss_GetLoadedAbyssHeatCount_TypeDefinitionIndex = 53388;
 
 	class LD_Abyss_GetLoadedAbyssHeatCount : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

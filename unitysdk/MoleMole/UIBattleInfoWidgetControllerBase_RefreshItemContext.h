@@ -5,18 +5,18 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIBATTLEINFOWIDGETCONTROLLERBASE_REFRESHITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB2A660)
+#define MOLEMOLE_UIBATTLEINFOWIDGETCONTROLLERBASE_REFRESHITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1677FA20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBattleInfoWidgetControllerBase_RefreshItemContext_TypeDefinitionIndex = 47150;
+	inline static constexpr unsigned int UIBattleInfoWidgetControllerBase_RefreshItemContext_TypeDefinitionIndex = 51389;
 
 	class UIBattleInfoWidgetControllerBase_RefreshItemContext : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::UI::Extension::UILocalizationText*>* Texts; // 0x10
+		::UnityEngine::GameObject* Root; // 0x10
 		::UnityEngine::UI::Extension::UILocalizationText* Title; // 0x18
-		::UnityEngine::GameObject* Root; // 0x20
+		::Il2CppArray<::UnityEngine::UI::Extension::UILocalizationText*>* Texts; // 0x20
 
 		::System::Void _ctor()
 		{

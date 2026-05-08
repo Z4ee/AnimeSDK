@@ -7,20 +7,20 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class Sequence; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196D5110)
-#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x196D5120)
-#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x196D5210)
-#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x196D5240)
+#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F40D0)
+#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A1F40E0)
+#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A1F4210)
+#define FLOWCANVAS_NODES_SEQUENCE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A1F4240)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Sequence___c__DisplayClass7_0_TypeDefinitionIndex = 27617;
+	inline static constexpr unsigned int Sequence___c__DisplayClass7_0_TypeDefinitionIndex = 26978;
 
 	class Sequence___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::Sequence* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* outs; // 0x18
+		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* outs; // 0x10
+		::FlowCanvas::Nodes::Sequence* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

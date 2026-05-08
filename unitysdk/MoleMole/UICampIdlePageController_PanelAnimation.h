@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController_PanelAnimation_TypeDefinitionIndex = 66515;
+	inline static constexpr unsigned int UICampIdlePageController_PanelAnimation_TypeDefinitionIndex = 69146;
 
 	enum class UICampIdlePageController_PanelAnimation : ::System::Int32
 	{

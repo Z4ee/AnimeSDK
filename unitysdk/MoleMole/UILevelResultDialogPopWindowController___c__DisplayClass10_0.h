@@ -5,12 +5,12 @@
 class Class_3_C2426F57DB2A743B;
 namespace MoleMole { class UILevelResultDialogPopWindowController; }
 
-#define MOLEMOLE_UILEVELRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F15710)
-#define MOLEMOLE_UILEVELRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__PREPAREDATA_B__0_OFFSET UNITYSDK_OFFSET(0x8F15720)
+#define MOLEMOLE_UILEVELRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15004150)
+#define MOLEMOLE_UILEVELRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__PREPAREDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15004160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultDialogPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 78558;
+	inline static constexpr unsigned int UILevelResultDialogPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 42480;
 
 	class UILevelResultDialogPopWindowController___c__DisplayClass10_0 : public ::System::Object
 	{

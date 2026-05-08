@@ -4,12 +4,12 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x756D610)
-#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x756D6E0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x14985FD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x14986080)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGetBodyCount_TypeDefinitionIndex = 40334;
+	inline static constexpr unsigned int HackerGetBodyCount_TypeDefinitionIndex = 69012;
 
 	class HackerGetBodyCount : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_2<::System::Int32, ::MoleMole::ChessEntity*>
 	{

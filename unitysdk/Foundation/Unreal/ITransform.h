@@ -5,7 +5,7 @@
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int ITransform_TypeDefinitionIndex = 8870;
+	inline static constexpr unsigned int ITransform_TypeDefinitionIndex = 8788;
 
 	class ITransform
 	{

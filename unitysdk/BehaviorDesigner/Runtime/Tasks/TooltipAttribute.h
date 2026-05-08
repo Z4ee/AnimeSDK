@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_TOOLTIPATTRIBUTE_GET_TOOLTIP_OFFSET UNITYSDK_OFFSET(0x1A863AE0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_TOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A863AF0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_TOOLTIPATTRIBUTE_GET_TOOLTIP_OFFSET UNITYSDK_OFFSET(0x1B42A7F0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_TOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42A800)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 31245;
+	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 31774;
 
 	class TooltipAttribute : public ::System::Attribute
 	{

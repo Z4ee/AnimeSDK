@@ -6,11 +6,11 @@ namespace MiHoYo::SDK { class MiHoYoBaseSDK_MockFunctionInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_MIHOYOBASESDK_CUSTOMAUTOTESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8EE60)
+#define MIHOYO_SDK_MIHOYOBASESDK_CUSTOMAUTOTESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9E8190)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestInfo_TypeDefinitionIndex = 34542;
+	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestInfo_TypeDefinitionIndex = 35078;
 
 	class MiHoYoBaseSDK_CustomAutoTestInfo : public ::System::Object
 	{

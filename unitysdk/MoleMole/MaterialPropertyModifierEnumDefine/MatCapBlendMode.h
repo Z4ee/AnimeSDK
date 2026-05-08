@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int MatCapBlendMode_TypeDefinitionIndex = 69752;
+	inline static constexpr unsigned int MatCapBlendMode_TypeDefinitionIndex = 41152;
 
 	enum class MatCapBlendMode : ::System::Byte
 	{

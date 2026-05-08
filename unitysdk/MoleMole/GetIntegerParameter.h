@@ -9,27 +9,27 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_GETINTEGERPARAMETER_GETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0xA5103A0)
-#define MOLEMOLE_GETINTEGERPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0xA5104B0)
-#define MOLEMOLE_GETINTEGERPARAMETER_ONSTART_OFFSET UNITYSDK_OFFSET(0xA510070)
-#define MOLEMOLE_GETINTEGERPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA5101A0)
-#define MOLEMOLE_GETINTEGERPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xA510520)
-#define MOLEMOLE_GETINTEGERPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0xA510560)
-#define MOLEMOLE_GETINTEGERPARAMETER___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0xA5105F0)
-#define MOLEMOLE_GETINTEGERPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA510680)
+#define MOLEMOLE_GETINTEGERPARAMETER_GETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x10E1ED20)
+#define MOLEMOLE_GETINTEGERPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x10E1EE40)
+#define MOLEMOLE_GETINTEGERPARAMETER_ONSTART_OFFSET UNITYSDK_OFFSET(0x10E1EA00)
+#define MOLEMOLE_GETINTEGERPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10E1EB50)
+#define MOLEMOLE_GETINTEGERPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x10E1EEB0)
+#define MOLEMOLE_GETINTEGERPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x10E1EF40)
+#define MOLEMOLE_GETINTEGERPARAMETER___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x10E1EFD0)
+#define MOLEMOLE_GETINTEGERPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10E1F060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetIntegerParameter_TypeDefinitionIndex = 44538;
+	inline static constexpr unsigned int GetIntegerParameter_TypeDefinitionIndex = 76136;
 
 	class GetIntegerParameter : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedString* CustomKey; // 0x58
-		::MoleMole::Battle::Entity* shareOwnerEntity; // 0x60
-		::BehaviorDesigner::Runtime::SharedInt* storeResult; // 0x68
-		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x70
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x78
+		::BehaviorDesigner::Runtime::SharedInt* storeResult; // 0x60
+		::MoleMole::Battle::Entity* shareOwnerEntity; // 0x68
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
+		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x78
 		::MoleMole::AITargetType TargetType; // 0x80
 
 		::System::Void _ctor()

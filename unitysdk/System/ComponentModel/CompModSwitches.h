@@ -5,8 +5,8 @@
 namespace System::Diagnostics { class BooleanSwitch; }
 namespace System::Diagnostics { class TraceSwitch; }
 
-#define SYSTEM_COMPONENTMODEL_COMPMODSWITCHES_GET_COMMONDESIGNERSERVICES_OFFSET UNITYSDK_OFFSET(0x1A5EE070)
-#define SYSTEM_COMPONENTMODEL_COMPMODSWITCHES_GET_EVENTLOG_OFFSET UNITYSDK_OFFSET(0x1A5EE1D0)
+#define SYSTEM_COMPONENTMODEL_COMPMODSWITCHES_GET_COMMONDESIGNERSERVICES_OFFSET UNITYSDK_OFFSET(0x1B1E32C0)
+#define SYSTEM_COMPONENTMODEL_COMPMODSWITCHES_GET_EVENTLOG_OFFSET UNITYSDK_OFFSET(0x1B1E3470)
 
 namespace System::ComponentModel
 {
@@ -15,13 +15,13 @@ namespace System::ComponentModel
 	class CompModSwitches : public ::System::Object
 	{
 	public:
-		static ::System::Diagnostics::TraceSwitch** StaticGet_eventLog()
-		{
-			return (::System::Diagnostics::TraceSwitch**)Il2CppClass::FromTypeDefinitionIndex(CompModSwitches_TypeDefinitionIndex)->GetStaticField(0x2580);
-		}
 		static ::System::Diagnostics::BooleanSwitch** StaticGet_commonDesignerServices()
 		{
-			return (::System::Diagnostics::BooleanSwitch**)Il2CppClass::FromTypeDefinitionIndex(CompModSwitches_TypeDefinitionIndex)->GetStaticField(0x2588);
+			return (::System::Diagnostics::BooleanSwitch**)Il2CppClass::FromTypeDefinitionIndex(CompModSwitches_TypeDefinitionIndex)->GetStaticField(0x2580);
+		}
+		static ::System::Diagnostics::TraceSwitch** StaticGet_eventLog()
+		{
+			return (::System::Diagnostics::TraceSwitch**)Il2CppClass::FromTypeDefinitionIndex(CompModSwitches_TypeDefinitionIndex)->GetStaticField(0x2588);
 		}
 
 		static ::System::Diagnostics::BooleanSwitch* get_CommonDesignerServices()

@@ -13,11 +13,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1B1127B0)
-#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1B1128B0)
-#define MB3_ATLASPACKERRENDERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1128E0)
+#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1BEC9610)
+#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1BEC9710)
+#define MB3_ATLASPACKERRENDERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC9740)
 
-inline static constexpr unsigned int MB3_AtlasPackerRenderTexture_TypeDefinitionIndex = 83257;
+inline static constexpr unsigned int MB3_AtlasPackerRenderTexture_TypeDefinitionIndex = 84985;
 
 class MB3_AtlasPackerRenderTexture : public ::UnityEngine::MonoBehaviour
 {

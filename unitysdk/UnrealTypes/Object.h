@@ -7,21 +7,21 @@
 namespace System { class String; }
 namespace UnrealTypes { class Class; }
 
-#define UNREALTYPES_OBJECT_GET_CLASS_OFFSET UNITYSDK_OFFSET(0x1A20C5B0)
-#define UNREALTYPES_OBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A204790)
+#define UNREALTYPES_OBJECT_GET_CLASS_OFFSET UNITYSDK_OFFSET(0x1ADA32E0)
+#define UNREALTYPES_OBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9B2A0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Object_TypeDefinitionIndex = 24726;
+	inline static constexpr unsigned int Object_TypeDefinitionIndex = 25240;
 
 	class Object : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
-		::UnrealTypes::Object* OuterPrivate; // 0x18
-		::UnrealTypes::Class* ClassPrivate; // 0x20
-		::Foundation::Unreal::FName NamePrivate; // 0x28
-		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> ObjectHandle; // 0x30
+		::UnrealTypes::Class* ClassPrivate; // 0x18
+		::UnrealTypes::Object* OuterPrivate; // 0x20
+		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> ObjectHandle; // 0x28
+		::Foundation::Unreal::FName NamePrivate; // 0x2C
 
 		::System::Void _ctor()
 		{

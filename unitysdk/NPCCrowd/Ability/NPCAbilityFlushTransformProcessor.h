@@ -5,12 +5,12 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x76CDDB0)
-#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x76CDFA0)
+#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x115001C0)
+#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11500370)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFlushTransformProcessor_TypeDefinitionIndex = 75558;
+	inline static constexpr unsigned int NPCAbilityFlushTransformProcessor_TypeDefinitionIndex = 42059;
 
 	class NPCAbilityFlushTransformProcessor : public ::System::Object
 	{

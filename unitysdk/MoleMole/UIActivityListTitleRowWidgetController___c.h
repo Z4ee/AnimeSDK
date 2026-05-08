@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define MOLEMOLE_UIACTIVITYLISTTITLEROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF150A0)
-#define MOLEMOLE_UIACTIVITYLISTTITLEROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF150E0)
-#define MOLEMOLE_UIACTIVITYLISTTITLEROWWIDGETCONTROLLER___C__ONSCROLLITEMUPDATE_B__4_0_OFFSET UNITYSDK_OFFSET(0xBF150F0)
+#define MOLEMOLE_UIACTIVITYLISTTITLEROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x167DFF50)
+#define MOLEMOLE_UIACTIVITYLISTTITLEROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167DFF90)
+#define MOLEMOLE_UIACTIVITYLISTTITLEROWWIDGETCONTROLLER___C__ONSCROLLITEMUPDATE_B__4_0_OFFSET UNITYSDK_OFFSET(0x167DFFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityListTitleRowWidgetController___c_TypeDefinitionIndex = 48388;
+	inline static constexpr unsigned int UIActivityListTitleRowWidgetController___c_TypeDefinitionIndex = 54846;
 
 	class UIActivityListTitleRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::UI::Extension::UITimeWidget*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::UnityEngine::UI::Extension::UITimeWidget*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityListTitleRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34240);
+			return (::System::Action_1<::UnityEngine::UI::Extension::UITimeWidget*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityListTitleRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34D40);
 		}
 		static ::MoleMole::UIActivityListTitleRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityListTitleRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityListTitleRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34248);
+			return (::MoleMole::UIActivityListTitleRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityListTitleRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34D48);
 		}
 
 		static ::System::Void _cctor()

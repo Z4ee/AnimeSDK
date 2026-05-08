@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SERVERGATEWAY__CTOR_OFFSET UNITYSDK_OFFSET(0xB873EF0)
+#define MOLEMOLE_SERVERGATEWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B176F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ServerGateway_TypeDefinitionIndex = 81203;
+	inline static constexpr unsigned int ServerGateway_TypeDefinitionIndex = 39607;
 
 	class ServerGateway : public ::System::Object
 	{

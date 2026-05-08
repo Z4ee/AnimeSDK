@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInfoChildWindowController_UIViewInfo_TypeDefinitionIndex = 83535;
+	inline static constexpr unsigned int UICpInfoChildWindowController_UIViewInfo_TypeDefinitionIndex = 85264;
 
 	struct alignas(8) UICpInfoChildWindowController_UIViewInfo
 	{

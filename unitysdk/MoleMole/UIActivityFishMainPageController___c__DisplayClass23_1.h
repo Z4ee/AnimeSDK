@@ -6,19 +6,19 @@
 namespace MoleMole { class UIActivityFishMainPageController___c__DisplayClass23_0; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8B9E2E0)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_1__REFRESHAVATARREWARD_B__2_OFFSET UNITYSDK_OFFSET(0x8B9E2F0)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_1__REFRESHAVATARREWARD_B__3_OFFSET UNITYSDK_OFFSET(0x8B9E4B0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x152D0A30)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_1__REFRESHAVATARREWARD_B__2_OFFSET UNITYSDK_OFFSET(0x152D0A40)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_1__REFRESHAVATARREWARD_B__3_OFFSET UNITYSDK_OFFSET(0x152D0C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishMainPageController___c__DisplayClass23_1_TypeDefinitionIndex = 38647;
+	inline static constexpr unsigned int UIActivityFishMainPageController___c__DisplayClass23_1_TypeDefinitionIndex = 39653;
 
 	class UIActivityFishMainPageController___c__DisplayClass23_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
-		::MoleMole::UIActivityFishMainPageController___c__DisplayClass23_0* CS___8__locals1; // 0x18
+		::MoleMole::UIActivityFishMainPageController___c__DisplayClass23_0* CS___8__locals1; // 0x10
+		::System::Action* __9__3; // 0x18
 		::System::Single fadeDuration; // 0x20
 
 		::System::Void _ctor()

@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_METHOD_2_FF36E2394D1E711C_OFFSET UNITYSDK_OFFSET(0x81F6E00)
-#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x81F70D0)
+#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_METHOD_2_FF36E2394D1E711C_OFFSET UNITYSDK_OFFSET(0xFB10390)
+#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xFB10640)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int QTEAttackTargetSelector_TypeDefinitionIndex = 71398;
+	inline static constexpr unsigned int QTEAttackTargetSelector_TypeDefinitionIndex = 70906;
 
 	class QTEAttackTargetSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{

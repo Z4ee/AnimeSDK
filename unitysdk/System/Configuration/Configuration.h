@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_CONFIGURATION_CONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76F120)
+#define SYSTEM_CONFIGURATION_CONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55C990)
 
 namespace System::Configuration
 {

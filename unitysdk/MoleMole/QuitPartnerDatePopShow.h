@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_QUITPARTNERDATEPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x8C91DE0)
-#define MOLEMOLE_QUITPARTNERDATEPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x8C91E30)
-#define MOLEMOLE_QUITPARTNERDATEPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x8C91DF0)
+#define MOLEMOLE_QUITPARTNERDATEPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x13EB1950)
+#define MOLEMOLE_QUITPARTNERDATEPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13EB19A0)
+#define MOLEMOLE_QUITPARTNERDATEPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB1960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QuitPartnerDatePopShow_TypeDefinitionIndex = 60915;
+	inline static constexpr unsigned int QuitPartnerDatePopShow_TypeDefinitionIndex = 50493;
 
 	class QuitPartnerDatePopShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Int32 _ovaContextID; // 0x28
-		::System::Boolean _isInvitePartnerDate; // 0x2C
+		::System::Boolean _isInvitePartnerDate; // 0x28
+		::System::Int32 _ovaContextID; // 0x2C
 
 		::System::Void _ctor(::System::Boolean isInvitePartnerDate, ::System::Int32 ovaContextID)
 		{

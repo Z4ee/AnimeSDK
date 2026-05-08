@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IAggregateObjectEventContext_1_TypeDefinitionIndex = 8841;
+	inline static constexpr unsigned int IAggregateObjectEventContext_1_TypeDefinitionIndex = 8837;
 
 	template <typename TEvent>
 	class IAggregateObjectEventContext_1

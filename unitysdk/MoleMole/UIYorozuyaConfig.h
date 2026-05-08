@@ -10,12 +10,12 @@ namespace MoleMole::Cameras { class VNoiseSettings; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIYOROZUYACONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x9A2EB60)
-#define MOLEMOLE_UIYOROZUYACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2EC60)
+#define MOLEMOLE_UIYOROZUYACONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0xE48E250)
+#define MOLEMOLE_UIYOROZUYACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE48E360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaConfig_TypeDefinitionIndex = 71685;
+	inline static constexpr unsigned int UIYorozuyaConfig_TypeDefinitionIndex = 39199;
 
 	class UIYorozuyaConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

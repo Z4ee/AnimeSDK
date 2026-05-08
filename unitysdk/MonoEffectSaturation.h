@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Material; }
 
-#define MONOEFFECTSATURATION_SETSATURATION_OFFSET UNITYSDK_OFFSET(0x9A32710)
-#define MONOEFFECTSATURATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A32990)
-#define MONOEFFECTSATURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x9A32970)
+#define MONOEFFECTSATURATION_SETSATURATION_OFFSET UNITYSDK_OFFSET(0xE491910)
+#define MONOEFFECTSATURATION__CCTOR_OFFSET UNITYSDK_OFFSET(0xE491C10)
+#define MONOEFFECTSATURATION__CTOR_OFFSET UNITYSDK_OFFSET(0xE491BC0)
 
-inline static constexpr unsigned int MonoEffectSaturation_TypeDefinitionIndex = 52356;
+inline static constexpr unsigned int MonoEffectSaturation_TypeDefinitionIndex = 55389;
 
 class MonoEffectSaturation : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet_SaturationID()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectSaturation_TypeDefinitionIndex)->GetStaticField(0xDA30);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectSaturation_TypeDefinitionIndex)->GetStaticField(0xDF70);
 	}
 	::UnityEngine::Material* material; // 0x18
 

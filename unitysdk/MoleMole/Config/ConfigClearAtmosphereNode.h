@@ -4,12 +4,12 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xACBE1F0)
-#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xACBE2D0)
+#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1752E620)
+#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1752E6E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigClearAtmosphereNode_TypeDefinitionIndex = 57159;
+	inline static constexpr unsigned int ConfigClearAtmosphereNode_TypeDefinitionIndex = 60663;
 
 	class ConfigClearAtmosphereNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

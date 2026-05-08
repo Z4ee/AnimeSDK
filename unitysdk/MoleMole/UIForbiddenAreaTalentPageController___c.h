@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5690D0)
-#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__CREATETALENTPOINTLIST_B__33_0_OFFSET UNITYSDK_OFFSET(0xD569120)
-#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD569110)
+#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1579A630)
+#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__CREATETALENTPOINTLIST_B__33_0_OFFSET UNITYSDK_OFFSET(0x1579A680)
+#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1579A670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaTalentPageController___c_TypeDefinitionIndex = 43977;
+	inline static constexpr unsigned int UIForbiddenAreaTalentPageController___c_TypeDefinitionIndex = 77166;
 
 	class UIForbiddenAreaTalentPageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIForbiddenAreaTalentPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIForbiddenAreaTalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x39790);
+			return (::MoleMole::UIForbiddenAreaTalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x3AA50);
 		}
 		static ::System::Comparison_1<::System::Int32>** StaticGet___9__33_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x39798);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x3AA58);
 		}
 
 		static ::System::Void _cctor()

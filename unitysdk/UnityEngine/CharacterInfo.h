@@ -4,7 +4,11 @@
 #include "unitysdk/UnityEngine/FontStyle.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_CHARACTERINFO_GET_ADVANCE_OFFSET UNITYSDK_OFFSET(0x9A9820)
+#define UNITYENGINE_CHARACTERINFO_GET_ADVANCE_OFFSET UNITYSDK_OFFSET(0x9D54B0)
+#define UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFTUNFLIPPED_OFFSET UNITYSDK_OFFSET(0x3ABA20)
+#define UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFT_OFFSET UNITYSDK_OFFSET(0x3ABA20)
+#define UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHTUNFLIPPED_OFFSET UNITYSDK_OFFSET(0x9D5500)
+#define UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHT_OFFSET UNITYSDK_OFFSET(0x9D5500)
 
 namespace UnityEngine
 {
@@ -24,5 +28,33 @@ namespace UnityEngine
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_ADVANCE_OFFSET))(this);
 		}
+
+		/*
+		::UnityEngine::Vector2 get_uvBottomLeftUnFlipped()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFTUNFLIPPED_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::UnityEngine::Vector2 get_uvTopRightUnFlipped()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHTUNFLIPPED_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::UnityEngine::Vector2 get_uvBottomLeft()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFT_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::UnityEngine::Vector2 get_uvTopRight()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHT_OFFSET))(this);
+		}
+		*/
 	};
 }

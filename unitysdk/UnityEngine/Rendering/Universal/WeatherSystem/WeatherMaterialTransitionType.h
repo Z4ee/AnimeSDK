@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WeatherMaterialTransitionType_TypeDefinitionIndex = 29756;
+	inline static constexpr unsigned int WeatherMaterialTransitionType_TypeDefinitionIndex = 30285;
 
 	enum class WeatherMaterialTransitionType : ::System::Int32
 	{

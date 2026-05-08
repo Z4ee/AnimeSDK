@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RUNSTATEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFB14330)
-#define RUNSTATEDATA___C__DISPLAYCLASS2_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xFB14340)
+#define RUNSTATEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5D4A0)
+#define RUNSTATEDATA___C__DISPLAYCLASS2_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19F5D4B0)
 
-inline static constexpr unsigned int RunStateData___c__DisplayClass2_0_TypeDefinitionIndex = 61023;
+inline static constexpr unsigned int RunStateData___c__DisplayClass2_0_TypeDefinitionIndex = 48512;
 
 class RunStateData___c__DisplayClass2_0 : public ::System::Object
 {

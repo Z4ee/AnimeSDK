@@ -15,8 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A5253C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A525110)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4922E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B491F30)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

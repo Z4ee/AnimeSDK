@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cinemachine/CameraState.h"
-#include "unitysdk/Class_1_494697B4AB731572.h"
+#include "unitysdk/Class_1_194AF035DF2F7DB0.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole { class CameraModuleAvatarDataConfigExt; }
 namespace MoleMole::Cameras { class CameraDataAccessor; }
 
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x9E227D0)
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_46C7B225FF6DDB9E_OFFSET UNITYSDK_OFFSET(0x9E22590)
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_4E8DF6F8A37B229A_OFFSET UNITYSDK_OFFSET(0x9E22D80)
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_6266594FEEF9D261_OFFSET UNITYSDK_OFFSET(0x9E22870)
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_AB7E6D6F8FBAB936_OFFSET UNITYSDK_OFFSET(0x9E22D90)
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x9E22FC0)
-#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_F4D36AD9CE28CAD0_OFFSET UNITYSDK_OFFSET(0x9E226B0)
-#define CLASS_2_CEEEBDAAA296D6A5__CTOR_OFFSET UNITYSDK_OFFSET(0x9E22860)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1328F840)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_46C7B225FF6DDB9E_OFFSET UNITYSDK_OFFSET(0x1328F660)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_4E8DF6F8A37B229A_OFFSET UNITYSDK_OFFSET(0x1328F8E0)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_6266594FEEF9D261_OFFSET UNITYSDK_OFFSET(0x1328FB10)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_AB7E6D6F8FBAB936_OFFSET UNITYSDK_OFFSET(0x1328F8F0)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x1328F8C0)
+#define CLASS_2_CEEEBDAAA296D6A5_METHOD_2_F4D36AD9CE28CAD0_OFFSET UNITYSDK_OFFSET(0x1328F740)
+#define CLASS_2_CEEEBDAAA296D6A5__CTOR_OFFSET UNITYSDK_OFFSET(0x1328F8B0)
 
-inline static constexpr unsigned int Class_2_CEEEBDAAA296D6A5_TypeDefinitionIndex = 69662;
+inline static constexpr unsigned int Class_2_CEEEBDAAA296D6A5_TypeDefinitionIndex = 71995;
 
-class Class_2_CEEEBDAAA296D6A5 : public ::Class_1_494697B4AB731572
+class Class_2_CEEEBDAAA296D6A5 : public ::Class_1_194AF035DF2F7DB0
 {
 public:
 	// static const ::System::Single Field_2_1; // 0x0
@@ -35,9 +35,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_46C7B225FF6DDB9E_OFFSET))(this, a1, a2, a3);
 	}
 
-	::UnityEngine::Vector3 Method_2_6266594FEEF9D261(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3, ::UnityEngine::RaycastHit& a4)
+	::UnityEngine::Vector3 Method_2_D37FAD0A6AA04B25()
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::UnityEngine::RaycastHit&))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_6266594FEEF9D261_OFFSET))(this, a1, a2, a3, a4);
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_D37FAD0A6AA04B25_OFFSET))(this);
 	}
 
 	::System::Void Method_2_4E8DF6F8A37B229A(::UnityEngine::Vector3 a1)
@@ -50,9 +50,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_AB7E6D6F8FBAB936_OFFSET))(this, a1);
 	}
 
-	::UnityEngine::Vector3 Method_2_D37FAD0A6AA04B25()
+	::System::Boolean Method_2_391A84BCD9F51317()
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_D37FAD0A6AA04B25_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_391A84BCD9F51317_OFFSET))(this);
 	}
 
 	::UnityEngine::Vector3 Method_2_F4D36AD9CE28CAD0(::Cinemachine::CameraState& a1)
@@ -60,8 +60,8 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_F4D36AD9CE28CAD0_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_391A84BCD9F51317()
+	::UnityEngine::Vector3 Method_2_6266594FEEF9D261(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3, ::UnityEngine::RaycastHit& a4)
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::UnityEngine::RaycastHit&))((::PBYTE)hIl2Cpp + CLASS_2_CEEEBDAAA296D6A5_METHOD_2_6266594FEEF9D261_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

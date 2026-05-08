@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOEFFECTPLUGINKEEPINEYES_START_OFFSET UNITYSDK_OFFSET(0x11B23230)
-#define MONOEFFECTPLUGINKEEPINEYES_UPDATE_OFFSET UNITYSDK_OFFSET(0x11B232D0)
-#define MONOEFFECTPLUGINKEEPINEYES__CTOR_OFFSET UNITYSDK_OFFSET(0x11B235D0)
+#define MONOEFFECTPLUGINKEEPINEYES_START_OFFSET UNITYSDK_OFFSET(0x103428B0)
+#define MONOEFFECTPLUGINKEEPINEYES_UPDATE_OFFSET UNITYSDK_OFFSET(0x10342980)
+#define MONOEFFECTPLUGINKEEPINEYES__CTOR_OFFSET UNITYSDK_OFFSET(0x10342D00)
 
-inline static constexpr unsigned int MonoEffectPluginKeepInEyes_TypeDefinitionIndex = 84215;
+inline static constexpr unsigned int MonoEffectPluginKeepInEyes_TypeDefinitionIndex = 85960;
 
 class MonoEffectPluginKeepInEyes : public ::UnityEngine::MonoBehaviour
 {

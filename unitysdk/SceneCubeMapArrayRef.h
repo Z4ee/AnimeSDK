@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class CubemapArray; }
 
-#define SCENECUBEMAPARRAYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x178005C0)
+#define SCENECUBEMAPARRAYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1927E770)
 
-inline static constexpr unsigned int SceneCubeMapArrayRef_TypeDefinitionIndex = 28954;
+inline static constexpr unsigned int SceneCubeMapArrayRef_TypeDefinitionIndex = 29472;
 
 class SceneCubeMapArrayRef : public ::UnityEngine::ScriptableObject
 {

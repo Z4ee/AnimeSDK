@@ -6,11 +6,11 @@ namespace UnityEngine { class CubemapArray; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class DeferredReflectionProbe; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPREFLECTIONPROBEDATAV2__CTOR_OFFSET UNITYSDK_OFFSET(0x17425980)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPREFLECTIONPROBEDATAV2__CTOR_OFFSET UNITYSDK_OFFSET(0x190C9140)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapReflectionProbeDataV2_TypeDefinitionIndex = 29853;
+	inline static constexpr unsigned int NapReflectionProbeDataV2_TypeDefinitionIndex = 30381;
 
 	class NapReflectionProbeDataV2 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define DESTROYONTRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xBF74B70)
-#define DESTROYONTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xBF74C60)
+#define DESTROYONTRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x129506C0)
+#define DESTROYONTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12950810)
 
-inline static constexpr unsigned int DestroyOnTrigger_TypeDefinitionIndex = 64848;
+inline static constexpr unsigned int DestroyOnTrigger_TypeDefinitionIndex = 74176;
 
 class DestroyOnTrigger : public ::UnityEngine::MonoBehaviour
 {

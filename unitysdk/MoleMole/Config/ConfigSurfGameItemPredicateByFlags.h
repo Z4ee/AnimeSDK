@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSurfGameItemPredicate.h"
 #include "unitysdk/MoleMole/Config/SurfVehicleExtraEffectFlags.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMPREDICATEBYFLAGS_PREDICATE_OFFSET UNITYSDK_OFFSET(0xEC4D100)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMPREDICATEBYFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0xEC4D230)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMPREDICATEBYFLAGS_PREDICATE_OFFSET UNITYSDK_OFFSET(0x181D5A20)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMPREDICATEBYFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x181D5B00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameItemPredicateByFlags_TypeDefinitionIndex = 64155;
+	inline static constexpr unsigned int ConfigSurfGameItemPredicateByFlags_TypeDefinitionIndex = 53119;
 
 	class ConfigSurfGameItemPredicateByFlags : public ::MoleMole::Config::ConfigSurfGameItemPredicate
 	{

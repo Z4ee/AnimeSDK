@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IImgIconLoader_TypeDefinitionIndex = 49109;
+	inline static constexpr unsigned int IImgIconLoader_TypeDefinitionIndex = 71720;
 
 	class IImgIconLoader
 	{

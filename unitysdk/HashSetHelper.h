@@ -5,7 +5,7 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int HashSetHelper_TypeDefinitionIndex = 49265;
+inline static constexpr unsigned int HashSetHelper_TypeDefinitionIndex = 52065;
 
 class HashSetHelper : public ::System::Object
 {

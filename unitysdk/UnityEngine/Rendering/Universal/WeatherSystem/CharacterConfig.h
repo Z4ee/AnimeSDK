@@ -6,12 +6,12 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class CharacterConfig_ToneMappingCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18F15520)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F16120)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1A6A9D50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6AA950)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 29789;
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 30318;
 
 	class CharacterConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::CharacterConfig*>
 	{

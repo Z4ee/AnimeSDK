@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int CollectionFormatterBase_4_TypeDefinitionIndex = 25950;
+	inline static constexpr unsigned int CollectionFormatterBase_4_TypeDefinitionIndex = 28166;
 
 	template <typename TElement, typename TIntermediate, typename TEnumerator, typename TCollection>
 	class CollectionFormatterBase_4 : public ::System::Object

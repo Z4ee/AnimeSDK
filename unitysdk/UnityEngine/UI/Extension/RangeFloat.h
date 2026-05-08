@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Extension/Range_1.h"
 
-#define UNITYENGINE_UI_EXTENSION_RANGEFLOAT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6A84E40)
-#define UNITYENGINE_UI_EXTENSION_RANGEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x6A84E00)
+#define UNITYENGINE_UI_EXTENSION_RANGEFLOAT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AE4B8F0)
+#define UNITYENGINE_UI_EXTENSION_RANGEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE4B8B0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RangeFloat_TypeDefinitionIndex = 74667;
+	inline static constexpr unsigned int RangeFloat_TypeDefinitionIndex = 63284;
 
 	class RangeFloat : public ::UnityEngine::UI::Extension::Range_1<::System::Single>
 	{

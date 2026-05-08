@@ -5,12 +5,12 @@
 
 namespace Utf8Json::Internal::Emit { class MetaMember; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B194DC0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS14_0__EMITNEWOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x1B194DD0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDAAF0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS14_0__EMITNEWOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x1BDDAB00)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass14_0_TypeDefinitionIndex = 83861;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass14_0_TypeDefinitionIndex = 85589;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass14_0 : public ::System::Object
 	{

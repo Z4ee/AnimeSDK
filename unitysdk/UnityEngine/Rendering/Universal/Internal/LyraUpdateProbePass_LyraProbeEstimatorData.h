@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraUpdateProbePass_LyraProbeEstimatorData_TypeDefinitionIndex = 29989;
+	inline static constexpr unsigned int LyraUpdateProbePass_LyraProbeEstimatorData_TypeDefinitionIndex = 30517;
 
 	struct alignas(4) LyraUpdateProbePass_LyraProbeEstimatorData
 	{

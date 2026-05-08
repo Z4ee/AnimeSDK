@@ -6,13 +6,13 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CDNGAMERES_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0xB44BE20)
-#define MOLEMOLE_CDNGAMERES_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0xB44BE30)
-#define MOLEMOLE_CDNGAMERES__CTOR_OFFSET UNITYSDK_OFFSET(0xB44BE40)
+#define MOLEMOLE_CDNGAMERES_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0xFF0B630)
+#define MOLEMOLE_CDNGAMERES_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0xFF0B640)
+#define MOLEMOLE_CDNGAMERES__CTOR_OFFSET UNITYSDK_OFFSET(0xFF0B650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CDNGameRes_TypeDefinitionIndex = 62976;
+	inline static constexpr unsigned int CDNGameRes_TypeDefinitionIndex = 44449;
 
 	class CDNGameRes : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/LevelShootGameConfig_WaveGroupStartCondition.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_WAVEGROUPPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB005D0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_WAVEGROUPPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1494C520)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_WaveGroupParam_TypeDefinitionIndex = 51419;
+	inline static constexpr unsigned int LevelShootGameConfig_WaveGroupParam_TypeDefinitionIndex = 58588;
 
 	class LevelShootGameConfig_WaveGroupParam : public ::System::Object
 	{

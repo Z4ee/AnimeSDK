@@ -4,12 +4,12 @@
 
 namespace MoleMole { class MonoLevelResultPageConfig; }
 
-#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A91660)
-#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS56_0___ONANIMEVENT_B__2_OFFSET UNITYSDK_OFFSET(0x9A91670)
+#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15554C40)
+#define MOLEMOLE_UILEVELGENERALWINRESULTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS56_0___ONANIMEVENT_B__2_OFFSET UNITYSDK_OFFSET(0x15554C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelGeneralWinResultDialogPopWindowController___c__DisplayClass56_0_TypeDefinitionIndex = 63511;
+	inline static constexpr unsigned int UILevelGeneralWinResultDialogPopWindowController___c__DisplayClass56_0_TypeDefinitionIndex = 82018;
 
 	class UILevelGeneralWinResultDialogPopWindowController___c__DisplayClass56_0 : public ::System::Object
 	{

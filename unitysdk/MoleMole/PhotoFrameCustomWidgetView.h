@@ -6,11 +6,11 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_PHOTOFRAMECUSTOMWIDGETVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA53A6A0)
+#define MOLEMOLE_PHOTOFRAMECUSTOMWIDGETVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB0810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PhotoFrameCustomWidgetView_TypeDefinitionIndex = 56662;
+	inline static constexpr unsigned int PhotoFrameCustomWidgetView_TypeDefinitionIndex = 65323;
 
 	class PhotoFrameCustomWidgetView : public ::UnityEngine::MonoBehaviour
 	{

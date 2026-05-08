@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeBindableStructSource_TypeDefinitionIndex = 27823;
+	inline static constexpr unsigned int StateTreeBindableStructSource_TypeDefinitionIndex = 28341;
 
 	enum class StateTreeBindableStructSource : ::System::Byte
 	{

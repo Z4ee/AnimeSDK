@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_MouseButton_TypeDefinitionIndex = 30487;
+	inline static constexpr unsigned int BrowserNative_MouseButton_TypeDefinitionIndex = 31016;
 
 	enum class BrowserNative_MouseButton : ::System::Int32
 	{

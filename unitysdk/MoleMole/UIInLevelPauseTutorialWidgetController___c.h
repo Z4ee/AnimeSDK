@@ -5,29 +5,29 @@
 namespace MoleMole { class UIInLevelPauseTutorialWidgetController_TutorialData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD743D0)
-#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAD74410)
-#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__INITEXTERNALPOPUPS_B__10_0_OFFSET UNITYSDK_OFFSET(0xAD74420)
-#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__INITHOLLOWINFO_B__11_0_OFFSET UNITYSDK_OFFSET(0xAD74490)
+#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1639B9F0)
+#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1639BA30)
+#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__INITEXTERNALPOPUPS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1639BA40)
+#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLER___C__INITHOLLOWINFO_B__11_0_OFFSET UNITYSDK_OFFSET(0x1639BA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex = 61895;
+	inline static constexpr unsigned int UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex = 55914;
 
 	class UIInLevelPauseTutorialWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIInLevelPauseTutorialWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIInLevelPauseTutorialWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x398B0);
+			return (::MoleMole::UIInLevelPauseTutorialWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AB70);
 		}
 		static ::System::Comparison_1<::MoleMole::UIInLevelPauseTutorialWidgetController_TutorialData*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIInLevelPauseTutorialWidgetController_TutorialData*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x398B8);
+			return (::System::Comparison_1<::MoleMole::UIInLevelPauseTutorialWidgetController_TutorialData*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AB78);
 		}
 		static ::System::Comparison_1<::MoleMole::UIInLevelPauseTutorialWidgetController_TutorialData*>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIInLevelPauseTutorialWidgetController_TutorialData*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x398C0);
+			return (::System::Comparison_1<::MoleMole::UIInLevelPauseTutorialWidgetController_TutorialData*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseTutorialWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3AB80);
 		}
 
 		static ::System::Void _cctor()

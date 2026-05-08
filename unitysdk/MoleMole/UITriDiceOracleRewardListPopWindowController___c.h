@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_103;
+class Class_2_208CC9941471731A_892;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x79098F0)
-#define MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x7909930)
-#define MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__REFRESHSELECTEDVIEW_B__13_1_OFFSET UNITYSDK_OFFSET(0x7909940)
+#define MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF629400)
+#define MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF629440)
+#define MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__REFRESHSELECTEDVIEW_B__13_1_OFFSET UNITYSDK_OFFSET(0xF629450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleRewardListPopWindowController___c_TypeDefinitionIndex = 37777;
+	inline static constexpr unsigned int UITriDiceOracleRewardListPopWindowController___c_TypeDefinitionIndex = 60359;
 
 	class UITriDiceOracleRewardListPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_2_208CC9941471731A_103*, ::System::Int32>** StaticGet___9__13_1()
+		static ::System::Func_2<::Class_2_208CC9941471731A_892*, ::System::Int32>** StaticGet___9__13_1()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_103*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleRewardListPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3DA00);
+			return (::System::Func_2<::Class_2_208CC9941471731A_892*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleRewardListPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3F230);
 		}
 		static ::MoleMole::UITriDiceOracleRewardListPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UITriDiceOracleRewardListPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleRewardListPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3DA08);
+			return (::MoleMole::UITriDiceOracleRewardListPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleRewardListPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3F238);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshSelectedView_b__13_1(::Class_2_208CC9941471731A_103* reward)
+		::System::Int32 _RefreshSelectedView_b__13_1(::Class_2_208CC9941471731A_892* reward)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_103*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__REFRESHSELECTEDVIEW_B__13_1_OFFSET))(this, reward);
+			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_892*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRIDICEORACLEREWARDLISTPOPWINDOWCONTROLLER___C__REFRESHSELECTEDVIEW_B__13_1_OFFSET))(this, reward);
 		}
 	};
 }

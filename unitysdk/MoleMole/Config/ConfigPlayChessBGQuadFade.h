@@ -5,19 +5,19 @@
 class Class_1_D72537470FC2F779;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYCHESSBGQUADFADE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xE2CCAF0)
-#define MOLEMOLE_CONFIG_CONFIGPLAYCHESSBGQUADFADE__CTOR_OFFSET UNITYSDK_OFFSET(0xE2CCBD0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYCHESSBGQUADFADE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17452CB0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYCHESSBGQUADFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x17452D70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayChessBGQuadFade_TypeDefinitionIndex = 53848;
+	inline static constexpr unsigned int ConfigPlayChessBGQuadFade_TypeDefinitionIndex = 64413;
 
 	class ConfigPlayChessBGQuadFade : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::UnityEngine::AnimationCurve* Curve; // 0x18
-		::System::Single duration; // 0x20
-		::System::Boolean FadeIn; // 0x24
+		::System::Boolean FadeIn; // 0x20
+		::System::Single duration; // 0x24
 
 		::System::Void _ctor()
 		{

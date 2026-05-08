@@ -4,12 +4,12 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETCHESSENTITYASPLAYER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB824310)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETCHESSENTITYASPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8244D0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETCHESSENTITYASPLAYER_INVOKE_OFFSET UNITYSDK_OFFSET(0x177FCBF0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETCHESSENTITYASPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x177FCD90)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameSetChessEntityAsPlayer_TypeDefinitionIndex = 58654;
+	inline static constexpr unsigned int HackerGameSetChessEntityAsPlayer_TypeDefinitionIndex = 53717;
 
 	class HackerGameSetChessEntityAsPlayer : public ::FlowCanvas::Nodes::CallableActionNode_1<::MoleMole::ChessEntity*>
 	{

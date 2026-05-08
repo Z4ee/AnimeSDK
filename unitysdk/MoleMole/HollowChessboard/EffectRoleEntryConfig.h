@@ -8,19 +8,19 @@ namespace MoleMole::HollowChessboard { class IEffectExpressionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLEENTRYCONFIG_CREATEEFFECTROLEENTRY_OFFSET UNITYSDK_OFFSET(0xB8AFCE0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLEENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AFFA0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLEENTRYCONFIG_CREATEEFFECTROLEENTRY_OFFSET UNITYSDK_OFFSET(0x16E5A770)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLEENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E5AA10)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int EffectRoleEntryConfig_TypeDefinitionIndex = 60369;
+	inline static constexpr unsigned int EffectRoleEntryConfig_TypeDefinitionIndex = 39729;
 
 	class EffectRoleEntryConfig : public ::System::Object
 	{
 	public:
 		::MoleMole::HollowChessboard::EffectResult Result; // 0x10
-		::System::String* Description; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::IEffectExpressionConfig*>* EffectExpressionArray; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::IEffectExpressionConfig*>* EffectExpressionArray; // 0x20
+		::System::String* Description; // 0x28
 
 		::System::Void _ctor()
 		{

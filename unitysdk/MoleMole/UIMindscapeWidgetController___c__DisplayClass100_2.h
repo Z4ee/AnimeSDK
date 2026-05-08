@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace MoleMole { class UIMindscapeWidgetController___c__DisplayClass100_1; }
 
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS100_2__CHANGETABSTATE_B__1_OFFSET UNITYSDK_OFFSET(0xB5023E0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS100_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB5023D0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS100_2__CHANGETABSTATE_B__1_OFFSET UNITYSDK_OFFSET(0x13FCE100)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS100_2__CTOR_OFFSET UNITYSDK_OFFSET(0x13FCE0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController___c__DisplayClass100_2_TypeDefinitionIndex = 73443;
+	inline static constexpr unsigned int UIMindscapeWidgetController___c__DisplayClass100_2_TypeDefinitionIndex = 38782;
 
 	class UIMindscapeWidgetController___c__DisplayClass100_2 : public ::System::Object
 	{

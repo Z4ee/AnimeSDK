@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7CFB31C413D16E14.h"
+#include "unitysdk/Enum_3_7CF7F1C413CECBBD_3.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_UISUMMERSELECTLEVELPAGECONTROLLER_PANELDATA_ISTABLOCK_OFFSET UNITYSDK_OFFSET(0xCAA9D40)
-#define MOLEMOLE_UISUMMERSELECTLEVELPAGECONTROLLER_PANELDATA_SHOWLOCKTIPS_OFFSET UNITYSDK_OFFSET(0xCAA9DD0)
-#define MOLEMOLE_UISUMMERSELECTLEVELPAGECONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA9E60)
+#define MOLEMOLE_UISUMMERSELECTLEVELPAGECONTROLLER_PANELDATA_ISTABLOCK_OFFSET UNITYSDK_OFFSET(0x14DD6010)
+#define MOLEMOLE_UISUMMERSELECTLEVELPAGECONTROLLER_PANELDATA_SHOWLOCKTIPS_OFFSET UNITYSDK_OFFSET(0x14DD6080)
+#define MOLEMOLE_UISUMMERSELECTLEVELPAGECONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14DD60F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerSelectLevelPageController_PanelData_TypeDefinitionIndex = 41786;
+	inline static constexpr unsigned int UISummerSelectLevelPageController_PanelData_TypeDefinitionIndex = 72811;
 
 	class UISummerSelectLevelPageController_PanelData : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* SelectEquipText; // 0x28
-		::System::String* StartButtonText; // 0x30
+		::System::String* ScoreTitleText; // 0x30
 		::System::String* Title; // 0x38
-		::System::String* ScoreTitleText; // 0x40
+		::System::String* StartButtonText; // 0x40
 		::System::Int32 TabLock2; // 0x48
-		::System::Int32 SelectLevelId; // 0x4C
-		::System::Boolean IsShooting; // 0x50
-		::System::Boolean IsOpenByMainPanel; // 0x51
-		::System::Int32 TabLock1; // 0x54
-		::Enum_3_7CFB31C413D16E14 LevelGroupType; // 0x58
+		::System::Boolean IsOpenByMainPanel; // 0x4C
+		::System::Boolean IsShooting; // 0x4D
+		::System::Int32 TabLock1; // 0x50
+		::Enum_3_7CF7F1C413CECBBD_3 LevelGroupType; // 0x54
+		::System::Int32 SelectLevelId; // 0x58
 
 		::System::Void _ctor()
 		{

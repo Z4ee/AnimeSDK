@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardUpdateStateMachineParams_StateMachineChangeType_TypeDefinitionIndex = 46878;
+	inline static constexpr unsigned int ChessboardUpdateStateMachineParams_StateMachineChangeType_TypeDefinitionIndex = 65512;
 
 	enum class ChessboardUpdateStateMachineParams_StateMachineChangeType : ::System::Int32
 	{
-		Delay = 2,
 		Immediate = 0,
 		Bubble = 1,
+		Delay = 2,
 	};
 }

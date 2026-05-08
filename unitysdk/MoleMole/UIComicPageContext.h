@@ -6,26 +6,26 @@ namespace MoleMole { class ComicConfig; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICOMICPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD0FDB20)
+#define MOLEMOLE_UICOMICPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA1980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageContext_TypeDefinitionIndex = 79331;
+	inline static constexpr unsigned int UIComicPageContext_TypeDefinitionIndex = 41015;
 
 	class UIComicPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* FadeOutParam; // 0x28
-		::System::Action* executeWhenFadeOutStart; // 0x30
-		::MoleMole::ComicConfig* ComicConfig; // 0x38
-		::System::String* IntroKey; // 0x40
-		::System::Action* startOutsideFadeOutAction; // 0x48
+		::System::Action* startOutsideFadeOutAction; // 0x28
+		::System::String* FadeInParam; // 0x30
+		::System::String* FadeOutParam; // 0x38
+		::MoleMole::ComicConfig* ComicConfig; // 0x40
+		::System::Action* executeWhenFadeOutStart; // 0x48
 		::System::String* UIPlayMode; // 0x50
 		::System::String* TitleKey; // 0x58
-		::System::String* FadeInParam; // 0x60
+		::System::String* IntroKey; // 0x60
 		::System::Boolean overrideFadeOutByOuside; // 0x68
-		::System::Boolean ConnectCutScene; // 0x69
-		::System::Boolean connectExitHollow; // 0x6A
+		::System::Boolean connectExitHollow; // 0x69
+		::System::Boolean ConnectCutScene; // 0x6A
 		::System::Int32 PerformId; // 0x6C
 
 		::System::Void _ctor()

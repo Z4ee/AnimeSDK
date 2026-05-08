@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_80DF1DB3FC47B2D6;
+class Class_1_40264A1FD04B14F7;
 
-#define MOLEMOLE_UISUMMEREVENTPOPGETROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA467460)
+#define MOLEMOLE_UISUMMEREVENTPOPGETROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1378F960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventPopGetRowWidgetController_Data_TypeDefinitionIndex = 39338;
+	inline static constexpr unsigned int UISummerEventPopGetRowWidgetController_Data_TypeDefinitionIndex = 42055;
 
 	class UISummerEventPopGetRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_1_80DF1DB3FC47B2D6* AccessData; // 0x10
+		::Class_1_40264A1FD04B14F7* AccessData; // 0x10
 
 		::System::Void _ctor()
 		{

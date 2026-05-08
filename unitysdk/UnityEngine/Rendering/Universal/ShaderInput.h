@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderInput_TypeDefinitionIndex = 24276;
+	inline static constexpr unsigned int ShaderInput_TypeDefinitionIndex = 24789;
 
 	class ShaderInput : public ::System::Object
 	{

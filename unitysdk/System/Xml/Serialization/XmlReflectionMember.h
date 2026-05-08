@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml::Serialization { class XmlAttributes; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONMEMBER_GET_XMLATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1A26E3C0)
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONMEMBER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A26F210)
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2712D0)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONMEMBER_GET_XMLATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1AE93360)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONMEMBER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AE94290)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE964B0)
 
 namespace System::Xml::Serialization
 {
@@ -18,9 +18,9 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::Type* memberType; // 0x10
-		::System::Type* declaringType; // 0x18
-		::System::String* memberName; // 0x20
-		::System::Xml::Serialization::XmlAttributes* xmlAttributes; // 0x28
+		::System::Xml::Serialization::XmlAttributes* xmlAttributes; // 0x18
+		::System::Type* declaringType; // 0x20
+		::System::String* memberName; // 0x28
 		::System::Boolean isReturnValue; // 0x30
 
 		::System::Void _ctor()

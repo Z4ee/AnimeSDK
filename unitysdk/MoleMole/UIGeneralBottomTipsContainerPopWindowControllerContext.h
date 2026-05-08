@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALBOTTOMTIPSCONTAINERPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD5735E0)
+#define MOLEMOLE_UIGENERALBOTTOMTIPSCONTAINERPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157A44C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBottomTipsContainerPopWindowControllerContext_TypeDefinitionIndex = 56305;
+	inline static constexpr unsigned int UIGeneralBottomTipsContainerPopWindowControllerContext_TypeDefinitionIndex = 71044;
 
 	class UIGeneralBottomTipsContainerPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

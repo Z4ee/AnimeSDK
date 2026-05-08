@@ -5,12 +5,12 @@
 class Class_2_01B22E9930E7BB4D;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF1E32A0)
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS43_0__GETAUTOTSELECTTARGET_B__1_OFFSET UNITYSDK_OFFSET(0xF1E32B0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF0C60)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS43_0__GETAUTOTSELECTTARGET_B__1_OFFSET UNITYSDK_OFFSET(0x16EF0C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIExpeditionBuddySelectPopWindowController___c__DisplayClass43_0_TypeDefinitionIndex = 65175;
+	inline static constexpr unsigned int UIExpeditionBuddySelectPopWindowController___c__DisplayClass43_0_TypeDefinitionIndex = 42204;
 
 	class UIExpeditionBuddySelectPopWindowController___c__DisplayClass43_0 : public ::System::Object
 	{

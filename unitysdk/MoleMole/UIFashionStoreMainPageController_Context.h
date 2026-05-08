@@ -5,11 +5,11 @@
 class Class_1_BD2BE7927F889C7B;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D1A80)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E9DCE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreMainPageController_Context_TypeDefinitionIndex = 62474;
+	inline static constexpr unsigned int UIFashionStoreMainPageController_Context_TypeDefinitionIndex = 62345;
 
 	class UIFashionStoreMainPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

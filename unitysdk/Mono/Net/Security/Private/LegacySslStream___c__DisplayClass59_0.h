@@ -7,9 +7,9 @@ namespace System { class String; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__DISPLAYCLASS59_0__BEGINAUTHENTICATEASSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x190493E0)
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__DISPLAYCLASS59_0__BEGINAUTHENTICATEASSERVER_B__1_OFFSET UNITYSDK_OFFSET(0x19049480)
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x190493D0)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__DISPLAYCLASS59_0__BEGINAUTHENTICATEASSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x19A3F470)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__DISPLAYCLASS59_0__BEGINAUTHENTICATEASSERVER_B__1_OFFSET UNITYSDK_OFFSET(0x19A3F510)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3F460)
 
 namespace Mono::Net::Security::Private
 {
@@ -18,8 +18,8 @@ namespace Mono::Net::Security::Private
 	class LegacySslStream___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate; // 0x10
-		::Mono::Net::Security::Private::LegacySslStream* __4__this; // 0x18
+		::Mono::Net::Security::Private::LegacySslStream* __4__this; // 0x10
+		::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -8,11 +8,11 @@ namespace UnityEngine { class NapAnimator; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCAnimationLib___c__DisplayClass10_0_TypeDefinitionIndex = 54260;
+	inline static constexpr unsigned int NPCAnimationLib___c__DisplayClass10_0_TypeDefinitionIndex = 74941;
 
 	struct alignas(8) NPCAnimationLib___c__DisplayClass10_0
 	{
-		::UnityEngine::NapAnimator* animator; // 0x10
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::AnimationClip*, ::System::Int32>* result; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::AnimationClip*, ::System::Int32>* result; // 0x10
+		::UnityEngine::NapAnimator* animator; // 0x18
 	};
 }

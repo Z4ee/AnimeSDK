@@ -11,7 +11,7 @@ namespace Foundation { template <typename T> class MultiCyclicQueue_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiCyclicQueue_1_TypeDefinitionIndex = 8209;
+	inline static constexpr unsigned int MultiCyclicQueue_1_TypeDefinitionIndex = 8226;
 
 	template <typename TItem>
 	class MultiCyclicQueue_1 : public ::System::Object

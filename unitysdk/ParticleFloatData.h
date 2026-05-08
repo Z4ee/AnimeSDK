@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParticleBaseDataType.h"
 
-#define PARTICLEFLOATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B32870)
+#define PARTICLEFLOATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B83DC0)
 
-inline static constexpr unsigned int ParticleFloatData_TypeDefinitionIndex = 28991;
+inline static constexpr unsigned int ParticleFloatData_TypeDefinitionIndex = 29510;
 
 class ParticleFloatData : public ::ParticleBaseDataType
 {

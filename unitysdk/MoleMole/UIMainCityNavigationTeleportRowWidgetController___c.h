@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x87717A0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x87717E0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DELNYAKICHNEW_B__17_1_OFFSET UNITYSDK_OFFSET(0x87717F0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__TELEPORTBYCHANGESCENE_B__20_0_OFFSET UNITYSDK_OFFSET(0x8771800)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B8C230)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8C270)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DELNYAKICHNEW_B__17_1_OFFSET UNITYSDK_OFFSET(0x14B8C280)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__TELEPORTBYCHANGESCENE_B__20_0_OFFSET UNITYSDK_OFFSET(0x14B8C290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex = 44882;
+	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex = 78449;
 
 	class UIMainCityNavigationTeleportRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIMainCityNavigationTeleportRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMainCityNavigationTeleportRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37530);
+			return (::MoleMole::UIMainCityNavigationTeleportRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37F80);
 		}
 		static ::System::Action** StaticGet___9__17_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37538);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37F88);
 		}
 		static ::System::Action** StaticGet___9__20_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37540);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationTeleportRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37F90);
 		}
 
 		static ::System::Void _cctor()

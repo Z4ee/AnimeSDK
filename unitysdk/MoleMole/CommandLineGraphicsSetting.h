@@ -29,7 +29,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineGraphicsSetting_TypeDefinitionIndex = 73263;
+	inline static constexpr unsigned int CommandLineGraphicsSetting_TypeDefinitionIndex = 78760;
 
 	struct alignas(8) CommandLineGraphicsSetting
 	{

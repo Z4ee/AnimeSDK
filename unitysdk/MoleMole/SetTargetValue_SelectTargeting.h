@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTargetValue_SelectTargeting_TypeDefinitionIndex = 47134;
+	inline static constexpr unsigned int SetTargetValue_SelectTargeting_TypeDefinitionIndex = 51286;
 
 	enum class SetTargetValue_SelectTargeting : ::System::Int32
 	{
-		AllAllied = 1,
 		AllEnemy = 0,
 		AllNeutral = 2,
 		SelectTarget = 3,
+		AllAllied = 1,
 		LocalAvatar = 4,
 	};
 }

@@ -5,11 +5,11 @@
 
 namespace NPCCrowd::AI { class PathGraphSplineConfig; }
 
-#define NPCCROWD_AI_PATHGRAPHLOCATORUTILS_ISSPLINEPOINTSFORWARDBYPOSITION_OFFSET UNITYSDK_OFFSET(0xC2E53D0)
+#define NPCCROWD_AI_PATHGRAPHLOCATORUTILS_ISSPLINEPOINTSFORWARDBYPOSITION_OFFSET UNITYSDK_OFFSET(0x11D83830)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphLocatorUtils_TypeDefinitionIndex = 43914;
+	inline static constexpr unsigned int PathGraphLocatorUtils_TypeDefinitionIndex = 54226;
 
 	class PathGraphLocatorUtils : public ::System::Object
 	{

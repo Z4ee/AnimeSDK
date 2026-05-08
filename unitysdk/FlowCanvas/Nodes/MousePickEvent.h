@@ -9,21 +9,21 @@ namespace FlowCanvas { class FlowOutput; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_MOUSEPICKEVENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A5615E0)
-#define FLOWCANVAS_NODES_MOUSEPICKEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A5616B0)
-#define FLOWCANVAS_NODES_MOUSEPICKEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A561740)
-#define FLOWCANVAS_NODES_MOUSEPICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A561750)
-#define FLOWCANVAS_NODES_MOUSEPICKEVENT__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A5617D0)
+#define FLOWCANVAS_NODES_MOUSEPICKEVENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B324660)
+#define FLOWCANVAS_NODES_MOUSEPICKEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B324770)
+#define FLOWCANVAS_NODES_MOUSEPICKEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B324800)
+#define FLOWCANVAS_NODES_MOUSEPICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B324810)
+#define FLOWCANVAS_NODES_MOUSEPICKEVENT__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B3248A0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MousePickEvent_TypeDefinitionIndex = 26181;
+	inline static constexpr unsigned int MousePickEvent_TypeDefinitionIndex = 27268;
 
 	class MousePickEvent : public ::FlowCanvas::Nodes::EventNode
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::LayerMask>* mask; // 0xA8
-		::NodeCanvas::Framework::BBParameter_1<::FlowCanvas::Nodes::MousePickEvent_ButtonKeys>* buttonKey; // 0xB0
+		::NodeCanvas::Framework::BBParameter_1<::FlowCanvas::Nodes::MousePickEvent_ButtonKeys>* buttonKey; // 0xA8
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::LayerMask>* mask; // 0xB0
 		::FlowCanvas::FlowOutput* o; // 0xB8
 		::UnityEngine::RaycastHit hit; // 0xC0
 

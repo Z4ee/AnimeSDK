@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderInput_ShadowData_TypeDefinitionIndex = 24278;
+	inline static constexpr unsigned int ShaderInput_ShadowData_TypeDefinitionIndex = 24791;
 
 	struct alignas(4) ShaderInput_ShadowData
 	{

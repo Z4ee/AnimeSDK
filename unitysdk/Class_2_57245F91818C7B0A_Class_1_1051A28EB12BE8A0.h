@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_5;
+class Class_0_16E4307DCC419505_11;
 namespace Cysharp::Threading::Tasks { template <typename T> class AutoResetUniTaskCompletionSource_1; }
 
-inline static constexpr unsigned int Class_2_57245F91818C7B0A_Class_1_1051A28EB12BE8A0_TypeDefinitionIndex = 79206;
+inline static constexpr unsigned int Class_2_57245F91818C7B0A_Class_1_1051A28EB12BE8A0_TypeDefinitionIndex = 80440;
 
 template <typename T>
 class Class_2_57245F91818C7B0A_Class_1_1051A28EB12BE8A0 : public ::System::Object

@@ -5,7 +5,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int UnsafeHashMap_2_ParallelWriter_TypeDefinitionIndex = 19810;
+	inline static constexpr unsigned int UnsafeHashMap_2_ParallelWriter_TypeDefinitionIndex = 20170;
 
 	template <typename TKey, typename TValue>
 	struct UnsafeHashMap_2_ParallelWriter

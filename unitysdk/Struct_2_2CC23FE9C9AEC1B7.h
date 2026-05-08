@@ -7,10 +7,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_0768FBB1D95A9ECC_OFFSET UNITYSDK_OFFSET(0xA3D1040)
-#define STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_F9A93D24814FDC13_OFFSET UNITYSDK_OFFSET(0x38B540)
+#define STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_0768FBB1D95A9ECC_OFFSET UNITYSDK_OFFSET(0x188AC420)
+#define STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_F9A93D24814FDC13_OFFSET UNITYSDK_OFFSET(0x7E5DE0)
 
-inline static constexpr unsigned int Struct_2_2CC23FE9C9AEC1B7_TypeDefinitionIndex = 64832;
+inline static constexpr unsigned int Struct_2_2CC23FE9C9AEC1B7_TypeDefinitionIndex = 75941;
 
 struct alignas(8) Struct_2_2CC23FE9C9AEC1B7
 {
@@ -23,13 +23,13 @@ struct alignas(8) Struct_2_2CC23FE9C9AEC1B7
 	::System::Boolean Field_2_6; // 0x2C
 	::System::Boolean Field_2_7; // 0x2D
 
-	::System::Void Method_2_F9A93D24814FDC13(::Enum_3_1FD1CECAB456A68E a1, ::System::UInt32 a2, ::MoleMole::Config::CampType a3, ::UnityEngine::GameObject* a4, ::System::Single a5, ::Enum_3_ABFC2C2AD6FA0905 a6, ::System::Boolean a7, ::System::Boolean a8)
-	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_1FD1CECAB456A68E, ::System::UInt32, ::MoleMole::Config::CampType, ::UnityEngine::GameObject*, ::System::Single, ::Enum_3_ABFC2C2AD6FA0905, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_F9A93D24814FDC13_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
-	}
-
 	static ::Struct_2_2CC23FE9C9AEC1B7 Method_2_0768FBB1D95A9ECC(::System::UInt32 a1, ::Enum_3_1FD1CECAB456A68E a2, ::MoleMole::Config::CampType a3, ::UnityEngine::GameObject* a4, ::System::Single a5, ::Enum_3_ABFC2C2AD6FA0905 a6, ::System::Boolean a7, ::System::Boolean a8)
 	{
 		return ((::Struct_2_2CC23FE9C9AEC1B7(*)(::System::UInt32, ::Enum_3_1FD1CECAB456A68E, ::MoleMole::Config::CampType, ::UnityEngine::GameObject*, ::System::Single, ::Enum_3_ABFC2C2AD6FA0905, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_0768FBB1D95A9ECC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+	}
+
+	::System::Void Method_2_F9A93D24814FDC13(::Enum_3_1FD1CECAB456A68E a1, ::System::UInt32 a2, ::MoleMole::Config::CampType a3, ::UnityEngine::GameObject* a4, ::System::Single a5, ::Enum_3_ABFC2C2AD6FA0905 a6, ::System::Boolean a7, ::System::Boolean a8)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_1FD1CECAB456A68E, ::System::UInt32, ::MoleMole::Config::CampType, ::UnityEngine::GameObject*, ::System::Single, ::Enum_3_ABFC2C2AD6FA0905, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_2CC23FE9C9AEC1B7_METHOD_2_F9A93D24814FDC13_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 	}
 };

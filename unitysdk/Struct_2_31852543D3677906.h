@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_31852543D3677906__CTOR_OFFSET UNITYSDK_OFFSET(0x360090)
+#define STRUCT_2_31852543D3677906__CTOR_OFFSET UNITYSDK_OFFSET(0x696650)
 
-inline static constexpr unsigned int Struct_2_31852543D3677906_TypeDefinitionIndex = 42468;
+inline static constexpr unsigned int Struct_2_31852543D3677906_TypeDefinitionIndex = 56515;
 
 struct alignas(1) Struct_2_31852543D3677906
 {

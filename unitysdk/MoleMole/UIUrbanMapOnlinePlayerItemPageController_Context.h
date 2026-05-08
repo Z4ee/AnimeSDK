@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIURBANMAPONLINEPLAYERITEMPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0F2E0)
+#define MOLEMOLE_UIURBANMAPONLINEPLAYERITEMPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3ED60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapOnlinePlayerItemPageController_Context_TypeDefinitionIndex = 67062;
+	inline static constexpr unsigned int UIUrbanMapOnlinePlayerItemPageController_Context_TypeDefinitionIndex = 63621;
 
 	class UIUrbanMapOnlinePlayerItemPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

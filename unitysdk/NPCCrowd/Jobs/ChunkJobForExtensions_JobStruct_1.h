@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Jobs
 {
-	inline static constexpr unsigned int ChunkJobForExtensions_JobStruct_1_TypeDefinitionIndex = 8874;
+	inline static constexpr unsigned int ChunkJobForExtensions_JobStruct_1_TypeDefinitionIndex = 9157;
 
 	template <typename T>
 	struct ChunkJobForExtensions_JobStruct_1

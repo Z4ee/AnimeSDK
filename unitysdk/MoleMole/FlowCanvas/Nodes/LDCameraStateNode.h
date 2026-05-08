@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA380EC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA381230)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x170C0FC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x170C1380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCameraStateNode_TypeDefinitionIndex = 71101;
+	inline static constexpr unsigned int LDCameraStateNode_TypeDefinitionIndex = 76783;
 
 	class LDCameraStateNode : public ::FlowCanvas::Nodes::CallableFunctionNode_7<::System::Boolean, ::MoleMole::Config::InlevelCameraState, ::System::Boolean, ::System::String*, ::System::String*, ::System::Single, ::System::String*>
 	{

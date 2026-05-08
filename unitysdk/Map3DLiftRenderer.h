@@ -10,22 +10,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define MAP3DLIFTRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x7BA58D0)
-#define MAP3DLIFTRENDERER_SETUPLIFTEFFECT_OFFSET UNITYSDK_OFFSET(0x7BA5E40)
-#define MAP3DLIFTRENDERER_SWITCHLINETYPE_OFFSET UNITYSDK_OFFSET(0x7BA6610)
-#define MAP3DLIFTRENDERER_UPDATECURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x7BA6810)
-#define MAP3DLIFTRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x7BA6900)
-#define MAP3DLIFTRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x7BA6FC0)
-#define MAP3DLIFTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x7BA6E10)
+#define MAP3DLIFTRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xFE86080)
+#define MAP3DLIFTRENDERER_SETUPLIFTEFFECT_OFFSET UNITYSDK_OFFSET(0xFE86840)
+#define MAP3DLIFTRENDERER_SWITCHLINETYPE_OFFSET UNITYSDK_OFFSET(0xFE871B0)
+#define MAP3DLIFTRENDERER_UPDATECURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0xFE87480)
+#define MAP3DLIFTRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0xFE87530)
+#define MAP3DLIFTRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFE87CF0)
+#define MAP3DLIFTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xFE87B00)
 
-inline static constexpr unsigned int Map3DLiftRenderer_TypeDefinitionIndex = 77840;
+inline static constexpr unsigned int Map3DLiftRenderer_TypeDefinitionIndex = 54375;
 
 class Map3DLiftRenderer : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
 	static ::System::Single* StaticGet_percent()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Map3DLiftRenderer_TypeDefinitionIndex)->GetStaticField(0xC0F0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Map3DLiftRenderer_TypeDefinitionIndex)->GetStaticField(0xBFD0);
 	}
 	::UnityEngine::Material* sphereMaterial; // 0x58
 	::System::Single radius; // 0x60

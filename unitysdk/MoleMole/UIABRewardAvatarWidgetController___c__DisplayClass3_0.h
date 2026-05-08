@@ -6,20 +6,20 @@ namespace MoleMole { class UIABRewardAvatarWidgetController; }
 namespace MoleMole { class UIAutoBattleRewardPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABREWARDAVATARWIDGETCONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB941450)
-#define MOLEMOLE_UIABREWARDAVATARWIDGETCONTROLLER___C__DISPLAYCLASS3_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0xB941460)
-#define MOLEMOLE_UIABREWARDAVATARWIDGETCONTROLLER___C__DISPLAYCLASS3_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0xB9414F0)
+#define MOLEMOLE_UIABREWARDAVATARWIDGETCONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1586C2E0)
+#define MOLEMOLE_UIABREWARDAVATARWIDGETCONTROLLER___C__DISPLAYCLASS3_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x1586C2F0)
+#define MOLEMOLE_UIABREWARDAVATARWIDGETCONTROLLER___C__DISPLAYCLASS3_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x1586C380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABRewardAvatarWidgetController___c__DisplayClass3_0_TypeDefinitionIndex = 81000;
+	inline static constexpr unsigned int UIABRewardAvatarWidgetController___c__DisplayClass3_0_TypeDefinitionIndex = 55554;
 
 	class UIABRewardAvatarWidgetController___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIABRewardAvatarWidgetController* __4__this; // 0x10
-		::MoleMole::UIAutoBattleRewardPopWindowController* parent; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UIABRewardAvatarWidgetController* __4__this; // 0x18
+		::MoleMole::UIAutoBattleRewardPopWindowController* parent; // 0x20
 
 		::System::Void _ctor()
 		{

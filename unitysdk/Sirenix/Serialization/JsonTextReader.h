@@ -11,22 +11,22 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::IO { class Stream; }
 namespace System::IO { class StreamReader; }
 
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_CONSUMECHAR_OFFSET UNITYSDK_OFFSET(0x1B442A80)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4416B0)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1B4414B0)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_GUESSPRIMITIVETYPE_OFFSET UNITYSDK_OFFSET(0x1B443410)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_ISHEX_OFFSET UNITYSDK_OFFSET(0x1B442B40)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PARSEENTRYFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x1B442E20)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PARSEHEXCHAR_OFFSET UNITYSDK_OFFSET(0x1B442B60)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PARSESINGLECHAR_OFFSET UNITYSDK_OFFSET(0x1B443580)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PEEKCHAR_OFFSET UNITYSDK_OFFSET(0x1B442950)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_READCHARINTOBUFFER_OFFSET UNITYSDK_OFFSET(0x1B442CD0)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_READTONEXTENTRY_OFFSET UNITYSDK_OFFSET(0x1B4416C0)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_RESET_OFFSET UNITYSDK_OFFSET(0x1B441680)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1B4414C0)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER_SKIPCHAR_OFFSET UNITYSDK_OFFSET(0x1B442A20)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4435C0)
-#define SIRENIX_SERIALIZATION_JSONTEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4414D0)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_CONSUMECHAR_OFFSET UNITYSDK_OFFSET(0x1C144F70)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1439C0)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C143850)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_GUESSPRIMITIVETYPE_OFFSET UNITYSDK_OFFSET(0x1C1459F0)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_ISHEX_OFFSET UNITYSDK_OFFSET(0x1C145030)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PARSEENTRYFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x1C145340)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PARSEHEXCHAR_OFFSET UNITYSDK_OFFSET(0x1C145050)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PARSESINGLECHAR_OFFSET UNITYSDK_OFFSET(0x1C145BD0)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_PEEKCHAR_OFFSET UNITYSDK_OFFSET(0x1C144E40)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_READCHARINTOBUFFER_OFFSET UNITYSDK_OFFSET(0x1C1451C0)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_READTONEXTENTRY_OFFSET UNITYSDK_OFFSET(0x1C1439D0)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_RESET_OFFSET UNITYSDK_OFFSET(0x1C143990)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C143860)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER_SKIPCHAR_OFFSET UNITYSDK_OFFSET(0x1C144F10)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C145C10)
+#define SIRENIX_SERIALIZATION_JSONTEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C143870)
 
 namespace Sirenix::Serialization
 {
@@ -35,21 +35,21 @@ namespace Sirenix::Serialization
 	class JsonTextReader : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Nullable_1<::Sirenix::Serialization::EntryType>>** StaticGet_EntryDelineators()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Nullable_1<::Sirenix::Serialization::EntryType>>**)Il2CppClass::FromTypeDefinitionIndex(JsonTextReader_TypeDefinitionIndex)->GetStaticField(0x62D0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Char>** StaticGet_UnescapeDictionary()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JsonTextReader_TypeDefinitionIndex)->GetStaticField(0x62D8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JsonTextReader_TypeDefinitionIndex)->GetStaticField(0x62D0);
 		}
-		::System::Collections::Generic::Queue_1<::System::Char>* emergencyPlayback; // 0x10
-		::Il2CppArray<::System::Char>* buffer; // 0x18
-		::System::IO::StreamReader* reader; // 0x20
-		::Sirenix::Serialization::DeserializationContext* _Context_k__BackingField; // 0x28
+		static ::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Nullable_1<::Sirenix::Serialization::EntryType>>** StaticGet_EntryDelineators()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Nullable_1<::Sirenix::Serialization::EntryType>>**)Il2CppClass::FromTypeDefinitionIndex(JsonTextReader_TypeDefinitionIndex)->GetStaticField(0x62D8);
+		}
+		::Il2CppArray<::System::Char>* buffer; // 0x10
+		::System::Collections::Generic::Queue_1<::System::Char>* emergencyPlayback; // 0x18
+		::Sirenix::Serialization::DeserializationContext* _Context_k__BackingField; // 0x20
+		::System::IO::StreamReader* reader; // 0x28
 		::System::Int32 bufferIndex; // 0x30
-		::System::Nullable_1<::System::Char> lastReadChar; // 0x34
-		::System::Nullable_1<::System::Char> peekedChar; // 0x38
+		::System::Nullable_1<::System::Char> peekedChar; // 0x34
+		::System::Nullable_1<::System::Char> lastReadChar; // 0x38
 
 		::System::Void _ctor(::System::IO::Stream* stream, ::Sirenix::Serialization::DeserializationContext* context)
 		{

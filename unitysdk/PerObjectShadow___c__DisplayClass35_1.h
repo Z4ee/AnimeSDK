@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int PerObjectShadow___c__DisplayClass35_1_TypeDefinitionIndex = 29105;
+inline static constexpr unsigned int PerObjectShadow___c__DisplayClass35_1_TypeDefinitionIndex = 29624;
 
 struct alignas(1) PerObjectShadow___c__DisplayClass35_1
 {

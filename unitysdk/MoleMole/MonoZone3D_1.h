@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoZone3D_1_TypeDefinitionIndex = 50549;
+	inline static constexpr unsigned int MonoZone3D_1_TypeDefinitionIndex = 54342;
 
 	template <typename T>
 	class MonoZone3D_1 : public ::UnityEngine::MonoBehaviour

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBOUNTYMISSIONROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8BBBF60)
-#define MOLEMOLE_UIBOUNTYMISSIONROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBBFA0)
-#define MOLEMOLE_UIBOUNTYMISSIONROWWIDGETCONTROLLER___C__SENDRESETPHOTOMAINCITYQUEST_B__11_0_OFFSET UNITYSDK_OFFSET(0x8BBBFB0)
+#define MOLEMOLE_UIBOUNTYMISSIONROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152EFE50)
+#define MOLEMOLE_UIBOUNTYMISSIONROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152EFE90)
+#define MOLEMOLE_UIBOUNTYMISSIONROWWIDGETCONTROLLER___C__SENDRESETPHOTOMAINCITYQUEST_B__11_0_OFFSET UNITYSDK_OFFSET(0x152EFEA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBountyMissionRowWidgetController___c_TypeDefinitionIndex = 57183;
+	inline static constexpr unsigned int UIBountyMissionRowWidgetController___c_TypeDefinitionIndex = 65953;
 
 	class UIBountyMissionRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__11_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBountyMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x431B0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBountyMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47AC0);
 		}
 		static ::MoleMole::UIBountyMissionRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBountyMissionRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBountyMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x431B8);
+			return (::MoleMole::UIBountyMissionRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBountyMissionRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47AC8);
 		}
 
 		static ::System::Void _cctor()

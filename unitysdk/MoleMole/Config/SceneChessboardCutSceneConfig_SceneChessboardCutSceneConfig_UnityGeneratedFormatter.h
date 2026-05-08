@@ -11,34 +11,34 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF2DC250)
-#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF2DC260)
-#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF2DC920)
-#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2DCD50)
-#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF2DCD10)
+#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159FB1E0)
+#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159FB1F0)
+#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159FB890)
+#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159FBCA0)
+#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG_SCENECHESSBOARDCUTSCENECONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159FBC60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 45142;
+	inline static constexpr unsigned int SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 47585;
 
 	class SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::SceneChessboardCutSceneConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ECA0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::Il2CppArray<::MoleMole::Config::ScenePeformAnimatorParam*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::Il2CppArray<::MoleMole::Config::ScenePeformAnimatorParam*>*>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ECA8);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::SceneChessboardCutSceneConfig_BodySize>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::SceneChessboardCutSceneConfig_BodySize>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ECB0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::SceneChessboardCutSceneConfig_BodySize>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49380);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49388);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CutSceneEndMode>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CutSceneEndMode>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3ECB8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CutSceneEndMode>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49390);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::Il2CppArray<::MoleMole::Config::ScenePeformAnimatorParam*>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::Il2CppArray<::MoleMole::Config::ScenePeformAnimatorParam*>*>**)Il2CppClass::FromTypeDefinitionIndex(SceneChessboardCutSceneConfig_SceneChessboardCutSceneConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49398);
 		}
 
 		::System::Void _ctor()

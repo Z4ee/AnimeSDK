@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5DA2E7556103D5A3_94.h"
+#include "unitysdk/Struct_2_58DF5669875F2C66_132.h"
+
+class Class_0_16E4307DCC419505_13;
+namespace System { class String; }
+
+#define CLASS_2_9340269FE9472DBA__CTOR_OFFSET UNITYSDK_OFFSET(0x11CD7AB0)
+
+inline static constexpr unsigned int Class_2_9340269FE9472DBA_TypeDefinitionIndex = 17386;
+
+class Class_2_9340269FE9472DBA : public ::Class_1_5DA2E7556103D5A3_94
+{
+public:
+	::Il2CppArray<::System::String*>* Field_2_3; // 0x70
+	::System::String* Field_2_0; // 0x78
+	::System::String* Field_2_2; // 0x80
+	::System::String* Field_2_1; // 0x88
+
+	::System::Void _ctor(::Struct_2_58DF5669875F2C66_132 a1, ::Class_0_16E4307DCC419505_13* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_58DF5669875F2C66_132, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_9340269FE9472DBA__CTOR_OFFSET))(this, a1, a2);
+	}
+};

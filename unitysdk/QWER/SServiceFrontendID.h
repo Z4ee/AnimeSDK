@@ -5,12 +5,12 @@
 namespace QWER { class CServiceFrontend; }
 namespace System { template <typename T> class Action_1; }
 
-#define QWER_SSERVICEFRONTENDID_POST_OFFSET UNITYSDK_OFFSET(0x980E60)
-#define QWER_SSERVICEFRONTENDID__CTOR_OFFSET UNITYSDK_OFFSET(0x3074E0)
+#define QWER_SSERVICEFRONTENDID_POST_OFFSET UNITYSDK_OFFSET(0x9B7DC0)
+#define QWER_SSERVICEFRONTENDID__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
 
 namespace QWER
 {
-	inline static constexpr unsigned int SServiceFrontendID_TypeDefinitionIndex = 84153;
+	inline static constexpr unsigned int SServiceFrontendID_TypeDefinitionIndex = 85881;
 
 	struct alignas(8) SServiceFrontendID
 	{

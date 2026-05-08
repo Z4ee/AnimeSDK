@@ -8,9 +8,9 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x19481B80)
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x19481B30)
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x194817F0)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x19D3B540)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x19D3B4F0)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D3B1B0)
 
 namespace System::Xml::Schema
 {
@@ -20,8 +20,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::Il2CppArray<::System::Xml::Schema::XmlValueConverter*>* converters; // 0x28
-		::System::Boolean hasAtomicMember; // 0x30
-		::System::Boolean hasListMember; // 0x31
+		::System::Boolean hasListMember; // 0x30
+		::System::Boolean hasAtomicMember; // 0x31
 
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType)
 		{

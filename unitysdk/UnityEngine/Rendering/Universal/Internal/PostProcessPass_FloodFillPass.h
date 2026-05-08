@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_FloodFillPass_TypeDefinitionIndex = 30002;
+	inline static constexpr unsigned int PostProcessPass_FloodFillPass_TypeDefinitionIndex = 30530;
 
 	enum class PostProcessPass_FloodFillPass : ::System::Int32
 	{

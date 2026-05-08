@@ -1,64 +1,75 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_73D51F1A281E07E6.h"
-#include "unitysdk/Enum_3_C0FE5C5ECCA2F598.h"
+#include "unitysdk/Enum_3_D9968D936B3A50DA.h"
 #include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
 #include "unitysdk/Struct_2_EDE9798445562320.h"
 
-class Class_1_3E086DDEB4C7E270;
 namespace System { class EventArgs; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HUDSTATESUBSYSTEM_BINDEVENTS_OFFSET UNITYSDK_OFFSET(0x6E94100)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_GETFACT_OFFSET UNITYSDK_OFFSET(0x6E93BB0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_CURRENTHUDSTATE_OFFSET UNITYSDK_OFFSET(0x6E93AA0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_DEFAULTHUDSTATE_OFFSET UNITYSDK_OFFSET(0x6E93B90)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_HUDSTATEOVERRIDELIST_OFFSET UNITYSDK_OFFSET(0x6E93520)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_OVERRIDEHUDSTATE_OFFSET UNITYSDK_OFFSET(0x6E93490)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_NOTIFYIFCHANGED_OFFSET UNITYSDK_OFFSET(0x6E93DC0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x6E93FA0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x6E94000)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x6E94060)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_POPHUDSTATE_OFFSET UNITYSDK_OFFSET(0x6E93880)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_PUSHHUDSTATE_OFFSET UNITYSDK_OFFSET(0x6E93660)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_RECOMPUTEDEFAULT_OFFSET UNITYSDK_OFFSET(0x6E93D40)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_SETFACT_OFFSET UNITYSDK_OFFSET(0x6E93C30)
-#define MOLEMOLE_HUDSTATESUBSYSTEM_SET_DEFAULTHUDSTATE_OFFSET UNITYSDK_OFFSET(0x6E93BA0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_0_OFFSET UNITYSDK_OFFSET(0x6E94C10)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_1_OFFSET UNITYSDK_OFFSET(0x6E94CA0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_2_OFFSET UNITYSDK_OFFSET(0x6E94CD0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_3_OFFSET UNITYSDK_OFFSET(0x6E94D00)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_4_OFFSET UNITYSDK_OFFSET(0x6E94D90)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_5_OFFSET UNITYSDK_OFFSET(0x6E94DC0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_6_OFFSET UNITYSDK_OFFSET(0x6E94E40)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_7_OFFSET UNITYSDK_OFFSET(0x6E94EC0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x6E94B40)
-#define MOLEMOLE_HUDSTATESUBSYSTEM__ISCOOPMODE_OFFSET UNITYSDK_OFFSET(0x6E93E80)
-#define MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x6E94F50)
-#define MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x6E94FB0)
-#define MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x6E95010)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_BINDEVENTS_OFFSET UNITYSDK_OFFSET(0x1428D410)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_BASESTATE_OFFSET UNITYSDK_OFFSET(0x1428CC90)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_CURRENTHUDSTATE_OFFSET UNITYSDK_OFFSET(0x1428CB60)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_HUDSTATEOVERRIDELIST_OFFSET UNITYSDK_OFFSET(0x1428C650)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_GET_OVERRIDEHUDSTATE_OFFSET UNITYSDK_OFFSET(0x1428C5E0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1428CC00)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_NOTIFYIFCHANGED_OFFSET UNITYSDK_OFFSET(0x1428D130)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1428D1D0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1428DE10)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_POPHUDSTATE_OFFSET UNITYSDK_OFFSET(0x1428C960)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_PUSHHUDSTATE_OFFSET UNITYSDK_OFFSET(0x1428C760)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_RECOMPUTEBASESTATE_OFFSET UNITYSDK_OFFSET(0x1428CDD0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1428CCB0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_SETINITIALSTATE_OFFSET UNITYSDK_OFFSET(0x1428D230)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_SET_BASESTATE_OFFSET UNITYSDK_OFFSET(0x1428CCA0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM_UNBINDEVENTS_OFFSET UNITYSDK_OFFSET(0x1428DE60)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1428F1F0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1428F120)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ISCOOPMODE_OFFSET UNITYSDK_OFFSET(0x1428E860)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONAVATARINOUTBATTLECHANGE_OFFSET UNITYSDK_OFFSET(0x1428E960)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONCOOPREGIONPLAYCHANGE_OFFSET UNITYSDK_OFFSET(0x1428EC30)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONETHERSTRONGSTATEINOUT_OFFSET UNITYSDK_OFFSET(0x1428EBD0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONINOUTBANGBOO_OFFSET UNITYSDK_OFFSET(0x1428EB70)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONMAINCHARACTERDIE_OFFSET UNITYSDK_OFFSET(0x1428ECF0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONPOPSTREAMINGHUDSTATE_OFFSET UNITYSDK_OFFSET(0x1428EE00)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONPUSHSTREAMINGHUDSTATE_OFFSET UNITYSDK_OFFSET(0x1428ED50)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONSTREAMINGGAMEUNSTUCKCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1428EEB0)
+#define MOLEMOLE_HUDSTATESUBSYSTEM__ONSTREAMINGHUDSTATECHANGE_OFFSET UNITYSDK_OFFSET(0x1428EF50)
+#define MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1428F510)
+#define MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1428F5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HUDStateSubsystem_TypeDefinitionIndex = 43590;
+	inline static constexpr unsigned int HUDStateSubsystem_TypeDefinitionIndex = 57466;
 
 	class HUDStateSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::HUDStateSubsystem*>
 	{
 	public:
-		::Class_1_3E086DDEB4C7E270* _facts; // 0x10
-		::System::Action_1<::Enum_3_C0FE5C5ECCA2F598>* OnChangeToSubState; // 0x18
-		::Enum_3_C0FE5C5ECCA2F598 _DefaultHudState_k__BackingField; // 0x20
+		static ::System::Collections::Generic::Dictionary_2<::Enum_3_D9968D936B3A50DA, ::System::Int32>** StaticGet_StatePriorities()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::Enum_3_D9968D936B3A50DA, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HUDStateSubsystem_TypeDefinitionIndex)->GetStaticField(0x45BA0);
+		}
+		::System::Collections::Generic::HashSet_1<::Enum_3_D9968D936B3A50DA>* _active; // 0x10
+		::System::Action_1<::Enum_3_D9968D936B3A50DA>* OnChangeToSubState; // 0x18
+		::Enum_3_D9968D936B3A50DA _BaseState_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_C0FE5C5ECCA2F598 get_OverrideHudState()
+		static ::System::Void _cctor()
 		{
-			return ((::Enum_3_C0FE5C5ECCA2F598(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_OVERRIDEHUDSTATE_OFFSET))(this);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__CCTOR_OFFSET))();
+		}
+
+		::Enum_3_D9968D936B3A50DA get_OverrideHudState()
+		{
+			return ((::Enum_3_D9968D936B3A50DA(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_OVERRIDEHUDSTATE_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::Struct_2_EDE9798445562320>* get_HUDStateOverrideList()
@@ -66,9 +77,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::List_1<::Struct_2_EDE9798445562320>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_HUDSTATEOVERRIDELIST_OFFSET))(this);
 		}
 
-		::System::Void PushHudState(::System::String* tag, ::Enum_3_C0FE5C5ECCA2F598 state, ::System::Int32 priority)
+		::System::Void PushHudState(::System::String* tag, ::Enum_3_D9968D936B3A50DA state, ::System::Int32 priority)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Enum_3_C0FE5C5ECCA2F598, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_PUSHHUDSTATE_OFFSET))(this, tag, state, priority);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Enum_3_D9968D936B3A50DA, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_PUSHHUDSTATE_OFFSET))(this, tag, state, priority);
 		}
 
 		::System::Void PopHudState(::System::String* tag, ::System::Boolean needRefresh)
@@ -76,39 +87,39 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_POPHUDSTATE_OFFSET))(this, tag, needRefresh);
 		}
 
-		::Enum_3_C0FE5C5ECCA2F598 get_DefaultHudState()
+		::System::Boolean IsActive(::Enum_3_D9968D936B3A50DA state)
 		{
-			return ((::Enum_3_C0FE5C5ECCA2F598(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_DEFAULTHUDSTATE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_D9968D936B3A50DA))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_ISACTIVE_OFFSET))(this, state);
 		}
 
-		::System::Void set_DefaultHudState(::Enum_3_C0FE5C5ECCA2F598 value)
+		::Enum_3_D9968D936B3A50DA get_BaseState()
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_C0FE5C5ECCA2F598))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_SET_DEFAULTHUDSTATE_OFFSET))(this, value);
+			return ((::Enum_3_D9968D936B3A50DA(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_BASESTATE_OFFSET))(this);
 		}
 
-		::Enum_3_C0FE5C5ECCA2F598 get_CurrentHudState()
+		::System::Void set_BaseState(::Enum_3_D9968D936B3A50DA value)
 		{
-			return ((::Enum_3_C0FE5C5ECCA2F598(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_CURRENTHUDSTATE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_D9968D936B3A50DA))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_SET_BASESTATE_OFFSET))(this, value);
 		}
 
-		::System::Boolean GetFact(::Enum_3_73D51F1A281E07E6 key)
+		::Enum_3_D9968D936B3A50DA get_CurrentHudState()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_73D51F1A281E07E6))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GETFACT_OFFSET))(this, key);
+			return ((::Enum_3_D9968D936B3A50DA(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_GET_CURRENTHUDSTATE_OFFSET))(this);
 		}
 
-		::System::Void SetFact(::Enum_3_73D51F1A281E07E6 key, ::System::Boolean value)
+		::System::Void SetActive(::Enum_3_D9968D936B3A50DA state, ::System::Boolean active)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_73D51F1A281E07E6, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_SETFACT_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_D9968D936B3A50DA, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_SETACTIVE_OFFSET))(this, state, active);
 		}
 
-		::System::Void RecomputeDefault()
+		::System::Void RecomputeBaseState()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_RECOMPUTEDEFAULT_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_RECOMPUTEBASESTATE_OFFSET))(this);
 		}
 
-		::System::Void NotifyIfChanged(::System::Boolean force, ::Enum_3_C0FE5C5ECCA2F598 last)
+		::System::Void NotifyIfChanged(::Enum_3_D9968D936B3A50DA last)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Enum_3_C0FE5C5ECCA2F598))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_NOTIFYIFCHANGED_OFFSET))(this, force, last);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_D9968D936B3A50DA))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_NOTIFYIFCHANGED_OFFSET))(this, last);
 		}
 
 		::System::Void OnAwake()
@@ -116,14 +127,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_ONAWAKE_OFFSET))(this);
 		}
 
+		::System::Void SetInitialState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_SETINITIALSTATE_OFFSET))(this);
+		}
+
 		::System::Void OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_ONDESTROY_OFFSET))(this);
-		}
-
-		::System::Void OnUpdate()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_ONUPDATE_OFFSET))(this);
 		}
 
 		::System::Boolean _isCoopMode()
@@ -131,49 +142,59 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ISCOOPMODE_OFFSET))(this);
 		}
 
+		::System::Void _OnAvatarInOutBattleChange(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONAVATARINOUTBATTLECHANGE_OFFSET))(this, args);
+		}
+
+		::System::Void _OnInOutBangboo(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONINOUTBANGBOO_OFFSET))(this, args);
+		}
+
+		::System::Void _OnEtherStrongStateInOut(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONETHERSTRONGSTATEINOUT_OFFSET))(this, args);
+		}
+
+		::System::Void _OnCoopRegionPlayChange(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONCOOPREGIONPLAYCHANGE_OFFSET))(this, args);
+		}
+
+		::System::Void _OnMainCharacterDie(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONMAINCHARACTERDIE_OFFSET))(this, args);
+		}
+
+		::System::Void _OnPushStreamingHUDState(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONPUSHSTREAMINGHUDSTATE_OFFSET))(this, args);
+		}
+
+		::System::Void _OnPopStreamingHUDState(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONPOPSTREAMINGHUDSTATE_OFFSET))(this, args);
+		}
+
+		::System::Void _OnStreamingGameUnstuckComplete(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONSTREAMINGGAMEUNSTUCKCOMPLETE_OFFSET))(this, args);
+		}
+
+		::System::Void _OnStreamingHUDStateChange(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__ONSTREAMINGHUDSTATECHANGE_OFFSET))(this, args);
+		}
+
 		::System::Void BindEvents()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_BINDEVENTS_OFFSET))(this);
 		}
 
-		::System::Void _BindEvents_b__22_0(::System::EventArgs* args)
+		::System::Void UnbindEvents()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_0_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_1(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_1_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_2(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_2_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_3(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_3_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_4(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_4_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_5(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_5_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_6(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_6_OFFSET))(this, args);
-		}
-
-		::System::Void _BindEvents_b__22_7(::System::EventArgs* args)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM__BINDEVENTS_B__22_7_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM_UNBINDEVENTS_OFFSET))(this);
 		}
 
 		::System::Void __base_OnAwake()
@@ -184,11 +205,6 @@ namespace MoleMole
 		::System::Void __base_OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONDESTROY_OFFSET))(this);
-		}
-
-		::System::Void __base_OnUpdate()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HUDSTATESUBSYSTEM___BASE_ONUPDATE_OFFSET))(this);
 		}
 	};
 }

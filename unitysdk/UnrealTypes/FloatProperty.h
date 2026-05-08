@@ -6,12 +6,12 @@
 namespace UnrealTypes { class FloatPropertyParams; }
 namespace UnrealTypes { class IFieldVariant; }
 
-#define UNREALTYPES_FLOATPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A204600)
-#define UNREALTYPES_FLOATPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20BD20)
+#define UNREALTYPES_FLOATPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD9B110)
+#define UNREALTYPES_FLOATPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA2A30)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FloatProperty_TypeDefinitionIndex = 24769;
+	inline static constexpr unsigned int FloatProperty_TypeDefinitionIndex = 25283;
 
 	class FloatProperty : public ::UnrealTypes::UnmanagedProperty_1<::System::Single>
 	{

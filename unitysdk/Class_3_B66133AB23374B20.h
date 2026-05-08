@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_285A7FDA478697F8.h"
+#include "unitysdk/Class_2_5DC15C9494D645F6.h"
 
 namespace MoleMole { class ScrollViewItemWidgetController; }
 namespace MoleMole { class UIControlReference; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_3_B66133AB23374B20_METHOD_3_570771A36E1C0E30_OFFSET UNITYSDK_OFFSET(0x8DA9200)
-#define CLASS_3_B66133AB23374B20_METHOD_3_866057E5772343C9_OFFSET UNITYSDK_OFFSET(0x8DA90B0)
-#define CLASS_3_B66133AB23374B20__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA91B0)
+#define CLASS_3_B66133AB23374B20_METHOD_3_570771A36E1C0E30_OFFSET UNITYSDK_OFFSET(0xBDC9340)
+#define CLASS_3_B66133AB23374B20_METHOD_3_866057E5772343C9_OFFSET UNITYSDK_OFFSET(0xBDC9220)
+#define CLASS_3_B66133AB23374B20__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC92F0)
 
-inline static constexpr unsigned int Class_3_B66133AB23374B20_TypeDefinitionIndex = 55528;
+inline static constexpr unsigned int Class_3_B66133AB23374B20_TypeDefinitionIndex = 52714;
 
-class Class_3_B66133AB23374B20 : public ::Class_2_285A7FDA478697F8
+class Class_3_B66133AB23374B20 : public ::Class_2_5DC15C9494D645F6
 {
 public:
 	::System::Void _ctor()

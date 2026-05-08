@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumeBounds_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_VOLUMEBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x18A479B0)
+#define UNITYENGINE_RENDERING_VOLUMEBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x191FA090)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeBounds_TypeDefinitionIndex = 9594;
+	inline static constexpr unsigned int VolumeBounds_TypeDefinitionIndex = 9605;
 
 	class VolumeBounds : public ::UnityEngine::NAPRenderPipeline0::VolumeBounds_NativeSRP
 	{

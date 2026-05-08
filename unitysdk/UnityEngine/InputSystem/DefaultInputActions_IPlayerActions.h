@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int DefaultInputActions_IPlayerActions_TypeDefinitionIndex = 28524;
+	inline static constexpr unsigned int DefaultInputActions_IPlayerActions_TypeDefinitionIndex = 29042;
 
 	class DefaultInputActions_IPlayerActions
 	{

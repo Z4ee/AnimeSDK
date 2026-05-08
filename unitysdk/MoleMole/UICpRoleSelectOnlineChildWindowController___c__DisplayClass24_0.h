@@ -5,12 +5,12 @@
 namespace MoleMole { class UICpRoleSelectDifficultyScript; }
 namespace MoleMole { class UICpRoleSelectOnlineChildWindowController; }
 
-#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBED60)
-#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__DISPLAYCLASS24_0__ONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x1ADBED70)
+#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD0B760)
+#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__DISPLAYCLASS24_0__ONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x1BD0B770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpRoleSelectOnlineChildWindowController___c__DisplayClass24_0_TypeDefinitionIndex = 83585;
+	inline static constexpr unsigned int UICpRoleSelectOnlineChildWindowController___c__DisplayClass24_0_TypeDefinitionIndex = 85237;
 
 	class UICpRoleSelectOnlineChildWindowController___c__DisplayClass24_0 : public ::System::Object
 	{

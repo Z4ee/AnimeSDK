@@ -5,12 +5,12 @@
 
 namespace MoleMole::Photo { class PlayableGraphReferenceCurveConfig; }
 
-#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUEITEM_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xA47D6C0)
-#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA47D740)
+#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUEITEM_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x12FAD2E0)
+#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12FAD340)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationModifyCurveValueItem_TypeDefinitionIndex = 59312;
+	inline static constexpr unsigned int AnimationModifyCurveValueItem_TypeDefinitionIndex = 64497;
 
 	class AnimationModifyCurveValueItem : public ::System::Object
 	{

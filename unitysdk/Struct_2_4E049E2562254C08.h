@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_4E049E2562254C08_METHOD_2_81E8348A50FCDC24_OFFSET UNITYSDK_OFFSET(0x30AD10)
-#define STRUCT_2_4E049E2562254C08_METHOD_2_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x30ACD0)
-#define STRUCT_2_4E049E2562254C08__CTOR_OFFSET UNITYSDK_OFFSET(0x30AC20)
+#define STRUCT_2_4E049E2562254C08_METHOD_2_81E8348A50FCDC24_OFFSET UNITYSDK_OFFSET(0x7D73E0)
+#define STRUCT_2_4E049E2562254C08_METHOD_2_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x7D7440)
+#define STRUCT_2_4E049E2562254C08__CTOR_OFFSET UNITYSDK_OFFSET(0x7D7330)
 
-inline static constexpr unsigned int Struct_2_4E049E2562254C08_TypeDefinitionIndex = 40442;
+inline static constexpr unsigned int Struct_2_4E049E2562254C08_TypeDefinitionIndex = 58831;
 
 struct alignas(4) Struct_2_4E049E2562254C08
 {
@@ -23,13 +23,13 @@ struct alignas(4) Struct_2_4E049E2562254C08
 		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + STRUCT_2_4E049E2562254C08__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::UnityEngine::Vector3 Method_2_D37FAD0A6AA04B25()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4E049E2562254C08_METHOD_2_D37FAD0A6AA04B25_OFFSET))(this);
-	}
-
 	::Struct_2_4E049E2562254C08 Method_2_81E8348A50FCDC24(::UnityEngine::Vector3 a1)
 	{
 		return ((::Struct_2_4E049E2562254C08(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STRUCT_2_4E049E2562254C08_METHOD_2_81E8348A50FCDC24_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Vector3 Method_2_D37FAD0A6AA04B25()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4E049E2562254C08_METHOD_2_D37FAD0A6AA04B25_OFFSET))(this);
 	}
 };

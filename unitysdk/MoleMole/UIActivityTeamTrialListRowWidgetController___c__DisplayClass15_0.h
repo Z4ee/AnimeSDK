@@ -5,18 +5,18 @@
 namespace MoleMole { class UIActivityTeamTrialListRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF23E30)
-#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0xBF23E40)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167F0990)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x167F09A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialListRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 78934;
+	inline static constexpr unsigned int UIActivityTeamTrialListRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 55967;
 
 	class UIActivityTeamTrialListRowWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityTeamTrialListRowWidgetController* __4__this; // 0x10
-		::System::Action* onUnlockAnimEnd; // 0x18
+		::System::Action* onUnlockAnimEnd; // 0x10
+		::MoleMole::UIActivityTeamTrialListRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

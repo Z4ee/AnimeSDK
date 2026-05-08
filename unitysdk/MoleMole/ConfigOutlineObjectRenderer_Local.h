@@ -5,12 +5,12 @@
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine::Rendering::Universal::Internal { class OutlineObjectRenderer; }
 
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL_METHOD_1_0063D12C321FE92D_OFFSET UNITYSDK_OFFSET(0xACDF880)
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL__CTOR_OFFSET UNITYSDK_OFFSET(0xACDF720)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL_METHOD_1_91F4824248EF27C1_OFFSET UNITYSDK_OFFSET(0x1754EE20)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1754EC90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Local_TypeDefinitionIndex = 49305;
+	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Local_TypeDefinitionIndex = 82637;
 
 	class ConfigOutlineObjectRenderer_Local : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_0063D12C321FE92D(::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer* a1)
+		::System::Void Method_1_91F4824248EF27C1(::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL_METHOD_1_0063D12C321FE92D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL_METHOD_1_91F4824248EF27C1_OFFSET))(this, a1);
 		}
 	};
 }

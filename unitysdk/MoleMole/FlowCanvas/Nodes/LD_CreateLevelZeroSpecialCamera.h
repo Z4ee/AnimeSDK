@@ -11,28 +11,28 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class RenderTexture; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB989DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xB989F20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB989F50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0xB989F60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__REGISTERPORTS_G____CLOSECAMERA_9_2_OFFSET UNITYSDK_OFFSET(0xB98A9C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18216FE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18217130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x18217180)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x18217190)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATELEVELZEROSPECIALCAMERA__REGISTERPORTS_G____CLOSECAMERA_9_2_OFFSET UNITYSDK_OFFSET(0x18217BF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CreateLevelZeroSpecialCamera_TypeDefinitionIndex = 45661;
+	inline static constexpr unsigned int LD_CreateLevelZeroSpecialCamera_TypeDefinitionIndex = 60105;
 
 	class LD_CreateLevelZeroSpecialCamera : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isRT; // 0xA8
-		::FlowCanvas::ValueOutput_1<::UnityEngine::RenderTexture*>* outputRT; // 0xB0
-		::UnityEngine::RenderTexture* createdTempRT; // 0xB8
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* extraOffset; // 0xC0
-		::FlowCanvas::FlowOutput* _output; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::String*>* spawnPoint; // 0xD0
-		::System::Single rtDuration; // 0xD8
+		::FlowCanvas::ValueOutput_1<::UnityEngine::RenderTexture*>* outputRT; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* spawnPoint; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isRT; // 0xC0
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* extraOffset; // 0xC8
+		::UnityEngine::RenderTexture* createdTempRT; // 0xD0
+		::System::Boolean copyFromMainCamera; // 0xD8
 		::System::Single screenScale; // 0xDC
-		::System::Boolean copyFromMainCamera; // 0xE0
+		::System::Single rtDuration; // 0xE0
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_COMIC_MAININFOTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1AC742B0)
-#define UNITYENGINE_TIMELINE_COMIC_MAININFOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC74300)
+#define UNITYENGINE_TIMELINE_COMIC_MAININFOTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1BA84850)
+#define UNITYENGINE_TIMELINE_COMIC_MAININFOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA848A0)
 
 namespace UnityEngine::Timeline::Comic
 {
-	inline static constexpr unsigned int MainInfoTrack_TypeDefinitionIndex = 30380;
+	inline static constexpr unsigned int MainInfoTrack_TypeDefinitionIndex = 30909;
 
 	class MainInfoTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

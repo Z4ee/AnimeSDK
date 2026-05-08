@@ -5,13 +5,13 @@
 
 namespace MoleMole { class FrameRateProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_638C4D5CE624AD09_OFFSET UNITYSDK_OFFSET(0xE2AEAA0)
-#define MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_907BEBF3BEDF0B04_OFFSET UNITYSDK_OFFSET(0xE2AEBE0)
-#define MOLEMOLE_COMMANDLINEFRAMERATE__CTOR_OFFSET UNITYSDK_OFFSET(0xE2AEBA0)
+#define MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_47D9418D793AEC80_OFFSET UNITYSDK_OFFSET(0x17433140)
+#define MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_638C4D5CE624AD09_OFFSET UNITYSDK_OFFSET(0x17433030)
+#define MOLEMOLE_COMMANDLINEFRAMERATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17433100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineFrameRate_TypeDefinitionIndex = 54957;
+	inline static constexpr unsigned int CommandLineFrameRate_TypeDefinitionIndex = 48608;
 
 	class CommandLineFrameRate : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::FrameRateProfileContext*, ::MoleMole::CommandLineFrameRate*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineFrameRate*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_638C4D5CE624AD09_OFFSET))(this, a1);
 		}
 
-		::MoleMole::FrameRateProfileContext* Method_2_907BEBF3BEDF0B04(::MoleMole::FrameRateProfileContext* a1)
+		::MoleMole::FrameRateProfileContext* Method_2_47D9418D793AEC80(::MoleMole::FrameRateProfileContext* a1)
 		{
-			return ((::MoleMole::FrameRateProfileContext*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_907BEBF3BEDF0B04_OFFSET))(this, a1);
+			return ((::MoleMole::FrameRateProfileContext*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_47D9418D793AEC80_OFFSET))(this, a1);
 		}
 	};
 }

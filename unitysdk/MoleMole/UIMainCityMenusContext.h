@@ -5,20 +5,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x7FB4300)
-#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x7FB4310)
-#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x7FB42F0)
+#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14D3A120)
+#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x14D3A130)
+#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3A110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMenusContext_TypeDefinitionIndex = 68844;
+	inline static constexpr unsigned int UIMainCityMenusContext_TypeDefinitionIndex = 76192;
 
 	class UIMainCityMenusContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Int32>* teleportList; // 0x28
-		::System::Int32 curSelectId; // 0x30
-		::Enum_3_A8FC943A2182F177 type; // 0x34
+		::Enum_3_A8FC943A2182F177 type; // 0x30
+		::System::Int32 curSelectId; // 0x34
 
 		::System::Void _ctor(::Enum_3_A8FC943A2182F177 type)
 		{

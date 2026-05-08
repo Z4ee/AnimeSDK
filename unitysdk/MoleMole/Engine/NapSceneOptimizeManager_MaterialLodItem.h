@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM_METHOD_1_B3B932CB2664D69F_OFFSET UNITYSDK_OFFSET(0x7566FE0)
-#define MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x7566D60)
+#define MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM_METHOD_1_656B064938A6B4A1_OFFSET UNITYSDK_OFFSET(0x1497F320)
+#define MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1497EFB0)
 
 namespace MoleMole::Engine
 {
-	inline static constexpr unsigned int NapSceneOptimizeManager_MaterialLodItem_TypeDefinitionIndex = 40155;
+	inline static constexpr unsigned int NapSceneOptimizeManager_MaterialLodItem_TypeDefinitionIndex = 45194;
 
 	class NapSceneOptimizeManager_MaterialLodItem : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MoleMole::Engine
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::MeshRenderer*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_B3B932CB2664D69F(::Il2CppArray<::UnityEngine::Material*>* a1)
+		::System::Void Method_1_656B064938A6B4A1(::Il2CppArray<::UnityEngine::Material*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM_METHOD_1_B3B932CB2664D69F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ENGINE_NAPSCENEOPTIMIZEMANAGER_MATERIALLODITEM_METHOD_1_656B064938A6B4A1_OFFSET))(this, a1);
 		}
 	};
 }

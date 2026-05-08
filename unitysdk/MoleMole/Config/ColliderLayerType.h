@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ColliderLayerType_TypeDefinitionIndex = 71648;
+	inline static constexpr unsigned int ColliderLayerType_TypeDefinitionIndex = 46131;
 
 	enum class ColliderLayerType : ::System::Int32
 	{
-		Character = 1,
-		Monster = 2,
 		EntityCollisionAvatar = 4,
-		Default = 0,
 		EntityCollisionMonster = 3,
+		Character = 1,
+		Default = 0,
+		Monster = 2,
 	};
 }

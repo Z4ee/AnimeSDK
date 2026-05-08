@@ -10,22 +10,22 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 template <typename T> class NPCSoftAssetPath_1;
 
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCESHADOWPROXYCOMPONENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x76D72D0)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCESHADOWPROXYCOMPONENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11508FB0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarGOReferenceShadowProxyComponentInfo_TypeDefinitionIndex = 78020;
+	inline static constexpr unsigned int NPCAvatarGOReferenceShadowProxyComponentInfo_TypeDefinitionIndex = 42910;
 
 	class NPCAvatarGOReferenceShadowProxyComponentInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* shadowProxyStaticGo; // 0x10
-		::UnityEngine::MeshFilter* shadowProxyStaticMF; // 0x18
-		::UnityEngine::SkinnedMeshRenderer* shadowProxySMR; // 0x20
-		::UnityEngine::MeshRenderer* shadowProxyStaticMR; // 0x28
-		::NPCSoftAssetPath_1<::UnityEngine::Mesh*>* shadowProxyMesh; // 0x30
-		::UnityEngine::GameObject* shadowProxySkinnedGo; // 0x38
-		::UnityEngine::Material* shadowProxyGpuMaterial; // 0x40
+		::UnityEngine::Material* shadowProxyGpuMaterial; // 0x10
+		::NPCSoftAssetPath_1<::UnityEngine::Mesh*>* shadowProxyMesh; // 0x18
+		::UnityEngine::GameObject* shadowProxySkinnedGo; // 0x20
+		::UnityEngine::GameObject* shadowProxyStaticGo; // 0x28
+		::UnityEngine::SkinnedMeshRenderer* shadowProxySMR; // 0x30
+		::UnityEngine::MeshRenderer* shadowProxyStaticMR; // 0x38
+		::UnityEngine::MeshFilter* shadowProxyStaticMF; // 0x40
 
 		::System::Void _ctor()
 		{

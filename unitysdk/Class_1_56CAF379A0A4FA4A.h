@@ -7,17 +7,17 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UIButtonEx; }
 
-#define CLASS_1_56CAF379A0A4FA4A_METHOD_1_7FD749686F4259C7_OFFSET UNITYSDK_OFFSET(0x6B83710)
-#define CLASS_1_56CAF379A0A4FA4A__CTOR_OFFSET UNITYSDK_OFFSET(0x6B83370)
+#define CLASS_1_56CAF379A0A4FA4A_METHOD_1_7FD749686F4259C7_OFFSET UNITYSDK_OFFSET(0xE89AA30)
+#define CLASS_1_56CAF379A0A4FA4A__CTOR_OFFSET UNITYSDK_OFFSET(0xE89A690)
 
-inline static constexpr unsigned int Class_1_56CAF379A0A4FA4A_TypeDefinitionIndex = 53108;
+inline static constexpr unsigned int Class_1_56CAF379A0A4FA4A_TypeDefinitionIndex = 64358;
 
 class Class_1_56CAF379A0A4FA4A : public ::System::Object
 {
 public:
-	::UnityEngine::UI::Text* Field_1_3; // 0x10
-	::UnityEngine::UI::Extension::UIButtonEx* Field_1_1; // 0x18
-	::UnityEngine::UI::Image* Field_1_0; // 0x20
+	::UnityEngine::UI::Image* Field_1_0; // 0x10
+	::UnityEngine::UI::Text* Field_1_3; // 0x18
+	::UnityEngine::UI::Extension::UIButtonEx* Field_1_1; // 0x20
 	::UnityEngine::UI::Text* Field_1_2; // 0x28
 	::System::Int32 Field_1_4; // 0x30
 

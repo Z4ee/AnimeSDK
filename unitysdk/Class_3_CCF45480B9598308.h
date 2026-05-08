@@ -7,11 +7,11 @@ namespace MoleMole { class UIHollowChessboard3DModelController; }
 namespace MoleMole { class UIHollowMainPageController; }
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 
-#define CLASS_3_CCF45480B9598308_METHOD_3_888EAF38C5DF027B_OFFSET UNITYSDK_OFFSET(0xD672A80)
-#define CLASS_3_CCF45480B9598308_METHOD_3_BAC621C4B92C6604_OFFSET UNITYSDK_OFFSET(0xD672A90)
-#define CLASS_3_CCF45480B9598308__CTOR_OFFSET UNITYSDK_OFFSET(0xD672A60)
+#define CLASS_3_CCF45480B9598308_METHOD_3_888EAF38C5DF027B_OFFSET UNITYSDK_OFFSET(0x1A14BFD0)
+#define CLASS_3_CCF45480B9598308_METHOD_3_BAC621C4B92C6604_OFFSET UNITYSDK_OFFSET(0x1A14BFC0)
+#define CLASS_3_CCF45480B9598308__CTOR_OFFSET UNITYSDK_OFFSET(0x1A14BFA0)
 
-inline static constexpr unsigned int Class_3_CCF45480B9598308_TypeDefinitionIndex = 49162;
+inline static constexpr unsigned int Class_3_CCF45480B9598308_TypeDefinitionIndex = 43838;
 
 class Class_3_CCF45480B9598308 : public ::Class_2_9DCE2FC33F67E8A2
 {
@@ -23,13 +23,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::HollowChessboard::HollowEntity*, ::MoleMole::UIHollowChessboard3DModelController*, ::Class_1_E5B7864412CDC074*, ::MoleMole::UIHollowMainPageController*))((::PBYTE)hIl2Cpp + CLASS_3_CCF45480B9598308__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_3_888EAF38C5DF027B(::MoleMole::HollowChessboard::HollowEntity* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::HollowChessboard::HollowEntity*))((::PBYTE)hIl2Cpp + CLASS_3_CCF45480B9598308_METHOD_3_888EAF38C5DF027B_OFFSET))(this, a1);
-	}
-
 	::MoleMole::HollowChessboard::HollowEntity* Method_3_BAC621C4B92C6604()
 	{
 		return ((::MoleMole::HollowChessboard::HollowEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CCF45480B9598308_METHOD_3_BAC621C4B92C6604_OFFSET))(this);
+	}
+
+	::System::Void Method_3_888EAF38C5DF027B(::MoleMole::HollowChessboard::HollowEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::HollowChessboard::HollowEntity*))((::PBYTE)hIl2Cpp + CLASS_3_CCF45480B9598308_METHOD_3_888EAF38C5DF027B_OFFSET))(this, a1);
 	}
 };

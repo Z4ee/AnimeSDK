@@ -13,7 +13,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Share
 {
-	inline static constexpr unsigned int CPolymorphsim_1_TypeDefinitionIndex = 10341;
+	inline static constexpr unsigned int CPolymorphsim_1_TypeDefinitionIndex = 16767;
 
 	template <typename T>
 	class CPolymorphsim_1 : public ::QWER::CPropertyObject

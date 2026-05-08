@@ -5,7 +5,7 @@
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Schema { class SchemaElementDecl; }
 
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_ELEMENTCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E1290)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_ELEMENTCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AC910)
 
 namespace System::Xml::Schema
 {
@@ -14,20 +14,20 @@ namespace System::Xml::Schema
 	class XdrBuilder_ElementContent : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* _AttDefList; // 0x10
-		::System::Xml::Schema::SchemaElementDecl* _ElementDecl; // 0x18
-		::System::UInt32 _MinLength; // 0x20
-		::System::UInt32 _MinVal; // 0x24
-		::System::Boolean _ExistTerminal; // 0x28
-		::System::Boolean _HasType; // 0x29
-		::System::Int32 _OrderAttr; // 0x2C
-		::System::UInt32 _MaxVal; // 0x30
-		::System::Int32 _ContentAttr; // 0x34
-		::System::Boolean _HasDataType; // 0x38
-		::System::Boolean _AllowDataType; // 0x39
-		::System::Boolean _EnumerationRequired; // 0x3A
-		::System::Boolean _MasterGroupRequired; // 0x3B
-		::System::UInt32 _MaxLength; // 0x3C
+		::System::Xml::Schema::SchemaElementDecl* _ElementDecl; // 0x10
+		::System::Collections::Hashtable* _AttDefList; // 0x18
+		::System::Boolean _AllowDataType; // 0x20
+		::System::Boolean _HasDataType; // 0x21
+		::System::UInt32 _MaxVal; // 0x24
+		::System::UInt32 _MaxLength; // 0x28
+		::System::Boolean _MasterGroupRequired; // 0x2C
+		::System::Boolean _HasType; // 0x2D
+		::System::Boolean _EnumerationRequired; // 0x2E
+		::System::Boolean _ExistTerminal; // 0x2F
+		::System::UInt32 _MinLength; // 0x30
+		::System::Int32 _OrderAttr; // 0x34
+		::System::Int32 _ContentAttr; // 0x38
+		::System::UInt32 _MinVal; // 0x3C
 
 		::System::Void _ctor()
 		{

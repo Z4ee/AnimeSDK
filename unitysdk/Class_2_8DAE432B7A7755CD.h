@@ -7,20 +7,20 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_8DAE432B7A7755CD_METHOD_2_0CB6682FCE4DE912_OFFSET UNITYSDK_OFFSET(0x975DDE0)
-#define CLASS_2_8DAE432B7A7755CD__CTOR_OFFSET UNITYSDK_OFFSET(0x975DD90)
+#define CLASS_2_8DAE432B7A7755CD_METHOD_2_0CB6682FCE4DE912_OFFSET UNITYSDK_OFFSET(0x11E95C00)
+#define CLASS_2_8DAE432B7A7755CD__CTOR_OFFSET UNITYSDK_OFFSET(0x11E95BB0)
 
-inline static constexpr unsigned int Class_2_8DAE432B7A7755CD_TypeDefinitionIndex = 47428;
+inline static constexpr unsigned int Class_2_8DAE432B7A7755CD_TypeDefinitionIndex = 57820;
 
 class Class_2_8DAE432B7A7755CD : public ::Class_1_5BD3EF046502B972
 {
 public:
 	::System::Func_1<::UnityEngine::Vector3>* Field_2_3; // 0x20
-	::UnityEngine::Vector3 Field_2_5; // 0x28
-	::UnityEngine::Vector3 Field_2_4; // 0x34
-	::MoleMole::CustomDamperUtility_DampingType Field_2_0; // 0x40
-	::System::Single Field_2_1; // 0x44
-	::System::Single Field_2_2; // 0x48
+	::MoleMole::CustomDamperUtility_DampingType Field_2_0; // 0x28
+	::System::Single Field_2_2; // 0x2C
+	::UnityEngine::Vector3 Field_2_4; // 0x30
+	::UnityEngine::Vector3 Field_2_5; // 0x3C
+	::System::Single Field_2_1; // 0x48
 
 	::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::MoleMole::UICameraAtom a3, ::MoleMole::CustomDamperUtility_DampingType a4, ::System::Func_1<::UnityEngine::Vector3>* a5, ::System::Single a6, ::System::Single a7)
 	{

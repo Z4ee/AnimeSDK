@@ -10,11 +10,11 @@ namespace UnityEngine::Rendering::Universal { class BloomResolutionParameter; }
 namespace UnityEngine::Rendering::Universal { class HQBloomModeParameter; }
 namespace UnityEngine::Rendering::Universal { class PPQualityParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED92B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36C930)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapBloom_TypeDefinitionIndex = 29617;
+	inline static constexpr unsigned int NapBloom_TypeDefinitionIndex = 30145;
 
 	class NapBloom : public ::UnityEngine::NAPRenderPipeline0::NapBloom_NativeSRP
 	{

@@ -2,10 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_7_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1B3B65C0)
-#define CLASS_1_43BD383C98B4C0C5_7__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B6620)
+class Class_2_785FDC7D0DA58280;
+class Class_2_7EFA707053000D12;
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_7_TypeDefinitionIndex = 25626;
+#define CLASS_1_43BD383C98B4C0C5_7__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9D9FE0)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_7_TypeDefinitionIndex = 26133;
 
 class Class_1_43BD383C98B4C0C5_7 : public ::System::Object
 {
@@ -13,10 +15,5 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_7__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_7_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 	}
 };

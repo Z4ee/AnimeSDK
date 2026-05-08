@@ -11,8 +11,8 @@ namespace System { class Exception; }
 namespace System::Net::WebSockets { class ManagedWebSocket; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEWITHRECEIVEERRORANDTHROWASYNC_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x878140)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEWITHRECEIVEERRORANDTHROWASYNC_D__64_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x30F550)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEWITHRECEIVEERRORANDTHROWASYNC_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A5E10)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__CLOSEWITHRECEIVEERRORANDTHROWASYNC_D__64_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x390820)
 
 namespace System::Net::WebSockets
 {
@@ -20,14 +20,14 @@ namespace System::Net::WebSockets
 
 	struct alignas(8) ManagedWebSocket__CloseWithReceiveErrorAndThrowAsync_d__64
 	{
-		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x10
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x18
-		::System::Exception* innerException; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x48
-		::System::Net::WebSockets::WebSocketError error; // 0x50
-		::System::Net::WebSockets::WebSocketCloseStatus closeStatus; // 0x54
-		::System::Int32 __1__state; // 0x58
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x28
+		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x30
+		::System::Exception* innerException; // 0x38
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x40
+		::System::Int32 __1__state; // 0x50
+		::System::Net::WebSockets::WebSocketError error; // 0x54
+		::System::Net::WebSockets::WebSocketCloseStatus closeStatus; // 0x58
 
 		::System::Void MoveNext()
 		{

@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGANIMATORSTATEFRAMELENDIC_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2C5410)
-#define MOLEMOLE_CONFIG_CONFIGANIMATORSTATEFRAMELENDIC__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C54D0)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORSTATEFRAMELENDIC_CLEAR_OFFSET UNITYSDK_OFFSET(0x159E4620)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORSTATEFRAMELENDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x159E46C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAnimatorStateFrameLenDic_TypeDefinitionIndex = 81024;
+	inline static constexpr unsigned int ConfigAnimatorStateFrameLenDic_TypeDefinitionIndex = 38213;
 
 	class ConfigAnimatorStateFrameLenDic : public ::Foundation::MihoyoSerializedScriptableObject
 	{

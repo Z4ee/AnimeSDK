@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_7316CD0B40D5DAED_Enum_3_DFEF15D955AD817C_TypeDefinitionIndex = 62782;
+inline static constexpr unsigned int Class_1_7316CD0B40D5DAED_Enum_3_DFEF15D955AD817C_TypeDefinitionIndex = 42699;
 
 enum class Class_1_7316CD0B40D5DAED_Enum_3_DFEF15D955AD817C : ::System::Int32
 {
 	END_VIDEO = 10,
-	PREPARE_VIDEO = 0,
-	PRELOAD_NPC = 5,
 	PRELOAD_AVATARS = 7,
-	VIEW_OBJECT = 13,
-	TOTAL = 14,
-	PRELOAD_UI = 4,
-	PRELOAD_MONSTERS = 9,
-	PRELOAD_ASSETS = 6,
-	PRELOAD_LEVEL_EFFECT = 8,
-	LOAD_PERP_STAGE = 3,
-	START_VIDEO = 1,
 	NAP_STREAMING = 12,
+	PREPARE_VIDEO = 0,
+	LOAD_PERP_STAGE = 3,
+	PRELOAD_MONSTERS = 9,
+	PRELOAD_NPC = 5,
 	LOGIN_LOADING = 11,
+	PRELOAD_UI = 4,
+	PRELOAD_ASSETS = 6,
+	VIEW_OBJECT = 13,
 	LOAD_REAL_ECS = 2,
+	TOTAL = 14,
+	START_VIDEO = 1,
+	PRELOAD_LEVEL_EFFECT = 8,
 };

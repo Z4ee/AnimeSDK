@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/Struct_2_0B6C9ACBECEC8DD3.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+namespace System { class String; }
+
+#define STRUCT_2_4D22D5913F676BA1_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x6D6C60)
+#define STRUCT_2_4D22D5913F676BA1_EQUALS_OFFSET UNITYSDK_OFFSET(0x6D69E0)
+#define STRUCT_2_4D22D5913F676BA1_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6D6C70)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_35E536BB855343B1_1_OFFSET UNITYSDK_OFFSET(0xFF54FC0)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_35E536BB855343B1_OFFSET UNITYSDK_OFFSET(0xFF54C90)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x6D6EA0)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_3D78D2E0F9F95F07_OFFSET UNITYSDK_OFFSET(0x3A99A0)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_413472096512A213_OFFSET UNITYSDK_OFFSET(0x2E1000)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x6D6D90)
+#define STRUCT_2_4D22D5913F676BA1_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x6D6E20)
+#define STRUCT_2_4D22D5913F676BA1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6D6D80)
+#define STRUCT_2_4D22D5913F676BA1__CTOR_OFFSET UNITYSDK_OFFSET(0x6D69B0)
+
+inline static constexpr unsigned int Struct_2_4D22D5913F676BA1_TypeDefinitionIndex = 81674;
+
+struct alignas(8) Struct_2_4D22D5913F676BA1
+{
+	::MoleMole::EntityHandle Field_2_0; // 0x10
+	::Struct_2_0B6C9ACBECEC8DD3 Field_2_1; // 0x20
+
+	::System::Void _ctor(::MoleMole::EntityHandle a1, ::Struct_2_0B6C9ACBECEC8DD3& a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle, ::Struct_2_0B6C9ACBECEC8DD3&))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Equals(::Struct_2_4D22D5913F676BA1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_4D22D5913F676BA1))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals_1(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_EQUALS_1_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_6D0360BD23602584(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_6D0360BD23602584_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_2_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_95780ED94B90ED36_OFFSET))(this);
+	}
+
+	::System::String* Method_2_35EA095E1AFDD9C8()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_2_35E536BB855343B1(::Struct_2_4D22D5913F676BA1 a1, ::Struct_2_4D22D5913F676BA1 a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_4D22D5913F676BA1, ::Struct_2_4D22D5913F676BA1))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_35E536BB855343B1_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_2_35E536BB855343B1_1(::Struct_2_4D22D5913F676BA1 a1, ::Struct_2_4D22D5913F676BA1 a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_4D22D5913F676BA1, ::Struct_2_4D22D5913F676BA1))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_35E536BB855343B1_1_OFFSET))(a1, a2);
+	}
+
+	::MoleMole::EntityHandle Method_2_413472096512A213()
+	{
+		return ((::MoleMole::EntityHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_413472096512A213_OFFSET))(this);
+	}
+
+	::Struct_2_0B6C9ACBECEC8DD3 Method_2_3D78D2E0F9F95F07()
+	{
+		return ((::Struct_2_0B6C9ACBECEC8DD3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4D22D5913F676BA1_METHOD_2_3D78D2E0F9F95F07_OFFSET))(this);
+	}
+};

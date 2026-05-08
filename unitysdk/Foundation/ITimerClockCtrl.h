@@ -5,7 +5,7 @@ namespace Foundation { class ITimerClock; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ITimerClockCtrl_TypeDefinitionIndex = 7947;
+	inline static constexpr unsigned int ITimerClockCtrl_TypeDefinitionIndex = 8250;
 
 	class ITimerClockCtrl
 	{

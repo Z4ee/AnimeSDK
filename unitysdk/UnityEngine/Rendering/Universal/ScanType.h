@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScanType_TypeDefinitionIndex = 29361;
+	inline static constexpr unsigned int ScanType_TypeDefinitionIndex = 29880;
 
 	enum class ScanType : ::System::Int32
 	{

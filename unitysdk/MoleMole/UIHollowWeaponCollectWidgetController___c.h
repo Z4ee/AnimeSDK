@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIHOLLOWWEAPONCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EAB720)
-#define MOLEMOLE_UIHOLLOWWEAPONCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EAB760)
-#define MOLEMOLE_UIHOLLOWWEAPONCOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x9EAB770)
+#define MOLEMOLE_UIHOLLOWWEAPONCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163FCDB0)
+#define MOLEMOLE_UIHOLLOWWEAPONCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163FCDF0)
+#define MOLEMOLE_UIHOLLOWWEAPONCOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x163FCE00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowWeaponCollectWidgetController___c_TypeDefinitionIndex = 45599;
+	inline static constexpr unsigned int UIHollowWeaponCollectWidgetController___c_TypeDefinitionIndex = 54734;
 
 	class UIHollowWeaponCollectWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowWeaponCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x443B0);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowWeaponCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x45D80);
 		}
 		static ::MoleMole::UIHollowWeaponCollectWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowWeaponCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowWeaponCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x443B8);
+			return (::MoleMole::UIHollowWeaponCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowWeaponCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x45D88);
 		}
 
 		static ::System::Void _cctor()

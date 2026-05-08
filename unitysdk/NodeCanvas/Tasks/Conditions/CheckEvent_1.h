@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckEvent_1_TypeDefinitionIndex = 26870;
+	inline static constexpr unsigned int CheckEvent_1_TypeDefinitionIndex = 27388;
 
 	template <typename T>
 	class CheckEvent_1 : public ::NodeCanvas::Framework::ConditionTask_1<::NodeCanvas::Framework::GraphOwner*>

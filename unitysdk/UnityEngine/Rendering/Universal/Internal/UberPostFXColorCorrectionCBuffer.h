@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int UberPostFXColorCorrectionCBuffer_TypeDefinitionIndex = 29878;
+	inline static constexpr unsigned int UberPostFXColorCorrectionCBuffer_TypeDefinitionIndex = 30406;
 
 	struct alignas(4) UberPostFXColorCorrectionCBuffer
 	{

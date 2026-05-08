@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/HollowChessboard/RenderSequenceSectionType.h"
 #include "unitysdk/MoleMole/HollowChessboard/RenderTrackBase.h"
 
-class Class_0_16E4307DCC419505_217;
+class Class_0_16E4307DCC419505_174;
 namespace MoleMole::HollowChessboard { class ICondition; }
 namespace MoleMole::HollowChessboard { class IHollowEntitySection; }
 namespace MoleMole::HollowChessboard { class IRenderEvent; }
@@ -13,25 +13,25 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GETFILTEREDSECTIONTYPELIST_OFFSET UNITYSDK_OFFSET(0xD0E5AE0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GETNAME_OFFSET UNITYSDK_OFFSET(0xD0E5A50)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_CONDITIONS_OFFSET UNITYSDK_OFFSET(0xD0E5AB0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0xD0E5AC0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_SECTION_OFFSET UNITYSDK_OFFSET(0xD0E5AD0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD0E5E40)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK__GETFILTEREDSECTIONTYPELIST_B__10_3_OFFSET UNITYSDK_OFFSET(0xD0E5E50)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GETFILTEREDSECTIONTYPELIST_OFFSET UNITYSDK_OFFSET(0x16B91950)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GETNAME_OFFSET UNITYSDK_OFFSET(0x16B918E0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_CONDITIONS_OFFSET UNITYSDK_OFFSET(0x16B91920)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x16B91930)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x16B91940)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16B91C90)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK__GETFILTEREDSECTIONTYPELIST_B__10_3_OFFSET UNITYSDK_OFFSET(0x16B91CA0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowEntityRenderTrack_TypeDefinitionIndex = 68764;
+	inline static constexpr unsigned int HollowEntityRenderTrack_TypeDefinitionIndex = 72116;
 
 	class HollowEntityRenderTrack : public ::MoleMole::HollowChessboard::RenderTrackBase
 	{
 	public:
 		::System::String* DebugName; // 0x10
 		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::ICondition*>* ConditionData; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::IRenderEvent*>* EventsData; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::IHollowEntitySection*>* SectionData; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::IHollowEntitySection*>* SectionData; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::IRenderEvent*>* EventsData; // 0x28
 		::MoleMole::HollowChessboard::RenderSequenceSectionType TrackType; // 0x30
 
 		::System::Void _ctor()
@@ -54,9 +54,9 @@ namespace MoleMole::HollowChessboard
 			return ((::System::Collections::Generic::IReadOnlyList_1<::MoleMole::HollowChessboard::IRenderEvent*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_EVENTS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_217*>* get_Section()
+		::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_174*>* get_Section()
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_217*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_SECTION_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_174*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERTRACK_GET_SECTION_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetFilteredSectionTypeList()

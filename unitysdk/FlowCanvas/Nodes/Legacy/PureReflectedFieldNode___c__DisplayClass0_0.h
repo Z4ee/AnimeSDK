@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47C500)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC0CD0)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_0_TypeDefinitionIndex = 26539;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_0_TypeDefinitionIndex = 27647;
 
 	class PureReflectedFieldNode___c__DisplayClass0_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_FC_GETLASTITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0xA4F0850)
-#define MOLEMOLE_FLOWCANVAS_FC_GETLASTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F0900)
+#define MOLEMOLE_FLOWCANVAS_FC_GETLASTITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x10DFFB70)
+#define MOLEMOLE_FLOWCANVAS_FC_GETLASTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10DFFC00)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int FC_GetLastItem_TypeDefinitionIndex = 64528;
+	inline static constexpr unsigned int FC_GetLastItem_TypeDefinitionIndex = 74065;
 
 	class FC_GetLastItem : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_2<::System::String*, ::Il2CppArray<::System::String*>*>
 	{

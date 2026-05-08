@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/Battle/ProceduralAnimDamperParam.h"
 #include "unitysdk/MoleMole/Interaction/AxisSign.h"
 
-#define MOLEMOLE_CONFIGSINGLEAXISDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A2940)
+#define MOLEMOLE_CONFIGSINGLEAXISDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x153DFC90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigSingleAxisDamper_TypeDefinitionIndex = 73803;
+	inline static constexpr unsigned int ConfigSingleAxisDamper_TypeDefinitionIndex = 49068;
 
 	class ConfigSingleAxisDamper : public ::MoleMole::BaseConfigEnvironmentFeatureModifier
 	{

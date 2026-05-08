@@ -4,11 +4,11 @@
 
 namespace System::Data { class DataTable; }
 
-#define SYSTEM_DATA_DATATABLECLEAREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA65DE0)
+#define SYSTEM_DATA_DATATABLECLEAREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B749AD0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataTableClearEventArgs_TypeDefinitionIndex = 36448;
+	inline static constexpr unsigned int DataTableClearEventArgs_TypeDefinitionIndex = 36992;
 
 	class DataTableClearEventArgs : public ::System::EventArgs
 	{

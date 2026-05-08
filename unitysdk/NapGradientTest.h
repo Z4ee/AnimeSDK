@@ -4,10 +4,10 @@
 
 class NapGradient;
 
-#define NAPGRADIENTTEST_VALIDATION_OFFSET UNITYSDK_OFFSET(0x76DCCA0)
-#define NAPGRADIENTTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x76DCD10)
+#define NAPGRADIENTTEST_VALIDATION_OFFSET UNITYSDK_OFFSET(0x1150E240)
+#define NAPGRADIENTTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1150E290)
 
-inline static constexpr unsigned int NapGradientTest_TypeDefinitionIndex = 46081;
+inline static constexpr unsigned int NapGradientTest_TypeDefinitionIndex = 80000;
 
 class NapGradientTest : public ::UnityEngine::MonoBehaviour
 {

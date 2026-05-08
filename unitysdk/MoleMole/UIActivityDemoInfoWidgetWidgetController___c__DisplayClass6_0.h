@@ -5,18 +5,18 @@
 namespace MoleMole { class UIActivityDemoInfoWidgetWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CLICKJUMPROLEPV_B__0_OFFSET UNITYSDK_OFFSET(0x8CC1DB0)
-#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8CC1DA0)
+#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CLICKJUMPROLEPV_B__0_OFFSET UNITYSDK_OFFSET(0x13EE1960)
+#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE1950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDemoInfoWidgetWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 64651;
+	inline static constexpr unsigned int UIActivityDemoInfoWidgetWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 73847;
 
 	class UIActivityDemoInfoWidgetWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityDemoInfoWidgetWidgetController* __4__this; // 0x10
-		::System::String* webStr; // 0x18
+		::System::String* webStr; // 0x10
+		::MoleMole::UIActivityDemoInfoWidgetWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

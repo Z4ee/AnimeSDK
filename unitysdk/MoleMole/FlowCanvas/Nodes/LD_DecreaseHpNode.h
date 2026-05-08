@@ -5,12 +5,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x6E885F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x6E888F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14282030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x142822E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_DecreaseHpNode_TypeDefinitionIndex = 52756;
+	inline static constexpr unsigned int LD_DecreaseHpNode_TypeDefinitionIndex = 69244;
 
 	class LD_DecreaseHpNode : public ::FlowCanvas::Nodes::CallableFunctionNode_7<::System::Boolean, ::MoleMole::Battle::Entity*, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean>
 	{

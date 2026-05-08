@@ -7,21 +7,21 @@
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWFEVERTIPSDIALOG_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x4321C0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWFEVERTIPSDIALOG_D__24_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWFEVERTIPSDIALOG_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7AE2C0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER__SHOWFEVERTIPSDIALOG_D__24_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__ShowFeverTipsDialog_d__24_TypeDefinitionIndex = 38049;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController__ShowFeverTipsDialog_d__24_TypeDefinitionIndex = 66481;
 
 	struct alignas(8) UICinemaSinglePlayWidgetController__ShowFeverTipsDialog_d__24
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x30
+		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
 		::System::Single delayTime; // 0x38
-		::System::Int32 __1__state; // 0x3C
-		::System::Boolean show; // 0x40
+		::System::Boolean show; // 0x3C
+		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()
 		{

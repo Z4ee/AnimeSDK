@@ -8,22 +8,22 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B6BC160)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B6BD000)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK_REMOVETRACKFROMBINDDICT_OFFSET UNITYSDK_OFFSET(0x1B6BCC80)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6BD0B0)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6BD060)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C4A7CC0)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C4A8B30)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK_REMOVETRACKFROMBINDDICT_OFFSET UNITYSDK_OFFSET(0x1C4A87B0)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4A8BF0)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A8B90)
 
 namespace CriWare::CriTimeline::Mana
 {
-	inline static constexpr unsigned int CriManaTrack_TypeDefinitionIndex = 32304;
+	inline static constexpr unsigned int CriManaTrack_TypeDefinitionIndex = 32833;
 
 	class CriManaTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>** StaticGet_bindDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(CriManaTrack_TypeDefinitionIndex)->GetStaticField(0x25470);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(CriManaTrack_TypeDefinitionIndex)->GetStaticField(0x25FF0);
 		}
 		::System::Boolean frameSync; // 0xB0
 		::System::Guid guid; // 0xB4

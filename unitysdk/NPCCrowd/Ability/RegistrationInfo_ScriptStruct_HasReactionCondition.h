@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITION_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x63FDE90)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x63FDD20)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITION_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xD0C44D0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_HASREACTIONCONDITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0C4360)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_HasReactionCondition_TypeDefinitionIndex = 59499;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_HasReactionCondition_TypeDefinitionIndex = 81970;
 
 	class RegistrationInfo_ScriptStruct_HasReactionCondition : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionCondition_TypeDefinitionIndex)->GetStaticField(0x34D40);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionCondition_TypeDefinitionIndex)->GetStaticField(0x358F0);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionCondition_TypeDefinitionIndex)->GetStaticField(0x34D48);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_HasReactionCondition_TypeDefinitionIndex)->GetStaticField(0x358F8);
 		}
 
 		static ::System::Void _cctor()

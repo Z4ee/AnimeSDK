@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowInteractRelativePosition_TypeDefinitionIndex = 71782;
+	inline static constexpr unsigned int HollowInteractRelativePosition_TypeDefinitionIndex = 43316;
 
 	enum class HollowInteractRelativePosition : ::System::Int32
 	{
-		Top = 1,
 		Left = 0,
-		Right = 2,
+		Top = 1,
 		Bottom = 3,
+		Right = 2,
 	};
 }

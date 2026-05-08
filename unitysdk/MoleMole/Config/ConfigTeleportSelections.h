@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigTeleportSelection3C; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGTELEPORTSELECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xACCD7A0)
+#define MOLEMOLE_CONFIG_CONFIGTELEPORTSELECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1753E450)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTeleportSelections_TypeDefinitionIndex = 60682;
+	inline static constexpr unsigned int ConfigTeleportSelections_TypeDefinitionIndex = 78116;
 
 	class ConfigTeleportSelections : public ::Foundation::MihoyoSerializedScriptableObject
 	{

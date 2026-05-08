@@ -9,25 +9,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x19559A90)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x19559B80)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1955A8B0)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1955B010)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D__ONCHECK_B__9_0_OFFSET UNITYSDK_OFFSET(0x1955B160)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A2A7C80)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A2A7CC0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A2A88D0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A90A0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGETANY2D__ONCHECK_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A2A91F0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CanSeeTargetAny2D_TypeDefinitionIndex = 26586;
+	inline static constexpr unsigned int CanSeeTargetAny2D_TypeDefinitionIndex = 26734;
 
 	class CanSeeTargetAny2D : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxDistance; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* closerResult; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* allResults; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetObjects; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxDistance; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* closerResult; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* allResults; // 0x78
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* awarnessDistance; // 0x80
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetObjects; // 0x88
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x88
 		::UnityEngine::Vector2 offset; // 0x90
 
 		::System::Void _ctor()

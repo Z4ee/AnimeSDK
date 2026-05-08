@@ -5,18 +5,18 @@
 namespace MoleMole { class UIReconnectingPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA439F70)
-#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__FADEOUTANDCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0xA439F80)
+#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13762E70)
+#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__FADEOUTANDCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x13762E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIReconnectingPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 69714;
+	inline static constexpr unsigned int UIReconnectingPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 59110;
 
 	class UIReconnectingPopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::MoleMole::UIReconnectingPopWindowController* __4__this; // 0x18
+		::MoleMole::UIReconnectingPopWindowController* __4__this; // 0x10
+		::System::Action* callback; // 0x18
 
 		::System::Void _ctor()
 		{

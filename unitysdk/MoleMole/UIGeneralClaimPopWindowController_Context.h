@@ -7,22 +7,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALCLAIMPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC1109D0)
+#define MOLEMOLE_UIGENERALCLAIMPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x169AD4D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralClaimPopWindowController_Context_TypeDefinitionIndex = 52617;
+	inline static constexpr unsigned int UIGeneralClaimPopWindowController_Context_TypeDefinitionIndex = 39660;
 
 	class UIGeneralClaimPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* ShowGotIndices; // 0x28
-		::System::Action_1<::System::Int32>* OkBtnCb; // 0x30
-		::System::String* TitleText; // 0x38
-		::System::String* DescText; // 0x40
-		::Enum_3_92BB5F3881865EA5 ClaimType; // 0x48
-		::System::Boolean ShowOkBtn; // 0x4C
-		::System::Int32 SourceItemID; // 0x50
+		::System::String* TitleText; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* ShowGotIndices; // 0x30
+		::System::String* DescText; // 0x38
+		::System::Action_1<::System::Int32>* OkBtnCb; // 0x40
+		::System::Boolean ShowOkBtn; // 0x48
+		::System::Int32 SourceItemID; // 0x4C
+		::Enum_3_92BB5F3881865EA5 ClaimType; // 0x50
 
 		::System::Void _ctor()
 		{

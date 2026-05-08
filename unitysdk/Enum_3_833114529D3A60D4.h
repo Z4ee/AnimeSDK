@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_833114529D3A60D4_TypeDefinitionIndex = 44868;
+inline static constexpr unsigned int Enum_3_833114529D3A60D4_TypeDefinitionIndex = 82903;
 
 enum class Enum_3_833114529D3A60D4 : ::System::Int32
 {
 	Character1 = 8,
-	AbnormalTime = 1,
-	SuccSpecialAid = 5,
-	MaxComboNum = 11,
-	Character2 = 9,
-	PassTime = 7,
 	DamageScore = 12,
-	DisorderTime = 2,
-	DizzierTime = 0,
-	DodgeTime = 3,
-	SuccDodgeTime = 4,
+	MaxComboNum = 11,
+	PassTime = 7,
 	Character3 = 10,
+	AbnormalTime = 1,
+	DodgeTime = 3,
+	Character2 = 9,
+	DisorderTime = 2,
 	SkillScore = 13,
+	DizzierTime = 0,
 	HpScore = 14,
+	SuccSpecialAid = 5,
+	SuccDodgeTime = 4,
 	SkillUse = 6,
 };

@@ -10,29 +10,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_1_OFFSET UNITYSDK_OFFSET(0x7521550)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_OFFSET UNITYSDK_OFFSET(0x7521270)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYPREFABIDWHICHOWNACCESSORY_OFFSET UNITYSDK_OFFSET(0x75216E0)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0x7521940)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0x7520F20)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_INIT_OFFSET UNITYSDK_OFFSET(0x7520F30)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x75219F0)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x75219E0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_1_OFFSET UNITYSDK_OFFSET(0xF4F3C90)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_OFFSET UNITYSDK_OFFSET(0xF4F39F0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYPREFABIDWHICHOWNACCESSORY_OFFSET UNITYSDK_OFFSET(0xF4F3E00)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0xF4F4040)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0xF4F3440)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_INIT_OFFSET UNITYSDK_OFFSET(0xF4F3480)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4F40D0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xF4F40C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CrowdUnitTestBase_TypeDefinitionIndex = 57527;
+	inline static constexpr unsigned int CrowdUnitTestBase_TypeDefinitionIndex = 59058;
 
 	class CrowdUnitTestBase : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_allAvatarParams()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x40B00);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>** StaticGet_cacheTagCrowdPrefabsDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x40B08);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x40CE0);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_allAvatarParams()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x40CE8);
 		}
 
 		::System::Void _ctor()

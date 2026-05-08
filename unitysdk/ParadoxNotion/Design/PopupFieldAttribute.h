@@ -4,11 +4,11 @@
 
 namespace System { class Object; }
 
-#define PARADOXNOTION_DESIGN_POPUPFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C319B0)
+#define PARADOXNOTION_DESIGN_POPUPFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A85F110)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int PopupFieldAttribute_TypeDefinitionIndex = 27603;
+	inline static constexpr unsigned int PopupFieldAttribute_TypeDefinitionIndex = 27659;
 
 	class PopupFieldAttribute : public ::ParadoxNotion::Design::DrawerAttribute
 	{

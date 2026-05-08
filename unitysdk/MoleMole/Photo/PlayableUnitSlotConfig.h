@@ -7,23 +7,23 @@
 #include "unitysdk/System/Span_1.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-class Class_1_241E681AF3D7A598;
+class Class_1_AB394946F84AC2D3;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace MoleMole::Photo { class AnimationSelectBySlotStateConfig; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_CREATEPLAYABLEUNIT_OFFSET UNITYSDK_OFFSET(0xB92CC40)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0xB92D2E0)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0xB92D300)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB92D570)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_CREATEPLAYABLEUNIT_OFFSET UNITYSDK_OFFSET(0x15855880)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x15855FE0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x15856000)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15856360)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableUnitSlotConfig_TypeDefinitionIndex = 50031;
+	inline static constexpr unsigned int PlayableUnitSlotConfig_TypeDefinitionIndex = 41997;
 
-	class PlayableUnitSlotConfig : public ::MoleMole::Photo::PlayableUnitConfig_1<::Class_1_241E681AF3D7A598*>
+	class PlayableUnitSlotConfig : public ::MoleMole::Photo::PlayableUnitConfig_1<::Class_1_AB394946F84AC2D3*>
 	{
 	public:
 		::MoleMole::Photo::AnimationSelectBySlotStateConfig* slotConfig; // 0x10
@@ -33,9 +33,9 @@ namespace MoleMole::Photo
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_241E681AF3D7A598* CreatePlayableUnit(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786 context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
+		::Class_1_AB394946F84AC2D3* CreatePlayableUnit(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786 context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
 		{
-			return ((::Class_1_241E681AF3D7A598*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_CREATEPLAYABLEUNIT_OFFSET))(this, graph, animator, context, memory, variables);
+			return ((::Class_1_AB394946F84AC2D3*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITSLOTCONFIG_CREATEPLAYABLEUNIT_OFFSET))(this, graph, animator, context, memory, variables);
 		}
 
 		::System::Int32 get_DynamicMemoryCount()

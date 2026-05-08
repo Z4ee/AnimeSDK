@@ -6,11 +6,11 @@ namespace MoleMole::Config { class UITrustDegreeItemColorConfig_ColorConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_UITRUSTDEGREEITEMCOLORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x91996D0)
+#define MOLEMOLE_CONFIG_UITRUSTDEGREEITEMCOLORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB8A60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UITrustDegreeItemColorConfig_TypeDefinitionIndex = 53365;
+	inline static constexpr unsigned int UITrustDegreeItemColorConfig_TypeDefinitionIndex = 59934;
 
 	class UITrustDegreeItemColorConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

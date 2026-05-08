@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_172;
+class Class_0_16E4307DCC419505_308;
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_F71769163C47AF3B_METHOD_1_B5B2B80640A80E66_OFFSET UNITYSDK_OFFSET(0x7989F40)
-#define CLASS_1_F71769163C47AF3B__CTOR_OFFSET UNITYSDK_OFFSET(0x798A0B0)
+#define CLASS_1_F71769163C47AF3B_METHOD_1_8A8D877360106A4F_OFFSET UNITYSDK_OFFSET(0xA9A8910)
+#define CLASS_1_F71769163C47AF3B__CTOR_OFFSET UNITYSDK_OFFSET(0xA9A8A70)
 
-inline static constexpr unsigned int Class_1_F71769163C47AF3B_TypeDefinitionIndex = 47337;
+inline static constexpr unsigned int Class_1_F71769163C47AF3B_TypeDefinitionIndex = 49511;
 
 class Class_1_F71769163C47AF3B : public ::System::Object
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F71769163C47AF3B__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_172* Method_1_B5B2B80640A80E66()
+	::Class_0_16E4307DCC419505_308* Method_1_8A8D877360106A4F()
 	{
-		return ((::Class_0_16E4307DCC419505_172*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F71769163C47AF3B_METHOD_1_B5B2B80640A80E66_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_308*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F71769163C47AF3B_METHOD_1_8A8D877360106A4F_OFFSET))(this);
 	}
 };

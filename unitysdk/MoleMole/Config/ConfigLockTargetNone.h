@@ -6,12 +6,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGETNONE_METHOD_2_D6E2B96F84CAEEFE_OFFSET UNITYSDK_OFFSET(0xB4732E0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGETNONE__CTOR_OFFSET UNITYSDK_OFFSET(0xB4734E0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGETNONE_METHOD_2_D6E2B96F84CAEEFE_OFFSET UNITYSDK_OFFSET(0x17D248D0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGETNONE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D24AA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockTargetNone_TypeDefinitionIndex = 58024;
+	inline static constexpr unsigned int ConfigLockTargetNone_TypeDefinitionIndex = 82927;
 
 	class ConfigLockTargetNone : public ::MoleMole::Config::ConfigLockTarget
 	{

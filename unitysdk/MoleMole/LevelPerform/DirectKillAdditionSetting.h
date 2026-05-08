@@ -4,11 +4,11 @@
 
 namespace MoleMole::LevelPerform { class DirectKillShakeSetting; }
 
-#define MOLEMOLE_LEVELPERFORM_DIRECTKILLADDITIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xB19CB10)
+#define MOLEMOLE_LEVELPERFORM_DIRECTKILLADDITIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC64C0)
 
 namespace MoleMole::LevelPerform
 {
-	inline static constexpr unsigned int DirectKillAdditionSetting_TypeDefinitionIndex = 78842;
+	inline static constexpr unsigned int DirectKillAdditionSetting_TypeDefinitionIndex = 49215;
 
 	class DirectKillAdditionSetting : public ::System::Object
 	{

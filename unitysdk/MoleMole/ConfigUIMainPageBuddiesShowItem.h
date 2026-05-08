@@ -6,11 +6,11 @@ namespace MoleMole { class ConfigUIMainPageShowSetting; }
 namespace MoleMole { class MainPageItemShowSetting; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIMAINPAGEBUDDIESSHOWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB0AF310)
+#define MOLEMOLE_CONFIGUIMAINPAGEBUDDIESSHOWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x110402F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageBuddiesShowItem_TypeDefinitionIndex = 62963;
+	inline static constexpr unsigned int ConfigUIMainPageBuddiesShowItem_TypeDefinitionIndex = 69813;
 
 	class ConfigUIMainPageBuddiesShowItem : public ::System::Object
 	{

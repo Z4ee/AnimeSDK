@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int Dict_1_LessOrEqual_TypeDefinitionIndex = 29218;
+	inline static constexpr unsigned int Dict_1_LessOrEqual_TypeDefinitionIndex = 29737;
 
 	template <typename TValue>
 	class Dict_1_LessOrEqual : public ::System::MulticastDelegate

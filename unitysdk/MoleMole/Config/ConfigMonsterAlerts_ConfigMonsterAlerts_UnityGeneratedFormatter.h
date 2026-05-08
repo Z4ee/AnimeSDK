@@ -13,30 +13,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCAE8810)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCAE8820)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCAE8B90)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAE8E00)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE8DC0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF97F670)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF97F680)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF97F9E0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF97FC30)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF97FBF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex = 58852;
+	inline static constexpr unsigned int ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex = 50273;
 
 	class ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigMonsterAlerts*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45D00);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMonsterAlertItem*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMonsterAlertItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45D08);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMonsterAlertItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x467B0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x467B8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::UnityEngine::LayerMask>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::UnityEngine::LayerMask>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45D10);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::UnityEngine::LayerMask>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterAlerts_ConfigMonsterAlerts_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x467C0);
 		}
 
 		::System::Void _ctor()

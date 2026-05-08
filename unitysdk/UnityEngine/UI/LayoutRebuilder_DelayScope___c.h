@@ -4,13 +4,13 @@
 
 namespace UnityEngine::UI { class LayoutRebuilder_DelayScope; }
 
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3CEF70)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3CEFB0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B3CEFC0)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C167A30)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C167A70)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C167A80)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutRebuilder_DelayScope___c_TypeDefinitionIndex = 8399;
+	inline static constexpr unsigned int LayoutRebuilder_DelayScope___c_TypeDefinitionIndex = 8409;
 
 	class LayoutRebuilder_DelayScope___c : public ::System::Object
 	{

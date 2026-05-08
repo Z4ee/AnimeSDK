@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Class_2_F06EB87D899FBD82_Struct_2_38D3DA4BFA4C364D_1_TypeDefinitionIndex = 49213;
+inline static constexpr unsigned int Class_2_F06EB87D899FBD82_Struct_2_38D3DA4BFA4C364D_1_TypeDefinitionIndex = 46430;
 
 struct alignas(4) Class_2_F06EB87D899FBD82_Struct_2_38D3DA4BFA4C364D_1
 {

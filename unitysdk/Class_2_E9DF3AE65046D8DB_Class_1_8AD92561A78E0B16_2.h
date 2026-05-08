@@ -10,17 +10,17 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_8AD92561A78E0B16_2_METHOD_1_5AFFA079DA8B20AA_OFFSET UNITYSDK_OFFSET(0x827D910)
-#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_8AD92561A78E0B16_2_METHOD_1_FACDAC340AD292AB_OFFSET UNITYSDK_OFFSET(0x827D960)
-#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_8AD92561A78E0B16_2__CTOR_OFFSET UNITYSDK_OFFSET(0x827D900)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_8AD92561A78E0B16_2_METHOD_1_5AFFA079DA8B20AA_OFFSET UNITYSDK_OFFSET(0x18E87290)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_8AD92561A78E0B16_2_METHOD_1_FACDAC340AD292AB_OFFSET UNITYSDK_OFFSET(0x18E872E0)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_8AD92561A78E0B16_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18E87280)
 
-inline static constexpr unsigned int Class_2_E9DF3AE65046D8DB_Class_1_8AD92561A78E0B16_2_TypeDefinitionIndex = 53081;
+inline static constexpr unsigned int Class_2_E9DF3AE65046D8DB_Class_1_8AD92561A78E0B16_2_TypeDefinitionIndex = 66035;
 
 class Class_2_E9DF3AE65046D8DB_Class_1_8AD92561A78E0B16_2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Action_4<::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*>*, ::System::String*>>* Field_1_1; // 0x10
-	::Class_2_E9DF3AE65046D8DB* Field_1_0; // 0x18
+	::Class_2_E9DF3AE65046D8DB* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Action_4<::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*>*, ::System::String*>>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

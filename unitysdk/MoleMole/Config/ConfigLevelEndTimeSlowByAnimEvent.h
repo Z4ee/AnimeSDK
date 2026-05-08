@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigLevelEndTimeSlowByAvatar; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGLEVELENDTIMESLOWBYANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF2CF250)
+#define MOLEMOLE_CONFIG_CONFIGLEVELENDTIMESLOWBYANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x159EDFC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelEndTimeSlowByAnimEvent_TypeDefinitionIndex = 79571;
+	inline static constexpr unsigned int ConfigLevelEndTimeSlowByAnimEvent_TypeDefinitionIndex = 80107;
 
 	class ConfigLevelEndTimeSlowByAnimEvent : public ::MoleMole::Config::ConfigLevelEndTimeSlow
 	{

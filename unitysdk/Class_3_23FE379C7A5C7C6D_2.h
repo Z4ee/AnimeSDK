@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_B0D1B3309B7F3713.h"
+#include "unitysdk/Class_2_A4B66A4D469141BD.h"
 #include "unitysdk/Struct_2_E147DFD2A4EE8B0B.h"
 #include "unitysdk/Struct_2_E33A8767CD3B76C6.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_3_23FE379C7A5C7C6D_2_METHOD_3_B494DC6A3906791E_OFFSET UNITYSDK_OFFSET(0xBCB9D40)
-#define CLASS_3_23FE379C7A5C7C6D_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBCB9C60)
+#define CLASS_3_23FE379C7A5C7C6D_2_METHOD_3_B494DC6A3906791E_OFFSET UNITYSDK_OFFSET(0x14E31290)
+#define CLASS_3_23FE379C7A5C7C6D_2__CTOR_OFFSET UNITYSDK_OFFSET(0x14E311F0)
 
-inline static constexpr unsigned int Class_3_23FE379C7A5C7C6D_2_TypeDefinitionIndex = 53203;
+inline static constexpr unsigned int Class_3_23FE379C7A5C7C6D_2_TypeDefinitionIndex = 56627;
 
-class Class_3_23FE379C7A5C7C6D_2 : public ::Class_2_B0D1B3309B7F3713<::System::Boolean>
+class Class_3_23FE379C7A5C7C6D_2 : public ::Class_2_A4B66A4D469141BD<::UnityEngine::Vector3>
 {
 public:
 	::System::Void _ctor()

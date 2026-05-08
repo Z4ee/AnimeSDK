@@ -4,11 +4,11 @@
 
 namespace Foundation { class Assets_ConfigHashSetTrim_TrimCondition; }
 
-#define FOUNDATION_ASSETS_CONFIGHASHSETTRIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0191F0)
+#define FOUNDATION_ASSETS_CONFIGHASHSETTRIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA01700)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Assets_ConfigHashSetTrim_TypeDefinitionIndex = 8027;
+	inline static constexpr unsigned int Assets_ConfigHashSetTrim_TypeDefinitionIndex = 8325;
 
 	class Assets_ConfigHashSetTrim : public ::System::Object
 	{

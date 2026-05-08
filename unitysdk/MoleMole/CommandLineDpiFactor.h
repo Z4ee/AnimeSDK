@@ -5,13 +5,13 @@
 
 namespace MoleMole { class DpiFactorProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_636A411572909B7F_OFFSET UNITYSDK_OFFSET(0x916F550)
-#define MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_96BB3F4580463B05_OFFSET UNITYSDK_OFFSET(0x916F410)
-#define MOLEMOLE_COMMANDLINEDPIFACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x916F510)
+#define MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_1A25E1AE01917D63_OFFSET UNITYSDK_OFFSET(0x11C8D9C0)
+#define MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_96BB3F4580463B05_OFFSET UNITYSDK_OFFSET(0x11C8D8B0)
+#define MOLEMOLE_COMMANDLINEDPIFACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11C8D980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineDpiFactor_TypeDefinitionIndex = 59923;
+	inline static constexpr unsigned int CommandLineDpiFactor_TypeDefinitionIndex = 80874;
 
 	class CommandLineDpiFactor : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::DpiFactorProfileContext*, ::MoleMole::CommandLineDpiFactor*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineDpiFactor*(*)(::PVOID, ::MoleMole::DpiFactorProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_96BB3F4580463B05_OFFSET))(this, a1);
 		}
 
-		::MoleMole::DpiFactorProfileContext* Method_2_636A411572909B7F(::MoleMole::DpiFactorProfileContext* a1)
+		::MoleMole::DpiFactorProfileContext* Method_2_1A25E1AE01917D63(::MoleMole::DpiFactorProfileContext* a1)
 		{
-			return ((::MoleMole::DpiFactorProfileContext*(*)(::PVOID, ::MoleMole::DpiFactorProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_636A411572909B7F_OFFSET))(this, a1);
+			return ((::MoleMole::DpiFactorProfileContext*(*)(::PVOID, ::MoleMole::DpiFactorProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDPIFACTOR_METHOD_2_1A25E1AE01917D63_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,13 +6,13 @@ namespace MoleMole::HollowChessboard { class HollowEntityRenderTrack; }
 namespace MoleMole::HollowChessboard { class RenderTrackBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETMAINTRACK_OFFSET UNITYSDK_OFFSET(0x6E955B0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETSUBTRACKS_OFFSET UNITYSDK_OFFSET(0x6E95610)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x6E95750)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETMAINTRACK_OFFSET UNITYSDK_OFFSET(0x142901C0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETSUBTRACKS_OFFSET UNITYSDK_OFFSET(0x14290200)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x14290320)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowEntityRenderSequence_TypeDefinitionIndex = 72694;
+	inline static constexpr unsigned int HollowEntityRenderSequence_TypeDefinitionIndex = 40806;
 
 	class HollowEntityRenderSequence : public ::MoleMole::HollowChessboard::RenderSequenceBase
 	{

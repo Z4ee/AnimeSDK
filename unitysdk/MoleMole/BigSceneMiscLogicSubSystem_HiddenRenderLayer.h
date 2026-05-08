@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/BigSceneMiscLogicSubSystem_StackedSwitch.h"
 
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_HIDDENRENDERLAYER_SWITCH_OFFSET UNITYSDK_OFFSET(0x91686D0)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_HIDDENRENDERLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x91688B0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_HIDDENRENDERLAYER_SWITCH_OFFSET UNITYSDK_OFFSET(0x11C860C0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_HIDDENRENDERLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x11C86300)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_HiddenRenderLayer_TypeDefinitionIndex = 65439;
+	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_HiddenRenderLayer_TypeDefinitionIndex = 66893;
 
 	class BigSceneMiscLogicSubSystem_HiddenRenderLayer : public ::MoleMole::BigSceneMiscLogicSubSystem_StackedSwitch
 	{

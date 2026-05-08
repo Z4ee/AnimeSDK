@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DirtyCache_1_TypeDefinitionIndex = 29252;
+	inline static constexpr unsigned int DirtyCache_1_TypeDefinitionIndex = 29771;
 
 	template <typename T>
 	struct DirtyCache_1

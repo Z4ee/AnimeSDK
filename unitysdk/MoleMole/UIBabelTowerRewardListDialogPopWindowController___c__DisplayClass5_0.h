@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBabelTowerRewardListDialogPopWindowController; }
 
-#define MOLEMOLE_UIBABELTOWERREWARDLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF06A90)
-#define MOLEMOLE_UIBABELTOWERREWARDLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS5_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xDF06AA0)
+#define MOLEMOLE_UIBABELTOWERREWARDLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163567A0)
+#define MOLEMOLE_UIBABELTOWERREWARDLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS5_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x163567B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabelTowerRewardListDialogPopWindowController___c__DisplayClass5_0_TypeDefinitionIndex = 43263;
+	inline static constexpr unsigned int UIBabelTowerRewardListDialogPopWindowController___c__DisplayClass5_0_TypeDefinitionIndex = 54558;
 
 	class UIBabelTowerRewardListDialogPopWindowController___c__DisplayClass5_0 : public ::System::Object
 	{

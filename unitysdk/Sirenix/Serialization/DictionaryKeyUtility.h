@@ -10,14 +10,14 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Reflection { class Assembly; }
 
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_FROMTO_OFFSET UNITYSDK_OFFSET(0x1B676BF0)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_GETDICTIONARYKEYSTRING_OFFSET UNITYSDK_OFFSET(0x1B6751A0)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_GETDICTIONARYKEYVALUE_OFFSET UNITYSDK_OFFSET(0x1B6761C0)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_GETPERSISTENTPATHKEYTYPES_OFFSET UNITYSDK_OFFSET(0x1B674E60)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_KEYTYPESUPPORTSPERSISTENTPATHS_OFFSET UNITYSDK_OFFSET(0x1B674EB0)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_LOGINVALIDKEYPATHPROVIDER_OFFSET UNITYSDK_OFFSET(0x1B674C60)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_PRIVATEISSUPPORTEDDICTIONARYKEYTYPE_OFFSET UNITYSDK_OFFSET(0x1B675050)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B672E50)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_FROMTO_OFFSET UNITYSDK_OFFSET(0x1C3EF020)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_GETDICTIONARYKEYSTRING_OFFSET UNITYSDK_OFFSET(0x1C3ED430)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_GETDICTIONARYKEYVALUE_OFFSET UNITYSDK_OFFSET(0x1C3EE510)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_GETPERSISTENTPATHKEYTYPES_OFFSET UNITYSDK_OFFSET(0x1C3ED0F0)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_KEYTYPESUPPORTSPERSISTENTPATHS_OFFSET UNITYSDK_OFFSET(0x1C3ED140)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_LOGINVALIDKEYPATHPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C3ECF40)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY_PRIVATEISSUPPORTEDDICTIONARYKEYTYPE_OFFSET UNITYSDK_OFFSET(0x1C3ED2E0)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3EB140)
 
 namespace Sirenix::Serialization
 {
@@ -30,29 +30,29 @@ namespace Sirenix::Serialization
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Sirenix::Serialization::IDictionaryKeyPathProvider*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6520);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IDictionaryKeyPathProvider*>** StaticGet_TypeToKeyPathProviders()
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_BaseSupportedDictionaryKeyTypes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IDictionaryKeyPathProvider*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6528);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_TempKeysToObjects()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6530);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>** StaticGet_ObjectsToTempKeys()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6538);
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6528);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>** StaticGet_GetSupportedDictionaryKeyTypesResults()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6540);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6530);
 		}
-		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_BaseSupportedDictionaryKeyTypes()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_TempKeysToObjects()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6548);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6538);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>** StaticGet_ObjectsToTempKeys()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6540);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::Char>** StaticGet_AllowedSpecialKeyStrChars()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6550);
+			return (::System::Collections::Generic::HashSet_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6548);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IDictionaryKeyPathProvider*>** StaticGet_TypeToKeyPathProviders()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::IDictionaryKeyPathProvider*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x6550);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::Sirenix::Serialization::IDictionaryKeyPathProvider*, ::System::String*>** StaticGet_ProviderToID()
 		{
@@ -60,7 +60,7 @@ namespace Sirenix::Serialization
 		}
 		static ::System::Int64* StaticGet_tempKeyCounter()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x32B0);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility_TypeDefinitionIndex)->GetStaticField(0x32C0);
 		}
 
 		static ::System::Void _cctor()

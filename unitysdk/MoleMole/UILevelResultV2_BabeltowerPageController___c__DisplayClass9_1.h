@@ -5,12 +5,12 @@
 class Class_2_08E43914789BE5F3;
 namespace MoleMole { class UILevelResultV2_BabeltowerPageController___c__DisplayClass9_0; }
 
-#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x876BC90)
-#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__ONPOPSHOWED_B__2_OFFSET UNITYSDK_OFFSET(0x876C070)
+#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14B86D60)
+#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__ONPOPSHOWED_B__2_OFFSET UNITYSDK_OFFSET(0x14B870D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_BabeltowerPageController___c__DisplayClass9_1_TypeDefinitionIndex = 65394;
+	inline static constexpr unsigned int UILevelResultV2_BabeltowerPageController___c__DisplayClass9_1_TypeDefinitionIndex = 42749;
 
 	class UILevelResultV2_BabeltowerPageController___c__DisplayClass9_1 : public ::System::Object
 	{

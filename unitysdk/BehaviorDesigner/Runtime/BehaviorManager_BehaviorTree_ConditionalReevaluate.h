@@ -3,20 +3,20 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_CONDITIONALREEVALUATE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ABD52B0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_CONDITIONALREEVALUATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABD52A0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_CONDITIONALREEVALUATE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BA211C0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_CONDITIONALREEVALUATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA211B0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorTree_ConditionalReevaluate_TypeDefinitionIndex = 31145;
+	inline static constexpr unsigned int BehaviorManager_BehaviorTree_ConditionalReevaluate_TypeDefinitionIndex = 31674;
 
 	class BehaviorManager_BehaviorTree_ConditionalReevaluate : public ::System::Object
 	{
 	public:
-		::BehaviorDesigner::Runtime::Tasks::TaskStatus taskStatus; // 0x10
-		::System::Int32 compositeIndex; // 0x14
-		::System::Int32 stackIndex; // 0x18
-		::System::Int32 index; // 0x1C
+		::System::Int32 stackIndex; // 0x10
+		::System::Int32 index; // 0x14
+		::System::Int32 compositeIndex; // 0x18
+		::BehaviorDesigner::Runtime::Tasks::TaskStatus taskStatus; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_TRACESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1938E3C0)
+#define SYSTEM_NET_TRACESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A25F5B0)
 
 namespace System::Net
 {

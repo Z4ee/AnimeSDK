@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePointPanelWidgetController_InViewState_TypeDefinitionIndex = 43011;
+	inline static constexpr unsigned int UICampIdlePointPanelWidgetController_InViewState_TypeDefinitionIndex = 74684;
 
 	enum class UICampIdlePointPanelWidgetController_InViewState : ::System::Int32
 	{
-		InBounds = 0,
-		Left = 1,
 		Right = 2,
+		Left = 1,
+		InBounds = 0,
 	};
 }

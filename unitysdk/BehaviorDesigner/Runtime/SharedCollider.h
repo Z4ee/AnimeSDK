@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Collider; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A49F410)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A49F4B0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B04B700)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04B7C0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedCollider_TypeDefinitionIndex = 31197;
+	inline static constexpr unsigned int SharedCollider_TypeDefinitionIndex = 31726;
 
 	class SharedCollider : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Collider*>
 	{

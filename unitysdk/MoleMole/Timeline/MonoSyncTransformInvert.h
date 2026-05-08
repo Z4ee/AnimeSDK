@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_TIMELINE_MONOSYNCTRANSFORMINVERT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA66DF80)
-#define MOLEMOLE_TIMELINE_MONOSYNCTRANSFORMINVERT__CTOR_OFFSET UNITYSDK_OFFSET(0xA66E260)
+#define MOLEMOLE_TIMELINE_MONOSYNCTRANSFORMINVERT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1387FAE0)
+#define MOLEMOLE_TIMELINE_MONOSYNCTRANSFORMINVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1387FEB0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MonoSyncTransformInvert_TypeDefinitionIndex = 77467;
+	inline static constexpr unsigned int MonoSyncTransformInvert_TypeDefinitionIndex = 78763;
 
 	class MonoSyncTransformInvert : public ::UnityEngine::MonoBehaviour
 	{

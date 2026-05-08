@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/MobileTouchRumbleEnableType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_MOBILETOUCHRUMBLEENABLESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E8610)
+#define MOLEMOLE_MOBILETOUCHRUMBLEENABLESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16058970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MobileTouchRumbleEnableSettingContext_TypeDefinitionIndex = 60898;
+	inline static constexpr unsigned int MobileTouchRumbleEnableSettingContext_TypeDefinitionIndex = 51532;
 
 	class MobileTouchRumbleEnableSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TypeTrait_1_TypeDefinitionIndex = 8098;
+	inline static constexpr unsigned int TypeTrait_1_TypeDefinitionIndex = 7718;
 
 	template <typename T>
 	class TypeTrait_1 : public ::System::Object

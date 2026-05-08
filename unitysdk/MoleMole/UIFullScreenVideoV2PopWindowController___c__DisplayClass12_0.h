@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7ECB9691B142D586;
+class Class_1_E9529ED64113E4E9;
 namespace MoleMole { class MultipleVideoPlayerManager; }
 namespace MoleMole { class UIFullScreenVideoV2PopWindowController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFULLSCREENVIDEOV2POPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0FE420)
-#define MOLEMOLE_UIFULLSCREENVIDEOV2POPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__INITVIDEOPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xC0FE430)
-#define MOLEMOLE_UIFULLSCREENVIDEOV2POPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__INITVIDEOPLAYER_B__1_OFFSET UNITYSDK_OFFSET(0xC0FE540)
+#define MOLEMOLE_UIFULLSCREENVIDEOV2POPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1699F060)
+#define MOLEMOLE_UIFULLSCREENVIDEOV2POPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__INITVIDEOPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x1699F070)
+#define MOLEMOLE_UIFULLSCREENVIDEOV2POPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__INITVIDEOPLAYER_B__1_OFFSET UNITYSDK_OFFSET(0x1699F160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFullScreenVideoV2PopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 58866;
+	inline static constexpr unsigned int UIFullScreenVideoV2PopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 74205;
 
 	class UIFullScreenVideoV2PopWindowController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Class_1_7ECB9691B142D586*>* onEnd; // 0x10
-		::MoleMole::UIFullScreenVideoV2PopWindowController* __4__this; // 0x18
-		::System::Action_1<::Class_1_7ECB9691B142D586*>* onPrepare; // 0x20
+		::MoleMole::UIFullScreenVideoV2PopWindowController* __4__this; // 0x10
+		::System::Action_1<::Class_1_E9529ED64113E4E9*>* onPrepare; // 0x18
+		::System::Action_1<::Class_1_E9529ED64113E4E9*>* onEnd; // 0x20
 
 		::System::Void _ctor()
 		{

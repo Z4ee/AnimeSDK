@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchValue_1_TypeDefinitionIndex = 27405;
+	inline static constexpr unsigned int SwitchValue_1_TypeDefinitionIndex = 27115;
 
 	template <typename T>
 	class SwitchValue_1 : public ::FlowCanvas::Nodes::PureFunctionNode_4<T, ::System::Boolean, T, T>

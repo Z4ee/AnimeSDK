@@ -3,7 +3,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int IKeyFunc_1_TypeDefinitionIndex = 8968;
+	inline static constexpr unsigned int IKeyFunc_1_TypeDefinitionIndex = 9007;
 
 	template <typename T>
 	class IKeyFunc_1

@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA67C540)
-#define MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xA67C810)
-#define MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA67C7E0)
+#define MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1388EA80)
+#define MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x1388ED30)
+#define MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1388ECD0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ScreenEffectsTrack_TypeDefinitionIndex = 43407;
+	inline static constexpr unsigned int ScreenEffectsTrack_TypeDefinitionIndex = 57829;
 
 	class ScreenEffectsTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENEFFECTSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

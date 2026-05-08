@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_GRADIENTDRAWERSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A67E940)
+#define SIRENIX_ODININSPECTOR_GRADIENTDRAWERSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0665F0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int GradientDrawerSettingAttribute_TypeDefinitionIndex = 7789;
+	inline static constexpr unsigned int GradientDrawerSettingAttribute_TypeDefinitionIndex = 7903;
 
 	class GradientDrawerSettingAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* TimeAxisMinValGetter; // 0x10
-		::System::String* BefText; // 0x18
-		::System::String* TimeAxisCurTimeAtGetter; // 0x20
-		::System::String* InnerText; // 0x28
-		::System::String* AftText; // 0x30
-		::System::String* TimeAxisMaxValGetter; // 0x38
+		::System::String* TimeAxisMaxValGetter; // 0x10
+		::System::String* AftText; // 0x18
+		::System::String* TimeAxisMinValGetter; // 0x20
+		::System::String* TimeAxisCurTimeAtGetter; // 0x28
+		::System::String* BefText; // 0x30
+		::System::String* InnerText; // 0x38
 		::System::Single TimeAxisMinVal; // 0x40
 		::System::Single TimeAxisMaxVal; // 0x44
 

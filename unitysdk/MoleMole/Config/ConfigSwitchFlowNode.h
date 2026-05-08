@@ -6,12 +6,12 @@ class Class_1_D72537470FC2F779;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x81F2840)
-#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x81F2960)
+#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xFB0C040)
+#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0C130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSwitchFlowNode_TypeDefinitionIndex = 58877;
+	inline static constexpr unsigned int ConfigSwitchFlowNode_TypeDefinitionIndex = 56968;
 
 	class ConfigSwitchFlowNode : public ::MoleMole::Config::ConfigUIBaseFlowNode
 	{

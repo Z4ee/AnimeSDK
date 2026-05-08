@@ -4,9 +4,9 @@
 
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_1_D31D2263E849A1B4__CTOR_OFFSET UNITYSDK_OFFSET(0x8D14A60)
+#define CLASS_1_D31D2263E849A1B4__CTOR_OFFSET UNITYSDK_OFFSET(0x10C92D10)
 
-inline static constexpr unsigned int Class_1_D31D2263E849A1B4_TypeDefinitionIndex = 74126;
+inline static constexpr unsigned int Class_1_D31D2263E849A1B4_TypeDefinitionIndex = 78132;
 
 class Class_1_D31D2263E849A1B4 : public ::System::Object
 {

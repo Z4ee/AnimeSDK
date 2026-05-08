@@ -8,12 +8,12 @@ namespace ParadoxNotion::Serialization::FullSerializer { class fsData; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR_ONBEFOREDESERIALIZEAFTERINSTANCECREATION_OFFSET UNITYSDK_OFFSET(0x196EC820)
-#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x196ECB70)
+#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR_ONBEFOREDESERIALIZEAFTERINSTANCECREATION_OFFSET UNITYSDK_OFFSET(0x1A20CCF0)
+#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20D0F0)
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int fsBBParameterProcessor_TypeDefinitionIndex = 27606;
+	inline static constexpr unsigned int fsBBParameterProcessor_TypeDefinitionIndex = 27602;
 
 	class fsBBParameterProcessor : public ::ParadoxNotion::Serialization::fsRecoveryProcessor_2<::NodeCanvas::Framework::BBParameter*, ::NodeCanvas::Framework::Internal::MissingBBParameterType*>
 	{

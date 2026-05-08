@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ENPCAnimationSlot_TypeDefinitionIndex = 73794;
+	inline static constexpr unsigned int ENPCAnimationSlot_TypeDefinitionIndex = 68176;
 
 	enum class ENPCAnimationSlot : ::System::Int32
 	{

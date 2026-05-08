@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int TweenType_TypeDefinitionIndex = 24929;
+	inline static constexpr unsigned int TweenType_TypeDefinitionIndex = 25443;
 
 	enum class TweenType : ::System::Int32
 	{

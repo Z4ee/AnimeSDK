@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IStartable_TypeDefinitionIndex = 8303;
+	inline static constexpr unsigned int IStartable_TypeDefinitionIndex = 8282;
 
 	class IStartable
 	{

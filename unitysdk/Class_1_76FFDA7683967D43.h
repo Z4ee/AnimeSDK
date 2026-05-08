@@ -7,9 +7,9 @@ namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_1_76FFDA7683967D43__CTOR_OFFSET UNITYSDK_OFFSET(0x828BAD0)
+#define CLASS_1_76FFDA7683967D43__CTOR_OFFSET UNITYSDK_OFFSET(0x105CF7A0)
 
-inline static constexpr unsigned int Class_1_76FFDA7683967D43_TypeDefinitionIndex = 71520;
+inline static constexpr unsigned int Class_1_76FFDA7683967D43_TypeDefinitionIndex = 40319;
 
 class Class_1_76FFDA7683967D43 : public ::System::Object
 {

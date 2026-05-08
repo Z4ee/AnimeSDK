@@ -7,7 +7,7 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 8462;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 8472;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object

@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_EDB3A19738BDAA61.h"
 
-namespace SimpleJSON { class JSONNode; }
-namespace System { class String; }
+class Class_1_FD31E4216DD30F97;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_682_TypeDefinitionIndex = 72954;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_682_TypeDefinitionIndex = 68593;
 
 class Class_0_16E4307DCC419505_682
 {

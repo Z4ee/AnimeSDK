@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OCTREE_NATIVE_UNSAFEUTILITYWRAPPER_MEMMOVE_1_OFFSET UNITYSDK_OFFSET(0xAA22930)
-#define OCTREE_NATIVE_UNSAFEUTILITYWRAPPER_MEMMOVE_OFFSET UNITYSDK_OFFSET(0xAA227F0)
-#define OCTREE_NATIVE_UNSAFEUTILITYWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xAA22950)
+#define OCTREE_NATIVE_UNSAFEUTILITYWRAPPER_MEMMOVE_1_OFFSET UNITYSDK_OFFSET(0x15328DF0)
+#define OCTREE_NATIVE_UNSAFEUTILITYWRAPPER_MEMMOVE_OFFSET UNITYSDK_OFFSET(0x15328CB0)
+#define OCTREE_NATIVE_UNSAFEUTILITYWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x15328E10)
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int UnsafeUtilityWrapper_TypeDefinitionIndex = 61373;
+	inline static constexpr unsigned int UnsafeUtilityWrapper_TypeDefinitionIndex = 79404;
 
 	class UnsafeUtilityWrapper : public ::System::Object
 	{

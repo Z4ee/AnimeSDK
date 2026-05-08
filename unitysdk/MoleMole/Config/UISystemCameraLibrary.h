@@ -8,18 +8,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_UISYSTEMCAMERALIBRARY_FINDCAMERAMOVE_OFFSET UNITYSDK_OFFSET(0xE37D420)
-#define MOLEMOLE_CONFIG_UISYSTEMCAMERALIBRARY__CTOR_OFFSET UNITYSDK_OFFSET(0xE37D760)
+#define MOLEMOLE_CONFIG_UISYSTEMCAMERALIBRARY_FINDCAMERAMOVE_OFFSET UNITYSDK_OFFSET(0x16AABD00)
+#define MOLEMOLE_CONFIG_UISYSTEMCAMERALIBRARY__CTOR_OFFSET UNITYSDK_OFFSET(0x16AAC020)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UISystemCameraLibrary_TypeDefinitionIndex = 52098;
+	inline static constexpr unsigned int UISystemCameraLibrary_TypeDefinitionIndex = 49140;
 
 	class UISystemCameraLibrary : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::Config::CameraMoveTime*>* CameraMoveLibrary; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::CameraTargetConfig*>* Library; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::CameraTargetConfig*>* Library; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::Config::CameraMoveTime*>* CameraMoveLibrary; // 0x18
 
 		::System::Void _ctor()
 		{

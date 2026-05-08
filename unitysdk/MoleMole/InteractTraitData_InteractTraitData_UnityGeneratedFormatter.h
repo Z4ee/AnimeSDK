@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xA7E14D0)
-#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xA7E14E0)
-#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xA7E1730)
-#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7E1940)
-#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E1900)
+#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16051510)
+#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16051520)
+#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16051750)
+#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16051940)
+#define MOLEMOLE_INTERACTTRAITDATA_INTERACTTRAITDATA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16051900)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InteractTraitData_InteractTraitData_UnityGeneratedFormatter_TypeDefinitionIndex = 53839;
+	inline static constexpr unsigned int InteractTraitData_InteractTraitData_UnityGeneratedFormatter_TypeDefinitionIndex = 54259;
 
 	class InteractTraitData_InteractTraitData_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::InteractTraitData*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigInteractionFanCylinder>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigInteractionFanCylinder>**)Il2CppClass::FromTypeDefinitionIndex(InteractTraitData_InteractTraitData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B4A0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigInteractionFanCylinder>**)Il2CppClass::FromTypeDefinitionIndex(InteractTraitData_InteractTraitData_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C7C0);
 		}
 
 		::System::Void _ctor()

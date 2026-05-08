@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceTimePointType_TypeDefinitionIndex = 35690;
+	inline static constexpr unsigned int CameraSequenceTimePointType_TypeDefinitionIndex = 36234;
 
 	enum class CameraSequenceTimePointType : ::System::Int32
 	{

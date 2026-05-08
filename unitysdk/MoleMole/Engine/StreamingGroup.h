@@ -6,11 +6,11 @@
 namespace UnityEngine { class LODGroup; }
 namespace UnityEngine { class MeshFilter; }
 
-#define MOLEMOLE_ENGINE_STREAMINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB8904B0)
+#define MOLEMOLE_ENGINE_STREAMINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16E3BA10)
 
 namespace MoleMole::Engine
 {
-	inline static constexpr unsigned int StreamingGroup_TypeDefinitionIndex = 71644;
+	inline static constexpr unsigned int StreamingGroup_TypeDefinitionIndex = 49501;
 
 	class StreamingGroup : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDHPCHALLENGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xBA01180)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDHPCHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0xBA01450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDHPCHALLENGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D359D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDHPCHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D35C50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEndHpChallenge_TypeDefinitionIndex = 77486;
+	inline static constexpr unsigned int LDEndHpChallenge_TypeDefinitionIndex = 49112;
 
 	class LDEndHpChallenge : public ::FlowCanvas::Nodes::CallableActionNode
 	{

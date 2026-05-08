@@ -5,34 +5,34 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_MODIFYENABLE_OFFSET UNITYSDK_OFFSET(0xE2CE720)
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0xE2CDFC0)
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0xE2CE4F0)
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0xE2CE440)
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_SETSHADERCUSTOM_OFFSET UNITYSDK_OFFSET(0xE2CE1F0)
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG__CTOR_OFFSET UNITYSDK_OFFSET(0xE2CE830)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_MODIFYENABLE_OFFSET UNITYSDK_OFFSET(0x174548E0)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x17454210)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x174546E0)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x17454650)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG_SETSHADERCUSTOM_OFFSET UNITYSDK_OFFSET(0x17454420)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOG__CTOR_OFFSET UNITYSDK_OFFSET(0x174549D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShaderCustomFog_TypeDefinitionIndex = 78556;
+	inline static constexpr unsigned int ConfigShaderCustomFog_TypeDefinitionIndex = 61548;
 
 	class ConfigShaderCustomFog : public ::MoleMole::Config::ConfigShaderCustomBase
 	{
 	public:
-		::UnityEngine::AnimationCurve* FogDistanceBeginCurve; // 0x28
-		::UnityEngine::AnimationCurve* FogColorFarEndCurve; // 0x30
-		::UnityEngine::AnimationCurve* FogStartBeginCurve; // 0x38
-		::UnityEngine::AnimationCurve* FogColorFarBeginCurve; // 0x40
-		::UnityEngine::AnimationCurve* FogColorNearEndCurve; // 0x48
+		::UnityEngine::AnimationCurve* FogColorFarBeginCurve; // 0x28
+		::UnityEngine::AnimationCurve* FogStartEndCurve; // 0x30
+		::UnityEngine::AnimationCurve* FogColorNearEndCurve; // 0x38
+		::UnityEngine::AnimationCurve* FogColorNearBeginCurve; // 0x40
+		::UnityEngine::AnimationCurve* FogStartBeginCurve; // 0x48
 		::UnityEngine::AnimationCurve* FogDistanceEndCurve; // 0x50
-		::UnityEngine::AnimationCurve* FogStartEndCurve; // 0x58
-		::UnityEngine::AnimationCurve* FogColorNearBeginCurve; // 0x60
-		::System::Single FogDistanceFrom; // 0x68
-		::UnityEngine::Color FogColorFar; // 0x6C
-		::System::Single FogStartTo; // 0x7C
-		::UnityEngine::Color FogColorNear; // 0x80
-		::System::Single FogStartFrom; // 0x90
-		::System::Single FogDistanceTo; // 0x94
+		::UnityEngine::AnimationCurve* FogDistanceBeginCurve; // 0x58
+		::UnityEngine::AnimationCurve* FogColorFarEndCurve; // 0x60
+		::System::Single FogStartFrom; // 0x68
+		::System::Single FogDistanceTo; // 0x6C
+		::System::Single FogStartTo; // 0x70
+		::UnityEngine::Color FogColorFar; // 0x74
+		::System::Single FogDistanceFrom; // 0x84
+		::UnityEngine::Color FogColorNear; // 0x88
 
 		::System::Void _ctor()
 		{

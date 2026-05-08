@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/PluginUI/MiHoYoSDKUIContainer.h"
+
+class Class_2_BB18B5C1205C80C6_2;
+namespace MoleMole { class UIGeneralGoogleLoginDialogPopWindowController; }
+namespace System { class String; }
+
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x1442A700)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_6E6682ED9FD6F719_OFFSET UNITYSDK_OFFSET(0x1442A4C0)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_AAE2768E79420046_OFFSET UNITYSDK_OFFSET(0x1442AD60)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_B62E7749E5600611_OFFSET UNITYSDK_OFFSET(0x1442AF40)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_C9A3013DD208C696_OFFSET UNITYSDK_OFFSET(0x1442AAB0)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_E0238CF9E7916AFC_1_OFFSET UNITYSDK_OFFSET(0x1442AF10)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_E0238CF9E7916AFC_OFFSET UNITYSDK_OFFSET(0x1442ACB0)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_EA80642E2908C486_1_OFFSET UNITYSDK_OFFSET(0x1442AE90)
+#define CLASS_2_585EDEF1DB26C779_METHOD_2_EA80642E2908C486_OFFSET UNITYSDK_OFFSET(0x1442ACE0)
+#define CLASS_2_585EDEF1DB26C779_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1442ABC0)
+#define CLASS_2_585EDEF1DB26C779_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1442A060)
+#define CLASS_2_585EDEF1DB26C779__CTOR_OFFSET UNITYSDK_OFFSET(0x1442AC20)
+
+inline static constexpr unsigned int Class_2_585EDEF1DB26C779_TypeDefinitionIndex = 77007;
+
+class Class_2_585EDEF1DB26C779 : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
+{
+public:
+	static ::Class_2_585EDEF1DB26C779** StaticGet_Field_2_2()
+	{
+		return (::Class_2_585EDEF1DB26C779**)Il2CppClass::FromTypeDefinitionIndex(Class_2_585EDEF1DB26C779_TypeDefinitionIndex)->GetStaticField(0x44290);
+	}
+	::MoleMole::UIGeneralGoogleLoginDialogPopWindowController* Field_2_0; // 0x18
+	::Class_2_BB18B5C1205C80C6_2* Field_2_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnShow()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_ONSHOW_OFFSET))(this);
+	}
+
+	::System::Void OnClose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_ONCLOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6E6682ED9FD6F719()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_6E6682ED9FD6F719_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E0238CF9E7916AFC(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_E0238CF9E7916AFC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_EA80642E2908C486()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_EA80642E2908C486_OFFSET))(this);
+	}
+
+	static ::Class_2_585EDEF1DB26C779* Method_2_AAE2768E79420046()
+	{
+		return ((::Class_2_585EDEF1DB26C779*(*)())((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_AAE2768E79420046_OFFSET))();
+	}
+
+	::System::Void Method_2_EA80642E2908C486_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_EA80642E2908C486_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E0238CF9E7916AFC_1(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_E0238CF9E7916AFC_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C9A3013DD208C696()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_C9A3013DD208C696_OFFSET))(this);
+	}
+
+	::System::Void Method_2_60E1F7F58CCF739F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_60E1F7F58CCF739F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B62E7749E5600611(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_585EDEF1DB26C779_METHOD_2_B62E7749E5600611_OFFSET))(this, a1);
+	}
+};

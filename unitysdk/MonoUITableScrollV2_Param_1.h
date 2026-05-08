@@ -4,7 +4,7 @@
 
 template <typename T> class MonoUITableScrollV2_Param_1;
 
-inline static constexpr unsigned int MonoUITableScrollV2_Param_1_TypeDefinitionIndex = 64449;
+inline static constexpr unsigned int MonoUITableScrollV2_Param_1_TypeDefinitionIndex = 54037;
 
 template <typename T>
 class MonoUITableScrollV2_Param_1 : public ::System::Object

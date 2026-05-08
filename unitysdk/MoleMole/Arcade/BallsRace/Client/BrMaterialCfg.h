@@ -11,7 +11,7 @@ namespace UnityEngine { class Material; }
 
 namespace MoleMole::Arcade::BallsRace::Client
 {
-	inline static constexpr unsigned int BrMaterialCfg_TypeDefinitionIndex = 82228;
+	inline static constexpr unsigned int BrMaterialCfg_TypeDefinitionIndex = 83898;
 
 	struct alignas(8) BrMaterialCfg
 	{

@@ -8,10 +8,10 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1B050FB0)
-#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1B0510B0)
-#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B051220)
-#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0511C0)
+#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1BCF1410)
+#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1BCF1510)
+#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCF1680)
+#define SIRENIX_SERIALIZATION_GRADIENTCOLORKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF1620)
 
 namespace Sirenix::Serialization
 {
@@ -20,13 +20,13 @@ namespace Sirenix::Serialization
 	class GradientColorKeyFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::GradientColorKey>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>** StaticGet_ColorSerializer()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(GradientColorKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x64E0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientColorKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x64E8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientColorKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x64E0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>** StaticGet_ColorSerializer()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(GradientColorKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x64E8);
 		}
 
 		::System::Void _ctor()

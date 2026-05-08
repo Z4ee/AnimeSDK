@@ -7,7 +7,7 @@ namespace UnityEngine { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IInstanceRequire_TypeDefinitionIndex = 8109;
+	inline static constexpr unsigned int IInstanceRequire_TypeDefinitionIndex = 8217;
 
 	class IInstanceRequire
 	{

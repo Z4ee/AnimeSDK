@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/Enum_3_4C7CE452CFA7A879.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_D12E4BF61CBE42EF;
-class Class_1_F57D00757009D1EB;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_432;
+class Class_1_9DF8A96088853ABF;
+namespace MoleMole::Battle { class Entity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_267_TypeDefinitionIndex = 47203;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_267_TypeDefinitionIndex = 65997;
 
 class Class_0_16E4307DCC419505_267
 {

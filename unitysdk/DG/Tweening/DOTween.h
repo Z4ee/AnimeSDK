@@ -39,183 +39,183 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectOffset; }
 
-#define DG_TWEENING_DOTWEEN_AUTOINIT_OFFSET UNITYSDK_OFFSET(0x1B56D9F0)
-#define DG_TWEENING_DOTWEEN_CLEARCACHEDTWEENS_OFFSET UNITYSDK_OFFSET(0x1B56DD50)
-#define DG_TWEENING_DOTWEEN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B56DAC0)
-#define DG_TWEENING_DOTWEEN_COMPLETEALL_OFFSET UNITYSDK_OFFSET(0x1B56FB00)
-#define DG_TWEENING_DOTWEEN_COMPLETEANDRETURNKILLEDTOTEXCEPTFOR_OFFSET UNITYSDK_OFFSET(0x1B56FC70)
-#define DG_TWEENING_DOTWEEN_COMPLETEANDRETURNKILLEDTOT_1_OFFSET UNITYSDK_OFFSET(0x1B56FC10)
-#define DG_TWEENING_DOTWEEN_COMPLETEANDRETURNKILLEDTOT_OFFSET UNITYSDK_OFFSET(0x1B56FBD0)
-#define DG_TWEENING_DOTWEEN_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1B56FB60)
-#define DG_TWEENING_DOTWEEN_FLIPALL_OFFSET UNITYSDK_OFFSET(0x1B56FCC0)
-#define DG_TWEENING_DOTWEEN_FLIP_OFFSET UNITYSDK_OFFSET(0x1B56FD10)
-#define DG_TWEENING_DOTWEEN_GET_LOGBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x1B56CF10)
-#define DG_TWEENING_DOTWEEN_GOTOALL_OFFSET UNITYSDK_OFFSET(0x1B56FD70)
-#define DG_TWEENING_DOTWEEN_GOTO_OFFSET UNITYSDK_OFFSET(0x1B56FDD0)
-#define DG_TWEENING_DOTWEEN_INITCHECK_OFFSET UNITYSDK_OFFSET(0x1B56F9E0)
-#define DG_TWEENING_DOTWEEN_INIT_1_OFFSET UNITYSDK_OFFSET(0x1B56D1D0)
-#define DG_TWEENING_DOTWEEN_INIT_OFFSET UNITYSDK_OFFSET(0x1B56D090)
-#define DG_TWEENING_DOTWEEN_ISTWEENING_OFFSET UNITYSDK_OFFSET(0x1B570860)
-#define DG_TWEENING_DOTWEEN_KILLALL_1_OFFSET UNITYSDK_OFFSET(0x1B56FED0)
-#define DG_TWEENING_DOTWEEN_KILLALL_OFFSET UNITYSDK_OFFSET(0x1B56FE40)
-#define DG_TWEENING_DOTWEEN_KILL_OFFSET UNITYSDK_OFFSET(0x1B570050)
-#define DG_TWEENING_DOTWEEN_PAUSEALL_OFFSET UNITYSDK_OFFSET(0x1B570120)
-#define DG_TWEENING_DOTWEEN_PAUSEDTWEENS_OFFSET UNITYSDK_OFFSET(0x1B570910)
-#define DG_TWEENING_DOTWEEN_PAUSE_OFFSET UNITYSDK_OFFSET(0x1B570170)
-#define DG_TWEENING_DOTWEEN_PLAYALL_OFFSET UNITYSDK_OFFSET(0x1B5701D0)
-#define DG_TWEENING_DOTWEEN_PLAYBACKWARDSALL_OFFSET UNITYSDK_OFFSET(0x1B5702F0)
-#define DG_TWEENING_DOTWEEN_PLAYBACKWARDS_1_OFFSET UNITYSDK_OFFSET(0x1B5703A0)
-#define DG_TWEENING_DOTWEEN_PLAYBACKWARDS_OFFSET UNITYSDK_OFFSET(0x1B570340)
-#define DG_TWEENING_DOTWEEN_PLAYFORWARDALL_OFFSET UNITYSDK_OFFSET(0x1B570410)
-#define DG_TWEENING_DOTWEEN_PLAYFORWARD_1_OFFSET UNITYSDK_OFFSET(0x1B5704C0)
-#define DG_TWEENING_DOTWEEN_PLAYFORWARD_OFFSET UNITYSDK_OFFSET(0x1B570460)
-#define DG_TWEENING_DOTWEEN_PLAYINGTWEENS_OFFSET UNITYSDK_OFFSET(0x1B5708E0)
-#define DG_TWEENING_DOTWEEN_PLAY_1_OFFSET UNITYSDK_OFFSET(0x1B570280)
-#define DG_TWEENING_DOTWEEN_PLAY_OFFSET UNITYSDK_OFFSET(0x1B570220)
-#define DG_TWEENING_DOTWEEN_PUNCH_OFFSET UNITYSDK_OFFSET(0x1B56E620)
-#define DG_TWEENING_DOTWEEN_RESTARTALL_OFFSET UNITYSDK_OFFSET(0x1B570530)
-#define DG_TWEENING_DOTWEEN_RESTART_1_OFFSET UNITYSDK_OFFSET(0x1B5705E0)
-#define DG_TWEENING_DOTWEEN_RESTART_OFFSET UNITYSDK_OFFSET(0x1B570580)
-#define DG_TWEENING_DOTWEEN_REWINDALL_OFFSET UNITYSDK_OFFSET(0x1B570650)
-#define DG_TWEENING_DOTWEEN_REWIND_OFFSET UNITYSDK_OFFSET(0x1B5706A0)
-#define DG_TWEENING_DOTWEEN_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x1B56F970)
-#define DG_TWEENING_DOTWEEN_SETTWEENSCAPACITY_OFFSET UNITYSDK_OFFSET(0x1B56DA90)
-#define DG_TWEENING_DOTWEEN_SET_LOGBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x1B56CF40)
-#define DG_TWEENING_DOTWEEN_SHAKE_1_OFFSET UNITYSDK_OFFSET(0x1B56F830)
-#define DG_TWEENING_DOTWEEN_SHAKE_2_OFFSET UNITYSDK_OFFSET(0x1B56EED0)
-#define DG_TWEENING_DOTWEEN_SHAKE_OFFSET UNITYSDK_OFFSET(0x1B56EE00)
-#define DG_TWEENING_DOTWEEN_SMOOTHREWINDALL_OFFSET UNITYSDK_OFFSET(0x1B570700)
-#define DG_TWEENING_DOTWEEN_SMOOTHREWIND_OFFSET UNITYSDK_OFFSET(0x1B570750)
-#define DG_TWEENING_DOTWEEN_TOALPHA_OFFSET UNITYSDK_OFFSET(0x1B56E450)
-#define DG_TWEENING_DOTWEEN_TOARRAY_OFFSET UNITYSDK_OFFSET(0x1B56EB40)
-#define DG_TWEENING_DOTWEEN_TOAXIS_OFFSET UNITYSDK_OFFSET(0x1B56E3C0)
-#define DG_TWEENING_DOTWEEN_TOGGLEPAUSEALL_OFFSET UNITYSDK_OFFSET(0x1B5707B0)
-#define DG_TWEENING_DOTWEEN_TOGGLEPAUSE_OFFSET UNITYSDK_OFFSET(0x1B570800)
-#define DG_TWEENING_DOTWEEN_TOTALPLAYINGTWEENS_OFFSET UNITYSDK_OFFSET(0x1B5708B0)
-#define DG_TWEENING_DOTWEEN_TO_10_OFFSET UNITYSDK_OFFSET(0x1B56E1D0)
-#define DG_TWEENING_DOTWEEN_TO_11_OFFSET UNITYSDK_OFFSET(0x1B56E250)
-#define DG_TWEENING_DOTWEEN_TO_12_OFFSET UNITYSDK_OFFSET(0x1B56E2C0)
-#define DG_TWEENING_DOTWEEN_TO_13_OFFSET UNITYSDK_OFFSET(0x1B56E330)
-#define DG_TWEENING_DOTWEEN_TO_14_OFFSET UNITYSDK_OFFSET(0x1B56E4E0)
-#define DG_TWEENING_DOTWEEN_TO_15_OFFSET UNITYSDK_OFFSET(0x1B56F8F0)
-#define DG_TWEENING_DOTWEEN_TO_1_OFFSET UNITYSDK_OFFSET(0x1B56DE10)
-#define DG_TWEENING_DOTWEEN_TO_2_OFFSET UNITYSDK_OFFSET(0x1B56DE70)
-#define DG_TWEENING_DOTWEEN_TO_3_OFFSET UNITYSDK_OFFSET(0x1B56DED0)
-#define DG_TWEENING_DOTWEEN_TO_4_OFFSET UNITYSDK_OFFSET(0x1B56DF30)
-#define DG_TWEENING_DOTWEEN_TO_5_OFFSET UNITYSDK_OFFSET(0x1B56DF90)
-#define DG_TWEENING_DOTWEEN_TO_6_OFFSET UNITYSDK_OFFSET(0x1B56DFF0)
-#define DG_TWEENING_DOTWEEN_TO_7_OFFSET UNITYSDK_OFFSET(0x1B56E080)
-#define DG_TWEENING_DOTWEEN_TO_8_OFFSET UNITYSDK_OFFSET(0x1B56E0E0)
-#define DG_TWEENING_DOTWEEN_TO_9_OFFSET UNITYSDK_OFFSET(0x1B56E160)
-#define DG_TWEENING_DOTWEEN_TO_OFFSET UNITYSDK_OFFSET(0x1B56DDB0)
-#define DG_TWEENING_DOTWEEN_TWEENSBYID_OFFSET UNITYSDK_OFFSET(0x1B570940)
-#define DG_TWEENING_DOTWEEN_TWEENSBYTARGET_OFFSET UNITYSDK_OFFSET(0x1B570980)
-#define DG_TWEENING_DOTWEEN_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1B56DD80)
-#define DG_TWEENING_DOTWEEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B56CF90)
-#define DG_TWEENING_DOTWEEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5709C0)
+#define DG_TWEENING_DOTWEEN_AUTOINIT_OFFSET UNITYSDK_OFFSET(0x1C2C98F0)
+#define DG_TWEENING_DOTWEEN_CLEARCACHEDTWEENS_OFFSET UNITYSDK_OFFSET(0x1C2C9CD0)
+#define DG_TWEENING_DOTWEEN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C2C9A10)
+#define DG_TWEENING_DOTWEEN_COMPLETEALL_OFFSET UNITYSDK_OFFSET(0x1C2CBE70)
+#define DG_TWEENING_DOTWEEN_COMPLETEANDRETURNKILLEDTOTEXCEPTFOR_OFFSET UNITYSDK_OFFSET(0x1C2CC070)
+#define DG_TWEENING_DOTWEEN_COMPLETEANDRETURNKILLEDTOT_1_OFFSET UNITYSDK_OFFSET(0x1C2CBFF0)
+#define DG_TWEENING_DOTWEEN_COMPLETEANDRETURNKILLEDTOT_OFFSET UNITYSDK_OFFSET(0x1C2CBF80)
+#define DG_TWEENING_DOTWEEN_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1C2CBEF0)
+#define DG_TWEENING_DOTWEEN_FLIPALL_OFFSET UNITYSDK_OFFSET(0x1C2CC0F0)
+#define DG_TWEENING_DOTWEEN_FLIP_OFFSET UNITYSDK_OFFSET(0x1C2CC160)
+#define DG_TWEENING_DOTWEEN_GET_LOGBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x1C2C8AF0)
+#define DG_TWEENING_DOTWEEN_GOTOALL_OFFSET UNITYSDK_OFFSET(0x1C2CC1E0)
+#define DG_TWEENING_DOTWEEN_GOTO_OFFSET UNITYSDK_OFFSET(0x1C2CC260)
+#define DG_TWEENING_DOTWEEN_INITCHECK_OFFSET UNITYSDK_OFFSET(0x1C2CBD00)
+#define DG_TWEENING_DOTWEEN_INIT_1_OFFSET UNITYSDK_OFFSET(0x1C2C8E30)
+#define DG_TWEENING_DOTWEEN_INIT_OFFSET UNITYSDK_OFFSET(0x1C2C8CC0)
+#define DG_TWEENING_DOTWEEN_ISTWEENING_OFFSET UNITYSDK_OFFSET(0x1C2CD0F0)
+#define DG_TWEENING_DOTWEEN_KILLALL_1_OFFSET UNITYSDK_OFFSET(0x1C2CC3E0)
+#define DG_TWEENING_DOTWEEN_KILLALL_OFFSET UNITYSDK_OFFSET(0x1C2CC2F0)
+#define DG_TWEENING_DOTWEEN_KILL_OFFSET UNITYSDK_OFFSET(0x1C2CC5E0)
+#define DG_TWEENING_DOTWEEN_PAUSEALL_OFFSET UNITYSDK_OFFSET(0x1C2CC710)
+#define DG_TWEENING_DOTWEEN_PAUSEDTWEENS_OFFSET UNITYSDK_OFFSET(0x1C2CD230)
+#define DG_TWEENING_DOTWEEN_PAUSE_OFFSET UNITYSDK_OFFSET(0x1C2CC780)
+#define DG_TWEENING_DOTWEEN_PLAYALL_OFFSET UNITYSDK_OFFSET(0x1C2CC800)
+#define DG_TWEENING_DOTWEEN_PLAYBACKWARDSALL_OFFSET UNITYSDK_OFFSET(0x1C2CC980)
+#define DG_TWEENING_DOTWEEN_PLAYBACKWARDS_1_OFFSET UNITYSDK_OFFSET(0x1C2CCA70)
+#define DG_TWEENING_DOTWEEN_PLAYBACKWARDS_OFFSET UNITYSDK_OFFSET(0x1C2CC9F0)
+#define DG_TWEENING_DOTWEEN_PLAYFORWARDALL_OFFSET UNITYSDK_OFFSET(0x1C2CCB00)
+#define DG_TWEENING_DOTWEEN_PLAYFORWARD_1_OFFSET UNITYSDK_OFFSET(0x1C2CCBF0)
+#define DG_TWEENING_DOTWEEN_PLAYFORWARD_OFFSET UNITYSDK_OFFSET(0x1C2CCB70)
+#define DG_TWEENING_DOTWEEN_PLAYINGTWEENS_OFFSET UNITYSDK_OFFSET(0x1C2CD1D0)
+#define DG_TWEENING_DOTWEEN_PLAY_1_OFFSET UNITYSDK_OFFSET(0x1C2CC8F0)
+#define DG_TWEENING_DOTWEEN_PLAY_OFFSET UNITYSDK_OFFSET(0x1C2CC870)
+#define DG_TWEENING_DOTWEEN_PUNCH_OFFSET UNITYSDK_OFFSET(0x1C2CA850)
+#define DG_TWEENING_DOTWEEN_RESTARTALL_OFFSET UNITYSDK_OFFSET(0x1C2CCC80)
+#define DG_TWEENING_DOTWEEN_RESTART_1_OFFSET UNITYSDK_OFFSET(0x1C2CCD80)
+#define DG_TWEENING_DOTWEEN_RESTART_OFFSET UNITYSDK_OFFSET(0x1C2CCD00)
+#define DG_TWEENING_DOTWEEN_REWINDALL_OFFSET UNITYSDK_OFFSET(0x1C2CCE10)
+#define DG_TWEENING_DOTWEEN_REWIND_OFFSET UNITYSDK_OFFSET(0x1C2CCE90)
+#define DG_TWEENING_DOTWEEN_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x1C2CBC70)
+#define DG_TWEENING_DOTWEEN_SETTWEENSCAPACITY_OFFSET UNITYSDK_OFFSET(0x1C2C99B0)
+#define DG_TWEENING_DOTWEEN_SET_LOGBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x1C2C8B50)
+#define DG_TWEENING_DOTWEEN_SHAKE_1_OFFSET UNITYSDK_OFFSET(0x1C2CBAE0)
+#define DG_TWEENING_DOTWEEN_SHAKE_2_OFFSET UNITYSDK_OFFSET(0x1C2CB180)
+#define DG_TWEENING_DOTWEEN_SHAKE_OFFSET UNITYSDK_OFFSET(0x1C2CB090)
+#define DG_TWEENING_DOTWEEN_SMOOTHREWINDALL_OFFSET UNITYSDK_OFFSET(0x1C2CCF10)
+#define DG_TWEENING_DOTWEEN_SMOOTHREWIND_OFFSET UNITYSDK_OFFSET(0x1C2CCF80)
+#define DG_TWEENING_DOTWEEN_TOALPHA_OFFSET UNITYSDK_OFFSET(0x1C2CA600)
+#define DG_TWEENING_DOTWEEN_TOARRAY_OFFSET UNITYSDK_OFFSET(0x1C2CAD70)
+#define DG_TWEENING_DOTWEEN_TOAXIS_OFFSET UNITYSDK_OFFSET(0x1C2CA540)
+#define DG_TWEENING_DOTWEEN_TOGGLEPAUSEALL_OFFSET UNITYSDK_OFFSET(0x1C2CD000)
+#define DG_TWEENING_DOTWEEN_TOGGLEPAUSE_OFFSET UNITYSDK_OFFSET(0x1C2CD070)
+#define DG_TWEENING_DOTWEEN_TOTALPLAYINGTWEENS_OFFSET UNITYSDK_OFFSET(0x1C2CD170)
+#define DG_TWEENING_DOTWEEN_TO_10_OFFSET UNITYSDK_OFFSET(0x1C2CA2F0)
+#define DG_TWEENING_DOTWEEN_TO_11_OFFSET UNITYSDK_OFFSET(0x1C2CA390)
+#define DG_TWEENING_DOTWEEN_TO_12_OFFSET UNITYSDK_OFFSET(0x1C2CA420)
+#define DG_TWEENING_DOTWEEN_TO_13_OFFSET UNITYSDK_OFFSET(0x1C2CA4B0)
+#define DG_TWEENING_DOTWEEN_TO_14_OFFSET UNITYSDK_OFFSET(0x1C2CA6C0)
+#define DG_TWEENING_DOTWEEN_TO_15_OFFSET UNITYSDK_OFFSET(0x1C2CBBD0)
+#define DG_TWEENING_DOTWEEN_TO_1_OFFSET UNITYSDK_OFFSET(0x1C2C9E20)
+#define DG_TWEENING_DOTWEEN_TO_2_OFFSET UNITYSDK_OFFSET(0x1C2C9EB0)
+#define DG_TWEENING_DOTWEEN_TO_3_OFFSET UNITYSDK_OFFSET(0x1C2C9F30)
+#define DG_TWEENING_DOTWEEN_TO_4_OFFSET UNITYSDK_OFFSET(0x1C2C9FB0)
+#define DG_TWEENING_DOTWEEN_TO_5_OFFSET UNITYSDK_OFFSET(0x1C2CA030)
+#define DG_TWEENING_DOTWEEN_TO_6_OFFSET UNITYSDK_OFFSET(0x1C2CA0B0)
+#define DG_TWEENING_DOTWEEN_TO_7_OFFSET UNITYSDK_OFFSET(0x1C2CA140)
+#define DG_TWEENING_DOTWEEN_TO_8_OFFSET UNITYSDK_OFFSET(0x1C2CA1C0)
+#define DG_TWEENING_DOTWEEN_TO_9_OFFSET UNITYSDK_OFFSET(0x1C2CA260)
+#define DG_TWEENING_DOTWEEN_TO_OFFSET UNITYSDK_OFFSET(0x1C2C9D90)
+#define DG_TWEENING_DOTWEEN_TWEENSBYID_OFFSET UNITYSDK_OFFSET(0x1C2CD290)
+#define DG_TWEENING_DOTWEEN_TWEENSBYTARGET_OFFSET UNITYSDK_OFFSET(0x1C2CD2F0)
+#define DG_TWEENING_DOTWEEN_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1C2C9D30)
+#define DG_TWEENING_DOTWEEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2C8BC0)
+#define DG_TWEENING_DOTWEEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CD350)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTween_TypeDefinitionIndex = 24830;
+	inline static constexpr unsigned int DOTween_TypeDefinitionIndex = 25344;
 
 	class DOTween : public ::System::Object
 	{
 	public:
+		static ::DG::Tweening::Core::DOTweenComponent** StaticGet_instance()
+		{
+			return (::DG::Tweening::Core::DOTweenComponent**)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x1EE60);
+		}
 		static ::System::Collections::Generic::List_1<::DG::Tweening::TweenCallback*>** StaticGet_GizmosDelegates()
 		{
-			return (::System::Collections::Generic::List_1<::DG::Tweening::TweenCallback*>**)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x1E330);
+			return (::System::Collections::Generic::List_1<::DG::Tweening::TweenCallback*>**)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x1EE68);
 		}
 		static ::System::String** StaticGet_Version()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x1E338);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x1EE70);
 		}
-		static ::DG::Tweening::Core::DOTweenComponent** StaticGet_instance()
+		static ::DG::Tweening::UpdateType* StaticGet_defaultUpdateType()
 		{
-			return (::DG::Tweening::Core::DOTweenComponent**)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x1E340);
-		}
-		static ::System::Boolean* StaticGet_defaultRecyclable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47E0);
-		}
-		static ::System::Boolean* StaticGet_isDebugBuild()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47E1);
-		}
-		static ::System::Boolean* StaticGet_defaultTimeScaleIndependent()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47E2);
-		}
-		static ::DG::Tweening::AutoPlay* StaticGet_defaultAutoPlay()
-		{
-			return (::DG::Tweening::AutoPlay*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47E4);
-		}
-		static ::System::Boolean* StaticGet_useSmoothDeltaTime()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47E8);
-		}
-		static ::System::Boolean* StaticGet_drawGizmos()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47E9);
-		}
-		static ::System::Boolean* StaticGet_showUnityEditorReport()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47EA);
-		}
-		static ::System::Boolean* StaticGet_defaultAutoKill()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47EB);
-		}
-		static ::System::Single* StaticGet_timeScale()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47EC);
-		}
-		static ::System::Boolean* StaticGet_initialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F0);
-		}
-		static ::System::Boolean* StaticGet_isQuitting()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F1);
-		}
-		static ::System::Boolean* StaticGet_useSafeMode()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F2);
-		}
-		static ::System::Boolean* StaticGet_isUnityEditor()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F3);
-		}
-		static ::System::Single* StaticGet_defaultEasePeriod()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F4);
-		}
-		static ::System::Int32* StaticGet_maxActiveSequencesReached()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F8);
-		}
-		static ::DG::Tweening::LogBehaviour* StaticGet__logBehaviour()
-		{
-			return (::DG::Tweening::LogBehaviour*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47FC);
-		}
-		static ::System::Single* StaticGet_defaultEaseOvershootOrAmplitude()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4800);
+			return (::DG::Tweening::UpdateType*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F0);
 		}
 		static ::DG::Tweening::LoopType* StaticGet_defaultLoopType()
 		{
-			return (::DG::Tweening::LoopType*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4804);
+			return (::DG::Tweening::LoopType*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F4);
+		}
+		static ::System::Boolean* StaticGet_isUnityEditor()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F8);
+		}
+		static ::System::Boolean* StaticGet_useSafeMode()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47F9);
+		}
+		static ::System::Boolean* StaticGet_isQuitting()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47FA);
+		}
+		static ::System::Boolean* StaticGet_isDebugBuild()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47FB);
+		}
+		static ::DG::Tweening::Ease* StaticGet_defaultEaseType()
+		{
+			return (::DG::Tweening::Ease*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x47FC);
+		}
+		static ::System::Single* StaticGet_timeScale()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4800);
+		}
+		static ::DG::Tweening::LogBehaviour* StaticGet__logBehaviour()
+		{
+			return (::DG::Tweening::LogBehaviour*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4804);
 		}
 		static ::System::Int32* StaticGet_maxActiveTweenersReached()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4808);
 		}
-		static ::DG::Tweening::Ease* StaticGet_defaultEaseType()
+		static ::System::Boolean* StaticGet_initialized()
 		{
-			return (::DG::Tweening::Ease*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x480C);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x480C);
 		}
-		static ::DG::Tweening::UpdateType* StaticGet_defaultUpdateType()
+		static ::System::Boolean* StaticGet_defaultTimeScaleIndependent()
 		{
-			return (::DG::Tweening::UpdateType*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4810);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x480D);
+		}
+		static ::System::Boolean* StaticGet_defaultRecyclable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x480E);
+		}
+		static ::System::Boolean* StaticGet_drawGizmos()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x480F);
+		}
+		static ::System::Boolean* StaticGet_showUnityEditorReport()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4810);
+		}
+		static ::System::Boolean* StaticGet_useSmoothDeltaTime()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4811);
+		}
+		static ::System::Boolean* StaticGet_defaultAutoKill()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4812);
+		}
+		static ::System::Int32* StaticGet_maxActiveSequencesReached()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4814);
+		}
+		static ::System::Single* StaticGet_defaultEaseOvershootOrAmplitude()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4818);
+		}
+		static ::DG::Tweening::AutoPlay* StaticGet_defaultAutoPlay()
+		{
+			return (::DG::Tweening::AutoPlay*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x481C);
+		}
+		static ::System::Single* StaticGet_defaultEasePeriod()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DOTween_TypeDefinitionIndex)->GetStaticField(0x4820);
 		}
 
 		static ::System::Void _cctor()

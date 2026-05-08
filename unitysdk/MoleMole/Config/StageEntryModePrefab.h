@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_STAGEENTRYMODEPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x9D17230)
+#define MOLEMOLE_CONFIG_STAGEENTRYMODEPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1231B610)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int StageEntryModePrefab_TypeDefinitionIndex = 74705;
+	inline static constexpr unsigned int StageEntryModePrefab_TypeDefinitionIndex = 57499;
 
 	class StageEntryModePrefab : public ::MoleMole::Config::StageEntryMode
 	{

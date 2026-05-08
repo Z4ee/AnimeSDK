@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int AssetPathInSRP_TypeDefinitionIndex = 29242;
+	inline static constexpr unsigned int AssetPathInSRP_TypeDefinitionIndex = 29761;
 
 	struct alignas(8) AssetPathInSRP
 	{

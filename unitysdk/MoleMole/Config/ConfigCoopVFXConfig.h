@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB914380)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x139A0BE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCoopVFXConfig_TypeDefinitionIndex = 79234;
+	inline static constexpr unsigned int ConfigCoopVFXConfig_TypeDefinitionIndex = 42078;
 
 	class ConfigCoopVFXConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

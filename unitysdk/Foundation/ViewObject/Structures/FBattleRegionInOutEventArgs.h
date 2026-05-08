@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FBattleRegionInOutEventArgs_TypeDefinitionIndex = 62457;
+	inline static constexpr unsigned int FBattleRegionInOutEventArgs_TypeDefinitionIndex = 46833;
 
 	struct alignas(8) FBattleRegionInOutEventArgs
 	{

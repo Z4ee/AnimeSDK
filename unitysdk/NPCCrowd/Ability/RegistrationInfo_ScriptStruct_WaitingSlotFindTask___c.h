@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x639A4F0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x639A530)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x639A540)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB537CA0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB537CE0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xB537CF0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c_TypeDefinitionIndex = 62403;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c_TypeDefinitionIndex = 39883;
 
 	class RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c_TypeDefinitionIndex)->GetStaticField(0x39C50);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotFindTask___c_TypeDefinitionIndex)->GetStaticField(0x3AF70);
 		}
 
 		static ::System::Void _cctor()

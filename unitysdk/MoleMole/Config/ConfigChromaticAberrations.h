@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigChromaticAberration; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHROMATICABERRATIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xB0951F0)
+#define MOLEMOLE_CONFIG_CONFIGCHROMATICABERRATIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x11026910)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChromaticAberrations_TypeDefinitionIndex = 73770;
+	inline static constexpr unsigned int ConfigChromaticAberrations_TypeDefinitionIndex = 53852;
 
 	class ConfigChromaticAberrations : public ::Foundation::MihoyoSerializedScriptableObject
 	{

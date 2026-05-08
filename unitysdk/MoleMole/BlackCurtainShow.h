@@ -5,19 +5,19 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_BLACKCURTAINSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x9168940)
-#define MOLEMOLE_BLACKCURTAINSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x91689E0)
-#define MOLEMOLE_BLACKCURTAINSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x9168950)
+#define MOLEMOLE_BLACKCURTAINSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11C86390)
+#define MOLEMOLE_BLACKCURTAINSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11C86430)
+#define MOLEMOLE_BLACKCURTAINSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11C863A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BlackCurtainShow_TypeDefinitionIndex = 50286;
+	inline static constexpr unsigned int BlackCurtainShow_TypeDefinitionIndex = 56090;
 
 	class BlackCurtainShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::String* _curtainName; // 0x28
-		::System::Action* _finishCallback; // 0x30
+		::System::Action* _finishCallback; // 0x28
+		::System::String* _curtainName; // 0x30
 		::System::Single _duration; // 0x38
 
 		::System::Void _ctor(::System::Single duration, ::System::String* curtainName, ::System::Action* callback)

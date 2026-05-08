@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIROLETRUSTTASKROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD29A6B0)
+#define MOLEMOLE_UIROLETRUSTTASKROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x161398A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleTrustTaskRowWidgetController_Data_TypeDefinitionIndex = 57110;
+	inline static constexpr unsigned int UIRoleTrustTaskRowWidgetController_Data_TypeDefinitionIndex = 59390;
 
 	class UIRoleTrustTaskRowWidgetController_Data : public ::System::Object
 	{
 	public:
 		::System::String* textmapKey; // 0x10
-		::System::Boolean complete; // 0x18
-		::System::Boolean unlock; // 0x19
+		::System::Boolean unlock; // 0x18
+		::System::Boolean complete; // 0x19
 
 		::System::Void _ctor(::System::String* textmapKey, ::System::Boolean complete)
 		{

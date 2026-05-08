@@ -5,12 +5,12 @@
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_UIINLEVELPAUSEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99F6770)
-#define MOLEMOLE_UIINLEVELPAUSEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__ONCLICKQUITBATTLEBTN_B__0_OFFSET UNITYSDK_OFFSET(0x99F6780)
+#define MOLEMOLE_UIINLEVELPAUSEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150DCFF0)
+#define MOLEMOLE_UIINLEVELPAUSEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__ONCLICKQUITBATTLEBTN_B__0_OFFSET UNITYSDK_OFFSET(0x150DD000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseDialogPopWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 47002;
+	inline static constexpr unsigned int UIInLevelPauseDialogPopWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 64457;
 
 	class UIInLevelPauseDialogPopWindowController___c__DisplayClass65_0 : public ::System::Object
 	{

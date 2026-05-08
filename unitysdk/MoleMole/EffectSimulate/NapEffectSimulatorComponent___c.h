@@ -6,24 +6,24 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_EFFECTSIMULATE_NAPEFFECTSIMULATORCOMPONENT___C_METHOD_1_BBE4869A3F4F1502_OFFSET UNITYSDK_OFFSET(0x821D8D0)
-#define MOLEMOLE_EFFECTSIMULATE_NAPEFFECTSIMULATORCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x821D880)
-#define MOLEMOLE_EFFECTSIMULATE_NAPEFFECTSIMULATORCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x821D8C0)
+#define MOLEMOLE_EFFECTSIMULATE_NAPEFFECTSIMULATORCOMPONENT___C_METHOD_1_BBE4869A3F4F1502_OFFSET UNITYSDK_OFFSET(0x177F6300)
+#define MOLEMOLE_EFFECTSIMULATE_NAPEFFECTSIMULATORCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x177F62B0)
+#define MOLEMOLE_EFFECTSIMULATE_NAPEFFECTSIMULATORCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x177F62F0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int NapEffectSimulatorComponent___c_TypeDefinitionIndex = 78358;
+	inline static constexpr unsigned int NapEffectSimulatorComponent___c_TypeDefinitionIndex = 54973;
 
 	class NapEffectSimulatorComponent___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::Type*, ::Sirenix::OdinInspector::ValueDropdownItem>** StaticGet___9__123_1()
+		{
+			return (::System::Func_2<::System::Type*, ::Sirenix::OdinInspector::ValueDropdownItem>**)Il2CppClass::FromTypeDefinitionIndex(NapEffectSimulatorComponent___c_TypeDefinitionIndex)->GetStaticField(0x44700);
+		}
 		static ::MoleMole::EffectSimulate::NapEffectSimulatorComponent___c** StaticGet___9()
 		{
-			return (::MoleMole::EffectSimulate::NapEffectSimulatorComponent___c**)Il2CppClass::FromTypeDefinitionIndex(NapEffectSimulatorComponent___c_TypeDefinitionIndex)->GetStaticField(0x45050);
-		}
-		static ::System::Func_2<::System::Type*, ::Sirenix::OdinInspector::ValueDropdownItem>** StaticGet___9__122_1()
-		{
-			return (::System::Func_2<::System::Type*, ::Sirenix::OdinInspector::ValueDropdownItem>**)Il2CppClass::FromTypeDefinitionIndex(NapEffectSimulatorComponent___c_TypeDefinitionIndex)->GetStaticField(0x45058);
+			return (::MoleMole::EffectSimulate::NapEffectSimulatorComponent___c**)Il2CppClass::FromTypeDefinitionIndex(NapEffectSimulatorComponent___c_TypeDefinitionIndex)->GetStaticField(0x44708);
 		}
 
 		static ::System::Void _cctor()

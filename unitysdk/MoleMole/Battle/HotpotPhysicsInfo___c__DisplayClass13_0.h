@@ -6,18 +6,18 @@
 namespace MoleMole::Battle { class HotpotPhysicsInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_BATTLE_HOTPOTPHYSICSINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB074CC0)
-#define MOLEMOLE_BATTLE_HOTPOTPHYSICSINFO___C__DISPLAYCLASS13_0__GENERATEPOINTSINRING_B__0_OFFSET UNITYSDK_OFFSET(0xB074CD0)
+#define MOLEMOLE_BATTLE_HOTPOTPHYSICSINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11005EA0)
+#define MOLEMOLE_BATTLE_HOTPOTPHYSICSINFO___C__DISPLAYCLASS13_0__GENERATEPOINTSINRING_B__0_OFFSET UNITYSDK_OFFSET(0x11005EB0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int HotpotPhysicsInfo___c__DisplayClass13_0_TypeDefinitionIndex = 72813;
+	inline static constexpr unsigned int HotpotPhysicsInfo___c__DisplayClass13_0_TypeDefinitionIndex = 61104;
 
 	class HotpotPhysicsInfo___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::UnityEngine::Vector2, ::System::Boolean>* posValidFunc; // 0x10
-		::MoleMole::Battle::HotpotPhysicsInfo* __4__this; // 0x18
+		::MoleMole::Battle::HotpotPhysicsInfo* __4__this; // 0x10
+		::System::Func_2<::UnityEngine::Vector2, ::System::Boolean>* posValidFunc; // 0x18
 
 		::System::Void _ctor()
 		{

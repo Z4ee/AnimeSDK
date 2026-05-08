@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_63CBB842CA136655_TypeDefinitionIndex = 57913;
+inline static constexpr unsigned int Enum_3_63CBB842CA136655_TypeDefinitionIndex = 67980;
 
 enum class Enum_3_63CBB842CA136655 : ::System::Byte
 {
-	LayerDelay = 0x3,
-	Empty = 0x0,
-	CameraShake = 0x12,
-	LayerSettlement = 0x2,
-	Initialize = 0x6,
-	CameraOffsetLook = 0x15,
-	CameraPitch = 0x14,
-	Cinemachine = 0xB,
-	CutSceneShot = 0x8,
 	DefaultRotate = 0xC,
+	Cinemachine = 0xB,
 	LayerCalculate = 0x1,
-	Collider = 0x18,
-	CameraStretch = 0x13,
+	RefAnchorRotate = 0xE,
 	LockingBoss = 0x10,
+	CutSceneShot = 0x8,
+	FollowRotate = 0xA,
+	LayerDelay = 0x3,
+	Collider = 0x18,
+	Initialize = 0x6,
+	Delay = 0x7,
 	StoryRotate = 0x11,
 	LayerSmoothMove = 0x5,
-	ControlledRotate = 0xD,
-	CameraScreenOffset = 0x16,
-	StaticState = 0x9,
-	FollowRotate = 0xA,
-	Zoom = 0x17,
-	RefAnchorRotate = 0xE,
-	Delay = 0x7,
+	Empty = 0x0,
 	LockingTarget = 0xF,
+	CameraOffsetLook = 0x15,
+	CameraStretch = 0x13,
+	CameraScreenOffset = 0x16,
+	Zoom = 0x17,
 	LayerPostprocess = 0x4,
+	LayerSettlement = 0x2,
+	CameraShake = 0x12,
+	ControlledRotate = 0xD,
+	StaticState = 0x9,
+	CameraPitch = 0x14,
 };

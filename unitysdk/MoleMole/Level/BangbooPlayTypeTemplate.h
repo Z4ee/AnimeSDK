@@ -3,7 +3,7 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooPlayTypeTemplate_TypeDefinitionIndex = 79298;
+	inline static constexpr unsigned int BangbooPlayTypeTemplate_TypeDefinitionIndex = 46409;
 
 	enum class BangbooPlayTypeTemplate : ::System::Int32
 	{

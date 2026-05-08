@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET2_OFFSET UNITYSDK_OFFSET(0xA51F870)
-#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xA51F7A0)
-#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0xA51F8D0)
+#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET2_OFFSET UNITYSDK_OFFSET(0x10E2D440)
+#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x10E2D2D0)
+#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2D480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginClipPlane_TypeDefinitionIndex = 67914;
+	inline static constexpr unsigned int MonoEffectPluginClipPlane_TypeDefinitionIndex = 51706;
 
 	class MonoEffectPluginClipPlane : public ::UnityEngine::MonoBehaviour
 	{

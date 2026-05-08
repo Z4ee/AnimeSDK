@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CAMERACONFIG_APPLYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x91A2830)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x91A29A0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CAMERACONFIG_APPLYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x11CC15B0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC16F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICoopTeam3D_CameraConfig_TypeDefinitionIndex = 42131;
+	inline static constexpr unsigned int ConfigUICoopTeam3D_CameraConfig_TypeDefinitionIndex = 74764;
 
 	class ConfigUICoopTeam3D_CameraConfig : public ::System::Object
 	{
 	public:
-		::System::Single FOV; // 0x10
-		::System::Single xRotation; // 0x14
+		::System::Single xRotation; // 0x10
+		::System::Single FOV; // 0x14
 
 		::System::Void _ctor()
 		{

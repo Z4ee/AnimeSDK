@@ -3,7 +3,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IKeyIndexedItem_1_TypeDefinitionIndex = 35174;
+	inline static constexpr unsigned int IKeyIndexedItem_1_TypeDefinitionIndex = 35712;
 
 	template <typename K>
 	class IKeyIndexedItem_1

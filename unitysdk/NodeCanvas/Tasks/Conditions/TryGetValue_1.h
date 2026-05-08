@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int TryGetValue_1_TypeDefinitionIndex = 27061;
+	inline static constexpr unsigned int TryGetValue_1_TypeDefinitionIndex = 28200;
 
 	template <typename T>
 	class TryGetValue_1 : public ::NodeCanvas::Framework::ConditionTask

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_STEAMPURCHASEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18474480)
+#define MIHOYO_SDK_PC_OS_STEAMPURCHASEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19457150)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int SteamPurchaseExtension_TypeDefinitionIndex = 19044;
+	inline static constexpr unsigned int SteamPurchaseExtension_TypeDefinitionIndex = 19395;
 
 	class SteamPurchaseExtension : public ::System::Object
 	{

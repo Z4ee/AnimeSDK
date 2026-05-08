@@ -6,11 +6,11 @@ namespace MoleMole { class UIControllerContextBase; }
 namespace MoleMole { class UIWindowController; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_STREAMINGPAGEPAUSEGAMELOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x91A2820)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_STREAMINGPAGEPAUSEGAMELOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC15A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_UIPage_StreamingPagePauseGameLogic_TypeDefinitionIndex = 38933;
+	inline static constexpr unsigned int ConfigUICommon_UIPage_StreamingPagePauseGameLogic_TypeDefinitionIndex = 52155;
 
 	class ConfigUICommon_UIPage_StreamingPagePauseGameLogic : public ::System::Object
 	{

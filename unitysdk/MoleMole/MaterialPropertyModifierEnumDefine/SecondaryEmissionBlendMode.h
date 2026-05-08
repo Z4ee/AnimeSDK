@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int SecondaryEmissionBlendMode_TypeDefinitionIndex = 40733;
+	inline static constexpr unsigned int SecondaryEmissionBlendMode_TypeDefinitionIndex = 65697;
 
 	enum class SecondaryEmissionBlendMode : ::System::Byte
 	{

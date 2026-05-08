@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_COMPONENTPOOL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A800780)
-#define FLUFFYUNDERWARE_DEVTOOLS_COMPONENTPOOL___C__DISPLAYCLASS12_0__ONAFTERDESERIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1A800DB0)
+#define FLUFFYUNDERWARE_DEVTOOLS_COMPONENTPOOL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C87C0)
+#define FLUFFYUNDERWARE_DEVTOOLS_COMPONENTPOOL___C__DISPLAYCLASS12_0__ONAFTERDESERIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1B2C8DF0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int ComponentPool___c__DisplayClass12_0_TypeDefinitionIndex = 25377;
+	inline static constexpr unsigned int ComponentPool___c__DisplayClass12_0_TypeDefinitionIndex = 25891;
 
 	class ComponentPool___c__DisplayClass12_0 : public ::System::Object
 	{

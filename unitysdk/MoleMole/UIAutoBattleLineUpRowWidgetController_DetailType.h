@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleLineUpRowWidgetController_DetailType_TypeDefinitionIndex = 66002;
+	inline static constexpr unsigned int UIAutoBattleLineUpRowWidgetController_DetailType_TypeDefinitionIndex = 79592;
 
 	enum class UIAutoBattleLineUpRowWidgetController_DetailType : ::System::Int32
 	{
-		Camp = 0,
 		Item = 1,
 		Bangboo = 2,
+		Camp = 0,
 	};
 }

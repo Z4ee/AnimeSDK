@@ -7,12 +7,12 @@ namespace MoleMole::FlowCanvas::Nodes { class LDSwitchSpecialEnvironment___c__Di
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A5240)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT___C__DISPLAYCLASS0_1__INVOKE_B__0_OFFSET UNITYSDK_OFFSET(0xB8A5250)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16E501F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT___C__DISPLAYCLASS0_1__INVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x16E50200)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchSpecialEnvironment___c__DisplayClass0_1_TypeDefinitionIndex = 79145;
+	inline static constexpr unsigned int LDSwitchSpecialEnvironment___c__DisplayClass0_1_TypeDefinitionIndex = 74794;
 
 	class LDSwitchSpecialEnvironment___c__DisplayClass0_1 : public ::System::Object
 	{

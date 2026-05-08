@@ -3,11 +3,11 @@
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int EnsureSizePolicy_TypeDefinitionIndex = 70859;
+	inline static constexpr unsigned int EnsureSizePolicy_TypeDefinitionIndex = 75627;
 
 	enum class EnsureSizePolicy : ::System::Int32
 	{
-		AutoExtend = 1,
 		ExceedRange = 0,
+		AutoExtend = 1,
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_IDREFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A032AC0)
+#define SYSTEM_XML_SCHEMA_IDREFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5FC10)
 
 namespace System::Xml::Schema
 {
@@ -13,10 +13,10 @@ namespace System::Xml::Schema
 	class IdRefNode : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::IdRefNode* Next; // 0x10
-		::System::String* Id; // 0x18
-		::System::Int32 LineNo; // 0x20
-		::System::Int32 LinePos; // 0x24
+		::System::String* Id; // 0x10
+		::System::Xml::Schema::IdRefNode* Next; // 0x18
+		::System::Int32 LinePos; // 0x20
+		::System::Int32 LineNo; // 0x24
 
 		::System::Void _ctor(::System::Xml::Schema::IdRefNode* next, ::System::String* id, ::System::Int32 lineNo, ::System::Int32 linePos)
 		{

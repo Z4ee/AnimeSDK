@@ -7,7 +7,7 @@
 
 namespace System::Security::Principal { class IdentityReference; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_ACCESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EDB980)
+#define SYSTEM_SECURITY_ACCESSCONTROL_ACCESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x19553570)
 
 namespace System::Security::AccessControl
 {

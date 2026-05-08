@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x7FB6420)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS20_1__ONUIOPEN_B__3_OFFSET UNITYSDK_OFFSET(0x7FB6430)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3C090)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__DISPLAYCLASS20_1__ONUIOPEN_B__3_OFFSET UNITYSDK_OFFSET(0x14D3C0A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationPageController___c__DisplayClass20_1_TypeDefinitionIndex = 64295;
+	inline static constexpr unsigned int UIMainCityNavigationPageController___c__DisplayClass20_1_TypeDefinitionIndex = 72489;
 
 	class UIMainCityNavigationPageController___c__DisplayClass20_1 : public ::System::Object
 	{

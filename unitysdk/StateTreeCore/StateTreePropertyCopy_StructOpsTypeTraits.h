@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREECORE_STATETREEPROPERTYCOPY_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1B5D1470)
-#define STATETREECORE_STATETREEPROPERTYCOPY_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D1480)
+#define STATETREECORE_STATETREEPROPERTYCOPY_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1C413730)
+#define STATETREECORE_STATETREEPROPERTYCOPY_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C413740)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyCopy_StructOpsTypeTraits_TypeDefinitionIndex = 27841;
+	inline static constexpr unsigned int StateTreePropertyCopy_StructOpsTypeTraits_TypeDefinitionIndex = 28359;
 
 	class StateTreePropertyCopy_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

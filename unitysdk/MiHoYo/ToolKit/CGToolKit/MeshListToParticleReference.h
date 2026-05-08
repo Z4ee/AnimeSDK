@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_MESHLISTTOPARTICLEREFERENCE_RECOVERREFERENCE_OFFSET UNITYSDK_OFFSET(0xBAD34F0)
-#define MIHOYO_TOOLKIT_CGTOOLKIT_MESHLISTTOPARTICLEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD3450)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_MESHLISTTOPARTICLEREFERENCE_RECOVERREFERENCE_OFFSET UNITYSDK_OFFSET(0xDB84000)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_MESHLISTTOPARTICLEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xDB83F50)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int MeshListToParticleReference_TypeDefinitionIndex = 71276;
+	inline static constexpr unsigned int MeshListToParticleReference_TypeDefinitionIndex = 38838;
 
 	class MeshListToParticleReference : public ::System::Object
 	{

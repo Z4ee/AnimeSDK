@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_CONTAINER_CELLLOCATION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B0DDE80)
-#define FOUNDATION_CONTAINER_CELLLOCATION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B0DDEA0)
-#define FOUNDATION_CONTAINER_CELLLOCATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0DDF20)
+#define FOUNDATION_CONTAINER_CELLLOCATION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BE2BA70)
+#define FOUNDATION_CONTAINER_CELLLOCATION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BE2BA90)
+#define FOUNDATION_CONTAINER_CELLLOCATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE2BB10)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int CellLocation_TypeDefinitionIndex = 8920;
+	inline static constexpr unsigned int CellLocation_TypeDefinitionIndex = 8787;
 
 	struct alignas(4) CellLocation
 	{
 		static ::Foundation::Container::CellLocation* StaticGet_Null()
 		{
-			return (::Foundation::Container::CellLocation*)Il2CppClass::FromTypeDefinitionIndex(CellLocation_TypeDefinitionIndex)->GetStaticField(0x3D50);
+			return (::Foundation::Container::CellLocation*)Il2CppClass::FromTypeDefinitionIndex(CellLocation_TypeDefinitionIndex)->GetStaticField(0x3D60);
 		}
 		::System::Int32 X; // 0x10
 		::System::Int32 Z; // 0x14

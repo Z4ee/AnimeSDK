@@ -6,11 +6,11 @@ namespace MoleMole { class ConfigComicShakeData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGCOMICSHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5978B0)
+#define MOLEMOLE_CONFIGCOMICSHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x153D5300)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigComicShake_TypeDefinitionIndex = 60240;
+	inline static constexpr unsigned int ConfigComicShake_TypeDefinitionIndex = 75852;
 
 	class ConfigComicShake : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_431;
+class Class_2_208CC9941471731A_114;
 
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C062C0)
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__GETCARDWIDGETCONTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x9C062D0)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162E4460)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__GETCARDWIDGETCONTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x162E4470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass24_0_TypeDefinitionIndex = 78878;
+	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass24_0_TypeDefinitionIndex = 62942;
 
 	class UIHollowCardItemCollectPageController___c__DisplayClass24_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCardWidgetContext_b__0(::Class_2_208CC9941471731A_431* x)
+		::System::Boolean _GetCardWidgetContext_b__0(::Class_2_208CC9941471731A_114* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_431*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__GETCARDWIDGETCONTEXT_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_114*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS24_0__GETCARDWIDGETCONTEXT_B__0_OFFSET))(this, x);
 		}
 	};
 }

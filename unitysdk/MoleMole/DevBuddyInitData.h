@@ -4,19 +4,19 @@
 
 class Class_1_4B8C8F1EAD31AFFF;
 
-#define MOLEMOLE_DEVBUDDYINITDATA_CREATEBUDDYINITDATA_OFFSET UNITYSDK_OFFSET(0xB5A4620)
-#define MOLEMOLE_DEVBUDDYINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A46F0)
+#define MOLEMOLE_DEVBUDDYINITDATA_CREATEBUDDYINITDATA_OFFSET UNITYSDK_OFFSET(0x153E18B0)
+#define MOLEMOLE_DEVBUDDYINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x153E1960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DevBuddyInitData_TypeDefinitionIndex = 56660;
+	inline static constexpr unsigned int DevBuddyInitData_TypeDefinitionIndex = 61936;
 
 	class DevBuddyInitData : public ::System::Object
 	{
 	public:
-		::System::Int32 Rank; // 0x10
-		::System::Int32 Level; // 0x14
-		::System::Int32 Star; // 0x18
+		::System::Int32 Star; // 0x10
+		::System::Int32 Rank; // 0x14
+		::System::Int32 Level; // 0x18
 
 		::System::Void _ctor()
 		{

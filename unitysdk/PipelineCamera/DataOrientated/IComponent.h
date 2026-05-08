@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int IComponent_TypeDefinitionIndex = 35569;
+	inline static constexpr unsigned int IComponent_TypeDefinitionIndex = 36113;
 
 	class IComponent
 	{

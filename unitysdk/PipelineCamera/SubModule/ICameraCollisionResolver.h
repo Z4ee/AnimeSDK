@@ -10,7 +10,7 @@ namespace PipelineCamera { class ICameraTouchContext; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int ICameraCollisionResolver_TypeDefinitionIndex = 35867;
+	inline static constexpr unsigned int ICameraCollisionResolver_TypeDefinitionIndex = 36411;
 
 	class ICameraCollisionResolver
 	{

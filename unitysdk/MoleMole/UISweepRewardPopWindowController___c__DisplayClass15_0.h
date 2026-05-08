@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UISweepRewardPopWindowController; }
 
-#define MOLEMOLE_UISWEEPREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE3030)
-#define MOLEMOLE_UISWEEPREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__GOTODETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x9EE3040)
+#define MOLEMOLE_UISWEEPREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x126A1AF0)
+#define MOLEMOLE_UISWEEPREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__GOTODETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x126A1B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISweepRewardPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 41513;
+	inline static constexpr unsigned int UISweepRewardPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 64629;
 
 	class UISweepRewardPopWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

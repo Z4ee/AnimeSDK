@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/AccessControl/ControlFlags.h"
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD5C30)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A984C50)
 
 namespace System::Security::AccessControl
 {

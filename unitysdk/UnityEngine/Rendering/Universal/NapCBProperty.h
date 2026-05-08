@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCBProperty_TypeDefinitionIndex = 29546;
+	inline static constexpr unsigned int NapCBProperty_TypeDefinitionIndex = 30074;
 
 	enum class NapCBProperty : ::System::Int32
 	{

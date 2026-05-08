@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HotPotFoodColliderType_TypeDefinitionIndex = 40122;
+	inline static constexpr unsigned int HotPotFoodColliderType_TypeDefinitionIndex = 79614;
 
 	enum class HotPotFoodColliderType : ::System::Int32
 	{

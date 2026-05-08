@@ -6,18 +6,18 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class PureReflectedFieldNode; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196D4FD0)
-#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x196D4FE0)
+#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F3F90)
+#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A1F3FA0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass7_0_TypeDefinitionIndex = 26415;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass7_0_TypeDefinitionIndex = 26564;
 
 	class PureReflectedFieldNode___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::PureReflectedFieldNode* __4__this; // 0x10
-		::FlowCanvas::FlowOutput* output; // 0x18
+		::FlowCanvas::FlowOutput* output; // 0x10
+		::FlowCanvas::Nodes::PureReflectedFieldNode* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

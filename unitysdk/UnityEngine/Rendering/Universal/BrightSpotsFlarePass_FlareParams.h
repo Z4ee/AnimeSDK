@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BrightSpotsFlarePass_FlareParams_TypeDefinitionIndex = 29653;
+	inline static constexpr unsigned int BrightSpotsFlarePass_FlareParams_TypeDefinitionIndex = 30181;
 
 	struct alignas(4) BrightSpotsFlarePass_FlareParams
 	{

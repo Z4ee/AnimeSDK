@@ -8,20 +8,20 @@ namespace UnityEngine { class Cubemap; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18932940)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x18932F40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18932E60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1A711400)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A711A00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A711920)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WaterConfig_TypeDefinitionIndex = 29784;
+	inline static constexpr unsigned int WaterConfig_TypeDefinitionIndex = 30313;
 
 	class WaterConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig*>
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig** StaticGet_s_CachedConfig()
 		{
-			return (::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig**)Il2CppClass::FromTypeDefinitionIndex(WaterConfig_TypeDefinitionIndex)->GetStaticField(0x23470);
+			return (::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig**)Il2CppClass::FromTypeDefinitionIndex(WaterConfig_TypeDefinitionIndex)->GetStaticField(0x23FF0);
 		}
 		::UnityEngine::GameObject* OceanFFTBakeData; // 0x18
 		::UnityEngine::Vector2 WaveScale; // 0x20

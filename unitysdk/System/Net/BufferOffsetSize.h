@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19B242A0)
-#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B24240)
+#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A7E3900)
+#define SYSTEM_NET_BUFFEROFFSETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E3870)
 
 namespace System::Net
 {
@@ -13,8 +13,8 @@ namespace System::Net
 	{
 	public:
 		::Il2CppArray<::System::Byte>* Buffer; // 0x10
-		::System::Int32 Offset; // 0x18
-		::System::Int32 Size; // 0x1C
+		::System::Int32 Size; // 0x18
+		::System::Int32 Offset; // 0x1C
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 size, ::System::Boolean copyBuffer)
 		{

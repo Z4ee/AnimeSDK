@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_LIGHTPROBEPROXYVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2FD100)
+#define UNITYENGINE_LIGHTPROBEPROXYVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39B950)
 
 namespace UnityEngine
 {

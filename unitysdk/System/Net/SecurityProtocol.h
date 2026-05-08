@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
 
-#define SYSTEM_NET_SECURITYPROTOCOL_THROWONNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x195DAC50)
+#define SYSTEM_NET_SECURITYPROTOCOL_THROWONNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x1A585C00)
 
 namespace System::Net
 {

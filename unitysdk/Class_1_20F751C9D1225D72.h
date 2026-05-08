@@ -5,15 +5,15 @@
 namespace System { class String; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define CLASS_1_20F751C9D1225D72__CTOR_OFFSET UNITYSDK_OFFSET(0x8272AA0)
+#define CLASS_1_20F751C9D1225D72__CTOR_OFFSET UNITYSDK_OFFSET(0x11E9C5A0)
 
-inline static constexpr unsigned int Class_1_20F751C9D1225D72_TypeDefinitionIndex = 69985;
+inline static constexpr unsigned int Class_1_20F751C9D1225D72_TypeDefinitionIndex = 58331;
 
 class Class_1_20F751C9D1225D72 : public ::System::Object
 {
 public:
-	::UnityEngine::Events::UnityAction* Field_1_3; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::UnityEngine::Events::UnityAction* Field_1_3; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 	::System::Int32 Field_1_0; // 0x24
 

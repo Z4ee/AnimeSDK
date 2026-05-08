@@ -5,9 +5,9 @@
 class LightmapInfo;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x182CD1B0)
+#define LAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1967CB30)
 
-inline static constexpr unsigned int Layer_TypeDefinitionIndex = 29030;
+inline static constexpr unsigned int Layer_TypeDefinitionIndex = 29549;
 
 class Layer : public ::UnityEngine::MonoBehaviour
 {

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER_METHOD_2_70B0452E19C5F215_OFFSET UNITYSDK_OFFSET(0x8B72E10)
-#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x8B72D70)
+#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER_METHOD_2_C17BCF092B758D23_OFFSET UNITYSDK_OFFSET(0x125ED320)
+#define MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x125ED250)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int BaseSceneDynamicObjectLayer_TypeDefinitionIndex = 40553;
+	inline static constexpr unsigned int BaseSceneDynamicObjectLayer_TypeDefinitionIndex = 41149;
 
 	class BaseSceneDynamicObjectLayer : public ::MoleMole::SceneMark::DefaultDynamicObjectLayer
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::SceneMark
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_70B0452E19C5F215(::UnityEngine::GameObject* a1)
+		::System::Void Method_2_C17BCF092B758D23(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER_METHOD_2_70B0452E19C5F215_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_BASESCENEDYNAMICOBJECTLAYER_METHOD_2_C17BCF092B758D23_OFFSET))(this, a1);
 		}
 	};
 }

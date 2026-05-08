@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int RenderHints_TypeDefinitionIndex = 24440;
+	inline static constexpr unsigned int RenderHints_TypeDefinitionIndex = 24954;
 
 	enum class RenderHints : ::System::Int32
 	{

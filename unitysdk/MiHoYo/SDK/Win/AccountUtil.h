@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UI { class Image; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTUTIL_UPDATETHIRDPARTYICON_OFFSET UNITYSDK_OFFSET(0x18BE5650)
-#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BE5800)
-#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE57F0)
+#define MIHOYO_SDK_WIN_ACCOUNTUTIL_UPDATETHIRDPARTYICON_OFFSET UNITYSDK_OFFSET(0x1A529610)
+#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5297C0)
+#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5297B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountUtil_TypeDefinitionIndex = 19521;
+	inline static constexpr unsigned int AccountUtil_TypeDefinitionIndex = 19878;
 
 	class AccountUtil : public ::System::Object
 	{

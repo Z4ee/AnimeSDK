@@ -2,15 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace PipelineCamera { class TimeBasedAlphaGenerator; }
-namespace System { template <typename T> class Func_1; }
-template <typename T> class Class_1_9D53A6D74131DECD;
-template <typename T> class Class_3_B60F6C2F126D2E26_8;
-template <typename T> class Class_3_B60F6C2F126D2E26_9;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_311_TypeDefinitionIndex = 73361;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_311_TypeDefinitionIndex = 64908;
 
 class Class_1_534AF681CC2BD5FD_311 : public ::System::Object
 {
 public:
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* Field_1_3; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
+	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_11; // 0x0
+	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_13; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
+	// static const ::System::String* Field_1_15; // 0x0
+	// static const ::System::String* Field_1_16; // 0x0
+	// static const ::System::String* Field_1_17; // 0x0
+	// static const ::System::String* Field_1_18; // 0x0
+	// static const ::System::String* Field_1_19; // 0x0
+	// static const ::System::String* Field_1_20; // 0x0
+	// static const ::System::String* Field_1_21; // 0x0
+	// static const ::System::String* Field_1_22; // 0x0
+	// static const ::System::String* Field_1_23; // 0x0
+	// static const ::System::String* Field_1_24; // 0x0
+	// static const ::System::String* Field_1_25; // 0x0
+	// static const ::System::String* Field_1_26; // 0x0
+	// static const ::System::String* Field_1_27; // 0x0
+	// static const ::System::String* Field_1_28; // 0x0
 };

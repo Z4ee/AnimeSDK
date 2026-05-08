@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigOnGoingTypeDurationData_ConfigOnGoingSingleLanguageData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGONGOINGTYPEDURATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D0E880)
+#define MOLEMOLE_CONFIG_CONFIGONGOINGTYPEDURATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12312FC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigOnGoingTypeDurationData_TypeDefinitionIndex = 61117;
+	inline static constexpr unsigned int ConfigOnGoingTypeDurationData_TypeDefinitionIndex = 43905;
 
 	class ConfigOnGoingTypeDurationData : public ::MoleMole::SerializedScriptableObjectBase
 	{

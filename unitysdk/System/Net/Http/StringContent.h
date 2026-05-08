@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_NET_HTTP_STRINGCONTENT_GETBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1A3E0D70)
-#define SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A3E0A10)
-#define SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E0A00)
+#define SYSTEM_NET_HTTP_STRINGCONTENT_GETBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1B028200)
+#define SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B027E00)
+#define SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B027DF0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int StringContent_TypeDefinitionIndex = 24211;
+	inline static constexpr unsigned int StringContent_TypeDefinitionIndex = 24724;
 
 	class StringContent : public ::System::Net::Http::ByteArrayContent
 	{

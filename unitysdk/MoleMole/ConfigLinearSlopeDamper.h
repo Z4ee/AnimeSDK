@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ConfigSingleAxisDamper.h"
 
-#define MOLEMOLE_CONFIGLINEARSLOPEDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0xB480600)
+#define MOLEMOLE_CONFIGLINEARSLOPEDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D316D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLinearSlopeDamper_TypeDefinitionIndex = 66955;
+	inline static constexpr unsigned int ConfigLinearSlopeDamper_TypeDefinitionIndex = 62202;
 
 	class ConfigLinearSlopeDamper : public ::MoleMole::ConfigSingleAxisDamper
 	{

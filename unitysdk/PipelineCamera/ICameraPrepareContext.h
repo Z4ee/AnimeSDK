@@ -4,7 +4,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraPrepareContext_TypeDefinitionIndex = 35401;
+	inline static constexpr unsigned int ICameraPrepareContext_TypeDefinitionIndex = 35945;
 
 	class ICameraPrepareContext
 	{

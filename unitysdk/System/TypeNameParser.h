@@ -10,8 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class AssemblyName; }
 
-#define SYSTEM_TYPENAMEPARSER_GETTYPE_OFFSET UNITYSDK_OFFSET(0x19869740)
-#define SYSTEM_TYPENAMEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x19869780)
+#define SYSTEM_TYPENAMEPARSER_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1A3BC820)
+#define SYSTEM_TYPENAMEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3BC860)
 
 namespace System
 {

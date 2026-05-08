@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_OLDCRTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD45DF40)
-#define MOLEMOLE_TIMELINE_OLDCRTTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xD45E210)
-#define MOLEMOLE_TIMELINE_OLDCRTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD45E1E0)
+#define MOLEMOLE_TIMELINE_OLDCRTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x170538E0)
+#define MOLEMOLE_TIMELINE_OLDCRTTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x17053B90)
+#define MOLEMOLE_TIMELINE_OLDCRTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17053B30)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int OldCRTTrack_TypeDefinitionIndex = 52580;
+	inline static constexpr unsigned int OldCRTTrack_TypeDefinitionIndex = 59813;
 
 	class OldCRTTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_OLDCRTTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

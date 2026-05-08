@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_77D255857CC40452_1;
+class Class_1_77D255857CC40452;
 class Class_2_3D94007308503477;
 class Class_2_605AD98A72C8A20F;
+class Class_2_6729AC3ED949BE6A;
 class Class_2_A0EF1227A3C680C4;
-class Class_2_A48F3719AA1CF200_10;
-class Class_2_A48F3719AA1CF200_11;
-class Class_2_A48F3719AA1CF200_12;
-class Class_2_A48F3719AA1CF200_8;
-class Class_2_A48F3719AA1CF200_9;
-class Class_2_AAB5566438F6F9C2;
+class Class_2_A48F3719AA1CF200_19;
+class Class_2_A48F3719AA1CF200_25;
+class Class_2_A48F3719AA1CF200_29;
+class Class_2_A48F3719AA1CF200_34;
+class Class_2_A48F3719AA1CF200_35;
 class Class_2_D20AEF51FFA59F87;
 class Class_2_E66E0476299305E7;
 class Class_2_E66E0476299305E7_1;
@@ -37,46 +37,46 @@ namespace UnityEngine::Rendering::Universal { class RadialBlur; }
 namespace UnityEngine::Rendering::Universal { class ScreenEffects; }
 namespace UnityEngine::Rendering::Universal { class Vignette; }
 
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA_CLOSE_OFFSET UNITYSDK_OFFSET(0x9CF59A0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA_COPYVOLUMETOCONFIG_OFFSET UNITYSDK_OFFSET(0x9CF5B20)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA_OPEN_OFFSET UNITYSDK_OFFSET(0x9CF57F0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_AMPLIFYOCCLUSION_3_1_OFFSET UNITYSDK_OFFSET(0x9CF62B0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_CHROMATICABERRATION_3_6_OFFSET UNITYSDK_OFFSET(0x9CF7090)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_COLORADJUSTMENTS_3_11_OFFSET UNITYSDK_OFFSET(0x9CF7DD0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DEPTHOFFIELD_3_7_OFFSET UNITYSDK_OFFSET(0x9CF7120)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DISTORTION_3_2_OFFSET UNITYSDK_OFFSET(0x9CF64B0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_GAUSSIANBLUR_3_12_OFFSET UNITYSDK_OFFSET(0x9CF7F60)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_GLITCH_3_3_OFFSET UNITYSDK_OFFSET(0x9CF65B0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LENSDISTORTION_3_8_OFFSET UNITYSDK_OFFSET(0x9CF7360)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LIGHTING_3_10_OFFSET UNITYSDK_OFFSET(0x9CF7AE0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_NAPBLOOM_3_5_OFFSET UNITYSDK_OFFSET(0x9CF6C20)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_RADIALBLUR_3_4_OFFSET UNITYSDK_OFFSET(0x9CF69D0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_SCREENEFFECTS_3_9_OFFSET UNITYSDK_OFFSET(0x9CF7490)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_VIGNETTE_3_0_OFFSET UNITYSDK_OFFSET(0x9CF61F0)
-#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9CF8020)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA_CLOSE_OFFSET UNITYSDK_OFFSET(0x122FBB30)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA_COPYVOLUMETOCONFIG_OFFSET UNITYSDK_OFFSET(0x122FBC80)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA_OPEN_OFFSET UNITYSDK_OFFSET(0x122FB9B0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_AMPLIFYOCCLUSION_3_1_OFFSET UNITYSDK_OFFSET(0x122FC3F0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_CHROMATICABERRATION_3_6_OFFSET UNITYSDK_OFFSET(0x122FD1F0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_COLORADJUSTMENTS_3_11_OFFSET UNITYSDK_OFFSET(0x122FDF20)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DEPTHOFFIELD_3_7_OFFSET UNITYSDK_OFFSET(0x122FD280)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DISTORTION_3_2_OFFSET UNITYSDK_OFFSET(0x122FC5F0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_GAUSSIANBLUR_3_12_OFFSET UNITYSDK_OFFSET(0x122FE0B0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_GLITCH_3_3_OFFSET UNITYSDK_OFFSET(0x122FC6F0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LENSDISTORTION_3_8_OFFSET UNITYSDK_OFFSET(0x122FD4B0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LIGHTING_3_10_OFFSET UNITYSDK_OFFSET(0x122FDC20)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_NAPBLOOM_3_5_OFFSET UNITYSDK_OFFSET(0x122FCD70)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_RADIALBLUR_3_4_OFFSET UNITYSDK_OFFSET(0x122FCB20)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_SCREENEFFECTS_3_9_OFFSET UNITYSDK_OFFSET(0x122FD5E0)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_VIGNETTE_3_0_OFFSET UNITYSDK_OFFSET(0x122FC330)
+#define MOLEMOLE_CONFIG_ATMOSPHEREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x122FE170)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AtmosphereData_TypeDefinitionIndex = 42150;
+	inline static constexpr unsigned int AtmosphereData_TypeDefinitionIndex = 69697;
 
 	class AtmosphereData : public ::System::Object
 	{
 	public:
-		::UnityEngine::AnimationCurve* FadeOutCurve; // 0x10
-		::UnityEngine::AnimationCurve* FadeInCurve; // 0x18
-		::MoleMole::Config::ConfigHollowChessboardBGVideo* BgVideo; // 0x20
-		::System::String* key; // 0x28
+		::System::String* FadeInVoice; // 0x10
+		::MoleMole::Config::ConfigHollowChessboardBGVideo* BgVideo; // 0x18
+		::UnityEngine::AnimationCurve* FadeOutCurve; // 0x20
+		::System::String* FadeOutVoice; // 0x28
 		::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP* ProfileSrp; // 0x30
-		::System::String* FadeOutVoice; // 0x38
-		::System::String* FadeInVoice; // 0x40
+		::System::String* key; // 0x38
+		::UnityEngine::AnimationCurve* FadeInCurve; // 0x40
 		::UnityEngine::AnimationCurve* LightCurve; // 0x48
-		::UnityEngine::Vector3 LightAngle; // 0x50
-		::System::Single FadeInLength; // 0x5C
-		::System::Single LightDuration; // 0x60
-		::System::Single FadeOutLength; // 0x64
-		::System::Single BGTVLight; // 0x68
-		::System::Boolean ApplyLUTforEmission; // 0x6C
-		::MoleMole::HollowChessboard::HollowChessboardUID ChessboardUid; // 0x70
+		::System::Single FadeInLength; // 0x50
+		::System::Single FadeOutLength; // 0x54
+		::MoleMole::HollowChessboard::HollowChessboardUID ChessboardUid; // 0x58
+		::System::Single BGTVLight; // 0x60
+		::UnityEngine::Vector3 LightAngle; // 0x64
+		::System::Boolean ApplyLUTforEmission; // 0x70
+		::System::Single LightDuration; // 0x74
 
 		::System::Void _ctor()
 		{
@@ -93,9 +93,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA_CLOSE_OFFSET))(this);
 		}
 
-		static ::Class_1_77D255857CC40452_1* CopyVolumeToConfig(::UnityEngine::Rendering::Volume* volume)
+		static ::Class_1_77D255857CC40452* CopyVolumeToConfig(::UnityEngine::Rendering::Volume* volume)
 		{
-			return ((::Class_1_77D255857CC40452_1*(*)(::UnityEngine::Rendering::Volume*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA_COPYVOLUMETOCONFIG_OFFSET))(volume);
+			return ((::Class_1_77D255857CC40452*(*)(::UnityEngine::Rendering::Volume*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA_COPYVOLUMETOCONFIG_OFFSET))(volume);
 		}
 
 		static ::Class_2_D20AEF51FFA59F87* _CopyVolumeToConfig_g__CopyVolumeToConfig_Vignette_3_0(::UnityEngine::Rendering::Universal::Vignette* vignette)
@@ -113,44 +113,44 @@ namespace MoleMole::Config
 			return ((::Class_2_F6E7E959625A0CB5*(*)(::UnityEngine::Rendering::Universal::Distortion*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DISTORTION_3_2_OFFSET))(distortion);
 		}
 
-		static ::Class_2_A48F3719AA1CF200_8* _CopyVolumeToConfig_g__CopyVolumeToConfig_Glitch_3_3(::UnityEngine::Rendering::Universal::Glitch* glitch)
+		static ::Class_2_A48F3719AA1CF200_29* _CopyVolumeToConfig_g__CopyVolumeToConfig_Glitch_3_3(::UnityEngine::Rendering::Universal::Glitch* glitch)
 		{
-			return ((::Class_2_A48F3719AA1CF200_8*(*)(::UnityEngine::Rendering::Universal::Glitch*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_GLITCH_3_3_OFFSET))(glitch);
+			return ((::Class_2_A48F3719AA1CF200_29*(*)(::UnityEngine::Rendering::Universal::Glitch*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_GLITCH_3_3_OFFSET))(glitch);
 		}
 
-		static ::Class_2_A48F3719AA1CF200_9* _CopyVolumeToConfig_g__CopyVolumeToConfig_RadialBlur_3_4(::UnityEngine::Rendering::Universal::RadialBlur* blur)
+		static ::Class_2_A48F3719AA1CF200_19* _CopyVolumeToConfig_g__CopyVolumeToConfig_RadialBlur_3_4(::UnityEngine::Rendering::Universal::RadialBlur* blur)
 		{
-			return ((::Class_2_A48F3719AA1CF200_9*(*)(::UnityEngine::Rendering::Universal::RadialBlur*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_RADIALBLUR_3_4_OFFSET))(blur);
+			return ((::Class_2_A48F3719AA1CF200_19*(*)(::UnityEngine::Rendering::Universal::RadialBlur*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_RADIALBLUR_3_4_OFFSET))(blur);
 		}
 
-		static ::Class_2_A48F3719AA1CF200_10* _CopyVolumeToConfig_g__CopyVolumeToConfig_NapBloom_3_5(::UnityEngine::Rendering::Universal::NapBloom* bloom)
+		static ::Class_2_A48F3719AA1CF200_25* _CopyVolumeToConfig_g__CopyVolumeToConfig_NapBloom_3_5(::UnityEngine::Rendering::Universal::NapBloom* bloom)
 		{
-			return ((::Class_2_A48F3719AA1CF200_10*(*)(::UnityEngine::Rendering::Universal::NapBloom*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_NAPBLOOM_3_5_OFFSET))(bloom);
+			return ((::Class_2_A48F3719AA1CF200_25*(*)(::UnityEngine::Rendering::Universal::NapBloom*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_NAPBLOOM_3_5_OFFSET))(bloom);
 		}
 
-		static ::Class_2_E66E0476299305E7* _CopyVolumeToConfig_g__CopyVolumeToConfig_ChromaticAberration_3_6(::UnityEngine::Rendering::Universal::ChromaticAberration* chromatic)
+		static ::Class_2_E66E0476299305E7_1* _CopyVolumeToConfig_g__CopyVolumeToConfig_ChromaticAberration_3_6(::UnityEngine::Rendering::Universal::ChromaticAberration* chromatic)
 		{
-			return ((::Class_2_E66E0476299305E7*(*)(::UnityEngine::Rendering::Universal::ChromaticAberration*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_CHROMATICABERRATION_3_6_OFFSET))(chromatic);
+			return ((::Class_2_E66E0476299305E7_1*(*)(::UnityEngine::Rendering::Universal::ChromaticAberration*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_CHROMATICABERRATION_3_6_OFFSET))(chromatic);
 		}
 
-		static ::Class_2_A48F3719AA1CF200_11* _CopyVolumeToConfig_g__CopyVolumeToConfig_DepthOfField_3_7(::UnityEngine::Rendering::Universal::DepthOfField* depth)
+		static ::Class_2_A48F3719AA1CF200_34* _CopyVolumeToConfig_g__CopyVolumeToConfig_DepthOfField_3_7(::UnityEngine::Rendering::Universal::DepthOfField* depth)
 		{
-			return ((::Class_2_A48F3719AA1CF200_11*(*)(::UnityEngine::Rendering::Universal::DepthOfField*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DEPTHOFFIELD_3_7_OFFSET))(depth);
+			return ((::Class_2_A48F3719AA1CF200_34*(*)(::UnityEngine::Rendering::Universal::DepthOfField*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_DEPTHOFFIELD_3_7_OFFSET))(depth);
 		}
 
-		static ::Class_2_E66E0476299305E7_1* _CopyVolumeToConfig_g__CopyVolumeToConfig_LensDistortion_3_8(::UnityEngine::Rendering::Universal::LensDistortion* lens)
+		static ::Class_2_E66E0476299305E7* _CopyVolumeToConfig_g__CopyVolumeToConfig_LensDistortion_3_8(::UnityEngine::Rendering::Universal::LensDistortion* lens)
 		{
-			return ((::Class_2_E66E0476299305E7_1*(*)(::UnityEngine::Rendering::Universal::LensDistortion*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LENSDISTORTION_3_8_OFFSET))(lens);
+			return ((::Class_2_E66E0476299305E7*(*)(::UnityEngine::Rendering::Universal::LensDistortion*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LENSDISTORTION_3_8_OFFSET))(lens);
 		}
 
-		static ::Class_2_A48F3719AA1CF200_12* _CopyVolumeToConfig_g__CopyVolumeToConfig_ScreenEffects_3_9(::UnityEngine::Rendering::Universal::ScreenEffects* screeneffects)
+		static ::Class_2_A48F3719AA1CF200_35* _CopyVolumeToConfig_g__CopyVolumeToConfig_ScreenEffects_3_9(::UnityEngine::Rendering::Universal::ScreenEffects* screeneffects)
 		{
-			return ((::Class_2_A48F3719AA1CF200_12*(*)(::UnityEngine::Rendering::Universal::ScreenEffects*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_SCREENEFFECTS_3_9_OFFSET))(screeneffects);
+			return ((::Class_2_A48F3719AA1CF200_35*(*)(::UnityEngine::Rendering::Universal::ScreenEffects*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_SCREENEFFECTS_3_9_OFFSET))(screeneffects);
 		}
 
-		static ::Class_2_AAB5566438F6F9C2* _CopyVolumeToConfig_g__CopyVolumeToConfig_Lighting_3_10(::UnityEngine::Rendering::Universal::Lighting* lighting)
+		static ::Class_2_6729AC3ED949BE6A* _CopyVolumeToConfig_g__CopyVolumeToConfig_Lighting_3_10(::UnityEngine::Rendering::Universal::Lighting* lighting)
 		{
-			return ((::Class_2_AAB5566438F6F9C2*(*)(::UnityEngine::Rendering::Universal::Lighting*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LIGHTING_3_10_OFFSET))(lighting);
+			return ((::Class_2_6729AC3ED949BE6A*(*)(::UnityEngine::Rendering::Universal::Lighting*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ATMOSPHEREDATA__COPYVOLUMETOCONFIG_G__COPYVOLUMETOCONFIG_LIGHTING_3_10_OFFSET))(lighting);
 		}
 
 		static ::Class_2_A0EF1227A3C680C4* _CopyVolumeToConfig_g__CopyVolumeToConfig_ColorAdjustments_3_11(::UnityEngine::Rendering::Universal::ColorAdjustments* color)

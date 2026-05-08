@@ -4,12 +4,12 @@
 #include "unitysdk/PipelineCamera/PositionDampingAxis.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY_PROCESS_OFFSET UNITYSDK_OFFSET(0x1A8AF770)
-#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8AF870)
+#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B4CE670)
+#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CE740)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int PositionDampingPolicy_TypeDefinitionIndex = 35764;
+	inline static constexpr unsigned int PositionDampingPolicy_TypeDefinitionIndex = 36308;
 
 	class PositionDampingPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
 	{

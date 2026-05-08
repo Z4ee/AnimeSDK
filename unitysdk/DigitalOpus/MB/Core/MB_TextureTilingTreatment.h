@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_TextureTilingTreatment_TypeDefinitionIndex = 83300;
+	inline static constexpr unsigned int MB_TextureTilingTreatment_TypeDefinitionIndex = 85028;
 
 	enum class MB_TextureTilingTreatment : ::System::Int32
 	{

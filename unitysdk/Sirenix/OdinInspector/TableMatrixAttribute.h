@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TABLEMATRIXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1168A0)
+#define SIRENIX_ODININSPECTOR_TABLEMATRIXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021DA0)
 
 namespace Sirenix::OdinInspector
 {
@@ -13,17 +13,17 @@ namespace Sirenix::OdinInspector
 	class TableMatrixAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* HorizontalTitle; // 0x10
+		::System::String* VerticalTitle; // 0x10
 		::System::String* DrawElementMethod; // 0x18
-		::System::String* VerticalTitle; // 0x20
-		::System::Boolean SquareCells; // 0x28
+		::System::String* HorizontalTitle; // 0x20
+		::System::Boolean HideColumnIndices; // 0x28
 		::System::Boolean Transpose; // 0x29
-		::System::Boolean ResizableColumns; // 0x2A
+		::System::Boolean RespectIndentLevel; // 0x2A
 		::System::Int32 RowHeight; // 0x2C
-		::System::Boolean IsReadOnly; // 0x30
-		::System::Boolean HideColumnIndices; // 0x31
-		::System::Boolean HideRowIndices; // 0x32
-		::System::Boolean RespectIndentLevel; // 0x33
+		::System::Boolean HideRowIndices; // 0x30
+		::System::Boolean SquareCells; // 0x31
+		::System::Boolean IsReadOnly; // 0x32
+		::System::Boolean ResizableColumns; // 0x33
 
 		::System::Void _ctor()
 		{

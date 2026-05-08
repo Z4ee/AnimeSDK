@@ -27,7 +27,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerHandler_1_TypeDefinitionIndex = 28147;
+	inline static constexpr unsigned int AsyncTriggerHandler_1_TypeDefinitionIndex = 28665;
 
 	template <typename T>
 	class AsyncTriggerHandler_1 : public ::System::Object

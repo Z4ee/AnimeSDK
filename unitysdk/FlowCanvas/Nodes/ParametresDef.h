@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ParametresDef_TypeDefinitionIndex = 26192;
+	inline static constexpr unsigned int ParametresDef_TypeDefinitionIndex = 27111;
 
 	struct alignas(8) ParametresDef
 	{

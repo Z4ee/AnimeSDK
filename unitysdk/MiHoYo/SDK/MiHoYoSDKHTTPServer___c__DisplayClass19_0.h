@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class MiHoYoSDKHTTPServer; }
 namespace System::Net::Sockets { class TcpClient; }
 
-#define MIHOYO_SDK_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__BEGINACCEPTTCPCLIENT_B__0_OFFSET UNITYSDK_OFFSET(0x175C27D0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175C27C0)
+#define MIHOYO_SDK_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__BEGINACCEPTTCPCLIENT_B__0_OFFSET UNITYSDK_OFFSET(0x18CE8A60)
+#define MIHOYO_SDK_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE8A50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKHTTPServer___c__DisplayClass19_0_TypeDefinitionIndex = 34581;
+	inline static constexpr unsigned int MiHoYoSDKHTTPServer___c__DisplayClass19_0_TypeDefinitionIndex = 35117;
 
 	class MiHoYoSDKHTTPServer___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Net::Sockets::TcpClient* client; // 0x10
-		::MiHoYo::SDK::MiHoYoSDKHTTPServer* __4__this; // 0x18
+		::MiHoYo::SDK::MiHoYoSDKHTTPServer* __4__this; // 0x10
+		::System::Net::Sockets::TcpClient* client; // 0x18
 
 		::System::Void _ctor()
 		{

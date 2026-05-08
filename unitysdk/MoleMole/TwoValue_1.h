@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TwoValue_1_TypeDefinitionIndex = 54033;
+	inline static constexpr unsigned int TwoValue_1_TypeDefinitionIndex = 66264;
 
 	template <typename T>
 	class TwoValue_1 : public ::System::Object

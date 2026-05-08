@@ -5,12 +5,12 @@
 class Class_1_5A6771CD0CA2718D;
 namespace MoleMole::ChessStateMachine { class GridEventEntityAction___c__DisplayClass5_0; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0xACADB10)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_1__RUN_B__4_OFFSET UNITYSDK_OFFSET(0xACADB20)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1751E890)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_1__RUN_B__4_OFFSET UNITYSDK_OFFSET(0x1751E8A0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridEventEntityAction___c__DisplayClass5_1_TypeDefinitionIndex = 78310;
+	inline static constexpr unsigned int GridEventEntityAction___c__DisplayClass5_1_TypeDefinitionIndex = 40559;
 
 	class GridEventEntityAction___c__DisplayClass5_1 : public ::System::Object
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B;
+class Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A;
 class Class_2_C6DB47ABD5161ECB;
 
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_3__BUILDVIEWMODELDATABINDING_B__12_OFFSET UNITYSDK_OFFSET(0xA6B4750)
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_3__CTOR_OFFSET UNITYSDK_OFFSET(0xA6B4740)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_3__BUILDVIEWMODELDATABINDING_B__12_OFFSET UNITYSDK_OFFSET(0x11B762A0)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_3__CTOR_OFFSET UNITYSDK_OFFSET(0x11B76290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleHiveBoxDetailPanelWidgetController___c__DisplayClass8_3_TypeDefinitionIndex = 62500;
+	inline static constexpr unsigned int UISuibianTempleHiveBoxDetailPanelWidgetController___c__DisplayClass8_3_TypeDefinitionIndex = 82082;
 
 	class UISuibianTempleHiveBoxDetailPanelWidgetController___c__DisplayClass8_3 : public ::System::Object
 	{
 	public:
-		::Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B* skill; // 0x10
-		::Class_2_C6DB47ABD5161ECB* skillView; // 0x18
+		::Class_2_C6DB47ABD5161ECB* skillView; // 0x10
+		::Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A* skill; // 0x18
 
 		::System::Void _ctor()
 		{

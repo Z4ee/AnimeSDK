@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C89B10)
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS18_0__PERFORMHTTPREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x18C89B20)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7EF60)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS18_0__PERFORMHTTPREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x19C7EF70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c__DisplayClass18_0_TypeDefinitionIndex = 18716;
+	inline static constexpr unsigned int NetUtil___c__DisplayClass18_0_TypeDefinitionIndex = 19059;
 
 	class NetUtil___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int AssetInformation_TypeDefinitionIndex = 36657;
+	inline static constexpr unsigned int AssetInformation_TypeDefinitionIndex = 37201;
 
 	class AssetInformation : public ::System::Object
 	{

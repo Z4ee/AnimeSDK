@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_GLOBALIZATION_CULTUREINFO_GET_INVARIANTCULTURE_OFFSET UNITYSDK_OFFSET(0x1B776120)
+#define SYSTEM_GLOBALIZATION_CULTUREINFO_GET_INVARIANTCULTURE_OFFSET UNITYSDK_OFFSET(0x1C561020)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CultureInfo_TypeDefinitionIndex = 27932;
+	inline static constexpr unsigned int CultureInfo_TypeDefinitionIndex = 28450;
 
 	class CultureInfo : public ::System::Object
 	{

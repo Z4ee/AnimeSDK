@@ -6,19 +6,19 @@ namespace MoleMole { class UISummerEventMainPageController; }
 namespace System { class Action; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UISUMMEREVENTMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAF0EB0)
-#define MOLEMOLE_UISUMMEREVENTMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__FINISHFADEINANDFADEOUT_G__PLAYFADEOUT_0_OFFSET UNITYSDK_OFFSET(0xAAF0EC0)
+#define MOLEMOLE_UISUMMEREVENTMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C21860)
+#define MOLEMOLE_UISUMMEREVENTMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__FINISHFADEINANDFADEOUT_G__PLAYFADEOUT_0_OFFSET UNITYSDK_OFFSET(0x14C21870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventMainPageController___c__DisplayClass23_0_TypeDefinitionIndex = 48405;
+	inline static constexpr unsigned int UISummerEventMainPageController___c__DisplayClass23_0_TypeDefinitionIndex = 56621;
 
 	class UISummerEventMainPageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISummerEventMainPageController* __4__this; // 0x10
+		::UnityEngine::Animation* root; // 0x10
 		::System::Action* callback; // 0x18
-		::UnityEngine::Animation* root; // 0x20
+		::MoleMole::UISummerEventMainPageController* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

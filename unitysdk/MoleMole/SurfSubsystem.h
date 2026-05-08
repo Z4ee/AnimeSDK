@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6F5EF14512C56DB5.h"
+#include "unitysdk/Enum_3_76A758F872DFBC83.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
 #include "unitysdk/MoleMole/SurfSubsystem_GameState.h"
 
-class Class_1_7ED8DECFCACDA19E;
+class Class_1_11F0E0D52D9FF574;
 class Class_1_C5927B171B52FEBA;
-class Class_2_208CC9941471731A_325;
+class Class_2_208CC9941471731A_97;
 namespace MoleMole { class UISummerEventSurfMainPageController; }
 namespace MoleMole { class VehicleSplinePath; }
 namespace MoleMole::Battle { class Entity; }
@@ -16,80 +16,80 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_SURFSUBSYSTEM_ADDNITRO_OFFSET UNITYSDK_OFFSET(0x8C969F0)
-#define MOLEMOLE_SURFSUBSYSTEM_APPLYJUMPPLATFORM_OFFSET UNITYSDK_OFFSET(0x8C9A9C0)
-#define MOLEMOLE_SURFSUBSYSTEM_APPLYMAGNET_OFFSET UNITYSDK_OFFSET(0x8C9AAB0)
-#define MOLEMOLE_SURFSUBSYSTEM_APPLYSPEEDCURVE_OFFSET UNITYSDK_OFFSET(0x8C9A860)
-#define MOLEMOLE_SURFSUBSYSTEM_APPLYSUPERSTAR_OFFSET UNITYSDK_OFFSET(0x8C9AB80)
-#define MOLEMOLE_SURFSUBSYSTEM_CANPICKUPSUMMERSURFDROPITEM_OFFSET UNITYSDK_OFFSET(0x8C96BD0)
-#define MOLEMOLE_SURFSUBSYSTEM_FAKEINPUT_OFFSET UNITYSDK_OFFSET(0x8C9A7C0)
-#define MOLEMOLE_SURFSUBSYSTEM_FINISH_OFFSET UNITYSDK_OFFSET(0x8C99BF0)
-#define MOLEMOLE_SURFSUBSYSTEM_GETPLAYERVEHICLE_OFFSET UNITYSDK_OFFSET(0x8C96890)
-#define MOLEMOLE_SURFSUBSYSTEM_GETRATIOANDRANK_OFFSET UNITYSDK_OFFSET(0x8C968F0)
-#define MOLEMOLE_SURFSUBSYSTEM_GETUIDRIFTPERCENTAGE_OFFSET UNITYSDK_OFFSET(0x8C98560)
-#define MOLEMOLE_SURFSUBSYSTEM_GET_AVERAGESPEED_OFFSET UNITYSDK_OFFSET(0x8C97250)
-#define MOLEMOLE_SURFSUBSYSTEM_GET_LOCALAVATARSPEED_OFFSET UNITYSDK_OFFSET(0x8C97260)
-#define MOLEMOLE_SURFSUBSYSTEM_GET_PASSEDTIME_OFFSET UNITYSDK_OFFSET(0x8C97230)
-#define MOLEMOLE_SURFSUBSYSTEM_MUTEINPUT_OFFSET UNITYSDK_OFFSET(0x8C9A750)
-#define MOLEMOLE_SURFSUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8C97280)
-#define MOLEMOLE_SURFSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8C975E0)
-#define MOLEMOLE_SURFSUBSYSTEM_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x8C97BF0)
-#define MOLEMOLE_SURFSUBSYSTEM_ONGAMEENTER_OFFSET UNITYSDK_OFFSET(0x8C986D0)
-#define MOLEMOLE_SURFSUBSYSTEM_ONGAMEEXIT_OFFSET UNITYSDK_OFFSET(0x8C97930)
-#define MOLEMOLE_SURFSUBSYSTEM_ONGAMERUN_OFFSET UNITYSDK_OFFSET(0x8C998C0)
-#define MOLEMOLE_SURFSUBSYSTEM_ONPREUPDATE_OFFSET UNITYSDK_OFFSET(0x8C9A180)
-#define MOLEMOLE_SURFSUBSYSTEM_ONSUMMERSURFITEMGET_OFFSET UNITYSDK_OFFSET(0x8C963A0)
-#define MOLEMOLE_SURFSUBSYSTEM_ONSUMMERSURFTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x8C96AB0)
-#define MOLEMOLE_SURFSUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8C97F10)
-#define MOLEMOLE_SURFSUBSYSTEM_OPENUI_OFFSET UNITYSDK_OFFSET(0x8C99A70)
-#define MOLEMOLE_SURFSUBSYSTEM_OVERRIDEDRIFTPARAMS_OFFSET UNITYSDK_OFFSET(0x8C9AC20)
-#define MOLEMOLE_SURFSUBSYSTEM_REGISTERENTITYASVEHICLE_OFFSET UNITYSDK_OFFSET(0x8C98DE0)
-#define MOLEMOLE_SURFSUBSYSTEM_SETENTITYASAVATAR_OFFSET UNITYSDK_OFFSET(0x8C99540)
-#define MOLEMOLE_SURFSUBSYSTEM_SET_PASSEDTIME_OFFSET UNITYSDK_OFFSET(0x8C97240)
-#define MOLEMOLE_SURFSUBSYSTEM_UPDATEBYMAINPAGE_OFFSET UNITYSDK_OFFSET(0x8C9A280)
-#define MOLEMOLE_SURFSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C9ADB0)
-#define MOLEMOLE_SURFSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x8C9AD20)
-#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8C9AE20)
-#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8C9AE80)
-#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x8C9AEE0)
-#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8C9AF50)
+#define MOLEMOLE_SURFSUBSYSTEM_ADDNITRO_OFFSET UNITYSDK_OFFSET(0x13EB7ED0)
+#define MOLEMOLE_SURFSUBSYSTEM_APPLYJUMPPLATFORM_OFFSET UNITYSDK_OFFSET(0x13EBBD20)
+#define MOLEMOLE_SURFSUBSYSTEM_APPLYMAGNET_OFFSET UNITYSDK_OFFSET(0x13EBBDF0)
+#define MOLEMOLE_SURFSUBSYSTEM_APPLYSPEEDCURVE_OFFSET UNITYSDK_OFFSET(0x13EBBBE0)
+#define MOLEMOLE_SURFSUBSYSTEM_APPLYSUPERSTAR_OFFSET UNITYSDK_OFFSET(0x13EBBEA0)
+#define MOLEMOLE_SURFSUBSYSTEM_CANPICKUPSUMMERSURFDROPITEM_OFFSET UNITYSDK_OFFSET(0x13EB8070)
+#define MOLEMOLE_SURFSUBSYSTEM_FAKEINPUT_OFFSET UNITYSDK_OFFSET(0x13EBBB60)
+#define MOLEMOLE_SURFSUBSYSTEM_FINISH_OFFSET UNITYSDK_OFFSET(0x13EBAE30)
+#define MOLEMOLE_SURFSUBSYSTEM_GETPLAYERVEHICLE_OFFSET UNITYSDK_OFFSET(0x13EB7DB0)
+#define MOLEMOLE_SURFSUBSYSTEM_GETRATIOANDRANK_OFFSET UNITYSDK_OFFSET(0x13EB7DF0)
+#define MOLEMOLE_SURFSUBSYSTEM_GETUIDRIFTPERCENTAGE_OFFSET UNITYSDK_OFFSET(0x13EB97B0)
+#define MOLEMOLE_SURFSUBSYSTEM_GET_AVERAGESPEED_OFFSET UNITYSDK_OFFSET(0x13EB8610)
+#define MOLEMOLE_SURFSUBSYSTEM_GET_LOCALAVATARSPEED_OFFSET UNITYSDK_OFFSET(0x13EB8620)
+#define MOLEMOLE_SURFSUBSYSTEM_GET_PASSEDTIME_OFFSET UNITYSDK_OFFSET(0x13EB85F0)
+#define MOLEMOLE_SURFSUBSYSTEM_MUTEINPUT_OFFSET UNITYSDK_OFFSET(0x13EBBB10)
+#define MOLEMOLE_SURFSUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EB8640)
+#define MOLEMOLE_SURFSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EB8910)
+#define MOLEMOLE_SURFSUBSYSTEM_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x13EB8E50)
+#define MOLEMOLE_SURFSUBSYSTEM_ONGAMEENTER_OFFSET UNITYSDK_OFFSET(0x13EB98E0)
+#define MOLEMOLE_SURFSUBSYSTEM_ONGAMEEXIT_OFFSET UNITYSDK_OFFSET(0x13EB8BD0)
+#define MOLEMOLE_SURFSUBSYSTEM_ONGAMERUN_OFFSET UNITYSDK_OFFSET(0x13EBAB50)
+#define MOLEMOLE_SURFSUBSYSTEM_ONPREUPDATE_OFFSET UNITYSDK_OFFSET(0x13EBB350)
+#define MOLEMOLE_SURFSUBSYSTEM_ONSUMMERSURFITEMGET_OFFSET UNITYSDK_OFFSET(0x13EB7980)
+#define MOLEMOLE_SURFSUBSYSTEM_ONSUMMERSURFTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x13EB7F70)
+#define MOLEMOLE_SURFSUBSYSTEM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EB91E0)
+#define MOLEMOLE_SURFSUBSYSTEM_OPENUI_OFFSET UNITYSDK_OFFSET(0x13EBACD0)
+#define MOLEMOLE_SURFSUBSYSTEM_OVERRIDEDRIFTPARAMS_OFFSET UNITYSDK_OFFSET(0x13EBBF20)
+#define MOLEMOLE_SURFSUBSYSTEM_REGISTERENTITYASVEHICLE_OFFSET UNITYSDK_OFFSET(0x13EB9FE0)
+#define MOLEMOLE_SURFSUBSYSTEM_SETENTITYASAVATAR_OFFSET UNITYSDK_OFFSET(0x13EBA800)
+#define MOLEMOLE_SURFSUBSYSTEM_SET_PASSEDTIME_OFFSET UNITYSDK_OFFSET(0x13EB8600)
+#define MOLEMOLE_SURFSUBSYSTEM_UPDATEBYMAINPAGE_OFFSET UNITYSDK_OFFSET(0x13EBB4D0)
+#define MOLEMOLE_SURFSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EBC090)
+#define MOLEMOLE_SURFSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x13EBC000)
+#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EBC100)
+#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EBC190)
+#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x13EBC220)
+#define MOLEMOLE_SURFSUBSYSTEM___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EBC2C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SurfSubsystem_TypeDefinitionIndex = 44796;
+	inline static constexpr unsigned int SurfSubsystem_TypeDefinitionIndex = 79231;
 
 	class SurfSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::SurfSubsystem*>
 	{
 	public:
 		static ::System::Int32* StaticGet_DRIFT_LEFT_TUTORIAL_NEWBIE_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SurfSubsystem_TypeDefinitionIndex)->GetStaticField(0xA600);
-		}
-		static ::System::Int32* StaticGet_DRIFT_RIGHT_TUTORIAL_NEWBIE_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SurfSubsystem_TypeDefinitionIndex)->GetStaticField(0xA604);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SurfSubsystem_TypeDefinitionIndex)->GetStaticField(0xAA40);
 		}
 		static ::System::UInt32* StaticGet_Parameter_2_1_Surfing_Brake_Energy()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(SurfSubsystem_TypeDefinitionIndex)->GetStaticField(0xA608);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(SurfSubsystem_TypeDefinitionIndex)->GetStaticField(0xAA44);
+		}
+		static ::System::Int32* StaticGet_DRIFT_RIGHT_TUTORIAL_NEWBIE_ID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SurfSubsystem_TypeDefinitionIndex)->GetStaticField(0xAA48);
 		}
 		// static const ::System::String* SURF_HIDE_BATTLEUI_TAG; // 0x0
-		::MoleMole::VehicleSplinePath* path; // 0x10
-		::MoleMole::UISummerEventSurfMainPageController* _mainPage; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_7ED8DECFCACDA19E*>* _vehicleList; // 0x20
-		::Class_1_7ED8DECFCACDA19E* _playerVehicle; // 0x28
-		::Class_1_C5927B171B52FEBA* _surfCamera; // 0x30
-		::System::Int32 _surfTriggerCount; // 0x38
-		::System::Boolean _fakeInputDrift; // 0x3C
-		::System::Boolean _fakeInputBoost; // 0x3D
-		::System::Boolean _muteInput; // 0x3E
-		::System::Single _totalFrame; // 0x40
-		::System::Single _PassedTime_k__BackingField; // 0x44
-		::MoleMole::SurfSubsystem_GameState _gameState; // 0x48
-		::System::Int32 _fakeInputSteer; // 0x4C
-		::System::Single _fakeInputTime; // 0x50
-		::System::Single _totalSpeed; // 0x54
-		::System::Single fixedTime; // 0x58
+		::MoleMole::UISummerEventSurfMainPageController* _mainPage; // 0x10
+		::Class_1_C5927B171B52FEBA* _surfCamera; // 0x18
+		::Class_1_11F0E0D52D9FF574* _playerVehicle; // 0x20
+		::System::Collections::Generic::List_1<::Class_1_11F0E0D52D9FF574*>* _vehicleList; // 0x28
+		::MoleMole::VehicleSplinePath* path; // 0x30
+		::System::Single _PassedTime_k__BackingField; // 0x38
+		::System::Single _totalSpeed; // 0x3C
+		::System::Single _fakeInputTime; // 0x40
+		::System::Single _totalFrame; // 0x44
+		::System::Boolean _fakeInputDrift; // 0x48
+		::System::Boolean _muteInput; // 0x49
+		::System::Boolean _fakeInputBoost; // 0x4A
+		::MoleMole::SurfSubsystem_GameState _gameState; // 0x4C
+		::System::Single fixedTime; // 0x50
+		::System::Int32 _surfTriggerCount; // 0x54
+		::System::Int32 _fakeInputSteer; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -106,9 +106,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_ONSUMMERSURFITEMGET_OFFSET))(this, eventArgs);
 		}
 
-		static ::System::Boolean GetRatioAndRank(::Class_2_208CC9941471731A_325* template_, ::System::Int32 value, ::System::Single& ratio, ::Enum_3_6F5EF14512C56DB5& rank)
+		static ::System::Boolean GetRatioAndRank(::Class_2_208CC9941471731A_97* template_, ::System::Int32 value, ::System::Single& ratio, ::Enum_3_76A758F872DFBC83& rank)
 		{
-			return ((::System::Boolean(*)(::Class_2_208CC9941471731A_325*, ::System::Int32, ::System::Single&, ::Enum_3_6F5EF14512C56DB5&))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_GETRATIOANDRANK_OFFSET))(template_, value, ratio, rank);
+			return ((::System::Boolean(*)(::Class_2_208CC9941471731A_97*, ::System::Int32, ::System::Single&, ::Enum_3_76A758F872DFBC83&))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_GETRATIOANDRANK_OFFSET))(template_, value, ratio, rank);
 		}
 
 		::System::Void OnSummerSurfTriggerEnter(::System::EventArgs* eventArgs)
@@ -206,44 +206,44 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_UPDATEBYMAINPAGE_OFFSET))(this);
 		}
 
-		::Class_1_7ED8DECFCACDA19E* GetPlayerVehicle()
+		::Class_1_11F0E0D52D9FF574* GetPlayerVehicle()
 		{
-			return ((::Class_1_7ED8DECFCACDA19E*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_GETPLAYERVEHICLE_OFFSET))(this);
+			return ((::Class_1_11F0E0D52D9FF574*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_GETPLAYERVEHICLE_OFFSET))(this);
 		}
 
-		::System::Single GetUIDriftPercentage(::Class_1_7ED8DECFCACDA19E* context)
+		::System::Single GetUIDriftPercentage(::Class_1_11F0E0D52D9FF574* context)
 		{
-			return ((::System::Single(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_GETUIDRIFTPERCENTAGE_OFFSET))(this, context);
+			return ((::System::Single(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_GETUIDRIFTPERCENTAGE_OFFSET))(this, context);
 		}
 
-		::System::Void AddNitro(::Class_1_7ED8DECFCACDA19E* vehicle, ::System::Single amount)
+		::System::Void AddNitro(::Class_1_11F0E0D52D9FF574* vehicle, ::System::Single amount)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_ADDNITRO_OFFSET))(this, vehicle, amount);
+			return ((::System::Void(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_ADDNITRO_OFFSET))(this, vehicle, amount);
 		}
 
-		::System::Void ApplySpeedCurve(::Class_1_7ED8DECFCACDA19E* vehicle, ::System::Boolean isAcceleration, ::UnityEngine::AnimationCurve* speedCurve, ::System::Single duration, ::System::Single minSpeed, ::System::Single maxSpeed, ::System::Single additionalSpeed)
+		::System::Void ApplySpeedCurve(::Class_1_11F0E0D52D9FF574* vehicle, ::System::Boolean isAcceleration, ::UnityEngine::AnimationCurve* speedCurve, ::System::Single duration, ::System::Single minSpeed, ::System::Single maxSpeed, ::System::Single additionalSpeed)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*, ::System::Boolean, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYSPEEDCURVE_OFFSET))(this, vehicle, isAcceleration, speedCurve, duration, minSpeed, maxSpeed, additionalSpeed);
+			return ((::System::Void(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*, ::System::Boolean, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYSPEEDCURVE_OFFSET))(this, vehicle, isAcceleration, speedCurve, duration, minSpeed, maxSpeed, additionalSpeed);
 		}
 
-		::System::Void ApplyJumpPlatform(::Class_1_7ED8DECFCACDA19E* vehicle, ::System::Single verticalSpeed, ::System::Single horizontalSpeed, ::System::Boolean syncSpeedYaw, ::System::Single speedYaw)
+		::System::Void ApplyJumpPlatform(::Class_1_11F0E0D52D9FF574* vehicle, ::System::Single verticalSpeed, ::System::Single horizontalSpeed, ::System::Boolean syncSpeedYaw, ::System::Single speedYaw)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYJUMPPLATFORM_OFFSET))(this, vehicle, verticalSpeed, horizontalSpeed, syncSpeedYaw, speedYaw);
+			return ((::System::Void(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYJUMPPLATFORM_OFFSET))(this, vehicle, verticalSpeed, horizontalSpeed, syncSpeedYaw, speedYaw);
 		}
 
-		::System::Void ApplyMagnet(::Class_1_7ED8DECFCACDA19E* vehicle, ::System::Single magnetTime, ::System::Single magnetRangeX, ::System::Single magnetRangeZ)
+		::System::Void ApplyMagnet(::Class_1_11F0E0D52D9FF574* vehicle, ::System::Single magnetTime, ::System::Single magnetRangeX, ::System::Single magnetRangeZ)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYMAGNET_OFFSET))(this, vehicle, magnetTime, magnetRangeX, magnetRangeZ);
+			return ((::System::Void(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYMAGNET_OFFSET))(this, vehicle, magnetTime, magnetRangeX, magnetRangeZ);
 		}
 
-		::System::Void ApplySuperStar(::Class_1_7ED8DECFCACDA19E* vehicle, ::System::Single superStarTime)
+		::System::Void ApplySuperStar(::Class_1_11F0E0D52D9FF574* vehicle, ::System::Single superStarTime)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYSUPERSTAR_OFFSET))(this, vehicle, superStarTime);
+			return ((::System::Void(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_APPLYSUPERSTAR_OFFSET))(this, vehicle, superStarTime);
 		}
 
-		::System::Void OverrideDriftParams(::Class_1_7ED8DECFCACDA19E* vehicle, ::System::Boolean enable, ::System::Int32 configId)
+		::System::Void OverrideDriftParams(::Class_1_11F0E0D52D9FF574* vehicle, ::System::Boolean enable, ::System::Int32 configId)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ED8DECFCACDA19E*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_OVERRIDEDRIFTPARAMS_OFFSET))(this, vehicle, enable, configId);
+			return ((::System::Void(*)(::PVOID, ::Class_1_11F0E0D52D9FF574*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFSUBSYSTEM_OVERRIDEDRIFTPARAMS_OFFSET))(this, vehicle, enable, configId);
 		}
 
 		::System::Void RegisterEntityAsVehicle(::MoleMole::Battle::Entity* entity, ::System::String* configKey, ::System::String* spawnPointName)

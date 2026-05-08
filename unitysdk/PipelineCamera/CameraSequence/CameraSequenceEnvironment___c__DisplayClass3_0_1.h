@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEnvironment___c__DisplayClass3_0_1_TypeDefinitionIndex = 35796;
+	inline static constexpr unsigned int CameraSequenceEnvironment___c__DisplayClass3_0_1_TypeDefinitionIndex = 36340;
 
 	template <typename T>
 	class CameraSequenceEnvironment___c__DisplayClass3_0_1 : public ::System::Object

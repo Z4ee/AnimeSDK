@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int CollectionsUtils_PriorityQueue_2_UnorderedItemsCollection_Enumerator_TypeDefinitionIndex = 29155;
+	inline static constexpr unsigned int CollectionsUtils_PriorityQueue_2_UnorderedItemsCollection_Enumerator_TypeDefinitionIndex = 29674;
 
 	template <typename TElement, typename TPriority>
 	struct CollectionsUtils_PriorityQueue_2_UnorderedItemsCollection_Enumerator

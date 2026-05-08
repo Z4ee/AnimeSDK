@@ -8,22 +8,22 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_SENDABILITYCUSTOMEVENT_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x98550C0)
-#define MOLEMOLE_SENDABILITYCUSTOMEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x98551F0)
-#define MOLEMOLE_SENDABILITYCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x98554B0)
-#define MOLEMOLE_SENDABILITYCUSTOMEVENT___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x98555D0)
-#define MOLEMOLE_SENDABILITYCUSTOMEVENT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x9855660)
+#define MOLEMOLE_SENDABILITYCUSTOMEVENT_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11781DE0)
+#define MOLEMOLE_SENDABILITYCUSTOMEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11781F30)
+#define MOLEMOLE_SENDABILITYCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x117821D0)
+#define MOLEMOLE_SENDABILITYCUSTOMEVENT___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11782280)
+#define MOLEMOLE_SENDABILITYCUSTOMEVENT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11782310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SendAbilityCustomEvent_TypeDefinitionIndex = 73151;
+	inline static constexpr unsigned int SendAbilityCustomEvent_TypeDefinitionIndex = 74908;
 
 	class SendAbilityCustomEvent : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedString* AbilityCustomEventKey; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::BehaviorDesigner::Runtime::SharedBool* AbilityCustomEventIsGlobal; // 0x68
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::BehaviorDesigner::Runtime::SharedBool* AbilityCustomEventIsGlobal; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* AbilityCustomEventKey; // 0x68
 		::MoleMole::Battle::Entity* ownerEntity; // 0x70
 
 		::System::Void _ctor()

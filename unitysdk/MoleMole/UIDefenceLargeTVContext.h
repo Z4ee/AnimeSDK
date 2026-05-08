@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIDEFENCELARGETVCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD5586A0)
+#define MOLEMOLE_UIDEFENCELARGETVCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1578A6B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDefenceLargeTVContext_TypeDefinitionIndex = 59433;
+	inline static constexpr unsigned int UIDefenceLargeTVContext_TypeDefinitionIndex = 67631;
 
 	class UIDefenceLargeTVContext : public ::MoleMole::UIControllerContextBase
 	{

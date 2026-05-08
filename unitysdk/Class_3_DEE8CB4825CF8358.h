@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_2BB5A4A452E9A1B4.h"
+#include "unitysdk/Class_2_A9613D9C64F0521C.h"
 #include "unitysdk/Enum_3_B511486FFFFCE718.h"
 
 namespace MoleMole { class UIBabeltowerTrickScoreRowWidgetController; }
 namespace System { class String; }
 
-#define CLASS_3_DEE8CB4825CF8358_METHOD_3_2FF741F05D237A76_OFFSET UNITYSDK_OFFSET(0xD07CFC0)
-#define CLASS_3_DEE8CB4825CF8358_METHOD_3_7602DC28ED1228BF_OFFSET UNITYSDK_OFFSET(0xD07CD90)
-#define CLASS_3_DEE8CB4825CF8358_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0xD07D0A0)
-#define CLASS_3_DEE8CB4825CF8358__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD07CD60)
-#define CLASS_3_DEE8CB4825CF8358__CTOR_OFFSET UNITYSDK_OFFSET(0xD07CD20)
+#define CLASS_3_DEE8CB4825CF8358_METHOD_3_2FF741F05D237A76_OFFSET UNITYSDK_OFFSET(0x116D39D0)
+#define CLASS_3_DEE8CB4825CF8358_METHOD_3_7602DC28ED1228BF_OFFSET UNITYSDK_OFFSET(0x116D37C0)
+#define CLASS_3_DEE8CB4825CF8358_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0x116D3A90)
+#define CLASS_3_DEE8CB4825CF8358__CTOR_1_OFFSET UNITYSDK_OFFSET(0x116D3790)
+#define CLASS_3_DEE8CB4825CF8358__CTOR_OFFSET UNITYSDK_OFFSET(0x116D3750)
 
-inline static constexpr unsigned int Class_3_DEE8CB4825CF8358_TypeDefinitionIndex = 73509;
+inline static constexpr unsigned int Class_3_DEE8CB4825CF8358_TypeDefinitionIndex = 67760;
 
-class Class_3_DEE8CB4825CF8358 : public ::Class_2_2BB5A4A452E9A1B4<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
+class Class_3_DEE8CB4825CF8358 : public ::Class_2_A9613D9C64F0521C<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
 {
 public:
-	::Enum_3_B511486FFFFCE718 Field_3_0; // 0x28
-	::System::Boolean Field_3_3; // 0x2C
-	::System::Boolean Field_3_2; // 0x2D
+	::System::Boolean Field_3_3; // 0x28
+	::System::Boolean Field_3_2; // 0x29
+	::Enum_3_B511486FFFFCE718 Field_3_0; // 0x2C
 	::System::Single Field_3_1; // 0x30
 
 	::System::Void _ctor(::System::String* a1, ::Enum_3_B511486FFFFCE718 a2, ::System::Single a3, ::System::Boolean a4)

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_LIBTESSV3EXTENSION_VECTOR3_OFFSET UNITYSDK_OFFSET(0x1ABE9DE0)
+#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_LIBTESSV3EXTENSION_VECTOR3_OFFSET UNITYSDK_OFFSET(0x1B8ABE90)
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int LibTessV3Extension_TypeDefinitionIndex = 25435;
+	inline static constexpr unsigned int LibTessV3Extension_TypeDefinitionIndex = 25949;
 
 	class LibTessV3Extension : public ::System::Object
 	{

@@ -5,18 +5,18 @@
 namespace MoleMole { class UIMiniscapeEntrustBtnWidgetController; }
 namespace MoleMole { class UIMiniscapeEntrustPageController___c__DisplayClass8_0; }
 
-#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9AB4A60)
-#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x9AB4A70)
+#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x155763C0)
+#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x155763D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeEntrustPageController___c__DisplayClass8_1_TypeDefinitionIndex = 59978;
+	inline static constexpr unsigned int UIMiniscapeEntrustPageController___c__DisplayClass8_1_TypeDefinitionIndex = 69035;
 
 	class UIMiniscapeEntrustPageController___c__DisplayClass8_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMiniscapeEntrustBtnWidgetController* taskWidget; // 0x10
-		::MoleMole::UIMiniscapeEntrustPageController___c__DisplayClass8_0* CS___8__locals1; // 0x18
+		::MoleMole::UIMiniscapeEntrustPageController___c__DisplayClass8_0* CS___8__locals1; // 0x10
+		::MoleMole::UIMiniscapeEntrustBtnWidgetController* taskWidget; // 0x18
 
 		::System::Void _ctor()
 		{

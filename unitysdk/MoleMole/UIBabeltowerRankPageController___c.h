@@ -6,34 +6,34 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8BB4590)
-#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8BB45D0)
-#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__ONUIINIT_B__10_2_OFFSET UNITYSDK_OFFSET(0x8BB45E0)
-#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__ONUIINIT_B__10_3_OFFSET UNITYSDK_OFFSET(0x8BB46F0)
-#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__REFRESHAVATARLIST_B__19_0_OFFSET UNITYSDK_OFFSET(0x8BB4880)
+#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152E5CB0)
+#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152E5CF0)
+#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__ONUIINIT_B__10_2_OFFSET UNITYSDK_OFFSET(0x152E5D00)
+#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__ONUIINIT_B__10_3_OFFSET UNITYSDK_OFFSET(0x152E5E10)
+#define MOLEMOLE_UIBABELTOWERRANKPAGECONTROLLER___C__REFRESHAVATARLIST_B__19_0_OFFSET UNITYSDK_OFFSET(0x152E6010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerRankPageController___c_TypeDefinitionIndex = 49012;
+	inline static constexpr unsigned int UIBabeltowerRankPageController___c_TypeDefinitionIndex = 80335;
 
 	class UIBabeltowerRankPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBabeltowerRankPageController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__10_3()
 		{
-			return (::MoleMole::UIBabeltowerRankPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x43190);
-		}
-		static ::System::Comparison_1<::Struct_2_B2293F2A1950D858>** StaticGet___9__19_0()
-		{
-			return (::System::Comparison_1<::Struct_2_B2293F2A1950D858>**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x43198);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x47AA0);
 		}
 		static ::System::Action** StaticGet___9__10_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x431A0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x47AA8);
 		}
-		static ::System::Action** StaticGet___9__10_3()
+		static ::System::Comparison_1<::Struct_2_B2293F2A1950D858>** StaticGet___9__19_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x431A8);
+			return (::System::Comparison_1<::Struct_2_B2293F2A1950D858>**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x47AB0);
+		}
+		static ::MoleMole::UIBabeltowerRankPageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIBabeltowerRankPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerRankPageController___c_TypeDefinitionIndex)->GetStaticField(0x47AB8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DATA_XMLTODATASETMAP_XMLNODEIDENTETY_EQUALS_OFFSET UNITYSDK_OFFSET(0x19E696A0)
-#define SYSTEM_DATA_XMLTODATASETMAP_XMLNODEIDENTETY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19E69610)
-#define SYSTEM_DATA_XMLTODATASETMAP_XMLNODEIDENTETY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E69600)
+#define SYSTEM_DATA_XMLTODATASETMAP_XMLNODEIDENTETY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A96C2F0)
+#define SYSTEM_DATA_XMLTODATASETMAP_XMLNODEIDENTETY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A96C260)
+#define SYSTEM_DATA_XMLTODATASETMAP_XMLNODEIDENTETY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A96C250)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XmlToDatasetMap_XmlNodeIdentety_TypeDefinitionIndex = 36537;
+	inline static constexpr unsigned int XmlToDatasetMap_XmlNodeIdentety_TypeDefinitionIndex = 37081;
 
 	class XmlToDatasetMap_XmlNodeIdentety : public ::System::Object
 	{
 	public:
-		::System::String* NamespaceURI; // 0x10
-		::System::String* LocalName; // 0x18
+		::System::String* LocalName; // 0x10
+		::System::String* NamespaceURI; // 0x18
 
 		::System::Void _ctor(::System::String* localName, ::System::String* namespaceURI)
 		{

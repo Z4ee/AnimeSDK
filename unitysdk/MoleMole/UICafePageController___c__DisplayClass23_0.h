@@ -5,12 +5,12 @@
 class Class_1_499EDFA3518A0E64;
 namespace MoleMole { class UICafePageController; }
 
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFDD940)
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS23_0__STARTSHOWGETCAFECUTSCENE_B__0_OFFSET UNITYSDK_OFFSET(0xBFDD950)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15656BC0)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS23_0__STARTSHOWGETCAFECUTSCENE_B__0_OFFSET UNITYSDK_OFFSET(0x15656BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICafePageController___c__DisplayClass23_0_TypeDefinitionIndex = 70899;
+	inline static constexpr unsigned int UICafePageController___c__DisplayClass23_0_TypeDefinitionIndex = 62302;
 
 	class UICafePageController___c__DisplayClass23_0 : public ::System::Object
 	{

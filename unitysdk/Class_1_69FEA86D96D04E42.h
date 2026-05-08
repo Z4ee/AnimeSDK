@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/Struct_2_6D1969169CB23895.h"
-#include "unitysdk/Struct_2_A12AE614E1EEE2CC.h"
+#include "unitysdk/Struct_2_229502A94E9EB7E7.h"
+#include "unitysdk/Struct_2_51A0658002A5A70C.h"
+#include "unitysdk/Struct_2_6D21F49E205965F8.h"
+#include "unitysdk/Struct_2_B04487F8B1A141C9.h"
 #include "unitysdk/Struct_2_CC86B677214AB654.h"
-#include "unitysdk/Struct_2_D614AAFC84AD3C97.h"
-#include "unitysdk/Struct_2_E4C60CDDB4985731.h"
 #include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class ListFormatter_1; }
 
-#define CLASS_1_69FEA86D96D04E42_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8929350)
-#define CLASS_1_69FEA86D96D04E42_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x89291D0)
-#define CLASS_1_69FEA86D96D04E42__CTOR_OFFSET UNITYSDK_OFFSET(0x9B68D10)
+#define CLASS_1_69FEA86D96D04E42_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13D90E70)
+#define CLASS_1_69FEA86D96D04E42_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13D90D20)
+#define CLASS_1_69FEA86D96D04E42__CTOR_OFFSET UNITYSDK_OFFSET(0x13D91090)
 
-inline static constexpr unsigned int Class_1_69FEA86D96D04E42_TypeDefinitionIndex = 70456;
+inline static constexpr unsigned int Class_1_69FEA86D96D04E42_TypeDefinitionIndex = 57365;
 
 class Class_1_69FEA86D96D04E42 : public ::System::Object
 {
 public:
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_A12AE614E1EEE2CC>* Field_1_0; // 0x10
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_6D1969169CB23895>* Field_1_1; // 0x18
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_D614AAFC84AD3C97>* Field_1_2; // 0x20
-	::MessagePack::Formatters::ListFormatter_1<::Struct_2_E4C60CDDB4985731>* Field_1_3; // 0x28
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_B04487F8B1A141C9>* Field_1_0; // 0x10
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_51A0658002A5A70C>* Field_1_1; // 0x18
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_6D21F49E205965F8>* Field_1_2; // 0x20
+	::MessagePack::Formatters::ListFormatter_1<::Struct_2_229502A94E9EB7E7>* Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

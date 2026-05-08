@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS382_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0BA210)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS382_0__TRIGGERBGSHAKE_B__0_OFFSET UNITYSDK_OFFSET(0xC0BA220)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS382_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E860F0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS382_0__TRIGGERBGSHAKE_B__0_OFFSET UNITYSDK_OFFSET(0x14E86100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass382_0_TypeDefinitionIndex = 62538;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass382_0_TypeDefinitionIndex = 40035;
 
 	class UIComicPageController___c__DisplayClass382_0 : public ::System::Object
 	{

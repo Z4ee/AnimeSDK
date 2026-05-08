@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Switch::LowLevel
 {
-	inline static constexpr unsigned int SwitchProControllerHIDInputState_Button_TypeDefinitionIndex = 28607;
+	inline static constexpr unsigned int SwitchProControllerHIDInputState_Button_TypeDefinitionIndex = 29125;
 
 	enum class SwitchProControllerHIDInputState_Button : ::System::Int32
 	{

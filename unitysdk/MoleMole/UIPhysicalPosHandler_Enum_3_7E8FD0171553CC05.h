@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhysicalPosHandler_Enum_3_7E8FD0171553CC05_TypeDefinitionIndex = 64992;
+	inline static constexpr unsigned int UIPhysicalPosHandler_Enum_3_7E8FD0171553CC05_TypeDefinitionIndex = 62269;
 
 	enum class UIPhysicalPosHandler_Enum_3_7E8FD0171553CC05 : ::System::Int32
 	{

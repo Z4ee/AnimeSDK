@@ -5,7 +5,7 @@ namespace FlowCanvas { class FlowNode; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IExternalImplementedNode_TypeDefinitionIndex = 27129;
+	inline static constexpr unsigned int IExternalImplementedNode_TypeDefinitionIndex = 27369;
 
 	class IExternalImplementedNode
 	{

@@ -7,12 +7,12 @@
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class HackerGameBaseDamage; }
 
-#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0xB895500)
-#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB895600)
+#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E40960)
+#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E40A30)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ConstructDamageData_TypeDefinitionIndex = 67094;
+	inline static constexpr unsigned int ConstructDamageData_TypeDefinitionIndex = 40212;
 
 	class ConstructDamageData : public ::FlowCanvas::Nodes::PureFunctionNode_5<::MoleMole::HackerGameDamageData, ::MoleMole::ChessEntity*, ::MoleMole::ChessEntity*, ::MoleMole::HackerGameBaseDamage*, ::MoleMole::HollowChessboard::HollowCell>
 	{

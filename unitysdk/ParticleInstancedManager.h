@@ -9,34 +9,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define PARTICLEINSTANCEDMANAGER_DRAWCONTROLLER_OFFSET UNITYSDK_OFFSET(0x18D0EEC0)
-#define PARTICLEINSTANCEDMANAGER_GETRENDERBATCHES_OFFSET UNITYSDK_OFFSET(0x18D0E3A0)
-#define PARTICLEINSTANCEDMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18D06FF0)
-#define PARTICLEINSTANCEDMANAGER_HASCONTROLLER_OFFSET UNITYSDK_OFFSET(0x18D0E820)
-#define PARTICLEINSTANCEDMANAGER_ISVALID_OFFSET UNITYSDK_OFFSET(0x18D0E8B0)
-#define PARTICLEINSTANCEDMANAGER_REBUILDBATCHES_OFFSET UNITYSDK_OFFSET(0x18D0E3F0)
-#define PARTICLEINSTANCEDMANAGER_REGISTERCONTROLLER_OFFSET UNITYSDK_OFFSET(0x18D071D0)
-#define PARTICLEINSTANCEDMANAGER_RENDERINTERNAL_OFFSET UNITYSDK_OFFSET(0x18D0EA60)
-#define PARTICLEINSTANCEDMANAGER_RENDER_OFFSET UNITYSDK_OFFSET(0x18D0E9B0)
-#define PARTICLEINSTANCEDMANAGER_UNREGISTERCONTROLLER_OFFSET UNITYSDK_OFFSET(0x18D07300)
-#define PARTICLEINSTANCEDMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D0F0D0)
-#define PARTICLEINSTANCEDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0E2B0)
+#define PARTICLEINSTANCEDMANAGER_DRAWCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1A2E9C90)
+#define PARTICLEINSTANCEDMANAGER_GETRENDERBATCHES_OFFSET UNITYSDK_OFFSET(0x1A2E9070)
+#define PARTICLEINSTANCEDMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A2E1090)
+#define PARTICLEINSTANCEDMANAGER_HASCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1A2E9500)
+#define PARTICLEINSTANCEDMANAGER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A2E9590)
+#define PARTICLEINSTANCEDMANAGER_REBUILDBATCHES_OFFSET UNITYSDK_OFFSET(0x1A2E90C0)
+#define PARTICLEINSTANCEDMANAGER_REGISTERCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1A2E1270)
+#define PARTICLEINSTANCEDMANAGER_RENDERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A2E97E0)
+#define PARTICLEINSTANCEDMANAGER_RENDER_OFFSET UNITYSDK_OFFSET(0x1A2E9730)
+#define PARTICLEINSTANCEDMANAGER_UNREGISTERCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1A2E1420)
+#define PARTICLEINSTANCEDMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2E9EA0)
+#define PARTICLEINSTANCEDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E8F80)
 
-inline static constexpr unsigned int ParticleInstancedManager_TypeDefinitionIndex = 28992;
+inline static constexpr unsigned int ParticleInstancedManager_TypeDefinitionIndex = 29511;
 
 class ParticleInstancedManager : public ::System::Object
 {
 public:
 	static ::ParticleInstancedManager** StaticGet__instance()
 	{
-		return (::ParticleInstancedManager**)Il2CppClass::FromTypeDefinitionIndex(ParticleInstancedManager_TypeDefinitionIndex)->GetStaticField(0x23CD0);
+		return (::ParticleInstancedManager**)Il2CppClass::FromTypeDefinitionIndex(ParticleInstancedManager_TypeDefinitionIndex)->GetStaticField(0x24850);
 	}
 	static ::System::Boolean* StaticGet_EnableAABBFrustumCulling()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ParticleInstancedManager_TypeDefinitionIndex)->GetStaticField(0x7490);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ParticleInstancedManager_TypeDefinitionIndex)->GetStaticField(0x7530);
 	}
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::List_1<::MonoEffectInstanceRenderer*>*>* batches; // 0x10
-	::System::Collections::Generic::List_1<::MonoEffectInstanceRenderer*>* controllers; // 0x18
+	::System::Collections::Generic::List_1<::MonoEffectInstanceRenderer*>* controllers; // 0x10
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::List_1<::MonoEffectInstanceRenderer*>*>* batches; // 0x18
 
 	::System::Void _ctor()
 	{

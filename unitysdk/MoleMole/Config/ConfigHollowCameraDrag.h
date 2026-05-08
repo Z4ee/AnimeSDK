@@ -5,35 +5,35 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERADRAG__CTOR_OFFSET UNITYSDK_OFFSET(0xE2C58A0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERADRAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1744CF00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraDrag_TypeDefinitionIndex = 62253;
+	inline static constexpr unsigned int ConfigHollowCameraDrag_TypeDefinitionIndex = 74512;
 
 	class ConfigHollowCameraDrag : public ::System::Object
 	{
 	public:
-		::UnityEngine::AnimationCurve* dragDampCurve; // 0x10
-		::UnityEngine::AnimationCurve* camraZToDragCurve; // 0x18
-		::System::Single camraZToDragRatioMouse; // 0x20
-		::System::Single camraZToDragRatioDPad; // 0x24
-		::System::Single dragDumpingTime; // 0x28
-		::System::Single diagonalBorderRatio; // 0x2C
-		::System::Boolean EnableDragDebug; // 0x30
-		::System::Boolean isCustomDragDampCurve; // 0x31
-		::System::Single dampBorderRatioRight; // 0x34
-		::System::Single dampBorderRatioLeft; // 0x38
-		::System::Single freezeCamDragDampFactor; // 0x3C
-		::System::Single borderRatioH; // 0x40
-		::System::Single dampBorderRatioBottom; // 0x44
-		::System::Single camraZToDragRatioTouch; // 0x48
-		::System::Single dragSpeedFactorDPad; // 0x4C
-		::System::Single borderOffset; // 0x50
-		::UnityEngine::Vector2 dragSpeedFactorMouse; // 0x54
-		::UnityEngine::Vector2 dragSpeedFactorTouch; // 0x5C
-		::System::Single dampBorderRatioTop; // 0x64
-		::System::Single borderRatioW; // 0x68
+		::UnityEngine::AnimationCurve* camraZToDragCurve; // 0x10
+		::UnityEngine::AnimationCurve* dragDampCurve; // 0x18
+		::System::Single camraZToDragRatioDPad; // 0x20
+		::System::Single camraZToDragRatioMouse; // 0x24
+		::System::Single dampBorderRatioBottom; // 0x28
+		::System::Single dampBorderRatioTop; // 0x2C
+		::System::Single borderOffset; // 0x30
+		::System::Single freezeCamDragDampFactor; // 0x34
+		::System::Single camraZToDragRatioTouch; // 0x38
+		::System::Single dampBorderRatioLeft; // 0x3C
+		::System::Single dragSpeedFactorDPad; // 0x40
+		::System::Single borderRatioW; // 0x44
+		::System::Boolean isCustomDragDampCurve; // 0x48
+		::System::Boolean EnableDragDebug; // 0x49
+		::System::Single borderRatioH; // 0x4C
+		::UnityEngine::Vector2 dragSpeedFactorMouse; // 0x50
+		::System::Single diagonalBorderRatio; // 0x58
+		::System::Single dampBorderRatioRight; // 0x5C
+		::UnityEngine::Vector2 dragSpeedFactorTouch; // 0x60
+		::System::Single dragDumpingTime; // 0x68
 
 		::System::Void _ctor()
 		{

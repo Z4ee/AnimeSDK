@@ -6,18 +6,18 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace NodeCanvas::Framework::Internal { class BBObjectParameter; }
 namespace System { class String; }
 
-#define SETENUMFLAG_GET_INFO_OFFSET UNITYSDK_OFFSET(0x19C33540)
-#define SETENUMFLAG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x19C335E0)
-#define SETENUMFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33870)
+#define SETENUMFLAG_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A861C20)
+#define SETENUMFLAG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A861CC0)
+#define SETENUMFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A861F50)
 
-inline static constexpr unsigned int SetEnumFlag_TypeDefinitionIndex = 26288;
+inline static constexpr unsigned int SetEnumFlag_TypeDefinitionIndex = 27642;
 
 class SetEnumFlag : public ::NodeCanvas::Framework::ActionTask
 {
 public:
-	::NodeCanvas::Framework::Internal::BBObjectParameter* Variable; // 0x60
-	::NodeCanvas::Framework::BBParameter_1<::System::Boolean>* Clear; // 0x68
-	::NodeCanvas::Framework::Internal::BBObjectParameter* Flag; // 0x70
+	::NodeCanvas::Framework::BBParameter_1<::System::Boolean>* Clear; // 0x60
+	::NodeCanvas::Framework::Internal::BBObjectParameter* Flag; // 0x68
+	::NodeCanvas::Framework::Internal::BBObjectParameter* Variable; // 0x70
 
 	::System::Void _ctor()
 	{

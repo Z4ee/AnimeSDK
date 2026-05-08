@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x8473340)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x8473200)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xFBF9630)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTFINDTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBF94F0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData_TypeDefinitionIndex = 52629;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData_TypeDefinitionIndex = 69559;
 
 	class RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x39C60);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3AF80);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x39C68);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotFindTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3AF88);
 		}
 
 		static ::System::Void _cctor()

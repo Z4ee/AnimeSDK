@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define NPCCROWD_AVATAR_ACCESSORYIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x6A01200)
+#define NPCCROWD_AVATAR_ACCESSORYIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD4AB60)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int AccessoryIdAttribute_TypeDefinitionIndex = 80917;
+	inline static constexpr unsigned int AccessoryIdAttribute_TypeDefinitionIndex = 44060;
 
 	class AccessoryIdAttribute : public ::UnityEngine::PropertyAttribute
 	{

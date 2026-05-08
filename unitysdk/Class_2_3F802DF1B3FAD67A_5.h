@@ -3,9 +3,9 @@
 #include "unitysdk/Class_1_207C741E4BA7C817.h"
 #include "unitysdk/MoleMole/CinemaSingleBeatMapConfig_BeatMap_BeatItem.h"
 
-#define CLASS_2_3F802DF1B3FAD67A_5__CTOR_OFFSET UNITYSDK_OFFSET(0xD829080)
+#define CLASS_2_3F802DF1B3FAD67A_5__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4A800)
 
-inline static constexpr unsigned int Class_2_3F802DF1B3FAD67A_5_TypeDefinitionIndex = 54903;
+inline static constexpr unsigned int Class_2_3F802DF1B3FAD67A_5_TypeDefinitionIndex = 78080;
 
 class Class_2_3F802DF1B3FAD67A_5 : public ::Class_1_207C741E4BA7C817
 {

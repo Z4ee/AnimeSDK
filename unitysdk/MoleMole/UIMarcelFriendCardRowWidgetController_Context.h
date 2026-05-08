@@ -5,18 +5,18 @@
 
 class Class_1_BE6BF7909AD9D940;
 
-#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAF774E0)
+#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC2C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMarcelFriendCardRowWidgetController_Context_TypeDefinitionIndex = 68186;
+	inline static constexpr unsigned int UIMarcelFriendCardRowWidgetController_Context_TypeDefinitionIndex = 56936;
 
 	class UIMarcelFriendCardRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_1_BE6BF7909AD9D940* briefInfo; // 0x28
-		::System::Boolean isFriendInRoom; // 0x30
-		::MoleMole::UIGrandMarcelAdventurePageContext_RoomType CurRoomType; // 0x34
+		::MoleMole::UIGrandMarcelAdventurePageContext_RoomType CurRoomType; // 0x30
+		::System::Boolean isFriendInRoom; // 0x34
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphListLocatorComponent_1_TypeDefinitionIndex = 67346;
+	inline static constexpr unsigned int PathGraphListLocatorComponent_1_TypeDefinitionIndex = 70603;
 
 	template <typename T>
 	class PathGraphListLocatorComponent_1 : public ::NPCCrowd::AI::PathGraphLocatorComponent

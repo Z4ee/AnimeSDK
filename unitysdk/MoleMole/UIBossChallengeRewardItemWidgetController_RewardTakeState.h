@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeRewardItemWidgetController_RewardTakeState_TypeDefinitionIndex = 65337;
+	inline static constexpr unsigned int UIBossChallengeRewardItemWidgetController_RewardTakeState_TypeDefinitionIndex = 72021;
 
 	enum class UIBossChallengeRewardItemWidgetController_RewardTakeState : ::System::Int32
 	{
-		CanNotTake = 0,
 		AlreadyTaken = 2,
 		CanTake = 1,
+		CanNotTake = 0,
 	};
 }

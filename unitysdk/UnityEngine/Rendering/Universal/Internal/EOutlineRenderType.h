@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int EOutlineRenderType_TypeDefinitionIndex = 29863;
+	inline static constexpr unsigned int EOutlineRenderType_TypeDefinitionIndex = 30391;
 
 	enum class EOutlineRenderType : ::System::Int32
 	{

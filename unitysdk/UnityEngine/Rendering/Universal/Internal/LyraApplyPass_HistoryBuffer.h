@@ -6,24 +6,24 @@
 
 namespace UnityEngine { class RenderTexture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER_PINGPONG_OFFSET UNITYSDK_OFFSET(0x19ED5420)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x19ED50E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER_RELOCATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x19ED54A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED5C40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER_PINGPONG_OFFSET UNITYSDK_OFFSET(0x1B3680B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B367A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER_RELOCATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1B368160)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAAPPLYPASS_HISTORYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B368B10)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraApplyPass_HistoryBuffer_TypeDefinitionIndex = 29977;
+	inline static constexpr unsigned int LyraApplyPass_HistoryBuffer_TypeDefinitionIndex = 30505;
 
 	class LyraApplyPass_HistoryBuffer : public ::System::Object
 	{
 	public:
-		::UnityEngine::RenderTexture* CurLum; // 0x10
-		::UnityEngine::RenderTexture* LastLum; // 0x18
-		::UnityEngine::RenderTexture* LastFrameHalfDepth; // 0x20
-		::UnityEngine::RenderTexture* CurIndirectHalfDiffuse; // 0x28
+		::UnityEngine::RenderTexture* LastFrameHalfDepth; // 0x10
+		::UnityEngine::RenderTexture* CurLum; // 0x18
+		::UnityEngine::RenderTexture* LastIndirectHalfDiffuse; // 0x20
+		::UnityEngine::RenderTexture* LastLum; // 0x28
 		::UnityEngine::RenderTexture* CurFrameHalfDepth; // 0x30
-		::UnityEngine::RenderTexture* LastIndirectHalfDiffuse; // 0x38
+		::UnityEngine::RenderTexture* CurIndirectHalfDiffuse; // 0x38
 		::UnityEngine::Matrix4x4 previousVP; // 0x40
 
 		::System::Void _ctor()

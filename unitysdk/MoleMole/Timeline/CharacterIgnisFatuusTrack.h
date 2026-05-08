@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x6ED9550)
-#define MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0x6ED9820)
-#define MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x6ED97F0)
+#define MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x11DFBE10)
+#define MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x11DFC0C0)
+#define MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11DFC060)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CharacterIgnisFatuusTrack_TypeDefinitionIndex = 46773;
+	inline static constexpr unsigned int CharacterIgnisFatuusTrack_TypeDefinitionIndex = 74016;
 
 	class CharacterIgnisFatuusTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHARACTERIGNISFATUUSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

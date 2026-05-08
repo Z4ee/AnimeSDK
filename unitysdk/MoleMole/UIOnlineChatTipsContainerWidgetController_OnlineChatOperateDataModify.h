@@ -3,15 +3,15 @@
 #include "unitysdk/MoleMole/UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_EType.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_8CB785F2EFECB918;
+class Class_1_5C777FDB0F8AF9D8;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_TypeDefinitionIndex = 77269;
+	inline static constexpr unsigned int UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_TypeDefinitionIndex = 81755;
 
 	struct alignas(8) UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify
 	{
 		::MoleMole::UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_EType Type; // 0x10
-		::Class_1_8CB785F2EFECB918* Data; // 0x18
+		::Class_1_5C777FDB0F8AF9D8* Data; // 0x18
 	};
 }

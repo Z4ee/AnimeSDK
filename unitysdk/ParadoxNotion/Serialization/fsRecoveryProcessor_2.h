@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int fsRecoveryProcessor_2_TypeDefinitionIndex = 27257;
+	inline static constexpr unsigned int fsRecoveryProcessor_2_TypeDefinitionIndex = 27049;
 
 	template <typename TCanProcess, typename TMissing>
 	class fsRecoveryProcessor_2 : public ::ParadoxNotion::Serialization::FullSerializer::fsObjectProcessor

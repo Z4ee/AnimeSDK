@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigHollowChessboard_BigTVMoveFireEffect; }
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBAFBC40)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__DISPLAYCLASS6_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xBAFC830)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186BAA70)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT___C__DISPLAYCLASS6_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x186BB5D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect___c__DisplayClass6_0_TypeDefinitionIndex = 79794;
+	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect___c__DisplayClass6_0_TypeDefinitionIndex = 43466;
 
 	class ConfigHollowChessboard_BigTVMoveFireEffect___c__DisplayClass6_0 : public ::System::Object
 	{

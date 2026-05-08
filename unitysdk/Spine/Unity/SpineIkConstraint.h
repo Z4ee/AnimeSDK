@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEIKCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x182C4C40)
+#define SPINE_UNITY_SPINEIKCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B73C30)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineIkConstraint_TypeDefinitionIndex = 37348;
+	inline static constexpr unsigned int SpineIkConstraint_TypeDefinitionIndex = 37892;
 
 	class SpineIkConstraint : public ::Spine::Unity::SpineAttributeBase
 	{

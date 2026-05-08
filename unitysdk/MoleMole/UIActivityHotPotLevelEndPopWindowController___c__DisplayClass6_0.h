@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_214;
+class Class_2_208CC9941471731A_843;
 class Class_2_293B23618CFCC726;
-class Class_3_48A3D3A34C52331D_56;
+class Class_3_48A3D3A34C52331D_13;
 namespace MoleMole { class UIActivityHotPotLevelEndPopWindowController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7345F0)
-#define MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xB734600)
-#define MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__1_OFFSET UNITYSDK_OFFSET(0xB734740)
+#define MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B4AAB0)
+#define MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x12B4AAC0)
+#define MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__1_OFFSET UNITYSDK_OFFSET(0x12B4AC00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotLevelEndPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 46922;
+	inline static constexpr unsigned int UIActivityHotPotLevelEndPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 57604;
 
 	class UIActivityHotPotLevelEndPopWindowController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Class_3_48A3D3A34C52331D_56*>* __9__1; // 0x10
-		::Class_2_208CC9941471731A_214* curLevelConfig; // 0x18
-		::MoleMole::UIActivityHotPotLevelEndPopWindowController* __4__this; // 0x20
-		::Class_2_293B23618CFCC726* model; // 0x28
-		::System::Int32 rankID; // 0x30
-		::System::Int32 generalLevelID; // 0x34
+		::Class_2_208CC9941471731A_843* curLevelConfig; // 0x10
+		::System::Action_1<::Class_3_48A3D3A34C52331D_13*>* __9__1; // 0x18
+		::Class_2_293B23618CFCC726* model; // 0x20
+		::MoleMole::UIActivityHotPotLevelEndPopWindowController* __4__this; // 0x28
+		::System::Int32 generalLevelID; // 0x30
+		::System::Int32 rankID; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -36,9 +36,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__0_OFFSET))(this);
 		}
 
-		::System::Void _OnUIOpen_b__1(::Class_3_48A3D3A34C52331D_56* rsp)
+		::System::Void _OnUIOpen_b__1(::Class_3_48A3D3A34C52331D_13* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_56*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__1_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_13*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYHOTPOTLEVELENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONUIOPEN_B__1_OFFSET))(this, rsp);
 		}
 	};
 }

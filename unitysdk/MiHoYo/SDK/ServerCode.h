@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19353120)
+#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA58FC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 18102;
+	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 18440;
 
 	class ServerCode : public ::System::Object
 	{
@@ -64,6 +64,7 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 AGE_GATE_PARENT_EMAIL_RESEND_TOO_MANY = 0xFFFFEF95; // 0x0
 		// static const ::System::Int32 INVALID_AGE_GATE_EMAIL = 0xFFFFEF93; // 0x0
 		// static const ::System::Int32 AGE_GATE_INVALID_PAYLOAD = 0xFFFFEF8F; // 0x0
+		// static const ::System::Int32 AGE_GATE_BR_CHALLENGE = 0xFFFFEF7F; // 0x0
 		// static const ::System::Int32 AGE_GATE_TEEN_WITHOUT_VPC = 0x94; // 0x0
 		// static const ::System::Int32 AGE_GATE_NEED_PERMISSION = 0x95; // 0x0
 		// static const ::System::Int32 AGE_GATE_MINOR_WITHOUT_VPC = 0x96; // 0x0

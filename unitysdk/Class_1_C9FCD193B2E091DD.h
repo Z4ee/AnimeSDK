@@ -13,25 +13,25 @@ namespace MoleMole { class UIGeneralConsoleExistNormalBtnWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_4CD8461FEFD0CC16_OFFSET UNITYSDK_OFFSET(0xA6F4550)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_7EC49C7DA20D319C_OFFSET UNITYSDK_OFFSET(0xA6F4A90)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_9875F1FD7655484D_OFFSET UNITYSDK_OFFSET(0xA6F4830)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_AD22B45D706705D7_OFFSET UNITYSDK_OFFSET(0xA6F4770)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_B2A9E476CE8053F4_OFFSET UNITYSDK_OFFSET(0xA6F45D0)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xA6F46A0)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xA6F4700)
-#define CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA6F4640)
-#define CLASS_1_C9FCD193B2E091DD__CTOR_OFFSET UNITYSDK_OFFSET(0xA6F4760)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_4CD17AB80EA0EC4A_OFFSET UNITYSDK_OFFSET(0x101445E0)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_4CD8461FEFD0CC16_OFFSET UNITYSDK_OFFSET(0x10144460)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_9875F1FD7655484D_OFFSET UNITYSDK_OFFSET(0x10144980)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_AD22B45D706705D7_OFFSET UNITYSDK_OFFSET(0x10144BA0)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_B2A9E476CE8053F4_OFFSET UNITYSDK_OFFSET(0x101444C0)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x10144550)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x10144590)
+#define CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10144510)
+#define CLASS_1_C9FCD193B2E091DD__CTOR_OFFSET UNITYSDK_OFFSET(0x101445D0)
 
-inline static constexpr unsigned int Class_1_C9FCD193B2E091DD_TypeDefinitionIndex = 41790;
+inline static constexpr unsigned int Class_1_C9FCD193B2E091DD_TypeDefinitionIndex = 71155;
 
 class Class_1_C9FCD193B2E091DD : public ::System::Object
 {
 public:
-	::MoleMole::ActivityWidgetContext* Field_1_0; // 0x10
-	::Class_1_D375C91CCE5D3999* Field_1_2; // 0x18
-	::MoleMole::UIGeneralConsoleExistNormalBtnWidgetController* Field_1_3; // 0x20
-	::Class_1_AE0C440AAD48398A* Field_1_1; // 0x28
+	::MoleMole::UIGeneralConsoleExistNormalBtnWidgetController* Field_1_3; // 0x10
+	::MoleMole::ActivityWidgetContext* Field_1_0; // 0x18
+	::Class_1_AE0C440AAD48398A* Field_1_1; // 0x20
+	::Class_1_D375C91CCE5D3999* Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -63,9 +63,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C9FCD193B2E091DD_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_AD22B45D706705D7(::System::Collections::Generic::List_1<::System::Int32>* a1)
+	::System::Void Method_1_4CD17AB80EA0EC4A(::UnityEngine::Events::UnityAction* a1, ::Share::ENotificationBadgeType a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_C9FCD193B2E091DD_METHOD_1_AD22B45D706705D7_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::Share::ENotificationBadgeType))((::PBYTE)hIl2Cpp + CLASS_1_C9FCD193B2E091DD_METHOD_1_4CD17AB80EA0EC4A_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_1_9875F1FD7655484D()
@@ -73,8 +73,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C9FCD193B2E091DD_METHOD_1_9875F1FD7655484D_OFFSET))(this);
 	}
 
-	::System::Void Method_1_7EC49C7DA20D319C(::UnityEngine::Events::UnityAction* a1, ::Share::ENotificationBadgeType a2)
+	::System::Boolean Method_1_AD22B45D706705D7(::System::Collections::Generic::List_1<::System::Int32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::Share::ENotificationBadgeType))((::PBYTE)hIl2Cpp + CLASS_1_C9FCD193B2E091DD_METHOD_1_7EC49C7DA20D319C_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_C9FCD193B2E091DD_METHOD_1_AD22B45D706705D7_OFFSET))(this, a1);
 	}
 };

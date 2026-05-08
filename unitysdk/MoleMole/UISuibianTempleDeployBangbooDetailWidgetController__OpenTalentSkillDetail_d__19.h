@@ -8,21 +8,21 @@
 namespace MoleMole { class UISuibianTempleDeployBangbooDetailWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3896E0)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x75E4F0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController__OpenTalentSkillDetail_d__19_TypeDefinitionIndex = 50870;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController__OpenTalentSkillDetail_d__19_TypeDefinitionIndex = 81113;
 
 	struct alignas(8) UISuibianTempleDeployBangbooDetailWidgetController__OpenTalentSkillDetail_d__19
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__1; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
 		::MoleMole::UISuibianTempleDeployBangbooDetailWidgetController* __4__this; // 0x30
 		::System::Boolean force; // 0x38
-		::System::Int32 __1__state; // 0x3C
-		::Foundation::Tuple_2<::System::Int32, ::System::Int32> index; // 0x40
+		::Foundation::Tuple_2<::System::Int32, ::System::Int32> index; // 0x3C
+		::System::Int32 __1__state; // 0x44
 
 		::System::Void MoveNext()
 		{

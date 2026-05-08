@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_BATTLE_HOTPOTRENDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x81CCEF0)
+#define MOLEMOLE_BATTLE_HOTPOTRENDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE55B0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int HotpotRenderInfo_TypeDefinitionIndex = 46631;
+	inline static constexpr unsigned int HotpotRenderInfo_TypeDefinitionIndex = 47227;
 
 	class HotpotRenderInfo : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

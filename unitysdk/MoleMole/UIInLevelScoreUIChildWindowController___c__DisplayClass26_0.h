@@ -6,20 +6,20 @@
 namespace MoleMole { class UIInLevelScoreUIChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELSCOREUICHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD77490)
-#define MOLEMOLE_UIINLEVELSCOREUICHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__RESTARTSCORETIP_B__0_OFFSET UNITYSDK_OFFSET(0xAD774A0)
-#define MOLEMOLE_UIINLEVELSCOREUICHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__RESTARTSCORETIP_B__1_OFFSET UNITYSDK_OFFSET(0xAD77540)
+#define MOLEMOLE_UIINLEVELSCOREUICHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1639E7F0)
+#define MOLEMOLE_UIINLEVELSCOREUICHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__RESTARTSCORETIP_B__0_OFFSET UNITYSDK_OFFSET(0x1639E800)
+#define MOLEMOLE_UIINLEVELSCOREUICHILDWINDOWCONTROLLER___C__DISPLAYCLASS26_0__RESTARTSCORETIP_B__1_OFFSET UNITYSDK_OFFSET(0x1639E8A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelScoreUIChildWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 62006;
+	inline static constexpr unsigned int UIInLevelScoreUIChildWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 59345;
 
 	class UIInLevelScoreUIChildWindowController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
 		::Struct_2_D83DC7376F4C0DA0 param; // 0x10
-		::MoleMole::UIInLevelScoreUIChildWindowController* __4__this; // 0x50
-		::System::Action* __9__1; // 0x58
+		::System::Action* __9__1; // 0x50
+		::MoleMole::UIInLevelScoreUIChildWindowController* __4__this; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FowardDir_TypeDefinitionIndex = 80449;
+inline static constexpr unsigned int FowardDir_TypeDefinitionIndex = 61305;
 
 enum class FowardDir : ::System::Int32
 {
-	Left = 2,
-	Back = 3,
 	Foward = 1,
-	Right = 4,
+	Back = 3,
 	None = 0,
+	Right = 4,
+	Left = 2,
 };

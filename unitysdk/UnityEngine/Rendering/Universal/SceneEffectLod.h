@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SceneEffectLod_TypeDefinitionIndex = 29304;
+	inline static constexpr unsigned int SceneEffectLod_TypeDefinitionIndex = 29823;
 
 	enum class SceneEffectLod : ::System::Int32
 	{

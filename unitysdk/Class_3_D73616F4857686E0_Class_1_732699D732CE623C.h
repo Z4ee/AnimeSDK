@@ -8,17 +8,17 @@
 
 namespace System { class String; }
 
-#define CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C_METHOD_1_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0x7B43550)
-#define CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C__CTOR_OFFSET UNITYSDK_OFFSET(0x7B43540)
+#define CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C_METHOD_1_CFE6FB160FFF5938_OFFSET UNITYSDK_OFFSET(0xF64EC30)
+#define CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C__CTOR_OFFSET UNITYSDK_OFFSET(0xF64EC20)
 
-inline static constexpr unsigned int Class_3_D73616F4857686E0_Class_1_732699D732CE623C_TypeDefinitionIndex = 45427;
+inline static constexpr unsigned int Class_3_D73616F4857686E0_Class_1_732699D732CE623C_TypeDefinitionIndex = 67342;
 
 class Class_3_D73616F4857686E0_Class_1_732699D732CE623C : public ::System::Object
 {
 public:
 	::System::String* Field_1_5; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::Struct_2_FE9BD044832BC9C3 Field_1_7; // 0x20
+	::Struct_2_FE9BD044832BC9C3 Field_1_7; // 0x18
+	::System::String* Field_1_1; // 0x48
 	::System::Boolean Field_1_2; // 0x50
 	::System::Boolean Field_1_3; // 0x51
 	::MoleMole::FlowCanvas::Nodes::LD_CallCameraEffect_CallType Field_1_0; // 0x54
@@ -30,8 +30,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_F29D7A7F508EABE1()
+	::System::Void Method_1_CFE6FB160FFF5938()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C_METHOD_1_F29D7A7F508EABE1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D73616F4857686E0_CLASS_1_732699D732CE623C_METHOD_1_CFE6FB160FFF5938_OFFSET))(this);
 	}
 };

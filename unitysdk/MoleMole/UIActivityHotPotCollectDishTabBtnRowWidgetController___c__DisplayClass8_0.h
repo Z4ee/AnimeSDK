@@ -5,18 +5,18 @@
 namespace MoleMole { class UIActivityHotPotCollectDishTabBtnRowWidgetController; }
 namespace MoleMole { class UIActivityHotPotCollectDishTabBtnRowWidgetController_Data; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTCOLLECTDISHTABBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF12F00)
-#define MOLEMOLE_UIACTIVITYHOTPOTCOLLECTDISHTABBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xBF12F10)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOLLECTDISHTABBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167DE270)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOLLECTDISHTABBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x167DE280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotCollectDishTabBtnRowWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 56267;
+	inline static constexpr unsigned int UIActivityHotPotCollectDishTabBtnRowWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 49518;
 
 	class UIActivityHotPotCollectDishTabBtnRowWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityHotPotCollectDishTabBtnRowWidgetController_Data* data; // 0x10
-		::MoleMole::UIActivityHotPotCollectDishTabBtnRowWidgetController* __4__this; // 0x18
+		::MoleMole::UIActivityHotPotCollectDishTabBtnRowWidgetController* __4__this; // 0x10
+		::MoleMole::UIActivityHotPotCollectDishTabBtnRowWidgetController_Data* data; // 0x18
 
 		::System::Void _ctor()
 		{

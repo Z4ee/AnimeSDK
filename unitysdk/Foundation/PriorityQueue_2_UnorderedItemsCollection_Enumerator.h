@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int PriorityQueue_2_UnorderedItemsCollection_Enumerator_TypeDefinitionIndex = 7756;
+	inline static constexpr unsigned int PriorityQueue_2_UnorderedItemsCollection_Enumerator_TypeDefinitionIndex = 7931;
 
 	template <typename TElement, typename TPriority>
 	struct PriorityQueue_2_UnorderedItemsCollection_Enumerator

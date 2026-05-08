@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace MoleMole::EffectSimulate { class UVCurve; }
+namespace System { class String; }
+
+namespace MoleMole::EffectSimulate
+{
+	inline static constexpr unsigned int ESMatTexUVAnimation_Struct_2_652A2884C5236065_1_TypeDefinitionIndex = 55130;
+
+	struct alignas(8) ESMatTexUVAnimation_Struct_2_652A2884C5236065_1
+	{
+		::System::String* Field_2_0; // 0x10
+		::MoleMole::EffectSimulate::UVCurve* Field_2_3; // 0x18
+		::System::Single Field_2_1; // 0x20
+		::System::Single Field_2_2; // 0x24
+	};
+}

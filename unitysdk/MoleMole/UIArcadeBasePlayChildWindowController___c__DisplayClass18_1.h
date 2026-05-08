@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIArcadeBasePlayChildWindowController___c__DisplayClass18_0; }
 
-#define MOLEMOLE_UIARCADEBASEPLAYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CREATEMINIGAMEWORLD_B__1_OFFSET UNITYSDK_OFFSET(0xD246330)
-#define MOLEMOLE_UIARCADEBASEPLAYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD246320)
+#define MOLEMOLE_UIARCADEBASEPLAYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CREATEMINIGAMEWORLD_B__1_OFFSET UNITYSDK_OFFSET(0x16456930)
+#define MOLEMOLE_UIARCADEBASEPLAYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16456920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeBasePlayChildWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 61761;
+	inline static constexpr unsigned int UIArcadeBasePlayChildWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 47944;
 
 	class UIArcadeBasePlayChildWindowController___c__DisplayClass18_1 : public ::System::Object
 	{

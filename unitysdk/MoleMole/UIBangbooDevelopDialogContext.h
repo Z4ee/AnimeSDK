@@ -3,18 +3,18 @@
 #include "unitysdk/Enum_3_D2F9C9EC7859C427.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_F51BBF303F6FB2C0;
+class Class_2_4DA7BFFCF976F7D7;
 
-#define MOLEMOLE_UIBANGBOODEVELOPDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD01D580)
+#define MOLEMOLE_UIBANGBOODEVELOPDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E46130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooDevelopDialogContext_TypeDefinitionIndex = 37892;
+	inline static constexpr unsigned int UIBangbooDevelopDialogContext_TypeDefinitionIndex = 39061;
 
 	class UIBangbooDevelopDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_F51BBF303F6FB2C0* data; // 0x28
+		::Class_2_4DA7BFFCF976F7D7* data; // 0x28
 		::Enum_3_D2F9C9EC7859C427 _subType; // 0x30
 
 		::System::Void _ctor()

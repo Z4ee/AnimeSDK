@@ -4,7 +4,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int IHierarchicalHashGridCompareKeyFunc_1_TypeDefinitionIndex = 9083;
+	inline static constexpr unsigned int IHierarchicalHashGridCompareKeyFunc_1_TypeDefinitionIndex = 8789;
 
 	template <typename T>
 	class IHierarchicalHashGridCompareKeyFunc_1

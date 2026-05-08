@@ -4,11 +4,11 @@
 
 namespace FlowCanvas { class FlowScript; }
 
-#define FLOWCANVAS_NODES_FLOWNESTEDFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x195475F0)
+#define FLOWCANVAS_NODES_FLOWNESTEDFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A294DB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FlowNestedFlow_TypeDefinitionIndex = 26702;
+	inline static constexpr unsigned int FlowNestedFlow_TypeDefinitionIndex = 27264;
 
 	class FlowNestedFlow : public ::FlowCanvas::Nodes::FlowNestedBase_1<::FlowCanvas::FlowScript*>
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int FurHelper_ObjectInfos_TypeDefinitionIndex = 29016;
+inline static constexpr unsigned int FurHelper_ObjectInfos_TypeDefinitionIndex = 29535;
 
 struct alignas(8) FurHelper_ObjectInfos
 {

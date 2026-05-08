@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_REPELTIPSSHOW_GET_ISBLOCKCENTER_OFFSET UNITYSDK_OFFSET(0xA7F8B90)
-#define MOLEMOLE_REPELTIPSSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xA7F8BE0)
-#define MOLEMOLE_REPELTIPSSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0xA7F8BA0)
+#define MOLEMOLE_REPELTIPSSHOW_GET_ISBLOCKCENTER_OFFSET UNITYSDK_OFFSET(0x16069F30)
+#define MOLEMOLE_REPELTIPSSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x16069F80)
+#define MOLEMOLE_REPELTIPSSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x16069F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RepelTipsShow_TypeDefinitionIndex = 41844;
+	inline static constexpr unsigned int RepelTipsShow_TypeDefinitionIndex = 80767;
 
 	class RepelTipsShow : public ::MoleMole::DisplayMessageBase
 	{

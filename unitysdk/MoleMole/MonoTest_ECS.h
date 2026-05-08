@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOTEST_ECS_METHOD_5_765F31ECF6C53214_OFFSET UNITYSDK_OFFSET(0x8C8A0D0)
-#define MOLEMOLE_MONOTEST_ECS_TEST_OFFSET UNITYSDK_OFFSET(0x8C8A050)
-#define MOLEMOLE_MONOTEST_ECS__CTOR_OFFSET UNITYSDK_OFFSET(0x8C8A0B0)
+#define MOLEMOLE_MONOTEST_ECS_METHOD_5_EA6D328EF56CB9CB_OFFSET UNITYSDK_OFFSET(0x13EA8A20)
+#define MOLEMOLE_MONOTEST_ECS_TEST_OFFSET UNITYSDK_OFFSET(0x13EA8990)
+#define MOLEMOLE_MONOTEST_ECS__CTOR_OFFSET UNITYSDK_OFFSET(0x13EA89D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTest_ECS_TypeDefinitionIndex = 51971;
+	inline static constexpr unsigned int MonoTest_ECS_TypeDefinitionIndex = 41958;
 
 	class MonoTest_ECS : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,9 +27,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEST_ECS_TEST_OFFSET))(this);
 		}
 
-		::System::Int32 Method_5_765F31ECF6C53214(::System::String* a1)
+		::System::Int32 Method_5_EA6D328EF56CB9CB(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEST_ECS_METHOD_5_765F31ECF6C53214_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEST_ECS_METHOD_5_EA6D328EF56CB9CB_OFFSET))(this, a1);
 		}
 	};
 }

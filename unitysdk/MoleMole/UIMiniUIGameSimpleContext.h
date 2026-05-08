@@ -3,12 +3,12 @@
 #include "unitysdk/Enum_3_2271A294FCCB3EAE.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x7478E70)
-#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x7478E60)
+#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14844130)
+#define MOLEMOLE_UIMINIUIGAMESIMPLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14844120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniUIGameSimpleContext_TypeDefinitionIndex = 64646;
+	inline static constexpr unsigned int UIMiniUIGameSimpleContext_TypeDefinitionIndex = 59950;
 
 	class UIMiniUIGameSimpleContext : public ::MoleMole::UIControllerContextBase
 	{

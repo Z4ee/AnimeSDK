@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Monster
 {
-	inline static constexpr unsigned int MatrixKeyItem_TypeDefinitionIndex = 61364;
+	inline static constexpr unsigned int MatrixKeyItem_TypeDefinitionIndex = 81892;
 
 	struct alignas(8) MatrixKeyItem
 	{

@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigHollowInteractEffectImp; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9500930)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1241DDC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractEffect_TypeDefinitionIndex = 72306;
+	inline static constexpr unsigned int ConfigHollowInteractEffect_TypeDefinitionIndex = 72250;
 
 	class ConfigHollowInteractEffect : public ::System::Object
 	{

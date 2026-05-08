@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERBUDDYBATTERYENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xACB0110)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERBUDDYBATTERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xACB01B0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERBUDDYBATTERYENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x17520C00)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERBUDDYBATTERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17520C80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventRecoverBuddyBatteryEntry_TypeDefinitionIndex = 50896;
+	inline static constexpr unsigned int AnimatorEventRecoverBuddyBatteryEntry_TypeDefinitionIndex = 72728;
 
 	class AnimatorEventRecoverBuddyBatteryEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

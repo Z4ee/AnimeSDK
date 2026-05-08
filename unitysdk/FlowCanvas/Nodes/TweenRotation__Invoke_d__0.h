@@ -7,30 +7,30 @@
 namespace FlowCanvas::Nodes { class TweenRotation; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19FF0B00)
-#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19FF1060)
-#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19FF10C0)
-#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19FF1070)
-#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19FF0AF0)
-#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF0AE0)
+#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1ADAF900)
+#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ADAFE60)
+#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ADAFEC0)
+#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1ADAFE70)
+#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADAF8F0)
+#define FLOWCANVAS_NODES_TWEENROTATION__INVOKE_D__0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAF8E0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenRotation__Invoke_d__0_TypeDefinitionIndex = 27710;
+	inline static constexpr unsigned int TweenRotation__Invoke_d__0_TypeDefinitionIndex = 28212;
 
 	class TweenRotation__Invoke_d__0 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::UnityEngine::Transform* transform; // 0x18
-		::FlowCanvas::Nodes::TweenRotation* __4__this; // 0x20
+		::FlowCanvas::Nodes::TweenRotation* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::UnityEngine::Transform* transform; // 0x20
 		::System::Int32 __1__state; // 0x28
 		::System::Boolean relative; // 0x2C
 		::UnityEngine::Vector3 rotation; // 0x30
-		::System::Single duration; // 0x3C
-		::UnityEngine::Vector3 _from_5__3; // 0x40
-		::ParadoxNotion::Animation::EaseType interpolation; // 0x4C
-		::System::Single _t_5__2; // 0x50
+		::System::Single _t_5__2; // 0x3C
+		::System::Single duration; // 0x40
+		::UnityEngine::Vector3 _from_5__3; // 0x44
+		::ParadoxNotion::Animation::EaseType interpolation; // 0x50
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

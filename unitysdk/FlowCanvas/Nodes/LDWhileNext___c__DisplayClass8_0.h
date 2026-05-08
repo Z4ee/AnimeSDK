@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9045460)
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS8_0__DOWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x9045470)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11F47F00)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS8_0__DOWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x11F47F10)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWhileNext___c__DisplayClass8_0_TypeDefinitionIndex = 47712;
+	inline static constexpr unsigned int LDWhileNext___c__DisplayClass8_0_TypeDefinitionIndex = 46803;
 
 	class LDWhileNext___c__DisplayClass8_0 : public ::System::Object
 	{

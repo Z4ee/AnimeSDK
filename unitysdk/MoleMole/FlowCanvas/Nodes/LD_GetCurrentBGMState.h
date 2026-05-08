@@ -9,23 +9,23 @@ namespace MoleMole::FlowCanvas::Nodes { class LD_GetCurrentBGMState_StateGroupWr
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB5E32D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E3420)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xB5E3520)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0xB5E38A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15420930)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15420A60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x15420B90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTBGMSTATE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x15420EF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetCurrentBGMState_TypeDefinitionIndex = 41650;
+	inline static constexpr unsigned int LD_GetCurrentBGMState_TypeDefinitionIndex = 71416;
 
 	class LD_GetCurrentBGMState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::String*>*>* _statesOutput; // 0xA8
+		::System::Collections::Generic::List_1<::System::String*>* _states; // 0xA8
 		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDSetInLevelStateGroupV2_StateGroupKeyValue*>*>* _stateGroupPairsOutput; // 0xB0
-		::System::Collections::Generic::List_1<::System::String*>* _states; // 0xB8
+		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDSetInLevelStateGroupV2_StateGroupKeyValue*>* _stateGroupKeyValues; // 0xB8
 		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LD_GetCurrentBGMState_StateGroupWrapper*>*>* _stateGroupInput; // 0xC0
-		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDSetInLevelStateGroupV2_StateGroupKeyValue*>* _stateGroupKeyValues; // 0xC8
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::String*>*>* _statesOutput; // 0xC8
 
 		::System::Void _ctor()
 		{

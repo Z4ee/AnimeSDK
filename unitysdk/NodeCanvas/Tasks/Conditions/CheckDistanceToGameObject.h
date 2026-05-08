@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A1D2870)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A1D2B80)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1A1D2D40)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D2E80)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1AF34310)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1AF34620)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1AF347E0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF349A0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckDistanceToGameObject_TypeDefinitionIndex = 26933;
+	inline static constexpr unsigned int CheckDistanceToGameObject_TypeDefinitionIndex = 28060;
 
 	class CheckDistanceToGameObject : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* checkTarget; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* checkTarget; // 0x68
 		::System::Single floatingPoint; // 0x70
 		::ParadoxNotion::CompareMethod checkType; // 0x74
 

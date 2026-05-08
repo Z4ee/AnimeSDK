@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UISocialCircleMainTagWidgetController_Data; }
 
-#define MOLEMOLE_UISOCIALCIRCLEMAINTAGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA45FE60)
+#define MOLEMOLE_UISOCIALCIRCLEMAINTAGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x137878C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleMainTagWidgetController_Context_TypeDefinitionIndex = 60831;
+	inline static constexpr unsigned int UISocialCircleMainTagWidgetController_Context_TypeDefinitionIndex = 42262;
 
 	class UISocialCircleMainTagWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

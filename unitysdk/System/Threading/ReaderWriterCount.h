@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB90B10)
+#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DB810)
 
 namespace System::Threading
 {
@@ -12,10 +12,10 @@ namespace System::Threading
 	{
 	public:
 		::System::Threading::ReaderWriterCount* next; // 0x10
-		::System::Int64 lockID; // 0x18
+		::System::Int32 writercount; // 0x18
+		::System::Int32 upgradecount; // 0x1C
 		::System::Int32 readercount; // 0x20
-		::System::Int32 writercount; // 0x24
-		::System::Int32 upgradecount; // 0x28
+		::System::Int64 lockID; // 0x28
 
 		::System::Void _ctor()
 		{

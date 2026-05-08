@@ -6,7 +6,7 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int QuickList_1_TypeDefinitionIndex = 35208;
+	inline static constexpr unsigned int QuickList_1_TypeDefinitionIndex = 35733;
 
 	template <typename T>
 	class QuickList_1 : public ::System::Object

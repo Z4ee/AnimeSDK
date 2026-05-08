@@ -7,14 +7,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define QWER_DONTIMER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B64C000)
-#define QWER_DONTIMER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B64C030)
-#define QWER_DONTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B649D20)
-#define QWER_DONTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B64BFE0)
+#define QWER_DONTIMER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C3E7030)
+#define QWER_DONTIMER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C3E7060)
+#define QWER_DONTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C3E4D60)
+#define QWER_DONTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E7020)
 
 namespace QWER
 {
-	inline static constexpr unsigned int DOnTimer_TypeDefinitionIndex = 82518;
+	inline static constexpr unsigned int DOnTimer_TypeDefinitionIndex = 84246;
 
 	class DOnTimer : public ::System::MulticastDelegate
 	{

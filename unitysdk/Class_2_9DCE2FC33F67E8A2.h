@@ -6,16 +6,16 @@ class Class_1_E5B7864412CDC074;
 namespace MoleMole { class UIHollowChessboard3DModelController; }
 namespace MoleMole { class UIHollowMainPageController; }
 
-#define CLASS_2_9DCE2FC33F67E8A2_METHOD_2_9F86FD0988591376_OFFSET UNITYSDK_OFFSET(0x8B6E9F0)
-#define CLASS_2_9DCE2FC33F67E8A2__CTOR_OFFSET UNITYSDK_OFFSET(0x8B6E9E0)
+#define CLASS_2_9DCE2FC33F67E8A2_METHOD_2_9F86FD0988591376_OFFSET UNITYSDK_OFFSET(0xA995310)
+#define CLASS_2_9DCE2FC33F67E8A2__CTOR_OFFSET UNITYSDK_OFFSET(0xA995300)
 
-inline static constexpr unsigned int Class_2_9DCE2FC33F67E8A2_TypeDefinitionIndex = 38475;
+inline static constexpr unsigned int Class_2_9DCE2FC33F67E8A2_TypeDefinitionIndex = 58739;
 
 class Class_2_9DCE2FC33F67E8A2 : public ::Class_1_43BD383C98B4C0C5_19
 {
 public:
-	::MoleMole::UIHollowChessboard3DModelController* Field_2_0; // 0x10
-	::Class_1_E5B7864412CDC074* Field_2_1; // 0x18
+	::Class_1_E5B7864412CDC074* Field_2_1; // 0x10
+	::MoleMole::UIHollowChessboard3DModelController* Field_2_0; // 0x18
 	::MoleMole::UIHollowMainPageController* Field_2_2; // 0x20
 
 	::System::Void _ctor(::MoleMole::UIHollowChessboard3DModelController* a1, ::Class_1_E5B7864412CDC074* a2, ::MoleMole::UIHollowMainPageController* a3)

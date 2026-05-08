@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1747DAB17F36B4DF;
+namespace MoleMole::Audio { class MonoSoundSceneObject; }
+
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_INIT_OFFSET UNITYSDK_OFFSET(0xFE8A1A0)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_METHOD_1_3F6B1FF9C15A2E06_OFFSET UNITYSDK_OFFSET(0xFE8A210)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_ONSYNC_OFFSET UNITYSDK_OFFSET(0xFE89610)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_POLISH_OFFSET UNITYSDK_OFFSET(0xFE89EE0)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_RECYCLE_OFFSET UNITYSDK_OFFSET(0xFE89F30)
+#define MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3__CTOR_OFFSET UNITYSDK_OFFSET(0xFE8A200)
+
+namespace MoleMole::Audio
+{
+	inline static constexpr unsigned int MonoSoundSceneObject_Class_1_AB3A1B0EF7F4FDA3_TypeDefinitionIndex = 42063;
+
+	class MonoSoundSceneObject_Class_1_AB3A1B0EF7F4FDA3 : public ::System::Object
+	{
+	public:
+		::MoleMole::Audio::MonoSoundSceneObject* Field_1_0; // 0x10
+		::System::Int32 Field_1_1; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnSync(::Class_1_1747DAB17F36B4DF* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_1747DAB17F36B4DF*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_ONSYNC_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Polish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_POLISH_OFFSET))(this);
+		}
+
+		::System::Void Recycle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_RECYCLE_OFFSET))(this);
+		}
+
+		::System::Void Init(::Class_1_1747DAB17F36B4DF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_1747DAB17F36B4DF*))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_INIT_OFFSET))(this, a1);
+		}
+
+		static ::MoleMole::Audio::MonoSoundSceneObject_Class_1_AB3A1B0EF7F4FDA3* Method_1_3F6B1FF9C15A2E06(::MoleMole::Audio::MonoSoundSceneObject* a1)
+		{
+			return ((::MoleMole::Audio::MonoSoundSceneObject_Class_1_AB3A1B0EF7F4FDA3*(*)(::MoleMole::Audio::MonoSoundSceneObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUNDSCENEOBJECT_CLASS_1_AB3A1B0EF7F4FDA3_METHOD_1_3F6B1FF9C15A2E06_OFFSET))(a1);
+		}
+	};
+}

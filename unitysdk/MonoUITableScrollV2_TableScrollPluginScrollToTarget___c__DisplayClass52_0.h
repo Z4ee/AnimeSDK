@@ -4,7 +4,7 @@
 
 class MonoUITableScrollV2_TableScrollPluginScrollToTarget;
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass52_0_TypeDefinitionIndex = 64397;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass52_0_TypeDefinitionIndex = 54083;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass52_0
 {

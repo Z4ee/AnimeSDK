@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LANGUAGEFONTSIZEADAPTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9198320)
+#define MOLEMOLE_CONFIG_LANGUAGEFONTSIZEADAPTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB77B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LanguageFontSizeAdaptive_TypeDefinitionIndex = 42722;
+	inline static constexpr unsigned int LanguageFontSizeAdaptive_TypeDefinitionIndex = 54230;
 
 	class LanguageFontSizeAdaptive : public ::System::Object
 	{

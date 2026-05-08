@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsEntityTaskParam_1_TypeDefinitionIndex = 35186;
+	inline static constexpr unsigned int EcsEntityTaskParam_1_TypeDefinitionIndex = 35719;
 
 	template <typename T>
 	class EcsEntityTaskParam_1 : public ::System::MulticastDelegate

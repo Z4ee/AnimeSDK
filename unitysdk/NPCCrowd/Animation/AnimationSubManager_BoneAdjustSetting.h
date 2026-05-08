@@ -8,7 +8,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_BoneAdjustSetting_TypeDefinitionIndex = 59691;
+	inline static constexpr unsigned int AnimationSubManager_BoneAdjustSetting_TypeDefinitionIndex = 70443;
 
 	struct alignas(8) AnimationSubManager_BoneAdjustSetting
 	{

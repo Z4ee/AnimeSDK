@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define NPCAVATARMESHASSETSSO_FMONOITEMSTATESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x783AD40)
+#define NPCAVATARMESHASSETSSO_FMONOITEMSTATESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x11B0D7F0)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FMonoItemStateSettings_TypeDefinitionIndex = 40976;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FMonoItemStateSettings_TypeDefinitionIndex = 56642;
 
 class NPCAvatarMeshAssetsSO_FMonoItemStateSettings : public ::System::Object
 {

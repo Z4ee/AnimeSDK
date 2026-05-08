@@ -6,7 +6,7 @@
 
 template <typename T1, typename T2, typename T3> class Class_0_16E4307DCC41950C_19;
 
-inline static constexpr unsigned int Struct_2_B595D7E1AE382BA3_TypeDefinitionIndex = 48285;
+inline static constexpr unsigned int Struct_2_B595D7E1AE382BA3_TypeDefinitionIndex = 81910;
 
 template <typename TPose, typename TIntrinsics, typename TOuterCtx>
 struct Struct_2_B595D7E1AE382BA3

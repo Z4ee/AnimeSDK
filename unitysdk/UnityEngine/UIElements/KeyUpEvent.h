@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/KeyboardEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_KEYUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E7B8E0)
+#define UNITYENGINE_UIELEMENTS_KEYUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197B15F0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int KeyUpEvent_TypeDefinitionIndex = 24511;
+	inline static constexpr unsigned int KeyUpEvent_TypeDefinitionIndex = 25025;
 
 	class KeyUpEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyUpEvent*>
 	{

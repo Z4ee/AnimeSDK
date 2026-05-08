@@ -5,13 +5,15 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define MONOGALGAME3D_GET_Z_OFFSET UNITYSDK_OFFSET(0x7BF09A0)
-#define MONOGALGAME3D_SET_MOUSEPOSITION_OFFSET UNITYSDK_OFFSET(0x7BF08E0)
-#define MONOGALGAME3D_START_OFFSET UNITYSDK_OFFSET(0x7BF09B0)
-#define MONOGALGAME3D_UPDATE_OFFSET UNITYSDK_OFFSET(0x7BF0A40)
-#define MONOGALGAME3D__CTOR_OFFSET UNITYSDK_OFFSET(0x7BF0CD0)
+#define MONOGALGAME3D_AWAKE_OFFSET UNITYSDK_OFFSET(0xEBDD3C0)
+#define MONOGALGAME3D_GET_Z_OFFSET UNITYSDK_OFFSET(0xEBDD3B0)
+#define MONOGALGAME3D_INPUTTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0xEBDD7B0)
+#define MONOGALGAME3D_SET_MOUSEPOSITION_OFFSET UNITYSDK_OFFSET(0xEBDD310)
+#define MONOGALGAME3D_START_OFFSET UNITYSDK_OFFSET(0xEBDD400)
+#define MONOGALGAME3D_UPDATE_OFFSET UNITYSDK_OFFSET(0xEBDD490)
+#define MONOGALGAME3D__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDD800)
 
-inline static constexpr unsigned int MonoGalGame3D_TypeDefinitionIndex = 59064;
+inline static constexpr unsigned int MonoGalGame3D_TypeDefinitionIndex = 52233;
 
 class MonoGalGame3D : public ::UnityEngine::MonoBehaviour
 {
@@ -20,7 +22,10 @@ public:
 	::System::Single m_RollYMaxAngle; // 0x1C
 	::UnityEngine::Vector2 m_MousePosition; // 0x20
 	::System::Single m_Z; // 0x28
-	::UnityEngine::RectTransform* m_RectTransform; // 0x30
+	::System::Single m_Frequency; // 0x2C
+	::System::Single m_Amplitude; // 0x30
+	::UnityEngine::RectTransform* m_RectTransform; // 0x38
+	::UnityEngine::Vector2 _targetPos; // 0x40
 
 	::System::Void _ctor()
 	{
@@ -37,6 +42,11 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOGALGAME3D_GET_Z_OFFSET))(this);
 	}
 
+	::System::Void Awake()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOGALGAME3D_AWAKE_OFFSET))(this);
+	}
+
 	::System::Void Start()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOGALGAME3D_START_OFFSET))(this);
@@ -45,5 +55,10 @@ public:
 	::System::Void Update()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOGALGAME3D_UPDATE_OFFSET))(this);
+	}
+
+	::System::Void InputTargetPosition(::UnityEngine::Vector2 pos)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MONOGALGAME3D_INPUTTARGETPOSITION_OFFSET))(this, pos);
 	}
 };

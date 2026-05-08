@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MoveToTarget_AIMoveTargetState_TypeDefinitionIndex = 51606;
+	inline static constexpr unsigned int MoveToTarget_AIMoveTargetState_TypeDefinitionIndex = 79600;
 
 	enum class MoveToTarget_AIMoveTargetState : ::System::Int32
 	{
-		MovingToTarget = 0,
 		Stop = 1,
+		MovingToTarget = 0,
 	};
 }

@@ -7,22 +7,22 @@ namespace System::Reflection { class FieldInfo; }
 namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine { class WaitForSeconds; }
 
-#define CLASS_3_402121D94A91AFBA_METHOD_3_5C9AE39E1F6A1A21_OFFSET UNITYSDK_OFFSET(0x7B0A4E0)
-#define CLASS_3_402121D94A91AFBA_METHOD_3_76CD9B9D1269FA90_OFFSET UNITYSDK_OFFSET(0x7B0A220)
-#define CLASS_3_402121D94A91AFBA_METHOD_3_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x7B0A3E0)
-#define CLASS_3_402121D94A91AFBA_METHOD_3_AB4CB744C1863F81_OFFSET UNITYSDK_OFFSET(0x7B0A440)
-#define CLASS_3_402121D94A91AFBA_METHOD_3_CA43F96720A5D04E_OFFSET UNITYSDK_OFFSET(0x7B0A170)
-#define CLASS_3_402121D94A91AFBA__CCTOR_OFFSET UNITYSDK_OFFSET(0x7B0A360)
-#define CLASS_3_402121D94A91AFBA__CTOR_OFFSET UNITYSDK_OFFSET(0x7B0A0A0)
+#define CLASS_3_402121D94A91AFBA_METHOD_3_5C9AE39E1F6A1A21_OFFSET UNITYSDK_OFFSET(0x1659E3E0)
+#define CLASS_3_402121D94A91AFBA_METHOD_3_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x1659E4E0)
+#define CLASS_3_402121D94A91AFBA_METHOD_3_AB4CB744C1863F81_OFFSET UNITYSDK_OFFSET(0x1659E460)
+#define CLASS_3_402121D94A91AFBA_METHOD_3_CA43F96720A5D04E_OFFSET UNITYSDK_OFFSET(0x1659E190)
+#define CLASS_3_402121D94A91AFBA_METHOD_3_FD7514C64FB1B043_OFFSET UNITYSDK_OFFSET(0x1659E220)
+#define CLASS_3_402121D94A91AFBA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1659E360)
+#define CLASS_3_402121D94A91AFBA__CTOR_OFFSET UNITYSDK_OFFSET(0x1659E090)
 
-inline static constexpr unsigned int Class_3_402121D94A91AFBA_TypeDefinitionIndex = 66253;
+inline static constexpr unsigned int Class_3_402121D94A91AFBA_TypeDefinitionIndex = 39703;
 
 class Class_3_402121D94A91AFBA : public ::Class_2_AB4261DB06E3A6BD
 {
 public:
 	static ::System::Reflection::FieldInfo** StaticGet_Field_3_2()
 	{
-		return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(Class_3_402121D94A91AFBA_TypeDefinitionIndex)->GetStaticField(0x44A40);
+		return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(Class_3_402121D94A91AFBA_TypeDefinitionIndex)->GetStaticField(0x2DC40);
 	}
 	::System::Collections::IEnumerator* Field_3_1; // 0x40
 	::System::Single Field_3_0; // 0x48
@@ -37,19 +37,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_3_76CD9B9D1269FA90(::System::Single a1)
+	::System::Void Method_3_FD7514C64FB1B043(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_76CD9B9D1269FA90_OFFSET))(this, a1);
-	}
-
-	::System::Single Method_3_A36150C5DCC8409E()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_A36150C5DCC8409E_OFFSET))(this);
-	}
-
-	static ::System::Collections::IEnumerator* Method_3_AB4CB744C1863F81(::UnityEngine::WaitForSeconds* a1)
-	{
-		return ((::System::Collections::IEnumerator*(*)(::UnityEngine::WaitForSeconds*))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_AB4CB744C1863F81_OFFSET))(a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_FD7514C64FB1B043_OFFSET))(this, a1);
 	}
 
 	static ::System::Collections::IEnumerator* Method_3_5C9AE39E1F6A1A21(::UnityEngine::AsyncOperation* a1)
@@ -57,8 +47,18 @@ public:
 		return ((::System::Collections::IEnumerator*(*)(::UnityEngine::AsyncOperation*))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_5C9AE39E1F6A1A21_OFFSET))(a1);
 	}
 
+	static ::System::Collections::IEnumerator* Method_3_AB4CB744C1863F81(::UnityEngine::WaitForSeconds* a1)
+	{
+		return ((::System::Collections::IEnumerator*(*)(::UnityEngine::WaitForSeconds*))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_AB4CB744C1863F81_OFFSET))(a1);
+	}
+
 	::System::Collections::IEnumerator* Method_3_CA43F96720A5D04E(::System::Collections::IEnumerator* a1)
 	{
 		return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_CA43F96720A5D04E_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_3_A36150C5DCC8409E()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_402121D94A91AFBA_METHOD_3_A36150C5DCC8409E_OFFSET))(this);
 	}
 };

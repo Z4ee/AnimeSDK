@@ -6,16 +6,16 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define CLASS_2_CCA2F740419298FF_CLASS_1_F34A49046043B628_METHOD_1_32ED00C1C62BDA5C_OFFSET UNITYSDK_OFFSET(0x8AE37A0)
-#define CLASS_2_CCA2F740419298FF_CLASS_1_F34A49046043B628__CTOR_OFFSET UNITYSDK_OFFSET(0x8AE3790)
+#define CLASS_2_CCA2F740419298FF_CLASS_1_F34A49046043B628_METHOD_1_32ED00C1C62BDA5C_OFFSET UNITYSDK_OFFSET(0x18ADD7F0)
+#define CLASS_2_CCA2F740419298FF_CLASS_1_F34A49046043B628__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADD7E0)
 
-inline static constexpr unsigned int Class_2_CCA2F740419298FF_Class_1_F34A49046043B628_TypeDefinitionIndex = 76682;
+inline static constexpr unsigned int Class_2_CCA2F740419298FF_Class_1_F34A49046043B628_TypeDefinitionIndex = 78706;
 
 class Class_2_CCA2F740419298FF_Class_1_F34A49046043B628 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::System::String* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

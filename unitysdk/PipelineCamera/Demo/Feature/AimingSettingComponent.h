@@ -12,11 +12,11 @@ namespace PipelineCamera::Demo::Pipeline { class DemoFollowPipelineSetting; }
 namespace PipelineCamera::Demo::Pipeline { class DemoFollowPlayerController; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define PIPELINECAMERA_DEMO_FEATURE_AIMINGSETTINGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7346C0)
+#define PIPELINECAMERA_DEMO_FEATURE_AIMINGSETTINGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B487770)
 
 namespace PipelineCamera::Demo::Feature
 {
-	inline static constexpr unsigned int AimingSettingComponent_TypeDefinitionIndex = 35601;
+	inline static constexpr unsigned int AimingSettingComponent_TypeDefinitionIndex = 36145;
 
 	class AimingSettingComponent : public ::UnityEngine::MonoBehaviour
 	{

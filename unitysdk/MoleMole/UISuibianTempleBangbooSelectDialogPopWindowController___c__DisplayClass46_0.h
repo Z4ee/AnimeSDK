@@ -5,19 +5,19 @@
 
 namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskCompletionSource_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE4C100)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS46_0__PLAYANIMATIONTASK_B__0_OFFSET UNITYSDK_OFFSET(0xAE4C110)
-#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS46_0__PLAYANIMATIONTASK_B__1_OFFSET UNITYSDK_OFFSET(0xAE4C150)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E29070)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS46_0__PLAYANIMATIONTASK_B__0_OFFSET UNITYSDK_OFFSET(0x12E29080)
+#define MOLEMOLE_UISUIBIANTEMPLEBANGBOOSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS46_0__PLAYANIMATIONTASK_B__1_OFFSET UNITYSDK_OFFSET(0x12E290C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBangbooSelectDialogPopWindowController___c__DisplayClass46_0_TypeDefinitionIndex = 56959;
+	inline static constexpr unsigned int UISuibianTempleBangbooSelectDialogPopWindowController___c__DisplayClass46_0_TypeDefinitionIndex = 49987;
 
 	class UISuibianTempleBangbooSelectDialogPopWindowController___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken token; // 0x10
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Boolean>* completionSource; // 0x18
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Boolean>* completionSource; // 0x10
+		::System::Threading::CancellationToken token; // 0x18
 
 		::System::Void _ctor()
 		{

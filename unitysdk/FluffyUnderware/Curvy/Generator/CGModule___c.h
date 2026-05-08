@@ -9,44 +9,44 @@ namespace FluffyUnderware::Curvy::Generator { class CGModuleSlot; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B49DDE0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49DE20)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DECREMENTCHILDS_B__116_0_OFFSET UNITYSDK_OFFSET(0x1B49DF00)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DECREMENTCHILDS_B__116_1_OFFSET UNITYSDK_OFFSET(0x1B49DFB0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DECREMENTCHILDS_B__116_2_OFFSET UNITYSDK_OFFSET(0x1B49DFE0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__INITIALIZESORT_B__115_0_OFFSET UNITYSDK_OFFSET(0x1B49DE30)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__INITIALIZESORT_B__115_1_OFFSET UNITYSDK_OFFSET(0x1B49DE50)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C316AC0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C316B00)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DECREMENTCHILDS_B__116_0_OFFSET UNITYSDK_OFFSET(0x1C316BE0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DECREMENTCHILDS_B__116_1_OFFSET UNITYSDK_OFFSET(0x1C316C90)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DECREMENTCHILDS_B__116_2_OFFSET UNITYSDK_OFFSET(0x1C316CC0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__INITIALIZESORT_B__115_0_OFFSET UNITYSDK_OFFSET(0x1C316B10)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__INITIALIZESORT_B__115_1_OFFSET UNITYSDK_OFFSET(0x1C316B30)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModule___c_TypeDefinitionIndex = 36781;
+	inline static constexpr unsigned int CGModule___c_TypeDefinitionIndex = 37325;
 
 	class CGModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot*, ::System::Collections::Generic::IEnumerable_1<::FluffyUnderware::Curvy::Generator::CGModuleSlot*>*>** StaticGet___9__116_0()
+		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Boolean>** StaticGet___9__115_0()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot*, ::System::Collections::Generic::IEnumerable_1<::FluffyUnderware::Curvy::Generator::CGModuleSlot*>*>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x26C70);
-		}
-		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Int32>** StaticGet___9__115_1()
-		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x26C78);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x27820);
 		}
 		static ::FluffyUnderware::Curvy::Generator::CGModule___c** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::Generator::CGModule___c**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x26C80);
+			return (::FluffyUnderware::Curvy::Generator::CGModule___c**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x27828);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleSlot*, ::FluffyUnderware::Curvy::Generator::CGModule*>** StaticGet___9__116_2()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleSlot*, ::FluffyUnderware::Curvy::Generator::CGModule*>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x26C88);
-		}
-		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Boolean>** StaticGet___9__115_0()
-		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x26C90);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleSlot*, ::FluffyUnderware::Curvy::Generator::CGModule*>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x27830);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleSlot*, ::System::Boolean>** StaticGet___9__116_1()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleSlot*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x26C98);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleSlot*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x27838);
+		}
+		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot*, ::System::Collections::Generic::IEnumerable_1<::FluffyUnderware::Curvy::Generator::CGModuleSlot*>*>** StaticGet___9__116_0()
+		{
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleOutputSlot*, ::System::Collections::Generic::IEnumerable_1<::FluffyUnderware::Curvy::Generator::CGModuleSlot*>*>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x27840);
+		}
+		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Int32>** StaticGet___9__115_1()
+		{
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGModuleInputSlot*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CGModule___c_TypeDefinitionIndex)->GetStaticField(0x27848);
 		}
 
 		static ::System::Void _cctor()

@@ -6,29 +6,29 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_12835C8B3F75CD39_OFFSET UNITYSDK_OFFSET(0xB8B0E90)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_1DC16C1417001FFF_OFFSET UNITYSDK_OFFSET(0xB8B2320)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_45538755B2515353_OFFSET UNITYSDK_OFFSET(0xB8B10C0)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_5D9797926F7DF67E_1_OFFSET UNITYSDK_OFFSET(0xB8B16B0)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_5D9797926F7DF67E_OFFSET UNITYSDK_OFFSET(0xB8B09C0)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_6E3468F4AA82E117_OFFSET UNITYSDK_OFFSET(0xB8B1B80)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_71C49FFE372991EA_OFFSET UNITYSDK_OFFSET(0xB8B2850)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB8B0970)
-#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B0940)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_12835C8B3F75CD39_OFFSET UNITYSDK_OFFSET(0x17816D60)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_1DC16C1417001FFF_OFFSET UNITYSDK_OFFSET(0x17816860)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_45538755B2515353_OFFSET UNITYSDK_OFFSET(0x17815E20)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_71C49FFE372991EA_OFFSET UNITYSDK_OFFSET(0x178167D0)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_AA00B4F14555CB24_OFFSET UNITYSDK_OFFSET(0x17815780)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_DA8494856B6E62D0_1_OFFSET UNITYSDK_OFFSET(0x178163E0)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_DA8494856B6E62D0_OFFSET UNITYSDK_OFFSET(0x17815390)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17815340)
+#define MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034__CTOR_OFFSET UNITYSDK_OFFSET(0x17815310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ImageSmoothMask_Class_1_D5BDCDD69CF32034_TypeDefinitionIndex = 74487;
+	inline static constexpr unsigned int ImageSmoothMask_Class_1_D5BDCDD69CF32034_TypeDefinitionIndex = 55762;
 
 	class ImageSmoothMask_Class_1_D5BDCDD69CF32034 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 Field_1_0; // 0x10
-		::UnityEngine::Vector2 Field_1_5; // 0x18
-		::UnityEngine::Vector2 Field_1_4; // 0x20
-		::UnityEngine::Vector2 Field_1_3; // 0x28
+		::UnityEngine::Vector2 Field_1_4; // 0x10
+		::UnityEngine::Vector2 Field_1_0; // 0x18
+		::UnityEngine::Vector2 Field_1_3; // 0x20
+		::UnityEngine::Vector2 Field_1_2; // 0x28
 		::UnityEngine::Vector2 Field_1_1; // 0x30
-		::UnityEngine::Vector2 Field_1_2; // 0x38
+		::UnityEngine::Vector2 Field_1_5; // 0x38
 
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2 a5, ::UnityEngine::Vector2 a6)
 		{
@@ -40,14 +40,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_5D9797926F7DF67E(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
+		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_DA8494856B6E62D0(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
 		{
-			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_5D9797926F7DF67E_OFFSET))(this, a1, a2, a3);
+			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_DA8494856B6E62D0_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_12835C8B3F75CD39(::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* a1, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>* a2)
+		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_AA00B4F14555CB24(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
 		{
-			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_12835C8B3F75CD39_OFFSET))(this, a1, a2);
+			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_AA00B4F14555CB24_OFFSET))(this, a1, a2, a3);
 		}
 
 		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_45538755B2515353(::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* a1, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>* a2, ::System::Int32 a3)
@@ -55,24 +55,24 @@ namespace MoleMole
 			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_45538755B2515353_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::UnityEngine::UIVertex>* Method_1_1DC16C1417001FFF(::UnityEngine::UIVertex a1, ::Il2CppArray<::UnityEngine::UIVertex>*& a2)
-		{
-			return ((::Il2CppArray<::UnityEngine::UIVertex>*(*)(::PVOID, ::UnityEngine::UIVertex, ::Il2CppArray<::UnityEngine::UIVertex>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_1DC16C1417001FFF_OFFSET))(this, a1, a2);
-		}
-
-		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_6E3468F4AA82E117(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
-		{
-			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_6E3468F4AA82E117_OFFSET))(this, a1, a2, a3);
-		}
-
 		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_71C49FFE372991EA(::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* a1, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>* a2)
 		{
 			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_71C49FFE372991EA_OFFSET))(this, a1, a2);
 		}
 
-		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_5D9797926F7DF67E_1(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
+		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_DA8494856B6E62D0_1(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
 		{
-			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_5D9797926F7DF67E_1_OFFSET))(this, a1, a2, a3);
+			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_DA8494856B6E62D0_1_OFFSET))(this, a1, a2, a3);
+		}
+
+		::Il2CppArray<::UnityEngine::UIVertex>* Method_1_1DC16C1417001FFF(::UnityEngine::UIVertex a1, ::Il2CppArray<::UnityEngine::UIVertex>*& a2)
+		{
+			return ((::Il2CppArray<::UnityEngine::UIVertex>*(*)(::PVOID, ::UnityEngine::UIVertex, ::Il2CppArray<::UnityEngine::UIVertex>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_1DC16C1417001FFF_OFFSET))(this, a1, a2);
+		}
+
+		::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* Method_1_12835C8B3F75CD39(::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034* a1, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>* a2)
+		{
+			return ((::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*(*)(::PVOID, ::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*, ::System::Collections::Generic::List_1<::MoleMole::ImageSmoothMask_Class_1_D5BDCDD69CF32034*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGESMOOTHMASK_CLASS_1_D5BDCDD69CF32034_METHOD_1_12835C8B3F75CD39_OFFSET))(this, a1, a2);
 		}
 	};
 }

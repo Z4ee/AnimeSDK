@@ -5,18 +5,18 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIGACHAITEMNAMEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC0FE5B0)
+#define MOLEMOLE_UIGACHAITEMNAMEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1699F1D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaItemNameWidgetContext_TypeDefinitionIndex = 77968;
+	inline static constexpr unsigned int UIGachaItemNameWidgetContext_TypeDefinitionIndex = 53070;
 
 	class UIGachaItemNameWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* OnClickBtn; // 0x28
-		::System::String* NameText; // 0x30
-		::System::String* NameEFText; // 0x38
+		::System::String* NameEFText; // 0x30
+		::System::String* NameText; // 0x38
 		::System::Boolean ShowBtn; // 0x40
 
 		::System::Void _ctor()

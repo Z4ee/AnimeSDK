@@ -3,11 +3,11 @@
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_MONOHOLLOWGUIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB84DF90)
+#define MOLEMOLE_MONOHOLLOWGUIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178275C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoHollowGuideConfig_TypeDefinitionIndex = 58068;
+	inline static constexpr unsigned int MonoHollowGuideConfig_TypeDefinitionIndex = 82405;
 
 	class MonoHollowGuideConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

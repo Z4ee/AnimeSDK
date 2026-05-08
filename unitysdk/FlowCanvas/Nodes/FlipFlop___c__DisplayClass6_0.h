@@ -6,21 +6,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class FlipFlop; }
 
-#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A561390)
-#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A5613A0)
-#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A561420)
-#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A561440)
+#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B324410)
+#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B324420)
+#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1B3244A0)
+#define FLOWCANVAS_NODES_FLIPFLOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1B3244C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FlipFlop___c__DisplayClass6_0_TypeDefinitionIndex = 26232;
+	inline static constexpr unsigned int FlipFlop___c__DisplayClass6_0_TypeDefinitionIndex = 27018;
 
 	class FlipFlop___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::FlipFlop* __4__this; // 0x10
-		::FlowCanvas::FlowOutput* fFlip; // 0x18
-		::FlowCanvas::FlowOutput* fFlop; // 0x20
+		::FlowCanvas::FlowOutput* fFlip; // 0x10
+		::FlowCanvas::FlowOutput* fFlop; // 0x18
+		::FlowCanvas::Nodes::FlipFlop* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

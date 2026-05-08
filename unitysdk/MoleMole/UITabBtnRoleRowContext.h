@@ -4,11 +4,11 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_UITABBTNROLEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x990B430)
+#define MOLEMOLE_UITABBTNROLEROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E40DC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITabBtnRoleRowContext_TypeDefinitionIndex = 78855;
+	inline static constexpr unsigned int UITabBtnRoleRowContext_TypeDefinitionIndex = 70648;
 
 	class UITabBtnRoleRowContext : public ::MoleMole::UIControllerContextBase
 	{

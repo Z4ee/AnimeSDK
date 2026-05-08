@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_22F346D50D77C6DD.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Class_3_8C4526EB77632FD4.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_4_AD43773AB3F80563_11_METHOD_4_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x8E0E130)
-#define CLASS_4_AD43773AB3F80563_11_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8E0E320)
-#define CLASS_4_AD43773AB3F80563_11__CTOR_OFFSET UNITYSDK_OFFSET(0x8E0E310)
+#define CLASS_4_AD43773AB3F80563_11_METHOD_4_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x131A6480)
+#define CLASS_4_AD43773AB3F80563_11_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x131A65D0)
+#define CLASS_4_AD43773AB3F80563_11__CTOR_OFFSET UNITYSDK_OFFSET(0x131A65C0)
 
-inline static constexpr unsigned int Class_4_AD43773AB3F80563_11_TypeDefinitionIndex = 69098;
+inline static constexpr unsigned int Class_4_AD43773AB3F80563_11_TypeDefinitionIndex = 72734;
 
-class Class_4_AD43773AB3F80563_11 : public ::Class_3_22F346D50D77C6DD<::UnityEngine::Vector3>
+class Class_4_AD43773AB3F80563_11 : public ::Class_3_8C4526EB77632FD4<::UnityEngine::Vector2>
 {
 public:
 	::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIGachaStage3DModelControllerBase; }
 
-#define MOLEMOLE_UIGACHASTAGE3DMODELCONTROLLERBASE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2B1AE0)
+#define MOLEMOLE_UIGACHASTAGE3DMODELCONTROLLERBASE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158FA9E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaStage3DModelControllerBase___c__DisplayClass17_0_TypeDefinitionIndex = 45126;
+	inline static constexpr unsigned int UIGachaStage3DModelControllerBase___c__DisplayClass17_0_TypeDefinitionIndex = 46300;
 
 	class UIGachaStage3DModelControllerBase___c__DisplayClass17_0 : public ::System::Object
 	{

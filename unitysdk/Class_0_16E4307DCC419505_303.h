@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace MoleMole { class UIPerformPageController; }
-namespace MoleMole::Battle { class Entity; }
-namespace MoleMole::Config { class IScenePerformConfig; }
-namespace System { class Action; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_620;
+class Class_1_F1489324C27A1B39;
+namespace MoleMole { class UIInLevelSkillButtonBranchBaseController; }
+namespace MoleMole { class UIWindowController; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_303_TypeDefinitionIndex = 45621;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_303_TypeDefinitionIndex = 71882;
 
 class Class_0_16E4307DCC419505_303
 {

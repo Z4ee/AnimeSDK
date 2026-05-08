@@ -3,7 +3,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int StructFlags_TypeDefinitionIndex = 24708;
+	inline static constexpr unsigned int StructFlags_TypeDefinitionIndex = 25222;
 
 	enum class StructFlags : ::System::UInt32
 	{

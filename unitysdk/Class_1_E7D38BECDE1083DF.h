@@ -9,25 +9,30 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_E7D38BECDE1083DF_METHOD_1_0947F577F1E5AE4F_OFFSET UNITYSDK_OFFSET(0x8D34C50)
-#define CLASS_1_E7D38BECDE1083DF_METHOD_1_75349AE8FFF50B12_OFFSET UNITYSDK_OFFSET(0x8D34F80)
-#define CLASS_1_E7D38BECDE1083DF_METHOD_1_8E2C129DE4FC3609_OFFSET UNITYSDK_OFFSET(0x8D34D60)
-#define CLASS_1_E7D38BECDE1083DF_METHOD_1_DA196BD208DE7D31_OFFSET UNITYSDK_OFFSET(0x8D351B0)
-#define CLASS_1_E7D38BECDE1083DF_METHOD_1_F6197EF2A86E656F_OFFSET UNITYSDK_OFFSET(0x8D34F40)
+#define CLASS_1_E7D38BECDE1083DF_METHOD_1_0947F577F1E5AE4F_OFFSET UNITYSDK_OFFSET(0x15684110)
+#define CLASS_1_E7D38BECDE1083DF_METHOD_1_2672ADDB5302C155_OFFSET UNITYSDK_OFFSET(0x15683D10)
+#define CLASS_1_E7D38BECDE1083DF_METHOD_1_6FFDA3E45A04741B_OFFSET UNITYSDK_OFFSET(0x15683EF0)
+#define CLASS_1_E7D38BECDE1083DF_METHOD_1_78B044C430BB3A86_OFFSET UNITYSDK_OFFSET(0x15683D20)
+#define CLASS_1_E7D38BECDE1083DF_METHOD_1_8E2C129DE4FC3609_OFFSET UNITYSDK_OFFSET(0x15683D30)
 
-inline static constexpr unsigned int Class_1_E7D38BECDE1083DF_TypeDefinitionIndex = 47728;
+inline static constexpr unsigned int Class_1_E7D38BECDE1083DF_TypeDefinitionIndex = 41703;
 
 class Class_1_E7D38BECDE1083DF : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigBuddyMisc** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigBuddyMisc**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E7D38BECDE1083DF_TypeDefinitionIndex)->GetStaticField(0x35210);
+		return (::MoleMole::Config::ConfigBuddyMisc**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E7D38BECDE1083DF_TypeDefinitionIndex)->GetStaticField(0x301D0);
 	}
 
-	static ::System::Void Method_1_0947F577F1E5AE4F(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
+	static ::System::Void Method_1_2672ADDB5302C155(::MoleMole::Config::ConfigBuddyMisc* a1)
 	{
-		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_0947F577F1E5AE4F_OFFSET))(a1, a2, a3, a4);
+		return ((::System::Void(*)(::MoleMole::Config::ConfigBuddyMisc*))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_2672ADDB5302C155_OFFSET))(a1);
+	}
+
+	static ::MoleMole::Config::ConfigBuddyMisc* Method_1_78B044C430BB3A86()
+	{
+		return ((::MoleMole::Config::ConfigBuddyMisc*(*)())((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_78B044C430BB3A86_OFFSET))();
 	}
 
 	static ::System::Void Method_1_8E2C129DE4FC3609(::System::Boolean a1, ::System::Action* a2)
@@ -35,18 +40,13 @@ public:
 		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_8E2C129DE4FC3609_OFFSET))(a1, a2);
 	}
 
-	static ::MoleMole::Config::ConfigBuddyMisc* Method_1_F6197EF2A86E656F()
+	static ::System::Boolean Method_1_6FFDA3E45A04741B(::MoleMole::Config::BuddyBehaviourType a1, ::MoleMole::Config::ConfigBuddyBehaviour& a2)
 	{
-		return ((::MoleMole::Config::ConfigBuddyMisc*(*)())((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_F6197EF2A86E656F_OFFSET))();
+		return ((::System::Boolean(*)(::MoleMole::Config::BuddyBehaviourType, ::MoleMole::Config::ConfigBuddyBehaviour&))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_6FFDA3E45A04741B_OFFSET))(a1, a2);
 	}
 
-	static ::System::Boolean Method_1_75349AE8FFF50B12(::MoleMole::Config::BuddyBehaviourType a1, ::MoleMole::Config::ConfigBuddyBehaviour& a2)
+	static ::System::Void Method_1_0947F577F1E5AE4F(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
-		return ((::System::Boolean(*)(::MoleMole::Config::BuddyBehaviourType, ::MoleMole::Config::ConfigBuddyBehaviour&))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_75349AE8FFF50B12_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_DA196BD208DE7D31(::MoleMole::Config::ConfigBuddyMisc* a1)
-	{
-		return ((::System::Void(*)(::MoleMole::Config::ConfigBuddyMisc*))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_DA196BD208DE7D31_OFFSET))(a1);
+		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_E7D38BECDE1083DF_METHOD_1_0947F577F1E5AE4F_OFFSET))(a1, a2, a3, a4);
 	}
 };

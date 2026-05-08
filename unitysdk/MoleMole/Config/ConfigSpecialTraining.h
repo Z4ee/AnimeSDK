@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSPECIALTRAINING__CTOR_OFFSET UNITYSDK_OFFSET(0x9195FF0)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALTRAINING__CTOR_OFFSET UNITYSDK_OFFSET(0x11CB5550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSpecialTraining_TypeDefinitionIndex = 72828;
+	inline static constexpr unsigned int ConfigSpecialTraining_TypeDefinitionIndex = 39731;
 
 	class ConfigSpecialTraining : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* DesTextKey; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* AvatarList; // 0x20
+		::System::String* DesTextKey; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* AvatarList; // 0x18
+		::System::String* IconPath; // 0x20
 		::System::Int32 LevelDesignID; // 0x28
 
 		::System::Void _ctor()

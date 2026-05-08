@@ -6,20 +6,20 @@ namespace MoleMole { class UIHandBookChangeWishlistTargetPopWindowController; }
 namespace MoleMole { class UITransitionPanelPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHANDBOOKCHANGEWISHLISTTARGETPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2CD810)
-#define MOLEMOLE_UIHANDBOOKCHANGEWISHLISTTARGETPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKGOTOBTN_B__0_OFFSET UNITYSDK_OFFSET(0xB2CD820)
-#define MOLEMOLE_UIHANDBOOKCHANGEWISHLISTTARGETPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKGOTOBTN_B__1_OFFSET UNITYSDK_OFFSET(0xB2CDA30)
+#define MOLEMOLE_UIHANDBOOKCHANGEWISHLISTTARGETPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15258D80)
+#define MOLEMOLE_UIHANDBOOKCHANGEWISHLISTTARGETPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKGOTOBTN_B__0_OFFSET UNITYSDK_OFFSET(0x15258D90)
+#define MOLEMOLE_UIHANDBOOKCHANGEWISHLISTTARGETPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKGOTOBTN_B__1_OFFSET UNITYSDK_OFFSET(0x15258F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookChangeWishlistTargetPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 39131;
+	inline static constexpr unsigned int UIHandBookChangeWishlistTargetPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 47182;
 
 	class UIHandBookChangeWishlistTargetPopWindowController___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UITransitionPanelPopWindowController* uiTransitionPanelController; // 0x10
-		::MoleMole::UIHandBookChangeWishlistTargetPopWindowController* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
+		::MoleMole::UIHandBookChangeWishlistTargetPopWindowController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
+		::MoleMole::UITransitionPanelPopWindowController* uiTransitionPanelController; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_LINKZONETEAMEXQTEAVATARSLOTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A4250)
+#define MOLEMOLE_CONFIG_LINKZONETEAMEXQTEAVATARSLOTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16B46870)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LinkZoneTeamExQTEAvatarSlotInfo_TypeDefinitionIndex = 47921;
+	inline static constexpr unsigned int LinkZoneTeamExQTEAvatarSlotInfo_TypeDefinitionIndex = 57446;
 
 	class LinkZoneTeamExQTEAvatarSlotInfo : public ::System::Object
 	{

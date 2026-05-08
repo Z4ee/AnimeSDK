@@ -1,16 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_121CF606CB7E9CD1_5.h"
 
-class Class_2_FFECEF59D1CD666C;
-class Class_3_0445D2AD5E835B13_1_Class_4_47530CA409202A22;
-namespace MoleMole { class MonoGamepadCustomList; }
-namespace MoleMole { class ScrollViewItemWidgetController; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class Animation; }
-template <typename T> class Class_3_E2828CA0AAE5C975;
+class Class_1_9159F6FE46573B6F;
+class Class_5_AF65C3A968E836D2;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_498_TypeDefinitionIndex = 53805;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_498_TypeDefinitionIndex = 71337;
 
 class Class_0_16E4307DCC419505_498
 {

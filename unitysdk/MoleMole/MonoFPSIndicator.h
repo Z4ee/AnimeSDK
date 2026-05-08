@@ -5,27 +5,27 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0xA5219B0)
-#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_F7663B0135EC316E_OFFSET UNITYSDK_OFFSET(0xA521910)
-#define MOLEMOLE_MONOFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0xA51FB00)
-#define MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xA520A90)
-#define MOLEMOLE_MONOFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5218D0)
-#define MOLEMOLE_MONOFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA521880)
+#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0x10E2F640)
+#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_F7663B0135EC316E_OFFSET UNITYSDK_OFFSET(0x10E2F5C0)
+#define MOLEMOLE_MONOFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x10E2D670)
+#define MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x10E2E5E0)
+#define MOLEMOLE_MONOFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E2F5B0)
+#define MOLEMOLE_MONOFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2F520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFPSIndicator_TypeDefinitionIndex = 77438;
+	inline static constexpr unsigned int MonoFPSIndicator_TypeDefinitionIndex = 73206;
 
 	class MonoFPSIndicator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_CollectAndroidPssMemory()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xD780);
-		}
 		static ::System::Boolean* StaticGet_dumpAssetMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xD781);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xDE00);
+		}
+		static ::System::Boolean* StaticGet_CollectAndroidPssMemory()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xDE01);
 		}
 		::System::Single updateInterval; // 0x18
 		::System::Single fps; // 0x1C

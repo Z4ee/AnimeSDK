@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOSOULHOUNDGAMEENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EE440)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOSOULHOUNDGAMEENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1542AB00)
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int MonoSoulHoundGameEndConfig_TypeDefinitionIndex = 66629;
+	inline static constexpr unsigned int MonoSoulHoundGameEndConfig_TypeDefinitionIndex = 74232;
 
 	class MonoSoulHoundGameEndConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

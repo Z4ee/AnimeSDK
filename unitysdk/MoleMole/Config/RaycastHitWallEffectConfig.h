@@ -10,31 +10,31 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xACD7490)
-#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0xACD7920)
-#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xACD74F0)
-#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xACD79A0)
-#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xACD8B50)
+#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17546FD0)
+#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x17547460)
+#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17547030)
+#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x175474E0)
+#define MOLEMOLE_CONFIG_RAYCASTHITWALLEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175486C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RaycastHitWallEffectConfig_TypeDefinitionIndex = 58793;
+	inline static constexpr unsigned int RaycastHitWallEffectConfig_TypeDefinitionIndex = 52426;
 
 	class RaycastHitWallEffectConfig : public ::System::Object
 	{
 	public:
-		::System::String* EffRayDirAttachPoint; // 0x10
-		::System::String* HitWallEffect; // 0x18
-		::System::String* OverrideCameraShakeKey; // 0x20
-		::System::String* EffRayPosAttachPoint; // 0x28
-		::UnityEngine::Vector3 HitWallEffectScaleMin; // 0x30
-		::UnityEngine::Vector3 RayEulerOffset; // 0x3C
-		::UnityEngine::Vector3 RandomEulerMax; // 0x48
-		::MoleMole::Config::HitWallEffectNormalEnum HitWallNormalType; // 0x54
-		::MoleMole::Config::RayByAxis EffRayStartDirAxis; // 0x58
-		::System::Single EffRayDistance; // 0x5C
-		::UnityEngine::Vector3 HitWallEffectScaleMax; // 0x60
-		::UnityEngine::Vector3 RandomEulerMin; // 0x6C
+		::System::String* HitWallEffect; // 0x10
+		::System::String* EffRayDirAttachPoint; // 0x18
+		::System::String* EffRayPosAttachPoint; // 0x20
+		::System::String* OverrideCameraShakeKey; // 0x28
+		::UnityEngine::Vector3 RandomEulerMin; // 0x30
+		::UnityEngine::Vector3 RandomEulerMax; // 0x3C
+		::UnityEngine::Vector3 HitWallEffectScaleMin; // 0x48
+		::UnityEngine::Vector3 HitWallEffectScaleMax; // 0x54
+		::MoleMole::Config::RayByAxis EffRayStartDirAxis; // 0x60
+		::System::Single EffRayDistance; // 0x64
+		::UnityEngine::Vector3 RayEulerOffset; // 0x68
+		::MoleMole::Config::HitWallEffectNormalEnum HitWallNormalType; // 0x74
 
 		::System::Void _ctor()
 		{

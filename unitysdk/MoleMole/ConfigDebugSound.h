@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigDebugSound_WatchStatesBlock; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGDEBUGSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x10AAB220)
+#define MOLEMOLE_CONFIGDEBUGSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigDebugSound_TypeDefinitionIndex = 50246;
+	inline static constexpr unsigned int ConfigDebugSound_TypeDefinitionIndex = 58211;
 
 	class ConfigDebugSound : public ::Foundation::MihoyoSerializedScriptableObject
 	{

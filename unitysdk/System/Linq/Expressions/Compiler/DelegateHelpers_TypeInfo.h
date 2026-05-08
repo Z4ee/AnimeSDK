@@ -5,7 +5,7 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_DELEGATEHELPERS_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A4A20)
+#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_DELEGATEHELPERS_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA5660)
 
 namespace System::Linq::Expressions::Compiler
 {

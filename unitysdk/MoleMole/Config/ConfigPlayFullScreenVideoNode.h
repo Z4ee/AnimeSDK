@@ -6,20 +6,20 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCREENVIDEONODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xACC83C0)
-#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCREENVIDEONODE__CTOR_OFFSET UNITYSDK_OFFSET(0xACC8450)
+#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCREENVIDEONODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17539840)
+#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCREENVIDEONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x175398B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayFullScreenVideoNode_TypeDefinitionIndex = 59448;
+	inline static constexpr unsigned int ConfigPlayFullScreenVideoNode_TypeDefinitionIndex = 82896;
 
 	class ConfigPlayFullScreenVideoNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::System::String* SkipPlayKey; // 0x18
 		::Il2CppArray<::MoleMole::Config::ConfigPlayFullScreenVideoNode_FullScreenVideoPlayItem>* PlayItems; // 0x20
-		::System::Single CloseDelay; // 0x28
-		::System::Boolean IsTryStopPrev; // 0x2C
+		::System::Boolean IsTryStopPrev; // 0x28
+		::System::Single CloseDelay; // 0x2C
 
 		::System::Void _ctor()
 		{

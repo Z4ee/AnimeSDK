@@ -30,197 +30,197 @@ namespace UnityEngine::Rendering::Universal::Internal { class DamageTextSystem_D
 namespace UnityEngine::Rendering::Universal::Internal { class DamageTextSystem_DamageTextInstanceContext; }
 namespace UnityEngine::Rendering::Universal::Internal { class DamageTextSystem_DamageTextItem; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CALCPARTICLEPOSANDSIZE_OFFSET UNITYSDK_OFFSET(0x1763C490)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CLEANUPFORSRP_OFFSET UNITYSDK_OFFSET(0x1763ADD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CLEARALLTEXT_OFFSET UNITYSDK_OFFSET(0x17638D30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CONVERTSCREENPOSTOUIPOS_OFFSET UNITYSDK_OFFSET(0x1763C850)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_DRAWMESHES_OFFSET UNITYSDK_OFFSET(0x1763B3F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_DRAWOFFSCREENPARTICLES_OFFSET UNITYSDK_OFFSET(0x1763BF80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETFROMPOOL_OFFSET UNITYSDK_OFFSET(0x17637470)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETPOSXMATRIXBYVALUE_OFFSET UNITYSDK_OFFSET(0x17638830)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETRANDOMCHANGETEXT_OFFSET UNITYSDK_OFFSET(0x17638550)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETSCALEVECTOR_OFFSET UNITYSDK_OFFSET(0x17638B40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETSCALE_OFFSET UNITYSDK_OFFSET(0x17637F70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETUVMATRIXBYVALUE_OFFSET UNITYSDK_OFFSET(0x176386C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GET_GLOBALALPHA_OFFSET UNITYSDK_OFFSET(0x17637310)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17636DA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x176372F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITCAMERA_OFFSET UNITYSDK_OFFSET(0x1763AFD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITFORSRP_OFFSET UNITYSDK_OFFSET(0x1763AAD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITPOOL_OFFSET UNITYSDK_OFFSET(0x17637330)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITSCREENSPACERANGE_OFFSET UNITYSDK_OFFSET(0x1763AF70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0x1763A9C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_LOGSDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1763B0F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_MARKCOMBINEDAMAGETEXTFADEOUT_OFFSET UNITYSDK_OFFSET(0x17639D10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_MARKCOMBINETEXTITEMDESTROYED_OFFSET UNITYSDK_OFFSET(0x17639D80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_ONBATTLEEND_OFFSET UNITYSDK_OFFSET(0x17638C60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_ONPAUSESTATECHANGED_OFFSET UNITYSDK_OFFSET(0x1763B030)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REBUILDBLOCKS_OFFSET UNITYSDK_OFFSET(0x17639DE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REFRESHCOMBINEDAMAGETEXT_OFFSET UNITYSDK_OFFSET(0x17639C00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REFRESHENDTIME_OFFSET UNITYSDK_OFFSET(0x17639060)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REFRESHRANDOMCHANGE_OFFSET UNITYSDK_OFFSET(0x17639A30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x17637540)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SETBLOCKINFO_OFFSET UNITYSDK_OFFSET(0x176392C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SET_GLOBALALPHA_OFFSET UNITYSDK_OFFSET(0x17637320)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x17637300)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_1_OFFSET UNITYSDK_OFFSET(0x17637D10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_2_OFFSET UNITYSDK_OFFSET(0x176378F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_OFFSET UNITYSDK_OFFSET(0x176376B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWTEXT_OFFSET UNITYSDK_OFFSET(0x17638000)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_TRYRETURNITEMTOPOOL_OFFSET UNITYSDK_OFFSET(0x176391B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1763B830)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1763C970)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17636E60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM__REBUILDBLOCKS_G__DOREBUILDBLOCKS_97_0_OFFSET UNITYSDK_OFFSET(0x1763A490)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CALCPARTICLEPOSANDSIZE_OFFSET UNITYSDK_OFFSET(0x1910D740)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CLEANUPFORSRP_OFFSET UNITYSDK_OFFSET(0x1910BE60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CLEARALLTEXT_OFFSET UNITYSDK_OFFSET(0x19109BD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_CONVERTSCREENPOSTOUIPOS_OFFSET UNITYSDK_OFFSET(0x1910DBB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_DRAWMESHES_OFFSET UNITYSDK_OFFSET(0x1910C450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_DRAWOFFSCREENPARTICLES_OFFSET UNITYSDK_OFFSET(0x1910D210)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETFROMPOOL_OFFSET UNITYSDK_OFFSET(0x19108170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETPOSXMATRIXBYVALUE_OFFSET UNITYSDK_OFFSET(0x19109620)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETRANDOMCHANGETEXT_OFFSET UNITYSDK_OFFSET(0x19109270)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETSCALEVECTOR_OFFSET UNITYSDK_OFFSET(0x191099E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETSCALE_OFFSET UNITYSDK_OFFSET(0x19108C70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GETUVMATRIXBYVALUE_OFFSET UNITYSDK_OFFSET(0x19109450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GET_GLOBALALPHA_OFFSET UNITYSDK_OFFSET(0x19108020)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19107A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x19108000)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITCAMERA_OFFSET UNITYSDK_OFFSET(0x1910C0A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITFORSRP_OFFSET UNITYSDK_OFFSET(0x1910BA90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITPOOL_OFFSET UNITYSDK_OFFSET(0x19108040)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INITSCREENSPACERANGE_OFFSET UNITYSDK_OFFSET(0x1910C040)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0x1910B930)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_LOGSDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1910C1C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_MARKCOMBINEDAMAGETEXTFADEOUT_OFFSET UNITYSDK_OFFSET(0x1910AC30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_MARKCOMBINETEXTITEMDESTROYED_OFFSET UNITYSDK_OFFSET(0x1910AC90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_ONBATTLEEND_OFFSET UNITYSDK_OFFSET(0x19109B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_ONPAUSESTATECHANGED_OFFSET UNITYSDK_OFFSET(0x1910C100)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REBUILDBLOCKS_OFFSET UNITYSDK_OFFSET(0x1910ACF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REFRESHCOMBINEDAMAGETEXT_OFFSET UNITYSDK_OFFSET(0x1910AB10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REFRESHENDTIME_OFFSET UNITYSDK_OFFSET(0x19109EE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_REFRESHRANDOMCHANGE_OFFSET UNITYSDK_OFFSET(0x1910A900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x19108240)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SETBLOCKINFO_OFFSET UNITYSDK_OFFSET(0x1910A170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SET_GLOBALALPHA_OFFSET UNITYSDK_OFFSET(0x19108030)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x19108010)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_1_OFFSET UNITYSDK_OFFSET(0x19108A10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_2_OFFSET UNITYSDK_OFFSET(0x191085E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_OFFSET UNITYSDK_OFFSET(0x191083A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWTEXT_OFFSET UNITYSDK_OFFSET(0x19108D00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_TRYRETURNITEMTOPOOL_OFFSET UNITYSDK_OFFSET(0x1910A060)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1910C9C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1910DCC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19107B70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM__REBUILDBLOCKS_G__DOREBUILDBLOCKS_97_0_OFFSET UNITYSDK_OFFSET(0x1910B3E0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DamageTextSystem_TypeDefinitionIndex = 29800;
+	inline static constexpr unsigned int DamageTextSystem_TypeDefinitionIndex = 30329;
 
 	class DamageTextSystem : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::Internal::DamageTextSystem** StaticGet_m_Instance()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::DamageTextSystem**)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x23870);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Single>** StaticGet_CharWidthTable()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x23878);
+			return (::UnityEngine::Rendering::Universal::Internal::DamageTextSystem**)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x243F0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Int32>** StaticGet_UVOffsetTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x23880);
+			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x243F8);
 		}
-		static ::System::Int32* StaticGet__Color()
+		static ::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Single>** StaticGet_CharWidthTable()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A30);
-		}
-		static ::System::Int32* StaticGet__Flash()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A34);
-		}
-		static ::System::Int32* StaticGet__ShowTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A38);
-		}
-		static ::System::Int32* StaticGet__CombineTextFadeOutStartTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A3C);
-		}
-		static ::System::Int32* StaticGet__FadeoutInterval()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A40);
-		}
-		static ::System::Int32* StaticGet__DamageTextAlpha()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A44);
+			return (::System::Collections::Generic::Dictionary_2<::System::Char, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x24400);
 		}
 		static ::System::Int32* StaticGet__FadeinInterval()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A48);
-		}
-		static ::System::Boolean* StaticGet_s_Debug_s_RenderToFinalTargetEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A4C);
-		}
-		static ::System::Int32* StaticGet__FaceIndex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A50);
-		}
-		static ::System::Int32* StaticGet__BitCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A54);
-		}
-		static ::System::Int32* StaticGet__FadeinTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A58);
-		}
-		static ::System::Int32* StaticGet__UnityDamageTextTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A5C);
-		}
-		static ::UnityEngine::Vector2* StaticGet_STANDARD_RESOLUTION()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A60);
-		}
-		static ::System::Int32* StaticGet__POSXOffsets()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A68);
-		}
-		static ::System::Int32* StaticGet__UVOffsets()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A6C);
-		}
-		static ::UnityEngine::Vector4* StaticGet_s_Debug_GetDynamicScreenSize()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A70);
-		}
-		static ::System::Int32* StaticGet__IsSkipDefAttack()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A80);
-		}
-		static ::System::Int32* StaticGet__IsCombineDamageText()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A84);
-		}
-		static ::System::Int32* StaticGet__FadeoutTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A88);
-		}
-		static ::System::Int32* StaticGet__AnimType()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A8C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AB0);
 		}
 		static ::System::Int32* StaticGet__StartTime()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6A90);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AB4);
+		}
+		static ::UnityEngine::Vector4* StaticGet_s_Debug_GetDynamicScreenSize()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AB8);
+		}
+		static ::System::Int32* StaticGet__IsSkipDefAttack()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AC8);
+		}
+		static ::System::Int32* StaticGet__UVOffsets()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6ACC);
+		}
+		static ::System::Int32* StaticGet__DamageTextAlpha()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AD0);
+		}
+		static ::System::Int32* StaticGet__FadeoutInterval()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AD4);
+		}
+		static ::System::Int32* StaticGet__FadeinTime()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AD8);
+		}
+		static ::System::Int32* StaticGet__FaceIndex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6ADC);
+		}
+		static ::System::Int32* StaticGet__IsCombineDamageText()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AE0);
+		}
+		static ::System::Boolean* StaticGet_s_Debug_s_RenderToFinalTargetEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AE4);
+		}
+		static ::System::Int32* StaticGet__Flash()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AE8);
+		}
+		static ::System::Int32* StaticGet__Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AEC);
+		}
+		static ::System::Int32* StaticGet__POSXOffsets()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AF0);
+		}
+		static ::UnityEngine::Vector2* StaticGet_STANDARD_RESOLUTION()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AF4);
+		}
+		static ::System::Int32* StaticGet__UnityDamageTextTime()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6AFC);
+		}
+		static ::System::Int32* StaticGet__CombineTextFadeOutStartTime()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6B00);
+		}
+		static ::System::Int32* StaticGet__AnimType()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6B04);
+		}
+		static ::System::Int32* StaticGet__BitCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6B08);
+		}
+		static ::System::Int32* StaticGet__FadeoutTime()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6B0C);
+		}
+		static ::System::Int32* StaticGet__ShowTime()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DamageTextSystem_TypeDefinitionIndex)->GetStaticField(0x6B10);
 		}
 		// static const ::System::Int32 MaxSize = 0x3E8; // 0x0
 		// static const ::System::Int32 MaxInstanceCount = 0x28; // 0x0
-		::UnityEngine::Material* m_material; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _items; // 0x18
-		::Il2CppArray<::System::Single>* times; // 0x20
-		::System::Collections::Generic::LinkedList_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageParticleItem*>* particleItems; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _normalItems; // 0x30
-		::UnityEngine::Mesh* m_particleMesh; // 0x38
-		::Il2CppArray<::System::Single>* isCombineDamageTexts; // 0x40
-		::Il2CppArray<::UnityEngine::Matrix4x4>* posXOffset; // 0x48
-		::Il2CppArray<::System::Single>* fadeouts; // 0x50
-		::UnityEngine::Camera* m_sceneCamera; // 0x58
+		::Il2CppArray<::System::Single>* bits; // 0x10
+		::Il2CppArray<::UnityEngine::Matrix4x4>* uvs; // 0x18
+		::UnityEngine::Camera* m_uiCamera; // 0x20
+		::Il2CppArray<::System::Single>* faceIndexes; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _topItems; // 0x30
+		::UnityEngine::Material* m_particleMaterial; // 0x38
+		::UnityEngine::MaterialPropertyBlock* m_ParticleAdditionProp; // 0x40
+		::Il2CppArray<::System::Single>* fadeins; // 0x48
+		::Il2CppArray<::UnityEngine::Matrix4x4>* posXOffset; // 0x50
+		::System::Collections::Generic::Stack_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _itemPool; // 0x58
 		::Il2CppArray<::UnityEngine::Vector4>* colors; // 0x60
-		::Il2CppArray<::System::Single>* animTypes; // 0x68
-		::UnityEngine::MaterialPropertyBlock* m_ParticleAdditionProp; // 0x70
-		::Il2CppArray<::System::Single>* flashes; // 0x78
-		::Il2CppArray<::System::Single>* bits; // 0x80
-		::System::Collections::Generic::Stack_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _itemPool; // 0x88
-		::UnityEngine::Mesh* m_mesh; // 0x90
-		::Il2CppArray<::System::Single>* isSkipDefAttacks; // 0x98
-		::System::Text::StringBuilder* _randomChangeStringBuilder; // 0xA0
-		::Il2CppArray<::System::Single>* fadeins; // 0xA8
-		::Il2CppArray<::System::Single>* fadeoutIntervals; // 0xB0
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _swapItems; // 0xB8
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _topItems; // 0xC0
-		::Il2CppArray<::System::Single>* faceIndexes; // 0xC8
-		::UnityEngine::Material* m_particleMaterial; // 0xD0
-		::Il2CppArray<::System::Single>* fadeinIntervals; // 0xD8
-		::Il2CppArray<::UnityEngine::Matrix4x4>* uvs; // 0xE0
-		::Il2CppArray<::System::Single>* combineTextFadeOutStartTimes; // 0xE8
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextInstanceContext*>* drawInstanceContexts; // 0xF0
-		::Il2CppArray<::System::Single>* showTimess; // 0xF8
-		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* blocks; // 0x100
-		::UnityEngine::Camera* m_uiCamera; // 0x108
-		::System::Boolean _isDirty; // 0x110
-		::System::Boolean _IsEnable_k__BackingField; // 0x111
-		::System::Boolean _isPause; // 0x112
-		::System::Boolean DamageTextFollowDampingEnabled; // 0x113
-		::System::Single DamageTextFollowDampingSpeed; // 0x114
-		::System::Single _GlobalAlpha_k__BackingField; // 0x118
-		::System::Single UnityDamageTextTime; // 0x11C
-		::System::Int32 m_NameMainTex; // 0x120
-		::UnityEngine::Vector2 _screenSpaceRangeMin; // 0x124
-		::UnityEngine::Vector2 _screenSpaceRangeMax; // 0x12C
-		::System::Int32 population; // 0x134
+		::Il2CppArray<::System::Single>* fadeinIntervals; // 0x68
+		::Il2CppArray<::System::Single>* flashes; // 0x70
+		::Il2CppArray<::System::Single>* combineTextFadeOutStartTimes; // 0x78
+		::Il2CppArray<::System::Single>* times; // 0x80
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _items; // 0x88
+		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* blocks; // 0x90
+		::UnityEngine::Mesh* m_particleMesh; // 0x98
+		::UnityEngine::Material* m_material; // 0xA0
+		::UnityEngine::Camera* m_sceneCamera; // 0xA8
+		::Il2CppArray<::System::Single>* showTimess; // 0xB0
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _normalItems; // 0xB8
+		::Il2CppArray<::System::Single>* animTypes; // 0xC0
+		::Il2CppArray<::System::Single>* isCombineDamageTexts; // 0xC8
+		::Il2CppArray<::System::Single>* fadeoutIntervals; // 0xD0
+		::Il2CppArray<::System::Single>* isSkipDefAttacks; // 0xD8
+		::System::Text::StringBuilder* _randomChangeStringBuilder; // 0xE0
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem*>* _swapItems; // 0xE8
+		::System::Collections::Generic::LinkedList_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageParticleItem*>* particleItems; // 0xF0
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextInstanceContext*>* drawInstanceContexts; // 0xF8
+		::Il2CppArray<::System::Single>* fadeouts; // 0x100
+		::UnityEngine::Mesh* m_mesh; // 0x108
+		::System::Single _GlobalAlpha_k__BackingField; // 0x110
+		::System::Boolean _isPause; // 0x114
+		::System::Boolean DamageTextFollowDampingEnabled; // 0x115
+		::System::Boolean _isDirty; // 0x116
+		::System::Boolean _IsEnable_k__BackingField; // 0x117
+		::System::Single UnityDamageTextTime; // 0x118
+		::UnityEngine::Vector2 _screenSpaceRangeMin; // 0x11C
+		::System::Int32 population; // 0x124
+		::System::Single DamageTextFollowDampingSpeed; // 0x128
+		::System::Int32 m_NameMainTex; // 0x12C
+		::UnityEngine::Vector2 _screenSpaceRangeMax; // 0x130
 
 		::System::Void _ctor()
 		{
@@ -277,14 +277,14 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::Single>*, ::System::Single, ::System::Int32, ::System::Int32, ::UnityEngine::Bounds&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_OFFSET))(this, initWorldPos, scale, prefabGO, worldOffset, refTransform, screenOffset, length, entityID, onEndCallback, showTime, width, height, screenBounds, followType);
 		}
 
-		::System::Void ShowParticle_1(::UnityEngine::Vector3 initWorldPos, ::System::Single scale, ::UnityEngine::NAPRenderPipeline0::AssetPathInSRP prefabPath, ::UnityEngine::Vector3 worldOffset, ::UnityEngine::Transform* refTransform, ::UnityEngine::Vector2 screenOffset, ::System::Single length, ::System::UInt32 entityID, ::System::Action_2<::System::UInt32, ::System::Single>* onEndCallback, ::System::Single showTime, ::System::Int32 width, ::System::Int32 height, ::UnityEngine::Bounds& screenBounds, ::System::Int32 followType)
+		::System::Object* ShowParticle_1(::UnityEngine::Vector3 initWorldPos, ::System::Single scale, ::UnityEngine::NAPRenderPipeline0::AssetPathInSRP prefabPath, ::UnityEngine::Vector3 worldOffset, ::UnityEngine::Transform* refTransform, ::UnityEngine::Vector2 screenOffset, ::System::Single length, ::System::UInt32 entityID, ::System::Action_2<::System::UInt32, ::System::Single>* onEndCallback, ::System::Single showTime, ::System::Int32 width, ::System::Int32 height, ::UnityEngine::Bounds& screenBounds, ::System::Int32 followType)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::NAPRenderPipeline0::AssetPathInSRP, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::Single>*, ::System::Single, ::System::Int32, ::System::Int32, ::UnityEngine::Bounds&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_1_OFFSET))(this, initWorldPos, scale, prefabPath, worldOffset, refTransform, screenOffset, length, entityID, onEndCallback, showTime, width, height, screenBounds, followType);
+			return ((::System::Object*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::NAPRenderPipeline0::AssetPathInSRP, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::Single>*, ::System::Single, ::System::Int32, ::System::Int32, ::UnityEngine::Bounds&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_1_OFFSET))(this, initWorldPos, scale, prefabPath, worldOffset, refTransform, screenOffset, length, entityID, onEndCallback, showTime, width, height, screenBounds, followType);
 		}
 
-		::System::Void ShowParticle_2(::UnityEngine::Vector3 initWorldPos, ::System::Single scale, ::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_DamageParticlePrefabArg& prefab, ::UnityEngine::Vector3 worldOffset, ::UnityEngine::Transform* refTransform, ::UnityEngine::Vector2 screenOffset, ::System::Single length, ::System::UInt32 entityID, ::System::Action_2<::System::UInt32, ::System::Single>* onEndCallback, ::System::Single showTime, ::System::Int32 width, ::System::Int32 height, ::UnityEngine::Bounds& screenBounds, ::System::Int32 followType)
+		::System::Object* ShowParticle_2(::UnityEngine::Vector3 initWorldPos, ::System::Single scale, ::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_DamageParticlePrefabArg& prefab, ::UnityEngine::Vector3 worldOffset, ::UnityEngine::Transform* refTransform, ::UnityEngine::Vector2 screenOffset, ::System::Single length, ::System::UInt32 entityID, ::System::Action_2<::System::UInt32, ::System::Single>* onEndCallback, ::System::Single showTime, ::System::Int32 width, ::System::Int32 height, ::UnityEngine::Bounds& screenBounds, ::System::Int32 followType)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_DamageParticlePrefabArg&, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::Single>*, ::System::Single, ::System::Int32, ::System::Int32, ::UnityEngine::Bounds&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_2_OFFSET))(this, initWorldPos, scale, prefab, worldOffset, refTransform, screenOffset, length, entityID, onEndCallback, showTime, width, height, screenBounds, followType);
+			return ((::System::Object*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::NAPRenderPipeline0::OffscreenParticleManager_DamageParticlePrefabArg&, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::Single>*, ::System::Single, ::System::Int32, ::System::Int32, ::UnityEngine::Bounds&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGETEXTSYSTEM_SHOWPARTICLE_2_OFFSET))(this, initWorldPos, scale, prefab, worldOffset, refTransform, screenOffset, length, entityID, onEndCallback, showTime, width, height, screenBounds, followType);
 		}
 
 		::UnityEngine::Rendering::Universal::Internal::DamageTextSystem_DamageTextItem* ShowText(::System::String* value, ::UnityEngine::Vector3 position, ::System::Single scale, ::UnityEngine::Color color, ::System::Boolean isFlash, ::System::Single fadeinInterval, ::System::Single fadeoutInterval, ::System::Single showTime, ::System::Single fadeinTime, ::System::Single fadeoutTime, ::System::Single faceIndex, ::System::Single effColorIndex, ::System::UInt32 animType, ::System::UInt32 isSkipDefAttack, ::System::Single charWidthOffset, ::System::Boolean isRandomChange, ::System::Boolean isOnTop, ::System::UInt32 isCombineDamageText)

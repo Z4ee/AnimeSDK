@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int QueuePool_1_TypeDefinitionIndex = 7817;
+	inline static constexpr unsigned int QueuePool_1_TypeDefinitionIndex = 8079;
 
 	template <typename T>
 	class QueuePool_1 : public ::System::Object

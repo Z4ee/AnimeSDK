@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_059BA87F16D2FC4A_TypeDefinitionIndex = 81870;
+inline static constexpr unsigned int Enum_3_059BA87F16D2FC4A_TypeDefinitionIndex = 83845;
 
 enum class Enum_3_059BA87F16D2FC4A : ::System::Int32
 {
-	MergingShopClose = 7,
-	DestroyResource = 3,
-	SwitchingLevel = 0,
-	MergingShop = 4,
 	LevelPassed = 2,
-	MergingShopCountDown = 5,
-	MergingShopCloseAnim = 6,
-	CommonShopClose = 11,
 	CommonShopCountDown = 9,
 	AllLevelsPassed = 13,
-	CommonShopCloseAnim = 10,
 	LevelEnd = 12,
-	CommonShop = 8,
+	MergingShopCountDown = 5,
+	SwitchingLevel = 0,
+	MergingShopClose = 7,
+	CommonShopCloseAnim = 10,
 	Gaming = 1,
+	DestroyResource = 3,
+	CommonShopClose = 11,
+	CommonShop = 8,
+	MergingShopCloseAnim = 6,
+	MergingShop = 4,
 };

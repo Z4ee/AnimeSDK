@@ -6,13 +6,13 @@
 
 namespace MoleMole { class AntiAliasProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_0D1560B7509BDB7B_OFFSET UNITYSDK_OFFSET(0x9CE6A50)
-#define MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_86159EFDFF90B13C_OFFSET UNITYSDK_OFFSET(0x9CE6B90)
-#define MOLEMOLE_COMMANDLINEANTIALIAS__CTOR_OFFSET UNITYSDK_OFFSET(0x9CE6B50)
+#define MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_0D1560B7509BDB7B_OFFSET UNITYSDK_OFFSET(0x122ED8B0)
+#define MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_78DB277A310DE432_OFFSET UNITYSDK_OFFSET(0x122ED9C0)
+#define MOLEMOLE_COMMANDLINEANTIALIAS__CTOR_OFFSET UNITYSDK_OFFSET(0x122ED980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineAntiAlias_TypeDefinitionIndex = 60532;
+	inline static constexpr unsigned int CommandLineAntiAlias_TypeDefinitionIndex = 57376;
 
 	class CommandLineAntiAlias : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::AntiAliasProfileContext*, ::MoleMole::CommandLineAntiAlias*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineAntiAlias*(*)(::PVOID, ::MoleMole::AntiAliasProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_0D1560B7509BDB7B_OFFSET))(this, a1);
 		}
 
-		::MoleMole::AntiAliasProfileContext* Method_2_86159EFDFF90B13C(::MoleMole::AntiAliasProfileContext* a1)
+		::MoleMole::AntiAliasProfileContext* Method_2_78DB277A310DE432(::MoleMole::AntiAliasProfileContext* a1)
 		{
-			return ((::MoleMole::AntiAliasProfileContext*(*)(::PVOID, ::MoleMole::AntiAliasProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_86159EFDFF90B13C_OFFSET))(this, a1);
+			return ((::MoleMole::AntiAliasProfileContext*(*)(::PVOID, ::MoleMole::AntiAliasProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEANTIALIAS_METHOD_2_78DB277A310DE432_OFFSET))(this, a1);
 		}
 	};
 }

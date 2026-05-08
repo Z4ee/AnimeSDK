@@ -3,18 +3,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_84CEDCEF739506C1_2;
+class Class_2_F8EB4D9464ADCCA1;
 
-#define MOLEMOLE_UIACTIVITYBATTLEYCLBOSSLISTROWWIDGETCONTROLLER_ROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xADA3950)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLBOSSLISTROWWIDGETCONTROLLER_ROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBCEC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLBossListRowWidgetController_RowData_TypeDefinitionIndex = 40663;
+	inline static constexpr unsigned int UIActivityBattleYCLBossListRowWidgetController_RowData_TypeDefinitionIndex = 41185;
 
 	class UIActivityBattleYCLBossListRowWidgetController_RowData : public ::System::Object
 	{
 	public:
-		::Class_2_84CEDCEF739506C1_2* monsterConfig; // 0x10
+		::Class_2_F8EB4D9464ADCCA1* monsterConfig; // 0x10
 		::System::Nullable_1<::System::Single> perfectWidget; // 0x18
 		::System::Int32 monsterLevel; // 0x20
 

@@ -10,7 +10,7 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-inline static constexpr unsigned int NPCSoftAssetPathUtils__LoadAssetsAsync_d__10_1_TypeDefinitionIndex = 66014;
+inline static constexpr unsigned int NPCSoftAssetPathUtils__LoadAssetsAsync_d__10_1_TypeDefinitionIndex = 40963;
 
 template <typename T>
 struct NPCSoftAssetPathUtils__LoadAssetsAsync_d__10_1

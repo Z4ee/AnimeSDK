@@ -3,14 +3,14 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_170;
+class Class_0_16E4307DCC419505_401;
 
-#define MOLEMOLE_MONOGAMEPADVIRTUALCURSOR_STRUCT_2_6D728CF44190FF2F_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x38F200)
-#define MOLEMOLE_MONOGAMEPADVIRTUALCURSOR_STRUCT_2_6D728CF44190FF2F_METHOD_2_B3D6D1CCB647B80C_OFFSET UNITYSDK_OFFSET(0x38F270)
+#define MOLEMOLE_MONOGAMEPADVIRTUALCURSOR_STRUCT_2_6D728CF44190FF2F_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x7D7120)
+#define MOLEMOLE_MONOGAMEPADVIRTUALCURSOR_STRUCT_2_6D728CF44190FF2F_METHOD_2_B3D6D1CCB647B80C_OFFSET UNITYSDK_OFFSET(0x7D7170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadVirtualCursor_Struct_2_6D728CF44190FF2F_TypeDefinitionIndex = 38373;
+	inline static constexpr unsigned int MonoGamepadVirtualCursor_Struct_2_6D728CF44190FF2F_TypeDefinitionIndex = 48261;
 
 	struct alignas(8) MonoGamepadVirtualCursor_Struct_2_6D728CF44190FF2F
 	{
@@ -23,7 +23,7 @@ namespace MoleMole
 		::System::Single Field_2_6; // 0x58
 		::System::Int32 Field_2_7; // 0x5C
 		::System::Boolean Field_2_8; // 0x60
-		::Class_0_16E4307DCC419505_170* Field_2_9; // 0x68
+		::Class_0_16E4307DCC419505_401* Field_2_9; // 0x68
 
 		::System::Boolean Method_2_391A84BCD9F51317()
 		{

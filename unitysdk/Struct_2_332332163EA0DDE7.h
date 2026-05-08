@@ -6,7 +6,7 @@ namespace MoleMole::Cameras { class OverrideConfigSideScrollingCamera; }
 namespace MoleMole::Cameras { class SideScrollingCameraRuntimeParam; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_332332163EA0DDE7_TypeDefinitionIndex = 66973;
+inline static constexpr unsigned int Struct_2_332332163EA0DDE7_TypeDefinitionIndex = 78677;
 
 struct alignas(8) Struct_2_332332163EA0DDE7
 {

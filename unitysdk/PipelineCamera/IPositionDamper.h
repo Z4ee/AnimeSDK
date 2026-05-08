@@ -6,7 +6,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int IPositionDamper_TypeDefinitionIndex = 35513;
+	inline static constexpr unsigned int IPositionDamper_TypeDefinitionIndex = 36057;
 
 	class IPositionDamper
 	{

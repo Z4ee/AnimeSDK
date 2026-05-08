@@ -6,12 +6,12 @@
 
 namespace UnityEngine::InputSystem::LowLevel { class InputUpdateDelegate; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2F8A0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS7_0__SET_ONUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1AB2F8B0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA6F2D0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS7_0__SET_ONUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1BA6F2E0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int NativeInputRuntime___c__DisplayClass7_0_TypeDefinitionIndex = 28764;
+	inline static constexpr unsigned int NativeInputRuntime___c__DisplayClass7_0_TypeDefinitionIndex = 29282;
 
 	class NativeInputRuntime___c__DisplayClass7_0 : public ::System::Object
 	{

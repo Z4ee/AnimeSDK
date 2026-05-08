@@ -11,7 +11,7 @@ namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int StaticNullableFormatter_1_TypeDefinitionIndex = 84032;
+	inline static constexpr unsigned int StaticNullableFormatter_1_TypeDefinitionIndex = 85760;
 
 	template <typename T>
 	class StaticNullableFormatter_1 : public ::System::Object

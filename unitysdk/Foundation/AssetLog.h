@@ -9,99 +9,99 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class StreamWriter; }
 
-#define FOUNDATION_ASSETLOG_APPENDLOG_OFFSET UNITYSDK_OFFSET(0x1A008180)
-#define FOUNDATION_ASSETLOG_COMPARESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1A006890)
-#define FOUNDATION_ASSETLOG_DESTROYPOOLASSET_OFFSET UNITYSDK_OFFSET(0x1A008E60)
-#define FOUNDATION_ASSETLOG_ENDCOLLECTRUNTIMEASSETLOAD_OFFSET UNITYSDK_OFFSET(0x1A005C50)
-#define FOUNDATION_ASSETLOG_FORCEUNLOADSCENE_OFFSET UNITYSDK_OFFSET(0x1A008830)
-#define FOUNDATION_ASSETLOG_GETCALLSTACK_OFFSET UNITYSDK_OFFSET(0x1A0080E0)
-#define FOUNDATION_ASSETLOG_GETLOGDIR_OFFSET UNITYSDK_OFFSET(0x1A006A30)
-#define FOUNDATION_ASSETLOG_INSTANTIATEPOOLASSET_OFFSET UNITYSDK_OFFSET(0x1A008C70)
-#define FOUNDATION_ASSETLOG_LOADASSET_OFFSET UNITYSDK_OFFSET(0x1A0089F0)
-#define FOUNDATION_ASSETLOG_LOADBUNDLE_OFFSET UNITYSDK_OFFSET(0x1A0091E0)
-#define FOUNDATION_ASSETLOG_LOADSCENE_OFFSET UNITYSDK_OFFSET(0x1A008420)
-#define FOUNDATION_ASSETLOG_LOADVIDEO_OFFSET UNITYSDK_OFFSET(0x1A009570)
-#define FOUNDATION_ASSETLOG_LODADDEDFILE_OFFSET UNITYSDK_OFFSET(0x1A006B40)
-#define FOUNDATION_ASSETLOG_LOG_OFFSET UNITYSDK_OFFSET(0x1A006F60)
-#define FOUNDATION_ASSETLOG_ONREQUESTASSETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A005CD0)
-#define FOUNDATION_ASSETLOG_SAVEFILE_OFFSET UNITYSDK_OFFSET(0x1A0070A0)
-#define FOUNDATION_ASSETLOG_SAVEINFOTOFILE_OFFSET UNITYSDK_OFFSET(0x1A007B30)
-#define FOUNDATION_ASSETLOG_SAVELOGTOFILE_1_OFFSET UNITYSDK_OFFSET(0x1A007610)
-#define FOUNDATION_ASSETLOG_SAVELOGTOFILE_OFFSET UNITYSDK_OFFSET(0x1A007230)
-#define FOUNDATION_ASSETLOG_STARTCOLLECTRUNTIMEASSETLOAD_OFFSET UNITYSDK_OFFSET(0x1A005B70)
-#define FOUNDATION_ASSETLOG_TAKESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1A005D90)
-#define FOUNDATION_ASSETLOG_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x1A009050)
-#define FOUNDATION_ASSETLOG_UNLOADBUNDLE_OFFSET UNITYSDK_OFFSET(0x1A0093B0)
-#define FOUNDATION_ASSETLOG_UNLOADSCENE_OFFSET UNITYSDK_OFFSET(0x1A0086A0)
-#define FOUNDATION_ASSETLOG_UPLOADASSETLOADSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1A005D30)
-#define FOUNDATION_ASSETLOG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A009840)
+#define FOUNDATION_ASSETLOG_APPENDLOG_OFFSET UNITYSDK_OFFSET(0x1A9F1900)
+#define FOUNDATION_ASSETLOG_COMPARESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1A9F0340)
+#define FOUNDATION_ASSETLOG_DESTROYPOOLASSET_OFFSET UNITYSDK_OFFSET(0x1A9F24E0)
+#define FOUNDATION_ASSETLOG_ENDCOLLECTRUNTIMEASSETLOAD_OFFSET UNITYSDK_OFFSET(0x1A9EF760)
+#define FOUNDATION_ASSETLOG_FORCEUNLOADSCENE_OFFSET UNITYSDK_OFFSET(0x1A9F1F20)
+#define FOUNDATION_ASSETLOG_GETCALLSTACK_OFFSET UNITYSDK_OFFSET(0x1A9F1850)
+#define FOUNDATION_ASSETLOG_GETLOGDIR_OFFSET UNITYSDK_OFFSET(0x1A9F04C0)
+#define FOUNDATION_ASSETLOG_INSTANTIATEPOOLASSET_OFFSET UNITYSDK_OFFSET(0x1A9F2310)
+#define FOUNDATION_ASSETLOG_LOADASSET_OFFSET UNITYSDK_OFFSET(0x1A9F20B0)
+#define FOUNDATION_ASSETLOG_LOADBUNDLE_OFFSET UNITYSDK_OFFSET(0x1A9F2840)
+#define FOUNDATION_ASSETLOG_LOADSCENE_OFFSET UNITYSDK_OFFSET(0x1A9F1B30)
+#define FOUNDATION_ASSETLOG_LOADVIDEO_OFFSET UNITYSDK_OFFSET(0x1A9F2BA0)
+#define FOUNDATION_ASSETLOG_LODADDEDFILE_OFFSET UNITYSDK_OFFSET(0x1A9F05B0)
+#define FOUNDATION_ASSETLOG_LOG_OFFSET UNITYSDK_OFFSET(0x1A9F0960)
+#define FOUNDATION_ASSETLOG_ONREQUESTASSETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A9EF7E0)
+#define FOUNDATION_ASSETLOG_SAVEFILE_OFFSET UNITYSDK_OFFSET(0x1A9F0A80)
+#define FOUNDATION_ASSETLOG_SAVEINFOTOFILE_OFFSET UNITYSDK_OFFSET(0x1A9F1350)
+#define FOUNDATION_ASSETLOG_SAVELOGTOFILE_1_OFFSET UNITYSDK_OFFSET(0x1A9F0F00)
+#define FOUNDATION_ASSETLOG_SAVELOGTOFILE_OFFSET UNITYSDK_OFFSET(0x1A9F0C00)
+#define FOUNDATION_ASSETLOG_STARTCOLLECTRUNTIMEASSETLOAD_OFFSET UNITYSDK_OFFSET(0x1A9EF6B0)
+#define FOUNDATION_ASSETLOG_TAKESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1A9EF860)
+#define FOUNDATION_ASSETLOG_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x1A9F26B0)
+#define FOUNDATION_ASSETLOG_UNLOADBUNDLE_OFFSET UNITYSDK_OFFSET(0x1A9F2A10)
+#define FOUNDATION_ASSETLOG_UNLOADSCENE_OFFSET UNITYSDK_OFFSET(0x1A9F1D90)
+#define FOUNDATION_ASSETLOG_UPLOADASSETLOADSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1A9EF820)
+#define FOUNDATION_ASSETLOG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9F2EF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetLog_TypeDefinitionIndex = 7776;
+	inline static constexpr unsigned int AssetLog_TypeDefinitionIndex = 7952;
 
 	class AssetLog : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_SceneLogDict()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpBundleLogDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F20);
-		}
-		static ::System::Action_1<::System::String*>** StaticGet_onRequestAsset()
-		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F28);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_BundleLogDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F30);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpInstantiateLogDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F38);
-		}
-		static ::System::Collections::Generic::List_1<::Foundation::AssetLog_LogItem*>** StaticGet_FullLogs()
-		{
-			return (::System::Collections::Generic::List_1<::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F40);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_InstantiateLogDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F48);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpVideoLogDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F50);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x70E0);
 		}
 		static ::System::Action_1<::System::String*>** StaticGet_autoTestPathRecord()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F58);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpBundleLogDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F60);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x70E8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpSceneLogDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F68);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_AssetLogDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F70);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x70F0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_VideoLogDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F78);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x70F8);
+		}
+		static ::System::Collections::Generic::List_1<::Foundation::AssetLog_LogItem*>** StaticGet_FullLogs()
+		{
+			return (::System::Collections::Generic::List_1<::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7100);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_InstantiateLogDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7108);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpVideoLogDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7110);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpAssetLogDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x6F80);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7118);
 		}
-		static ::System::Int32* StaticGet_COLLECT_ASSET_TYPE()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_BundleLogDict()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x3710);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7120);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_AssetLogDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7128);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_SceneLogDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7130);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>** StaticGet_TmpInstantiateLogDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetLog_LogItem*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7138);
+		}
+		static ::System::Action_1<::System::String*>** StaticGet_onRequestAsset()
+		{
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x7140);
 		}
 		static ::System::Boolean* StaticGet_Enable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x3714);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x3760);
+		}
+		static ::System::Int32* StaticGet_COLLECT_ASSET_TYPE()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AssetLog_TypeDefinitionIndex)->GetStaticField(0x3764);
 		}
 
 		static ::System::Void _cctor()

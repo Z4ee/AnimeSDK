@@ -7,7 +7,7 @@ namespace UnrealTypes { class Enum; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Enum_1_TypeDefinitionIndex = 24704;
+	inline static constexpr unsigned int Enum_1_TypeDefinitionIndex = 25218;
 
 	template <typename T>
 	class Enum_1 : public ::System::Object

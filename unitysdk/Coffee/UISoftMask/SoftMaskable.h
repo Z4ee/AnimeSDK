@@ -11,65 +11,65 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1B47D4F0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_INVERSE_OFFSET UNITYSDK_OFFSET(0x1B47D390)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_MODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B47D7F0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_RAYCASTFILTER_OFFSET UNITYSDK_OFFSET(0x1B47D5C0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_SOFTMASK_OFFSET UNITYSDK_OFFSET(0x1B47D730)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_USESTENCIL_OFFSET UNITYSDK_OFFSET(0x1B47D5E0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B47EFB0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B47ECC0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_SETMASKINTERACTION_1_OFFSET UNITYSDK_OFFSET(0x1B47EB80)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_SETMASKINTERACTION_OFFSET UNITYSDK_OFFSET(0x1B47EB60)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_INVERSE_OFFSET UNITYSDK_OFFSET(0x1B47D3A0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_MODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B47D800)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_RAYCASTFILTER_OFFSET UNITYSDK_OFFSET(0x1B47D5D0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_USESTENCIL_OFFSET UNITYSDK_OFFSET(0x1B47D5F0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_UNITYENGINE_ICANVASRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0x1B47DCD0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_UNITYENGINE_UI_IMATERIALMODIFIER_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B47D810)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE_UNITYENGINE_UI_IMATERIALMODIFIER_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x1B47DCC0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B47F1F0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B47F1C0)
-#define COFFEE_UISOFTMASK_SOFTMASKABLE__UNITYENGINE_UI_IMATERIALMODIFIER_GETMODIFIEDMATERIAL_B__34_0_OFFSET UNITYSDK_OFFSET(0x1B47F240)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1C186320)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_INVERSE_OFFSET UNITYSDK_OFFSET(0x1C1860E0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_MODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C186850)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_RAYCASTFILTER_OFFSET UNITYSDK_OFFSET(0x1C1864B0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_SOFTMASK_OFFSET UNITYSDK_OFFSET(0x1C186700)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_GET_USESTENCIL_OFFSET UNITYSDK_OFFSET(0x1C1864D0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C188790)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C1883D0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_SETMASKINTERACTION_1_OFFSET UNITYSDK_OFFSET(0x1C1881A0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_SETMASKINTERACTION_OFFSET UNITYSDK_OFFSET(0x1C188180)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_INVERSE_OFFSET UNITYSDK_OFFSET(0x1C1860F0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_MODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C186860)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_RAYCASTFILTER_OFFSET UNITYSDK_OFFSET(0x1C1864C0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_SET_USESTENCIL_OFFSET UNITYSDK_OFFSET(0x1C1864E0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_UNITYENGINE_ICANVASRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0x1C186D70)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_UNITYENGINE_UI_IMATERIALMODIFIER_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C186870)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE_UNITYENGINE_UI_IMATERIALMODIFIER_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x1C186D60)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C188AF0)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C188A90)
+#define COFFEE_UISOFTMASK_SOFTMASKABLE__UNITYENGINE_UI_IMATERIALMODIFIER_GETMODIFIEDMATERIAL_B__34_0_OFFSET UNITYSDK_OFFSET(0x1C188B40)
 
 namespace Coffee::UISoftMask
 {
-	inline static constexpr unsigned int SoftMaskable_TypeDefinitionIndex = 83202;
+	inline static constexpr unsigned int SoftMaskable_TypeDefinitionIndex = 84930;
 
 	class SoftMaskable : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_Interactions()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x48120);
-		}
 		static ::System::Collections::Generic::List_1<::Coffee::UISoftMask::SoftMaskable*>** StaticGet_s_ActiveSoftMaskables()
 		{
-			return (::System::Collections::Generic::List_1<::Coffee::UISoftMask::SoftMaskable*>**)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x48128);
+			return (::System::Collections::Generic::List_1<::Coffee::UISoftMask::SoftMaskable*>**)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x49C90);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_Interactions()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x49C98);
 		}
 		static ::System::Int32* StaticGet_s_GameTVPId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11A60);
-		}
-		static ::UnityEngine::Hash128* StaticGet_k_InvalidHash()
-		{
-			return (::UnityEngine::Hash128*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11A64);
-		}
-		static ::System::Int32* StaticGet_s_SoftMaskTexId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11A74);
-		}
-		static ::System::Int32* StaticGet_s_MaskInteractionId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11A78);
-		}
-		static ::System::Int32* StaticGet_s_GameVPId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11A7C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11D90);
 		}
 		static ::System::Int32* StaticGet_s_StencilCompId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11A80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11D94);
+		}
+		static ::UnityEngine::Hash128* StaticGet_k_InvalidHash()
+		{
+			return (::UnityEngine::Hash128*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11D98);
+		}
+		static ::System::Int32* StaticGet_s_SoftMaskTexId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11DA8);
+		}
+		static ::System::Int32* StaticGet_s_MaskInteractionId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11DAC);
+		}
+		static ::System::Int32* StaticGet_s_GameVPId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftMaskable_TypeDefinitionIndex)->GetStaticField(0x11DB0);
 		}
 		// static const ::System::Int32 kVisibleInside = 0x55; // 0x0
 		// static const ::System::Int32 kVisibleOutside = 0xAA; // 0x0

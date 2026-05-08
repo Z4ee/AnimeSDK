@@ -3,32 +3,32 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_1E89A1A01EA84819;
-class Class_2_208CC9941471731A_312;
+class Class_2_208CC9941471731A_476;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB9C360)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB9C3A0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_0_OFFSET UNITYSDK_OFFSET(0xAB9C3B0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_1_OFFSET UNITYSDK_OFFSET(0xAB9C3D0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_2_OFFSET UNITYSDK_OFFSET(0xAB9C4E0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_3_OFFSET UNITYSDK_OFFSET(0xAB9C700)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D403E0)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10D40420)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_0_OFFSET UNITYSDK_OFFSET(0x10D40430)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_1_OFFSET UNITYSDK_OFFSET(0x10D40450)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_2_OFFSET UNITYSDK_OFFSET(0x10D40560)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_3_OFFSET UNITYSDK_OFFSET(0x10D40780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleManageInfoWidgetController___c_TypeDefinitionIndex = 40172;
+	inline static constexpr unsigned int UISuibianTempleManageInfoWidgetController___c_TypeDefinitionIndex = 44801;
 
 	class UISuibianTempleManageInfoWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_2_208CC9941471731A_312*, ::System::Int32>** StaticGet___9__64_3()
+		static ::System::Func_2<::Class_2_208CC9941471731A_476*, ::System::Int32>** StaticGet___9__64_3()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_312*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleManageInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41E00);
+			return (::System::Func_2<::Class_2_208CC9941471731A_476*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleManageInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x421C0);
 		}
 		static ::MoleMole::UISuibianTempleManageInfoWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleManageInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleManageInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41E08);
+			return (::MoleMole::UISuibianTempleManageInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleManageInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x421C8);
 		}
 
 		static ::System::Void _cctor()
@@ -56,9 +56,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::IList_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_2_OFFSET))(this);
 		}
 
-		::System::Int32 __cctor_b__64_3(::Class_2_208CC9941471731A_312* config)
+		::System::Int32 __cctor_b__64_3(::Class_2_208CC9941471731A_476* config)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_312*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_3_OFFSET))(this, config);
+			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_476*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER___C___CCTOR_B__64_3_OFFSET))(this, config);
 		}
 	};
 }

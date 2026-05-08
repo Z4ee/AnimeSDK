@@ -5,12 +5,12 @@
 namespace FlowCanvas::Macros { class MacroInputNode; }
 namespace ParadoxNotion { class DynamicParameterDefinition; }
 
-#define FLOWCANVAS_MACROS_MACROINPUTNODE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191783C0)
-#define FLOWCANVAS_MACROS_MACROINPUTNODE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x191783D0)
+#define FLOWCANVAS_MACROS_MACROINPUTNODE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19845C40)
+#define FLOWCANVAS_MACROS_MACROINPUTNODE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x19845C50)
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int MacroInputNode___c__DisplayClass4_0_TypeDefinitionIndex = 26936;
+	inline static constexpr unsigned int MacroInputNode___c__DisplayClass4_0_TypeDefinitionIndex = 27849;
 
 	class MacroInputNode___c__DisplayClass4_0 : public ::System::Object
 	{

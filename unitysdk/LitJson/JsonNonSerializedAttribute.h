@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define LITJSON_JSONNONSERIALIZEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB7A9E0)
+#define LITJSON_JSONNONSERIALIZEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B720510)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int JsonNonSerializedAttribute_TypeDefinitionIndex = 7743;
+	inline static constexpr unsigned int JsonNonSerializedAttribute_TypeDefinitionIndex = 8296;
 
 	class JsonNonSerializedAttribute : public ::System::Attribute
 	{

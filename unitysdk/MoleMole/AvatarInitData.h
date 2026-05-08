@@ -4,46 +4,45 @@
 #include "unitysdk/Share/EAvatarSkillType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_D89CCC627A66D0AD;
+class Class_2_1824EF69C8E376A3;
 namespace MoleMole { class EquipmentInitData; }
 namespace MoleMole { class WeaponInitData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_AVATARINITDATA_CREATEBYAVATARITEMDATA_OFFSET UNITYSDK_OFFSET(0xB43D230)
-#define MOLEMOLE_AVATARINITDATA_CREATEBYROBOTID_OFFSET UNITYSDK_OFFSET(0xB43D7E0)
-#define MOLEMOLE_AVATARINITDATA_DOPASSIVESKILLLEVEL_OFFSET UNITYSDK_OFFSET(0xB43D6B0)
-#define MOLEMOLE_AVATARINITDATA_EDITORDYNAMICACCS_OFFSET UNITYSDK_OFFSET(0xB43E010)
-#define MOLEMOLE_AVATARINITDATA_GET_AVATARPASSIVESKILLLEVELMAX_OFFSET UNITYSDK_OFFSET(0xB43E120)
-#define MOLEMOLE_AVATARINITDATA_GET_AVATARTALENTMAX_OFFSET UNITYSDK_OFFSET(0xB43E070)
-#define MOLEMOLE_AVATARINITDATA_INITAVATARSKILLLEVEL_OFFSET UNITYSDK_OFFSET(0xB43E1D0)
-#define MOLEMOLE_AVATARINITDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB43D3A0)
-#define MOLEMOLE_AVATARINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB43DF60)
+#define MOLEMOLE_AVATARINITDATA_CREATEBYAVATARITEMDATA_OFFSET UNITYSDK_OFFSET(0xFEFD6C0)
+#define MOLEMOLE_AVATARINITDATA_CREATEBYROBOTID_OFFSET UNITYSDK_OFFSET(0xFEFDC60)
+#define MOLEMOLE_AVATARINITDATA_DOPASSIVESKILLLEVEL_OFFSET UNITYSDK_OFFSET(0xFEFDB50)
+#define MOLEMOLE_AVATARINITDATA_EDITORDYNAMICACCS_OFFSET UNITYSDK_OFFSET(0xFEFE470)
+#define MOLEMOLE_AVATARINITDATA_GET_AVATARPASSIVESKILLLEVELMAX_OFFSET UNITYSDK_OFFSET(0xFEFE540)
+#define MOLEMOLE_AVATARINITDATA_GET_AVATARTALENTMAX_OFFSET UNITYSDK_OFFSET(0xFEFE4B0)
+#define MOLEMOLE_AVATARINITDATA_INITAVATARSKILLLEVEL_OFFSET UNITYSDK_OFFSET(0xFEFE5D0)
+#define MOLEMOLE_AVATARINITDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xFEFD840)
+#define MOLEMOLE_AVATARINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFEFE3C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarInitData_TypeDefinitionIndex = 69360;
+	inline static constexpr unsigned int AvatarInitData_TypeDefinitionIndex = 38257;
 
 	class AvatarInitData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::EquipmentInitData*>* equipmentInitDataGroup; // 0x10
-		::System::Collections::Generic::Dictionary_2<::Share::EAvatarSkillType, ::System::Byte>* avatarSkillLevel; // 0x18
+		::System::Collections::Generic::Dictionary_2<::Share::EAvatarSkillType, ::System::Byte>* avatarSkillLevel; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::EquipmentInitData*>* equipmentInitDataGroup; // 0x18
 		::MoleMole::WeaponInitData* weaponInitData; // 0x20
 		::System::Collections::Generic::List_1<::System::Int32>* initDynamicAccs; // 0x28
-		::System::Int32 avatarPassiveSkillLevel; // 0x30
-		::System::Int32 avatarTalent; // 0x34
-		::System::Boolean awakeEnable; // 0x38
-		::System::Boolean CustomEditeDynamicAccs; // 0x39
-		::System::UInt32 peerId; // 0x3C
-		::System::Int32 avatarLevel; // 0x40
-		::System::Int32 avatarRank; // 0x44
+		::System::Int32 avatarID; // 0x30
+		::System::Int32 avatarLevel; // 0x34
+		::System::Int32 avatarTalent; // 0x38
+		::System::Int32 avatarStar; // 0x3C
+		::System::Boolean awakeEnable; // 0x40
+		::System::Boolean CustomEditeDynamicAccs; // 0x41
+		::System::Int32 avatarPassiveSkillLevel; // 0x44
 		::System::Int32 robotId; // 0x48
-		::System::Int32 awakeID; // 0x4C
-		::System::Int32 configAvatarSkinId; // 0x50
-		::System::Int32 avatarStar; // 0x54
-		::System::Int32 avatarID; // 0x58
-		::Share::EAvatarShowWeaponType showWeaponType; // 0x5C
+		::System::Int32 avatarRank; // 0x4C
+		::System::Int32 awakeID; // 0x50
+		::System::Int32 configAvatarSkinId; // 0x54
+		::Share::EAvatarShowWeaponType showWeaponType; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -55,9 +54,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::Share::EAvatarSkillType, ::System::Byte>*, ::System::Int32, ::System::Int32, ::Share::EAvatarShowWeaponType, ::System::Int32, ::System::Boolean, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARINITDATA__CTOR_1_OFFSET))(this, id, level, star, talent, passiveSkillLevel, skillLevelDict, rank, oriRobotId, avatarShowWeaponType, awakeID, awakeEnable, initDynamicAccs);
 		}
 
-		static ::MoleMole::AvatarInitData* CreateByAvatarItemData(::Class_2_D89CCC627A66D0AD* itemData)
+		static ::MoleMole::AvatarInitData* CreateByAvatarItemData(::Class_2_1824EF69C8E376A3* itemData)
 		{
-			return ((::MoleMole::AvatarInitData*(*)(::Class_2_D89CCC627A66D0AD*))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARINITDATA_CREATEBYAVATARITEMDATA_OFFSET))(itemData);
+			return ((::MoleMole::AvatarInitData*(*)(::Class_2_1824EF69C8E376A3*))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARINITDATA_CREATEBYAVATARITEMDATA_OFFSET))(itemData);
 		}
 
 		static ::MoleMole::AvatarInitData* CreateByRobotID(::System::Int32 robotId)

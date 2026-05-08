@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlList_1_TypeDefinitionIndex = 28441;
+	inline static constexpr unsigned int InputControlList_1_TypeDefinitionIndex = 28959;
 
 	template <typename TControl>
 	struct InputControlList_1

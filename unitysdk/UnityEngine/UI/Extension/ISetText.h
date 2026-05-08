@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ISetText_TypeDefinitionIndex = 56410;
+	inline static constexpr unsigned int ISetText_TypeDefinitionIndex = 78020;
 
 	class ISetText
 	{

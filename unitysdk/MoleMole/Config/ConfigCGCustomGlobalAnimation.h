@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCGCustomGlobalAnimation_TypeDefinitionIndex = 37505;
+	inline static constexpr unsigned int ConfigCGCustomGlobalAnimation_TypeDefinitionIndex = 39921;
 
 	struct alignas(8) ConfigCGCustomGlobalAnimation
 	{

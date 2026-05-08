@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int FunctionId_TypeDefinitionIndex = 36484;
+	inline static constexpr unsigned int FunctionId_TypeDefinitionIndex = 37028;
 
 	enum class FunctionId : ::System::Int32
 	{

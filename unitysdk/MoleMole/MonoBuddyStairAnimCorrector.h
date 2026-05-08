@@ -1,32 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/PhysicsAnimatorInterpolation.h"
+#include "unitysdk/UnityEngine/PhysicsScene.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+class Class_1_2AC45833F3CC8C86;
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_AWAKE_OFFSET UNITYSDK_OFFSET(0xBA208A0)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xBA21A30)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_3A1BC9FEAE4C080B_OFFSET UNITYSDK_OFFSET(0xBA218E0)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0xBA21820)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_82DDD4717FD4ECF8_OFFSET UNITYSDK_OFFSET(0xBA21220)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBA20C70)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xBA20B30)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBA20A00)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xBA20840)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBA20CE0)
-#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBA21B70)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x16D54390)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_FIXANIMBONE_OFFSET UNITYSDK_OFFSET(0x16D557A0)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_GETANIMATORINSTANCEID_OFFSET UNITYSDK_OFFSET(0x16D56550)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ISANIMATORVISIBLE_OFFSET UNITYSDK_OFFSET(0x16D565B0)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_LATEUPDATETHREADSAFE_OFFSET UNITYSDK_OFFSET(0x16D55B30)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_2AB913711EB945AB_OFFSET UNITYSDK_OFFSET(0x16D55FD0)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0x16D55700)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_6400C6B84797E0C4_OFFSET UNITYSDK_OFFSET(0x16D564D0)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_82DDD4717FD4ECF8_OFFSET UNITYSDK_OFFSET(0x16D55010)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x16D55970)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16D548F0)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16D54730)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16D54570)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x16D54350)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16D54AD0)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_SHOULDSKIP_OFFSET UNITYSDK_OFFSET(0x16D54940)
+#define MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16D56730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBuddyStairAnimCorrector_TypeDefinitionIndex = 46520;
+	inline static constexpr unsigned int MonoBuddyStairAnimCorrector_TypeDefinitionIndex = 38089;
 
 	class MonoBuddyStairAnimCorrector : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		static ::UnityEngine::PhysicsScene* StaticGet_physicsScene()
+		{
+			return (::UnityEngine::PhysicsScene*)Il2CppClass::FromTypeDefinitionIndex(MonoBuddyStairAnimCorrector_TypeDefinitionIndex)->GetStaticField(0xA9D0);
+		}
+		static ::System::Single* StaticGet_deltaTime()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoBuddyStairAnimCorrector_TypeDefinitionIndex)->GetStaticField(0xA9D4);
+		}
+		static ::UnityEngine::PhysicsAnimatorInterpolation* StaticGet_interpolatePhysicsAnimator()
+		{
+			return (::UnityEngine::PhysicsAnimatorInterpolation*)Il2CppClass::FromTypeDefinitionIndex(MonoBuddyStairAnimCorrector_TypeDefinitionIndex)->GetStaticField(0xA9D8);
+		}
 		::UnityEngine::Transform* RootTransform; // 0x18
 		::UnityEngine::Transform* Pelvis; // 0x20
 		::System::Single BubbyLegHeight; // 0x28
@@ -70,29 +91,59 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONDESTROY_OFFSET))(this);
 		}
 
+		::System::Boolean ShouldSkip()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_SHOULDSKIP_OFFSET))(this);
+		}
+
 		::System::Void OnLateUpdate()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ONLATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Single Method_5_627557CE4CD0ABB4(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Void FixAnimBone(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_627557CE4CD0ABB4_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_FIXANIMBONE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_3A1BC9FEAE4C080B(::UnityEngine::Vector3 a1)
+		::System::Void LateUpdateThreadSafe(::Class_1_2AC45833F3CC8C86* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_3A1BC9FEAE4C080B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_2AC45833F3CC8C86*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_LATEUPDATETHREADSAFE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_151E25A63D14DDB0()
+		::System::Int32 GetAnimatorInstanceId()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_151E25A63D14DDB0_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_GETANIMATORINSTANCEID_OFFSET))(this);
+		}
+
+		::System::Boolean IsAnimatorVisible()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_ISANIMATORVISIBLE_OFFSET))(this);
+		}
+
+		static ::System::Void Method_5_6400C6B84797E0C4(::Class_1_2AC45833F3CC8C86* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Void(*)(::Class_1_2AC45833F3CC8C86*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_6400C6B84797E0C4_OFFSET))(a1, a2);
+		}
+
+		::UnityEngine::RaycastHit Method_5_2AB913711EB945AB(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Boolean& a4, ::System::Int32 a5)
+		{
+			return ((::UnityEngine::RaycastHit(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Boolean&, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_2AB913711EB945AB_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::UnityEngine::RaycastHit Method_5_82DDD4717FD4ECF8(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Boolean& a4)
 		{
 			return ((::UnityEngine::RaycastHit(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_82DDD4717FD4ECF8_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_5_97D83E4CB3B11935()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
+		}
+
+		::System::Single Method_5_627557CE4CD0ABB4(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYSTAIRANIMCORRECTOR_METHOD_5_627557CE4CD0ABB4_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

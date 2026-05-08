@@ -5,19 +5,19 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xBA11DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xBA11EB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0xBA11ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16D46380)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16D46460)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x16D464A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_InLevelInteractionFeedback_TypeDefinitionIndex = 63000;
+	inline static constexpr unsigned int LD_InLevelInteractionFeedback_TypeDefinitionIndex = 75937;
 
 	class LD_InLevelInteractionFeedback : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::FlowOutput* _error; // 0xB0
+		::FlowCanvas::FlowOutput* _error; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 
 		::System::Void _ctor()
 		{

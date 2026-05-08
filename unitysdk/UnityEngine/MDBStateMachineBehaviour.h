@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
 
-#define UNITYENGINE_MDBSTATEMACHINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B756920)
+#define UNITYENGINE_MDBSTATEMACHINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C53D330)
 
 namespace UnityEngine
 {

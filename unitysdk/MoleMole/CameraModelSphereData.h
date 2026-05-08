@@ -7,12 +7,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackSetting; }
 
-#define MOLEMOLE_CAMERAMODELSPHEREDATA_GETOVERRIDETRACK_OFFSET UNITYSDK_OFFSET(0xB37FDE0)
-#define MOLEMOLE_CAMERAMODELSPHEREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB37FF40)
+#define MOLEMOLE_CAMERAMODELSPHEREDATA_GETOVERRIDETRACK_OFFSET UNITYSDK_OFFSET(0x141D76C0)
+#define MOLEMOLE_CAMERAMODELSPHEREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x141D7860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModelSphereData_TypeDefinitionIndex = 60802;
+	inline static constexpr unsigned int CameraModelSphereData_TypeDefinitionIndex = 77828;
 
 	class CameraModelSphereData : public ::System::Object
 	{

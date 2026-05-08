@@ -5,18 +5,18 @@
 namespace MoleMole { class UINewsStandPuzzleGameWidgetController; }
 namespace MoleMole { class UINewsStandPuzzlePageController; }
 
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CHECKCOMPLETE_B__2_OFFSET UNITYSDK_OFFSET(0xD385590)
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD385580)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CHECKCOMPLETE_B__2_OFFSET UNITYSDK_OFFSET(0x15588AD0)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15588AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewsStandPuzzleGameWidgetController___c__DisplayClass50_0_TypeDefinitionIndex = 55851;
+	inline static constexpr unsigned int UINewsStandPuzzleGameWidgetController___c__DisplayClass50_0_TypeDefinitionIndex = 72954;
 
 	class UINewsStandPuzzleGameWidgetController___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UINewsStandPuzzleGameWidgetController* __4__this; // 0x10
-		::MoleMole::UINewsStandPuzzlePageController* pa; // 0x18
+		::MoleMole::UINewsStandPuzzlePageController* pa; // 0x10
+		::MoleMole::UINewsStandPuzzleGameWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

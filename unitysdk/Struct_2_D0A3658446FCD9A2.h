@@ -5,14 +5,14 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Animations/PropertySceneHandle.h"
 
-#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_034874595597F6FA_OFFSET UNITYSDK_OFFSET(0x342A60)
-#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_2685B6183E614529_1_OFFSET UNITYSDK_OFFSET(0x342B10)
-#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x342970)
-#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_33A8D0D48D1E86F5_OFFSET UNITYSDK_OFFSET(0x342AA0)
-#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_7B5CD253F32E6BF5_OFFSET UNITYSDK_OFFSET(0x3429F0)
-#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x342900)
+#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_034874595597F6FA_OFFSET UNITYSDK_OFFSET(0x70C3B0)
+#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_2685B6183E614529_1_OFFSET UNITYSDK_OFFSET(0x70C3F0)
+#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x70C350)
+#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_33A8D0D48D1E86F5_OFFSET UNITYSDK_OFFSET(0x70C500)
+#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_7B5CD253F32E6BF5_OFFSET UNITYSDK_OFFSET(0x70C4A0)
+#define STRUCT_2_D0A3658446FCD9A2_METHOD_2_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x70C450)
 
-inline static constexpr unsigned int Struct_2_D0A3658446FCD9A2_TypeDefinitionIndex = 60732;
+inline static constexpr unsigned int Struct_2_D0A3658446FCD9A2_TypeDefinitionIndex = 56082;
 
 struct alignas(4) Struct_2_D0A3658446FCD9A2
 {
@@ -22,19 +22,9 @@ struct alignas(4) Struct_2_D0A3658446FCD9A2
 	::Foundation::Unreal::FName Field_2_3; // 0x18
 	::UnityEngine::Animations::PropertySceneHandle Field_2_4; // 0x18
 
-	::System::Single Method_2_A36150C5DCC8409E()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_A36150C5DCC8409E_OFFSET))(this);
-	}
-
 	::System::Void Method_2_2685B6183E614529(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_2685B6183E614529_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_7B5CD253F32E6BF5(::UnityEngine::Animations::PropertySceneHandle a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::PropertySceneHandle))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_7B5CD253F32E6BF5_OFFSET))(this, a1);
 	}
 
 	/*
@@ -44,13 +34,23 @@ struct alignas(4) Struct_2_D0A3658446FCD9A2
 	}
 	*/
 
-	::System::Void Method_2_33A8D0D48D1E86F5(::Foundation::Unreal::FName a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::Unreal::FName))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_33A8D0D48D1E86F5_OFFSET))(this, a1);
-	}
-
 	::System::Void Method_2_2685B6183E614529_1(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_2685B6183E614529_1_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_2_A36150C5DCC8409E()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_A36150C5DCC8409E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7B5CD253F32E6BF5(::UnityEngine::Animations::PropertySceneHandle a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::PropertySceneHandle))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_7B5CD253F32E6BF5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_33A8D0D48D1E86F5(::Foundation::Unreal::FName a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Foundation::Unreal::FName))((::PBYTE)hIl2Cpp + STRUCT_2_D0A3658446FCD9A2_METHOD_2_33A8D0D48D1E86F5_OFFSET))(this, a1);
 	}
 };

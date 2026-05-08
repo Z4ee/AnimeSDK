@@ -5,10 +5,10 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
-#define STRUCT_2_DB26017D92737DC1_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x30B250)
-#define STRUCT_2_DB26017D92737DC1__CTOR_OFFSET UNITYSDK_OFFSET(0x30B240)
+#define STRUCT_2_DB26017D92737DC1_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x752210)
+#define STRUCT_2_DB26017D92737DC1__CTOR_OFFSET UNITYSDK_OFFSET(0x399A00)
 
-inline static constexpr unsigned int Struct_2_DB26017D92737DC1_TypeDefinitionIndex = 38662;
+inline static constexpr unsigned int Struct_2_DB26017D92737DC1_TypeDefinitionIndex = 55676;
 
 struct alignas(8) Struct_2_DB26017D92737DC1
 {

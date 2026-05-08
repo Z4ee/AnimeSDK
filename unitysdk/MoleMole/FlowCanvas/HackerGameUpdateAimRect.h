@@ -5,12 +5,12 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0xA7C88B0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C89A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x16038C20)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16038CF0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameUpdateAimRect_TypeDefinitionIndex = 54884;
+	inline static constexpr unsigned int HackerGameUpdateAimRect_TypeDefinitionIndex = 44647;
 
 	class HackerGameUpdateAimRect : public ::FlowCanvas::Nodes::CallableActionNode_6<::MoleMole::ChessEntity*, ::System::Boolean, ::ProtoScript::AimRectColor, ::System::Boolean, ::System::Boolean, ::System::Boolean>
 	{

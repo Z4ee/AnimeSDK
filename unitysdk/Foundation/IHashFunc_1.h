@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IHashFunc_1_TypeDefinitionIndex = 9031;
+	inline static constexpr unsigned int IHashFunc_1_TypeDefinitionIndex = 8892;
 
 	template <typename T>
 	class IHashFunc_1

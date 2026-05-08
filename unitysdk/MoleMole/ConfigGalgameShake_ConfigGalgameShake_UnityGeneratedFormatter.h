@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xC248F10)
-#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xC248F20)
-#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xC249120)
-#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2492E0)
-#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC2492A0)
+#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14259390)
+#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x142593A0)
+#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x14259580)
+#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14259720)
+#define MOLEMOLE_CONFIGGALGAMESHAKE_CONFIGGALGAMESHAKE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x142596E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigGalgameShake_ConfigGalgameShake_UnityGeneratedFormatter_TypeDefinitionIndex = 56373;
+	inline static constexpr unsigned int ConfigGalgameShake_ConfigGalgameShake_UnityGeneratedFormatter_TypeDefinitionIndex = 71618;
 
 	class ConfigGalgameShake_ConfigGalgameShake_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigGalgameShake*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigGalgameShakeData*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigGalgameShakeData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGalgameShake_ConfigGalgameShake_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43F30);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigGalgameShakeData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGalgameShake_ConfigGalgameShake_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45880);
 		}
 
 		::System::Void _ctor()

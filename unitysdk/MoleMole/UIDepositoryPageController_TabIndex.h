@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController_TabIndex_TypeDefinitionIndex = 51949;
+	inline static constexpr unsigned int UIDepositoryPageController_TabIndex_TypeDefinitionIndex = 77127;
 
 	enum class UIDepositoryPageController_TabIndex : ::System::Int32
 	{

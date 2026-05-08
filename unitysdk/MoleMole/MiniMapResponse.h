@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class RawImage; }
 
-#define MOLEMOLE_MINIMAPRESPONSE_UPDATE_OFFSET UNITYSDK_OFFSET(0xB9985B0)
-#define MOLEMOLE_MINIMAPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0xB998700)
+#define MOLEMOLE_MINIMAPRESPONSE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15B31860)
+#define MOLEMOLE_MINIMAPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B31AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MiniMapResponse_TypeDefinitionIndex = 68795;
+	inline static constexpr unsigned int MiniMapResponse_TypeDefinitionIndex = 57032;
 
 	class MiniMapResponse : public ::UnityEngine::MonoBehaviour
 	{

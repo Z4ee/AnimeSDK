@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIHANDBOOKVOIDFRONTITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2CEC80)
-#define MOLEMOLE_UIHANDBOOKVOIDFRONTITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__ONCLICKJUMP_B__0_OFFSET UNITYSDK_OFFSET(0xB2CEC90)
+#define MOLEMOLE_UIHANDBOOKVOIDFRONTITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1525A110)
+#define MOLEMOLE_UIHANDBOOKVOIDFRONTITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__ONCLICKJUMP_B__0_OFFSET UNITYSDK_OFFSET(0x1525A120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookVoidFrontItemWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 40494;
+	inline static constexpr unsigned int UIHandBookVoidFrontItemWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 74802;
 
 	class UIHandBookVoidFrontItemWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

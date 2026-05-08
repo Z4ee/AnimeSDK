@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlSerializationCollectionFixupCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9398B0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F14B0)
 
 namespace System::Xml::Serialization
 {

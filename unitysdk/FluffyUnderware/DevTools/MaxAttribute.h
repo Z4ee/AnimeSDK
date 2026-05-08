@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_MAXATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A80BFB0)
-#define FLUFFYUNDERWARE_DEVTOOLS_MAXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80BF90)
+#define FLUFFYUNDERWARE_DEVTOOLS_MAXATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B2D4D20)
+#define FLUFFYUNDERWARE_DEVTOOLS_MAXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D4D00)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int MaxAttribute_TypeDefinitionIndex = 25354;
+	inline static constexpr unsigned int MaxAttribute_TypeDefinitionIndex = 25868;
 
 	class MaxAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

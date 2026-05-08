@@ -15,33 +15,33 @@ namespace MoleMole::Config { class ConfigHitEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FBBD974B239A498C_METHOD_1_9F62D5795957EC13_OFFSET UNITYSDK_OFFSET(0xCEBF170)
-#define CLASS_1_FBBD974B239A498C_METHOD_1_EA09313D5DACB89D_OFFSET UNITYSDK_OFFSET(0xCEBF010)
-#define CLASS_1_FBBD974B239A498C__CTOR_OFFSET UNITYSDK_OFFSET(0xCEBF000)
+#define CLASS_1_FBBD974B239A498C_METHOD_1_9F62D5795957EC13_OFFSET UNITYSDK_OFFSET(0x17C48E30)
+#define CLASS_1_FBBD974B239A498C_METHOD_1_EA09313D5DACB89D_OFFSET UNITYSDK_OFFSET(0x17C48CF0)
+#define CLASS_1_FBBD974B239A498C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C48CE0)
 
-inline static constexpr unsigned int Class_1_FBBD974B239A498C_TypeDefinitionIndex = 72468;
+inline static constexpr unsigned int Class_1_FBBD974B239A498C_TypeDefinitionIndex = 50308;
 
 class Class_1_FBBD974B239A498C : public ::System::Object
 {
 public:
 	::MoleMole::Config::ConfigHitEffect* Field_1_5; // 0x10
-	::System::String* Field_1_3; // 0x18
-	::Class_3_F33F9DC5F4112336* Field_1_0; // 0x20
-	::Class_1_EA1FEF8121ADE963* Field_1_12; // 0x28
-	::MoleMole::Battle::Entity* Field_1_13; // 0x30
-	::MoleMole::Config::ConfigHitEffect* Field_1_4; // 0x38
-	::MoleMole::Config::ConfigHitEffect* Field_1_6; // 0x40
-	::MoleMole::Config::HitAnimDirectionType Field_1_7; // 0x48
-	::UnityEngine::Vector3 Field_1_10; // 0x4C
-	::System::Boolean Field_1_9; // 0x58
-	::System::Boolean Field_1_16; // 0x59
-	::System::Boolean Field_1_11; // 0x5A
+	::Class_3_F33F9DC5F4112336* Field_1_0; // 0x18
+	::MoleMole::Config::ConfigHitEffect* Field_1_6; // 0x20
+	::MoleMole::Config::ConfigHitEffect* Field_1_4; // 0x28
+	::System::String* Field_1_3; // 0x30
+	::MoleMole::Battle::Entity* Field_1_13; // 0x38
+	::Class_1_EA1FEF8121ADE963* Field_1_12; // 0x40
+	::UnityEngine::Vector3 Field_1_10; // 0x48
+	::MoleMole::Config::AnimatorBeHitTag Field_1_15; // 0x54
+	::MoleMole::Config::HitAnimDirectionType Field_1_7; // 0x58
 	::MoleMole::Config::HitForwardType Field_1_14; // 0x5C
-	::Enum_3_49053E586DA06DED Field_1_8; // 0x60
-	::System::Int32 Field_1_17; // 0x64
-	::System::Int32 Field_1_2; // 0x68
+	::System::Int32 Field_1_2; // 0x60
+	::Enum_3_49053E586DA06DED Field_1_8; // 0x64
+	::System::Int32 Field_1_17; // 0x68
 	::Enum_3_B89395EB88D202F4 Field_1_1; // 0x6C
-	::MoleMole::Config::AnimatorBeHitTag Field_1_15; // 0x70
+	::System::Boolean Field_1_9; // 0x70
+	::System::Boolean Field_1_11; // 0x71
+	::System::Boolean Field_1_16; // 0x72
 
 	::System::Void _ctor()
 	{

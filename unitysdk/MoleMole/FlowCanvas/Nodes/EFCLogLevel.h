@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EFCLogLevel_TypeDefinitionIndex = 40106;
+	inline static constexpr unsigned int EFCLogLevel_TypeDefinitionIndex = 80161;
 
 	enum class EFCLogLevel : ::System::Int32
 	{
-		Warning = 1,
 		Error = 2,
+		Warning = 1,
 		Info = 0,
 	};
 }

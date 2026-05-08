@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace TapTap::Sdk { class AccessToken; }
 namespace TapTap::Sdk { class QRCodeWindow; }
 
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA8400)
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1ADAA1A0)
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__1_OFFSET UNITYSDK_OFFSET(0x1ADAA9E0)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB65FD0)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1BB67E60)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__1_OFFSET UNITYSDK_OFFSET(0x1BB686A0)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int QRCodeWindow___c__DisplayClass30_0_TypeDefinitionIndex = 9448;
+	inline static constexpr unsigned int QRCodeWindow___c__DisplayClass30_0_TypeDefinitionIndex = 9459;
 
 	class QRCodeWindow___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::TapTap::Sdk::QRCodeWindow* __4__this; // 0x10
-		::TapTap::Sdk::AccessToken* accessToken; // 0x18
+		::TapTap::Sdk::AccessToken* accessToken; // 0x10
+		::TapTap::Sdk::QRCodeWindow* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

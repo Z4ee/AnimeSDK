@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISUMMERFISHINGCOLLECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9592A90)
+#define MOLEMOLE_UISUMMERFISHINGCOLLECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1274B180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishingCollectContext_TypeDefinitionIndex = 54685;
+	inline static constexpr unsigned int UISummerFishingCollectContext_TypeDefinitionIndex = 69328;
 
 	class UISummerFishingCollectContext : public ::MoleMole::UIControllerContextBase
 	{

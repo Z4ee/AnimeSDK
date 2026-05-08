@@ -5,12 +5,12 @@
 namespace MoleMole { class UIAbyssS2EntrancePageController___c__DisplayClass48_0; }
 namespace MoleMole { class UIAbyssS2EventContext; }
 
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS48_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB715270)
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS48_1__ONLIMBOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xB715280)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS48_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2F300)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS48_1__ONLIMBOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x12B2F310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass48_1_TypeDefinitionIndex = 80148;
+	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass48_1_TypeDefinitionIndex = 75400;
 
 	class UIAbyssS2EntrancePageController___c__DisplayClass48_1 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER_GET_VALID_OFFSET UNITYSDK_OFFSET(0x78E38E0)
-#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x78E39F0)
+#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER_GET_VALID_OFFSET UNITYSDK_OFFSET(0x159BD2D0)
+#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x159BD470)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonoSlopeSectionMarker_TypeDefinitionIndex = 52593;
+	inline static constexpr unsigned int MonoSlopeSectionMarker_TypeDefinitionIndex = 63877;
 
 	class MonoSlopeSectionMarker : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIWishlistSkillPlanWidgetController; }
 
-#define MOLEMOLE_UIWISHLISTSKILLPLANWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2A7D0)
-#define MOLEMOLE_UIWISHLISTSKILLPLANWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x9A2A7E0)
+#define MOLEMOLE_UIWISHLISTSKILLPLANWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE48A130)
+#define MOLEMOLE_UIWISHLISTSKILLPLANWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xE48A140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistSkillPlanWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 40953;
+	inline static constexpr unsigned int UIWishlistSkillPlanWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 79612;
 
 	class UIWishlistSkillPlanWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{

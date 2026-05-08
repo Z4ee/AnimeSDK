@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::IO { class FileSystemWatcher; }
 
-#define SYSTEM_IO_DEFAULTWATCHERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D26D50)
+#define SYSTEM_IO_DEFAULTWATCHERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA99E80)
 
 namespace System::IO
 {
@@ -16,15 +16,15 @@ namespace System::IO
 	class DefaultWatcherData : public ::System::Object
 	{
 	public:
-		::System::Object* FilesLock; // 0x10
+		::System::String* Directory; // 0x10
 		::System::IO::FileSystemWatcher* FSW; // 0x18
 		::System::String* FileMask; // 0x20
-		::System::String* Directory; // 0x28
-		::System::Collections::Hashtable* Files; // 0x30
-		::System::DateTime DisabledTime; // 0x38
-		::System::Boolean NoWildcards; // 0x40
-		::System::Boolean Enabled; // 0x41
-		::System::Boolean IncludeSubdirs; // 0x42
+		::System::Collections::Hashtable* Files; // 0x28
+		::System::Object* FilesLock; // 0x30
+		::System::Boolean Enabled; // 0x38
+		::System::Boolean NoWildcards; // 0x39
+		::System::Boolean IncludeSubdirs; // 0x3A
+		::System::DateTime DisabledTime; // 0x40
 
 		::System::Void _ctor()
 		{

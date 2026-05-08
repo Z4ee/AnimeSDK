@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstaller_CopyPolicy_TypeDefinitionIndex = 32226;
+	inline static constexpr unsigned int CriFsInstaller_CopyPolicy_TypeDefinitionIndex = 32755;
 
 	enum class CriFsInstaller_CopyPolicy : ::System::Int32
 	{

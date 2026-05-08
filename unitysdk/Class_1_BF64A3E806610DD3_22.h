@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_BF64A3E806610DD3_22_TypeDefinitionIndex = 80624;
+inline static constexpr unsigned int Class_1_BF64A3E806610DD3_22_TypeDefinitionIndex = 81788;
 
 class Class_1_BF64A3E806610DD3_22 : public ::System::Object
 {
 public:
 	// static const ::System::Int32 Field_1_0 = 0x1; // 0x0
-	// static const ::System::Int32 Field_1_1 = 0x4; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0x2; // 0x0
 };

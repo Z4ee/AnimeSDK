@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/miHoYoEmotion/BaseShape.h"
 
-#define MIHOYOEMOTION_FRAMESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FDD750)
+#define MIHOYOEMOTION_FRAMESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1979B190)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int FrameShape_TypeDefinitionIndex = 37225;
+	inline static constexpr unsigned int FrameShape_TypeDefinitionIndex = 37769;
 
 	class FrameShape : public ::miHoYoEmotion::BaseShape
 	{

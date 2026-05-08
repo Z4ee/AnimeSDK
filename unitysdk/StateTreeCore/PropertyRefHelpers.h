@@ -5,11 +5,11 @@
 namespace System { class Type; }
 namespace UnrealTypes { class Property; }
 
-#define STATETREECORE_PROPERTYREFHELPERS_ISSOURCEPROPERTYVALIDFORTYPE_OFFSET UNITYSDK_OFFSET(0x1B5CF450)
+#define STATETREECORE_PROPERTYREFHELPERS_ISSOURCEPROPERTYVALIDFORTYPE_OFFSET UNITYSDK_OFFSET(0x1C411720)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int PropertyRefHelpers_TypeDefinitionIndex = 27879;
+	inline static constexpr unsigned int PropertyRefHelpers_TypeDefinitionIndex = 28397;
 
 	class PropertyRefHelpers : public ::System::Object
 	{

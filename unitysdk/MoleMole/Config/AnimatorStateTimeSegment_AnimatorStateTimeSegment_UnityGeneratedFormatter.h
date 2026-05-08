@@ -8,30 +8,30 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB4610F0)
-#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB461100)
-#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB461670)
-#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4619F0)
-#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB4619B0)
+#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17D10520)
+#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17D10530)
+#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17D10A80)
+#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D10DD0)
+#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT_ANIMATORSTATETIMESEGMENT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D10D90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex = 40781;
+	inline static constexpr unsigned int AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex = 71428;
 
 	class AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AnimatorStateTimeSegment*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x474C0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x474C8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47540);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47548);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x474D0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorStateTimeSegment_AnimatorStateTimeSegment_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47550);
 		}
 
 		::System::Void _ctor()

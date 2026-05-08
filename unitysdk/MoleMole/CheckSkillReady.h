@@ -8,23 +8,23 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKSKILLREADY_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x94E6DE0)
-#define MOLEMOLE_CHECKSKILLREADY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x94E6FC0)
-#define MOLEMOLE_CHECKSKILLREADY__CTOR_OFFSET UNITYSDK_OFFSET(0x94E70C0)
-#define MOLEMOLE_CHECKSKILLREADY___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x94E7100)
-#define MOLEMOLE_CHECKSKILLREADY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x94E7190)
+#define MOLEMOLE_CHECKSKILLREADY_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12402D40)
+#define MOLEMOLE_CHECKSKILLREADY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12402EF0)
+#define MOLEMOLE_CHECKSKILLREADY__CTOR_OFFSET UNITYSDK_OFFSET(0x12403000)
+#define MOLEMOLE_CHECKSKILLREADY___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12403090)
+#define MOLEMOLE_CHECKSKILLREADY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12403120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckSkillReady_TypeDefinitionIndex = 37732;
+	inline static constexpr unsigned int CheckSkillReady_TypeDefinitionIndex = 49069;
 
 	class CheckSkillReady : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::Class_3_B9D5951434CC70FD* _skillComponent; // 0x50
-		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* SkillName; // 0x60
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x68
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
+		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* SkillName; // 0x68
 
 		::System::Void _ctor()
 		{

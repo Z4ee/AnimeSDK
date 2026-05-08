@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDataAdjustGameWidgetController_EDataAdjustGamePhase_TypeDefinitionIndex = 65770;
+	inline static constexpr unsigned int UIDataAdjustGameWidgetController_EDataAdjustGamePhase_TypeDefinitionIndex = 43708;
 
 	enum class UIDataAdjustGameWidgetController_EDataAdjustGamePhase : ::System::Int32
 	{
-		None = 0,
-		Winning = 4,
 		Countdown = 2,
 		Start = 1,
+		None = 0,
 		InGame = 3,
+		Winning = 4,
 	};
 }

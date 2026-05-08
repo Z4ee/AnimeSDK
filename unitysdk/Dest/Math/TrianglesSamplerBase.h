@@ -5,12 +5,12 @@
 
 namespace Dest::Math { class Rand; }
 
-#define DEST_MATH_TRIANGLESSAMPLERBASE_CALCLTRIANGLEAREA_OFFSET UNITYSDK_OFFSET(0x1AB0BB50)
-#define DEST_MATH_TRIANGLESSAMPLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0BB40)
+#define DEST_MATH_TRIANGLESSAMPLERBASE_CALCLTRIANGLEAREA_OFFSET UNITYSDK_OFFSET(0x1B6B2930)
+#define DEST_MATH_TRIANGLESSAMPLERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B2920)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int TrianglesSamplerBase_TypeDefinitionIndex = 32707;
+	inline static constexpr unsigned int TrianglesSamplerBase_TypeDefinitionIndex = 33242;
 
 	class TrianglesSamplerBase : public ::Dest::Math::WeightedSampler
 	{

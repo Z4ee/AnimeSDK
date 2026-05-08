@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_LyraClipmapRenderingContext_TemporaryBufferTag_TypeDefinitionIndex = 29938;
+	inline static constexpr unsigned int LyraBakedDataManager_LyraClipmapRenderingContext_TemporaryBufferTag_TypeDefinitionIndex = 30466;
 
 	enum class LyraBakedDataManager_LyraClipmapRenderingContext_TemporaryBufferTag : ::System::Int32
 	{

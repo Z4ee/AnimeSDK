@@ -8,21 +8,21 @@ class Class_3_0D4C1A014C7CC9DE;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKAIATTACKTYPE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x94E6840)
-#define MOLEMOLE_CHECKAIATTACKTYPE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x94E6A60)
-#define MOLEMOLE_CHECKAIATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x94E6C70)
-#define MOLEMOLE_CHECKAIATTACKTYPE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x94E6CC0)
-#define MOLEMOLE_CHECKAIATTACKTYPE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x94E6D50)
+#define MOLEMOLE_CHECKAIATTACKTYPE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12402780)
+#define MOLEMOLE_CHECKAIATTACKTYPE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12402970)
+#define MOLEMOLE_CHECKAIATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x12402B80)
+#define MOLEMOLE_CHECKAIATTACKTYPE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12402C20)
+#define MOLEMOLE_CHECKAIATTACKTYPE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12402CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckAIAttackType_TypeDefinitionIndex = 75397;
+	inline static constexpr unsigned int CheckAIAttackType_TypeDefinitionIndex = 81812;
 
 	class CheckAIAttackType : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x50
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
 		::Class_3_0D4C1A014C7CC9DE* _levelAIComponent; // 0x60
 		::MoleMole::AttackType AttackType; // 0x68
 		::System::Boolean IsSelf; // 0x6C

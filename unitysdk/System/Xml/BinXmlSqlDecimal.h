@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_BINXMLSQLDECIMAL_CHFROMDIGIT_OFFSET UNITYSDK_OFFSET(0x19114CF0)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_GET_ISPOSITIVE_OFFSET UNITYSDK_OFFSET(0x8806E0)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_MPDIV1_OFFSET UNITYSDK_OFFSET(0x19114AA0)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_MPNORMALIZE_OFFSET UNITYSDK_OFFSET(0x19114C90)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x880700)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8807B0)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_TRIMTRAILINGZEROS_OFFSET UNITYSDK_OFFSET(0x8807A0)
-#define SYSTEM_XML_BINXMLSQLDECIMAL_UINTFROMBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x191147C0)
-#define SYSTEM_XML_BINXMLSQLDECIMAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19115600)
-#define SYSTEM_XML_BINXMLSQLDECIMAL__CTOR_OFFSET UNITYSDK_OFFSET(0x8806F0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_CHFROMDIGIT_OFFSET UNITYSDK_OFFSET(0x19865920)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_GET_ISPOSITIVE_OFFSET UNITYSDK_OFFSET(0x887170)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_MPDIV1_OFFSET UNITYSDK_OFFSET(0x198656D0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_MPNORMALIZE_OFFSET UNITYSDK_OFFSET(0x198658C0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x887190)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8871C0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_TRIMTRAILINGZEROS_OFFSET UNITYSDK_OFFSET(0x8871B0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL_UINTFROMBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x198653F0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x198662B0)
+#define SYSTEM_XML_BINXMLSQLDECIMAL__CTOR_OFFSET UNITYSDK_OFFSET(0x887180)
 
 namespace System::Xml
 {
@@ -29,49 +29,49 @@ namespace System::Xml
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0x1588);
 		}
-		static ::System::Int64* StaticGet_x_lInt32Base()
+		static ::System::UInt64* StaticGet_x_llMax()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDB0);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDB0);
 		}
-		static ::System::Byte* StaticGet_NUMERIC_MAX_PRECISION()
+		static ::System::Double* StaticGet_DUINT_BASE3()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDB8);
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDB8);
 		}
-		static ::System::Byte* StaticGet_MaxPrecision()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDB9);
-		}
-		static ::System::Byte* StaticGet_MaxScale()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDBA);
-		}
-		static ::System::Int32* StaticGet_x_cNumeMax()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDBC);
-		}
-		static ::System::Double* StaticGet_DUINT_BASE2()
+		static ::System::Double* StaticGet_DUINT_BASE()
 		{
 			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDC0);
 		}
-		static ::System::UInt64* StaticGet_x_llMax()
+		static ::System::Int32* StaticGet_x_cNumeMax()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDC8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDC8);
 		}
-		static ::System::UInt64* StaticGet_x_ulInt32Base()
+		static ::System::Byte* StaticGet_MaxPrecision()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDD0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDCC);
+		}
+		static ::System::Byte* StaticGet_MaxScale()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDCD);
+		}
+		static ::System::Byte* StaticGet_NUMERIC_MAX_PRECISION()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDCE);
+		}
+		static ::System::Int64* StaticGet_x_lInt32Base()
+		{
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDD0);
 		}
 		static ::System::UInt64* StaticGet_x_ulInt32BaseForMod()
 		{
 			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDD8);
 		}
-		static ::System::Double* StaticGet_DUINT_BASE3()
+		static ::System::Double* StaticGet_DUINT_BASE2()
 		{
 			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDE0);
 		}
-		static ::System::Double* StaticGet_DUINT_BASE()
+		static ::System::UInt64* StaticGet_x_ulInt32Base()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDE8);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(BinXmlSqlDecimal_TypeDefinitionIndex)->GetStaticField(0xDE8);
 		}
 		::System::Byte m_bLen; // 0x10
 		::System::Byte m_bPrec; // 0x11

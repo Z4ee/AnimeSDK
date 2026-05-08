@@ -5,22 +5,22 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYPREPAREDFULLSCREENVIDEONODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xCAE94A0)
-#define MOLEMOLE_CONFIG_CONFIGPLAYPREPAREDFULLSCREENVIDEONODE__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE9530)
-#define MOLEMOLE_CONFIG_CONFIGPLAYPREPAREDFULLSCREENVIDEONODE__ONCHANGED_OFFSET UNITYSDK_OFFSET(0xCAE9420)
+#define MOLEMOLE_CONFIG_CONFIGPLAYPREPAREDFULLSCREENVIDEONODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xF980310)
+#define MOLEMOLE_CONFIG_CONFIGPLAYPREPAREDFULLSCREENVIDEONODE__CTOR_OFFSET UNITYSDK_OFFSET(0xF980380)
+#define MOLEMOLE_CONFIG_CONFIGPLAYPREPAREDFULLSCREENVIDEONODE__ONCHANGED_OFFSET UNITYSDK_OFFSET(0xF9802B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayPreparedFullScreenVideoNode_TypeDefinitionIndex = 65653;
+	inline static constexpr unsigned int ConfigPlayPreparedFullScreenVideoNode_TypeDefinitionIndex = 43864;
 
 	class ConfigPlayPreparedFullScreenVideoNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::System::String* VideoTag; // 0x18
-		::System::Boolean DontCloseWhenDestroy; // 0x20
-		::System::Boolean IsCloseWhenFinish; // 0x21
-		::System::Boolean IsLoopVideo; // 0x22
-		::System::Boolean IsSkipOnFastMode; // 0x23
+		::System::Boolean IsCloseWhenFinish; // 0x20
+		::System::Boolean IsSkipOnFastMode; // 0x21
+		::System::Boolean DontCloseWhenDestroy; // 0x22
+		::System::Boolean IsLoopVideo; // 0x23
 
 		::System::Void _ctor()
 		{

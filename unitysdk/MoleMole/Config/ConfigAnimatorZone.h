@@ -6,11 +6,11 @@ namespace MoleMole::Config { class AnimatorZone; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGANIMATORZONE__CTOR_OFFSET UNITYSDK_OFFSET(0xC22CFD0)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORZONE__CTOR_OFFSET UNITYSDK_OFFSET(0xED0FD30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAnimatorZone_TypeDefinitionIndex = 47070;
+	inline static constexpr unsigned int ConfigAnimatorZone_TypeDefinitionIndex = 78992;
 
 	class ConfigAnimatorZone : public ::Foundation::MihoyoSerializedScriptableObject
 	{

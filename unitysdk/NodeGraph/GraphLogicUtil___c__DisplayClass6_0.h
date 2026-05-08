@@ -7,21 +7,21 @@ namespace MoleMole { class ConfigAvatarDateTeleport; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class Action; }
 
-#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x781DD00)
-#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS6_0__TELEPORTTOPOS_B__0_OFFSET UNITYSDK_OFFSET(0x781DD10)
+#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE79A50)
+#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS6_0__TELEPORTTOPOS_B__0_OFFSET UNITYSDK_OFFSET(0xCE79A60)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphLogicUtil___c__DisplayClass6_0_TypeDefinitionIndex = 48938;
+	inline static constexpr unsigned int GraphLogicUtil___c__DisplayClass6_0_TypeDefinitionIndex = 51360;
 
 	class GraphLogicUtil___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::Battle::Entity* ownerEntity; // 0x10
-		::MoleMole::ConfigAvatarDateTeleport* config; // 0x18
-		::System::Action* callback; // 0x20
-		::UnityEngine::Vector3 switchInPos; // 0x28
-		::System::Single faceDir; // 0x34
+		::MoleMole::ConfigAvatarDateTeleport* config; // 0x10
+		::System::Action* callback; // 0x18
+		::MoleMole::Battle::Entity* ownerEntity; // 0x20
+		::System::Single faceDir; // 0x28
+		::UnityEngine::Vector3 switchInPos; // 0x2C
 
 		::System::Void _ctor()
 		{

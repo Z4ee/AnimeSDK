@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnConfig_TypeDefinitionIndex = 73058;
+	inline static constexpr unsigned int SpawnConfig_TypeDefinitionIndex = 64299;
 
 	struct alignas(4) SpawnConfig
 	{

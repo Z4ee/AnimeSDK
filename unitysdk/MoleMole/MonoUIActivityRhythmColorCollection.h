@@ -6,12 +6,12 @@
 namespace MoleMole { class MonoUIColorCollection; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOUIACTIVITYRHYTHMCOLORCOLLECTION_SETDISKCOLOR_OFFSET UNITYSDK_OFFSET(0xA52AAB0)
-#define MOLEMOLE_MONOUIACTIVITYRHYTHMCOLORCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA52ABF0)
+#define MOLEMOLE_MONOUIACTIVITYRHYTHMCOLORCOLLECTION_SETDISKCOLOR_OFFSET UNITYSDK_OFFSET(0x15BA00A0)
+#define MOLEMOLE_MONOUIACTIVITYRHYTHMCOLORCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA01B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIActivityRhythmColorCollection_TypeDefinitionIndex = 44760;
+	inline static constexpr unsigned int MonoUIActivityRhythmColorCollection_TypeDefinitionIndex = 75805;
 
 	class MonoUIActivityRhythmColorCollection : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

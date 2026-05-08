@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleWidgetController_SlotLockType_TypeDefinitionIndex = 68354;
+	inline static constexpr unsigned int UIGeneralNewsBubbleWidgetController_SlotLockType_TypeDefinitionIndex = 58772;
 
 	enum class UIGeneralNewsBubbleWidgetController_SlotLockType : ::System::Int32
 	{

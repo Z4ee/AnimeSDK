@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int GpuBoidManager_BoidCPUData_TypeDefinitionIndex = 29023;
+inline static constexpr unsigned int GpuBoidManager_BoidCPUData_TypeDefinitionIndex = 29542;
 
 struct alignas(4) GpuBoidManager_BoidCPUData
 {

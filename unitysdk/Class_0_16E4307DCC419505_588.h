@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_8AEDFD848EEC981C_1.h"
 
-namespace UnityEngine { class Transform; }
+namespace MoleMole::MiniGame::BangbooPartyGame { class MonoMarcelBlock; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_588_TypeDefinitionIndex = 62575;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_588_TypeDefinitionIndex = 78547;
 
 class Class_0_16E4307DCC419505_588
 {

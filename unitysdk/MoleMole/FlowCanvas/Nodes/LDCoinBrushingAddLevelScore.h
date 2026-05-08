@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0xBA009F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0xBA00CA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D35300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGADDLEVELSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D35560)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCoinBrushingAddLevelScore_TypeDefinitionIndex = 50472;
+	inline static constexpr unsigned int LDCoinBrushingAddLevelScore_TypeDefinitionIndex = 53689;
 
 	class LDCoinBrushingAddLevelScore : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Single>
 	{

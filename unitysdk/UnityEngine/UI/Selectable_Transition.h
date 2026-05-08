@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Selectable_Transition_TypeDefinitionIndex = 8429;
+	inline static constexpr unsigned int Selectable_Transition_TypeDefinitionIndex = 8439;
 
 	enum class Selectable_Transition : ::System::Int32
 	{

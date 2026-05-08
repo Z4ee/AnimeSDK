@@ -13,33 +13,34 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define FURHELPER_CHECKPROPERTYHASMODIFYANDSYNC_OFFSET UNITYSDK_OFFSET(0x182CBCB0)
-#define FURHELPER_GENERATEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x182C9960)
-#define FURHELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x182CA110)
-#define FURHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x182CA0C0)
-#define FURHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x182C9B20)
-#define FURHELPER_ONINIT_OFFSET UNITYSDK_OFFSET(0x182C9B70)
-#define FURHELPER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x182CB350)
-#define FURHELPER_PREPAREBINDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x182CA1E0)
-#define FURHELPER_REBUILDMATPROP_OFFSET UNITYSDK_OFFSET(0x182CA570)
-#define FURHELPER_REFRESHADDITIONALLIGHTSOFF_OFFSET UNITYSDK_OFFSET(0x182CB120)
-#define FURHELPER_REFRESHMATERIAL_OFFSET UNITYSDK_OFFSET(0x182C9830)
-#define FURHELPER_UINTTOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x182CA1A0)
-#define FURHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182CC2E0)
-#define FURHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x182CC280)
+#define FURHELPER_CHECKISVALIDFURMATERIAL_OFFSET UNITYSDK_OFFSET(0x1967B8C0)
+#define FURHELPER_CHECKPROPERTYHASMODIFYANDSYNC_OFFSET UNITYSDK_OFFSET(0x1967B380)
+#define FURHELPER_GENERATEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x196788D0)
+#define FURHELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x196791D0)
+#define FURHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19679180)
+#define FURHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19678BD0)
+#define FURHELPER_ONINIT_OFFSET UNITYSDK_OFFSET(0x19678C20)
+#define FURHELPER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1967A8B0)
+#define FURHELPER_PREPAREBINDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x196792A0)
+#define FURHELPER_REBUILDMATPROP_OFFSET UNITYSDK_OFFSET(0x19679830)
+#define FURHELPER_REFRESHADDITIONALLIGHTSOFF_OFFSET UNITYSDK_OFFSET(0x1967A620)
+#define FURHELPER_REFRESHMATERIAL_OFFSET UNITYSDK_OFFSET(0x19678730)
+#define FURHELPER_UINTTOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x19679260)
+#define FURHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1967BD10)
+#define FURHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1967BC80)
 
-inline static constexpr unsigned int FurHelper_TypeDefinitionIndex = 29015;
+inline static constexpr unsigned int FurHelper_TypeDefinitionIndex = 29534;
 
 class FurHelper : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperOnWillRenderObject()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x23C60);
-	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperUPdateMaterial()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x23C68);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x247E0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperOnWillRenderObject()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x247E8);
 	}
 	::FurHelper_RenderMode furMaterialRenderMode; // 0x18
 	::System::UInt32 furMaterialIndex; // 0x1C
@@ -133,5 +134,10 @@ public:
 	::System::Void OnInit(::System::Boolean destroy)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FURHELPER_ONINIT_OFFSET))(this, destroy);
+	}
+
+	::System::Boolean CheckIsValidFurMaterial(::UnityEngine::Material* furMaterial)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + FURHELPER_CHECKISVALIDFURMATERIAL_OFFSET))(this, furMaterial);
 	}
 };

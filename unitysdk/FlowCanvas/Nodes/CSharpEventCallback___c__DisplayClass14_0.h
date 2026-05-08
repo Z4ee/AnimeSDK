@@ -4,12 +4,12 @@
 
 namespace FlowCanvas::Nodes { class CSharpEventCallback; }
 
-#define FLOWCANVAS_NODES_CSHARPEVENTCALLBACK___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C161E0)
-#define FLOWCANVAS_NODES_CSHARPEVENTCALLBACK___C__DISPLAYCLASS14_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x19C16430)
+#define FLOWCANVAS_NODES_CSHARPEVENTCALLBACK___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A843840)
+#define FLOWCANVAS_NODES_CSHARPEVENTCALLBACK___C__DISPLAYCLASS14_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A843AB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CSharpEventCallback___c__DisplayClass14_0_TypeDefinitionIndex = 26456;
+	inline static constexpr unsigned int CSharpEventCallback___c__DisplayClass14_0_TypeDefinitionIndex = 27912;
 
 	class CSharpEventCallback___c__DisplayClass14_0 : public ::System::Object
 	{

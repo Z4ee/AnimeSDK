@@ -9,18 +9,19 @@ namespace MoleMole::GalGame { class BranchItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCONDITIONNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xA50C380)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA50C340)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCONDITIONNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x10E1AEB0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E1AE70)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatConditionNode_TypeDefinitionIndex = 76667;
+	inline static constexpr unsigned int MainCityChatConditionNode_TypeDefinitionIndex = 62512;
 
 	class MainCityChatConditionNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
 		// static const ::System::String* GENDER_COND; // 0x0
 		// static const ::System::String* PARTNER_LEVEL_COND; // 0x0
+		// static const ::System::String* Check_Resource_Title; // 0x0
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::BranchItem*>* conditionList; // 0x18
 		::System::String* conditionKey; // 0x20
 		::System::Int32 intParam; // 0x28

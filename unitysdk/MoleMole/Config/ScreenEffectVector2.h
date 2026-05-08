@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_SCREENEFFECTVECTOR2_GETVALUE_OFFSET UNITYSDK_OFFSET(0xB47F2A0)
-#define MOLEMOLE_CONFIG_SCREENEFFECTVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0xB47F3E0)
+#define MOLEMOLE_CONFIG_SCREENEFFECTVECTOR2_GETVALUE_OFFSET UNITYSDK_OFFSET(0x17D30620)
+#define MOLEMOLE_CONFIG_SCREENEFFECTVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x17D30730)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScreenEffectVector2_TypeDefinitionIndex = 45135;
+	inline static constexpr unsigned int ScreenEffectVector2_TypeDefinitionIndex = 77096;
 
 	class ScreenEffectVector2 : public ::System::Object
 	{
@@ -18,11 +18,11 @@ namespace MoleMole::Config
 		::UnityEngine::AnimationCurve* YCurve; // 0x10
 		::UnityEngine::AnimationCurve* XCurve; // 0x18
 		::System::Single YValue; // 0x20
-		::System::Single XValue; // 0x24
-		::System::Boolean EnableOverrideDefaultValue; // 0x28
-		::System::Boolean YUseCurve; // 0x29
-		::System::Boolean XUseCurve; // 0x2A
-		::System::Boolean EnableFade; // 0x2B
+		::System::Boolean YUseCurve; // 0x24
+		::System::Boolean XUseCurve; // 0x25
+		::System::Boolean EnableOverrideDefaultValue; // 0x26
+		::System::Boolean EnableFade; // 0x27
+		::System::Single XValue; // 0x28
 		::UnityEngine::Vector2 OverrideDefaultValue; // 0x2C
 
 		::System::Void _ctor()

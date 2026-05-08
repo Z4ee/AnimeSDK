@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTIME_INVOKE_OFFSET UNITYSDK_OFFSET(0xC2678B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xC267A40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTIME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1427C420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1427C580)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHadal_LayerRatingTime_TypeDefinitionIndex = 43889;
+	inline static constexpr unsigned int LDHadal_LayerRatingTime_TypeDefinitionIndex = 66897;
 
 	class LDHadal_LayerRatingTime : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::MoleMole::Level::RatingType>
 	{

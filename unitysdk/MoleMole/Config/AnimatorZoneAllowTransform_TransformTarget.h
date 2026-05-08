@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneAllowTransform_TransformTarget_TypeDefinitionIndex = 41261;
+	inline static constexpr unsigned int AnimatorZoneAllowTransform_TransformTarget_TypeDefinitionIndex = 76782;
 
 	enum class AnimatorZoneAllowTransform_TransformTarget : ::System::Int32
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_UTILITIES_UNITYVERSION_ENSURELOADED_OFFSET UNITYSDK_OFFSET(0x1AECC520)
-#define SIRENIX_UTILITIES_UNITYVERSION_ISVERSIONORGREATER_OFFSET UNITYSDK_OFFSET(0x1AECC530)
-#define SIRENIX_UTILITIES_UNITYVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AECC120)
+#define SIRENIX_UTILITIES_UNITYVERSION_ENSURELOADED_OFFSET UNITYSDK_OFFSET(0x1BADD8C0)
+#define SIRENIX_UTILITIES_UNITYVERSION_ISVERSIONORGREATER_OFFSET UNITYSDK_OFFSET(0x1BADD8D0)
+#define SIRENIX_UTILITIES_UNITYVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BADD520)
 
 namespace Sirenix::Utilities
 {
@@ -15,11 +15,11 @@ namespace Sirenix::Utilities
 	public:
 		static ::System::Int32* StaticGet_Minor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnityVersion_TypeDefinitionIndex)->GetStaticField(0x2FC0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnityVersion_TypeDefinitionIndex)->GetStaticField(0x2FD0);
 		}
 		static ::System::Int32* StaticGet_Major()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnityVersion_TypeDefinitionIndex)->GetStaticField(0x2FC4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UnityVersion_TypeDefinitionIndex)->GetStaticField(0x2FD4);
 		}
 
 		static ::System::Void _cctor()

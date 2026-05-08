@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/BuffGroupName.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_403_TypeDefinitionIndex = 47215;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_403_TypeDefinitionIndex = 48384;
 
-template <typename TData>
 class Class_0_16E4307DCC419505_403
 {
 public:

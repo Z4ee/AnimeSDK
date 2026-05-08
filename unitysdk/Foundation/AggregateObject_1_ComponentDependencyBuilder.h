@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObject_1_ComponentDependencyBuilder_TypeDefinitionIndex = 9185;
+	inline static constexpr unsigned int AggregateObject_1_ComponentDependencyBuilder_TypeDefinitionIndex = 9165;
 
 	template <typename TEvent>
 	class AggregateObject_1_ComponentDependencyBuilder : public ::System::Object

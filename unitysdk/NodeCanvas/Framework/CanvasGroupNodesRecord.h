@@ -5,11 +5,11 @@
 namespace NodeCanvas::Framework { class CanvasGroup; }
 namespace NodeCanvas::Framework { class Node; }
 
-#define NODECANVAS_FRAMEWORK_CANVASGROUPNODESRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3A89F0)
+#define NODECANVAS_FRAMEWORK_CANVASGROUPNODESRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B7660)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int CanvasGroupNodesRecord_TypeDefinitionIndex = 27396;
+	inline static constexpr unsigned int CanvasGroupNodesRecord_TypeDefinitionIndex = 27781;
 
 	class CanvasGroupNodesRecord : public ::System::Object
 	{

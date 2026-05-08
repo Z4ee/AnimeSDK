@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IGameService_TypeDefinitionIndex = 9118;
+	inline static constexpr unsigned int IGameService_TypeDefinitionIndex = 8971;
 
 	class IGameService
 	{

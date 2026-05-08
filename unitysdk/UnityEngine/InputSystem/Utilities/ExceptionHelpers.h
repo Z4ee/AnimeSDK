@@ -4,11 +4,11 @@
 
 namespace System { class Exception; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_EXCEPTIONHELPERS_ISEXCEPTIONINDICATINGBUGINCODE_OFFSET UNITYSDK_OFFSET(0x1AACAE10)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_EXCEPTIONHELPERS_ISEXCEPTIONINDICATINGBUGINCODE_OFFSET UNITYSDK_OFFSET(0x1B9915E0)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ExceptionHelpers_TypeDefinitionIndex = 28871;
+	inline static constexpr unsigned int ExceptionHelpers_TypeDefinitionIndex = 29389;
 
 	class ExceptionHelpers : public ::System::Object
 	{

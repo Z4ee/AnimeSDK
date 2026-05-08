@@ -5,9 +5,9 @@
 
 namespace LyraSector { class LyraDistanceFieldAsset; }
 
-#define TESTLYRASECTORLOADER_COORDTODISTANCEFIELDASSETDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D179C0)
+#define TESTLYRASECTORLOADER_COORDTODISTANCEFIELDASSETDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F26E0)
 
-inline static constexpr unsigned int TestLyraSectorLoader_CoordToDistanceFieldAssetDict_TypeDefinitionIndex = 29040;
+inline static constexpr unsigned int TestLyraSectorLoader_CoordToDistanceFieldAssetDict_TypeDefinitionIndex = 29559;
 
 class TestLyraSectorLoader_CoordToDistanceFieldAssetDict : public ::UnityEngine::Rendering::SerializedDictionary_2<::LyraSector::LyraSectorCoord, ::LyraSector::LyraDistanceFieldAsset*>
 {

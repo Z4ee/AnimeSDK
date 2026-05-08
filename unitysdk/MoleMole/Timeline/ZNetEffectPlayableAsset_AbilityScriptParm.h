@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7DC9161991A0EE77.h"
+#include "unitysdk/Enum_3_7CD0E33FF51FD25C.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_EA5A78559ECD45B1;
@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigPosRot; }
 namespace MoleMole::Config { class EffectAutoDynamicValue; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ABILITYSCRIPTPARM__CTOR_OFFSET UNITYSDK_OFFSET(0x8CA9C40)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ABILITYSCRIPTPARM__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECAAE0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectPlayableAsset_AbilityScriptParm_TypeDefinitionIndex = 49168;
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_AbilityScriptParm_TypeDefinitionIndex = 79665;
 
 	class ZNetEffectPlayableAsset_AbilityScriptParm : public ::System::Object
 	{
@@ -21,7 +21,7 @@ namespace MoleMole::Timeline
 		::MoleMole::Config::ConfigPosRot* FireEffectPosRot; // 0x18
 		::Class_1_EA5A78559ECD45B1* EffectScale; // 0x20
 		::MoleMole::Config::EffectAutoDynamicValue* EffectAutoDynamic; // 0x28
-		::Enum_3_7DC9161991A0EE77 EffectOwner; // 0x30
+		::Enum_3_7CD0E33FF51FD25C EffectOwner; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 namespace MoleMole { class UIFullScreenVideoV2PopInNormalWindowController; }
 namespace MoleMole::Utils::CameraSequence { class CameraSequence_PlayVideo; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_PLAYVIDEO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x97289E0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCE_PLAYVIDEO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11340700)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequence_PlayVideo___c__DisplayClass13_0_TypeDefinitionIndex = 81185;
+	inline static constexpr unsigned int CameraSequence_PlayVideo___c__DisplayClass13_0_TypeDefinitionIndex = 40066;
 
 	class CameraSequence_PlayVideo___c__DisplayClass13_0 : public ::System::Object
 	{

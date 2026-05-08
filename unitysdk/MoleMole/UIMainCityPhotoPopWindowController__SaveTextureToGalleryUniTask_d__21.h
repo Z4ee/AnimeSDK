@@ -9,19 +9,19 @@ namespace MoleMole { class UIMainCityPhotoPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class RenderTexture; }
 
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVETEXTURETOGALLERYUNITASK_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x362E00)
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVETEXTURETOGALLERYUNITASK_D__21_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVETEXTURETOGALLERYUNITASK_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7AC680)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVETEXTURETOGALLERYUNITASK_D__21_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityPhotoPopWindowController__SaveTextureToGalleryUniTask_d__21_TypeDefinitionIndex = 71678;
+	inline static constexpr unsigned int UIMainCityPhotoPopWindowController__SaveTextureToGalleryUniTask_d__21_TypeDefinitionIndex = 46638;
 
 	struct alignas(8) UIMainCityPhotoPopWindowController__SaveTextureToGalleryUniTask_d__21
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_A191518F735366A8*> __u__1; // 0x10
-		::MoleMole::UIMainCityPhotoPopWindowController* __4__this; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::UnityEngine::RenderTexture* rt; // 0x40
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_A191518F735366A8*> __u__1; // 0x20
+		::UnityEngine::RenderTexture* rt; // 0x38
+		::MoleMole::UIMainCityPhotoPopWindowController* __4__this; // 0x40
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

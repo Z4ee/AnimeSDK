@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityDirectionalBlurEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF63D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDIRECTIONALBLUREFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x186B52B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityDirectionalBlurEffects_TypeDefinitionIndex = 80477;
+	inline static constexpr unsigned int ConfigEntityDirectionalBlurEffects_TypeDefinitionIndex = 60297;
 
 	class ConfigEntityDirectionalBlurEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int FSMStateNested_1_TypeDefinitionIndex = 27060;
+	inline static constexpr unsigned int FSMStateNested_1_TypeDefinitionIndex = 26854;
 
 	template <typename T>
 	class FSMStateNested_1 : public ::NodeCanvas::StateMachines::FSMState

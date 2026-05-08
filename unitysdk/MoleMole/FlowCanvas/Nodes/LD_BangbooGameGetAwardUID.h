@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETAWARDUID_INVOKE_OFFSET UNITYSDK_OFFSET(0xB989CC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETAWARDUID__CTOR_OFFSET UNITYSDK_OFFSET(0xB989D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETAWARDUID_INVOKE_OFFSET UNITYSDK_OFFSET(0x18216F10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETAWARDUID__CTOR_OFFSET UNITYSDK_OFFSET(0x18216FC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BangbooGameGetAwardUID_TypeDefinitionIndex = 78913;
+	inline static constexpr unsigned int LD_BangbooGameGetAwardUID_TypeDefinitionIndex = 61142;
 
 	class LD_BangbooGameGetAwardUID : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32, ::System::Int32>
 	{

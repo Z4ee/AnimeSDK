@@ -7,24 +7,24 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA233850)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x130154E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageControllerContext_TypeDefinitionIndex = 68804;
+	inline static constexpr unsigned int UIPlayerAccessoryPageControllerContext_TypeDefinitionIndex = 39805;
 
 	class UIPlayerAccessoryPageControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* SkinIDList; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* AvatarIDList; // 0x30
-		::System::Int32 AccIndex; // 0x38
-		::System::Int32 TabID; // 0x3C
-		::Enum_3_ED790DAC948A65A9_20 InitSkinType; // 0x40
-		::System::Int32 InitSkinID; // 0x44
-		::Enum_3_89453005EC225A84 SkinPreviewType; // 0x48
+		::System::Collections::Generic::List_1<::System::Int32>* AvatarIDList; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* SkinIDList; // 0x30
+		::System::Int32 InitSkinID; // 0x38
+		::System::Int32 AccIndex; // 0x3C
+		::Enum_3_D54A5313F8CDCCC2 PageType; // 0x40
+		::Enum_3_ED790DAC948A65A9_20 InitSkinType; // 0x44
+		::System::Int32 TabID; // 0x48
 		::System::Int32 InitAvatarID; // 0x4C
-		::Enum_3_D54A5313F8CDCCC2 PageType; // 0x50
+		::Enum_3_89453005EC225A84 SkinPreviewType; // 0x50
 
 		::System::Void _ctor()
 		{

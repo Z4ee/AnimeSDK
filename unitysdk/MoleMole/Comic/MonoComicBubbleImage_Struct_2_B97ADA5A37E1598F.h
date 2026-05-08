@@ -9,20 +9,20 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int MonoComicBubbleImage_Struct_2_B97ADA5A37E1598F_TypeDefinitionIndex = 52314;
+	inline static constexpr unsigned int MonoComicBubbleImage_Struct_2_B97ADA5A37E1598F_TypeDefinitionIndex = 42614;
 
 	struct alignas(8) MonoComicBubbleImage_Struct_2_B97ADA5A37E1598F
 	{
-		::MoleMole::Comic::MonoComicBubbleImage* Field_2_2; // 0x10
-		::UnityEngine::UI::VertexHelper* Field_2_9; // 0x18
-		::UnityEngine::Vector2 Field_2_4; // 0x20
-		::System::Boolean Field_2_8; // 0x28
-		::System::Single Field_2_6; // 0x2C
-		::UnityEngine::Vector2 Field_2_7; // 0x30
-		::System::Single Field_2_5; // 0x38
-		::System::Single Field_2_1; // 0x3C
-		::System::Single Field_2_3; // 0x40
-		::UnityEngine::Vector2 Field_2_0; // 0x44
-		::UnityEngine::Color32 Field_2_10; // 0x4C
+		::UnityEngine::UI::VertexHelper* Field_2_9; // 0x10
+		::MoleMole::Comic::MonoComicBubbleImage* Field_2_2; // 0x18
+		::UnityEngine::Vector2 Field_2_7; // 0x20
+		::System::Single Field_2_6; // 0x28
+		::UnityEngine::Color32 Field_2_10; // 0x2C
+		::UnityEngine::Vector2 Field_2_0; // 0x30
+		::System::Single Field_2_3; // 0x38
+		::System::Boolean Field_2_8; // 0x3C
+		::System::Single Field_2_5; // 0x40
+		::UnityEngine::Vector2 Field_2_4; // 0x44
+		::System::Single Field_2_1; // 0x4C
 	};
 }

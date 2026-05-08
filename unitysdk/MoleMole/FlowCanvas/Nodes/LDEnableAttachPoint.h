@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0xA4F98A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F9AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E08D30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x10E08F20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnableAttachPoint_TypeDefinitionIndex = 70429;
+	inline static constexpr unsigned int LDEnableAttachPoint_TypeDefinitionIndex = 45824;
 
 	class LDEnableAttachPoint : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::Battle::Entity*, ::System::String*, ::System::Boolean>
 	{

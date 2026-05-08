@@ -6,11 +6,11 @@
 class Class_1_D375C91CCE5D3999;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBOTTLELOGINWRITECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC2C6790)
+#define MOLEMOLE_UIBOTTLELOGINWRITECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F74EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBottleLoginWriteContext_TypeDefinitionIndex = 51136;
+	inline static constexpr unsigned int UIBottleLoginWriteContext_TypeDefinitionIndex = 60350;
 
 	class UIBottleLoginWriteContext : public ::MoleMole::UIControllerContextBase
 	{

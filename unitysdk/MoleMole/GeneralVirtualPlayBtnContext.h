@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_GENERALVIRTUALPLAYBTNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB98ECC0)
+#define MOLEMOLE_GENERALVIRTUALPLAYBTNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1821BBF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralVirtualPlayBtnContext_TypeDefinitionIndex = 79655;
+	inline static constexpr unsigned int GeneralVirtualPlayBtnContext_TypeDefinitionIndex = 40346;
 
 	class GeneralVirtualPlayBtnContext : public ::MoleMole::UIControllerContextBase
 	{

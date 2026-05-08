@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { class IGraphAssignable; }
 namespace System { template <typename T> class Action_1; }
 
-#define NODECANVAS_FRAMEWORK_IGRAPHASSIGNABLEEXTENSIONS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11FB70)
-#define NODECANVAS_FRAMEWORK_IGRAPHASSIGNABLEEXTENSIONS___C__DISPLAYCLASS1_0__TRYSTARTSUBGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0x1A11FB80)
+#define NODECANVAS_FRAMEWORK_IGRAPHASSIGNABLEEXTENSIONS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45F660)
+#define NODECANVAS_FRAMEWORK_IGRAPHASSIGNABLEEXTENSIONS___C__DISPLAYCLASS1_0__TRYSTARTSUBGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0x1B45F670)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IGraphAssignableExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 26877;
+	inline static constexpr unsigned int IGraphAssignableExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 27149;
 
 	class IGraphAssignableExtensions___c__DisplayClass1_0 : public ::System::Object
 	{

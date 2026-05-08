@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREECORE_STATETREERANDOMTIMEDURATION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1B70FC30)
-#define STATETREECORE_STATETREERANDOMTIMEDURATION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70FC40)
+#define STATETREECORE_STATETREERANDOMTIMEDURATION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1C508AC0)
+#define STATETREECORE_STATETREERANDOMTIMEDURATION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C508AD0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeRandomTimeDuration_StructOpsTypeTraits_TypeDefinitionIndex = 27900;
+	inline static constexpr unsigned int StateTreeRandomTimeDuration_StructOpsTypeTraits_TypeDefinitionIndex = 28418;
 
 	class StateTreeRandomTimeDuration_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

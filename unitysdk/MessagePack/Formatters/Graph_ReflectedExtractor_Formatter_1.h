@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_ReflectedExtractor_Formatter_1_TypeDefinitionIndex = 26851;
+	inline static constexpr unsigned int Graph_ReflectedExtractor_Formatter_1_TypeDefinitionIndex = 26492;
 
 	template <typename T>
 	class Graph_ReflectedExtractor_Formatter_1 : public ::System::Object

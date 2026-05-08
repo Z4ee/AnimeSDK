@@ -3,14 +3,14 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVerSuffix_TypeDefinitionIndex = 8090;
+	inline static constexpr unsigned int MultiVerSuffix_TypeDefinitionIndex = 8038;
 
 	enum class MultiVerSuffix : ::System::Int32
 	{
-		RepeatBasePath = 4,
 		Correct = 0,
-		ErrorMultiVerPath = 3,
+		RepeatBasePath = 4,
 		ErrorBasePath = 2,
 		Unknown = 1,
+		ErrorMultiVerPath = 3,
 	};
 }

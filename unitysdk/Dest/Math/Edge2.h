@@ -5,7 +5,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Edge2_TypeDefinitionIndex = 32669;
+	inline static constexpr unsigned int Edge2_TypeDefinitionIndex = 33204;
 
 	struct alignas(4) Edge2
 	{

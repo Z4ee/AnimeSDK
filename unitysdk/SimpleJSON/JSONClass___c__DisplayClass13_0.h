@@ -6,12 +6,12 @@
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define SIMPLEJSON_JSONCLASS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B182D30)
-#define SIMPLEJSON_JSONCLASS___C__DISPLAYCLASS13_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1B182D40)
+#define SIMPLEJSON_JSONCLASS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE1050)
+#define SIMPLEJSON_JSONCLASS___C__DISPLAYCLASS13_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1BEE1060)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSONClass___c__DisplayClass13_0_TypeDefinitionIndex = 7986;
+	inline static constexpr unsigned int JSONClass___c__DisplayClass13_0_TypeDefinitionIndex = 8104;
 
 	class JSONClass___c__DisplayClass13_0 : public ::System::Object
 	{

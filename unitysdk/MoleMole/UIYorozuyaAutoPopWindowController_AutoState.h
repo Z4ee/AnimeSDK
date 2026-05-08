@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAutoPopWindowController_AutoState_TypeDefinitionIndex = 79052;
+	inline static constexpr unsigned int UIYorozuyaAutoPopWindowController_AutoState_TypeDefinitionIndex = 60693;
 
 	enum class UIYorozuyaAutoPopWindowController_AutoState : ::System::Int32
 	{
-		CanStart = 3,
-		CannotStart = 1,
-		Complete = 5,
-		Progress = 4,
 		GotAllReward = 2,
 		Lock = 0,
+		Complete = 5,
+		Progress = 4,
+		CanStart = 3,
+		CannotStart = 1,
 	};
 }

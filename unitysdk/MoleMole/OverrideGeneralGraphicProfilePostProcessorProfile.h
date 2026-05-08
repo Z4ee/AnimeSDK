@@ -8,19 +8,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_OVERRIDEGENERALGRAPHICPROFILEPOSTPROCESSORPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x6EC04E0)
-#define MOLEMOLE_OVERRIDEGENERALGRAPHICPROFILEPOSTPROCESSORPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x6EC0570)
-#define MOLEMOLE_OVERRIDEGENERALGRAPHICPROFILEPOSTPROCESSORPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x6EC0660)
+#define MOLEMOLE_OVERRIDEGENERALGRAPHICPROFILEPOSTPROCESSORPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x11DE4370)
+#define MOLEMOLE_OVERRIDEGENERALGRAPHICPROFILEPOSTPROCESSORPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x11DE43E0)
+#define MOLEMOLE_OVERRIDEGENERALGRAPHICPROFILEPOSTPROCESSORPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x11DE44D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int OverrideGeneralGraphicProfilePostProcessorProfile_TypeDefinitionIndex = 71081;
+	inline static constexpr unsigned int OverrideGeneralGraphicProfilePostProcessorProfile_TypeDefinitionIndex = 45167;
 
 	class OverrideGeneralGraphicProfilePostProcessorProfile : public ::MoleMole::PerformanceSettingPostProcessProfileBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* GPUModelRegexList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GeneralGraphicQualityProfileContext*>* OverrideGeneralGraphicProfileContextDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GeneralGraphicQualityProfileContext*>* OverrideGeneralGraphicProfileContextDict; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* GPUModelRegexList; // 0x18
 
 		::System::Void _ctor()
 		{

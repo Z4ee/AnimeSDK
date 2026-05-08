@@ -7,11 +7,11 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_SPECULARTONEMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197F2800)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_SPECULARTONEMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA88F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_SpecularTonemappingConfig_TypeDefinitionIndex = 29441;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_SpecularTonemappingConfig_TypeDefinitionIndex = 29960;
 
 	class WeatherConfigAdditionalData_SpecularTonemappingConfig : public ::System::Object
 	{

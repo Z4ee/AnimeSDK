@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define UNITYENGINE_TIMELINE_AUDIOCLIPPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C1380)
+#define UNITYENGINE_TIMELINE_AUDIOCLIPPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C224390)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AudioClipProperties_TypeDefinitionIndex = 30204;
+	inline static constexpr unsigned int AudioClipProperties_TypeDefinitionIndex = 30733;
 
 	class AudioClipProperties : public ::UnityEngine::Playables::PlayableBehaviour
 	{

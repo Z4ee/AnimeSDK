@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/CrowdPhysics/DitherState.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0x65266C0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6526790)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0xD456730)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD4567C0)
 
 namespace NPCCrowd::CrowdPhysics
 {
-	inline static constexpr unsigned int NPCPhysicsRuntimeData_TypeDefinitionIndex = 40248;
+	inline static constexpr unsigned int NPCPhysicsRuntimeData_TypeDefinitionIndex = 39848;
 
 	class NPCPhysicsRuntimeData : public ::System::Object
 	{

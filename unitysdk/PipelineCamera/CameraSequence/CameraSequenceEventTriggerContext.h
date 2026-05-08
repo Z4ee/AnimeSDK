@@ -6,7 +6,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEventTriggerContext_TypeDefinitionIndex = 35675;
+	inline static constexpr unsigned int CameraSequenceEventTriggerContext_TypeDefinitionIndex = 36219;
 
 	struct alignas(8) CameraSequenceEventTriggerContext
 	{

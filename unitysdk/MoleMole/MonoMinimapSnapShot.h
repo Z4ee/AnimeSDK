@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOMINIMAPSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A9E00)
+#define MOLEMOLE_MONOMINIMAPSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD4780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMinimapSnapShot_TypeDefinitionIndex = 49934;
+	inline static constexpr unsigned int MonoMinimapSnapShot_TypeDefinitionIndex = 62748;
 
 	class MonoMinimapSnapShot : public ::UnityEngine::MonoBehaviour
 	{

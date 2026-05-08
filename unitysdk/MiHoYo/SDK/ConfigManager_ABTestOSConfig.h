@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class AbTestConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_ABTESTOSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187625E0)
+#define MIHOYO_SDK_CONFIGMANAGER_ABTESTOSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199247A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_ABTestOSConfig_TypeDefinitionIndex = 18730;
+	inline static constexpr unsigned int ConfigManager_ABTestOSConfig_TypeDefinitionIndex = 19073;
 
 	class ConfigManager_ABTestOSConfig : public ::System::Object
 	{

@@ -6,25 +6,25 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID_PROCESS_OFFSET UNITYSDK_OFFSET(0xA4FF380)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA4FF1D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FF860)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0xA4FF880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID_PROCESS_OFFSET UNITYSDK_OFFSET(0x10E0E3F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E0E260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID__CTOR_OFFSET UNITYSDK_OFFSET(0x10E0E8E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYROBOTID__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x10E0E920)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReplaceAvatarByRobotID_TypeDefinitionIndex = 56715;
+	inline static constexpr unsigned int LDReplaceAvatarByRobotID_TypeDefinitionIndex = 78795;
 
 	class LDReplaceAvatarByRobotID : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* forceRemoveSameAvatarID; // 0xB8
-		::FlowCanvas::FlowOutput* flowOut; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Int32>* RobotID; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Int32>* TargetAvatarIndex; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* RobotID; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* forceRemoveSameAvatarID; // 0xC8
+		::FlowCanvas::FlowOutput* flowOut; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Int32>* TargetAvatarIndex; // 0xD8
 
 		::System::Void _ctor()
 		{

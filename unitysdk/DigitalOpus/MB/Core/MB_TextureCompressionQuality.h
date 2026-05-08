@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_TextureCompressionQuality_TypeDefinitionIndex = 83302;
+	inline static constexpr unsigned int MB_TextureCompressionQuality_TypeDefinitionIndex = 85030;
 
 	enum class MB_TextureCompressionQuality : ::System::Int32
 	{

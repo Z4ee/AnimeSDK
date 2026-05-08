@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_4.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_12.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_22FDC730CC26B7BA_CLASS_1_F8AEE9F99A3780D0__CTOR_OFFSET UNITYSDK_OFFSET(0x6087490)
+#define CLASS_3_22FDC730CC26B7BA_CLASS_1_F8AEE9F99A3780D0__CTOR_OFFSET UNITYSDK_OFFSET(0x13145E10)
 
-inline static constexpr unsigned int Class_3_22FDC730CC26B7BA_Class_1_F8AEE9F99A3780D0_TypeDefinitionIndex = 48932;
+inline static constexpr unsigned int Class_3_22FDC730CC26B7BA_Class_1_F8AEE9F99A3780D0_TypeDefinitionIndex = 80508;
 
 class Class_3_22FDC730CC26B7BA_Class_1_F8AEE9F99A3780D0 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x10
 	::MoleMole::Battle::Entity* Field_1_0; // 0x18
-	::Enum_3_0A3761FE34514D6C_4 Field_1_2; // 0x20
+	::Enum_3_0A3761FE34514D6C_12 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

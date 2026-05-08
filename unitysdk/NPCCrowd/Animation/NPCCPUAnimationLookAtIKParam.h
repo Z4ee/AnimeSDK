@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKATIKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9B05E10)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKATIKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xF858C20)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimationLookAtIKParam_TypeDefinitionIndex = 67618;
+	inline static constexpr unsigned int NPCCPUAnimationLookAtIKParam_TypeDefinitionIndex = 50425;
 
 	class NPCCPUAnimationLookAtIKParam : public ::System::Object
 	{

@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK::Console { class PayManagerBase; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD9F00)
-#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x18CD9F10)
+#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A346550)
+#define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A346560)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 19218;
+	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 19569;
 
 	class PayManagerBase___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::PayManagerBase* __4__this; // 0x10
-		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Int32>* callback; // 0x18
+		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Int32>* callback; // 0x10
+		::MiHoYo::SDK::Console::PayManagerBase* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,10 +4,10 @@
 
 namespace MoleMole { class UISDKLoginWidgetController; }
 
-#define CLASS_1_5FFC3AED380C8D79_METHOD_1_F7BA13C72A6B3F58_OFFSET UNITYSDK_OFFSET(0x82961A0)
-#define CLASS_1_5FFC3AED380C8D79__CTOR_OFFSET UNITYSDK_OFFSET(0x8296190)
+#define CLASS_1_5FFC3AED380C8D79_METHOD_1_464B80C09A37526F_OFFSET UNITYSDK_OFFSET(0x156D0DD0)
+#define CLASS_1_5FFC3AED380C8D79__CTOR_OFFSET UNITYSDK_OFFSET(0x156D0DC0)
 
-inline static constexpr unsigned int Class_1_5FFC3AED380C8D79_TypeDefinitionIndex = 77346;
+inline static constexpr unsigned int Class_1_5FFC3AED380C8D79_TypeDefinitionIndex = 40842;
 
 class Class_1_5FFC3AED380C8D79 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UISDKLoginWidgetController*))((::PBYTE)hIl2Cpp + CLASS_1_5FFC3AED380C8D79__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_F7BA13C72A6B3F58()
+	::System::Void Method_1_464B80C09A37526F()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5FFC3AED380C8D79_METHOD_1_F7BA13C72A6B3F58_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5FFC3AED380C8D79_METHOD_1_464B80C09A37526F_OFFSET))(this);
 	}
 };

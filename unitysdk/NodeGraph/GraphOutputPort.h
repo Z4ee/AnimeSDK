@@ -7,13 +7,13 @@ namespace NodeGraph { class GraphNodeBase; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHOUTPUTPORT_GET_PORTDIRECTION_OFFSET UNITYSDK_OFFSET(0x6534EC0)
-#define NODEGRAPH_GRAPHOUTPUTPORT_TRIGGER_OFFSET UNITYSDK_OFFSET(0x6534EE0)
-#define NODEGRAPH_GRAPHOUTPUTPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x6534ED0)
+#define NODEGRAPH_GRAPHOUTPUTPORT_GET_PORTDIRECTION_OFFSET UNITYSDK_OFFSET(0xD464180)
+#define NODEGRAPH_GRAPHOUTPUTPORT_TRIGGER_OFFSET UNITYSDK_OFFSET(0xD4641A0)
+#define NODEGRAPH_GRAPHOUTPUTPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xD464190)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphOutputPort_TypeDefinitionIndex = 52364;
+	inline static constexpr unsigned int GraphOutputPort_TypeDefinitionIndex = 43521;
 
 	class GraphOutputPort : public ::NodeGraph::GraphPort
 	{

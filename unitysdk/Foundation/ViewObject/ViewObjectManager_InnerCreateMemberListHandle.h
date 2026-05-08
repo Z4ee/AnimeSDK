@@ -5,20 +5,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37BD50)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x9777F90)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x37BCE0)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37BDC0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x717700)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x114A6580)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x717690)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_INNERCREATEMEMBERLISTHANDLE___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x717750)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_InnerCreateMemberListHandle_TypeDefinitionIndex = 74558;
+	inline static constexpr unsigned int ViewObjectManager_InnerCreateMemberListHandle_TypeDefinitionIndex = 66411;
 
 	struct alignas(8) ViewObjectManager_InnerCreateMemberListHandle
 	{
 		static ::System::UInt32* StaticGet__IdGen()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager_InnerCreateMemberListHandle_TypeDefinitionIndex)->GetStaticField(0x10DC0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager_InnerCreateMemberListHandle_TypeDefinitionIndex)->GetStaticField(0x103A0);
 		}
 		::System::UInt32 HandleID; // 0x10
 		::System::Collections::Generic::List_1<::Foundation::ViewObject::GroupMemberIdentifier>* RequestList; // 0x18

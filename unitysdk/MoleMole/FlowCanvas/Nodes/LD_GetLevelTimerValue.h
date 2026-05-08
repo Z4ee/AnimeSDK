@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA38CDB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xA38CE90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x170CC860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x170CC900)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetLevelTimerValue_TypeDefinitionIndex = 48802;
+	inline static constexpr unsigned int LD_GetLevelTimerValue_TypeDefinitionIndex = 67272;
 
 	class LD_GetLevelTimerValue : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::String*>
 	{

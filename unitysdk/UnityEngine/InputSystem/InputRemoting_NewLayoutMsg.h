@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1A5871B0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1A5874F0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1B354900)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B354BE0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_NewLayoutMsg_TypeDefinitionIndex = 28478;
+	inline static constexpr unsigned int InputRemoting_NewLayoutMsg_TypeDefinitionIndex = 28996;
 
 	class InputRemoting_NewLayoutMsg : public ::System::Object
 	{

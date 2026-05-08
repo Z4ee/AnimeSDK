@@ -7,27 +7,27 @@ namespace MoleMole { class MonoEffectPluginAttachToCamera; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_8C84B83D3715B347_GETCLASSID_OFFSET UNITYSDK_OFFSET(0xC51EAE0)
-#define CLASS_3_8C84B83D3715B347_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xC51EBD0)
-#define CLASS_3_8C84B83D3715B347_METHOD_3_CCBE730AF445BBD4_OFFSET UNITYSDK_OFFSET(0xC51EED0)
-#define CLASS_3_8C84B83D3715B347_METHOD_3_E10131BC77AF6D24_OFFSET UNITYSDK_OFFSET(0xC51EC30)
-#define CLASS_3_8C84B83D3715B347_ONCLEAN_OFFSET UNITYSDK_OFFSET(0xC51E950)
-#define CLASS_3_8C84B83D3715B347__CCTOR_OFFSET UNITYSDK_OFFSET(0xC51EB40)
-#define CLASS_3_8C84B83D3715B347__CTOR_OFFSET UNITYSDK_OFFSET(0xC51EBC0)
+#define CLASS_3_8C84B83D3715B347_GETCLASSID_OFFSET UNITYSDK_OFFSET(0x161F8650)
+#define CLASS_3_8C84B83D3715B347_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x161F8A30)
+#define CLASS_3_8C84B83D3715B347_METHOD_3_CCBE730AF445BBD4_OFFSET UNITYSDK_OFFSET(0x161F89B0)
+#define CLASS_3_8C84B83D3715B347_METHOD_3_E10131BC77AF6D24_OFFSET UNITYSDK_OFFSET(0x161F8730)
+#define CLASS_3_8C84B83D3715B347_ONCLEAN_OFFSET UNITYSDK_OFFSET(0x161F8400)
+#define CLASS_3_8C84B83D3715B347__CCTOR_OFFSET UNITYSDK_OFFSET(0x161F86A0)
+#define CLASS_3_8C84B83D3715B347__CTOR_OFFSET UNITYSDK_OFFSET(0x161F8720)
 
-inline static constexpr unsigned int Class_3_8C84B83D3715B347_TypeDefinitionIndex = 67463;
+inline static constexpr unsigned int Class_3_8C84B83D3715B347_TypeDefinitionIndex = 65548;
 
 class Class_3_8C84B83D3715B347 : public ::Class_2_F3CFF1AFF7EE7DCD
 {
 public:
 	// static const ::System::Int32 Field_3_7 = 0xA4; // 0x0
-	::UnityEngine::Transform* Field_3_6; // 0x48
-	::System::String* Field_3_0; // 0x50
-	::UnityEngine::Vector3 Field_3_1; // 0x58
-	::UnityEngine::Vector3 Field_3_2; // 0x64
-	::UnityEngine::Vector3 Field_3_3; // 0x70
-	::System::Boolean Field_3_5; // 0x7C
-	::System::Boolean Field_3_4; // 0x7D
+	::System::String* Field_3_0; // 0x48
+	::UnityEngine::Transform* Field_3_6; // 0x50
+	::System::Boolean Field_3_5; // 0x58
+	::System::Boolean Field_3_4; // 0x59
+	::UnityEngine::Vector3 Field_3_2; // 0x5C
+	::UnityEngine::Vector3 Field_3_3; // 0x68
+	::UnityEngine::Vector3 Field_3_1; // 0x74
 
 	static ::System::Void _cctor()
 	{
@@ -49,11 +49,6 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8C84B83D3715B347_GETCLASSID_OFFSET))(this);
 	}
 
-	::System::Int32 Method_3_A1D8CD775DEC3C21()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8C84B83D3715B347_METHOD_3_A1D8CD775DEC3C21_OFFSET))(this);
-	}
-
 	::System::Void Method_3_E10131BC77AF6D24(::MoleMole::MonoEffectPluginAttachToCamera* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectPluginAttachToCamera*))((::PBYTE)hIl2Cpp + CLASS_3_8C84B83D3715B347_METHOD_3_E10131BC77AF6D24_OFFSET))(this, a1);
@@ -62,5 +57,10 @@ public:
 	static ::Class_3_8C84B83D3715B347* Method_3_CCBE730AF445BBD4()
 	{
 		return ((::Class_3_8C84B83D3715B347*(*)())((::PBYTE)hIl2Cpp + CLASS_3_8C84B83D3715B347_METHOD_3_CCBE730AF445BBD4_OFFSET))();
+	}
+
+	::System::Int32 Method_3_A1D8CD775DEC3C21()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8C84B83D3715B347_METHOD_3_A1D8CD775DEC3C21_OFFSET))(this);
 	}
 };

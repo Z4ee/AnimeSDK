@@ -12,26 +12,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x175098B0)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x175098C0)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17509AC0)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17509C80)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17509C40)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x18F39D50)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x18F39D60)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x18F39F40)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F3A0E0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_CONFIGUICOOPTEAM3D_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3A0A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter_TypeDefinitionIndex = 42132;
+	inline static constexpr unsigned int ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter_TypeDefinitionIndex = 74761;
 
 	class ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigUICoopTeam3D*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ConfigUICoopTeam3D_CameraConfigEnum, ::MoleMole::ConfigUICoopTeam3D_CameraConfig*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ConfigUICoopTeam3D_CameraConfigEnum, ::MoleMole::ConfigUICoopTeam3D_CameraConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B290);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::ConfigUICoopTeam3D_CameraConfigEnum, ::MoleMole::ConfigUICoopTeam3D_CameraConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C5B0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigUICoopTeam3D_AvatarConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigUICoopTeam3D_AvatarConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B298);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigUICoopTeam3D_AvatarConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICoopTeam3D_ConfigUICoopTeam3D_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C5B8);
 		}
 
 		::System::Void _ctor()

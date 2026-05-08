@@ -14,7 +14,7 @@ namespace PipelineCamera::SubModule { class OnCameraCollisionResolvedDelegate; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int DefaultCollisionResolver_2_TypeDefinitionIndex = 35870;
+	inline static constexpr unsigned int DefaultCollisionResolver_2_TypeDefinitionIndex = 36414;
 
 	template <typename T1, typename T2>
 	class DefaultCollisionResolver_2 : public ::System::Object

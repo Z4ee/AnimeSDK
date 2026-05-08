@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x985DB90)
-#define MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0x985DD40)
-#define MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x985DD10)
+#define MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x11789CE0)
+#define MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x11789EA0)
+#define MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11789E40)
 
 namespace MoleMole::Timeline::FixControl
 {
-	inline static constexpr unsigned int FixControlTrack_TypeDefinitionIndex = 62999;
+	inline static constexpr unsigned int FixControlTrack_TypeDefinitionIndex = 47828;
 
 	class FixControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline::FixControl
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_METHOD_5_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_FIXCONTROL_FIXCONTROLTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

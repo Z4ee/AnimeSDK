@@ -6,7 +6,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class VolumeComponent; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessBehavior_1_TypeDefinitionIndex = 58834;
+	inline static constexpr unsigned int ESPostProcessBehavior_1_TypeDefinitionIndex = 44418;
 
 	template <typename T>
 	class ESPostProcessBehavior_1 : public ::MoleMole::EffectSimulate::ESPostProcessBehavior

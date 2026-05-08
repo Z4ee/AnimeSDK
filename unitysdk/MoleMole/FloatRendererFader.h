@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_FLOATRENDERERFADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5C3140)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_066A2A302F994390_OFFSET UNITYSDK_OFFSET(0xB5C2EB0)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0xB5C3C40)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_70CA90C9D99B50FD_OFFSET UNITYSDK_OFFSET(0xB5C3A70)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xB5C35D0)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_CE2DE21B5D313B9C_OFFSET UNITYSDK_OFFSET(0xB5C3770)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_D0874CED18FBACA9_OFFSET UNITYSDK_OFFSET(0xB5C2FE0)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_D0AA258391E4DF60_OFFSET UNITYSDK_OFFSET(0xB5C2D10)
-#define MOLEMOLE_FLOATRENDERERFADER_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB5C3200)
-#define MOLEMOLE_FLOATRENDERERFADER__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C2D00)
+#define MOLEMOLE_FLOATRENDERERFADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15400870)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_066A2A302F994390_OFFSET UNITYSDK_OFFSET(0x15400570)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x15400D00)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_446DC60834959E58_OFFSET UNITYSDK_OFFSET(0x15401180)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_665FCAD00B431E3A_OFFSET UNITYSDK_OFFSET(0x15400D40)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x15401000)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_E8DB97264B6D98F7_OFFSET UNITYSDK_OFFSET(0x15400360)
+#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_FC67D285196A4120_OFFSET UNITYSDK_OFFSET(0x15400680)
+#define MOLEMOLE_FLOATRENDERERFADER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15400910)
+#define MOLEMOLE_FLOATRENDERERFADER__CTOR_OFFSET UNITYSDK_OFFSET(0x15400350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FloatRendererFader_TypeDefinitionIndex = 79265;
+	inline static constexpr unsigned int FloatRendererFader_TypeDefinitionIndex = 74729;
 
 	class FloatRendererFader : public ::MoleMole::RendererFader
 	{
@@ -33,9 +33,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_D0AA258391E4DF60(::UnityEngine::MaterialPropertyBlock*& a1, ::System::Single a2)
+		::System::Void Method_2_E8DB97264B6D98F7(::UnityEngine::MaterialPropertyBlock*& a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_D0AA258391E4DF60_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_E8DB97264B6D98F7_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_2_066A2A302F994390(::UnityEngine::MaterialPropertyBlock*& a1, ::System::Single a2)
@@ -43,9 +43,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_066A2A302F994390_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_D0874CED18FBACA9(::UnityEngine::MaterialPropertyBlock*& a1)
+		::System::Void Method_2_FC67D285196A4120(::UnityEngine::MaterialPropertyBlock*& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_D0874CED18FBACA9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_FC67D285196A4120_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -58,24 +58,24 @@ namespace MoleMole
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_TOSTRING_OFFSET))(this);
 		}
 
+		::System::String* Method_2_128774387667156B()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_128774387667156B_OFFSET))(this);
+		}
+
+		::System::Void Method_2_665FCAD00B431E3A(::System::Int32 a1, ::System::Single a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_665FCAD00B431E3A_OFFSET))(this, a1, a2, a3);
+		}
+
 		::System::Void Method_2_C638E91FC0D3A13A()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_C638E91FC0D3A13A_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CE2DE21B5D313B9C(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::String* a3, ::System::Single a4, ::System::Boolean a5)
+		::System::Void Method_2_446DC60834959E58(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::String* a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::System::String*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_CE2DE21B5D313B9C_OFFSET))(this, a1, a2, a3, a4, a5);
-		}
-
-		::System::Void Method_2_70CA90C9D99B50FD(::System::Int32 a1, ::System::Single a2, ::System::Boolean a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_70CA90C9D99B50FD_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::String* Method_2_128774387667156B()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_128774387667156B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::System::String*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_446DC60834959E58_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

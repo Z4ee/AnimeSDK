@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_SERIALIZABLEINTARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A321A40)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_SERIALIZABLEINTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313F70)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_SERIALIZABLEINTARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AF82210)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_SERIALIZABLEINTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF74930)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_SerializableIntArray_TypeDefinitionIndex = 83332;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_SerializableIntArray_TypeDefinitionIndex = 85060;
 
 	class MB3_MeshCombinerSingle_SerializableIntArray : public ::System::Object
 	{

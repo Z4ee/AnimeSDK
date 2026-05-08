@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define MOLEMOLE_UTILS_AOTHELPER_AWAKE_OFFSET UNITYSDK_OFFSET(0xA1413C0)
-#define MOLEMOLE_UTILS_AOTHELPER_ENSURECAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0xA141470)
-#define MOLEMOLE_UTILS_AOTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1414D0)
+#define MOLEMOLE_UTILS_AOTHELPER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD07EE00)
+#define MOLEMOLE_UTILS_AOTHELPER_ENSURECAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0xD07EE70)
+#define MOLEMOLE_UTILS_AOTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xD07EEB0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int AOTHelper_TypeDefinitionIndex = 72336;
+	inline static constexpr unsigned int AOTHelper_TypeDefinitionIndex = 56180;
 
 	class AOTHelper : public ::UnityEngine::ScriptableObject
 	{

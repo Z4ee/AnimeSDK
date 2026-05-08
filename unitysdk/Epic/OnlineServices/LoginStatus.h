@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int LoginStatus_TypeDefinitionIndex = 32768;
+	inline static constexpr unsigned int LoginStatus_TypeDefinitionIndex = 33304;
 
 	enum class LoginStatus : ::System::Int32
 	{

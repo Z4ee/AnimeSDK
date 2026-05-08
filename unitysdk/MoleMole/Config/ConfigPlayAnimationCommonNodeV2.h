@@ -5,18 +5,18 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYANIMATIONCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xB91BE20)
-#define MOLEMOLE_CONFIG_CONFIGPLAYANIMATIONCOMMONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0xB91BEB0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYANIMATIONCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16B36200)
+#define MOLEMOLE_CONFIG_CONFIGPLAYANIMATIONCOMMONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x16B36270)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayAnimationCommonNodeV2_TypeDefinitionIndex = 66951;
+	inline static constexpr unsigned int ConfigPlayAnimationCommonNodeV2_TypeDefinitionIndex = 67312;
 
 	class ConfigPlayAnimationCommonNodeV2 : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* AnimationName; // 0x18
-		::System::String* AnimationName4Blackboard; // 0x20
+		::System::String* AnimationName4Blackboard; // 0x18
+		::System::String* AnimationName; // 0x20
 		::System::String* AnimCompKey; // 0x28
 		::System::Boolean IsUseBlackboard; // 0x30
 

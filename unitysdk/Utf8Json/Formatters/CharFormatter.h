@@ -6,21 +6,21 @@
 
 namespace Utf8Json { class IJsonFormatterResolver; }
 
-#define UTF8JSON_FORMATTERS_CHARFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B667DF0)
-#define UTF8JSON_FORMATTERS_CHARFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B667D80)
-#define UTF8JSON_FORMATTERS_CHARFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B667E50)
-#define UTF8JSON_FORMATTERS_CHARFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B667E40)
+#define UTF8JSON_FORMATTERS_CHARFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3C35E0)
+#define UTF8JSON_FORMATTERS_CHARFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3C3540)
+#define UTF8JSON_FORMATTERS_CHARFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3C3670)
+#define UTF8JSON_FORMATTERS_CHARFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C3660)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int CharFormatter_TypeDefinitionIndex = 84070;
+	inline static constexpr unsigned int CharFormatter_TypeDefinitionIndex = 85798;
 
 	class CharFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Formatters::CharFormatter** StaticGet_Default()
 		{
-			return (::Utf8Json::Formatters::CharFormatter**)Il2CppClass::FromTypeDefinitionIndex(CharFormatter_TypeDefinitionIndex)->GetStaticField(0x48400);
+			return (::Utf8Json::Formatters::CharFormatter**)Il2CppClass::FromTypeDefinitionIndex(CharFormatter_TypeDefinitionIndex)->GetStaticField(0x49F70);
 		}
 
 		::System::Void _ctor()

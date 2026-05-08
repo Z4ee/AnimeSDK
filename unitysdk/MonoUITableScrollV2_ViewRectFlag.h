@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_ViewRectFlag_TypeDefinitionIndex = 64416;
+inline static constexpr unsigned int MonoUITableScrollV2_ViewRectFlag_TypeDefinitionIndex = 54115;
 
 enum class MonoUITableScrollV2_ViewRectFlag : ::System::Int32
 {

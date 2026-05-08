@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD4060)
-#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__DISPLAYCLASS48_0__SETCURVEVALUE_B__0_OFFSET UNITYSDK_OFFSET(0x1ACD4070)
+#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA18810)
+#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__DISPLAYCLASS48_0__SETCURVEVALUE_B__0_OFFSET UNITYSDK_OFFSET(0x1BA18820)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineFrame___c__DisplayClass48_0_TypeDefinitionIndex = 30218;
+	inline static constexpr unsigned int TimelineFrame___c__DisplayClass48_0_TypeDefinitionIndex = 30747;
 
 	class TimelineFrame___c__DisplayClass48_0 : public ::System::Object
 	{

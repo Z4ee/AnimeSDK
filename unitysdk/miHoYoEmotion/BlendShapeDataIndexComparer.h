@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MIHOYOEMOTION_BLENDSHAPEDATAINDEXCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x876280)
-#define MIHOYOEMOTION_BLENDSHAPEDATAINDEXCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x876390)
+#define MIHOYOEMOTION_BLENDSHAPEDATAINDEXCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x883C00)
+#define MIHOYOEMOTION_BLENDSHAPEDATAINDEXCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x883D10)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BlendShapeDataIndexComparer_TypeDefinitionIndex = 37234;
+	inline static constexpr unsigned int BlendShapeDataIndexComparer_TypeDefinitionIndex = 37778;
 
 	struct alignas(1) BlendShapeDataIndexComparer
 	{

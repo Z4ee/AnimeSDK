@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS_INVOKE_OFFSET UNITYSDK_OFFSET(0xA01FC00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA01FC70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1174FE80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1174FED0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_TriggerLevelCustomConditions_TypeDefinitionIndex = 49931;
+	inline static constexpr unsigned int LD_TriggerLevelCustomConditions_TypeDefinitionIndex = 51310;
 
 	class LD_TriggerLevelCustomConditions : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
 	{

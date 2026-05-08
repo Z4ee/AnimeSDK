@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB870E30)
-#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB870E40)
-#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB8713B0)
-#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB871730)
-#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8716F0)
+#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x12B14C00)
+#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x12B14C10)
+#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x12B15160)
+#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B154B0)
+#define MOLEMOLE_QTECAMERABASEINFO_QTECAMERABASEINFO_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B15470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex = 80866;
+	inline static constexpr unsigned int QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex = 41051;
 
 	class QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::QTECameraBaseInfo*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45160);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45168);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44810);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44818);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45170);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(QTECameraBaseInfo_QTECameraBaseInfo_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44820);
 		}
 
 		::System::Void _ctor()

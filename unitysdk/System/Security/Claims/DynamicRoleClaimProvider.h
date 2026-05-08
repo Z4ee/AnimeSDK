@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Security::Claims { class Claim; }
 namespace System::Security::Claims { class ClaimsIdentity; }
 
-#define SYSTEM_SECURITY_CLAIMS_DYNAMICROLECLAIMPROVIDER_ADDDYNAMICROLECLAIMS_OFFSET UNITYSDK_OFFSET(0x1A33E0C0)
+#define SYSTEM_SECURITY_CLAIMS_DYNAMICROLECLAIMPROVIDER_ADDDYNAMICROLECLAIMS_OFFSET UNITYSDK_OFFSET(0x1AFEA950)
 
 namespace System::Security::Claims
 {

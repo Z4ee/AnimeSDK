@@ -11,45 +11,45 @@
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x954BC90)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x954BD20)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_FETCH_LASTCAMERADATA_OFFSET UNITYSDK_OFFSET(0x954C0B0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_FETCH_MAINTAINCHANNEL_OFFSET UNITYSDK_OFFSET(0x954BEA0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_FETCH_OVERRIDEEULER_OFFSET UNITYSDK_OFFSET(0x954BF80)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x954B720)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x954B800)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x954B6B0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x954B7F0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_ISLOOP_OFFSET UNITYSDK_OFFSET(0x954B790)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x954C220)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x954C1E0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0xE864A60)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0xE864AD0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_FETCH_LASTCAMERADATA_OFFSET UNITYSDK_OFFSET(0xE864DF0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_FETCH_MAINTAINCHANNEL_OFFSET UNITYSDK_OFFSET(0xE864C30)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_FETCH_OVERRIDEEULER_OFFSET UNITYSDK_OFFSET(0xE864CE0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0xE864630)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0xE8646D0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0xE8645E0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0xE8646C0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION_ISLOOP_OFFSET UNITYSDK_OFFSET(0xE864680)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0xE864F60)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MAINTAINLASTCAMERAROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xE864F00)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int MaintainLastCameraRotation_TypeDefinitionIndex = 74991;
+	inline static constexpr unsigned int MaintainLastCameraRotation_TypeDefinitionIndex = 64820;
 
 	class MaintainLastCameraRotation : public ::PipelineCamera::CameraSequence::CoreDataSequence
 	{
 	public:
 		static ::System::Func_3<::MoleMole::Utils::CameraSequence::MaintainLastCameraRotation*, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::UnityEngine::Quaternion>** StaticGet_GetDesiredRotation()
 		{
-			return (::System::Func_3<::MoleMole::Utils::CameraSequence::MaintainLastCameraRotation*, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0x40960);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maintainChannel()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xF8A0);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_overrideEuler()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xF8A8);
+			return (::System::Func_3<::MoleMole::Utils::CameraSequence::MaintainLastCameraRotation*, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0x40B20);
 		}
 		static ::Foundation::Unreal::FName* StaticGet_CacheId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xF8B0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xFA90);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_overrideEuler()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xFA98);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maintainChannel()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xFAA0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_LastCameraData()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xF8B8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MaintainLastCameraRotation_TypeDefinitionIndex)->GetStaticField(0xFAA8);
 		}
 		::PipelineCamera::EulerRotationChannel maintainChannel; // 0x18
 		::System::Boolean makeContextDependent; // 0x1C

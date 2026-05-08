@@ -5,12 +5,12 @@
 namespace MoleMole { class AbyssS2_DefaultRng; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2GETRANDOMMONSTERWAVE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8A58C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2GETRANDOMMONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A5BF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2GETRANDOMMONSTERWAVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E50790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2GETRANDOMMONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E50A80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2GetRandomMonsterWave_TypeDefinitionIndex = 63343;
+	inline static constexpr unsigned int LD_AbyssS2GetRandomMonsterWave_TypeDefinitionIndex = 67756;
 
 	class LD_AbyssS2GetRandomMonsterWave : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Int32, ::MoleMole::AbyssS2_DefaultRng*, ::System::String*>
 	{

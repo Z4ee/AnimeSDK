@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define NPCCROWD_MATERIALUTILS_CHECKISSAMEMATERIALS_1_OFFSET UNITYSDK_OFFSET(0x862C220)
-#define NPCCROWD_MATERIALUTILS_CHECKISSAMEMATERIALS_OFFSET UNITYSDK_OFFSET(0x862BE30)
+#define NPCCROWD_MATERIALUTILS_CHECKISSAMEMATERIALS_1_OFFSET UNITYSDK_OFFSET(0xFB59E00)
+#define NPCCROWD_MATERIALUTILS_CHECKISSAMEMATERIALS_OFFSET UNITYSDK_OFFSET(0xFB599C0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int MaterialUtils_TypeDefinitionIndex = 59098;
+	inline static constexpr unsigned int MaterialUtils_TypeDefinitionIndex = 41603;
 
 	class MaterialUtils : public ::System::Object
 	{

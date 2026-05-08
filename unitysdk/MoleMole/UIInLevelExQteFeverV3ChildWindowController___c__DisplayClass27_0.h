@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInLevelExQteFeverV3ChildWindowController; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_UIINLEVELEXQTEFEVERV3CHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB5D060)
-#define MOLEMOLE_UIINLEVELEXQTEFEVERV3CHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__UPGRADEBYLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0xBB5D070)
+#define MOLEMOLE_UIINLEVELEXQTEFEVERV3CHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15CF3F80)
+#define MOLEMOLE_UIINLEVELEXQTEFEVERV3CHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__UPGRADEBYLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x15CF3F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelExQteFeverV3ChildWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 68454;
+	inline static constexpr unsigned int UIInLevelExQteFeverV3ChildWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 51457;
 
 	class UIInLevelExQteFeverV3ChildWindowController___c__DisplayClass27_0 : public ::System::Object
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_9E3E3CDA608A4F58;
+class Class_2_FDFE69FE7B72463B;
 namespace MoleMole { class UIBangbooGroupPhotoRowWidgetController; }
 
-#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADB81D0)
-#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYANIMACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0xADB81E0)
+#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED0A20)
+#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYANIMACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x15ED0A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooGroupPhotoRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 51960;
+	inline static constexpr unsigned int UIBangbooGroupPhotoRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 71644;
 
 	class UIBangbooGroupPhotoRowWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangbooGroupPhotoRowWidgetController* __4__this; // 0x10
-		::Class_2_9E3E3CDA608A4F58* rootAnim; // 0x18
+		::Class_2_FDFE69FE7B72463B* rootAnim; // 0x10
+		::MoleMole::UIBangbooGroupPhotoRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

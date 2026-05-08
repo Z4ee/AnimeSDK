@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int INapNotifyData_TypeDefinitionIndex = 30309;
+	inline static constexpr unsigned int INapNotifyData_TypeDefinitionIndex = 30838;
 
 	class INapNotifyData
 	{

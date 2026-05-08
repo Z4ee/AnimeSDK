@@ -4,67 +4,70 @@
 #include "unitysdk/MoleMole/Config/ScreenEffectType.h"
 #include "unitysdk/MoleMole/EffectSimulate/ESPostProcessBehavior_1.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 
 namespace MoleMole::Config { class ConfigEntityAvatarColorCorrections; }
 namespace MoleMole::Config { class ConfigEntityScreenEffectBase; }
 namespace MoleMole::EffectSimulate { class BoolKeyframeCurve; }
 namespace MoleMole::EffectSimulate { class ColorKeyframeCurve; }
 namespace MoleMole::EffectSimulate { class FloatKeyframeCurve; }
+namespace MoleMole::EffectSimulate { class Vector4KeyframeCurve; }
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class ScriptableObject; }
+namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 namespace UnityEngine::Rendering::Universal { class CharacterColorCorrection; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xD7F33F0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xD7F3360)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0xD7E2920)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_341E9FEC0092AC5C_OFFSET UNITYSDK_OFFSET(0xD7EAF70)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_3622C2D1E940D3F4_OFFSET UNITYSDK_OFFSET(0xD7F3470)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0xD7F3410)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD7F1590)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_3DA91C9B57824EE6_OFFSET UNITYSDK_OFFSET(0xD7E2D90)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_429B9EF3AD5C70EB_OFFSET UNITYSDK_OFFSET(0xD7F1490)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_43069389B18F0936_OFFSET UNITYSDK_OFFSET(0xD7F1350)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_459C79521BFE514E_OFFSET UNITYSDK_OFFSET(0xD7E43C0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4ED0F9748169EC7E_OFFSET UNITYSDK_OFFSET(0xD7F1870)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4F6CBEF30D6E7AC4_1_OFFSET UNITYSDK_OFFSET(0xD7EEC40)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4F6CBEF30D6E7AC4_OFFSET UNITYSDK_OFFSET(0xD7ED150)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4FB5F56430673EA6_1_OFFSET UNITYSDK_OFFSET(0xD7F1760)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4FB5F56430673EA6_OFFSET UNITYSDK_OFFSET(0xD7F16E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_54BEE211D32F7DEF_OFFSET UNITYSDK_OFFSET(0xD7F3400)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_55D8CF5F1FB0803A_OFFSET UNITYSDK_OFFSET(0xD7F33D0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_581A5078A2F29034_OFFSET UNITYSDK_OFFSET(0xD7F33E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xD7E2450)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0xD7F1B80)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_76ECC59BC7430042_1_OFFSET UNITYSDK_OFFSET(0xD7F26E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_76ECC59BC7430042_OFFSET UNITYSDK_OFFSET(0xD7F18D0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_832172BF04246E66_OFFSET UNITYSDK_OFFSET(0xD7E5650)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0xD7F3250)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_88B60F3B95FAA4F1_1_OFFSET UNITYSDK_OFFSET(0xD7F15F0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_88B60F3B95FAA4F1_2_OFFSET UNITYSDK_OFFSET(0xD7F17E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xD7F1500)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_8D6879CAA76F6588_OFFSET UNITYSDK_OFFSET(0xD7F0730)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_99F887AAD84BE668_OFFSET UNITYSDK_OFFSET(0xD7F0B40)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A1D8CD775DEC3C21_1_OFFSET UNITYSDK_OFFSET(0xD7F3260)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xD7F1680)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_1_OFFSET UNITYSDK_OFFSET(0xD7F32E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0xD7F3190)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B2C24AFA396A3C80_OFFSET UNITYSDK_OFFSET(0xD7F0A30)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B4596DBEA209120C_OFFSET UNITYSDK_OFFSET(0xD7F32C0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_BE3471DF7E3D4326_OFFSET UNITYSDK_OFFSET(0xD7F3210)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xD7F31B0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD7E28C0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_D2A9D107FA1E5A31_OFFSET UNITYSDK_OFFSET(0xD7F1420)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_D5F190FE5CE966B3_OFFSET UNITYSDK_OFFSET(0xD7F3350)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xD7F32F0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_1_OFFSET UNITYSDK_OFFSET(0xD7F32D0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_OFFSET UNITYSDK_OFFSET(0xD7F31A0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD7F2990)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x18A0C330)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_18D3B6D22EDDAC41_OFFSET UNITYSDK_OFFSET(0x189F1940)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x18A0C290)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_2C900C7BC409CFF2_OFFSET UNITYSDK_OFFSET(0x189FD660)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_3622C2D1E940D3F4_OFFSET UNITYSDK_OFFSET(0x18A0C350)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x18A0C360)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x18A094A0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_429B9EF3AD5C70EB_OFFSET UNITYSDK_OFFSET(0x18A093E0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_459C79521BFE514E_OFFSET UNITYSDK_OFFSET(0x189EF920)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x189EBCB0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4ED0F9748169EC7E_OFFSET UNITYSDK_OFFSET(0x18A096D0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4FB5F56430673EA6_1_OFFSET UNITYSDK_OFFSET(0x18A09600)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4FB5F56430673EA6_OFFSET UNITYSDK_OFFSET(0x18A095A0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_54BEE211D32F7DEF_OFFSET UNITYSDK_OFFSET(0x18A0C400)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_55D8CF5F1FB0803A_OFFSET UNITYSDK_OFFSET(0x18A0C410)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x189EB440)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0x18A09BB0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_76ECC59BC7430042_1_OFFSET UNITYSDK_OFFSET(0x18A0AAE0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_76ECC59BC7430042_OFFSET UNITYSDK_OFFSET(0x18A09720)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_7857B385C2B6C0EB_OFFSET UNITYSDK_OFFSET(0x18A0C650)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x18A0C660)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_8462E42B7CEE1998_1_OFFSET UNITYSDK_OFFSET(0x18A04CA0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_8462E42B7CEE1998_OFFSET UNITYSDK_OFFSET(0x18A01AB0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_88B60F3B95FAA4F1_1_OFFSET UNITYSDK_OFFSET(0x18A094E0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_88B60F3B95FAA4F1_2_OFFSET UNITYSDK_OFFSET(0x18A09660)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x18A09430)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_8D6879CAA76F6588_OFFSET UNITYSDK_OFFSET(0x18A07E90)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_99F887AAD84BE668_OFFSET UNITYSDK_OFFSET(0x18A08440)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A1D8CD775DEC3C21_1_OFFSET UNITYSDK_OFFSET(0x18A0C550)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x18A09550)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_1_OFFSET UNITYSDK_OFFSET(0x18A0C3F0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x18A0C340)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B2C24AFA396A3C80_OFFSET UNITYSDK_OFFSET(0x18A08350)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B4596DBEA209120C_OFFSET UNITYSDK_OFFSET(0x18A0C540)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B747781924F4C9A5_OFFSET UNITYSDK_OFFSET(0x18A092C0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_BE3471DF7E3D4326_OFFSET UNITYSDK_OFFSET(0x18A0C610)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x18A0C4B0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x189EBC70)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_D2A9D107FA1E5A31_OFFSET UNITYSDK_OFFSET(0x18A09390)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_D5F190FE5CE966B3_OFFSET UNITYSDK_OFFSET(0x18A0C600)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x18A0C420)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_1_OFFSET UNITYSDK_OFFSET(0x18A0C5F0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_OFFSET UNITYSDK_OFFSET(0x18A0C5E0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_F53BAAE38A584428_OFFSET UNITYSDK_OFFSET(0x189EC5D0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0AF70)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessCharacterColorCorrection_TypeDefinitionIndex = 72281;
+	inline static constexpr unsigned int ESPostProcessCharacterColorCorrection_TypeDefinitionIndex = 43483;
 
 	class ESPostProcessCharacterColorCorrection : public ::MoleMole::EffectSimulate::ESPostProcessBehavior_1<::UnityEngine::Rendering::Universal::CharacterColorCorrection*>
 	{
@@ -93,209 +96,447 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolDefault_contrast; // 0x1BC
 		::System::Single _VolDefault_saturation; // 0x1C0
 		::System::Boolean _VolDefault_revertSaturation; // 0x1C4
-		::System::Boolean _VolPreVal_ambient_overrideState; // 0x1C5
-		::UnityEngine::Color _VolPreVal_ambient; // 0x1C8
-		::System::Boolean _VolPreVal_skinFrontTint_overrideState; // 0x1D8
-		::UnityEngine::Color _VolPreVal_skinFrontTint; // 0x1DC
-		::System::Boolean _VolPreVal_frontTint_overrideState; // 0x1EC
-		::UnityEngine::Color _VolPreVal_frontTint; // 0x1F0
-		::System::Boolean _VolPreVal_skinSssTint_overrideState; // 0x200
-		::UnityEngine::Color _VolPreVal_skinSssTint; // 0x204
-		::System::Boolean _VolPreVal_sssTint_overrideState; // 0x214
-		::UnityEngine::Color _VolPreVal_sssTint; // 0x218
-		::System::Boolean _VolPreVal_skinShallowTint_overrideState; // 0x228
-		::UnityEngine::Color _VolPreVal_skinShallowTint; // 0x22C
-		::System::Boolean _VolPreVal_shallowTint_overrideState; // 0x23C
-		::UnityEngine::Color _VolPreVal_shallowTint; // 0x240
-		::System::Boolean _VolPreVal_skinShallowFadeTint_overrideState; // 0x250
-		::UnityEngine::Color _VolPreVal_skinShallowFadeTint; // 0x254
-		::System::Boolean _VolPreVal_shallowFadeTint_overrideState; // 0x264
-		::UnityEngine::Color _VolPreVal_shallowFadeTint; // 0x268
-		::System::Boolean _VolPreVal_skinShadowTint_overrideState; // 0x278
-		::UnityEngine::Color _VolPreVal_skinShadowTint; // 0x27C
-		::System::Boolean _VolPreVal_shadowTint_overrideState; // 0x28C
-		::UnityEngine::Color _VolPreVal_shadowTint; // 0x290
-		::System::Boolean _VolPreVal_skinShadowFadeTint_overrideState; // 0x2A0
-		::UnityEngine::Color _VolPreVal_skinShadowFadeTint; // 0x2A4
-		::System::Boolean _VolPreVal_shadowFadeTint_overrideState; // 0x2B4
-		::UnityEngine::Color _VolPreVal_shadowFadeTint; // 0x2B8
-		::System::Boolean _VolPreVal_ambientGradient_overrideState; // 0x2C8
-		::UnityEngine::Color _VolPreVal_ambientGradient; // 0x2CC
-		::System::Boolean _VolPreVal_useShadowTintAsOutline_overrideState; // 0x2DC
-		::System::Boolean _VolPreVal_useShadowTintAsOutline; // 0x2DD
-		::System::Boolean _VolPreVal_outlineTint_overrideState; // 0x2DE
-		::UnityEngine::Color _VolPreVal_outlineTint; // 0x2E0
-		::System::Boolean _VolPreVal_postExposure_overrideState; // 0x2F0
-		::System::Single _VolPreVal_postExposure; // 0x2F4
-		::System::Boolean _VolPreVal_contrast_overrideState; // 0x2F8
-		::System::Single _VolPreVal_contrast; // 0x2FC
-		::System::Boolean _VolPreVal_saturation_overrideState; // 0x300
-		::System::Single _VolPreVal_saturation; // 0x304
-		::System::Boolean _VolPreVal_revertSaturation_overrideState; // 0x308
-		::System::Boolean _VolPreVal_revertSaturation; // 0x309
-		::UnityEngine::Color _TimelineCurveFirstVal_ambient; // 0x30C
-		::UnityEngine::Color _TimelineCurveLastVal_ambient; // 0x31C
-		::UnityEngine::Color _TimelineCurveFirstVal_skinFrontTint; // 0x32C
-		::UnityEngine::Color _TimelineCurveLastVal_skinFrontTint; // 0x33C
-		::UnityEngine::Color _TimelineCurveFirstVal_frontTint; // 0x34C
-		::UnityEngine::Color _TimelineCurveLastVal_frontTint; // 0x35C
-		::UnityEngine::Color _TimelineCurveFirstVal_skinSssTint; // 0x36C
-		::UnityEngine::Color _TimelineCurveLastVal_skinSssTint; // 0x37C
-		::UnityEngine::Color _TimelineCurveFirstVal_sssTint; // 0x38C
-		::UnityEngine::Color _TimelineCurveLastVal_sssTint; // 0x39C
-		::UnityEngine::Color _TimelineCurveFirstVal_skinShallowTint; // 0x3AC
-		::UnityEngine::Color _TimelineCurveLastVal_skinShallowTint; // 0x3BC
-		::UnityEngine::Color _TimelineCurveFirstVal_shallowTint; // 0x3CC
-		::UnityEngine::Color _TimelineCurveLastVal_shallowTint; // 0x3DC
-		::UnityEngine::Color _TimelineCurveFirstVal_skinShallowFadeTint; // 0x3EC
-		::UnityEngine::Color _TimelineCurveLastVal_skinShallowFadeTint; // 0x3FC
-		::UnityEngine::Color _TimelineCurveFirstVal_shallowFadeTint; // 0x40C
-		::UnityEngine::Color _TimelineCurveLastVal_shallowFadeTint; // 0x41C
-		::UnityEngine::Color _TimelineCurveFirstVal_skinShadowTint; // 0x42C
-		::UnityEngine::Color _TimelineCurveLastVal_skinShadowTint; // 0x43C
-		::UnityEngine::Color _TimelineCurveFirstVal_shadowTint; // 0x44C
-		::UnityEngine::Color _TimelineCurveLastVal_shadowTint; // 0x45C
-		::UnityEngine::Color _TimelineCurveFirstVal_skinShadowFadeTint; // 0x46C
-		::UnityEngine::Color _TimelineCurveLastVal_skinShadowFadeTint; // 0x47C
-		::UnityEngine::Color _TimelineCurveFirstVal_shadowFadeTint; // 0x48C
-		::UnityEngine::Color _TimelineCurveLastVal_shadowFadeTint; // 0x49C
-		::UnityEngine::Color _TimelineCurveFirstVal_ambientGradient; // 0x4AC
-		::UnityEngine::Color _TimelineCurveLastVal_ambientGradient; // 0x4BC
-		::UnityEngine::Color _TimelineCurveFirstVal_outlineTint; // 0x4CC
-		::UnityEngine::Color _TimelineCurveLastVal_outlineTint; // 0x4DC
-		::System::Single _TimelineCurveFirstVal_postExposure; // 0x4EC
-		::System::Single _TimelineCurveLastVal_postExposure; // 0x4F0
-		::System::Single _TimelineCurveFirstVal_contrast; // 0x4F4
-		::System::Single _TimelineCurveLastVal_contrast; // 0x4F8
-		::System::Single _TimelineCurveFirstVal_saturation; // 0x4FC
-		::System::Single _TimelineCurveLastVal_saturation; // 0x500
-		::System::Boolean _TimelineCurveFirstVal_revertSaturation; // 0x504
-		::System::Boolean _TimelineCurveLastVal_revertSaturation; // 0x505
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_ambient_FieldHandleType; // 0x508
-		::System::Boolean ESPP_ambient_UseIt; // 0x50C
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_ambient; // 0x510
-		::System::Boolean ESPP_ambient_EnableFade; // 0x518
-		::System::Boolean ESPP_ambient_EnableOverrideDefaultValue; // 0x519
-		::UnityEngine::Color ESPP_ambient_OverrideDefaultValue; // 0x51C
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinFrontTint_FieldHandleType; // 0x52C
-		::System::Boolean ESPP_skinFrontTint_UseIt; // 0x530
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinFrontTint; // 0x538
-		::System::Boolean ESPP_skinFrontTint_EnableFade; // 0x540
-		::System::Boolean ESPP_skinFrontTint_EnableOverrideDefaultValue; // 0x541
-		::UnityEngine::Color ESPP_skinFrontTint_OverrideDefaultValue; // 0x544
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_frontTint_FieldHandleType; // 0x554
-		::System::Boolean ESPP_frontTint_UseIt; // 0x558
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_frontTint; // 0x560
-		::System::Boolean ESPP_frontTint_EnableFade; // 0x568
-		::System::Boolean ESPP_frontTint_EnableOverrideDefaultValue; // 0x569
-		::UnityEngine::Color ESPP_frontTint_OverrideDefaultValue; // 0x56C
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinSssTint_FieldHandleType; // 0x57C
-		::System::Boolean ESPP_skinSssTint_UseIt; // 0x580
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinSssTint; // 0x588
-		::System::Boolean ESPP_skinSssTint_EnableFade; // 0x590
-		::System::Boolean ESPP_skinSssTint_EnableOverrideDefaultValue; // 0x591
-		::UnityEngine::Color ESPP_skinSssTint_OverrideDefaultValue; // 0x594
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_sssTint_FieldHandleType; // 0x5A4
-		::System::Boolean ESPP_sssTint_UseIt; // 0x5A8
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_sssTint; // 0x5B0
-		::System::Boolean ESPP_sssTint_EnableFade; // 0x5B8
-		::System::Boolean ESPP_sssTint_EnableOverrideDefaultValue; // 0x5B9
-		::UnityEngine::Color ESPP_sssTint_OverrideDefaultValue; // 0x5BC
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShallowTint_FieldHandleType; // 0x5CC
-		::System::Boolean ESPP_skinShallowTint_UseIt; // 0x5D0
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShallowTint; // 0x5D8
-		::System::Boolean ESPP_skinShallowTint_EnableFade; // 0x5E0
-		::System::Boolean ESPP_skinShallowTint_EnableOverrideDefaultValue; // 0x5E1
-		::UnityEngine::Color ESPP_skinShallowTint_OverrideDefaultValue; // 0x5E4
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shallowTint_FieldHandleType; // 0x5F4
-		::System::Boolean ESPP_shallowTint_UseIt; // 0x5F8
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shallowTint; // 0x600
-		::System::Boolean ESPP_shallowTint_EnableFade; // 0x608
-		::System::Boolean ESPP_shallowTint_EnableOverrideDefaultValue; // 0x609
-		::UnityEngine::Color ESPP_shallowTint_OverrideDefaultValue; // 0x60C
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShallowFadeTint_FieldHandleType; // 0x61C
-		::System::Boolean ESPP_skinShallowFadeTint_UseIt; // 0x620
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShallowFadeTint; // 0x628
-		::System::Boolean ESPP_skinShallowFadeTint_EnableFade; // 0x630
-		::System::Boolean ESPP_skinShallowFadeTint_EnableOverrideDefaultValue; // 0x631
-		::UnityEngine::Color ESPP_skinShallowFadeTint_OverrideDefaultValue; // 0x634
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shallowFadeTint_FieldHandleType; // 0x644
-		::System::Boolean ESPP_shallowFadeTint_UseIt; // 0x648
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shallowFadeTint; // 0x650
-		::System::Boolean ESPP_shallowFadeTint_EnableFade; // 0x658
-		::System::Boolean ESPP_shallowFadeTint_EnableOverrideDefaultValue; // 0x659
-		::UnityEngine::Color ESPP_shallowFadeTint_OverrideDefaultValue; // 0x65C
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShadowTint_FieldHandleType; // 0x66C
-		::System::Boolean ESPP_skinShadowTint_UseIt; // 0x670
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShadowTint; // 0x678
-		::System::Boolean ESPP_skinShadowTint_EnableFade; // 0x680
-		::System::Boolean ESPP_skinShadowTint_EnableOverrideDefaultValue; // 0x681
-		::UnityEngine::Color ESPP_skinShadowTint_OverrideDefaultValue; // 0x684
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shadowTint_FieldHandleType; // 0x694
-		::System::Boolean ESPP_shadowTint_UseIt; // 0x698
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shadowTint; // 0x6A0
-		::System::Boolean ESPP_shadowTint_EnableFade; // 0x6A8
-		::System::Boolean ESPP_shadowTint_EnableOverrideDefaultValue; // 0x6A9
-		::UnityEngine::Color ESPP_shadowTint_OverrideDefaultValue; // 0x6AC
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShadowFadeTint_FieldHandleType; // 0x6BC
-		::System::Boolean ESPP_skinShadowFadeTint_UseIt; // 0x6C0
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShadowFadeTint; // 0x6C8
-		::System::Boolean ESPP_skinShadowFadeTint_EnableFade; // 0x6D0
-		::System::Boolean ESPP_skinShadowFadeTint_EnableOverrideDefaultValue; // 0x6D1
-		::UnityEngine::Color ESPP_skinShadowFadeTint_OverrideDefaultValue; // 0x6D4
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shadowFadeTint_FieldHandleType; // 0x6E4
-		::System::Boolean ESPP_shadowFadeTint_UseIt; // 0x6E8
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shadowFadeTint; // 0x6F0
-		::System::Boolean ESPP_shadowFadeTint_EnableFade; // 0x6F8
-		::System::Boolean ESPP_shadowFadeTint_EnableOverrideDefaultValue; // 0x6F9
-		::UnityEngine::Color ESPP_shadowFadeTint_OverrideDefaultValue; // 0x6FC
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_ambientGradient_FieldHandleType; // 0x70C
-		::System::Boolean ESPP_ambientGradient_UseIt; // 0x710
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_ambientGradient; // 0x718
-		::System::Boolean ESPP_ambientGradient_EnableFade; // 0x720
-		::System::Boolean ESPP_ambientGradient_EnableOverrideDefaultValue; // 0x721
-		::UnityEngine::Color ESPP_ambientGradient_OverrideDefaultValue; // 0x724
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_useShadowTintAsOutline_FieldHandleType; // 0x734
-		::System::Boolean ESPP_useShadowTintAsOutline; // 0x738
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_outlineTint_FieldHandleType; // 0x73C
-		::System::Boolean ESPP_outlineTint_UseIt; // 0x740
-		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_outlineTint; // 0x748
-		::System::Boolean ESPP_outlineTint_EnableFade; // 0x750
-		::System::Boolean ESPP_outlineTint_EnableOverrideDefaultValue; // 0x751
-		::UnityEngine::Color ESPP_outlineTint_OverrideDefaultValue; // 0x754
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_postExposure_FieldHandleType; // 0x764
-		::System::Boolean ESPP_postExposure_UseIt; // 0x768
-		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_postExposure; // 0x770
-		::System::Boolean ESPP_postExposure_EnableFade; // 0x778
-		::System::Boolean ESPP_postExposure_EnableOverrideDefaultValue; // 0x779
-		::System::Single ESPP_postExposure_OverrideDefaultValue; // 0x77C
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_contrast_FieldHandleType; // 0x780
-		::System::Boolean ESPP_contrast_UseIt; // 0x784
-		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_contrast; // 0x788
-		::System::Boolean ESPP_contrast_EnableFade; // 0x790
-		::System::Boolean ESPP_contrast_EnableOverrideDefaultValue; // 0x791
-		::System::Single ESPP_contrast_OverrideDefaultValue; // 0x794
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_saturation_FieldHandleType; // 0x798
-		::System::Boolean ESPP_saturation_UseIt; // 0x79C
-		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_saturation; // 0x7A0
-		::System::Boolean ESPP_saturation_EnableFade; // 0x7A8
-		::System::Boolean ESPP_saturation_EnableOverrideDefaultValue; // 0x7A9
-		::System::Single ESPP_saturation_OverrideDefaultValue; // 0x7AC
-		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_revertSaturation_FieldHandleType; // 0x7B0
-		::System::Boolean ESPP_revertSaturation_UseIt; // 0x7B4
-		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_revertSaturation; // 0x7B8
-		::System::Boolean ESPP_revertSaturation_EnableFade; // 0x7C0
-		::System::Boolean ESPP_revertSaturation_EnableOverrideDefaultValue; // 0x7C1
-		::System::Boolean ESPP_revertSaturation_OverrideDefaultValue; // 0x7C2
+		::System::Boolean _VolDefault_weaponUseCustomLightProperty; // 0x1C5
+		::System::Single _VolDefault_rimGlowIntensityForChara; // 0x1C8
+		::System::Single _VolDefault_rimGlowWidthForCharacter; // 0x1CC
+		::UnityEngine::Color _VolDefault_rimGlowColorForCharacter; // 0x1D0
+		::System::Single _VolDefault_rimGlowStyleForCharacter01; // 0x1E0
+		::System::Single _VolDefault_rimGlowStyleForCharacter02; // 0x1E4
+		::System::Single _VolDefault_rimGlowStyleForCharacter03; // 0x1E8
+		::System::Single _VolDefault_rimGlowStyleForCharacter04; // 0x1EC
+		::System::Boolean _VolDefault_enable; // 0x1F0
+		::System::Single _VolDefault_toeStrength; // 0x1F4
+		::System::Single _VolDefault_toeLength; // 0x1F8
+		::System::Single _VolDefault_shoulderStrength; // 0x1FC
+		::System::Single _VolDefault_shoulderLength; // 0x200
+		::System::Single _VolDefault_shoulderAngle; // 0x204
+		::System::Single _VolDefault_customGamma; // 0x208
+		::UnityEngine::Vector4 _VolDefault_lift; // 0x20C
+		::UnityEngine::Vector4 _VolDefault_gamma; // 0x21C
+		::UnityEngine::Vector4 _VolDefault_gain; // 0x22C
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_master; // 0x240
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_red; // 0x248
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_green; // 0x250
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_blue; // 0x258
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_hueVsHue; // 0x260
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_hueVsSat; // 0x268
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_satVsSat; // 0x270
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_lumVsSat; // 0x278
+		::System::Boolean _VolPreVal_ambient_overrideState; // 0x280
+		::UnityEngine::Color _VolPreVal_ambient; // 0x284
+		::System::Boolean _VolPreVal_skinFrontTint_overrideState; // 0x294
+		::UnityEngine::Color _VolPreVal_skinFrontTint; // 0x298
+		::System::Boolean _VolPreVal_frontTint_overrideState; // 0x2A8
+		::UnityEngine::Color _VolPreVal_frontTint; // 0x2AC
+		::System::Boolean _VolPreVal_skinSssTint_overrideState; // 0x2BC
+		::UnityEngine::Color _VolPreVal_skinSssTint; // 0x2C0
+		::System::Boolean _VolPreVal_sssTint_overrideState; // 0x2D0
+		::UnityEngine::Color _VolPreVal_sssTint; // 0x2D4
+		::System::Boolean _VolPreVal_skinShallowTint_overrideState; // 0x2E4
+		::UnityEngine::Color _VolPreVal_skinShallowTint; // 0x2E8
+		::System::Boolean _VolPreVal_shallowTint_overrideState; // 0x2F8
+		::UnityEngine::Color _VolPreVal_shallowTint; // 0x2FC
+		::System::Boolean _VolPreVal_skinShallowFadeTint_overrideState; // 0x30C
+		::UnityEngine::Color _VolPreVal_skinShallowFadeTint; // 0x310
+		::System::Boolean _VolPreVal_shallowFadeTint_overrideState; // 0x320
+		::UnityEngine::Color _VolPreVal_shallowFadeTint; // 0x324
+		::System::Boolean _VolPreVal_skinShadowTint_overrideState; // 0x334
+		::UnityEngine::Color _VolPreVal_skinShadowTint; // 0x338
+		::System::Boolean _VolPreVal_shadowTint_overrideState; // 0x348
+		::UnityEngine::Color _VolPreVal_shadowTint; // 0x34C
+		::System::Boolean _VolPreVal_skinShadowFadeTint_overrideState; // 0x35C
+		::UnityEngine::Color _VolPreVal_skinShadowFadeTint; // 0x360
+		::System::Boolean _VolPreVal_shadowFadeTint_overrideState; // 0x370
+		::UnityEngine::Color _VolPreVal_shadowFadeTint; // 0x374
+		::System::Boolean _VolPreVal_ambientGradient_overrideState; // 0x384
+		::UnityEngine::Color _VolPreVal_ambientGradient; // 0x388
+		::System::Boolean _VolPreVal_useShadowTintAsOutline_overrideState; // 0x398
+		::System::Boolean _VolPreVal_useShadowTintAsOutline; // 0x399
+		::System::Boolean _VolPreVal_outlineTint_overrideState; // 0x39A
+		::UnityEngine::Color _VolPreVal_outlineTint; // 0x39C
+		::System::Boolean _VolPreVal_postExposure_overrideState; // 0x3AC
+		::System::Single _VolPreVal_postExposure; // 0x3B0
+		::System::Boolean _VolPreVal_contrast_overrideState; // 0x3B4
+		::System::Single _VolPreVal_contrast; // 0x3B8
+		::System::Boolean _VolPreVal_saturation_overrideState; // 0x3BC
+		::System::Single _VolPreVal_saturation; // 0x3C0
+		::System::Boolean _VolPreVal_revertSaturation_overrideState; // 0x3C4
+		::System::Boolean _VolPreVal_revertSaturation; // 0x3C5
+		::System::Boolean _VolPreVal_weaponUseCustomLightProperty_overrideState; // 0x3C6
+		::System::Boolean _VolPreVal_weaponUseCustomLightProperty; // 0x3C7
+		::System::Boolean _VolPreVal_rimGlowIntensityForChara_overrideState; // 0x3C8
+		::System::Single _VolPreVal_rimGlowIntensityForChara; // 0x3CC
+		::System::Boolean _VolPreVal_rimGlowWidthForCharacter_overrideState; // 0x3D0
+		::System::Single _VolPreVal_rimGlowWidthForCharacter; // 0x3D4
+		::System::Boolean _VolPreVal_rimGlowColorForCharacter_overrideState; // 0x3D8
+		::UnityEngine::Color _VolPreVal_rimGlowColorForCharacter; // 0x3DC
+		::System::Boolean _VolPreVal_rimGlowStyleForCharacter01_overrideState; // 0x3EC
+		::System::Single _VolPreVal_rimGlowStyleForCharacter01; // 0x3F0
+		::System::Boolean _VolPreVal_rimGlowStyleForCharacter02_overrideState; // 0x3F4
+		::System::Single _VolPreVal_rimGlowStyleForCharacter02; // 0x3F8
+		::System::Boolean _VolPreVal_rimGlowStyleForCharacter03_overrideState; // 0x3FC
+		::System::Single _VolPreVal_rimGlowStyleForCharacter03; // 0x400
+		::System::Boolean _VolPreVal_rimGlowStyleForCharacter04_overrideState; // 0x404
+		::System::Single _VolPreVal_rimGlowStyleForCharacter04; // 0x408
+		::System::Boolean _VolPreVal_enable_overrideState; // 0x40C
+		::System::Boolean _VolPreVal_enable; // 0x40D
+		::System::Boolean _VolPreVal_toeStrength_overrideState; // 0x40E
+		::System::Single _VolPreVal_toeStrength; // 0x410
+		::System::Boolean _VolPreVal_toeLength_overrideState; // 0x414
+		::System::Single _VolPreVal_toeLength; // 0x418
+		::System::Boolean _VolPreVal_shoulderStrength_overrideState; // 0x41C
+		::System::Single _VolPreVal_shoulderStrength; // 0x420
+		::System::Boolean _VolPreVal_shoulderLength_overrideState; // 0x424
+		::System::Single _VolPreVal_shoulderLength; // 0x428
+		::System::Boolean _VolPreVal_shoulderAngle_overrideState; // 0x42C
+		::System::Single _VolPreVal_shoulderAngle; // 0x430
+		::System::Boolean _VolPreVal_customGamma_overrideState; // 0x434
+		::System::Single _VolPreVal_customGamma; // 0x438
+		::System::Boolean _VolPreVal_lift_overrideState; // 0x43C
+		::UnityEngine::Vector4 _VolPreVal_lift; // 0x440
+		::System::Boolean _VolPreVal_gamma_overrideState; // 0x450
+		::UnityEngine::Vector4 _VolPreVal_gamma; // 0x454
+		::System::Boolean _VolPreVal_gain_overrideState; // 0x464
+		::UnityEngine::Vector4 _VolPreVal_gain; // 0x468
+		::System::Boolean _VolPreVal_master_overrideState; // 0x478
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_master; // 0x480
+		::System::Boolean _VolPreVal_red_overrideState; // 0x488
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_red; // 0x490
+		::System::Boolean _VolPreVal_green_overrideState; // 0x498
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_green; // 0x4A0
+		::System::Boolean _VolPreVal_blue_overrideState; // 0x4A8
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_blue; // 0x4B0
+		::System::Boolean _VolPreVal_hueVsHue_overrideState; // 0x4B8
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_hueVsHue; // 0x4C0
+		::System::Boolean _VolPreVal_hueVsSat_overrideState; // 0x4C8
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_hueVsSat; // 0x4D0
+		::System::Boolean _VolPreVal_satVsSat_overrideState; // 0x4D8
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_satVsSat; // 0x4E0
+		::System::Boolean _VolPreVal_lumVsSat_overrideState; // 0x4E8
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_lumVsSat; // 0x4F0
+		::UnityEngine::Color _TimelineCurveFirstVal_ambient; // 0x4F8
+		::UnityEngine::Color _TimelineCurveLastVal_ambient; // 0x508
+		::UnityEngine::Color _TimelineCurveFirstVal_skinFrontTint; // 0x518
+		::UnityEngine::Color _TimelineCurveLastVal_skinFrontTint; // 0x528
+		::UnityEngine::Color _TimelineCurveFirstVal_frontTint; // 0x538
+		::UnityEngine::Color _TimelineCurveLastVal_frontTint; // 0x548
+		::UnityEngine::Color _TimelineCurveFirstVal_skinSssTint; // 0x558
+		::UnityEngine::Color _TimelineCurveLastVal_skinSssTint; // 0x568
+		::UnityEngine::Color _TimelineCurveFirstVal_sssTint; // 0x578
+		::UnityEngine::Color _TimelineCurveLastVal_sssTint; // 0x588
+		::UnityEngine::Color _TimelineCurveFirstVal_skinShallowTint; // 0x598
+		::UnityEngine::Color _TimelineCurveLastVal_skinShallowTint; // 0x5A8
+		::UnityEngine::Color _TimelineCurveFirstVal_shallowTint; // 0x5B8
+		::UnityEngine::Color _TimelineCurveLastVal_shallowTint; // 0x5C8
+		::UnityEngine::Color _TimelineCurveFirstVal_skinShallowFadeTint; // 0x5D8
+		::UnityEngine::Color _TimelineCurveLastVal_skinShallowFadeTint; // 0x5E8
+		::UnityEngine::Color _TimelineCurveFirstVal_shallowFadeTint; // 0x5F8
+		::UnityEngine::Color _TimelineCurveLastVal_shallowFadeTint; // 0x608
+		::UnityEngine::Color _TimelineCurveFirstVal_skinShadowTint; // 0x618
+		::UnityEngine::Color _TimelineCurveLastVal_skinShadowTint; // 0x628
+		::UnityEngine::Color _TimelineCurveFirstVal_shadowTint; // 0x638
+		::UnityEngine::Color _TimelineCurveLastVal_shadowTint; // 0x648
+		::UnityEngine::Color _TimelineCurveFirstVal_skinShadowFadeTint; // 0x658
+		::UnityEngine::Color _TimelineCurveLastVal_skinShadowFadeTint; // 0x668
+		::UnityEngine::Color _TimelineCurveFirstVal_shadowFadeTint; // 0x678
+		::UnityEngine::Color _TimelineCurveLastVal_shadowFadeTint; // 0x688
+		::UnityEngine::Color _TimelineCurveFirstVal_ambientGradient; // 0x698
+		::UnityEngine::Color _TimelineCurveLastVal_ambientGradient; // 0x6A8
+		::UnityEngine::Color _TimelineCurveFirstVal_outlineTint; // 0x6B8
+		::UnityEngine::Color _TimelineCurveLastVal_outlineTint; // 0x6C8
+		::System::Single _TimelineCurveFirstVal_postExposure; // 0x6D8
+		::System::Single _TimelineCurveLastVal_postExposure; // 0x6DC
+		::System::Single _TimelineCurveFirstVal_contrast; // 0x6E0
+		::System::Single _TimelineCurveLastVal_contrast; // 0x6E4
+		::System::Single _TimelineCurveFirstVal_saturation; // 0x6E8
+		::System::Single _TimelineCurveLastVal_saturation; // 0x6EC
+		::System::Boolean _TimelineCurveFirstVal_revertSaturation; // 0x6F0
+		::System::Boolean _TimelineCurveLastVal_revertSaturation; // 0x6F1
+		::System::Boolean _TimelineCurveFirstVal_weaponUseCustomLightProperty; // 0x6F2
+		::System::Boolean _TimelineCurveLastVal_weaponUseCustomLightProperty; // 0x6F3
+		::System::Single _TimelineCurveFirstVal_rimGlowIntensityForChara; // 0x6F4
+		::System::Single _TimelineCurveLastVal_rimGlowIntensityForChara; // 0x6F8
+		::System::Single _TimelineCurveFirstVal_rimGlowWidthForCharacter; // 0x6FC
+		::System::Single _TimelineCurveLastVal_rimGlowWidthForCharacter; // 0x700
+		::UnityEngine::Color _TimelineCurveFirstVal_rimGlowColorForCharacter; // 0x704
+		::UnityEngine::Color _TimelineCurveLastVal_rimGlowColorForCharacter; // 0x714
+		::System::Single _TimelineCurveFirstVal_rimGlowStyleForCharacter01; // 0x724
+		::System::Single _TimelineCurveLastVal_rimGlowStyleForCharacter01; // 0x728
+		::System::Single _TimelineCurveFirstVal_rimGlowStyleForCharacter02; // 0x72C
+		::System::Single _TimelineCurveLastVal_rimGlowStyleForCharacter02; // 0x730
+		::System::Single _TimelineCurveFirstVal_rimGlowStyleForCharacter03; // 0x734
+		::System::Single _TimelineCurveLastVal_rimGlowStyleForCharacter03; // 0x738
+		::System::Single _TimelineCurveFirstVal_rimGlowStyleForCharacter04; // 0x73C
+		::System::Single _TimelineCurveLastVal_rimGlowStyleForCharacter04; // 0x740
+		::System::Boolean _TimelineCurveFirstVal_enable; // 0x744
+		::System::Boolean _TimelineCurveLastVal_enable; // 0x745
+		::System::Single _TimelineCurveFirstVal_toeStrength; // 0x748
+		::System::Single _TimelineCurveLastVal_toeStrength; // 0x74C
+		::System::Single _TimelineCurveFirstVal_toeLength; // 0x750
+		::System::Single _TimelineCurveLastVal_toeLength; // 0x754
+		::System::Single _TimelineCurveFirstVal_shoulderStrength; // 0x758
+		::System::Single _TimelineCurveLastVal_shoulderStrength; // 0x75C
+		::System::Single _TimelineCurveFirstVal_shoulderLength; // 0x760
+		::System::Single _TimelineCurveLastVal_shoulderLength; // 0x764
+		::System::Single _TimelineCurveFirstVal_shoulderAngle; // 0x768
+		::System::Single _TimelineCurveLastVal_shoulderAngle; // 0x76C
+		::System::Single _TimelineCurveFirstVal_customGamma; // 0x770
+		::System::Single _TimelineCurveLastVal_customGamma; // 0x774
+		::UnityEngine::Vector4 _TimelineCurveFirstVal_lift; // 0x778
+		::UnityEngine::Vector4 _TimelineCurveLastVal_lift; // 0x788
+		::UnityEngine::Vector4 _TimelineCurveFirstVal_gamma; // 0x798
+		::UnityEngine::Vector4 _TimelineCurveLastVal_gamma; // 0x7A8
+		::UnityEngine::Vector4 _TimelineCurveFirstVal_gain; // 0x7B8
+		::UnityEngine::Vector4 _TimelineCurveLastVal_gain; // 0x7C8
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_ambient_FieldHandleType; // 0x7D8
+		::System::Boolean ESPP_ambient_UseIt; // 0x7DC
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_ambient; // 0x7E0
+		::System::Boolean ESPP_ambient_EnableFade; // 0x7E8
+		::System::Boolean ESPP_ambient_EnableOverrideDefaultValue; // 0x7E9
+		::UnityEngine::Color ESPP_ambient_OverrideDefaultValue; // 0x7EC
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinFrontTint_FieldHandleType; // 0x7FC
+		::System::Boolean ESPP_skinFrontTint_UseIt; // 0x800
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinFrontTint; // 0x808
+		::System::Boolean ESPP_skinFrontTint_EnableFade; // 0x810
+		::System::Boolean ESPP_skinFrontTint_EnableOverrideDefaultValue; // 0x811
+		::UnityEngine::Color ESPP_skinFrontTint_OverrideDefaultValue; // 0x814
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_frontTint_FieldHandleType; // 0x824
+		::System::Boolean ESPP_frontTint_UseIt; // 0x828
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_frontTint; // 0x830
+		::System::Boolean ESPP_frontTint_EnableFade; // 0x838
+		::System::Boolean ESPP_frontTint_EnableOverrideDefaultValue; // 0x839
+		::UnityEngine::Color ESPP_frontTint_OverrideDefaultValue; // 0x83C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinSssTint_FieldHandleType; // 0x84C
+		::System::Boolean ESPP_skinSssTint_UseIt; // 0x850
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinSssTint; // 0x858
+		::System::Boolean ESPP_skinSssTint_EnableFade; // 0x860
+		::System::Boolean ESPP_skinSssTint_EnableOverrideDefaultValue; // 0x861
+		::UnityEngine::Color ESPP_skinSssTint_OverrideDefaultValue; // 0x864
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_sssTint_FieldHandleType; // 0x874
+		::System::Boolean ESPP_sssTint_UseIt; // 0x878
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_sssTint; // 0x880
+		::System::Boolean ESPP_sssTint_EnableFade; // 0x888
+		::System::Boolean ESPP_sssTint_EnableOverrideDefaultValue; // 0x889
+		::UnityEngine::Color ESPP_sssTint_OverrideDefaultValue; // 0x88C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShallowTint_FieldHandleType; // 0x89C
+		::System::Boolean ESPP_skinShallowTint_UseIt; // 0x8A0
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShallowTint; // 0x8A8
+		::System::Boolean ESPP_skinShallowTint_EnableFade; // 0x8B0
+		::System::Boolean ESPP_skinShallowTint_EnableOverrideDefaultValue; // 0x8B1
+		::UnityEngine::Color ESPP_skinShallowTint_OverrideDefaultValue; // 0x8B4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shallowTint_FieldHandleType; // 0x8C4
+		::System::Boolean ESPP_shallowTint_UseIt; // 0x8C8
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shallowTint; // 0x8D0
+		::System::Boolean ESPP_shallowTint_EnableFade; // 0x8D8
+		::System::Boolean ESPP_shallowTint_EnableOverrideDefaultValue; // 0x8D9
+		::UnityEngine::Color ESPP_shallowTint_OverrideDefaultValue; // 0x8DC
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShallowFadeTint_FieldHandleType; // 0x8EC
+		::System::Boolean ESPP_skinShallowFadeTint_UseIt; // 0x8F0
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShallowFadeTint; // 0x8F8
+		::System::Boolean ESPP_skinShallowFadeTint_EnableFade; // 0x900
+		::System::Boolean ESPP_skinShallowFadeTint_EnableOverrideDefaultValue; // 0x901
+		::UnityEngine::Color ESPP_skinShallowFadeTint_OverrideDefaultValue; // 0x904
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shallowFadeTint_FieldHandleType; // 0x914
+		::System::Boolean ESPP_shallowFadeTint_UseIt; // 0x918
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shallowFadeTint; // 0x920
+		::System::Boolean ESPP_shallowFadeTint_EnableFade; // 0x928
+		::System::Boolean ESPP_shallowFadeTint_EnableOverrideDefaultValue; // 0x929
+		::UnityEngine::Color ESPP_shallowFadeTint_OverrideDefaultValue; // 0x92C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShadowTint_FieldHandleType; // 0x93C
+		::System::Boolean ESPP_skinShadowTint_UseIt; // 0x940
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShadowTint; // 0x948
+		::System::Boolean ESPP_skinShadowTint_EnableFade; // 0x950
+		::System::Boolean ESPP_skinShadowTint_EnableOverrideDefaultValue; // 0x951
+		::UnityEngine::Color ESPP_skinShadowTint_OverrideDefaultValue; // 0x954
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shadowTint_FieldHandleType; // 0x964
+		::System::Boolean ESPP_shadowTint_UseIt; // 0x968
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shadowTint; // 0x970
+		::System::Boolean ESPP_shadowTint_EnableFade; // 0x978
+		::System::Boolean ESPP_shadowTint_EnableOverrideDefaultValue; // 0x979
+		::UnityEngine::Color ESPP_shadowTint_OverrideDefaultValue; // 0x97C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_skinShadowFadeTint_FieldHandleType; // 0x98C
+		::System::Boolean ESPP_skinShadowFadeTint_UseIt; // 0x990
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_skinShadowFadeTint; // 0x998
+		::System::Boolean ESPP_skinShadowFadeTint_EnableFade; // 0x9A0
+		::System::Boolean ESPP_skinShadowFadeTint_EnableOverrideDefaultValue; // 0x9A1
+		::UnityEngine::Color ESPP_skinShadowFadeTint_OverrideDefaultValue; // 0x9A4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shadowFadeTint_FieldHandleType; // 0x9B4
+		::System::Boolean ESPP_shadowFadeTint_UseIt; // 0x9B8
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_shadowFadeTint; // 0x9C0
+		::System::Boolean ESPP_shadowFadeTint_EnableFade; // 0x9C8
+		::System::Boolean ESPP_shadowFadeTint_EnableOverrideDefaultValue; // 0x9C9
+		::UnityEngine::Color ESPP_shadowFadeTint_OverrideDefaultValue; // 0x9CC
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_ambientGradient_FieldHandleType; // 0x9DC
+		::System::Boolean ESPP_ambientGradient_UseIt; // 0x9E0
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_ambientGradient; // 0x9E8
+		::System::Boolean ESPP_ambientGradient_EnableFade; // 0x9F0
+		::System::Boolean ESPP_ambientGradient_EnableOverrideDefaultValue; // 0x9F1
+		::UnityEngine::Color ESPP_ambientGradient_OverrideDefaultValue; // 0x9F4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_useShadowTintAsOutline_FieldHandleType; // 0xA04
+		::System::Boolean ESPP_useShadowTintAsOutline; // 0xA08
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_outlineTint_FieldHandleType; // 0xA0C
+		::System::Boolean ESPP_outlineTint_UseIt; // 0xA10
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_outlineTint; // 0xA18
+		::System::Boolean ESPP_outlineTint_EnableFade; // 0xA20
+		::System::Boolean ESPP_outlineTint_EnableOverrideDefaultValue; // 0xA21
+		::UnityEngine::Color ESPP_outlineTint_OverrideDefaultValue; // 0xA24
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_postExposure_FieldHandleType; // 0xA34
+		::System::Boolean ESPP_postExposure_UseIt; // 0xA38
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_postExposure; // 0xA40
+		::System::Boolean ESPP_postExposure_EnableFade; // 0xA48
+		::System::Boolean ESPP_postExposure_EnableOverrideDefaultValue; // 0xA49
+		::System::Single ESPP_postExposure_OverrideDefaultValue; // 0xA4C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_contrast_FieldHandleType; // 0xA50
+		::System::Boolean ESPP_contrast_UseIt; // 0xA54
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_contrast; // 0xA58
+		::System::Boolean ESPP_contrast_EnableFade; // 0xA60
+		::System::Boolean ESPP_contrast_EnableOverrideDefaultValue; // 0xA61
+		::System::Single ESPP_contrast_OverrideDefaultValue; // 0xA64
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_saturation_FieldHandleType; // 0xA68
+		::System::Boolean ESPP_saturation_UseIt; // 0xA6C
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_saturation; // 0xA70
+		::System::Boolean ESPP_saturation_EnableFade; // 0xA78
+		::System::Boolean ESPP_saturation_EnableOverrideDefaultValue; // 0xA79
+		::System::Single ESPP_saturation_OverrideDefaultValue; // 0xA7C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_revertSaturation_FieldHandleType; // 0xA80
+		::System::Boolean ESPP_revertSaturation_UseIt; // 0xA84
+		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_revertSaturation; // 0xA88
+		::System::Boolean ESPP_revertSaturation_EnableFade; // 0xA90
+		::System::Boolean ESPP_revertSaturation_EnableOverrideDefaultValue; // 0xA91
+		::System::Boolean ESPP_revertSaturation_OverrideDefaultValue; // 0xA92
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_weaponUseCustomLightProperty_FieldHandleType; // 0xA94
+		::System::Boolean ESPP_weaponUseCustomLightProperty_UseIt; // 0xA98
+		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_weaponUseCustomLightProperty; // 0xAA0
+		::System::Boolean ESPP_weaponUseCustomLightProperty_EnableFade; // 0xAA8
+		::System::Boolean ESPP_weaponUseCustomLightProperty_EnableOverrideDefaultValue; // 0xAA9
+		::System::Boolean ESPP_weaponUseCustomLightProperty_OverrideDefaultValue; // 0xAAA
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowIntensityForChara_FieldHandleType; // 0xAAC
+		::System::Boolean ESPP_rimGlowIntensityForChara_UseIt; // 0xAB0
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rimGlowIntensityForChara; // 0xAB8
+		::System::Boolean ESPP_rimGlowIntensityForChara_EnableFade; // 0xAC0
+		::System::Boolean ESPP_rimGlowIntensityForChara_EnableOverrideDefaultValue; // 0xAC1
+		::System::Single ESPP_rimGlowIntensityForChara_OverrideDefaultValue; // 0xAC4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowWidthForCharacter_FieldHandleType; // 0xAC8
+		::System::Boolean ESPP_rimGlowWidthForCharacter_UseIt; // 0xACC
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rimGlowWidthForCharacter; // 0xAD0
+		::System::Boolean ESPP_rimGlowWidthForCharacter_EnableFade; // 0xAD8
+		::System::Boolean ESPP_rimGlowWidthForCharacter_EnableOverrideDefaultValue; // 0xAD9
+		::System::Single ESPP_rimGlowWidthForCharacter_OverrideDefaultValue; // 0xADC
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowColorForCharacter_FieldHandleType; // 0xAE0
+		::System::Boolean ESPP_rimGlowColorForCharacter_UseIt; // 0xAE4
+		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_rimGlowColorForCharacter; // 0xAE8
+		::System::Boolean ESPP_rimGlowColorForCharacter_EnableFade; // 0xAF0
+		::System::Boolean ESPP_rimGlowColorForCharacter_EnableOverrideDefaultValue; // 0xAF1
+		::UnityEngine::Color ESPP_rimGlowColorForCharacter_OverrideDefaultValue; // 0xAF4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowStyleForCharacter01_FieldHandleType; // 0xB04
+		::System::Boolean ESPP_rimGlowStyleForCharacter01_UseIt; // 0xB08
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rimGlowStyleForCharacter01; // 0xB10
+		::System::Boolean ESPP_rimGlowStyleForCharacter01_EnableFade; // 0xB18
+		::System::Boolean ESPP_rimGlowStyleForCharacter01_EnableOverrideDefaultValue; // 0xB19
+		::System::Single ESPP_rimGlowStyleForCharacter01_OverrideDefaultValue; // 0xB1C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowStyleForCharacter02_FieldHandleType; // 0xB20
+		::System::Boolean ESPP_rimGlowStyleForCharacter02_UseIt; // 0xB24
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rimGlowStyleForCharacter02; // 0xB28
+		::System::Boolean ESPP_rimGlowStyleForCharacter02_EnableFade; // 0xB30
+		::System::Boolean ESPP_rimGlowStyleForCharacter02_EnableOverrideDefaultValue; // 0xB31
+		::System::Single ESPP_rimGlowStyleForCharacter02_OverrideDefaultValue; // 0xB34
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowStyleForCharacter03_FieldHandleType; // 0xB38
+		::System::Boolean ESPP_rimGlowStyleForCharacter03_UseIt; // 0xB3C
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rimGlowStyleForCharacter03; // 0xB40
+		::System::Boolean ESPP_rimGlowStyleForCharacter03_EnableFade; // 0xB48
+		::System::Boolean ESPP_rimGlowStyleForCharacter03_EnableOverrideDefaultValue; // 0xB49
+		::System::Single ESPP_rimGlowStyleForCharacter03_OverrideDefaultValue; // 0xB4C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rimGlowStyleForCharacter04_FieldHandleType; // 0xB50
+		::System::Boolean ESPP_rimGlowStyleForCharacter04_UseIt; // 0xB54
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rimGlowStyleForCharacter04; // 0xB58
+		::System::Boolean ESPP_rimGlowStyleForCharacter04_EnableFade; // 0xB60
+		::System::Boolean ESPP_rimGlowStyleForCharacter04_EnableOverrideDefaultValue; // 0xB61
+		::System::Single ESPP_rimGlowStyleForCharacter04_OverrideDefaultValue; // 0xB64
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_enable_FieldHandleType; // 0xB68
+		::System::Boolean ESPP_enable_UseIt; // 0xB6C
+		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_enable; // 0xB70
+		::System::Boolean ESPP_enable_EnableFade; // 0xB78
+		::System::Boolean ESPP_enable_EnableOverrideDefaultValue; // 0xB79
+		::System::Boolean ESPP_enable_OverrideDefaultValue; // 0xB7A
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_toeStrength_FieldHandleType; // 0xB7C
+		::System::Boolean ESPP_toeStrength_UseIt; // 0xB80
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_toeStrength; // 0xB88
+		::System::Boolean ESPP_toeStrength_EnableFade; // 0xB90
+		::System::Boolean ESPP_toeStrength_EnableOverrideDefaultValue; // 0xB91
+		::System::Single ESPP_toeStrength_OverrideDefaultValue; // 0xB94
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_toeLength_FieldHandleType; // 0xB98
+		::System::Boolean ESPP_toeLength_UseIt; // 0xB9C
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_toeLength; // 0xBA0
+		::System::Boolean ESPP_toeLength_EnableFade; // 0xBA8
+		::System::Boolean ESPP_toeLength_EnableOverrideDefaultValue; // 0xBA9
+		::System::Single ESPP_toeLength_OverrideDefaultValue; // 0xBAC
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shoulderStrength_FieldHandleType; // 0xBB0
+		::System::Boolean ESPP_shoulderStrength_UseIt; // 0xBB4
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_shoulderStrength; // 0xBB8
+		::System::Boolean ESPP_shoulderStrength_EnableFade; // 0xBC0
+		::System::Boolean ESPP_shoulderStrength_EnableOverrideDefaultValue; // 0xBC1
+		::System::Single ESPP_shoulderStrength_OverrideDefaultValue; // 0xBC4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shoulderLength_FieldHandleType; // 0xBC8
+		::System::Boolean ESPP_shoulderLength_UseIt; // 0xBCC
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_shoulderLength; // 0xBD0
+		::System::Boolean ESPP_shoulderLength_EnableFade; // 0xBD8
+		::System::Boolean ESPP_shoulderLength_EnableOverrideDefaultValue; // 0xBD9
+		::System::Single ESPP_shoulderLength_OverrideDefaultValue; // 0xBDC
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_shoulderAngle_FieldHandleType; // 0xBE0
+		::System::Boolean ESPP_shoulderAngle_UseIt; // 0xBE4
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_shoulderAngle; // 0xBE8
+		::System::Boolean ESPP_shoulderAngle_EnableFade; // 0xBF0
+		::System::Boolean ESPP_shoulderAngle_EnableOverrideDefaultValue; // 0xBF1
+		::System::Single ESPP_shoulderAngle_OverrideDefaultValue; // 0xBF4
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_customGamma_FieldHandleType; // 0xBF8
+		::System::Boolean ESPP_customGamma_UseIt; // 0xBFC
+		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_customGamma; // 0xC00
+		::System::Boolean ESPP_customGamma_EnableFade; // 0xC08
+		::System::Boolean ESPP_customGamma_EnableOverrideDefaultValue; // 0xC09
+		::System::Single ESPP_customGamma_OverrideDefaultValue; // 0xC0C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_lift_FieldHandleType; // 0xC10
+		::System::Boolean ESPP_lift_UseIt; // 0xC14
+		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_lift; // 0xC18
+		::System::Boolean ESPP_lift_EnableFade; // 0xC20
+		::System::Boolean ESPP_lift_EnableOverrideDefaultValue; // 0xC21
+		::UnityEngine::Vector4 ESPP_lift_OverrideDefaultValue; // 0xC24
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_gamma_FieldHandleType; // 0xC34
+		::System::Boolean ESPP_gamma_UseIt; // 0xC38
+		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_gamma; // 0xC40
+		::System::Boolean ESPP_gamma_EnableFade; // 0xC48
+		::System::Boolean ESPP_gamma_EnableOverrideDefaultValue; // 0xC49
+		::UnityEngine::Vector4 ESPP_gamma_OverrideDefaultValue; // 0xC4C
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_gain_FieldHandleType; // 0xC5C
+		::System::Boolean ESPP_gain_UseIt; // 0xC60
+		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_gain; // 0xC68
+		::System::Boolean ESPP_gain_EnableFade; // 0xC70
+		::System::Boolean ESPP_gain_EnableOverrideDefaultValue; // 0xC71
+		::UnityEngine::Vector4 ESPP_gain_OverrideDefaultValue; // 0xC74
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_master_FieldHandleType; // 0xC84
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_master; // 0xC88
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_red_FieldHandleType; // 0xC90
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_red; // 0xC98
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_green_FieldHandleType; // 0xCA0
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_green; // 0xCA8
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_blue_FieldHandleType; // 0xCB0
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_blue; // 0xCB8
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hueVsHue_FieldHandleType; // 0xCC0
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_hueVsHue; // 0xCC8
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hueVsSat_FieldHandleType; // 0xCD0
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_hueVsSat; // 0xCD8
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_satVsSat_FieldHandleType; // 0xCE0
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_satVsSat; // 0xCE8
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_lumVsSat_FieldHandleType; // 0xCF0
+		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_lumVsSat; // 0xCF8
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6B72D4EE8C6E907F()
+		::System::Void Method_5_60E1F7F58CCF739F()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_6B72D4EE8C6E907F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_60E1F7F58CCF739F_OFFSET))(this);
 		}
 
 		::System::Void Method_5_CA373AA1C7054598()
@@ -303,14 +544,14 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_OFFSET))(this);
 		}
 
-		::System::Void Method_5_28EB11670A8E5A86()
+		::System::Void Method_5_497833CF065C1894()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_28EB11670A8E5A86_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_497833CF065C1894_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3DA91C9B57824EE6()
+		::System::Void Method_5_F53BAAE38A584428()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_3DA91C9B57824EE6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_F53BAAE38A584428_OFFSET))(this);
 		}
 
 		::System::Void Method_5_459C79521BFE514E(::System::Single a1)
@@ -318,24 +559,24 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_459C79521BFE514E_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_832172BF04246E66(::System::Single a1)
+		::System::Void Method_5_18D3B6D22EDDAC41(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_832172BF04246E66_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_18D3B6D22EDDAC41_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_341E9FEC0092AC5C(::System::Single a1)
+		::System::Void Method_5_2C900C7BC409CFF2(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_341E9FEC0092AC5C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_2C900C7BC409CFF2_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_4F6CBEF30D6E7AC4(::System::Single a1)
+		::System::Void Method_5_8462E42B7CEE1998(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4F6CBEF30D6E7AC4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_8462E42B7CEE1998_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_4F6CBEF30D6E7AC4_1(::System::Single a1)
+		::System::Void Method_5_8462E42B7CEE1998_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_4F6CBEF30D6E7AC4_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_8462E42B7CEE1998_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_8D6879CAA76F6588()
@@ -353,9 +594,9 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigEntityScreenEffectBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_99F887AAD84BE668_OFFSET))(this, a1);
 		}
 
-		::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>* Method_5_43069389B18F0936()
+		::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>* Method_5_B747781924F4C9A5()
 		{
-			return ((::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_43069389B18F0936_OFFSET))(this);
+			return ((::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B747781924F4C9A5_OFFSET))(this);
 		}
 
 		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_D2A9D107FA1E5A31(::System::String* a1, ::System::String* a2)
@@ -423,74 +664,9 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_76ECC59BC7430042_1_OFFSET))(this, a1);
 		}
 
-		::System::Type* Method_5_A99467CE9479C990()
-		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_OFFSET))(this);
-		}
-
-		::System::Void Method_5_E7F1AECA7CFF8AAD(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_5_CA373AA1C7054598_1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_1_OFFSET))(this);
-		}
-
-		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_BE3471DF7E3D4326(::System::String* a1, ::System::String* a2, ::System::Single a3, ::MoleMole::Config::ConfigEntityScreenEffectBase*& a4, ::UnityEngine::ScriptableObject*& a5, ::MoleMole::Config::ConfigEntityScreenEffectBase*& a6, ::UnityEngine::ScriptableObject*& a7, ::System::String*& a8)
-		{
-			return ((::MoleMole::Config::ConfigEntityScreenEffectBase*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single, ::MoleMole::Config::ConfigEntityScreenEffectBase*&, ::UnityEngine::ScriptableObject*&, ::MoleMole::Config::ConfigEntityScreenEffectBase*&, ::UnityEngine::ScriptableObject*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_BE3471DF7E3D4326_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
-		}
-
-		::System::Void Method_5_832295EC279E5994()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_832295EC279E5994_OFFSET))(this);
-		}
-
-		::System::Int32 Method_5_A1D8CD775DEC3C21_1()
-		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A1D8CD775DEC3C21_1_OFFSET))(this);
-		}
-
-		::System::Void Method_5_B4596DBEA209120C(::MoleMole::Config::ConfigEntityScreenEffectBase* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigEntityScreenEffectBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B4596DBEA209120C_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_5_E7F1AECA7CFF8AAD_1(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_1_OFFSET))(this, a1);
-		}
-
-		::System::Type* Method_5_A99467CE9479C990_1()
-		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_1_OFFSET))(this);
-		}
-
-		::System::String* Method_5_DA1BF2C227DC3D86()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_DA1BF2C227DC3D86_OFFSET))(this);
-		}
-
-		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_D5F190FE5CE966B3(::System::String* a1, ::System::String* a2)
-		{
-			return ((::MoleMole::Config::ConfigEntityScreenEffectBase*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_D5F190FE5CE966B3_OFFSET))(this, a1, a2);
-		}
-
 		::System::Void Method_5_2685B6183E614529(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_2685B6183E614529_OFFSET))(this, a1);
-		}
-
-		::MoleMole::Config::ScreenEffectType Method_5_55D8CF5F1FB0803A()
-		{
-			return ((::MoleMole::Config::ScreenEffectType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_55D8CF5F1FB0803A_OFFSET))(this);
-		}
-
-		::System::String* Method_5_581A5078A2F29034()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_581A5078A2F29034_OFFSET))(this);
 		}
 
 		::System::String* Method_5_126AB3935214AA22()
@@ -498,9 +674,14 @@ namespace MoleMole::EffectSimulate
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_126AB3935214AA22_OFFSET))(this);
 		}
 
-		::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>* Method_5_54BEE211D32F7DEF()
+		::System::Type* Method_5_A99467CE9479C990()
 		{
-			return ((::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_54BEE211D32F7DEF_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_OFFSET))(this);
+		}
+
+		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_3622C2D1E940D3F4(::System::String* a1)
+		{
+			return ((::MoleMole::Config::ConfigEntityScreenEffectBase*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_3622C2D1E940D3F4_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Method_5_391A84BCD9F51317_1()
@@ -508,9 +689,69 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_391A84BCD9F51317_1_OFFSET))(this);
 		}
 
-		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_3622C2D1E940D3F4(::System::String* a1)
+		::System::Type* Method_5_A99467CE9479C990_1()
 		{
-			return ((::MoleMole::Config::ConfigEntityScreenEffectBase*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_3622C2D1E940D3F4_OFFSET))(this, a1);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A99467CE9479C990_1_OFFSET))(this);
+		}
+
+		::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>* Method_5_54BEE211D32F7DEF()
+		{
+			return ((::Sirenix::OdinInspector::ValueDropdownList_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_54BEE211D32F7DEF_OFFSET))(this);
+		}
+
+		::MoleMole::Config::ScreenEffectType Method_5_55D8CF5F1FB0803A()
+		{
+			return ((::MoleMole::Config::ScreenEffectType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_55D8CF5F1FB0803A_OFFSET))(this);
+		}
+
+		::System::String* Method_5_DA1BF2C227DC3D86()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_DA1BF2C227DC3D86_OFFSET))(this);
+		}
+
+		::System::Void Method_5_CA373AA1C7054598_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_CA373AA1C7054598_1_OFFSET))(this);
+		}
+
+		::System::Void Method_5_B4596DBEA209120C(::MoleMole::Config::ConfigEntityScreenEffectBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigEntityScreenEffectBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_B4596DBEA209120C_OFFSET))(this, a1);
+		}
+
+		::System::Int32 Method_5_A1D8CD775DEC3C21_1()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_A1D8CD775DEC3C21_1_OFFSET))(this);
+		}
+
+		::System::Void Method_5_E7F1AECA7CFF8AAD(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_E7F1AECA7CFF8AAD_1(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_E7F1AECA7CFF8AAD_1_OFFSET))(this, a1);
+		}
+
+		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_D5F190FE5CE966B3(::System::String* a1, ::System::String* a2)
+		{
+			return ((::MoleMole::Config::ConfigEntityScreenEffectBase*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_D5F190FE5CE966B3_OFFSET))(this, a1, a2);
+		}
+
+		::MoleMole::Config::ConfigEntityScreenEffectBase* Method_5_BE3471DF7E3D4326(::System::String* a1, ::System::String* a2, ::System::Single a3, ::MoleMole::Config::ConfigEntityScreenEffectBase*& a4, ::UnityEngine::ScriptableObject*& a5, ::MoleMole::Config::ConfigEntityScreenEffectBase*& a6, ::UnityEngine::ScriptableObject*& a7, ::System::String*& a8)
+		{
+			return ((::MoleMole::Config::ConfigEntityScreenEffectBase*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single, ::MoleMole::Config::ConfigEntityScreenEffectBase*&, ::UnityEngine::ScriptableObject*&, ::MoleMole::Config::ConfigEntityScreenEffectBase*&, ::UnityEngine::ScriptableObject*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_BE3471DF7E3D4326_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+		}
+
+		::System::String* Method_5_7857B385C2B6C0EB()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_7857B385C2B6C0EB_OFFSET))(this);
+		}
+
+		::System::Void Method_5_832295EC279E5994()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCHARACTERCOLORCORRECTION_METHOD_5_832295EC279E5994_OFFSET))(this);
 		}
 	};
 }

@@ -4,20 +4,20 @@
 
 namespace System::Reflection { class MethodInfo; }
 
-#define UTF8JSON_INTERNAL_AUTOMATAKEYGEN_GETKEYSAFE_OFFSET UNITYSDK_OFFSET(0x1B50A620)
-#define UTF8JSON_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET UNITYSDK_OFFSET(0x1B50A4B0)
-#define UTF8JSON_INTERNAL_AUTOMATAKEYGEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B50B420)
+#define UTF8JSON_INTERNAL_AUTOMATAKEYGEN_GETKEYSAFE_OFFSET UNITYSDK_OFFSET(0x1C1D1DC0)
+#define UTF8JSON_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET UNITYSDK_OFFSET(0x1C1D1C50)
+#define UTF8JSON_INTERNAL_AUTOMATAKEYGEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D2BC0)
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int AutomataKeyGen_TypeDefinitionIndex = 83928;
+	inline static constexpr unsigned int AutomataKeyGen_TypeDefinitionIndex = 85656;
 
 	class AutomataKeyGen : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_GetKeyMethod()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(AutomataKeyGen_TypeDefinitionIndex)->GetStaticField(0x48A70);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(AutomataKeyGen_TypeDefinitionIndex)->GetStaticField(0x4A5E0);
 		}
 
 		static ::System::Void _cctor()

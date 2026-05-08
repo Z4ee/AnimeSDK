@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS121_0__BTNCONFIRM_G__ONCLOSEANIMEND_0_OFFSET UNITYSDK_OFFSET(0x8715B80)
-#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS121_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8715B70)
+#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS121_0__BTNCONFIRM_G__ONCLOSEANIMEND_0_OFFSET UNITYSDK_OFFSET(0x16CEF2E0)
+#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS121_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CEF2D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTipsPopWindowController___c__DisplayClass121_0_TypeDefinitionIndex = 74341;
+	inline static constexpr unsigned int UIGeneralTipsPopWindowController___c__DisplayClass121_0_TypeDefinitionIndex = 82870;
 
 	class UIGeneralTipsPopWindowController___c__DisplayClass121_0 : public ::System::Object
 	{

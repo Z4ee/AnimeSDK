@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFMUTEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD54D20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFMUTEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0xCD54E10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFMUTEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x125CA340)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFMUTEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x125CA3F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfMuteInput_TypeDefinitionIndex = 46610;
+	inline static constexpr unsigned int LD_SurfMuteInput_TypeDefinitionIndex = 81257;
 
 	class LD_SurfMuteInput : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Boolean>
 	{

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_LINK_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD54C00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_LINK__CTOR_OFFSET UNITYSDK_OFFSET(0xCD54D00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_LINK_INVOKE_OFFSET UNITYSDK_OFFSET(0x125CA220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_LINK__CTOR_OFFSET UNITYSDK_OFFSET(0x125CA320)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SceneVideo_Link_TypeDefinitionIndex = 55840;
+	inline static constexpr unsigned int LD_SceneVideo_Link_TypeDefinitionIndex = 71583;
 
 	class LD_SceneVideo_Link : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::EntityHandle, ::MoleMole::EntityHandle, ::System::String*>
 	{

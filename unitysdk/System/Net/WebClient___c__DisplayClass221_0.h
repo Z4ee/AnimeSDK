@@ -8,8 +8,8 @@ namespace System::Net { class OpenReadCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18905D50)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__OPENREADTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x18907C30)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19233B30)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__OPENREADTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19235A70)
 
 namespace System::Net
 {
@@ -18,8 +18,8 @@ namespace System::Net
 	class WebClient___c__DisplayClass221_0 : public ::System::Object
 	{
 	public:
-		::System::Net::WebClient* __4__this; // 0x10
-		::System::Net::OpenReadCompletedEventHandler* handler; // 0x18
+		::System::Net::OpenReadCompletedEventHandler* handler; // 0x10
+		::System::Net::WebClient* __4__this; // 0x18
 		::System::Threading::Tasks::TaskCompletionSource_1<::System::IO::Stream*>* tcs; // 0x20
 
 		::System::Void _ctor()

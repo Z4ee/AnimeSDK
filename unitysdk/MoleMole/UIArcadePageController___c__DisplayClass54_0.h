@@ -5,20 +5,20 @@
 namespace MoleMole { class UIArcadePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFB88F0)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS54_0__TRYENTERGAMEPHASE_B__0_OFFSET UNITYSDK_OFFSET(0xBFBC0B0)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS54_0__TRYENTERGAMEPHASE_B__1_OFFSET UNITYSDK_OFFSET(0xBFBC150)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15628B10)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS54_0__TRYENTERGAMEPHASE_B__0_OFFSET UNITYSDK_OFFSET(0x1562C5F0)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS54_0__TRYENTERGAMEPHASE_B__1_OFFSET UNITYSDK_OFFSET(0x1562C690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass54_0_TypeDefinitionIndex = 57176;
+	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass54_0_TypeDefinitionIndex = 75640;
 
 	class UIArcadePageController___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:
-		::System::Action* finishCB; // 0x10
-		::MoleMole::UIArcadePageController* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
+		::MoleMole::UIArcadePageController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
+		::System::Action* finishCB; // 0x20
 		::System::Int32 arcadeGameID; // 0x28
 
 		::System::Void _ctor()

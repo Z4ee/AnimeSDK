@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int CharacterConfig_IndoorEnum_TypeDefinitionIndex = 29790;
+	inline static constexpr unsigned int CharacterConfig_IndoorEnum_TypeDefinitionIndex = 30319;
 
 	enum class CharacterConfig_IndoorEnum : ::System::Int32
 	{

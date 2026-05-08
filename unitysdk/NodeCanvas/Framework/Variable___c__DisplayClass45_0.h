@@ -5,13 +5,13 @@
 namespace NodeCanvas::Framework { class Variable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NODECANVAS_FRAMEWORK_VARIABLE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F9CB0)
-#define NODECANVAS_FRAMEWORK_VARIABLE___C__DISPLAYCLASS45_0__GETGETCONVERTER_B__0_OFFSET UNITYSDK_OFFSET(0x1A3F9CC0)
-#define NODECANVAS_FRAMEWORK_VARIABLE___C__DISPLAYCLASS45_0__GETGETCONVERTER_B__1_OFFSET UNITYSDK_OFFSET(0x1A3F9D00)
+#define NODECANVAS_FRAMEWORK_VARIABLE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F5910)
+#define NODECANVAS_FRAMEWORK_VARIABLE___C__DISPLAYCLASS45_0__GETGETCONVERTER_B__0_OFFSET UNITYSDK_OFFSET(0x1B0F5920)
+#define NODECANVAS_FRAMEWORK_VARIABLE___C__DISPLAYCLASS45_0__GETGETCONVERTER_B__1_OFFSET UNITYSDK_OFFSET(0x1B0F5960)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Variable___c__DisplayClass45_0_TypeDefinitionIndex = 26783;
+	inline static constexpr unsigned int Variable___c__DisplayClass45_0_TypeDefinitionIndex = 28116;
 
 	class Variable___c__DisplayClass45_0 : public ::System::Object
 	{

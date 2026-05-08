@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerTimeLinePageController_ETimelineState_TypeDefinitionIndex = 50221;
+	inline static constexpr unsigned int UIFlowerTimeLinePageController_ETimelineState_TypeDefinitionIndex = 51613;
 
 	enum class UIFlowerTimeLinePageController_ETimelineState : ::System::Int32
 	{
-		Play = 0,
-		Pause = 2,
 		Capture = 1,
+		Pause = 2,
+		Play = 0,
 	};
 }

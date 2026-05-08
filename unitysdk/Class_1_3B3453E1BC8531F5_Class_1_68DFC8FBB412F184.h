@@ -6,7 +6,7 @@
 
 template <typename T1, typename T2> class Class_1_3B3453E1BC8531F5;
 
-inline static constexpr unsigned int Class_1_3B3453E1BC8531F5_Class_1_68DFC8FBB412F184_TypeDefinitionIndex = 78024;
+inline static constexpr unsigned int Class_1_3B3453E1BC8531F5_Class_1_68DFC8FBB412F184_TypeDefinitionIndex = 51488;
 
 template <typename U, typename V>
 class Class_1_3B3453E1BC8531F5_Class_1_68DFC8FBB412F184 : public ::System::Object

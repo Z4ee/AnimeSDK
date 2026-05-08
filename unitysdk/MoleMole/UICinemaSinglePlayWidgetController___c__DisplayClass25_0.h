@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9B4BC0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS25_0__WAITUNTILTIMECURSOR_B__0_OFFSET UNITYSDK_OFFSET(0xD9B4BD0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142DA7E0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS25_0__WAITUNTILTIMECURSOR_B__0_OFFSET UNITYSDK_OFFSET(0x142DA7F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 38057;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 66479;
 
 	class UICinemaSinglePlayWidgetController___c__DisplayClass25_0 : public ::System::Object
 	{

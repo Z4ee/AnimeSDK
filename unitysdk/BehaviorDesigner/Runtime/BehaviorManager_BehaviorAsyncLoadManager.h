@@ -15,47 +15,47 @@ namespace System::Threading::Tasks { class Task; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_CREATTASKWORK_OFFSET UNITYSDK_OFFSET(0x1A495310)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A495070)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_FOREGROUNDTICK_OFFSET UNITYSDK_OFFSET(0x1A495400)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_DEBUGCURPENDINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1A4950F0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_DEBUGCURWORKINGTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1A4950E0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_DEBUGISVALIDTASK_OFFSET UNITYSDK_OFFSET(0x1A495100)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_PENDINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1A495110)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_PREPARESUBTREELOADINGREQUEST_OFFSET UNITYSDK_OFFSET(0x1A495DC0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_PUSHLOADINGREQUEST_OFFSET UNITYSDK_OFFSET(0x1A495140)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A496520)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A494F20)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__NOTIFYONELOADITEM_OFFSET UNITYSDK_OFFSET(0x1A495C20)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__TASKPROCESSIMPL_OFFSET UNITYSDK_OFFSET(0x1A495F90)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__TASKPROCESS_OFFSET UNITYSDK_OFFSET(0x1A495EA0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_CREATTASKWORK_OFFSET UNITYSDK_OFFSET(0x1B0411D0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B040EC0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_FOREGROUNDTICK_OFFSET UNITYSDK_OFFSET(0x1B0412D0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_DEBUGCURPENDINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1B040F60)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_DEBUGCURWORKINGTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1B040F50)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_DEBUGISVALIDTASK_OFFSET UNITYSDK_OFFSET(0x1B040F70)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_GET_PENDINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1B040F80)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_PREPARESUBTREELOADINGREQUEST_OFFSET UNITYSDK_OFFSET(0x1B041CA0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER_PUSHLOADINGREQUEST_OFFSET UNITYSDK_OFFSET(0x1B040FD0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B042480)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B040D70)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__NOTIFYONELOADITEM_OFFSET UNITYSDK_OFFSET(0x1B041B00)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__TASKPROCESSIMPL_OFFSET UNITYSDK_OFFSET(0x1B041ED0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORASYNCLOADMANAGER__TASKPROCESS_OFFSET UNITYSDK_OFFSET(0x1B041DC0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorAsyncLoadManager_TypeDefinitionIndex = 31138;
+	inline static constexpr unsigned int BehaviorManager_BehaviorAsyncLoadManager_TypeDefinitionIndex = 31667;
 
 	class BehaviorManager_BehaviorAsyncLoadManager : public ::System::Object
 	{
 	public:
 		static ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadManager** StaticGet_s_lazyInstance()
 		{
-			return (::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadManager**)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorAsyncLoadManager_TypeDefinitionIndex)->GetStaticField(0x24F20);
+			return (::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadManager**)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorAsyncLoadManager_TypeDefinitionIndex)->GetStaticField(0x25AA0);
 		}
 		static ::System::Int32* StaticGet_s_SharedWorkerCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorAsyncLoadManager_TypeDefinitionIndex)->GetStaticField(0x7C80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BehaviorManager_BehaviorAsyncLoadManager_TypeDefinitionIndex)->GetStaticField(0x7D20);
 		}
 		// static const ::System::Int32 _MAX_WORKER_COUNT = 0x1; // 0x0
 		// static const ::System::Int32 _MAX_THREAD_COUNT_ONE_WORKER = 0x1; // 0x0
-		::System::Collections::Concurrent::ConcurrentQueue_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _finishQueue; // 0x10
-		::System::Object* _lockObj; // 0x18
-		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem* _lastItem; // 0x20
+		::System::Func_6<::BehaviorDesigner::Runtime::Behavior*, ::UnityEngine::GameObject*, ::System::String*, ::UnityEngine::Transform*, ::BehaviorDesigner::Runtime::Tasks::GameObjectGetter*, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree*>* loadFunc; // 0x10
+		::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem* _lastItem; // 0x18
+		::System::Collections::Concurrent::ConcurrentQueue_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _finishQueue; // 0x20
 		::System::Collections::Concurrent::ConcurrentQueue_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _pendingQueue; // 0x28
-		::System::Collections::Concurrent::ConcurrentQueue_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _subTreeQueue; // 0x30
-		::System::Func_6<::BehaviorDesigner::Runtime::Behavior*, ::UnityEngine::GameObject*, ::System::String*, ::UnityEngine::Transform*, ::BehaviorDesigner::Runtime::Tasks::GameObjectGetter*, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree*>* loadFunc; // 0x38
-		::System::Threading::Tasks::Task* processTask; // 0x40
-		::System::Text::StringBuilder* errorWriteInfo; // 0x48
-		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _delayFinishedLoadItems; // 0x50
+		::System::Object* _lockObj; // 0x30
+		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _delayFinishedLoadItems; // 0x38
+		::System::Collections::Concurrent::ConcurrentQueue_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorAsyncLoadItem*>* _subTreeQueue; // 0x40
+		::System::Threading::Tasks::Task* processTask; // 0x48
+		::System::Text::StringBuilder* errorWriteInfo; // 0x50
 		::System::Single _foregroundTime; // 0x58
 		::System::Int32 _curWorkingThreadCount; // 0x5C
 		::System::Int32 _curPendingCount; // 0x60

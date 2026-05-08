@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_NAMEDWEBCOLORDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1981D600)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_NAMEDWEBCOLORDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19F5F0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int NamedWebColorDictionary_TypeDefinitionIndex = 27971;
+	inline static constexpr unsigned int NamedWebColorDictionary_TypeDefinitionIndex = 28489;
 
 	class NamedWebColorDictionary : public ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>
 	{

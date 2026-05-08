@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralBottomTipsContainerPopWindowControllerContext; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALBOTTOMTIPSCONTAINERPOPWINDOWCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADF1920)
-#define MOLEMOLE_UIGENERALBOTTOMTIPSCONTAINERPOPWINDOWCONTROLLER___C__DISPLAYCLASS4_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xADF1930)
+#define MOLEMOLE_UIGENERALBOTTOMTIPSCONTAINERPOPWINDOWCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F08140)
+#define MOLEMOLE_UIGENERALBOTTOMTIPSCONTAINERPOPWINDOWCONTROLLER___C__DISPLAYCLASS4_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x15F08150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBottomTipsContainerPopWindowController___c__DisplayClass4_0_TypeDefinitionIndex = 41483;
+	inline static constexpr unsigned int UIGeneralBottomTipsContainerPopWindowController___c__DisplayClass4_0_TypeDefinitionIndex = 47902;
 
 	class UIGeneralBottomTipsContainerPopWindowController___c__DisplayClass4_0 : public ::System::Object
 	{

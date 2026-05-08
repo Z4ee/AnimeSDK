@@ -7,8 +7,8 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASK___C__DISPLAYCLASS178_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0CC4C0)
-#define SYSTEM_THREADING_TASKS_TASK___C__DISPLAYCLASS178_0__EXECUTESELFREPLICATING_B__0_OFFSET UNITYSDK_OFFSET(0x1A0CC4D0)
+#define SYSTEM_THREADING_TASKS_TASK___C__DISPLAYCLASS178_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9E430)
+#define SYSTEM_THREADING_TASKS_TASK___C__DISPLAYCLASS178_0__EXECUTESELFREPLICATING_B__0_OFFSET UNITYSDK_OFFSET(0x1AC9E440)
 
 namespace System::Threading::Tasks
 {
@@ -19,9 +19,9 @@ namespace System::Threading::Tasks
 	public:
 		::System::Action_1<::System::Object*>* taskReplicaDelegate; // 0x10
 		::System::Threading::Tasks::Task* root; // 0x18
-		::System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas; // 0x20
-		::System::Boolean replicasAreQuitting; // 0x24
-		::System::Threading::Tasks::TaskCreationOptions creationOptionsForReplicas; // 0x28
+		::System::Threading::Tasks::TaskCreationOptions creationOptionsForReplicas; // 0x20
+		::System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas; // 0x24
+		::System::Boolean replicasAreQuitting; // 0x28
 
 		::System::Void _ctor()
 		{

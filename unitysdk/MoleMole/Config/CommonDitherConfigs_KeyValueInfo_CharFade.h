@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_COMMONDITHERCONFIGS_KEYVALUEINFO_CHARFADE__CTOR_OFFSET UNITYSDK_OFFSET(0xB0936A0)
+#define MOLEMOLE_CONFIG_COMMONDITHERCONFIGS_KEYVALUEINFO_CHARFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x11024540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CommonDitherConfigs_KeyValueInfo_CharFade_TypeDefinitionIndex = 51560;
+	inline static constexpr unsigned int CommonDitherConfigs_KeyValueInfo_CharFade_TypeDefinitionIndex = 81282;
 
 	class CommonDitherConfigs_KeyValueInfo_CharFade : public ::System::Object
 	{

@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
+#include "unitysdk/Foundation/AssetPath.h"
 
-class Class_0_16E4307DCC419505_336;
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_605_TypeDefinitionIndex = 64526;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_605_TypeDefinitionIndex = 60665;
 
 class Class_0_16E4307DCC419505_605
 {

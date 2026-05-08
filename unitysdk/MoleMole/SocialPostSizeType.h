@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SocialPostSizeType_TypeDefinitionIndex = 48315;
+	inline static constexpr unsigned int SocialPostSizeType_TypeDefinitionIndex = 52443;
 
 	enum class SocialPostSizeType : ::System::Int32
 	{
-		Long = 0,
 		EnumCount = 3,
+		Long = 0,
 		Small = 2,
 		Middle = 1,
 	};

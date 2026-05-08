@@ -6,17 +6,17 @@ namespace MoleMole { class GeneralGraphicQualityProfile; }
 namespace MoleMole { class GraphicSettingProfileBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GRAPHICSETTINGPROFILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EBB50)
+#define MOLEMOLE_GRAPHICSETTINGPROFILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15428980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GraphicSettingProfileConfig_TypeDefinitionIndex = 69533;
+	inline static constexpr unsigned int GraphicSettingProfileConfig_TypeDefinitionIndex = 44009;
 
 	class GraphicSettingProfileConfig : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::GraphicSettingProfileBase*>* GraphicSettingProfileList; // 0x10
-		::MoleMole::GeneralGraphicQualityProfile* GeneralGraphicQualitySettingProfile; // 0x18
+		::MoleMole::GeneralGraphicQualityProfile* GeneralGraphicQualitySettingProfile; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::GraphicSettingProfileBase*>* GraphicSettingProfileList; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIAvatarSpecialAwakenContrastDescWidgetControllerContext; }
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTDESCWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB740100)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTDESCWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B56110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastDescWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 48430;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastDescWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 72070;
 
 	class UIAvatarSpecialAwakenContrastDescWidgetController___c__DisplayClass4_0 : public ::System::Object
 	{

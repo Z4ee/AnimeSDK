@@ -6,10 +6,10 @@ namespace MoleMole { class CameraShotData; }
 namespace MoleMole { class UIPerformPageController; }
 namespace System { class Action; }
 
-#define STRUCT_2_7DC5CBD32763D685_METHOD_2_22ADFB11B6D0F5DC_OFFSET UNITYSDK_OFFSET(0x3489A0)
-#define STRUCT_2_7DC5CBD32763D685_METHOD_2_FBF4CA2221A0702E_OFFSET UNITYSDK_OFFSET(0x3488C0)
+#define STRUCT_2_7DC5CBD32763D685_METHOD_2_22ADFB11B6D0F5DC_OFFSET UNITYSDK_OFFSET(0x79DC40)
+#define STRUCT_2_7DC5CBD32763D685_METHOD_2_FBF4CA2221A0702E_OFFSET UNITYSDK_OFFSET(0x79DB80)
 
-inline static constexpr unsigned int Struct_2_7DC5CBD32763D685_TypeDefinitionIndex = 69580;
+inline static constexpr unsigned int Struct_2_7DC5CBD32763D685_TypeDefinitionIndex = 70718;
 
 struct alignas(8) Struct_2_7DC5CBD32763D685
 {

@@ -8,17 +8,17 @@ namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 namespace DG::Tweening::Plugins::Core { template <typename T1, typename T2, typename T3> class ABSTweenPlugin_3; }
 namespace System { class Object; }
 
-#define DG_TWEENING_TWEENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7722E0)
+#define DG_TWEENING_TWEENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5609E0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int Tweener_TypeDefinitionIndex = 24928;
+	inline static constexpr unsigned int Tweener_TypeDefinitionIndex = 25442;
 
 	class Tweener : public ::DG::Tweening::Tween
 	{
 	public:
-		::System::Boolean hasManuallySetStartValue; // 0xF0
-		::System::Boolean isFromAllowed; // 0xF1
+		::System::Boolean isFromAllowed; // 0xF0
+		::System::Boolean hasManuallySetStartValue; // 0xF1
 
 		::System::Void _ctor()
 		{

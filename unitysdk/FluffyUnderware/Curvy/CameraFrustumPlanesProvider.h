@@ -7,33 +7,33 @@
 namespace System { template <typename T> class Lazy_1; }
 namespace UnityEngine { class Camera; }
 
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER_GETFRUSTUMPLANES_OFFSET UNITYSDK_OFFSET(0x1B1EDB70)
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B1EDAF0)
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER_ISCACHEOUTDATED_OFFSET UNITYSDK_OFFSET(0x1B1EE250)
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1EE390)
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1EE340)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER_GETFRUSTUMPLANES_OFFSET UNITYSDK_OFFSET(0x1C0B4640)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C0B45C0)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER_ISCACHEOUTDATED_OFFSET UNITYSDK_OFFSET(0x1C0B4D20)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0B4E80)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0B4E10)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CameraFrustumPlanesProvider_TypeDefinitionIndex = 36632;
+	inline static constexpr unsigned int CameraFrustumPlanesProvider_TypeDefinitionIndex = 37176;
 
 	class CameraFrustumPlanesProvider : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_lockObject()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CameraFrustumPlanesProvider_TypeDefinitionIndex)->GetStaticField(0x26CD0);
-		}
 		static ::System::Lazy_1<::FluffyUnderware::Curvy::CameraFrustumPlanesProvider*>** StaticGet_instance()
 		{
-			return (::System::Lazy_1<::FluffyUnderware::Curvy::CameraFrustumPlanesProvider*>**)Il2CppClass::FromTypeDefinitionIndex(CameraFrustumPlanesProvider_TypeDefinitionIndex)->GetStaticField(0x26CD8);
+			return (::System::Lazy_1<::FluffyUnderware::Curvy::CameraFrustumPlanesProvider*>**)Il2CppClass::FromTypeDefinitionIndex(CameraFrustumPlanesProvider_TypeDefinitionIndex)->GetStaticField(0x27880);
+		}
+		static ::System::Object** StaticGet_lockObject()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CameraFrustumPlanesProvider_TypeDefinitionIndex)->GetStaticField(0x27888);
 		}
 		::Il2CppArray<::UnityEngine::Plane>* cachedPlanes; // 0x10
-		::System::Single cachedFov; // 0x18
-		::System::Int32 cachedPixelWidth; // 0x1C
-		::UnityEngine::Vector3 cachedPosition; // 0x20
-		::System::Int32 cachedPixelHeight; // 0x2C
-		::UnityEngine::Vector3 cachedForward; // 0x30
+		::UnityEngine::Vector3 cachedPosition; // 0x18
+		::System::Single cachedFov; // 0x24
+		::System::Int32 cachedPixelWidth; // 0x28
+		::UnityEngine::Vector3 cachedForward; // 0x2C
+		::System::Int32 cachedPixelHeight; // 0x38
 
 		::System::Void _ctor()
 		{

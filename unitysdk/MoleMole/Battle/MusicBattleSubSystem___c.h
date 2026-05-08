@@ -5,24 +5,24 @@
 namespace MoleMole::Battle { class MusicBattleSubSystem_LevelPressInfo; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE2A4C70)
-#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A4CB0)
-#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__PREDEALTRACKNEW_B__77_0_OFFSET UNITYSDK_OFFSET(0xE2A4CC0)
+#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17429CA0)
+#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17429CE0)
+#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__PREDEALTRACKNEW_B__77_0_OFFSET UNITYSDK_OFFSET(0x17429CF0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MusicBattleSubSystem___c_TypeDefinitionIndex = 46837;
+	inline static constexpr unsigned int MusicBattleSubSystem___c_TypeDefinitionIndex = 62568;
 
 	class MusicBattleSubSystem___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Battle::MusicBattleSubSystem___c** StaticGet___9()
-		{
-			return (::MoleMole::Battle::MusicBattleSubSystem___c**)Il2CppClass::FromTypeDefinitionIndex(MusicBattleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x33BE0);
-		}
 		static ::System::Comparison_1<::MoleMole::Battle::MusicBattleSubSystem_LevelPressInfo*>** StaticGet___9__77_0()
 		{
-			return (::System::Comparison_1<::MoleMole::Battle::MusicBattleSubSystem_LevelPressInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MusicBattleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x33BE8);
+			return (::System::Comparison_1<::MoleMole::Battle::MusicBattleSubSystem_LevelPressInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MusicBattleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x346E0);
+		}
+		static ::MoleMole::Battle::MusicBattleSubSystem___c** StaticGet___9()
+		{
+			return (::MoleMole::Battle::MusicBattleSubSystem___c**)Il2CppClass::FromTypeDefinitionIndex(MusicBattleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x346E8);
 		}
 
 		static ::System::Void _cctor()

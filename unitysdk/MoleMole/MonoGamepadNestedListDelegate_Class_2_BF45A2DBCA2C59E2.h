@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/MonoGamepadNestedListDelegate_Class_1_624E78E79AB144BB.h"
+#include "unitysdk/System/Nullable_1.h"
+
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_CLASS_2_BF45A2DBCA2C59E2_METHOD_2_12F6A5D447DCA6C7_OFFSET UNITYSDK_OFFSET(0x17024D90)
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_CLASS_2_BF45A2DBCA2C59E2_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17024F10)
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_CLASS_2_BF45A2DBCA2C59E2__CTOR_OFFSET UNITYSDK_OFFSET(0x17024F50)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int MonoGamepadNestedListDelegate_Class_2_BF45A2DBCA2C59E2_TypeDefinitionIndex = 56436;
+
+	class MonoGamepadNestedListDelegate_Class_2_BF45A2DBCA2C59E2 : public ::MoleMole::MonoGamepadNestedListDelegate_Class_1_624E78E79AB144BB
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_CLASS_2_BF45A2DBCA2C59E2__CTOR_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Boolean> Method_2_12F6A5D447DCA6C7()
+		{
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_CLASS_2_BF45A2DBCA2C59E2_METHOD_2_12F6A5D447DCA6C7_OFFSET))(this);
+		}
+
+		::System::Void Method_2_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_CLASS_2_BF45A2DBCA2C59E2_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		}
+	};
+}

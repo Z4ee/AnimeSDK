@@ -3,34 +3,34 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_883FBE6CFFAC5DA2;
 class Class_3_AA6DF3A878195D3F;
-class Class_3_F35B080B137ECC46;
+class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_ECE1B0DC22E3457B;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class MonoSteerRVO; }
 
-#define MOLEMOLE_STEERRVOUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8B7A0B0)
-#define MOLEMOLE_STEERRVOUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x8B7A400)
-#define MOLEMOLE_STEERRVOUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8B7A6D0)
-#define MOLEMOLE_STEERRVOUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8B7A730)
-#define MOLEMOLE_STEERRVOUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8B7A780)
-#define MOLEMOLE_STEERRVOUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x8B7A810)
-#define MOLEMOLE_STEERRVOUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8B7A8A0)
+#define MOLEMOLE_STEERRVOUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125F29A0)
+#define MOLEMOLE_STEERRVOUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x125F2CC0)
+#define MOLEMOLE_STEERRVOUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125F30E0)
+#define MOLEMOLE_STEERRVOUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x125F3130)
+#define MOLEMOLE_STEERRVOUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125F31D0)
+#define MOLEMOLE_STEERRVOUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x125F3260)
+#define MOLEMOLE_STEERRVOUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125F32F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SteerRVOUpdate_TypeDefinitionIndex = 71085;
+	inline static constexpr unsigned int SteerRVOUpdate_TypeDefinitionIndex = 78054;
 
 	class SteerRVOUpdate : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Class_3_883FBE6CFFAC5DA2* rvoComponent; // 0x58
-		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x60
-		::MoleMole::Battle::MonoSteerRVO* monoRVO; // 0x68
-		::Class_3_F35B080B137ECC46* modelComponent; // 0x70
-		::MoleMole::Battle::Entity* ownerEntity; // 0x78
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x80
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::MoleMole::Battle::Entity* ownerEntity; // 0x60
+		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x68
+		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x70
+		::Class_3_ECE1B0DC22E3457B* rvoComponent; // 0x78
+		::MoleMole::Battle::MonoSteerRVO* monoRVO; // 0x80
 		::System::Boolean Enable; // 0x88
 
 		::System::Void _ctor()

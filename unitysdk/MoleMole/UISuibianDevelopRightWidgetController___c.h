@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_025FF4981524A424_193;
+class Class_3_025FF4981524A424_170;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA90580)
-#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA905C0)
-#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__ONCLICKBTN_B__34_1_OFFSET UNITYSDK_OFFSET(0xCA905D0)
+#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DBD400)
+#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14DBD440)
+#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__ONCLICKBTN_B__34_1_OFFSET UNITYSDK_OFFSET(0x14DBD450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianDevelopRightWidgetController___c_TypeDefinitionIndex = 72041;
+	inline static constexpr unsigned int UISuibianDevelopRightWidgetController___c_TypeDefinitionIndex = 75263;
 
 	class UISuibianDevelopRightWidgetController___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_3_025FF4981524A424_170*>** StaticGet___9__34_1()
+		{
+			return (::System::Action_1<::Class_3_025FF4981524A424_170*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianDevelopRightWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x380D0);
+		}
 		static ::MoleMole::UISuibianDevelopRightWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianDevelopRightWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianDevelopRightWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37680);
-		}
-		static ::System::Action_1<::Class_3_025FF4981524A424_193*>** StaticGet___9__34_1()
-		{
-			return (::System::Action_1<::Class_3_025FF4981524A424_193*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianDevelopRightWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37688);
+			return (::MoleMole::UISuibianDevelopRightWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianDevelopRightWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x380D8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnClickBtn_b__34_1(::Class_3_025FF4981524A424_193* _)
+		::System::Void _OnClickBtn_b__34_1(::Class_3_025FF4981524A424_170* _)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_193*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__ONCLICKBTN_B__34_1_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_170*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__ONCLICKBTN_B__34_1_OFFSET))(this, _);
 		}
 	};
 }

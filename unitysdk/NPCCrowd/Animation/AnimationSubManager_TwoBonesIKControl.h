@@ -7,11 +7,11 @@
 #include "unitysdk/UnityEngine/NapTransformData.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_TWOBONESIKCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x76D5B70)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_TWOBONESIKCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x115077B0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_TwoBonesIKControl_TypeDefinitionIndex = 59736;
+	inline static constexpr unsigned int AnimationSubManager_TwoBonesIKControl_TypeDefinitionIndex = 70492;
 
 	struct alignas(8) AnimationSubManager_TwoBonesIKControl
 	{

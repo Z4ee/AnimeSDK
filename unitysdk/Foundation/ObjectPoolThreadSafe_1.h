@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class ObjectPoolInstance_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolThreadSafe_1_TypeDefinitionIndex = 7927;
+	inline static constexpr unsigned int ObjectPoolThreadSafe_1_TypeDefinitionIndex = 8247;
 
 	template <typename T>
 	class ObjectPoolThreadSafe_1 : public ::System::Object

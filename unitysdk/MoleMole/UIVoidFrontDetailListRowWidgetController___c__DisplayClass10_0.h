@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_10C1E1662BD0781C_2_Class_1_025C70E19F82BF2F_1;
+class Class_2_10C1E1662BD0781C_2_Class_1_025C70E19F82BF2F_2;
 namespace MoleMole { class UIVoidFrontDetailListRowWidgetController; }
 
-#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABCE540)
-#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONCLICKITEM_B__0_OFFSET UNITYSDK_OFFSET(0xABCE550)
+#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D71EB0)
+#define MOLEMOLE_UIVOIDFRONTDETAILLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONCLICKITEM_B__0_OFFSET UNITYSDK_OFFSET(0x10D71EC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVoidFrontDetailListRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 61643;
+	inline static constexpr unsigned int UIVoidFrontDetailListRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 61053;
 
 	class UIVoidFrontDetailListRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::Class_2_10C1E1662BD0781C_2_Class_1_025C70E19F82BF2F_1* data; // 0x10
+		::Class_2_10C1E1662BD0781C_2_Class_1_025C70E19F82BF2F_2* data; // 0x10
 		::MoleMole::UIVoidFrontDetailListRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()

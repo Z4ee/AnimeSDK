@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SCENEOBJECTAREACHECKDOENABLE_OBECJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD610080)
+#define SCENEOBJECTAREACHECKDOENABLE_OBECJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E291D0)
 
-inline static constexpr unsigned int SceneObjectAreaCheckDoEnable_ObecjConfig_TypeDefinitionIndex = 51903;
+inline static constexpr unsigned int SceneObjectAreaCheckDoEnable_ObecjConfig_TypeDefinitionIndex = 74952;
 
 class SceneObjectAreaCheckDoEnable_ObecjConfig : public ::System::Object
 {

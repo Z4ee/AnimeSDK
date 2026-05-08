@@ -6,7 +6,7 @@ namespace MoleMole::Config { class ConfigHollowCameraShake; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaSingleClickCurveParamsStruct_TypeDefinitionIndex = 73384;
+	inline static constexpr unsigned int CinemaSingleClickCurveParamsStruct_TypeDefinitionIndex = 62183;
 
 	struct alignas(8) CinemaSingleClickCurveParamsStruct
 	{

@@ -5,12 +5,12 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCSTATETREEPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x8625570)
-#define NPCCROWD_ABILITY_NPCSTATETREEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8625930)
+#define NPCCROWD_ABILITY_NPCSTATETREEPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFB53320)
+#define NPCCROWD_ABILITY_NPCSTATETREEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xFB536D0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCStateTreeProcessor_TypeDefinitionIndex = 39109;
+	inline static constexpr unsigned int NPCStateTreeProcessor_TypeDefinitionIndex = 61185;
 
 	class NPCStateTreeProcessor : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 namespace NPCCrowd::AI { class WPPathSetting; }
 
-#define NPCCROWD_AI_PATH_CONTAINS_OFFSET UNITYSDK_OFFSET(0x846D450)
-#define NPCCROWD_AI_PATH__CTOR_OFFSET UNITYSDK_OFFSET(0x846D440)
+#define NPCCROWD_AI_PATH_CONTAINS_OFFSET UNITYSDK_OFFSET(0xF685020)
+#define NPCCROWD_AI_PATH__CTOR_OFFSET UNITYSDK_OFFSET(0xF685010)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int Path_TypeDefinitionIndex = 80578;
+	inline static constexpr unsigned int Path_TypeDefinitionIndex = 40196;
 
 	class Path : public ::System::Object
 	{

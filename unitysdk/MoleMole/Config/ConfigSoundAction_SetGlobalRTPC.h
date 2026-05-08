@@ -3,35 +3,41 @@
 #include "unitysdk/AkCurveInterpolation.h"
 #include "unitysdk/MoleMole/Config/ConfigSoundActionGeneral.h"
 
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_147;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE2CFAC0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_ISMATCH_OFFSET UNITYSDK_OFFSET(0xE2CFE50)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC__CTOR_OFFSET UNITYSDK_OFFSET(0xE2CFF20)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0xE2CFF40)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17455C00)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x17455BC0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_ISMATCH_OFFSET UNITYSDK_OFFSET(0x17455EA0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x17455F60)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x17455FA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_SetGlobalRTPC_TypeDefinitionIndex = 51701;
+	inline static constexpr unsigned int ConfigSoundAction_SetGlobalRTPC_TypeDefinitionIndex = 72543;
 
 	class ConfigSoundAction_SetGlobalRTPC : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
 		::System::String* rtpcName; // 0x20
-		::System::Boolean setDurationOrFadeCurve; // 0x28
-		::System::Single rtpcValue; // 0x2C
-		::System::Int32 valueChangeDuration; // 0x30
-		::AkCurveInterpolation fadeCurve; // 0x34
+		::System::Int32 valueChangeDuration; // 0x28
+		::AkCurveInterpolation fadeCurve; // 0x2C
+		::System::Boolean setDurationOrFadeCurve; // 0x30
+		::System::Single rtpcValue; // 0x34
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_148* context)
+		::System::String* get_InspectorLabel()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_148*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_EXECUTE_OFFSET))(this, context);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_GET_INSPECTORLABEL_OFFSET))(this);
+		}
+
+		::System::Void Execute(::Class_0_16E4307DCC419505_147* context)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETGLOBALRTPC_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_84CEDCEF739506C1_2;
+class Class_2_F8EB4D9464ADCCA1;
 namespace MoleMole { class UIMonsterCardInfoPopWindowController_MonsterInfoExt; }
 
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOOVERALL__CTOR_OFFSET UNITYSDK_OFFSET(0x866A100)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOOVERALL__CTOR_OFFSET UNITYSDK_OFFSET(0x14D4C240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoOverAll_TypeDefinitionIndex = 47518;
+	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoOverAll_TypeDefinitionIndex = 38124;
 
 	class UIMonsterCardInfoPopWindowController_MonsterInfoOverAll : public ::System::Object
 	{
 	public:
-		::Class_2_84CEDCEF739506C1_2* m_cfg; // 0x10
+		::Class_2_F8EB4D9464ADCCA1* m_cfg; // 0x10
 		::MoleMole::UIMonsterCardInfoPopWindowController_MonsterInfoExt* m_extInfo; // 0x18
 
 		::System::Void _ctor()

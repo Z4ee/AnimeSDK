@@ -9,20 +9,20 @@ namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYFEVERANIM_D__55_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x389670)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYFEVERANIM_D__55_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYFEVERANIM_D__55_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x75E460)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__PLAYFEVERANIM_D__55_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__PlayFeverAnim_d__55_TypeDefinitionIndex = 44131;
+	inline static constexpr unsigned int UIRidusGotBooPageController__PlayFeverAnim_d__55_TypeDefinitionIndex = 75552;
 
 	struct alignas(8) UIRidusGotBooPageController__PlayFeverAnim_d__55
 	{
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x10
-		::System::Threading::CancellationToken token; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* _animsList_5__2; // 0x18
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x20
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* _animsList_5__2; // 0x38
+		::System::Threading::CancellationToken token; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Int32 _i_5__3; // 0x44
 

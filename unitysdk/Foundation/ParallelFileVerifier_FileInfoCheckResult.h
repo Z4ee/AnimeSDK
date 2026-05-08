@@ -7,24 +7,24 @@ namespace Foundation { class ExceptionInfo; }
 namespace Foundation { class ParallelFileVerifier_FileResult; }
 namespace System { class String; }
 
-#define FOUNDATION_PARALLELFILEVERIFIER_FILEINFOCHECKRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x6C43530)
+#define FOUNDATION_PARALLELFILEVERIFIER_FILEINFOCHECKRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x13274860)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ParallelFileVerifier_FileInfoCheckResult_TypeDefinitionIndex = 56573;
+	inline static constexpr unsigned int ParallelFileVerifier_FileInfoCheckResult_TypeDefinitionIndex = 62638;
 
 	class ParallelFileVerifier_FileInfoCheckResult : public ::System::Object
 	{
 	public:
-		::Foundation::ParallelFileVerifier_FileResult* PersistNew; // 0x10
-		::Foundation::ExceptionInfo* errorInfo; // 0x18
-		::Foundation::ParallelFileVerifier_FileResult* Streaming; // 0x20
-		::System::String* displayMsg; // 0x28
-		::Foundation::ParallelFileVerifier_FileResult* Persist; // 0x30
-		::Struct_2_DAA84C1CDD754F37 filePickInfo; // 0x38
-		::System::String* errMsg; // 0x80
-		::System::Boolean verifyPass; // 0x88
-		::System::Boolean fileExistInBuildIn; // 0x89
+		::System::String* errMsg; // 0x10
+		::Struct_2_DAA84C1CDD754F37 filePickInfo; // 0x18
+		::System::String* displayMsg; // 0x60
+		::Foundation::ParallelFileVerifier_FileResult* Persist; // 0x68
+		::Foundation::ParallelFileVerifier_FileResult* Streaming; // 0x70
+		::Foundation::ParallelFileVerifier_FileResult* PersistNew; // 0x78
+		::Foundation::ExceptionInfo* errorInfo; // 0x80
+		::System::Boolean fileExistInBuildIn; // 0x88
+		::System::Boolean verifyPass; // 0x89
 
 		::System::Void _ctor(::Struct_2_DAA84C1CDD754F37 filePickInfo)
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_GLOBALIZATION_TEXTINFOTOUPPERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x192ED8A0)
+#define SYSTEM_GLOBALIZATION_TEXTINFOTOUPPERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x199658D0)
 
 namespace System::Globalization
 {
@@ -11,11 +11,11 @@ namespace System::Globalization
 	class TextInfoToUpperData : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_range_24d0_24e9()
+		static ::Il2CppArray<::System::Char>** StaticGet_range_2170_2184()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x450);
 		}
-		static ::Il2CppArray<::System::Char>** StaticGet_range_2170_2184()
+		static ::Il2CppArray<::System::Char>** StaticGet_range_24d0_24e9()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x458);
 		}
@@ -23,7 +23,7 @@ namespace System::Globalization
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x460);
 		}
-		static ::Il2CppArray<::System::Char>** StaticGet_range_a641_a697()
+		static ::Il2CppArray<::System::Char>** StaticGet_range_2d00_2d25()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x468);
 		}
@@ -31,11 +31,11 @@ namespace System::Globalization
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x470);
 		}
-		static ::Il2CppArray<::System::Char>** StaticGet_range_a723_a78c()
+		static ::Il2CppArray<::System::Char>** StaticGet_range_a641_a697()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x478);
 		}
-		static ::Il2CppArray<::System::Char>** StaticGet_range_2d00_2d25()
+		static ::Il2CppArray<::System::Char>** StaticGet_range_a723_a78c()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TextInfoToUpperData_TypeDefinitionIndex)->GetStaticField(0x480);
 		}

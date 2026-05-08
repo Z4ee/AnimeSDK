@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_214;
+class Class_2_208CC9941471731A_843;
 namespace MoleMole { class UIActivityHotPotCombatRowWidgetController; }
 namespace MoleMole { class UIActivityHotPotCombatRowWidgetController_Context; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0xE908CE0)
-#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDBUTTON_B__1_OFFSET UNITYSDK_OFFSET(0xE908E80)
-#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDBUTTON_B__2_OFFSET UNITYSDK_OFFSET(0xE908EC0)
-#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE908CD0)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x11E2C890)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDBUTTON_B__1_OFFSET UNITYSDK_OFFSET(0x11E2CA30)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDBUTTON_B__2_OFFSET UNITYSDK_OFFSET(0x11E2CA70)
+#define MOLEMOLE_UIACTIVITYHOTPOTCOMBATROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E2C880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotCombatRowWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 69388;
+	inline static constexpr unsigned int UIActivityHotPotCombatRowWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 44762;
 
 	class UIActivityHotPotCombatRowWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_214* template_; // 0x10
-		::MoleMole::UIActivityHotPotCombatRowWidgetController_Context* context; // 0x18
+		::MoleMole::UIActivityHotPotCombatRowWidgetController_Context* context; // 0x10
+		::Class_2_208CC9941471731A_843* template_; // 0x18
 		::MoleMole::UIActivityHotPotCombatRowWidgetController* __4__this; // 0x20
 
 		::System::Void _ctor()

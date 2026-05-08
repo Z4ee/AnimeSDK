@@ -8,19 +8,19 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::GalGame { class MainCityChatBranchItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATBRANCHNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x7A698A0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATBRANCHNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x7A69890)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBRANCHNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x12334EC0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBRANCHNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12334EB0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatBranchNode_TypeDefinitionIndex = 58303;
+	inline static constexpr unsigned int MainCityChatBranchNode_TypeDefinitionIndex = 43004;
 
 	class MainCityChatBranchNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::MoleMole::GalGame::MainCityChatBranchItem* Failure; // 0x18
-		::MoleMole::GalGame::MainCityChatBranchItem* Success; // 0x20
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* fromIndexList; // 0x28
+		::MoleMole::GalGame::MainCityChatBranchItem* Success; // 0x18
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* fromIndexList; // 0x20
+		::MoleMole::GalGame::MainCityChatBranchItem* Failure; // 0x28
 
 		::System::Void _ctor()
 		{

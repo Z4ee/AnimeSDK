@@ -17,44 +17,44 @@ namespace UnityEngine::Rendering::Universal { class FXColorCorrection_FxScreenLi
 namespace UnityEngine::Rendering::Universal { class FXColorCorrection_GradientParameter; }
 namespace UnityEngine::Rendering::Universal { class FXColorCorrection_WeatherConfigScriptableObjectParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOLORCORRECTION_GET_WEATHERCONFIGWEIGHT_OFFSET UNITYSDK_OFFSET(0x178033F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOLORCORRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17804910)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOLORCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17803450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOLORCORRECTION_GET_WEATHERCONFIGWEIGHT_OFFSET UNITYSDK_OFFSET(0x19281930)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOLORCORRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x19282E50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOLORCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19281990)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FXColorCorrection_TypeDefinitionIndex = 29348;
+	inline static constexpr unsigned int FXColorCorrection_TypeDefinitionIndex = 29867;
 
 	class FXColorCorrection : public ::UnityEngine::NAPRenderPipeline0::FXColorCorrection_NativeSRP
 	{
 	public:
-		static ::UnityEngine::Gradient** StaticGet_s_TempGradientE()
+		static ::UnityEngine::Gradient** StaticGet_s_TempGradientD()
 		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x22870);
-		}
-		static ::UnityEngine::Gradient** StaticGet_s_TempGradientA()
-		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x22878);
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x233E0);
 		}
 		static ::UnityEngine::Gradient** StaticGet_s_TempGradientC()
 		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x22880);
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x233E8);
 		}
-		static ::UnityEngine::Gradient** StaticGet_s_TempGradientD()
+		static ::UnityEngine::Gradient** StaticGet_s_TempGradientE()
 		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x22888);
-		}
-		static ::UnityEngine::Gradient** StaticGet_s_TempGradientF()
-		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x22890);
-		}
-		static ::UnityEngine::Gradient** StaticGet_s_TempGradientB()
-		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x22898);
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x233F0);
 		}
 		static ::UnityEngine::Gradient** StaticGet_s_TempGradientG()
 		{
-			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x228A0);
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x233F8);
+		}
+		static ::UnityEngine::Gradient** StaticGet_s_TempGradientF()
+		{
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x23400);
+		}
+		static ::UnityEngine::Gradient** StaticGet_s_TempGradientB()
+		{
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x23408);
+		}
+		static ::UnityEngine::Gradient** StaticGet_s_TempGradientA()
+		{
+			return (::UnityEngine::Gradient**)Il2CppClass::FromTypeDefinitionIndex(FXColorCorrection_TypeDefinitionIndex)->GetStaticField(0x23410);
 		}
 		::UnityEngine::NAPRenderPipeline0::BoolParameter* enableCameraClip; // 0x118
 		::UnityEngine::NAPRenderPipeline0::MinFloatParameter* cameraClipDistance; // 0x120

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGLEVELENDCAMERAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xB473080)
+#define MOLEMOLE_CONFIG_CONFIGLEVELENDCAMERAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D24630)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelEndCameraEffect_TypeDefinitionIndex = 62898;
+	inline static constexpr unsigned int ConfigLevelEndCameraEffect_TypeDefinitionIndex = 78274;
 
 	class ConfigLevelEndCameraEffect : public ::System::Object
 	{

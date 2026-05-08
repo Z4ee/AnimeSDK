@@ -3,17 +3,17 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 class Class_1_0D6706375CDAAE8C;
-class Class_2_1F76884FC39FD584;
+class Class_2_134E5210FBBAC6E5;
 class Class_2_35EE3F274435ACD1;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXT_GETPARTITEMDATA_OFFSET UNITYSDK_OFFSET(0xB997FB0)
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXT_ISVALIDTEMPLATE_OFFSET UNITYSDK_OFFSET(0xB997F30)
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB998340)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXT_GETPARTITEMDATA_OFFSET UNITYSDK_OFFSET(0x15B30B80)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXT_ISVALIDTEMPLATE_OFFSET UNITYSDK_OFFSET(0x15B30B20)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B30E60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MechBooItemDialogContext_TypeDefinitionIndex = 44032;
+	inline static constexpr unsigned int MechBooItemDialogContext_TypeDefinitionIndex = 45644;
 
 	class MechBooItemDialogContext : public ::MoleMole::UIControllerContextBase
 	{

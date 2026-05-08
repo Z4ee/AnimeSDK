@@ -8,15 +8,15 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace UnityEngine::UI { class SmoothMaskMaterial_MatEntry; }
 
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1ADDC4C0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1ADDD020)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETALLPARAMS_OFFSET UNITYSDK_OFFSET(0x1ADDCE40)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETPARAMS_OFFSET UNITYSDK_OFFSET(0x1ADDC8B0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADDD250)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1BBD1D00)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1BBD2AB0)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETALLPARAMS_OFFSET UNITYSDK_OFFSET(0x1BBD2850)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETPARAMS_OFFSET UNITYSDK_OFFSET(0x1BBD22A0)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBD2D50)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SmoothMaskMaterial_TypeDefinitionIndex = 8447;
+	inline static constexpr unsigned int SmoothMaskMaterial_TypeDefinitionIndex = 8457;
 
 	class SmoothMaskMaterial : public ::System::Object
 	{
@@ -25,31 +25,15 @@ namespace UnityEngine::UI
 		{
 			return (::System::Collections::Generic::List_1<::UnityEngine::UI::SmoothMaskMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x75C0);
 		}
-		static ::System::Int32* StaticGet__SmoothMaskTransformC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AD0);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskTexture()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AD4);
-		}
 		static ::System::Int32* StaticGet__SmoothMaskTransform()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AD8);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskTransformD()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3ADC);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskFillParams()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AE0);
 		}
-		static ::System::Int32* StaticGet__SmoothMaskInvert()
+		static ::System::Int32* StaticGet__SmoothMaskFillParams()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AE4);
 		}
-		static ::System::Int32* StaticGet__SmoothMaskSoftRanges()
+		static ::System::Int32* StaticGet__SmoothMaskType()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AE8);
 		}
@@ -61,9 +45,25 @@ namespace UnityEngine::UI
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AF0);
 		}
-		static ::System::Int32* StaticGet__SmoothMaskType()
+		static ::System::Int32* StaticGet__SmoothMaskTransformC()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AF4);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskTransformD()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AF8);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskSoftRanges()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3AFC);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskTexture()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3B00);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskInvert()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x3B04);
 		}
 
 		static ::System::Void _cctor()

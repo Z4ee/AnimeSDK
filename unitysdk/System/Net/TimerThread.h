@@ -11,14 +11,14 @@ namespace System::Threading { class AutoResetEvent; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_TIMERTHREAD_CREATEQUEUE_OFFSET UNITYSDK_OFFSET(0x188F73B0)
-#define SYSTEM_NET_TIMERTHREAD_GETORCREATEQUEUE_OFFSET UNITYSDK_OFFSET(0x188F75F0)
-#define SYSTEM_NET_TIMERTHREAD_ISTICKBETWEEN_OFFSET UNITYSDK_OFFSET(0x188F9400)
-#define SYSTEM_NET_TIMERTHREAD_ONDOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x188F94A0)
-#define SYSTEM_NET_TIMERTHREAD_PROD_OFFSET UNITYSDK_OFFSET(0x188F8100)
-#define SYSTEM_NET_TIMERTHREAD_STOPTIMERTHREAD_OFFSET UNITYSDK_OFFSET(0x188F9420)
-#define SYSTEM_NET_TIMERTHREAD_THREADPROC_OFFSET UNITYSDK_OFFSET(0x188F8240)
-#define SYSTEM_NET_TIMERTHREAD__CCTOR_OFFSET UNITYSDK_OFFSET(0x188F7080)
+#define SYSTEM_NET_TIMERTHREAD_CREATEQUEUE_OFFSET UNITYSDK_OFFSET(0x192245B0)
+#define SYSTEM_NET_TIMERTHREAD_GETORCREATEQUEUE_OFFSET UNITYSDK_OFFSET(0x19224850)
+#define SYSTEM_NET_TIMERTHREAD_ISTICKBETWEEN_OFFSET UNITYSDK_OFFSET(0x192268A0)
+#define SYSTEM_NET_TIMERTHREAD_ONDOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x19226990)
+#define SYSTEM_NET_TIMERTHREAD_PROD_OFFSET UNITYSDK_OFFSET(0x19225380)
+#define SYSTEM_NET_TIMERTHREAD_STOPTIMERTHREAD_OFFSET UNITYSDK_OFFSET(0x192268C0)
+#define SYSTEM_NET_TIMERTHREAD_THREADPROC_OFFSET UNITYSDK_OFFSET(0x19225500)
+#define SYSTEM_NET_TIMERTHREAD__CCTOR_OFFSET UNITYSDK_OFFSET(0x19224200)
 
 namespace System::Net
 {
@@ -27,29 +27,29 @@ namespace System::Net
 	class TimerThread : public ::System::Object
 	{
 	public:
-		static ::System::Threading::ManualResetEvent** StaticGet_s_ThreadShutdownEvent()
+		static ::System::Collections::Hashtable** StaticGet_s_QueuesCache()
 		{
-			return (::System::Threading::ManualResetEvent**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37B0);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37B0);
 		}
 		static ::System::Collections::Generic::LinkedList_1<::System::WeakReference*>** StaticGet_s_NewQueues()
 		{
 			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37B8);
 		}
+		static ::System::Threading::AutoResetEvent** StaticGet_s_ThreadReadyEvent()
+		{
+			return (::System::Threading::AutoResetEvent**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37C0);
+		}
 		static ::System::Collections::Generic::LinkedList_1<::System::WeakReference*>** StaticGet_s_Queues()
 		{
-			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37C0);
+			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37C8);
 		}
 		static ::Il2CppArray<::System::Threading::WaitHandle*>** StaticGet_s_ThreadEvents()
 		{
-			return (::Il2CppArray<::System::Threading::WaitHandle*>**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37C8);
+			return (::Il2CppArray<::System::Threading::WaitHandle*>**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37D0);
 		}
-		static ::System::Collections::Hashtable** StaticGet_s_QueuesCache()
+		static ::System::Threading::ManualResetEvent** StaticGet_s_ThreadShutdownEvent()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37D0);
-		}
-		static ::System::Threading::AutoResetEvent** StaticGet_s_ThreadReadyEvent()
-		{
-			return (::System::Threading::AutoResetEvent**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37D8);
+			return (::System::Threading::ManualResetEvent**)Il2CppClass::FromTypeDefinitionIndex(TimerThread_TypeDefinitionIndex)->GetStaticField(0x37D8);
 		}
 		static ::System::Int32* StaticGet_s_CacheScanIteration()
 		{

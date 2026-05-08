@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_121CF606CB7E9CD1_1.h"
 #include "unitysdk/Enum_3_15C568652F4FEFB0.h"
-#include "unitysdk/Enum_3_4B18AA6F2668B8F3_1.h"
 #include "unitysdk/MoleMole/AttackMarkerType.h"
 #include "unitysdk/MoleMole/Config/MusicBattleMarkerNodeType.h"
 #include "unitysdk/System/Object.h"
@@ -9,20 +9,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_NOTE_GET_HASEND_OFFSET UNITYSDK_OFFSET(0x9851400)
-#define MOLEMOLE_NOTE_GET_TIMEOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x98513F0)
-#define MOLEMOLE_NOTE__CTOR_OFFSET UNITYSDK_OFFSET(0x9851420)
+#define MOLEMOLE_NOTE_GET_HASEND_OFFSET UNITYSDK_OFFSET(0x1177F800)
+#define MOLEMOLE_NOTE_GET_TIMEOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x1177F7F0)
+#define MOLEMOLE_NOTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1177F820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Note_TypeDefinitionIndex = 43474;
+	inline static constexpr unsigned int Note_TypeDefinitionIndex = 42041;
 
 	class Note : public ::System::Object
 	{
 	public:
 		::System::String* TrackId; // 0x10
 		::Enum_3_15C568652F4FEFB0 Type; // 0x18
-		::Enum_3_4B18AA6F2668B8F3_1 Direction; // 0x1C
+		::Enum_3_121CF606CB7E9CD1_1 Direction; // 0x1C
 		::System::Double Beat; // 0x20
 		::System::Int32 TimeOffsetMs; // 0x28
 		::System::Double TimeSeconds; // 0x30

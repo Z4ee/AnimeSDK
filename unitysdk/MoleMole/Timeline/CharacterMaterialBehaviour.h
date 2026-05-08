@@ -5,11 +5,11 @@
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_CHARACTERMATERIALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xC26C380)
+#define MOLEMOLE_TIMELINE_CHARACTERMATERIALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16070050)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CharacterMaterialBehaviour_TypeDefinitionIndex = 58855;
+	inline static constexpr unsigned int CharacterMaterialBehaviour_TypeDefinitionIndex = 42448;
 
 	class CharacterMaterialBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -8,12 +8,12 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO_METHOD_1_41A4B09B4BE46737_OFFSET UNITYSDK_OFFSET(0xA681760)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA681740)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO_METHOD_1_BC9384C781C3176A_OFFSET UNITYSDK_OFFSET(0x138940A0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13894050)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int TrackBindInfo_TypeDefinitionIndex = 69628;
+	inline static constexpr unsigned int TrackBindInfo_TypeDefinitionIndex = 60317;
 
 	class TrackBindInfo : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline::TimelineComponent
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_41A4B09B4BE46737(::UnityEngine::Transform* a1, ::UnityEngine::Playables::PlayableDirector* a2, ::UnityEngine::Timeline::TimelineAsset* a3)
+		::System::Void Method_1_BC9384C781C3176A(::UnityEngine::Transform* a1, ::UnityEngine::Playables::PlayableDirector* a2, ::UnityEngine::Timeline::TimelineAsset* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::TimelineAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO_METHOD_1_41A4B09B4BE46737_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::TimelineAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO_METHOD_1_BC9384C781C3176A_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

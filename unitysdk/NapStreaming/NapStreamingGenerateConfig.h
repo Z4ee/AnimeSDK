@@ -10,11 +10,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x76DCD60)
+#define NAPSTREAMING_NAPSTREAMINGGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1150E320)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingGenerateConfig_TypeDefinitionIndex = 38694;
+	inline static constexpr unsigned int NapStreamingGenerateConfig_TypeDefinitionIndex = 77276;
 
 	class NapStreamingGenerateConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

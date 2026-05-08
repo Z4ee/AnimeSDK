@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDNeighborArray_TypeDefinitionIndex = 24330;
+	inline static constexpr unsigned int PBDNeighborArray_TypeDefinitionIndex = 24843;
 
 	struct alignas(8) PBDNeighborArray
 	{

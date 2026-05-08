@@ -3,14 +3,14 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int ENPCCPUAnimatorFlags_TypeDefinitionIndex = 62957;
+	inline static constexpr unsigned int ENPCCPUAnimatorFlags_TypeDefinitionIndex = 49108;
 
 	enum class ENPCCPUAnimatorFlags : ::System::Byte
 	{
-		IsTurning = 0x8,
-		HasAnimation = 0x2,
 		ControllerMask = 0x1,
-		IsMoving = 0x4,
+		IsTurning = 0x8,
 		None = 0x0,
+		IsMoving = 0x4,
+		HasAnimation = 0x2,
 	};
 }

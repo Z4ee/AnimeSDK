@@ -12,7 +12,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_IMeshChannelsCacheTaggingInterface_TypeDefinitionIndex = 83339;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_IMeshChannelsCacheTaggingInterface_TypeDefinitionIndex = 85067;
 
 	class MB3_MeshCombinerSingle_IMeshChannelsCacheTaggingInterface
 	{

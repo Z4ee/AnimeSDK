@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/Config/CampType.h"
 #include "unitysdk/MoleMole/MonoSceneObjectBase.h"
 
-#define MOLEMOLE_MONOENTITY_GET_SUBTEMPLATEID_OFFSET UNITYSDK_OFFSET(0xD0F2160)
-#define MOLEMOLE_MONOENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F22A0)
+#define MOLEMOLE_MONOENTITY_GET_SUBTEMPLATEID_OFFSET UNITYSDK_OFFSET(0x15E4BAB0)
+#define MOLEMOLE_MONOENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x15E4BBD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntity_TypeDefinitionIndex = 63672;
+	inline static constexpr unsigned int MonoEntity_TypeDefinitionIndex = 48899;
 
 	class MonoEntity : public ::MoleMole::MonoSceneObjectBase
 	{

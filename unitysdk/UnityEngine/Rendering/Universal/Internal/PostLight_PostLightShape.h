@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostLight_PostLightShape_TypeDefinitionIndex = 29831;
+	inline static constexpr unsigned int PostLight_PostLightShape_TypeDefinitionIndex = 30359;
 
 	enum class PostLight_PostLightShape : ::System::Int32
 	{

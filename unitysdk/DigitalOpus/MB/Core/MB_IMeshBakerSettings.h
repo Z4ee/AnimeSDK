@@ -10,7 +10,7 @@ namespace DigitalOpus::MB::Core { class IAssignToMeshCustomizer; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_IMeshBakerSettings_TypeDefinitionIndex = 83362;
+	inline static constexpr unsigned int MB_IMeshBakerSettings_TypeDefinitionIndex = 85090;
 
 	class MB_IMeshBakerSettings
 	{

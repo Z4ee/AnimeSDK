@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadNestedListDelegate_Enum_3_EC662404B7549E9E_TypeDefinitionIndex = 50733;
+	inline static constexpr unsigned int MonoGamepadNestedListDelegate_Enum_3_EC662404B7549E9E_TypeDefinitionIndex = 56441;
 
 	enum class MonoGamepadNestedListDelegate_Enum_3_EC662404B7549E9E : ::System::Int32
 	{
-		Bind = 2,
 		None = 0,
 		UnBind = 1,
+		Bind = 2,
 	};
 }

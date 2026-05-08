@@ -13,12 +13,12 @@ namespace UnityEngine::UIElements { class EventDebuggerTrace; }
 namespace UnityEngine::UIElements { class IPanel; }
 namespace UnityEngine::UIElements { class PropagationPaths; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTDEBUGGER_LOGPROPAGATIONPATHS_OFFSET UNITYSDK_OFFSET(0x18E72510)
-#define UNITYENGINE_UIELEMENTS_EVENTDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E73A00)
+#define UNITYENGINE_UIELEMENTS_EVENTDEBUGGER_LOGPROPAGATIONPATHS_OFFSET UNITYSDK_OFFSET(0x197A8020)
+#define UNITYENGINE_UIELEMENTS_EVENTDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x197A94B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDebugger_TypeDefinitionIndex = 24555;
+	inline static constexpr unsigned int EventDebugger_TypeDefinitionIndex = 25069;
 
 	class EventDebugger : public ::System::Object
 	{

@@ -8,8 +8,8 @@ namespace System::Collections { class ArrayList; }
 namespace System::Xml::Serialization { class ObjectMap; }
 namespace System::Xml::Serialization { class SerializationSource; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0477C0)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0477B0)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD75BC0)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD75BB0)
 
 namespace System::Xml::Serialization
 {
@@ -19,11 +19,11 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::Xml::Serialization::ObjectMap* map; // 0x10
-		::System::String* _elementName; // 0x18
+		::System::Collections::ArrayList* relatedMaps; // 0x18
 		::System::String* _namespace; // 0x20
-		::System::Collections::ArrayList* relatedMaps; // 0x28
+		::System::Xml::Serialization::SerializationSource* source; // 0x28
 		::System::String* key; // 0x30
-		::System::Xml::Serialization::SerializationSource* source; // 0x38
+		::System::String* _elementName; // 0x38
 		::System::Xml::Serialization::SerializationFormat format; // 0x40
 
 		::System::Void _ctor()

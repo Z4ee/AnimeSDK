@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelPointType_TypeDefinitionIndex = 50218;
+	inline static constexpr unsigned int LevelPointType_TypeDefinitionIndex = 58343;
 
 	enum class LevelPointType : ::System::Int32
 	{
-		FloorPoint = 1,
 		GroupPoint = 2,
+		FloorPoint = 1,
 		NodePoint = 0,
 	};
 }

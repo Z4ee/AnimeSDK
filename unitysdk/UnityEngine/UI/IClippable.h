@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IClippable_TypeDefinitionIndex = 8337;
+	inline static constexpr unsigned int IClippable_TypeDefinitionIndex = 8347;
 
 	class IClippable
 	{

@@ -3,31 +3,31 @@
 #include "unitysdk/Enum_3_205B03D40B9BD873.h"
 #include "unitysdk/MoleMole/LogicMessageBase.h"
 
-class Class_3_AE02BC8285203464_42;
-class Class_3_E7C36DE372980575;
+class Class_3_06B506F3349584D7;
+class Class_3_AE02BC8285203464_40;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HALLREFRESHSHOWOBJ_CHANGESECTION_OFFSET UNITYSDK_OFFSET(0xA5128D0)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xA5125C0)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xA512950)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0xA512850)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xA5125D0)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ__ONPROCESS_G__CHECKINCAMERA_7_3_OFFSET UNITYSDK_OFFSET(0xA513810)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0xA513BA0)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ_CHANGESECTION_OFFSET UNITYSDK_OFFSET(0x10E20CB0)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x10E209E0)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x10E20D10)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x10E20C50)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x10E209F0)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ__ONPROCESS_G__CHECKINCAMERA_7_3_OFFSET UNITYSDK_OFFSET(0x10E21AA0)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x10E21E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HallRefreshShowObj_TypeDefinitionIndex = 55355;
+	inline static constexpr unsigned int HallRefreshShowObj_TypeDefinitionIndex = 72028;
 
 	class HallRefreshShowObj : public ::MoleMole::LogicMessageBase
 	{
 	public:
-		::Class_3_AE02BC8285203464_42* ntf; // 0x20
+		::Class_3_AE02BC8285203464_40* ntf; // 0x20
 		::System::UInt32 sectionUID; // 0x28
 
-		::System::Void _ctor(::Class_3_AE02BC8285203464_42* ntf, ::Enum_3_205B03D40B9BD873 page)
+		::System::Void _ctor(::Class_3_AE02BC8285203464_40* ntf, ::Enum_3_205B03D40B9BD873 page)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_AE02BC8285203464_42*, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ__CTOR_OFFSET))(this, ntf, page);
+			return ((::System::Void(*)(::PVOID, ::Class_3_AE02BC8285203464_40*, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ__CTOR_OFFSET))(this, ntf, page);
 		}
 
 		::System::Int32 get_Priority()
@@ -40,9 +40,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ_SETMESSAGECONFIG_OFFSET))(this);
 		}
 
-		::System::Void ChangeSection(::Class_3_AE02BC8285203464_42* ntf, ::System::UInt32 sectionUID)
+		::System::Void ChangeSection(::Class_3_AE02BC8285203464_40* ntf, ::System::UInt32 sectionUID)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_AE02BC8285203464_42*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ_CHANGESECTION_OFFSET))(this, ntf, sectionUID);
+			return ((::System::Void(*)(::PVOID, ::Class_3_AE02BC8285203464_40*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ_CHANGESECTION_OFFSET))(this, ntf, sectionUID);
 		}
 
 		::System::Void OnProcess()
@@ -50,9 +50,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ_ONPROCESS_OFFSET))(this);
 		}
 
-		static ::System::Boolean _OnProcess_g__CheckInCamera_7_3(::System::Collections::Generic::List_1<::Class_3_E7C36DE372980575*>* tagList)
+		static ::System::Boolean _OnProcess_g__CheckInCamera_7_3(::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>* tagList)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::Class_3_E7C36DE372980575*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ__ONPROCESS_G__CHECKINCAMERA_7_3_OFFSET))(tagList);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_HALLREFRESHSHOWOBJ__ONPROCESS_G__CHECKINCAMERA_7_3_OFFSET))(tagList);
 		}
 
 		::System::Void __base_SetMessageConfig()

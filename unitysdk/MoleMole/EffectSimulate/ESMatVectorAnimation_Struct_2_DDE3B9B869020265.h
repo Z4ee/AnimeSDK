@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESMatVectorAnimation_Struct_2_DDE3B9B869020265_TypeDefinitionIndex = 67093;
+	inline static constexpr unsigned int ESMatVectorAnimation_Struct_2_DDE3B9B869020265_TypeDefinitionIndex = 69260;
 
 	struct alignas(8) ESMatVectorAnimation_Struct_2_DDE3B9B869020265
 	{

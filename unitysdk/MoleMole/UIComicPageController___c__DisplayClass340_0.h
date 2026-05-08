@@ -6,19 +6,19 @@ namespace MoleMole { class ComicPageData; }
 namespace MoleMole { class UIComicPageController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS340_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDDD90F0)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS340_0__PLAYCURRENTCHAPTER_G__AUDIOLISTMOVENEXT_0_OFFSET UNITYSDK_OFFSET(0xDDD9100)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS340_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EE63D0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS340_0__PLAYCURRENTCHAPTER_G__AUDIOLISTMOVENEXT_0_OFFSET UNITYSDK_OFFSET(0x16EE63E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass340_0_TypeDefinitionIndex = 62550;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass340_0_TypeDefinitionIndex = 40032;
 
 	class UIComicPageController___c__DisplayClass340_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIComicPageController* __4__this; // 0x10
-		::System::Int32 audioFinishTotalCount; // 0x18
-		::System::Int64 tempPageTimeStamp; // 0x20
+		::System::Int64 tempPageTimeStamp; // 0x18
+		::System::Int32 audioFinishTotalCount; // 0x20
 
 		::System::Void _ctor()
 		{

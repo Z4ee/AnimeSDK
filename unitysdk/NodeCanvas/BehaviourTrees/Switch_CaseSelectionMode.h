@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Switch_CaseSelectionMode_TypeDefinitionIndex = 26546;
+	inline static constexpr unsigned int Switch_CaseSelectionMode_TypeDefinitionIndex = 26467;
 
 	enum class Switch_CaseSelectionMode : ::System::Int32
 	{

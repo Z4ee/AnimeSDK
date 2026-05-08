@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace BNative
 {
-	inline static constexpr unsigned int IXDebug_TypeDefinitionIndex = 55492;
+	inline static constexpr unsigned int IXDebug_TypeDefinitionIndex = 72054;
 
 	class IXDebug
 	{

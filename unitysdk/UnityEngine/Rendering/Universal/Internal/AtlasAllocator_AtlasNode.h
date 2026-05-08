@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ATLASALLOCATOR_ATLASNODE_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x17407FB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ATLASALLOCATOR_ATLASNODE_RELEASE_OFFSET UNITYSDK_OFFSET(0x174082B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ATLASALLOCATOR_ATLASNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17407F10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ATLASALLOCATOR_ATLASNODE_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x190AACD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ATLASALLOCATOR_ATLASNODE_RELEASE_OFFSET UNITYSDK_OFFSET(0x190AAFD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_ATLASALLOCATOR_ATLASNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x190AAC30)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int AtlasAllocator_AtlasNode_TypeDefinitionIndex = 30020;
+	inline static constexpr unsigned int AtlasAllocator_AtlasNode_TypeDefinitionIndex = 30549;
 
 	class AtlasAllocator_AtlasNode : public ::System::Object
 	{
 	public:
-		::UnityEngine::Rendering::Universal::Internal::AtlasAllocator_AtlasNode* m_RightChild; // 0x10
-		::UnityEngine::Rendering::Universal::Internal::AtlasAllocator_AtlasNode* m_BottomChild; // 0x18
+		::UnityEngine::Rendering::Universal::Internal::AtlasAllocator_AtlasNode* m_BottomChild; // 0x10
+		::UnityEngine::Rendering::Universal::Internal::AtlasAllocator_AtlasNode* m_RightChild; // 0x18
 		::UnityEngine::Vector4 m_Rect; // 0x20
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::InputSystem { class PlayerInput; }
 
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUTMANAGER_PLAYERLEFTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4CB3E0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUTMANAGER_PLAYERLEFTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38C4C0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerInputManager_PlayerLeftEvent_TypeDefinitionIndex = 28534;
+	inline static constexpr unsigned int PlayerInputManager_PlayerLeftEvent_TypeDefinitionIndex = 29052;
 
 	class PlayerInputManager_PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*>
 	{

@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9AFC630)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9AFC670)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x9AFC680)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF84FD00)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF84FD40)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_WAITINGSLOTMOVETOSLOTTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF84FD50)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c_TypeDefinitionIndex = 70634;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c_TypeDefinitionIndex = 51402;
 
 	class RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c_TypeDefinitionIndex)->GetStaticField(0x44620);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_WaitingSlotMoveToSlotTask___c_TypeDefinitionIndex)->GetStaticField(0x45F40);
 		}
 
 		static ::System::Void _cctor()

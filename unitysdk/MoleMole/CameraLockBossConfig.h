@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERALOCKBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x84EA550)
+#define MOLEMOLE_CAMERALOCKBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xECE7B70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraLockBossConfig_TypeDefinitionIndex = 39902;
+	inline static constexpr unsigned int CameraLockBossConfig_TypeDefinitionIndex = 77976;
 
 	class CameraLockBossConfig : public ::System::Object
 	{

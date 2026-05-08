@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphOwner_DisableAction_TypeDefinitionIndex = 27107;
+	inline static constexpr unsigned int GraphOwner_DisableAction_TypeDefinitionIndex = 27872;
 
 	enum class GraphOwner_DisableAction : ::System::Int32
 	{

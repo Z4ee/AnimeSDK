@@ -5,13 +5,13 @@
 
 namespace MoleMole { class MotionBlurProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_3807E61C224E8F21_OFFSET UNITYSDK_OFFSET(0xB4601F0)
-#define MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_ED15640EAB4A6A99_OFFSET UNITYSDK_OFFSET(0xB460330)
-#define MOLEMOLE_COMMANDLINEMOTIONBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB4602F0)
+#define MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_3807E61C224E8F21_OFFSET UNITYSDK_OFFSET(0x17D0F510)
+#define MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_8478238C93615013_OFFSET UNITYSDK_OFFSET(0x17D0F620)
+#define MOLEMOLE_COMMANDLINEMOTIONBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17D0F5E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineMotionBlur_TypeDefinitionIndex = 72053;
+	inline static constexpr unsigned int CommandLineMotionBlur_TypeDefinitionIndex = 39944;
 
 	class CommandLineMotionBlur : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::MotionBlurProfileContext*, ::MoleMole::CommandLineMotionBlur*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineMotionBlur*(*)(::PVOID, ::MoleMole::MotionBlurProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_3807E61C224E8F21_OFFSET))(this, a1);
 		}
 
-		::MoleMole::MotionBlurProfileContext* Method_2_ED15640EAB4A6A99(::MoleMole::MotionBlurProfileContext* a1)
+		::MoleMole::MotionBlurProfileContext* Method_2_8478238C93615013(::MoleMole::MotionBlurProfileContext* a1)
 		{
-			return ((::MoleMole::MotionBlurProfileContext*(*)(::PVOID, ::MoleMole::MotionBlurProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_ED15640EAB4A6A99_OFFSET))(this, a1);
+			return ((::MoleMole::MotionBlurProfileContext*(*)(::PVOID, ::MoleMole::MotionBlurProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEMOTIONBLUR_METHOD_2_8478238C93615013_OFFSET))(this, a1);
 		}
 	};
 }

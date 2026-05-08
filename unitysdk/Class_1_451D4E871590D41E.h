@@ -4,17 +4,17 @@
 
 namespace MoleMole::Project::Config { class BabelFloorInfoTemplateExt; }
 
-#define CLASS_1_451D4E871590D41E_METHOD_1_80C66335F1B7C73D_OFFSET UNITYSDK_OFFSET(0x16A5BAF0)
-#define CLASS_1_451D4E871590D41E__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5BAE0)
+#define CLASS_1_451D4E871590D41E_METHOD_1_80C66335F1B7C73D_OFFSET UNITYSDK_OFFSET(0x190DE310)
+#define CLASS_1_451D4E871590D41E__CTOR_OFFSET UNITYSDK_OFFSET(0x190DE300)
 
-inline static constexpr unsigned int Class_1_451D4E871590D41E_TypeDefinitionIndex = 9835;
+inline static constexpr unsigned int Class_1_451D4E871590D41E_TypeDefinitionIndex = 10039;
 
 class Class_1_451D4E871590D41E : public ::System::Object
 {
 public:
 	::MoleMole::Project::Config::BabelFloorInfoTemplateExt* Field_1_0; // 0x10
-	::System::Boolean Field_1_3; // 0x18
-	::System::Boolean Field_1_2; // 0x19
+	::System::Boolean Field_1_2; // 0x18
+	::System::Boolean Field_1_3; // 0x19
 	::System::UInt32 Field_1_1; // 0x1C
 
 	::System::Void _ctor(::System::UInt32 a1)

@@ -8,7 +8,7 @@ namespace MoleMole::FlowCanvas::Nodes { class LDWaveMonster; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonster___c__DisplayClass76_0_TypeDefinitionIndex = 51980;
+	inline static constexpr unsigned int LDWaveMonster___c__DisplayClass76_0_TypeDefinitionIndex = 58485;
 
 	struct alignas(8) LDWaveMonster___c__DisplayClass76_0
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_CALCULATEJOB_EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0x1A5EB310)
-#define XFTWEAPON_XWEAPONTRAILJOBMGR_CALCULATEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x930250)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_CALCULATEJOB_EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0x1B1809D0)
+#define XFTWEAPON_XWEAPONTRAILJOBMGR_CALCULATEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x951AD0)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int XWeaponTrailJobMgr_CalculateJob_TypeDefinitionIndex = 37142;
+	inline static constexpr unsigned int XWeaponTrailJobMgr_CalculateJob_TypeDefinitionIndex = 37686;
 
 	struct alignas(1) XWeaponTrailJobMgr_CalculateJob
 	{

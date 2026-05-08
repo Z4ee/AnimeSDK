@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2DCFFE2CB95FCCCE;
+class Class_1_06C40FD353242AA8;
 
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8716710)
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__SETGENERALQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x8716720)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CEFDD0)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__SETGENERALQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x16CEFDE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayTodoListItemWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 63539;
+	inline static constexpr unsigned int UIGoldMiningDayTodoListItemWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 71955;
 
 	class UIGoldMiningDayTodoListItemWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SetGeneralQuest_b__0(::Class_1_2DCFFE2CB95FCCCE* x)
+		::System::Boolean _SetGeneralQuest_b__0(::Class_1_06C40FD353242AA8* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_2DCFFE2CB95FCCCE*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__SETGENERALQUEST_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_06C40FD353242AA8*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGOLDMININGDAYTODOLISTITEMWIDGETCONTROLLER___C__DISPLAYCLASS7_0__SETGENERALQUEST_B__0_OFFSET))(this, x);
 		}
 	};
 }

@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int IMissingRecoverable_TypeDefinitionIndex = 26722;
+	inline static constexpr unsigned int IMissingRecoverable_TypeDefinitionIndex = 27582;
 
 	class IMissingRecoverable
 	{

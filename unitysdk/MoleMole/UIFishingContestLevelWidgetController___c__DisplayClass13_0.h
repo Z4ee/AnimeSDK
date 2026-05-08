@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIFishingContestLevelWidgetController; }
 
-#define MOLEMOLE_UIFISHINGCONTESTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD120BD0)
-#define MOLEMOLE_UIFISHINGCONTESTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xD120BE0)
+#define MOLEMOLE_UIFISHINGCONTESTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC3640)
+#define MOLEMOLE_UIFISHINGCONTESTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x16CC3650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestLevelWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 45769;
+	inline static constexpr unsigned int UIFishingContestLevelWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 66316;
 
 	class UIFishingContestLevelWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{

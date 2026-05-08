@@ -4,10 +4,10 @@
 
 namespace System { class Action; }
 
-#define CALLBACKSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1965CC90)
-#define CALLBACKSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1965CC80)
+#define CALLBACKSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ACFA440)
+#define CALLBACKSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACFA430)
 
-inline static constexpr unsigned int CallbackScope_TypeDefinitionIndex = 28978;
+inline static constexpr unsigned int CallbackScope_TypeDefinitionIndex = 29497;
 
 class CallbackScope : public ::System::Object
 {

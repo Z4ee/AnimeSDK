@@ -8,19 +8,19 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class RenderPipeline; }
 namespace UnityEngine::Rendering { class RenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_ADD_BEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1A3EBE70)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_BEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1A3EC0C0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_BEGINFRAMERENDERING_OFFSET UNITYSDK_OFFSET(0x1A3EC030)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_CLEANUPRENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1A3EC270)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DORENDERLOOP_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A3EC5D0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_ENDCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1A3EC1E0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_ENDFRAMERENDERING_OFFSET UNITYSDK_OFFSET(0x1A3EC150)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GETCAMERAS_OFFSET UNITYSDK_OFFSET(0x1A3EC4A0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1A3EBE00)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_PREPARERENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1A3EC7B0)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_REMOVE_BEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1A3EBF50)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_SET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1A3EBE30)
-#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3ECA10)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_ADD_BEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1B2F5F70)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_BEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1B2F61C0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_BEGINFRAMERENDERING_OFFSET UNITYSDK_OFFSET(0x1B2F6130)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_CLEANUPRENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1B2F6370)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_DORENDERLOOP_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B2F6810)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_ENDCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1B2F62E0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_ENDFRAMERENDERING_OFFSET UNITYSDK_OFFSET(0x1B2F6250)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GETCAMERAS_OFFSET UNITYSDK_OFFSET(0x1B2F66E0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_GET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1B2F5EB0)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_PREPARERENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1B2F6A90)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_REMOVE_BEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1B2F6050)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER_SET_CURRENTPIPELINE_OFFSET UNITYSDK_OFFSET(0x1B2F5F10)
+#define UNITYENGINE_RENDERING_RENDERPIPELINEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2F6E60)
 
 namespace UnityEngine::Rendering
 {
@@ -29,37 +29,37 @@ namespace UnityEngine::Rendering
 	class RenderPipelineManager : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Camera*>** StaticGet_s_Cameras()
+		static ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet_endCameraRendering()
 		{
-			return (::Il2CppArray<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F20);
+			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F20);
 		}
 		static ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>** StaticGet_endFrameRendering()
 		{
 			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F28);
 		}
-		static ::UnityEngine::Rendering::RenderPipelineAsset** StaticGet_s_CurrentPipelineAsset()
+		static ::Il2CppArray<::UnityEngine::Camera*>** StaticGet_s_Cameras()
 		{
-			return (::UnityEngine::Rendering::RenderPipelineAsset**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F30);
-		}
-		static ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>** StaticGet_beginFrameRendering()
-		{
-			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F38);
+			return (::Il2CppArray<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F30);
 		}
 		static ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet_beginCameraRendering()
 		{
-			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F40);
+			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F38);
 		}
-		static ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet_endCameraRendering()
+		static ::UnityEngine::Rendering::RenderPipelineAsset** StaticGet_s_CurrentPipelineAsset()
 		{
-			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F48);
+			return (::UnityEngine::Rendering::RenderPipelineAsset**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F40);
 		}
 		static ::UnityEngine::Rendering::RenderPipeline** StaticGet__currentPipeline_k__BackingField()
 		{
-			return (::UnityEngine::Rendering::RenderPipeline**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F50);
+			return (::UnityEngine::Rendering::RenderPipeline**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F48);
+		}
+		static ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>** StaticGet_beginFrameRendering()
+		{
+			return (::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::Il2CppArray<::UnityEngine::Camera*>*>**)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x4F50);
 		}
 		static ::System::Int32* StaticGet_s_CameraCapacity()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x2570);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderPipelineManager_TypeDefinitionIndex)->GetStaticField(0x2580);
 		}
 
 		static ::System::Void _cctor()

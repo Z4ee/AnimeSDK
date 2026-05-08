@@ -5,34 +5,34 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x896EC40)
-#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__CHECKBEFORECONTINUE_B__8_1_OFFSET UNITYSDK_OFFSET(0x896ECB0)
-#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x896EC80)
-#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__TRYEXIT_B__7_0_OFFSET UNITYSDK_OFFSET(0x896EC90)
-#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__TRYEXIT_B__7_1_OFFSET UNITYSDK_OFFSET(0x896ECA0)
+#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152A0AC0)
+#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__CHECKBEFORECONTINUE_B__8_1_OFFSET UNITYSDK_OFFSET(0x152A0B30)
+#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152A0B00)
+#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__TRYEXIT_B__7_0_OFFSET UNITYSDK_OFFSET(0x152A0B10)
+#define MOLEMOLE_UILEVEL_MPRESULT_POPWINDOWCONTROLLER_EXITMPGAMEPROGRESS___C__TRYEXIT_B__7_1_OFFSET UNITYSDK_OFFSET(0x152A0B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex = 64287;
+	inline static constexpr unsigned int UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex = 43861;
 
 	class UILevel_MpResult_PopWindowController_ExitMpGameProgress___c : public ::System::Object
 	{
 	public:
+		static ::System::Action** StaticGet___9__8_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x45DD0);
+		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__7_1()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x44420);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x45DD8);
 		}
 		static ::MoleMole::UILevel_MpResult_PopWindowController_ExitMpGameProgress___c** StaticGet___9()
 		{
-			return (::MoleMole::UILevel_MpResult_PopWindowController_ExitMpGameProgress___c**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x44428);
-		}
-		static ::System::Action** StaticGet___9__8_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x44430);
+			return (::MoleMole::UILevel_MpResult_PopWindowController_ExitMpGameProgress___c**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x45DE0);
 		}
 		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x44438);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevel_MpResult_PopWindowController_ExitMpGameProgress___c_TypeDefinitionIndex)->GetStaticField(0x45DE8);
 		}
 
 		static ::System::Void _cctor()

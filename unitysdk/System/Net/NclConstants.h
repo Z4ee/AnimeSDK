@@ -4,7 +4,7 @@
 
 namespace System { class Uri; }
 
-#define SYSTEM_NET_NCLCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19385B10)
+#define SYSTEM_NET_NCLCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A256860)
 
 namespace System::Net
 {
@@ -13,9 +13,9 @@ namespace System::Net
 	class NclConstants : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_ChunkTerminator()
+		static ::Il2CppArray<::System::Uri*>** StaticGet_EmptyUriArray()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(NclConstants_TypeDefinitionIndex)->GetStaticField(0x3520);
+			return (::Il2CppArray<::System::Uri*>**)Il2CppClass::FromTypeDefinitionIndex(NclConstants_TypeDefinitionIndex)->GetStaticField(0x3520);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_CRLF()
 		{
@@ -29,9 +29,9 @@ namespace System::Net
 		{
 			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NclConstants_TypeDefinitionIndex)->GetStaticField(0x3538);
 		}
-		static ::Il2CppArray<::System::Uri*>** StaticGet_EmptyUriArray()
+		static ::Il2CppArray<::System::Byte>** StaticGet_ChunkTerminator()
 		{
-			return (::Il2CppArray<::System::Uri*>**)Il2CppClass::FromTypeDefinitionIndex(NclConstants_TypeDefinitionIndex)->GetStaticField(0x3540);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(NclConstants_TypeDefinitionIndex)->GetStaticField(0x3540);
 		}
 
 		static ::System::Void _cctor()

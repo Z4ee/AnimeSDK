@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/CampType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_EQUALS_OFFSET UNITYSDK_OFFSET(0x56A360)
-#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x56A3E0)
+#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7A2B90)
+#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7A2BF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CampTypeConfig_CampTypeCompare_TypeDefinitionIndex = 38598;
+	inline static constexpr unsigned int CampTypeConfig_CampTypeCompare_TypeDefinitionIndex = 65244;
 
 	struct alignas(1) CampTypeConfig_CampTypeCompare
 	{

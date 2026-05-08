@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLOG_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD401B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLOG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD40220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLOG_INVOKE_OFFSET UNITYSDK_OFFSET(0x125B4ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLOG__CTOR_OFFSET UNITYSDK_OFFSET(0x125B4F20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLog_TypeDefinitionIndex = 68367;
+	inline static constexpr unsigned int LDLog_TypeDefinitionIndex = 69555;
 
 	class LDLog : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
 	{

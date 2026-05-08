@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZEASREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A72E550)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZEASREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BBE60)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsSerializeAsReference_TypeDefinitionIndex = 27720;
+	inline static constexpr unsigned int fsSerializeAsReference_TypeDefinitionIndex = 27484;
 
 	class fsSerializeAsReference : public ::System::Attribute
 	{

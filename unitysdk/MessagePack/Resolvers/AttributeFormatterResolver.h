@@ -4,19 +4,19 @@
 
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FF77F0)
-#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF77E0)
+#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADB6370)
+#define MESSAGEPACK_RESOLVERS_ATTRIBUTEFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB6360)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 26533;
+	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 27276;
 
 	class AttributeFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::AttributeFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::AttributeFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(AttributeFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x1FA40);
+			return (::MessagePack::Resolvers::AttributeFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(AttributeFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x20C80);
 		}
 
 		::System::Void _ctor()

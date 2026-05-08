@@ -8,7 +8,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassDrawData_TypeDefinitionIndex = 29708;
+	inline static constexpr unsigned int GPUGrassDrawData_TypeDefinitionIndex = 30236;
 
 	struct alignas(8) GPUGrassDrawData
 	{

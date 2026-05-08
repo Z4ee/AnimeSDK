@@ -8,7 +8,7 @@ namespace Nap::NapECS { class EcsWorld; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentDataAccess_TypeDefinitionIndex = 35201;
+	inline static constexpr unsigned int EcsComponentDataAccess_TypeDefinitionIndex = 35693;
 
 	class EcsComponentDataAccess : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationDefine_LoginFlowClientErrorCode_TypeDefinitionIndex = 18120;
+	inline static constexpr unsigned int NotificationDefine_LoginFlowClientErrorCode_TypeDefinitionIndex = 18458;
 
 	enum class NotificationDefine_LoginFlowClientErrorCode : ::System::Int32
 	{

@@ -4,9 +4,9 @@
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define SCROLLVIEWINITDATAMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xFB143D0)
+#define SCROLLVIEWINITDATAMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5D540)
 
-inline static constexpr unsigned int ScrollViewInitDataMeta_TypeDefinitionIndex = 45201;
+inline static constexpr unsigned int ScrollViewInitDataMeta_TypeDefinitionIndex = 61426;
 
 class ScrollViewInitDataMeta : public ::System::Object
 {

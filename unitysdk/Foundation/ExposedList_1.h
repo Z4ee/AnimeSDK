@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExposedList_1_TypeDefinitionIndex = 7971;
+	inline static constexpr unsigned int ExposedList_1_TypeDefinitionIndex = 8303;
 
 	template <typename T>
 	class ExposedList_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricFogBlitOrder_TypeDefinitionIndex = 29406;
+	inline static constexpr unsigned int VolumetricFogBlitOrder_TypeDefinitionIndex = 29925;
 
 	enum class VolumetricFogBlitOrder : ::System::Int32
 	{

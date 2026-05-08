@@ -7,7 +7,7 @@ namespace System::Data { template <typename T> class RBTree_1; }
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RBTree_1_TreePage_TypeDefinitionIndex = 36507;
+	inline static constexpr unsigned int RBTree_1_TreePage_TypeDefinitionIndex = 37051;
 
 	template <typename K>
 	class RBTree_1_TreePage : public ::System::Object

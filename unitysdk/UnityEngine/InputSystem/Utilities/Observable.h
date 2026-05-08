@@ -10,11 +10,11 @@ namespace System { template <typename T> class IObservable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_OBSERVABLE_FORDEVICE_OFFSET UNITYSDK_OFFSET(0x1A5603B0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_OBSERVABLE_FORDEVICE_OFFSET UNITYSDK_OFFSET(0x1B400D90)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int Observable_TypeDefinitionIndex = 28892;
+	inline static constexpr unsigned int Observable_TypeDefinitionIndex = 29410;
 
 	class Observable : public ::System::Object
 	{

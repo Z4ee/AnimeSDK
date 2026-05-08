@@ -4,12 +4,12 @@
 
 namespace MoleMole { class InLevelMonsterBarrierWidgetControllerBase; }
 
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA028C00)
-#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE___C__DISPLAYCLASS33_0__UPDATEHPSHIELD_B__0_OFFSET UNITYSDK_OFFSET(0xA028C10)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11758CF0)
+#define MOLEMOLE_INLEVELMONSTERBARRIERWIDGETCONTROLLERBASE___C__DISPLAYCLASS33_0__UPDATEHPSHIELD_B__0_OFFSET UNITYSDK_OFFSET(0x11758D00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelMonsterBarrierWidgetControllerBase___c__DisplayClass33_0_TypeDefinitionIndex = 80757;
+	inline static constexpr unsigned int InLevelMonsterBarrierWidgetControllerBase___c__DisplayClass33_0_TypeDefinitionIndex = 65378;
 
 	class InLevelMonsterBarrierWidgetControllerBase___c__DisplayClass33_0 : public ::System::Object
 	{

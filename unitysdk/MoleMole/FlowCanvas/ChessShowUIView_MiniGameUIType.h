@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessShowUIView_MiniGameUIType_TypeDefinitionIndex = 50255;
+	inline static constexpr unsigned int ChessShowUIView_MiniGameUIType_TypeDefinitionIndex = 78962;
 
 	enum class ChessShowUIView_MiniGameUIType : ::System::Int32
 	{

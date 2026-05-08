@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowErosionRowWidgetController_ErosionType_TypeDefinitionIndex = 81180;
+	inline static constexpr unsigned int UIHollowErosionRowWidgetController_ErosionType_TypeDefinitionIndex = 51420;
 
 	enum class UIHollowErosionRowWidgetController_ErosionType : ::System::Int32
 	{
+		Special = 2,
 		Normal = 1,
 		Locked = 0,
-		Special = 2,
 	};
 }

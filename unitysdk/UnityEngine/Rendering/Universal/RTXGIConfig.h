@@ -8,12 +8,12 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurveParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x176765E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17676790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1914B350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1914B500)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXGIConfig_TypeDefinitionIndex = 29458;
+	inline static constexpr unsigned int RTXGIConfig_TypeDefinitionIndex = 29978;
 
 	class RTXGIConfig : public ::System::Object
 	{

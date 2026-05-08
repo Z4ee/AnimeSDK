@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::QuickGraph::Algorithm
 {
-	inline static constexpr unsigned int AlgorithmBase_1_TypeDefinitionIndex = 25283;
+	inline static constexpr unsigned int AlgorithmBase_1_TypeDefinitionIndex = 25535;
 
 	template <typename TGraph>
 	class AlgorithmBase_1 : public ::System::Object

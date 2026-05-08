@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_DELETEDROWINACCESSIBLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD979A0)
-#define SYSTEM_DATA_DELETEDROWINACCESSIBLEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AD97A40)
-#define SYSTEM_DATA_DELETEDROWINACCESSIBLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD97950)
+#define SYSTEM_DATA_DELETEDROWINACCESSIBLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB726E0)
+#define SYSTEM_DATA_DELETEDROWINACCESSIBLEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BB727A0)
+#define SYSTEM_DATA_DELETEDROWINACCESSIBLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB72690)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DeletedRowInaccessibleException_TypeDefinitionIndex = 36415;
+	inline static constexpr unsigned int DeletedRowInaccessibleException_TypeDefinitionIndex = 36959;
 
 	class DeletedRowInaccessibleException : public ::System::Data::DataException
 	{

@@ -18,41 +18,41 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine::AI { class NavMeshObstacle; }
 
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOPOS_OFFSET UNITYSDK_OFFSET(0x6FB0170)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOROT_OFFSET UNITYSDK_OFFSET(0x6FB0420)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GO_OFFSET UNITYSDK_OFFSET(0x6FB0150)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOPOS_OFFSET UNITYSDK_OFFSET(0x6FB02F0)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOROT_OFFSET UNITYSDK_OFFSET(0x6FB0570)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GO_OFFSET UNITYSDK_OFFSET(0x6FB0160)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x6FB0690)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOPOS_OFFSET UNITYSDK_OFFSET(0xEC8EC80)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOROT_OFFSET UNITYSDK_OFFSET(0xEC8F020)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GO_OFFSET UNITYSDK_OFFSET(0xEC8EC60)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOPOS_OFFSET UNITYSDK_OFFSET(0xEC8EE70)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOROT_OFFSET UNITYSDK_OFFSET(0xEC8F1F0)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GO_OFFSET UNITYSDK_OFFSET(0xEC8EC70)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC8F390)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarGOReference_TypeDefinitionIndex = 65161;
+	inline static constexpr unsigned int NPCAvatarGOReference_TypeDefinitionIndex = 70704;
 
 	class NPCAvatarGOReference : public ::System::Object
 	{
 	public:
-		::NPCCrowd::Avatar::NPCAvatarGOReferenceSimpleModelComponentInfo* simpleModelComponentInfo; // 0x10
-		::UnityEngine::GameObject* audioEmitter; // 0x18
-		::MoleMole::MonoFeaturePoint* monoFeaturePointComp; // 0x20
-		::UnityEngine::Collider* collider; // 0x28
-		::UnityEngine::Animator* animator; // 0x30
-		::MoleMole::MonoInteractionPoint* monoInteractionPointComp; // 0x38
-		::UnityEngine::AI::NavMeshObstacle* navObs; // 0x40
-		::MoleMole::MonoItemState* monoItemStateComp; // 0x48
-		::UnityEngine::GameObject* _go; // 0x50
-		::NPCCrowd::Avatar::NPCAvatarGOReferenceShadowProxyComponentInfo* shadowProxyComponentInfo; // 0x58
-		::System::Collections::Generic::List_1<::NPCCrowd::Avatar::NPCAvatarGOReferenceComponentInfo*>* parts; // 0x60
-		::UnityEngine::Rigidbody* rigid; // 0x68
-		::NPCCrowd::NPCMonoDelegate* monoDelegate; // 0x70
-		::System::Single audioLastTriggerTime; // 0x78
-		::UnityEngine::Quaternion bornRot; // 0x7C
-		::System::Int32 shadowProxyMeshIndex; // 0x8C
+		::NPCCrowd::Avatar::NPCAvatarGOReferenceShadowProxyComponentInfo* shadowProxyComponentInfo; // 0x10
+		::UnityEngine::Animator* animator; // 0x18
+		::UnityEngine::GameObject* _go; // 0x20
+		::System::Collections::Generic::List_1<::NPCCrowd::Avatar::NPCAvatarGOReferenceComponentInfo*>* parts; // 0x28
+		::MoleMole::MonoFeaturePoint* monoFeaturePointComp; // 0x30
+		::NPCCrowd::Avatar::NPCAvatarGOReferenceSimpleModelComponentInfo* simpleModelComponentInfo; // 0x38
+		::MoleMole::MonoItemState* monoItemStateComp; // 0x40
+		::UnityEngine::Collider* collider; // 0x48
+		::NPCCrowd::NPCMonoDelegate* monoDelegate; // 0x50
+		::UnityEngine::GameObject* audioEmitter; // 0x58
+		::UnityEngine::Rigidbody* rigid; // 0x60
+		::MoleMole::MonoInteractionPoint* monoInteractionPointComp; // 0x68
+		::UnityEngine::AI::NavMeshObstacle* navObs; // 0x70
+		::System::Int32 shadowProxyMeshIndex; // 0x78
+		::System::Int32 id; // 0x7C
+		::UnityEngine::Quaternion bornRot; // 0x80
 		::UnityEngine::Vector3 bornPosition; // 0x90
-		::System::Int32 id; // 0x9C
-		::System::UInt32 audioLoopEventID; // 0xA0
-		::System::Boolean audioEnableTrigger; // 0xA4
+		::System::Single audioLastTriggerTime; // 0x9C
+		::System::Boolean audioEnableTrigger; // 0xA0
+		::System::UInt32 audioLoopEventID; // 0xA4
 
 		::System::Void _ctor()
 		{

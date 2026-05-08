@@ -4,12 +4,12 @@
 #include "unitysdk/NPCCrowd/AI/CompareCondition.h"
 #include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 
-#define NPCCROWD_AI_BOOLCOMPARECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x846D0D0)
-#define NPCCROWD_AI_BOOLCOMPARECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x846D0C0)
+#define NPCCROWD_AI_BOOLCOMPARECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xF684D10)
+#define NPCCROWD_AI_BOOLCOMPARECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xF684D00)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int BoolCompareCondition_TypeDefinitionIndex = 58519;
+	inline static constexpr unsigned int BoolCompareCondition_TypeDefinitionIndex = 65795;
 
 	class BoolCompareCondition : public ::NPCCrowd::AI::CompareCondition
 	{

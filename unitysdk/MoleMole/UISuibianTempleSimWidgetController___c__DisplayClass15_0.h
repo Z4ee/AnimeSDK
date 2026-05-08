@@ -5,12 +5,12 @@
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUIBIANTEMPLESIMWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7BD96C0)
-#define MOLEMOLE_UISUIBIANTEMPLESIMWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYTEMPLEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x7BD96D0)
+#define MOLEMOLE_UISUIBIANTEMPLESIMWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC6D10)
+#define MOLEMOLE_UISUIBIANTEMPLESIMWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYTEMPLEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xEBC6D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleSimWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 50631;
+	inline static constexpr unsigned int UISuibianTempleSimWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 56773;
 
 	class UISuibianTempleSimWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{

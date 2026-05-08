@@ -4,7 +4,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineClearShot_Pair_TypeDefinitionIndex = 31935;
+	inline static constexpr unsigned int CinemachineClearShot_Pair_TypeDefinitionIndex = 32464;
 
 	struct alignas(4) CinemachineClearShot_Pair
 	{

@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int FNPCCPUAnimatorRuntimeInstanceData_TypeDefinitionIndex = 40064;
+	inline static constexpr unsigned int FNPCCPUAnimatorRuntimeInstanceData_TypeDefinitionIndex = 44076;
 
 	struct alignas(4) FNPCCPUAnimatorRuntimeInstanceData
 	{

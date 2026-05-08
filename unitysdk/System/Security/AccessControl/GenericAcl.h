@@ -7,14 +7,14 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Security::AccessControl { class AceEnumerator; }
 namespace System::Security::AccessControl { class GenericAce; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_COPYTO_OFFSET UNITYSDK_OFFSET(0x19B0A4C0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19B0A6E0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x19B0A4A0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x19B0A4B0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_ICOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x19B0A660)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19B0A730)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B0A450)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0A490)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_COPYTO_OFFSET UNITYSDK_OFFSET(0x1A6C8160)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A6C8380)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1A6C8140)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1A6C8150)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_ICOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1A6C8300)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A6C83D0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6C8110)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C8130)
 
 namespace System::Security::AccessControl
 {
@@ -23,17 +23,17 @@ namespace System::Security::AccessControl
 	class GenericAcl : public ::System::Object
 	{
 	public:
-		static ::System::Byte* StaticGet_AclRevision()
+		static ::System::Int32* StaticGet_MaxBinaryLength()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x110);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x110);
 		}
 		static ::System::Byte* StaticGet_AclRevisionDS()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x111);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x114);
 		}
-		static ::System::Int32* StaticGet_MaxBinaryLength()
+		static ::System::Byte* StaticGet_AclRevision()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x114);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x115);
 		}
 
 		static ::System::Void _cctor()

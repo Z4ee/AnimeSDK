@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_D7E802D2192B688B_1.h"
+#include "unitysdk/Class_1_9B770640315E1C6B_Enum_3_935764EEFE7A9F70.h"
+#include "unitysdk/Class_1_9B770640315E1C6B_Enum_3_993C7FDEAD196818.h"
 
-class Class_1_FD893FD36F6A3A6D_2;
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace MoleMole { class UIWindowController; }
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_162_TypeDefinitionIndex = 55552;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_162_TypeDefinitionIndex = 72309;
 
 class Class_0_16E4307DCC419505_162
 {

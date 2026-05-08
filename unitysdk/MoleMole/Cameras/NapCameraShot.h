@@ -11,13 +11,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define MOLEMOLE_CAMERAS_NAPCAMERASHOT_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8FD780)
-#define MOLEMOLE_CAMERAS_NAPCAMERASHOT_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0xB8FD9B0)
-#define MOLEMOLE_CAMERAS_NAPCAMERASHOT__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FE290)
+#define MOLEMOLE_CAMERAS_NAPCAMERASHOT_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x13988C10)
+#define MOLEMOLE_CAMERAS_NAPCAMERASHOT_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x13988E10)
+#define MOLEMOLE_CAMERAS_NAPCAMERASHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x139896C0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int NapCameraShot_TypeDefinitionIndex = 70041;
+	inline static constexpr unsigned int NapCameraShot_TypeDefinitionIndex = 44173;
 
 	class NapCameraShot : public ::UnityEngine::Playables::PlayableAsset
 	{

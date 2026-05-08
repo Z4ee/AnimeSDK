@@ -5,11 +5,11 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONOLEVELRESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A48A0)
+#define MOLEMOLE_MONOLEVELRESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15B3ECA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelResultInfo_TypeDefinitionIndex = 69454;
+	inline static constexpr unsigned int MonoLevelResultInfo_TypeDefinitionIndex = 44619;
 
 	class MonoLevelResultInfo : public ::UnityEngine::MonoBehaviour
 	{

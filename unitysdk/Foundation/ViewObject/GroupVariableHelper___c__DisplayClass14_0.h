@@ -5,11 +5,11 @@
 class Class_3_3EC97B498E0B85D2;
 namespace Foundation::ViewObject { class GroupVariableHelper; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x804E980)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1401F0C0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper___c__DisplayClass14_0_TypeDefinitionIndex = 41681;
+	inline static constexpr unsigned int GroupVariableHelper___c__DisplayClass14_0_TypeDefinitionIndex = 46021;
 
 	class GroupVariableHelper___c__DisplayClass14_0 : public ::System::Object
 	{

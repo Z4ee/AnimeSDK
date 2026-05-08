@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PropertyType_TypeDefinitionIndex = 66645;
+inline static constexpr unsigned int PropertyType_TypeDefinitionIndex = 78207;
 
 enum class PropertyType : ::System::Int32
 {
 	Avatar = 1,
-	Buddy = 0,
 	Monster = 2,
+	Buddy = 0,
 };

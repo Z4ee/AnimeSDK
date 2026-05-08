@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/Vehicle/VehicleScreenEffect.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_8663075EB5BD170B_Struct_2_F7165D996F513ABC_TypeDefinitionIndex = 58630;
+inline static constexpr unsigned int Class_1_8663075EB5BD170B_Struct_2_F7165D996F513ABC_TypeDefinitionIndex = 58402;
 
 struct alignas(8) Class_1_8663075EB5BD170B_Struct_2_F7165D996F513ABC
 {

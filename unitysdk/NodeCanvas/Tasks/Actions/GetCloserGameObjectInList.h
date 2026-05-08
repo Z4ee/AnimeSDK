@@ -8,19 +8,19 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETCLOSERGAMEOBJECTINLIST_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A65D4F0)
-#define NODECANVAS_TASKS_ACTIONS_GETCLOSERGAMEOBJECTINLIST_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A65D740)
-#define NODECANVAS_TASKS_ACTIONS_GETCLOSERGAMEOBJECTINLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65DAC0)
+#define NODECANVAS_TASKS_ACTIONS_GETCLOSERGAMEOBJECTINLIST_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B423620)
+#define NODECANVAS_TASKS_ACTIONS_GETCLOSERGAMEOBJECTINLIST_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B423870)
+#define NODECANVAS_TASKS_ACTIONS_GETCLOSERGAMEOBJECTINLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B423BF0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetCloserGameObjectInList_TypeDefinitionIndex = 25945;
+	inline static constexpr unsigned int GetCloserGameObjectInList_TypeDefinitionIndex = 26669;
 
 	class GetCloserGameObjectInList : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveAs; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* list; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* list; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveAs; // 0x68
 
 		::System::Void _ctor()
 		{

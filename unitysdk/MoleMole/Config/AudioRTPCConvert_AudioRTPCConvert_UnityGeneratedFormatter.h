@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xACB8370)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xACB8380)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xACB8700)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xACB8970)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xACB8930)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17528890)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x175288A0)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17528C00)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17528E50)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_AUDIORTPCCONVERT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17528E10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex = 80503;
+	inline static constexpr unsigned int AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex = 56422;
 
 	class AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AudioRTPCConvert*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39020);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A260);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AudioRTPCConvert_ConvertType>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AudioRTPCConvert_ConvertType>**)Il2CppClass::FromTypeDefinitionIndex(AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39028);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AudioRTPCConvert_ConvertType>**)Il2CppClass::FromTypeDefinitionIndex(AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A268);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39030);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AudioRTPCConvert_AudioRTPCConvert_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A270);
 		}
 
 		::System::Void _ctor()

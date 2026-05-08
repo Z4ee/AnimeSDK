@@ -3,13 +3,13 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int InLevelChatEntitySlot_TypeDefinitionIndex = 81046;
+	inline static constexpr unsigned int InLevelChatEntitySlot_TypeDefinitionIndex = 70866;
 
 	enum class InLevelChatEntitySlot : ::System::Int32
 	{
-		Slot1 = 0,
 		Slot2 = 1,
-		Slot3 = 2,
 		Slot4 = 3,
+		Slot3 = 2,
+		Slot1 = 0,
 	};
 }

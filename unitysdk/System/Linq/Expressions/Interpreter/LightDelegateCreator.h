@@ -7,10 +7,10 @@ namespace System::Linq::Expressions { class LambdaExpression; }
 namespace System::Linq::Expressions::Interpreter { class Interpreter; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1B36EEE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1B36EED0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1B36EEC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36EEB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1C0725B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1C0725A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1C072590)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C072580)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -19,8 +19,8 @@ namespace System::Linq::Expressions::Interpreter
 	class LightDelegateCreator : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x10
-		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x18
+		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x10
+		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::System::Linq::Expressions::LambdaExpression* lambda)
 		{

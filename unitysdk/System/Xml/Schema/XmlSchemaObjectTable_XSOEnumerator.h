@@ -8,10 +8,10 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1AB59DE0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1AB59F60)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1AB59FD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB59DC0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B99A400)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B99A580)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B99A5F0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B99A3E0)
 
 namespace System::Xml::Schema
 {
@@ -21,11 +21,11 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::XmlSchemaObject* currentValue; // 0x10
-		::System::Xml::XmlQualifiedName* currentKey; // 0x18
-		::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries; // 0x20
-		::System::Int32 currentIndex; // 0x28
+		::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries; // 0x18
+		::System::Xml::XmlQualifiedName* currentKey; // 0x20
+		::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType; // 0x28
 		::System::Int32 size; // 0x2C
-		::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType; // 0x30
+		::System::Int32 currentIndex; // 0x30
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, ::System::Int32 size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType)
 		{

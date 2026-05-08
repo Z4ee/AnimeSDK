@@ -6,18 +6,18 @@
 namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_SUBSCRIBER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B1A1770)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_SUBSCRIBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A17D0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_SUBSCRIBER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C0B2D80)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_SUBSCRIBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0B2DE0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_Subscriber_TypeDefinitionIndex = 28473;
+	inline static constexpr unsigned int InputRemoting_Subscriber_TypeDefinitionIndex = 28991;
 
 	class InputRemoting_Subscriber : public ::System::Object
 	{
 	public:
-		::UnityEngine::InputSystem::InputRemoting* owner; // 0x10
-		::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* observer; // 0x18
+		::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* observer; // 0x10
+		::UnityEngine::InputSystem::InputRemoting* owner; // 0x18
 
 		::System::Void _ctor()
 		{

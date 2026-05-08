@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Interactions
 {
-	inline static constexpr unsigned int MultiTapInteraction_TapPhase_TypeDefinitionIndex = 28853;
+	inline static constexpr unsigned int MultiTapInteraction_TapPhase_TypeDefinitionIndex = 29371;
 
 	enum class MultiTapInteraction_TapPhase : ::System::Int32
 	{

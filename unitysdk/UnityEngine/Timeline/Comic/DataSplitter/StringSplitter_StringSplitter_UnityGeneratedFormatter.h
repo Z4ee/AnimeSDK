@@ -10,22 +10,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Timeline::Comic::DataSplitter { class StringSplitter; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1AC74070)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1AC74080)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1AC74150)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC74240)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC74200)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1BA84610)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1BA84620)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1BA846F0)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA847E0)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_STRINGSPLITTER_STRINGSPLITTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA847A0)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int StringSplitter_StringSplitter_UnityGeneratedFormatter_TypeDefinitionIndex = 30392;
+	inline static constexpr unsigned int StringSplitter_StringSplitter_UnityGeneratedFormatter_TypeDefinitionIndex = 30921;
 
 	class StringSplitter_StringSplitter_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::UnityEngine::Timeline::Comic::DataSplitter::StringSplitter*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(StringSplitter_StringSplitter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x24250);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(StringSplitter_StringSplitter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x24DD0);
 		}
 
 		::System::Void _ctor()

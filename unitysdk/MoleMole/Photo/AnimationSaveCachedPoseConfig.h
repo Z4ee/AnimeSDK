@@ -3,7 +3,7 @@
 #include "unitysdk/Foundation/NativeMemoryRequestHandle.h"
 #include "unitysdk/MoleMole/Photo/NapAnimationJobConfig_1.h"
 #include "unitysdk/Struct_2_ACD0EF80A5330786.h"
-#include "unitysdk/Struct_2_BF5775DA40138049_1.h"
+#include "unitysdk/Struct_2_BF5775DA40138049.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 #include "unitysdk/System/Span_1.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
@@ -14,16 +14,16 @@ namespace MoleMole::Photo { class Skeleton; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_CREATEJOBDATA_OFFSET UNITYSDK_OFFSET(0xD441860)
-#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0xD441850)
-#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0xD441FC0)
-#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD4422C0)
+#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_CREATEJOBDATA_OFFSET UNITYSDK_OFFSET(0x170373F0)
+#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x170373E0)
+#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x17037B20)
+#define MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17037E00)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationSaveCachedPoseConfig_TypeDefinitionIndex = 60818;
+	inline static constexpr unsigned int AnimationSaveCachedPoseConfig_TypeDefinitionIndex = 74895;
 
-	class AnimationSaveCachedPoseConfig : public ::MoleMole::Photo::NapAnimationJobConfig_1<::Struct_2_BF5775DA40138049_1>
+	class AnimationSaveCachedPoseConfig : public ::MoleMole::Photo::NapAnimationJobConfig_1<::Struct_2_BF5775DA40138049>
 	{
 	public:
 		::System::String* cachedPoseName; // 0x10
@@ -38,9 +38,9 @@ namespace MoleMole::Photo
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET))(this);
 		}
 
-		::Struct_2_BF5775DA40138049_1 CreateJobData(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786& context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
+		::Struct_2_BF5775DA40138049 CreateJobData(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786& context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
 		{
-			return ((::Struct_2_BF5775DA40138049_1(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_CREATEJOBDATA_OFFSET))(this, graph, animator, context, memory, variables);
+			return ((::Struct_2_BF5775DA40138049(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONSAVECACHEDPOSECONFIG_CREATEJOBDATA_OFFSET))(this, graph, animator, context, memory, variables);
 		}
 
 		::System::Void RequestMemory(::UnityEngine::Animator* animator, ::MoleMole::Photo::Skeleton* skeleton, ::Foundation::NativeMemoryBuilder* builder, ::System::Span_1<::Foundation::NativeMemoryRequestHandle> output)

@@ -6,7 +6,7 @@ class Class_1_E3019CE6003C7D3C;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MultiTaskNodeHandle_TypeDefinitionIndex = 73404;
+	inline static constexpr unsigned int MultiTaskNodeHandle_TypeDefinitionIndex = 66801;
 
 	struct alignas(8) MultiTaskNodeHandle
 	{

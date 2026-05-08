@@ -6,11 +6,11 @@ class Class_1_794BA983EDDBCFDE_Class_1_40F0860CEB67D2B1;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD28A130)
+#define MOLEMOLE_UIPRIVATEMESSAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x161284D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageContext_TypeDefinitionIndex = 61488;
+	inline static constexpr unsigned int UIPrivateMessageContext_TypeDefinitionIndex = 80813;
 
 	class UIPrivateMessageContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,12 +7,12 @@
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define FLOWCANVAS_NODES_EXTRACTCOLLISION_INVOKE_OFFSET UNITYSDK_OFFSET(0x19FEF0B0)
-#define FLOWCANVAS_NODES_EXTRACTCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEF1B0)
+#define FLOWCANVAS_NODES_EXTRACTCOLLISION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ADADC20)
+#define FLOWCANVAS_NODES_EXTRACTCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADADD70)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractCollision_TypeDefinitionIndex = 26476;
+	inline static constexpr unsigned int ExtractCollision_TypeDefinitionIndex = 27598;
 
 	class ExtractCollision : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::Collision*, ::Il2CppArray<::UnityEngine::ContactPoint>*, ::UnityEngine::ContactPoint, ::UnityEngine::GameObject*, ::UnityEngine::Vector3>
 	{

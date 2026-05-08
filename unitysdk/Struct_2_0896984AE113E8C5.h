@@ -5,10 +5,10 @@
 class Class_1_EBACA96C31DAB7D8;
 namespace UnityEngine { class Material; }
 
-#define STRUCT_2_0896984AE113E8C5_METHOD_2_66E54D9EB6F82BAB_OFFSET UNITYSDK_OFFSET(0x387620)
-#define STRUCT_2_0896984AE113E8C5__CTOR_OFFSET UNITYSDK_OFFSET(0x2EB420)
+#define STRUCT_2_0896984AE113E8C5_METHOD_2_6A99B7B83C9A643A_OFFSET UNITYSDK_OFFSET(0x7226C0)
+#define STRUCT_2_0896984AE113E8C5__CTOR_OFFSET UNITYSDK_OFFSET(0x2FEEC0)
 
-inline static constexpr unsigned int Struct_2_0896984AE113E8C5_TypeDefinitionIndex = 74497;
+inline static constexpr unsigned int Struct_2_0896984AE113E8C5_TypeDefinitionIndex = 75283;
 
 struct alignas(8) Struct_2_0896984AE113E8C5
 {
@@ -20,8 +20,8 @@ struct alignas(8) Struct_2_0896984AE113E8C5
 		return ((::System::Void(*)(::PVOID, ::Class_1_EBACA96C31DAB7D8*, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_0896984AE113E8C5__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_66E54D9EB6F82BAB(::UnityEngine::Material* a1)
+	::System::Void Method_2_6A99B7B83C9A643A(::UnityEngine::Material* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + STRUCT_2_0896984AE113E8C5_METHOD_2_66E54D9EB6F82BAB_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + STRUCT_2_0896984AE113E8C5_METHOD_2_6A99B7B83C9A643A_OFFSET))(this, a1);
 	}
 };

@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryRewardRowChildWindowController_MainStoryRewardRowData_TypeDefinitionIndex = 48861;
+	inline static constexpr unsigned int UIMainStoryRewardRowChildWindowController_MainStoryRewardRowData_TypeDefinitionIndex = 42186;
 
 	struct alignas(4) UIMainStoryRewardRowChildWindowController_MainStoryRewardRowData
 	{

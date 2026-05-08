@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define BABELTOWERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x7025950)
+#define BABELTOWERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16A71A80)
 
-inline static constexpr unsigned int BabelTowerParam_TypeDefinitionIndex = 54869;
+inline static constexpr unsigned int BabelTowerParam_TypeDefinitionIndex = 74691;
 
 class BabelTowerParam : public ::UnityEngine::MonoBehaviour
 {

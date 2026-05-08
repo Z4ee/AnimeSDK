@@ -5,25 +5,25 @@
 namespace MoleMole::Utils { class ITypeErasedCompletionSource; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x954B580)
-#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x954B5B0)
-#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C___CCTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x954B5C0)
-#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C___CCTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x954B670)
+#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE864450)
+#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE864490)
+#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C___CCTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xE8644A0)
+#define MOLEMOLE_UTILS_AUTORESETTASKBASEDEVENTPAYLOAD___C___CCTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0xE864570)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int AutoResetTaskBasedEventPayload___c_TypeDefinitionIndex = 75539;
+	inline static constexpr unsigned int AutoResetTaskBasedEventPayload___c_TypeDefinitionIndex = 51295;
 
 	class AutoResetTaskBasedEventPayload___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::MoleMole::Utils::ITypeErasedCompletionSource*>** StaticGet___9__1_1()
-		{
-			return (::System::Func_1<::MoleMole::Utils::ITypeErasedCompletionSource*>**)Il2CppClass::FromTypeDefinitionIndex(AutoResetTaskBasedEventPayload___c_TypeDefinitionIndex)->GetStaticField(0x40950);
-		}
 		static ::MoleMole::Utils::AutoResetTaskBasedEventPayload___c** StaticGet___9()
 		{
-			return (::MoleMole::Utils::AutoResetTaskBasedEventPayload___c**)Il2CppClass::FromTypeDefinitionIndex(AutoResetTaskBasedEventPayload___c_TypeDefinitionIndex)->GetStaticField(0x40958);
+			return (::MoleMole::Utils::AutoResetTaskBasedEventPayload___c**)Il2CppClass::FromTypeDefinitionIndex(AutoResetTaskBasedEventPayload___c_TypeDefinitionIndex)->GetStaticField(0x40B10);
+		}
+		static ::System::Func_1<::MoleMole::Utils::ITypeErasedCompletionSource*>** StaticGet___9__1_1()
+		{
+			return (::System::Func_1<::MoleMole::Utils::ITypeErasedCompletionSource*>**)Il2CppClass::FromTypeDefinitionIndex(AutoResetTaskBasedEventPayload___c_TypeDefinitionIndex)->GetStaticField(0x40B18);
 		}
 
 		static ::System::Void _cctor()

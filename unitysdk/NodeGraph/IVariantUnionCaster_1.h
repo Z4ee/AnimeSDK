@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int IVariantUnionCaster_1_TypeDefinitionIndex = 53372;
+	inline static constexpr unsigned int IVariantUnionCaster_1_TypeDefinitionIndex = 58043;
 
 	template <typename T>
 	class IVariantUnionCaster_1

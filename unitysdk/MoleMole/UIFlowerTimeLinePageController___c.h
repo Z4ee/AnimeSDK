@@ -8,24 +8,24 @@ class Class_2_D6FEE2A35B0F262A;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9110E80)
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9110EC0)
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__REFRESHFLOWERTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x9110ED0)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A0E220)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A0E260)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__REFRESHFLOWERTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x15A0E270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerTimeLinePageController___c_TypeDefinitionIndex = 50223;
+	inline static constexpr unsigned int UIFlowerTimeLinePageController___c_TypeDefinitionIndex = 51614;
 
 	class UIFlowerTimeLinePageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>, ::System::String*>** StaticGet___9__19_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x431E0);
-		}
 		static ::MoleMole::UIFlowerTimeLinePageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIFlowerTimeLinePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x431E8);
+			return (::MoleMole::UIFlowerTimeLinePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x43910);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>, ::System::String*>** StaticGet___9__19_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x43918);
 		}
 
 		static ::System::Void _cctor()

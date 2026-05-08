@@ -7,12 +7,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT_GETATTACHPOINTBYENTITY_OFFSET UNITYSDK_OFFSET(0x75B07E0)
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x75B0BA0)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT_GETATTACHPOINTBYENTITY_OFFSET UNITYSDK_OFFSET(0x12F9C880)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F9CC20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAttachPoint_TypeDefinitionIndex = 71176;
+	inline static constexpr unsigned int MonoEffectPluginAttachPoint_TypeDefinitionIndex = 64350;
 
 	class MonoEffectPluginAttachPoint : public ::MoleMole::MonoEffectPluginBase
 	{

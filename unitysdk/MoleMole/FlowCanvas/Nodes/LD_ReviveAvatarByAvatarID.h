@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATARBYAVATARID_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5E4750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATARBYAVATARID__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E48E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATARBYAVATARID_INVOKE_OFFSET UNITYSDK_OFFSET(0x15421DA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATARBYAVATARID__CTOR_OFFSET UNITYSDK_OFFSET(0x15421F10)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReviveAvatarByAvatarID_TypeDefinitionIndex = 69123;
+	inline static constexpr unsigned int LD_ReviveAvatarByAvatarID_TypeDefinitionIndex = 48194;
 
 	class LD_ReviveAvatarByAvatarID : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Int32, ::System::Single>
 	{

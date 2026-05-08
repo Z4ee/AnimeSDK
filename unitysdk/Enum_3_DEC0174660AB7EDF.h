@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_DEC0174660AB7EDF_TypeDefinitionIndex = 44318;
+inline static constexpr unsigned int Enum_3_DEC0174660AB7EDF_TypeDefinitionIndex = 65949;
 
 enum class Enum_3_DEC0174660AB7EDF : ::System::Int32
 {
-	ChangeMedal = 1003,
-	InviteToJoinCircle = 1005,
-	SetupBirthday = 1019,
-	CoopBlock = 1024,
-	KickCircleMember = 1010,
 	AddToBlacklist = 1014,
-	TransferCircleOwner = 1011,
-	ChangeCirclePlayerTitle = 1008,
-	ViewDecorationBoard = 1013,
-	ChangeSignature = 1020,
 	ChangeHeadPortrait = 1001,
-	Report = 1015,
-	ToggleCircleManager = 1009,
-	ChangeAgentList = 1021,
-	RemoveFriend = 1007,
-	CheckPlatformProfile = 1017,
-	ViewCollectionCabinet = 1012,
-	ChangeFriendNickName = 1022,
-	AddFriend = 1006,
-	SocialSettings = 1016,
+	SetupBirthday = 1019,
 	ChangeUserName = 1018,
-	ChangeTitle = 1002,
+	SocialSettings = 1016,
+	TransferCircleOwner = 1011,
+	ChangeSignature = 1020,
 	None = 0,
+	AddFriend = 1006,
+	ViewDecorationBoard = 1013,
+	RemoveFriend = 1007,
 	CoopInLevelBlock = 1023,
+	ChangeTitle = 1002,
+	Report = 1015,
+	InviteToJoinCircle = 1005,
 	ChangeBusinessCard = 1004,
+	CoopBlock = 1024,
+	ChangeCirclePlayerTitle = 1008,
+	ViewCollectionCabinet = 1012,
+	ChangeAgentList = 1021,
+	CheckPlatformProfile = 1017,
+	ToggleCircleManager = 1009,
+	ChangeFriendNickName = 1022,
+	ChangeMedal = 1003,
+	KickCircleMember = 1010,
 };

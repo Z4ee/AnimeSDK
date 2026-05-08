@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int TextureWrap_TypeDefinitionIndex = 30770;
+	inline static constexpr unsigned int TextureWrap_TypeDefinitionIndex = 31299;
 
 	enum class TextureWrap : ::System::Int32
 	{

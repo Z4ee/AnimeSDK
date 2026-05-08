@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_VELOCITYBASEDDAMPINGSTATUS_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1ACD98B0)
-#define PIPELINECAMERA_VELOCITYBASEDDAMPINGSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x30B360)
+#define PIPELINECAMERA_VELOCITYBASEDDAMPINGSTATUS_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1B9CE530)
+#define PIPELINECAMERA_VELOCITYBASEDDAMPINGSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x43F560)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int VelocityBasedDampingStatus_TypeDefinitionIndex = 35499;
+	inline static constexpr unsigned int VelocityBasedDampingStatus_TypeDefinitionIndex = 36043;
 
 	struct alignas(4) VelocityBasedDampingStatus
 	{

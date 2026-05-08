@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_63B88169304F33FD_TypeDefinitionIndex = 46884;
+inline static constexpr unsigned int Enum_3_63B88169304F33FD_TypeDefinitionIndex = 76687;
 
 enum class Enum_3_63B88169304F33FD : ::System::Int32
 {
-	CustomParamInOut = 17,
-	DyingReviveIn = 11,
-	NormalInOut = 0,
-	AbyssThirdLoopLocalAvatarOut = 18,
-	AssistQTEIn = 4,
-	CoAttackPartnerIn = 9,
-	DyingReviveOut = 12,
+	AidAttackChainIn = 13,
+	LockBackStageEndInOut = 8,
+	CoAttackOut = 7,
+	QTEInOut = 1,
+	AidAttackInOut = 3,
 	FollowAvatarInOut = 16,
 	DeaInOut = 2,
+	CustomParamInOut = 17,
+	AbyssThirdLoopLocalAvatarOut = 18,
+	AssistQTEOut = 5,
+	AssistQTEIn = 4,
 	AbyssThirdLoopPartnerQTEOut = 20,
-	AidAttackInOut = 3,
-	CoAttackOut = 7,
+	AbyssThirdLoopPartnerQTEIn = 19,
+	MainCharacterInOut = 15,
+	NormalInOut = 0,
+	CoAttackPartnerOut = 10,
+	DyingReviveIn = 11,
 	CoAttackIn = 6,
 	AidAttackChainOut = 14,
-	AbyssThirdLoopPartnerQTEIn = 19,
-	AidAttackChainIn = 13,
-	CoAttackPartnerOut = 10,
-	LockBackStageEndInOut = 8,
-	QTEInOut = 1,
-	MainCharacterInOut = 15,
-	AssistQTEOut = 5,
+	CoAttackPartnerIn = 9,
+	DyingReviveOut = 12,
 };

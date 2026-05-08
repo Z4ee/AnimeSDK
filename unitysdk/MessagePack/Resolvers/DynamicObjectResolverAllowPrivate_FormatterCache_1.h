@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicObjectResolverAllowPrivate_FormatterCache_1_TypeDefinitionIndex = 26983;
+	inline static constexpr unsigned int DynamicObjectResolverAllowPrivate_FormatterCache_1_TypeDefinitionIndex = 27779;
 
 	template <typename T>
 	class DynamicObjectResolverAllowPrivate_FormatterCache_1 : public ::System::Object

@@ -7,11 +7,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_NPCDEVICEPERFORMANCECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x76D9890)
+#define NPCCROWD_NPCDEVICEPERFORMANCECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x1150B690)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCDevicePerformanceConfigSO_TypeDefinitionIndex = 37833;
+	inline static constexpr unsigned int NPCDevicePerformanceConfigSO_TypeDefinitionIndex = 41191;
 
 	class NPCDevicePerformanceConfigSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOUIDOUBLEWEEKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEA42E00)
+#define MONOUIDOUBLEWEEKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13B4CB50)
 
-inline static constexpr unsigned int MonoUIDoubleWeekConfig_TypeDefinitionIndex = 74543;
+inline static constexpr unsigned int MonoUIDoubleWeekConfig_TypeDefinitionIndex = 78033;
 
 class MonoUIDoubleWeekConfig : public ::UnityEngine::MonoBehaviour
 {

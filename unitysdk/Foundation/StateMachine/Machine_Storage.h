@@ -8,12 +8,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x96F740)
-#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x96F710)
+#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99FF90)
+#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x99FF60)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int Machine_Storage_TypeDefinitionIndex = 9103;
+	inline static constexpr unsigned int Machine_Storage_TypeDefinitionIndex = 8929;
 
 	struct alignas(8) Machine_Storage
 	{

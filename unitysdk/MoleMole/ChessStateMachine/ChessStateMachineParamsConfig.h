@@ -5,11 +5,11 @@
 namespace MoleMole::ChessStateMachine { class GlobalParamsConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINEPARAMSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9BA9C60)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINEPARAMSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12D13780)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ChessStateMachineParamsConfig_TypeDefinitionIndex = 71692;
+	inline static constexpr unsigned int ChessStateMachineParamsConfig_TypeDefinitionIndex = 67226;
 
 	class ChessStateMachineParamsConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

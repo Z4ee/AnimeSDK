@@ -4,31 +4,31 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
 class Class_3_AA6DF3A878195D3F;
-class Class_3_F35B080B137ECC46;
+class Class_3_DFD5D1FDB9D2A4AC;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class MonoSteerGather; }
 
-#define MOLEMOLE_STEERGATHERUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8C957D0)
-#define MOLEMOLE_STEERGATHERUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x8C95A60)
-#define MOLEMOLE_STEERGATHERUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8C95D10)
-#define MOLEMOLE_STEERGATHERUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C95D70)
-#define MOLEMOLE_STEERGATHERUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8C95DC0)
-#define MOLEMOLE_STEERGATHERUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x8C95E50)
-#define MOLEMOLE_STEERGATHERUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8C95EE0)
+#define MOLEMOLE_STEERGATHERUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EB6C00)
+#define MOLEMOLE_STEERGATHERUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13EB6E60)
+#define MOLEMOLE_STEERGATHERUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EB7270)
+#define MOLEMOLE_STEERGATHERUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB72C0)
+#define MOLEMOLE_STEERGATHERUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EB7360)
+#define MOLEMOLE_STEERGATHERUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13EB73F0)
+#define MOLEMOLE_STEERGATHERUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EB7480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SteerGatherUpdate_TypeDefinitionIndex = 59903;
+	inline static constexpr unsigned int SteerGatherUpdate_TypeDefinitionIndex = 50138;
 
 	class SteerGatherUpdate : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x58
-		::Class_3_F35B080B137ECC46* modelComponent; // 0x60
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x60
+		::MoleMole::Battle::Entity* ownerEntity; // 0x68
 		::MoleMole::Battle::MonoSteerGather* monoSteer; // 0x70
-		::MoleMole::Battle::Entity* ownerEntity; // 0x78
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x78
 		::System::Boolean Enable; // 0x80
 
 		::System::Void _ctor()

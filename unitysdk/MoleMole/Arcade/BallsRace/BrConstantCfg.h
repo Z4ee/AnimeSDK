@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ARCADE_BALLSRACE_BRCONSTANTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2BE7F0)
+#define MOLEMOLE_ARCADE_BALLSRACE_BRCONSTANTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1E330)
 
 namespace MoleMole::Arcade::BallsRace
 {
-	inline static constexpr unsigned int BrConstantCfg_TypeDefinitionIndex = 81533;
+	inline static constexpr unsigned int BrConstantCfg_TypeDefinitionIndex = 83192;
 
 	class BrConstantCfg : public ::System::Object
 	{

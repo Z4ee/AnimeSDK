@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_5DA2E7556103D5A3_210;
+class Class_1_5DA2E7556103D5A3_343;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UTILS_MONSTERCARDUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x852BE10)
-#define MOLEMOLE_UTILS_MONSTERCARDUTILS___C__DISPLAYCLASS3_0__SORTMONSTERCARD_B__1_OFFSET UNITYSDK_OFFSET(0x852BE20)
+#define MOLEMOLE_UTILS_MONSTERCARDUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1345B180)
+#define MOLEMOLE_UTILS_MONSTERCARDUTILS___C__DISPLAYCLASS3_0__SORTMONSTERCARD_B__1_OFFSET UNITYSDK_OFFSET(0x1345B190)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int MonsterCardUtils___c__DisplayClass3_0_TypeDefinitionIndex = 69818;
+	inline static constexpr unsigned int MonsterCardUtils___c__DisplayClass3_0_TypeDefinitionIndex = 76342;
 
 	class MonsterCardUtils___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Int32, ::Class_1_5DA2E7556103D5A3_210*>* getMonsterGroupByCardFunc; // 0x10
-		::System::Comparison_1<::System::Int32>* __9__1; // 0x18
+		::System::Comparison_1<::System::Int32>* __9__1; // 0x10
+		::System::Func_2<::System::Int32, ::Class_1_5DA2E7556103D5A3_343*>* getMonsterGroupByCardFunc; // 0x18
 
 		::System::Void _ctor()
 		{

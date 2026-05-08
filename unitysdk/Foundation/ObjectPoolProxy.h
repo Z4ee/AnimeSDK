@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolProxy_TypeDefinitionIndex = 7889;
+	inline static constexpr unsigned int ObjectPoolProxy_TypeDefinitionIndex = 8281;
 
 	class ObjectPoolProxy
 	{

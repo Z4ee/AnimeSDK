@@ -8,7 +8,7 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_5_973D223FA12E1581_TypeDefinitionIndex = 52959;
+inline static constexpr unsigned int Class_5_973D223FA12E1581_TypeDefinitionIndex = 82008;
 
 template <typename T>
 class Class_5_973D223FA12E1581 : public ::Class_4_99778C2231570468<T>

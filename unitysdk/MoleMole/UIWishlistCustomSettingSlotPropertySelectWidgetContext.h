@@ -4,11 +4,11 @@
 
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLOTPROPERTYSELECTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x99264E0)
+#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLOTPROPERTYSELECTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10A16DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomSettingSlotPropertySelectWidgetContext_TypeDefinitionIndex = 71088;
+	inline static constexpr unsigned int UIWishlistCustomSettingSlotPropertySelectWidgetContext_TypeDefinitionIndex = 59224;
 
 	class UIWishlistCustomSettingSlotPropertySelectWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

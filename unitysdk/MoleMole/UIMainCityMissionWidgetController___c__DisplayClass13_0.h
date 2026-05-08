@@ -5,22 +5,22 @@
 namespace MoleMole { class UIMainCityMissionWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE2AE30)
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYQUESTTRACKSWITCHANIM_B__0_OFFSET UNITYSDK_OFFSET(0xBE2AE40)
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYQUESTTRACKSWITCHANIM_B__1_OFFSET UNITYSDK_OFFSET(0xBE2B0F0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4E680)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYQUESTTRACKSWITCHANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15C4E690)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS13_0__PLAYQUESTTRACKSWITCHANIM_B__1_OFFSET UNITYSDK_OFFSET(0x15C4E8F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 53704;
+	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 52944;
 
 	class UIMainCityMissionWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
+		::MoleMole::UIMainCityMissionWidgetController* __4__this; // 0x10
 		::System::Action* callback; // 0x18
-		::MoleMole::UIMainCityMissionWidgetController* __4__this; // 0x20
-		::System::Boolean playSound; // 0x28
-		::System::Int32 questId; // 0x2C
+		::System::Action* __9__1; // 0x20
+		::System::Int32 questId; // 0x28
+		::System::Boolean playSound; // 0x2C
 
 		::System::Void _ctor()
 		{

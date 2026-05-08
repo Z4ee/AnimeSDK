@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_PATHFINDINGGRAPH_PATHFINDINGNODE_FPATHFINDINGNODECACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x2F3EF0)
+#define NPCCROWD_AI_PATHFINDINGGRAPH_PATHFINDINGNODE_FPATHFINDINGNODECACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x50AB00)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathFindingGraph_PathFindingNode_FPathFindingNodeCache_TypeDefinitionIndex = 57150;
+	inline static constexpr unsigned int PathFindingGraph_PathFindingNode_FPathFindingNodeCache_TypeDefinitionIndex = 47987;
 
 	struct alignas(4) PathFindingGraph_PathFindingNode_FPathFindingNodeCache
 	{

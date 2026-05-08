@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_GZIP_GZIPCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B752D10)
+#define ICSHARPCODE_SHARPZIPLIB_GZIP_GZIPCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5305F0)
 
 namespace ICSharpCode::SharpZipLib::GZip
 {

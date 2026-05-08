@@ -6,15 +6,15 @@ namespace Sirenix::Utilities { class GUILayoutOptions_GUILayoutOptionsInstance; 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GUILayoutOption; }
 
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_EXPANDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1AEC3220)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_EXPANDWIDTH_OFFSET UNITYSDK_OFFSET(0x1AEC3300)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1AEC2EB0)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1AEC2F60)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1AEC3010)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0x1AEC3170)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MINWIDTH_OFFSET UNITYSDK_OFFSET(0x1AEC30C0)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_WIDTH_OFFSET UNITYSDK_OFFSET(0x1AEC2DF0)
-#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEC2C20)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_EXPANDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BAD3D10)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_EXPANDWIDTH_OFFSET UNITYSDK_OFFSET(0x1BAD3DF0)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1BAD39A0)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BAD3A50)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1BAD3B00)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BAD3C60)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_MINWIDTH_OFFSET UNITYSDK_OFFSET(0x1BAD3BB0)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS_WIDTH_OFFSET UNITYSDK_OFFSET(0x1BAD38E0)
+#define SIRENIX_UTILITIES_GUILAYOUTOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAD3710)
 
 namespace Sirenix::Utilities
 {
@@ -27,17 +27,17 @@ namespace Sirenix::Utilities
 		{
 			return (::Il2CppArray<::Sirenix::Utilities::GUILayoutOptions_GUILayoutOptionsInstance*>**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x5940);
 		}
-		static ::Il2CppArray<::UnityEngine::GUILayoutOption*>** StaticGet_EmptyGUIOptions()
-		{
-			return (::Il2CppArray<::UnityEngine::GUILayoutOption*>**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x5948);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::Sirenix::Utilities::GUILayoutOptions_GUILayoutOptionsInstance*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*>** StaticGet_GUILayoutOptionsCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::Sirenix::Utilities::GUILayoutOptions_GUILayoutOptionsInstance*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*>**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x5950);
+			return (::System::Collections::Generic::Dictionary_2<::Sirenix::Utilities::GUILayoutOptions_GUILayoutOptionsInstance*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*>**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x5948);
+		}
+		static ::Il2CppArray<::UnityEngine::GUILayoutOption*>** StaticGet_EmptyGUIOptions()
+		{
+			return (::Il2CppArray<::UnityEngine::GUILayoutOption*>**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x5950);
 		}
 		static ::System::Int32* StaticGet_CurrentCacheIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x2FB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUILayoutOptions_TypeDefinitionIndex)->GetStaticField(0x2FC0);
 		}
 
 		static ::System::Void _cctor()

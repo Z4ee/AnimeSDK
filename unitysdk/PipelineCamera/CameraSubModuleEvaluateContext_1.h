@@ -9,7 +9,7 @@ namespace PipelineCamera { class ICameraCollectContext; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraSubModuleEvaluateContext_1_TypeDefinitionIndex = 35439;
+	inline static constexpr unsigned int CameraSubModuleEvaluateContext_1_TypeDefinitionIndex = 35983;
 
 	template <typename T>
 	struct CameraSubModuleEvaluateContext_1

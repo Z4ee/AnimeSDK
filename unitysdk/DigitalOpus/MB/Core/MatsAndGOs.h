@@ -6,11 +6,11 @@ namespace DigitalOpus::MB::Core { class MatAndTransformToMerged; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MATSANDGOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF26CB0)
+#define DIGITALOPUS_MB_CORE_MATSANDGOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE03FB0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MatsAndGOs_TypeDefinitionIndex = 83400;
+	inline static constexpr unsigned int MatsAndGOs_TypeDefinitionIndex = 85128;
 
 	class MatsAndGOs : public ::System::Object
 	{

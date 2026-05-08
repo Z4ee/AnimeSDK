@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0x98DD60)
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B19E4B0)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0x9C1930)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0AFE50)
 
 namespace UnityEngine::InputSystem::DualShock
 {
-	inline static constexpr unsigned int DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex = 28649;
+	inline static constexpr unsigned int DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex = 29167;
 
 	struct alignas(1) DualSenseGamepadHID_DualSenseHIDMinimalInputReport
 	{
-		static ::System::Int32* StaticGet_ExpectedSize2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x4C80);
-		}
 		static ::System::Int32* StaticGet_ExpectedSize1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x4C84);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x4CA0);
+		}
+		static ::System::Int32* StaticGet_ExpectedSize2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x4CA4);
 		}
 		::System::Byte reportId; // 0x10
 		::System::Byte leftStickX; // 0x11

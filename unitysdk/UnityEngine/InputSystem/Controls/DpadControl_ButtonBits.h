@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Controls
 {
-	inline static constexpr unsigned int DpadControl_ButtonBits_TypeDefinitionIndex = 28841;
+	inline static constexpr unsigned int DpadControl_ButtonBits_TypeDefinitionIndex = 29359;
 
 	enum class DpadControl_ButtonBits : ::System::Int32
 	{

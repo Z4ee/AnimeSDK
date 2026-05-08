@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define NODECANVAS_FRAMEWORK_CANVASGROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A830520)
-#define NODECANVAS_FRAMEWORK_CANVASGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A830510)
+#define NODECANVAS_FRAMEWORK_CANVASGROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B7E9300)
+#define NODECANVAS_FRAMEWORK_CANVASGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E92F0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int CanvasGroup_TypeDefinitionIndex = 26587;
+	inline static constexpr unsigned int CanvasGroup_TypeDefinitionIndex = 26765;
 
 	class CanvasGroup : public ::System::Object
 	{

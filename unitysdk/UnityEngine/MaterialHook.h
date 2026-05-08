@@ -15,21 +15,21 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALDISABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1A52EF10)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1A52EEA0)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETCOLOR_OFFSET UNITYSDK_OFFSET(0x1A52E980)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETCONSTANTBUFFER_OFFSET UNITYSDK_OFFSET(0x1A52EC30)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETFLOAT_OFFSET UNITYSDK_OFFSET(0x1A52E900)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETMATRIX_OFFSET UNITYSDK_OFFSET(0x1A52EB90)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1A52ED40)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETSHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1A52EE30)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETSHADERPASSENABLE_OFFSET UNITYSDK_OFFSET(0x1A52EDB0)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETSHADER_OFFSET UNITYSDK_OFFSET(0x1A52EF80)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETTEXTURESCALEANDOFFSET_OFFSET UNITYSDK_OFFSET(0x1A52EB00)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A52EA80)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x1A52ECC0)
-#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETVECTOR_OFFSET UNITYSDK_OFFSET(0x1A52EA00)
-#define UNITYENGINE_MATERIALHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A52EFF0)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALDISABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1B3C1C20)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1B3C1BB0)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETCOLOR_OFFSET UNITYSDK_OFFSET(0x1B3C1690)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETCONSTANTBUFFER_OFFSET UNITYSDK_OFFSET(0x1B3C1940)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETFLOAT_OFFSET UNITYSDK_OFFSET(0x1B3C1610)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETMATRIX_OFFSET UNITYSDK_OFFSET(0x1B3C18A0)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1B3C1A50)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETSHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1B3C1B40)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETSHADERPASSENABLE_OFFSET UNITYSDK_OFFSET(0x1B3C1AC0)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETSHADER_OFFSET UNITYSDK_OFFSET(0x1B3C1C90)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETTEXTURESCALEANDOFFSET_OFFSET UNITYSDK_OFFSET(0x1B3C1810)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B3C1790)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x1B3C19D0)
+#define UNITYENGINE_MATERIALHOOK_INVOKE_ONHOOKMATERIALSETVECTOR_OFFSET UNITYSDK_OFFSET(0x1B3C1710)
+#define UNITYENGINE_MATERIALHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C1D00)
 
 namespace UnityEngine
 {
@@ -38,61 +38,61 @@ namespace UnityEngine
 	class MaterialHook : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::UnityEngine::Material*, ::System::String*>** StaticGet_onHookDisableKeyword()
-		{
-			return (::System::Action_2<::UnityEngine::Material*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55B0);
-		}
-		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector4>** StaticGet_onHookSetVector()
-		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55B8);
-		}
-		static ::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector2, ::UnityEngine::Vector2>** StaticGet_onHookSetTextureScaleAndOffset()
-		{
-			return (::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector2, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55C0);
-		}
-		static ::System::Action_2<::UnityEngine::Material*, ::System::String*>** StaticGet_onHookEnableKeyword()
-		{
-			return (::System::Action_2<::UnityEngine::Material*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55C8);
-		}
-		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::Il2CppArray<::UnityEngine::Vector4>*>** StaticGet_onHookSetVectorArray()
-		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::Il2CppArray<::UnityEngine::Vector4>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55D0);
-		}
-		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Color>** StaticGet_onHookSetColor()
-		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55D8);
-		}
 		static ::System::Action_2<::UnityEngine::Material*, ::System::Int32>** StaticGet_onHookSetRenderQueue()
 		{
-			return (::System::Action_2<::UnityEngine::Material*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55E0);
-		}
-		static ::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>** StaticGet_onHookSetConstantBuffer()
-		{
-			return (::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55E8);
-		}
-		static ::System::Action_2<::UnityEngine::Material*, ::Il2CppArray<::System::String*>*>** StaticGet_onHookSetShaderKeywords()
-		{
-			return (::System::Action_2<::UnityEngine::Material*, ::Il2CppArray<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55F0);
-		}
-		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Texture*>** StaticGet_onHookSetTexture()
-		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55F8);
-		}
-		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Single>** StaticGet_onHookSetFloat()
-		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5600);
+			return (::System::Action_2<::UnityEngine::Material*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55B0);
 		}
 		static ::System::Action_2<::UnityEngine::Material*, ::UnityEngine::Shader*>** StaticGet_onHookSetShader()
 		{
-			return (::System::Action_2<::UnityEngine::Material*, ::UnityEngine::Shader*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5608);
+			return (::System::Action_2<::UnityEngine::Material*, ::UnityEngine::Shader*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55B8);
+		}
+		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Texture*>** StaticGet_onHookSetTexture()
+		{
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55C0);
+		}
+		static ::System::Action_2<::UnityEngine::Material*, ::Il2CppArray<::System::String*>*>** StaticGet_onHookSetShaderKeywords()
+		{
+			return (::System::Action_2<::UnityEngine::Material*, ::Il2CppArray<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55C8);
+		}
+		static ::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector2, ::UnityEngine::Vector2>** StaticGet_onHookSetTextureScaleAndOffset()
+		{
+			return (::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector2, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55D0);
+		}
+		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector4>** StaticGet_onHookSetVector()
+		{
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55D8);
 		}
 		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Matrix4x4>** StaticGet_onHookSetMatrix()
 		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5610);
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55E0);
+		}
+		static ::System::Action_2<::UnityEngine::Material*, ::System::String*>** StaticGet_onHookDisableKeyword()
+		{
+			return (::System::Action_2<::UnityEngine::Material*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55E8);
+		}
+		static ::System::Action_2<::UnityEngine::Material*, ::System::String*>** StaticGet_onHookEnableKeyword()
+		{
+			return (::System::Action_2<::UnityEngine::Material*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55F0);
+		}
+		static ::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>** StaticGet_onHookSetConstantBuffer()
+		{
+			return (::System::Action_4<::UnityEngine::Material*, ::System::String*, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x55F8);
 		}
 		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Boolean>** StaticGet_onHookSetShaderPassEnable()
 		{
-			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5618);
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5600);
+		}
+		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Color>** StaticGet_onHookSetColor()
+		{
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5608);
+		}
+		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::Il2CppArray<::UnityEngine::Vector4>*>** StaticGet_onHookSetVectorArray()
+		{
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::Il2CppArray<::UnityEngine::Vector4>*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5610);
+		}
+		static ::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Single>** StaticGet_onHookSetFloat()
+		{
+			return (::System::Action_3<::UnityEngine::Material*, ::System::String*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialHook_TypeDefinitionIndex)->GetStaticField(0x5618);
 		}
 
 		::System::Void _ctor()

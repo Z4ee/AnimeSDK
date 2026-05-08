@@ -3,15 +3,16 @@
 #include "unitysdk/MoleMole/Config/ConfigSoundActionTriggerCondition_ObjectSwitch_Enum_3_5C23B5DA91D5C032.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_147;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9D0EFF0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x9D0F410)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x123137A0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x12313760)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x12313BF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_ObjectSwitch_TypeDefinitionIndex = 63380;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_ObjectSwitch_TypeDefinitionIndex = 53906;
 
 	class ConfigSoundActionTriggerCondition_ObjectSwitch : public ::System::Object
 	{
@@ -26,9 +27,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Evaluate(::Class_0_16E4307DCC419505_148* a1)
+		::System::String* get_InspectorLabel()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_148*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH_EVALUATE_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH_GET_INSPECTORLABEL_OFFSET))(this);
+		}
+
+		::System::Boolean Evaluate(::Class_0_16E4307DCC419505_147* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_OBJECTSWITCH_EVALUATE_OFFSET))(this, a1);
 		}
 	};
 }

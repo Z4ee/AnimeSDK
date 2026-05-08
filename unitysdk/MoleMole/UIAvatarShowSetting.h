@@ -6,18 +6,18 @@ namespace MoleMole { class AvatarShowSetting; }
 namespace MoleMole { class UIAvatarShowType; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIAVATARSHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xADB3D10)
+#define MOLEMOLE_UIAVATARSHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x15ECC640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarShowSetting_TypeDefinitionIndex = 39839;
+	inline static constexpr unsigned int UIAvatarShowSetting_TypeDefinitionIndex = 39941;
 
 	class UIAvatarShowSetting : public ::System::Object
 	{
 	public:
-		::MoleMole::AvatarShowSetting* AvatarShowSetting; // 0x10
+		::System::String* Tips; // 0x10
 		::MoleMole::UIAvatarShowType* AvatarShowType; // 0x18
-		::System::String* Tips; // 0x20
+		::MoleMole::AvatarShowSetting* AvatarShowSetting; // 0x20
 
 		::System::Void _ctor()
 		{

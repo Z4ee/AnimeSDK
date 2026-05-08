@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_507_TypeDefinitionIndex = 54356;
+class MonoUITableScrollV2;
+namespace System { class Object; }
 
-template <typename PromisedT>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_507_TypeDefinitionIndex = 69411;
+
 class Class_0_16E4307DCC419505_507
 {
 public:

@@ -7,24 +7,24 @@ namespace MoleMole { class UITape3DModelController; }
 namespace MoleMole { class UITapesGroup3DModelController_TapeAdsorbField; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER_ARCHIVETAPES__CTOR_OFFSET UNITYSDK_OFFSET(0xDF4DF40)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER_ARCHIVETAPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1340E430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController_ArchiveTapes_TypeDefinitionIndex = 53126;
+	inline static constexpr unsigned int UITapesGroup3DModelController_ArchiveTapes_TypeDefinitionIndex = 46590;
 
 	class UITapesGroup3DModelController_ArchiveTapes : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::MoleMole::UITape3DModelController*, ::System::Int32>* Tape2DataIndex; // 0x10
 		::MoleMole::UITapesGroup3DModelController_TapeAdsorbField* Field; // 0x18
-		::MoleMole::UITape3DModelController* InitCenterTape; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::UITape3DModelController*>* Tapes; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::UITape3DModelController*>* Tapes; // 0x20
+		::MoleMole::UITape3DModelController* InitCenterTape; // 0x28
 		::System::Single CordonLf; // 0x30
-		::UnityEngine::Vector3 TapeBorderWorldRt; // 0x34
-		::UnityEngine::Vector3 TapeBorderWorldLf; // 0x40
-		::UnityEngine::Vector3 TapeShowPositionOffset; // 0x4C
-		::System::Single CordonRt; // 0x58
+		::UnityEngine::Vector3 TapeShowPositionOffset; // 0x34
+		::UnityEngine::Vector3 TapeBorderWorldRt; // 0x40
+		::System::Single CordonRt; // 0x4C
+		::UnityEngine::Vector3 TapeBorderWorldLf; // 0x50
 
 		::System::Void _ctor()
 		{

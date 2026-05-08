@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityHeap_1_LessOrEqual_TypeDefinitionIndex = 25423;
+	inline static constexpr unsigned int PriorityHeap_1_LessOrEqual_TypeDefinitionIndex = 25937;
 
 	template <typename TValue>
 	class PriorityHeap_1_LessOrEqual : public ::System::MulticastDelegate

@@ -15,13 +15,13 @@ namespace MoleMole::GalGame { class TagStringPair; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x7A6C810)
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_POSTSOUNDEVENT_OFFSET UNITYSDK_OFFSET(0x7A6C8B0)
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x7A6C910)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x12337870)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_POSTSOUNDEVENT_OFFSET UNITYSDK_OFFSET(0x123378F0)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x12337930)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TransitionWithActionsCfg_TypeDefinitionIndex = 46707;
+	inline static constexpr unsigned int TransitionWithActionsCfg_TypeDefinitionIndex = 53648;
 
 	class TransitionWithActionsCfg : public ::System::Object
 	{
@@ -66,6 +66,7 @@ namespace MoleMole::GalGame
 		::System::Int32 DayOfWeek; // 0xE8
 		::ProtoScript::TimePeriodType TimePeriod; // 0xEC
 		::System::Boolean IgnoreMidnightLimit; // 0xF0
+		::System::Int32 SetNpcDitherAction; // 0xF4
 
 		::System::Void _ctor()
 		{

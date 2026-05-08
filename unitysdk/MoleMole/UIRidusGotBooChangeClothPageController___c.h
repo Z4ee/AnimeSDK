@@ -4,33 +4,33 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_219;
+class Class_2_208CC9941471731A_694;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96E95D0)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x96E9610)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__GETSCOREBUFFRATIO_B__60_0_OFFSET UNITYSDK_OFFSET(0x96E9650)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__SHOWTAB_B__38_0_OFFSET UNITYSDK_OFFSET(0x96E9620)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x147F0790)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x147F07D0)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__GETSCOREBUFFRATIO_B__60_0_OFFSET UNITYSDK_OFFSET(0x147F0810)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__SHOWTAB_B__38_0_OFFSET UNITYSDK_OFFSET(0x147F07E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex = 68245;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex = 79208;
 
 	class UIRidusGotBooChangeClothPageController___c : public ::System::Object
 	{
 	public:
+		static ::System::Predicate_1<::Class_2_208CC9941471731A_694*>** StaticGet___9__38_0()
+		{
+			return (::System::Predicate_1<::Class_2_208CC9941471731A_694*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex)->GetStaticField(0x439E0);
+		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Enum_3_441CA76566B8E079, ::System::Int32>, ::System::Int32>** StaticGet___9__60_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Enum_3_441CA76566B8E079, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex)->GetStaticField(0x44480);
-		}
-		static ::System::Predicate_1<::Class_2_208CC9941471731A_219*>** StaticGet___9__38_0()
-		{
-			return (::System::Predicate_1<::Class_2_208CC9941471731A_219*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex)->GetStaticField(0x44488);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Enum_3_441CA76566B8E079, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex)->GetStaticField(0x439E8);
 		}
 		static ::MoleMole::UIRidusGotBooChangeClothPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIRidusGotBooChangeClothPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex)->GetStaticField(0x44490);
+			return (::MoleMole::UIRidusGotBooChangeClothPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooChangeClothPageController___c_TypeDefinitionIndex)->GetStaticField(0x439F0);
 		}
 
 		static ::System::Void _cctor()
@@ -43,9 +43,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _ShowTab_b__38_0(::Class_2_208CC9941471731A_219* x)
+		::System::Boolean _ShowTab_b__38_0(::Class_2_208CC9941471731A_694* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_219*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__SHOWTAB_B__38_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_694*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__SHOWTAB_B__38_0_OFFSET))(this, x);
 		}
 
 		::System::Int32 _GetScoreBuffRatio_b__60_0(::System::Collections::Generic::KeyValuePair_2<::Enum_3_441CA76566B8E079, ::System::Int32> x)

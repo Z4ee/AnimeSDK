@@ -6,10 +6,10 @@ namespace MoleMole::Config { class ConfigEntityRunStates; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define RUNSTATEDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB34D0)
-#define RUNSTATEDATA___C__DISPLAYCLASS3_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1ABB3980)
+#define RUNSTATEDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA28740)
+#define RUNSTATEDATA___C__DISPLAYCLASS3_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1AA28C10)
 
-inline static constexpr unsigned int RunStateData___c__DisplayClass3_0_TypeDefinitionIndex = 61024;
+inline static constexpr unsigned int RunStateData___c__DisplayClass3_0_TypeDefinitionIndex = 48511;
 
 class RunStateData___c__DisplayClass3_0 : public ::System::Object
 {

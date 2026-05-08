@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define NPCCROWD_LOD_NPCLODRENDERERITEM_REFRESHMESHNAME_OFFSET UNITYSDK_OFFSET(0x3016E0)
+#define NPCCROWD_LOD_NPCLODRENDERERITEM_REFRESHMESHNAME_OFFSET UNITYSDK_OFFSET(0x656950)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCLODRendererItem_TypeDefinitionIndex = 73385;
+	inline static constexpr unsigned int NPCLODRendererItem_TypeDefinitionIndex = 47241;
 
 	struct alignas(8) NPCLODRendererItem
 	{

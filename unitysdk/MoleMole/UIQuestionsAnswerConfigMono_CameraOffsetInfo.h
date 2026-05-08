@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_CAMERAOFFSETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBE6CC50)
+#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_CAMERAOFFSETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15C92140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerConfigMono_CameraOffsetInfo_TypeDefinitionIndex = 66653;
+	inline static constexpr unsigned int UIQuestionsAnswerConfigMono_CameraOffsetInfo_TypeDefinitionIndex = 51761;
 
 	class UIQuestionsAnswerConfigMono_CameraOffsetInfo : public ::System::Object
 	{

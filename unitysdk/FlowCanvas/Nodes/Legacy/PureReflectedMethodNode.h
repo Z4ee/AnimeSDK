@@ -10,25 +10,25 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_CALLMETHOD_OFFSET UNITYSDK_OFFSET(0x1A47D0E0)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A47C510)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47D510)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_CALLMETHOD_OFFSET UNITYSDK_OFFSET(0x1AFC1850)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1AFC0CE0)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC1CB0)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedMethodNode_TypeDefinitionIndex = 26619;
+	inline static constexpr unsigned int PureReflectedMethodNode_TypeDefinitionIndex = 26589;
 
 	class PureReflectedMethodNode : public ::FlowCanvas::Nodes::Legacy::ReflectedMethodNode
 	{
 	public:
-		::FlowCanvas::ValueInput* instanceInput; // 0x10
-		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* inputs; // 0x18
-		::System::Object* returnValue; // 0x20
-		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* paramsInputs; // 0x28
-		::Il2CppArray<::System::Object*>* args; // 0x30
-		::System::Object* instance; // 0x38
-		::System::Type* paramsArrayType; // 0x40
-		::System::Reflection::MethodInfo* method; // 0x48
+		::System::Object* instance; // 0x10
+		::Il2CppArray<::System::Object*>* args; // 0x18
+		::System::Reflection::MethodInfo* method; // 0x20
+		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* inputs; // 0x28
+		::System::Object* returnValue; // 0x30
+		::System::Type* paramsArrayType; // 0x38
+		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* paramsInputs; // 0x40
+		::FlowCanvas::ValueInput* instanceInput; // 0x48
 
 		::System::Void _ctor()
 		{

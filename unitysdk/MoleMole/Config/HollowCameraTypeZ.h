@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCameraTypeZ_TypeDefinitionIndex = 78849;
+	inline static constexpr unsigned int HollowCameraTypeZ_TypeDefinitionIndex = 41476;
 
 	enum class HollowCameraTypeZ : ::System::Int32
 	{
-		FixedZ = 1,
-		LastZ = 2,
 		DynamicZ = 0,
+		LastZ = 2,
+		FixedZ = 1,
 	};
 }

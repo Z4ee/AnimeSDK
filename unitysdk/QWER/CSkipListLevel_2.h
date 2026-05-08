@@ -6,7 +6,7 @@ namespace QWER { template <typename T1, typename T2> class CSkipListNode_2; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CSkipListLevel_2_TypeDefinitionIndex = 8565;
+	inline static constexpr unsigned int CSkipListLevel_2_TypeDefinitionIndex = 8576;
 
 	template <typename T, typename U>
 	class CSkipListLevel_2 : public ::System::Object

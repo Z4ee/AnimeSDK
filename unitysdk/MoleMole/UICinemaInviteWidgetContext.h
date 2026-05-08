@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UICinemaInvitePageController; }
 
-#define MOLEMOLE_UICINEMAINVITEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xDDD2830)
+#define MOLEMOLE_UICINEMAINVITEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EE0060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaInviteWidgetContext_TypeDefinitionIndex = 72758;
+	inline static constexpr unsigned int UICinemaInviteWidgetContext_TypeDefinitionIndex = 44446;
 
 	class UICinemaInviteWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

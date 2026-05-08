@@ -11,35 +11,35 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB5D77A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D7A10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_0_OFFSET UNITYSDK_OFFSET(0xB5D7A30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_1_OFFSET UNITYSDK_OFFSET(0xB5D81B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_2_OFFSET UNITYSDK_OFFSET(0xB5D81F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_3_OFFSET UNITYSDK_OFFSET(0xB5D8230)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_4_OFFSET UNITYSDK_OFFSET(0xB5D8270)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_5_OFFSET UNITYSDK_OFFSET(0xB5D82B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15414DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x15415010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_0_OFFSET UNITYSDK_OFFSET(0x15415050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_1_OFFSET UNITYSDK_OFFSET(0x154157F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_2_OFFSET UNITYSDK_OFFSET(0x15415830)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_3_OFFSET UNITYSDK_OFFSET(0x15415870)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_4_OFFSET UNITYSDK_OFFSET(0x154158B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYCAMERACUTSCENE__REGISTERPORTS_B__13_5_OFFSET UNITYSDK_OFFSET(0x154158F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayCameraCutScene_TypeDefinitionIndex = 54769;
+	inline static constexpr unsigned int LDPlayCameraCutScene_TypeDefinitionIndex = 46091;
 
 	class LDPlayCameraCutScene : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _onFinished; // 0xA8
-		::FlowCanvas::ValueInput_1<::Foundation::Unreal::FTransform3D>* _overridePlayOrigin; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _isGroupShotData; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Single>* _playRate; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::String*>* _cameraShotKey; // 0xC8
-		::FlowCanvas::FlowOutput* _onDestroy; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::String*>* _overrideWorldAnchorPoint; // 0xD8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _entity; // 0xE0
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* _overrideWorldPosition; // 0xE8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::AnchorPointForwardAxis>* _overrideArchorPointAxis; // 0xF0
-		::FlowCanvas::FlowOutput* _onBlendOut; // 0xF8
+		::FlowCanvas::ValueInput_1<::System::String*>* _overrideWorldAnchorPoint; // 0xA8
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* _overrideWorldPosition; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* _cameraShotKey; // 0xB8
+		::FlowCanvas::ValueInput_1<::Foundation::Unreal::FTransform3D>* _overridePlayOrigin; // 0xC0
+		::FlowCanvas::FlowOutput* _onFinished; // 0xC8
+		::FlowCanvas::FlowOutput* _onBlendOut; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _entity; // 0xD8
+		::FlowCanvas::FlowOutput* _onBlendIn; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _isGroupShotData; // 0xE8
+		::FlowCanvas::FlowOutput* _onDestroy; // 0xF0
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::AnchorPointForwardAxis>* _overrideArchorPointAxis; // 0xF8
 		::FlowCanvas::FlowOutput* _output; // 0x100
-		::FlowCanvas::FlowOutput* _onBlendIn; // 0x108
+		::FlowCanvas::ValueInput_1<::System::Single>* _playRate; // 0x108
 
 		::System::Void _ctor()
 		{

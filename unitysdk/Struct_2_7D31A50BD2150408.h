@@ -5,9 +5,9 @@
 namespace Nap::NapECS { class EcsComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_7D31A50BD2150408__CTOR_OFFSET UNITYSDK_OFFSET(0x3074E0)
+#define STRUCT_2_7D31A50BD2150408__CTOR_OFFSET UNITYSDK_OFFSET(0x2E5940)
 
-inline static constexpr unsigned int Struct_2_7D31A50BD2150408_TypeDefinitionIndex = 44189;
+inline static constexpr unsigned int Struct_2_7D31A50BD2150408_TypeDefinitionIndex = 41430;
 
 struct alignas(8) Struct_2_7D31A50BD2150408
 {

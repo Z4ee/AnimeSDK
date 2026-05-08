@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART_INVOKE_OFFSET UNITYSDK_OFFSET(0xB98BA10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART__CTOR_OFFSET UNITYSDK_OFFSET(0xB98BB00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x18218BA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x18218C70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfStart_TypeDefinitionIndex = 59629;
+	inline static constexpr unsigned int LD_SurfStart_TypeDefinitionIndex = 59542;
 
 	class LD_SurfStart : public ::FlowCanvas::Nodes::CallableActionNode_4<::MoleMole::Battle::Entity*, ::System::String*, ::System::Boolean, ::System::String*>
 	{

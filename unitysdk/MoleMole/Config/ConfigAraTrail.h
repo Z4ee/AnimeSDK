@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGARATRAIL_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0xE2B9510)
-#define MOLEMOLE_CONFIG_CONFIGARATRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xE2B9580)
+#define MOLEMOLE_CONFIG_CONFIGARATRAIL_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x1743DFC0)
+#define MOLEMOLE_CONFIG_CONFIGARATRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1743E010)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAraTrail_TypeDefinitionIndex = 57663;
+	inline static constexpr unsigned int ConfigAraTrail_TypeDefinitionIndex = 61885;
 
 	class ConfigAraTrail : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace MoleMole::Config
 		::UnityEngine::AnimationCurve* FadeInCurve; // 0x10
 		::System::String* PrefabPath; // 0x18
 		::UnityEngine::AnimationCurve* FadeOutCurve; // 0x20
-		::System::Single FadeInDuration; // 0x28
-		::System::Single KeepDuration; // 0x2C
+		::System::Single KeepDuration; // 0x28
+		::System::Single FadeInDuration; // 0x2C
 		::System::Single FadeOutDuration; // 0x30
 
 		::System::Void _ctor()

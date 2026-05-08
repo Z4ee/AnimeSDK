@@ -3,7 +3,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LatentActionNodeBase_InvocationMode_TypeDefinitionIndex = 26844;
+	inline static constexpr unsigned int LatentActionNodeBase_InvocationMode_TypeDefinitionIndex = 26949;
 
 	enum class LatentActionNodeBase_InvocationMode : ::System::Int32
 	{

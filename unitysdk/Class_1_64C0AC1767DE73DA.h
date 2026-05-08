@@ -5,18 +5,18 @@
 namespace MoleMole { class ActivitBGSpineSequence; }
 namespace Spine::Unity { class SkeletonGraphic; }
 
-#define CLASS_1_64C0AC1767DE73DA_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xD5D9990)
-#define CLASS_1_64C0AC1767DE73DA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD5D9BD0)
-#define CLASS_1_64C0AC1767DE73DA_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0xD5D9900)
-#define CLASS_1_64C0AC1767DE73DA__CTOR_OFFSET UNITYSDK_OFFSET(0xD5D97B0)
+#define CLASS_1_64C0AC1767DE73DA_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0x147A54A0)
+#define CLASS_1_64C0AC1767DE73DA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x147A5450)
+#define CLASS_1_64C0AC1767DE73DA_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x147A53E0)
+#define CLASS_1_64C0AC1767DE73DA__CTOR_OFFSET UNITYSDK_OFFSET(0x147A5290)
 
-inline static constexpr unsigned int Class_1_64C0AC1767DE73DA_TypeDefinitionIndex = 73978;
+inline static constexpr unsigned int Class_1_64C0AC1767DE73DA_TypeDefinitionIndex = 66105;
 
 class Class_1_64C0AC1767DE73DA : public ::System::Object
 {
 public:
-	::Spine::Unity::SkeletonGraphic* Field_1_1; // 0x10
-	::MoleMole::ActivitBGSpineSequence* Field_1_0; // 0x18
+	::MoleMole::ActivitBGSpineSequence* Field_1_0; // 0x10
+	::Spine::Unity::SkeletonGraphic* Field_1_1; // 0x18
 
 	::System::Void _ctor(::MoleMole::ActivitBGSpineSequence* a1)
 	{
@@ -28,13 +28,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64C0AC1767DE73DA_METHOD_1_EAD10B3E55E2C4C5_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A27DC2C5A103933A()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64C0AC1767DE73DA_METHOD_1_A27DC2C5A103933A_OFFSET))(this);
-	}
-
 	::System::Void Method_1_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64C0AC1767DE73DA_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A27DC2C5A103933A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64C0AC1767DE73DA_METHOD_1_A27DC2C5A103933A_OFFSET))(this);
 	}
 };

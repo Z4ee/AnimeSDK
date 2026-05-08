@@ -8,25 +8,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationClip; }
 
-#define CLASS_2_62498230ED945362_DISPOSE_OFFSET UNITYSDK_OFFSET(0x769D630)
-#define CLASS_2_62498230ED945362_METHOD_2_2ADD3023D9AB0116_OFFSET UNITYSDK_OFFSET(0x769DC10)
-#define CLASS_2_62498230ED945362_METHOD_2_6C38876328B3711C_OFFSET UNITYSDK_OFFSET(0x769D9E0)
-#define CLASS_2_62498230ED945362_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x769D6A0)
-#define CLASS_2_62498230ED945362_METHOD_2_B600972ED5B4AF29_OFFSET UNITYSDK_OFFSET(0x769D910)
-#define CLASS_2_62498230ED945362_METHOD_2_CE7DD1A4F75322E2_OFFSET UNITYSDK_OFFSET(0x769D480)
-#define CLASS_2_62498230ED945362_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x769D810)
-#define CLASS_2_62498230ED945362_ONCREATE_OFFSET UNITYSDK_OFFSET(0x769D300)
-#define CLASS_2_62498230ED945362_UPDATE_OFFSET UNITYSDK_OFFSET(0x769D400)
-#define CLASS_2_62498230ED945362__CTOR_OFFSET UNITYSDK_OFFSET(0x769D7F0)
+#define CLASS_2_62498230ED945362_DISPOSE_OFFSET UNITYSDK_OFFSET(0x143CAD40)
+#define CLASS_2_62498230ED945362_METHOD_2_2ADD3023D9AB0116_OFFSET UNITYSDK_OFFSET(0x143CAE80)
+#define CLASS_2_62498230ED945362_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x143CB2C0)
+#define CLASS_2_62498230ED945362_METHOD_2_6C38876328B3711C_OFFSET UNITYSDK_OFFSET(0x143CB030)
+#define CLASS_2_62498230ED945362_METHOD_2_B600972ED5B4AF29_OFFSET UNITYSDK_OFFSET(0x143CB210)
+#define CLASS_2_62498230ED945362_METHOD_2_CE7DD1A4F75322E2_OFFSET UNITYSDK_OFFSET(0x143CABB0)
+#define CLASS_2_62498230ED945362_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x143CAD90)
+#define CLASS_2_62498230ED945362_ONCREATE_OFFSET UNITYSDK_OFFSET(0x143CAA70)
+#define CLASS_2_62498230ED945362_UPDATE_OFFSET UNITYSDK_OFFSET(0x143CAB50)
+#define CLASS_2_62498230ED945362__CTOR_OFFSET UNITYSDK_OFFSET(0x143CAE60)
 
-inline static constexpr unsigned int Class_2_62498230ED945362_TypeDefinitionIndex = 69108;
+inline static constexpr unsigned int Class_2_62498230ED945362_TypeDefinitionIndex = 81328;
 
 class Class_2_62498230ED945362 : public ::Foundation::SingletonDisposable_1<::Class_2_62498230ED945362*>
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_62498230ED945362_Class_1_BE6256DFB158D139*>** StaticGet_Field_2_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_62498230ED945362_Class_1_BE6256DFB158D139*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_62498230ED945362_TypeDefinitionIndex)->GetStaticField(0x46420);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_62498230ED945362_Class_1_BE6256DFB158D139*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_62498230ED945362_TypeDefinitionIndex)->GetStaticField(0x46400);
 	}
 
 	::System::Void _ctor()
@@ -49,24 +49,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_2_AA169839CB93802A()
+	::System::Void Method_2_2ADD3023D9AB0116(::System::String* a1, ::UnityEngine::AnimationClip* a2)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_AA169839CB93802A_OFFSET))(this);
-	}
-
-	::System::Void Method_2_CE7DD1A4F75322E2()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_CE7DD1A4F75322E2_OFFSET))(this);
-	}
-
-	::System::Double Method_2_B600972ED5B4AF29(::System::Double a1, ::System::Double a2, ::System::Double a3)
-	{
-		return ((::System::Double(*)(::PVOID, ::System::Double, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_B600972ED5B4AF29_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void Method_2_D0BD1377F2594D33()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_D0BD1377F2594D33_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_2ADD3023D9AB0116_OFFSET))(this, a1, a2);
 	}
 
 	::System::Nullable_1<::System::Single> Method_2_6C38876328B3711C(::System::String* a1)
@@ -74,8 +59,23 @@ public:
 		return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_6C38876328B3711C_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_2ADD3023D9AB0116(::System::String* a1, ::UnityEngine::AnimationClip* a2)
+	::System::Void Method_2_D0BD1377F2594D33()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_2ADD3023D9AB0116_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_D0BD1377F2594D33_OFFSET))(this);
+	}
+
+	::System::Double Method_2_B600972ED5B4AF29(::System::Double a1, ::System::Double a2, ::System::Double a3)
+	{
+		return ((::System::Double(*)(::PVOID, ::System::Double, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_B600972ED5B4AF29_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_30D1209326FA87FC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_30D1209326FA87FC_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CE7DD1A4F75322E2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_62498230ED945362_METHOD_2_CE7DD1A4F75322E2_OFFSET))(this);
 	}
 };

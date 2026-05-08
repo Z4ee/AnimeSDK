@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLSQLBINARYREADER_NAMESPACEDECL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E9500)
+#define SYSTEM_XML_XMLSQLBINARYREADER_NAMESPACEDECL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B4EA0)
 
 namespace System::Xml
 {
@@ -13,10 +13,10 @@ namespace System::Xml
 	class XmlSqlBinaryReader_NamespaceDecl : public ::System::Object
 	{
 	public:
-		::System::String* prefix; // 0x10
-		::System::Xml::XmlSqlBinaryReader_NamespaceDecl* scopeLink; // 0x18
-		::System::String* uri; // 0x20
-		::System::Xml::XmlSqlBinaryReader_NamespaceDecl* prevLink; // 0x28
+		::System::Xml::XmlSqlBinaryReader_NamespaceDecl* prevLink; // 0x10
+		::System::String* uri; // 0x18
+		::System::Xml::XmlSqlBinaryReader_NamespaceDecl* scopeLink; // 0x20
+		::System::String* prefix; // 0x28
 		::System::Boolean implied; // 0x30
 		::System::Int32 scope; // 0x34
 

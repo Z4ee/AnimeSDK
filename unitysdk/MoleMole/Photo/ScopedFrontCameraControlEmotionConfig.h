@@ -8,7 +8,7 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-class Class_1_8F5A10ECD132BF05;
+class Class_1_85E1FCC6DF9961D3;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace MoleMole::Photo { class PlayableBlendSpace1DConfig; }
@@ -16,14 +16,14 @@ namespace MoleMole::Photo { class PlayableGraphClipConfig; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0xA539180)
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0xA539660)
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_REQUEST_OFFSET UNITYSDK_OFFSET(0xA5396F0)
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA539D30)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x15BAF0A0)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x15BAF710)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_REQUEST_OFFSET UNITYSDK_OFFSET(0x15BAF780)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15BAFEC0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int ScopedFrontCameraControlEmotionConfig_TypeDefinitionIndex = 79176;
+	inline static constexpr unsigned int ScopedFrontCameraControlEmotionConfig_TypeDefinitionIndex = 59585;
 
 	class ScopedFrontCameraControlEmotionConfig : public ::System::Object
 	{
@@ -37,9 +37,9 @@ namespace MoleMole::Photo
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Animator* a2, ::Struct_2_ACD0EF80A5330786& a3, ::Foundation::NativeMemory* a4, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> a5, ::Class_1_8F5A10ECD132BF05* a6)
+		::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Animator* a2, ::Struct_2_ACD0EF80A5330786& a3, ::Foundation::NativeMemory* a4, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> a5, ::Class_1_85E1FCC6DF9961D3* a6)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>, ::Class_1_8F5A10ECD132BF05*))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_CREATE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>, ::Class_1_85E1FCC6DF9961D3*))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLEMOTIONCONFIG_CREATE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Int32 get_DynamicMemoryCount()

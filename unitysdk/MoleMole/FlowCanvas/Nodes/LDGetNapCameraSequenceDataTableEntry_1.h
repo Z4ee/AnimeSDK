@@ -6,7 +6,7 @@ namespace MoleMole::Utils { class INapCameraSequenceDataTableEntry; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetNapCameraSequenceDataTableEntry_1_TypeDefinitionIndex = 70554;
+	inline static constexpr unsigned int LDGetNapCameraSequenceDataTableEntry_1_TypeDefinitionIndex = 69711;
 
 	template <typename T1>
 	class LDGetNapCameraSequenceDataTableEntry_1 : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::Utils::INapCameraSequenceDataTableEntry*, T1>

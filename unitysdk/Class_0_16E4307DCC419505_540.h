@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/NativeMemoryRequestHandle.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/Enum_3_D97372C4EB93BA22.h"
 
-namespace Foundation { class NativeMemoryBuilder; }
-namespace MoleMole::Photo { class Skeleton; }
-namespace UnityEngine { class Animator; }
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_540_TypeDefinitionIndex = 63972;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_540_TypeDefinitionIndex = 60911;
 
 class Class_0_16E4307DCC419505_540
 {

@@ -5,23 +5,23 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_13B43DCF703FB24C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD42AD70)
-#define CLASS_1_13B43DCF703FB24C__CTOR_OFFSET UNITYSDK_OFFSET(0xD42ACE0)
+#define CLASS_1_13B43DCF703FB24C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC5CA30)
+#define CLASS_1_13B43DCF703FB24C__CTOR_OFFSET UNITYSDK_OFFSET(0xEC5C9A0)
 
-inline static constexpr unsigned int Class_1_13B43DCF703FB24C_TypeDefinitionIndex = 41998;
+inline static constexpr unsigned int Class_1_13B43DCF703FB24C_TypeDefinitionIndex = 76260;
 
 class Class_1_13B43DCF703FB24C : public ::System::Object
 {
 public:
 	static ::Class_1_13B43DCF703FB24C** StaticGet_Field_1_0()
 	{
-		return (::Class_1_13B43DCF703FB24C**)Il2CppClass::FromTypeDefinitionIndex(Class_1_13B43DCF703FB24C_TypeDefinitionIndex)->GetStaticField(0x369D0);
+		return (::Class_1_13B43DCF703FB24C**)Il2CppClass::FromTypeDefinitionIndex(Class_1_13B43DCF703FB24C_TypeDefinitionIndex)->GetStaticField(0x31930);
 	}
 	::System::Collections::Generic::List_1<::Struct_2_DAA84C1CDD754F37>* Field_1_5; // 0x10
 	::System::Collections::Generic::List_1<::Struct_2_DAA84C1CDD754F37>* Field_1_4; // 0x18
 	::System::Int64 Field_1_2; // 0x20
-	::System::Int64 Field_1_1; // 0x28
-	::System::Int64 Field_1_3; // 0x30
+	::System::Int64 Field_1_3; // 0x28
+	::System::Int64 Field_1_1; // 0x30
 
 	::System::Void _ctor()
 	{

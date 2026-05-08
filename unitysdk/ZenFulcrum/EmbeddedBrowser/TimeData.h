@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 30635;
+	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 31164;
 
 	struct alignas(4) TimeData
 	{

@@ -7,19 +7,19 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MoleMole::FlowCanvas::Nodes { class LDSetInLevelStateGroup_StateGroupKeyValue; }
 
-#define CLASS_1_44FF4AB2FA54559D_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAA41730)
-#define CLASS_1_44FF4AB2FA54559D_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xAA41690)
-#define CLASS_1_44FF4AB2FA54559D__CCTOR_OFFSET UNITYSDK_OFFSET(0xAA41810)
-#define CLASS_1_44FF4AB2FA54559D__CTOR_OFFSET UNITYSDK_OFFSET(0xAA41800)
+#define CLASS_1_44FF4AB2FA54559D_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xEF978E0)
+#define CLASS_1_44FF4AB2FA54559D_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xEF97860)
+#define CLASS_1_44FF4AB2FA54559D__CCTOR_OFFSET UNITYSDK_OFFSET(0xEF979A0)
+#define CLASS_1_44FF4AB2FA54559D__CTOR_OFFSET UNITYSDK_OFFSET(0xEF97990)
 
-inline static constexpr unsigned int Class_1_44FF4AB2FA54559D_TypeDefinitionIndex = 52565;
+inline static constexpr unsigned int Class_1_44FF4AB2FA54559D_TypeDefinitionIndex = 60284;
 
 class Class_1_44FF4AB2FA54559D : public ::System::Object
 {
 public:
 	static ::Class_1_44FF4AB2FA54559D** StaticGet_Field_1_0()
 	{
-		return (::Class_1_44FF4AB2FA54559D**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44FF4AB2FA54559D_TypeDefinitionIndex)->GetStaticField(0x378A0);
+		return (::Class_1_44FF4AB2FA54559D**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44FF4AB2FA54559D_TypeDefinitionIndex)->GetStaticField(0x3BF90);
 	}
 
 	::System::Void _ctor()

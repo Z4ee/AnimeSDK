@@ -4,11 +4,11 @@
 
 namespace UnityEngine::XR { class XRInputSubsystem; }
 
-#define UNITYENGINE_XR_XRINPUTSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6994D0)
+#define UNITYENGINE_XR_XRINPUTSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C446340)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRInputSubsystemDescriptor_TypeDefinitionIndex = 24654;
+	inline static constexpr unsigned int XRInputSubsystemDescriptor_TypeDefinitionIndex = 25168;
 
 	class XRInputSubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRInputSubsystem*>
 	{

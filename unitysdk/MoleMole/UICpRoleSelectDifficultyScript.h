@@ -6,11 +6,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class TextItalicAdobeStyle; }
 
-#define MOLEMOLE_UICPROLESELECTDIFFICULTYSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39B3C0)
+#define MOLEMOLE_UICPROLESELECTDIFFICULTYSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1BB400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpRoleSelectDifficultyScript_TypeDefinitionIndex = 83529;
+	inline static constexpr unsigned int UICpRoleSelectDifficultyScript_TypeDefinitionIndex = 85322;
 
 	class UICpRoleSelectDifficultyScript : public ::UnityEngine::MonoBehaviour
 	{

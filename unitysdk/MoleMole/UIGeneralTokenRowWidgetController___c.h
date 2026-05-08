@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALTOKENROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x87166B0)
-#define MOLEMOLE_UIGENERALTOKENROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x87166F0)
-#define MOLEMOLE_UIGENERALTOKENROWWIDGETCONTROLLER___C__INITBTNBIND_B__8_5_OFFSET UNITYSDK_OFFSET(0x8716700)
+#define MOLEMOLE_UIGENERALTOKENROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CEFD70)
+#define MOLEMOLE_UIGENERALTOKENROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16CEFDB0)
+#define MOLEMOLE_UIGENERALTOKENROWWIDGETCONTROLLER___C__INITBTNBIND_B__8_5_OFFSET UNITYSDK_OFFSET(0x16CEFDC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTokenRowWidgetController___c_TypeDefinitionIndex = 67287;
+	inline static constexpr unsigned int UIGeneralTokenRowWidgetController___c_TypeDefinitionIndex = 76871;
 
 	class UIGeneralTokenRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIGeneralTokenRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGeneralTokenRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTokenRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x45280);
+			return (::MoleMole::UIGeneralTokenRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTokenRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44950);
 		}
 		static ::System::Action** StaticGet___9__8_5()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTokenRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x45288);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTokenRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44958);
 		}
 
 		static ::System::Void _cctor()

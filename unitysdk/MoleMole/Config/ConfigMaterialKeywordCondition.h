@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALKEYWORDCONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x10A98320)
-#define MOLEMOLE_CONFIG_CONFIGMATERIALKEYWORDCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x10A984D0)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALKEYWORDCONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x183C30B0)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALKEYWORDCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x183C32B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialKeywordCondition_TypeDefinitionIndex = 58796;
+	inline static constexpr unsigned int ConfigMaterialKeywordCondition_TypeDefinitionIndex = 58159;
 
 	class ConfigMaterialKeywordCondition : public ::System::Object
 	{

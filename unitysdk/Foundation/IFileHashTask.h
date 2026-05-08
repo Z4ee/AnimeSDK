@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IFileHashTask_TypeDefinitionIndex = 46855;
+	inline static constexpr unsigned int IFileHashTask_TypeDefinitionIndex = 39340;
 
 	class IFileHashTask
 	{

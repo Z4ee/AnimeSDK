@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOETHEREYESOUTLINERENDERIGNORE__CTOR_OFFSET UNITYSDK_OFFSET(0x6EAC050)
+#define MOLEMOLE_MONOETHEREYESOUTLINERENDERIGNORE__CTOR_OFFSET UNITYSDK_OFFSET(0x142A61E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEtherEyesOutlineRenderIgnore_TypeDefinitionIndex = 79082;
+	inline static constexpr unsigned int MonoEtherEyesOutlineRenderIgnore_TypeDefinitionIndex = 65852;
 
 	class MonoEtherEyesOutlineRenderIgnore : public ::UnityEngine::MonoBehaviour
 	{

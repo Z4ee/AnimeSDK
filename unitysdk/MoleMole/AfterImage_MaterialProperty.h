@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AfterImage_MaterialProperty_TypeDefinitionIndex = 60796;
+	inline static constexpr unsigned int AfterImage_MaterialProperty_TypeDefinitionIndex = 76097;
 
 	struct alignas(8) AfterImage_MaterialProperty
 	{

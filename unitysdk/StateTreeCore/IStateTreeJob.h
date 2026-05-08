@@ -7,7 +7,7 @@ namespace UnrealTypes { class ScriptStruct; }
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int IStateTreeJob_TypeDefinitionIndex = 27807;
+	inline static constexpr unsigned int IStateTreeJob_TypeDefinitionIndex = 28325;
 
 	class IStateTreeJob
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MAINCITYSIDEBARPREFABICONCONFIG_GET_ICONWIDGETPREFAB_OFFSET UNITYSDK_OFFSET(0xB996F10)
-#define MOLEMOLE_MAINCITYSIDEBARPREFABICONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB996F20)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABICONCONFIG_GET_ICONWIDGETPREFAB_OFFSET UNITYSDK_OFFSET(0x15B2FC40)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABICONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15B2FC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MainCitySidebarPrefabIconConfig_TypeDefinitionIndex = 46299;
+	inline static constexpr unsigned int MainCitySidebarPrefabIconConfig_TypeDefinitionIndex = 44340;
 
 	class MainCitySidebarPrefabIconConfig : public ::System::Object
 	{

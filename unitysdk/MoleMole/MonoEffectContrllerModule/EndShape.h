@@ -6,11 +6,11 @@
 
 class Class_1_2DDAC2F6C97EB8AD;
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_SAMPLEPOINT_OFFSET UNITYSDK_OFFSET(0x3ABCE0)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_SAMPLEPOINT_OFFSET UNITYSDK_OFFSET(0x79E6E0)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int EndShape_TypeDefinitionIndex = 53175;
+	inline static constexpr unsigned int EndShape_TypeDefinitionIndex = 81283;
 
 	struct alignas(4) EndShape
 	{

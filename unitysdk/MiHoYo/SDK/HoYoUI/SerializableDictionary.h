@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int SerializableDictionary_TypeDefinitionIndex = 34963;
+	inline static constexpr unsigned int SerializableDictionary_TypeDefinitionIndex = 35501;
 
 	class SerializableDictionary : public ::System::Object
 	{

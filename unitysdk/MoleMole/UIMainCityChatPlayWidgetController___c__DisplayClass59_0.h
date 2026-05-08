@@ -6,19 +6,19 @@ namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 namespace MoleMole::GalGame { class MainCityChatPlayStoryNode; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F1A400)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_0__PLAYSTORYNODE_G__DOPLAYSTORYNODE_0_OFFSET UNITYSDK_OFFSET(0x8F1A410)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15008CA0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_0__PLAYSTORYNODE_G__DOPLAYSTORYNODE_0_OFFSET UNITYSDK_OFFSET(0x15008CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass59_0_TypeDefinitionIndex = 69003;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass59_0_TypeDefinitionIndex = 47772;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::GalGame::MainCityChatPlayStoryNode* config; // 0x10
-		::System::Action* finishFunc; // 0x18
-		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x20
+		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x18
+		::System::Action* finishFunc; // 0x20
 		::System::Boolean isSkip; // 0x28
 
 		::System::Void _ctor()

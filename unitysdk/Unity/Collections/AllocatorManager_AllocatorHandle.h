@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/Allocator.h"
 
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_ALLOCATORHANDLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B7280B0)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_ALLOCATORHANDLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C500B90)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int AllocatorManager_AllocatorHandle_TypeDefinitionIndex = 19789;
+	inline static constexpr unsigned int AllocatorManager_AllocatorHandle_TypeDefinitionIndex = 20146;
 
 	struct alignas(4) AllocatorManager_AllocatorHandle
 	{

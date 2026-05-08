@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_608;
+class Class_2_208CC9941471731A_451;
 class Class_2_541EA3F0D78A7596;
 
-#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD226260)
-#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0xD226270)
+#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12382D50)
+#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x12382D60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssBackstageRelicInfoPopWindowController___c__DisplayClass7_0_TypeDefinitionIndex = 65790;
+	inline static constexpr unsigned int UIAbyssBackstageRelicInfoPopWindowController___c__DisplayClass7_0_TypeDefinitionIndex = 54238;
 
 	class UIAbyssBackstageRelicInfoPopWindowController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_608* relicConfig; // 0x10
+		::Class_2_208CC9941471731A_451* relicConfig; // 0x10
 
 		::System::Void _ctor()
 		{

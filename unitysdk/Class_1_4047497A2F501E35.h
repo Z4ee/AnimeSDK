@@ -8,9 +8,9 @@ namespace MoleMole { class UIHollowChessboard3DModelController; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4047497A2F501E35_METHOD_1_42E59209D3D1A9AD_OFFSET UNITYSDK_OFFSET(0xD82E740)
+#define CLASS_1_4047497A2F501E35_METHOD_1_42E59209D3D1A9AD_OFFSET UNITYSDK_OFFSET(0x17A1A2C0)
 
-inline static constexpr unsigned int Class_1_4047497A2F501E35_TypeDefinitionIndex = 73949;
+inline static constexpr unsigned int Class_1_4047497A2F501E35_TypeDefinitionIndex = 74036;
 
 class Class_1_4047497A2F501E35 : public ::System::Object
 {

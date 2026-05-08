@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_UTILITIES_ODINDEFINESYMBOLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEC7A60)
+#define SIRENIX_UTILITIES_ODINDEFINESYMBOLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD8710)
 
 namespace Sirenix::Utilities
 {

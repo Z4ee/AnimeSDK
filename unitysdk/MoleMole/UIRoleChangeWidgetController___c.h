@@ -5,24 +5,24 @@
 class Class_1_2CCC5D7984CDCED4;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIROLECHANGEWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6E48C0)
-#define MOLEMOLE_UIROLECHANGEWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6E4900)
-#define MOLEMOLE_UIROLECHANGEWIDGETCONTROLLER___C__INITVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0xB6E4910)
+#define MOLEMOLE_UIROLECHANGEWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E6C880)
+#define MOLEMOLE_UIROLECHANGEWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6C8C0)
+#define MOLEMOLE_UIROLECHANGEWIDGETCONTROLLER___C__INITVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x12E6C8D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleChangeWidgetController___c_TypeDefinitionIndex = 47883;
+	inline static constexpr unsigned int UIRoleChangeWidgetController___c_TypeDefinitionIndex = 65326;
 
 	class UIRoleChangeWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRoleChangeWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRoleChangeWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleChangeWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D8D0);
-		}
 		static ::System::Comparison_1<::Class_1_2CCC5D7984CDCED4*>** StaticGet___9__27_0()
 		{
-			return (::System::Comparison_1<::Class_1_2CCC5D7984CDCED4*>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleChangeWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D8D8);
+			return (::System::Comparison_1<::Class_1_2CCC5D7984CDCED4*>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleChangeWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0C0);
+		}
+		static ::MoleMole::UIRoleChangeWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIRoleChangeWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleChangeWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F0C8);
 		}
 
 		static ::System::Void _cctor()

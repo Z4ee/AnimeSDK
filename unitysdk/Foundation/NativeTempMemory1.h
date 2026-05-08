@@ -5,11 +5,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define FOUNDATION_NATIVETEMPMEMORY1_GETSLOT_OFFSET UNITYSDK_OFFSET(0x991460)
+#define FOUNDATION_NATIVETEMPMEMORY1_GETSLOT_OFFSET UNITYSDK_OFFSET(0x9BD620)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeTempMemory1_TypeDefinitionIndex = 8812;
+	inline static constexpr unsigned int NativeTempMemory1_TypeDefinitionIndex = 9084;
 
 	struct alignas(8) NativeTempMemory1
 	{

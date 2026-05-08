@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define NPCCROWD_ANIMATION_GPUIROOTMOTION_HASMOTION_OFFSET UNITYSDK_OFFSET(0x2F3B50)
-#define NPCCROWD_ANIMATION_GPUIROOTMOTION_ISPOSITIONONLY_OFFSET UNITYSDK_OFFSET(0x2F3BC0)
+#define NPCCROWD_ANIMATION_GPUIROOTMOTION_HASMOTION_OFFSET UNITYSDK_OFFSET(0x58CCB0)
+#define NPCCROWD_ANIMATION_GPUIROOTMOTION_ISPOSITIONONLY_OFFSET UNITYSDK_OFFSET(0x58CD00)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUIRootMotion_TypeDefinitionIndex = 56184;
+	inline static constexpr unsigned int GPUIRootMotion_TypeDefinitionIndex = 46862;
 
 	struct alignas(4) GPUIRootMotion
 	{

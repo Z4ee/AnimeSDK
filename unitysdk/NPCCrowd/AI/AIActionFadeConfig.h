@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONFADECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x33ACF0)
-#define NPCCROWD_AI_AIACTIONFADECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x33AD60)
+#define NPCCROWD_AI_AIACTIONFADECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x72D830)
+#define NPCCROWD_AI_AIACTIONFADECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x72D880)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionFadeConfig_TypeDefinitionIndex = 38143;
+	inline static constexpr unsigned int AIActionFadeConfig_TypeDefinitionIndex = 64549;
 
 	struct alignas(8) AIActionFadeConfig
 	{

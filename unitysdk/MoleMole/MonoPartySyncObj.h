@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED9316DA7F70E0E3.h"
+#include "unitysdk/Enum_3_6E947E50DF49EE88.h"
 #include "unitysdk/MoleMole/MonoPartySceneObject.h"
 #include "unitysdk/RootMotion/Axis.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOPARTYSYNCOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD646F0)
-#define MOLEMOLE_MONOPARTYSYNCOBJ_GETSYNCVAL_OFFSET UNITYSDK_OFFSET(0xCD64860)
-#define MOLEMOLE_MONOPARTYSYNCOBJ_SETSYNCVAL_OFFSET UNITYSDK_OFFSET(0xCD64B80)
-#define MOLEMOLE_MONOPARTYSYNCOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xCD64E90)
+#define MOLEMOLE_MONOPARTYSYNCOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0x125E59A0)
+#define MOLEMOLE_MONOPARTYSYNCOBJ_GETSYNCVAL_OFFSET UNITYSDK_OFFSET(0x125E5AF0)
+#define MOLEMOLE_MONOPARTYSYNCOBJ_SETSYNCVAL_OFFSET UNITYSDK_OFFSET(0x125E5DF0)
+#define MOLEMOLE_MONOPARTYSYNCOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x125E60E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoPartySyncObj_TypeDefinitionIndex = 53176;
+	inline static constexpr unsigned int MonoPartySyncObj_TypeDefinitionIndex = 40661;
 
 	class MonoPartySyncObj : public ::MoleMole::MonoPartySceneObject
 	{
 	public:
 		::RootMotion::Axis Axis; // 0x30
-		::Enum_3_ED9316DA7F70E0E3 CtrlType; // 0x34
+		::Enum_3_6E947E50DF49EE88 CtrlType; // 0x34
 		::UnityEngine::Vector3 Field_8_2; // 0x38
 
 		::System::Void _ctor()

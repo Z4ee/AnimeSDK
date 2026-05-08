@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExclusiveResourceManager_3_TickState_TypeDefinitionIndex = 9065;
+	inline static constexpr unsigned int ExclusiveResourceManager_3_TickState_TypeDefinitionIndex = 9020;
 
 	template <typename TResource, typename TDefault, typename TRequest>
 	struct ExclusiveResourceManager_3_TickState

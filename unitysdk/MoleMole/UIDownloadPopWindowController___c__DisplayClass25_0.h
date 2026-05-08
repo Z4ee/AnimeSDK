@@ -5,19 +5,19 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9E4AA0)
-#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__SHOWDOWNLOADSUCCESS_B__0_OFFSET UNITYSDK_OFFSET(0xD9E4BC0)
-#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__SHOWDOWNLOADSUCCESS_B__1_OFFSET UNITYSDK_OFFSET(0xD9E4BF0)
+#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14308880)
+#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__SHOWDOWNLOADSUCCESS_B__0_OFFSET UNITYSDK_OFFSET(0x143089E0)
+#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__SHOWDOWNLOADSUCCESS_B__1_OFFSET UNITYSDK_OFFSET(0x14308A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDownloadPopWindowController___c__DisplayClass25_0_TypeDefinitionIndex = 56671;
+	inline static constexpr unsigned int UIDownloadPopWindowController___c__DisplayClass25_0_TypeDefinitionIndex = 62027;
 
 	class UIDownloadPopWindowController___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralTipsPopWindowController* tipsctrl; // 0x10
-		::System::Action* okCallback; // 0x18
+		::System::Action* okCallback; // 0x10
+		::MoleMole::UIGeneralTipsPopWindowController* tipsctrl; // 0x18
 
 		::System::Void _ctor()
 		{

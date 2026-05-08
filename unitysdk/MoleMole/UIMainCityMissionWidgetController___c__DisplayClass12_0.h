@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMainCityMissionWidgetController; }
 
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE2ADA0)
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS12_0__PLAYQUESTTRACKENDANIM_B__0_OFFSET UNITYSDK_OFFSET(0xBE2ADB0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4E5F0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS12_0__PLAYQUESTTRACKENDANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15C4E600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 53702;
+	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 52946;
 
 	class UIMainCityMissionWidgetController___c__DisplayClass12_0 : public ::System::Object
 	{

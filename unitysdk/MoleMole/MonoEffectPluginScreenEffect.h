@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINSCREENEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xB99E3A0)
+#define MOLEMOLE_MONOEFFECTPLUGINSCREENEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B383C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginScreenEffect_TypeDefinitionIndex = 41425;
+	inline static constexpr unsigned int MonoEffectPluginScreenEffect_TypeDefinitionIndex = 56483;
 
 	class MonoEffectPluginScreenEffect : public ::MoleMole::MonoEffectPluginBase
 	{

@@ -4,12 +4,12 @@
 
 namespace System::Threading { class ReaderWriterLock; }
 
-#define PIPELINECAMERA_SCOPEDREADLOCK_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7D69B0)
-#define PIPELINECAMERA_SCOPEDREADLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x7D68E0)
+#define PIPELINECAMERA_SCOPEDREADLOCK_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7E7910)
+#define PIPELINECAMERA_SCOPEDREADLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x7E7840)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ScopedReadLock_TypeDefinitionIndex = 35542;
+	inline static constexpr unsigned int ScopedReadLock_TypeDefinitionIndex = 36086;
 
 	struct alignas(8) ScopedReadLock
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_LAYERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80BF80)
+#define FLUFFYUNDERWARE_DEVTOOLS_LAYERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D4CF0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int LayerAttribute_TypeDefinitionIndex = 25348;
+	inline static constexpr unsigned int LayerAttribute_TypeDefinitionIndex = 25862;
 
 	class LayerAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

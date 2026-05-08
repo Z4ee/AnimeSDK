@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_ShaderFeature_TypeDefinitionIndex = 29331;
+	inline static constexpr unsigned int ForwardRendererData_ShaderFeature_TypeDefinitionIndex = 29850;
 
 	enum class ForwardRendererData_ShaderFeature : ::System::Int32
 	{

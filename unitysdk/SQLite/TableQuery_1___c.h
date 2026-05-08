@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableQuery_1___c_TypeDefinitionIndex = 36268;
+	inline static constexpr unsigned int TableQuery_1___c_TypeDefinitionIndex = 36812;
 
 	template <typename T>
 	class TableQuery_1___c : public ::System::Object

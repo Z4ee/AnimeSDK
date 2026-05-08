@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/Assets_ConfigHashSetTrim_TrimConditionType.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_ASSETS_CONFIGHASHSETTRIM_TRIMCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2156A0)
+#define FOUNDATION_ASSETS_CONFIGHASHSETTRIM_TRIMCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF0B90)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Assets_ConfigHashSetTrim_TrimCondition_TypeDefinitionIndex = 8028;
+	inline static constexpr unsigned int Assets_ConfigHashSetTrim_TrimCondition_TypeDefinitionIndex = 8326;
 
 	class Assets_ConfigHashSetTrim_TrimCondition : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace MoleMole::SceneMark { class SimpleBoundsMark; }
 
-inline static constexpr unsigned int Class_1_08CADB6A2017E035_Struct_2_360763767A2E376D_TypeDefinitionIndex = 40597;
+inline static constexpr unsigned int Class_1_08CADB6A2017E035_Struct_2_360763767A2E376D_TypeDefinitionIndex = 64311;
 
 struct alignas(8) Class_1_08CADB6A2017E035_Struct_2_360763767A2E376D
 {

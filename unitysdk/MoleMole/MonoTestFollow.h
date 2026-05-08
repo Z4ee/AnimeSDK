@@ -7,15 +7,15 @@ namespace DG::Tweening { class Tween; }
 namespace System { class EventArgs; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOTESTFOLLOW_AWAKE_OFFSET UNITYSDK_OFFSET(0x984F8E0)
-#define MOLEMOLE_MONOTESTFOLLOW_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x984FD00)
-#define MOLEMOLE_MONOTESTFOLLOW_METHOD_5_D221C2035A0B7B1B_OFFSET UNITYSDK_OFFSET(0x9850140)
-#define MOLEMOLE_MONOTESTFOLLOW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x984FF50)
-#define MOLEMOLE_MONOTESTFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x9850120)
+#define MOLEMOLE_MONOTESTFOLLOW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1177D7A0)
+#define MOLEMOLE_MONOTESTFOLLOW_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1177DBF0)
+#define MOLEMOLE_MONOTESTFOLLOW_METHOD_5_0956015EE7643124_OFFSET UNITYSDK_OFFSET(0x1177E0B0)
+#define MOLEMOLE_MONOTESTFOLLOW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1177DED0)
+#define MOLEMOLE_MONOTESTFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1177E050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTestFollow_TypeDefinitionIndex = 72986;
+	inline static constexpr unsigned int MonoTestFollow_TypeDefinitionIndex = 58934;
 
 	class MonoTestFollow : public ::UnityEngine::MonoBehaviour
 	{
@@ -48,9 +48,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTESTFOLLOW_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D221C2035A0B7B1B(::System::EventArgs* a1)
+		::System::Void Method_5_0956015EE7643124(::System::EventArgs* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTESTFOLLOW_METHOD_5_D221C2035A0B7B1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTESTFOLLOW_METHOD_5_0956015EE7643124_OFFSET))(this, a1);
 		}
 	};
 }

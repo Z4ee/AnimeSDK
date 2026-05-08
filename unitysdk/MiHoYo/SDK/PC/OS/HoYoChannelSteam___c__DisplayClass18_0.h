@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelSteam; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1934CFA0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS18_0__GETAUTHTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1934F4A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA52E00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS18_0__GETAUTHTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1AA55370)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelSteam___c__DisplayClass18_0_TypeDefinitionIndex = 19039;
+	inline static constexpr unsigned int HoYoChannelSteam___c__DisplayClass18_0_TypeDefinitionIndex = 19390;
 
 	class HoYoChannelSteam___c__DisplayClass18_0 : public ::System::Object
 	{

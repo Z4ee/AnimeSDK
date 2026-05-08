@@ -8,23 +8,23 @@ namespace NPCCrowd::Animation { class AnimationState; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationClip; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x62E7770)
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER_GETLAYERMAINCLIPTIME_OFFSET UNITYSDK_OFFSET(0x62E7570)
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER_PLAY_OFFSET UNITYSDK_OFFSET(0x62E6A40)
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER_SETMAINCLIPTIME_OFFSET UNITYSDK_OFFSET(0x62E7410)
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER_SETSPEED_OFFSET UNITYSDK_OFFSET(0x62E76C0)
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x62E7080)
-#define NPCCROWD_ANIMATION_ANIMATIONLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x62E6940)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD245BA0)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER_GETLAYERMAINCLIPTIME_OFFSET UNITYSDK_OFFSET(0xD2459A0)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER_PLAY_OFFSET UNITYSDK_OFFSET(0xD244F70)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER_SETMAINCLIPTIME_OFFSET UNITYSDK_OFFSET(0xD245850)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER_SETSPEED_OFFSET UNITYSDK_OFFSET(0xD245AE0)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2454C0)
+#define NPCCROWD_ANIMATION_ANIMATIONLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xD244E70)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationLayer_TypeDefinitionIndex = 76473;
+	inline static constexpr unsigned int AnimationLayer_TypeDefinitionIndex = 62969;
 
 	class AnimationLayer : public ::System::Object
 	{
 	public:
-		::UnityEngine::AnimationClip* curClip; // 0x10
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::AnimationClip*, ::NPCCrowd::Animation::AnimationState*>* clips; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::AnimationClip*, ::NPCCrowd::Animation::AnimationState*>* clips; // 0x10
+		::UnityEngine::AnimationClip* curClip; // 0x18
 		::UnityEngine::Playables::PlayableGraph graph; // 0x20
 		::UnityEngine::Playables::Playable playable; // 0x30
 

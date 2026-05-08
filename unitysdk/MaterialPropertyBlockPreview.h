@@ -6,11 +6,11 @@ class MaterialPropertyBlockPreview_MPBPreviewContent;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define MATERIALPROPERTYBLOCKPREVIEW_REFRESH_OFFSET UNITYSDK_OFFSET(0x19B5CD30)
-#define MATERIALPROPERTYBLOCKPREVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x19B5D500)
-#define MATERIALPROPERTYBLOCKPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5D550)
+#define MATERIALPROPERTYBLOCKPREVIEW_REFRESH_OFFSET UNITYSDK_OFFSET(0x1B077870)
+#define MATERIALPROPERTYBLOCKPREVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B0780C0)
+#define MATERIALPROPERTYBLOCKPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B078110)
 
-inline static constexpr unsigned int MaterialPropertyBlockPreview_TypeDefinitionIndex = 28950;
+inline static constexpr unsigned int MaterialPropertyBlockPreview_TypeDefinitionIndex = 29468;
 
 class MaterialPropertyBlockPreview : public ::UnityEngine::MonoBehaviour
 {

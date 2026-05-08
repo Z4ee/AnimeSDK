@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIOverlordFeastLevelWidgetController___c__DisplayClass14_0; }
 
-#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC4650)
-#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_1__DOPLAYPROGRESSANIM_B__0_OFFSET UNITYSDK_OFFSET(0xCFC4660)
+#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13DF4B60)
+#define MOLEMOLE_UIOVERLORDFEASTLEVELWIDGETCONTROLLER___C__DISPLAYCLASS14_1__DOPLAYPROGRESSANIM_B__0_OFFSET UNITYSDK_OFFSET(0x13DF4B70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastLevelWidgetController___c__DisplayClass14_1_TypeDefinitionIndex = 68840;
+	inline static constexpr unsigned int UIOverlordFeastLevelWidgetController___c__DisplayClass14_1_TypeDefinitionIndex = 81865;
 
 	class UIOverlordFeastLevelWidgetController___c__DisplayClass14_1 : public ::System::Object
 	{

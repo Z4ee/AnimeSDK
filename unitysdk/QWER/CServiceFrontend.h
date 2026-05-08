@@ -6,13 +6,13 @@
 namespace QWER { class CRunner; }
 namespace QWER { class IService; }
 
-#define QWER_CSERVICEFRONTEND_EXECAWAKE_OFFSET UNITYSDK_OFFSET(0x1B0117F0)
-#define QWER_CSERVICEFRONTEND_GET_FRONTENDID_OFFSET UNITYSDK_OFFSET(0x1B0117D0)
-#define QWER_CSERVICEFRONTEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B011820)
+#define QWER_CSERVICEFRONTEND_EXECAWAKE_OFFSET UNITYSDK_OFFSET(0x1BE8AE10)
+#define QWER_CSERVICEFRONTEND_GET_FRONTENDID_OFFSET UNITYSDK_OFFSET(0x1BE8ADF0)
+#define QWER_CSERVICEFRONTEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8AE40)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CServiceFrontend_TypeDefinitionIndex = 84135;
+	inline static constexpr unsigned int CServiceFrontend_TypeDefinitionIndex = 85863;
 
 	class CServiceFrontend : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADMONSTERSUMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB870E20)
+#define MOLEMOLE_PRELOADMONSTERSUMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B14BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadMonsterSummonConfig_TypeDefinitionIndex = 47605;
+	inline static constexpr unsigned int PreloadMonsterSummonConfig_TypeDefinitionIndex = 44212;
 
 	class PreloadMonsterSummonConfig : public ::System::Object
 	{

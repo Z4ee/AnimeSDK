@@ -5,7 +5,7 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int RBDBattleManager_Struct_2_FB463563CC2FB07B_TypeDefinitionIndex = 79132;
+	inline static constexpr unsigned int RBDBattleManager_Struct_2_FB463563CC2FB07B_TypeDefinitionIndex = 69194;
 
 	struct alignas(4) RBDBattleManager_Struct_2_FB463563CC2FB07B
 	{

@@ -7,23 +7,23 @@ namespace MoleMole { class UITape3DModelController; }
 namespace MoleMole { class UITapesGroup3DModelController___c__DisplayClass39_0; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__CTOR_OFFSET UNITYSDK_OFFSET(0x990B8F0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x990BA30)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x990BCC0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x990BEB0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12E412D0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x12E41410)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x12E416A0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x12E41870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass39_1_TypeDefinitionIndex = 53114;
+	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass39_1_TypeDefinitionIndex = 46591;
 
 	class UITapesGroup3DModelController___c__DisplayClass39_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UITapesGroup3DModelController___c__DisplayClass39_0* CS___8__locals1; // 0x10
-		::MoleMole::UITape3DModelController* initCenterTape; // 0x18
-		::MoleMole::UIMainStoryPageController* mainStoryPage; // 0x20
-		::System::Action* __9__3; // 0x28
-		::System::Action* __9__4; // 0x30
+		::System::Action* __9__4; // 0x10
+		::System::Action* __9__3; // 0x18
+		::MoleMole::UITape3DModelController* initCenterTape; // 0x20
+		::MoleMole::UITapesGroup3DModelController___c__DisplayClass39_0* CS___8__locals1; // 0x28
+		::MoleMole::UIMainStoryPageController* mainStoryPage; // 0x30
 
 		::System::Void _ctor()
 		{

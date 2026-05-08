@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_3_F35B080B137ECC46;
+class Class_3_DFD5D1FDB9D2A4AC;
 namespace MoleMole { class MonoEntityModelModifier_ColliderInfo; }
 namespace MoleMole { class MonoEntityModelModifier_ConfigModifier; }
 namespace MoleMole::Battle { class Entity; }
@@ -11,28 +11,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_APPLYMODIFIER_OFFSET UNITYSDK_OFFSET(0x75B30A0)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_EMPTY_OFFSET UNITYSDK_OFFSET(0x75B29D0)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x75B2B00)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_1750D05A3312F1DF_OFFSET UNITYSDK_OFFSET(0xA46EA00)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_C0C10A44C13EACB9_OFFSET UNITYSDK_OFFSET(0x75B34A0)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_F923708780263D4C_OFFSET UNITYSDK_OFFSET(0xA46EB10)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x75B2E40)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x75B2C50)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_REMOVEMODIFIER_OFFSET UNITYSDK_OFFSET(0x75B3330)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x75B3400)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x75B3390)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_APPLYMODIFIER_OFFSET UNITYSDK_OFFSET(0x12F9EF40)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_EMPTY_OFFSET UNITYSDK_OFFSET(0x12F9EA70)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x12F9EB80)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_00E3CB98672EAAF8_OFFSET UNITYSDK_OFFSET(0x12F9F1E0)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_1750D05A3312F1DF_OFFSET UNITYSDK_OFFSET(0x12FA0860)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_6807236CD968DC6B_OFFSET UNITYSDK_OFFSET(0x12FA0AC0)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12F9EDC0)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12F9ECB0)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_REMOVEMODIFIER_OFFSET UNITYSDK_OFFSET(0x12FA0950)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12FA0A20)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x12FA0990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntityModelModifier_TypeDefinitionIndex = 77112;
+	inline static constexpr unsigned int MonoEntityModelModifier_TypeDefinitionIndex = 55088;
 
 	class MonoEntityModelModifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityModelModifier*>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityModelModifier*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEntityModelModifier_TypeDefinitionIndex)->GetStaticField(0x45F40);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityModelModifier*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEntityModelModifier_TypeDefinitionIndex)->GetStaticField(0x469D0);
 		}
 		::System::String* _originPoint; // 0x18
 		::System::String* _controlPoint1; // 0x20
@@ -70,9 +70,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void ApplyModifier(::Class_3_F35B080B137ECC46* a1)
+		::System::Void ApplyModifier(::Class_3_DFD5D1FDB9D2A4AC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F35B080B137ECC46*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_APPLYMODIFIER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_3_DFD5D1FDB9D2A4AC*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_APPLYMODIFIER_OFFSET))(this, a1);
 		}
 
 		::System::Void RemoveModifier()
@@ -80,19 +80,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_REMOVEMODIFIER_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C0C10A44C13EACB9(::UnityEngine::Collider* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_C0C10A44C13EACB9_OFFSET))(this, a1, a2, a3, a4);
-		}
-
 		::System::Void Method_5_1750D05A3312F1DF(::MoleMole::Battle::Entity* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_1750D05A3312F1DF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_5_F923708780263D4C(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
+		::System::Void Method_5_00E3CB98672EAAF8(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_F923708780263D4C_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_00E3CB98672EAAF8_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Method_5_6807236CD968DC6B(::UnityEngine::Collider* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYMODELMODIFIER_METHOD_5_6807236CD968DC6B_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

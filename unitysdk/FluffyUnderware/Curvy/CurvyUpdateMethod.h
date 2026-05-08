@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyUpdateMethod_TypeDefinitionIndex = 36646;
+	inline static constexpr unsigned int CurvyUpdateMethod_TypeDefinitionIndex = 37190;
 
 	enum class CurvyUpdateMethod : ::System::Int32
 	{

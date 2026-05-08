@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigUIEndFunctionNode; }
 namespace MoleMole::Config { class ConfigUIStartFunctionNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIANIMATIONFUNCTIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x81F2E80)
+#define MOLEMOLE_CONFIG_CONFIGUIANIMATIONFUNCTIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0C550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIAnimationFunctionSet_TypeDefinitionIndex = 50659;
+	inline static constexpr unsigned int ConfigUIAnimationFunctionSet_TypeDefinitionIndex = 82711;
 
 	class ConfigUIAnimationFunctionSet : public ::System::Object
 	{

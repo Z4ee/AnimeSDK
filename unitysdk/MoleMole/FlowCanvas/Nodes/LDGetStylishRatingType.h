@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHRATINGTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0xEC830B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHRATINGTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC832D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHRATINGTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18208E30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHRATINGTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18209010)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetStylishRatingType_TypeDefinitionIndex = 39279;
+	inline static constexpr unsigned int LDGetStylishRatingType_TypeDefinitionIndex = 52297;
 
 	class LDGetStylishRatingType : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::Level::RatingType>
 	{

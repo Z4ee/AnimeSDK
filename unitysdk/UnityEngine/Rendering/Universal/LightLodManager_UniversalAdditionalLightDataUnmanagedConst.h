@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightLodManager_LightOptimizeConfigsUnmanaged.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UNIVERSALADDITIONALLIGHTDATAUNMANAGEDCONST_GET_ISRTXONLYLIGHT_OFFSET UNITYSDK_OFFSET(0x7D3A70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UNIVERSALADDITIONALLIGHTDATAUNMANAGEDCONST_GET_ISRTXONLYLIGHT_OFFSET UNITYSDK_OFFSET(0x86AB70)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLodManager_UniversalAdditionalLightDataUnmanagedConst_TypeDefinitionIndex = 29497;
+	inline static constexpr unsigned int LightLodManager_UniversalAdditionalLightDataUnmanagedConst_TypeDefinitionIndex = 30025;
 
 	struct alignas(4) LightLodManager_UniversalAdditionalLightDataUnmanagedConst
 	{

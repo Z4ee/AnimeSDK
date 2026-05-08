@@ -14,21 +14,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C9C1270C25522B27_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8AE75B0)
-#define CLASS_1_C9C1270C25522B27_METHOD_1_43EE3FCF0FBC04F6_OFFSET UNITYSDK_OFFSET(0x8AE7E50)
-#define CLASS_1_C9C1270C25522B27_METHOD_1_5022DB1DC5AA8CB4_OFFSET UNITYSDK_OFFSET(0x8AE7D70)
-#define CLASS_1_C9C1270C25522B27_METHOD_1_902F31EB43538568_OFFSET UNITYSDK_OFFSET(0x8AE7A50)
-#define CLASS_1_C9C1270C25522B27_METHOD_1_F4BEA52645AF31AB_OFFSET UNITYSDK_OFFSET(0x8AE77E0)
-#define CLASS_1_C9C1270C25522B27__CTOR_OFFSET UNITYSDK_OFFSET(0x8AE7A40)
+#define CLASS_1_C9C1270C25522B27_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13576B10)
+#define CLASS_1_C9C1270C25522B27_METHOD_1_09ABBA5088B6E51D_OFFSET UNITYSDK_OFFSET(0x13577320)
+#define CLASS_1_C9C1270C25522B27_METHOD_1_43EE3FCF0FBC04F6_OFFSET UNITYSDK_OFFSET(0x13576F80)
+#define CLASS_1_C9C1270C25522B27_METHOD_1_5022DB1DC5AA8CB4_OFFSET UNITYSDK_OFFSET(0x13577600)
+#define CLASS_1_C9C1270C25522B27_METHOD_1_F4BEA52645AF31AB_OFFSET UNITYSDK_OFFSET(0x13576D30)
+#define CLASS_1_C9C1270C25522B27__CTOR_OFFSET UNITYSDK_OFFSET(0x13576F70)
 
-inline static constexpr unsigned int Class_1_C9C1270C25522B27_TypeDefinitionIndex = 56014;
+inline static constexpr unsigned int Class_1_C9C1270C25522B27_TypeDefinitionIndex = 68815;
 
 class Class_1_C9C1270C25522B27 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Class_1_C9C1270C25522B27_Struct_2_A04296399100074C>*>* Field_1_2; // 0x10
-	::Class_1_E3019CE6003C7D3C* Field_1_0; // 0x18
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_1; // 0x20
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_1; // 0x18
+	::Class_1_E3019CE6003C7D3C* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -45,9 +45,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::ValueTuple_2<::System::String*, ::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>*>>*))((::PBYTE)hIl2Cpp + CLASS_1_C9C1270C25522B27_METHOD_1_F4BEA52645AF31AB_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_902F31EB43538568(::System::Int32 a1)
+	::System::Void Method_1_43EE3FCF0FBC04F6(::System::Action_1<::System::Int32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C9C1270C25522B27_METHOD_1_902F31EB43538568_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_C9C1270C25522B27_METHOD_1_43EE3FCF0FBC04F6_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_5022DB1DC5AA8CB4(::Class_1_E3019CE6003C7D3C* a1)
@@ -55,8 +55,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_E3019CE6003C7D3C*))((::PBYTE)hIl2Cpp + CLASS_1_C9C1270C25522B27_METHOD_1_5022DB1DC5AA8CB4_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_43EE3FCF0FBC04F6(::System::Action_1<::System::Int32>* a1)
+	::System::Void Method_1_09ABBA5088B6E51D(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_C9C1270C25522B27_METHOD_1_43EE3FCF0FBC04F6_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C9C1270C25522B27_METHOD_1_09ABBA5088B6E51D_OFFSET))(this, a1);
 	}
 };

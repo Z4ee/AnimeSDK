@@ -6,12 +6,12 @@ namespace FlexBuffers { class FlexBuffer; }
 namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 
-#define FLEXBUFFERS_XMLTOFLEXBUFFERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1A861160)
-#define FLEXBUFFERS_XMLTOFLEXBUFFERCONVERTER_PROCESS_OFFSET UNITYSDK_OFFSET(0x1A861330)
+#define FLEXBUFFERS_XMLTOFLEXBUFFERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1B21C4F0)
+#define FLEXBUFFERS_XMLTOFLEXBUFFERCONVERTER_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B21C6F0)
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int XmlToFlexBufferConverter_TypeDefinitionIndex = 8764;
+	inline static constexpr unsigned int XmlToFlexBufferConverter_TypeDefinitionIndex = 8775;
 
 	class XmlToFlexBufferConverter : public ::System::Object
 	{

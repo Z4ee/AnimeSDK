@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TriggerBase_2_Event_TypeDefinitionIndex = 7699;
+	inline static constexpr unsigned int TriggerBase_2_Event_TypeDefinitionIndex = 7769;
 
 	template <typename Key, typename Action>
 	class TriggerBase_2_Event : public ::System::Object

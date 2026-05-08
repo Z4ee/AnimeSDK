@@ -9,11 +9,11 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1B74F520)
-#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1B74F530)
-#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1B74F670)
-#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B74F840)
-#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B74F800)
+#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1C5165C0)
+#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1C5165D0)
+#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1C516740)
+#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C516930)
+#define SIRENIX_SERIALIZATION_ANIMATIONCURVEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5168D0)
 
 namespace Sirenix::Serialization
 {
@@ -22,13 +22,13 @@ namespace Sirenix::Serialization
 	class AnimationCurveFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::AnimationCurve*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::WrapMode>** StaticGet_WrapModeSerializer()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::WrapMode>**)Il2CppClass::FromTypeDefinitionIndex(AnimationCurveFormatter_TypeDefinitionIndex)->GetStaticField(0x63A0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::Il2CppArray<::UnityEngine::Keyframe>*>** StaticGet_KeyframeSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::Il2CppArray<::UnityEngine::Keyframe>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationCurveFormatter_TypeDefinitionIndex)->GetStaticField(0x63A8);
+			return (::Sirenix::Serialization::Serializer_1<::Il2CppArray<::UnityEngine::Keyframe>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationCurveFormatter_TypeDefinitionIndex)->GetStaticField(0x63A0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::WrapMode>** StaticGet_WrapModeSerializer()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::WrapMode>**)Il2CppClass::FromTypeDefinitionIndex(AnimationCurveFormatter_TypeDefinitionIndex)->GetStaticField(0x63A8);
 		}
 
 		::System::Void _ctor()

@@ -3,11 +3,11 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIScroller_MovementType_TypeDefinitionIndex = 46234;
+	inline static constexpr unsigned int UIScroller_MovementType_TypeDefinitionIndex = 68554;
 
 	enum class UIScroller_MovementType : ::System::Int32
 	{
-		Elastic = 0,
 		Clamped = 1,
+		Elastic = 0,
 	};
 }

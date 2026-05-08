@@ -5,19 +5,19 @@
 namespace MoleMole { class UIThreeDMapConfig; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
-template <typename T> class Class_1_A599CE44492C337E;
+template <typename T> class Class_1_0663552609274C64;
 
-#define CLASS_1_FCCAFAFEDD17B2C1__CTOR_OFFSET UNITYSDK_OFFSET(0xDC07AD0)
+#define CLASS_1_FCCAFAFEDD17B2C1__CTOR_OFFSET UNITYSDK_OFFSET(0xEAA72E0)
 
-inline static constexpr unsigned int Class_1_FCCAFAFEDD17B2C1_TypeDefinitionIndex = 64768;
+inline static constexpr unsigned int Class_1_FCCAFAFEDD17B2C1_TypeDefinitionIndex = 42236;
 
 class Class_1_FCCAFAFEDD17B2C1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
-	::Class_1_A599CE44492C337E<::UnityEngine::GameObject*>* Field_1_0; // 0x18
+	::Class_1_0663552609274C64<::UnityEngine::GameObject*>* Field_1_0; // 0x10
+	::MoleMole::UIThreeDMapConfig* Field_1_3; // 0x18
 	::UnityEngine::GameObject* Field_1_1; // 0x20
-	::MoleMole::UIThreeDMapConfig* Field_1_3; // 0x28
+	::System::String* Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -13,36 +13,36 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_MACROS_MACRO_ADDEXAMPLEPORTS_OFFSET UNITYSDK_OFFSET(0x19545B80)
-#define FLOWCANVAS_MACROS_MACRO_ADDINPUTDEFINITION_OFFSET UNITYSDK_OFFSET(0x195458F0)
-#define FLOWCANVAS_MACROS_MACRO_ADDOUTPUTDEFINITION_OFFSET UNITYSDK_OFFSET(0x19545A30)
-#define FLOWCANVAS_MACROS_MACRO_CALLFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x19545D10)
-#define FLOWCANVAS_MACROS_MACRO_GET_ALLOWBLACKBOARDOVERRIDES_OFFSET UNITYSDK_OFFSET(0x195455D0)
-#define FLOWCANVAS_MACROS_MACRO_GET_BINDMACRONODEWRAPPERID_OFFSET UNITYSDK_OFFSET(0x195455E0)
-#define FLOWCANVAS_MACROS_MACRO_GET_ENTRY_OFFSET UNITYSDK_OFFSET(0x19545600)
-#define FLOWCANVAS_MACROS_MACRO_GET_EXIT_OFFSET UNITYSDK_OFFSET(0x19545750)
-#define FLOWCANVAS_MACROS_MACRO_ONDERIVEDDATADESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x19545540)
-#define FLOWCANVAS_MACROS_MACRO_ONDERIVEDDATASERIALIZATION_OFFSET UNITYSDK_OFFSET(0x19545510)
-#define FLOWCANVAS_MACROS_MACRO_ONGRAPHVALIDATE_OFFSET UNITYSDK_OFFSET(0x195458B0)
-#define FLOWCANVAS_MACROS_MACRO_SET_BINDMACRONODEWRAPPERID_OFFSET UNITYSDK_OFFSET(0x195455F0)
-#define FLOWCANVAS_MACROS_MACRO__CTOR_OFFSET UNITYSDK_OFFSET(0x19545EC0)
+#define FLOWCANVAS_MACROS_MACRO_ADDEXAMPLEPORTS_OFFSET UNITYSDK_OFFSET(0x1A293040)
+#define FLOWCANVAS_MACROS_MACRO_ADDINPUTDEFINITION_OFFSET UNITYSDK_OFFSET(0x1A292DB0)
+#define FLOWCANVAS_MACROS_MACRO_ADDOUTPUTDEFINITION_OFFSET UNITYSDK_OFFSET(0x1A292EF0)
+#define FLOWCANVAS_MACROS_MACRO_CALLFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x1A293210)
+#define FLOWCANVAS_MACROS_MACRO_GET_ALLOWBLACKBOARDOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1A292A90)
+#define FLOWCANVAS_MACROS_MACRO_GET_BINDMACRONODEWRAPPERID_OFFSET UNITYSDK_OFFSET(0x1A292AA0)
+#define FLOWCANVAS_MACROS_MACRO_GET_ENTRY_OFFSET UNITYSDK_OFFSET(0x1A292AC0)
+#define FLOWCANVAS_MACROS_MACRO_GET_EXIT_OFFSET UNITYSDK_OFFSET(0x1A292C10)
+#define FLOWCANVAS_MACROS_MACRO_ONDERIVEDDATADESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1A2929F0)
+#define FLOWCANVAS_MACROS_MACRO_ONDERIVEDDATASERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1A292990)
+#define FLOWCANVAS_MACROS_MACRO_ONGRAPHVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A292D70)
+#define FLOWCANVAS_MACROS_MACRO_SET_BINDMACRONODEWRAPPERID_OFFSET UNITYSDK_OFFSET(0x1A292AB0)
+#define FLOWCANVAS_MACROS_MACRO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A293400)
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int Macro_TypeDefinitionIndex = 27021;
+	inline static constexpr unsigned int Macro_TypeDefinitionIndex = 26770;
 
 	class Macro : public ::FlowCanvas::FlowScriptBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::ParadoxNotion::DynamicParameterDefinition*>* inputDefinitions; // 0xD0
-		::System::Collections::Generic::List_1<::ParadoxNotion::DynamicParameterDefinition*>* outputDefinitions; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowHandler*>* entryActionMap; // 0xE0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowHandler*>* exitActionMap; // 0xE8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::ValueHandlerObject*>* entryFunctionMap; // 0xF0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::ValueHandlerObject*>* exitFunctionMap; // 0xF8
-		::FlowCanvas::Macros::MacroInputNode* _entry; // 0x100
-		::FlowCanvas::Macros::MacroOutputNode* _exit; // 0x108
-		::System::Int32 _BindMacroNodeWrapperID_k__BackingField; // 0x110
+		::System::Collections::Generic::List_1<::ParadoxNotion::DynamicParameterDefinition*>* inputDefinitions; // 0xE0
+		::System::Collections::Generic::List_1<::ParadoxNotion::DynamicParameterDefinition*>* outputDefinitions; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowHandler*>* entryActionMap; // 0xF0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowHandler*>* exitActionMap; // 0xF8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::ValueHandlerObject*>* entryFunctionMap; // 0x100
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::ValueHandlerObject*>* exitFunctionMap; // 0x108
+		::FlowCanvas::Macros::MacroInputNode* _entry; // 0x110
+		::FlowCanvas::Macros::MacroOutputNode* _exit; // 0x118
+		::System::Int32 _BindMacroNodeWrapperID_k__BackingField; // 0x120
 
 		::System::Void _ctor()
 		{

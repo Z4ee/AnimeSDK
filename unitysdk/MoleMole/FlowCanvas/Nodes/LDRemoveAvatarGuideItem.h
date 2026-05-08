@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEAVATARGUIDEITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0xB830FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEAVATARGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB8311A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEAVATARGUIDEITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x17809420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEAVATARGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17809650)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRemoveAvatarGuideItem_TypeDefinitionIndex = 71891;
+	inline static constexpr unsigned int LDRemoveAvatarGuideItem_TypeDefinitionIndex = 40984;
 
 	class LDRemoveAvatarGuideItem : public ::FlowCanvas::Nodes::CallableActionNode_1<::MoleMole::Battle::Entity*>
 	{

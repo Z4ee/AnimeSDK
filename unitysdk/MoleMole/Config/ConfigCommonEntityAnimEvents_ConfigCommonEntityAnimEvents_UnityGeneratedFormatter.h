@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCAE3990)
-#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCAE39A0)
-#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCAE3AF0)
-#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAE3C50)
-#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE3C10)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF97A4A0)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF97A4B0)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF97A5E0)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF97A720)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS_CONFIGCOMMONENTITYANIMEVENTS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF97A6E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCommonEntityAnimEvents_ConfigCommonEntityAnimEvents_UnityGeneratedFormatter_TypeDefinitionIndex = 64551;
+	inline static constexpr unsigned int ConfigCommonEntityAnimEvents_ConfigCommonEntityAnimEvents_UnityGeneratedFormatter_TypeDefinitionIndex = 46549;
 
 	class ConfigCommonEntityAnimEvents_ConfigCommonEntityAnimEvents_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigCommonEntityAnimEvents*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCommonEntityAnimEvents_ConfigCommonEntityAnimEvents_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45CC0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCommonEntityAnimEvents_ConfigCommonEntityAnimEvents_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x46770);
 		}
 
 		::System::Void _ctor()

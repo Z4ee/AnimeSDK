@@ -8,12 +8,12 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Component; }
 
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F5D923F335A9E58D_OFFSET UNITYSDK_OFFSET(0x3BDD00)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F8D316A5E44BFFD9_OFFSET UNITYSDK_OFFSET(0x3BDCE0)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F5D923F335A9E58D_OFFSET UNITYSDK_OFFSET(0x79C0A0)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F8D316A5E44BFFD9_OFFSET UNITYSDK_OFFSET(0x79C0C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4_TypeDefinitionIndex = 57276;
+	inline static constexpr unsigned int UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4_TypeDefinitionIndex = 59064;
 
 	struct alignas(8) UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4
 	{
@@ -23,14 +23,14 @@ namespace MoleMole
 		::UnityEngine::Color Field_2_3; // 0x2C
 		::UnityEngine::Color Field_2_4; // 0x3C
 
-		::System::Void Method_2_F8D316A5E44BFFD9(::UnityEngine::Color a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F8D316A5E44BFFD9_OFFSET))(this, a1);
-		}
-
 		::UnityEngine::Color Method_2_F5D923F335A9E58D()
 		{
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F5D923F335A9E58D_OFFSET))(this);
+		}
+
+		::System::Void Method_2_F8D316A5E44BFFD9(::UnityEngine::Color a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_STRUCT_2_B6CC7A1324E97FE4_METHOD_2_F8D316A5E44BFFD9_OFFSET))(this, a1);
 		}
 	};
 }

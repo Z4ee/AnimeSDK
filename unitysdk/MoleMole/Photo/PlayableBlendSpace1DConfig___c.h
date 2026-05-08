@@ -7,29 +7,29 @@ namespace MoleMole::Photo { class BlendSpace1DSample; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA658890)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA6588D0)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__INITIALIZE_B__10_0_OFFSET UNITYSDK_OFFSET(0xA6588E0)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__REQUESTMEMORY_B__12_0_OFFSET UNITYSDK_OFFSET(0xA658930)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x138696E0)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13869720)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__INITIALIZE_B__10_0_OFFSET UNITYSDK_OFFSET(0x13869730)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG___C__REQUESTMEMORY_B__12_0_OFFSET UNITYSDK_OFFSET(0x13869790)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableBlendSpace1DConfig___c_TypeDefinitionIndex = 51840;
+	inline static constexpr unsigned int PlayableBlendSpace1DConfig___c_TypeDefinitionIndex = 48145;
 
 	class PlayableBlendSpace1DConfig___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::Int32>>** StaticGet___9__10_0()
+		static ::MoleMole::Photo::PlayableBlendSpace1DConfig___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(PlayableBlendSpace1DConfig___c_TypeDefinitionIndex)->GetStaticField(0x40490);
+			return (::MoleMole::Photo::PlayableBlendSpace1DConfig___c**)Il2CppClass::FromTypeDefinitionIndex(PlayableBlendSpace1DConfig___c_TypeDefinitionIndex)->GetStaticField(0x40540);
 		}
 		static ::System::Func_2<::MoleMole::Photo::BlendSpace1DSample*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::MoleMole::Photo::BlendSpace1DSample*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlayableBlendSpace1DConfig___c_TypeDefinitionIndex)->GetStaticField(0x40498);
+			return (::System::Func_2<::MoleMole::Photo::BlendSpace1DSample*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlayableBlendSpace1DConfig___c_TypeDefinitionIndex)->GetStaticField(0x40548);
 		}
-		static ::MoleMole::Photo::PlayableBlendSpace1DConfig___c** StaticGet___9()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::Int32>>** StaticGet___9__10_0()
 		{
-			return (::MoleMole::Photo::PlayableBlendSpace1DConfig___c**)Il2CppClass::FromTypeDefinitionIndex(PlayableBlendSpace1DConfig___c_TypeDefinitionIndex)->GetStaticField(0x404A0);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(PlayableBlendSpace1DConfig___c_TypeDefinitionIndex)->GetStaticField(0x40550);
 		}
 
 		static ::System::Void _cctor()

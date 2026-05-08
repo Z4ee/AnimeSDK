@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageData_TypeDefinitionIndex = 53852;
+	inline static constexpr unsigned int MontageData_TypeDefinitionIndex = 68227;
 
 	struct alignas(8) MontageData
 	{

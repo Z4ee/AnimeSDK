@@ -6,8 +6,8 @@ namespace System::Dynamic { class DynamicMetaObject; }
 namespace System::Dynamic { class DynamicObject_MetaDynamic; }
 namespace System::Dynamic { class SetIndexBinder; }
 
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS12_0__BINDSETINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1B35D460)
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35D450)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS12_0__BINDSETINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1C0024E0)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0024D0)
 
 namespace System::Dynamic
 {
@@ -16,8 +16,8 @@ namespace System::Dynamic
 	class DynamicObject_MetaDynamic___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Dynamic::DynamicMetaObject*>* localIndexes; // 0x10
-		::System::Dynamic::DynamicMetaObject* localValue; // 0x18
+		::System::Dynamic::DynamicMetaObject* localValue; // 0x10
+		::Il2CppArray<::System::Dynamic::DynamicMetaObject*>* localIndexes; // 0x18
 
 		::System::Void _ctor()
 		{

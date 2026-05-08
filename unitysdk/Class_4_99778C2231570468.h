@@ -3,7 +3,7 @@
 #include "unitysdk/Class_3_4F3537D1CE4F6317.h"
 #include "unitysdk/Enum_3_B6A163368DEBFA20.h"
 
-class Class_0_16E4307DCC419505_376;
+class Class_0_16E4307DCC419505_242;
 class Class_1_6A3A26AD0CB7F995;
 class Class_2_3EB92686D65E00AD;
 class MonoCustomPropertyUIControllerBase;
@@ -21,7 +21,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_4_99778C2231570468_TypeDefinitionIndex = 72407;
+inline static constexpr unsigned int Class_4_99778C2231570468_TypeDefinitionIndex = 43609;
 
 template <typename T>
 class Class_4_99778C2231570468 : public ::Class_3_4F3537D1CE4F6317<T>

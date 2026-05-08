@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_6C100683412065D7_Class_2_64BF5C9CD45A0BD0;
+class Class_2_720FD421F092FF93_Class_2_64BF5C9CD45A0BD0;
 namespace MoleMole { class UIFashionStoreTrackSelectDialogPopWindowController; }
 
-#define MOLEMOLE_UIFASHIONSTORETRACKSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD120A00)
-#define MOLEMOLE_UIFASHIONSTORETRACKSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__ONSELECTTRACKTYPEITEM_B__0_OFFSET UNITYSDK_OFFSET(0xD120A10)
+#define MOLEMOLE_UIFASHIONSTORETRACKSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC34D0)
+#define MOLEMOLE_UIFASHIONSTORETRACKSELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__ONSELECTTRACKTYPEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x16CC34E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreTrackSelectDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 37917;
+	inline static constexpr unsigned int UIFashionStoreTrackSelectDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 57521;
 
 	class UIFashionStoreTrackSelectDialogPopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIFashionStoreTrackSelectDialogPopWindowController* __4__this; // 0x10
-		::Class_2_6C100683412065D7_Class_2_64BF5C9CD45A0BD0* item; // 0x18
+		::Class_2_720FD421F092FF93_Class_2_64BF5C9CD45A0BD0* item; // 0x18
 
 		::System::Void _ctor()
 		{

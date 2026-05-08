@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NET_MIME_MAILBNFHELPER_CHECKFORUNICODE_OFFSET UNITYSDK_OFFSET(0x187DE900)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_GETDATETIMESTRING_OFFSET UNITYSDK_OFFSET(0x187DE3D0)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_GETTOKENORQUOTEDSTRING_OFFSET UNITYSDK_OFFSET(0x187DAB40)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_HASCRORLF_OFFSET UNITYSDK_OFFSET(0x187DAAF0)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_ISFWSAT_OFFSET UNITYSDK_OFFSET(0x187DEA00)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_READPARAMETERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x187DB5C0)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_READQUOTEDSTRING_1_OFFSET UNITYSDK_OFFSET(0x187DDDF0)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_READQUOTEDSTRING_OFFSET UNITYSDK_OFFSET(0x187DB650)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_READTOKEN_OFFSET UNITYSDK_OFFSET(0x187DB0C0)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_SKIPCFWS_OFFSET UNITYSDK_OFFSET(0x187DB380)
-#define SYSTEM_NET_MIME_MAILBNFHELPER_VALIDATEHEADERNAME_OFFSET UNITYSDK_OFFSET(0x187DDBE0)
-#define SYSTEM_NET_MIME_MAILBNFHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x187DB8B0)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_CHECKFORUNICODE_OFFSET UNITYSDK_OFFSET(0x18FBE920)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_GETDATETIMESTRING_OFFSET UNITYSDK_OFFSET(0x18FBE0C0)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_GETTOKENORQUOTEDSTRING_OFFSET UNITYSDK_OFFSET(0x18FBA1B0)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_HASCRORLF_OFFSET UNITYSDK_OFFSET(0x18FBA100)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_ISFWSAT_OFFSET UNITYSDK_OFFSET(0x18FBEA20)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_READPARAMETERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18FBB080)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_READQUOTEDSTRING_1_OFFSET UNITYSDK_OFFSET(0x18FBD940)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_READQUOTEDSTRING_OFFSET UNITYSDK_OFFSET(0x18FBB110)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_READTOKEN_OFFSET UNITYSDK_OFFSET(0x18FBA910)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_SKIPCFWS_OFFSET UNITYSDK_OFFSET(0x18FBAC30)
+#define SYSTEM_NET_MIME_MAILBNFHELPER_VALIDATEHEADERNAME_OFFSET UNITYSDK_OFFSET(0x18FBD6C0)
+#define SYSTEM_NET_MIME_MAILBNFHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FBB390)
 
 namespace System::Net::Mime
 {
@@ -27,15 +27,15 @@ namespace System::Net::Mime
 	class MailBnfHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Boolean>** StaticGet_Ftext()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_Ttext()
 		{
 			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27C0);
 		}
-		static ::Il2CppArray<::System::Boolean>** StaticGet_Qtext()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_Atext()
 		{
 			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27C8);
 		}
-		static ::Il2CppArray<::System::Boolean>** StaticGet_Atext()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_Ftext()
 		{
 			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27D0);
 		}
@@ -43,11 +43,11 @@ namespace System::Net::Mime
 		{
 			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27D8);
 		}
-		static ::System::Collections::Generic::IList_1<::System::Char>** StaticGet_Whitespace()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_Ctext()
 		{
-			return (::System::Collections::Generic::IList_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27E0);
+			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27E0);
 		}
-		static ::Il2CppArray<::System::Boolean>** StaticGet_Ttext()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_Qtext()
 		{
 			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27E8);
 		}
@@ -55,27 +55,31 @@ namespace System::Net::Mime
 		{
 			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27F0);
 		}
-		static ::Il2CppArray<::System::Boolean>** StaticGet_Ctext()
+		static ::System::Collections::Generic::IList_1<::System::Char>** StaticGet_Whitespace()
 		{
-			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27F8);
+			return (::System::Collections::Generic::IList_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x27F8);
 		}
 		static ::System::Char* StaticGet_EndAngleBracket()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1030);
 		}
-		static ::System::Char* StaticGet_CR()
+		static ::System::Char* StaticGet_LF()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1032);
 		}
-		static ::System::Int32* StaticGet_Ascii7bitMaxValue()
+		static ::System::Char* StaticGet_StartComment()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1034);
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1034);
 		}
-		static ::System::Char* StaticGet_At()
+		static ::System::Char* StaticGet_Tab()
+		{
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1036);
+		}
+		static ::System::Char* StaticGet_EndSquareBracket()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1038);
 		}
-		static ::System::Char* StaticGet_LF()
+		static ::System::Char* StaticGet_StartSquareBracket()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x103A);
 		}
@@ -83,43 +87,39 @@ namespace System::Net::Mime
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x103C);
 		}
-		static ::System::Char* StaticGet_Tab()
+		static ::System::Char* StaticGet_EndComment()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x103E);
 		}
-		static ::System::Char* StaticGet_StartAngleBracket()
+		static ::System::Char* StaticGet_Comma()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1040);
 		}
-		static ::System::Char* StaticGet_StartSquareBracket()
+		static ::System::Char* StaticGet_Space()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1042);
 		}
-		static ::System::Char* StaticGet_Comma()
+		static ::System::Int32* StaticGet_Ascii7bitMaxValue()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1044);
-		}
-		static ::System::Char* StaticGet_StartComment()
-		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1046);
-		}
-		static ::System::Char* StaticGet_EndSquareBracket()
-		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1048);
-		}
-		static ::System::Char* StaticGet_Backslash()
-		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x104A);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1044);
 		}
 		static ::System::Char* StaticGet_Dot()
 		{
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1048);
+		}
+		static ::System::Char* StaticGet_CR()
+		{
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x104A);
+		}
+		static ::System::Char* StaticGet_Backslash()
+		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x104C);
 		}
-		static ::System::Char* StaticGet_Space()
+		static ::System::Char* StaticGet_StartAngleBracket()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x104E);
 		}
-		static ::System::Char* StaticGet_EndComment()
+		static ::System::Char* StaticGet_At()
 		{
 			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(MailBnfHelper_TypeDefinitionIndex)->GetStaticField(0x1050);
 		}

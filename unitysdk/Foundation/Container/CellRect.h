@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_CONTAINER_CELLRECT_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x96EF70)
+#define FOUNDATION_CONTAINER_CELLRECT_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x99F7C0)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int CellRect_TypeDefinitionIndex = 9105;
+	inline static constexpr unsigned int CellRect_TypeDefinitionIndex = 8930;
 
 	struct alignas(4) CellRect
 	{

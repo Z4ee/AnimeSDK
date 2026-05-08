@@ -10,7 +10,7 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int TaskBasedEventCollection_1_TypeDefinitionIndex = 48330;
+	inline static constexpr unsigned int TaskBasedEventCollection_1_TypeDefinitionIndex = 74073;
 
 	template <typename T>
 	class TaskBasedEventCollection_1 : public ::System::Object

@@ -5,34 +5,34 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_303;
+class Class_0_16E4307DCC419505_227;
 namespace MoleMole::Config { class SceneEntityCutSceneConfig; }
 namespace MoleMole::Config { class ScenePeformAnimatorParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_INIT_OFFSET UNITYSDK_OFFSET(0xACD92B0)
-#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_FLOWCANVASDELAYTIME_OFFSET UNITYSDK_OFFSET(0xACD94D0)
-#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_INPUTMUTEDELAYTIME_OFFSET UNITYSDK_OFFSET(0xACD9460)
-#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_SHOWUIDELAYTIME_OFFSET UNITYSDK_OFFSET(0xACD9540)
-#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET UNITYSDK_OFFSET(0xACD95B0)
-#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xACD96E0)
+#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_INIT_OFFSET UNITYSDK_OFFSET(0x17548E20)
+#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_FLOWCANVASDELAYTIME_OFFSET UNITYSDK_OFFSET(0x17549020)
+#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_INPUTMUTEDELAYTIME_OFFSET UNITYSDK_OFFSET(0x17548FD0)
+#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_SHOWUIDELAYTIME_OFFSET UNITYSDK_OFFSET(0x17549070)
+#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET UNITYSDK_OFFSET(0x175490C0)
+#define MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175491D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneAvatarPerformConfig_TypeDefinitionIndex = 48659;
+	inline static constexpr unsigned int SceneAvatarPerformConfig_TypeDefinitionIndex = 43879;
 
 	class SceneAvatarPerformConfig : public ::System::Object
 	{
 	public:
 		::System::String* CameraShotKey; // 0x10
 		::System::Collections::Generic::List_1<::Il2CppArray<::MoleMole::Config::ScenePeformAnimatorParam*>*>* AnimParams; // 0x18
-		::System::Single ShowUIDelayTime; // 0x20
-		::System::Boolean EntityVisible; // 0x24
-		::System::Boolean IsGroupShotData; // 0x25
-		::MoleMole::Config::CutSceneEndMode finishMode; // 0x26
-		::System::Single FlowCanvasDelayTime; // 0x28
-		::System::Single InputMuteDelayTime; // 0x2C
+		::System::Single InputMuteDelayTime; // 0x20
+		::System::Single FlowCanvasDelayTime; // 0x24
+		::System::Boolean IsGroupShotData; // 0x28
+		::System::Boolean EntityVisible; // 0x29
+		::MoleMole::Config::CutSceneEndMode finishMode; // 0x2A
+		::System::Single ShowUIDelayTime; // 0x2C
 
 		::System::Void _ctor()
 		{
@@ -59,9 +59,9 @@ namespace MoleMole::Config
 			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_SHOWUIDELAYTIME_OFFSET))(this);
 		}
 
-		::System::Void MoleMole_Config_IScenePerformConfig_Setup(::Class_0_16E4307DCC419505_303* node)
+		::System::Void MoleMole_Config_IScenePerformConfig_Setup(::Class_0_16E4307DCC419505_227* node)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_303*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_227*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SCENEAVATARPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET))(this, node);
 		}
 	};
 }

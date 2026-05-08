@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION_GETLIGHTDIRECTION_OFFSET UNITYSDK_OFFSET(0x18D2F830)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18D2FE40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION_GETLIGHTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1A30C650)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30CC60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentEExtension_TypeDefinitionIndex = 29402;
+	inline static constexpr unsigned int VisualEnvironmentEExtension_TypeDefinitionIndex = 29921;
 
 	class VisualEnvironmentEExtension : public ::UnityEngine::MonoBehaviour
 	{

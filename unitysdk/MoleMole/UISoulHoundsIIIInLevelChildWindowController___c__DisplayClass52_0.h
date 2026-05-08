@@ -5,18 +5,18 @@
 namespace MoleMole { class MonoSoulHoundScore; }
 namespace MoleMole { class UISoulHoundsIIIInLevelChildWindowController; }
 
-#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x86912F0)
-#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__ONGETSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x8691300)
+#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D71470)
+#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__ONGETSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x14D71480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISoulHoundsIIIInLevelChildWindowController___c__DisplayClass52_0_TypeDefinitionIndex = 38010;
+	inline static constexpr unsigned int UISoulHoundsIIIInLevelChildWindowController___c__DisplayClass52_0_TypeDefinitionIndex = 80229;
 
 	class UISoulHoundsIIIInLevelChildWindowController___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::MonoSoulHoundScore* scoreComponent; // 0x10
-		::MoleMole::UISoulHoundsIIIInLevelChildWindowController* __4__this; // 0x18
+		::MoleMole::UISoulHoundsIIIInLevelChildWindowController* __4__this; // 0x10
+		::MoleMole::MonoSoulHoundScore* scoreComponent; // 0x18
 
 		::System::Void _ctor()
 		{

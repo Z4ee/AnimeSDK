@@ -4,12 +4,12 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTELEPORT_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x9500A60)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x9500AF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTELEPORT_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1241DEF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1241DF60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowTeleport_TypeDefinitionIndex = 65803;
+	inline static constexpr unsigned int ConfigHollowTeleport_TypeDefinitionIndex = 65097;
 
 	class ConfigHollowTeleport : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

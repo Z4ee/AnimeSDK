@@ -5,26 +5,26 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_B36CB1F1D5FEB799_3;
-class Class_3_F67472AB575CAD5E_Class_1_E79766713E2BB8FD_1;
+class Class_3_B36CB1F1D5FEB799;
+class Class_3_F67472AB575CAD5E_Class_1_E79766713E2BB8FD_2;
 namespace MoleMole::Battle { class Entity; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_3_F67472AB575CAD5E_STRUCT_2_924D74DEF49F3BD4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x356770)
-#define CLASS_3_F67472AB575CAD5E_STRUCT_2_924D74DEF49F3BD4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_3_F67472AB575CAD5E_STRUCT_2_924D74DEF49F3BD4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x759C10)
+#define CLASS_3_F67472AB575CAD5E_STRUCT_2_924D74DEF49F3BD4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_3_F67472AB575CAD5E_Struct_2_924D74DEF49F3BD4_TypeDefinitionIndex = 40873;
+inline static constexpr unsigned int Class_3_F67472AB575CAD5E_Struct_2_924D74DEF49F3BD4_TypeDefinitionIndex = 71136;
 
 struct alignas(8) Class_3_F67472AB575CAD5E_Struct_2_924D74DEF49F3BD4
 {
-	::Class_3_F67472AB575CAD5E_Class_1_E79766713E2BB8FD_1* Field_2_7; // 0x10
-	::Class_3_B36CB1F1D5FEB799_3* Field_2_2; // 0x18
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::MoleMole::Battle::Entity*> Field_2_1; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_8; // 0x38
-	::UnityEngine::Vector3 Field_2_5; // 0x48
-	::System::Single Field_2_6; // 0x54
-	::System::UInt32 Field_2_4; // 0x58
-	::System::Int32 Field_2_0; // 0x5C
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::MoleMole::Battle::Entity*> Field_2_1; // 0x10
+	::Class_3_F67472AB575CAD5E_Class_1_E79766713E2BB8FD_2* Field_2_7; // 0x28
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_8; // 0x30
+	::Class_3_B36CB1F1D5FEB799* Field_2_2; // 0x40
+	::System::Int32 Field_2_0; // 0x48
+	::System::UInt32 Field_2_4; // 0x4C
+	::System::Single Field_2_6; // 0x50
+	::UnityEngine::Vector3 Field_2_5; // 0x54
 	::System::UInt32 Field_2_3; // 0x60
 
 	::System::Void MoveNext()

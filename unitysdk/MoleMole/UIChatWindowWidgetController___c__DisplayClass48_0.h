@@ -5,12 +5,12 @@
 namespace MoleMole { class UIChatWindowWidgetController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UICHATWINDOWWIDGETCONTROLLER___C__DISPLAYCLASS48_0__CHECKFRIENDALLOWCOMM_B__0_OFFSET UNITYSDK_OFFSET(0xD9B39F0)
-#define MOLEMOLE_UICHATWINDOWWIDGETCONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9B39E0)
+#define MOLEMOLE_UICHATWINDOWWIDGETCONTROLLER___C__DISPLAYCLASS48_0__CHECKFRIENDALLOWCOMM_B__0_OFFSET UNITYSDK_OFFSET(0x142D9780)
+#define MOLEMOLE_UICHATWINDOWWIDGETCONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142D9770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatWindowWidgetController___c__DisplayClass48_0_TypeDefinitionIndex = 44642;
+	inline static constexpr unsigned int UIChatWindowWidgetController___c__DisplayClass48_0_TypeDefinitionIndex = 66838;
 
 	class UIChatWindowWidgetController___c__DisplayClass48_0 : public ::System::Object
 	{

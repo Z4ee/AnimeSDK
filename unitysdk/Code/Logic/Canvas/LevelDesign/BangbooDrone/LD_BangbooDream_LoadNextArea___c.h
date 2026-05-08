@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_BANGBOODRONE_LD_BANGBOODREAM_LOADNEXTAREA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x6D08AF0)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_BANGBOODRONE_LD_BANGBOODREAM_LOADNEXTAREA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x6D08B30)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_BANGBOODRONE_LD_BANGBOODREAM_LOADNEXTAREA___C__ONEVENTFROMANYONE_B__10_0_OFFSET UNITYSDK_OFFSET(0x6D08B40)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_BANGBOODRONE_LD_BANGBOODREAM_LOADNEXTAREA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x107ACBC0)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_BANGBOODRONE_LD_BANGBOODREAM_LOADNEXTAREA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x107ACC00)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_BANGBOODRONE_LD_BANGBOODREAM_LOADNEXTAREA___C__ONEVENTFROMANYONE_B__10_0_OFFSET UNITYSDK_OFFSET(0x107ACC10)
 
 namespace Code::Logic::Canvas::LevelDesign::BangbooDrone
 {
-	inline static constexpr unsigned int LD_BangbooDream_LoadNextArea___c_TypeDefinitionIndex = 45574;
+	inline static constexpr unsigned int LD_BangbooDream_LoadNextArea___c_TypeDefinitionIndex = 76266;
 
 	class LD_BangbooDream_LoadNextArea___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__10_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LD_BangbooDream_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x33190);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LD_BangbooDream_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x337D0);
 		}
 		static ::Code::Logic::Canvas::LevelDesign::BangbooDrone::LD_BangbooDream_LoadNextArea___c** StaticGet___9()
 		{
-			return (::Code::Logic::Canvas::LevelDesign::BangbooDrone::LD_BangbooDream_LoadNextArea___c**)Il2CppClass::FromTypeDefinitionIndex(LD_BangbooDream_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x33198);
+			return (::Code::Logic::Canvas::LevelDesign::BangbooDrone::LD_BangbooDream_LoadNextArea___c**)Il2CppClass::FromTypeDefinitionIndex(LD_BangbooDream_LoadNextArea___c_TypeDefinitionIndex)->GetStaticField(0x337D8);
 		}
 
 		static ::System::Void _cctor()

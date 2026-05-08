@@ -7,22 +7,22 @@ namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedQuaternion; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B225F50)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B225DA0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B225FE0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B226020)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B2260B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C055340)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C055190)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0553D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C055460)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLEAXIS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0554F0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityQuaternion
 {
-	inline static constexpr unsigned int AngleAxis_TypeDefinitionIndex = 31499;
+	inline static constexpr unsigned int AngleAxis_TypeDefinitionIndex = 32028;
 
 	class AngleAxis : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* degrees; // 0x58
-		::BehaviorDesigner::Runtime::SharedVector3* axis; // 0x60
-		::BehaviorDesigner::Runtime::SharedQuaternion* storeResult; // 0x68
+		::BehaviorDesigner::Runtime::SharedQuaternion* storeResult; // 0x58
+		::BehaviorDesigner::Runtime::SharedFloat* degrees; // 0x60
+		::BehaviorDesigner::Runtime::SharedVector3* axis; // 0x68
 
 		::System::Void _ctor()
 		{

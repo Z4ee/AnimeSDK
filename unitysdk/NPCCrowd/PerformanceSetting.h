@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int PerformanceSetting_TypeDefinitionIndex = 70111;
+	inline static constexpr unsigned int PerformanceSetting_TypeDefinitionIndex = 66853;
 
 	struct alignas(4) PerformanceSetting
 	{

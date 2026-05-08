@@ -4,9 +4,9 @@
 
 namespace System { class Action; }
 
-#define STRUCT_2_2D6C6E0450225B1E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x4C87A0)
+#define STRUCT_2_2D6C6E0450225B1E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x79FBD0)
 
-inline static constexpr unsigned int Struct_2_2D6C6E0450225B1E_TypeDefinitionIndex = 48469;
+inline static constexpr unsigned int Struct_2_2D6C6E0450225B1E_TypeDefinitionIndex = 74517;
 
 struct alignas(8) Struct_2_2D6C6E0450225B1E
 {

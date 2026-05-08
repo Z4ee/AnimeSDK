@@ -13,24 +13,24 @@ namespace System::Data { class DataRow; }
 namespace System::Data { class DataRowView; }
 namespace System::Data { class IFilter; }
 
-#define SYSTEM_DATA_RELATEDVIEW_ADDNEW_OFFSET UNITYSDK_OFFSET(0x1AA66630)
-#define SYSTEM_DATA_RELATEDVIEW_GETFILTER_OFFSET UNITYSDK_OFFSET(0x1AA66620)
-#define SYSTEM_DATA_RELATEDVIEW_GETPARENTVALUES_OFFSET UNITYSDK_OFFSET(0x1AA661D0)
-#define SYSTEM_DATA_RELATEDVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AA66310)
-#define SYSTEM_DATA_RELATEDVIEW_SETINDEX_OFFSET UNITYSDK_OFFSET(0x1AA667B0)
-#define SYSTEM_DATA_RELATEDVIEW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AA660B0)
-#define SYSTEM_DATA_RELATEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA65F70)
+#define SYSTEM_DATA_RELATEDVIEW_ADDNEW_OFFSET UNITYSDK_OFFSET(0x1B74A390)
+#define SYSTEM_DATA_RELATEDVIEW_GETFILTER_OFFSET UNITYSDK_OFFSET(0x1B74A380)
+#define SYSTEM_DATA_RELATEDVIEW_GETPARENTVALUES_OFFSET UNITYSDK_OFFSET(0x1B749F30)
+#define SYSTEM_DATA_RELATEDVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B74A070)
+#define SYSTEM_DATA_RELATEDVIEW_SETINDEX_OFFSET UNITYSDK_OFFSET(0x1B74A510)
+#define SYSTEM_DATA_RELATEDVIEW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B749E10)
+#define SYSTEM_DATA_RELATEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B749CD0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RelatedView_TypeDefinitionIndex = 36510;
+	inline static constexpr unsigned int RelatedView_TypeDefinitionIndex = 37054;
 
 	class RelatedView : public ::System::Data::DataView
 	{
 	public:
-		::System::Data::DataRowView* _parentRowView; // 0xC0
-		::System::Nullable_1<::System::Data::DataKey> _parentKey; // 0xC8
-		::System::Data::DataKey _childKey; // 0xD8
+		::System::Nullable_1<::System::Data::DataKey> _parentKey; // 0xC0
+		::System::Data::DataKey _childKey; // 0xD0
+		::System::Data::DataRowView* _parentRowView; // 0xD8
 		::Il2CppArray<::System::Object*>* _filterValues; // 0xE0
 
 		::System::Void _ctor(::Il2CppArray<::System::Data::DataColumn*>* columns, ::Il2CppArray<::System::Object*>* values)

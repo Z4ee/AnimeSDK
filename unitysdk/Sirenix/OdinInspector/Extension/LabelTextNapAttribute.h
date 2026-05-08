@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_EXTENSION_LABELTEXTNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A67E930)
+#define SIRENIX_ODININSPECTOR_EXTENSION_LABELTEXTNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0665E0)
 
 namespace Sirenix::OdinInspector::Extension
 {
-	inline static constexpr unsigned int LabelTextNapAttribute_TypeDefinitionIndex = 8322;
+	inline static constexpr unsigned int LabelTextNapAttribute_TypeDefinitionIndex = 8024;
 
 	class LabelTextNapAttribute : public ::System::Attribute
 	{

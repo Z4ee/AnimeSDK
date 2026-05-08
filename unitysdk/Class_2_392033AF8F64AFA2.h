@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_06946D1A8A6532A9.h"
+#include "unitysdk/Class_1_DA77831942E480A9.h"
 #include "unitysdk/Struct_2_563C52B0A258C324.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_392033AF8F64AFA2_METHOD_2_0566929124E8B06C_OFFSET UNITYSDK_OFFSET(0x19DE1C30)
-#define CLASS_2_392033AF8F64AFA2_METHOD_2_3D2B77EBCAE390AB_OFFSET UNITYSDK_OFFSET(0x19DE2190)
-#define CLASS_2_392033AF8F64AFA2_METHOD_2_41E71D31F5015962_OFFSET UNITYSDK_OFFSET(0x19DE21B0)
-#define CLASS_2_392033AF8F64AFA2_METHOD_2_5B7F4BAD2E1A0BDD_OFFSET UNITYSDK_OFFSET(0x19DE2320)
-#define CLASS_2_392033AF8F64AFA2_METHOD_2_73052712910A9EE7_OFFSET UNITYSDK_OFFSET(0x19DE1E00)
-#define CLASS_2_392033AF8F64AFA2_METHOD_2_85E43FE58216B6E3_OFFSET UNITYSDK_OFFSET(0x19DE21A0)
-#define CLASS_2_392033AF8F64AFA2__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE2050)
+#define CLASS_2_392033AF8F64AFA2_METHOD_2_0566929124E8B06C_OFFSET UNITYSDK_OFFSET(0x1BF96D30)
+#define CLASS_2_392033AF8F64AFA2_METHOD_2_41E71D31F5015962_OFFSET UNITYSDK_OFFSET(0x1BF972A0)
+#define CLASS_2_392033AF8F64AFA2_METHOD_2_73052712910A9EE7_OFFSET UNITYSDK_OFFSET(0x1BF96F00)
+#define CLASS_2_392033AF8F64AFA2_METHOD_2_7EA545246C6F682E_OFFSET UNITYSDK_OFFSET(0x1BF97410)
+#define CLASS_2_392033AF8F64AFA2_METHOD_2_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0x1BF97290)
+#define CLASS_2_392033AF8F64AFA2_METHOD_2_FF4860CC84583E17_OFFSET UNITYSDK_OFFSET(0x1BF97420)
+#define CLASS_2_392033AF8F64AFA2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF97150)
 
-inline static constexpr unsigned int Class_2_392033AF8F64AFA2_TypeDefinitionIndex = 83498;
+inline static constexpr unsigned int Class_2_392033AF8F64AFA2_TypeDefinitionIndex = 85224;
 
-class Class_2_392033AF8F64AFA2 : public ::Class_1_06946D1A8A6532A9
+class Class_2_392033AF8F64AFA2 : public ::Class_1_DA77831942E480A9
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Struct_2_563C52B0A258C324>* Field_2_1; // 0x68
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_06946D1A8A6532A9*>* Field_2_0; // 0x70
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_DA77831942E480A9*>* Field_2_0; // 0x68
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Struct_2_563C52B0A258C324>* Field_2_1; // 0x70
 
 	::System::Void _ctor()
 	{
@@ -38,14 +38,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_73052712910A9EE7_OFFSET))(this);
 	}
 
-	::System::Void Method_2_3D2B77EBCAE390AB()
+	::System::Void Method_2_DF3C54A5ADEABAF1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_3D2B77EBCAE390AB_OFFSET))(this);
-	}
-
-	::System::Void Method_2_85E43FE58216B6E3(::System::Int32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_85E43FE58216B6E3_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_DF3C54A5ADEABAF1_OFFSET))(this);
 	}
 
 	::System::Void Method_2_41E71D31F5015962(::System::String* a1)
@@ -53,8 +48,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_41E71D31F5015962_OFFSET))(this, a1);
 	}
 
-	static ::Class_2_392033AF8F64AFA2* Method_2_5B7F4BAD2E1A0BDD(::System::Collections::Generic::List_1<::Struct_2_563C52B0A258C324>* a1)
+	::System::Void Method_2_7EA545246C6F682E(::System::Int32 a1)
 	{
-		return ((::Class_2_392033AF8F64AFA2*(*)(::System::Collections::Generic::List_1<::Struct_2_563C52B0A258C324>*))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_5B7F4BAD2E1A0BDD_OFFSET))(a1);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_7EA545246C6F682E_OFFSET))(this, a1);
+	}
+
+	static ::Class_2_392033AF8F64AFA2* Method_2_FF4860CC84583E17(::System::Collections::Generic::List_1<::Struct_2_563C52B0A258C324>* a1)
+	{
+		return ((::Class_2_392033AF8F64AFA2*(*)(::System::Collections::Generic::List_1<::Struct_2_563C52B0A258C324>*))((::PBYTE)hIl2Cpp + CLASS_2_392033AF8F64AFA2_METHOD_2_FF4860CC84583E17_OFFSET))(a1);
 	}
 };

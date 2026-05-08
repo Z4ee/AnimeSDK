@@ -5,24 +5,24 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_GENERALDETAILLOGINCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB83A1E0)
+#define MOLEMOLE_GENERALDETAILLOGINCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17811C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralDetailLoginContext_TypeDefinitionIndex = 67390;
+	inline static constexpr unsigned int GeneralDetailLoginContext_TypeDefinitionIndex = 70973;
 
 	class GeneralDetailLoginContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* dialog_subTitle; // 0x28
-		::System::String* content_title; // 0x30
-		::System::String* dialog_title; // 0x38
-		::System::Action* OkBtnCb; // 0x40
-		::System::String* content; // 0x48
-		::System::Action* CancelBtnCb; // 0x50
+		::System::String* content_title; // 0x28
+		::System::String* dialog_title; // 0x30
+		::System::String* content; // 0x38
+		::System::String* dialog_subTitle; // 0x40
+		::System::Action* CancelBtnCb; // 0x48
+		::System::Action* OkBtnCb; // 0x50
 		::System::Boolean DisableContentAutoAdjustText; // 0x58
-		::System::Boolean OkBtnCloseSelf; // 0x59
-		::System::Boolean CancelBtnCloseSelf; // 0x5A
+		::System::Boolean CancelBtnCloseSelf; // 0x59
+		::System::Boolean OkBtnCloseSelf; // 0x5A
 
 		::System::Void _ctor()
 		{

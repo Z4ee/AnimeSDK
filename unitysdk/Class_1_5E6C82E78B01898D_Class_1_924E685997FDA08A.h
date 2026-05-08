@@ -6,16 +6,16 @@ namespace MoleMole::Cameras { class VNoiseSettings; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5E6C82E78B01898D_CLASS_1_924E685997FDA08A_METHOD_1_2EF7520697B2890A_OFFSET UNITYSDK_OFFSET(0xB571D70)
-#define CLASS_1_5E6C82E78B01898D_CLASS_1_924E685997FDA08A__CTOR_OFFSET UNITYSDK_OFFSET(0xB571D60)
+#define CLASS_1_5E6C82E78B01898D_CLASS_1_924E685997FDA08A_METHOD_1_2EF7520697B2890A_OFFSET UNITYSDK_OFFSET(0x1790DC60)
+#define CLASS_1_5E6C82E78B01898D_CLASS_1_924E685997FDA08A__CTOR_OFFSET UNITYSDK_OFFSET(0x1790DC50)
 
-inline static constexpr unsigned int Class_1_5E6C82E78B01898D_Class_1_924E685997FDA08A_TypeDefinitionIndex = 53761;
+inline static constexpr unsigned int Class_1_5E6C82E78B01898D_Class_1_924E685997FDA08A_TypeDefinitionIndex = 51991;
 
 class Class_1_5E6C82E78B01898D_Class_1_924E685997FDA08A : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::Cameras::VNoiseSettings*>* Field_1_2; // 0x10
-	::System::Action* Field_1_1; // 0x18
+	::System::Action* Field_1_1; // 0x10
+	::System::Action_1<::MoleMole::Cameras::VNoiseSettings*>* Field_1_2; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()

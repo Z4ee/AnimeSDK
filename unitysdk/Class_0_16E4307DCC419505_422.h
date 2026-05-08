@@ -1,14 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/Enum_3_64D062C4691F838C.h"
 
-namespace System { class String; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Func_2; }
+inline static constexpr unsigned int Class_0_16E4307DCC419505_422_TypeDefinitionIndex = 49611;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_422_TypeDefinitionIndex = 48424;
-
-template <typename T, typename TFilter>
 class Class_0_16E4307DCC419505_422
 {
 public:

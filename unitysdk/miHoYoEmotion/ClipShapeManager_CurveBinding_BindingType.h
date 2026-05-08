@@ -3,7 +3,7 @@
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeManager_CurveBinding_BindingType_TypeDefinitionIndex = 37160;
+	inline static constexpr unsigned int ClipShapeManager_CurveBinding_BindingType_TypeDefinitionIndex = 37704;
 
 	enum class ClipShapeManager_CurveBinding_BindingType : ::System::Int32
 	{

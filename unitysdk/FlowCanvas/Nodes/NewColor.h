@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_5.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define FLOWCANVAS_NODES_NEWCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A119860)
-#define FLOWCANVAS_NODES_NEWCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A119890)
+#define FLOWCANVAS_NODES_NEWCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B458F70)
+#define FLOWCANVAS_NODES_NEWCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B458FA0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewColor_TypeDefinitionIndex = 26417;
+	inline static constexpr unsigned int NewColor_TypeDefinitionIndex = 26825;
 
 	class NewColor : public ::FlowCanvas::Nodes::PureFunctionNode_5<::UnityEngine::Color, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
 	{

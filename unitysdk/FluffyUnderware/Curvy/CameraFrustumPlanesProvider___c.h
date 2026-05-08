@@ -4,20 +4,20 @@
 
 namespace FluffyUnderware::Curvy { class CameraFrustumPlanesProvider; }
 
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A590930)
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A590970)
-#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1A590980)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B21C9B0)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21C9F0)
+#define FLUFFYUNDERWARE_CURVY_CAMERAFRUSTUMPLANESPROVIDER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1B21CA00)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CameraFrustumPlanesProvider___c_TypeDefinitionIndex = 36633;
+	inline static constexpr unsigned int CameraFrustumPlanesProvider___c_TypeDefinitionIndex = 37177;
 
 	class CameraFrustumPlanesProvider___c : public ::System::Object
 	{
 	public:
 		static ::FluffyUnderware::Curvy::CameraFrustumPlanesProvider___c** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::CameraFrustumPlanesProvider___c**)Il2CppClass::FromTypeDefinitionIndex(CameraFrustumPlanesProvider___c_TypeDefinitionIndex)->GetStaticField(0x26B10);
+			return (::FluffyUnderware::Curvy::CameraFrustumPlanesProvider___c**)Il2CppClass::FromTypeDefinitionIndex(CameraFrustumPlanesProvider___c_TypeDefinitionIndex)->GetStaticField(0x276C0);
 		}
 
 		static ::System::Void _cctor()

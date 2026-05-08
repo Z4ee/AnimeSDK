@@ -25,6 +25,7 @@ namespace UnityEngine::Rendering
 		::System::Boolean useAutoExposure; // 0x2F
 		::System::Boolean useHudlessColor; // 0x30
 		::System::Boolean useOffScreenUI; // 0x31
+		::System::Boolean useReactiveMask; // 0x32
 		::UnityEngine::Rendering::FSRConstants constants; // 0x34
 		::UnityEngine::Rendering::RenderTargetIdentifier colorIn; // 0x1E0
 		::UnityEngine::Rendering::RenderTargetIdentifier colorOut; // 0x208
@@ -34,5 +35,6 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::RenderTargetIdentifier frameGenMotion; // 0x2A8
 		::UnityEngine::Rendering::RenderTargetIdentifier hudlessColor; // 0x2D0
 		::UnityEngine::Rendering::RenderTargetIdentifier offScreenUI; // 0x2F8
+		::UnityEngine::Rendering::RenderTargetIdentifier reactiveMask; // 0x320
 	};
 }

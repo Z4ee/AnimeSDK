@@ -5,13 +5,13 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BC8760)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CHECKCONSOLEPAY_B__9_1_OFFSET UNITYSDK_OFFSET(0x18BC87B0)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC87A0)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A50D1D0)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CHECKCONSOLEPAY_B__9_1_OFFSET UNITYSDK_OFFSET(0x1A50D220)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50D210)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int PayManagerPS___c_TypeDefinitionIndex = 19346;
+	inline static constexpr unsigned int PayManagerPS___c_TypeDefinitionIndex = 19703;
 
 	class PayManagerPS___c : public ::System::Object
 	{

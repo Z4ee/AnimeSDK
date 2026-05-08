@@ -3,35 +3,35 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
 
-#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKCOMPUTESHADERSUPPORT_OFFSET UNITYSDK_OFFSET(0x182D5920)
-#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKGEOMETRYSHADERSUPPORT_OFFSET UNITYSDK_OFFSET(0x182D58D0)
-#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKGLAREFEATURESUPPORT_OFFSET UNITYSDK_OFFSET(0x182D5A70)
-#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKLENSFLAREFEATURESUPPORT_OFFSET UNITYSDK_OFFSET(0x182D5970)
-#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKSUPPORTEDRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x182D5B70)
-#define POSTPROCESS_MKGLOW_COMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x182D5C60)
+#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKCOMPUTESHADERSUPPORT_OFFSET UNITYSDK_OFFSET(0x19686390)
+#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKGEOMETRYSHADERSUPPORT_OFFSET UNITYSDK_OFFSET(0x19686340)
+#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKGLAREFEATURESUPPORT_OFFSET UNITYSDK_OFFSET(0x196864E0)
+#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKLENSFLAREFEATURESUPPORT_OFFSET UNITYSDK_OFFSET(0x196863E0)
+#define POSTPROCESS_MKGLOW_COMPATIBILITY_CHECKSUPPORTEDRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x196865E0)
+#define POSTPROCESS_MKGLOW_COMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x196866D0)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Compatibility_TypeDefinitionIndex = 29128;
+	inline static constexpr unsigned int Compatibility_TypeDefinitionIndex = 29647;
 
 	class Compatibility : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet__11R11G10BFormatSupported()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x6070);
-		}
-		static ::System::Boolean* StaticGet__defaultHDRFormatSupported()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x6071);
-		}
 		static ::System::Boolean* StaticGet__2A10R10G10BFormatSupported()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x6072);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x60A0);
+		}
+		static ::System::Boolean* StaticGet__11R11G10BFormatSupported()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x60A1);
 		}
 		static ::System::Boolean* StaticGet_IsSupported()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x6073);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x60A2);
+		}
+		static ::System::Boolean* StaticGet__defaultHDRFormatSupported()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Compatibility_TypeDefinitionIndex)->GetStaticField(0x60A3);
 		}
 
 		static ::System::Void _cctor()

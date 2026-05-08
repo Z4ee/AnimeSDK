@@ -7,8 +7,8 @@ namespace System::Net { class UploadDataCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D31F20)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__UPLOADDATATASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19D31F30)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA5730)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS237_0__UPLOADDATATASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1AAA5740)
 
 namespace System::Net
 {

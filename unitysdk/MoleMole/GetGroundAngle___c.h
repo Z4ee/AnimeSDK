@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_GETGROUNDANGLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8AF650)
-#define MOLEMOLE_GETGROUNDANGLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AF690)
-#define MOLEMOLE_GETGROUNDANGLE___C__FILTERRAYCASTBYDISTANCEANDTAG_B__7_0_OFFSET UNITYSDK_OFFSET(0xB8AF6A0)
+#define MOLEMOLE_GETGROUNDANGLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E59E50)
+#define MOLEMOLE_GETGROUNDANGLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16E59E90)
+#define MOLEMOLE_GETGROUNDANGLE___C__FILTERRAYCASTBYDISTANCEANDTAG_B__7_0_OFFSET UNITYSDK_OFFSET(0x16E59EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetGroundAngle___c_TypeDefinitionIndex = 49312;
+	inline static constexpr unsigned int GetGroundAngle___c_TypeDefinitionIndex = 61168;
 
 	class GetGroundAngle___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::UnityEngine::RaycastHit>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(GetGroundAngle___c_TypeDefinitionIndex)->GetStaticField(0x31730);
+			return (::System::Comparison_1<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(GetGroundAngle___c_TypeDefinitionIndex)->GetStaticField(0x323D0);
 		}
 		static ::MoleMole::GetGroundAngle___c** StaticGet___9()
 		{
-			return (::MoleMole::GetGroundAngle___c**)Il2CppClass::FromTypeDefinitionIndex(GetGroundAngle___c_TypeDefinitionIndex)->GetStaticField(0x31738);
+			return (::MoleMole::GetGroundAngle___c**)Il2CppClass::FromTypeDefinitionIndex(GetGroundAngle___c_TypeDefinitionIndex)->GetStaticField(0x323D8);
 		}
 
 		static ::System::Void _cctor()

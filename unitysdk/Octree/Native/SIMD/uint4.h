@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define OCTREE_NATIVE_SIMD_UINT4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A2B70)
-#define OCTREE_NATIVE_SIMD_UINT4_OP_EXCLUSIVEOR_OFFSET UNITYSDK_OFFSET(0xAE578E0)
-#define OCTREE_NATIVE_SIMD_UINT4__CTOR_OFFSET UNITYSDK_OFFSET(0x3A03E0)
+#define OCTREE_NATIVE_SIMD_UINT4_EQUALS_OFFSET UNITYSDK_OFFSET(0x6587C0)
+#define OCTREE_NATIVE_SIMD_UINT4_OP_EXCLUSIVEOR_OFFSET UNITYSDK_OFFSET(0xF0B1530)
+#define OCTREE_NATIVE_SIMD_UINT4__CTOR_OFFSET UNITYSDK_OFFSET(0x6587A0)
 
 namespace Octree::Native::SIMD
 {
-	inline static constexpr unsigned int uint4_TypeDefinitionIndex = 38467;
+	inline static constexpr unsigned int uint4_TypeDefinitionIndex = 66521;
 
 	struct alignas(4) uint4
 	{

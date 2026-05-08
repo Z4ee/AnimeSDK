@@ -7,11 +7,11 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEMULTIPLEPOINTSINCOREPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A617430)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEMULTIPLEPOINTSINCOREPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11DCD0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FrameMultiplePointsInCorePolicy_TypeDefinitionIndex = 35759;
+	inline static constexpr unsigned int FrameMultiplePointsInCorePolicy_TypeDefinitionIndex = 36303;
 
 	class FrameMultiplePointsInCorePolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider
 	{

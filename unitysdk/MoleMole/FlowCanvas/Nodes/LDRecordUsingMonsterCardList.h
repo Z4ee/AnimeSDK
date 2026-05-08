@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDUSINGMONSTERCARDLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x6E85330)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDUSINGMONSTERCARDLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x6E855E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDUSINGMONSTERCARDLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1427EE80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDUSINGMONSTERCARDLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1427F0F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRecordUsingMonsterCardList_TypeDefinitionIndex = 69314;
+	inline static constexpr unsigned int LDRecordUsingMonsterCardList_TypeDefinitionIndex = 48846;
 
 	class LDRecordUsingMonsterCardList : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Collections::Generic::List_1<::System::Int32>*>
 	{

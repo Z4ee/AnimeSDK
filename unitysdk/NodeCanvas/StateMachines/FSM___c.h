@@ -7,34 +7,34 @@ namespace NodeCanvas::Framework { class Node; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NODECANVAS_STATEMACHINES_FSM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A48A680)
-#define NODECANVAS_STATEMACHINES_FSM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A48A6C0)
-#define NODECANVAS_STATEMACHINES_FSM___C__GETSTATENAMES_B__46_0_OFFSET UNITYSDK_OFFSET(0x1A48A7A0)
-#define NODECANVAS_STATEMACHINES_FSM___C__GETSTATENAMES_B__46_1_OFFSET UNITYSDK_OFFSET(0x1A48A810)
-#define NODECANVAS_STATEMACHINES_FSM___C__ONGRAPHUPDATE_B__42_0_OFFSET UNITYSDK_OFFSET(0x1A48A6D0)
+#define NODECANVAS_STATEMACHINES_FSM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFCF310)
+#define NODECANVAS_STATEMACHINES_FSM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCF350)
+#define NODECANVAS_STATEMACHINES_FSM___C__GETSTATENAMES_B__46_0_OFFSET UNITYSDK_OFFSET(0x1AFCF430)
+#define NODECANVAS_STATEMACHINES_FSM___C__GETSTATENAMES_B__46_1_OFFSET UNITYSDK_OFFSET(0x1AFCF4A0)
+#define NODECANVAS_STATEMACHINES_FSM___C__ONGRAPHUPDATE_B__42_0_OFFSET UNITYSDK_OFFSET(0x1AFCF360)
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int FSM___c_TypeDefinitionIndex = 26384;
+	inline static constexpr unsigned int FSM___c_TypeDefinitionIndex = 27564;
 
 	class FSM___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::String*>** StaticGet___9__46_1()
-		{
-			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x1FD90);
-		}
 		static ::System::Func_2<::NodeCanvas::Framework::IUpdatable*, ::System::Boolean>** StaticGet___9__42_0()
 		{
-			return (::System::Func_2<::NodeCanvas::Framework::IUpdatable*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x1FD98);
+			return (::System::Func_2<::NodeCanvas::Framework::IUpdatable*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x209B0);
 		}
 		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x1FDA0);
+			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x209B8);
 		}
 		static ::NodeCanvas::StateMachines::FSM___c** StaticGet___9()
 		{
-			return (::NodeCanvas::StateMachines::FSM___c**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x1FDA8);
+			return (::NodeCanvas::StateMachines::FSM___c**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x209C0);
+		}
+		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::String*>** StaticGet___9__46_1()
+		{
+			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FSM___c_TypeDefinitionIndex)->GetStaticField(0x209C8);
 		}
 
 		static ::System::Void _cctor()

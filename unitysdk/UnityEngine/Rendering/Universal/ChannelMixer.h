@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ChannelMixer_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHANNELMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B33120)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHANNELMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B847E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ChannelMixer_TypeDefinitionIndex = 29577;
+	inline static constexpr unsigned int ChannelMixer_TypeDefinitionIndex = 30105;
 
 	class ChannelMixer : public ::UnityEngine::NAPRenderPipeline0::ChannelMixer_NativeSRP
 	{

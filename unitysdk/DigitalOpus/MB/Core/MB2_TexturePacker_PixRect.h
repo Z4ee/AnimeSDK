@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_PIXRECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A8FE0A0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_PIXRECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A8FE080)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_PIXRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FE070)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_PIXRECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B6DB850)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_PIXRECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B6DB830)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_PIXRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DB820)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_TexturePacker_PixRect_TypeDefinitionIndex = 83375;
+	inline static constexpr unsigned int MB2_TexturePacker_PixRect_TypeDefinitionIndex = 85103;
 
 	class MB2_TexturePacker_PixRect : public ::System::Object
 	{
 	public:
-		::System::Int32 w; // 0x10
-		::System::Int32 x; // 0x14
-		::System::Int32 h; // 0x18
-		::System::Int32 y; // 0x1C
+		::System::Int32 y; // 0x10
+		::System::Int32 h; // 0x14
+		::System::Int32 w; // 0x18
+		::System::Int32 x; // 0x1C
 
 		::System::Void _ctor()
 		{

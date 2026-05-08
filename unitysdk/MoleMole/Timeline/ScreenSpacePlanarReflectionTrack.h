@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xC330D60)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xC331030)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC331000)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15E5E810)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x15E5EAC0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5EA60)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ScreenSpacePlanarReflectionTrack_TypeDefinitionIndex = 68525;
+	inline static constexpr unsigned int ScreenSpacePlanarReflectionTrack_TypeDefinitionIndex = 57024;
 
 	class ScreenSpacePlanarReflectionTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

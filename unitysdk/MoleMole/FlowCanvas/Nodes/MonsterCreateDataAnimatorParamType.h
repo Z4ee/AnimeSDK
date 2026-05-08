@@ -3,13 +3,13 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterCreateDataAnimatorParamType_TypeDefinitionIndex = 42453;
+	inline static constexpr unsigned int MonsterCreateDataAnimatorParamType_TypeDefinitionIndex = 73713;
 
 	enum class MonsterCreateDataAnimatorParamType : ::System::Int32
 	{
-		Bool = 0,
-		Int = 2,
 		Trigger = 1,
+		Int = 2,
+		Bool = 0,
 		Float = 3,
 	};
 }

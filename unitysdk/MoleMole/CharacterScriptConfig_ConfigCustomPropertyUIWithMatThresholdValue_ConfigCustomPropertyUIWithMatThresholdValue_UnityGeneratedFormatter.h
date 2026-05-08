@@ -10,30 +10,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x84F7ED0)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x84F7EE0)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x84F86F0)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x84F8BD0)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x84F8B90)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xECF38E0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xECF38F0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xECF40D0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xECF4580)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_CONFIGCUSTOMPROPERTYUIWITHMATTHRESHOLDVALUE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xECF4540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex = 58772;
+	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex = 46571;
 
 	class CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D80);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x456D0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D88);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x456D8);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x43D90);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CharacterScriptConfig_ConfigCustomPropertyUIWithMatThresholdValue_ConfigCustomPropertyUIWithMatThresholdValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x456E0);
 		}
 
 		::System::Void _ctor()

@@ -6,25 +6,25 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xD809C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__CTOR_OFFSET UNITYSDK_OFFSET(0xD809D90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xD809DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0xD80A0A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0xD80A0E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18A46C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A46DD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x18A46E10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x18A47110)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTNEWBIE__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0x18A47150)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_StartNewbie_TypeDefinitionIndex = 59813;
+	inline static constexpr unsigned int LD_StartNewbie_TypeDefinitionIndex = 74084;
 
 	class LD_StartNewbie : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* _newbieConfigID; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _newbieCheckIndex; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _newbieConfigID; // 0xB0
 		::FlowCanvas::FlowOutput* _finishCall; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _doPauseGame; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Int32>* _newbieCheckIndex; // 0xC8
-		::FlowCanvas::FlowOutput* _closeCall; // 0xD0
+		::FlowCanvas::FlowOutput* _closeCall; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _doPauseGame; // 0xC8
+		::FlowCanvas::FlowOutput* _output; // 0xD0
 
 		::System::Void _ctor()
 		{

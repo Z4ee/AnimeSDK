@@ -6,24 +6,24 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AF6D020)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AF6D0C0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AF6D160)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AF6CF70)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6CEC0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BE39BA0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BE39C40)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BE39CD0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE39AF0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGDATAREQUESTRASTERIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE39A40)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGDataRequestRasterization_TypeDefinitionIndex = 36757;
+	inline static constexpr unsigned int CGDataRequestRasterization_TypeDefinitionIndex = 37301;
 
 	class CGDataRequestRasterization : public ::FluffyUnderware::Curvy::Generator::CGDataRequestParameter
 	{
 	public:
-		::System::Single Start; // 0x10
-		::FluffyUnderware::Curvy::Generator::CGDataRequestRasterization_ModeEnum Mode; // 0x14
-		::System::Single RasterizedRelativeLength; // 0x18
-		::System::Int32 Resolution; // 0x1C
-		::System::Single AngleThreshold; // 0x20
+		::System::Int32 Resolution; // 0x10
+		::System::Single RasterizedRelativeLength; // 0x14
+		::System::Single Start; // 0x18
+		::System::Single AngleThreshold; // 0x1C
+		::FluffyUnderware::Curvy::Generator::CGDataRequestRasterization_ModeEnum Mode; // 0x20
 
 		::System::Void _ctor(::System::Single start, ::System::Single rasterizedRelativeLength, ::System::Int32 resolution, ::System::Single angle, ::FluffyUnderware::Curvy::Generator::CGDataRequestRasterization_ModeEnum mode)
 		{

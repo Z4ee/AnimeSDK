@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Specialized { class ListDictionary; }
 
-#define SYSTEM_NET_KNOWNHTTPVERB_EQUALS_OFFSET UNITYSDK_OFFSET(0x193ADB50)
-#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x193ADB90)
-#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x193AD870)
-#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x193AD850)
+#define SYSTEM_NET_KNOWNHTTPVERB_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A1093D0)
+#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x1A109410)
+#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1090F0)
+#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1090D0)
 
 namespace System::Net
 {
@@ -17,39 +17,39 @@ namespace System::Net
 	class KnownHttpVerb : public ::System::Object
 	{
 	public:
-		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
+		static ::System::Collections::Specialized::ListDictionary** StaticGet_NamedHeaders()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2970);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Put()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2978);
+			return (::System::Collections::Specialized::ListDictionary**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2970);
 		}
 		static ::System::Net::KnownHttpVerb** StaticGet_MkCol()
 		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2978);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
+		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2980);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Post()
+		static ::System::Net::KnownHttpVerb** StaticGet_Put()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2988);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		static ::System::Net::KnownHttpVerb** StaticGet_Get()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2990);
 		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Get()
+		static ::System::Net::KnownHttpVerb** StaticGet_Post()
 		{
 			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x2998);
 		}
-		static ::System::Collections::Specialized::ListDictionary** StaticGet_NamedHeaders()
+		static ::System::Net::KnownHttpVerb** StaticGet_Head()
 		{
-			return (::System::Collections::Specialized::ListDictionary**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x29A0);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x29A0);
 		}
 		::System::String* Name; // 0x10
-		::System::Boolean ContentBodyNotAllowed; // 0x18
+		::System::Boolean ExpectNoContentResponse; // 0x18
 		::System::Boolean RequireContentBody; // 0x19
 		::System::Boolean ConnectRequest; // 0x1A
-		::System::Boolean ExpectNoContentResponse; // 0x1B
+		::System::Boolean ContentBodyNotAllowed; // 0x1B
 
 		::System::Void _ctor(::System::String* name, ::System::Boolean requireContentBody, ::System::Boolean contentBodyNotAllowed, ::System::Boolean connectRequest, ::System::Boolean expectNoContentResponse)
 		{

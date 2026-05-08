@@ -4,17 +4,17 @@
 
 class WeatherConfig;
 
-#define WEATHERCONFIGLERPUTILS_LERP_OFFSET UNITYSDK_OFFSET(0x17794FF0)
-#define WEATHERCONFIGLERPUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x177A8D60)
+#define WEATHERCONFIGLERPUTILS_LERP_OFFSET UNITYSDK_OFFSET(0x19002870)
+#define WEATHERCONFIGLERPUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19017070)
 
-inline static constexpr unsigned int WeatherConfigLerpUtils_TypeDefinitionIndex = 29007;
+inline static constexpr unsigned int WeatherConfigLerpUtils_TypeDefinitionIndex = 29526;
 
 class WeatherConfigLerpUtils : public ::System::Object
 {
 public:
 	static ::WeatherConfig** StaticGet_result()
 	{
-		return (::WeatherConfig**)Il2CppClass::FromTypeDefinitionIndex(WeatherConfigLerpUtils_TypeDefinitionIndex)->GetStaticField(0x227A0);
+		return (::WeatherConfig**)Il2CppClass::FromTypeDefinitionIndex(WeatherConfigLerpUtils_TypeDefinitionIndex)->GetStaticField(0x23310);
 	}
 
 	static ::System::Void _cctor()

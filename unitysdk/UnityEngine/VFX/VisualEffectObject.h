@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_VFX_VISUALEFFECTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B770070)
+#define UNITYENGINE_VFX_VISUALEFFECTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C558DA0)
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VisualEffectObject_TypeDefinitionIndex = 82509;
+	inline static constexpr unsigned int VisualEffectObject_TypeDefinitionIndex = 84237;
 
 	class VisualEffectObject : public ::UnityEngine::Object
 	{

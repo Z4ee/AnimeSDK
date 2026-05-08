@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBabeltowerFightingInfoWidgetController; }
 namespace MoleMole { class UIBabeltowerPageController; }
 
-#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC09D0B0)
-#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS36_0___OPENBABELTOWERFIGHTINGINFO_G__OPEN_0_OFFSET UNITYSDK_OFFSET(0xC09D0C0)
+#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E5E080)
+#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS36_0___OPENBABELTOWERFIGHTINGINFO_G__OPEN_0_OFFSET UNITYSDK_OFFSET(0x14E5E090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerPageController___c__DisplayClass36_0_TypeDefinitionIndex = 73536;
+	inline static constexpr unsigned int UIBabeltowerPageController___c__DisplayClass36_0_TypeDefinitionIndex = 66053;
 
 	class UIBabeltowerPageController___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBabeltowerFightingInfoWidgetController* ctrl; // 0x10
-		::MoleMole::UIBabeltowerPageController* __4__this; // 0x18
+		::MoleMole::UIBabeltowerPageController* __4__this; // 0x10
+		::MoleMole::UIBabeltowerFightingInfoWidgetController* ctrl; // 0x18
 		::System::Boolean directOpen; // 0x20
 
 		::System::Void _ctor()

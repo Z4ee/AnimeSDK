@@ -3,12 +3,12 @@
 #include "unitysdk/NodeCanvas/Framework/ActionTask.h"
 #include "unitysdk/ParadoxNotion/CompactStatus.h"
 
-#define NODECANVAS_TASKS_ACTIONS_FORCEFINISHGRAPH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A3AA630)
-#define NODECANVAS_TASKS_ACTIONS_FORCEFINISHGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AA7A0)
+#define NODECANVAS_TASKS_ACTIONS_FORCEFINISHGRAPH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B0B9090)
+#define NODECANVAS_TASKS_ACTIONS_FORCEFINISHGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B9320)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int ForceFinishGraph_TypeDefinitionIndex = 26998;
+	inline static constexpr unsigned int ForceFinishGraph_TypeDefinitionIndex = 27732;
 
 	class ForceFinishGraph : public ::NodeCanvas::Framework::ActionTask
 	{

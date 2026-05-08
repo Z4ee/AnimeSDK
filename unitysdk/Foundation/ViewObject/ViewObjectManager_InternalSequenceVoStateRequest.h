@@ -11,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_InternalSequenceVoStateRequest_TypeDefinitionIndex = 74564;
+	inline static constexpr unsigned int ViewObjectManager_InternalSequenceVoStateRequest_TypeDefinitionIndex = 66389;
 
 	struct alignas(8) ViewObjectManager_InternalSequenceVoStateRequest
 	{

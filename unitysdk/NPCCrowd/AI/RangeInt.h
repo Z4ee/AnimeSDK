@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 78854;
+	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 73061;
 
 	struct alignas(4) RangeInt
 	{

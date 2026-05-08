@@ -6,7 +6,7 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCapture_CaptureData_TypeDefinitionIndex = 29670;
+	inline static constexpr unsigned int NapCapture_CaptureData_TypeDefinitionIndex = 30198;
 
 	struct alignas(8) NapCapture_CaptureData
 	{

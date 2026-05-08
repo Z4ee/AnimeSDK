@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_DF25E9D434922D67.h"
+#include "unitysdk/Struct_2_59B8D4D1943D9E41.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::HollowChessboard { class MatPropertyData; }
@@ -8,16 +8,16 @@ namespace MoleMole::HollowChessboard { class PieceMaterialChangeEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_EBACA96C31DAB7D8_METHOD_1_A5453DCD1168E46B_OFFSET UNITYSDK_OFFSET(0xA8A01F0)
-#define CLASS_1_EBACA96C31DAB7D8__CTOR_OFFSET UNITYSDK_OFFSET(0xA8A01A0)
+#define CLASS_1_EBACA96C31DAB7D8_METHOD_1_A5453DCD1168E46B_OFFSET UNITYSDK_OFFSET(0x12C10910)
+#define CLASS_1_EBACA96C31DAB7D8__CTOR_OFFSET UNITYSDK_OFFSET(0x12C108C0)
 
-inline static constexpr unsigned int Class_1_EBACA96C31DAB7D8_TypeDefinitionIndex = 49155;
+inline static constexpr unsigned int Class_1_EBACA96C31DAB7D8_TypeDefinitionIndex = 66256;
 
 class Class_1_EBACA96C31DAB7D8 : public ::System::Object
 {
 public:
-	::Struct_2_DF25E9D434922D67 Field_1_1; // 0x10
-	::Struct_2_DF25E9D434922D67 Field_1_0; // 0x18
+	::Struct_2_59B8D4D1943D9E41 Field_1_0; // 0x10
+	::Struct_2_59B8D4D1943D9E41 Field_1_1; // 0x18
 
 	::System::Void _ctor(::MoleMole::HollowChessboard::PieceMaterialChangeEntry* a1)
 	{

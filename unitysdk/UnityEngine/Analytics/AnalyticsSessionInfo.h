@@ -7,23 +7,23 @@ namespace System { class String; }
 namespace UnityEngine::Analytics { class AnalyticsSessionInfo_IdentityTokenChanged; }
 namespace UnityEngine::Analytics { class AnalyticsSessionInfo_SessionStateChanged; }
 
-#define UNITYENGINE_ANALYTICS_ANALYTICSSESSIONINFO_CALLIDENTITYTOKENCHANGED_OFFSET UNITYSDK_OFFSET(0x1B75B4D0)
-#define UNITYENGINE_ANALYTICS_ANALYTICSSESSIONINFO_CALLSESSIONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x1B75B0A0)
+#define UNITYENGINE_ANALYTICS_ANALYTICSSESSIONINFO_CALLIDENTITYTOKENCHANGED_OFFSET UNITYSDK_OFFSET(0x1C535720)
+#define UNITYENGINE_ANALYTICS_ANALYTICSSESSIONINFO_CALLSESSIONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x1C535320)
 
 namespace UnityEngine::Analytics
 {
-	inline static constexpr unsigned int AnalyticsSessionInfo_TypeDefinitionIndex = 82498;
+	inline static constexpr unsigned int AnalyticsSessionInfo_TypeDefinitionIndex = 84226;
 
 	class AnalyticsSessionInfo : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Analytics::AnalyticsSessionInfo_IdentityTokenChanged** StaticGet_identityTokenChanged()
-		{
-			return (::UnityEngine::Analytics::AnalyticsSessionInfo_IdentityTokenChanged**)Il2CppClass::FromTypeDefinitionIndex(AnalyticsSessionInfo_TypeDefinitionIndex)->GetStaticField(0x47F90);
-		}
 		static ::UnityEngine::Analytics::AnalyticsSessionInfo_SessionStateChanged** StaticGet_sessionStateChanged()
 		{
-			return (::UnityEngine::Analytics::AnalyticsSessionInfo_SessionStateChanged**)Il2CppClass::FromTypeDefinitionIndex(AnalyticsSessionInfo_TypeDefinitionIndex)->GetStaticField(0x47F98);
+			return (::UnityEngine::Analytics::AnalyticsSessionInfo_SessionStateChanged**)Il2CppClass::FromTypeDefinitionIndex(AnalyticsSessionInfo_TypeDefinitionIndex)->GetStaticField(0x49B00);
+		}
+		static ::UnityEngine::Analytics::AnalyticsSessionInfo_IdentityTokenChanged** StaticGet_identityTokenChanged()
+		{
+			return (::UnityEngine::Analytics::AnalyticsSessionInfo_IdentityTokenChanged**)Il2CppClass::FromTypeDefinitionIndex(AnalyticsSessionInfo_TypeDefinitionIndex)->GetStaticField(0x49B08);
 		}
 
 		static ::System::Void CallSessionStateChanged(::UnityEngine::Analytics::AnalyticsSessionState sessionState, ::System::Int64 sessionId, ::System::Int64 sessionElapsedTime, ::System::Boolean sessionChanged)

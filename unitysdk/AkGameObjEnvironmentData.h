@@ -10,29 +10,29 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKGAMEOBJENVIRONMENTDATA_ADDAKENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1B548A90)
-#define AKGAMEOBJENVIRONMENTDATA_ADDHIGHESTPRIORITYENVIRONMENTSFROMPORTALS_OFFSET UNITYSDK_OFFSET(0x1B547AD0)
-#define AKGAMEOBJENVIRONMENTDATA_ADDHIGHESTPRIORITYENVIRONMENTS_OFFSET UNITYSDK_OFFSET(0x1B5484D0)
-#define AKGAMEOBJENVIRONMENTDATA_AKENVIRONMENTBELONGSTOACTIVEPORTALS_OFFSET UNITYSDK_OFFSET(0x1B548C60)
-#define AKGAMEOBJENVIRONMENTDATA_REMOVEAKENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1B548F20)
-#define AKGAMEOBJENVIRONMENTDATA_REMOVEENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1B548A10)
-#define AKGAMEOBJENVIRONMENTDATA_TRYADDENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1B548880)
-#define AKGAMEOBJENVIRONMENTDATA_UPDATEAUXSEND_OFFSET UNITYSDK_OFFSET(0x1B548790)
-#define AKGAMEOBJENVIRONMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5495D0)
+#define AKGAMEOBJENVIRONMENTDATA_ADDAKENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1C29F460)
+#define AKGAMEOBJENVIRONMENTDATA_ADDHIGHESTPRIORITYENVIRONMENTSFROMPORTALS_OFFSET UNITYSDK_OFFSET(0x1C29E240)
+#define AKGAMEOBJENVIRONMENTDATA_ADDHIGHESTPRIORITYENVIRONMENTS_OFFSET UNITYSDK_OFFSET(0x1C29EDC0)
+#define AKGAMEOBJENVIRONMENTDATA_AKENVIRONMENTBELONGSTOACTIVEPORTALS_OFFSET UNITYSDK_OFFSET(0x1C29F6E0)
+#define AKGAMEOBJENVIRONMENTDATA_REMOVEAKENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1C29F850)
+#define AKGAMEOBJENVIRONMENTDATA_REMOVEENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1C29F3E0)
+#define AKGAMEOBJENVIRONMENTDATA_TRYADDENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1C29F1A0)
+#define AKGAMEOBJENVIRONMENTDATA_UPDATEAUXSEND_OFFSET UNITYSDK_OFFSET(0x1C29F0B0)
+#define AKGAMEOBJENVIRONMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A00F0)
 
-inline static constexpr unsigned int AkGameObjEnvironmentData_TypeDefinitionIndex = 31072;
+inline static constexpr unsigned int AkGameObjEnvironmentData_TypeDefinitionIndex = 31601;
 
 class AkGameObjEnvironmentData : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::AkEnvironmentPortal*>* activePortals; // 0x10
-	::System::Collections::Generic::List_1<::AkEnvironment*>* activeEnvironments; // 0x18
-	::System::Collections::Generic::List_1<::AkEnvironment*>* activeEnvironmentsFromPortals; // 0x20
-	::AkAuxSendArray* auxSendValues; // 0x28
-	::UnityEngine::Vector3 lastPosition; // 0x30
-	::System::Boolean hasEnvironmentListChanged; // 0x3C
-	::System::Boolean hasActivePortalListChanged; // 0x3D
-	::System::Boolean hasSentZero; // 0x3E
+	::AkAuxSendArray* auxSendValues; // 0x10
+	::System::Collections::Generic::List_1<::AkEnvironmentPortal*>* activePortals; // 0x18
+	::System::Collections::Generic::List_1<::AkEnvironment*>* activeEnvironments; // 0x20
+	::System::Collections::Generic::List_1<::AkEnvironment*>* activeEnvironmentsFromPortals; // 0x28
+	::System::Boolean hasSentZero; // 0x30
+	::System::Boolean hasActivePortalListChanged; // 0x31
+	::System::Boolean hasEnvironmentListChanged; // 0x32
+	::UnityEngine::Vector3 lastPosition; // 0x34
 
 	::System::Void _ctor()
 	{

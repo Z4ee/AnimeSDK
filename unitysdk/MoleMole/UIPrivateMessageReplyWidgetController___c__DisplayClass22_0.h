@@ -5,18 +5,18 @@
 class Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866;
 namespace MoleMole { class UIPrivateMessageReplyWidgetController; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CHANGEREPLYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xA430BD0)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA430BC0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CHANGEREPLYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x151130C0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x151130B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 57812;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 69551;
 
 	class UIPrivateMessageReplyWidgetController___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866* singleMessage; // 0x10
-		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x18
+		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x10
+		::Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866* singleMessage; // 0x18
 
 		::System::Void _ctor()
 		{

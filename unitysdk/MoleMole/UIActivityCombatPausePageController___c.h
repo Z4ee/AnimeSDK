@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xADA39B0)
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xADA39F0)
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPAGECONTROLLER___C__ONCLICKMAINCITY_B__12_0_OFFSET UNITYSDK_OFFSET(0xADA3A00)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EBCF20)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBCF60)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPAGECONTROLLER___C__ONCLICKMAINCITY_B__12_0_OFFSET UNITYSDK_OFFSET(0x15EBCF70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCombatPausePageController___c_TypeDefinitionIndex = 72044;
+	inline static constexpr unsigned int UIActivityCombatPausePageController___c_TypeDefinitionIndex = 43049;
 
 	class UIActivityCombatPausePageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIActivityCombatPausePageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityCombatPausePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePageController___c_TypeDefinitionIndex)->GetStaticField(0x40580);
+			return (::MoleMole::UIActivityCombatPausePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePageController___c_TypeDefinitionIndex)->GetStaticField(0x40640);
 		}
 		static ::System::Action** StaticGet___9__12_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePageController___c_TypeDefinitionIndex)->GetStaticField(0x40588);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePageController___c_TypeDefinitionIndex)->GetStaticField(0x40648);
 		}
 
 		static ::System::Void _cctor()

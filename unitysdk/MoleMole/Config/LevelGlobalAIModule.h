@@ -11,12 +11,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE_GET_CUSTOMTAGCONFIGDICT_OFFSET UNITYSDK_OFFSET(0xF2DA550)
-#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2DA7A0)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE_GET_CUSTOMTAGCONFIGDICT_OFFSET UNITYSDK_OFFSET(0x159F9850)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x159F9A90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIModule_TypeDefinitionIndex = 74594;
+	inline static constexpr unsigned int LevelGlobalAIModule_TypeDefinitionIndex = 72411;
 
 	class LevelGlobalAIModule : public ::System::Object
 	{

@@ -12,44 +12,44 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xB46E9C0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_FROMFLX_OFFSET UNITYSDK_OFFSET(0xB46CA40)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xB46EA20)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xB46CAC0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0xB46F140)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17D1EBD0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x17D1CC50)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17D1EC30)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x17D1CCD0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D1F350)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraShake_TypeDefinitionIndex = 73116;
+	inline static constexpr unsigned int ConfigCameraShake_TypeDefinitionIndex = 43135;
 
 	class ConfigCameraShake : public ::System::Object
 	{
 	public:
 		// static const ::System::String* CONFIG_PATH; // 0x0
-		::System::String* CurveKey; // 0x10
-		::System::String* ShakeCenterAttachPoint; // 0x18
-		::System::String* FadeInCurve; // 0x20
+		::System::String* ShakeCenterAttachPoint; // 0x10
+		::System::String* CurveKey; // 0x18
+		::System::String* StandardConfigKey; // 0x20
 		::System::String* CustomCurveKey; // 0x28
 		::System::String* FadeOutCurve; // 0x30
-		::System::String* StandardConfigKey; // 0x38
-		::MoleMole::Config::ConfigDataPlayStacking PlayStackingType; // 0x40
-		::System::Single RadiusLength; // 0x44
-		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x48
-		::System::Single DistanceToPlane; // 0x4C
-		::System::Single NoiseAngle; // 0x50
-		::System::Single NoiseRatio; // 0x54
-		::MoleMole::Config::AttackPropConfigType CameraShakePropConfigEnum; // 0x58
-		::System::Single ImpactRadius; // 0x5C
-		::System::Single AngleVertical; // 0x60
-		::MoleMole::Config::DissipationMode DissipationMode; // 0x64
-		::MoleMole::Config::ShakeType ShakeType; // 0x68
-		::System::Single Frequency; // 0x6C
+		::System::String* FadeInCurve; // 0x38
+		::MoleMole::Config::AttackPropConfigType CameraShakePropConfigEnum; // 0x40
+		::System::Single DistanceToPlane; // 0x44
+		::System::Boolean RealtimeVibration; // 0x48
+		::System::Boolean IngoreTimeScale; // 0x49
+		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x4C
+		::MoleMole::Config::DissipationMode DissipationMode; // 0x50
+		::System::Single FadeOutDuration; // 0x54
+		::System::Single ImpactRadius; // 0x58
+		::MoleMole::Config::ShakeType ShakeType; // 0x5C
+		::System::Single DissipationDistance; // 0x60
+		::System::Single AngleVertical; // 0x64
+		::System::Single NoiseAngle; // 0x68
+		::System::Single FadeInDuration; // 0x6C
 		::System::Single ShakeTotalTime; // 0x70
-		::System::Single DissipationDistance; // 0x74
-		::System::Boolean RealtimeVibration; // 0x78
-		::System::Boolean IngoreTimeScale; // 0x79
-		::System::Single FadeOutDuration; // 0x7C
-		::System::Single FadeInDuration; // 0x80
+		::MoleMole::Config::ConfigDataPlayStacking PlayStackingType; // 0x74
+		::System::Single Frequency; // 0x78
+		::System::Single NoiseRatio; // 0x7C
+		::System::Single RadiusLength; // 0x80
 
 		::System::Void _ctor()
 		{

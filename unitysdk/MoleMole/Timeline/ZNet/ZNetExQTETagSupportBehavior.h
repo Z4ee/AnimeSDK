@@ -15,25 +15,25 @@ namespace UnityEngine::Timeline { class GroupTrack; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_0565EC1D7A779E94_OFFSET UNITYSDK_OFFSET(0xB712FC0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_1427A1176F962DD9_OFFSET UNITYSDK_OFFSET(0xB712810)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xB712CE0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_1EAF4F18F8B13B71_OFFSET UNITYSDK_OFFSET(0xB7128B0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0xB7128A0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_53B31898ACE7453D_OFFSET UNITYSDK_OFFSET(0xB713020)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_1_OFFSET UNITYSDK_OFFSET(0xB712890)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0xB712800)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_93C805C9ED9A0174_OFFSET UNITYSDK_OFFSET(0xB712E00)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0xB713010)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB712600)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB7126A0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xB712590)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB7122C0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB712740)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_0565EC1D7A779E94_OFFSET UNITYSDK_OFFSET(0x12B2C550)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_1427A1176F962DD9_OFFSET UNITYSDK_OFFSET(0x12B2C960)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x12B2C9E0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x12B2CC20)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_1_OFFSET UNITYSDK_OFFSET(0x12B2C950)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x12B2C5A0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x12B2C540)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_EFE74C3B465500CF_OFFSET UNITYSDK_OFFSET(0x12B2C9F0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_F42D44FD4BE08DA2_OFFSET UNITYSDK_OFFSET(0x12B2C5B0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_FF2301ED2F275823_OFFSET UNITYSDK_OFFSET(0x12B2CDA0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x12B2C380)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x12B2C400)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x12B2C330)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x12B2C020)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2C480)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetExQTETagSupportBehavior_TypeDefinitionIndex = 38134;
+	inline static constexpr unsigned int ZNetExQTETagSupportBehavior_TypeDefinitionIndex = 51012;
 
 	class ZNetExQTETagSupportBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -73,39 +73,9 @@ namespace MoleMole::Timeline::ZNet
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void Method_2_E5E342154D4EA5F5(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_2_1427A1176F962DD9(::UnityEngine::Timeline::TrackAsset* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_1427A1176F962DD9_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_2_79ED6854413CA2F4_1(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_1_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_2_1EAF4F18F8B13B71(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::GroupTrack* a2, ::UnityEngine::Timeline::TimelineAsset* a3, ::UnityEngine::Playables::PlayableDirector* a4, ::UnityEngine::Timeline::GroupTrack* a5)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::GroupTrack*, ::UnityEngine::Timeline::TimelineAsset*, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::GroupTrack*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_1EAF4F18F8B13B71_OFFSET))(this, a1, a2, a3, a4, a5);
-		}
-
-		::System::Void Method_2_151E25A63D14DDB0()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_151E25A63D14DDB0_OFFSET))(this);
-		}
-
-		::System::Void Method_2_93C805C9ED9A0174(::UnityEngine::Timeline::AnimationTrack* a1, ::System::Boolean a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::AnimationTrack*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_93C805C9ED9A0174_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_E5E342154D4EA5F5_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_2_0565EC1D7A779E94(::UnityEngine::Timeline::TrackAsset* a1)
@@ -113,14 +83,44 @@ namespace MoleMole::Timeline::ZNet
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_0565EC1D7A779E94_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_E5E342154D4EA5F5(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_E5E342154D4EA5F5_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_53B31898ACE7453D(::UnityEngine::Timeline::AnimationTrack* a1, ::System::Boolean a2)
+		::System::Void Method_2_F42D44FD4BE08DA2(::UnityEngine::Timeline::AnimationTrack* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::AnimationTrack*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_53B31898ACE7453D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::AnimationTrack*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_F42D44FD4BE08DA2_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_79ED6854413CA2F4_1(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_79ED6854413CA2F4_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_1427A1176F962DD9(::UnityEngine::Timeline::TrackAsset* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_1427A1176F962DD9_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_EFE74C3B465500CF(::UnityEngine::Timeline::AnimationTrack* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::AnimationTrack*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_EFE74C3B465500CF_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_41A074549EF25F63()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_41A074549EF25F63_OFFSET))(this);
+		}
+
+		::System::Void Method_2_FF2301ED2F275823(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::GroupTrack* a2, ::UnityEngine::Timeline::TimelineAsset* a3, ::UnityEngine::Playables::PlayableDirector* a4, ::UnityEngine::Timeline::GroupTrack* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::GroupTrack*, ::UnityEngine::Timeline::TimelineAsset*, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::GroupTrack*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTBEHAVIOR_METHOD_2_FF2301ED2F275823_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

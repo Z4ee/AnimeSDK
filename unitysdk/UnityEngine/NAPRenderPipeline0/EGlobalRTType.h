@@ -38,6 +38,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		SceneColorAfterPost = 27,
 		OcclusionAndBentNormal = 28,
 		NearFieldGI = 29,
-		Count = 30,
+		ReactiveMask = 30,
+		Count = 31,
 	};
 }

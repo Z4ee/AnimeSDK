@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define MB_PRESERVELIGHTMAPDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B2061A0)
-#define MB_PRESERVELIGHTMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2063B0)
+#define MB_PRESERVELIGHTMAPDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC7F40)
+#define MB_PRESERVELIGHTMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC81A0)
 
-inline static constexpr unsigned int MB_PreserveLightmapData_TypeDefinitionIndex = 83255;
+inline static constexpr unsigned int MB_PreserveLightmapData_TypeDefinitionIndex = 84983;
 
 class MB_PreserveLightmapData : public ::UnityEngine::MonoBehaviour
 {

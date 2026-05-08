@@ -8,29 +8,29 @@ namespace System { template <typename T> class Lazy_1; }
 namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER_POST_OFFSET UNITYSDK_OFFSET(0x1B525960)
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER_SENDORPOSTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B525A20)
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B525B20)
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B525950)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER_POST_OFFSET UNITYSDK_OFFSET(0x1C265C80)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER_SENDORPOSTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C265D40)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C265E40)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C265C70)
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex = 25081;
+	inline static constexpr unsigned int SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex = 25810;
 
 	class SynchronizationContextCollectionEventDispatcher : public ::System::Object
 	{
 	public:
-		static ::ObservableCollections::ICollectionEventDispatcher** StaticGet_Current()
-		{
-			return (::ObservableCollections::ICollectionEventDispatcher**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1E5F0);
-		}
 		static ::System::Threading::SendOrPostCallback** StaticGet_callback()
 		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1E5F8);
+			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1F120);
 		}
 		static ::System::Lazy_1<::ObservableCollections::ICollectionEventDispatcher*>** StaticGet_current()
 		{
-			return (::System::Lazy_1<::ObservableCollections::ICollectionEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1E600);
+			return (::System::Lazy_1<::ObservableCollections::ICollectionEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1F128);
+		}
+		static ::ObservableCollections::ICollectionEventDispatcher** StaticGet_Current()
+		{
+			return (::ObservableCollections::ICollectionEventDispatcher**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1F130);
 		}
 		::System::Threading::SynchronizationContext* synchronizationContext; // 0x10
 

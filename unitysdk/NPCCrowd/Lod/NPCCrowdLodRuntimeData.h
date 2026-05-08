@@ -10,51 +10,51 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 template <typename T> class NPCSoftAssetPath_1;
 
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0x6BBCDB0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CONSUMEOVERRIDEFADE_OFFSET UNITYSDK_OFFSET(0x6BBCC90)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_FORCELOD0_OFFSET UNITYSDK_OFFSET(0x6BBCD10)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x6BBD320)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLOD_OFFSET UNITYSDK_OFFSET(0x6BBD480)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0x6BBC910)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0x6BBD310)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0x6BBC610)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0x6BBCC20)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x6BBD3F0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0x6BBC920)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0x6BBD2A0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0x6BBC620)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x6BBD5C0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6BBD4E0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0xF403730)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CONSUMEOVERRIDEFADE_OFFSET UNITYSDK_OFFSET(0xF403650)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_FORCELOD0_OFFSET UNITYSDK_OFFSET(0xF4036B0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0xF403B90)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLOD_OFFSET UNITYSDK_OFFSET(0xF403CB0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0xF4032B0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0xF403B80)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0xF402F70)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0xF403600)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0xF403C40)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0xF4032C0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0xF403B30)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0xF402F80)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xF403E20)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF403CF0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodRuntimeData_TypeDefinitionIndex = 37979;
+	inline static constexpr unsigned int NPCCrowdLodRuntimeData_TypeDefinitionIndex = 47436;
 
 	class NPCCrowdLodRuntimeData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_cache()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodRuntimeData_TypeDefinitionIndex)->GetStaticField(0x2EF80);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodRuntimeData_TypeDefinitionIndex)->GetStaticField(0x2F780);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* LODTickBatchCount; // 0x10
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* curLODRenderers; // 0x18
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* oldLODRenderers; // 0x10
+		::System::Collections::Generic::List_1<::NPCSoftAssetPath_1<::UnityEngine::Mesh*>*>* lastAssetRef; // 0x18
 		::System::Action* lodInitCallback; // 0x20
-		::System::Collections::Generic::List_1<::NPCSoftAssetPath_1<::UnityEngine::Mesh*>*>* lastAssetRef; // 0x28
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* oldLODRenderers; // 0x30
-		::System::Boolean _isChangeing; // 0x38
-		::System::Boolean bOverrideFade; // 0x39
-		::System::Boolean isVisible; // 0x3A
-		::System::Boolean bOverrideFadeTrigger; // 0x3B
-		::System::Single lastMatCmpAlphaValue; // 0x3C
-		::NPCCrowd::Lod::ELODLevel _lodLevel; // 0x40
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* curLODRenderers; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* LODTickBatchCount; // 0x30
+		::NPCCrowd::Lod::ELODLevel nextLodLevel; // 0x38
+		::NPCCrowd::Lod::ELODLevel physicsLodLevel; // 0x3C
+		::System::Single lastMatCmpAlphaValue; // 0x40
 		::NPCCrowd::Lod::ELODLevel _forceLodLevel; // 0x44
-		::System::Boolean bOverrideHide; // 0x48
-		::System::Boolean lodPreloadFinished; // 0x49
-		::System::Boolean lodChangedCurFrame; // 0x4A
-		::System::Boolean bOverrideShow; // 0x4B
-		::NPCCrowd::Lod::ELODLevel nextLodLevel; // 0x4C
-		::NPCCrowd::Lod::ELODLevel physicsLodLevel; // 0x50
+		::NPCCrowd::Lod::ELODLevel _lodLevel; // 0x48
+		::System::Boolean bOverrideFadeTrigger; // 0x4C
+		::System::Boolean lodChangedCurFrame; // 0x4D
+		::System::Boolean bOverrideHide; // 0x4E
+		::System::Boolean isVisible; // 0x4F
+		::System::Boolean lodPreloadFinished; // 0x50
+		::System::Boolean _isChangeing; // 0x51
+		::System::Boolean bOverrideShow; // 0x52
+		::System::Boolean bOverrideFade; // 0x53
 
 		::System::Void _ctor()
 		{

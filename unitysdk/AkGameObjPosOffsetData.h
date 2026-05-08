@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKGAMEOBJPOSOFFSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B425FE0)
+#define AKGAMEOBJPOSOFFSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14E940)
 
-inline static constexpr unsigned int AkGameObjPosOffsetData_TypeDefinitionIndex = 31074;
+inline static constexpr unsigned int AkGameObjPosOffsetData_TypeDefinitionIndex = 31603;
 
 class AkGameObjPosOffsetData : public ::UnityEngine::ScriptableObject
 {

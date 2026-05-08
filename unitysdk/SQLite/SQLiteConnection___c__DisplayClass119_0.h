@@ -5,18 +5,18 @@
 namespace SQLite { class SQLiteConnection; }
 namespace System::Collections { class IEnumerable; }
 
-#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS119_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A63E170)
-#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS119_0__INSERTALL_B__0_OFFSET UNITYSDK_OFFSET(0x1A63F880)
+#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS119_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B285610)
+#define SQLITE_SQLITECONNECTION___C__DISPLAYCLASS119_0__INSERTALL_B__0_OFFSET UNITYSDK_OFFSET(0x1B286EC0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteConnection___c__DisplayClass119_0_TypeDefinitionIndex = 36217;
+	inline static constexpr unsigned int SQLiteConnection___c__DisplayClass119_0_TypeDefinitionIndex = 36761;
 
 	class SQLiteConnection___c__DisplayClass119_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::IEnumerable* objects; // 0x10
-		::SQLite::SQLiteConnection* __4__this; // 0x18
+		::SQLite::SQLiteConnection* __4__this; // 0x10
+		::System::Collections::IEnumerable* objects; // 0x18
 		::System::Int32 c; // 0x20
 
 		::System::Void _ctor()

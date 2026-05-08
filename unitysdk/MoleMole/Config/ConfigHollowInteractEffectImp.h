@@ -5,7 +5,7 @@ class Class_1_32D1736C0D56C181;
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractEffectImp_TypeDefinitionIndex = 72190;
+	inline static constexpr unsigned int ConfigHollowInteractEffectImp_TypeDefinitionIndex = 63978;
 
 	class ConfigHollowInteractEffectImp
 	{

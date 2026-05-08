@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_DAMPVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x19178880)
-#define FLOWCANVAS_NODES_DAMPVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x19178920)
+#define FLOWCANVAS_NODES_DAMPVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x19846180)
+#define FLOWCANVAS_NODES_DAMPVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x19846220)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int DampVector3_TypeDefinitionIndex = 26615;
+	inline static constexpr unsigned int DampVector3_TypeDefinitionIndex = 27578;
 
 	class DampVector3 : public ::FlowCanvas::Nodes::PureFunctionNode_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>
 	{

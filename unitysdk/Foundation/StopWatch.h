@@ -7,26 +7,26 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_STOPWATCH_RECORD_OFFSET UNITYSDK_OFFSET(0x1B0F8600)
-#define FOUNDATION_STOPWATCH_START_OFFSET UNITYSDK_OFFSET(0x1B0F84D0)
-#define FOUNDATION_STOPWATCH_STOP_OFFSET UNITYSDK_OFFSET(0x1B0F87D0)
-#define FOUNDATION_STOPWATCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B0F88D0)
-#define FOUNDATION_STOPWATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F8310)
-#define FOUNDATION_STOPWATCH___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B0F8E10)
+#define FOUNDATION_STOPWATCH_RECORD_OFFSET UNITYSDK_OFFSET(0x1C00FD60)
+#define FOUNDATION_STOPWATCH_START_OFFSET UNITYSDK_OFFSET(0x1C00FCE0)
+#define FOUNDATION_STOPWATCH_STOP_OFFSET UNITYSDK_OFFSET(0x1C00FE20)
+#define FOUNDATION_STOPWATCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C00FE70)
+#define FOUNDATION_STOPWATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00FBE0)
+#define FOUNDATION_STOPWATCH___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0103F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int StopWatch_TypeDefinitionIndex = 8278;
+	inline static constexpr unsigned int StopWatch_TypeDefinitionIndex = 7822;
 
 	class StopWatch : public ::System::Object
 	{
 	public:
-		::System::String* _name; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::DateTime, ::System::String*>>* _data; // 0x18
-		::System::DateTime _startTime; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::DateTime, ::System::String*>>* _data; // 0x10
+		::System::String* _name; // 0x18
+		::System::Boolean _bStart; // 0x20
+		::System::Boolean _bRecordDebug; // 0x21
 		::System::DateTime _stopTime; // 0x28
-		::System::Boolean _bStart; // 0x30
-		::System::Boolean _bRecordDebug; // 0x31
+		::System::DateTime _startTime; // 0x30
 
 		::System::Void _ctor(::System::String* name, ::System::Boolean autoStart, ::System::Boolean recordDebug)
 		{

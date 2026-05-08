@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int StreamingLayerGenerateData_TypeDefinitionIndex = 39662;
+	inline static constexpr unsigned int StreamingLayerGenerateData_TypeDefinitionIndex = 53476;
 
 	struct alignas(8) StreamingLayerGenerateData
 	{

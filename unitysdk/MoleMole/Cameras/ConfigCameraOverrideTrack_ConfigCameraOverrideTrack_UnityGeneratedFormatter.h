@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xBAD5BD0)
-#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xBAD5BE0)
-#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xBAD5D30)
-#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAD5E90)
-#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD5E50)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xDB87680)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xDB87690)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xDB877C0)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB87900)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK_CONFIGCAMERAOVERRIDETRACK_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xDB878C0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ConfigCameraOverrideTrack_ConfigCameraOverrideTrack_UnityGeneratedFormatter_TypeDefinitionIndex = 58656;
+	inline static constexpr unsigned int ConfigCameraOverrideTrack_ConfigCameraOverrideTrack_UnityGeneratedFormatter_TypeDefinitionIndex = 79042;
 
 	class ConfigCameraOverrideTrack_ConfigCameraOverrideTrack_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Cameras::ConfigCameraOverrideTrack*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::CameraOverrideTrackEntry*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::CameraOverrideTrackEntry*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCameraOverrideTrack_ConfigCameraOverrideTrack_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36A40);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::CameraOverrideTrackEntry*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCameraOverrideTrack_ConfigCameraOverrideTrack_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x374F0);
 		}
 
 		::System::Void _ctor()

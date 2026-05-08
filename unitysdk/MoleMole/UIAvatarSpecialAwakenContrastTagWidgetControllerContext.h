@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTTAGWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBF2EFD0)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTTAGWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167FAF60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastTagWidgetControllerContext_TypeDefinitionIndex = 45132;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastTagWidgetControllerContext_TypeDefinitionIndex = 76817;
 
 	class UIAvatarSpecialAwakenContrastTagWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define NAP_NAPECS_NAPDEBUG_VERYIMPORTANTERROR_OFFSET UNITYSDK_OFFSET(0x18D84AC0)
-#define NAP_NAPECS_NAPDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D9DDB0)
+#define NAP_NAPECS_NAPDEBUG_VERYIMPORTANTERROR_OFFSET UNITYSDK_OFFSET(0x192D2B40)
+#define NAP_NAPECS_NAPDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x192ECF40)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int NapDebug_TypeDefinitionIndex = 35155;
+	inline static constexpr unsigned int NapDebug_TypeDefinitionIndex = 35681;
 
 	class NapDebug : public ::System::Object
 	{

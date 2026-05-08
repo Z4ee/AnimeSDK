@@ -5,9 +5,9 @@
 class Class_1_CF8E829F802476F6;
 namespace MoleMole { class UIInterKnowCoursePanelWidgetController; }
 
-#define CLASS_1_84288157D4F72E4C__CTOR_OFFSET UNITYSDK_OFFSET(0x78DA6D0)
+#define CLASS_1_84288157D4F72E4C__CTOR_OFFSET UNITYSDK_OFFSET(0x110FEE60)
 
-inline static constexpr unsigned int Class_1_84288157D4F72E4C_TypeDefinitionIndex = 69654;
+inline static constexpr unsigned int Class_1_84288157D4F72E4C_TypeDefinitionIndex = 76877;
 
 class Class_1_84288157D4F72E4C : public ::System::Object
 {

@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UITowerDefenseLevelPageController; }
 
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABACA00)
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xABACA10)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D508A0)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x10D508B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass23_0_TypeDefinitionIndex = 70546;
+	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass23_0_TypeDefinitionIndex = 79480;
 
 	class UITowerDefenseLevelPageController___c__DisplayClass23_0 : public ::System::Object
 	{

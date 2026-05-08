@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A052120)
+#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD807D0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int AddNotifyAuthExpirationOptions_TypeDefinitionIndex = 33938;
+	inline static constexpr unsigned int AddNotifyAuthExpirationOptions_TypeDefinitionIndex = 34474;
 
 	class AddNotifyAuthExpirationOptions : public ::System::Object
 	{

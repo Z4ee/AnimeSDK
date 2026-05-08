@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18F149D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F14A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1A6A9100)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A91C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideSkyConfig_TypeDefinitionIndex = 29462;
+	inline static constexpr unsigned int OverrideSkyConfig_TypeDefinitionIndex = 29982;
 
 	class OverrideSkyConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideSkyConfig*>
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphLoadFlags_TypeDefinitionIndex = 30420;
+	inline static constexpr unsigned int GlyphLoadFlags_TypeDefinitionIndex = 30949;
 
 	enum class GlyphLoadFlags : ::System::Int32
 	{

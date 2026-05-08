@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x19C2EFA0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x19C2F3D0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x19C2F210)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONSTOP_OFFSET UNITYSDK_OFFSET(0x19C2F2F0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2F530)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A85C610)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1A85CA40)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A85C880)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1A85C960)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A85CCA0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetIK_TypeDefinitionIndex = 27006;
+	inline static constexpr unsigned int MecanimSetIK_TypeDefinitionIndex = 26574;
 
 	class MecanimSetIK : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* weight; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* goal; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* goal; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* weight; // 0x68
 		::UnityEngine::AvatarIKGoal IKGoal; // 0x70
 
 		::System::Void _ctor()

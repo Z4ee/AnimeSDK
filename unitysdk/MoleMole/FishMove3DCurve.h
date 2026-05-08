@@ -4,11 +4,11 @@
 
 namespace MoleMole { class CurveAndValue; }
 
-#define MOLEMOLE_FISHMOVE3DCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C9910)
+#define MOLEMOLE_FISHMOVE3DCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B76550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishMove3DCurve_TypeDefinitionIndex = 74150;
+	inline static constexpr unsigned int FishMove3DCurve_TypeDefinitionIndex = 40704;
 
 	class FishMove3DCurve : public ::System::Object
 	{

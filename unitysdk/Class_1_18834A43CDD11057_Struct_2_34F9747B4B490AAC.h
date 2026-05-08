@@ -8,7 +8,7 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 template <typename T> class Class_1_18834A43CDD11057;
 
-inline static constexpr unsigned int Class_1_18834A43CDD11057_Struct_2_34F9747B4B490AAC_TypeDefinitionIndex = 51392;
+inline static constexpr unsigned int Class_1_18834A43CDD11057_Struct_2_34F9747B4B490AAC_TypeDefinitionIndex = 77926;
 
 template <typename TCustomAction>
 struct Class_1_18834A43CDD11057_Struct_2_34F9747B4B490AAC

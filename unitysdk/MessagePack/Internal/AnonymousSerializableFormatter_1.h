@@ -10,7 +10,7 @@ namespace MessagePack::Internal { template <typename T> class AnonymousSerialize
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AnonymousSerializableFormatter_1_TypeDefinitionIndex = 26968;
+	inline static constexpr unsigned int AnonymousSerializableFormatter_1_TypeDefinitionIndex = 28225;
 
 	template <typename T>
 	class AnonymousSerializableFormatter_1 : public ::System::Object

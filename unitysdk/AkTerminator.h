@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define AKTERMINATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A32990)
+#define AKTERMINATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19C319A0)
 
-inline static constexpr unsigned int AkTerminator_TypeDefinitionIndex = 31100;
+inline static constexpr unsigned int AkTerminator_TypeDefinitionIndex = 31629;
 
 class AkTerminator : public ::UnityEngine::MonoBehaviour
 {

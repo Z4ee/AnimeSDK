@@ -6,10 +6,10 @@
 namespace MoleMole::Config { class ConfigBlackCurtains; }
 namespace System { class Action; }
 
-#define BLACKCURTAINCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE06B70)
-#define BLACKCURTAINCONFIG___C__DISPLAYCLASS1_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0xBE071E0)
+#define BLACKCURTAINCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118B87B0)
+#define BLACKCURTAINCONFIG___C__DISPLAYCLASS1_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x118B87C0)
 
-inline static constexpr unsigned int BlackCurtainConfig___c__DisplayClass1_0_TypeDefinitionIndex = 59491;
+inline static constexpr unsigned int BlackCurtainConfig___c__DisplayClass1_0_TypeDefinitionIndex = 75504;
 
 class BlackCurtainConfig___c__DisplayClass1_0 : public ::System::Object
 {

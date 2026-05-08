@@ -13,29 +13,29 @@ namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_CHANGESPLITSTATE_OFFSET UNITYSDK_OFFSET(0xC25F5F0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xC25F2C0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_START_OFFSET UNITYSDK_OFFSET(0xC25F480)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_TRYCREATEENTITY_OFFSET UNITYSDK_OFFSET(0xC260060)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xC260400)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0xC260420)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_CHANGESPLITSTATE_OFFSET UNITYSDK_OFFSET(0x14274380)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14274080)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_START_OFFSET UNITYSDK_OFFSET(0x14274220)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE_TRYCREATEENTITY_OFFSET UNITYSDK_OFFSET(0x14274D80)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14275100)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKPLAYERENTITYSPLITNODE__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x14275140)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessHackPlayerEntitySplitNode_TypeDefinitionIndex = 49435;
+	inline static constexpr unsigned int ChessHackPlayerEntitySplitNode_TypeDefinitionIndex = 42719;
 
 	class ChessHackPlayerEntitySplitNode : public ::MoleMole::FlowCanvas::ChessboardFlowNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _out; // 0xA8
-		::FlowCanvas::FlowInput* _in; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* _count; // 0xB8
-		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* _collection; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Int32>* _fakePlayerId; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* _boundList; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _count; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* _collection; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _fakePlayerId; // 0xC0
+		::FlowCanvas::FlowOutput* _out; // 0xC8
 		::FlowCanvas::ValueOutput_1<::System::Boolean>* _result; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Int32>* _mainPlayer; // 0xD8
+		::FlowCanvas::FlowInput* _in; // 0xD8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* _do; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* _boundList; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _mainPlayer; // 0xE8
 		::System::Boolean _isInSplitState; // 0xF0
 
 		::System::Void _ctor()

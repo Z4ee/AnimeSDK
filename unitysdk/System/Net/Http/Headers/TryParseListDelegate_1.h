@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int TryParseListDelegate_1_TypeDefinitionIndex = 24222;
+	inline static constexpr unsigned int TryParseListDelegate_1_TypeDefinitionIndex = 24735;
 
 	template <typename T>
 	class TryParseListDelegate_1 : public ::System::MulticastDelegate

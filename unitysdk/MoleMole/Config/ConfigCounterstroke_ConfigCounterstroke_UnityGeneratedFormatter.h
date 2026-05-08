@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF2C73B0)
-#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF2C73C0)
-#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF2C7730)
-#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2C79A0)
-#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C7960)
+#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159E64B0)
+#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159E64C0)
+#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159E6810)
+#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159E6A60)
+#define MOLEMOLE_CONFIG_CONFIGCOUNTERSTROKE_CONFIGCOUNTERSTROKE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159E6A20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex = 49381;
+	inline static constexpr unsigned int ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex = 52909;
 
 	class ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigCounterstroke*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB30);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::AniamtorParamsSetting*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::AniamtorParamsSetting*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB38);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49210);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EB40);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49218);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::AniamtorParamsSetting*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::AniamtorParamsSetting*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCounterstroke_ConfigCounterstroke_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49220);
 		}
 
 		::System::Void _ctor()

@@ -5,12 +5,12 @@
 namespace MoleMole::Timeline { class FloatRecorderUnit; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC738E0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS47_0__RECOVER_B__0_OFFSET UNITYSDK_OFFSET(0x1AC738F0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA83C00)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS47_0__RECOVER_B__0_OFFSET UNITYSDK_OFFSET(0x1BA83C10)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialInfo___c__DisplayClass47_0_TypeDefinitionIndex = 30104;
+	inline static constexpr unsigned int MaterialInfo___c__DisplayClass47_0_TypeDefinitionIndex = 30633;
 
 	class MaterialInfo___c__DisplayClass47_0 : public ::System::Object
 	{

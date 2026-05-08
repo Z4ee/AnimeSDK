@@ -8,7 +8,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeVector_1_TypeDefinitionIndex = 9020;
+	inline static constexpr unsigned int NativeVector_1_TypeDefinitionIndex = 8920;
 
 	template <typename T>
 	struct NativeVector_1

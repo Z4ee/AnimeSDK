@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_URPPROPERTYFILEDNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5EBD0)
+#define UNITYENGINE_RENDERING_URPPROPERTYFILEDNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B079940)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int URPPropertyFiledName_TypeDefinitionIndex = 29259;
+	inline static constexpr unsigned int URPPropertyFiledName_TypeDefinitionIndex = 29778;
 
 	class URPPropertyFiledName : public ::System::Attribute
 	{

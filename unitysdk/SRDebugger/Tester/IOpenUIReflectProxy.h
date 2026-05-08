@@ -7,7 +7,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace SRDebugger::Tester
 {
-	inline static constexpr unsigned int IOpenUIReflectProxy_TypeDefinitionIndex = 84221;
+	inline static constexpr unsigned int IOpenUIReflectProxy_TypeDefinitionIndex = 85948;
 
 	class IOpenUIReflectProxy
 	{

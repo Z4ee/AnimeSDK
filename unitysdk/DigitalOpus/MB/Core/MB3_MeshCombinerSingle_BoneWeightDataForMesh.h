@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x990950)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x990950)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x9C34E0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9C34E0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_BoneWeightDataForMesh_TypeDefinitionIndex = 83333;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_BoneWeightDataForMesh_TypeDefinitionIndex = 85061;
 
 	struct alignas(8) MB3_MeshCombinerSingle_BoneWeightDataForMesh
 	{

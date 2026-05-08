@@ -9,30 +9,30 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xD7DCBE0)
-#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xD7DCBF0)
-#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xD7DD540)
-#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7DDAD0)
-#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7DDA90)
+#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x189E5C40)
+#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x189E5C50)
+#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x189E6580)
+#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x189E6AF0)
+#define MOLEMOLE_DITHERCONFIG_DITHERCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x189E6AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 38517;
+	inline static constexpr unsigned int DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 57786;
 
 	class DitherConfig_DitherConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::DitherConfig*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40340);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40348);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x403E0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40350);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x403E8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DitherConfig_DitherConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x403F0);
 		}
 
 		::System::Void _ctor()

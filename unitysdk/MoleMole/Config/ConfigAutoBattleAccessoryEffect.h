@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigOutlineObjectRenderer_Global; }
 namespace MoleMole { class ConfigOutlineObjectRenderer_Local; }
 
-#define MOLEMOLE_CONFIG_CONFIGAUTOBATTLEACCESSORYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C5500)
+#define MOLEMOLE_CONFIG_CONFIGAUTOBATTLEACCESSORYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x159E4720)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAutoBattleAccessoryEffect_TypeDefinitionIndex = 74990;
+	inline static constexpr unsigned int ConfigAutoBattleAccessoryEffect_TypeDefinitionIndex = 40302;
 
 	class ConfigAutoBattleAccessoryEffect : public ::Foundation::MihoyoSerializedScriptableObject
 	{

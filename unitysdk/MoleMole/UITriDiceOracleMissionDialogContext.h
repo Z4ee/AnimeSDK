@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UITRIDICEORACLEMISSIONDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x79098E0)
+#define MOLEMOLE_UITRIDICEORACLEMISSIONDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xF6293F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleMissionDialogContext_TypeDefinitionIndex = 69759;
+	inline static constexpr unsigned int UITriDiceOracleMissionDialogContext_TypeDefinitionIndex = 62922;
 
 	class UITriDiceOracleMissionDialogContext : public ::MoleMole::UIControllerContextBase
 	{

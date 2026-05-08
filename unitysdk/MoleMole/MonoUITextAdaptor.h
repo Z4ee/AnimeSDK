@@ -3,22 +3,22 @@
 #include "unitysdk/MoleMole/AdaptorShowType.h"
 #include "unitysdk/MoleMole/MonoUILayoutAdaptorBase.h"
 
-class Class_1_33780AFADFC2EFFC;
+class Class_1_CF69D1566697178D;
 namespace MoleMole { class TextAdaptor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOUITEXTADAPTOR_DOINITLAYOUT_OFFSET UNITYSDK_OFFSET(0xC324430)
-#define MOLEMOLE_MONOUITEXTADAPTOR_INITTEXT_OFFSET UNITYSDK_OFFSET(0xC324610)
-#define MOLEMOLE_MONOUITEXTADAPTOR_ISCONTAINPLATFORMUIPARAMS_OFFSET UNITYSDK_OFFSET(0xC324320)
-#define MOLEMOLE_MONOUITEXTADAPTOR_ISPLATFORMUIPARAMSEMPTY_OFFSET UNITYSDK_OFFSET(0xC324260)
-#define MOLEMOLE_MONOUITEXTADAPTOR_RELOADDATAFROMJSON_OFFSET UNITYSDK_OFFSET(0xC324780)
-#define MOLEMOLE_MONOUITEXTADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC324A80)
+#define MOLEMOLE_MONOUITEXTADAPTOR_DOINITLAYOUT_OFFSET UNITYSDK_OFFSET(0x15E51DD0)
+#define MOLEMOLE_MONOUITEXTADAPTOR_INITTEXT_OFFSET UNITYSDK_OFFSET(0x15E52000)
+#define MOLEMOLE_MONOUITEXTADAPTOR_ISCONTAINPLATFORMUIPARAMS_OFFSET UNITYSDK_OFFSET(0x15E51CF0)
+#define MOLEMOLE_MONOUITEXTADAPTOR_ISPLATFORMUIPARAMSEMPTY_OFFSET UNITYSDK_OFFSET(0x15E51C50)
+#define MOLEMOLE_MONOUITEXTADAPTOR_RELOADDATAFROMJSON_OFFSET UNITYSDK_OFFSET(0x15E521F0)
+#define MOLEMOLE_MONOUITEXTADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15E524F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUITextAdaptor_TypeDefinitionIndex = 51072;
+	inline static constexpr unsigned int MonoUITextAdaptor_TypeDefinitionIndex = 53883;
 
 	class MonoUITextAdaptor : public ::MoleMole::MonoUILayoutAdaptorBase
 	{
@@ -50,9 +50,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::AdaptorShowType, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUITEXTADAPTOR_RELOADDATAFROMJSON_OFFSET))(this, type, adaptorInfo);
 		}
 
-		::System::Boolean InitText(::UnityEngine::UI::Text* text, ::Class_1_33780AFADFC2EFFC* adaptorParams)
+		::System::Boolean InitText(::UnityEngine::UI::Text* text, ::Class_1_CF69D1566697178D* adaptorParams)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::Text*, ::Class_1_33780AFADFC2EFFC*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUITEXTADAPTOR_INITTEXT_OFFSET))(this, text, adaptorParams);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::Text*, ::Class_1_CF69D1566697178D*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUITEXTADAPTOR_INITTEXT_OFFSET))(this, text, adaptorParams);
 		}
 	};
 }

@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace UnityEngine::UI::Extension { class UIToggleButton; }
 
-#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1B475E10)
-#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1B475E20)
-#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1B476020)
-#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4761E0)
-#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4761A0)
+#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1AE50DF0)
+#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1AE50E00)
+#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1AE50FE0)
+#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE51180)
+#define UNITYENGINE_UI_EXTENSION_UITOGGLEBUTTON_UITOGGLEBUTTON_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE51140)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIToggleButton_UIToggleButton_UnityGeneratedFormatter_TypeDefinitionIndex = 73009;
+	inline static constexpr unsigned int UIToggleButton_UIToggleButton_UnityGeneratedFormatter_TypeDefinitionIndex = 78294;
 
 	class UIToggleButton_UIToggleButton_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::UnityEngine::UI::Extension::UIToggleButton*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(UIToggleButton_UIToggleButton_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x39EE0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigSoundActionGeneral*>**)Il2CppClass::FromTypeDefinitionIndex(UIToggleButton_UIToggleButton_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B230);
 		}
 
 		::System::Void _ctor()

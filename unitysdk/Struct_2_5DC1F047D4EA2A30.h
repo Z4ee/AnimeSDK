@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/CinemaCameraPosEnum.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_5DC1F047D4EA2A30_TypeDefinitionIndex = 65699;
+inline static constexpr unsigned int Struct_2_5DC1F047D4EA2A30_TypeDefinitionIndex = 73173;
 
 struct alignas(4) Struct_2_5DC1F047D4EA2A30
 {

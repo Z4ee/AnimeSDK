@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDPublicVariableSet_1.h"
 
-class Class_3_DA02E6BABB5F027E;
+class Class_3_5F8DAA47ACDB7251;
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT_DOSET_OFFSET UNITYSDK_OFFSET(0xB8A0A30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A0C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT___BASE_DOSET_OFFSET UNITYSDK_OFFSET(0xB8A0C40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT_DOSET_OFFSET UNITYSDK_OFFSET(0x16E4B9A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4BB90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT___BASE_DOSET_OFFSET UNITYSDK_OFFSET(0x16E4BBE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPublicVariableSetFloat_TypeDefinitionIndex = 41666;
+	inline static constexpr unsigned int LDPublicVariableSetFloat_TypeDefinitionIndex = 46658;
 
 	class LDPublicVariableSetFloat : public ::MoleMole::FlowCanvas::Nodes::LDPublicVariableSet_1<::System::Single>
 	{
@@ -20,14 +20,14 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void DoSet(::Class_3_DA02E6BABB5F027E* ctx)
+		::System::Void DoSet(::Class_3_5F8DAA47ACDB7251* ctx)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_DA02E6BABB5F027E*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT_DOSET_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::Class_3_5F8DAA47ACDB7251*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT_DOSET_OFFSET))(this, ctx);
 		}
 
-		::System::Void __base_DoSet(::Class_3_DA02E6BABB5F027E* P0)
+		::System::Void __base_DoSet(::Class_3_5F8DAA47ACDB7251* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_DA02E6BABB5F027E*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT___BASE_DOSET_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_3_5F8DAA47ACDB7251*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPUBLICVARIABLESETFLOAT___BASE_DOSET_OFFSET))(this, P0);
 		}
 	};
 }

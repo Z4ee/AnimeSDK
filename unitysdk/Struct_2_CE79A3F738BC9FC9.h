@@ -8,19 +8,19 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_16B007C1CA9E2687_OFFSET UNITYSDK_OFFSET(0x3221C0)
-#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_8B26C42781031224_OFFSET UNITYSDK_OFFSET(0x3221A0)
-#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_9F5E5802D780FAE9_OFFSET UNITYSDK_OFFSET(0x6FFFB80)
-#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_C816A8B642BDB141_OFFSET UNITYSDK_OFFSET(0x3221B0)
-#define STRUCT_2_CE79A3F738BC9FC9__CCTOR_OFFSET UNITYSDK_OFFSET(0x6FFF710)
+#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_16B007C1CA9E2687_OFFSET UNITYSDK_OFFSET(0x712F40)
+#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_B8FF179514133CB1_OFFSET UNITYSDK_OFFSET(0x112E4DB0)
+#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_C816A8B642BDB141_OFFSET UNITYSDK_OFFSET(0x712F30)
+#define STRUCT_2_CE79A3F738BC9FC9_METHOD_2_CF647FC9B4CE97AA_OFFSET UNITYSDK_OFFSET(0x712F20)
+#define STRUCT_2_CE79A3F738BC9FC9__CCTOR_OFFSET UNITYSDK_OFFSET(0x112E4D00)
 
-inline static constexpr unsigned int Struct_2_CE79A3F738BC9FC9_TypeDefinitionIndex = 42134;
+inline static constexpr unsigned int Struct_2_CE79A3F738BC9FC9_TypeDefinitionIndex = 63091;
 
 struct alignas(8) Struct_2_CE79A3F738BC9FC9
 {
 	static ::System::Int32* StaticGet_Field_2_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_CE79A3F738BC9FC9_TypeDefinitionIndex)->GetStaticField(0xBB00);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_CE79A3F738BC9FC9_TypeDefinitionIndex)->GetStaticField(0x9F00);
 	}
 	// static const ::System::String* Field_2_0; // 0x0
 	// static const ::System::Int32 Field_2_4 = 0xCD; // 0x0
@@ -32,9 +32,14 @@ struct alignas(8) Struct_2_CE79A3F738BC9FC9
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STRUCT_2_CE79A3F738BC9FC9__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_2_8B26C42781031224(::UnityEngine::Renderer* a1, ::UnityEngine::MaterialPropertyBlock* a2)
+	static ::Struct_2_9E75F47F2670B678 Method_2_B8FF179514133CB1(::Il2CppArray<::UnityEngine::Renderer*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + STRUCT_2_CE79A3F738BC9FC9_METHOD_2_8B26C42781031224_OFFSET))(this, a1, a2);
+		return ((::Struct_2_9E75F47F2670B678(*)(::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + STRUCT_2_CE79A3F738BC9FC9_METHOD_2_B8FF179514133CB1_OFFSET))(a1);
+	}
+
+	::System::Void Method_2_CF647FC9B4CE97AA(::UnityEngine::Renderer* a1, ::UnityEngine::MaterialPropertyBlock* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + STRUCT_2_CE79A3F738BC9FC9_METHOD_2_CF647FC9B4CE97AA_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_C816A8B642BDB141(::UnityEngine::Renderer* a1, ::UnityEngine::MaterialPropertyBlock* a2)
@@ -45,10 +50,5 @@ struct alignas(8) Struct_2_CE79A3F738BC9FC9
 	::System::Void Method_2_16B007C1CA9E2687(::System::Single a1, ::System::Single a2, ::System::Single a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_CE79A3F738BC9FC9_METHOD_2_16B007C1CA9E2687_OFFSET))(this, a1, a2, a3);
-	}
-
-	static ::Struct_2_9E75F47F2670B678 Method_2_9F5E5802D780FAE9(::Il2CppArray<::UnityEngine::Renderer*>* a1)
-	{
-		return ((::Struct_2_9E75F47F2670B678(*)(::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + STRUCT_2_CE79A3F738BC9FC9_METHOD_2_9F5E5802D780FAE9_OFFSET))(a1);
 	}
 };

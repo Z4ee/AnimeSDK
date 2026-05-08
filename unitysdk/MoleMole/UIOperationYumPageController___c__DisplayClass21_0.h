@@ -5,12 +5,12 @@
 namespace MoleMole { class UIOperationYumPageController; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE28890)
-#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER___C__DISPLAYCLASS21_0__INITTABS_B__1_OFFSET UNITYSDK_OFFSET(0xAE288A0)
+#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E05950)
+#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER___C__DISPLAYCLASS21_0__INITTABS_B__1_OFFSET UNITYSDK_OFFSET(0x12E05960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOperationYumPageController___c__DisplayClass21_0_TypeDefinitionIndex = 54538;
+	inline static constexpr unsigned int UIOperationYumPageController___c__DisplayClass21_0_TypeDefinitionIndex = 40379;
 
 	class UIOperationYumPageController___c__DisplayClass21_0 : public ::System::Object
 	{

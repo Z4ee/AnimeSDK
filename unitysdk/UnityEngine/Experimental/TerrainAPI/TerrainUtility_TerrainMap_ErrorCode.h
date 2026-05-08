@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility_TerrainMap_ErrorCode_TypeDefinitionIndex = 30406;
+	inline static constexpr unsigned int TerrainUtility_TerrainMap_ErrorCode_TypeDefinitionIndex = 30935;
 
 	enum class TerrainUtility_TerrainMap_ErrorCode : ::System::Int32
 	{

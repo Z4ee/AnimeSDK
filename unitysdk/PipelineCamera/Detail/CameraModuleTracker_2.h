@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace PipelineCamera::Detail
 {
-	inline static constexpr unsigned int CameraModuleTracker_2_TypeDefinitionIndex = 35884;
+	inline static constexpr unsigned int CameraModuleTracker_2_TypeDefinitionIndex = 36428;
 
 	template <typename TCameraController, typename TPlayerController>
 	class CameraModuleTracker_2 : public ::System::Object

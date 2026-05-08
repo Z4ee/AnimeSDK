@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ACTIVEDODGEDUMMYENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xB903A10)
-#define MOLEMOLE_CONFIG_ACTIVEDODGEDUMMYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xB903AB0)
+#define MOLEMOLE_CONFIG_ACTIVEDODGEDUMMYENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x13990250)
+#define MOLEMOLE_CONFIG_ACTIVEDODGEDUMMYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x139902D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ActiveDodgeDummyEntry_TypeDefinitionIndex = 50825;
+	inline static constexpr unsigned int ActiveDodgeDummyEntry_TypeDefinitionIndex = 40132;
 
 	class ActiveDodgeDummyEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

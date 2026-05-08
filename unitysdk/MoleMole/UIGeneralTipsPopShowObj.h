@@ -6,21 +6,21 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALTIPSPOPSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xA99F490)
-#define MOLEMOLE_UIGENERALTIPSPOPSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xA99F420)
+#define MOLEMOLE_UIGENERALTIPSPOPSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x151BE340)
+#define MOLEMOLE_UIGENERALTIPSPOPSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x151BE2D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTipsPopShowObj_TypeDefinitionIndex = 38672;
+	inline static constexpr unsigned int UIGeneralTipsPopShowObj_TypeDefinitionIndex = 47448;
 
 	class UIGeneralTipsPopShowObj : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Action* okClick; // 0x28
-		::System::String* SourceTag; // 0x30
-		::System::Action* cancelClick; // 0x38
-		::System::String* title; // 0x40
-		::System::String* msg; // 0x48
+		::System::String* msg; // 0x28
+		::System::Action* cancelClick; // 0x30
+		::System::String* title; // 0x38
+		::System::String* SourceTag; // 0x40
+		::System::Action* okClick; // 0x48
 
 		::System::Void _ctor(::System::String* title, ::System::Action* okClick, ::Enum_3_205B03D40B9BD873 showPage, ::System::String* msg, ::System::String* sourceTag, ::System::Action* cancelClick)
 		{

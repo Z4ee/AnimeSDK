@@ -5,18 +5,18 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDPlayShootingStartTips; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSHOOTINGSTARTTIPS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D8470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSHOOTINGSTARTTIPS___C__DISPLAYCLASS2_0__START_G__CONTINUEFLOW_0_OFFSET UNITYSDK_OFFSET(0xB5D8480)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSHOOTINGSTARTTIPS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15415A90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSHOOTINGSTARTTIPS___C__DISPLAYCLASS2_0__START_G__CONTINUEFLOW_0_OFFSET UNITYSDK_OFFSET(0x15415AA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayShootingStartTips___c__DisplayClass2_0_TypeDefinitionIndex = 72870;
+	inline static constexpr unsigned int LDPlayShootingStartTips___c__DisplayClass2_0_TypeDefinitionIndex = 65155;
 
 	class LDPlayShootingStartTips___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Flow flow; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDPlayShootingStartTips* __4__this; // 0x38
+		::MoleMole::FlowCanvas::Nodes::LDPlayShootingStartTips* __4__this; // 0x10
+		::FlowCanvas::Flow flow; // 0x18
 
 		::System::Void _ctor()
 		{

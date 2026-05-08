@@ -6,9 +6,9 @@
 namespace ICSharpCode::SharpZipLib::Encryption { class ZipAESTransform; }
 namespace System::IO { class Stream; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1B6AA1D0)
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1B6AA600)
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6AA130)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1C45CB60)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1C45CF40)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C45CAB0)
 
 namespace ICSharpCode::SharpZipLib::Encryption
 {
@@ -19,12 +19,12 @@ namespace ICSharpCode::SharpZipLib::Encryption
 	public:
 		// static const ::System::Int32 AUTH_CODE_LENGTH = 0xA; // 0x0
 		// static const ::System::Int32 CRYPTO_BLOCK_SIZE = 0x10; // 0x0
-		::ICSharpCode::SharpZipLib::Encryption::ZipAESTransform* _transform; // 0x60
-		::System::IO::Stream* _stream; // 0x68
+		::System::IO::Stream* _stream; // 0x60
+		::ICSharpCode::SharpZipLib::Encryption::ZipAESTransform* _transform; // 0x68
 		::Il2CppArray<::System::Byte>* _slideBuffer; // 0x70
 		::System::Int32 _slideBufFreePos; // 0x78
-		::System::Int32 _blockAndAuth; // 0x7C
-		::System::Int32 _slideBufStartPos; // 0x80
+		::System::Int32 _slideBufStartPos; // 0x7C
+		::System::Int32 _blockAndAuth; // 0x80
 
 		::System::Void _ctor(::System::IO::Stream* stream, ::ICSharpCode::SharpZipLib::Encryption::ZipAESTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode)
 		{

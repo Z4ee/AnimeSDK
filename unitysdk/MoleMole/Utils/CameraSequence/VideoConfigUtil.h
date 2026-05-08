@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_VIDEOCONFIGUTIL_GETPLAYTYPEMATCHCONFIG_OFFSET UNITYSDK_OFFSET(0xA1418B0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_VIDEOCONFIGUTIL_GETPLAYTYPEMATCHCONFIG_OFFSET UNITYSDK_OFFSET(0xD07F270)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int VideoConfigUtil_TypeDefinitionIndex = 43781;
+	inline static constexpr unsigned int VideoConfigUtil_TypeDefinitionIndex = 53887;
 
 	class VideoConfigUtil : public ::System::Object
 	{

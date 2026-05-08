@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_COLORCURVESTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD44B230)
-#define MOLEMOLE_TIMELINE_COLORCURVESTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xD44B500)
-#define MOLEMOLE_TIMELINE_COLORCURVESTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD44B4D0)
+#define MOLEMOLE_TIMELINE_COLORCURVESTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17040E50)
+#define MOLEMOLE_TIMELINE_COLORCURVESTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x17041100)
+#define MOLEMOLE_TIMELINE_COLORCURVESTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x170410A0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ColorCurvesTrack_TypeDefinitionIndex = 59933;
+	inline static constexpr unsigned int ColorCurvesTrack_TypeDefinitionIndex = 80613;
 
 	class ColorCurvesTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_COLORCURVESTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_COLORCURVESTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_COLORCURVESTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

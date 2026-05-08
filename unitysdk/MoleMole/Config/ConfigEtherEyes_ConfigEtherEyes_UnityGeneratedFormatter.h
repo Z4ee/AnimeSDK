@@ -17,38 +17,38 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xE35C400)
-#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xE35C410)
-#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xE35C840)
-#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE35CB10)
-#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE35CAD0)
+#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16A8CD60)
+#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16A8CD70)
+#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16A8D180)
+#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A8D430)
+#define MOLEMOLE_CONFIG_CONFIGETHEREYES_CONFIGETHEREYES_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8D3F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex = 53906;
+	inline static constexpr unsigned int ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex = 65669;
 
 	class ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigEtherEyes*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>*>** StaticGet_CachedSerializer0()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EtherEyesHintInfoType, ::System::String*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31220);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EtherEyesHintInfoType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31E80);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectType, ::MoleMole::Config::EtherEyesObjectTypeDefaultConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectType, ::MoleMole::Config::EtherEyesObjectTypeDefaultConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31228);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectType, ::MoleMole::Config::EtherEyesObjectTypeDefaultConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31E88);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31E90);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectSize, ::MoleMole::Config::EtherEyesInteractableVariationConfig*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectSize, ::MoleMole::Config::EtherEyesInteractableVariationConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31230);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EtherEyesHintInfoType, ::System::String*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::EtherEyesHintInfoType, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31238);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectSize, ::MoleMole::Config::EtherEyesInteractableVariationConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31E98);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::EtherEyesOutlineConfig*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::EtherEyesOutlineConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31240);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::EtherEyesOutlineConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigEtherEyes_ConfigEtherEyes_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31EA0);
 		}
 
 		::System::Void _ctor()

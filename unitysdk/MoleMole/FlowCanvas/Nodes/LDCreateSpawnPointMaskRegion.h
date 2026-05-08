@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION_INVOKE_OFFSET UNITYSDK_OFFSET(0xBA00EB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0xBA01160)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D35730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x16D359B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateSpawnPointMaskRegion_TypeDefinitionIndex = 79649;
+	inline static constexpr unsigned int LDCreateSpawnPointMaskRegion_TypeDefinitionIndex = 81323;
 
 	class LDCreateSpawnPointMaskRegion : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::SpawnPointMaskRegion>
 	{

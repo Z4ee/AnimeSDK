@@ -8,7 +8,7 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int NapVirtual3DActionCamera_1_Class_1_F52B285BE8DD88E4_TypeDefinitionIndex = 39073;
+	inline static constexpr unsigned int NapVirtual3DActionCamera_1_Class_1_F52B285BE8DD88E4_TypeDefinitionIndex = 63972;
 
 	template <typename T>
 	class NapVirtual3DActionCamera_1_Class_1_F52B285BE8DD88E4 : public ::System::Object

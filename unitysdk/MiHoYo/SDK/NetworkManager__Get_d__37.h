@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/Dictionary_2_KeyCollection_Enumerator.h"
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class JSONObject; }
@@ -9,30 +10,34 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18BCE8A0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18BCEB10)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18BCEB70)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18BCEB20)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BCE890)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCE880)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A512B80)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A513040)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A5130A0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A513050)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A512B70)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__37__CTOR_OFFSET UNITYSDK_OFFSET(0x1A512B60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Get_d__37_TypeDefinitionIndex = 18685;
+	inline static constexpr unsigned int NetworkManager__Get_d__37_TypeDefinitionIndex = 19027;
 
 	class NetworkManager__Get_d__37 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONObject* query; // 0x10
-		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x18
-		::System::String* _queryString_5__1; // 0x20
-		::System::Action* timeoutCallback; // 0x28
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x30
-		::System::String* requestUrl; // 0x38
-		::System::Object* __2__current; // 0x40
-		::System::Int32 retryTime; // 0x48
-		::System::Single timeoutSecond; // 0x4C
-		::System::Int32 __1__state; // 0x50
+		::System::Action* timeoutCallback; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x18
+		::System::Collections::Generic::Dictionary_2_KeyCollection_Enumerator<::System::String*, ::System::String*> __s__3; // 0x20
+		::System::Object* __2__current; // 0x38
+		::MiHoYo::SDK::JSONObject* query; // 0x40
+		::System::String* _key_5__4; // 0x48
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x58
+		::System::String* _queryString_5__2; // 0x60
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x68
+		::System::String* requestUrl; // 0x70
+		::System::Single timeoutSecond; // 0x78
+		::System::Int32 retryTime; // 0x7C
+		::System::Int32 __1__state; // 0x80
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

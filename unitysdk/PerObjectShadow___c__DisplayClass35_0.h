@@ -4,7 +4,7 @@
 
 class NapRenderer;
 
-inline static constexpr unsigned int PerObjectShadow___c__DisplayClass35_0_TypeDefinitionIndex = 29104;
+inline static constexpr unsigned int PerObjectShadow___c__DisplayClass35_0_TypeDefinitionIndex = 29623;
 
 struct alignas(8) PerObjectShadow___c__DisplayClass35_0
 {

@@ -8,7 +8,7 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int NPCSoftAssetPathList_1_TypeDefinitionIndex = 71894;
+inline static constexpr unsigned int NPCSoftAssetPathList_1_TypeDefinitionIndex = 46482;
 
 template <typename T>
 class NPCSoftAssetPathList_1 : public ::System::Object

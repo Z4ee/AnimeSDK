@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInLevelCardOptionsDialogContext; }
 namespace MoleMole::FlowCanvas::Nodes { class LD_GetTarotCardGacha; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETTAROTCARDGACHA___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB18D770)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETTAROTCARDGACHA___C__DISPLAYCLASS10_0___ONRECV_B__0_OFFSET UNITYSDK_OFFSET(0xB18D780)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETTAROTCARDGACHA___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB7E60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETTAROTCARDGACHA___C__DISPLAYCLASS10_0___ONRECV_B__0_OFFSET UNITYSDK_OFFSET(0x10BB7E70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetTarotCardGacha___c__DisplayClass10_0_TypeDefinitionIndex = 56633;
+	inline static constexpr unsigned int LD_GetTarotCardGacha___c__DisplayClass10_0_TypeDefinitionIndex = 75045;
 
 	class LD_GetTarotCardGacha___c__DisplayClass10_0 : public ::System::Object
 	{

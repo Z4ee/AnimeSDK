@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GAMEPADLISTKEYBINDINGSETTINGENTRY_GET_SETTINGRAWINPUTDEVICELIST_OFFSET UNITYSDK_OFFSET(0xD80CE90)
-#define MOLEMOLE_GAMEPADLISTKEYBINDINGSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xD80CF20)
+#define MOLEMOLE_GAMEPADLISTKEYBINDINGSETTINGENTRY_GET_SETTINGRAWINPUTDEVICELIST_OFFSET UNITYSDK_OFFSET(0x138367F0)
+#define MOLEMOLE_GAMEPADLISTKEYBINDINGSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13836880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GamepadListKeyBindingSettingEntry_TypeDefinitionIndex = 67480;
+	inline static constexpr unsigned int GamepadListKeyBindingSettingEntry_TypeDefinitionIndex = 62933;
 
 	class GamepadListKeyBindingSettingEntry : public ::MoleMole::ListKeyBindingSettingEntry
 	{

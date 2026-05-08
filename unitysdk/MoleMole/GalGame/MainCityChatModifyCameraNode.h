@@ -8,12 +8,12 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace MoleMole::GalGame { class MainCityChatCameraParam; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATMODIFYCAMERANODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xD80B440)
-#define MOLEMOLE_GALGAME_MAINCITYCHATMODIFYCAMERANODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD80B420)
+#define MOLEMOLE_GALGAME_MAINCITYCHATMODIFYCAMERANODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x13834E30)
+#define MOLEMOLE_GALGAME_MAINCITYCHATMODIFYCAMERANODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13834E10)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatModifyCameraNode_TypeDefinitionIndex = 42247;
+	inline static constexpr unsigned int MainCityChatModifyCameraNode_TypeDefinitionIndex = 79149;
 
 	class MainCityChatModifyCameraNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MarcelShape_TypeDefinitionIndex = 55597;
+	inline static constexpr unsigned int MarcelShape_TypeDefinitionIndex = 46733;
 
 	enum class MarcelShape : ::System::Int32
 	{

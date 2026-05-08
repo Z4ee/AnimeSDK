@@ -5,24 +5,24 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION_CREATESTANDARDCURVES_OFFSET UNITYSDK_OFFSET(0x36B220)
-#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION_GET_BLENDCURVE_OFFSET UNITYSDK_OFFSET(0x36B230)
-#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x9169A10)
-#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x36B200)
+#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION_CREATESTANDARDCURVES_OFFSET UNITYSDK_OFFSET(0x737B80)
+#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION_GET_BLENDCURVE_OFFSET UNITYSDK_OFFSET(0x737B90)
+#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x11C874A0)
+#define MOLEMOLE_CAMERAS_CAMERADELAYMOVEDATABLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x737B60)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraDelayMoveDataBlendDefinition_TypeDefinitionIndex = 51076;
+	inline static constexpr unsigned int CameraDelayMoveDataBlendDefinition_TypeDefinitionIndex = 43029;
 
 	struct alignas(8) CameraDelayMoveDataBlendDefinition
 	{
-		static ::Il2CppArray<::UnityEngine::AnimationCurve*>** StaticGet_sStandardCurves()
-		{
-			return (::Il2CppArray<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(CameraDelayMoveDataBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x3ADF0);
-		}
 		static ::MoleMole::Cameras::CameraDelayMoveDataBlendDefinition* StaticGet_DefaultBlendDefinition()
 		{
-			return (::MoleMole::Cameras::CameraDelayMoveDataBlendDefinition*)Il2CppClass::FromTypeDefinitionIndex(CameraDelayMoveDataBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x3ADF8);
+			return (::MoleMole::Cameras::CameraDelayMoveDataBlendDefinition*)Il2CppClass::FromTypeDefinitionIndex(CameraDelayMoveDataBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x3C100);
+		}
+		static ::Il2CppArray<::UnityEngine::AnimationCurve*>** StaticGet_sStandardCurves()
+		{
+			return (::Il2CppArray<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(CameraDelayMoveDataBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x3C118);
 		}
 		::MoleMole::Cameras::CameraDelayMoveDataBlendDefinition_Style m_Style; // 0x10
 		::System::Single m_Time; // 0x14

@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController_PageType_TypeDefinitionIndex = 52208;
+	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController_PageType_TypeDefinitionIndex = 49892;
 
 	enum class UIAbyssS2RewardDialogPageController_PageType : ::System::Int32
 	{
-		Reward = 0,
 		Mission = 1,
+		Reward = 0,
 	};
 }

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_A0FFAB6B2701309D.h"
+#include "unitysdk/Class_1_AA6B635120C6C78B.h"
 #include "unitysdk/Class_2_E8C6F87138B2C440_Struct_2_D136C0ED39034E48.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define CLASS_2_E8C6F87138B2C440_METHOD_2_315798EC852A16B8_OFFSET UNITYSDK_OFFSET(0x931C690)
-#define CLASS_2_E8C6F87138B2C440_METHOD_2_C9509255FD6FBFEB_OFFSET UNITYSDK_OFFSET(0x931CA50)
-#define CLASS_2_E8C6F87138B2C440_METHOD_2_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0x931C8F0)
-#define CLASS_2_E8C6F87138B2C440__CTOR_OFFSET UNITYSDK_OFFSET(0x931C660)
+#define CLASS_2_E8C6F87138B2C440_METHOD_2_315798EC852A16B8_OFFSET UNITYSDK_OFFSET(0x15332D20)
+#define CLASS_2_E8C6F87138B2C440_METHOD_2_5F08B426ADF31FF5_OFFSET UNITYSDK_OFFSET(0x15333460)
+#define CLASS_2_E8C6F87138B2C440_METHOD_2_C9509255FD6FBFEB_OFFSET UNITYSDK_OFFSET(0x15332F70)
+#define CLASS_2_E8C6F87138B2C440__CTOR_OFFSET UNITYSDK_OFFSET(0x15332CD0)
 
-inline static constexpr unsigned int Class_2_E8C6F87138B2C440_TypeDefinitionIndex = 68751;
+inline static constexpr unsigned int Class_2_E8C6F87138B2C440_TypeDefinitionIndex = 44348;
 
-class Class_2_E8C6F87138B2C440 : public ::Class_1_A0FFAB6B2701309D
+class Class_2_E8C6F87138B2C440 : public ::Class_1_AA6B635120C6C78B
 {
 public:
 	::System::Void _ctor()
@@ -27,13 +27,13 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::Class_2_E8C6F87138B2C440_Struct_2_D136C0ED39034E48&))((::PBYTE)hIl2Cpp + CLASS_2_E8C6F87138B2C440_METHOD_2_315798EC852A16B8_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_E727F9956B5BD78B()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E8C6F87138B2C440_METHOD_2_E727F9956B5BD78B_OFFSET))(this);
-	}
-
 	::System::Boolean Method_2_C9509255FD6FBFEB(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3, ::Il2CppArray<::UnityEngine::Vector3>* a4, ::System::Boolean a5, ::System::Single a6, ::UnityEngine::AI::NavMeshAgent* a7)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::System::Boolean, ::System::Single, ::UnityEngine::AI::NavMeshAgent*))((::PBYTE)hIl2Cpp + CLASS_2_E8C6F87138B2C440_METHOD_2_C9509255FD6FBFEB_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+	}
+
+	::System::Void Method_2_5F08B426ADF31FF5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E8C6F87138B2C440_METHOD_2_5F08B426ADF31FF5_OFFSET))(this);
 	}
 };

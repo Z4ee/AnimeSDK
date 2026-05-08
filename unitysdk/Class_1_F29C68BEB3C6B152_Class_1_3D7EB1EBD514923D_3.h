@@ -5,7 +5,7 @@
 namespace MoleMole { class UIControllerContextBase; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_F29C68BEB3C6B152_Class_1_3D7EB1EBD514923D_3_TypeDefinitionIndex = 75427;
+inline static constexpr unsigned int Class_1_F29C68BEB3C6B152_Class_1_3D7EB1EBD514923D_3_TypeDefinitionIndex = 62606;
 
 template <typename T>
 class Class_1_F29C68BEB3C6B152_Class_1_3D7EB1EBD514923D_3 : public ::System::Object

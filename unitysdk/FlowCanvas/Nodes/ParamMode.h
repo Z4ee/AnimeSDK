@@ -3,15 +3,15 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ParamMode_TypeDefinitionIndex = 27297;
+	inline static constexpr unsigned int ParamMode_TypeDefinitionIndex = 27707;
 
 	enum class ParamMode : ::System::Int32
 	{
-		Result = 6,
-		In = 1,
 		Undefined = 0,
-		Ref = 3,
-		Instance = 4,
+		In = 1,
+		Result = 6,
 		Out = 2,
+		Instance = 4,
+		Ref = 3,
 	};
 }

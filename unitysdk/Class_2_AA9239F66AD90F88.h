@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7D285728820BC958.h"
+#include "unitysdk/Class_1_534AF681CC2BD5FD_251.h"
 
-namespace UnityEngine { class Texture; }
+#define CLASS_2_AA9239F66AD90F88__CTOR_OFFSET UNITYSDK_OFFSET(0x12A13820)
 
-#define CLASS_2_AA9239F66AD90F88__CTOR_OFFSET UNITYSDK_OFFSET(0x7201610)
+inline static constexpr unsigned int Class_2_AA9239F66AD90F88_TypeDefinitionIndex = 42385;
 
-inline static constexpr unsigned int Class_2_AA9239F66AD90F88_TypeDefinitionIndex = 40361;
-
-class Class_2_AA9239F66AD90F88 : public ::Class_1_7D285728820BC958<::UnityEngine::Texture*>
+class Class_2_AA9239F66AD90F88 : public ::Class_1_534AF681CC2BD5FD_251<::System::Int32>
 {
 public:
 	::System::Void _ctor()

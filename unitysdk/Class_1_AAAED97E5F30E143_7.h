@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_AAAED97E5F30E143_7__CCTOR_OFFSET UNITYSDK_OFFSET(0x78778E0)
+#define CLASS_1_AAAED97E5F30E143_7__CCTOR_OFFSET UNITYSDK_OFFSET(0x11580D60)
 
-inline static constexpr unsigned int Class_1_AAAED97E5F30E143_7_TypeDefinitionIndex = 41728;
+inline static constexpr unsigned int Class_1_AAAED97E5F30E143_7_TypeDefinitionIndex = 40190;
 
 class Class_1_AAAED97E5F30E143_7 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Int32>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AAAED97E5F30E143_7_TypeDefinitionIndex)->GetStaticField(0x462A0);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AAAED97E5F30E143_7_TypeDefinitionIndex)->GetStaticField(0x312B0);
 	}
 
 	static ::System::Void _cctor()

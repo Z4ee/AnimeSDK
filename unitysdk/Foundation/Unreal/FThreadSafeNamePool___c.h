@@ -5,13 +5,13 @@
 namespace Foundation { class SystemReaderWriterLockSlim; }
 namespace System { template <typename T> class Func_1; }
 
-#define FOUNDATION_UNREAL_FTHREADSAFENAMEPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B48BE10)
-#define FOUNDATION_UNREAL_FTHREADSAFENAMEPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B48BE50)
-#define FOUNDATION_UNREAL_FTHREADSAFENAMEPOOL___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B48BE60)
+#define FOUNDATION_UNREAL_FTHREADSAFENAMEPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C214B10)
+#define FOUNDATION_UNREAL_FTHREADSAFENAMEPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C214B50)
+#define FOUNDATION_UNREAL_FTHREADSAFENAMEPOOL___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C214B60)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FThreadSafeNamePool___c_TypeDefinitionIndex = 8814;
+	inline static constexpr unsigned int FThreadSafeNamePool___c_TypeDefinitionIndex = 8798;
 
 	class FThreadSafeNamePool___c : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIAutoBattleMonsterHudWidgetController; }
 namespace UnityEngine { class Camera; }
 
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9869800)
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__UPDATEHUDRENDERORDER_B__0_OFFSET UNITYSDK_OFFSET(0x9869810)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A77DC0)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__UPDATEHUDRENDERORDER_B__0_OFFSET UNITYSDK_OFFSET(0x15A77DD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 51590;
+	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 63710;
 
 	class UIABBattlePhaseWidgetController___c__DisplayClass17_0 : public ::System::Object
 	{

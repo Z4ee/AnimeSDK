@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADSINGLESTREAMINGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA47E860)
+#define MOLEMOLE_PRELOADSINGLESTREAMINGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12FAE430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadSingleStreaminGameConfig_TypeDefinitionIndex = 53787;
+	inline static constexpr unsigned int PreloadSingleStreaminGameConfig_TypeDefinitionIndex = 54766;
 
 	class PreloadSingleStreaminGameConfig : public ::System::Object
 	{

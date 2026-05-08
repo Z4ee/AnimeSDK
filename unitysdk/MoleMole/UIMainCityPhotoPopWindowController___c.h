@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x865D940)
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER___C__CLOSEUI_B__28_0_OFFSET UNITYSDK_OFFSET(0x865D990)
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x865D980)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D3EF60)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER___C__CLOSEUI_B__28_0_OFFSET UNITYSDK_OFFSET(0x14D3EFB0)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3EFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityPhotoPopWindowController___c_TypeDefinitionIndex = 71680;
+	inline static constexpr unsigned int UIMainCityPhotoPopWindowController___c_TypeDefinitionIndex = 46640;
 
 	class UIMainCityPhotoPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIMainCityPhotoPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMainCityPhotoPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityPhotoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37550);
+			return (::MoleMole::UIMainCityPhotoPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityPhotoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37FA0);
 		}
 		static ::System::Action** StaticGet___9__28_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityPhotoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37558);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityPhotoPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37FA8);
 		}
 
 		static ::System::Void _cctor()

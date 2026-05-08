@@ -7,11 +7,11 @@ namespace UnrealTypes { class IFieldVariant; }
 namespace UnrealTypes { class Object; }
 namespace UnrealTypes { class PropertyParamsBase; }
 
-#define UNREALTYPES_OBJECTPROPERTYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20C670)
+#define UNREALTYPES_OBJECTPROPERTYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA33A0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ObjectPropertyBase_TypeDefinitionIndex = 24772;
+	inline static constexpr unsigned int ObjectPropertyBase_TypeDefinitionIndex = 25286;
 
 	class ObjectPropertyBase : public ::UnrealTypes::Property
 	{

@@ -11,39 +11,39 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_CLEANUPCACHE_OFFSET UNITYSDK_OFFSET(0x1B2B2350)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1B2B1D00)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_GET_PREFABINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B2B2340)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B2B1ED0)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1B2B2A00)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B2B2970)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1B2B2670)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_SETHIDEFLAGSRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1B2B25F0)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2B2AB0)
-#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B2AA0)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_CLEANUPCACHE_OFFSET UNITYSDK_OFFSET(0x1C0C46A0)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1C0C3D90)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_GET_PREFABINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C0C4690)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C0C3FD0)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1C0C50C0)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1C0C4F70)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1C0C4B70)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE_SETHIDEFLAGSRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1C0C4A30)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0C5230)
+#define UNITYENGINE_TIMELINE_PREFABCONTROLPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C5220)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PrefabControlPlayable_TypeDefinitionIndex = 30318;
+	inline static constexpr unsigned int PrefabControlPlayable_TypeDefinitionIndex = 30847;
 
 	class PrefabControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>** StaticGet_s_PrefabInstanceCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x243A0);
-		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>** StaticGet_InUsePrefabInstanceSet()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x243A8);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x24F20);
 		}
-		static ::System::Int32* StaticGet_m_PrefabKey()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>** StaticGet_s_PrefabInstanceCache()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x79D0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x24F28);
 		}
 		static ::System::Boolean* StaticGet_UsePrefabCache()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x79D4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x7A70);
+		}
+		static ::System::Int32* StaticGet_m_PrefabKey()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PrefabControlPlayable_TypeDefinitionIndex)->GetStaticField(0x7A74);
 		}
 		::UnityEngine::GameObject* m_Instance; // 0x10
 

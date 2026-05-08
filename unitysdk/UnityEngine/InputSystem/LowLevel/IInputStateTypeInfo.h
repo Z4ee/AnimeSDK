@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IInputStateTypeInfo_TypeDefinitionIndex = 28769;
+	inline static constexpr unsigned int IInputStateTypeInfo_TypeDefinitionIndex = 29287;
 
 	class IInputStateTypeInfo
 	{

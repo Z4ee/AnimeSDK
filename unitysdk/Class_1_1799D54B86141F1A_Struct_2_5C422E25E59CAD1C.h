@@ -8,19 +8,19 @@ namespace MoleMole { class UIPreUnlockDialogPopWindowController; }
 namespace System { class Action; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_1799D54B86141F1A_STRUCT_2_5C422E25E59CAD1C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x38A500)
-#define CLASS_1_1799D54B86141F1A_STRUCT_2_5C422E25E59CAD1C_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x35BE60)
+#define CLASS_1_1799D54B86141F1A_STRUCT_2_5C422E25E59CAD1C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7590F0)
+#define CLASS_1_1799D54B86141F1A_STRUCT_2_5C422E25E59CAD1C_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6EE6F0)
 
-inline static constexpr unsigned int Class_1_1799D54B86141F1A_Struct_2_5C422E25E59CAD1C_TypeDefinitionIndex = 75470;
+inline static constexpr unsigned int Class_1_1799D54B86141F1A_Struct_2_5C422E25E59CAD1C_TypeDefinitionIndex = 66747;
 
 struct alignas(8) Class_1_1799D54B86141F1A_Struct_2_5C422E25E59CAD1C
 {
 	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x10
-	::System::Action* Field_2_3; // 0x20
-	::MoleMole::UIPreUnlockDialogPopWindowController* Field_2_4; // 0x28
+	::MoleMole::UIPreUnlockDialogPopWindowController* Field_2_4; // 0x20
+	::System::Action* Field_2_3; // 0x28
 	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x30
-	::System::Int32 Field_2_0; // 0x50
-	::System::Int32 Field_2_2; // 0x54
+	::System::Int32 Field_2_2; // 0x50
+	::System::Int32 Field_2_0; // 0x54
 
 	::System::Void MoveNext()
 	{

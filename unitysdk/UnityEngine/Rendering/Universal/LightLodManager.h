@@ -9,44 +9,44 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1966CFC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_GETMAXRANGEMULTIPLY_OFFSET UNITYSDK_OFFSET(0x1966D030)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_GET_ENABLEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1966D090)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1966C870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_LATEUPDATELIGHTLOD_OFFSET UNITYSDK_OFFSET(0x1966CF40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_REGISTERLIGHT_OFFSET UNITYSDK_OFFSET(0x1966C9E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UNREGISTERLIGHT_OFFSET UNITYSDK_OFFSET(0x1966CAE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UPDATELIGHTLODMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1966CC30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UPDATELIGHTLOD_OFFSET UNITYSDK_OFFSET(0x1966CBE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1966D0A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1966C960)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AD0BBB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_GETMAXRANGEMULTIPLY_OFFSET UNITYSDK_OFFSET(0x1AD0BC20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_GET_ENABLEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1AD0BC80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AD0B0D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_LATEUPDATELIGHTLOD_OFFSET UNITYSDK_OFFSET(0x1AD0BB30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_REGISTERLIGHT_OFFSET UNITYSDK_OFFSET(0x1AD0B240)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UNREGISTERLIGHT_OFFSET UNITYSDK_OFFSET(0x1AD0B440)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UPDATELIGHTLODMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1AD0B690)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_UPDATELIGHTLOD_OFFSET UNITYSDK_OFFSET(0x1AD0B640)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD0BC90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0B1C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLodManager_TypeDefinitionIndex = 29495;
+	inline static constexpr unsigned int LightLodManager_TypeDefinitionIndex = 30023;
 
 	class LightLodManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::LightLodManager** StaticGet_m_instance()
 		{
-			return (::UnityEngine::Rendering::Universal::LightLodManager**)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x22E90);
-		}
-		static ::System::Int32* StaticGet_s_SceneViewLightCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6120);
+			return (::UnityEngine::Rendering::Universal::LightLodManager**)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x23A00);
 		}
 		static ::System::Boolean* StaticGet_enableUpdateLightLODJob()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6124);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6150);
 		}
 		static ::System::Boolean* StaticGet_s_OptimizeSpotLightCullingSphere()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6125);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6151);
 		}
 		static ::System::Int32* StaticGet_s_MainCameraLihgtCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6128);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6154);
+		}
+		static ::System::Int32* StaticGet_s_SceneViewLightCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightLodManager_TypeDefinitionIndex)->GetStaticField(0x6158);
 		}
 		// static const ::System::Int32 LIGHT_LOD_UPDATE_COUNT_PER_FRAME = 0x40; // 0x0
 		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*>* m_lightDates; // 0x10

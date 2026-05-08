@@ -6,7 +6,7 @@ namespace MoleMole { class InLevelAvatarDataItem; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TeamUniqueAbility_TypeDefinitionIndex = 53648;
+	inline static constexpr unsigned int TeamUniqueAbility_TypeDefinitionIndex = 39807;
 
 	struct alignas(8) TeamUniqueAbility
 	{

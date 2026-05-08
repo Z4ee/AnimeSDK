@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/__Il2CppComObject.h"
 
-#define SYSTEM___IL2CPPCOMDELEGATE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1986AC60)
+#define SYSTEM___IL2CPPCOMDELEGATE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A3BDED0)
 
 namespace System
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATAEXTENSIONV1_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18F15030)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATAEXTENSIONV1_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A97E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalAdditionalLightDataExtensionV1_2_TypeDefinitionIndex = 29730;
+	inline static constexpr unsigned int UniversalAdditionalLightDataExtensionV1_2_TypeDefinitionIndex = 30259;
 
 	class UniversalAdditionalLightDataExtensionV1_2 : public ::UnityEngine::MonoBehaviour
 	{

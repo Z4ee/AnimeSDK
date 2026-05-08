@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorHitEffect_TypeDefinitionIndex = 52795;
+	inline static constexpr unsigned int AnimatorHitEffect_TypeDefinitionIndex = 59941;
 
 	enum class AnimatorHitEffect : ::System::Int32
 	{
+		HitSky = 1,
+		HitFloor = 2,
+		HitGround = 0,
 		Shake = -1,
 		Mute = -2,
-		HitFloor = 2,
-		HitSky = 1,
-		HitGround = 0,
 	};
 }

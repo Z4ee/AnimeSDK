@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD3830)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19FD3840)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3A740)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1AE3A750)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass30_0_TypeDefinitionIndex = 34591;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass30_0_TypeDefinitionIndex = 35127;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass30_0 : public ::System::Object
 	{

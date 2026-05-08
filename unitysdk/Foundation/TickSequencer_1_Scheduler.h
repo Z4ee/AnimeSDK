@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickSequencer_1_Scheduler_TypeDefinitionIndex = 9148;
+	inline static constexpr unsigned int TickSequencer_1_Scheduler_TypeDefinitionIndex = 8860;
 
 	template <typename TTickingGroup>
 	class TickSequencer_1_Scheduler : public ::System::Object

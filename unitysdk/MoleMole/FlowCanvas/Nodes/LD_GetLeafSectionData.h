@@ -4,12 +4,12 @@
 
 namespace MoleMole { class LevelSectionGroupData; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEAFSECTIONDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD53AA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEAFSECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD53C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEAFSECTIONDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x125C9200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEAFSECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x125C9390)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetLeafSectionData_TypeDefinitionIndex = 46935;
+	inline static constexpr unsigned int LD_GetLeafSectionData_TypeDefinitionIndex = 76479;
 
 	class LD_GetLeafSectionData : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::LevelSectionGroupData*, ::System::Int32>
 	{

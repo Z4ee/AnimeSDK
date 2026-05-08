@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_SCENEOBJECTCAPTUREMONO_GETGAMEOBJECTBYALIAS_OFFSET UNITYSDK_OFFSET(0xC3278D0)
-#define MOLEMOLE_SCENEOBJECTCAPTUREMONO_TRYGETGAMEOBJECTBYALIAS_OFFSET UNITYSDK_OFFSET(0xC327A70)
-#define MOLEMOLE_SCENEOBJECTCAPTUREMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xC327C30)
+#define MOLEMOLE_SCENEOBJECTCAPTUREMONO_GETGAMEOBJECTBYALIAS_OFFSET UNITYSDK_OFFSET(0x15E55180)
+#define MOLEMOLE_SCENEOBJECTCAPTUREMONO_TRYGETGAMEOBJECTBYALIAS_OFFSET UNITYSDK_OFFSET(0x15E552D0)
+#define MOLEMOLE_SCENEOBJECTCAPTUREMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x15E55440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneObjectCaptureMono_TypeDefinitionIndex = 63077;
+	inline static constexpr unsigned int SceneObjectCaptureMono_TypeDefinitionIndex = 66570;
 
 	class SceneObjectCaptureMono : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

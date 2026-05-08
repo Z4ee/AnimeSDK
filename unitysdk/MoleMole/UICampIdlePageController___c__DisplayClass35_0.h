@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_44EFB945CAE441A3;
+class Class_1_E081FCEC8F87505A;
 namespace MoleMole { class UILineupSelectContext; }
 
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC2680)
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__ONCLICKSTARTBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x8BC2A60)
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__ONCLICKSTARTBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x8BC2690)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152F4F00)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__ONCLICKSTARTBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x152F5310)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__ONCLICKSTARTBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x152F4F10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass35_0_TypeDefinitionIndex = 66509;
+	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass35_0_TypeDefinitionIndex = 69144;
 
 	class UICampIdlePageController___c__DisplayClass35_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnClickStartBattle_b__1(::Class_1_44EFB945CAE441A3* data)
+		::System::Void _OnClickStartBattle_b__1(::Class_1_E081FCEC8F87505A* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_44EFB945CAE441A3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__ONCLICKSTARTBATTLE_B__1_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E081FCEC8F87505A*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS35_0__ONCLICKSTARTBATTLE_B__1_OFFSET))(this, data);
 		}
 
 		::System::Void _OnClickStartBattle_b__0()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIPARTNERDATEMAPLISTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCA6E720)
+#define MOLEMOLE_UIPARTNERDATEMAPLISTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D9B8E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPartnerDateMapListPopWindowController_Context_TypeDefinitionIndex = 73023;
+	inline static constexpr unsigned int UIPartnerDateMapListPopWindowController_Context_TypeDefinitionIndex = 59922;
 
 	class UIPartnerDateMapListPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

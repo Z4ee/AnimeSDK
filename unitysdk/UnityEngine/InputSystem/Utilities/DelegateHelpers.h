@@ -9,11 +9,11 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_DELEGATEHELPERS_INVOKECALLBACKSSAFE_OFFSET UNITYSDK_OFFSET(0x1A0AE8F0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_DELEGATEHELPERS_INVOKECALLBACKSSAFE_OFFSET UNITYSDK_OFFSET(0x1AF9F0B0)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 28869;
+	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 29387;
 
 	class DelegateHelpers : public ::System::Object
 	{

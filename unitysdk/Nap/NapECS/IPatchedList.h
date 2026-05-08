@@ -3,7 +3,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IPatchedList_TypeDefinitionIndex = 35233;
+	inline static constexpr unsigned int IPatchedList_TypeDefinitionIndex = 35754;
 
 	class IPatchedList
 	{

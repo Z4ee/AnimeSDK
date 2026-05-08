@@ -10,17 +10,17 @@ class MonoUITableScrollV2;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_3_CDB9F66494C4ECCB_STRUCT_2_66E76F1C4643A074_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x303860)
-#define CLASS_3_CDB9F66494C4ECCB_STRUCT_2_66E76F1C4643A074_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_3_CDB9F66494C4ECCB_STRUCT_2_66E76F1C4643A074_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7450D0)
+#define CLASS_3_CDB9F66494C4ECCB_STRUCT_2_66E76F1C4643A074_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_3_CDB9F66494C4ECCB_Struct_2_66E76F1C4643A074_TypeDefinitionIndex = 66986;
+inline static constexpr unsigned int Class_3_CDB9F66494C4ECCB_Struct_2_66E76F1C4643A074_TypeDefinitionIndex = 54665;
 
 struct alignas(8) Class_3_CDB9F66494C4ECCB_Struct_2_66E76F1C4643A074
 {
-	::System::Threading::CancellationToken Field_2_3; // 0x10
-	::MonoUITableScrollV2* Field_2_4; // 0x18
-	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x20
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x28
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x10
+	::System::Threading::CancellationToken Field_2_3; // 0x20
+	::MonoUITableScrollV2* Field_2_4; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_5; // 0x30
 	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x38
 	::Class_3_CDB9F66494C4ECCB* Field_2_2; // 0x48
 	::System::Int32 Field_2_0; // 0x50

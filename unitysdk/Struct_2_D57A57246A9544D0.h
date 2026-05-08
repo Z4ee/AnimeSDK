@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_D57A57246A9544D0_TypeDefinitionIndex = 38630;
+inline static constexpr unsigned int Struct_2_D57A57246A9544D0_TypeDefinitionIndex = 46834;
 
 template <typename TPose, typename TIntrinsics>
 struct Struct_2_D57A57246A9544D0

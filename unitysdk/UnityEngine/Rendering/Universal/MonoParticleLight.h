@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MONOPARTICLELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B4AA70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MONOPARTICLELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9E850)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MonoParticleLight_TypeDefinitionIndex = 29538;
+	inline static constexpr unsigned int MonoParticleLight_TypeDefinitionIndex = 30066;
 
 	class MonoParticleLight : public ::UnityEngine::MonoBehaviour
 	{

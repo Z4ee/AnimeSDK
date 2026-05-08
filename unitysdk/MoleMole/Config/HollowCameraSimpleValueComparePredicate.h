@@ -5,20 +5,20 @@
 #include "unitysdk/MoleMole/Config/ValueCompareType.h"
 #include "unitysdk/Struct_2_31FD36EFA5418B17.h"
 
-#define MOLEMOLE_CONFIG_HOLLOWCAMERASIMPLEVALUECOMPAREPREDICATE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10AA7B70)
-#define MOLEMOLE_CONFIG_HOLLOWCAMERASIMPLEVALUECOMPAREPREDICATE_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x10AA7C90)
-#define MOLEMOLE_CONFIG_HOLLOWCAMERASIMPLEVALUECOMPAREPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA7D90)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERASIMPLEVALUECOMPAREPREDICATE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x183D16E0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERASIMPLEVALUECOMPAREPREDICATE_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x183D17E0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERASIMPLEVALUECOMPAREPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x183D18C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCameraSimpleValueComparePredicate_TypeDefinitionIndex = 51444;
+	inline static constexpr unsigned int HollowCameraSimpleValueComparePredicate_TypeDefinitionIndex = 59322;
 
 	class HollowCameraSimpleValueComparePredicate : public ::MoleMole::Config::BaseHollowCameraPredicate
 	{
 	public:
-		::MoleMole::Config::HollowCameraPredicateSimpleValueType ValueType; // 0x10
+		::System::Single ValueTarget; // 0x10
 		::MoleMole::Config::ValueCompareType CompareType; // 0x14
-		::System::Single ValueTarget; // 0x18
+		::MoleMole::Config::HollowCameraPredicateSimpleValueType ValueType; // 0x18
 
 		::System::Void _ctor()
 		{

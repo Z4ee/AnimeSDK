@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleCardItemCollectPageController_TabData_TypeDefinitionIndex = 80982;
+	inline static constexpr unsigned int UITriDiceOracleCardItemCollectPageController_TabData_TypeDefinitionIndex = 64170;
 
 	struct alignas(8) UITriDiceOracleCardItemCollectPageController_TabData
 	{

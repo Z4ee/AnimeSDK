@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_ACCESSOR_WEATHERVOXELDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x3B72A0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_ACCESSOR_WEATHERVOXELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3B7310)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ACCESSOR_WEATHERVOXELDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x7A1F50)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ACCESSOR_WEATHERVOXELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x7A1FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainZoneVoxel_Accessor_WeatherVoxelData_TypeDefinitionIndex = 71168;
+	inline static constexpr unsigned int MonoTerrainZoneVoxel_Accessor_WeatherVoxelData_TypeDefinitionIndex = 47734;
 
 	struct alignas(8) MonoTerrainZoneVoxel_Accessor_WeatherVoxelData
 	{

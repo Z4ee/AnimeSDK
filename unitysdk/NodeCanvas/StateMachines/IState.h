@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int IState_TypeDefinitionIndex = 27005;
+	inline static constexpr unsigned int IState_TypeDefinitionIndex = 27332;
 
 	class IState
 	{

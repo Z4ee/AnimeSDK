@@ -7,21 +7,21 @@ namespace MoleMole { class UIPrivateMessageReplyWidgetController; }
 namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA431380)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__OPENPERSONALQUEST_B__0_OFFSET UNITYSDK_OFFSET(0xA431390)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__OPENPERSONALQUEST_B__1_OFFSET UNITYSDK_OFFSET(0xA431600)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__OPENPERSONALQUEST_B__2_OFFSET UNITYSDK_OFFSET(0xA431750)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15113870)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__OPENPERSONALQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x15113880)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__OPENPERSONALQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x15113B50)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS26_0__OPENPERSONALQUEST_B__2_OFFSET UNITYSDK_OFFSET(0x15113CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 57799;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 69540;
 
 	class UIPrivateMessageReplyWidgetController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
 		::Class_1_794BA983EDDBCFDE_Class_2_BD4CB46CB1BDBF16* singleMessage; // 0x10
-		::System::Action_1<::System::EventArgs*>* __9__2; // 0x18
-		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x20
+		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x18
+		::System::Action_1<::System::EventArgs*>* __9__2; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPLAYERROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA94F900)
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPLAYERROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA94F940)
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPLAYERROWWIDGETCONTROLLER___C__ONADDFRIENDHANDLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xA94F950)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPLAYERROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x149EE6C0)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPLAYERROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x149EE700)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPLAYERROWWIDGETCONTROLLER___C__ONADDFRIENDHANDLE_B__13_0_OFFSET UNITYSDK_OFFSET(0x149EE710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventurePlayerRowWidgetController___c_TypeDefinitionIndex = 63505;
+	inline static constexpr unsigned int UIGrandMarcelAdventurePlayerRowWidgetController___c_TypeDefinitionIndex = 69043;
 
 	class UIGrandMarcelAdventurePlayerRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIGrandMarcelAdventurePlayerRowWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIGrandMarcelAdventurePlayerRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelAdventurePlayerRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B7E0);
-		}
 		static ::System::Action** StaticGet___9__13_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelAdventurePlayerRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B7E8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelAdventurePlayerRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAF0);
+		}
+		static ::MoleMole::UIGrandMarcelAdventurePlayerRowWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIGrandMarcelAdventurePlayerRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGrandMarcelAdventurePlayerRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAF8);
 		}
 
 		static ::System::Void _cctor()

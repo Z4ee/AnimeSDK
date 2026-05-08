@@ -6,7 +6,7 @@ namespace Foundation { template <typename T1, typename T2> class DefaultResource
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DefaultResourceConstructor_2_TypeDefinitionIndex = 8816;
+	inline static constexpr unsigned int DefaultResourceConstructor_2_TypeDefinitionIndex = 9205;
 
 	template <typename TResource, typename TDefault>
 	class DefaultResourceConstructor_2 : public ::System::Object

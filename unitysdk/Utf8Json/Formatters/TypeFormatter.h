@@ -8,26 +8,26 @@ namespace System { class Type; }
 namespace System::Text::RegularExpressions { class Regex; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B20DAB0)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B20DA60)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B20DC40)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B20DA50)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B20DA40)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BE25C60)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BE25C10)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE25E20)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE25C00)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE25BF0)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int TypeFormatter_TypeDefinitionIndex = 84080;
+	inline static constexpr unsigned int TypeFormatter_TypeDefinitionIndex = 85808;
 
 	class TypeFormatter : public ::System::Object
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x48CC0);
-		}
 		static ::Utf8Json::Formatters::TypeFormatter** StaticGet_Default()
 		{
-			return (::Utf8Json::Formatters::TypeFormatter**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x48CC8);
+			return (::Utf8Json::Formatters::TypeFormatter**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x4A830);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x4A838);
 		}
 		::System::Boolean serializeAssemblyQualifiedName; // 0x10
 		::System::Boolean throwOnError; // 0x11

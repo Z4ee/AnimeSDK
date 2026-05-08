@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-inline static constexpr unsigned int MonoHollowResultPageConfig_LightConfig_TypeDefinitionIndex = 65501;
+inline static constexpr unsigned int MonoHollowResultPageConfig_LightConfig_TypeDefinitionIndex = 43202;
 
 struct alignas(4) MonoHollowResultPageConfig_LightConfig
 {

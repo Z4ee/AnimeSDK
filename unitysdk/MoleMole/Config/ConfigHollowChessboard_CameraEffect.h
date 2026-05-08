@@ -4,27 +4,27 @@
 #include "unitysdk/MoleMole/Config/ConfigHollowChessboard_ChessEffectBase_DurationType.h"
 
 class Class_1_8CE3173023BA2453;
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0xF2CE910)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0xF2CE900)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0xF2CE7E0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xF2CE980)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0xF2CE990)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x159ED6C0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x159ED6B0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0x159ED5B0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x159ED710)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x159ED720)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_CameraEffect_TypeDefinitionIndex = 79819;
+	inline static constexpr unsigned int ConfigHollowChessboard_CameraEffect_TypeDefinitionIndex = 43468;
 
 	class ConfigHollowChessboard_CameraEffect : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
 	public:
-		::System::String* fadeInAnimName; // 0x20
-		::System::String* fadeOutAnimName; // 0x28
+		::System::String* fadeOutAnimName; // 0x20
+		::System::String* fadeInAnimName; // 0x28
 		::System::String* prefab; // 0x30
 		::System::Single duration; // 0x38
 
@@ -33,9 +33,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_5_0B648F1F8F6AC84A* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
+		::System::Void Run(::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
+			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_CAMERAEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
 		}
 
 		::System::Single get_totalDuration()

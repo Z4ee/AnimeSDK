@@ -5,11 +5,11 @@
 namespace MoleMole { class MonoEffect_LayeredEffectFadeConfig; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOEFFECT_LAYEREDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xB99ADB0)
+#define MOLEMOLE_MONOEFFECT_LAYEREDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B34A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffect_LayeredEffect_TypeDefinitionIndex = 38982;
+	inline static constexpr unsigned int MonoEffect_LayeredEffect_TypeDefinitionIndex = 39613;
 
 	class MonoEffect_LayeredEffect : public ::System::Object
 	{

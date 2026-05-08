@@ -12,12 +12,12 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 namespace System::Xml::Schema { class ValidationState; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1986F120)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1986F1B0)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1986F500)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1986EBB0)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1986ECC0)
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1986EB00)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1A45BB10)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1A45BBA0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1A45BF20)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1A45B580)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1A45B6B0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45B4D0)
 
 namespace System::Xml::Schema
 {
@@ -27,9 +27,9 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::Positions* positions; // 0x18
-		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x20
+		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x20
 		::System::Xml::Schema::BitSet* firstpos; // 0x28
-		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x30
+		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x30
 		::System::Int32 endMarkerPos; // 0x38
 
 		::System::Void _ctor(::System::Xml::Schema::BitSet* firstpos, ::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, ::System::Int32 endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, ::System::Boolean isOpen, ::System::Boolean isEmptiable)

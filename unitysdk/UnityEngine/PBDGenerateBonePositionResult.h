@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDGenerateBonePositionResult_TypeDefinitionIndex = 24331;
+	inline static constexpr unsigned int PBDGenerateBonePositionResult_TypeDefinitionIndex = 24844;
 
 	struct alignas(8) PBDGenerateBonePositionResult
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_SCREENPLAYER_FLIPBOOKUTILS_GETFLIPBOOKMATERIALINDEX_OFFSET UNITYSDK_OFFSET(0xC327D20)
-#define MOLEMOLE_SCREENPLAYER_FLIPBOOKUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xC328830)
+#define MOLEMOLE_SCREENPLAYER_FLIPBOOKUTILS_GETFLIPBOOKMATERIALINDEX_OFFSET UNITYSDK_OFFSET(0x15E55590)
+#define MOLEMOLE_SCREENPLAYER_FLIPBOOKUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x15E560E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScreenPlayer_FlipbookUtils_TypeDefinitionIndex = 48484;
+	inline static constexpr unsigned int ScreenPlayer_FlipbookUtils_TypeDefinitionIndex = 45725;
 
 	class ScreenPlayer_FlipbookUtils : public ::UnityEngine::MonoBehaviour
 	{

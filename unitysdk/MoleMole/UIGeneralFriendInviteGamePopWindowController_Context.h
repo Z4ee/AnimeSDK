@@ -5,18 +5,18 @@
 class Class_1_81D34D116310A358;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALFRIENDINVITEGAMEPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9123360)
+#define MOLEMOLE_UIGENERALFRIENDINVITEGAMEPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1E540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralFriendInviteGamePopWindowController_Context_TypeDefinitionIndex = 45156;
+	inline static constexpr unsigned int UIGeneralFriendInviteGamePopWindowController_Context_TypeDefinitionIndex = 82202;
 
 	class UIGeneralFriendInviteGamePopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_1_81D34D116310A358* request; // 0x28
-		::System::Action* CallOnComplete; // 0x30
-		::System::Action* OnAcceptShowAction; // 0x38
+		::System::Action* OnAcceptShowAction; // 0x30
+		::System::Action* CallOnComplete; // 0x38
 		::System::UInt32 headPortrait; // 0x40
 
 		::System::Void _ctor(::Class_1_81D34D116310A358* request, ::System::UInt32 portrait, ::System::Action* onAcceptShowAction, ::System::Action* callOnComplete)

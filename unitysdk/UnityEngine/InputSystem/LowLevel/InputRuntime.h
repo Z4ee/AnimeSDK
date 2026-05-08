@@ -6,18 +6,18 @@ namespace UnityEngine::InputSystem::LowLevel { class IInputRuntime; }
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputRuntime_TypeDefinitionIndex = 28756;
+	inline static constexpr unsigned int InputRuntime_TypeDefinitionIndex = 29274;
 
 	class InputRuntime : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::InputSystem::LowLevel::IInputRuntime** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::InputSystem::LowLevel::IInputRuntime**)Il2CppClass::FromTypeDefinitionIndex(InputRuntime_TypeDefinitionIndex)->GetStaticField(0x21550);
+			return (::UnityEngine::InputSystem::LowLevel::IInputRuntime**)Il2CppClass::FromTypeDefinitionIndex(InputRuntime_TypeDefinitionIndex)->GetStaticField(0x220C0);
 		}
 		static ::System::Double* StaticGet_s_CurrentTimeOffsetToRealtimeSinceStartup()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(InputRuntime_TypeDefinitionIndex)->GetStaticField(0x4C10);
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(InputRuntime_TypeDefinitionIndex)->GetStaticField(0x4C30);
 		}
 	};
 }

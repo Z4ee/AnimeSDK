@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMAINCITYSIDEBARCONTEXT_COPY_OFFSET UNITYSDK_OFFSET(0x8977EF0)
-#define MOLEMOLE_UIMAINCITYSIDEBARCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8977FA0)
+#define MOLEMOLE_UIMAINCITYSIDEBARCONTEXT_COPY_OFFSET UNITYSDK_OFFSET(0x152A9B10)
+#define MOLEMOLE_UIMAINCITYSIDEBARCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152A9BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCitySidebarContext_TypeDefinitionIndex = 50848;
+	inline static constexpr unsigned int UIMainCitySidebarContext_TypeDefinitionIndex = 39719;
 
 	class UIMainCitySidebarContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Boolean PreviewMode; // 0x28
-		::System::Boolean FromStore; // 0x29
-		::System::Boolean FromBack; // 0x2A
-		::System::Int32 CurrentSidebarFocusId; // 0x2C
+		::System::Int32 CurrentSidebarFocusId; // 0x28
+		::System::Boolean PreviewMode; // 0x2C
+		::System::Boolean FromStore; // 0x2D
+		::System::Boolean FromBack; // 0x2E
 
 		::System::Void _ctor()
 		{

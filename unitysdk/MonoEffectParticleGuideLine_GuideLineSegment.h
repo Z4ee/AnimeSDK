@@ -3,9 +3,9 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MONOEFFECTPARTICLEGUIDELINE_GUIDELINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x377930)
+#define MONOEFFECTPARTICLEGUIDELINE_GUIDELINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x74DC00)
 
-inline static constexpr unsigned int MonoEffectParticleGuideLine_GuideLineSegment_TypeDefinitionIndex = 55754;
+inline static constexpr unsigned int MonoEffectParticleGuideLine_GuideLineSegment_TypeDefinitionIndex = 56381;
 
 struct alignas(4) MonoEffectParticleGuideLine_GuideLineSegment
 {

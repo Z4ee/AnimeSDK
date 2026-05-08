@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CreateCollection_1___c_TypeDefinitionIndex = 25972;
+	inline static constexpr unsigned int CreateCollection_1___c_TypeDefinitionIndex = 27943;
 
 	template <typename T>
 	class CreateCollection_1___c : public ::System::Object

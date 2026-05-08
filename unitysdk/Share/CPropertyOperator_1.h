@@ -13,11 +13,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-template <typename T> class Class_0_16E4307DCC419505_16;
+template <typename T> class Class_0_16E4307DCC41950C;
 
 namespace Share
 {
-	inline static constexpr unsigned int CPropertyOperator_1_TypeDefinitionIndex = 11482;
+	inline static constexpr unsigned int CPropertyOperator_1_TypeDefinitionIndex = 15561;
 
 	template <typename T>
 	class CPropertyOperator_1 : public ::System::Object

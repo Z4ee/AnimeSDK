@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBakerHorizontalVertical_AtlasDirection_TypeDefinitionIndex = 83433;
+	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBakerHorizontalVertical_AtlasDirection_TypeDefinitionIndex = 85161;
 
 	enum class MB3_TextureCombinerPackerMeshBakerHorizontalVertical_AtlasDirection : ::System::Int32
 	{

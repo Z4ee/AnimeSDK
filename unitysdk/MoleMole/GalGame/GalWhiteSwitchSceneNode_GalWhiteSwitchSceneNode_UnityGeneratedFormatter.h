@@ -13,42 +13,42 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x6E8F050)
-#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x6E8F060)
-#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x6E8F710)
-#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x6E8FB40)
-#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x6E8FB00)
+#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x14288970)
+#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x14288980)
+#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x14289010)
+#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14289410)
+#define MOLEMOLE_GALGAME_GALWHITESWITCHSCENENODE_GALWHITESWITCHSCENENODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x142893D0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex = 74000;
+	inline static constexpr unsigned int GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex = 82280;
 
 	class GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::GalWhiteSwitchSceneNode*>
 	{
 	public:
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>*>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45AA0);
+		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalSwitchSceneNode_AnimLength>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalSwitchSceneNode_AnimLength>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44140);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalSwitchSceneNode_AnimLength>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45AA8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44148);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44150);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>*>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44158);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44160);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45AB0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44168);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45AB8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::GalPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45AC0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GalWhiteSwitchSceneNode_GalWhiteSwitchSceneNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45AC8);
 		}
 
 		::System::Void _ctor()

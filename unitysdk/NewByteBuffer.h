@@ -7,12 +7,12 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NEWBYTEBUFFER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B3B3FB0)
-#define NEWBYTEBUFFER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B3B3FE0)
-#define NEWBYTEBUFFER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B3B3A70)
-#define NEWBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B3A50)
+#define NEWBYTEBUFFER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C284C40)
+#define NEWBYTEBUFFER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C284C70)
+#define NEWBYTEBUFFER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C284700)
+#define NEWBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2846F0)
 
-inline static constexpr unsigned int NewByteBuffer_TypeDefinitionIndex = 25666;
+inline static constexpr unsigned int NewByteBuffer_TypeDefinitionIndex = 26113;
 
 class NewByteBuffer : public ::System::MulticastDelegate
 {

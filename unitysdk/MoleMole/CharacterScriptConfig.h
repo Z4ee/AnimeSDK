@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_9BDB9B3460BCD57E.h"
+#include "unitysdk/Enum_3_45DCCA85C18A63B1.h"
 #include "unitysdk/MoleMole/AvatarSteerType.h"
 #include "unitysdk/MoleMole/Battle/EntityBodySize.h"
 #include "unitysdk/MoleMole/CharacterScriptConfig_NumberPositiveType.h"
@@ -28,11 +28,11 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x94E5860)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x124017E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_TypeDefinitionIndex = 58765;
+	inline static constexpr unsigned int CharacterScriptConfig_TypeDefinitionIndex = 46568;
 
 	class CharacterScriptConfig : public ::MoleMole::SkillCharacterScriptConfig
 	{
@@ -88,7 +88,7 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::TwoValue_1<::MoleMole::TwoDiffValue_2<::System::String*, ::System::Single>*>*>* CustomProperties; // 0x348
 		::System::Collections::Generic::HashSet_1<::System::String*>* MPCustomProperties; // 0x350
 		::MoleMole::Config::ShoesType CharacterShoes; // 0x358
-		::Enum_3_9BDB9B3460BCD57E DefendType; // 0x35C
+		::Enum_3_45DCCA85C18A63B1 DefendType; // 0x35C
 		::System::Collections::Generic::List_1<::MoleMole::TwoDiffValue_2<::MoleMole::Config::ConfigAudioFetchAnimatorParam*, ::MoleMole::Config::AudioRTPCConvert*>*>* audioFetchAnimatorParams; // 0x360
 		::System::String* TeamShieldHudAttachPoint; // 0x368
 		::System::Single TeamShieldHudOffsetX; // 0x370
@@ -125,24 +125,25 @@ namespace MoleMole
 		::System::String* overrideRunStateTiltBone; // 0x438
 		::System::Boolean UseAnimationBlendTilt; // 0x440
 		::System::String* AnimationBlendTiltParam; // 0x448
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigMisc_InteractRotate*>* OverrideInteractRotateInfo; // 0x450
-		::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI* CustomPropertyUIParams; // 0x458
-		::System::Boolean SingleAvatarShowPerfectSwitchEnergy; // 0x460
-		::System::String* InLevelLocalRoleHudUICtrlName; // 0x468
-		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetXPositiveType; // 0x470
-		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetYPositiveType; // 0x474
-		::System::Boolean FisticuffUseNormalFrameHalt; // 0x478
-		::System::Boolean ForceKeepCollisionDetectMode; // 0x479
-		::System::String* AlertConfigKey; // 0x480
-		::System::Boolean MuteMonsterLevelHUDOnIdle; // 0x488
-		::System::Boolean ShowMonsterHPWhenLevelHUDShowOnIdle; // 0x489
-		::System::Boolean MuteMonsterLevelHUDOnEnterBattle; // 0x48A
-		::MoleMole::ConfigEnvironmentFeatureModifier* EnvironmentFeatureModifier; // 0x490
-		::System::Boolean EnableAvatarFlyHeightLimit; // 0x498
-		::System::Single AvatarFlyHeightLimitStart; // 0x49C
-		::System::Single AvatarFlyHeightLimitMax; // 0x4A0
-		::System::String* AvatarFlyHeightCurveKey; // 0x4A8
-		::System::String* LifePointCustomProperty; // 0x4B0
+		::System::Boolean LeftJoyStickMode; // 0x450
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigMisc_InteractRotate*>* OverrideInteractRotateInfo; // 0x458
+		::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI* CustomPropertyUIParams; // 0x460
+		::System::Boolean SingleAvatarShowPerfectSwitchEnergy; // 0x468
+		::System::String* InLevelLocalRoleHudUICtrlName; // 0x470
+		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetXPositiveType; // 0x478
+		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetYPositiveType; // 0x47C
+		::System::Boolean FisticuffUseNormalFrameHalt; // 0x480
+		::System::Boolean ForceKeepCollisionDetectMode; // 0x481
+		::System::String* AlertConfigKey; // 0x488
+		::System::Boolean MuteMonsterLevelHUDOnIdle; // 0x490
+		::System::Boolean ShowMonsterHPWhenLevelHUDShowOnIdle; // 0x491
+		::System::Boolean MuteMonsterLevelHUDOnEnterBattle; // 0x492
+		::MoleMole::ConfigEnvironmentFeatureModifier* EnvironmentFeatureModifier; // 0x498
+		::System::Boolean EnableAvatarFlyHeightLimit; // 0x4A0
+		::System::Single AvatarFlyHeightLimitStart; // 0x4A4
+		::System::Single AvatarFlyHeightLimitMax; // 0x4A8
+		::System::String* AvatarFlyHeightCurveKey; // 0x4B0
+		::System::String* LifePointCustomProperty; // 0x4B8
 
 		::System::Void _ctor()
 		{

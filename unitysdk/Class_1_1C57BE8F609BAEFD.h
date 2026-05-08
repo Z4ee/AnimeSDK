@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_1D4A874338A1426A_OFFSET UNITYSDK_OFFSET(0x1B49CDB0)
-#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_4C2ACACD89F4EF1A_OFFSET UNITYSDK_OFFSET(0x1B49CC30)
-#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_875E6880E292B7B5_OFFSET UNITYSDK_OFFSET(0x1B49CB40)
-#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_970670EAEF3BD1FA_OFFSET UNITYSDK_OFFSET(0x1B49C9E0)
-#define CLASS_1_1C57BE8F609BAEFD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B49C890)
+#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_017DD003A1AD16D5_OFFSET UNITYSDK_OFFSET(0x1BA3AA70)
+#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_1BB4029F51995479_OFFSET UNITYSDK_OFFSET(0x1BA3AB30)
+#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_1D4A874338A1426A_OFFSET UNITYSDK_OFFSET(0x1BA3A8D0)
+#define CLASS_1_1C57BE8F609BAEFD_METHOD_1_970670EAEF3BD1FA_OFFSET UNITYSDK_OFFSET(0x1BA3AC90)
+#define CLASS_1_1C57BE8F609BAEFD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA3A780)
 
-inline static constexpr unsigned int Class_1_1C57BE8F609BAEFD_TypeDefinitionIndex = 25658;
+inline static constexpr unsigned int Class_1_1C57BE8F609BAEFD_TypeDefinitionIndex = 26121;
 
 class Class_1_1C57BE8F609BAEFD : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_Field_1_0()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C57BE8F609BAEFD_TypeDefinitionIndex)->GetStaticField(0x1EE10);
-	}
 	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C57BE8F609BAEFD_TypeDefinitionIndex)->GetStaticField(0x1EE18);
+		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C57BE8F609BAEFD_TypeDefinitionIndex)->GetStaticField(0x1F7B0);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_Field_1_0()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C57BE8F609BAEFD_TypeDefinitionIndex)->GetStaticField(0x1F7B8);
 	}
 
 	static ::System::Void _cctor()
@@ -31,23 +31,23 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD__CCTOR_OFFSET))();
 	}
 
-	static ::System::Object* Method_1_970670EAEF3BD1FA(::System::String* a1)
-	{
-		return ((::System::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_970670EAEF3BD1FA_OFFSET))(a1);
-	}
-
-	static ::System::Void Method_1_875E6880E292B7B5(::System::Object* a1)
-	{
-		return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_875E6880E292B7B5_OFFSET))(a1);
-	}
-
-	static ::System::Void Method_1_4C2ACACD89F4EF1A(::System::String* a1)
-	{
-		return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_4C2ACACD89F4EF1A_OFFSET))(a1);
-	}
-
 	static ::System::Void Method_1_1D4A874338A1426A(::System::Object* a1, ::System::String* a2)
 	{
 		return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_1D4A874338A1426A_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_017DD003A1AD16D5(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_017DD003A1AD16D5_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_1_1BB4029F51995479(::System::String* a1)
+	{
+		return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_1BB4029F51995479_OFFSET))(a1);
+	}
+
+	static ::System::Object* Method_1_970670EAEF3BD1FA(::System::String* a1)
+	{
+		return ((::System::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_1C57BE8F609BAEFD_METHOD_1_970670EAEF3BD1FA_OFFSET))(a1);
 	}
 };

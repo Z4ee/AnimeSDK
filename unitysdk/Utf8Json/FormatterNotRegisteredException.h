@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UTF8JSON_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B747590)
+#define UTF8JSON_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C521D30)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int FormatterNotRegisteredException_TypeDefinitionIndex = 83775;
+	inline static constexpr unsigned int FormatterNotRegisteredException_TypeDefinitionIndex = 85503;
 
 	class FormatterNotRegisteredException : public ::System::Exception
 	{

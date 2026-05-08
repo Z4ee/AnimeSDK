@@ -3,11 +3,11 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigHollowEntityBehaviorSelectorGroup_Connectives_TypeDefinitionIndex = 70666;
+	inline static constexpr unsigned int ConfigHollowEntityBehaviorSelectorGroup_Connectives_TypeDefinitionIndex = 41249;
 
 	enum class ConfigHollowEntityBehaviorSelectorGroup_Connectives : ::System::Int32
 	{
-		Or = 1,
 		And = 0,
+		Or = 1,
 	};
 }

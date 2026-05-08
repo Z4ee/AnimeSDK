@@ -5,12 +5,12 @@
 
 namespace DigitalOpus::MB::Core { class MB3_AgglomerativeClustering_item_s; }
 
-#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ABF1E00)
-#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF1D80)
+#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BAF8D60)
+#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF8CC0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_AgglomerativeClustering_ClusterNode_TypeDefinitionIndex = 83313;
+	inline static constexpr unsigned int MB3_AgglomerativeClustering_ClusterNode_TypeDefinitionIndex = 85041;
 
 	class MB3_AgglomerativeClustering_ClusterNode : public ::System::Object
 	{

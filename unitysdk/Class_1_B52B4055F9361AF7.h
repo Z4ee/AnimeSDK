@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_1_B52B4055F9361AF7_METHOD_1_190C0B273BAD3FDE_OFFSET UNITYSDK_OFFSET(0x69C5390)
-#define CLASS_1_B52B4055F9361AF7_METHOD_1_A2D312B73D6CC7C7_OFFSET UNITYSDK_OFFSET(0x69C5160)
+#define CLASS_1_B52B4055F9361AF7_METHOD_1_7B2DE2F61107FF17_OFFSET UNITYSDK_OFFSET(0x156A2AA0)
+#define CLASS_1_B52B4055F9361AF7_METHOD_1_A2D312B73D6CC7C7_OFFSET UNITYSDK_OFFSET(0x156A28A0)
 
-inline static constexpr unsigned int Class_1_B52B4055F9361AF7_TypeDefinitionIndex = 54465;
+inline static constexpr unsigned int Class_1_B52B4055F9361AF7_TypeDefinitionIndex = 59308;
 
 class Class_1_B52B4055F9361AF7 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::UnityEngine::UI::Extension::UILocalizationText*, ::System::Boolean, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B52B4055F9361AF7_METHOD_1_A2D312B73D6CC7C7_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::UnityEngine::Color Method_1_190C0B273BAD3FDE(::System::UInt32 a1)
+	static ::UnityEngine::Color Method_1_7B2DE2F61107FF17(::System::UInt32 a1)
 	{
-		return ((::UnityEngine::Color(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B52B4055F9361AF7_METHOD_1_190C0B273BAD3FDE_OFFSET))(a1);
+		return ((::UnityEngine::Color(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B52B4055F9361AF7_METHOD_1_7B2DE2F61107FF17_OFFSET))(a1);
 	}
 };

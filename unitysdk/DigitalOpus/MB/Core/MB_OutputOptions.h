@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_OutputOptions_TypeDefinitionIndex = 83295;
+	inline static constexpr unsigned int MB_OutputOptions_TypeDefinitionIndex = 85023;
 
 	enum class MB_OutputOptions : ::System::Int32
 	{

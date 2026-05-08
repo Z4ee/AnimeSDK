@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EntrancePageController_LevelTabStatus_TypeDefinitionIndex = 80154;
+	inline static constexpr unsigned int UIAbyssS2EntrancePageController_LevelTabStatus_TypeDefinitionIndex = 75385;
 
 	enum class UIAbyssS2EntrancePageController_LevelTabStatus : ::System::Int32
 	{

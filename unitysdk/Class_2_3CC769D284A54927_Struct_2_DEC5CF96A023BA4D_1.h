@@ -9,22 +9,22 @@ class Class_2_3CC769D284A54927;
 namespace MoleMole { class FishPosConfig; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_3CC769D284A54927_STRUCT_2_DEC5CF96A023BA4D_1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x32A150)
-#define CLASS_2_3CC769D284A54927_STRUCT_2_DEC5CF96A023BA4D_1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_2_3CC769D284A54927_STRUCT_2_DEC5CF96A023BA4D_1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6EEA80)
+#define CLASS_2_3CC769D284A54927_STRUCT_2_DEC5CF96A023BA4D_1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_2_3CC769D284A54927_Struct_2_DEC5CF96A023BA4D_1_TypeDefinitionIndex = 67798;
+inline static constexpr unsigned int Class_2_3CC769D284A54927_Struct_2_DEC5CF96A023BA4D_1_TypeDefinitionIndex = 61321;
 
 struct alignas(8) Class_2_3CC769D284A54927_Struct_2_DEC5CF96A023BA4D_1
 {
-	::Class_2_3CC769D284A54927* Field_2_2; // 0x10
-	::MoleMole::FishPosConfig* Field_2_4; // 0x18
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_8; // 0x10
 	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_8; // 0x30
+	::Class_2_3CC769D284A54927* Field_2_2; // 0x30
+	::MoleMole::FishPosConfig* Field_2_4; // 0x38
 	::UnityEngine::Vector3 Field_2_5; // 0x40
 	::System::Single Field_2_3; // 0x4C
-	::System::Single Field_2_6; // 0x50
-	::UnityEngine::Vector3 Field_2_7; // 0x54
-	::System::Int32 Field_2_0; // 0x60
+	::System::Int32 Field_2_0; // 0x50
+	::System::Single Field_2_6; // 0x54
+	::UnityEngine::Vector3 Field_2_7; // 0x58
 
 	::System::Void MoveNext()
 	{

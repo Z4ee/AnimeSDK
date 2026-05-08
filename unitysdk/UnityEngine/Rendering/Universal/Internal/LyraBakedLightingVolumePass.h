@@ -13,31 +13,31 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDLIGHTINGVOLUMEPASS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1780B910)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDLIGHTINGVOLUMEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1780B8B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDLIGHTINGVOLUMEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1780B560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDLIGHTINGVOLUMEPASS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1928A7E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDLIGHTINGVOLUMEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1928A780)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRABAKEDLIGHTINGVOLUMEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1928A350)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedLightingVolumePass_TypeDefinitionIndex = 29978;
+	inline static constexpr unsigned int LyraBakedLightingVolumePass_TypeDefinitionIndex = 30506;
 
 	class LyraBakedLightingVolumePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingSampler()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedLightingVolumePass_TypeDefinitionIndex)->GetStaticField(0x22920);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(LyraBakedLightingVolumePass_TypeDefinitionIndex)->GetStaticField(0x23490);
 		}
 		// static const ::System::Int32 InjectBakedLightingVolumeKernel = 0x16; // 0x0
 		// static const ::System::Int32 LyraBakedLightingVolumeSize = 0x10; // 0x0
 		// static const ::System::Int32 LyraBakedLightingVolumeClipCount = 0x4; // 0x0
 		// static const ::System::Single LyraBakedLightingVolumeBaseCellSize; // 0x0
-		::UnityEngine::RenderTexture* m_bakedLightingVolume; // 0xA8
-		::UnityEngine::RenderTexture* m_bakedLightingVolumeDir; // 0xB0
-		::UnityEngine::ComputeShader* m_lyraUpdateProbesCS; // 0xB8
+		::Il2CppArray<::UnityEngine::Vector4>* m_BLVWorldToVolume; // 0xA8
+		::Il2CppArray<::UnityEngine::Vector4>* m_BLVVolumeToWorld; // 0xB0
+		::UnityEngine::RenderTexture* m_bakedLightingVolumeDir; // 0xB8
 		::Il2CppArray<::UnityEngine::Vector4>* m_BLVShift; // 0xC0
-		::Il2CppArray<::UnityEngine::Vector4>* m_BLVVolumeToWorld; // 0xC8
-		::Il2CppArray<::UnityEngine::Vector4>* m_BLVWorldToVolume; // 0xD0
+		::UnityEngine::RenderTexture* m_bakedLightingVolume; // 0xC8
+		::UnityEngine::ComputeShader* m_lyraUpdateProbesCS; // 0xD0
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::ComputeShader* lyraUpdateProbesCS)
 		{

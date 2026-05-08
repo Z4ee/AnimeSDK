@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 template <typename T> class Class_1_019DA66DDE6A9882;
 template <typename T> class Class_3_B60F6C2F126D2E26_5;
 
-inline static constexpr unsigned int Class_1_0D9CBF4DAA435A5B_TypeDefinitionIndex = 25702;
+inline static constexpr unsigned int Class_1_0D9CBF4DAA435A5B_TypeDefinitionIndex = 26176;
 
 template <typename T>
 class Class_1_0D9CBF4DAA435A5B : public ::System::Object

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIActivityDemoTrialBGEffectWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYRETURNDEMOINFOWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADA64B0)
-#define MOLEMOLE_UIACTIVITYRETURNDEMOINFOWIDGETCONTROLLER___C__DISPLAYCLASS7_0__STARTEXCHANGEROLEANIM_B__0_OFFSET UNITYSDK_OFFSET(0xADA64C0)
+#define MOLEMOLE_UIACTIVITYRETURNDEMOINFOWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBF6C0)
+#define MOLEMOLE_UIACTIVITYRETURNDEMOINFOWIDGETCONTROLLER___C__DISPLAYCLASS7_0__STARTEXCHANGEROLEANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15EBF6D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnDemoInfoWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 46744;
+	inline static constexpr unsigned int UIActivityReturnDemoInfoWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 81670;
 
 	class UIActivityReturnDemoInfoWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{

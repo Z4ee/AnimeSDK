@@ -8,19 +8,19 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_RESOLVERS_GRAPHNODE_AUTOGEN_FORMATTER_RESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1C7B80)
-#define MESSAGEPACK_RESOLVERS_GRAPHNODE_AUTOGEN_FORMATTER_RESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C7AF0)
+#define MESSAGEPACK_RESOLVERS_GRAPHNODE_AUTOGEN_FORMATTER_RESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF29110)
+#define MESSAGEPACK_RESOLVERS_GRAPHNODE_AUTOGEN_FORMATTER_RESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF29080)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int GraphNode_AutoGen_Formatter_Resolver_TypeDefinitionIndex = 26760;
+	inline static constexpr unsigned int GraphNode_AutoGen_Formatter_Resolver_TypeDefinitionIndex = 26990;
 
 	class GraphNode_AutoGen_Formatter_Resolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::GraphNode_AutoGen_Formatter_Resolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::GraphNode_AutoGen_Formatter_Resolver**)Il2CppClass::FromTypeDefinitionIndex(GraphNode_AutoGen_Formatter_Resolver_TypeDefinitionIndex)->GetStaticField(0x1F360);
+			return (::MessagePack::Resolvers::GraphNode_AutoGen_Formatter_Resolver**)Il2CppClass::FromTypeDefinitionIndex(GraphNode_AutoGen_Formatter_Resolver_TypeDefinitionIndex)->GetStaticField(0x1FE70);
 		}
 		::System::Collections::Generic::List_1<::MessagePack::Formatters::IMessagePackFormatter*>* subFormatters; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>* formattersCache; // 0x18

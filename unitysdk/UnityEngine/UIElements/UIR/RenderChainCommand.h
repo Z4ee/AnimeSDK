@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/UIR/PoolItem.h"
 
-#define UNITYENGINE_UIELEMENTS_UIR_RENDERCHAINCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8C630)
+#define UNITYENGINE_UIELEMENTS_UIR_RENDERCHAINCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x197C1F60)
 
 namespace UnityEngine::UIElements::UIR
 {
-	inline static constexpr unsigned int RenderChainCommand_TypeDefinitionIndex = 24601;
+	inline static constexpr unsigned int RenderChainCommand_TypeDefinitionIndex = 25115;
 
 	class RenderChainCommand : public ::UnityEngine::UIElements::UIR::PoolItem
 	{

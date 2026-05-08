@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_ASTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A4BA0)
+#define MS_INTERNAL_XML_XPATH_ASTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58D9F0)
 
 namespace MS::Internal::Xml::XPath
 {

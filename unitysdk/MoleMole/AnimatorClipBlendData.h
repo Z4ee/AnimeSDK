@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ANIMATORCLIPBLENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B91630)
+#define MOLEMOLE_ANIMATORCLIPBLENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12CFB1B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimatorClipBlendData_TypeDefinitionIndex = 69892;
+	inline static constexpr unsigned int AnimatorClipBlendData_TypeDefinitionIndex = 38786;
 
 	class AnimatorClipBlendData : public ::System::Object
 	{
 	public:
 		::System::String* AnimatorName; // 0x10
-		::System::Int32 Index; // 0x18
+		::System::Single Speed; // 0x18
 		::System::Single Angle; // 0x1C
 		::System::Boolean IgnoreRange; // 0x20
 		::System::Boolean Backwards; // 0x21
-		::System::Single Speed; // 0x24
+		::System::Int32 Index; // 0x24
 
 		::System::Void _ctor()
 		{

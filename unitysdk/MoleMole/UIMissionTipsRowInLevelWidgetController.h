@@ -5,12 +5,12 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIMISSIONTIPSROWINLEVELWIDGETCONTROLLER_PLAYWITHCALLBACK_OFFSET UNITYSDK_OFFSET(0xCFB2FB0)
-#define MOLEMOLE_UIMISSIONTIPSROWINLEVELWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB3250)
+#define MOLEMOLE_UIMISSIONTIPSROWINLEVELWIDGETCONTROLLER_PLAYWITHCALLBACK_OFFSET UNITYSDK_OFFSET(0x13DE3F00)
+#define MOLEMOLE_UIMISSIONTIPSROWINLEVELWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE4130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsRowInLevelWidgetController_TypeDefinitionIndex = 51506;
+	inline static constexpr unsigned int UIMissionTipsRowInLevelWidgetController_TypeDefinitionIndex = 46255;
 
 	class UIMissionTipsRowInLevelWidgetController : public ::MoleMole::UIMissionTipsRowWidgetController
 	{

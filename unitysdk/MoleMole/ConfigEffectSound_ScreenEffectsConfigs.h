@@ -6,7 +6,7 @@ namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigEffectSound_ScreenEffectsConfigs_TypeDefinitionIndex = 53243;
+	inline static constexpr unsigned int ConfigEffectSound_ScreenEffectsConfigs_TypeDefinitionIndex = 64273;
 
 	struct alignas(8) ConfigEffectSound_ScreenEffectsConfigs
 	{

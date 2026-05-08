@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::Rendering::Universal { class DeferredReflectionProbe; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197D6610)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197D6640)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__REMOVEPROBE_B__22_0_OFFSET UNITYSDK_OFFSET(0x197D6650)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB8A060)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB8A0A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__REMOVEPROBE_B__22_0_OFFSET UNITYSDK_OFFSET(0x1AB8A0B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DeferredReflectionSystem___c_TypeDefinitionIndex = 29323;
+	inline static constexpr unsigned int DeferredReflectionSystem___c_TypeDefinitionIndex = 29842;
 
 	class DeferredReflectionSystem___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>** StaticGet___9__22_0()
-		{
-			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x234B0);
-		}
 		static ::UnityEngine::Rendering::Universal::DeferredReflectionSystem___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::DeferredReflectionSystem___c**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x234B8);
+			return (::UnityEngine::Rendering::Universal::DeferredReflectionSystem___c**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x24030);
+		}
+		static ::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>** StaticGet___9__22_0()
+		{
+			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x24038);
 		}
 
 		static ::System::Void _cctor()

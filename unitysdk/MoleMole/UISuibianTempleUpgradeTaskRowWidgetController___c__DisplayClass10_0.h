@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianTempleUpgradeTaskRowWidgetController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEUPGRADETASKROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3D7400)
-#define MOLEMOLE_UISUIBIANTEMPLEUPGRADETASKROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xD3D7410)
+#define MOLEMOLE_UISUIBIANTEMPLEUPGRADETASKROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x155177E0)
+#define MOLEMOLE_UISUIBIANTEMPLEUPGRADETASKROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x155177F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleUpgradeTaskRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 57622;
+	inline static constexpr unsigned int UISuibianTempleUpgradeTaskRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 82183;
 
 	class UISuibianTempleUpgradeTaskRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

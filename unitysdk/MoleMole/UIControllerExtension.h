@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_340DE32BA097F66C.h"
+#include "unitysdk/Enum_3_81A3942BCC6E42B5.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 #include "unitysdk/UnityEngine/UI/Extension/UIButtonEx_ClickSoundType.h"
 
@@ -16,21 +16,22 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MOLEMOLE_UICONTROLLEREXTENSION_CHECKCOLDDOWN_OFFSET UNITYSDK_OFFSET(0xB28C950)
-#define MOLEMOLE_UICONTROLLEREXTENSION_ENABLEMASKCLICK_OFFSET UNITYSDK_OFFSET(0xB28BD50)
-#define MOLEMOLE_UICONTROLLEREXTENSION_GETALLFADEANIMNAMESET_OFFSET UNITYSDK_OFFSET(0xB28BF40)
-#define MOLEMOLE_UICONTROLLEREXTENSION_GETFADEDATA_OFFSET UNITYSDK_OFFSET(0xB28BED0)
-#define MOLEMOLE_UICONTROLLEREXTENSION_GETGENERALAUDIOCONFIG_OFFSET UNITYSDK_OFFSET(0xB28C3F0)
-#define MOLEMOLE_UICONTROLLEREXTENSION_GETPLAYMIXDROPDOWN_OFFSET UNITYSDK_OFFSET(0xB28BA00)
-#define MOLEMOLE_UICONTROLLEREXTENSION_ONCLICKMASK_OFFSET UNITYSDK_OFFSET(0xB28C640)
-#define MOLEMOLE_UICONTROLLEREXTENSION_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0xB28C4D0)
-#define MOLEMOLE_UICONTROLLEREXTENSION_ONUIINIT_OFFSET UNITYSDK_OFFSET(0xB28BC60)
-#define MOLEMOLE_UICONTROLLEREXTENSION_VALIDATESTATEGROUP_OFFSET UNITYSDK_OFFSET(0xB28B940)
-#define MOLEMOLE_UICONTROLLEREXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0xB28CB00)
+#define MOLEMOLE_UICONTROLLEREXTENSION_CHECKCOLDDOWN_OFFSET UNITYSDK_OFFSET(0x158D6940)
+#define MOLEMOLE_UICONTROLLEREXTENSION_ENABLEMASKCLICK_OFFSET UNITYSDK_OFFSET(0x158D5D30)
+#define MOLEMOLE_UICONTROLLEREXTENSION_GETALLFADEANIMNAMESET_OFFSET UNITYSDK_OFFSET(0x158D5F50)
+#define MOLEMOLE_UICONTROLLEREXTENSION_GETFADEDATA_OFFSET UNITYSDK_OFFSET(0x158D5F00)
+#define MOLEMOLE_UICONTROLLEREXTENSION_GETGENERALAUDIOCONFIG_OFFSET UNITYSDK_OFFSET(0x158D63F0)
+#define MOLEMOLE_UICONTROLLEREXTENSION_GETPLAYMIXDROPDOWN_OFFSET UNITYSDK_OFFSET(0x158D5A20)
+#define MOLEMOLE_UICONTROLLEREXTENSION_ONCLICKMASK_OFFSET UNITYSDK_OFFSET(0x158D6690)
+#define MOLEMOLE_UICONTROLLEREXTENSION_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x158D64D0)
+#define MOLEMOLE_UICONTROLLEREXTENSION_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x158D5C60)
+#define MOLEMOLE_UICONTROLLEREXTENSION_VALIDATEAUDIOSTATECONFIGS_OFFSET UNITYSDK_OFFSET(0x158D5830)
+#define MOLEMOLE_UICONTROLLEREXTENSION_VALIDATESTATEGROUP_OFFSET UNITYSDK_OFFSET(0x158D5720)
+#define MOLEMOLE_UICONTROLLEREXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x158D6AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIControllerExtension_TypeDefinitionIndex = 45264;
+	inline static constexpr unsigned int UIControllerExtension_TypeDefinitionIndex = 60030;
 
 	class UIControllerExtension : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -51,13 +52,14 @@ namespace MoleMole
 		::System::Boolean audioNeedSetState; // 0xA8
 		::System::String* audioStateGroup; // 0xB0
 		::System::String* audioStateValue; // 0xB8
-		::System::Boolean audioNeedSetOpenClose; // 0xC0
-		::System::String* audioOpenClose_Group; // 0xC8
-		::MoleMole::Config::ConfigSoundActionGeneral* audioActionOnOpen; // 0xD0
-		::MoleMole::Config::ConfigSoundActionGeneral* audioActionOnClose; // 0xD8
-		::MoleMole::UIFadeConfig* FadeConfig; // 0xE0
-		::MoleMole::MonoEventTrigger* _eventTrigger; // 0xE8
-		::MoleMole::UIBaseController* _ownerController; // 0xF0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* audioStateConfigs; // 0xC0
+		::System::Boolean audioNeedSetOpenClose; // 0xC8
+		::System::String* audioOpenClose_Group; // 0xD0
+		::MoleMole::Config::ConfigSoundActionGeneral* audioActionOnOpen; // 0xD8
+		::MoleMole::Config::ConfigSoundActionGeneral* audioActionOnClose; // 0xE0
+		::MoleMole::UIFadeConfig* FadeConfig; // 0xE8
+		::MoleMole::MonoEventTrigger* _eventTrigger; // 0xF0
+		::MoleMole::UIBaseController* _ownerController; // 0xF8
 
 		::System::Void _ctor()
 		{
@@ -67,6 +69,11 @@ namespace MoleMole
 		::System::Boolean ValidateStateGroup(::System::String* stateGroup)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_VALIDATESTATEGROUP_OFFSET))(this, stateGroup);
+		}
+
+		::System::Boolean ValidateAudioStateConfigs(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* configs)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_VALIDATEAUDIOSTATECONFIGS_OFFSET))(this, configs);
 		}
 
 		::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>* GetPlayMixDropDown()
@@ -84,14 +91,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_ENABLEMASKCLICK_OFFSET))(this, enable);
 		}
 
-		::MoleMole::UIFadeConfig* GetFadeData(::Enum_3_340DE32BA097F66C uiCtrl)
+		::MoleMole::UIFadeConfig* GetFadeData(::Enum_3_81A3942BCC6E42B5 uiCtrl)
 		{
-			return ((::MoleMole::UIFadeConfig*(*)(::PVOID, ::Enum_3_340DE32BA097F66C))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_GETFADEDATA_OFFSET))(this, uiCtrl);
+			return ((::MoleMole::UIFadeConfig*(*)(::PVOID, ::Enum_3_81A3942BCC6E42B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_GETFADEDATA_OFFSET))(this, uiCtrl);
 		}
 
-		::System::Collections::Generic::HashSet_1<::System::String*>* GetAllFadeAnimNameSet(::Enum_3_340DE32BA097F66C uiCtrl)
+		::System::Collections::Generic::HashSet_1<::System::String*>* GetAllFadeAnimNameSet(::Enum_3_81A3942BCC6E42B5 uiCtrl)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::PVOID, ::Enum_3_340DE32BA097F66C))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_GETALLFADEANIMNAMESET_OFFSET))(this, uiCtrl);
+			return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::PVOID, ::Enum_3_81A3942BCC6E42B5))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLLEREXTENSION_GETALLFADEANIMNAMESET_OFFSET))(this, uiCtrl);
 		}
 
 		::MoleMole::Config::ConfigSoundActionGeneral* GetGeneralAudioConfig(::System::String* name)

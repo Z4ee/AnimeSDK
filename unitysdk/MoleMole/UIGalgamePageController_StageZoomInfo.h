@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/UIGalgamePageController_ZoomType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_STAGEZOOMINFO_SETBGPARAM_OFFSET UNITYSDK_OFFSET(0xAD2ECF0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_STAGEZOOMINFO_SETRTCAMERAPARAM_OFFSET UNITYSDK_OFFSET(0xAD2EC80)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_STAGEZOOMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAD2EC70)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_STAGEZOOMINFO_SETBGPARAM_OFFSET UNITYSDK_OFFSET(0x15807DC0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_STAGEZOOMINFO_SETRTCAMERAPARAM_OFFSET UNITYSDK_OFFSET(0x15807D70)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_STAGEZOOMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15807D60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_StageZoomInfo_TypeDefinitionIndex = 58921;
+	inline static constexpr unsigned int UIGalgamePageController_StageZoomInfo_TypeDefinitionIndex = 41828;
 
 	class UIGalgamePageController_StageZoomInfo : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGalgamePageController_ZoomType bgZoomType; // 0x10
-		::MoleMole::UIGalgamePageController_ZoomType cameraZoomType; // 0x14
+		::MoleMole::UIGalgamePageController_ZoomType cameraZoomType; // 0x10
+		::MoleMole::UIGalgamePageController_ZoomType bgZoomType; // 0x14
 		::System::Int32 stageNodeIdx; // 0x18
 
 		::System::Void _ctor(::System::Int32 nodeIdx)

@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x6C49040)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x6C49080)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTUTILS___C__HANDLEENTITYDISSOCIATEBYDITHERFADEOUT_B__22_0_OFFSET UNITYSDK_OFFSET(0x6C49090)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x132797A0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x132797E0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTUTILS___C__HANDLEENTITYDISSOCIATEBYDITHERFADEOUT_B__22_0_OFFSET UNITYSDK_OFFSET(0x132797F0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectUtils___c_TypeDefinitionIndex = 42274;
+	inline static constexpr unsigned int ViewObjectUtils___c_TypeDefinitionIndex = 66919;
 
 	class ViewObjectUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::UInt32>** StaticGet___9__22_0()
-		{
-			return (::System::Action_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectUtils___c_TypeDefinitionIndex)->GetStaticField(0x38410);
-		}
 		static ::Foundation::ViewObject::ViewObjectUtils___c** StaticGet___9()
 		{
-			return (::Foundation::ViewObject::ViewObjectUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectUtils___c_TypeDefinitionIndex)->GetStaticField(0x38418);
+			return (::Foundation::ViewObject::ViewObjectUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectUtils___c_TypeDefinitionIndex)->GetStaticField(0x39810);
+		}
+		static ::System::Action_1<::System::UInt32>** StaticGet___9__22_0()
+		{
+			return (::System::Action_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectUtils___c_TypeDefinitionIndex)->GetStaticField(0x39818);
 		}
 
 		static ::System::Void _cctor()

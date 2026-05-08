@@ -14,7 +14,7 @@ namespace System::Reflection { class EventInfo; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckCSharpEvent_1_TypeDefinitionIndex = 27457;
+	inline static constexpr unsigned int CheckCSharpEvent_1_TypeDefinitionIndex = 26477;
 
 	template <typename T>
 	class CheckCSharpEvent_1 : public ::NodeCanvas::Framework::ConditionTask

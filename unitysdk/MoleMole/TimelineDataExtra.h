@@ -12,12 +12,12 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x9865450)
-#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x98655B0)
+#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x15A73750)
+#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x15A73890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 76103;
+	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 50937;
 
 	class TimelineDataExtra : public ::System::Object
 	{
@@ -33,49 +33,51 @@ namespace MoleMole
 		::System::String* EffectCasterTargetDataKey; // 0x38
 		::System::Boolean NeedClearBulletEffectOnStart; // 0x40
 		::System::Boolean NeedClearCameraEffectOnStart; // 0x41
-		::System::Boolean DynamicObjectSwitchOpen; // 0x42
-		::System::Boolean DynamicObjectActive; // 0x43
-		::System::Collections::Generic::List_1<::MoleMole::GameplayTag>* TagList; // 0x48
-		::MoleMole::GameplayTag TargetLayer; // 0x50
-		::System::Boolean DisableHizCulling; // 0x60
-		::System::Boolean ForceNPCLOD; // 0x61
-		::System::Boolean ForceOpenDither; // 0x62
-		::System::Boolean muteCameraDither; // 0x63
-		::System::Boolean muteAllCameraDither; // 0x64
-		::System::Boolean muteLocalAvatarCameraDither; // 0x65
-		::System::Boolean muteAvatarCameraDither; // 0x66
-		::System::Boolean muteMonsterCameraDither; // 0x67
-		::System::Boolean muteBuddyCameraDither; // 0x68
-		::System::Boolean muteCustomAbilityTarget; // 0x69
-		::System::Collections::Generic::List_1<::System::String*>* CustomAbilityTargetKeyList; // 0x70
-		::System::Boolean ForceSyncLoad; // 0x78
-		::System::Boolean ForceDisableAllColliderInTimelinePrefab; // 0x79
-		::System::Boolean muteBattleScreenEffect; // 0x7A
-		::System::Boolean disableLightDistanceCulling; // 0x7B
-		::System::Boolean ForceDisableRuntimeRebindEntityComp; // 0x7C
-		::System::Boolean ForceStopAllOngoingChat; // 0x7D
-		::System::String* ParentTransformEntityTag; // 0x80
-		::System::String* ParentTransformSceneObjTag; // 0x88
-		::MoleMole::TimelineTransformCalculatorBase* RootTransformCalculator; // 0x90
-		::System::Boolean IsFollowParentTransform; // 0x98
-		::System::Boolean CameraApplyOnTransitionYRatio; // 0x99
-		::System::Single CameraOnTransitionYRatioValue; // 0x9C
-		::System::Single CameraOnTransitionPolarAngle; // 0xA0
-		::System::Boolean AutoCalRecoverPolarAngle; // 0xA4
-		::System::Collections::Generic::Dictionary_2<::MoleMole::GameplayTag, ::MoleMole::TLStartEndEntityAnimatorParamControl*>* EntityAnimatorParamControlDict; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineBindingReplaceDict; // 0xB0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineSyncTransformDict; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineObjReplaceDict; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineObjTransformDict; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RootTransformEntityTagRebindDict; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RootTransformSceneObjTagRebindDict; // 0xD8
-		::System::Boolean EnableSeamlessTimeline; // 0xE0
-		::System::Boolean EnableSeamlessTimelineBlendIn; // 0xE1
-		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendIn; // 0xE8
-		::System::Boolean EnableSeamlessTimelineBlendOut; // 0xF8
-		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendOut; // 0x100
-		::System::Boolean skipTimelineCutsceneFadeOut; // 0x110
-		::MoleMole::ParallelTimelineTimeScaleType ParallelTimelineTickTimeScaleType; // 0x114
+		::System::Boolean NeedResetAnimOnStartEnd; // 0x42
+		::System::String* ResetAnimTargetDataKey; // 0x48
+		::System::Boolean DynamicObjectSwitchOpen; // 0x50
+		::System::Boolean DynamicObjectActive; // 0x51
+		::System::Collections::Generic::List_1<::MoleMole::GameplayTag>* TagList; // 0x58
+		::MoleMole::GameplayTag TargetLayer; // 0x60
+		::System::Boolean DisableHizCulling; // 0x70
+		::System::Boolean ForceNPCLOD; // 0x71
+		::System::Boolean ForceOpenDither; // 0x72
+		::System::Boolean muteCameraDither; // 0x73
+		::System::Boolean muteAllCameraDither; // 0x74
+		::System::Boolean muteLocalAvatarCameraDither; // 0x75
+		::System::Boolean muteAvatarCameraDither; // 0x76
+		::System::Boolean muteMonsterCameraDither; // 0x77
+		::System::Boolean muteBuddyCameraDither; // 0x78
+		::System::Boolean muteCustomAbilityTarget; // 0x79
+		::System::Collections::Generic::List_1<::System::String*>* CustomAbilityTargetKeyList; // 0x80
+		::System::Boolean ForceSyncLoad; // 0x88
+		::System::Boolean ForceDisableAllColliderInTimelinePrefab; // 0x89
+		::System::Boolean muteBattleScreenEffect; // 0x8A
+		::System::Boolean disableLightDistanceCulling; // 0x8B
+		::System::Boolean ForceDisableRuntimeRebindEntityComp; // 0x8C
+		::System::Boolean ForceStopAllOngoingChat; // 0x8D
+		::System::String* ParentTransformEntityTag; // 0x90
+		::System::String* ParentTransformSceneObjTag; // 0x98
+		::MoleMole::TimelineTransformCalculatorBase* RootTransformCalculator; // 0xA0
+		::System::Boolean IsFollowParentTransform; // 0xA8
+		::System::Boolean CameraApplyOnTransitionYRatio; // 0xA9
+		::System::Single CameraOnTransitionYRatioValue; // 0xAC
+		::System::Single CameraOnTransitionPolarAngle; // 0xB0
+		::System::Boolean AutoCalRecoverPolarAngle; // 0xB4
+		::System::Collections::Generic::Dictionary_2<::MoleMole::GameplayTag, ::MoleMole::TLStartEndEntityAnimatorParamControl*>* EntityAnimatorParamControlDict; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineBindingReplaceDict; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineSyncTransformDict; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineObjReplaceDict; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineObjTransformDict; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RootTransformEntityTagRebindDict; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RootTransformSceneObjTagRebindDict; // 0xE8
+		::System::Boolean EnableSeamlessTimeline; // 0xF0
+		::System::Boolean EnableSeamlessTimelineBlendIn; // 0xF1
+		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendIn; // 0xF8
+		::System::Boolean EnableSeamlessTimelineBlendOut; // 0x108
+		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendOut; // 0x110
+		::System::Boolean skipTimelineCutsceneFadeOut; // 0x120
+		::MoleMole::ParallelTimelineTimeScaleType ParallelTimelineTickTimeScaleType; // 0x124
 
 		::System::Void _ctor()
 		{

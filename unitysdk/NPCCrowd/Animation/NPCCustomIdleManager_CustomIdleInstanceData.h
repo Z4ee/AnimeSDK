@@ -4,11 +4,11 @@
 #include "unitysdk/NPCCrowd/Animation/NPCAnimationLib_AnimationId.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_NPCCUSTOMIDLEMANAGER_CUSTOMIDLEINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x351380)
+#define NPCCROWD_ANIMATION_NPCCUSTOMIDLEMANAGER_CUSTOMIDLEINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6B8E40)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCustomIdleManager_CustomIdleInstanceData_TypeDefinitionIndex = 69747;
+	inline static constexpr unsigned int NPCCustomIdleManager_CustomIdleInstanceData_TypeDefinitionIndex = 38862;
 
 	struct alignas(4) NPCCustomIdleManager_CustomIdleInstanceData
 	{

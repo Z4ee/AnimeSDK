@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int INodeReference_TypeDefinitionIndex = 26318;
+	inline static constexpr unsigned int INodeReference_TypeDefinitionIndex = 28187;
 
 	class INodeReference
 	{

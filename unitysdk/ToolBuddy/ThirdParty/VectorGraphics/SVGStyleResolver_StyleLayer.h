@@ -6,18 +6,18 @@
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGPropertySheet; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGStyleSheet; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER_STYLELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1983D4F0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER_STYLELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BF310)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGStyleResolver_StyleLayer_TypeDefinitionIndex = 27965;
+	inline static constexpr unsigned int SVGStyleResolver_StyleLayer_TypeDefinitionIndex = 28483;
 
 	class SVGStyleResolver_StyleLayer : public ::System::Object
 	{
 	public:
-		::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleSheet* styleSheet; // 0x10
-		::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver_NodeData nodeData; // 0x18
-		::ToolBuddy::ThirdParty::VectorGraphics::SVGPropertySheet* attributeSheet; // 0x38
+		::ToolBuddy::ThirdParty::VectorGraphics::SVGPropertySheet* attributeSheet; // 0x10
+		::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleSheet* styleSheet; // 0x18
+		::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver_NodeData nodeData; // 0x20
 
 		::System::Void _ctor()
 		{

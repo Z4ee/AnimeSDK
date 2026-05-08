@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIActivityHotPotServeRightPanelWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC28CAB0)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REFRESHPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xC28CAC0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F36290)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVERIGHTPANELWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REFRESHPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x12F362A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotServeRightPanelWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 65613;
+	inline static constexpr unsigned int UIActivityHotPotServeRightPanelWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 57874;
 
 	class UIActivityHotPotServeRightPanelWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIActivityHotPotServeRightPanelWidgetController* __4__this; // 0x10
-		::System::Single ratio; // 0x18
-		::System::Boolean lerp; // 0x1C
+		::System::Boolean lerp; // 0x18
+		::System::Single ratio; // 0x1C
 
 		::System::Void _ctor()
 		{

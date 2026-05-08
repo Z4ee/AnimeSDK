@@ -4,11 +4,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug___c__DisplayClass99_0_TypeDefinitionIndex = 8158;
+	inline static constexpr unsigned int SuperDebug___c__DisplayClass99_0_TypeDefinitionIndex = 7772;
 
 	struct alignas(4) SuperDebug___c__DisplayClass99_0
 	{
-		::System::Int32 bit; // 0x10
-		::System::Boolean value; // 0x14
+		::System::Boolean value; // 0x10
+		::System::Int32 bit; // 0x14
 	};
 }

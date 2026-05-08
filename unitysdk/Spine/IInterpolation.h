@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_IINTERPOLATION_APPLY_OFFSET UNITYSDK_OFFSET(0x1B68A2B0)
-#define SPINE_IINTERPOLATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B68A300)
-#define SPINE_IINTERPOLATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B68A2F0)
+#define SPINE_IINTERPOLATION_APPLY_OFFSET UNITYSDK_OFFSET(0x1C434240)
+#define SPINE_IINTERPOLATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C434290)
+#define SPINE_IINTERPOLATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C434280)
 
 namespace Spine
 {
-	inline static constexpr unsigned int IInterpolation_TypeDefinitionIndex = 30802;
+	inline static constexpr unsigned int IInterpolation_TypeDefinitionIndex = 31331;
 
 	class IInterpolation : public ::System::Object
 	{
 	public:
 		static ::Spine::IInterpolation** StaticGet_Pow2()
 		{
-			return (::Spine::IInterpolation**)Il2CppClass::FromTypeDefinitionIndex(IInterpolation_TypeDefinitionIndex)->GetStaticField(0x24BD0);
+			return (::Spine::IInterpolation**)Il2CppClass::FromTypeDefinitionIndex(IInterpolation_TypeDefinitionIndex)->GetStaticField(0x25750);
 		}
 		static ::Spine::IInterpolation** StaticGet_Pow2Out()
 		{
-			return (::Spine::IInterpolation**)Il2CppClass::FromTypeDefinitionIndex(IInterpolation_TypeDefinitionIndex)->GetStaticField(0x24BD8);
+			return (::Spine::IInterpolation**)Il2CppClass::FromTypeDefinitionIndex(IInterpolation_TypeDefinitionIndex)->GetStaticField(0x25758);
 		}
 
 		::System::Void _ctor()

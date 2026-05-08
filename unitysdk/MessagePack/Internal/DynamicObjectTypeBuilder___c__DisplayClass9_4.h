@@ -6,12 +6,12 @@
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass9_0; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__BUILDDESERIALIZE_B__8_OFFSET UNITYSDK_OFFSET(0x1A484650)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1A484640)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__BUILDDESERIALIZE_B__8_OFFSET UNITYSDK_OFFSET(0x1AFC8FD0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC8FC0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_4_TypeDefinitionIndex = 26344;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_4_TypeDefinitionIndex = 26697;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass9_4 : public ::System::Object
 	{

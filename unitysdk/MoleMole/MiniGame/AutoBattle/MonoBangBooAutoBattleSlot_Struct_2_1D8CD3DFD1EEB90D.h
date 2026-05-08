@@ -6,11 +6,11 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MINIGAME_AUTOBATTLE_MONOBANGBOOAUTOBATTLESLOT_STRUCT_2_1D8CD3DFD1EEB90D__CTOR_OFFSET UNITYSDK_OFFSET(0x301710)
+#define MOLEMOLE_MINIGAME_AUTOBATTLE_MONOBANGBOOAUTOBATTLESLOT_STRUCT_2_1D8CD3DFD1EEB90D__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
 
 namespace MoleMole::MiniGame::AutoBattle
 {
-	inline static constexpr unsigned int MonoBangBooAutoBattleSlot_Struct_2_1D8CD3DFD1EEB90D_TypeDefinitionIndex = 48491;
+	inline static constexpr unsigned int MonoBangBooAutoBattleSlot_Struct_2_1D8CD3DFD1EEB90D_TypeDefinitionIndex = 63827;
 
 	struct alignas(8) MonoBangBooAutoBattleSlot_Struct_2_1D8CD3DFD1EEB90D
 	{

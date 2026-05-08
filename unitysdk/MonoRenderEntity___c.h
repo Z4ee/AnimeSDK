@@ -5,22 +5,22 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MONORENDERENTITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ECDEA0)
-#define MONORENDERENTITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECDEE0)
-#define MONORENDERENTITY___C__SHUFFLEOVERLAYINDEX_B__150_0_OFFSET UNITYSDK_OFFSET(0x19ECDEF0)
+#define MONORENDERENTITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B35FB90)
+#define MONORENDERENTITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35FBD0)
+#define MONORENDERENTITY___C__SHUFFLEOVERLAYINDEX_B__150_0_OFFSET UNITYSDK_OFFSET(0x1B35FBE0)
 
-inline static constexpr unsigned int MonoRenderEntity___c_TypeDefinitionIndex = 29051;
+inline static constexpr unsigned int MonoRenderEntity___c_TypeDefinitionIndex = 29570;
 
 class MonoRenderEntity___c : public ::System::Object
 {
 public:
 	static ::MonoRenderEntity___c** StaticGet___9()
 	{
-		return (::MonoRenderEntity___c**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity___c_TypeDefinitionIndex)->GetStaticField(0x23C30);
+		return (::MonoRenderEntity___c**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity___c_TypeDefinitionIndex)->GetStaticField(0x247B0);
 	}
 	static ::System::Comparison_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>** StaticGet___9__150_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity___c_TypeDefinitionIndex)->GetStaticField(0x23C38);
+		return (::System::Comparison_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity___c_TypeDefinitionIndex)->GetStaticField(0x247B8);
 	}
 
 	static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAudioFetchAnimatorParam_AnimatorParamType_TypeDefinitionIndex = 62748;
+	inline static constexpr unsigned int ConfigAudioFetchAnimatorParam_AnimatorParamType_TypeDefinitionIndex = 43232;
 
 	enum class ConfigAudioFetchAnimatorParam_AnimatorParamType : ::System::Int32
 	{

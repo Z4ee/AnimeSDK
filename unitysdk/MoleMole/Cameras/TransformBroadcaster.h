@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_CAMERAS_TRANSFORMBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB454FD0)
+#define MOLEMOLE_CAMERAS_TRANSFORMBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D053D0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int TransformBroadcaster_TypeDefinitionIndex = 66370;
+	inline static constexpr unsigned int TransformBroadcaster_TypeDefinitionIndex = 75510;
 
 	class TransformBroadcaster : public ::UnityEngine::MonoBehaviour
 	{

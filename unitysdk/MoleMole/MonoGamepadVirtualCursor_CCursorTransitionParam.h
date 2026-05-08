@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOGAMEPADVIRTUALCURSOR_CCURSORTRANSITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xBA2E690)
+#define MOLEMOLE_MONOGAMEPADVIRTUALCURSOR_CCURSORTRANSITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x13E9BED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadVirtualCursor_CCursorTransitionParam_TypeDefinitionIndex = 38371;
+	inline static constexpr unsigned int MonoGamepadVirtualCursor_CCursorTransitionParam_TypeDefinitionIndex = 48266;
 
 	class MonoGamepadVirtualCursor_CCursorTransitionParam : public ::System::Object
 	{

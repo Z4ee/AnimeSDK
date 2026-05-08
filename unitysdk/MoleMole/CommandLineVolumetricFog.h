@@ -6,13 +6,13 @@
 
 namespace MoleMole { class VolumetricFogProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_5A641E4B57BEEA2D_OFFSET UNITYSDK_OFFSET(0x94EA0F0)
-#define MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_9E416DEC21EEB640_OFFSET UNITYSDK_OFFSET(0x94EA230)
-#define MOLEMOLE_COMMANDLINEVOLUMETRICFOG__CTOR_OFFSET UNITYSDK_OFFSET(0x94EA1F0)
+#define MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_4FEEEA56B286E7CE_OFFSET UNITYSDK_OFFSET(0x124060A0)
+#define MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_5A641E4B57BEEA2D_OFFSET UNITYSDK_OFFSET(0x12405F90)
+#define MOLEMOLE_COMMANDLINEVOLUMETRICFOG__CTOR_OFFSET UNITYSDK_OFFSET(0x12406060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineVolumetricFog_TypeDefinitionIndex = 42541;
+	inline static constexpr unsigned int CommandLineVolumetricFog_TypeDefinitionIndex = 38537;
 
 	class CommandLineVolumetricFog : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::VolumetricFogProfileContext*, ::MoleMole::CommandLineVolumetricFog*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineVolumetricFog*(*)(::PVOID, ::MoleMole::VolumetricFogProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_5A641E4B57BEEA2D_OFFSET))(this, a1);
 		}
 
-		::MoleMole::VolumetricFogProfileContext* Method_2_9E416DEC21EEB640(::MoleMole::VolumetricFogProfileContext* a1)
+		::MoleMole::VolumetricFogProfileContext* Method_2_4FEEEA56B286E7CE(::MoleMole::VolumetricFogProfileContext* a1)
 		{
-			return ((::MoleMole::VolumetricFogProfileContext*(*)(::PVOID, ::MoleMole::VolumetricFogProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_9E416DEC21EEB640_OFFSET))(this, a1);
+			return ((::MoleMole::VolumetricFogProfileContext*(*)(::PVOID, ::MoleMole::VolumetricFogProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVOLUMETRICFOG_METHOD_2_4FEEEA56B286E7CE_OFFSET))(this, a1);
 		}
 	};
 }

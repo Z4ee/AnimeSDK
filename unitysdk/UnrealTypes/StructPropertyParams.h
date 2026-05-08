@@ -4,11 +4,11 @@
 
 namespace UnrealTypes { class ScriptStruct; }
 
-#define UNREALTYPES_STRUCTPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20FD80)
+#define UNREALTYPES_STRUCTPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA6A20)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int StructPropertyParams_TypeDefinitionIndex = 24744;
+	inline static constexpr unsigned int StructPropertyParams_TypeDefinitionIndex = 25258;
 
 	class StructPropertyParams : public ::UnrealTypes::PropertyParamsBase
 	{

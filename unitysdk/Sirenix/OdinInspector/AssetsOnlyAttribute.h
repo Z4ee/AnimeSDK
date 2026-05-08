@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_ASSETSONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B113CF0)
+#define SIRENIX_ODININSPECTOR_ASSETSONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F180)
 
 namespace Sirenix::OdinInspector
 {

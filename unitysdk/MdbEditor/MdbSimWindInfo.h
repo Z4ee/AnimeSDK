@@ -5,7 +5,7 @@
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbSimWindInfo_TypeDefinitionIndex = 84213;
+	inline static constexpr unsigned int MdbSimWindInfo_TypeDefinitionIndex = 85924;
 
 	struct alignas(4) MdbSimWindInfo
 	{

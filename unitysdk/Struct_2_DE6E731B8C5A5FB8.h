@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define STRUCT_2_DE6E731B8C5A5FB8_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x99C090)
+#define STRUCT_2_DE6E731B8C5A5FB8_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x9D4670)
 
-inline static constexpr unsigned int Struct_2_DE6E731B8C5A5FB8_TypeDefinitionIndex = 82206;
+inline static constexpr unsigned int Struct_2_DE6E731B8C5A5FB8_TypeDefinitionIndex = 83926;
 
 struct alignas(8) Struct_2_DE6E731B8C5A5FB8
 {

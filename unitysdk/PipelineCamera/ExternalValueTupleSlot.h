@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_EXTERNALVALUETUPLESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x30F800)
+#define PIPELINECAMERA_EXTERNALVALUETUPLESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x778AE0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ExternalValueTupleSlot_TypeDefinitionIndex = 35366;
+	inline static constexpr unsigned int ExternalValueTupleSlot_TypeDefinitionIndex = 35910;
 
 	struct alignas(8) ExternalValueTupleSlot
 	{

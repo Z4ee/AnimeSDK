@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_COLORRECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C3760)
+#define MOLEMOLE_TIMELINE_COLORRECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DED60)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ColorRecorderUnit_TypeDefinitionIndex = 30112;
+	inline static constexpr unsigned int ColorRecorderUnit_TypeDefinitionIndex = 30641;
 
 	class ColorRecorderUnit : public ::MoleMole::Timeline::RecorderUnit
 	{

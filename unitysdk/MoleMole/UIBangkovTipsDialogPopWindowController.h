@@ -1,0 +1,240 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_03024D6472FC8F3A.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/UIBangkovTipsDialogPopWindowController_ItemInfo.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_1_61933880828D8052;
+class Class_2_AD245416D419A578;
+class Class_3_7A267C1006DF3527;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIBangkovSecondTipsWidgetController; }
+namespace MoleMole { class UIBangkovTipsDialogPopWindowController_Context; }
+namespace MoleMole { class UIBangkovWishlistMainWidgetController; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIItemIconBtnWidgetController; }
+namespace System { class Action; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_CREATEFALLBACKKOVITEM_OFFSET UNITYSDK_OFFSET(0x142CDFB0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ENSUREITEMINFOROOT_OFFSET UNITYSDK_OFFSET(0x142CCF50)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_GET_ITEMINFOHELPER_OFFSET UNITYSDK_OFFSET(0x142CC970)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_GET_ITEMROOTGAMEPADMODULE_OFFSET UNITYSDK_OFFSET(0x142CC8C0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x142CC8B0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONCLICKCANCELBTN_OFFSET UNITYSDK_OFFSET(0x142CF6D0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONCLICKOKBTN_OFFSET UNITYSDK_OFFSET(0x142CF230)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x142CCEC0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x142CE750)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x142CEA90)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x142CDBA0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONSELLSUCCESS_OFFSET UNITYSDK_OFFSET(0x142CF720)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x142CDC10)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x142CC980)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x142CCB40)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUNEQUIPWISHLISTSUCCESS_OFFSET UNITYSDK_OFFSET(0x142CF7D0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_OPENITEMINFOBESIDEICONFROMSALE_OFFSET UNITYSDK_OFFSET(0x142CDCF0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_OPENITEMINFOBESIDEICONFROMWISHLIST_OFFSET UNITYSDK_OFFSET(0x142CE540)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_OPENITEMINFOBESIDEICONINTERNAL_OFFSET UNITYSDK_OFFSET(0x142CE040)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_REFRESHSALEBOTTOMBUTTONS_OFFSET UNITYSDK_OFFSET(0x142CCD40)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_SETCANVASGROUPHIDDEN_OFFSET UNITYSDK_OFFSET(0x142CF950)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_SETCLOSEITEMTIPRETURNMOUDEL_OFFSET UNITYSDK_OFFSET(0x142CED00)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_SETOKBTNENABLE_OFFSET UNITYSDK_OFFSET(0x142CF1C0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x142CF160)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x142CFD40)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER__OPENITEMINFOBESIDEICONINTERNAL_B__29_0_OFFSET UNITYSDK_OFFSET(0x142CFD50)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x142CFD60)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x142CFDF0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x142CFEA0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x142CFED0)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x142CFF60)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x142CFF70)
+#define MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x142CFF80)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangkovTipsDialogPopWindowController_TypeDefinitionIndex = 77173;
+
+	class UIBangkovTipsDialogPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Single ItemInfoGap; // 0x0
+		::Class_2_AD245416D419A578* _view; // 0x310
+		::MoleMole::UIBangkovTipsDialogPopWindowController_Context* _context; // 0x318
+		::MoleMole::UIBangkovWishlistMainWidgetController* _wishlistMainWidgetController; // 0x320
+		::MoleMole::UIBangkovSecondTipsWidgetController* _secondTipsWidgetController; // 0x328
+		::UnityEngine::RectTransform* _itemInfoRoot; // 0x330
+		::Class_1_61933880828D8052* _itemInfoHelper; // 0x338
+		::MoleMole::MonoGamepadModule* _returnModule; // 0x340
+		::System::Action* OnSellSuccessBeforeClose; // 0x348
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::MoleMole::MonoGamepadModule* get_ItemRootGamepadModule()
+		{
+			return ((::MoleMole::MonoGamepadModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_GET_ITEMROOTGAMEPADMODULE_OFFSET))(this);
+		}
+
+		::Class_1_61933880828D8052* get_ItemInfoHelper()
+		{
+			return ((::Class_1_61933880828D8052*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_GET_ITEMINFOHELPER_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OpenItemInfoBesideIconFromSale(::MoleMole::UIItemIconBtnWidgetController* iconController, ::MoleMole::UIBangkovTipsDialogPopWindowController_ItemInfo itemInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIItemIconBtnWidgetController*, ::MoleMole::UIBangkovTipsDialogPopWindowController_ItemInfo))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_OPENITEMINFOBESIDEICONFROMSALE_OFFSET))(this, iconController, itemInfo);
+		}
+
+		::System::Void OpenItemInfoBesideIconFromWishlist(::MoleMole::UIItemIconBtnWidgetController* iconController, ::System::Int32 itemId)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIItemIconBtnWidgetController*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_OPENITEMINFOBESIDEICONFROMWISHLIST_OFFSET))(this, iconController, itemId);
+		}
+
+		::System::Void OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* gamepadModule, ::System::Int32 index, ::UnityEngine::Transform* trans, ::Enum_3_03024D6472FC8F3A result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, gamepadModule, index, trans, result);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::Void SetCloseItemTipReturnMoudel(::MoleMole::MonoGamepadModule* module)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_SETCLOSEITEMTIPRETURNMOUDEL_OFFSET))(this, module);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void EnsureItemInfoRoot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ENSUREITEMINFOROOT_OFFSET))(this);
+		}
+
+		::System::Void OpenItemInfoBesideIconInternal(::MoleMole::UIItemIconBtnWidgetController* iconController, ::Class_3_7A267C1006DF3527* kovItem)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIItemIconBtnWidgetController*, ::Class_3_7A267C1006DF3527*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_OPENITEMINFOBESIDEICONINTERNAL_OFFSET))(this, iconController, kovItem);
+		}
+
+		static ::Class_3_7A267C1006DF3527* CreateFallbackKovItem(::System::Int32 logicItemId)
+		{
+			return ((::Class_3_7A267C1006DF3527*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_CREATEFALLBACKKOVITEM_OFFSET))(logicItemId);
+		}
+
+		::System::Void SetOKBtnEnable(::System::Boolean enable)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_SETOKBTNENABLE_OFFSET))(this, enable);
+		}
+
+		::System::Void OnClickOKBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONCLICKOKBTN_OFFSET))(this);
+		}
+
+		::System::Void OnClickCancelBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONCLICKCANCELBTN_OFFSET))(this);
+		}
+
+		::System::Void OnSellSuccess()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONSELLSUCCESS_OFFSET))(this);
+		}
+
+		::System::Void OnUnequipWishListSuccess()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_ONUNEQUIPWISHLISTSUCCESS_OFFSET))(this);
+		}
+
+		::System::Void RefreshSaleBottomButtons()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_REFRESHSALEBOTTOMBUTTONS_OFFSET))(this);
+		}
+
+		static ::System::Void SetCanvasGroupHidden(::UnityEngine::GameObject* go, ::System::Boolean hidden)
+		{
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER_SETCANVASGROUPHIDDEN_OFFSET))(go, hidden);
+		}
+
+		::UnityEngine::RectTransform* _OpenItemInfoBesideIconInternal_b__29_0()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER__OPENITEMINFOBESIDEICONINTERNAL_B__29_0_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* P0, ::System::Int32 P1, ::UnityEngine::Transform* P2, ::Enum_3_03024D6472FC8F3A P3)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, P0, P1, P2, P3);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVTIPSDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

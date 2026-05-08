@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_2BA8CE33B4CFFE77;
+class Class_1_3A7D5BC012150C72;
 namespace System { template <typename T> class Action_1; }
-template <typename T> class Class_1_634159F7561ADAA0;
+template <typename T> class Class_1_3DF236F531F5694C;
 
-#define MOLEMOLE_UIURBANMAPLEFTTASTLISTROW01CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x95A7330)
+#define MOLEMOLE_UIURBANMAPLEFTTASTLISTROW01CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1275F260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapLeftTastListRow01Context_TypeDefinitionIndex = 77062;
+	inline static constexpr unsigned int UIUrbanMapLeftTastListRow01Context_TypeDefinitionIndex = 61064;
 
 	class UIUrbanMapLeftTastListRow01Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::MoleMole::UIUrbanMapLeftTastListRow01Context*>* OnClick; // 0x28
-		::Class_1_634159F7561ADAA0<::Class_1_2BA8CE33B4CFFE77*>* QuestDatas; // 0x30
+		::Class_1_3DF236F531F5694C<::Class_1_3A7D5BC012150C72*>* QuestDatas; // 0x28
+		::System::Action_1<::MoleMole::UIUrbanMapLeftTastListRow01Context*>* OnClick; // 0x30
 		::System::Int32 MapAreaId; // 0x38
 
 		::System::Void _ctor()

@@ -5,13 +5,13 @@
 
 namespace MoleMole { class RenderScaleProfileContext; }
 
-#define MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_8A2C9EC446E16C94_OFFSET UNITYSDK_OFFSET(0xB0832D0)
-#define MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_B2A7C6FDE215F575_OFFSET UNITYSDK_OFFSET(0xB083170)
-#define MOLEMOLE_COMMANDLINERENDERSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xB083290)
+#define MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_7D8E67F55E5B87EF_OFFSET UNITYSDK_OFFSET(0x11014690)
+#define MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_B2A7C6FDE215F575_OFFSET UNITYSDK_OFFSET(0x11014550)
+#define MOLEMOLE_COMMANDLINERENDERSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x11014650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineRenderScale_TypeDefinitionIndex = 65706;
+	inline static constexpr unsigned int CommandLineRenderScale_TypeDefinitionIndex = 79693;
 
 	class CommandLineRenderScale : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::RenderScaleProfileContext*, ::MoleMole::CommandLineRenderScale*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineRenderScale*(*)(::PVOID, ::MoleMole::RenderScaleProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_B2A7C6FDE215F575_OFFSET))(this, a1);
 		}
 
-		::MoleMole::RenderScaleProfileContext* Method_2_8A2C9EC446E16C94(::MoleMole::RenderScaleProfileContext* a1)
+		::MoleMole::RenderScaleProfileContext* Method_2_7D8E67F55E5B87EF(::MoleMole::RenderScaleProfileContext* a1)
 		{
-			return ((::MoleMole::RenderScaleProfileContext*(*)(::PVOID, ::MoleMole::RenderScaleProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_8A2C9EC446E16C94_OFFSET))(this, a1);
+			return ((::MoleMole::RenderScaleProfileContext*(*)(::PVOID, ::MoleMole::RenderScaleProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINERENDERSCALE_METHOD_2_7D8E67F55E5B87EF_OFFSET))(this, a1);
 		}
 	};
 }

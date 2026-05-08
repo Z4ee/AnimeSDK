@@ -6,7 +6,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace fastoct
 {
-	inline static constexpr unsigned int COctCloner_1_TypeDefinitionIndex = 8581;
+	inline static constexpr unsigned int COctCloner_1_TypeDefinitionIndex = 8592;
 
 	template <typename T>
 	class COctCloner_1 : public ::System::Object

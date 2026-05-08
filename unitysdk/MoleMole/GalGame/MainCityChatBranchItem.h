@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATBRANCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EA7A0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBRANCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15427A40)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatBranchItem_TypeDefinitionIndex = 64144;
+	inline static constexpr unsigned int MainCityChatBranchItem_TypeDefinitionIndex = 38093;
 
 	class MainCityChatBranchItem : public ::System::Object
 	{
 	public:
-		::System::Int32 bindSectionIndex; // 0x10
-		::System::Int32 bindSubSectionIndex; // 0x14
+		::System::Int32 bindSubSectionIndex; // 0x10
+		::System::Int32 bindSectionIndex; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B74F8B0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B74F8E0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_EVERYTHING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1B74F8F0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_STRICT_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B74F960)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5169C0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C516A00)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_EVERYTHING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C516A10)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES___C__GET_STRICT_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C516AA0)
 
 namespace Sirenix::Serialization
 {
@@ -17,15 +17,15 @@ namespace Sirenix::Serialization
 	class SerializationPolicies___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63B0);
+		}
 		static ::Sirenix::Serialization::SerializationPolicies___c** StaticGet___9()
 		{
-			return (::Sirenix::Serialization::SerializationPolicies___c**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63B0);
+			return (::Sirenix::Serialization::SerializationPolicies___c**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63B8);
 		}
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63B8);
-		}
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
 			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies___c_TypeDefinitionIndex)->GetStaticField(0x63C0);
 		}

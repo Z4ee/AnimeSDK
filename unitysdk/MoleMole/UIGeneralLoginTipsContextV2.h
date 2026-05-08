@@ -7,18 +7,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALLOGINTIPSCONTEXTV2__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BC900)
+#define MOLEMOLE_UIGENERALLOGINTIPSCONTEXTV2__CTOR_OFFSET UNITYSDK_OFFSET(0x15248380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLoginTipsContextV2_TypeDefinitionIndex = 69303;
+	inline static constexpr unsigned int UIGeneralLoginTipsContextV2_TypeDefinitionIndex = 76715;
 
 	class UIGeneralLoginTipsContextV2 : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* tipDesc; // 0x28
-		::System::Nullable_1<::UnityEngine::Vector2> anchoredPosition; // 0x30
-		::Enum_3_185CF183A4DBE553 tipsType; // 0x3C
+		::Enum_3_185CF183A4DBE553 tipsType; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector2> anchoredPosition; // 0x34
 
 		::System::Void _ctor()
 		{

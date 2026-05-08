@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NPCCROWD_AI_CDCOUNTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x63F5D00)
+#define NPCCROWD_AI_CDCOUNTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD0BCD80)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int CDCountItem_TypeDefinitionIndex = 52193;
+	inline static constexpr unsigned int CDCountItem_TypeDefinitionIndex = 44258;
 
 	class CDCountItem : public ::System::Object
 	{

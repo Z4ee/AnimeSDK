@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5DA2E7556103D5A3_233.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_758.h"
+#include "unitysdk/Class_1_06539F1E30FD04C9.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_482.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_0_16E4307DCC419505_13;
-class Class_2_D43F76BF4351F32C_4;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_208CC9941471731A_1016_METHOD_2_86953C79667FC2E6_OFFSET UNITYSDK_OFFSET(0x1B27F030)
-#define CLASS_2_208CC9941471731A_1016__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27F020)
+#define CLASS_2_208CC9941471731A_1016_METHOD_2_2009AD5E74A906A3_OFFSET UNITYSDK_OFFSET(0x1332FDB0)
+#define CLASS_2_208CC9941471731A_1016__CTOR_OFFSET UNITYSDK_OFFSET(0x1332FDA0)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_1016_TypeDefinitionIndex = 81311;
+inline static constexpr unsigned int Class_2_208CC9941471731A_1016_TypeDefinitionIndex = 17497;
 
-class Class_2_208CC9941471731A_1016 : public ::Class_1_5DA2E7556103D5A3_233
+class Class_2_208CC9941471731A_1016 : public ::Class_1_06539F1E30FD04C9
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_758 a1, ::Class_0_16E4307DCC419505_13* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_482 a1, ::Class_0_16E4307DCC419505_13* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_758, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_482, ::Class_0_16E4307DCC419505_13*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_86953C79667FC2E6(::Class_2_D43F76BF4351F32C_4* a1)
+	::UnityEngine::Vector3 Method_2_2009AD5E74A906A3(::System::Collections::Generic::List_1<::System::Single>* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_D43F76BF4351F32C_4*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016_METHOD_2_86953C79667FC2E6_OFFSET))(this, a1);
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Single>*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_1016_METHOD_2_2009AD5E74A906A3_OFFSET))(this, a1);
 	}
 };

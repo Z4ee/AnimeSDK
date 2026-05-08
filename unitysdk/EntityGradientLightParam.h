@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ENTITYGRADIENTLIGHTPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x182C9800)
-#define ENTITYGRADIENTLIGHTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x182C97F0)
+#define ENTITYGRADIENTLIGHTPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x196786E0)
+#define ENTITYGRADIENTLIGHTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x196786D0)
 
-inline static constexpr unsigned int EntityGradientLightParam_TypeDefinitionIndex = 29065;
+inline static constexpr unsigned int EntityGradientLightParam_TypeDefinitionIndex = 29584;
 
 class EntityGradientLightParam : public ::System::Object
 {
 public:
 	static ::EntityGradientLightParam** StaticGet_Default()
 	{
-		return (::EntityGradientLightParam**)Il2CppClass::FromTypeDefinitionIndex(EntityGradientLightParam_TypeDefinitionIndex)->GetStaticField(0x226F0);
+		return (::EntityGradientLightParam**)Il2CppClass::FromTypeDefinitionIndex(EntityGradientLightParam_TypeDefinitionIndex)->GetStaticField(0x23260);
 	}
 	::System::Single gradientSize; // 0x10
 	::System::Single offset; // 0x14

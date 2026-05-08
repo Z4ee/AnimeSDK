@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/ConfigUICommon_Input_PositionType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON_METHOD_1_D5D789CEDB33DF97_OFFSET UNITYSDK_OFFSET(0xAA95740)
-#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0xAA95730)
+#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON_METHOD_1_D5D789CEDB33DF97_OFFSET UNITYSDK_OFFSET(0xF3AC940)
+#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0xF3AC930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UserLocalDataItem_ConfigMobileButton_TypeDefinitionIndex = 45277;
+	inline static constexpr unsigned int UserLocalDataItem_ConfigMobileButton_TypeDefinitionIndex = 78283;
 
 	class UserLocalDataItem_ConfigMobileButton : public ::System::Object
 	{

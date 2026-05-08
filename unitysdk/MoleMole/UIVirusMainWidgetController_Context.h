@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIVIRUSMAINWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x95B1230)
+#define MOLEMOLE_UIVIRUSMAINWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12768970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusMainWidgetController_Context_TypeDefinitionIndex = 48843;
+	inline static constexpr unsigned int UIVirusMainWidgetController_Context_TypeDefinitionIndex = 56885;
 
 	class UIVirusMainWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

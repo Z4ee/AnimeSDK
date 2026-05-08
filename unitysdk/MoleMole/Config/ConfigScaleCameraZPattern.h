@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class InteractionCommonData; }
 
-#define MOLEMOLE_CONFIG_CONFIGSCALECAMERAZPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0xF2D54B0)
+#define MOLEMOLE_CONFIG_CONFIGSCALECAMERAZPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x159F4010)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigScaleCameraZPattern_TypeDefinitionIndex = 51869;
+	inline static constexpr unsigned int ConfigScaleCameraZPattern_TypeDefinitionIndex = 77659;
 
 	class ConfigScaleCameraZPattern : public ::System::Object
 	{

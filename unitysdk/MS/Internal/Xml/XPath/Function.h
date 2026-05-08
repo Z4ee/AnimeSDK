@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 
-#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x19ACEB80)
-#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19ACEB70)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ACEC20)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19ACEAB0)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19ACEB00)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACEA70)
+#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1A73D170)
+#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A73D160)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A73D210)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A73D030)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A73D0A0)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73CFD0)
 
 namespace MS::Internal::Xml::XPath
 {
@@ -27,8 +27,8 @@ namespace MS::Internal::Xml::XPath
 			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(Function_TypeDefinitionIndex)->GetStaticField(0x1F50);
 		}
 		::System::String* prefix; // 0x10
-		::System::String* name; // 0x18
-		::System::Collections::ArrayList* argumentList; // 0x20
+		::System::Collections::ArrayList* argumentList; // 0x18
+		::System::String* name; // 0x20
 		::MS::Internal::Xml::XPath::Function_FunctionType functionType; // 0x28
 
 		::System::Void _ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::System::Collections::ArrayList* argumentList)

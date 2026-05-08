@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_GENERALREPORTITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AEB50)
+#define MOLEMOLE_GENERALREPORTITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E59430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralReportItemContext_TypeDefinitionIndex = 72745;
+	inline static constexpr unsigned int GeneralReportItemContext_TypeDefinitionIndex = 51072;
 
 	class GeneralReportItemContext : public ::MoleMole::UIControllerContextBase
 	{

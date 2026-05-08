@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int IDTSingleton_TypeDefinitionIndex = 25379;
+	inline static constexpr unsigned int IDTSingleton_TypeDefinitionIndex = 25893;
 
 	class IDTSingleton
 	{

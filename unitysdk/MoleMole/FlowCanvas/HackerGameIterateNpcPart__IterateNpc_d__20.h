@@ -7,29 +7,29 @@ namespace MoleMole { class ChessEntityCollection; }
 namespace MoleMole::FlowCanvas { class HackerGameIterateNpcPart; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA006830)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA006CD0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA006D30)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA006CE0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA006820)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0xA006810)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x11736EB0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11737400)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11737460)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x11737410)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11736EA0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEITERATENPCPART__ITERATENPC_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0x11736E90)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameIterateNpcPart__IterateNpc_d__20_TypeDefinitionIndex = 71292;
+	inline static constexpr unsigned int HackerGameIterateNpcPart__IterateNpc_d__20_TypeDefinitionIndex = 70803;
 
 	class HackerGameIterateNpcPart__IterateNpc_d__20 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Single>* delay; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* _cachedCells_5__2; // 0x18
+		::MoleMole::ChessEntityCollection* collection; // 0x10
+		::MoleMole::FlowCanvas::HackerGameIterateNpcPart* __4__this; // 0x18
 		::System::Object* __2__current; // 0x20
-		::MoleMole::FlowCanvas::HackerGameIterateNpcPart* __4__this; // 0x28
-		::MoleMole::ChessEntityCollection* collection; // 0x30
-		::System::Int32 __1__state; // 0x38
-		::System::Int32 runtimeID; // 0x3C
-		::System::Boolean discreteMode; // 0x40
-		::System::Single _timer_5__3; // 0x44
+		::System::Collections::Generic::List_1<::System::Single>* delay; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* _cachedCells_5__2; // 0x30
+		::System::Int32 runtimeID; // 0x38
+		::System::Single _timer_5__3; // 0x3C
+		::System::Int32 __1__state; // 0x40
+		::System::Boolean discreteMode; // 0x44
 		::System::Int32 _nextIndex_5__4; // 0x48
 
 		::System::Void _ctor(::System::Int32 __1__state)

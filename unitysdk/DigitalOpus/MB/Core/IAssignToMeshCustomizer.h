@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int IAssignToMeshCustomizer_TypeDefinitionIndex = 83357;
+	inline static constexpr unsigned int IAssignToMeshCustomizer_TypeDefinitionIndex = 85085;
 
 	class IAssignToMeshCustomizer
 	{

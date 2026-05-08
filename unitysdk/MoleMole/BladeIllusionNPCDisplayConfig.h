@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_BLADEILLUSIONNPCDISPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FCC40)
+#define MOLEMOLE_BLADEILLUSIONNPCDISPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13988080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BladeIllusionNPCDisplayConfig_TypeDefinitionIndex = 78442;
+	inline static constexpr unsigned int BladeIllusionNPCDisplayConfig_TypeDefinitionIndex = 65911;
 
 	class BladeIllusionNPCDisplayConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

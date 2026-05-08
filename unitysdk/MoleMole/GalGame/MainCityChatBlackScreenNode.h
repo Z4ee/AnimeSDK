@@ -8,20 +8,20 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATBLACKSCREENNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xA50C070)
-#define MOLEMOLE_GALGAME_MAINCITYCHATBLACKSCREENNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA50C050)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBLACKSCREENNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x10E1AC00)
+#define MOLEMOLE_GALGAME_MAINCITYCHATBLACKSCREENNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E1ABE0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatBlackScreenNode_TypeDefinitionIndex = 69507;
+	inline static constexpr unsigned int MainCityChatBlackScreenNode_TypeDefinitionIndex = 64730;
 
 	class MainCityChatBlackScreenNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::System::String* soundEvent; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* dialogueKeys; // 0x20
-		::System::Int32 delay; // 0x28
-		::System::Int32 speakSpeed; // 0x2C
+		::System::Collections::Generic::List_1<::System::String*>* dialogueKeys; // 0x18
+		::System::String* soundEvent; // 0x20
+		::System::Int32 speakSpeed; // 0x28
+		::System::Int32 delay; // 0x2C
 
 		::System::Void _ctor()
 		{

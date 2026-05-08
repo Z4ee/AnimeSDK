@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatTransitionDisplayItem.h"
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATRANDOMCHOICEDISPLAYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD57E30)
+#define MOLEMOLE_GALGAME_MAINCITYCHATRANDOMCHOICEDISPLAYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x125CCFE0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatRandomChoiceDisplayItem_TypeDefinitionIndex = 60766;
+	inline static constexpr unsigned int MainCityChatRandomChoiceDisplayItem_TypeDefinitionIndex = 53368;
 
 	class MainCityChatRandomChoiceDisplayItem : public ::MoleMole::GalGame::MainCityChatTransitionDisplayItem
 	{

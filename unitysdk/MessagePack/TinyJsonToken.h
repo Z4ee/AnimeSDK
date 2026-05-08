@@ -3,19 +3,19 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int TinyJsonToken_TypeDefinitionIndex = 27147;
+	inline static constexpr unsigned int TinyJsonToken_TypeDefinitionIndex = 27731;
 
 	enum class TinyJsonToken : ::System::Int32
 	{
-		Number = 5,
-		EndObject = 2,
-		Null = 9,
-		String = 6,
-		None = 0,
-		True = 7,
-		StartObject = 1,
-		False = 8,
 		StartArray = 3,
+		True = 7,
+		False = 8,
+		EndObject = 2,
+		StartObject = 1,
+		None = 0,
+		Number = 5,
+		Null = 9,
 		EndArray = 4,
+		String = 6,
 	};
 }

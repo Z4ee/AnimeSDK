@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int LengthUnit_TypeDefinitionIndex = 24563;
+	inline static constexpr unsigned int LengthUnit_TypeDefinitionIndex = 25077;
 
 	enum class LengthUnit : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_B9082A0CB4C1635D.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONBGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x747E750)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONBGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14849C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicGameGeneralCalibrationBgWidgetController_Context_TypeDefinitionIndex = 47323;
+	inline static constexpr unsigned int UIMusicGameGeneralCalibrationBgWidgetController_Context_TypeDefinitionIndex = 79995;
 
 	class UIMusicGameGeneralCalibrationBgWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

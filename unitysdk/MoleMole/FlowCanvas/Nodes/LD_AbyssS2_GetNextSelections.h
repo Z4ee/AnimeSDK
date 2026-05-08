@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNEXTSELECTIONS_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD50F40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNEXTSELECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xCD510E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNEXTSELECTIONS_INVOKE_OFFSET UNITYSDK_OFFSET(0x125C6530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNEXTSELECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x125C6690)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetNextSelections_TypeDefinitionIndex = 54169;
+	inline static constexpr unsigned int LD_AbyssS2_GetNextSelections_TypeDefinitionIndex = 66319;
 
 	class LD_AbyssS2_GetNextSelections : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Collections::Generic::List_1<::System::Int32>*>
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_AEF92A7C1EC8C33D;
+class Class_1_E85C6B6436A9E3DA;
 
-inline static constexpr unsigned int Struct_2_6E318F2AEABB84C2_2_TypeDefinitionIndex = 25906;
+inline static constexpr unsigned int Struct_2_6E318F2AEABB84C2_2_TypeDefinitionIndex = 26394;
 
 template <typename T>
 struct Struct_2_6E318F2AEABB84C2_2
@@ -13,5 +13,5 @@ struct Struct_2_6E318F2AEABB84C2_2
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6E318F2AEABB84C2_2_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	::Class_1_AEF92A7C1EC8C33D* Field_2_1; // 0x0
+	::Class_1_E85C6B6436A9E3DA* Field_2_1; // 0x0
 };

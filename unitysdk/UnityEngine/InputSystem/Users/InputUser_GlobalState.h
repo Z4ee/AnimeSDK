@@ -20,7 +20,7 @@ namespace UnityEngine::InputSystem { class InputDevice; }
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUser_GlobalState_TypeDefinitionIndex = 28582;
+	inline static constexpr unsigned int InputUser_GlobalState_TypeDefinitionIndex = 29100;
 
 	struct alignas(8) InputUser_GlobalState
 	{

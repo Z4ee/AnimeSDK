@@ -4,7 +4,7 @@
 #include "unitysdk/Struct_2_9E75F47F2670B678.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_C823E4BCA9041B2C_TypeDefinitionIndex = 37698;
+inline static constexpr unsigned int Class_1_C823E4BCA9041B2C_TypeDefinitionIndex = 69113;
 
 template <typename T>
 class Class_1_C823E4BCA9041B2C : public ::System::Object

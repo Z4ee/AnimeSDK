@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ENpcPerfromType_TypeDefinitionIndex = 13133;
+	inline static constexpr unsigned int ENpcPerfromType_TypeDefinitionIndex = 11804;
 
 	enum class ENpcPerfromType : ::System::Int16
 	{
-		Log = 2,
 		Chat = 1,
+		Log = 2,
 	};
 }

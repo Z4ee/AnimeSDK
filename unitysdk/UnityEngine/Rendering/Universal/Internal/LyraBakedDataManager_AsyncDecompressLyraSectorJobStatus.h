@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_AsyncDecompressLyraSectorJobStatus_TypeDefinitionIndex = 29931;
+	inline static constexpr unsigned int LyraBakedDataManager_AsyncDecompressLyraSectorJobStatus_TypeDefinitionIndex = 30459;
 
 	enum class LyraBakedDataManager_AsyncDecompressLyraSectorJobStatus : ::System::Int32
 	{

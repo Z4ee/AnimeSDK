@@ -5,22 +5,22 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_PCSUPERRESOLUTIONQUALITYMODESETTINGCONTEXT_GETOVERRIDEOPTIONTEXTKEY_OFFSET UNITYSDK_OFFSET(0xA47BE90)
-#define MOLEMOLE_PCSUPERRESOLUTIONQUALITYMODESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA47C120)
-#define MOLEMOLE_PCSUPERRESOLUTIONQUALITYMODESETTINGCONTEXT___BASE_GETOVERRIDEOPTIONTEXTKEY_OFFSET UNITYSDK_OFFSET(0xA47C150)
+#define MOLEMOLE_PCSUPERRESOLUTIONQUALITYMODESETTINGCONTEXT_GETOVERRIDEOPTIONTEXTKEY_OFFSET UNITYSDK_OFFSET(0x12FABB60)
+#define MOLEMOLE_PCSUPERRESOLUTIONQUALITYMODESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FABDD0)
+#define MOLEMOLE_PCSUPERRESOLUTIONQUALITYMODESETTINGCONTEXT___BASE_GETOVERRIDEOPTIONTEXTKEY_OFFSET UNITYSDK_OFFSET(0x12FABE00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCSuperResolutionQualityModeSettingContext_TypeDefinitionIndex = 59189;
+	inline static constexpr unsigned int PCSuperResolutionQualityModeSettingContext_TypeDefinitionIndex = 41354;
 
 	class PCSuperResolutionQualityModeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{
 	public:
 		::UnityEngine::Rendering::DLSSQualityMode QualityMode; // 0x28
-		::System::Single RenderScaleValue; // 0x2C
+		::System::Single RenderScaleValueFSR; // 0x2C
 		::System::Single RenderTargetFactor; // 0x30
-		::System::Single RenderTargetFactorFSR; // 0x34
-		::System::Single RenderScaleValueFSR; // 0x38
+		::System::Single RenderScaleValue; // 0x34
+		::System::Single RenderTargetFactorFSR; // 0x38
 
 		::System::Void _ctor()
 		{

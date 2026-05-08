@@ -16,7 +16,7 @@ namespace UnityEngine { class Animator; }
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationSelectByEnumConfig_1_TypeDefinitionIndex = 79058;
+	inline static constexpr unsigned int AnimationSelectByEnumConfig_1_TypeDefinitionIndex = 47858;
 
 	template <typename TEnum>
 	class AnimationSelectByEnumConfig_1 : public ::MoleMole::Photo::NapAnimationJobConfig_1<::Struct_2_9663F620BC91CEFB<TEnum>>

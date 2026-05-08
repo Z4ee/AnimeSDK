@@ -5,10 +5,10 @@
 class NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets;
 class NPCAvatarUtils___c__DisplayClass18_0;
 
-#define NPCAVATARUTILS___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x69D2D30)
-#define NPCAVATARUTILS___C__DISPLAYCLASS18_1__LOADMESHGPULODASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x69D2D40)
+#define NPCAVATARUTILS___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x182686C0)
+#define NPCAVATARUTILS___C__DISPLAYCLASS18_1__LOADMESHGPULODASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x182686D0)
 
-inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass18_1_TypeDefinitionIndex = 48377;
+inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass18_1_TypeDefinitionIndex = 59884;
 
 class NPCAvatarUtils___c__DisplayClass18_1 : public ::System::Object
 {

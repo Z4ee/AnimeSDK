@@ -4,20 +4,20 @@
 #include "unitysdk/Utf8Json/Internal/DoubleConversion/CachedPower.h"
 #include "unitysdk/Utf8Json/Internal/DoubleConversion/DiyFp.h"
 
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_POWERSOFTENCACHE_GETCACHEDPOWERFORBINARYEXPONENTRANGE_OFFSET UNITYSDK_OFFSET(0x1B20DD00)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_POWERSOFTENCACHE_GETCACHEDPOWERFORDECIMALEXPONENT_OFFSET UNITYSDK_OFFSET(0x1B20DDF0)
-#define UTF8JSON_INTERNAL_DOUBLECONVERSION_POWERSOFTENCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B20DEC0)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_POWERSOFTENCACHE_GETCACHEDPOWERFORBINARYEXPONENTRANGE_OFFSET UNITYSDK_OFFSET(0x1BE25F10)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_POWERSOFTENCACHE_GETCACHEDPOWERFORDECIMALEXPONENT_OFFSET UNITYSDK_OFFSET(0x1BE26000)
+#define UTF8JSON_INTERNAL_DOUBLECONVERSION_POWERSOFTENCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE260D0)
 
 namespace Utf8Json::Internal::DoubleConversion
 {
-	inline static constexpr unsigned int PowersOfTenCache_TypeDefinitionIndex = 83968;
+	inline static constexpr unsigned int PowersOfTenCache_TypeDefinitionIndex = 85696;
 
 	class PowersOfTenCache : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::Utf8Json::Internal::DoubleConversion::CachedPower>** StaticGet_kCachedPowers()
 		{
-			return (::Il2CppArray<::Utf8Json::Internal::DoubleConversion::CachedPower>**)Il2CppClass::FromTypeDefinitionIndex(PowersOfTenCache_TypeDefinitionIndex)->GetStaticField(0x48F80);
+			return (::Il2CppArray<::Utf8Json::Internal::DoubleConversion::CachedPower>**)Il2CppClass::FromTypeDefinitionIndex(PowersOfTenCache_TypeDefinitionIndex)->GetStaticField(0x4AAF0);
 		}
 		// static const ::System::Int32 kCachedPowersOffset = 0x15C; // 0x0
 		// static const ::System::Double kD_1_LOG2_10; // 0x0

@@ -5,21 +5,21 @@
 namespace MoleMole { class UIFlowerMainListWidgetController_Data; }
 namespace MoleMole { class UIFlowerMain_RightWidgetController; }
 
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA971010)
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS27_0__SORTFLOWERDATA_G__SORTEDFUNC_0_OFFSET UNITYSDK_OFFSET(0xA971020)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15190A80)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS27_0__SORTFLOWERDATA_G__SORTEDFUNC_0_OFFSET UNITYSDK_OFFSET(0x15190A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerMain_RightWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 50332;
+	inline static constexpr unsigned int UIFlowerMain_RightWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 77220;
 
 	class UIFlowerMain_RightWidgetController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIFlowerMain_RightWidgetController* __4__this; // 0x10
-		::System::Boolean romanceSelected; // 0x18
-		::System::Boolean richSelected; // 0x19
-		::System::Boolean funSelected; // 0x1A
-		::System::Boolean gentleSelected; // 0x1B
+		::System::Boolean funSelected; // 0x18
+		::System::Boolean gentleSelected; // 0x19
+		::System::Boolean richSelected; // 0x1A
+		::System::Boolean romanceSelected; // 0x1B
 
 		::System::Void _ctor()
 		{

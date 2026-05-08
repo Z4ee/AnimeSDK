@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FPROPERTYBAGPROPERTYDESC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A210D00)
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FPROPERTYBAGPROPERTYDESC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A210D40)
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FPROPERTYBAGPROPERTYDESC___C___CCTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A210D50)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FPROPERTYBAGPROPERTYDESC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADA79A0)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FPROPERTYBAGPROPERTYDESC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA79E0)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FPROPERTYBAGPROPERTYDESC___C___CCTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1ADA79F0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c_TypeDefinitionIndex = 24813;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c_TypeDefinitionIndex = 25327;
 
 	class RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c** StaticGet___9()
 		{
-			return (::UnrealTypes::RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c_TypeDefinitionIndex)->GetStaticField(0x1E2E0);
+			return (::UnrealTypes::RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FPropertyBagPropertyDesc___c_TypeDefinitionIndex)->GetStaticField(0x1EE10);
 		}
 
 		static ::System::Void _cctor()

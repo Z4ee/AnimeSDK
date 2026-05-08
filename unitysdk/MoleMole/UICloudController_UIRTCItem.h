@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UICLOUDCONTROLLER_UIRTCITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xBFE0710)
+#define MOLEMOLE_UICLOUDCONTROLLER_UIRTCITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15659550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICloudController_UIRTCItem_TypeDefinitionIndex = 48235;
+	inline static constexpr unsigned int UICloudController_UIRTCItem_TypeDefinitionIndex = 50797;
 
 	class UICloudController_UIRTCItem : public ::System::Object
 	{

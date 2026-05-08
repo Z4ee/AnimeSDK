@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CRunner___c__DisplayClass52_0_1___Post_b__0_d_TypeDefinitionIndex = 84129;
+	inline static constexpr unsigned int CRunner___c__DisplayClass52_0_1___Post_b__0_d_TypeDefinitionIndex = 85857;
 
 	template <typename T>
 	class CRunner___c__DisplayClass52_0_1___Post_b__0_d : public ::System::Object

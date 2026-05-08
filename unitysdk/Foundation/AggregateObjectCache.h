@@ -6,18 +6,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_AGGREGATEOBJECTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B730860)
+#define FOUNDATION_AGGREGATEOBJECTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51F6B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObjectCache_TypeDefinitionIndex = 8945;
+	inline static constexpr unsigned int AggregateObjectCache_TypeDefinitionIndex = 8967;
 
 	class AggregateObjectCache : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Foundation::AggregateObjectCache_ComponentData>* Components; // 0x10
-		::Il2CppArray<::System::Collections::Generic::List_1<::System::Int32>*>* EventDispatcher; // 0x18
-		::System::Collections::Generic::List_1<::Foundation::AggregateObjectCache_InterfaceData>* Interfaces; // 0x20
+		::Il2CppArray<::System::Collections::Generic::List_1<::System::Int32>*>* EventDispatcher; // 0x10
+		::System::Collections::Generic::List_1<::Foundation::AggregateObjectCache_InterfaceData>* Interfaces; // 0x18
+		::System::Collections::Generic::List_1<::Foundation::AggregateObjectCache_ComponentData>* Components; // 0x20
 		::System::Int64 EventTypeHash; // 0x28
 
 		::System::Void _ctor(::System::Int64 eventTypeHash, ::Il2CppArray<::System::Collections::Generic::List_1<::System::Int32>*>* eventDispatcher, ::System::Collections::Generic::List_1<::Foundation::AggregateObjectCache_InterfaceData>* interfaces, ::System::Collections::Generic::List_1<::Foundation::AggregateObjectCache_ComponentData>* components)

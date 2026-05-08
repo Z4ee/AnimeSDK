@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_3.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCREATEHOLLOWENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0xD7FAE60)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCREATEHOLLOWENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0xD7FB030)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCREATEHOLLOWENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A38810)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCREATEHOLLOWENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18A389C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardCreateHollowEntity_TypeDefinitionIndex = 60911;
+	inline static constexpr unsigned int ChessboardCreateHollowEntity_TypeDefinitionIndex = 40538;
 
 	class ChessboardCreateHollowEntity : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_3<::System::UInt32, ::System::Int32, ::MoleMole::HollowChessboard::HollowCell>
 	{

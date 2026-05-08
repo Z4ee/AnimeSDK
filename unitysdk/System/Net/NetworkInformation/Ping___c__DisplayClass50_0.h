@@ -8,9 +8,9 @@ namespace System::Net::NetworkInformation { class PingOptions; }
 namespace System::Net::NetworkInformation { class PingReply; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1907B4A0)
-#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS50_0__SENDPINGASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1907B4B0)
-#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS50_0__SENDPINGASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1907B4F0)
+#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A72300)
+#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS50_0__SENDPINGASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x19A72310)
+#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS50_0__SENDPINGASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x19A72350)
 
 namespace System::Net::NetworkInformation
 {
@@ -19,8 +19,8 @@ namespace System::Net::NetworkInformation
 	class Ping___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* buffer; // 0x10
-		::System::Net::IPAddress* address; // 0x18
+		::System::Net::IPAddress* address; // 0x10
+		::Il2CppArray<::System::Byte>* buffer; // 0x18
 		::System::Net::NetworkInformation::Ping* __4__this; // 0x20
 		::System::Net::NetworkInformation::PingOptions* options; // 0x28
 		::System::Int32 timeout; // 0x30

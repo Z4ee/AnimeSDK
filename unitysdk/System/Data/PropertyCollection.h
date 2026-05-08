@@ -6,13 +6,13 @@
 namespace System { class Object; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_PROPERTYCOLLECTION_CLONE_OFFSET UNITYSDK_OFFSET(0x1B255F20)
-#define SYSTEM_DATA_PROPERTYCOLLECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B255F00)
-#define SYSTEM_DATA_PROPERTYCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B255EB0)
+#define SYSTEM_DATA_PROPERTYCOLLECTION_CLONE_OFFSET UNITYSDK_OFFSET(0x1BFE1680)
+#define SYSTEM_DATA_PROPERTYCOLLECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BFE1620)
+#define SYSTEM_DATA_PROPERTYCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE15B0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int PropertyCollection_TypeDefinitionIndex = 36499;
+	inline static constexpr unsigned int PropertyCollection_TypeDefinitionIndex = 37043;
 
 	class PropertyCollection : public ::System::Collections::Hashtable
 	{

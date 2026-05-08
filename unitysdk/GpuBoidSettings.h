@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GPUBOIDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x173DF3F0)
+#define GPUBOIDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1907E590)
 
-inline static constexpr unsigned int GpuBoidSettings_TypeDefinitionIndex = 29024;
+inline static constexpr unsigned int GpuBoidSettings_TypeDefinitionIndex = 29543;
 
 class GpuBoidSettings : public ::UnityEngine::ScriptableObject
 {

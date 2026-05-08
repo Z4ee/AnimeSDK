@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/DepthOfFieldMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x189E6D20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAE400)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DepthOfFieldModeParameter_TypeDefinitionIndex = 29590;
+	inline static constexpr unsigned int DepthOfFieldModeParameter_TypeDefinitionIndex = 30118;
 
 	class DepthOfFieldModeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::DepthOfFieldMode>
 	{

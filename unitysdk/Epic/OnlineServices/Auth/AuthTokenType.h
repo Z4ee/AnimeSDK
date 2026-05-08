@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int AuthTokenType_TypeDefinitionIndex = 34041;
+	inline static constexpr unsigned int AuthTokenType_TypeDefinitionIndex = 34577;
 
 	enum class AuthTokenType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETHEATCOUNTLEVELABILITY_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8A6390)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETHEATCOUNTLEVELABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A6690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETHEATCOUNTLEVELABILITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E51240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSS_GETHEATCOUNTLEVELABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x16E514F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_Abyss_GetHeatCountLevelAbility_TypeDefinitionIndex = 53265;
+	inline static constexpr unsigned int LD_Abyss_GetHeatCountLevelAbility_TypeDefinitionIndex = 47188;
 
 	class LD_Abyss_GetHeatCountLevelAbility : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32>
 	{

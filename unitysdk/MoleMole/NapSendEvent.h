@@ -10,29 +10,29 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_NAPSENDEVENT_ONRESET_OFFSET UNITYSDK_OFFSET(0xA47B720)
-#define MOLEMOLE_NAPSENDEVENT_ONSTART_OFFSET UNITYSDK_OFFSET(0xA47ADF0)
-#define MOLEMOLE_NAPSENDEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA47AF20)
-#define MOLEMOLE_NAPSENDEVENT_RESOLVETARGET_OFFSET UNITYSDK_OFFSET(0xA47B7A0)
-#define MOLEMOLE_NAPSENDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA47BA30)
-#define MOLEMOLE_NAPSENDEVENT___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0xA47BA70)
-#define MOLEMOLE_NAPSENDEVENT___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0xA47BB00)
-#define MOLEMOLE_NAPSENDEVENT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA47BB90)
+#define MOLEMOLE_NAPSENDEVENT_ONRESET_OFFSET UNITYSDK_OFFSET(0x12FAB3C0)
+#define MOLEMOLE_NAPSENDEVENT_ONSTART_OFFSET UNITYSDK_OFFSET(0x12FAAA60)
+#define MOLEMOLE_NAPSENDEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12FAABB0)
+#define MOLEMOLE_NAPSENDEVENT_RESOLVETARGET_OFFSET UNITYSDK_OFFSET(0x12FAB440)
+#define MOLEMOLE_NAPSENDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FAB6C0)
+#define MOLEMOLE_NAPSENDEVENT___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x12FAB750)
+#define MOLEMOLE_NAPSENDEVENT___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x12FAB7E0)
+#define MOLEMOLE_NAPSENDEVENT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12FAB870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NapSendEvent_TypeDefinitionIndex = 70276;
+	inline static constexpr unsigned int NapSendEvent_TypeDefinitionIndex = 50254;
 
 	class NapSendEvent : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* eventName; // 0x60
-		::BehaviorDesigner::Runtime::SharedVariable* argument1; // 0x68
-		::BehaviorDesigner::Runtime::SharedVariable* argument2; // 0x70
-		::MoleMole::Battle::Entity* ownerEntity; // 0x78
-		::BehaviorDesigner::Runtime::SharedVariable* argument3; // 0x80
-		::BehaviorDesigner::Runtime::SharedString* CustomKey; // 0x88
+		::BehaviorDesigner::Runtime::SharedVariable* argument3; // 0x60
+		::BehaviorDesigner::Runtime::SharedVariable* argument2; // 0x68
+		::BehaviorDesigner::Runtime::SharedVariable* argument1; // 0x70
+		::BehaviorDesigner::Runtime::SharedString* eventName; // 0x78
+		::BehaviorDesigner::Runtime::SharedString* CustomKey; // 0x80
+		::MoleMole::Battle::Entity* ownerEntity; // 0x88
 		::MoleMole::Config::AbilityTargetting Target; // 0x90
 
 		::System::Void _ctor()

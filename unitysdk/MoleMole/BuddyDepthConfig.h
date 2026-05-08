@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BUDDYDEPTHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9168DA0)
+#define MOLEMOLE_BUDDYDEPTHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11C86790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BuddyDepthConfig_TypeDefinitionIndex = 45849;
+	inline static constexpr unsigned int BuddyDepthConfig_TypeDefinitionIndex = 80237;
 
 	class BuddyDepthConfig : public ::System::Object
 	{

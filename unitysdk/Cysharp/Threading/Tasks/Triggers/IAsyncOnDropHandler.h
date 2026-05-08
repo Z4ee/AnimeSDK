@@ -6,7 +6,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnDropHandler_TypeDefinitionIndex = 28270;
+	inline static constexpr unsigned int IAsyncOnDropHandler_TypeDefinitionIndex = 28788;
 
 	class IAsyncOnDropHandler
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Nap3DMapDecalEffect_DecalShapeType_TypeDefinitionIndex = 29848;
+	inline static constexpr unsigned int Nap3DMapDecalEffect_DecalShapeType_TypeDefinitionIndex = 30376;
 
 	enum class Nap3DMapDecalEffect_DecalShapeType : ::System::Int32
 	{

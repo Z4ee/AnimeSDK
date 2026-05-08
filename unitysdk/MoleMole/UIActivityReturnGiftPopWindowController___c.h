@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFFA350)
-#define MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFA390)
-#define MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__ONGETREWARD_B__14_1_OFFSET UNITYSDK_OFFSET(0xCFFA3A0)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B809A0)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B809E0)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__ONGETREWARD_B__13_1_OFFSET UNITYSDK_OFFSET(0x15B809F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnGiftPopWindowController___c_TypeDefinitionIndex = 77483;
+	inline static constexpr unsigned int UIActivityReturnGiftPopWindowController___c_TypeDefinitionIndex = 54234;
 
 	class UIActivityReturnGiftPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIActivityReturnGiftPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityReturnGiftPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37080);
+			return (::MoleMole::UIActivityReturnGiftPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37B40);
 		}
-		static ::System::Action** StaticGet___9__14_1()
+		static ::System::Action** StaticGet___9__13_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37088);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnGiftPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37B48);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnGetReward_b__14_1()
+		::System::Void _OnGetReward_b__13_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__ONGETREWARD_B__14_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNGIFTPOPWINDOWCONTROLLER___C__ONGETREWARD_B__13_1_OFFSET))(this);
 		}
 	};
 }

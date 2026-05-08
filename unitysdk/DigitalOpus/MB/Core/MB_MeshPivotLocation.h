@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_MeshPivotLocation_TypeDefinitionIndex = 83324;
+	inline static constexpr unsigned int MB_MeshPivotLocation_TypeDefinitionIndex = 85052;
 
 	enum class MB_MeshPivotLocation : ::System::Int32
 	{

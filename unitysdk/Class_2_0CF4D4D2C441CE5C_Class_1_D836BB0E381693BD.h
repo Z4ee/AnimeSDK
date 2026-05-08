@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_94AEE9C7114702E7;
+class Class_2_C6B63E29A82327F2;
 namespace System { class String; }
 
-#define CLASS_2_0CF4D4D2C441CE5C_CLASS_1_D836BB0E381693BD_METHOD_1_FA2E05F20256220D_OFFSET UNITYSDK_OFFSET(0xBDF4E20)
-#define CLASS_2_0CF4D4D2C441CE5C_CLASS_1_D836BB0E381693BD__CTOR_OFFSET UNITYSDK_OFFSET(0xBDF4E10)
+#define CLASS_2_0CF4D4D2C441CE5C_CLASS_1_D836BB0E381693BD_METHOD_1_FA2E05F20256220D_OFFSET UNITYSDK_OFFSET(0x140C7950)
+#define CLASS_2_0CF4D4D2C441CE5C_CLASS_1_D836BB0E381693BD__CTOR_OFFSET UNITYSDK_OFFSET(0x140C7940)
 
-inline static constexpr unsigned int Class_2_0CF4D4D2C441CE5C_Class_1_D836BB0E381693BD_TypeDefinitionIndex = 47863;
+inline static constexpr unsigned int Class_2_0CF4D4D2C441CE5C_Class_1_D836BB0E381693BD_TypeDefinitionIndex = 45098;
 
 class Class_2_0CF4D4D2C441CE5C_Class_1_D836BB0E381693BD : public ::System::Object
 {
 public:
-	::Class_2_94AEE9C7114702E7* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
+	::Class_2_C6B63E29A82327F2* Field_1_0; // 0x10
+	::System::Int32 Field_1_2; // 0x18
+	::System::Int32 Field_1_1; // 0x1C
 
 	::System::Void _ctor()
 	{

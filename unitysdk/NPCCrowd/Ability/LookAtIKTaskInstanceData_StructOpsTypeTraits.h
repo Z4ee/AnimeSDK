@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_LOOKATIKTASKINSTANCEDATA_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x633D3A0)
-#define NPCCROWD_ABILITY_LOOKATIKTASKINSTANCEDATA_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x633D3B0)
+#define NPCCROWD_ABILITY_LOOKATIKTASKINSTANCEDATA_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xBDD5BC0)
+#define NPCCROWD_ABILITY_LOOKATIKTASKINSTANCEDATA_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD5BD0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int LookAtIKTaskInstanceData_StructOpsTypeTraits_TypeDefinitionIndex = 58651;
+	inline static constexpr unsigned int LookAtIKTaskInstanceData_StructOpsTypeTraits_TypeDefinitionIndex = 73456;
 
 	class LookAtIKTaskInstanceData_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

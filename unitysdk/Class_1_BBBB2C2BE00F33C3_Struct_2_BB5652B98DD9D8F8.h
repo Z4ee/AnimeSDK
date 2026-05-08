@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_1_BBBB2C2BE00F33C3_Struct_2_BB5652B98DD9D8F8_TypeDefinitionIndex = 41614;
+
+struct alignas(8) Class_1_BBBB2C2BE00F33C3_Struct_2_BB5652B98DD9D8F8
+{
+	::System::String* Field_2_0; // 0x10
+	::System::Single Field_2_1; // 0x18
+	::System::Single Field_2_2; // 0x1C
+};

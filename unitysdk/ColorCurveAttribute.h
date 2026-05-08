@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define COLORCURVEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x173DDDA0)
-#define COLORCURVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x173DDD60)
+#define COLORCURVEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1907C880)
+#define COLORCURVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1907C840)
 
-inline static constexpr unsigned int ColorCurveAttribute_TypeDefinitionIndex = 29010;
+inline static constexpr unsigned int ColorCurveAttribute_TypeDefinitionIndex = 29529;
 
 class ColorCurveAttribute : public ::UnityEngine::PropertyAttribute
 {
 public:
-	::System::String* hueVsSat; // 0x10
-	::System::String* satVsSat; // 0x18
-	::System::String* redPropertyName; // 0x20
-	::System::String* masterPropertyName; // 0x28
-	::System::String* bluePropertyName; // 0x30
-	::System::String* greenPropertyName; // 0x38
-	::System::String* hueVsHue; // 0x40
-	::System::String* lumVsSat; // 0x48
+	::System::String* bluePropertyName; // 0x10
+	::System::String* hueVsSat; // 0x18
+	::System::String* greenPropertyName; // 0x20
+	::System::String* hueVsHue; // 0x28
+	::System::String* redPropertyName; // 0x30
+	::System::String* satVsSat; // 0x38
+	::System::String* lumVsSat; // 0x40
+	::System::String* masterPropertyName; // 0x48
 
 	::System::Void _ctor(::System::String* masterPropertyName, ::System::String* redPropertyName, ::System::String* greenPropertyName, ::System::String* bluePropertyName, ::System::String* hueVsHue, ::System::String* hueVsSat, ::System::String* satVsSat, ::System::String* lumVsSat)
 	{

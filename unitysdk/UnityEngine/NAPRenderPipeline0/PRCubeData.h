@@ -6,7 +6,7 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PRCUBEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9256B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PRCUBEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x96E820)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

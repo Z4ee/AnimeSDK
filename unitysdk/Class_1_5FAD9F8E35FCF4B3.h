@@ -6,9 +6,9 @@
 namespace MoleMole::GalGame { class GalGameNPCEnterAction; }
 namespace MoleMole::GalGame { class GalGameNPCFadeAction; }
 
-#define CLASS_1_5FAD9F8E35FCF4B3__CTOR_OFFSET UNITYSDK_OFFSET(0x15674FD0)
+#define CLASS_1_5FAD9F8E35FCF4B3__CTOR_OFFSET UNITYSDK_OFFSET(0xDB7F1B0)
 
-inline static constexpr unsigned int Class_1_5FAD9F8E35FCF4B3_TypeDefinitionIndex = 77487;
+inline static constexpr unsigned int Class_1_5FAD9F8E35FCF4B3_TypeDefinitionIndex = 43239;
 
 class Class_1_5FAD9F8E35FCF4B3 : public ::System::Object
 {

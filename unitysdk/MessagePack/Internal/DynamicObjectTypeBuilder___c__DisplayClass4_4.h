@@ -4,12 +4,12 @@
 
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass4_3; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_4__BUILDFORMATTERTODYNAMICMETHOD_B__7_OFFSET UNITYSDK_OFFSET(0x1A483A40)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1A483A30)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_4__BUILDFORMATTERTODYNAMICMETHOD_B__7_OFFSET UNITYSDK_OFFSET(0x1AFC83C0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC83B0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_4_TypeDefinitionIndex = 26340;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_4_TypeDefinitionIndex = 26710;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass4_4 : public ::System::Object
 	{

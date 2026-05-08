@@ -11,28 +11,28 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B036D6550F74A038_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x9DFAFB0)
-#define CLASS_1_B036D6550F74A038_FROMFLX_OFFSET UNITYSDK_OFFSET(0x9DFB910)
-#define CLASS_1_B036D6550F74A038_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x9DFB990)
-#define CLASS_1_B036D6550F74A038_METHOD_1_24A25E33E8D4A2E6_OFFSET UNITYSDK_OFFSET(0x9DFB010)
-#define CLASS_1_B036D6550F74A038__CTOR_OFFSET UNITYSDK_OFFSET(0x9DFCA90)
+#define CLASS_1_B036D6550F74A038_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x161E5A00)
+#define CLASS_1_B036D6550F74A038_FROMFLX_OFFSET UNITYSDK_OFFSET(0x161E6360)
+#define CLASS_1_B036D6550F74A038_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x161E63E0)
+#define CLASS_1_B036D6550F74A038_METHOD_1_24A25E33E8D4A2E6_OFFSET UNITYSDK_OFFSET(0x161E5A60)
+#define CLASS_1_B036D6550F74A038__CTOR_OFFSET UNITYSDK_OFFSET(0x161E74E0)
 
-inline static constexpr unsigned int Class_1_B036D6550F74A038_TypeDefinitionIndex = 44206;
+inline static constexpr unsigned int Class_1_B036D6550F74A038_TypeDefinitionIndex = 55094;
 
 class Class_1_B036D6550F74A038 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_4; // 0x10
+	::System::String* Field_1_7; // 0x10
 	::System::Collections::Generic::List_1<::System::String*>* Field_1_5; // 0x18
 	::System::Collections::Generic::List_1<::System::String*>* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::DynamicFloat*>* Field_1_8; // 0x28
-	::System::String* Field_1_7; // 0x30
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_6; // 0x38
-	::System::Int32 Field_1_0; // 0x40
-	::System::Boolean Field_1_3; // 0x44
-	::System::Boolean Field_1_1; // 0x45
-	::UnityEngine::Vector3 Field_1_9; // 0x48
-	::UnityEngine::Vector3 Field_1_10; // 0x54
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_4; // 0x28
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_6; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::DynamicFloat*>* Field_1_8; // 0x38
+	::UnityEngine::Vector3 Field_1_9; // 0x40
+	::System::Int32 Field_1_0; // 0x4C
+	::UnityEngine::Vector3 Field_1_10; // 0x50
+	::System::Boolean Field_1_1; // 0x5C
+	::System::Boolean Field_1_3; // 0x5D
 
 	::System::Void _ctor()
 	{

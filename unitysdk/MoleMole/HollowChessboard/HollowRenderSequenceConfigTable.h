@@ -6,11 +6,11 @@ namespace MoleMole::HollowChessboard { class HollowEntityRenderSequence; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWRENDERSEQUENCECONFIGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EBCC0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWRENDERSEQUENCECONFIGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15428B10)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowRenderSequenceConfigTable_TypeDefinitionIndex = 71392;
+	inline static constexpr unsigned int HollowRenderSequenceConfigTable_TypeDefinitionIndex = 47691;
 
 	class HollowRenderSequenceConfigTable : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

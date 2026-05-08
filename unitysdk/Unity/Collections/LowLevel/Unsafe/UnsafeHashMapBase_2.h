@@ -5,7 +5,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int UnsafeHashMapBase_2_TypeDefinitionIndex = 19808;
+	inline static constexpr unsigned int UnsafeHashMapBase_2_TypeDefinitionIndex = 20168;
 
 	template <typename TKey, typename TValue>
 	struct UnsafeHashMapBase_2

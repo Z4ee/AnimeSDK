@@ -5,11 +5,11 @@
 class Class_1_2A0117F72708B5DF;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIMEDALSELECTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB3F7840)
+#define MOLEMOLE_UIMEDALSELECTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x148DFA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMedalSelectRowWidgetController_Context_TypeDefinitionIndex = 53776;
+	inline static constexpr unsigned int UIMedalSelectRowWidgetController_Context_TypeDefinitionIndex = 72814;
 
 	class UIMedalSelectRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

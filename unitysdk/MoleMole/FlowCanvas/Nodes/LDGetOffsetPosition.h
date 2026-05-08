@@ -7,22 +7,22 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x7575E20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x7575F70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x7575FA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x75760F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1498E7E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1498E910)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1498E970)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETOFFSETPOSITION__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1498EAC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetOffsetPosition_TypeDefinitionIndex = 70587;
+	inline static constexpr unsigned int LDGetOffsetPosition_TypeDefinitionIndex = 79442;
 
 	class LDGetOffsetPosition : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* inputV3; // 0xB0
-		::UnityEngine::Vector3 _final; // 0xB8
-		::UnityEngine::Vector3 offset; // 0xC4
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* inputV3; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::UnityEngine::Vector3 offset; // 0xB8
+		::UnityEngine::Vector3 _final; // 0xC4
 
 		::System::Void _ctor()
 		{

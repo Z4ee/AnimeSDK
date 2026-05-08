@@ -4,12 +4,12 @@
 
 namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle___c__DisplayClass74_0; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2CC420)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE___C__DISPLAYCLASS74_1____ADDTOCOMBINED_B__0_OFFSET UNITYSDK_OFFSET(0x1B2CC430)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C044310)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE___C__DISPLAYCLASS74_1____ADDTOCOMBINED_B__0_OFFSET UNITYSDK_OFFSET(0x1C044320)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle___c__DisplayClass74_1_TypeDefinitionIndex = 83346;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle___c__DisplayClass74_1_TypeDefinitionIndex = 85074;
 
 	class MB3_MeshCombinerSingle___c__DisplayClass74_1 : public ::System::Object
 	{

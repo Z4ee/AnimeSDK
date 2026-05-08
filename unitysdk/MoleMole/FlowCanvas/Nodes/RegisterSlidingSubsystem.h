@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_REGISTERSLIDINGSUBSYSTEM_INVOKE_OFFSET UNITYSDK_OFFSET(0xB98C490)
-#define MOLEMOLE_FLOWCANVAS_NODES_REGISTERSLIDINGSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB98C4F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_REGISTERSLIDINGSUBSYSTEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x182196B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_REGISTERSLIDINGSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18219770)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RegisterSlidingSubsystem_TypeDefinitionIndex = 37372;
+	inline static constexpr unsigned int RegisterSlidingSubsystem_TypeDefinitionIndex = 42400;
 
 	class RegisterSlidingSubsystem : public ::FlowCanvas::Nodes::CallableActionNode
 	{

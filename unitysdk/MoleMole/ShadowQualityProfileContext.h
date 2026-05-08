@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/SSAOQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ShadowQuality.h"
 
-#define MOLEMOLE_SHADOWQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA65B0D0)
+#define MOLEMOLE_SHADOWQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1386BF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShadowQualityProfileContext_TypeDefinitionIndex = 69699;
+	inline static constexpr unsigned int ShadowQualityProfileContext_TypeDefinitionIndex = 78372;
 
 	class ShadowQualityProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

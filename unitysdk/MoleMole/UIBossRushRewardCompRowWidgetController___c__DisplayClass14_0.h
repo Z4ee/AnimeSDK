@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBossRushRewardCompRowWidgetController; }
 namespace MoleMole { class UICasperShopContext; }
 
-#define MOLEMOLE_UIBOSSRUSHREWARDCOMPROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2C65A0)
-#define MOLEMOLE_UIBOSSRUSHREWARDCOMPROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__ONCLICKSWEEP_B__4_OFFSET UNITYSDK_OFFSET(0xC2C65B0)
+#define MOLEMOLE_UIBOSSRUSHREWARDCOMPROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F74CE0)
+#define MOLEMOLE_UIBOSSRUSHREWARDCOMPROWWIDGETCONTROLLER___C__DISPLAYCLASS14_0__ONCLICKSWEEP_B__4_OFFSET UNITYSDK_OFFSET(0x12F74CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossRushRewardCompRowWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 42448;
+	inline static constexpr unsigned int UIBossRushRewardCompRowWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 76043;
 
 	class UIBossRushRewardCompRowWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{

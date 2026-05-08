@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTAUTHSTATUSCHANGEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04FC50)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTAUTHSTATUSCHANGEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD7E2E0)
 
 namespace Epic::OnlineServices::AntiCheatServer
 {
-	inline static constexpr unsigned int AddNotifyClientAuthStatusChangedOptions_TypeDefinitionIndex = 34110;
+	inline static constexpr unsigned int AddNotifyClientAuthStatusChangedOptions_TypeDefinitionIndex = 34646;
 
 	class AddNotifyClientAuthStatusChangedOptions : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CHESSSTATEMACHINE_SETENTITYLIFESTATETODIEEND_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x376500)
+#define MOLEMOLE_CHESSSTATEMACHINE_SETENTITYLIFESTATETODIEEND_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x749DC0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int SetEntityLifeStateToDieEnd_RuntimeData_TypeDefinitionIndex = 44178;
+	inline static constexpr unsigned int SetEntityLifeStateToDieEnd_RuntimeData_TypeDefinitionIndex = 78005;
 
 	struct alignas(1) SetEntityLifeStateToDieEnd_RuntimeData
 	{

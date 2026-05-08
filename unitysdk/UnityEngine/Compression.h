@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/CompressionType.h"
 
-#define UNITYENGINE_COMPRESSION_DECOMPRESSMEMORY_OFFSET UNITYSDK_OFFSET(0x1B756E20)
+#define UNITYENGINE_COMPRESSION_DECOMPRESSMEMORY_OFFSET UNITYSDK_OFFSET(0x1C544FC0)
 
 namespace UnityEngine
 {

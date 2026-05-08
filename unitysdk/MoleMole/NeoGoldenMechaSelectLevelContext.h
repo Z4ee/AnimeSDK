@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_NEOGOLDENMECHASELECTLEVELCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD441250)
+#define MOLEMOLE_NEOGOLDENMECHASELECTLEVELCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17036E00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NeoGoldenMechaSelectLevelContext_TypeDefinitionIndex = 78373;
+	inline static constexpr unsigned int NeoGoldenMechaSelectLevelContext_TypeDefinitionIndex = 51010;
 
 	class NeoGoldenMechaSelectLevelContext : public ::MoleMole::UIControllerContextBase
 	{

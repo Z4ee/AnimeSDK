@@ -5,12 +5,12 @@
 namespace ZXing::OneD { class UPCEANExtension2Support; }
 namespace ZXing::OneD { class UPCEANExtension5Support; }
 
-#define ZXING_ONED_UPCEANEXTENSIONSUPPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x184466A0)
-#define ZXING_ONED_UPCEANEXTENSIONSUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x18446540)
+#define ZXING_ONED_UPCEANEXTENSIONSUPPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1887E710)
+#define ZXING_ONED_UPCEANEXTENSIONSUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1887E570)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEANExtensionSupport_TypeDefinitionIndex = 8674;
+	inline static constexpr unsigned int UPCEANExtensionSupport_TypeDefinitionIndex = 8685;
 
 	class UPCEANExtensionSupport : public ::System::Object
 	{

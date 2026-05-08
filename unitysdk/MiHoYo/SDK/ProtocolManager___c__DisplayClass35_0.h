@@ -5,12 +5,12 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188A68C0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET UNITYSDK_OFFSET(0x188A68D0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199AA890)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET UNITYSDK_OFFSET(0x199AA8A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass35_0_TypeDefinitionIndex = 18572;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass35_0_TypeDefinitionIndex = 18915;
 
 	class ProtocolManager___c__DisplayClass35_0 : public ::System::Object
 	{

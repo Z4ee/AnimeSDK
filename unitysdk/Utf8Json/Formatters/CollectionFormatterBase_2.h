@@ -4,7 +4,7 @@
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int CollectionFormatterBase_2_TypeDefinitionIndex = 83980;
+	inline static constexpr unsigned int CollectionFormatterBase_2_TypeDefinitionIndex = 85708;
 
 	template <typename TElement, typename TCollection>
 	class CollectionFormatterBase_2 : public ::Utf8Json::Formatters::CollectionFormatterBase_3<TElement, TCollection, TCollection>

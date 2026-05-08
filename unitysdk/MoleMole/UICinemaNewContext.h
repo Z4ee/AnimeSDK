@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICINEMANEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB2FCA0)
+#define MOLEMOLE_UICINEMANEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16784CC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaNewContext_TypeDefinitionIndex = 69734;
+	inline static constexpr unsigned int UICinemaNewContext_TypeDefinitionIndex = 68192;
 
 	class UICinemaNewContext : public ::MoleMole::UIControllerContextBase
 	{

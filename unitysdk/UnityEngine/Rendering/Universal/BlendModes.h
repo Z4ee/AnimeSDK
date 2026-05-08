@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BlendModes_TypeDefinitionIndex = 29631;
+	inline static constexpr unsigned int BlendModes_TypeDefinitionIndex = 30159;
 
 	enum class BlendModes : ::System::Int32
 	{

@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0xADC44D0)
-#define MOLEMOLE_UICONTROLITEM_ISMATCH_OFFSET UNITYSDK_OFFSET(0xADC4240)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_41081A5E55D64FFA_OFFSET UNITYSDK_OFFSET(0xADC4E00)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_54EE5091F9DB1A7D_OFFSET UNITYSDK_OFFSET(0xADC4A80)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_802C78794466A385_OFFSET UNITYSDK_OFFSET(0xADC4A00)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_A0C62902B517B139_OFFSET UNITYSDK_OFFSET(0xADC45A0)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_DC142A2AF2A69784_OFFSET UNITYSDK_OFFSET(0xADC4FA0)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_FE6ADCB1EC61DCFF_OFFSET UNITYSDK_OFFSET(0xADC4B50)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_FF9D9C132E279CF6_OFFSET UNITYSDK_OFFSET(0xADC48B0)
-#define MOLEMOLE_UICONTROLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xADC48A0)
+#define MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x15EDCE90)
+#define MOLEMOLE_UICONTROLITEM_ISMATCH_OFFSET UNITYSDK_OFFSET(0x15EDCB60)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_4DE8CBABBBA1918B_OFFSET UNITYSDK_OFFSET(0x15EDCF30)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_54EE5091F9DB1A7D_OFFSET UNITYSDK_OFFSET(0x15EDD570)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_7222809C3B193985_OFFSET UNITYSDK_OFFSET(0x15EDD110)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_7447D31007493755_OFFSET UNITYSDK_OFFSET(0x15EDD600)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_7F53CB1E098E0EB4_OFFSET UNITYSDK_OFFSET(0x15EDD500)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_DC142A2AF2A69784_OFFSET UNITYSDK_OFFSET(0x15EDD100)
+#define MOLEMOLE_UICONTROLITEM_METHOD_1_FF9D9C132E279CF6_OFFSET UNITYSDK_OFFSET(0x15EDD7E0)
+#define MOLEMOLE_UICONTROLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDD0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIControlItem_TypeDefinitionIndex = 79998;
+	inline static constexpr unsigned int UIControlItem_TypeDefinitionIndex = 53034;
 
 	class UIControlItem : public ::System::Object
 	{
@@ -45,19 +45,24 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET))(this, a1);
 		}
 
-		::MoleMole::UIControlItem* Method_1_FF9D9C132E279CF6()
+		::System::Boolean Method_1_4DE8CBABBBA1918B(::MoleMole::UIControlItem* a1)
 		{
-			return ((::MoleMole::UIControlItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_FF9D9C132E279CF6_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_4DE8CBABBBA1918B_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_A0C62902B517B139(::MoleMole::UIControlItem* a1)
+		::System::Boolean Method_1_DC142A2AF2A69784(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_A0C62902B517B139_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_DC142A2AF2A69784_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean Method_1_802C78794466A385(::MoleMole::UIControlItem* a1, ::MoleMole::UIControlItem* a2)
+		::System::Void Method_1_7222809C3B193985(::System::Boolean a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_802C78794466A385_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_7222809C3B193985_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Boolean Method_1_7F53CB1E098E0EB4(::MoleMole::UIControlItem* a1, ::MoleMole::UIControlItem* a2)
+		{
+			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_7F53CB1E098E0EB4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean Method_1_54EE5091F9DB1A7D(::MoleMole::UIControlItem* a1, ::MoleMole::UIControlItem* a2)
@@ -65,19 +70,14 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_54EE5091F9DB1A7D_OFFSET))(a1, a2);
 		}
 
-		::System::Void Method_1_FE6ADCB1EC61DCFF(::System::Boolean a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::GameObject* Method_1_7447D31007493755()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_FE6ADCB1EC61DCFF_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_7447D31007493755_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* Method_1_41081A5E55D64FFA()
+		::MoleMole::UIControlItem* Method_1_FF9D9C132E279CF6()
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_41081A5E55D64FFA_OFFSET))(this);
-		}
-
-		::System::Boolean Method_1_DC142A2AF2A69784(::System::Object* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_DC142A2AF2A69784_OFFSET))(this, a1);
+			return ((::MoleMole::UIControlItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_FF9D9C132E279CF6_OFFSET))(this);
 		}
 	};
 }

@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define UNILABS_LOGRANGE_LOGRANGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B6F5070)
-#define UNILABS_LOGRANGE_LOGRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5060)
+#define UNILABS_LOGRANGE_LOGRANGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4990E0)
+#define UNILABS_LOGRANGE_LOGRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4990D0)
 
 namespace UniLabs::LogRange
 {
-	inline static constexpr unsigned int LogRangeAttribute_TypeDefinitionIndex = 84102;
+	inline static constexpr unsigned int LogRangeAttribute_TypeDefinitionIndex = 85830;
 
 	class LogRangeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* MinGetter; // 0x10
-		::System::String* MaxGetter; // 0x18
+		::System::String* MaxGetter; // 0x10
+		::System::String* MinGetter; // 0x18
 		::System::String* CenterGetter; // 0x20
-		::System::Single Max; // 0x28
-		::System::Single Min; // 0x2C
-		::System::Single Center; // 0x30
+		::System::Single Center; // 0x28
+		::System::Single Max; // 0x2C
+		::System::Single Min; // 0x30
 
 		::System::Void _ctor(::System::Single min, ::System::Single center, ::System::Single max)
 		{

@@ -5,18 +5,18 @@
 namespace MoleMole { class UIAbyssS2RewardDialogPageController; }
 namespace MoleMole { class UIControllerContextBase; }
 
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF0ED90)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS16_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xBF0EDA0)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167D8F40)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS16_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x167D8F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass16_0_TypeDefinitionIndex = 52212;
+	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass16_0_TypeDefinitionIndex = 49898;
 
 	class UIAbyssS2RewardDialogPageController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIControllerContextBase* openCtrlContext; // 0x10
-		::MoleMole::UIAbyssS2RewardDialogPageController* __4__this; // 0x18
+		::MoleMole::UIAbyssS2RewardDialogPageController* __4__this; // 0x10
+		::MoleMole::UIControllerContextBase* openCtrlContext; // 0x18
 
 		::System::Void _ctor()
 		{

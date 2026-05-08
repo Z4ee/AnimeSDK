@@ -7,11 +7,11 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ColorParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXFOG__CTOR_OFFSET UNITYSDK_OFFSET(0x17779CB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXFOG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE6C00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FXFog_TypeDefinitionIndex = 29358;
+	inline static constexpr unsigned int FXFog_TypeDefinitionIndex = 29877;
 
 	class FXFog : public ::UnityEngine::NAPRenderPipeline0::FXFog_NativeSRP
 	{

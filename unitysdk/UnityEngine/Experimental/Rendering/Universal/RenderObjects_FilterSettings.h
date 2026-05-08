@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_FILTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x189101C0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_FILTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6EAC30)
 
 namespace UnityEngine::Experimental::Rendering::Universal
 {
-	inline static constexpr unsigned int RenderObjects_FilterSettings_TypeDefinitionIndex = 29214;
+	inline static constexpr unsigned int RenderObjects_FilterSettings_TypeDefinitionIndex = 29733;
 
 	class RenderObjects_FilterSettings : public ::System::Object
 	{

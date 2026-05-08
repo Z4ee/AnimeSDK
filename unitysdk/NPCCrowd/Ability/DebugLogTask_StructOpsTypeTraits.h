@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_DEBUGLOGTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x63FC2A0)
-#define NPCCROWD_ABILITY_DEBUGLOGTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x63FC2B0)
+#define NPCCROWD_ABILITY_DEBUGLOGTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xD0C2C20)
+#define NPCCROWD_ABILITY_DEBUGLOGTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C2C30)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int DebugLogTask_StructOpsTypeTraits_TypeDefinitionIndex = 64776;
+	inline static constexpr unsigned int DebugLogTask_StructOpsTypeTraits_TypeDefinitionIndex = 47723;
 
 	class DebugLogTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

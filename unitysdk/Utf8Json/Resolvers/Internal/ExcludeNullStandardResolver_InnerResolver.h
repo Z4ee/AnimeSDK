@@ -5,23 +5,23 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_EXCLUDENULLSTANDARDRESOLVER_INNERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4EA600)
-#define UTF8JSON_RESOLVERS_INTERNAL_EXCLUDENULLSTANDARDRESOLVER_INNERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EA5F0)
+#define UTF8JSON_RESOLVERS_INTERNAL_EXCLUDENULLSTANDARDRESOLVER_INNERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C221760)
+#define UTF8JSON_RESOLVERS_INTERNAL_EXCLUDENULLSTANDARDRESOLVER_INNERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C221750)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int ExcludeNullStandardResolver_InnerResolver_TypeDefinitionIndex = 83885;
+	inline static constexpr unsigned int ExcludeNullStandardResolver_InnerResolver_TypeDefinitionIndex = 85613;
 
 	class ExcludeNullStandardResolver_InnerResolver : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::Utf8Json::IJsonFormatterResolver*>** StaticGet_resolvers()
 		{
-			return (::Il2CppArray<::Utf8Json::IJsonFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(ExcludeNullStandardResolver_InnerResolver_TypeDefinitionIndex)->GetStaticField(0x48DA0);
+			return (::Il2CppArray<::Utf8Json::IJsonFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(ExcludeNullStandardResolver_InnerResolver_TypeDefinitionIndex)->GetStaticField(0x4A910);
 		}
 		static ::Utf8Json::IJsonFormatterResolver** StaticGet_Instance()
 		{
-			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(ExcludeNullStandardResolver_InnerResolver_TypeDefinitionIndex)->GetStaticField(0x48DA8);
+			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(ExcludeNullStandardResolver_InnerResolver_TypeDefinitionIndex)->GetStaticField(0x4A918);
 		}
 
 		::System::Void _ctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x33AE70)
-#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x33AEE0)
+#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x72D970)
+#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x72D9C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionPlayMontageConfig_TypeDefinitionIndex = 65461;
+	inline static constexpr unsigned int AIActionPlayMontageConfig_TypeDefinitionIndex = 38068;
 
 	struct alignas(8) AIActionPlayMontageConfig
 	{

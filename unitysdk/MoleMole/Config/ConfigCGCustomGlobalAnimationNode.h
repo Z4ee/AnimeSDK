@@ -5,19 +5,19 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCGCUSTOMGLOBALANIMATIONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xACB9C90)
-#define MOLEMOLE_CONFIG_CONFIGCGCUSTOMGLOBALANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xACB9D20)
+#define MOLEMOLE_CONFIG_CONFIGCGCUSTOMGLOBALANIMATIONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1752A0F0)
+#define MOLEMOLE_CONFIG_CONFIGCGCUSTOMGLOBALANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1752A160)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCGCustomGlobalAnimationNode_TypeDefinitionIndex = 69442;
+	inline static constexpr unsigned int ConfigCGCustomGlobalAnimationNode_TypeDefinitionIndex = 75313;
 
 	class ConfigCGCustomGlobalAnimationNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* Curve; // 0x18
-		::System::String* MonoCGCustomGlobalAnimationGo; // 0x20
-		::System::String* Duration; // 0x28
+		::System::String* Duration; // 0x18
+		::System::String* Curve; // 0x20
+		::System::String* MonoCGCustomGlobalAnimationGo; // 0x28
 
 		::System::Void _ctor()
 		{

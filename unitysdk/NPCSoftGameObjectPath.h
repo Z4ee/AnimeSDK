@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define NPCSOFTGAMEOBJECTPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x862D9F0)
-#define NPCSOFTGAMEOBJECTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x862D9B0)
+#define NPCSOFTGAMEOBJECTPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xFB5B4D0)
+#define NPCSOFTGAMEOBJECTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xFB5B470)
 
-inline static constexpr unsigned int NPCSoftGameObjectPath_TypeDefinitionIndex = 76003;
+inline static constexpr unsigned int NPCSoftGameObjectPath_TypeDefinitionIndex = 53349;
 
 class NPCSoftGameObjectPath : public ::NPCSoftAssetPath_1<::UnityEngine::GameObject*>
 {

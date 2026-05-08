@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMainHollowShowType_TypeDefinitionIndex = 12977;
+	inline static constexpr unsigned int EMainHollowShowType_TypeDefinitionIndex = 10391;
 
 	enum class EMainHollowShowType : ::System::Int32
 	{
+		DifficutyBattle = 1,
 		Normal = 0,
 		OldChessboard = 2,
-		DifficutyBattle = 1,
 	};
 }

@@ -9,14 +9,14 @@ namespace UnityEngine { class Collider2D; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_AC946FE0DA262EE7_OFFSET UNITYSDK_OFFSET(0xCAFCEC0)
-#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_E3F7D9E0F6671419_OFFSET UNITYSDK_OFFSET(0xCAFDA50)
-#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_FB65499351C37BFD_OFFSET UNITYSDK_OFFSET(0xCAFD9B0)
-#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCAFCEB0)
+#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_C95FBB2C4A24061C_OFFSET UNITYSDK_OFFSET(0x14948BE0)
+#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_E3F7D9E0F6671419_OFFSET UNITYSDK_OFFSET(0x149498F0)
+#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_FB65499351C37BFD_OFFSET UNITYSDK_OFFSET(0x14948B60)
+#define MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14948B50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HotPotFoodColliderConfig_TypeDefinitionIndex = 37491;
+	inline static constexpr unsigned int HotPotFoodColliderConfig_TypeDefinitionIndex = 60695;
 
 	class HotPotFoodColliderConfig : public ::System::Object
 	{
@@ -36,14 +36,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Collider2D* Method_1_AC946FE0DA262EE7(::UnityEngine::GameObject* a1, ::UnityEngine::UI::Image* a2)
-		{
-			return ((::UnityEngine::Collider2D*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_AC946FE0DA262EE7_OFFSET))(this, a1, a2);
-		}
-
 		::UnityEngine::Vector2 Method_1_FB65499351C37BFD()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_FB65499351C37BFD_OFFSET))(this);
+		}
+
+		::UnityEngine::Collider2D* Method_1_C95FBB2C4A24061C(::UnityEngine::GameObject* a1, ::UnityEngine::UI::Image* a2)
+		{
+			return ((::UnityEngine::Collider2D*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOTPOTFOODCOLLIDERCONFIG_METHOD_1_C95FBB2C4A24061C_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Collider2D* Method_1_E3F7D9E0F6671419(::UnityEngine::GameObject* a1)

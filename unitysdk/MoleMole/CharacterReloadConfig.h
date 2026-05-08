@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_CHARACTERRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x94E5830)
+#define MOLEMOLE_CHARACTERRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12401780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterReloadConfig_TypeDefinitionIndex = 76359;
+	inline static constexpr unsigned int CharacterReloadConfig_TypeDefinitionIndex = 58565;
 
 	class CharacterReloadConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

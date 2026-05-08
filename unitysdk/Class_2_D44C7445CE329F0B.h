@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_0340E479638D8801.h"
 
-class Class_1_D07FAEB04D978617;
+class Class_1_B71396686248E706;
 namespace MoleMole::Config { class ConfigHollowInteractCondition; }
 namespace MoleMole::Config { class ConfigHollowInteractConditionBySubState; }
 
-#define CLASS_2_D44C7445CE329F0B_METHOD_2_2C4CACFCB85F415D_OFFSET UNITYSDK_OFFSET(0x6FBDF60)
-#define CLASS_2_D44C7445CE329F0B__CTOR_OFFSET UNITYSDK_OFFSET(0x6FBDEE0)
+#define CLASS_2_D44C7445CE329F0B_METHOD_2_2C4CACFCB85F415D_OFFSET UNITYSDK_OFFSET(0x140A7BA0)
+#define CLASS_2_D44C7445CE329F0B__CTOR_OFFSET UNITYSDK_OFFSET(0x140A7B20)
 
-inline static constexpr unsigned int Class_2_D44C7445CE329F0B_TypeDefinitionIndex = 39854;
+inline static constexpr unsigned int Class_2_D44C7445CE329F0B_TypeDefinitionIndex = 80734;
 
 class Class_2_D44C7445CE329F0B : public ::Class_1_0340E479638D8801
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigHollowInteractCondition*))((::PBYTE)hIl2Cpp + CLASS_2_D44C7445CE329F0B__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_2C4CACFCB85F415D(::Class_1_D07FAEB04D978617* a1)
+	::System::Boolean Method_2_2C4CACFCB85F415D(::Class_1_B71396686248E706* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_D07FAEB04D978617*))((::PBYTE)hIl2Cpp + CLASS_2_D44C7445CE329F0B_METHOD_2_2C4CACFCB85F415D_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_B71396686248E706*))((::PBYTE)hIl2Cpp + CLASS_2_D44C7445CE329F0B_METHOD_2_2C4CACFCB85F415D_OFFSET))(this, a1);
 	}
 };

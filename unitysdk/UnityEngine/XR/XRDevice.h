@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_XR_XRDEVICE_DISABLEAUTOXRCAMERATRACKING_OFFSET UNITYSDK_OFFSET(0x1B7679D0)
-#define UNITYENGINE_XR_XRDEVICE_INVOKEDEVICELOADED_OFFSET UNITYSDK_OFFSET(0x1B7679E0)
-#define UNITYENGINE_XR_XRDEVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B767AA0)
+#define UNITYENGINE_XR_XRDEVICE_DISABLEAUTOXRCAMERATRACKING_OFFSET UNITYSDK_OFFSET(0x1C5514D0)
+#define UNITYENGINE_XR_XRDEVICE_INVOKEDEVICELOADED_OFFSET UNITYSDK_OFFSET(0x1C5514E0)
+#define UNITYENGINE_XR_XRDEVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5515A0)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDevice_TypeDefinitionIndex = 8553;
+	inline static constexpr unsigned int XRDevice_TypeDefinitionIndex = 8564;
 
 	class XRDevice : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define MOLEMOLE_MONOLEVELTRIGGERACTION_ACTIONSETTINGS_TRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA03D6F0)
+#define MOLEMOLE_MONOLEVELTRIGGERACTION_ACTIONSETTINGS_TRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1176E920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelTriggerAction_ActionSettings_TriggerEvent_TypeDefinitionIndex = 51799;
+	inline static constexpr unsigned int MonoLevelTriggerAction_ActionSettings_TriggerEvent_TypeDefinitionIndex = 60985;
 
 	class MonoLevelTriggerAction_ActionSettings_TriggerEvent : public ::UnityEngine::Events::UnityEvent
 	{

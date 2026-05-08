@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA024290)
+#define MOLEMOLE_GALGAME_MAINCITYCHATTRANSITIONDISPLAYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x11754440)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatTransitionDisplayItem_TypeDefinitionIndex = 69657;
+	inline static constexpr unsigned int MainCityChatTransitionDisplayItem_TypeDefinitionIndex = 48116;
 
 	class MainCityChatTransitionDisplayItem : public ::System::Object
 	{
@@ -16,8 +16,8 @@ namespace MoleMole::GalGame
 		::System::String* textKey; // 0x10
 		::System::Int32 bindSubSectionIndex; // 0x18
 		::System::Int32 optionalAvatarId; // 0x1C
-		::System::Int32 iconId; // 0x20
-		::System::Int32 bindSectionIndex; // 0x24
+		::System::Int32 bindSectionIndex; // 0x20
+		::System::Int32 iconId; // 0x24
 
 		::System::Void _ctor()
 		{

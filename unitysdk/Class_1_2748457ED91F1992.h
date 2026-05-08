@@ -6,15 +6,15 @@
 class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UIWidgetController; }
 
-#define CLASS_1_2748457ED91F1992__CTOR_OFFSET UNITYSDK_OFFSET(0x6C4B050)
+#define CLASS_1_2748457ED91F1992__CTOR_OFFSET UNITYSDK_OFFSET(0x11C6E3C0)
 
-inline static constexpr unsigned int Class_1_2748457ED91F1992_TypeDefinitionIndex = 37621;
+inline static constexpr unsigned int Class_1_2748457ED91F1992_TypeDefinitionIndex = 58258;
 
 class Class_1_2748457ED91F1992 : public ::System::Object
 {
 public:
-	::Class_1_0D6706375CDAAE8C* Field_1_0; // 0x10
-	::MoleMole::UIWidgetController* Field_1_1; // 0x18
+	::MoleMole::UIWidgetController* Field_1_1; // 0x10
+	::Class_1_0D6706375CDAAE8C* Field_1_0; // 0x18
 	::UnityEngine::Vector2 Field_1_3; // 0x20
 	::UnityEngine::Vector2 Field_1_2; // 0x28
 

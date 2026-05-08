@@ -6,11 +6,11 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x90F94B0)
+#define MOLEMOLE_UIDOWNLOADPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16488F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDownloadPopWindowContext_TypeDefinitionIndex = 72887;
+	inline static constexpr unsigned int UIDownloadPopWindowContext_TypeDefinitionIndex = 65011;
 
 	class UIDownloadPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{

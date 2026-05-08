@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYMOVETARGETFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x6399F80)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYMOVETARGETFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x6399FC0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYMOVETARGETFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x6399FD0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYMOVETARGETFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB537730)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYMOVETARGETFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB537770)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYMOVETARGETFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xB537780)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c_TypeDefinitionIndex = 47867;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c_TypeDefinitionIndex = 79324;
 
 	class RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c_TypeDefinitionIndex)->GetStaticField(0x39C00);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityMoveTargetFragment___c_TypeDefinitionIndex)->GetStaticField(0x3AF20);
 		}
 
 		static ::System::Void _cctor()

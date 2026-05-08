@@ -4,8 +4,8 @@
 
 namespace System { class String; }
 
-#define SIRENIX_UTILITIES_SIRENIXASSETPATHS_TOPATHSAFESTRING_OFFSET UNITYSDK_OFFSET(0x1AECAF30)
-#define SIRENIX_UTILITIES_SIRENIXASSETPATHS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AECAE60)
+#define SIRENIX_UTILITIES_SIRENIXASSETPATHS_TOPATHSAFESTRING_OFFSET UNITYSDK_OFFSET(0x1BADBD50)
+#define SIRENIX_UTILITIES_SIRENIXASSETPATHS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BADBC60)
 
 namespace Sirenix::Utilities
 {
@@ -14,35 +14,35 @@ namespace Sirenix::Utilities
 	class SirenixAssetPaths : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_SirenixPluginPath()
+		static ::System::String** StaticGet_OdinResourcesPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x5980);
 		}
-		static ::System::String** StaticGet_OdinTempPath()
+		static ::System::String** StaticGet_SirenixAssetsPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x5988);
 		}
-		static ::System::String** StaticGet_OdinResourcesConfigsPath()
+		static ::System::String** StaticGet_OdinTempPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x5990);
 		}
-		static ::System::String** StaticGet_OdinResourcesPath()
+		static ::System::String** StaticGet_OdinResourcesConfigsPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x5998);
 		}
-		static ::System::String** StaticGet_OdinPath()
+		static ::System::String** StaticGet_SirenixPluginPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x59A0);
 		}
-		static ::System::String** StaticGet_OdinEditorConfigsPath()
+		static ::System::String** StaticGet_SirenixAssembliesPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x59A8);
 		}
-		static ::System::String** StaticGet_SirenixAssetsPath()
+		static ::System::String** StaticGet_OdinEditorConfigsPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x59B0);
 		}
-		static ::System::String** StaticGet_SirenixAssembliesPath()
+		static ::System::String** StaticGet_OdinPath()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SirenixAssetPaths_TypeDefinitionIndex)->GetStaticField(0x59B8);
 		}

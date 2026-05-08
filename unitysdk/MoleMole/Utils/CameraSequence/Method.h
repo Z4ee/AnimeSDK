@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_METHOD_ONCAMERACUT_OFFSET UNITYSDK_OFFSET(0x7BEB300)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_METHOD_ONCAMERACUT_OFFSET UNITYSDK_OFFSET(0xEBD8270)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int Method_TypeDefinitionIndex = 64567;
+	inline static constexpr unsigned int Method_TypeDefinitionIndex = 77764;
 
 	class Method : public ::System::Object
 	{

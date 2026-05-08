@@ -4,20 +4,20 @@
 
 namespace MoleMole { class UIABStandbyPhaseWidgetController; }
 
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x986B370)
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS65_0__REFRESHRIGHTAREA_B__0_OFFSET UNITYSDK_OFFSET(0x986B380)
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS65_0__REFRESHRIGHTAREA_B__1_OFFSET UNITYSDK_OFFSET(0x986B400)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A79A10)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS65_0__REFRESHRIGHTAREA_B__0_OFFSET UNITYSDK_OFFSET(0x15A79A20)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS65_0__REFRESHRIGHTAREA_B__1_OFFSET UNITYSDK_OFFSET(0x15A79AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass65_0_TypeDefinitionIndex = 74887;
+	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass65_0_TypeDefinitionIndex = 71649;
 
 	class UIABStandbyPhaseWidgetController___c__DisplayClass65_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIABStandbyPhaseWidgetController* __4__this; // 0x10
-		::System::Boolean statPanelActive; // 0x18
-		::System::Boolean playerRootActive; // 0x19
+		::System::Boolean playerRootActive; // 0x18
+		::System::Boolean statPanelActive; // 0x19
 
 		::System::Void _ctor()
 		{

@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_69EDF57FCDC7C5D3__CCTOR_OFFSET UNITYSDK_OFFSET(0x73A3830)
-#define STRUCT_2_69EDF57FCDC7C5D3__CTOR_OFFSET UNITYSDK_OFFSET(0x327330)
+#define STRUCT_2_69EDF57FCDC7C5D3__CCTOR_OFFSET UNITYSDK_OFFSET(0x11C17350)
+#define STRUCT_2_69EDF57FCDC7C5D3__CTOR_OFFSET UNITYSDK_OFFSET(0x731080)
 
-inline static constexpr unsigned int Struct_2_69EDF57FCDC7C5D3_TypeDefinitionIndex = 47344;
+inline static constexpr unsigned int Struct_2_69EDF57FCDC7C5D3_TypeDefinitionIndex = 81979;
 
 struct alignas(4) Struct_2_69EDF57FCDC7C5D3
 {
 	static ::Struct_2_69EDF57FCDC7C5D3* StaticGet_Field_2_3()
 	{
-		return (::Struct_2_69EDF57FCDC7C5D3*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_69EDF57FCDC7C5D3_TypeDefinitionIndex)->GetStaticField(0x9530);
+		return (::Struct_2_69EDF57FCDC7C5D3*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_69EDF57FCDC7C5D3_TypeDefinitionIndex)->GetStaticField(0xA580);
 	}
 	::UnityEngine::Vector3 Field_2_0; // 0x10
 	::UnityEngine::Vector3 Field_2_1; // 0x1C

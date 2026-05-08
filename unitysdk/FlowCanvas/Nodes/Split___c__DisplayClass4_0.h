@@ -7,12 +7,12 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class Split; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_SPLIT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A653910)
-#define FLOWCANVAS_NODES_SPLIT___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A653920)
+#define FLOWCANVAS_NODES_SPLIT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B419510)
+#define FLOWCANVAS_NODES_SPLIT___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B419520)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Split___c__DisplayClass4_0_TypeDefinitionIndex = 27131;
+	inline static constexpr unsigned int Split___c__DisplayClass4_0_TypeDefinitionIndex = 27400;
 
 	class Split___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_VECTOR2I__CTOR_OFFSET UNITYSDK_OFFSET(0x2F3C30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_VECTOR2I__CTOR_OFFSET UNITYSDK_OFFSET(0x293FB0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Vector2i_TypeDefinitionIndex = 29979;
+	inline static constexpr unsigned int Vector2i_TypeDefinitionIndex = 30507;
 
 	struct alignas(4) Vector2i
 	{

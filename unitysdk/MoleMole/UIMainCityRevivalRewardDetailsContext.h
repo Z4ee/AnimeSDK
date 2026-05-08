@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_0ECDE22EF9FEEAE2_1;
+class Class_3_CAE257BB30FFAD12;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINCITYREVIVALREWARDDETAILSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBE2B5E0)
+#define MOLEMOLE_UIMAINCITYREVIVALREWARDDETAILSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4EDE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRevivalRewardDetailsContext_TypeDefinitionIndex = 40020;
+	inline static constexpr unsigned int UIMainCityRevivalRewardDetailsContext_TypeDefinitionIndex = 78754;
 
 	class UIMainCityRevivalRewardDetailsContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_3_0ECDE22EF9FEEAE2_1*>* progressList; // 0x28
+		::System::Collections::Generic::List_1<::Class_3_CAE257BB30FFAD12*>* progressList; // 0x28
 		::System::Int32 LandID; // 0x30
 		::System::Boolean CurrentProgressRewarded; // 0x34
 		::System::Int32 CurrentProgressLevel; // 0x38

@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphUserObject_Option_TypeDefinitionIndex = 27002;
+	inline static constexpr unsigned int GraphUserObject_Option_TypeDefinitionIndex = 26853;
 
 	enum class GraphUserObject_Option : ::System::Int32
 	{

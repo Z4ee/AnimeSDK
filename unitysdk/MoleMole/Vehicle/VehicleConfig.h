@@ -8,13 +8,13 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_623160C745FC10C0_OFFSET UNITYSDK_OFFSET(0x7BEE160)
-#define MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_8C97CA3BAB7FB2D7_OFFSET UNITYSDK_OFFSET(0x7BEE220)
-#define MOLEMOLE_VEHICLE_VEHICLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7BED7F0)
+#define MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_623160C745FC10C0_OFFSET UNITYSDK_OFFSET(0xEBDAD10)
+#define MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_8C97CA3BAB7FB2D7_OFFSET UNITYSDK_OFFSET(0xEBDAC30)
+#define MOLEMOLE_VEHICLE_VEHICLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDA2A0)
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleConfig_TypeDefinitionIndex = 41866;
+	inline static constexpr unsigned int VehicleConfig_TypeDefinitionIndex = 49731;
 
 	class VehicleConfig : public ::System::Object
 	{
@@ -60,14 +60,14 @@ namespace MoleMole::Vehicle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VEHICLE_VEHICLECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_623160C745FC10C0(::System::Single a1, ::System::Single a2)
-		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_623160C745FC10C0_OFFSET))(this, a1, a2);
-		}
-
 		::System::Single Method_1_8C97CA3BAB7FB2D7(::System::Single a1)
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_8C97CA3BAB7FB2D7_OFFSET))(this, a1);
+		}
+
+		::System::Single Method_1_623160C745FC10C0(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_VEHICLE_VEHICLECONFIG_METHOD_1_623160C745FC10C0_OFFSET))(this, a1, a2);
 		}
 	};
 }

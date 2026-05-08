@@ -7,27 +7,27 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATETRUEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B50E400)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATETRUEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50E3F0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATETRUEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D5C50)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATETRUEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D5C40)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex = 83827;
+	inline static constexpr unsigned int DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex = 85555;
 
 	class DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatterResolver** StaticGet_Instance()
 		{
-			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x48F10);
+			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x4AA80);
 		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet_nameMutator()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x48F18);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x4AA88);
 		}
 		static ::System::Boolean* StaticGet_excludeNull()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x11D60);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x12090);
 		}
 
 		::System::Void _ctor()

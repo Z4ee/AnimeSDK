@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define DG_TWEENING_CORE_EASING_EASECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B5DD020)
-#define DG_TWEENING_CORE_EASING_EASECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5DD010)
+#define DG_TWEENING_CORE_EASING_EASECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C3A8BE0)
+#define DG_TWEENING_CORE_EASING_EASECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A8BD0)
 
 namespace DG::Tweening::Core::Easing
 {
-	inline static constexpr unsigned int EaseCurve_TypeDefinitionIndex = 24999;
+	inline static constexpr unsigned int EaseCurve_TypeDefinitionIndex = 25513;
 
 	class EaseCurve : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define ROOTMOTION_LARGEHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B313F80)
-#define ROOTMOTION_LARGEHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B313F30)
+#define ROOTMOTION_LARGEHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C11D1C0)
+#define ROOTMOTION_LARGEHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11D170)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int LargeHeader_TypeDefinitionIndex = 35996;
+	inline static constexpr unsigned int LargeHeader_TypeDefinitionIndex = 36540;
 
 	class LargeHeader : public ::UnityEngine::PropertyAttribute
 	{
 	public:
-		::System::String* name; // 0x10
-		::System::String* color; // 0x18
+		::System::String* color; // 0x10
+		::System::String* name; // 0x18
 
 		::System::Void _ctor(::System::String* name)
 		{

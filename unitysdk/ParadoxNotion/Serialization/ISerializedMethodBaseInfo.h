@@ -5,7 +5,7 @@ namespace System::Reflection { class MethodBase; }
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int ISerializedMethodBaseInfo_TypeDefinitionIndex = 27285;
+	inline static constexpr unsigned int ISerializedMethodBaseInfo_TypeDefinitionIndex = 26954;
 
 	class ISerializedMethodBaseInfo
 	{

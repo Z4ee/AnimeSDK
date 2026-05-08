@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_52A902145F5BE51A_3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_459;
+class Class_2_A413755ABC47F29F;
+namespace System { class String; }
+
+#define CLASS_1_C1210255595DD397_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0xE904440)
+#define CLASS_1_C1210255595DD397_METHOD_1_5AB33D5ED0EC2F46_OFFSET UNITYSDK_OFFSET(0xE9043E0)
+#define CLASS_1_C1210255595DD397_METHOD_1_7E205C463D36559B_OFFSET UNITYSDK_OFFSET(0xE904220)
+#define CLASS_1_C1210255595DD397_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE904340)
+#define CLASS_1_C1210255595DD397__CTOR_OFFSET UNITYSDK_OFFSET(0xE904210)
+
+inline static constexpr unsigned int Class_1_C1210255595DD397_TypeDefinitionIndex = 50599;
+
+class Class_1_C1210255595DD397 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_459* Field_1_0; // 0x10
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_459* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_459*))((::PBYTE)hIl2Cpp + CLASS_1_C1210255595DD397__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_7E205C463D36559B(::Class_2_A413755ABC47F29F* a1, ::Struct_2_52A902145F5BE51A_3& a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_A413755ABC47F29F*, ::Struct_2_52A902145F5BE51A_3&))((::PBYTE)hIl2Cpp + CLASS_1_C1210255595DD397_METHOD_1_7E205C463D36559B_OFFSET))(this, a1, a2);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C1210255595DD397_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_5AB33D5ED0EC2F46(::Class_2_A413755ABC47F29F* a1, ::Struct_2_52A902145F5BE51A_3& a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_A413755ABC47F29F*, ::Struct_2_52A902145F5BE51A_3&))((::PBYTE)hIl2Cpp + CLASS_1_C1210255595DD397_METHOD_1_5AB33D5ED0EC2F46_OFFSET))(this, a1, a2);
+	}
+
+	::System::String* Method_1_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C1210255595DD397_METHOD_1_128774387667156B_OFFSET))(this);
+	}
+};

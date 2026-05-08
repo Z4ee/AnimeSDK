@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBabelTowerRankWidgetController; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIBABELTOWERRANKWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BB1220)
-#define MOLEMOLE_UIBABELTOWERRANKWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHRANKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x8BB1230)
+#define MOLEMOLE_UIBABELTOWERRANKWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152E2C40)
+#define MOLEMOLE_UIBABELTOWERRANKWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHRANKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x152E2C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabelTowerRankWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 50516;
+	inline static constexpr unsigned int UIBabelTowerRankWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 47695;
 
 	class UIBabelTowerRankWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{

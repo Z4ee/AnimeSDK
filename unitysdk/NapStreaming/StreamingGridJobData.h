@@ -7,11 +7,11 @@
 
 namespace NapStreaming { class NapStreamingData_StreamingGridData; }
 
-#define NAPSTREAMING_STREAMINGGRIDJOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x35EA70)
+#define NAPSTREAMING_STREAMINGGRIDJOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6B92A0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int StreamingGridJobData_TypeDefinitionIndex = 55991;
+	inline static constexpr unsigned int StreamingGridJobData_TypeDefinitionIndex = 67963;
 
 	struct alignas(4) StreamingGridJobData
 	{

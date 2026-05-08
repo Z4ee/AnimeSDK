@@ -3,9 +3,9 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7AE99DF5F078ADF4__CTOR_OFFSET UNITYSDK_OFFSET(0x16906DA0)
+#define CLASS_1_7AE99DF5F078ADF4__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AF6C0)
 
-inline static constexpr unsigned int Class_1_7AE99DF5F078ADF4_TypeDefinitionIndex = 10322;
+inline static constexpr unsigned int Class_1_7AE99DF5F078ADF4_TypeDefinitionIndex = 10657;
 
 class Class_1_7AE99DF5F078ADF4 : public ::System::Object
 {

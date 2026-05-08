@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__DISPLAYCLASS32_0__BUILDVIEWMODELDATABINDING_B__10_OFFSET UNITYSDK_OFFSET(0xA21A010)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA218930)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__DISPLAYCLASS32_0__BUILDVIEWMODELDATABINDING_B__10_OFFSET UNITYSDK_OFFSET(0x12FFD200)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12FFBB00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooModulePageController___c__DisplayClass32_0_TypeDefinitionIndex = 51145;
+	inline static constexpr unsigned int UIMechBooModulePageController___c__DisplayClass32_0_TypeDefinitionIndex = 78574;
 
 	class UIMechBooModulePageController___c__DisplayClass32_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FOAMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18D1B4E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FOAMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F6370)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FoamSettings_TypeDefinitionIndex = 29431;
+	inline static constexpr unsigned int FoamSettings_TypeDefinitionIndex = 29950;
 
 	class FoamSettings : public ::System::Object
 	{

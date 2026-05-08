@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_F98F6D057426F2FB_3_METHOD_1_F6945418C3EF6D3A_OFFSET UNITYSDK_OFFSET(0xA9E8180)
-#define CLASS_1_F98F6D057426F2FB_3__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E8170)
+#define CLASS_1_F98F6D057426F2FB_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1506D470)
 
-inline static constexpr unsigned int Class_1_F98F6D057426F2FB_3_TypeDefinitionIndex = 65015;
+inline static constexpr unsigned int Class_1_F98F6D057426F2FB_3_TypeDefinitionIndex = 78432;
 
 class Class_1_F98F6D057426F2FB_3 : public ::System::Object
 {
@@ -17,10 +15,5 @@ public:
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_F98F6D057426F2FB_3__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::System::ValueTuple_2<::System::Single, ::System::Single> Method_1_F6945418C3EF6D3A(::System::Single a1)
-	{
-		return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_F98F6D057426F2FB_3_METHOD_1_F6945418C3EF6D3A_OFFSET))(this, a1);
 	}
 };

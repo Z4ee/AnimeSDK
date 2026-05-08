@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_5A585DEB704A07E2;
-class Class_2_208CC9941471731A_861;
+class Class_1_1EA8435E138F2E03;
+class Class_2_208CC9941471731A_153;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3ECB4BE169D1AA39__CTOR_OFFSET UNITYSDK_OFFSET(0xBD8DA10)
+#define CLASS_1_3ECB4BE169D1AA39__CTOR_OFFSET UNITYSDK_OFFSET(0x140773F0)
 
-inline static constexpr unsigned int Class_1_3ECB4BE169D1AA39_TypeDefinitionIndex = 58694;
+inline static constexpr unsigned int Class_1_3ECB4BE169D1AA39_TypeDefinitionIndex = 58351;
 
 class Class_1_3ECB4BE169D1AA39 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_2_208CC9941471731A_861*>* Field_1_3; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::Class_1_5A585DEB704A07E2* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::Class_2_208CC9941471731A_153*>* Field_1_3; // 0x10
+	::Class_1_1EA8435E138F2E03* Field_1_2; // 0x18
+	::System::String* Field_1_1; // 0x20
 	::System::Int32 Field_1_0; // 0x28
 
 	::System::Void _ctor()

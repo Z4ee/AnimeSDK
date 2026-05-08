@@ -3,10 +3,10 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define AUDIO_PINVOKE_DINPUT_DIRECTINPUT8CREATE_OFFSET UNITYSDK_OFFSET(0xAFC11B0)
-#define AUDIO_PINVOKE_DINPUT_DIRECTINPUT8CREATE__OFFSET UNITYSDK_OFFSET(0xAFC1310)
+#define AUDIO_PINVOKE_DINPUT_DIRECTINPUT8CREATE_OFFSET UNITYSDK_OFFSET(0x13B01690)
+#define AUDIO_PINVOKE_DINPUT_DIRECTINPUT8CREATE__OFFSET UNITYSDK_OFFSET(0x13B017D0)
 
-inline static constexpr unsigned int Audio_PINVOKE_DInput_TypeDefinitionIndex = 59822;
+inline static constexpr unsigned int Audio_PINVOKE_DInput_TypeDefinitionIndex = 67772;
 
 class Audio_PINVOKE_DInput : public ::System::Object
 {

@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int AsyncTableQuery_1___c__DisplayClass2_0_1_TypeDefinitionIndex = 36327;
+	inline static constexpr unsigned int AsyncTableQuery_1___c__DisplayClass2_0_1_TypeDefinitionIndex = 36871;
 
 	template <typename T, typename U>
 	class AsyncTableQuery_1___c__DisplayClass2_0_1 : public ::System::Object

@@ -7,32 +7,32 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_ENQUEUEWITHUSERDATA_OFFSET UNITYSDK_OFFSET(0x1B6FBEA0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1B6FBC10)
-#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_RUNCORE_OFFSET UNITYSDK_OFFSET(0x1B6FC3A0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_RUN_OFFSET UNITYSDK_OFFSET(0x1B6FC390)
-#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6FBB50)
+#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_ENQUEUEWITHUSERDATA_OFFSET UNITYSDK_OFFSET(0x1C4D7AF0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1C4D7810)
+#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_RUNCORE_OFFSET UNITYSDK_OFFSET(0x1C4D8020)
+#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE_RUN_OFFSET UNITYSDK_OFFSET(0x1C4D8010)
+#define CYSHARP_THREADING_TASKS_INTERNAL_CONTINUATIONQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D7750)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ContinuationQueue_TypeDefinitionIndex = 28299;
+	inline static constexpr unsigned int ContinuationQueue_TypeDefinitionIndex = 28817;
 
 	class ContinuationQueue : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Action_1<::System::Object*>*>* userdataWaitingList; // 0x10
+		::Il2CppArray<::System::Action_1<::System::Object*>*>* userdataActionList; // 0x10
 		::Il2CppArray<::System::Action*>* waitingList; // 0x18
-		::Il2CppArray<::System::Action*>* actionList; // 0x20
+		::Il2CppArray<::System::Action_1<::System::Object*>*>* userdataWaitingList; // 0x20
 		::Il2CppArray<::System::Object*>* userdataWaiting; // 0x28
-		::Il2CppArray<::System::Object*>* userdata; // 0x30
-		::Il2CppArray<::System::Action_1<::System::Object*>*>* userdataActionList; // 0x38
+		::Il2CppArray<::System::Action*>* actionList; // 0x30
+		::Il2CppArray<::System::Object*>* userdata; // 0x38
 		::System::Int32 userdataWaitingListCount; // 0x40
 		::System::Boolean dequing; // 0x44
-		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x48
-		::System::Int32 waitingListCount; // 0x4C
-		::System::Int32 userdataActionListCount; // 0x50
-		::System::Int32 actionListCount; // 0x54
-		::System::Threading::SpinLock gate; // 0x58
+		::System::Int32 waitingListCount; // 0x48
+		::System::Int32 actionListCount; // 0x4C
+		::System::Threading::SpinLock gate; // 0x50
+		::System::Int32 userdataActionListCount; // 0x54
+		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x58
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming timing)
 		{

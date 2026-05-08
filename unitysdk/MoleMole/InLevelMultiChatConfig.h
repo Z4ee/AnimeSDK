@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_INLEVELMULTICHATCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7E1440)
+#define MOLEMOLE_INLEVELMULTICHATCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x160514A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelMultiChatConfig_TypeDefinitionIndex = 65306;
+	inline static constexpr unsigned int InLevelMultiChatConfig_TypeDefinitionIndex = 80301;
 
 	struct alignas(4) InLevelMultiChatConfig
 	{
 		static ::MoleMole::InLevelMultiChatConfig* StaticGet_Fallback()
 		{
-			return (::MoleMole::InLevelMultiChatConfig*)Il2CppClass::FromTypeDefinitionIndex(InLevelMultiChatConfig_TypeDefinitionIndex)->GetStaticField(0xA3A0);
+			return (::MoleMole::InLevelMultiChatConfig*)Il2CppClass::FromTypeDefinitionIndex(InLevelMultiChatConfig_TypeDefinitionIndex)->GetStaticField(0xD700);
 		}
 		::System::Single pitch; // 0x10
 		::System::Single heightOffset; // 0x14

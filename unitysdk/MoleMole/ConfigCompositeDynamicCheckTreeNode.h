@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ConfigBaseDynamicCheckTreeNode.h"
 
-#define MOLEMOLE_CONFIGCOMPOSITEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xC248ED0)
+#define MOLEMOLE_CONFIGCOMPOSITEDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14259320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigCompositeDynamicCheckTreeNode_TypeDefinitionIndex = 38824;
+	inline static constexpr unsigned int ConfigCompositeDynamicCheckTreeNode_TypeDefinitionIndex = 73136;
 
 	class ConfigCompositeDynamicCheckTreeNode : public ::MoleMole::ConfigBaseDynamicCheckTreeNode
 	{

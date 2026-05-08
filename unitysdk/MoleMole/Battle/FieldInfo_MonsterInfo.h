@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BATTLE_FIELDINFO_MONSTERINFO_METHOD_2_65585810E2458BA4_OFFSET UNITYSDK_OFFSET(0x3A9760)
-#define MOLEMOLE_BATTLE_FIELDINFO_MONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3A9660)
+#define MOLEMOLE_BATTLE_FIELDINFO_MONSTERINFO_METHOD_2_65585810E2458BA4_OFFSET UNITYSDK_OFFSET(0x77CF90)
+#define MOLEMOLE_BATTLE_FIELDINFO_MONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x77CE40)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int FieldInfo_MonsterInfo_TypeDefinitionIndex = 43327;
+	inline static constexpr unsigned int FieldInfo_MonsterInfo_TypeDefinitionIndex = 78406;
 
 	struct alignas(8) FieldInfo_MonsterInfo
 	{

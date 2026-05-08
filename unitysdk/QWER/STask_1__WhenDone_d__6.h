@@ -11,7 +11,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int STask_1__WhenDone_d__6_TypeDefinitionIndex = 84139;
+	inline static constexpr unsigned int STask_1__WhenDone_d__6_TypeDefinitionIndex = 85867;
 
 	template <typename T>
 	class STask_1__WhenDone_d__6 : public ::System::Object

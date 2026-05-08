@@ -7,12 +7,12 @@ namespace SQLite { class TableMapping; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A634A40)
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__QUERYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1A63A4D0)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27BB00)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS85_0__QUERYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B281A70)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass85_0_TypeDefinitionIndex = 36321;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass85_0_TypeDefinitionIndex = 36865;
 
 	class SQLiteAsyncConnection___c__DisplayClass85_0 : public ::System::Object
 	{

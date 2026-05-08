@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SQLITE_SQLITECONNECTIONWITHLOCK_LOCKWRAPPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A640D70)
-#define SQLITE_SQLITECONNECTIONWITHLOCK_LOCKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A640D10)
+#define SQLITE_SQLITECONNECTIONWITHLOCK_LOCKWRAPPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B288470)
+#define SQLITE_SQLITECONNECTIONWITHLOCK_LOCKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B288410)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteConnectionWithLock_LockWrapper_TypeDefinitionIndex = 36337;
+	inline static constexpr unsigned int SQLiteConnectionWithLock_LockWrapper_TypeDefinitionIndex = 36881;
 
 	class SQLiteConnectionWithLock_LockWrapper : public ::System::Object
 	{

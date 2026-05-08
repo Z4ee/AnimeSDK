@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x189EF520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB9EC0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MaterialPropertyBlockPropertyTexture_TypeDefinitionIndex = 29341;
+	inline static constexpr unsigned int MaterialPropertyBlockPropertyTexture_TypeDefinitionIndex = 29860;
 
 	class MaterialPropertyBlockPropertyTexture : public ::UnityEngine::Rendering::Universal::MaterialPropertyBlockProperty_1<::UnityEngine::Texture*>
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_5262CF510D89C2E1;
+class Class_3_0FE4ABC043BDF8EF;
 namespace MoleMole::Battle { class Entity; }
 
-#define CLASS_3_124B5F7CB54D16F5_CLASS_1_FCA8E486CE45884A_METHOD_1_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0x91FF150)
-#define CLASS_3_124B5F7CB54D16F5_CLASS_1_FCA8E486CE45884A__CTOR_OFFSET UNITYSDK_OFFSET(0x91FF140)
+#define CLASS_3_124B5F7CB54D16F5_CLASS_1_FCA8E486CE45884A_METHOD_1_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0x17A2ECE0)
+#define CLASS_3_124B5F7CB54D16F5_CLASS_1_FCA8E486CE45884A__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2ECD0)
 
-inline static constexpr unsigned int Class_3_124B5F7CB54D16F5_Class_1_FCA8E486CE45884A_TypeDefinitionIndex = 45326;
+inline static constexpr unsigned int Class_3_124B5F7CB54D16F5_Class_1_FCA8E486CE45884A_TypeDefinitionIndex = 45586;
 
 class Class_3_124B5F7CB54D16F5_Class_1_FCA8E486CE45884A : public ::System::Object
 {
 public:
-	::MoleMole::Battle::Entity* Field_1_1; // 0x10
-	::Class_3_5262CF510D89C2E1* Field_1_0; // 0x18
+	::Class_3_0FE4ABC043BDF8EF* Field_1_0; // 0x10
+	::MoleMole::Battle::Entity* Field_1_1; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()

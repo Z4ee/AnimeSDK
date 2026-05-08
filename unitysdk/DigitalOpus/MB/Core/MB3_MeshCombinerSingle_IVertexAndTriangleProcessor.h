@@ -18,7 +18,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_IVertexAndTriangleProcessor_TypeDefinitionIndex = 83341;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_IVertexAndTriangleProcessor_TypeDefinitionIndex = 85069;
 
 	class MB3_MeshCombinerSingle_IVertexAndTriangleProcessor
 	{

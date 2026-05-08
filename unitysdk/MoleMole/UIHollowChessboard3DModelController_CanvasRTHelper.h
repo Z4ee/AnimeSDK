@@ -7,11 +7,11 @@ class Class_2_17EF7F195EE14706;
 namespace MoleMole { class UIWindowController; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER_CANVASRTHELPER_POSTCREATEASSET_OFFSET UNITYSDK_OFFSET(0x9C0C1D0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER_CANVASRTHELPER_POSTCREATEASSET_OFFSET UNITYSDK_OFFSET(0x162E9FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboard3DModelController_CanvasRTHelper_TypeDefinitionIndex = 42989;
+	inline static constexpr unsigned int UIHollowChessboard3DModelController_CanvasRTHelper_TypeDefinitionIndex = 44038;
 
 	class UIHollowChessboard3DModelController_CanvasRTHelper : public ::System::Object
 	{

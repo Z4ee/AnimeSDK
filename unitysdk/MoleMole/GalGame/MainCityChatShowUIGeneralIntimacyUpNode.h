@@ -8,20 +8,20 @@ class Class_1_328B10E9F3553A0D;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xA50E290)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA50E280)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x10E1CA00)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E1C9F0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowUIGeneralIntimacyUpNode_TypeDefinitionIndex = 54447;
+	inline static constexpr unsigned int MainCityChatShowUIGeneralIntimacyUpNode_TypeDefinitionIndex = 50543;
 
 	class MainCityChatShowUIGeneralIntimacyUpNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::System::Boolean usePopShowModel; // 0x18
-		::System::Nullable_1<::System::Int32> CurTrustLevel; // 0x1C
-		::MoleMole::UIGeneralIntimacyUpPopWindowController_Context_Type ModTrustType; // 0x24
-		::System::Int32 PartnerID; // 0x28
+		::System::Nullable_1<::System::Int32> CurTrustLevel; // 0x18
+		::System::Int32 PartnerID; // 0x20
+		::System::Boolean usePopShowModel; // 0x24
+		::MoleMole::UIGeneralIntimacyUpPopWindowController_Context_Type ModTrustType; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 class Class_1_C8DF2FFACC9F1669;
 namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_Class_1_E5308BE9EEBA8B55; }
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECOREBASE_GENERATEPATH_OFFSET UNITYSDK_OFFSET(0xD0ED8F0)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECOREBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0ED960)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECOREBASE_GENERATEPATH_OFFSET UNITYSDK_OFFSET(0x15E46D40)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECOREBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E46D90)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int GuidanceCoreBase_TypeDefinitionIndex = 51490;
+	inline static constexpr unsigned int GuidanceCoreBase_TypeDefinitionIndex = 60707;
 
 	class GuidanceCoreBase : public ::System::Object
 	{

@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERMATERIALTRANSITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F162E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERMATERIALTRANSITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6AAB10)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WeatherMaterialTransitionData_TypeDefinitionIndex = 29757;
+	inline static constexpr unsigned int WeatherMaterialTransitionData_TypeDefinitionIndex = 30286;
 
 	class WeatherMaterialTransitionData : public ::System::Object
 	{

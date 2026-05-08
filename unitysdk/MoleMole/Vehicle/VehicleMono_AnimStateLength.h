@@ -4,7 +4,7 @@
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleMono_AnimStateLength_TypeDefinitionIndex = 73503;
+	inline static constexpr unsigned int VehicleMono_AnimStateLength_TypeDefinitionIndex = 55771;
 
 	struct alignas(4) VehicleMono_AnimStateLength
 	{

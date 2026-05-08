@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERGEN_VECTOR4INT__CTOR_OFFSET UNITYSDK_OFFSET(0x3A03E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERGEN_VECTOR4INT__CTOR_OFFSET UNITYSDK_OFFSET(0x6587A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterGen_Vector4Int_TypeDefinitionIndex = 29566;
+	inline static constexpr unsigned int WaterGen_Vector4Int_TypeDefinitionIndex = 30094;
 
 	struct alignas(4) WaterGen_Vector4Int
 	{

@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class RenderTexture; }
 
-#define STRUCT_2_472A43027E5B9162__CTOR_OFFSET UNITYSDK_OFFSET(0x32FC50)
+#define STRUCT_2_472A43027E5B9162__CTOR_OFFSET UNITYSDK_OFFSET(0x3EB8A0)
 
-inline static constexpr unsigned int Struct_2_472A43027E5B9162_TypeDefinitionIndex = 77237;
+inline static constexpr unsigned int Struct_2_472A43027E5B9162_TypeDefinitionIndex = 63595;
 
 struct alignas(8) Struct_2_472A43027E5B9162
 {

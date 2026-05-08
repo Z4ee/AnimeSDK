@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultInfoRowNewWidgetController_RowData_TypeDefinitionIndex = 64193;
+	inline static constexpr unsigned int UIHollowResultInfoRowNewWidgetController_RowData_TypeDefinitionIndex = 61825;
 
 	struct alignas(8) UIHollowResultInfoRowNewWidgetController_RowData
 	{

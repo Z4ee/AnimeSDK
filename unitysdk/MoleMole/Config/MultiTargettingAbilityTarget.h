@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET_METHOD_2_478C4498636A4056_OFFSET UNITYSDK_OFFSET(0xEC51780)
-#define MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xEC51B90)
+#define MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET_METHOD_2_68B51C25928CE98A_OFFSET UNITYSDK_OFFSET(0x181D9A40)
+#define MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x181D9F20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MultiTargettingAbilityTarget_TypeDefinitionIndex = 38705;
+	inline static constexpr unsigned int MultiTargettingAbilityTarget_TypeDefinitionIndex = 82219;
 
 	class MultiTargettingAbilityTarget : public ::MoleMole::Config::ConfigAbilityTarget
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>* Method_2_478C4498636A4056(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5)
+		::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>* Method_2_68B51C25928CE98A(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3, ::MoleMole::Battle::Entity* a4, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a5, ::System::UInt32 a6)
 		{
-			return ((::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET_METHOD_2_478C4498636A4056_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::List_1<::Struct_2_FA5F50563E60AFBA>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MULTITARGETTINGABILITYTARGET_METHOD_2_68B51C25928CE98A_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

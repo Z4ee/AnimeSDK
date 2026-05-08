@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_17106743E900C7CC;
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661_GET_ANIM_OFFSET UNITYSDK_OFFSET(0xF83A810)
+#define CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661_GET_NUM_OFFSET UNITYSDK_OFFSET(0xF83A760)
+#define CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661_GET_ROOT_OFFSET UNITYSDK_OFFSET(0xF83A8D0)
+#define CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661__CTOR_OFFSET UNITYSDK_OFFSET(0xF83A980)
+
+inline static constexpr unsigned int Class_1_17106743E900C7CC_Class_1_7FA5C3A43CE694AB_Class_1_2C688FCF68071661_TypeDefinitionIndex = 50713;
+
+class Class_1_17106743E900C7CC_Class_1_7FA5C3A43CE694AB_Class_1_2C688FCF68071661 : public ::System::Object
+{
+public:
+	::Class_1_17106743E900C7CC* Field_1_0; // 0x10
+
+	::System::Void _ctor(::Class_1_17106743E900C7CC* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_17106743E900C7CC*))((::PBYTE)hIl2Cpp + CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661__CTOR_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* get_Num()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661_GET_NUM_OFFSET))(this);
+	}
+
+	::UnityEngine::Animation* get_Anim()
+	{
+		return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661_GET_ANIM_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* get_Root()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_17106743E900C7CC_CLASS_1_7FA5C3A43CE694AB_CLASS_1_2C688FCF68071661_GET_ROOT_OFFSET))(this);
+	}
+};

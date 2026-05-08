@@ -6,13 +6,13 @@
 namespace MiHoYo::SDK { class URLConfig_URL; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_URLCONFIG_GETURL_OFFSET UNITYSDK_OFFSET(0x18CEE940)
-#define MIHOYO_SDK_URLCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CEEA70)
-#define MIHOYO_SDK_URLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CEEA60)
+#define MIHOYO_SDK_URLCONFIG_GETURL_OFFSET UNITYSDK_OFFSET(0x1A35A420)
+#define MIHOYO_SDK_URLCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A35A550)
+#define MIHOYO_SDK_URLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35A540)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 18599;
+	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 18942;
 
 	class URLConfig : public ::System::Object
 	{

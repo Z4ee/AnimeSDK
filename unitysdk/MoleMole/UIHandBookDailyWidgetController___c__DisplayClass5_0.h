@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIHANDBOOKDAILYWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99B1E20)
-#define MOLEMOLE_UIHANDBOOKDAILYWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x99B1E30)
+#define MOLEMOLE_UIHANDBOOKDAILYWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158220B0)
+#define MOLEMOLE_UIHANDBOOKDAILYWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x158220C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookDailyWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 41911;
+	inline static constexpr unsigned int UIHandBookDailyWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 64017;
 
 	class UIHandBookDailyWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{

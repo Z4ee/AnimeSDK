@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TwoGroupsVisibilitySwitcher_SubgroupGroupWrapper_TypeDefinitionIndex = 56200;
+	inline static constexpr unsigned int TwoGroupsVisibilitySwitcher_SubgroupGroupWrapper_TypeDefinitionIndex = 76156;
 
 	struct alignas(8) TwoGroupsVisibilitySwitcher_SubgroupGroupWrapper
 	{

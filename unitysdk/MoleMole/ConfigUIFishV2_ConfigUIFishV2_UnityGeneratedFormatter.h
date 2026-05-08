@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xEC6B220)
-#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xEC6B230)
-#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xEC6B5B0)
-#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC6B820)
-#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xEC6B7E0)
+#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x181F0690)
+#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x181F06A0)
+#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x181F0A00)
+#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181F0C50)
+#define MOLEMOLE_CONFIGUIFISHV2_CONFIGUIFISHV2_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181F0C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIFishV2_ConfigUIFishV2_UnityGeneratedFormatter_TypeDefinitionIndex = 47990;
+	inline static constexpr unsigned int ConfigUIFishV2_ConfigUIFishV2_UnityGeneratedFormatter_TypeDefinitionIndex = 75947;
 
 	class ConfigUIFishV2_ConfigUIFishV2_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigUIFishV2*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraShake*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraShake*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIFishV2_ConfigUIFishV2_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x42E60);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigHollowCameraShake*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIFishV2_ConfigUIFishV2_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x48730);
 		}
 
 		::System::Void _ctor()

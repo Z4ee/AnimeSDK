@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1B52C8A0)
-#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x3889A0)
+#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1C2979A0)
+#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x317F00)
 
 namespace DG::Tweening::Plugins::Core::PathCore
 {
-	inline static constexpr unsigned int ControlPoint_TypeDefinitionIndex = 24966;
+	inline static constexpr unsigned int ControlPoint_TypeDefinitionIndex = 25480;
 
 	struct alignas(4) ControlPoint
 	{

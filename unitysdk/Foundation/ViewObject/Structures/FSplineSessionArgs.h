@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FSplineSessionArgs_TypeDefinitionIndex = 45377;
+	inline static constexpr unsigned int FSplineSessionArgs_TypeDefinitionIndex = 50664;
 
 	struct alignas(8) FSplineSessionArgs
 	{

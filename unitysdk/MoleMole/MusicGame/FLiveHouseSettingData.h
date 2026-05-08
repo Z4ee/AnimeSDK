@@ -5,7 +5,7 @@
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int FLiveHouseSettingData_TypeDefinitionIndex = 80218;
+	inline static constexpr unsigned int FLiveHouseSettingData_TypeDefinitionIndex = 55081;
 
 	struct alignas(4) FLiveHouseSettingData
 	{

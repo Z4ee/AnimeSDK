@@ -6,44 +6,44 @@ class Class_3_7FECECA6F88FD15C;
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9BF2B40)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9BF2B80)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DEALFRIENDINVITEMSG_B__21_0_OFFSET UNITYSDK_OFFSET(0x9BF2DC0)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DEALFRIENDINVITEMSG_B__21_1_OFFSET UNITYSDK_OFFSET(0x9BF2E20)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__ONUIINIT_B__10_0_OFFSET UNITYSDK_OFFSET(0x9BF2B90)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__TRYJOINMARCELADVENTURE_B__25_0_OFFSET UNITYSDK_OFFSET(0x9BF2E30)
-#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__TRYJOINMARCELADVENTURE_B__25_1_OFFSET UNITYSDK_OFFSET(0x9BF2E90)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162D1C90)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162D1CD0)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DEALFRIENDINVITEMSG_B__21_0_OFFSET UNITYSDK_OFFSET(0x162D1F10)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__DEALFRIENDINVITEMSG_B__21_1_OFFSET UNITYSDK_OFFSET(0x162D1F70)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__ONUIINIT_B__10_0_OFFSET UNITYSDK_OFFSET(0x162D1CE0)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__TRYJOINMARCELADVENTURE_B__25_0_OFFSET UNITYSDK_OFFSET(0x162D1F80)
+#define MOLEMOLE_UIGOLDMININGDAYMAINPAGECONTROLLER___C__TRYJOINMARCELADVENTURE_B__25_1_OFFSET UNITYSDK_OFFSET(0x162D1FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayMainPageController___c_TypeDefinitionIndex = 58980;
+	inline static constexpr unsigned int UIGoldMiningDayMainPageController___c_TypeDefinitionIndex = 45841;
 
 	class UIGoldMiningDayMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Int32>** StaticGet___9__21_1()
-		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E480);
-		}
 		static ::System::Action_1<::Class_3_7FECECA6F88FD15C*>** StaticGet___9__25_0()
 		{
-			return (::System::Action_1<::Class_3_7FECECA6F88FD15C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E488);
+			return (::System::Action_1<::Class_3_7FECECA6F88FD15C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2ED50);
 		}
 		static ::System::Action_1<::Class_3_7FECECA6F88FD15C*>** StaticGet___9__21_0()
 		{
-			return (::System::Action_1<::Class_3_7FECECA6F88FD15C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E490);
-		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_0()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E498);
+			return (::System::Action_1<::Class_3_7FECECA6F88FD15C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2ED58);
 		}
 		static ::MoleMole::UIGoldMiningDayMainPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGoldMiningDayMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E4A0);
+			return (::MoleMole::UIGoldMiningDayMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2ED60);
 		}
 		static ::System::Action_1<::System::Int32>** StaticGet___9__25_1()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2E4A8);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2ED68);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_0()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2ED70);
+		}
+		static ::System::Action_1<::System::Int32>** StaticGet___9__21_1()
+		{
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIGoldMiningDayMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x2ED78);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int DebugLogText_LogMode_TypeDefinitionIndex = 26750;
+	inline static constexpr unsigned int DebugLogText_LogMode_TypeDefinitionIndex = 27528;
 
 	enum class DebugLogText_LogMode : ::System::Int32
 	{
-		Warning = 1,
 		Log = 0,
 		Error = 2,
+		Warning = 1,
 	};
 }

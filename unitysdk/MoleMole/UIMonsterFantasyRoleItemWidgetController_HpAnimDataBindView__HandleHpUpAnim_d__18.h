@@ -7,18 +7,18 @@
 namespace MoleMole { class UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A9B50)
-#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__18_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x785640)
+#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__18_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView__HandleHpUpAnim_d__18_TypeDefinitionIndex = 42515;
+	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView__HandleHpUpAnim_d__18_TypeDefinitionIndex = 54694;
 
 	struct alignas(8) UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView__HandleHpUpAnim_d__18
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
 		::MoleMole::UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

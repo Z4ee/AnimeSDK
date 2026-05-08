@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EPackageType_TypeDefinitionIndex = 10377;
+	inline static constexpr unsigned int EPackageType_TypeDefinitionIndex = 15607;
 
 	enum class EPackageType : ::System::Int16
 	{
 		DungeonAvatar = 4,
 		Player = 3,
-		Fight = 1,
 		RogueLike = 2,
+		Fight = 1,
 		EnumCount = 5,
 	};
 }

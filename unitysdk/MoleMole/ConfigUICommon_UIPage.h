@@ -23,12 +23,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x10ABC2E0)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x10ABC880)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x183E4A00)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x183E5260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_UIPage_TypeDefinitionIndex = 38930;
+	inline static constexpr unsigned int ConfigUICommon_UIPage_TypeDefinitionIndex = 52154;
 
 	class ConfigUICommon_UIPage : public ::Foundation::MihoyoSerializedScriptableObject
 	{

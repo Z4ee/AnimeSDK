@@ -3,22 +3,22 @@
 #include "unitysdk/Struct_2_3CC13814F0D84EAE.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_133;
+class Class_0_16E4307DCC419505_196;
 namespace MoleMole { class UIGeneralPurchasePopWindowController; }
 
-#define MOLEMOLE_UIGENERALPURCHASEPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF22E800)
-#define MOLEMOLE_UIGENERALPURCHASEPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_0__DOPURCHASE_B__0_OFFSET UNITYSDK_OFFSET(0xF22E810)
+#define MOLEMOLE_UIGENERALPURCHASEPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14666BF0)
+#define MOLEMOLE_UIGENERALPURCHASEPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_0__DOPURCHASE_B__0_OFFSET UNITYSDK_OFFSET(0x14666C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPurchasePopWindowController___c__DisplayClass49_0_TypeDefinitionIndex = 38000;
+	inline static constexpr unsigned int UIGeneralPurchasePopWindowController___c__DisplayClass49_0_TypeDefinitionIndex = 42578;
 
 	class UIGeneralPurchasePopWindowController___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_133* goodsInfo; // 0x10
-		::MoleMole::UIGeneralPurchasePopWindowController* __4__this; // 0x18
-		::Struct_2_3CC13814F0D84EAE purchaseGoodsInfo; // 0x20
+		::Struct_2_3CC13814F0D84EAE purchaseGoodsInfo; // 0x10
+		::MoleMole::UIGeneralPurchasePopWindowController* __4__this; // 0x48
+		::Class_0_16E4307DCC419505_196* goodsInfo; // 0x50
 
 		::System::Void _ctor()
 		{

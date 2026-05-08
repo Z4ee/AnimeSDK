@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_EC9E7818B91C3AA0.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_2_78783A73BC2E7725;
+namespace System { class EventArgs; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_323_TypeDefinitionIndex = 80597;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_323_TypeDefinitionIndex = 69201;
 
 class Class_1_534AF681CC2BD5FD_323 : public ::System::Object
 {

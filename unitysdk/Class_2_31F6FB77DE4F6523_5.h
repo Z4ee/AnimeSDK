@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_7978B44050F39B5E_Enum_3_40FECCC0C2FAB910.h"
+#include "unitysdk/Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910.h"
 #include "unitysdk/MoleMole/Config/AnimatorEvent.h"
 
 class Class_3_F33F9DC5F4112336;
@@ -8,17 +8,17 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class AnimatorEventEntry; }
 namespace System { class String; }
 
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_0589B5E7626E6766_OFFSET UNITYSDK_OFFSET(0xC38CED0)
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0xC38CE90)
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_59F8859A496FF84A_OFFSET UNITYSDK_OFFSET(0xC38CBA0)
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_C88F257407FB5C09_OFFSET UNITYSDK_OFFSET(0xC38CAC0)
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_DE8FDF9C87F3AA65_OFFSET UNITYSDK_OFFSET(0xC38CE10)
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_F74DD2D3E7659615_OFFSET UNITYSDK_OFFSET(0xC38C7F0)
-#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_FB6392A8F30862C7_OFFSET UNITYSDK_OFFSET(0xC38CDB0)
-#define CLASS_2_31F6FB77DE4F6523_5_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC38C710)
-#define CLASS_2_31F6FB77DE4F6523_5__CTOR_OFFSET UNITYSDK_OFFSET(0xC38CDA0)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_0589B5E7626E6766_OFFSET UNITYSDK_OFFSET(0x13F326B0)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x13F32670)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_1CF29F34FEF30EFD_OFFSET UNITYSDK_OFFSET(0x13F32400)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_952E114EDAB71650_OFFSET UNITYSDK_OFFSET(0x13F32130)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_A0646B40A733EA40_OFFSET UNITYSDK_OFFSET(0x13F32310)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_DE8FDF9C87F3AA65_OFFSET UNITYSDK_OFFSET(0x13F32540)
+#define CLASS_2_31F6FB77DE4F6523_5_METHOD_2_FB6392A8F30862C7_OFFSET UNITYSDK_OFFSET(0x13F325E0)
+#define CLASS_2_31F6FB77DE4F6523_5_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13F32070)
+#define CLASS_2_31F6FB77DE4F6523_5__CTOR_OFFSET UNITYSDK_OFFSET(0x13F32530)
 
-inline static constexpr unsigned int Class_2_31F6FB77DE4F6523_5_TypeDefinitionIndex = 65308;
+inline static constexpr unsigned int Class_2_31F6FB77DE4F6523_5_TypeDefinitionIndex = 76298;
 
 class Class_2_31F6FB77DE4F6523_5 : public ::MoleMole::Config::AnimatorEvent
 {
@@ -36,24 +36,19 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_TOSTRING_OFFSET))(this);
 	}
 
-	::System::Void Method_2_F74DD2D3E7659615(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_7978B44050F39B5E_Enum_3_40FECCC0C2FAB910 a6)
+	::System::Void Method_2_952E114EDAB71650(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910 a6)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_7978B44050F39B5E_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_F74DD2D3E7659615_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_952E114EDAB71650_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 	}
 
-	::MoleMole::Config::AnimatorEventEntry* Method_2_C88F257407FB5C09()
+	::MoleMole::Config::AnimatorEventEntry* Method_2_A0646B40A733EA40()
 	{
-		return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_C88F257407FB5C09_OFFSET))(this);
+		return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_A0646B40A733EA40_OFFSET))(this);
 	}
 
-	::System::Void Method_2_59F8859A496FF84A(::MoleMole::Config::AnimatorEventEntry* a1, ::System::String* a2, ::System::String* a3)
+	::System::Void Method_2_1CF29F34FEF30EFD(::MoleMole::Config::AnimatorEventEntry* a1, ::System::String* a2, ::System::String* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_59F8859A496FF84A_OFFSET))(this, a1, a2, a3);
-	}
-
-	::MoleMole::Config::AnimatorEventEntry* Method_2_FB6392A8F30862C7()
-	{
-		return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_FB6392A8F30862C7_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_1CF29F34FEF30EFD_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_2_DE8FDF9C87F3AA65(::MoleMole::Config::AnimatorEventEntry* a1, ::System::String* a2, ::System::String* a3)
@@ -61,13 +56,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_DE8FDF9C87F3AA65_OFFSET))(this, a1, a2, a3);
 	}
 
+	::MoleMole::Config::AnimatorEventEntry* Method_2_FB6392A8F30862C7()
+	{
+		return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_FB6392A8F30862C7_OFFSET))(this);
+	}
+
 	::System::String* Method_2_128774387667156B()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_128774387667156B_OFFSET))(this);
 	}
 
-	::System::Void Method_2_0589B5E7626E6766(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_7978B44050F39B5E_Enum_3_40FECCC0C2FAB910 a6)
+	::System::Void Method_2_0589B5E7626E6766(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910 a6)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_7978B44050F39B5E_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_0589B5E7626E6766_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + CLASS_2_31F6FB77DE4F6523_5_METHOD_2_0589B5E7626E6766_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Baker_ClipSettings_BasedUponY_TypeDefinitionIndex = 35966;
+	inline static constexpr unsigned int Baker_ClipSettings_BasedUponY_TypeDefinitionIndex = 36510;
 
 	enum class Baker_ClipSettings_BasedUponY : ::System::Int32
 	{

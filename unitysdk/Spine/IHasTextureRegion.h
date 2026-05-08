@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Spine
 {
-	inline static constexpr unsigned int IHasTextureRegion_TypeDefinitionIndex = 30780;
+	inline static constexpr unsigned int IHasTextureRegion_TypeDefinitionIndex = 31309;
 
 	class IHasTextureRegion
 	{

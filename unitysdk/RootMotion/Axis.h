@@ -3,7 +3,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Axis_TypeDefinitionIndex = 35976;
+	inline static constexpr unsigned int Axis_TypeDefinitionIndex = 36520;
 
 	enum class Axis : ::System::Int32
 	{

@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_BOXGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1B113E80)
-#define SIRENIX_ODININSPECTOR_BOXGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B113DF0)
-#define SIRENIX_ODININSPECTOR_BOXGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B113D00)
+#define SIRENIX_ODININSPECTOR_BOXGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1C01F310)
+#define SIRENIX_ODININSPECTOR_BOXGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C01F280)
+#define SIRENIX_ODININSPECTOR_BOXGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F190)
 
 namespace Sirenix::OdinInspector
 {
@@ -16,8 +16,8 @@ namespace Sirenix::OdinInspector
 	{
 	public:
 		::System::String* LabelText; // 0x30
-		::System::Boolean ShowLabel; // 0x38
-		::System::Boolean CenterLabel; // 0x39
+		::System::Boolean CenterLabel; // 0x38
+		::System::Boolean ShowLabel; // 0x39
 
 		::System::Void _ctor(::System::String* group, ::System::Boolean showLabel, ::System::Boolean centerLabel, ::System::Single order)
 		{

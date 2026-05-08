@@ -7,17 +7,17 @@
 namespace MoleMole { class UIActivityHotpotBubbleWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTBUBBLEWIDGETCONTROLLER__PLAYANIMANDCLOSE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B7860)
-#define MOLEMOLE_UIACTIVITYHOTPOTBUBBLEWIDGETCONTROLLER__PLAYANIMANDCLOSE_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIACTIVITYHOTPOTBUBBLEWIDGETCONTROLLER__PLAYANIMANDCLOSE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7A2270)
+#define MOLEMOLE_UIACTIVITYHOTPOTBUBBLEWIDGETCONTROLLER__PLAYANIMANDCLOSE_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotBubbleWidgetController__PlayAnimAndClose_d__11_TypeDefinitionIndex = 77174;
+	inline static constexpr unsigned int UIActivityHotpotBubbleWidgetController__PlayAnimAndClose_d__11_TypeDefinitionIndex = 82432;
 
 	struct alignas(8) UIActivityHotpotBubbleWidgetController__PlayAnimAndClose_d__11
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIActivityHotpotBubbleWidgetController* __4__this; // 0x20
+		::MoleMole::UIActivityHotpotBubbleWidgetController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
 		::System::Int32 __1__state; // 0x38
 

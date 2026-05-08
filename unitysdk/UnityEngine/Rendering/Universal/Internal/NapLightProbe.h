@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class LightProbes; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTPROBE__CTOR_OFFSET UNITYSDK_OFFSET(0x189EF1E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTPROBE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB6E50)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapLightProbe_TypeDefinitionIndex = 29856;
+	inline static constexpr unsigned int NapLightProbe_TypeDefinitionIndex = 30384;
 
 	class NapLightProbe : public ::System::Object
 	{

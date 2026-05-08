@@ -5,11 +5,11 @@
 class Class_1_794BA983EDDBCFDE_Class_1_40F0860CEB67D2B1;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMESSAGEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA21BCC0)
+#define MOLEMOLE_UIMESSAGEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FFEDB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMessageWidgetContext_TypeDefinitionIndex = 41530;
+	inline static constexpr unsigned int UIMessageWidgetContext_TypeDefinitionIndex = 76843;
 
 	class UIMessageWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,24 +5,24 @@
 namespace MoleMole::EffectSimulate { class NapEffectSimulatorComponent; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPPDATACONTAINER___C_METHOD_1_5F96E8EA595E67F6_OFFSET UNITYSDK_OFFSET(0x75549C0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPPDATACONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x7554970)
-#define MOLEMOLE_EFFECTSIMULATE_ESPPDATACONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x75549B0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPPDATACONTAINER___C_METHOD_1_5F96E8EA595E67F6_OFFSET UNITYSDK_OFFSET(0x1495EE70)
+#define MOLEMOLE_EFFECTSIMULATE_ESPPDATACONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1495EE20)
+#define MOLEMOLE_EFFECTSIMULATE_ESPPDATACONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1495EE60)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPPDataContainer___c_TypeDefinitionIndex = 74180;
+	inline static constexpr unsigned int ESPPDataContainer___c_TypeDefinitionIndex = 42775;
 
 	class ESPPDataContainer___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::EffectSimulate::ESPPDataContainer___c** StaticGet___9()
 		{
-			return (::MoleMole::EffectSimulate::ESPPDataContainer___c**)Il2CppClass::FromTypeDefinitionIndex(ESPPDataContainer___c_TypeDefinitionIndex)->GetStaticField(0x2DD40);
+			return (::MoleMole::EffectSimulate::ESPPDataContainer___c**)Il2CppClass::FromTypeDefinitionIndex(ESPPDataContainer___c_TypeDefinitionIndex)->GetStaticField(0x2E7B0);
 		}
 		static ::System::Func_2<::MoleMole::EffectSimulate::NapEffectSimulatorComponent*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::MoleMole::EffectSimulate::NapEffectSimulatorComponent*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ESPPDataContainer___c_TypeDefinitionIndex)->GetStaticField(0x2DD48);
+			return (::System::Func_2<::MoleMole::EffectSimulate::NapEffectSimulatorComponent*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ESPPDataContainer___c_TypeDefinitionIndex)->GetStaticField(0x2E7B8);
 		}
 
 		static ::System::Void _cctor()

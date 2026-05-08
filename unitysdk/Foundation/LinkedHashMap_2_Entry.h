@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LinkedHashMap_2_Entry_TypeDefinitionIndex = 7970;
+	inline static constexpr unsigned int LinkedHashMap_2_Entry_TypeDefinitionIndex = 8236;
 
 	template <typename TKey, typename TValue>
 	struct LinkedHashMap_2_Entry

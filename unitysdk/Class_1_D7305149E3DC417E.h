@@ -5,17 +5,17 @@
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define CLASS_1_D7305149E3DC417E_METHOD_1_4BF21F41F4564E7A_OFFSET UNITYSDK_OFFSET(0xD076370)
-#define CLASS_1_D7305149E3DC417E_METHOD_1_FD57377CACCEC018_OFFSET UNITYSDK_OFFSET(0xD076430)
-#define CLASS_1_D7305149E3DC417E__CTOR_OFFSET UNITYSDK_OFFSET(0xD076360)
+#define CLASS_1_D7305149E3DC417E_METHOD_1_4BF21F41F4564E7A_OFFSET UNITYSDK_OFFSET(0xFEC4350)
+#define CLASS_1_D7305149E3DC417E_METHOD_1_FD57377CACCEC018_OFFSET UNITYSDK_OFFSET(0xFEC43F0)
+#define CLASS_1_D7305149E3DC417E__CTOR_OFFSET UNITYSDK_OFFSET(0xFEC4340)
 
-inline static constexpr unsigned int Class_1_D7305149E3DC417E_TypeDefinitionIndex = 51219;
+inline static constexpr unsigned int Class_1_D7305149E3DC417E_TypeDefinitionIndex = 54170;
 
 class Class_1_D7305149E3DC417E : public ::System::Object
 {
 public:
-	::System::Action_3<::System::Boolean, ::System::Int32, ::System::Boolean>* Field_1_0; // 0x10
-	::System::Action_3<::System::Int32, ::System::Boolean, ::System::Action*>* Field_1_1; // 0x18
+	::System::Action_3<::System::Int32, ::System::Boolean, ::System::Action*>* Field_1_1; // 0x10
+	::System::Action_3<::System::Boolean, ::System::Int32, ::System::Boolean>* Field_1_0; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()

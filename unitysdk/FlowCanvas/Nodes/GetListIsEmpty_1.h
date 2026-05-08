@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetListIsEmpty_1_TypeDefinitionIndex = 26603;
+	inline static constexpr unsigned int GetListIsEmpty_1_TypeDefinitionIndex = 26754;
 
 	template <typename T>
 	class GetListIsEmpty_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Boolean, ::System::Collections::Generic::IList_1<T>*>

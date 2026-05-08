@@ -6,13 +6,13 @@ namespace MoleMole { class ShaderGenerateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISLEVELIGNORE_OFFSET UNITYSDK_OFFSET(0x9852560)
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISSHADERSUPPORTASYNCCREATE_OFFSET UNITYSDK_OFFSET(0x9852450)
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9852650)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISLEVELIGNORE_OFFSET UNITYSDK_OFFSET(0x11780870)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISSHADERSUPPORTASYNCCREATE_OFFSET UNITYSDK_OFFSET(0x11780780)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11780930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadLevelGenerateConfig_TypeDefinitionIndex = 38623;
+	inline static constexpr unsigned int PreloadLevelGenerateConfig_TypeDefinitionIndex = 80944;
 
 	class PreloadLevelGenerateConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

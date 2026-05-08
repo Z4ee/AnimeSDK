@@ -8,7 +8,7 @@ namespace MoleMole::Vehicle { class VehicleConfig; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Struct_2_07154FD31BC71493_TypeDefinitionIndex = 79245;
+inline static constexpr unsigned int Struct_2_07154FD31BC71493_TypeDefinitionIndex = 43194;
 
 struct alignas(8) Struct_2_07154FD31BC71493
 {

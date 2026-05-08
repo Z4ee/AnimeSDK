@@ -9,35 +9,35 @@ namespace NPCCrowd { class NPCDevicePerformanceConfigSO; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCPERFORMANCEMANAGER_GETNPCCOUNTLIMIT_OFFSET UNITYSDK_OFFSET(0x785D3D0)
-#define NPCCROWD_NPCPERFORMANCEMANAGER_GETPOPULATIONRATIO_OFFSET UNITYSDK_OFFSET(0x785D5E0)
-#define NPCCROWD_NPCPERFORMANCEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x785CF80)
-#define NPCCROWD_NPCPERFORMANCEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x785D2C0)
-#define NPCCROWD_NPCPERFORMANCEMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x785D180)
-#define NPCCROWD_NPCPERFORMANCEMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x785D120)
-#define NPCCROWD_NPCPERFORMANCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x785D810)
-#define NPCCROWD_NPCPERFORMANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x785D800)
-#define NPCCROWD_NPCPERFORMANCEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x785D850)
-#define NPCCROWD_NPCPERFORMANCEMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x785D8B0)
+#define NPCCROWD_NPCPERFORMANCEMANAGER_GETNPCCOUNTLIMIT_OFFSET UNITYSDK_OFFSET(0x11B30770)
+#define NPCCROWD_NPCPERFORMANCEMANAGER_GETPOPULATIONRATIO_OFFSET UNITYSDK_OFFSET(0x11B30960)
+#define NPCCROWD_NPCPERFORMANCEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x11B303A0)
+#define NPCCROWD_NPCPERFORMANCEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11B30690)
+#define NPCCROWD_NPCPERFORMANCEMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x11B30560)
+#define NPCCROWD_NPCPERFORMANCEMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x11B30520)
+#define NPCCROWD_NPCPERFORMANCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11B30B60)
+#define NPCCROWD_NPCPERFORMANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11B30B50)
+#define NPCCROWD_NPCPERFORMANCEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11B30BA0)
+#define NPCCROWD_NPCPERFORMANCEMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x11B30C30)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPerformanceManager_TypeDefinitionIndex = 45524;
+	inline static constexpr unsigned int NPCPerformanceManager_TypeDefinitionIndex = 43127;
 
 	class NPCPerformanceManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::Foundation::AssetRequestHandle* StaticGet__configAssetRequest()
+		static ::System::String** StaticGet_SpawnConfigPath()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCPerformanceManager_TypeDefinitionIndex)->GetStaticField(0x46240);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCPerformanceManager_TypeDefinitionIndex)->GetStaticField(0x46D80);
 		}
 		static ::NPCCrowd::NPCDevicePerformanceConfigSO** StaticGet__configSO()
 		{
-			return (::NPCCrowd::NPCDevicePerformanceConfigSO**)Il2CppClass::FromTypeDefinitionIndex(NPCPerformanceManager_TypeDefinitionIndex)->GetStaticField(0x46260);
+			return (::NPCCrowd::NPCDevicePerformanceConfigSO**)Il2CppClass::FromTypeDefinitionIndex(NPCPerformanceManager_TypeDefinitionIndex)->GetStaticField(0x46D88);
 		}
-		static ::System::String** StaticGet_SpawnConfigPath()
+		static ::Foundation::AssetRequestHandle* StaticGet__configAssetRequest()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCPerformanceManager_TypeDefinitionIndex)->GetStaticField(0x46268);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCPerformanceManager_TypeDefinitionIndex)->GetStaticField(0x46D90);
 		}
 
 		::System::Void _ctor()

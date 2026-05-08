@@ -3,15 +3,15 @@
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int StateNodeType_TypeDefinitionIndex = 76966;
+	inline static constexpr unsigned int StateNodeType_TypeDefinitionIndex = 55796;
 
 	enum class StateNodeType : ::System::Int32
 	{
 		SubState = 3,
-		Entry = 0,
-		Exit = 1,
 		AnyState = 5,
 		State = 2,
+		Exit = 1,
+		Entry = 0,
 		UpState = 4,
 	};
 }

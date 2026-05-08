@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CRunner___c__DisplayClass50_0_1_TypeDefinitionIndex = 84125;
+	inline static constexpr unsigned int CRunner___c__DisplayClass50_0_1_TypeDefinitionIndex = 85853;
 
 	template <typename T>
 	class CRunner___c__DisplayClass50_0_1 : public ::System::Object

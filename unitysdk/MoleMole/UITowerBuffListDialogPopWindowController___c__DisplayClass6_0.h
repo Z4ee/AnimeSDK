@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBuffListItemRowWidgetController_BuffListItemData; }
 
-#define MOLEMOLE_UITOWERBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x7907370)
-#define MOLEMOLE_UITOWERBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7907360)
+#define MOLEMOLE_UITOWERBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0xF627140)
+#define MOLEMOLE_UITOWERBUFFLISTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF627130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerBuffListDialogPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 50153;
+	inline static constexpr unsigned int UITowerBuffListDialogPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 58235;
 
 	class UITowerBuffListDialogPopWindowController___c__DisplayClass6_0 : public ::System::Object
 	{

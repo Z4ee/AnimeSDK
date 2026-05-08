@@ -3,7 +3,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Baker_ClipSettings_BasedUponXZ_TypeDefinitionIndex = 35967;
+	inline static constexpr unsigned int Baker_ClipSettings_BasedUponXZ_TypeDefinitionIndex = 36511;
 
 	enum class Baker_ClipSettings_BasedUponXZ : ::System::Int32
 	{

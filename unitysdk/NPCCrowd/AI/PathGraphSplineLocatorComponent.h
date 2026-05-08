@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphFreePositionLocatorComponent.h"
 
-#define NPCCROWD_AI_PATHGRAPHSPLINELOCATORCOMPONENT_GET_NEARESTSPLINENODEINDEX_OFFSET UNITYSDK_OFFSET(0x6338180)
-#define NPCCROWD_AI_PATHGRAPHSPLINELOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x6338190)
+#define NPCCROWD_AI_PATHGRAPHSPLINELOCATORCOMPONENT_GET_NEARESTSPLINENODEINDEX_OFFSET UNITYSDK_OFFSET(0xBDD11F0)
+#define NPCCROWD_AI_PATHGRAPHSPLINELOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD1200)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineLocatorComponent_TypeDefinitionIndex = 52191;
+	inline static constexpr unsigned int PathGraphSplineLocatorComponent_TypeDefinitionIndex = 46520;
 
 	class PathGraphSplineLocatorComponent : public ::NPCCrowd::AI::PathGraphFreePositionLocatorComponent
 	{

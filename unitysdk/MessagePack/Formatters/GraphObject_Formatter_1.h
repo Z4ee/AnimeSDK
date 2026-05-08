@@ -10,7 +10,7 @@ namespace System { class Type; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphObject_Formatter_1_TypeDefinitionIndex = 27501;
+	inline static constexpr unsigned int GraphObject_Formatter_1_TypeDefinitionIndex = 27543;
 
 	template <typename T>
 	class GraphObject_Formatter_1 : public ::System::Object

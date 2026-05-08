@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXAOQuality_TypeDefinitionIndex = 29299;
+	inline static constexpr unsigned int RTXAOQuality_TypeDefinitionIndex = 29818;
 
 	enum class RTXAOQuality : ::System::Int32
 	{

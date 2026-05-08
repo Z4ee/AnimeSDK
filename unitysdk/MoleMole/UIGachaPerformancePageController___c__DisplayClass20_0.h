@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGachaPerformance3DModelController; }
 namespace MoleMole { class UIGachaPerformancePageController; }
 
-#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9115320)
-#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__ONSKIPALLBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x9115330)
+#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A12770)
+#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__ONSKIPALLBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x15A12780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPerformancePageController___c__DisplayClass20_0_TypeDefinitionIndex = 48701;
+	inline static constexpr unsigned int UIGachaPerformancePageController___c__DisplayClass20_0_TypeDefinitionIndex = 82268;
 
 	class UIGachaPerformancePageController___c__DisplayClass20_0 : public ::System::Object
 	{

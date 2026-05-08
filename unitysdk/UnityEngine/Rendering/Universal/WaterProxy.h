@@ -17,109 +17,109 @@ namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class SingleWeatherConfigWater; }
 namespace UnityEngine::Rendering::Universal { class WaterRippleTrigger; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_BAKEGI_OFFSET UNITYSDK_OFFSET(0x18D32160)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_CLEANUP_OFFSET UNITYSDK_OFFSET(0x18D31C40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18D2FE60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18D32000)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18D31BB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18D319B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18D32090)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_REGISTERRIPPLETRIGGER_OFFSET UNITYSDK_OFFSET(0x18D300B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_UNREGISTERRIPPLETRIGGER_OFFSET UNITYSDK_OFFSET(0x18D30190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x18D30240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D32810)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x18D327C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_BAKEGI_OFFSET UNITYSDK_OFFSET(0x1A30F580)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1A30EF40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A30CCB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A30F420)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A30EEB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A30EC40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A30F4B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_REGISTERRIPPLETRIGGER_OFFSET UNITYSDK_OFFSET(0x1A30CFD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_UNREGISTERRIPPLETRIGGER_OFFSET UNITYSDK_OFFSET(0x1A30D0B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A30D160)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A30FCF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30FC60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterProxy_TypeDefinitionIndex = 29420;
+	inline static constexpr unsigned int WaterProxy_TypeDefinitionIndex = 29939;
 
 	class WaterProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::WaterProxy** StaticGet__instance()
-		{
-			return (::UnityEngine::Rendering::Universal::WaterProxy**)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x23DF0);
-		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterRippleTrigger*>** StaticGet_rippleTriggers()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterRippleTrigger*>**)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x23DF8);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterRippleTrigger*>**)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x24970);
 		}
-		static ::System::Int32* StaticGet__CubeProxyPosAndWeight()
+		static ::UnityEngine::Rendering::Universal::WaterProxy** StaticGet__instance()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7580);
-		}
-		static ::System::Int32* StaticGet__WaveParams()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7584);
-		}
-		static ::System::Int32* StaticGet__CubeProxyExtensionAndBlend()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7588);
+			return (::UnityEngine::Rendering::Universal::WaterProxy**)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x24978);
 		}
 		static ::System::Int32* StaticGet__CubemapTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x758C);
-		}
-		static ::System::Int32* StaticGet_FoamMap()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7590);
-		}
-		static ::System::Int32* StaticGet_WaveData()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7594);
-		}
-		static ::System::Int32* StaticGet_InvViewProjection()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7598);
-		}
-		static ::System::Int32* StaticGet__WaterSSSParams()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x759C);
-		}
-		static ::System::Int32* StaticGet__WaveCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75A0);
-		}
-		static ::System::Int32* StaticGet_CausticsProjection()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75A4);
-		}
-		static ::System::Int32* StaticGet__CubemapTexture2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75A8);
-		}
-		static ::System::Int32* StaticGet__AbsorptionScatteringRamp2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75AC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7620);
 		}
 		static ::System::Int32* StaticGet_DepthCamZParams()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7624);
 		}
-		static ::System::Int32* StaticGet_SurfaceMap()
+		static ::System::Int32* StaticGet_WaveData()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75B4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7628);
 		}
-		static ::System::Int32* StaticGet_WaterDepthMap()
+		static ::System::Int32* StaticGet__WaterSSSParams()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75B8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x762C);
 		}
-		static ::System::Int32* StaticGet__AbsorptionScatteringRamp()
+		static ::System::Int32* StaticGet__CubeProxyExtensionAndBlend()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75BC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7630);
 		}
-		static ::System::Int32* StaticGet__LerpValue()
+		static ::System::Int32* StaticGet__WaveParams()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7634);
 		}
-		static ::System::Int32* StaticGet__WaveDataBuffer()
+		static ::System::Int32* StaticGet__CubeProxyPosAndWeight()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7638);
 		}
 		static ::System::Int32* StaticGet_CameraRoll()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x75C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x763C);
+		}
+		static ::System::Int32* StaticGet_InvViewProjection()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7640);
+		}
+		static ::System::Int32* StaticGet__LerpValue()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7644);
+		}
+		static ::System::Int32* StaticGet__WaveDataBuffer()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7648);
+		}
+		static ::System::Int32* StaticGet_FoamMap()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x764C);
+		}
+		static ::System::Int32* StaticGet_CausticsProjection()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7650);
+		}
+		static ::System::Int32* StaticGet__WaveCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7654);
+		}
+		static ::System::Int32* StaticGet_WaterDepthMap()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7658);
+		}
+		static ::System::Int32* StaticGet_SurfaceMap()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x765C);
+		}
+		static ::System::Int32* StaticGet__CubemapTexture2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7660);
+		}
+		static ::System::Int32* StaticGet__AbsorptionScatteringRamp()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7664);
+		}
+		static ::System::Int32* StaticGet__AbsorptionScatteringRamp2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WaterProxy_TypeDefinitionIndex)->GetStaticField(0x7668);
 		}
 		::UnityEngine::Rendering::Universal::SingleWeatherConfigWater* localWaterConfig; // 0x18
 		::System::Boolean useGlobalWeatherConfig; // 0x20

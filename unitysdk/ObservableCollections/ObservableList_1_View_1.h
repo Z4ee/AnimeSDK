@@ -19,7 +19,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableList_1_View_1_TypeDefinitionIndex = 25077;
+	inline static constexpr unsigned int ObservableList_1_View_1_TypeDefinitionIndex = 25797;
 
 	template <typename T, typename TView>
 	class ObservableList_1_View_1 : public ::System::Object

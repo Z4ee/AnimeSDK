@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int ENPCNavigateState_TypeDefinitionIndex = 77729;
+	inline static constexpr unsigned int ENPCNavigateState_TypeDefinitionIndex = 65874;
 
 	enum class ENPCNavigateState : ::System::Int32
 	{
 		NavmeshToPathFollow = 2,
-		Navmesh = 1,
 		PathFollow = 0,
+		Navmesh = 1,
 	};
 }

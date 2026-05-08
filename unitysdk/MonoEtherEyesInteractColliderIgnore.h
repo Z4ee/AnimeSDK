@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOETHEREYESINTERACTCOLLIDERIGNORE__CTOR_OFFSET UNITYSDK_OFFSET(0x88A1040)
+#define MONOETHEREYESINTERACTCOLLIDERIGNORE__CTOR_OFFSET UNITYSDK_OFFSET(0x12EAFDD0)
 
-inline static constexpr unsigned int MonoEtherEyesInteractColliderIgnore_TypeDefinitionIndex = 37384;
+inline static constexpr unsigned int MonoEtherEyesInteractColliderIgnore_TypeDefinitionIndex = 39008;
 
 class MonoEtherEyesInteractColliderIgnore : public ::UnityEngine::MonoBehaviour
 {

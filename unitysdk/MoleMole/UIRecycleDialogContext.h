@@ -5,18 +5,18 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRECYCLEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAFA5080)
+#define MOLEMOLE_UIRECYCLEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xEB91540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecycleDialogContext_TypeDefinitionIndex = 49314;
+	inline static constexpr unsigned int UIRecycleDialogContext_TypeDefinitionIndex = 80135;
 
 	class UIRecycleDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* OnCloseAction; // 0x28
-		::Share::EItemType ShowItemType; // 0x30
-		::System::Int32 FromDevelopmentAvatarID; // 0x34
+		::System::Int32 FromDevelopmentAvatarID; // 0x30
+		::Share::EItemType ShowItemType; // 0x34
 
 		::System::Void _ctor()
 		{

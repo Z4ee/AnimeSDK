@@ -7,20 +7,20 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKVECTORDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A126300)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKVECTORDISTANCE_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A1265D0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKVECTORDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1266F0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKVECTORDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B4665D0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKVECTORDISTANCE_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1B4668E0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKVECTORDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B466A00)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckVectorDistance_TypeDefinitionIndex = 26980;
+	inline static constexpr unsigned int CheckVectorDistance_TypeDefinitionIndex = 27274;
 
 	class CheckVectorDistance : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* vectorA; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* vectorB; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* vectorA; // 0x70
 		::ParadoxNotion::CompareMethod comparison; // 0x78
 
 		::System::Void _ctor()

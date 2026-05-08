@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_1_24CFA196D6CAF3C5;
+class Class_1_381D780505B409F3;
+class Class_1_381D780505B409F3_Class_1_6102208D6B5E3EA7;
+
+#define STRUCT_2_5F8BABC67A3CC028_METHOD_2_D391D1E58C3A7E0E_OFFSET UNITYSDK_OFFSET(0x16DFECF0)
+
+inline static constexpr unsigned int Struct_2_5F8BABC67A3CC028_TypeDefinitionIndex = 44660;
+
+struct alignas(1) Struct_2_5F8BABC67A3CC028
+{
+	static ::Class_1_381D780505B409F3_Class_1_6102208D6B5E3EA7* Method_2_D391D1E58C3A7E0E(::Class_1_381D780505B409F3* a1, ::Class_1_24CFA196D6CAF3C5*& a2)
+	{
+		return ((::Class_1_381D780505B409F3_Class_1_6102208D6B5E3EA7*(*)(::Class_1_381D780505B409F3*, ::Class_1_24CFA196D6CAF3C5*&))((::PBYTE)hIl2Cpp + STRUCT_2_5F8BABC67A3CC028_METHOD_2_D391D1E58C3A7E0E_OFFSET))(a1, a2);
+	}
+};

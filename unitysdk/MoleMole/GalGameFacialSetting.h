@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIAvatarAnimatorParamsSetting; }
 
-#define MOLEMOLE_GALGAMEFACIALSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xB198740)
+#define MOLEMOLE_GALGAMEFACIALSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC2220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GalGameFacialSetting_TypeDefinitionIndex = 57976;
+	inline static constexpr unsigned int GalGameFacialSetting_TypeDefinitionIndex = 42753;
 
 	class GalGameFacialSetting : public ::System::Object
 	{

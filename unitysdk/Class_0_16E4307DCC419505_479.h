@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace MoleMole { class UIGeneralNewsBubbleRowWidgetController; }
+namespace MoleMole { class UIGeneralNewsBubbleWidgetController; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_479_TypeDefinitionIndex = 70695;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_479_TypeDefinitionIndex = 75128;
 
-template <typename TKey, typename TValue>
 class Class_0_16E4307DCC419505_479
 {
 public:

@@ -3,16 +3,16 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnPointComponent_SpawnStyle_TypeDefinitionIndex = 77647;
+	inline static constexpr unsigned int PathGraphSpawnPointComponent_SpawnStyle_TypeDefinitionIndex = 38193;
 
 	enum class PathGraphSpawnPointComponent_SpawnStyle : ::System::Int32
 	{
-		MoveToSplineEndPoint = 4,
-		TeleportToSplineStartPoint = 0,
+		MoveToSplineStartPoint = 3,
+		MoveToSplineNearestPoint = 5,
 		MoveBlendWithSplinePoints = 6,
 		TeleportToSplineNearestPoint = 2,
-		MoveToSplineStartPoint = 3,
+		MoveToSplineEndPoint = 4,
 		TeleportToSplineEndPoint = 1,
-		MoveToSplineNearestPoint = 5,
+		TeleportToSplineStartPoint = 0,
 	};
 }

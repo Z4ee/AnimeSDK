@@ -5,6 +5,7 @@
 namespace MoleMole { class ConfigComicShake; }
 namespace MoleMole { class ConfigGalgameEffectDictionary; }
 namespace MoleMole { class ConfigGalgameShake; }
+namespace MoleMole { class ConfigHideMenuCutSceneVideoList; }
 namespace MoleMole { class ConfigHideMenuGalgameList; }
 namespace MoleMole { class ConfigUIGachaPage; }
 namespace MoleMole { class ConfigUIIconMount; }
@@ -12,11 +13,11 @@ namespace MoleMole { class ConfigUIMainCity; }
 namespace MoleMole { class ConfigUIMainStory; }
 namespace MoleMole::Config { class ConfigOverlordFeast; }
 
-#define MOLEMOLE_CONFIGUISCRIPTS__CTOR_OFFSET UNITYSDK_OFFSET(0xACE09E0)
+#define MOLEMOLE_CONFIGUISCRIPTS__CTOR_OFFSET UNITYSDK_OFFSET(0x175500B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIScripts_TypeDefinitionIndex = 53209;
+	inline static constexpr unsigned int ConfigUIScripts_TypeDefinitionIndex = 76567;
 
 	class ConfigUIScripts : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -29,7 +30,8 @@ namespace MoleMole
 		::MoleMole::ConfigGalgameEffectDictionary* GalgameEffectDictionary; // 0x80
 		::MoleMole::ConfigComicShake* ComicShakeConfig; // 0x88
 		::MoleMole::ConfigHideMenuGalgameList* HideMenuGalgameListConfig; // 0x90
-		::MoleMole::Config::ConfigOverlordFeast* OverlordFeastConfig; // 0x98
+		::MoleMole::ConfigHideMenuCutSceneVideoList* HideMenuCutSceneVideoListConfig; // 0x98
+		::MoleMole::Config::ConfigOverlordFeast* OverlordFeastConfig; // 0xA0
 
 		::System::Void _ctor()
 		{

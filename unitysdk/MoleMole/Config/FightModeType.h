@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FightModeType_TypeDefinitionIndex = 38729;
+	inline static constexpr unsigned int FightModeType_TypeDefinitionIndex = 46687;
 
 	enum class FightModeType : ::System::Int32
 	{
-		Evade = 0,
 		Attack = 2,
+		Evade = 0,
 		Move = 1,
 	};
 }

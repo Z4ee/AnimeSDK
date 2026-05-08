@@ -7,24 +7,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Terrain; }
 
-#define NAVMESHSOURCETAG_COLLECT_OFFSET UNITYSDK_OFFSET(0x76E1660)
-#define NAVMESHSOURCETAG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x76E1350)
-#define NAVMESHSOURCETAG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x76E1040)
-#define NAVMESHSOURCETAG__CCTOR_OFFSET UNITYSDK_OFFSET(0x76E1D50)
-#define NAVMESHSOURCETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x76E1D30)
+#define NAVMESHSOURCETAG_COLLECT_OFFSET UNITYSDK_OFFSET(0x11513190)
+#define NAVMESHSOURCETAG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11512DD0)
+#define NAVMESHSOURCETAG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11512A10)
+#define NAVMESHSOURCETAG__CCTOR_OFFSET UNITYSDK_OFFSET(0x11513A30)
+#define NAVMESHSOURCETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x115139E0)
 
-inline static constexpr unsigned int NavMeshSourceTag_TypeDefinitionIndex = 40846;
+inline static constexpr unsigned int NavMeshSourceTag_TypeDefinitionIndex = 43380;
 
 class NavMeshSourceTag : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>** StaticGet_m_Meshes()
-	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSourceTag_TypeDefinitionIndex)->GetStaticField(0x47B50);
-	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::Terrain*>** StaticGet_m_Terrains()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Terrain*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSourceTag_TypeDefinitionIndex)->GetStaticField(0x47B58);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Terrain*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSourceTag_TypeDefinitionIndex)->GetStaticField(0x47DA0);
+	}
+	static ::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>** StaticGet_m_Meshes()
+	{
+		return (::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSourceTag_TypeDefinitionIndex)->GetStaticField(0x47DA8);
 	}
 
 	::System::Void _ctor()

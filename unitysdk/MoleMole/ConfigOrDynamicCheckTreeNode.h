@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ConfigCompositeDynamicCheckTreeNode.h"
 
-class Class_1_3D452FA003157C19_Class_1_3B777373E9B193FC;
 class Class_1_663AFC2250EC21C9;
+class Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7;
 
-#define MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0xD0B1A80)
-#define MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B1C20)
+#define MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE_CREATE_OFFSET UNITYSDK_OFFSET(0x16B53700)
+#define MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B53880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigOrDynamicCheckTreeNode_TypeDefinitionIndex = 72930;
+	inline static constexpr unsigned int ConfigOrDynamicCheckTreeNode_TypeDefinitionIndex = 40787;
 
 	class ConfigOrDynamicCheckTreeNode : public ::MoleMole::ConfigCompositeDynamicCheckTreeNode
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_3D452FA003157C19_Class_1_3B777373E9B193FC* Create(::Class_1_663AFC2250EC21C9* overrideMap)
+		::Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7* Create(::Class_1_663AFC2250EC21C9* overrideMap)
 		{
-			return ((::Class_1_3D452FA003157C19_Class_1_3B777373E9B193FC*(*)(::PVOID, ::Class_1_663AFC2250EC21C9*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE_CREATE_OFFSET))(this, overrideMap);
+			return ((::Class_1_688FBF6C0FC439E7_Class_1_7E14AFCE0E4315E7*(*)(::PVOID, ::Class_1_663AFC2250EC21C9*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGORDYNAMICCHECKTREENODE_CREATE_OFFSET))(this, overrideMap);
 		}
 	};
 }

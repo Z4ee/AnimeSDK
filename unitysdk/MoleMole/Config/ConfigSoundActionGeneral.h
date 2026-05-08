@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONGENERAL_WALK_OFFSET UNITYSDK_OFFSET(0x950BA10)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONGENERAL__CTOR_OFFSET UNITYSDK_OFFSET(0x950BAC0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONGENERAL_WALK_OFFSET UNITYSDK_OFFSET(0x1242C6C0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONGENERAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1242C750)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionGeneral_TypeDefinitionIndex = 46939;
+	inline static constexpr unsigned int ConfigSoundActionGeneral_TypeDefinitionIndex = 45573;
 
 	class ConfigSoundActionGeneral : public ::MoleMole::Config::BaseConfigSoundAction
 	{

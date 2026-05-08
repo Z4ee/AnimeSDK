@@ -11,26 +11,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xBAEEFA0)
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xBAEEFB0)
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xBAEF3D0)
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAEF690)
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBAEF650)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x186AD480)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x186AD490)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x186AD890)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186ADB30)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXCONFIG_CONFIGCOOPVFXCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186ADAF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 79235;
+	inline static constexpr unsigned int ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 42079;
 
 	class ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigCoopVFXConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::String*>*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::String*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36C10);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36C18);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x376C0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::String*>*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::String*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigCoopVFXConfig_ConfigCoopVFXConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x376C8);
 		}
 
 		::System::Void _ctor()

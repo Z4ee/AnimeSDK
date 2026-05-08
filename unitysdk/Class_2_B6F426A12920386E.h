@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
-class Class_2_60DDD9C206686F44;
-class Class_2_777A5D016ADC7368;
+class Class_2_A9A857AD270B9CE1;
+class Class_2_B4378B46E0020E85;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class CanvasGroup; }
@@ -11,45 +11,45 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_B6F426A12920386E_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x7AB8480)
-#define CLASS_2_B6F426A12920386E_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x7AB86D0)
-#define CLASS_2_B6F426A12920386E_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x7AB87C0)
-#define CLASS_2_B6F426A12920386E__CTOR_OFFSET UNITYSDK_OFFSET(0x7AB87B0)
+#define CLASS_2_B6F426A12920386E_METHOD_2_0E09E70D88F8EDD3_OFFSET UNITYSDK_OFFSET(0x11C6DDF0)
+#define CLASS_2_B6F426A12920386E_METHOD_2_7835DD7D7F7FF1B7_OFFSET UNITYSDK_OFFSET(0x11C6E020)
+#define CLASS_2_B6F426A12920386E_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x11C6E0F0)
+#define CLASS_2_B6F426A12920386E__CTOR_OFFSET UNITYSDK_OFFSET(0x11C6E0E0)
 
-inline static constexpr unsigned int Class_2_B6F426A12920386E_TypeDefinitionIndex = 51905;
+inline static constexpr unsigned int Class_2_B6F426A12920386E_TypeDefinitionIndex = 47907;
 
 class Class_2_B6F426A12920386E : public ::Class_1_EEA0111A28582B57
 {
 public:
-	::UnityEngine::UI::RawImage* Field_2_3; // 0x18
-	::UnityEngine::Animation* Field_2_10; // 0x20
-	::Class_2_60DDD9C206686F44* Field_2_5; // 0x28
-	::UnityEngine::GameObject* Field_2_7; // 0x30
-	::UnityEngine::GameObject* Field_2_4; // 0x38
-	::UnityEngine::CanvasGroup* Field_2_0; // 0x40
+	::UnityEngine::CanvasGroup* Field_2_9; // 0x18
+	::UnityEngine::CanvasGroup* Field_2_0; // 0x20
+	::UnityEngine::Animation* Field_2_10; // 0x28
+	::UnityEngine::UI::Text* Field_2_8; // 0x30
+	::UnityEngine::UI::Text* Field_2_6; // 0x38
+	::UnityEngine::GameObject* Field_2_4; // 0x40
 	::UnityEngine::GameObject* Field_2_1; // 0x48
-	::UnityEngine::UI::Text* Field_2_6; // 0x50
-	::UnityEngine::CanvasGroup* Field_2_9; // 0x58
-	::UnityEngine::UI::Text* Field_2_8; // 0x60
-	::UnityEngine::GameObject* Field_2_2; // 0x68
+	::UnityEngine::UI::RawImage* Field_2_3; // 0x50
+	::UnityEngine::GameObject* Field_2_7; // 0x58
+	::UnityEngine::GameObject* Field_2_2; // 0x60
+	::Class_2_B4378B46E0020E85* Field_2_5; // 0x68
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B6F426A12920386E__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_0E09E70D88F8EDD3(::Class_2_777A5D016ADC7368* a1, ::MoleMole::UIControlCollection* a2)
+	::System::Void Method_2_0E09E70D88F8EDD3(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_777A5D016ADC7368*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_B6F426A12920386E_METHOD_2_0E09E70D88F8EDD3_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_B6F426A12920386E_METHOD_2_0E09E70D88F8EDD3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_B6F426A12920386E_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_7835DD7D7F7FF1B7()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B6F426A12920386E_METHOD_2_7835DD7D7F7FF1B7_OFFSET))(this);
-	}
-
-	::System::Void Method_2_C8903A36ECBA4078(::Class_2_777A5D016ADC7368* a1, ::MoleMole::UIControlCollection* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_777A5D016ADC7368*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_B6F426A12920386E_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 };

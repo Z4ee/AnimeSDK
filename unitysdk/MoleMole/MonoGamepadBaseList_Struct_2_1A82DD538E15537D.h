@@ -5,11 +5,11 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_MONOGAMEPADBASELIST_STRUCT_2_1A82DD538E15537D_METHOD_2_A4DB7961B504DCE5_OFFSET UNITYSDK_OFFSET(0x3A8B90)
+#define MOLEMOLE_MONOGAMEPADBASELIST_STRUCT_2_1A82DD538E15537D_METHOD_2_A4DB7961B504DCE5_OFFSET UNITYSDK_OFFSET(0x747910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadBaseList_Struct_2_1A82DD538E15537D_TypeDefinitionIndex = 61922;
+	inline static constexpr unsigned int MonoGamepadBaseList_Struct_2_1A82DD538E15537D_TypeDefinitionIndex = 72318;
 
 	struct alignas(8) MonoGamepadBaseList_Struct_2_1A82DD538E15537D
 	{

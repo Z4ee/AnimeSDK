@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int QeueueFormatter_1_TypeDefinitionIndex = 83983;
+	inline static constexpr unsigned int QeueueFormatter_1_TypeDefinitionIndex = 85711;
 
 	template <typename T>
 	class QeueueFormatter_1 : public ::Utf8Json::Formatters::CollectionFormatterBase_4<T, ::System::Collections::Generic::Queue_1<T>*, ::System::Collections::Generic::Queue_1_Enumerator<T>, ::System::Collections::Generic::Queue_1<T>*>

@@ -9,27 +9,27 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_SETABILITYSPECIAL_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8B75440)
-#define MOLEMOLE_SETABILITYSPECIAL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8B75630)
-#define MOLEMOLE_SETABILITYSPECIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x8B75960)
-#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8B759A0)
-#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8B75A30)
+#define MOLEMOLE_SETABILITYSPECIAL_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125EE020)
+#define MOLEMOLE_SETABILITYSPECIAL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125EE1E0)
+#define MOLEMOLE_SETABILITYSPECIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x125EE4C0)
+#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125EE550)
+#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125EE5E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetAbilitySpecial_TypeDefinitionIndex = 75734;
+	inline static constexpr unsigned int SetAbilitySpecial_TypeDefinitionIndex = 71431;
 
 	class SetAbilitySpecial : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::String* TargetAbilitySpecial; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* TargetAbilitySpecialValue; // 0x60
-		::Class_3_F41D242A20F8FE06* _abilityComponent; // 0x68
-		::System::String* SourceAbilityName; // 0x70
+		::System::String* SourceAbilitySpecial; // 0x58
+		::Class_3_F41D242A20F8FE06* _abilityComponent; // 0x60
+		::System::String* SourceAbilityName; // 0x68
+		::MoleMole::Battle::Entity* ownerEntity; // 0x70
 		::System::String* TargetAbilityName; // 0x78
-		::MoleMole::Battle::Entity* ownerEntity; // 0x80
-		::System::String* SourceAbilitySpecial; // 0x88
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x90
+		::System::String* TargetAbilitySpecial; // 0x80
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x88
+		::BehaviorDesigner::Runtime::SharedFloat* TargetAbilitySpecialValue; // 0x90
 		::System::Boolean IsRefreshProperty; // 0x98
 
 		::System::Void _ctor()

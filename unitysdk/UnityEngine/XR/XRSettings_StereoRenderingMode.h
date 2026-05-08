@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRSettings_StereoRenderingMode_TypeDefinitionIndex = 8552;
+	inline static constexpr unsigned int XRSettings_StereoRenderingMode_TypeDefinitionIndex = 8563;
 
 	enum class XRSettings_StereoRenderingMode : ::System::Int32
 	{

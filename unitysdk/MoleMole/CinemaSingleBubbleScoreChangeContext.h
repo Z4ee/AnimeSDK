@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_CINEMASINGLEBUBBLESCORECHANGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB45F730)
+#define MOLEMOLE_CINEMASINGLEBUBBLESCORECHANGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D0EBE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaSingleBubbleScoreChangeContext_TypeDefinitionIndex = 75108;
+	inline static constexpr unsigned int CinemaSingleBubbleScoreChangeContext_TypeDefinitionIndex = 45204;
 
 	class CinemaSingleBubbleScoreChangeContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Boolean isInFever; // 0x28
-		::System::Int32 basicScoreChange; // 0x2C
-		::System::Single multiplier; // 0x30
+		::System::Single multiplier; // 0x28
+		::System::Boolean isInFever; // 0x2C
+		::System::Int32 basicScoreChange; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AdvancedCollisionConfigData_ResolutionStrategy_TypeDefinitionIndex = 71516;
+	inline static constexpr unsigned int AdvancedCollisionConfigData_ResolutionStrategy_TypeDefinitionIndex = 68256;
 
 	enum class AdvancedCollisionConfigData_ResolutionStrategy : ::System::Int32
 	{

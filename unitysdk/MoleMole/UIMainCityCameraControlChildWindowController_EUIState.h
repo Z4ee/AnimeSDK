@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController_EUIState_TypeDefinitionIndex = 79720;
+	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController_EUIState_TypeDefinitionIndex = 82605;
 
 	enum class UIMainCityCameraControlChildWindowController_EUIState : ::System::Int32
 	{
+		Setting = 1,
 		EditSticker = 2,
 		MainPage = 0,
-		Setting = 1,
 	};
 }

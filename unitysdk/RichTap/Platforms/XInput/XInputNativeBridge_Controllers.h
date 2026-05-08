@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RICHTAP_PLATFORMS_XINPUT_XINPUTNATIVEBRIDGE_CONTROLLERS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AD8F8F0)
-#define RICHTAP_PLATFORMS_XINPUT_XINPUTNATIVEBRIDGE_CONTROLLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD8F940)
+#define RICHTAP_PLATFORMS_XINPUT_XINPUTNATIVEBRIDGE_CONTROLLERS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BAB4C90)
+#define RICHTAP_PLATFORMS_XINPUT_XINPUTNATIVEBRIDGE_CONTROLLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB4CE0)
 
 namespace RichTap::Platforms::XInput
 {
-	inline static constexpr unsigned int XInputNativeBridge_Controllers_TypeDefinitionIndex = 35943;
+	inline static constexpr unsigned int XInputNativeBridge_Controllers_TypeDefinitionIndex = 36487;
 
 	class XInputNativeBridge_Controllers : public ::System::Object
 	{

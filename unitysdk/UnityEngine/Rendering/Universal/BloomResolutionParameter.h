@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/BloomResolution.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_BLOOMRESOLUTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x151A23E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BLOOMRESOLUTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF7ED150)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BloomResolutionParameter_TypeDefinitionIndex = 29614;
+	inline static constexpr unsigned int BloomResolutionParameter_TypeDefinitionIndex = 30142;
 
 	class BloomResolutionParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::BloomResolution>
 	{

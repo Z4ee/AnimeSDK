@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Xml::Schema { class TypedObject_DecimalStruct; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x19A34AF0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_DVALUE_OFFSET UNITYSDK_OFFSET(0x19A349B0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_ISDECIMAL_OFFSET UNITYSDK_OFFSET(0x19A34990)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_LISTDVALUEEQUALS_OFFSET UNITYSDK_OFFSET(0x19A3F000)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_SETDECIMAL_OFFSET UNITYSDK_OFFSET(0x19A34710)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19A3EFF0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3EDE0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A761060)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_DVALUE_OFFSET UNITYSDK_OFFSET(0x1A760F20)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_ISDECIMAL_OFFSET UNITYSDK_OFFSET(0x1A760F00)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_LISTDVALUEEQUALS_OFFSET UNITYSDK_OFFSET(0x1A76B800)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_SETDECIMAL_OFFSET UNITYSDK_OFFSET(0x1A760AB0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A76B7F0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76B5E0)
 
 namespace System::Xml::Schema
 {
@@ -22,12 +22,12 @@ namespace System::Xml::Schema
 	class TypedObject : public ::System::Object
 	{
 	public:
-		::System::String* svalue; // 0x10
-		::System::Xml::Schema::XmlSchemaDatatype* xsdtype; // 0x18
-		::System::Object* ovalue; // 0x20
-		::System::Xml::Schema::TypedObject_DecimalStruct* dstruct; // 0x28
-		::System::Boolean isList; // 0x30
-		::System::Int32 dim; // 0x34
+		::System::Xml::Schema::TypedObject_DecimalStruct* dstruct; // 0x10
+		::System::Object* ovalue; // 0x18
+		::System::Xml::Schema::XmlSchemaDatatype* xsdtype; // 0x20
+		::System::String* svalue; // 0x28
+		::System::Int32 dim; // 0x30
+		::System::Boolean isList; // 0x34
 
 		::System::Void _ctor(::System::Object* obj, ::System::String* svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype)
 		{

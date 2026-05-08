@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_COOKIEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185123F0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_COOKIEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1943AB50)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKWebView_CookieInfo_TypeDefinitionIndex = 34999;
+	inline static constexpr unsigned int HoYoSDKWebView_CookieInfo_TypeDefinitionIndex = 35543;
 
 	class HoYoSDKWebView_CookieInfo : public ::System::Object
 	{

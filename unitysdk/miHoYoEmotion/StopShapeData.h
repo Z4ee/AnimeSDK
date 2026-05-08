@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYOEMOTION_STOPSHAPEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x18FE1C20)
-#define MIHOYOEMOTION_STOPSHAPEDATA_GET_INFOMESSAGE_OFFSET UNITYSDK_OFFSET(0x18FE1BB0)
-#define MIHOYOEMOTION_STOPSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE2360)
+#define MIHOYOEMOTION_STOPSHAPEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x197A02B0)
+#define MIHOYOEMOTION_STOPSHAPEDATA_GET_INFOMESSAGE_OFFSET UNITYSDK_OFFSET(0x197A0220)
+#define MIHOYOEMOTION_STOPSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197A0A10)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int StopShapeData_TypeDefinitionIndex = 37229;
+	inline static constexpr unsigned int StopShapeData_TypeDefinitionIndex = 37773;
 
 	class StopShapeData : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

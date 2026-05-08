@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKCAMERASHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF1340)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKCAMERASHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x186B0400)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackCameraShake_TypeDefinitionIndex = 67393;
+	inline static constexpr unsigned int ConfigEntityAttackCameraShake_TypeDefinitionIndex = 50859;
 
 	class ConfigEntityAttackCameraShake : public ::System::Object
 	{

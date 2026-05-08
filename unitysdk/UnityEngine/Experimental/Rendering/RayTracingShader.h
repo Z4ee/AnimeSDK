@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RAYTRACINGSHADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A429AB0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RAYTRACINGSHADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D91D0)
 
 namespace UnityEngine::Experimental::Rendering
 {

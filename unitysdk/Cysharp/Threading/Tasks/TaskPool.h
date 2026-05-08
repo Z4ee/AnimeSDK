@@ -6,23 +6,23 @@ namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CYSHARP_THREADING_TASKS_TASKPOOL_REGISTERSIZEGETTER_OFFSET UNITYSDK_OFFSET(0x1B6E0B10)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6E1150)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_REGISTERSIZEGETTER_OFFSET UNITYSDK_OFFSET(0x1C493370)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C493AA0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 28055;
+	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 28573;
 
 	class TaskPool : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>** StaticGet_sizes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x21000);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x21B70);
 		}
 		static ::System::Int32* StaticGet_MaxPoolSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x4AE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x4B00);
 		}
 
 		static ::System::Void _cctor()

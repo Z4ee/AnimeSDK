@@ -8,7 +8,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskComplet
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 template <typename T> class NPCSoftAssetPathUtils_CancelCaptureData_1;
 
-inline static constexpr unsigned int NPCSoftAssetPathUtils_CancelCaptureData_1_TypeDefinitionIndex = 66017;
+inline static constexpr unsigned int NPCSoftAssetPathUtils_CancelCaptureData_1_TypeDefinitionIndex = 40960;
 
 template <typename T>
 class NPCSoftAssetPathUtils_CancelCaptureData_1 : public ::System::Object

@@ -4,12 +4,12 @@
 #include "unitysdk/Struct_2_3220F690C6BCA251.h"
 #include "unitysdk/UnityEngine/Animations/AnimatorControllerPlayable.h"
 
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xA658A10)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA658AE0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x13869910)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x138699E0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableGraphAnimatorControllerTrigger_TypeDefinitionIndex = 66708;
+	inline static constexpr unsigned int PlayableGraphAnimatorControllerTrigger_TypeDefinitionIndex = 42169;
 
 	class PlayableGraphAnimatorControllerTrigger : public ::MoleMole::Photo::PlayableGraphAnimatorControllerSingleParameter
 	{

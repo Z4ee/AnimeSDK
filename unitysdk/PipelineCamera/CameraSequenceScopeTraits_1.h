@@ -11,7 +11,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraSequenceScopeTraits_1_TypeDefinitionIndex = 35444;
+	inline static constexpr unsigned int CameraSequenceScopeTraits_1_TypeDefinitionIndex = 35988;
 
 	template <typename T>
 	class CameraSequenceScopeTraits_1 : public ::System::Object

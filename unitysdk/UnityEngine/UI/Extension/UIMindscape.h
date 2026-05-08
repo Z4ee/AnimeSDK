@@ -16,265 +16,265 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class VertexHelper; }
 namespace UnityEngine::UI::Extension { class MindscapeLine; }
 
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_CALCULATEFIXPIXELWIDTH_OFFSET UNITYSDK_OFFSET(0xAEADF40)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_CALCULATERAMPMATRIX_OFFSET UNITYSDK_OFFSET(0xAEAC4D0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_CALCULATERAMPPARAMETERS_OFFSET UNITYSDK_OFFSET(0xAEAC750)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_ENABLECANVASSHADERCHANNELS_OFFSET UNITYSDK_OFFSET(0xAEAD360)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETLINEBYPOSITIONANDANGLE_OFFSET UNITYSDK_OFFSET(0xAEACCE0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0xAEAE450)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETNORMALIZEDLINEBYPOSITIONANDANGLE_OFFSET UNITYSDK_OFFSET(0xAEACF40)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETREFWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0xAEAC340)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETSTARTANDENDCORNERIDBYANGLE_OFFSET UNITYSDK_OFFSET(0xAEAC910)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETSTARTANDENDPOINTSBYANGLE_OFFSET UNITYSDK_OFFSET(0xAEACAF0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETTRANSITIONLINE_OFFSET UNITYSDK_OFFSET(0xAEAD090)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GET_ISCORNERSVALID_OFFSET UNITYSDK_OFFSET(0xAEAC280)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GET_ISTEXTCOMPONENT_OFFSET UNITYSDK_OFFSET(0xAEAC300)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GET_REFRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xAEAC190)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_INIT_OFFSET UNITYSDK_OFFSET(0xAEAC460)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0xAEB0310)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xAEAD8D0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_NORMALIZEDANGLE_OFFSET UNITYSDK_OFFSET(0xAEAC860)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAEAD6A0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAEAD5F0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_SETTEXTUREFROMSPRITE_OFFSET UNITYSDK_OFFSET(0xAEAE1C0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_START_OFFSET UNITYSDK_OFFSET(0xAEAD420)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_UPDATE_OFFSET UNITYSDK_OFFSET(0xAEAD510)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE__CCTOR_OFFSET UNITYSDK_OFFSET(0xAEB0540)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xAEB0370)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAEB09A0)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAEB0A30)
-#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE___BASE_START_OFFSET UNITYSDK_OFFSET(0xAEB0A40)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_CALCULATEFIXPIXELWIDTH_OFFSET UNITYSDK_OFFSET(0x18D58500)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_CALCULATERAMPMATRIX_OFFSET UNITYSDK_OFFSET(0x18D569B0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_CALCULATERAMPPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18D56C10)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_ENABLECANVASSHADERCHANNELS_OFFSET UNITYSDK_OFFSET(0x18D57820)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETLINEBYPOSITIONANDANGLE_OFFSET UNITYSDK_OFFSET(0x18D570D0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x18D58B70)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETNORMALIZEDLINEBYPOSITIONANDANGLE_OFFSET UNITYSDK_OFFSET(0x18D572F0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETREFWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0x18D567C0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETSTARTANDENDCORNERIDBYANGLE_OFFSET UNITYSDK_OFFSET(0x18D56D90)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETSTARTANDENDPOINTSBYANGLE_OFFSET UNITYSDK_OFFSET(0x18D56F30)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GETTRANSITIONLINE_OFFSET UNITYSDK_OFFSET(0x18D574A0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GET_ISCORNERSVALID_OFFSET UNITYSDK_OFFSET(0x18D566E0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GET_ISTEXTCOMPONENT_OFFSET UNITYSDK_OFFSET(0x18D56740)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_GET_REFRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x18D56550)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_INIT_OFFSET UNITYSDK_OFFSET(0x18D56960)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x18D5AAE0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x18D57DA0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_NORMALIZEDANGLE_OFFSET UNITYSDK_OFFSET(0x18D56D00)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18D57AC0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18D57A30)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_SETTEXTUREFROMSPRITE_OFFSET UNITYSDK_OFFSET(0x18D58870)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_START_OFFSET UNITYSDK_OFFSET(0x18D578C0)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE_UPDATE_OFFSET UNITYSDK_OFFSET(0x18D57970)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D5AD10)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D5AB20)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18D5B170)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18D5B200)
+#define UNITYENGINE_UI_EXTENSION_UIMINDSCAPE___BASE_START_OFFSET UNITYSDK_OFFSET(0x18D5B210)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIMindscape_TypeDefinitionIndex = 78745;
+	inline static constexpr unsigned int UIMindscape_TypeDefinitionIndex = 41041;
 
 	class UIMindscape : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		static ::System::Int32* StaticGet_Ramp2StartColorLow()
+		static ::System::Int32* StaticGet_Ramp2ParameterZero()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD140);
-		}
-		static ::System::Int32* StaticGet_TintZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD144);
-		}
-		static ::System::Int32* StaticGet_MindscapeBgColorLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD148);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5E0);
 		}
 		static ::System::Int32* StaticGet_LineParameter0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD14C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5E4);
 		}
-		static ::System::Int32* StaticGet_RampParameterHigh()
+		static ::System::Int32* StaticGet_MindscapeBgColorLow()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD150);
-		}
-		static ::System::Int32* StaticGet_Ramp2EndColorHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD154);
-		}
-		static ::System::Int32* StaticGet_RampStartColorHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD158);
-		}
-		static ::System::Int32* StaticGet_MindscapeWipeSlotID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD15C);
-		}
-		static ::System::Int32* StaticGet_Ramp2ParameterHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD160);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5E8);
 		}
 		static ::System::Int32* StaticGet_TintColorAZero()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD164);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5EC);
 		}
-		static ::System::Int32* StaticGet_MindscapeTexLow()
+		static ::System::Int32* StaticGet_TintZero()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD168);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5F0);
 		}
-		static ::System::Int32* StaticGet_TintColorBLow()
+		static ::System::Int32* StaticGet_MindscapeWipeSlotID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD16C);
-		}
-		static ::System::Int32* StaticGet_RampZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD170);
-		}
-		static ::System::Int32* StaticGet_TintColorBHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD174);
-		}
-		static ::System::Int32* StaticGet_Ramp2StartColorZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD178);
-		}
-		static ::System::Int32* StaticGet_MindscapeColorHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD17C);
-		}
-		static ::System::Int32* StaticGet_RampLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD180);
-		}
-		static ::System::Int32* StaticGet_RampHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD184);
-		}
-		static ::System::Int32* StaticGet_RampBlendModeHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD188);
-		}
-		static ::System::Int32* StaticGet_LineParameter1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD18C);
-		}
-		static ::System::Int32* StaticGet_Ramp2ParameterZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD190);
-		}
-		static ::System::Int32* StaticGet_MindscapeTexZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD194);
-		}
-		static ::System::Int32* StaticGet_Ramp2Zero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD198);
-		}
-		static ::System::Int32* StaticGet_LineParameter2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD19C);
-		}
-		static ::System::Int32* StaticGet_Ramp2StartColorHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1A0);
-		}
-		static ::System::Int32* StaticGet_Ramp2BlendModeHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1A4);
-		}
-		static ::System::Int32* StaticGet_TransitionSoftness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1A8);
-		}
-		static ::System::Int32* StaticGet_RampEndColorHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1AC);
-		}
-		static ::System::Int32* StaticGet_RampStartColorZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1B0);
-		}
-		static ::System::Int32* StaticGet_RampParameterZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1B4);
-		}
-		static ::System::Int32* StaticGet_Ramp2High()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1B8);
-		}
-		static ::System::Int32* StaticGet_TintColorBZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1BC);
-		}
-		static ::System::Int32* StaticGet_MindscapeBgColorHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1C0);
-		}
-		static ::System::Int32* StaticGet_Ramp2EndColorLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1C4);
-		}
-		static ::System::Int32* StaticGet_RampStartColorLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1C8);
-		}
-		static ::System::Int32* StaticGet_Ramp2BlendModeLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1CC);
-		}
-		static ::System::Int32* StaticGet_MindscapeWipeMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1D0);
-		}
-		static ::System::Int32* StaticGet_MindscapeTexHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1D4);
-		}
-		static ::System::Int32* StaticGet_RampEndColorZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1D8);
-		}
-		static ::System::Int32* StaticGet_MindscapeColorZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1DC);
-		}
-		static ::System::Int32* StaticGet_TintHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1E0);
-		}
-		static ::System::Int32* StaticGet_DstFactor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1E4);
-		}
-		static ::System::Int32* StaticGet_TintLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1E8);
-		}
-		static ::System::Int32* StaticGet_Ramp2ParameterLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1EC);
-		}
-		static ::System::Int32* StaticGet_RampEndColorLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1F0);
-		}
-		static ::System::Int32* StaticGet_RampParameterLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1F4);
-		}
-		static ::System::Int32* StaticGet_TintColorALow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1F8);
-		}
-		static ::System::Int32* StaticGet_MindscapeBgColorZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD1FC);
-		}
-		static ::System::Int32* StaticGet_TintColorAHigh()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD200);
-		}
-		static ::System::Int32* StaticGet_MindscapeColorLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD204);
-		}
-		static ::System::Int32* StaticGet_RampBlendModeLow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD208);
-		}
-		static ::System::Int32* StaticGet_Ramp2EndColorZero()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD20C);
-		}
-		static ::System::Int32* StaticGet_Ramp2Low()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD210);
-		}
-		static ::System::Int32* StaticGet_MindscapeMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD214);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5F4);
 		}
 		static ::System::Int32* StaticGet_Ramp2BlendModeZero()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD218);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5F8);
+		}
+		static ::System::Int32* StaticGet_RampEndColorZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD5FC);
+		}
+		static ::System::Int32* StaticGet_Ramp2EndColorZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD600);
+		}
+		static ::System::Int32* StaticGet_RampEndColorLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD604);
+		}
+		static ::System::Int32* StaticGet_Ramp2ParameterHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD608);
+		}
+		static ::System::Int32* StaticGet_Ramp2Low()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD60C);
+		}
+		static ::System::Int32* StaticGet_MindscapeBgColorZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD610);
+		}
+		static ::System::Int32* StaticGet_TintColorALow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD614);
+		}
+		static ::System::Int32* StaticGet_TintColorAHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD618);
+		}
+		static ::System::Int32* StaticGet_MindscapeColorHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD61C);
+		}
+		static ::System::Int32* StaticGet_Ramp2StartColorZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD620);
+		}
+		static ::System::Int32* StaticGet_TintLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD624);
+		}
+		static ::System::Int32* StaticGet_MindscapeTexHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD628);
+		}
+		static ::System::Int32* StaticGet_MindscapeTexLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD62C);
+		}
+		static ::System::Int32* StaticGet_DstFactor()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD630);
+		}
+		static ::System::Int32* StaticGet_Ramp2BlendModeLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD634);
+		}
+		static ::System::Int32* StaticGet_RampStartColorZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD638);
+		}
+		static ::System::Int32* StaticGet_RampBlendModeLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD63C);
+		}
+		static ::System::Int32* StaticGet_RampHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD640);
+		}
+		static ::System::Int32* StaticGet_MindscapeWipeMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD644);
+		}
+		static ::System::Int32* StaticGet_TransitionSoftness()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD648);
 		}
 		static ::System::Int32* StaticGet_RampBlendModeZero()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD21C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD64C);
+		}
+		static ::System::Int32* StaticGet_MindscapeTexZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD650);
+		}
+		static ::System::Int32* StaticGet_MindscapeColorZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD654);
+		}
+		static ::System::Int32* StaticGet_Ramp2StartColorHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD658);
+		}
+		static ::System::Int32* StaticGet_LineParameter2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD65C);
+		}
+		static ::System::Int32* StaticGet_RampEndColorHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD660);
+		}
+		static ::System::Int32* StaticGet_RampBlendModeHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD664);
+		}
+		static ::System::Int32* StaticGet_MindscapeColorLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD668);
+		}
+		static ::System::Int32* StaticGet_MindscapeMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD66C);
+		}
+		static ::System::Int32* StaticGet_RampZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD670);
+		}
+		static ::System::Int32* StaticGet_RampStartColorLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD674);
+		}
+		static ::System::Int32* StaticGet_RampParameterHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD678);
+		}
+		static ::System::Int32* StaticGet_RampParameterZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD67C);
+		}
+		static ::System::Int32* StaticGet_TintColorBZero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD680);
+		}
+		static ::System::Int32* StaticGet_Ramp2BlendModeHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD684);
+		}
+		static ::System::Int32* StaticGet_Ramp2High()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD688);
+		}
+		static ::System::Int32* StaticGet_TintHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD68C);
+		}
+		static ::System::Int32* StaticGet_Ramp2ParameterLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD690);
+		}
+		static ::System::Int32* StaticGet_LineParameter1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD694);
+		}
+		static ::System::Int32* StaticGet_Ramp2StartColorLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD698);
+		}
+		static ::System::Int32* StaticGet_TintColorBLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD69C);
+		}
+		static ::System::Int32* StaticGet_MindscapeBgColorHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6A0);
+		}
+		static ::System::Int32* StaticGet_Ramp2Zero()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6A4);
+		}
+		static ::System::Int32* StaticGet_RampParameterLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6A8);
+		}
+		static ::System::Int32* StaticGet_RampLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6AC);
+		}
+		static ::System::Int32* StaticGet_TintColorBHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6B0);
+		}
+		static ::System::Int32* StaticGet_Ramp2EndColorHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6B4);
+		}
+		static ::System::Int32* StaticGet_Ramp2EndColorLow()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6B8);
+		}
+		static ::System::Int32* StaticGet_RampStartColorHigh()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMindscape_TypeDefinitionIndex)->GetStaticField(0xD6BC);
 		}
 		// static const ::System::String* UIMindScapeMatPath; // 0x0
 		// static const ::System::String* IsRenderingTextKeyword; // 0x0

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7807B2B04302CD7B_12.h"
+#include "unitysdk/Class_1_7807B2B04302CD7B.h"
 
-#define CLASS_2_E33C3D8379182471_METHOD_2_D9F5295DDC8EAB8A_OFFSET UNITYSDK_OFFSET(0x88B5EA0)
-#define CLASS_2_E33C3D8379182471__CTOR_OFFSET UNITYSDK_OFFSET(0x88B5E90)
+#define CLASS_2_E33C3D8379182471_METHOD_2_D9F5295DDC8EAB8A_OFFSET UNITYSDK_OFFSET(0x11F294D0)
+#define CLASS_2_E33C3D8379182471__CTOR_OFFSET UNITYSDK_OFFSET(0x11F294C0)
 
-inline static constexpr unsigned int Class_2_E33C3D8379182471_TypeDefinitionIndex = 78551;
+inline static constexpr unsigned int Class_2_E33C3D8379182471_TypeDefinitionIndex = 51320;
 
-class Class_2_E33C3D8379182471 : public ::Class_1_7807B2B04302CD7B_12
+class Class_2_E33C3D8379182471 : public ::Class_1_7807B2B04302CD7B
 {
 public:
-	::System::Int32 Field_2_2; // 0x18
-	::System::Boolean Field_2_4; // 0x1C
-	::System::Int32 Field_2_3; // 0x20
-	::System::Int32 Field_2_0; // 0x24
-	::System::Int32 Field_2_1; // 0x28
+	::System::Boolean Field_2_4; // 0x18
+	::System::Int32 Field_2_3; // 0x1C
+	::System::Int32 Field_2_0; // 0x20
+	::System::Int32 Field_2_1; // 0x24
+	::System::Int32 Field_2_2; // 0x28
 
 	::System::Void _ctor()
 	{

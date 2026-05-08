@@ -12,32 +12,32 @@ namespace MoleMole::Config { class ConfigMovementStateControl; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xB917B70)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0xB9168A0)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xB917BD0)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xB916920)
-#define MOLEMOLE_CONFIG_CONFIGHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB9181D0)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x139A4140)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x139A2E70)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x139A41A0)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x139A2EF0)
+#define MOLEMOLE_CONFIG_CONFIGHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x139A4600)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHitData_TypeDefinitionIndex = 61811;
+	inline static constexpr unsigned int ConfigHitData_TypeDefinitionIndex = 59449;
 
 	class ConfigHitData : public ::System::Object
 	{
 	public:
-		::System::String* AttackerCenterAttachPoint; // 0x10
+		::System::String* CustomCurveKey; // 0x10
 		::MoleMole::Config::ConfigMovementStateControl* MovementControl; // 0x18
-		::System::String* CustomCurveKey; // 0x20
-		::UnityEngine::AnimationCurve* CurveY; // 0x28
-		::System::String* AttackeeCenterAttachPoint; // 0x30
-		::UnityEngine::AnimationCurve* CurveZ; // 0x38
-		::UnityEngine::AnimationCurve* CurveX; // 0x40
-		::MoleMole::Config::RetreatDecayDistanceType DistanceType; // 0x48
-		::System::Single ImpactRadius; // 0x4C
-		::System::Single Duration; // 0x50
-		::System::Single DissipationDistance; // 0x54
-		::UnityEngine::Vector3 Velocity; // 0x58
-		::MoleMole::Config::DissipationMode DissipationMode; // 0x64
+		::UnityEngine::AnimationCurve* CurveX; // 0x20
+		::System::String* AttackeeCenterAttachPoint; // 0x28
+		::System::String* AttackerCenterAttachPoint; // 0x30
+		::UnityEngine::AnimationCurve* CurveY; // 0x38
+		::UnityEngine::AnimationCurve* CurveZ; // 0x40
+		::MoleMole::Config::DissipationMode DissipationMode; // 0x48
+		::MoleMole::Config::RetreatDecayDistanceType DistanceType; // 0x4C
+		::UnityEngine::Vector3 Velocity; // 0x50
+		::System::Single Duration; // 0x5C
+		::System::Single ImpactRadius; // 0x60
+		::System::Single DissipationDistance; // 0x64
 
 		::System::Void _ctor()
 		{

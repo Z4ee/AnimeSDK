@@ -7,20 +7,20 @@
 namespace System { class String; }
 namespace Utf8Json::Resolvers::Internal { class DynamicObjectTypeBuilder___c__DisplayClass12_0; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS12_1__BUILDDESERIALIZE_B__2_OFFSET UNITYSDK_OFFSET(0x1B194A30)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS12_1__BUILDDESERIALIZE_B__3_OFFSET UNITYSDK_OFFSET(0x1B194D30)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS12_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B194A20)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS12_1__BUILDDESERIALIZE_B__2_OFFSET UNITYSDK_OFFSET(0x1BDDA760)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS12_1__BUILDDESERIALIZE_B__3_OFFSET UNITYSDK_OFFSET(0x1BDDAA60)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS12_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDA750)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass12_1_TypeDefinitionIndex = 83860;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass12_1_TypeDefinitionIndex = 85588;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass12_1 : public ::System::Object
 	{
 	public:
 		::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder___c__DisplayClass12_0* CS___8__locals1; // 0x10
-		::System::Reflection::Emit::Label continueWhile; // 0x18
-		::System::Reflection::Emit::Label readNext; // 0x1C
+		::System::Reflection::Emit::Label readNext; // 0x18
+		::System::Reflection::Emit::Label continueWhile; // 0x1C
 
 		::System::Void _ctor()
 		{

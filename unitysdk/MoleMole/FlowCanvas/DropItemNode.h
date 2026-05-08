@@ -5,12 +5,12 @@
 namespace MoleMole::FlowCanvas { class SimpleItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_DROPITEMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x7A4F400)
-#define MOLEMOLE_FLOWCANVAS_DROPITEMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x7A4F470)
+#define MOLEMOLE_FLOWCANVAS_DROPITEMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18410790)
+#define MOLEMOLE_FLOWCANVAS_DROPITEMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x184107E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int DropItemNode_TypeDefinitionIndex = 58233;
+	inline static constexpr unsigned int DropItemNode_TypeDefinitionIndex = 70113;
 
 	class DropItemNode : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::SimpleItem*>*, ::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::SimpleItem*>*>
 	{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIROLEINFODATACONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6EA340)
-#define MOLEMOLE_UIROLEINFODATACONTEXT___C__CONSTRUCT_B__17_0_OFFSET UNITYSDK_OFFSET(0xB6EA390)
-#define MOLEMOLE_UIROLEINFODATACONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6EA380)
+#define MOLEMOLE_UIROLEINFODATACONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E71F40)
+#define MOLEMOLE_UIROLEINFODATACONTEXT___C__CONSTRUCT_B__17_0_OFFSET UNITYSDK_OFFSET(0x12E71F90)
+#define MOLEMOLE_UIROLEINFODATACONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E71F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoDataContext___c_TypeDefinitionIndex = 62464;
+	inline static constexpr unsigned int UIRoleInfoDataContext___c_TypeDefinitionIndex = 73485;
 
 	class UIRoleInfoDataContext___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRoleInfoDataContext___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRoleInfoDataContext___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleInfoDataContext___c_TypeDefinitionIndex)->GetStaticField(0x3BAF0);
-		}
 		static ::System::Action** StaticGet___9__17_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIRoleInfoDataContext___c_TypeDefinitionIndex)->GetStaticField(0x3BAF8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIRoleInfoDataContext___c_TypeDefinitionIndex)->GetStaticField(0x3CDE0);
+		}
+		static ::MoleMole::UIRoleInfoDataContext___c** StaticGet___9()
+		{
+			return (::MoleMole::UIRoleInfoDataContext___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleInfoDataContext___c_TypeDefinitionIndex)->GetStaticField(0x3CDE8);
 		}
 
 		static ::System::Void _cctor()

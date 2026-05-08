@@ -13,34 +13,34 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x861EE00)
-#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x861EE10)
-#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x861F180)
-#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x861F3F0)
-#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x861F3B0)
+#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFB4D1B0)
+#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFB4D1C0)
+#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFB4D520)
+#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB4D770)
+#define NPCCROWD_AI_PATHSTATEASSETSO_PATHSTATEASSETSO_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB4D730)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex = 47224;
+	inline static constexpr unsigned int PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex = 42107;
 
 	class PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::NPCCrowd::AI::PathStateAssetSO*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::NPCCrowd::AI::PathGraphStateGlobalConfig*>** StaticGet_CachedSerializer0()
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointV2Config*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::NPCCrowd::AI::PathGraphStateGlobalConfig*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37960);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointV2Config*>*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x385A0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSpawnGroupConfig*>*>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSpawnGroupConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37968);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphSpawnGroupConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x385A8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::NPCCrowd::AI::PathGraphStateGlobalConfig*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::NPCCrowd::AI::PathGraphStateGlobalConfig*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x385B0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointConfig*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37970);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointV2Config*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointV2Config*>*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37978);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(PathStateAssetSO_PathStateAssetSO_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x385B8);
 		}
 
 		::System::Void _ctor()

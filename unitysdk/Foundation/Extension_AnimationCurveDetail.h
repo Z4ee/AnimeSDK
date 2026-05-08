@@ -5,11 +5,11 @@
 
 namespace Foundation { class Extension_AnimationCurveDetail_IKeyFrameInterval; }
 
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_CREATEINTERVAL_OFFSET UNITYSDK_OFFSET(0x1B2F4080)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEDETAIL_CREATEINTERVAL_OFFSET UNITYSDK_OFFSET(0x1BFF97F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Extension_AnimationCurveDetail_TypeDefinitionIndex = 9036;
+	inline static constexpr unsigned int Extension_AnimationCurveDetail_TypeDefinitionIndex = 9111;
 
 	class Extension_AnimationCurveDetail : public ::System::Object
 	{

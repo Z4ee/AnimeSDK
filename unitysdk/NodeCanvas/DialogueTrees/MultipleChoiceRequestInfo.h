@@ -7,12 +7,12 @@ namespace NodeCanvas::DialogueTrees { class IStatement; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A3F67B0)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F6790)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B0F1AE0)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F1AC0)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int MultipleChoiceRequestInfo_TypeDefinitionIndex = 27173;
+	inline static constexpr unsigned int MultipleChoiceRequestInfo_TypeDefinitionIndex = 26518;
 
 	class MultipleChoiceRequestInfo : public ::System::Object
 	{

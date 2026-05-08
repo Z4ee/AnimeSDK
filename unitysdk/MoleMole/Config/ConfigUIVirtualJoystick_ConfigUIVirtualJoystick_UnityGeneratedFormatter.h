@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCAF6720)
-#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCAF6730)
-#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCAF69F0)
-#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAF6C00)
-#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCAF6BC0)
+#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF98D840)
+#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF98D850)
+#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF98DAF0)
+#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF98DCE0)
+#define MOLEMOLE_CONFIG_CONFIGUIVIRTUALJOYSTICK_CONFIGUIVIRTUALJOYSTICK_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF98DCA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter_TypeDefinitionIndex = 70163;
+	inline static constexpr unsigned int ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter_TypeDefinitionIndex = 74553;
 
 	class ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigUIVirtualJoystick*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigVirtualJoystickParam*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigVirtualJoystickParam*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45D20);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigVirtualJoystickParam*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigVirtualJoystickParam*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45D28);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigVirtualJoystickParam*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x467D0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigVirtualJoystickParam*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ConfigVirtualJoystickParam*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIVirtualJoystick_ConfigUIVirtualJoystick_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x467D8);
 		}
 
 		::System::Void _ctor()

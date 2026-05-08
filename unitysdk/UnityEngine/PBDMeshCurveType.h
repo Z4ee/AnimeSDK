@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDMeshCurveType_TypeDefinitionIndex = 24326;
+	inline static constexpr unsigned int PBDMeshCurveType_TypeDefinitionIndex = 24839;
 
 	enum class PBDMeshCurveType : ::System::Int32
 	{

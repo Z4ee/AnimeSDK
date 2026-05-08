@@ -4,12 +4,12 @@
 
 namespace MoleMole::FlatBuffers::Config { class LevelPatternTemplate; }
 
-#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0xA007060)
-#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0071D0)
+#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x117377B0)
+#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11737900)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDReadLevelTemplateData_TypeDefinitionIndex = 77239;
+	inline static constexpr unsigned int LDReadLevelTemplateData_TypeDefinitionIndex = 62628;
 
 	class LDReadLevelTemplateData : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::FlatBuffers::Config::LevelPatternTemplate*, ::System::Int32, ::System::Boolean>
 	{

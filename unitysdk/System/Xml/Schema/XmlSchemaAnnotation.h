@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Xml { class XmlAttribute; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION_GET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1AA91BC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION_SETUNHANDLEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1AA91BE0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION_SET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1AA91BD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA91BF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION_GET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B9750C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION_SETUNHANDLEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1B9750E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION_SET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B9750D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9750F0)
 
 namespace System::Xml::Schema
 {
@@ -19,8 +19,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::String* id; // 0x38
-		::Il2CppArray<::System::Xml::XmlAttribute*>* moreAttributes; // 0x40
-		::System::Xml::Schema::XmlSchemaObjectCollection* items; // 0x48
+		::System::Xml::Schema::XmlSchemaObjectCollection* items; // 0x40
+		::Il2CppArray<::System::Xml::XmlAttribute*>* moreAttributes; // 0x48
 
 		::System::Void _ctor()
 		{

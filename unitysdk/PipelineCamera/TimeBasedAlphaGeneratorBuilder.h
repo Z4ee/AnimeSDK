@@ -4,12 +4,12 @@
 
 namespace PipelineCamera { class TimeBasedAlphaGenerator; }
 
-#define PIPELINECAMERA_TIMEBASEDALPHAGENERATORBUILDER_BACKWARD_OFFSET UNITYSDK_OFFSET(0x1AB95EE0)
-#define PIPELINECAMERA_TIMEBASEDALPHAGENERATORBUILDER_FORWARD_OFFSET UNITYSDK_OFFSET(0x1AB95E10)
+#define PIPELINECAMERA_TIMEBASEDALPHAGENERATORBUILDER_BACKWARD_OFFSET UNITYSDK_OFFSET(0x1B8A7B50)
+#define PIPELINECAMERA_TIMEBASEDALPHAGENERATORBUILDER_FORWARD_OFFSET UNITYSDK_OFFSET(0x1B8A7AA0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int TimeBasedAlphaGeneratorBuilder_TypeDefinitionIndex = 35526;
+	inline static constexpr unsigned int TimeBasedAlphaGeneratorBuilder_TypeDefinitionIndex = 36070;
 
 	struct alignas(4) TimeBasedAlphaGeneratorBuilder
 	{

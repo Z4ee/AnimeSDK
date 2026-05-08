@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_CHANGEPERCENT_INVOKE_OFFSET UNITYSDK_OFFSET(0xC25F150)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_CHANGEPERCENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC25F270)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_CHANGEPERCENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x14273F40)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_CHANGEPERCENT__CTOR_OFFSET UNITYSDK_OFFSET(0x14274030)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_ChangePercent_TypeDefinitionIndex = 72401;
+	inline static constexpr unsigned int ChessBoard_ChangePercent_TypeDefinitionIndex = 44414;
 
 	class ChessBoard_ChangePercent : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
 	{

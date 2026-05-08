@@ -7,7 +7,7 @@ namespace Foundation { class IObject; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectProxy_1_TypeDefinitionIndex = 9114;
+	inline static constexpr unsigned int ObjectProxy_1_TypeDefinitionIndex = 9140;
 
 	template <typename T>
 	class ObjectProxy_1 : public ::System::Object

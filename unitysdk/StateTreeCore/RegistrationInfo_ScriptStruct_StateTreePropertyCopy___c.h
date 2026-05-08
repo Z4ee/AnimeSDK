@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYCOPY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B080160)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYCOPY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0801A0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYCOPY___C___CCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B0801B0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYCOPY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEED0E0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYCOPY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEED120)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYCOPY___C___CCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1BEED130)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c_TypeDefinitionIndex = 27866;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c_TypeDefinitionIndex = 28384;
 
 	class RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c_TypeDefinitionIndex)->GetStaticField(0x20E30);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreePropertyCopy___c_TypeDefinitionIndex)->GetStaticField(0x219A0);
 		}
 
 		static ::System::Void _cctor()

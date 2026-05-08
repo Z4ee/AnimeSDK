@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI::Extension { class RangeFloat; }
 
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPARAMFLOAT_COPYSOURCE_OFFSET UNITYSDK_OFFSET(0x1534CDD0)
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPARAMFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1534CEC0)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPARAMFLOAT_COPYSOURCE_OFFSET UNITYSDK_OFFSET(0x19A93F20)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPARAMFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A93FE0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionRangeParamFloat_TypeDefinitionIndex = 48023;
+	inline static constexpr unsigned int InteractionRangeParamFloat_TypeDefinitionIndex = 58764;
 
 	class InteractionRangeParamFloat : public ::UnityEngine::UI::Extension::InteractionRangeParam_1<::System::Single>
 	{

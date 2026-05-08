@@ -6,17 +6,17 @@
 #include "unitysdk/System/ValueTuple_2.h"
 
 class Class_2_F5737224A0253470;
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 namespace MoleMole { class UIHollowChessboard3DModelController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_02E60863B3A6B2B7_OFFSET UNITYSDK_OFFSET(0xAEDE3A0)
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_3D0DEF9C57CB8088_OFFSET UNITYSDK_OFFSET(0xAEDDF90)
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_8E01C00034A2BA60_OFFSET UNITYSDK_OFFSET(0xAEDDD10)
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_C93CBBC2202E4463_OFFSET UNITYSDK_OFFSET(0xAEDE2B0)
-#define CLASS_1_0E5373699ACD88B1__CTOR_OFFSET UNITYSDK_OFFSET(0xAEDDC40)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_02E60863B3A6B2B7_OFFSET UNITYSDK_OFFSET(0x14BC2860)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_3D0DEF9C57CB8088_OFFSET UNITYSDK_OFFSET(0x14BC24D0)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_8E01C00034A2BA60_OFFSET UNITYSDK_OFFSET(0x14BC2270)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_CAA3FA1235DD111A_OFFSET UNITYSDK_OFFSET(0x14BC2790)
+#define CLASS_1_0E5373699ACD88B1__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC21A0)
 
-inline static constexpr unsigned int Class_1_0E5373699ACD88B1_TypeDefinitionIndex = 50155;
+inline static constexpr unsigned int Class_1_0E5373699ACD88B1_TypeDefinitionIndex = 47401;
 
 class Class_1_0E5373699ACD88B1 : public ::System::Object
 {
@@ -35,9 +35,9 @@ public:
 		return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*&, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_8E01C00034A2BA60_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Method_1_C93CBBC2202E4463(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* a1, ::MoleMole::HollowChessboard::HollowCell a2, ::MoleMole::HollowChessboard::HollowCell a3)
+	::System::Boolean Method_1_CAA3FA1235DD111A(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* a1, ::MoleMole::HollowChessboard::HollowCell a2, ::MoleMole::HollowChessboard::HollowCell a3)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_C93CBBC2202E4463_OFFSET))(this, a1, a2, a3);
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_CAA3FA1235DD111A_OFFSET))(this, a1, a2, a3);
 	}
 
 	::MoleMole::PlayerOnViewState Method_1_02E60863B3A6B2B7(::MoleMole::HollowChessboard::HollowCell a1, ::MoleMole::HollowChessboard::HollowCell a2)
@@ -45,8 +45,8 @@ public:
 		return ((::MoleMole::PlayerOnViewState(*)(::PVOID, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_02E60863B3A6B2B7_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_3D0DEF9C57CB8088(::Class_5_0B648F1F8F6AC84A* a1)
+	::System::Boolean Method_1_3D0DEF9C57CB8088(::Class_5_A6F8D19602712D95* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_3D0DEF9C57CB8088_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_5_A6F8D19602712D95*))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_3D0DEF9C57CB8088_OFFSET))(this, a1);
 	}
 };

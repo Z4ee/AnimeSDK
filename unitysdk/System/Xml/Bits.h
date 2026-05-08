@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BITS_COUNT_OFFSET UNITYSDK_OFFSET(0x1A4D35D0)
-#define SYSTEM_XML_BITS_LEASTPOSITION_OFFSET UNITYSDK_OFFSET(0x1A4D3670)
-#define SYSTEM_XML_BITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4D3790)
+#define SYSTEM_XML_BITS_COUNT_OFFSET UNITYSDK_OFFSET(0x1B29E610)
+#define SYSTEM_XML_BITS_LEASTPOSITION_OFFSET UNITYSDK_OFFSET(0x1B29E6B0)
+#define SYSTEM_XML_BITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B29E7D0)
 
 namespace System::Xml
 {
@@ -13,7 +13,7 @@ namespace System::Xml
 	class Bits : public ::System::Object
 	{
 	public:
-		static ::System::UInt32* StaticGet_MASK_0000111100001111()
+		static ::System::UInt32* StaticGet_MASK_0101010101010101()
 		{
 			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0xEC0);
 		}
@@ -25,11 +25,11 @@ namespace System::Xml
 		{
 			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0xEC8);
 		}
-		static ::System::UInt32* StaticGet_MASK_1111111111111111()
+		static ::System::UInt32* StaticGet_MASK_0000111100001111()
 		{
 			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0xECC);
 		}
-		static ::System::UInt32* StaticGet_MASK_0101010101010101()
+		static ::System::UInt32* StaticGet_MASK_1111111111111111()
 		{
 			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0xED0);
 		}

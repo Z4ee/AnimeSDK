@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadSlider_Struct_2_E71A4E719BBCD0AD_1_TypeDefinitionIndex = 45763;
+	inline static constexpr unsigned int MonoGamepadSlider_Struct_2_E71A4E719BBCD0AD_1_TypeDefinitionIndex = 64814;
 
 	struct alignas(1) MonoGamepadSlider_Struct_2_E71A4E719BBCD0AD_1
 	{

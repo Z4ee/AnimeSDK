@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SCATTERGATHERBUFFERS_MEMORYCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x19386780)
+#define SYSTEM_NET_SCATTERGATHERBUFFERS_MEMORYCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A257580)
 
 namespace System::Net
 {
@@ -11,8 +11,8 @@ namespace System::Net
 	class ScatterGatherBuffers_MemoryChunk : public ::System::Object
 	{
 	public:
-		::System::Net::ScatterGatherBuffers_MemoryChunk* Next; // 0x10
-		::Il2CppArray<::System::Byte>* Buffer; // 0x18
+		::Il2CppArray<::System::Byte>* Buffer; // 0x10
+		::System::Net::ScatterGatherBuffers_MemoryChunk* Next; // 0x18
 		::System::Int32 FreeOffset; // 0x20
 
 		::System::Void _ctor(::System::Int32 bufferSize)

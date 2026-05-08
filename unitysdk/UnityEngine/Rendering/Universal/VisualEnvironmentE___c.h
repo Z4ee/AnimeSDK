@@ -9,39 +9,39 @@ namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine::Rendering::Universal { class OverrideWeatherConfigScriptableObject; }
 namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE_WeatherConfigOverrideData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A033D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A03410)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__SETOVERRIDEWEATHERCONFIGV2_B__401_0_OFFSET UNITYSDK_OFFSET(0x18A034E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__SETOVERRIDEWEATHERCONFIG_B__351_0_OFFSET UNITYSDK_OFFSET(0x18A034A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__TRYOVERRIDEWEATHERV2_B__403_0_OFFSET UNITYSDK_OFFSET(0x18A03520)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__UPDATELIGHTNINGFX_B__251_0_OFFSET UNITYSDK_OFFSET(0x18A03420)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ACF070)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACF0B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__SETOVERRIDEWEATHERCONFIGV2_B__401_0_OFFSET UNITYSDK_OFFSET(0x19ACF230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__SETOVERRIDEWEATHERCONFIG_B__351_0_OFFSET UNITYSDK_OFFSET(0x19ACF1F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__TRYOVERRIDEWEATHERV2_B__403_0_OFFSET UNITYSDK_OFFSET(0x19ACF270)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE___C__UPDATELIGHTNINGFX_B__251_0_OFFSET UNITYSDK_OFFSET(0x19ACF0C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE___c_TypeDefinitionIndex = 29400;
+	inline static constexpr unsigned int VisualEnvironmentE___c_TypeDefinitionIndex = 29919;
 
 	class VisualEnvironmentE___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>** StaticGet___9__401_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23220);
-		}
 		static ::System::Comparison_1<::System::Tuple_3<::UnityEngine::Rendering::Universal::OverrideWeatherConfigScriptableObject*, ::System::Single, ::System::Int32>*>** StaticGet___9__351_0()
 		{
-			return (::System::Comparison_1<::System::Tuple_3<::UnityEngine::Rendering::Universal::OverrideWeatherConfigScriptableObject*, ::System::Single, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23228);
+			return (::System::Comparison_1<::System::Tuple_3<::UnityEngine::Rendering::Universal::OverrideWeatherConfigScriptableObject*, ::System::Single, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23DA0);
 		}
-		static ::System::Predicate_1<::UnityEngine::ParticleSystem*>** StaticGet___9__251_0()
+		static ::System::Comparison_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>** StaticGet___9__401_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23230);
+			return (::System::Comparison_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23DA8);
 		}
 		static ::System::Predicate_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>** StaticGet___9__403_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23238);
+			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::VisualEnvironmentE_WeatherConfigOverrideData*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23DB0);
 		}
 		static ::UnityEngine::Rendering::Universal::VisualEnvironmentE___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::VisualEnvironmentE___c**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23240);
+			return (::UnityEngine::Rendering::Universal::VisualEnvironmentE___c**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23DB8);
+		}
+		static ::System::Predicate_1<::UnityEngine::ParticleSystem*>** StaticGet___9__251_0()
+		{
+			return (::System::Predicate_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvironmentE___c_TypeDefinitionIndex)->GetStaticField(0x23DC0);
 		}
 
 		static ::System::Void _cctor()

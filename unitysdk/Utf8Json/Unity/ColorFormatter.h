@@ -8,13 +8,13 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json::Internal { class AutomataDictionary; }
 
-#define UTF8JSON_UNITY_COLORFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B3D9980)
-#define UTF8JSON_UNITY_COLORFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B3D95A0)
-#define UTF8JSON_UNITY_COLORFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D91E0)
+#define UTF8JSON_UNITY_COLORFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C002200)
+#define UTF8JSON_UNITY_COLORFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C001E20)
+#define UTF8JSON_UNITY_COLORFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C001A60)
 
 namespace Utf8Json::Unity
 {
-	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 83797;
+	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 85525;
 
 	class ColorFormatter : public ::System::Object
 	{

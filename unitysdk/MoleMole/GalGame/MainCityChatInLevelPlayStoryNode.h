@@ -9,24 +9,24 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::Battle { class AnimatorParamControl; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATINLEVELPLAYSTORYNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0xA023770)
-#define MOLEMOLE_GALGAME_MAINCITYCHATINLEVELPLAYSTORYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA023760)
+#define MOLEMOLE_GALGAME_MAINCITYCHATINLEVELPLAYSTORYNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x11753AA0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATINLEVELPLAYSTORYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11753A90)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatInLevelPlayStoryNode_TypeDefinitionIndex = 55093;
+	inline static constexpr unsigned int MainCityChatInLevelPlayStoryNode_TypeDefinitionIndex = 47706;
 
 	class MainCityChatInLevelPlayStoryNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::System::String* showName; // 0x18
-		::System::String* dialogueKey; // 0x20
-		::MoleMole::Battle::AnimatorParamControl* animatorParamControl; // 0x28
-		::System::Single speakSpeed; // 0x30
-		::System::Int32 actionDelay; // 0x34
+		::MoleMole::Battle::AnimatorParamControl* animatorParamControl; // 0x18
+		::System::String* showName; // 0x20
+		::System::String* dialogueKey; // 0x28
+		::MoleMole::GalGame::InLevelChatEntitySlot ChatEntitySlot; // 0x30
+		::System::Single time; // 0x34
 		::System::Boolean triggerOnFinish; // 0x38
-		::MoleMole::GalGame::InLevelChatEntitySlot ChatEntitySlot; // 0x3C
-		::System::Single time; // 0x40
+		::System::Single speakSpeed; // 0x3C
+		::System::Int32 actionDelay; // 0x40
 
 		::System::Void _ctor()
 		{

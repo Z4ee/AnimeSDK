@@ -5,11 +5,11 @@
 
 namespace NPCCrowd::GameplayTask { class NPCGameplayTaskBase; }
 
-#define NPCCROWD_GAMEPLAYTASK_FGAMEPLAYTASKEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x2F3C70)
+#define NPCCROWD_GAMEPLAYTASK_FGAMEPLAYTASKEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3A4A20)
 
 namespace NPCCrowd::GameplayTask
 {
-	inline static constexpr unsigned int FGameplayTaskEventData_TypeDefinitionIndex = 68277;
+	inline static constexpr unsigned int FGameplayTaskEventData_TypeDefinitionIndex = 42370;
 
 	struct alignas(8) FGameplayTaskEventData
 	{

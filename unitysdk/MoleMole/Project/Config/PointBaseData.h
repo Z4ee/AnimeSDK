@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_AD684E3B09B96AF6.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_PROJECT_CONFIG_POINTBASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x189B32A0)
+#define MOLEMOLE_PROJECT_CONFIG_POINTBASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16012220)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int PointBaseData_TypeDefinitionIndex = 16057;
+	inline static constexpr unsigned int PointBaseData_TypeDefinitionIndex = 10191;
 
 	class PointBaseData : public ::System::Object
 	{

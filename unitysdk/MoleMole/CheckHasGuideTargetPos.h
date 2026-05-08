@@ -3,13 +3,13 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Conditional.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-#define MOLEMOLE_CHECKHASGUIDETARGETPOS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB07C8C0)
-#define MOLEMOLE_CHECKHASGUIDETARGETPOS__CTOR_OFFSET UNITYSDK_OFFSET(0xB07CA90)
-#define MOLEMOLE_CHECKHASGUIDETARGETPOS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB07CAD0)
+#define MOLEMOLE_CHECKHASGUIDETARGETPOS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1100D710)
+#define MOLEMOLE_CHECKHASGUIDETARGETPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1100D8C0)
+#define MOLEMOLE_CHECKHASGUIDETARGETPOS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1100D950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckHasGuideTargetPos_TypeDefinitionIndex = 55199;
+	inline static constexpr unsigned int CheckHasGuideTargetPos_TypeDefinitionIndex = 46729;
 
 	class CheckHasGuideTargetPos : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{

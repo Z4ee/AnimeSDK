@@ -8,11 +8,11 @@ namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 namespace System::Threading { class WaitOrTimerCallback; }
 
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A1429F0)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1A142C20)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_WAIT_OFFSET UNITYSDK_OFFSET(0x1A141EA0)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A142D40)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A141E30)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AC5BAD0)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1AC5BC70)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_WAIT_OFFSET UNITYSDK_OFFSET(0x1AC5B0A0)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC5BDB0)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5B000)
 
 namespace System::Threading
 {
@@ -21,15 +21,15 @@ namespace System::Threading
 	class RegisteredWaitHandle : public ::System::MarshalByRefObject
 	{
 	public:
-		::System::Threading::ManualResetEvent* _cancelEvent; // 0x18
+		::System::Threading::WaitHandle* _finalEvent; // 0x18
 		::System::Threading::WaitOrTimerCallback* _callback; // 0x20
-		::System::Threading::WaitHandle* _finalEvent; // 0x28
-		::System::Object* _state; // 0x30
-		::System::Threading::WaitHandle* _waitObject; // 0x38
-		::System::Int32 _callsInProcess; // 0x40
-		::System::Boolean _unregistered; // 0x44
-		::System::Boolean _executeOnlyOnce; // 0x45
-		::System::TimeSpan _timeout; // 0x48
+		::System::Object* _state; // 0x28
+		::System::Threading::WaitHandle* _waitObject; // 0x30
+		::System::Threading::ManualResetEvent* _cancelEvent; // 0x38
+		::System::TimeSpan _timeout; // 0x40
+		::System::Int32 _callsInProcess; // 0x48
+		::System::Boolean _unregistered; // 0x4C
+		::System::Boolean _executeOnlyOnce; // 0x4D
 
 		::System::Void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, ::System::Boolean executeOnlyOnce)
 		{

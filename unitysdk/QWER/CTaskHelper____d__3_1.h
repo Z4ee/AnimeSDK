@@ -9,7 +9,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CTaskHelper____d__3_1_TypeDefinitionIndex = 84144;
+	inline static constexpr unsigned int CTaskHelper____d__3_1_TypeDefinitionIndex = 85872;
 
 	template <typename T>
 	class CTaskHelper____d__3_1 : public ::System::Object

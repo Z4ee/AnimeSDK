@@ -5,7 +5,7 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HackerGameCollisionData_TypeDefinitionIndex = 61524;
+	inline static constexpr unsigned int HackerGameCollisionData_TypeDefinitionIndex = 78272;
 
 	struct alignas(4) HackerGameCollisionData
 	{

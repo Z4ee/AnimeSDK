@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 #include "unitysdk/Share/GridDir.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDINPUTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB894260)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDINPUTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB8943B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDINPUTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E3F7E0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDINPUTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16E3F910)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardInputAction_TypeDefinitionIndex = 74796;
+	inline static constexpr unsigned int ChessboardInputAction_TypeDefinitionIndex = 63793;
 
 	class ChessboardInputAction : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::Share::GridDir>
 	{

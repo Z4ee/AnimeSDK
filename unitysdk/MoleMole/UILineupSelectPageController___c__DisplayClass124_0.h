@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_44EFB945CAE441A3;
+class Class_1_E081FCEC8F87505A;
 namespace MoleMole { class UILineupSelectPageController; }
 
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD76B440)
-#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS124_0__REALGO_B__0_OFFSET UNITYSDK_OFFSET(0xD76B450)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163C7AA0)
+#define MOLEMOLE_UILINEUPSELECTPAGECONTROLLER___C__DISPLAYCLASS124_0__REALGO_B__0_OFFSET UNITYSDK_OFFSET(0x163C7AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass124_0_TypeDefinitionIndex = 78691;
+	inline static constexpr unsigned int UILineupSelectPageController___c__DisplayClass124_0_TypeDefinitionIndex = 56013;
 
 	class UILineupSelectPageController___c__DisplayClass124_0 : public ::System::Object
 	{
 	public:
-		::Class_1_44EFB945CAE441A3* beginData; // 0x10
+		::Class_1_E081FCEC8F87505A* beginData; // 0x10
 		::MoleMole::UILineupSelectPageController* __4__this; // 0x18
 
 		::System::Void _ctor()

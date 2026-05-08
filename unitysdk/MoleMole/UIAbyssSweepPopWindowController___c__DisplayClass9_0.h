@@ -5,12 +5,12 @@
 namespace MoleMole { class UIAbyssSweepPopWindowController; }
 namespace MoleMole { class UICasperShopContext; }
 
-#define MOLEMOLE_UIABYSSSWEEPPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB94CE50)
-#define MOLEMOLE_UIABYSSSWEEPPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__GOTOSHOP_B__1_OFFSET UNITYSDK_OFFSET(0xB94CE60)
+#define MOLEMOLE_UIABYSSSWEEPPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15877100)
+#define MOLEMOLE_UIABYSSSWEEPPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__GOTOSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x15877110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssSweepPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 64360;
+	inline static constexpr unsigned int UIAbyssSweepPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 78354;
 
 	class UIAbyssSweepPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{

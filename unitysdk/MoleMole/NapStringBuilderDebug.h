@@ -11,30 +11,30 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class Object; }
 
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x1B182620)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x1B182540)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1B182C00)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1B182AA0)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B182D10)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x1BEE0930)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x1BEE0870)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1BEE0E40)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1BEE0D00)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE0F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NapStringBuilderDebug_TypeDefinitionIndex = 8000;
+	inline static constexpr unsigned int NapStringBuilderDebug_TypeDefinitionIndex = 7863;
 
 	class NapStringBuilderDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::MoleMole::NapStringBuilderDebug_Class_3_50D343C44D28BEFB** StaticGet_OnGUIHandlers()
-		{
-			return (::MoleMole::NapStringBuilderDebug_Class_3_50D343C44D28BEFB**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6DB0);
-		}
 		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_Field_5_2()
 		{
-			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6DB8);
+			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6DC0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6DC0);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6DC8);
+		}
+		static ::MoleMole::NapStringBuilderDebug_Class_3_50D343C44D28BEFB** StaticGet_OnGUIHandlers()
+		{
+			return (::MoleMole::NapStringBuilderDebug_Class_3_50D343C44D28BEFB**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6DD0);
 		}
 
 		::System::Void _ctor()

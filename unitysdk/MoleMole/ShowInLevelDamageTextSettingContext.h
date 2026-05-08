@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/ShowInLevelDamageTextType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_SHOWINLEVELDAMAGETEXTSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD449B10)
+#define MOLEMOLE_SHOWINLEVELDAMAGETEXTSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1703F8E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShowInLevelDamageTextSettingContext_TypeDefinitionIndex = 47696;
+	inline static constexpr unsigned int ShowInLevelDamageTextSettingContext_TypeDefinitionIndex = 65618;
 
 	class ShowInLevelDamageTextSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

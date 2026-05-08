@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_29DD4BD5303CB66D.h"
+#include "unitysdk/Enum_3_2CCA1E7B77A4559E.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_ATTACHEFFECTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD563C0)
+#define MOLEMOLE_GALGAME_ATTACHEFFECTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x125CB8C0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int AttachEffectCfg_TypeDefinitionIndex = 67224;
+	inline static constexpr unsigned int AttachEffectCfg_TypeDefinitionIndex = 82172;
 
 	class AttachEffectCfg : public ::System::Object
 	{
@@ -22,7 +22,7 @@ namespace MoleMole::GalGame
 		::System::String* AttachPiontName; // 0x30
 		::System::String* ConfigPosRotKey; // 0x38
 		::UnityEngine::Vector3 EffectScale; // 0x40
-		::Enum_3_29DD4BD5303CB66D AttachPointRotation; // 0x4C
+		::Enum_3_2CCA1E7B77A4559E AttachPointRotation; // 0x4C
 
 		::System::Void _ctor()
 		{

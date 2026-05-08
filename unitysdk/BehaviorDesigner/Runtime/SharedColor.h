@@ -3,12 +3,12 @@
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLOR_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B031950)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B031A00)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLOR_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BEB2570)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB2640)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedColor_TypeDefinitionIndex = 31198;
+	inline static constexpr unsigned int SharedColor_TypeDefinitionIndex = 31727;
 
 	class SharedColor : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Color>
 	{

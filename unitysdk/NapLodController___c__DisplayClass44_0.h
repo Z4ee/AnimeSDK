@@ -6,10 +6,10 @@
 class NapLodController;
 namespace UnityEngine { class Object; }
 
-#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B0CA40)
-#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__LOADLODMESHASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x9B0CA50)
+#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF85F3D0)
+#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__LOADLODMESHASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xF85F3E0)
 
-inline static constexpr unsigned int NapLodController___c__DisplayClass44_0_TypeDefinitionIndex = 44577;
+inline static constexpr unsigned int NapLodController___c__DisplayClass44_0_TypeDefinitionIndex = 82243;
 
 class NapLodController___c__DisplayClass44_0 : public ::System::Object
 {

@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Remoting::Contexts { class IContextAttribute; }
 
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_GET_CONTEXTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x19B02B90)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19B02BA0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B02A70)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_GET_CONTEXTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1A6C0450)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A6C0460)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C0330)
 
 namespace System::Runtime::Remoting
 {
@@ -17,8 +17,8 @@ namespace System::Runtime::Remoting
 	class ActivatedClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
 	public:
-		::System::String* applicationUrl; // 0x20
-		::System::Type* obj_type; // 0x28
+		::System::Type* obj_type; // 0x20
+		::System::String* applicationUrl; // 0x28
 
 		::System::Void _ctor(::System::String* typeName, ::System::String* assemblyName, ::System::String* appUrl)
 		{

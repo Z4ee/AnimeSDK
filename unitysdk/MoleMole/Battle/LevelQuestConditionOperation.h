@@ -3,12 +3,12 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int LevelQuestConditionOperation_TypeDefinitionIndex = 63157;
+	inline static constexpr unsigned int LevelQuestConditionOperation_TypeDefinitionIndex = 53162;
 
 	enum class LevelQuestConditionOperation : ::System::Int32
 	{
 		Subtract = 2,
-		Add = 1,
 		Set = 0,
+		Add = 1,
 	};
 }

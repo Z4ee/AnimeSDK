@@ -9,30 +9,30 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering::Universal { class SingleWeatherConfigWater; }
 namespace UnityEngine::Rendering::Universal { class WaterProxy; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_CLEARALLRAMPTEXTURE_OFFSET UNITYSDK_OFFSET(0x17831830)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_GET_ENABLEWATERPROXY_OFFSET UNITYSDK_OFFSET(0x17831520)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_GET_HASWATERPROXY_OFFSET UNITYSDK_OFFSET(0x178315A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_REGISTERWATERPROXY_OFFSET UNITYSDK_OFFSET(0x17831620)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_REMOVERAMPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1782D740)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_UNREGISTERWATERPROXY_OFFSET UNITYSDK_OFFSET(0x17831700)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_UPDATEWATERVALUE_OFFSET UNITYSDK_OFFSET(0x1781FAD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_UTILGENERATERAMPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1782CF10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17831A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_CLEARALLRAMPTEXTURE_OFFSET UNITYSDK_OFFSET(0x192B4A30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_GET_ENABLEWATERPROXY_OFFSET UNITYSDK_OFFSET(0x192B4720)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_GET_HASWATERPROXY_OFFSET UNITYSDK_OFFSET(0x192B47A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_REGISTERWATERPROXY_OFFSET UNITYSDK_OFFSET(0x192B4820)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_REMOVERAMPTEXTURE_OFFSET UNITYSDK_OFFSET(0x192AFC50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_UNREGISTERWATERPROXY_OFFSET UNITYSDK_OFFSET(0x192B4900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_UPDATEWATERVALUE_OFFSET UNITYSDK_OFFSET(0x192A1350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER_UTILGENERATERAMPTEXTURE_OFFSET UNITYSDK_OFFSET(0x192AF2E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERPROXYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x192B4C60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterProxyManager_TypeDefinitionIndex = 29422;
+	inline static constexpr unsigned int WaterProxyManager_TypeDefinitionIndex = 29941;
 
 	class WaterProxyManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterProxy*>** StaticGet_s_WaterProxyList()
-		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterProxy*>**)Il2CppClass::FromTypeDefinitionIndex(WaterProxyManager_TypeDefinitionIndex)->GetStaticField(0x22EA0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Rendering::Universal::SingleWeatherConfigWater*, ::UnityEngine::Texture2D*>** StaticGet_cachedRampTextures()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Rendering::Universal::SingleWeatherConfigWater*, ::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(WaterProxyManager_TypeDefinitionIndex)->GetStaticField(0x22EA8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Rendering::Universal::SingleWeatherConfigWater*, ::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(WaterProxyManager_TypeDefinitionIndex)->GetStaticField(0x23A10);
+		}
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterProxy*>** StaticGet_s_WaterProxyList()
+		{
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WaterProxy*>**)Il2CppClass::FromTypeDefinitionIndex(WaterProxyManager_TypeDefinitionIndex)->GetStaticField(0x23A18);
 		}
 
 		static ::System::Void _cctor()

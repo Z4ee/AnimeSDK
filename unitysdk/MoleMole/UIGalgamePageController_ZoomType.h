@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_ZoomType_TypeDefinitionIndex = 58892;
+	inline static constexpr unsigned int UIGalgamePageController_ZoomType_TypeDefinitionIndex = 41787;
 
 	enum class UIGalgamePageController_ZoomType : ::System::Int32
 	{

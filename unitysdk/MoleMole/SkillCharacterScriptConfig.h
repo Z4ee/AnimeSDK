@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_626947D8870F8D56_1.h"
+#include "unitysdk/Enum_3_626947D8870F8D56.h"
 #include "unitysdk/MoleMole/AttackType.h"
 #include "unitysdk/MoleMole/CharacterScriptConfigBase.h"
 #include "unitysdk/MoleMole/Config/CharacterSize.h"
@@ -24,32 +24,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_CLEAN_OFFSET UNITYSDK_OFFSET(0xC7D86D0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GETSHORTDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC7D8750)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_ANIMATORZONEGROUP_OFFSET UNITYSDK_OFFSET(0xC7D8A00)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_EVENTPATTERNCONFIGS_OFFSET UNITYSDK_OFFSET(0xC7D8C10)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTSOBJECT_OFFSET UNITYSDK_OFFSET(0xC7D9320)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTS_OFFSET UNITYSDK_OFFSET(0xC7D9240)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_STATELENGTHCONFIG_OFFSET UNITYSDK_OFFSET(0xC7D8800)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC7D8F80)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7D95D0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D9410)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC7D95E0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_CLEAN_OFFSET UNITYSDK_OFFSET(0x10E4FAC0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GETSHORTDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x10E279D0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_ANIMATORZONEGROUP_OFFSET UNITYSDK_OFFSET(0x10E4FD40)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_EVENTPATTERNCONFIGS_OFFSET UNITYSDK_OFFSET(0x10E4FF80)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTSOBJECT_OFFSET UNITYSDK_OFFSET(0x10E506D0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTS_OFFSET UNITYSDK_OFFSET(0x10E50550)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_STATELENGTHCONFIG_OFFSET UNITYSDK_OFFSET(0x10E4FB20)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x10E502B0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E50A30)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10E50850)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x10E50A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillCharacterScriptConfig_TypeDefinitionIndex = 61834;
+	inline static constexpr unsigned int SkillCharacterScriptConfig_TypeDefinitionIndex = 73510;
 
 	class SkillCharacterScriptConfig : public ::MoleMole::CharacterScriptConfigBase
 	{
 	public:
 		static ::System::Boolean* StaticGet_S_False()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xD8B0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xDE10);
 		}
 		static ::System::Boolean* StaticGet__hideOldAnimEvents()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xD8B1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xDE11);
 		}
 		::System::String* displayName; // 0x110
 		::System::Boolean IsBossLockState; // 0x118
@@ -69,7 +69,7 @@ namespace MoleMole
 		::System::Single farDistance; // 0x160
 		::MoleMole::AttackType leaveFarType; // 0x164
 		::System::Boolean EnableBlendMove; // 0x168
-		::Enum_3_626947D8870F8D56_1 MoveType; // 0x16C
+		::Enum_3_626947D8870F8D56 MoveType; // 0x16C
 		::System::Single BlendSpeed; // 0x170
 		::MoleMole::AnimatorBlendData* BlendData; // 0x178
 		::MoleMole::AnimatorBlendData* StartBlendData; // 0x180

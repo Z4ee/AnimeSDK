@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIBangkovTalentRowWidgetController_Context; }
+template <typename T> class Class_0_16E4307DCC41950C_13;
+
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x13F4BDF0)
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_78834FA6E0B45003_OFFSET UNITYSDK_OFFSET(0x13F4C070)
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_9D768FB7C06C1DF3_OFFSET UNITYSDK_OFFSET(0x13F4BDA0)
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_A1FBF6E9F7B8DDD0_OFFSET UNITYSDK_OFFSET(0x13F4BFD0)
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x13F4BF40)
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x13F4BFE0)
+#define CLASS_2_7FE1B2A7181744D7_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13F4BEB0)
+#define CLASS_2_7FE1B2A7181744D7__CTOR_OFFSET UNITYSDK_OFFSET(0x13F4BEF0)
+
+inline static constexpr unsigned int Class_2_7FE1B2A7181744D7_TypeDefinitionIndex = 72395;
+
+class Class_2_7FE1B2A7181744D7 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTalentRowWidgetController_Context*>* Field_2_0; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9D768FB7C06C1DF3(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_9D768FB7C06C1DF3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_43D99DDD80B1E30C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_43D99DDD80B1E30C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTalentRowWidgetController_Context*>* Method_2_A1FBF6E9F7B8DDD0()
+	{
+		return ((::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTalentRowWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_A1FBF6E9F7B8DDD0_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_78834FA6E0B45003(::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTalentRowWidgetController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC41950C_13<::MoleMole::UIBangkovTalentRowWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_7FE1B2A7181744D7_METHOD_2_78834FA6E0B45003_OFFSET))(this, a1);
+	}
+};

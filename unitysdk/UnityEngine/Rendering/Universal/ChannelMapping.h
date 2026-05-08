@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ChannelMapping_TypeDefinitionIndex = 29630;
+	inline static constexpr unsigned int ChannelMapping_TypeDefinitionIndex = 30158;
 
 	enum class ChannelMapping : ::System::Int32
 	{

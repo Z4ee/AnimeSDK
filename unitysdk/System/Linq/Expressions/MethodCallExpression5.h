@@ -9,12 +9,12 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1B33E870)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1B33F020)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B33E930)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1B33F030)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1B33E940)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33E7E0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1BFEBFF0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BFEC7A0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFEC0B0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1BFEC7B0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BFEC0C0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEBF60)
 
 namespace System::Linq::Expressions
 {
@@ -24,10 +24,10 @@ namespace System::Linq::Expressions
 	{
 	public:
 		::System::Object* _arg0; // 0x18
-		::System::Linq::Expressions::Expression* _arg3; // 0x20
+		::System::Linq::Expressions::Expression* _arg2; // 0x20
 		::System::Linq::Expressions::Expression* _arg1; // 0x28
-		::System::Linq::Expressions::Expression* _arg2; // 0x30
-		::System::Linq::Expressions::Expression* _arg4; // 0x38
+		::System::Linq::Expressions::Expression* _arg4; // 0x30
+		::System::Linq::Expressions::Expression* _arg3; // 0x38
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4)
 		{

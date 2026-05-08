@@ -5,22 +5,22 @@
 namespace Code::Logic::Data::ScriptObject::Level { class PatternTimeline; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_755994DA329BE668___C_METHOD_1_6AC3C9EDFD9984F3_OFFSET UNITYSDK_OFFSET(0x8908BA0)
-#define CLASS_1_755994DA329BE668___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8908B50)
-#define CLASS_1_755994DA329BE668___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8908B90)
+#define CLASS_1_755994DA329BE668___C_METHOD_1_6AC3C9EDFD9984F3_OFFSET UNITYSDK_OFFSET(0x12936180)
+#define CLASS_1_755994DA329BE668___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12936130)
+#define CLASS_1_755994DA329BE668___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12936170)
 
-inline static constexpr unsigned int Class_1_755994DA329BE668___c_TypeDefinitionIndex = 41140;
+inline static constexpr unsigned int Class_1_755994DA329BE668___c_TypeDefinitionIndex = 82665;
 
 class Class_1_755994DA329BE668___c : public ::System::Object
 {
 public:
-	static ::Class_1_755994DA329BE668___c** StaticGet___9()
-	{
-		return (::Class_1_755994DA329BE668___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_755994DA329BE668___c_TypeDefinitionIndex)->GetStaticField(0x38CC0);
-	}
 	static ::System::Func_2<::Code::Logic::Data::ScriptObject::Level::PatternTimeline*, ::System::Int32>** StaticGet___9__4_0()
 	{
-		return (::System::Func_2<::Code::Logic::Data::ScriptObject::Level::PatternTimeline*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_755994DA329BE668___c_TypeDefinitionIndex)->GetStaticField(0x38CC8);
+		return (::System::Func_2<::Code::Logic::Data::ScriptObject::Level::PatternTimeline*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_755994DA329BE668___c_TypeDefinitionIndex)->GetStaticField(0x36920);
+	}
+	static ::Class_1_755994DA329BE668___c** StaticGet___9()
+	{
+		return (::Class_1_755994DA329BE668___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_755994DA329BE668___c_TypeDefinitionIndex)->GetStaticField(0x36928);
 	}
 
 	static ::System::Void _cctor()

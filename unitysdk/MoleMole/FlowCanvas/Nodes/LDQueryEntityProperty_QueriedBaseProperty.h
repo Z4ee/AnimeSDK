@@ -3,13 +3,13 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDQueryEntityProperty_QueriedBaseProperty_TypeDefinitionIndex = 65528;
+	inline static constexpr unsigned int LDQueryEntityProperty_QueriedBaseProperty_TypeDefinitionIndex = 55585;
 
 	enum class LDQueryEntityProperty_QueriedBaseProperty : ::System::Int32
 	{
-		MaxSP = 8,
+		CurHP = 0,
 		MaxHP = 1,
 		CurSP = 7,
-		CurHP = 0,
+		MaxSP = 8,
 	};
 }

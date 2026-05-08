@@ -6,13 +6,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xA659B40)
-#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK__CTOR_OFFSET UNITYSDK_OFFSET(0xA659D60)
-#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK___BASE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xA659D80)
+#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1386A940)
+#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x1386AB40)
+#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK___BASE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1386AB60)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int SimpleBoundsMark_TypeDefinitionIndex = 38710;
+	inline static constexpr unsigned int SimpleBoundsMark_TypeDefinitionIndex = 64710;
 
 	class SimpleBoundsMark : public ::MoleMole::SceneMark::SceneMarkData_1<::MoleMole::SceneMark::SimpleBoundsMark*>
 	{

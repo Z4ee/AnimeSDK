@@ -7,12 +7,12 @@
 namespace MoleMole { class UIMainCityPhotoPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x357960)
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7915A0)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityPhotoPopWindowController__SavePhotoRT_d__20_TypeDefinitionIndex = 71679;
+	inline static constexpr unsigned int UIMainCityPhotoPopWindowController__SavePhotoRT_d__20_TypeDefinitionIndex = 46639;
 
 	struct alignas(8) UIMainCityPhotoPopWindowController__SavePhotoRT_d__20
 	{

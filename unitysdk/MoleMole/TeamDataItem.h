@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TEAMDATAITEM_CONFIRMFIRSTAVAILABLEAVATARINDEX_OFFSET UNITYSDK_OFFSET(0x6ED8930)
-#define MOLEMOLE_TEAMDATAITEM_GET_SELECTINDEX_OFFSET UNITYSDK_OFFSET(0x6ED88B0)
-#define MOLEMOLE_TEAMDATAITEM_MARKCLEARRECREATE_OFFSET UNITYSDK_OFFSET(0x6ED8CB0)
-#define MOLEMOLE_TEAMDATAITEM_RUNTIMEREMOVEAVATARDATAITEMBYINDEX_OFFSET UNITYSDK_OFFSET(0x6ED8720)
-#define MOLEMOLE_TEAMDATAITEM__CONFIRMFIRSTAVAILABLEAVATARINDEX_G___MARKLOADSHOW_7_0_OFFSET UNITYSDK_OFFSET(0x6ED8C90)
-#define MOLEMOLE_TEAMDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x6ED8DC0)
+#define MOLEMOLE_TEAMDATAITEM_CONFIRMFIRSTAVAILABLEAVATARINDEX_OFFSET UNITYSDK_OFFSET(0x11DFB2E0)
+#define MOLEMOLE_TEAMDATAITEM_GET_SELECTINDEX_OFFSET UNITYSDK_OFFSET(0x11DFB280)
+#define MOLEMOLE_TEAMDATAITEM_MARKCLEARRECREATE_OFFSET UNITYSDK_OFFSET(0x11DFB5F0)
+#define MOLEMOLE_TEAMDATAITEM_RUNTIMEREMOVEAVATARDATAITEMBYINDEX_OFFSET UNITYSDK_OFFSET(0x11DFB110)
+#define MOLEMOLE_TEAMDATAITEM__CONFIRMFIRSTAVAILABLEAVATARINDEX_G___MARKLOADSHOW_7_0_OFFSET UNITYSDK_OFFSET(0x11DFB5D0)
+#define MOLEMOLE_TEAMDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x11DFB6E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TeamDataItem_TypeDefinitionIndex = 45424;
+	inline static constexpr unsigned int TeamDataItem_TypeDefinitionIndex = 58809;
 
 	class TeamDataItem : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TeamUniqueAbility>* teamUniqueAbility; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::InLevelAvatarDataItem*>* removedAvatarMemberList; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::InLevelAvatarDataItem*>* avatarMemberList; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::InLevelAvatarDataItem*>* partnerAvatarMemberList; // 0x28
-		::System::Collections::Generic::List_1<::MoleMole::InLevelBuddyDataItem*>* EquipedBuddys; // 0x30
+		::System::Collections::Generic::List_1<::MoleMole::InLevelAvatarDataItem*>* avatarMemberList; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::InLevelBuddyDataItem*>* EquipedBuddys; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::InLevelAvatarDataItem*>* removedAvatarMemberList; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::InLevelAvatarDataItem*>* partnerAvatarMemberList; // 0x30
 		::System::Int32 initTeamMemberIndex; // 0x38
 
 		::System::Void _ctor()

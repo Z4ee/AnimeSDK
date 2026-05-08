@@ -3,30 +3,30 @@
 #include "unitysdk/Enum_3_205B03D40B9BD873.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_1_8C25B6E4C19F237F_Class_1_9E89B2D44593C915;
+class Class_1_B36E7CC770A900CC_Class_1_9E89B2D44593C915;
 namespace System { class Action; }
 
-#define MOLEMOLE_UITUTORIALDIALOG_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x971B380)
-#define MOLEMOLE_UITUTORIALDIALOG_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x971B460)
-#define MOLEMOLE_UITUTORIALDIALOG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x971B3E0)
-#define MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x971B390)
+#define MOLEMOLE_UITUTORIALDIALOG_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x113309C0)
+#define MOLEMOLE_UITUTORIALDIALOG_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11330AA0)
+#define MOLEMOLE_UITUTORIALDIALOG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11330A20)
+#define MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x113309D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITutorialDialog_TypeDefinitionIndex = 78555;
+	inline static constexpr unsigned int UITutorialDialog_TypeDefinitionIndex = 64285;
 
 	class UITutorialDialog : public ::MoleMole::DisplayMessageBase
 	{
 	public:
 		::System::Action* callback; // 0x28
-		::Class_1_8C25B6E4C19F237F_Class_1_9E89B2D44593C915* popupGroupData; // 0x30
-		::System::Boolean CanCloseOnlyReachEnd; // 0x38
-		::System::Boolean isPreload; // 0x39
-		::System::Boolean _isLoaded; // 0x3A
+		::Class_1_B36E7CC770A900CC_Class_1_9E89B2D44593C915* popupGroupData; // 0x30
+		::System::Boolean isPreload; // 0x38
+		::System::Boolean _isLoaded; // 0x39
+		::System::Boolean CanCloseOnlyReachEnd; // 0x3A
 
-		::System::Void _ctor(::Class_1_8C25B6E4C19F237F_Class_1_9E89B2D44593C915* popupGroupData, ::System::Action* callback)
+		::System::Void _ctor(::Class_1_B36E7CC770A900CC_Class_1_9E89B2D44593C915* popupGroupData, ::System::Action* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_8C25B6E4C19F237F_Class_1_9E89B2D44593C915*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET))(this, popupGroupData, callback);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B36E7CC770A900CC_Class_1_9E89B2D44593C915*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET))(this, popupGroupData, callback);
 		}
 
 		::System::Void _ctor_1(::System::Int32 id, ::System::Action* callback, ::Enum_3_205B03D40B9BD873 page)

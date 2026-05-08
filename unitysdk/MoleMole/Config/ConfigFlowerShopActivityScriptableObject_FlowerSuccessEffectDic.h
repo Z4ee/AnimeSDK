@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDicEntry; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERSUCCESSEFFECTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x94FEF70)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERSUCCESSEFFECTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1241C400)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDic_TypeDefinitionIndex = 79250;
+	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDic_TypeDefinitionIndex = 68425;
 
 	class ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::MoleMole::UI::FlowerShop::EFinishJudge, ::System::String*, ::MoleMole::Config::ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDicEntry*>
 	{

@@ -7,18 +7,18 @@
 namespace DG::Tweening { class DOTweenAnimation; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define DG_TWEENING_DOTWEENANIMATION__START_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6A5D30)
-#define DG_TWEENING_DOTWEENANIMATION__START_D__33_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x30F550)
+#define DG_TWEENING_DOTWEENANIMATION__START_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6E66E0)
+#define DG_TWEENING_DOTWEENANIMATION__START_D__33_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6069D0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTweenAnimation__Start_d__33_TypeDefinitionIndex = 84229;
+	inline static constexpr unsigned int DOTweenAnimation__Start_d__33_TypeDefinitionIndex = 85918;
 
 	struct alignas(8) DOTweenAnimation__Start_d__33
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::DG::Tweening::DOTweenAnimation* __4__this; // 0x20
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x28
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
+		::DG::Tweening::DOTweenAnimation* __4__this; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

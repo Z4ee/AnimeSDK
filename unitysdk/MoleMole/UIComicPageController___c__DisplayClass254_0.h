@@ -5,12 +5,12 @@
 namespace MoleMole { class UIComicPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS254_0__CLOSEMENU_B__0_OFFSET UNITYSDK_OFFSET(0xD9DC840)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS254_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9C6070)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS254_0__CLOSEMENU_B__0_OFFSET UNITYSDK_OFFSET(0x14300E30)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS254_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142EBA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass254_0_TypeDefinitionIndex = 62535;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass254_0_TypeDefinitionIndex = 40022;
 
 	class UIComicPageController___c__DisplayClass254_0 : public ::System::Object
 	{

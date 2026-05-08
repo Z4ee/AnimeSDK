@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_HPBarLineParam_TypeDefinitionIndex = 79594;
+	inline static constexpr unsigned int ConfigMisc_HPBarLineParam_TypeDefinitionIndex = 63724;
 
 	struct alignas(8) ConfigMisc_HPBarLineParam
 	{

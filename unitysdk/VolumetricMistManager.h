@@ -8,39 +8,39 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define VOLUMETRICMISTMANAGER_BLITVOLUMETRICMIST_OFFSET UNITYSDK_OFFSET(0x196687E0)
-#define VOLUMETRICMISTMANAGER_DRAWVOLUMETRICMIST_OFFSET UNITYSDK_OFFSET(0x1967D5C0)
-#define VOLUMETRICMISTMANAGER_HASVOLUMETRICMISTRENDER_OFFSET UNITYSDK_OFFSET(0x19668740)
-#define VOLUMETRICMISTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1967DC70)
+#define VOLUMETRICMISTMANAGER_BLITVOLUMETRICMIST_OFFSET UNITYSDK_OFFSET(0x1AD066F0)
+#define VOLUMETRICMISTMANAGER_DRAWVOLUMETRICMIST_OFFSET UNITYSDK_OFFSET(0x1AD1D340)
+#define VOLUMETRICMISTMANAGER_HASVOLUMETRICMISTRENDER_OFFSET UNITYSDK_OFFSET(0x1AD06650)
+#define VOLUMETRICMISTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD1DB70)
 
-inline static constexpr unsigned int VolumetricMistManager_TypeDefinitionIndex = 28999;
+inline static constexpr unsigned int VolumetricMistManager_TypeDefinitionIndex = 29518;
 
 class VolumetricMistManager : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::List_1<::VolumetricMist_VolumetricMistRenderInfo>** StaticGet_VolumetricMistRenderInfos()
 	{
-		return (::System::Collections::Generic::List_1<::VolumetricMist_VolumetricMistRenderInfo>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x22740);
-	}
-	static ::System::Int32* StaticGet__VolumetricMistScreenSize()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x5990);
-	}
-	static ::System::Int32* StaticGet__UseNearQuadDepth()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x5994);
-	}
-	static ::System::Boolean* StaticGet_s_MistBlitAfterParticleDecal()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x5998);
-	}
-	static ::System::Int32* StaticGet__Cull()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x599C);
+		return (::System::Collections::Generic::List_1<::VolumetricMist_VolumetricMistRenderInfo>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x232B0);
 	}
 	static ::System::Int32* StaticGet__VolumetricMistTex()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x59A0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x59C0);
+	}
+	static ::System::Boolean* StaticGet_s_MistBlitAfterParticleDecal()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x59C4);
+	}
+	static ::System::Int32* StaticGet__Cull()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x59C8);
+	}
+	static ::System::Int32* StaticGet__VolumetricMistScreenSize()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x59CC);
+	}
+	static ::System::Int32* StaticGet__UseNearQuadDepth()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMistManager_TypeDefinitionIndex)->GetStaticField(0x59D0);
 	}
 
 	static ::System::Void _cctor()

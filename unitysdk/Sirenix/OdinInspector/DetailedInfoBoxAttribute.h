@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_DETAILEDINFOBOXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B114250)
+#define SIRENIX_ODININSPECTOR_DETAILEDINFOBOXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F6E0)
 
 namespace Sirenix::OdinInspector
 {
@@ -14,8 +14,8 @@ namespace Sirenix::OdinInspector
 	class DetailedInfoBoxAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Message; // 0x10
-		::System::String* Details; // 0x18
+		::System::String* Details; // 0x10
+		::System::String* Message; // 0x18
 		::System::String* VisibleIf; // 0x20
 		::Sirenix::OdinInspector::InfoMessageType InfoMessageType; // 0x28
 		::System::Boolean ReplaceNoWrapSpaces; // 0x2C

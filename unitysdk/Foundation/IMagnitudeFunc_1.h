@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IMagnitudeFunc_1_TypeDefinitionIndex = 8941;
+	inline static constexpr unsigned int IMagnitudeFunc_1_TypeDefinitionIndex = 8854;
 
 	template <typename T>
 	class IMagnitudeFunc_1

@@ -8,12 +8,12 @@ namespace NPCCrowd::AI { class ReactionCallbackDelegate; }
 namespace NPCCrowd::AI { class ReactionConditionDelegate; }
 namespace System { class Object; }
 
-#define NPCCROWD_AI_REGISTERITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x354760)
-#define NPCCROWD_AI_REGISTERITEM___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x354770)
+#define NPCCROWD_AI_REGISTERITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x6B41F0)
+#define NPCCROWD_AI_REGISTERITEM___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6B4200)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int RegisterItem_TypeDefinitionIndex = 64510;
+	inline static constexpr unsigned int RegisterItem_TypeDefinitionIndex = 76095;
 
 	struct alignas(8) RegisterItem
 	{

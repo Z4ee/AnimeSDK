@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWRESULTCAMERAANIMNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x918C300)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWRESULTCAMERAANIMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x918C390)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWRESULTCAMERAANIMNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x11CAB3D0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWRESULTCAMERAANIMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11CAB440)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowResultCameraAnimNode_TypeDefinitionIndex = 38005;
+	inline static constexpr unsigned int ConfigHollowResultCameraAnimNode_TypeDefinitionIndex = 52517;
 
 	class ConfigHollowResultCameraAnimNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

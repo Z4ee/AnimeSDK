@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A0FF1B0)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FF250)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1AD2F2F0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD2F3B0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedGameObject_TypeDefinitionIndex = 31200;
+	inline static constexpr unsigned int SharedGameObject_TypeDefinitionIndex = 31729;
 
 	class SharedGameObject : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::GameObject*>
 	{

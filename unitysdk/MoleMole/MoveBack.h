@@ -7,23 +7,23 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_MOVEBACK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB863090)
-#define MOLEMOLE_MOVEBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8630F0)
-#define MOLEMOLE_MOVEBACK___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB863130)
+#define MOLEMOLE_MOVEBACK_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1783C4E0)
+#define MOLEMOLE_MOVEBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1783C530)
+#define MOLEMOLE_MOVEBACK___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1783C5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MoveBack_TypeDefinitionIndex = 42888;
+	inline static constexpr unsigned int MoveBack_TypeDefinitionIndex = 52120;
 
 	class MoveBack : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::String* TargetAnchorName; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::System::Single MinDistance; // 0x68
-		::MoleMole::AIMoveTargetType Type; // 0x6C
-		::System::Single RotateSpeed; // 0x70
-		::System::Single MoveTime; // 0x74
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::System::String* TargetAnchorName; // 0x60
+		::System::Single RotateSpeed; // 0x68
+		::System::Single MoveTime; // 0x6C
+		::System::Single MinDistance; // 0x70
+		::MoleMole::AIMoveTargetType Type; // 0x74
 
 		::System::Void _ctor()
 		{

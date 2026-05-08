@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int GeometryUtils_TypeDefinitionIndex = 29908;
+	inline static constexpr unsigned int GeometryUtils_TypeDefinitionIndex = 30436;
 
 	class GeometryUtils : public ::System::Object
 	{

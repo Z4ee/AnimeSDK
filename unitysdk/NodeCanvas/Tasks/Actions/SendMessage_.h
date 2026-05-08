@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_SENDMESSAGE__GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A124050)
-#define NODECANVAS_TASKS_ACTIONS_SENDMESSAGE__ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A1240C0)
-#define NODECANVAS_TASKS_ACTIONS_SENDMESSAGE___CTOR_OFFSET UNITYSDK_OFFSET(0x1A124170)
+#define NODECANVAS_TASKS_ACTIONS_SENDMESSAGE__GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B464400)
+#define NODECANVAS_TASKS_ACTIONS_SENDMESSAGE__ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B464470)
+#define NODECANVAS_TASKS_ACTIONS_SENDMESSAGE___CTOR_OFFSET UNITYSDK_OFFSET(0x1B464520)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendMessage__TypeDefinitionIndex = 27076;
+	inline static constexpr unsigned int SendMessage__TypeDefinitionIndex = 27894;
 
 	class SendMessage_ : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{

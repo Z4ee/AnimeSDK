@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGachaPageController; }
 
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS59_0__CHECKEXTRATIPSANDGACHA_B__0_OFFSET UNITYSDK_OFFSET(0xA97A540)
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA97A530)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS59_0__CHECKEXTRATIPSANDGACHA_B__0_OFFSET UNITYSDK_OFFSET(0x15199C70)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15199C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass59_0_TypeDefinitionIndex = 55233;
+	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass59_0_TypeDefinitionIndex = 45779;
 
 	class UIGachaPageController___c__DisplayClass59_0 : public ::System::Object
 	{

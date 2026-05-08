@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int InterpCurve_1_TimeCategory_TypeDefinitionIndex = 35532;
+	inline static constexpr unsigned int InterpCurve_1_TimeCategory_TypeDefinitionIndex = 36076;
 
 	enum class InterpCurve_1_TimeCategory : ::System::Int32
 	{

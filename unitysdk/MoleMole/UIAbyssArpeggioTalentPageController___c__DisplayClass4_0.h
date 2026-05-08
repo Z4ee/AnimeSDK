@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBC0D0)
-#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__DISPLAYCLASS4_0__REFRESHUPGRADEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xDEBC0E0)
+#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17075730)
+#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__DISPLAYCLASS4_0__REFRESHUPGRADEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x17075740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioTalentPageController___c__DisplayClass4_0_TypeDefinitionIndex = 78749;
+	inline static constexpr unsigned int UIAbyssArpeggioTalentPageController___c__DisplayClass4_0_TypeDefinitionIndex = 46340;
 
 	class UIAbyssArpeggioTalentPageController___c__DisplayClass4_0 : public ::System::Object
 	{

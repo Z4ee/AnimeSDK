@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DepthOfFieldMode_TypeDefinitionIndex = 29587;
+	inline static constexpr unsigned int DepthOfFieldMode_TypeDefinitionIndex = 30115;
 
 	enum class DepthOfFieldMode : ::System::Int32
 	{

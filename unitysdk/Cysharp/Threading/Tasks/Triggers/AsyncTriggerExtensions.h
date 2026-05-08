@@ -6,12 +6,12 @@ namespace Cysharp::Threading::Tasks::Triggers { class AsyncDestroyTrigger; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGEREXTENSIONS_GETASYNCDESTROYTRIGGER_1_OFFSET UNITYSDK_OFFSET(0x1B692310)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGEREXTENSIONS_GETASYNCDESTROYTRIGGER_OFFSET UNITYSDK_OFFSET(0x1B6922D0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGEREXTENSIONS_GETASYNCDESTROYTRIGGER_1_OFFSET UNITYSDK_OFFSET(0x1C428B70)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGEREXTENSIONS_GETASYNCDESTROYTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C428B30)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerExtensions_TypeDefinitionIndex = 28137;
+	inline static constexpr unsigned int AsyncTriggerExtensions_TypeDefinitionIndex = 28655;
 
 	class AsyncTriggerExtensions : public ::System::Object
 	{

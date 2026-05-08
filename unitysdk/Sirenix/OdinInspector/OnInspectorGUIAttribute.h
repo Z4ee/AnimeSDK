@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_ONINSPECTORGUIATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B115360)
-#define SIRENIX_ODININSPECTOR_ONINSPECTORGUIATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B115370)
-#define SIRENIX_ODININSPECTOR_ONINSPECTORGUIATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B115350)
+#define SIRENIX_ODININSPECTOR_ONINSPECTORGUIATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C020800)
+#define SIRENIX_ODININSPECTOR_ONINSPECTORGUIATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C020820)
+#define SIRENIX_ODININSPECTOR_ONINSPECTORGUIATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0207F0)
 
 namespace Sirenix::OdinInspector
 {
@@ -15,10 +15,10 @@ namespace Sirenix::OdinInspector
 	class OnInspectorGUIAttribute : public ::Sirenix::OdinInspector::ShowInInspectorAttribute
 	{
 	public:
-		::System::String* AppendMethodName; // 0x10
+		::System::String* Append; // 0x10
 		::System::String* PrependMethodName; // 0x18
 		::System::String* Prepend; // 0x20
-		::System::String* Append; // 0x28
+		::System::String* AppendMethodName; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FLATBUFFERS_VECTOROFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x302300)
+#define FLATBUFFERS_VECTOROFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x2E85F0)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int VectorOffset_TypeDefinitionIndex = 8734;
+	inline static constexpr unsigned int VectorOffset_TypeDefinitionIndex = 8745;
 
 	struct alignas(4) VectorOffset
 	{

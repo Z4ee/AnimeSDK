@@ -13,32 +13,32 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE_MOLEMOLE_FLOWCANVAS_NODES_ISCENEPERFORMCOROUTINEPROVIDER_STARTCOROUTINE_OFFSET UNITYSDK_OFFSET(0xB981710)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB981000)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9816F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__NEWINVOKE_OFFSET UNITYSDK_OFFSET(0xB981330)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB981780)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__WRAPCALLBACK_OFFSET UNITYSDK_OFFSET(0xB981200)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE___WRAPCALLBACK_B__10_0_OFFSET UNITYSDK_OFFSET(0xB9817B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE___WRAPCALLBACK_B__10_1_OFFSET UNITYSDK_OFFSET(0xB9817F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE___WRAPCALLBACK_B__10_2_OFFSET UNITYSDK_OFFSET(0xB981830)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE_MOLEMOLE_FLOWCANVAS_NODES_ISCENEPERFORMCOROUTINEPROVIDER_STARTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1820EF90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1820E870)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1820EF50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__NEWINVOKE_OFFSET UNITYSDK_OFFSET(0x1820EB60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1820EFE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE__WRAPCALLBACK_OFFSET UNITYSDK_OFFSET(0x1820EA50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE___WRAPCALLBACK_B__10_0_OFFSET UNITYSDK_OFFSET(0x1820F010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE___WRAPCALLBACK_B__10_1_OFFSET UNITYSDK_OFFSET(0x1820F050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMNODE___WRAPCALLBACK_B__10_2_OFFSET UNITYSDK_OFFSET(0x1820F090)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDScenePerformNode_TypeDefinitionIndex = 41532;
+	inline static constexpr unsigned int LDScenePerformNode_TypeDefinitionIndex = 62714;
 
 	class LDScenePerformNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsBannerOn; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::LevelSectionGroupData*>* sectionInput; // 0xB0
-		::FlowCanvas::FlowOutput* realPlayOutput; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsSkipBanner; // 0xC0
-		::FlowCanvas::FlowOutput* notPlayOutput; // 0xC8
-		::Class_1_EF32BCC5C168925E_Class_1_02F8008115ABA9CB* _performRuntime; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*>* entityInput; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* StartScenePerform; // 0xE0
-		::FlowCanvas::FlowOutput* output; // 0xE8
+		::Class_1_EF32BCC5C168925E_Class_1_02F8008115ABA9CB* _performRuntime; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*>* entityInput; // 0xB0
+		::FlowCanvas::FlowOutput* notPlayOutput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsBannerOn; // 0xC0
+		::FlowCanvas::FlowOutput* output; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* StartScenePerform; // 0xD0
+		::FlowCanvas::FlowOutput* realPlayOutput; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsSkipBanner; // 0xE0
+		::FlowCanvas::ValueInput_1<::MoleMole::LevelSectionGroupData*>* sectionInput; // 0xE8
 
 		::System::Void _ctor()
 		{

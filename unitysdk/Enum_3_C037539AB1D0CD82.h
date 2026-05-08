@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_C037539AB1D0CD82_TypeDefinitionIndex = 81472;
+inline static constexpr unsigned int Enum_3_C037539AB1D0CD82_TypeDefinitionIndex = 83069;
 
 enum class Enum_3_C037539AB1D0CD82 : ::System::Int32
 {
+	Bullet = 6,
+	StateChange = 9,
+	None = 0,
+	CastSkill = 4,
+	Arrive = 2,
+	StartMove = 1,
+	RunSkill = 3,
 	PropertyUpdate = 8,
+	NewEntity = 14,
 	EndBattle = 10,
 	EndSkill = 5,
 	Buff = 12,
-	CastSkill = 4,
-	RunSkill = 3,
 	Razor = 7,
-	None = 0,
-	Teleport = 15,
-	NewEntity = 14,
-	Bullet = 6,
-	Arrive = 2,
-	StateChange = 9,
 	Damage = 11,
-	StartMove = 1,
+	Teleport = 15,
 	Acceleration = 13,
 };

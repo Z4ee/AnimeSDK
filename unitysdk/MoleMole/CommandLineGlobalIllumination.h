@@ -6,13 +6,13 @@
 
 namespace MoleMole { class GlobalIlluminationProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_1B4C5B2FC2BD492F_OFFSET UNITYSDK_OFFSET(0x94E9BC0)
-#define MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_DA12240FA45843F4_OFFSET UNITYSDK_OFFSET(0x94E9D00)
-#define MOLEMOLE_COMMANDLINEGLOBALILLUMINATION__CTOR_OFFSET UNITYSDK_OFFSET(0x94E9CC0)
+#define MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_1B4C5B2FC2BD492F_OFFSET UNITYSDK_OFFSET(0x12405A30)
+#define MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_B5437EAA905A208A_OFFSET UNITYSDK_OFFSET(0x12405B40)
+#define MOLEMOLE_COMMANDLINEGLOBALILLUMINATION__CTOR_OFFSET UNITYSDK_OFFSET(0x12405B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineGlobalIllumination_TypeDefinitionIndex = 72366;
+	inline static constexpr unsigned int CommandLineGlobalIllumination_TypeDefinitionIndex = 63890;
 
 	class CommandLineGlobalIllumination : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::GlobalIlluminationProfileContext*, ::MoleMole::CommandLineGlobalIllumination*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineGlobalIllumination*(*)(::PVOID, ::MoleMole::GlobalIlluminationProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_1B4C5B2FC2BD492F_OFFSET))(this, a1);
 		}
 
-		::MoleMole::GlobalIlluminationProfileContext* Method_2_DA12240FA45843F4(::MoleMole::GlobalIlluminationProfileContext* a1)
+		::MoleMole::GlobalIlluminationProfileContext* Method_2_B5437EAA905A208A(::MoleMole::GlobalIlluminationProfileContext* a1)
 		{
-			return ((::MoleMole::GlobalIlluminationProfileContext*(*)(::PVOID, ::MoleMole::GlobalIlluminationProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_DA12240FA45843F4_OFFSET))(this, a1);
+			return ((::MoleMole::GlobalIlluminationProfileContext*(*)(::PVOID, ::MoleMole::GlobalIlluminationProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEGLOBALILLUMINATION_METHOD_2_B5437EAA905A208A_OFFSET))(this, a1);
 		}
 	};
 }

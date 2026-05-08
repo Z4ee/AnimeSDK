@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int MonoDeviceNumberPlate_Handle_TypeDefinitionIndex = 54690;
+	inline static constexpr unsigned int MonoDeviceNumberPlate_Handle_TypeDefinitionIndex = 73274;
 
 	struct alignas(4) MonoDeviceNumberPlate_Handle
 	{

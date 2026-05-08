@@ -7,18 +7,18 @@
 namespace MoleMole { class UIQuestionsAnswerWidgetController___c__DisplayClass56_0; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHANGETONPC_0_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A3D00)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHANGETONPC_0_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHANGETONPC_0_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x62B880)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHANGETONPC_0_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass56_0___BeforeStageNpc_g__ChangeToNpc_0_d_TypeDefinitionIndex = 66345;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass56_0___BeforeStageNpc_g__ChangeToNpc_0_d_TypeDefinitionIndex = 74580;
 
 	struct alignas(8) UIQuestionsAnswerWidgetController___c__DisplayClass56_0___BeforeStageNpc_g__ChangeToNpc_0_d
 	{
-		::MoleMole::UIQuestionsAnswerWidgetController___c__DisplayClass56_0* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::MoleMole::UIQuestionsAnswerWidgetController___c__DisplayClass56_0* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/BaseConfigSoundAction.h"
 
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_147;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING_EXECUTEANDENDSCOPE_1_OFFSET UNITYSDK_OFFSET(0xACC8970)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING_EXECUTEANDENDSCOPE_OFFSET UNITYSDK_OFFSET(0xACC88E0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING__CTOR_OFFSET UNITYSDK_OFFSET(0xACC8A30)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING_EXECUTEANDENDSCOPE_1_OFFSET UNITYSDK_OFFSET(0x17539D90)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING_EXECUTEANDENDSCOPE_OFFSET UNITYSDK_OFFSET(0x17539D20)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x17539E30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionIntending_TypeDefinitionIndex = 63846;
+	inline static constexpr unsigned int ConfigSoundActionIntending_TypeDefinitionIndex = 64702;
 
 	class ConfigSoundActionIntending : public ::MoleMole::Config::BaseConfigSoundAction
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ExecuteAndEndScope(::Class_0_16E4307DCC419505_148* context)
+		::System::Void ExecuteAndEndScope(::Class_0_16E4307DCC419505_147* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_148*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING_EXECUTEANDENDSCOPE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONINTENDING_EXECUTEANDENDSCOPE_OFFSET))(this, context);
 		}
 
 		::System::Void ExecuteAndEndScope_1()

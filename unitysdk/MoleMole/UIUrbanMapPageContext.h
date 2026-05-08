@@ -8,31 +8,30 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIURBANMAPPAGECONTEXT_COPYTO_OFFSET UNITYSDK_OFFSET(0x7BDE590)
-#define MOLEMOLE_UIURBANMAPPAGECONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x7BDE640)
-#define MOLEMOLE_UIURBANMAPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x7BDE870)
+#define MOLEMOLE_UIURBANMAPPAGECONTEXT_COPYTO_OFFSET UNITYSDK_OFFSET(0xEBCC1E0)
+#define MOLEMOLE_UIURBANMAPPAGECONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0xEBCC270)
+#define MOLEMOLE_UIURBANMAPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xEBCC440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPageContext_TypeDefinitionIndex = 43397;
+	inline static constexpr unsigned int UIUrbanMapPageContext_TypeDefinitionIndex = 52743;
 
 	class UIUrbanMapPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* OnManulClose; // 0x28
-		::System::Action* AfterOpenMap; // 0x30
+		::System::Action* AfterOpenMap; // 0x28
+		::System::Action* OnManulClose; // 0x30
 		::System::String* TeleportAudio; // 0x38
 		::MoleMole::UIUrbanMapPageContext_SDefaultFocusInfo DefaultFocusInfo; // 0x40
-		::Struct_2_B679E4D914A10080 FromSectionOrFloor; // 0x58
-		::Struct_2_B679E4D914A10080 SectionOrFloor; // 0x60
-		::System::Boolean Is3DMode; // 0x68
-		::System::Boolean FirstInit; // 0x69
-		::System::Boolean AsyncLoad; // 0x6A
-		::System::Boolean BangkovMode; // 0x6B
+		::System::Int32 SpecialLayerIndex; // 0x58
+		::Struct_2_B679E4D914A10080 FromSectionOrFloor; // 0x5C
+		::System::Int32 FromMap3dAreaId; // 0x64
+		::System::Int32 Map3dAreaId; // 0x68
 		::Enum_3_AB9CCA0B2E05A401 DefaultPeriod; // 0x6C
-		::System::Int32 FromMap3dAreaId; // 0x70
-		::System::Int32 SpecialLayerIndex; // 0x74
-		::System::Int32 Map3dAreaId; // 0x78
+		::Struct_2_B679E4D914A10080 SectionOrFloor; // 0x70
+		::System::Boolean Is3DMode; // 0x78
+		::System::Boolean BangkovMode; // 0x79
+		::System::Boolean AsyncLoad; // 0x7A
 
 		::System::Void _ctor()
 		{

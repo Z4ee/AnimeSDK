@@ -3,12 +3,12 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ChatSetAvatarVisible_TypeDefinitionIndex = 75669;
+	inline static constexpr unsigned int ChatSetAvatarVisible_TypeDefinitionIndex = 76960;
 
 	enum class ChatSetAvatarVisible : ::System::Int32
 	{
-		Hide = 1,
-		Visible = 2,
 		None = 0,
+		Visible = 2,
+		Hide = 1,
 	};
 }

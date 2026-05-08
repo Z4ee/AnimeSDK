@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDDeformParticle_TypeDefinitionIndex = 24333;
+	inline static constexpr unsigned int PBDDeformParticle_TypeDefinitionIndex = 24846;
 
 	struct alignas(8) PBDDeformParticle
 	{

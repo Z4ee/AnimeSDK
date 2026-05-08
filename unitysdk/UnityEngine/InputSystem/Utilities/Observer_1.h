@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int Observer_1_TypeDefinitionIndex = 28894;
+	inline static constexpr unsigned int Observer_1_TypeDefinitionIndex = 29412;
 
 	template <typename TValue>
 	class Observer_1 : public ::System::Object

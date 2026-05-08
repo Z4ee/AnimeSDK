@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWITEMS3D___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B564E70)
-#define PIPELINECAMERA_CAMERADEBUGDRAWITEMS3D___C__DISPLAYCLASS9_0__DRAWLINESTRIP_G__GETENUMERABLE_0_OFFSET UNITYSDK_OFFSET(0x1B564E80)
+#define PIPELINECAMERA_CAMERADEBUGDRAWITEMS3D___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B6940)
+#define PIPELINECAMERA_CAMERADEBUGDRAWITEMS3D___C__DISPLAYCLASS9_0__DRAWLINESTRIP_G__GETENUMERABLE_0_OFFSET UNITYSDK_OFFSET(0x1C2B6950)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawItems3D___c__DisplayClass9_0_TypeDefinitionIndex = 35471;
+	inline static constexpr unsigned int CameraDebugDrawItems3D___c__DisplayClass9_0_TypeDefinitionIndex = 36015;
 
 	class CameraDebugDrawItems3D___c__DisplayClass9_0 : public ::System::Object
 	{

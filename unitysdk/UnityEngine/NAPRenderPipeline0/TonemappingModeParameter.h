@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/TonemappingMode.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TONEMAPPINGMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA41490)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TONEMAPPINGMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC213E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

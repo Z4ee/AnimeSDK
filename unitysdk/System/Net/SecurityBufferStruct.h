@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/BufferType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_SECURITYBUFFERSTRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1932A150)
+#define SYSTEM_NET_SECURITYBUFFERSTRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E38D70)
 
 namespace System::Net
 {

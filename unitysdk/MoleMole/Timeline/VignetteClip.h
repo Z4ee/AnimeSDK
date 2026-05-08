@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class VignetteBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_VIGNETTECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB9CE580)
-#define MOLEMOLE_TIMELINE_VIGNETTECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB9CE570)
-#define MOLEMOLE_TIMELINE_VIGNETTECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB9CE750)
+#define MOLEMOLE_TIMELINE_VIGNETTECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15B6A0D0)
+#define MOLEMOLE_TIMELINE_VIGNETTECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15B6A0C0)
+#define MOLEMOLE_TIMELINE_VIGNETTECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15B6A2B0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int VignetteClip_TypeDefinitionIndex = 39787;
+	inline static constexpr unsigned int VignetteClip_TypeDefinitionIndex = 60840;
 
 	class VignetteClip : public ::UnityEngine::Playables::PlayableAsset
 	{

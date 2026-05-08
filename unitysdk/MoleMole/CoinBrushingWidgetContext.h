@@ -4,11 +4,11 @@
 
 class Class_1_8A5136246E588D6D;
 
-#define MOLEMOLE_COINBRUSHINGWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE2ADD50)
+#define MOLEMOLE_COINBRUSHINGWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17432400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CoinBrushingWidgetContext_TypeDefinitionIndex = 43743;
+	inline static constexpr unsigned int CoinBrushingWidgetContext_TypeDefinitionIndex = 51187;
 
 	class CoinBrushingWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

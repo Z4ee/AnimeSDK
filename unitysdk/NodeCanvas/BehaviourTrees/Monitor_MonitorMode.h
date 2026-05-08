@@ -3,12 +3,12 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Monitor_MonitorMode_TypeDefinitionIndex = 26712;
+	inline static constexpr unsigned int Monitor_MonitorMode_TypeDefinitionIndex = 27820;
 
 	enum class Monitor_MonitorMode : ::System::Int32
 	{
-		AnyStatus = 10,
 		Failure = 0,
 		Success = 1,
+		AnyStatus = 10,
 	};
 }

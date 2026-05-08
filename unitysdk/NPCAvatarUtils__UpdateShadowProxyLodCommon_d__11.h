@@ -12,21 +12,21 @@ namespace NPCCrowd::Avatar { class NPCAvatarGOReference; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class Mesh; }
 
-#define NPCAVATARUTILS__UPDATESHADOWPROXYLODCOMMON_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x347D20)
-#define NPCAVATARUTILS__UPDATESHADOWPROXYLODCOMMON_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define NPCAVATARUTILS__UPDATESHADOWPROXYLODCOMMON_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x631480)
+#define NPCAVATARUTILS__UPDATESHADOWPROXYLODCOMMON_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int NPCAvatarUtils__UpdateShadowProxyLodCommon_d__11_TypeDefinitionIndex = 48374;
+inline static constexpr unsigned int NPCAvatarUtils__UpdateShadowProxyLodCommon_d__11_TypeDefinitionIndex = 59875;
 
 struct alignas(8) NPCAvatarUtils__UpdateShadowProxyLodCommon_d__11
 {
-	::NPCAvatarMeshAssetsSO* assetSo; // 0x10
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-	::NPCCrowd::Avatar::NPCAvatarGOReference* goInfo; // 0x20
-	::System::Threading::CancellationToken cancellationToken; // 0x28
-	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::UnityEngine::Mesh*> __u__1; // 0x30
-	::System::Int32 __1__state; // 0x48
+	::System::Threading::CancellationToken cancellationToken; // 0x10
+	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::UnityEngine::Mesh*> __u__1; // 0x18
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x30
+	::NPCCrowd::Avatar::NPCAvatarGOReference* goInfo; // 0x38
+	::NPCAvatarMeshAssetsSO* assetSo; // 0x40
+	::NPCCrowd::Lod::ELODLevel oldLod; // 0x48
 	::MoleMole::ECrowdShadowFineness _newShadowFineness_5__2; // 0x4C
-	::NPCCrowd::Lod::ELODLevel oldLod; // 0x50
+	::System::Int32 __1__state; // 0x50
 	::NPCCrowd::Lod::ELODLevel lod; // 0x54
 
 	::System::Void MoveNext()

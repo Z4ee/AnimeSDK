@@ -10,21 +10,21 @@ namespace MoleMole { class UIRidusGotBooResultPageControllerContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYFADEOUTUIANDPOPRESULTPAGE_D__334_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x37AD80)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYFADEOUTUIANDPOPRESULTPAGE_D__334_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYFADEOUTUIANDPOPRESULTPAGE_D__334_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x78CBB0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYFADEOUTUIANDPOPRESULTPAGE_D__334_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__DelayFadeoutUIAndPopResultPage_d__334_TypeDefinitionIndex = 44136;
+	inline static constexpr unsigned int UIRidusGotBooPageController__DelayFadeoutUIAndPopResultPage_d__334_TypeDefinitionIndex = 75538;
 
 	struct alignas(8) UIRidusGotBooPageController__DelayFadeoutUIAndPopResultPage_d__334
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* finishedIDs; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* finishedIDs; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
 		::MoleMole::UIRidusGotBooPageController___c__DisplayClass334_0* __8__1; // 0x30
-		::MoleMole::UIRidusGotBooResultPageControllerContext* ctx; // 0x38
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x40
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x38
+		::MoleMole::UIRidusGotBooResultPageControllerContext* ctx; // 0x40
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

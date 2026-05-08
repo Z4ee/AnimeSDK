@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IEcsArchetypeAction_TypeDefinitionIndex = 35205;
+	inline static constexpr unsigned int IEcsArchetypeAction_TypeDefinitionIndex = 35775;
 
 	class IEcsArchetypeAction
 	{

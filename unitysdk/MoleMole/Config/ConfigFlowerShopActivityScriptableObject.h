@@ -10,11 +10,11 @@ namespace MoleMole { class ConfigOutlineObjectRenderer_Local; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x81ED370)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB04D10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_TypeDefinitionIndex = 79246;
+	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_TypeDefinitionIndex = 68421;
 
 	class ConfigFlowerShopActivityScriptableObject : public ::Foundation::MihoyoSerializedScriptableObject
 	{

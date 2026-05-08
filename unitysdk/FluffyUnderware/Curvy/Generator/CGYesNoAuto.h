@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGYesNoAuto_TypeDefinitionIndex = 36805;
+	inline static constexpr unsigned int CGYesNoAuto_TypeDefinitionIndex = 37349;
 
 	enum class CGYesNoAuto : ::System::Int32
 	{

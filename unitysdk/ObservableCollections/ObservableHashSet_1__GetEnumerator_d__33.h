@@ -7,7 +7,7 @@ namespace ObservableCollections { template <typename T> class ObservableHashSet_
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableHashSet_1__GetEnumerator_d__33_TypeDefinitionIndex = 25061;
+	inline static constexpr unsigned int ObservableHashSet_1__GetEnumerator_d__33_TypeDefinitionIndex = 25620;
 
 	template <typename T>
 	class ObservableHashSet_1__GetEnumerator_d__33 : public ::System::Object

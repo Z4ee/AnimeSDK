@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD43D90)
-#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAD43DD0)
-#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C___UPDATEINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0xAD43DE0)
-#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C___UPDATEINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0xAD43DF0)
+#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1581CBE0)
+#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1581CC20)
+#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C___UPDATEINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0x1581CC30)
+#define MOLEMOLE_UIHADALZONE_LINEUPV2_WIDGETCONTROLLER___C___UPDATEINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0x1581CC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex = 58800;
+	inline static constexpr unsigned int UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex = 49103;
 
 	class UIHadalZone_LineupV2_WidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHadalZone_LineupV2_WidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIHadalZone_LineupV2_WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34580);
-		}
 		static ::System::Action** StaticGet___9__12_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34588);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x350A0);
 		}
 		static ::System::Action** StaticGet___9__12_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x34590);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x350A8);
+		}
+		static ::MoleMole::UIHadalZone_LineupV2_WidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIHadalZone_LineupV2_WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_LineupV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x350B0);
 		}
 
 		static ::System::Void _cctor()

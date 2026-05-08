@@ -7,11 +7,11 @@ namespace NPCCrowd::Animation { class NPCCPUAnimationLookAtIKParam; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationLookControllerParam; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKATIKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6522E80)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKATIKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD453030)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimationLookAtIKInfo_TypeDefinitionIndex = 54385;
+	inline static constexpr unsigned int NPCCPUAnimationLookAtIKInfo_TypeDefinitionIndex = 71666;
 
 	class NPCCPUAnimationLookAtIKInfo : public ::System::Object
 	{

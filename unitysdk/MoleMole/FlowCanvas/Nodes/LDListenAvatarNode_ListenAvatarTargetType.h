@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDListenAvatarNode_ListenAvatarTargetType_TypeDefinitionIndex = 55514;
+	inline static constexpr unsigned int LDListenAvatarNode_ListenAvatarTargetType_TypeDefinitionIndex = 60936;
 
 	enum class LDListenAvatarNode_ListenAvatarTargetType : ::System::Int32
 	{

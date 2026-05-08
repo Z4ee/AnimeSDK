@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_A8A051C530035301;
+class Class_3_A8A051C530035301_1;
 
-#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6CA7A30)
-#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__EXTRACTPLAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x6CA7A40)
+#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x155F7E60)
+#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__EXTRACTPLAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x155F7E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_MP_PageController___c__DisplayClass38_0_TypeDefinitionIndex = 52663;
+	inline static constexpr unsigned int UILevelResultV2_MP_PageController___c__DisplayClass38_0_TypeDefinitionIndex = 49556;
 
 	class UILevelResultV2_MP_PageController___c__DisplayClass38_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _ExtractPlayerInfo_b__0(::Class_3_A8A051C530035301* p)
+		::System::Int32 _ExtractPlayerInfo_b__0(::Class_3_A8A051C530035301_1* p)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_3_A8A051C530035301*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__EXTRACTPLAYERINFO_B__0_OFFSET))(this, p);
+			return ((::System::Int32(*)(::PVOID, ::Class_3_A8A051C530035301_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__DISPLAYCLASS38_0__EXTRACTPLAYERINFO_B__0_OFFSET))(this, p);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 #include "unitysdk/Newtonsoft/Json/Bson/BsonType.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_BSON_BSONREADER_CONTAINERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF50260)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_CONTAINERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF7480)
 
 namespace Newtonsoft::Json::Bson
 {
@@ -13,8 +13,8 @@ namespace Newtonsoft::Json::Bson
 	{
 	public:
 		::System::Int32 Length; // 0x10
-		::Newtonsoft::Json::Bson::BsonType Type; // 0x14
-		::System::Int32 Position; // 0x18
+		::System::Int32 Position; // 0x14
+		::Newtonsoft::Json::Bson::BsonType Type; // 0x18
 
 		::System::Void _ctor(::Newtonsoft::Json::Bson::BsonType type)
 		{

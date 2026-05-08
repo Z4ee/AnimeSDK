@@ -9,7 +9,7 @@ namespace FlowCanvas::Nodes { template <typename T> class SetVariable_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SetVariable_1___c__DisplayClass7_0_TypeDefinitionIndex = 26381;
+	inline static constexpr unsigned int SetVariable_1___c__DisplayClass7_0_TypeDefinitionIndex = 26514;
 
 	template <typename T>
 	class SetVariable_1___c__DisplayClass7_0 : public ::System::Object

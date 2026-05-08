@@ -8,11 +8,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 
-#define MOLEMOLE_CONFIG_CONFIGPHOTOWALL__CTOR_OFFSET UNITYSDK_OFFSET(0xB91BDB0)
+#define MOLEMOLE_CONFIG_CONFIGPHOTOWALL__CTOR_OFFSET UNITYSDK_OFFSET(0x16B36160)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPhotoWall_TypeDefinitionIndex = 57296;
+	inline static constexpr unsigned int ConfigPhotoWall_TypeDefinitionIndex = 68118;
 
 	class ConfigPhotoWall : public ::Foundation::MihoyoSerializedScriptableObject
 	{

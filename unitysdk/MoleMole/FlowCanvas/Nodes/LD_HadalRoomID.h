@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMID_INVOKE_OFFSET UNITYSDK_OFFSET(0xB18D810)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMID__CTOR_OFFSET UNITYSDK_OFFSET(0xB18DAB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMID_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BB7F00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMID__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB8140)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_HadalRoomID_TypeDefinitionIndex = 75846;
+	inline static constexpr unsigned int LD_HadalRoomID_TypeDefinitionIndex = 73815;
 
 	class LD_HadalRoomID : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
 	{

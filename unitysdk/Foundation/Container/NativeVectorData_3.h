@@ -6,7 +6,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeVectorData_3_TypeDefinitionIndex = 9168;
+	inline static constexpr unsigned int NativeVectorData_3_TypeDefinitionIndex = 8794;
 
 	template <typename TUserData, typename T, typename TPointer>
 	struct NativeVectorData_3

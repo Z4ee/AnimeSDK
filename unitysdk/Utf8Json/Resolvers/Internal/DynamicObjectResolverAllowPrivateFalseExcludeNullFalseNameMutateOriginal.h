@@ -8,31 +8,31 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 namespace Utf8Json::Internal::Emit { class DynamicAssembly; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATEFALSEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3D8FF0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATEFALSEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D90A0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATEFALSEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C001870)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTRESOLVERALLOWPRIVATEFALSEEXCLUDENULLFALSENAMEMUTATEORIGINAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C001920)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex = 83815;
+	inline static constexpr unsigned int DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex = 85543;
 
 	class DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal : public ::System::Object
 	{
 	public:
-		static ::Utf8Json::IJsonFormatterResolver** StaticGet_Instance()
-		{
-			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x48510);
-		}
 		static ::Utf8Json::Internal::Emit::DynamicAssembly** StaticGet_assembly()
 		{
-			return (::Utf8Json::Internal::Emit::DynamicAssembly**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x48518);
+			return (::Utf8Json::Internal::Emit::DynamicAssembly**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x4A080);
+		}
+		static ::Utf8Json::IJsonFormatterResolver** StaticGet_Instance()
+		{
+			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x4A088);
 		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet_nameMutator()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x48520);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x4A090);
 		}
 		static ::System::Boolean* StaticGet_excludeNull()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x11C90);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_TypeDefinitionIndex)->GetStaticField(0x11FC0);
 		}
 		// static const ::System::String* ModuleName; // 0x0
 

@@ -6,22 +6,22 @@
 
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B0C5B40)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B0C56E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C5BB0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B0C5BF0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B0C5C30)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BE69FA0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BE69B40)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6A010)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BE6A0A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_OPERATOR___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1BE6A0E0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityVector3
 {
-	inline static constexpr unsigned int Operator_TypeDefinitionIndex = 31322;
+	inline static constexpr unsigned int Operator_TypeDefinitionIndex = 31851;
 
 	class Operator : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedVector3* secondVector3; // 0x58
-		::BehaviorDesigner::Runtime::SharedVector3* storeResult; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector3* firstVector3; // 0x68
+		::BehaviorDesigner::Runtime::SharedVector3* storeResult; // 0x58
+		::BehaviorDesigner::Runtime::SharedVector3* firstVector3; // 0x60
+		::BehaviorDesigner::Runtime::SharedVector3* secondVector3; // 0x68
 		::BehaviorDesigner::Runtime::Tasks::Unity::UnityVector3::Operator_Operation operation; // 0x70
 
 		::System::Void _ctor()

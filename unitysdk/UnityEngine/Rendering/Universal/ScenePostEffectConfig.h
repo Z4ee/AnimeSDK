@@ -8,12 +8,12 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1891BB90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1891BC00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1A6F6B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F6B80)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScenePostEffectConfig_TypeDefinitionIndex = 29456;
+	inline static constexpr unsigned int ScenePostEffectConfig_TypeDefinitionIndex = 29976;
 
 	class ScenePostEffectConfig : public ::System::Object
 	{

@@ -5,24 +5,24 @@
 namespace MoleMole { class RidusGotBooSkillEx; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOSKILLSIMPLEGROUPWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x74A0B00)
-#define MOLEMOLE_UIRIDUSGOTBOOSKILLSIMPLEGROUPWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x74A0B40)
-#define MOLEMOLE_UIRIDUSGOTBOOSKILLSIMPLEGROUPWIDGETCONTROLLER___C__ONSCROLLITEMUPDATE_B__6_0_OFFSET UNITYSDK_OFFSET(0x74A0B50)
+#define MOLEMOLE_UIRIDUSGOTBOOSKILLSIMPLEGROUPWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1486C970)
+#define MOLEMOLE_UIRIDUSGOTBOOSKILLSIMPLEGROUPWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1486C9B0)
+#define MOLEMOLE_UIRIDUSGOTBOOSKILLSIMPLEGROUPWIDGETCONTROLLER___C__ONSCROLLITEMUPDATE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1486C9C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooSkillSimpleGroupWidgetController___c_TypeDefinitionIndex = 76298;
+	inline static constexpr unsigned int UIRidusGotBooSkillSimpleGroupWidgetController___c_TypeDefinitionIndex = 59871;
 
 	class UIRidusGotBooSkillSimpleGroupWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::MoleMole::RidusGotBooSkillEx*>** StaticGet___9__6_0()
 		{
-			return (::System::Predicate_1<::MoleMole::RidusGotBooSkillEx*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSkillSimpleGroupWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x31DA0);
+			return (::System::Predicate_1<::MoleMole::RidusGotBooSkillEx*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSkillSimpleGroupWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32AA0);
 		}
 		static ::MoleMole::UIRidusGotBooSkillSimpleGroupWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIRidusGotBooSkillSimpleGroupWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSkillSimpleGroupWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x31DA8);
+			return (::MoleMole::UIRidusGotBooSkillSimpleGroupWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSkillSimpleGroupWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32AA8);
 		}
 
 		static ::System::Void _cctor()

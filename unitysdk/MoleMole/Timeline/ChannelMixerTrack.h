@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x8B7D590)
-#define MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0x8B7D860)
-#define MOLEMOLE_TIMELINE_CHANNELMIXERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8B7D830)
+#define MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x152AE280)
+#define MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x152AE530)
+#define MOLEMOLE_TIMELINE_CHANNELMIXERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x152AE4D0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ChannelMixerTrack_TypeDefinitionIndex = 47121;
+	inline static constexpr unsigned int ChannelMixerTrack_TypeDefinitionIndex = 42215;
 
 	class ChannelMixerTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHANNELMIXERTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

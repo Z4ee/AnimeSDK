@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IInterval_TypeDefinitionIndex = 30281;
+	inline static constexpr unsigned int IInterval_TypeDefinitionIndex = 30810;
 
 	class IInterval
 	{

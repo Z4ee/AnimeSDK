@@ -5,12 +5,12 @@
 
 namespace System { class Object; }
 
-#define NPCCROWD_ANIMATION_INSTANCEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x31E230)
-#define NPCCROWD_ANIMATION_INSTANCEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x31E240)
+#define NPCCROWD_ANIMATION_INSTANCEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x6327E0)
+#define NPCCROWD_ANIMATION_INSTANCEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6327F0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int InstanceKey_TypeDefinitionIndex = 70080;
+	inline static constexpr unsigned int InstanceKey_TypeDefinitionIndex = 78184;
 
 	struct alignas(8) InstanceKey
 	{

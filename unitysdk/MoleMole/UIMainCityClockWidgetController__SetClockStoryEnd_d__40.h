@@ -7,18 +7,18 @@
 namespace MoleMole { class UIMainCityClockWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER__SETCLOCKSTORYEND_D__40_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x362D50)
-#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER__SETCLOCKSTORYEND_D__40_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER__SETCLOCKSTORYEND_D__40_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x799350)
+#define MOLEMOLE_UIMAINCITYCLOCKWIDGETCONTROLLER__SETCLOCKSTORYEND_D__40_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityClockWidgetController__SetClockStoryEnd_d__40_TypeDefinitionIndex = 42189;
+	inline static constexpr unsigned int UIMainCityClockWidgetController__SetClockStoryEnd_d__40_TypeDefinitionIndex = 53261;
 
 	struct alignas(8) UIMainCityClockWidgetController__SetClockStoryEnd_d__40
 	{
-		::MoleMole::UIMainCityClockWidgetController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
+		::MoleMole::UIMainCityClockWidgetController* __4__this; // 0x28
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

@@ -6,19 +6,19 @@
 namespace MoleMole::Cameras { class CameraMoveModeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0894D4B5D686C638_METHOD_1_3303033EC7109040_OFFSET UNITYSDK_OFFSET(0xA718010)
-#define CLASS_1_0894D4B5D686C638_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA718110)
-#define CLASS_1_0894D4B5D686C638__CTOR_OFFSET UNITYSDK_OFFSET(0xA717F60)
+#define CLASS_1_0894D4B5D686C638_METHOD_1_3303033EC7109040_OFFSET UNITYSDK_OFFSET(0x1022F570)
+#define CLASS_1_0894D4B5D686C638_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1022F520)
+#define CLASS_1_0894D4B5D686C638__CTOR_OFFSET UNITYSDK_OFFSET(0x1022F470)
 
-inline static constexpr unsigned int Class_1_0894D4B5D686C638_TypeDefinitionIndex = 64771;
+inline static constexpr unsigned int Class_1_0894D4B5D686C638_TypeDefinitionIndex = 45136;
 
 class Class_1_0894D4B5D686C638 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x10
-	::System::Collections::Generic::List_1<::MoleMole::Cameras::CameraMoveModeData*>* Field_1_0; // 0x18
-	::System::Boolean Field_1_5; // 0x20
-	::System::Boolean Field_1_2; // 0x21
+	::System::Collections::Generic::List_1<::MoleMole::Cameras::CameraMoveModeData*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x18
+	::System::Boolean Field_1_2; // 0x20
+	::System::Boolean Field_1_5; // 0x21
 	::System::Int32 Field_1_1; // 0x24
 	::MoleMole::Config::CameraDelayMoveMode Field_1_4; // 0x28
 
@@ -27,13 +27,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0894D4B5D686C638__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_3303033EC7109040()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0894D4B5D686C638_METHOD_1_3303033EC7109040_OFFSET))(this);
-	}
-
 	::System::Void Method_1_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0894D4B5D686C638_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3303033EC7109040()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0894D4B5D686C638_METHOD_1_3303033EC7109040_OFFSET))(this);
 	}
 };

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET_UTF8MESSAGESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x187E8680)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET_UTF8MESSAGESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC88B0)
 
 namespace System::Net::WebSockets
 {
@@ -11,10 +11,10 @@ namespace System::Net::WebSockets
 	class ManagedWebSocket_Utf8MessageState : public ::System::Object
 	{
 	public:
-		::System::Int32 ExpectedValueMin; // 0x10
+		::System::Int32 CurrentDecodeBits; // 0x10
 		::System::Int32 AdditionalBytesExpected; // 0x14
-		::System::Boolean SequenceInProgress; // 0x18
-		::System::Int32 CurrentDecodeBits; // 0x1C
+		::System::Int32 ExpectedValueMin; // 0x18
+		::System::Boolean SequenceInProgress; // 0x1C
 
 		::System::Void _ctor()
 		{

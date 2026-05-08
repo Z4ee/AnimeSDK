@@ -3,15 +3,15 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ETriggerBoxInteraction_TypeDefinitionIndex = 10412;
+	inline static constexpr unsigned int ETriggerBoxInteraction_TypeDefinitionIndex = 15250;
 
 	enum class ETriggerBoxInteraction : ::System::Int16
 	{
-		OnRemoveInteract = 4,
 		OnUpdate = 1,
-		EnumCount = 5,
-		OnEnter = 0,
+		OnRemoveInteract = 4,
 		OnExit = 2,
 		OnAddInteract = 3,
+		OnEnter = 0,
+		EnumCount = 5,
 	};
 }

@@ -5,20 +5,20 @@
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_RESOLVERS_NATIVEGUIDRESOLVER_GETFORMATTERHELPER_OFFSET UNITYSDK_OFFSET(0x1A65AF60)
-#define MESSAGEPACK_RESOLVERS_NATIVEGUIDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A65B060)
-#define MESSAGEPACK_RESOLVERS_NATIVEGUIDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65AF50)
+#define MESSAGEPACK_RESOLVERS_NATIVEGUIDRESOLVER_GETFORMATTERHELPER_OFFSET UNITYSDK_OFFSET(0x1B420C00)
+#define MESSAGEPACK_RESOLVERS_NATIVEGUIDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B420D00)
+#define MESSAGEPACK_RESOLVERS_NATIVEGUIDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B420BF0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int NativeGuidResolver_TypeDefinitionIndex = 26126;
+	inline static constexpr unsigned int NativeGuidResolver_TypeDefinitionIndex = 27561;
 
 	class NativeGuidResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::NativeGuidResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::NativeGuidResolver**)Il2CppClass::FromTypeDefinitionIndex(NativeGuidResolver_TypeDefinitionIndex)->GetStaticField(0x1F820);
+			return (::MessagePack::Resolvers::NativeGuidResolver**)Il2CppClass::FromTypeDefinitionIndex(NativeGuidResolver_TypeDefinitionIndex)->GetStaticField(0x20370);
 		}
 
 		::System::Void _ctor()

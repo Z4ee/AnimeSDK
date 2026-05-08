@@ -11,34 +11,34 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xACBDA30)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_FROMFLX_OFFSET UNITYSDK_OFFSET(0xACBC380)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xACBDA90)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xACBC400)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM__CTOR_OFFSET UNITYSDK_OFFSET(0xACBDFD0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1752DE60)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1752C7B0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1752DEC0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1752C830)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAZOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1752E400)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraZoom_TypeDefinitionIndex = 66835;
+	inline static constexpr unsigned int ConfigCameraZoom_TypeDefinitionIndex = 74814;
 
 	class ConfigCameraZoom : public ::System::Object
 	{
 	public:
 		::System::String* StartCurveKey; // 0x10
 		::System::String* EndCurveKey; // 0x18
-		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x20
-		::System::Single StartTime; // 0x24
-		::System::Boolean IgnoreWorldTimeScale; // 0x28
-		::System::Boolean IgnoreLocalAvatar; // 0x29
-		::System::Boolean IngorePriorityInEndTime; // 0x2A
-		::System::Boolean IgnoreOwnerTimeScale; // 0x2B
-		::MoleMole::Config::ValueVariationType FovVariationType; // 0x2C
-		::MoleMole::Config::ConfigDataPlayStacking PlayStackingType; // 0x30
-		::System::Single LastTime; // 0x34
+		::System::Single LastTime; // 0x20
+		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x24
+		::System::Single DelayTime; // 0x28
+		::System::Boolean IgnoreOwnerTimeScale; // 0x2C
+		::System::Boolean IngorePriorityInEndTime; // 0x2D
+		::System::Boolean IgnoreLocalAvatar; // 0x2E
+		::System::Boolean IgnoreWorldTimeScale; // 0x2F
+		::System::Single EndTime; // 0x30
+		::System::Single StartTime; // 0x34
 		::System::Single Fov; // 0x38
-		::System::Single EndTime; // 0x3C
-		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x40
-		::System::Single DelayTime; // 0x44
+		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x3C
+		::MoleMole::Config::ValueVariationType FovVariationType; // 0x40
+		::MoleMole::Config::ConfigDataPlayStacking PlayStackingType; // 0x44
 
 		::System::Void _ctor()
 		{

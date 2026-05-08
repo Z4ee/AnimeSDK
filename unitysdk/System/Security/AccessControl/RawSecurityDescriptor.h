@@ -6,10 +6,10 @@
 namespace System::Security::AccessControl { class RawAcl; }
 namespace System::Security::Principal { class SecurityIdentifier; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_GET_CONTROLFLAGS_OFFSET UNITYSDK_OFFSET(0x19309020)
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READINT_OFFSET UNITYSDK_OFFSET(0x19308F80)
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READUSHORT_OFFSET UNITYSDK_OFFSET(0x19308F20)
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19308CA0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_GET_CONTROLFLAGS_OFFSET UNITYSDK_OFFSET(0x19982D90)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READINT_OFFSET UNITYSDK_OFFSET(0x19982CF0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READUSHORT_OFFSET UNITYSDK_OFFSET(0x19982C90)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19982A10)
 
 namespace System::Security::AccessControl
 {
@@ -19,11 +19,11 @@ namespace System::Security::AccessControl
 	{
 	public:
 		::System::Security::AccessControl::RawAcl* discretionary_acl; // 0x10
-		::System::Security::AccessControl::RawAcl* system_acl; // 0x18
-		::System::Security::Principal::SecurityIdentifier* owner_sid; // 0x20
+		::System::Security::Principal::SecurityIdentifier* owner_sid; // 0x18
+		::System::Security::AccessControl::RawAcl* system_acl; // 0x20
 		::System::Security::Principal::SecurityIdentifier* group_sid; // 0x28
-		::System::Byte resourcemgr_control; // 0x30
-		::System::Security::AccessControl::ControlFlags control_flags; // 0x34
+		::System::Security::AccessControl::ControlFlags control_flags; // 0x30
+		::System::Byte resourcemgr_control; // 0x34
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* binaryForm, ::System::Int32 offset)
 		{

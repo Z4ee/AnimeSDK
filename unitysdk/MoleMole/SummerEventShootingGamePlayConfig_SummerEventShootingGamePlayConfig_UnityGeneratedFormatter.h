@@ -10,26 +10,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xC7D9670)
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xC7D9680)
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xC7D9D50)
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7DA190)
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7DA150)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x10E50AD0)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x10E50AE0)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x10E51190)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E515B0)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10E51570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 52126;
+	inline static constexpr unsigned int SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 48290;
 
 	class SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SummerEventShootingGamePlayConfig*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SummerPlayerWeaponInfo*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SummerPlayerWeaponInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36FD0);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36FD8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37A90);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SummerPlayerWeaponInfo*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SummerPlayerWeaponInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(SummerEventShootingGamePlayConfig_SummerEventShootingGamePlayConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37A98);
 		}
 
 		::System::Void _ctor()

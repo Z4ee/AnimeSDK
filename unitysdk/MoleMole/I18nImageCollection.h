@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int I18nImageCollection_TypeDefinitionIndex = 61666;
+	inline static constexpr unsigned int I18nImageCollection_TypeDefinitionIndex = 43260;
 
 	struct alignas(8) I18nImageCollection
 	{

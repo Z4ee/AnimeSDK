@@ -24,110 +24,110 @@ namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering::Universal { class MonoPerObjectShadow; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define PEROBJECTSHADOW_ACTIVECULLINGFORMONOPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x18D11390)
-#define PEROBJECTSHADOW_ACTIVECULLINGFORNAPRENDERENTITY_OFFSET UNITYSDK_OFFSET(0x18D102B0)
-#define PEROBJECTSHADOW_CASTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x18D12270)
-#define PEROBJECTSHADOW_CULLENTITY_OFFSET UNITYSDK_OFFSET(0x18D10AD0)
-#define PEROBJECTSHADOW_FINDMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18D12F70)
-#define PEROBJECTSHADOW_FRUSTUMCULLING_OFFSET UNITYSDK_OFFSET(0x18D131A0)
-#define PEROBJECTSHADOW_GETSCREENSPACEDRAWPARAMS_OFFSET UNITYSDK_OFFSET(0x18D15480)
-#define PEROBJECTSHADOW_GET_ENTITIES_OFFSET UNITYSDK_OFFSET(0x18D0F1C0)
-#define PEROBJECTSHADOW_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18D0F110)
-#define PEROBJECTSHADOW_GET_USESHADOWPROXY_OFFSET UNITYSDK_OFFSET(0x18D0F1D0)
-#define PEROBJECTSHADOW_PREPARERENDERDATA_OFFSET UNITYSDK_OFFSET(0x18D133E0)
-#define PEROBJECTSHADOW_SETPARTMASKTOSHADOWPROXYWHENUSINGCSM_OFFSET UNITYSDK_OFFSET(0x18D12030)
-#define PEROBJECTSHADOW_SORTENTITIES_OFFSET UNITYSDK_OFFSET(0x18D11880)
-#define PEROBJECTSHADOW_UPDATEPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x18D154F0)
-#define PEROBJECTSHADOW_UPDATETARGETS_OFFSET UNITYSDK_OFFSET(0x18D0F410)
-#define PEROBJECTSHADOW__ACTIVECULLINGFORNAPRENDERENTITY_G__GETISACTIVEANDENABLED_35_0_OFFSET UNITYSDK_OFFSET(0x18D12E10)
-#define PEROBJECTSHADOW__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D15B30)
-#define PEROBJECTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0F270)
+#define PEROBJECTSHADOW_ACTIVECULLINGFORMONOPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1A2EC370)
+#define PEROBJECTSHADOW_ACTIVECULLINGFORNAPRENDERENTITY_OFFSET UNITYSDK_OFFSET(0x1A2EB1A0)
+#define PEROBJECTSHADOW_CASTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1A2ED3A0)
+#define PEROBJECTSHADOW_CULLENTITY_OFFSET UNITYSDK_OFFSET(0x1A2EBAB0)
+#define PEROBJECTSHADOW_FINDMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x1A2EE2A0)
+#define PEROBJECTSHADOW_FRUSTUMCULLING_OFFSET UNITYSDK_OFFSET(0x1A2EE5E0)
+#define PEROBJECTSHADOW_GETSCREENSPACEDRAWPARAMS_OFFSET UNITYSDK_OFFSET(0x1A2F08C0)
+#define PEROBJECTSHADOW_GET_ENTITIES_OFFSET UNITYSDK_OFFSET(0x1A2E9F60)
+#define PEROBJECTSHADOW_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A2E9EB0)
+#define PEROBJECTSHADOW_GET_USESHADOWPROXY_OFFSET UNITYSDK_OFFSET(0x1A2E9F70)
+#define PEROBJECTSHADOW_PREPARERENDERDATA_OFFSET UNITYSDK_OFFSET(0x1A2EE820)
+#define PEROBJECTSHADOW_SETPARTMASKTOSHADOWPROXYWHENUSINGCSM_OFFSET UNITYSDK_OFFSET(0x1A2ED160)
+#define PEROBJECTSHADOW_SORTENTITIES_OFFSET UNITYSDK_OFFSET(0x1A2EC9C0)
+#define PEROBJECTSHADOW_UPDATEPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1A2F0930)
+#define PEROBJECTSHADOW_UPDATETARGETS_OFFSET UNITYSDK_OFFSET(0x1A2EA250)
+#define PEROBJECTSHADOW__ACTIVECULLINGFORNAPRENDERENTITY_G__GETISACTIVEANDENABLED_35_0_OFFSET UNITYSDK_OFFSET(0x1A2EE0A0)
+#define PEROBJECTSHADOW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2F0FC0)
+#define PEROBJECTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2EA0B0)
 
-inline static constexpr unsigned int PerObjectShadow_TypeDefinitionIndex = 29103;
+inline static constexpr unsigned int PerObjectShadow_TypeDefinitionIndex = 29622;
 
 class PerObjectShadow : public ::System::Object
 {
 public:
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SetRendererStates()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23CE0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePerObjectShadowUpdateTargets()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23CE8);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleRegularCulling()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23CF0);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePrepareForCulling()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23CF8);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24860);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_ProcessFading()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D00);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SortEntities()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D08);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_CullEntity()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D10);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_AfterGetScreenSpaceDrawParams()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D18);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_CalculateFrustumPlanes()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D20);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_UpdatePerObjectShadow()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D28);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24868);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_CheckRendererVisibility()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D30);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24870);
 	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_BeforeGetScreenSpaceDrawParams()
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleRegularCulling()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D38);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24878);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SortEntities()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24880);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleFindMainLight()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D40);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleObjectShadow()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D48);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24888);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePerObjectShadowEditorOnly()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D50);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24890);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePerObjectShadow()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D58);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x24898);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleFrustumCulling()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x23D60);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248A0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_BeforeGetScreenSpaceDrawParams()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248A8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_AfterGetScreenSpaceDrawParams()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248B0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_CalculateFrustumPlanes()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248B8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_UpdatePerObjectShadow()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248C0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleObjectShadow()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248C8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_CullEntity()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248D0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePerObjectShadowUpdateTargets()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248D8);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePrepareForCulling()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x248E0);
 	}
 	static ::System::Boolean* StaticGet_DebugPause()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x74A0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadow_TypeDefinitionIndex)->GetStaticField(0x7540);
 	}
-	::System::Collections::Generic::List_1<::IPerObjectShadowEntity*>* m_PreviousEntities; // 0x10
+	::RectanglePacker* _packer; // 0x10
 	::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::PerObjectShadowResolveData>* resolveData; // 0x18
 	::System::Collections::Generic::List_1<::IPerObjectShadowEntity*>* m_Entities; // 0x20
-	::System::Collections::Generic::List_1<::IPerObjectShadowEntity*>* sortList; // 0x28
-	::RectanglePacker* _packer; // 0x30
+	::System::Collections::Generic::List_1<::IPerObjectShadowEntity*>* m_PreviousEntities; // 0x28
+	::System::Collections::Generic::List_1<::IPerObjectShadowEntity*>* sortList; // 0x30
 	::System::Int32 listCount; // 0x38
-	::UnityEngine::Vector2 atlasSize; // 0x3C
-	::IntegerRectangle _rect; // 0x44
+	::IntegerRectangle _rect; // 0x3C
+	::UnityEngine::Vector2 atlasSize; // 0x5C
 
 	::System::Void _ctor(::CSharpPerObjectShadowSettings* setting)
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DG_TWEENING_CORE_UTILS_ANGLE2D_OFFSET UNITYSDK_OFFSET(0x1B7721B0)
-#define DG_TWEENING_CORE_UTILS_VECTOR3FROMANGLE_OFFSET UNITYSDK_OFFSET(0x1B772140)
+#define DG_TWEENING_CORE_UTILS_ANGLE2D_OFFSET UNITYSDK_OFFSET(0x1C5608B0)
+#define DG_TWEENING_CORE_UTILS_VECTOR3FROMANGLE_OFFSET UNITYSDK_OFFSET(0x1C560840)
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 24989;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 25503;
 
 	class Utils : public ::System::Object
 	{

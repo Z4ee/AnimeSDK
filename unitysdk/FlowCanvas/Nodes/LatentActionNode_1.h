@@ -7,7 +7,7 @@ namespace System::Collections { class IEnumerator; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LatentActionNode_1_TypeDefinitionIndex = 26295;
+	inline static constexpr unsigned int LatentActionNode_1_TypeDefinitionIndex = 27247;
 
 	template <typename T1>
 	class LatentActionNode_1 : public ::FlowCanvas::Nodes::LatentActionNodeBase

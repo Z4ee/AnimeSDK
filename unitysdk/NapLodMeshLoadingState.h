@@ -4,7 +4,7 @@
 #include "unitysdk/NapLodController_LoadingState.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int NapLodMeshLoadingState_TypeDefinitionIndex = 63333;
+inline static constexpr unsigned int NapLodMeshLoadingState_TypeDefinitionIndex = 67781;
 
 struct alignas(8) NapLodMeshLoadingState
 {

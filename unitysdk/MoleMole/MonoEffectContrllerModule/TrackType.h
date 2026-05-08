@@ -3,7 +3,7 @@
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int TrackType_TypeDefinitionIndex = 70203;
+	inline static constexpr unsigned int TrackType_TypeDefinitionIndex = 38235;
 
 	enum class TrackType : ::System::Int32
 	{

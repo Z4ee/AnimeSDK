@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UberPostAndFinalPassSharedData_TypeDefinitionIndex = 29689;
+	inline static constexpr unsigned int UberPostAndFinalPassSharedData_TypeDefinitionIndex = 30217;
 
 	struct alignas(4) UberPostAndFinalPassSharedData
 	{

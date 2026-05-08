@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_TAGGROUPBOOLPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x758FF10)
+#define MOLEMOLE_GALGAME_TAGGROUPBOOLPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x149A7090)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TagGroupBoolPair_TypeDefinitionIndex = 47674;
+	inline static constexpr unsigned int TagGroupBoolPair_TypeDefinitionIndex = 64397;
 
 	class TagGroupBoolPair : public ::System::Object
 	{

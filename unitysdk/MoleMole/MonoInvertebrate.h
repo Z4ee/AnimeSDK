@@ -5,13 +5,13 @@
 namespace MoleMole { class MonoTubeRenderer; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOINVERTEBRATE_AWAKE_OFFSET UNITYSDK_OFFSET(0xA3B3620)
-#define MOLEMOLE_MONOINVERTEBRATE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA3B3920)
-#define MOLEMOLE_MONOINVERTEBRATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA3B3B40)
+#define MOLEMOLE_MONOINVERTEBRATE_AWAKE_OFFSET UNITYSDK_OFFSET(0x15840A10)
+#define MOLEMOLE_MONOINVERTEBRATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15840CA0)
+#define MOLEMOLE_MONOINVERTEBRATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15840EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInvertebrate_TypeDefinitionIndex = 77901;
+	inline static constexpr unsigned int MonoInvertebrate_TypeDefinitionIndex = 68788;
 
 	class MonoInvertebrate : public ::UnityEngine::MonoBehaviour
 	{

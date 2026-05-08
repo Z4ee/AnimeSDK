@@ -1,8 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_5BDCA2D4C634BC8B.h"
+#include "unitysdk/MoleMole/Battle/EntityBodySize.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_263_TypeDefinitionIndex = 65556;
+namespace Nap::NapECS { class EcsWorld; }
+namespace UnityEngine { class Collider; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_263_TypeDefinitionIndex = 63436;
 
 class Class_0_16E4307DCC419505_263
 {

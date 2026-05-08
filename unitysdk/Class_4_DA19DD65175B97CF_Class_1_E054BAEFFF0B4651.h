@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+class Class_1_4A40FFFAB0E20E45;
+class Class_1_5A6771CD0CA2718D;
+
+#define CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651_METHOD_1_5CE94B0371C7CF88_OFFSET UNITYSDK_OFFSET(0x1042D4C0)
+#define CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651_METHOD_1_6AB2DBCC6F4363EE_OFFSET UNITYSDK_OFFSET(0x1042D490)
+#define CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651_METHOD_1_9C2A65574448D201_OFFSET UNITYSDK_OFFSET(0x1042D4F0)
+#define CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651__CTOR_OFFSET UNITYSDK_OFFSET(0x1042D480)
+
+inline static constexpr unsigned int Class_4_DA19DD65175B97CF_Class_1_E054BAEFFF0B4651_TypeDefinitionIndex = 62525;
+
+class Class_4_DA19DD65175B97CF_Class_1_E054BAEFFF0B4651 : public ::System::Object
+{
+public:
+	::Class_1_4A40FFFAB0E20E45* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6AB2DBCC6F4363EE(::Class_1_5A6771CD0CA2718D* a1, ::UnityEngine::Color a2, ::System::Int32 a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Color, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651_METHOD_1_6AB2DBCC6F4363EE_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_5CE94B0371C7CF88(::Class_1_5A6771CD0CA2718D* a1, ::UnityEngine::Vector4 a2, ::System::Int32 a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Vector4, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651_METHOD_1_5CE94B0371C7CF88_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_9C2A65574448D201()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_DA19DD65175B97CF_CLASS_1_E054BAEFFF0B4651_METHOD_1_9C2A65574448D201_OFFSET))(this);
+	}
+};

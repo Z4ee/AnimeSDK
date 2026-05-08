@@ -7,13 +7,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A65F740)
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKFLOAT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A65F9E0)
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65FAF0)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B425960)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKFLOAT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1B425C00)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B425D10)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int MecanimCheckFloat_TypeDefinitionIndex = 26536;
+	inline static constexpr unsigned int MecanimCheckFloat_TypeDefinitionIndex = 27457;
 
 	class MecanimCheckFloat : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Animator*>
 	{

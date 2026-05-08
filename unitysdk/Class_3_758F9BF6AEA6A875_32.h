@@ -5,13 +5,11 @@
 namespace MoleMole { class SystemSettingContextBase; }
 namespace MoleMole { class SystemSettingEntryBase; }
 
-#define CLASS_3_758F9BF6AEA6A875_32_METHOD_3_04DE4FBB293DFBD6_OFFSET UNITYSDK_OFFSET(0x870CCF0)
-#define CLASS_3_758F9BF6AEA6A875_32_METHOD_3_6001ED1983AD0FC0_OFFSET UNITYSDK_OFFSET(0x870CD60)
-#define CLASS_3_758F9BF6AEA6A875_32_METHOD_3_665904E4E791279B_OFFSET UNITYSDK_OFFSET(0x870C350)
-#define CLASS_3_758F9BF6AEA6A875_32_METHOD_3_DED213D141D47C4F_OFFSET UNITYSDK_OFFSET(0x870CB00)
-#define CLASS_3_758F9BF6AEA6A875_32__CTOR_OFFSET UNITYSDK_OFFSET(0x870C340)
+#define CLASS_3_758F9BF6AEA6A875_32_METHOD_3_6001ED1983AD0FC0_OFFSET UNITYSDK_OFFSET(0x143A60E0)
+#define CLASS_3_758F9BF6AEA6A875_32_METHOD_3_665904E4E791279B_OFFSET UNITYSDK_OFFSET(0x143A5D60)
+#define CLASS_3_758F9BF6AEA6A875_32__CTOR_OFFSET UNITYSDK_OFFSET(0x143A5D50)
 
-inline static constexpr unsigned int Class_3_758F9BF6AEA6A875_32_TypeDefinitionIndex = 73292;
+inline static constexpr unsigned int Class_3_758F9BF6AEA6A875_32_TypeDefinitionIndex = 80842;
 
 class Class_3_758F9BF6AEA6A875_32 : public ::Class_2_AB0C166B76D82BF6
 {
@@ -24,16 +22,6 @@ public:
 	::System::Void Method_3_665904E4E791279B(::MoleMole::SystemSettingContextBase* a1, ::System::Boolean a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::MoleMole::SystemSettingContextBase*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_758F9BF6AEA6A875_32_METHOD_3_665904E4E791279B_OFFSET))(this, a1, a2);
-	}
-
-	::System::Boolean Method_3_DED213D141D47C4F(::System::UInt32& a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + CLASS_3_758F9BF6AEA6A875_32_METHOD_3_DED213D141D47C4F_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_3_04DE4FBB293DFBD6(::System::UInt32& a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + CLASS_3_758F9BF6AEA6A875_32_METHOD_3_04DE4FBB293DFBD6_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_6001ED1983AD0FC0(::MoleMole::SystemSettingContextBase* a1, ::System::Boolean a2)

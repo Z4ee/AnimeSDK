@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int DelegateChain_2___c_TypeDefinitionIndex = 7854;
+	inline static constexpr unsigned int DelegateChain_2___c_TypeDefinitionIndex = 8078;
 
 	template <typename TInput, typename TOutput>
 	class DelegateChain_2___c : public ::System::Object

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SecondRealNameGrantMail; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189A84C0)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x189A84D0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6C220)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19B6C230)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealNameGrantMail___c__DisplayClass38_0_TypeDefinitionIndex = 19740;
+	inline static constexpr unsigned int SecondRealNameGrantMail___c__DisplayClass38_0_TypeDefinitionIndex = 20097;
 
 	class SecondRealNameGrantMail___c__DisplayClass38_0 : public ::System::Object
 	{

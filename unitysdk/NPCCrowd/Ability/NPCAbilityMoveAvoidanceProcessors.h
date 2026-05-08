@@ -6,12 +6,12 @@
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 namespace NPCCrowd::Ability { class NPCMoveAvoidanceParam; }
 
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x76CEA70)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS__CTOR_OFFSET UNITYSDK_OFFSET(0x76CEC70)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11500F10)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS__CTOR_OFFSET UNITYSDK_OFFSET(0x11501130)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_TypeDefinitionIndex = 60171;
+	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_TypeDefinitionIndex = 41975;
 
 	class NPCAbilityMoveAvoidanceProcessors : public ::System::Object
 	{

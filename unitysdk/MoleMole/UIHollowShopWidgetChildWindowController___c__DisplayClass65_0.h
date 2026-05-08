@@ -7,19 +7,19 @@ namespace MoleMole { class UIHollowShopWidgetChildWindowController; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9800400)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__OPENINI_B__0_OFFSET UNITYSDK_OFFSET(0x9800410)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FAC890)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__OPENINI_B__0_OFFSET UNITYSDK_OFFSET(0x15FAC8A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 48599;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 51852;
 
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass65_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::UnityEngine::Transform* tran; // 0x18
-		::MoleMole::UIHollowShopWidgetChildWindowController* __4__this; // 0x20
+		::UnityEngine::Transform* tran; // 0x10
+		::MoleMole::UIHollowShopWidgetChildWindowController* __4__this; // 0x18
+		::System::Action* callback; // 0x20
 		::System::Int32 uid; // 0x28
 
 		::System::Void _ctor()

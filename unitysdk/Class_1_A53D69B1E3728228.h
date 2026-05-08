@@ -5,18 +5,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_193;
+class Class_0_16E4307DCC419505_547;
 namespace System { class String; }
 
-#define CLASS_1_A53D69B1E3728228_METHOD_1_003DB6C3792138A8_OFFSET UNITYSDK_OFFSET(0x15ABB7B0)
-#define CLASS_1_A53D69B1E3728228_METHOD_1_3852FA6A259275C9_OFFSET UNITYSDK_OFFSET(0x15ABBCA0)
-#define CLASS_1_A53D69B1E3728228_METHOD_1_75B3EF78C9978087_OFFSET UNITYSDK_OFFSET(0x15ABC470)
-#define CLASS_1_A53D69B1E3728228_METHOD_1_8D4060BFCA7B32AC_OFFSET UNITYSDK_OFFSET(0x15ABBF20)
-#define CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_1_OFFSET UNITYSDK_OFFSET(0x15ABB690)
-#define CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_2_OFFSET UNITYSDK_OFFSET(0x15ABC350)
-#define CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_OFFSET UNITYSDK_OFFSET(0x15ABB570)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_003DB6C3792138A8_OFFSET UNITYSDK_OFFSET(0x11E69420)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_3852FA6A259275C9_OFFSET UNITYSDK_OFFSET(0x11E688E0)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_50B65AD355AF23FE_OFFSET UNITYSDK_OFFSET(0x11E69020)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_8D4060BFCA7B32AC_OFFSET UNITYSDK_OFFSET(0x11E68B40)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_1_OFFSET UNITYSDK_OFFSET(0x11E68F20)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_2_OFFSET UNITYSDK_OFFSET(0x11E69320)
+#define CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_OFFSET UNITYSDK_OFFSET(0x11E687E0)
 
-inline static constexpr unsigned int Class_1_A53D69B1E3728228_TypeDefinitionIndex = 78852;
+inline static constexpr unsigned int Class_1_A53D69B1E3728228_TypeDefinitionIndex = 77700;
 
 class Class_1_A53D69B1E3728228 : public ::System::Object
 {
@@ -26,24 +26,24 @@ public:
 		return ((::System::String*(*)(::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_OFFSET))(a1);
 	}
 
+	static ::System::Boolean Method_1_3852FA6A259275C9(::Class_0_16E4307DCC419505_547* a1)
+	{
+		return ((::System::Boolean(*)(::Class_0_16E4307DCC419505_547*))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_3852FA6A259275C9_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_1_8D4060BFCA7B32AC(::Class_0_16E4307DCC419505_547* a1)
+	{
+		return ((::System::Void(*)(::Class_0_16E4307DCC419505_547*))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_8D4060BFCA7B32AC_OFFSET))(a1);
+	}
+
 	static ::System::String* Method_1_ECA105CA81B6B39D_1(::UnityEngine::Vector3& a1)
 	{
 		return ((::System::String*(*)(::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_1_OFFSET))(a1);
 	}
 
-	static ::Cinemachine::CameraState Method_1_003DB6C3792138A8(::Cinemachine::CameraState& a1, ::PipelineCamera::WorldBasicCameraData& a2)
+	static ::PipelineCamera::WorldBasicCameraData Method_1_50B65AD355AF23FE(::Cinemachine::CameraState& a1)
 	{
-		return ((::Cinemachine::CameraState(*)(::Cinemachine::CameraState&, ::PipelineCamera::WorldBasicCameraData&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_003DB6C3792138A8_OFFSET))(a1, a2);
-	}
-
-	static ::System::Boolean Method_1_3852FA6A259275C9(::Class_0_16E4307DCC419505_193* a1)
-	{
-		return ((::System::Boolean(*)(::Class_0_16E4307DCC419505_193*))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_3852FA6A259275C9_OFFSET))(a1);
-	}
-
-	static ::System::Void Method_1_8D4060BFCA7B32AC(::Class_0_16E4307DCC419505_193* a1)
-	{
-		return ((::System::Void(*)(::Class_0_16E4307DCC419505_193*))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_8D4060BFCA7B32AC_OFFSET))(a1);
+		return ((::PipelineCamera::WorldBasicCameraData(*)(::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_50B65AD355AF23FE_OFFSET))(a1);
 	}
 
 	static ::System::String* Method_1_ECA105CA81B6B39D_2(::UnityEngine::Vector3& a1)
@@ -51,8 +51,8 @@ public:
 		return ((::System::String*(*)(::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_ECA105CA81B6B39D_2_OFFSET))(a1);
 	}
 
-	static ::PipelineCamera::WorldBasicCameraData Method_1_75B3EF78C9978087(::Cinemachine::CameraState& a1)
+	static ::Cinemachine::CameraState Method_1_003DB6C3792138A8(::Cinemachine::CameraState& a1, ::PipelineCamera::WorldBasicCameraData& a2)
 	{
-		return ((::PipelineCamera::WorldBasicCameraData(*)(::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_75B3EF78C9978087_OFFSET))(a1);
+		return ((::Cinemachine::CameraState(*)(::Cinemachine::CameraState&, ::PipelineCamera::WorldBasicCameraData&))((::PBYTE)hIl2Cpp + CLASS_1_A53D69B1E3728228_METHOD_1_003DB6C3792138A8_OFFSET))(a1, a2);
 	}
 };

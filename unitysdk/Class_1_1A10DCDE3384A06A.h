@@ -7,16 +7,16 @@ namespace MoleMole { class UIGeneralBtn03WidgetController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_1A10DCDE3384A06A__CTOR_OFFSET UNITYSDK_OFFSET(0x69A4050)
+#define CLASS_1_1A10DCDE3384A06A__CTOR_OFFSET UNITYSDK_OFFSET(0x11A9A860)
 
-inline static constexpr unsigned int Class_1_1A10DCDE3384A06A_TypeDefinitionIndex = 57255;
+inline static constexpr unsigned int Class_1_1A10DCDE3384A06A_TypeDefinitionIndex = 69803;
 
 class Class_1_1A10DCDE3384A06A : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::UIGeneralBtn03WidgetController*>* Field_1_1; // 0x10
-	::System::Action_1<::Class_2_DE782794730406DC_5*>* Field_1_0; // 0x18
-	::System::Action* Field_1_2; // 0x20
+	::System::Action_1<::Class_2_DE782794730406DC_5*>* Field_1_0; // 0x10
+	::System::Action* Field_1_2; // 0x18
+	::System::Action_1<::MoleMole::UIGeneralBtn03WidgetController*>* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

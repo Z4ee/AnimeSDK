@@ -15,12 +15,12 @@ namespace MoleMole::Cameras { class DelayBlenderSettings; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIG_INNERINIT_OFFSET UNITYSDK_OFFSET(0xE2A61F0)
-#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A6270)
+#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIG_INNERINIT_OFFSET UNITYSDK_OFFSET(0x1742B2A0)
+#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1742B300)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModuleAvatarDataConfig_TypeDefinitionIndex = 69653;
+	inline static constexpr unsigned int CameraModuleAvatarDataConfig_TypeDefinitionIndex = 72032;
 
 	class CameraModuleAvatarDataConfig : public ::System::Object
 	{

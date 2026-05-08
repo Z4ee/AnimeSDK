@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x19B1B930)
-#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19B1B990)
-#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_GET_IMMUTABLE_OFFSET UNITYSDK_OFFSET(0x19B1B920)
-#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19B1B9A0)
-#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B1BA70)
-#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1B910)
+#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A7DAD30)
+#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A7DAD90)
+#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_GET_IMMUTABLE_OFFSET UNITYSDK_OFFSET(0x1A7DAD20)
+#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A7DADA0)
+#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A7DAE60)
+#define SYSTEM_COMPONENTMODEL_IMMUTABLEOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7DAD10)
 
 namespace System::ComponentModel
 {
@@ -18,15 +18,15 @@ namespace System::ComponentModel
 	class ImmutableObjectAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::ImmutableObjectAttribute** StaticGet_No()
+		static ::System::ComponentModel::ImmutableObjectAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::ImmutableObjectAttribute**)Il2CppClass::FromTypeDefinitionIndex(ImmutableObjectAttribute_TypeDefinitionIndex)->GetStaticField(0x2670);
 		}
-		static ::System::ComponentModel::ImmutableObjectAttribute** StaticGet_Default()
+		static ::System::ComponentModel::ImmutableObjectAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::ImmutableObjectAttribute**)Il2CppClass::FromTypeDefinitionIndex(ImmutableObjectAttribute_TypeDefinitionIndex)->GetStaticField(0x2678);
 		}
-		static ::System::ComponentModel::ImmutableObjectAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::ImmutableObjectAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::ImmutableObjectAttribute**)Il2CppClass::FromTypeDefinitionIndex(ImmutableObjectAttribute_TypeDefinitionIndex)->GetStaticField(0x2680);
 		}

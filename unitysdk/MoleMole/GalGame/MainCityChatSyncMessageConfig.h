@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_340DE32BA097F66C.h"
+#include "unitysdk/Enum_3_81A3942BCC6E42B5.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatSyncServerDataConfig.h"
 
 namespace System { class Action; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG_GET_UICTRL_OFFSET UNITYSDK_OFFSET(0xA023AF0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG_STARTSYNC_OFFSET UNITYSDK_OFFSET(0xA023B00)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA023ED0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG_GET_UICTRL_OFFSET UNITYSDK_OFFSET(0x11753DC0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG_STARTSYNC_OFFSET UNITYSDK_OFFSET(0x11753DD0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11754150)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatSyncMessageConfig_TypeDefinitionIndex = 48281;
+	inline static constexpr unsigned int MainCityChatSyncMessageConfig_TypeDefinitionIndex = 74279;
 
 	class MainCityChatSyncMessageConfig : public ::MoleMole::GalGame::MainCityChatSyncServerDataConfig
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::GalGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_340DE32BA097F66C get_UICtrl()
+		::Enum_3_81A3942BCC6E42B5 get_UICtrl()
 		{
-			return ((::Enum_3_340DE32BA097F66C(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG_GET_UICTRL_OFFSET))(this);
+			return ((::Enum_3_81A3942BCC6E42B5(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSYNCMESSAGECONFIG_GET_UICTRL_OFFSET))(this);
 		}
 
 		::System::Void StartSync(::System::Action* callback)

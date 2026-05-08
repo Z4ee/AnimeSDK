@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Auth { class LoginCallbackInfo; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD4530)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x19FD4540)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3B3F0)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1AE3B400)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass33_0_TypeDefinitionIndex = 34593;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass33_0_TypeDefinitionIndex = 35129;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass33_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowMainBottomWidgetController___c__DisplayClass83_0; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS83_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD5B9830)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS83_1__SHOWCHANGEAVATARANIM_B__0_OFFSET UNITYSDK_OFFSET(0xD5B9840)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS83_1__CTOR_OFFSET UNITYSDK_OFFSET(0x168B0D20)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS83_1__SHOWCHANGEAVATARANIM_B__0_OFFSET UNITYSDK_OFFSET(0x168B0D30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass83_1_TypeDefinitionIndex = 76049;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass83_1_TypeDefinitionIndex = 57754;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass83_1 : public ::System::Object
 	{

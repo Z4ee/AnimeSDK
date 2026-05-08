@@ -4,25 +4,25 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DEST_MATH_INTEGRATOR_GAUSSIANQUADRATURE_OFFSET UNITYSDK_OFFSET(0x1AFCA430)
-#define DEST_MATH_INTEGRATOR_ROMBERGINTEGRAL_OFFSET UNITYSDK_OFFSET(0x1AFCA000)
-#define DEST_MATH_INTEGRATOR_TRAPEZOIDRULE_OFFSET UNITYSDK_OFFSET(0x1AFC9EC0)
-#define DEST_MATH_INTEGRATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFCA8F0)
+#define DEST_MATH_INTEGRATOR_GAUSSIANQUADRATURE_OFFSET UNITYSDK_OFFSET(0x1BB4D8F0)
+#define DEST_MATH_INTEGRATOR_ROMBERGINTEGRAL_OFFSET UNITYSDK_OFFSET(0x1BB4D4C0)
+#define DEST_MATH_INTEGRATOR_TRAPEZOIDRULE_OFFSET UNITYSDK_OFFSET(0x1BB4D380)
+#define DEST_MATH_INTEGRATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB4DDB0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Integrator_TypeDefinitionIndex = 32655;
+	inline static constexpr unsigned int Integrator_TypeDefinitionIndex = 33190;
 
 	class Integrator : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Single>** StaticGet_root()
-		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Integrator_TypeDefinitionIndex)->GetStaticField(0x25590);
-		}
 		static ::Il2CppArray<::System::Single>** StaticGet_coeff()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Integrator_TypeDefinitionIndex)->GetStaticField(0x25598);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Integrator_TypeDefinitionIndex)->GetStaticField(0x26110);
+		}
+		static ::Il2CppArray<::System::Single>** StaticGet_root()
+		{
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Integrator_TypeDefinitionIndex)->GetStaticField(0x26118);
 		}
 		// static const ::System::Int32 _degree = 0x5; // 0x0
 

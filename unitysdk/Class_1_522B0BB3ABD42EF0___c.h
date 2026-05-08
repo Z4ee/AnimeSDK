@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
+#include "unitysdk/System/Object.h"
+
+class Class_3_3A3A95CA33F5CFBC;
+namespace MoleMole::LevelPerform { class DirectKillShakeSetting; }
+namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Func_1; }
+
+#define CLASS_1_522B0BB3ABD42EF0___C_METHOD_1_2D4F45820EE563F9_OFFSET UNITYSDK_OFFSET(0x11F4B060)
+#define CLASS_1_522B0BB3ABD42EF0___C_METHOD_1_E661BAEFA63CDC37_OFFSET UNITYSDK_OFFSET(0x11F4AFD0)
+#define CLASS_1_522B0BB3ABD42EF0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11F4AF80)
+#define CLASS_1_522B0BB3ABD42EF0___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11F4AFC0)
+
+inline static constexpr unsigned int Class_1_522B0BB3ABD42EF0___c_TypeDefinitionIndex = 45647;
+
+class Class_1_522B0BB3ABD42EF0___c : public ::System::Object
+{
+public:
+	static ::System::Func_3<::Class_3_3A3A95CA33F5CFBC*, ::System::String*, ::MoleMole::LevelPerform::DirectKillShakeSetting*>** StaticGet___9__24_0()
+	{
+		return (::System::Func_3<::Class_3_3A3A95CA33F5CFBC*, ::System::String*, ::MoleMole::LevelPerform::DirectKillShakeSetting*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_522B0BB3ABD42EF0___c_TypeDefinitionIndex)->GetStaticField(0x3DCD0);
+	}
+	static ::Class_1_522B0BB3ABD42EF0___c** StaticGet___9()
+	{
+		return (::Class_1_522B0BB3ABD42EF0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_522B0BB3ABD42EF0___c_TypeDefinitionIndex)->GetStaticField(0x3DCD8);
+	}
+	static ::System::Func_1<::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*>** StaticGet___9__36_0()
+	{
+		return (::System::Func_1<::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_522B0BB3ABD42EF0___c_TypeDefinitionIndex)->GetStaticField(0x3DCE0);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_522B0BB3ABD42EF0___C__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_522B0BB3ABD42EF0___C__CTOR_OFFSET))(this);
+	}
+
+	::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>* Method_1_E661BAEFA63CDC37()
+	{
+		return ((::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_522B0BB3ABD42EF0___C_METHOD_1_E661BAEFA63CDC37_OFFSET))(this);
+	}
+
+	::MoleMole::LevelPerform::DirectKillShakeSetting* Method_1_2D4F45820EE563F9(::Class_3_3A3A95CA33F5CFBC* a1, ::System::String* a2)
+	{
+		return ((::MoleMole::LevelPerform::DirectKillShakeSetting*(*)(::PVOID, ::Class_3_3A3A95CA33F5CFBC*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_522B0BB3ABD42EF0___C_METHOD_1_2D4F45820EE563F9_OFFSET))(this, a1, a2);
+	}
+};

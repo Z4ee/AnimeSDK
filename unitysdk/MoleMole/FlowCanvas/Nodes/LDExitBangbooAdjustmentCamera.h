@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITBANGBOOADJUSTMENTCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0xB89A220)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITBANGBOOADJUSTMENTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xB89A3C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITBANGBOOADJUSTMENTCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E45630)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITBANGBOOADJUSTMENTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E45790)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDExitBangbooAdjustmentCamera_TypeDefinitionIndex = 46779;
+	inline static constexpr unsigned int LDExitBangbooAdjustmentCamera_TypeDefinitionIndex = 74334;
 
 	class LDExitBangbooAdjustmentCamera : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Boolean>
 	{

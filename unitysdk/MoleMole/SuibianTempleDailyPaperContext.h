@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_SUIBIANTEMPLEDAILYPAPERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8C95F70)
+#define MOLEMOLE_SUIBIANTEMPLEDAILYPAPERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB7510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuibianTempleDailyPaperContext_TypeDefinitionIndex = 46415;
+	inline static constexpr unsigned int SuibianTempleDailyPaperContext_TypeDefinitionIndex = 53511;
 
 	class SuibianTempleDailyPaperContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,24 +5,24 @@
 class Class_1_A2FCB0C4C9740099;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E9550)
-#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E9590)
-#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__ONUIOPEN_B__20_0_OFFSET UNITYSDK_OFFSET(0xE8E95A0)
+#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E0DF50)
+#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11E0DF90)
+#define MOLEMOLE_UIABYSSARPEGGIOTALENTPAGECONTROLLER___C__ONUIOPEN_B__20_0_OFFSET UNITYSDK_OFFSET(0x11E0DFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioTalentPageController___c_TypeDefinitionIndex = 78748;
+	inline static constexpr unsigned int UIAbyssArpeggioTalentPageController___c_TypeDefinitionIndex = 46339;
 
 	class UIAbyssArpeggioTalentPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Class_1_A2FCB0C4C9740099*>** StaticGet___9__20_0()
 		{
-			return (::System::Comparison_1<::Class_1_A2FCB0C4C9740099*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssArpeggioTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x39530);
+			return (::System::Comparison_1<::Class_1_A2FCB0C4C9740099*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssArpeggioTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A760);
 		}
 		static ::MoleMole::UIAbyssArpeggioTalentPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssArpeggioTalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssArpeggioTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x39538);
+			return (::MoleMole::UIAbyssArpeggioTalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssArpeggioTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A768);
 		}
 
 		static ::System::Void _cctor()

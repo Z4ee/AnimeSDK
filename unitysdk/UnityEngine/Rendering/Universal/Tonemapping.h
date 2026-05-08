@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/Tonemapping_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_TONEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x197F26E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TONEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA87D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int Tonemapping_TypeDefinitionIndex = 29647;
+	inline static constexpr unsigned int Tonemapping_TypeDefinitionIndex = 30175;
 
 	class Tonemapping : public ::UnityEngine::NAPRenderPipeline0::Tonemapping_NativeSRP
 	{

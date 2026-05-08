@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimatorRandomIntType_TypeDefinitionIndex = 80112;
+	inline static constexpr unsigned int AnimatorRandomIntType_TypeDefinitionIndex = 62182;
 
 	enum class AnimatorRandomIntType : ::System::Int32
 	{

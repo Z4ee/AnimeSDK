@@ -9,26 +9,26 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_28851412A7E17093_METHOD_1_AFAA17909F55D116_OFFSET UNITYSDK_OFFSET(0x6F427E0)
-#define CLASS_1_28851412A7E17093_METHOD_1_E77B24F9A93470BE_OFFSET UNITYSDK_OFFSET(0x6F425C0)
-#define CLASS_1_28851412A7E17093_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x6F42920)
+#define CLASS_1_28851412A7E17093_METHOD_1_AFAA17909F55D116_OFFSET UNITYSDK_OFFSET(0x14088390)
+#define CLASS_1_28851412A7E17093_METHOD_1_E77B24F9A93470BE_OFFSET UNITYSDK_OFFSET(0x14088190)
+#define CLASS_1_28851412A7E17093_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x140884B0)
 
-inline static constexpr unsigned int Class_1_28851412A7E17093_TypeDefinitionIndex = 54741;
+inline static constexpr unsigned int Class_1_28851412A7E17093_TypeDefinitionIndex = 60035;
 
 class Class_1_28851412A7E17093 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ItemDropEffectSetting*>** StaticGet_Field_1_2()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ItemDropEffectSetting*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_28851412A7E17093_TypeDefinitionIndex)->GetStaticField(0x2F950);
-	}
-	static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_Field_1_1()
-	{
-		return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_28851412A7E17093_TypeDefinitionIndex)->GetStaticField(0x2F958);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ItemDropEffectSetting*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_28851412A7E17093_TypeDefinitionIndex)->GetStaticField(0x39850);
 	}
 	static ::MoleMole::Config::ItemDropEffectSetting** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ItemDropEffectSetting**)Il2CppClass::FromTypeDefinitionIndex(Class_1_28851412A7E17093_TypeDefinitionIndex)->GetStaticField(0x2F960);
+		return (::MoleMole::Config::ItemDropEffectSetting**)Il2CppClass::FromTypeDefinitionIndex(Class_1_28851412A7E17093_TypeDefinitionIndex)->GetStaticField(0x39858);
+	}
+	static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_Field_1_1()
+	{
+		return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_28851412A7E17093_TypeDefinitionIndex)->GetStaticField(0x39860);
 	}
 
 	static ::System::Void Method_1_E77B24F9A93470BE(::System::Boolean a1, ::System::Action* a2)

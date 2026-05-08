@@ -5,7 +5,7 @@
 
 namespace Octree
 {
-	inline static constexpr unsigned int PointOctree_1_Node_OctreeObject_TypeDefinitionIndex = 67139;
+	inline static constexpr unsigned int PointOctree_1_Node_OctreeObject_TypeDefinitionIndex = 41609;
 
 	template <typename T>
 	struct PointOctree_1_Node_OctreeObject

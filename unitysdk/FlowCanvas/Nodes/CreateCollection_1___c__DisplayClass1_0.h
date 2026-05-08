@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CreateCollection_1___c__DisplayClass1_0_TypeDefinitionIndex = 25971;
+	inline static constexpr unsigned int CreateCollection_1___c__DisplayClass1_0_TypeDefinitionIndex = 27944;
 
 	template <typename T>
 	class CreateCollection_1___c__DisplayClass1_0 : public ::System::Object

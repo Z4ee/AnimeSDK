@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MobileInLevelQTECancelType_TypeDefinitionIndex = 77705;
+	inline static constexpr unsigned int MobileInLevelQTECancelType_TypeDefinitionIndex = 75411;
 
 	enum class MobileInLevelQTECancelType : ::System::Int32
 	{
-		SingleClick = 3,
-		NoCancel = 1,
 		DoubleClick = 2,
+		NoCancel = 1,
 		None = 0,
+		SingleClick = 3,
 	};
 }

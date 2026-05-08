@@ -6,27 +6,27 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 namespace System::Reflection { class TypeInfo; }
 
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_0B8A22E16AA24FCB_1_OFFSET UNITYSDK_OFFSET(0x19FF14B0)
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_0B8A22E16AA24FCB_OFFSET UNITYSDK_OFFSET(0x19FF13E0)
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_67ACECD436CF33AC_OFFSET UNITYSDK_OFFSET(0x19FF1240)
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_6E73FF4B16E6D2FB_OFFSET UNITYSDK_OFFSET(0x19FF1280)
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_881950EC1E03C0E3_OFFSET UNITYSDK_OFFSET(0x19FF14E0)
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_9D5F09DE18855A9A_OFFSET UNITYSDK_OFFSET(0x19FF1440)
-#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_F5FD65612FEF428A_OFFSET UNITYSDK_OFFSET(0x19FF1410)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_0B8A22E16AA24FCB_1_OFFSET UNITYSDK_OFFSET(0x1AF23A10)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_0B8A22E16AA24FCB_OFFSET UNITYSDK_OFFSET(0x1AF23880)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_67ACECD436CF33AC_OFFSET UNITYSDK_OFFSET(0x1AF23840)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_6E73FF4B16E6D2FB_OFFSET UNITYSDK_OFFSET(0x1AF238B0)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_881950EC1E03C0E3_OFFSET UNITYSDK_OFFSET(0x1AF23810)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_9D5F09DE18855A9A_OFFSET UNITYSDK_OFFSET(0x1AF23A40)
+#define CLASS_1_FAA644F2DCAF0DDC_METHOD_1_F5FD65612FEF428A_OFFSET UNITYSDK_OFFSET(0x1AF23AB0)
 
-inline static constexpr unsigned int Class_1_FAA644F2DCAF0DDC_TypeDefinitionIndex = 27360;
+inline static constexpr unsigned int Class_1_FAA644F2DCAF0DDC_TypeDefinitionIndex = 27955;
 
 class Class_1_FAA644F2DCAF0DDC : public ::System::Object
 {
 public:
+	static ::System::Boolean Method_1_881950EC1E03C0E3(::System::Reflection::TypeInfo* a1)
+	{
+		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_881950EC1E03C0E3_OFFSET))(a1);
+	}
+
 	static ::System::Boolean Method_1_67ACECD436CF33AC(::System::Reflection::TypeInfo* a1)
 	{
 		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_67ACECD436CF33AC_OFFSET))(a1);
-	}
-
-	static ::System::Boolean Method_1_6E73FF4B16E6D2FB(::System::Reflection::TypeInfo* a1)
-	{
-		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_6E73FF4B16E6D2FB_OFFSET))(a1);
 	}
 
 	static ::System::Reflection::MethodInfo* Method_1_0B8A22E16AA24FCB(::System::Reflection::PropertyInfo* a1)
@@ -34,14 +34,9 @@ public:
 		return ((::System::Reflection::MethodInfo*(*)(::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_0B8A22E16AA24FCB_OFFSET))(a1);
 	}
 
-	static ::System::Boolean Method_1_F5FD65612FEF428A(::System::Reflection::PropertyInfo* a1)
+	static ::System::Boolean Method_1_6E73FF4B16E6D2FB(::System::Reflection::TypeInfo* a1)
 	{
-		return ((::System::Boolean(*)(::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_F5FD65612FEF428A_OFFSET))(a1);
-	}
-
-	static ::System::Boolean Method_1_9D5F09DE18855A9A(::System::Reflection::TypeInfo* a1)
-	{
-		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_9D5F09DE18855A9A_OFFSET))(a1);
+		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_6E73FF4B16E6D2FB_OFFSET))(a1);
 	}
 
 	static ::System::Reflection::MethodInfo* Method_1_0B8A22E16AA24FCB_1(::System::Reflection::PropertyInfo* a1)
@@ -49,8 +44,13 @@ public:
 		return ((::System::Reflection::MethodInfo*(*)(::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_0B8A22E16AA24FCB_1_OFFSET))(a1);
 	}
 
-	static ::System::Boolean Method_1_881950EC1E03C0E3(::System::Reflection::TypeInfo* a1)
+	static ::System::Boolean Method_1_9D5F09DE18855A9A(::System::Reflection::TypeInfo* a1)
 	{
-		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_881950EC1E03C0E3_OFFSET))(a1);
+		return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_9D5F09DE18855A9A_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_F5FD65612FEF428A(::System::Reflection::PropertyInfo* a1)
+	{
+		return ((::System::Boolean(*)(::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + CLASS_1_FAA644F2DCAF0DDC_METHOD_1_F5FD65612FEF428A_OFFSET))(a1);
 	}
 };

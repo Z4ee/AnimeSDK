@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnParticleCollisionHandler_TypeDefinitionIndex = 28214;
+	inline static constexpr unsigned int IAsyncOnParticleCollisionHandler_TypeDefinitionIndex = 28732;
 
 	class IAsyncOnParticleCollisionHandler
 	{

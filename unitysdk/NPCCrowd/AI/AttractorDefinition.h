@@ -14,20 +14,20 @@ namespace Newtonsoft::Json { class JsonSerializerSettings; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_ATTRACTORDEFINITION_FROMJSON_OFFSET UNITYSDK_OFFSET(0x9958EB0)
-#define NPCCROWD_AI_ATTRACTORDEFINITION_GETACTIONREFITEM_OFFSET UNITYSDK_OFFSET(0x37DFE0)
-#define NPCCROWD_AI_ATTRACTORDEFINITION_TOJSON_OFFSET UNITYSDK_OFFSET(0x37DFF0)
-#define NPCCROWD_AI_ATTRACTORDEFINITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x6333B70)
+#define NPCCROWD_AI_ATTRACTORDEFINITION_FROMJSON_OFFSET UNITYSDK_OFFSET(0xBDCCD40)
+#define NPCCROWD_AI_ATTRACTORDEFINITION_GETACTIONREFITEM_OFFSET UNITYSDK_OFFSET(0x50AA10)
+#define NPCCROWD_AI_ATTRACTORDEFINITION_TOJSON_OFFSET UNITYSDK_OFFSET(0x50AA20)
+#define NPCCROWD_AI_ATTRACTORDEFINITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDCCE70)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorDefinition_TypeDefinitionIndex = 37781;
+	inline static constexpr unsigned int AttractorDefinition_TypeDefinitionIndex = 42404;
 
 	struct alignas(8) AttractorDefinition
 	{
 		static ::Newtonsoft::Json::JsonSerializerSettings** StaticGet_settings()
 		{
-			return (::Newtonsoft::Json::JsonSerializerSettings**)Il2CppClass::FromTypeDefinitionIndex(AttractorDefinition_TypeDefinitionIndex)->GetStaticField(0x453C0);
+			return (::Newtonsoft::Json::JsonSerializerSettings**)Il2CppClass::FromTypeDefinitionIndex(AttractorDefinition_TypeDefinitionIndex)->GetStaticField(0x44B90);
 		}
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::ConditionActionItem>* conditionActionItems; // 0x10
 		::System::String* loopSoundEvent; // 0x18

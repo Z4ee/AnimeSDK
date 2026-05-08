@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CalculationMode_TypeDefinitionIndex = 36658;
+	inline static constexpr unsigned int CalculationMode_TypeDefinitionIndex = 37202;
 
 	enum class CalculationMode : ::System::Int32
 	{

@@ -14,7 +14,7 @@ namespace UnityEngine { class Animator; }
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableUnitConfig_1_TypeDefinitionIndex = 74700;
+	inline static constexpr unsigned int PlayableUnitConfig_1_TypeDefinitionIndex = 65501;
 
 	template <typename T>
 	class PlayableUnitConfig_1 : public ::System::Object

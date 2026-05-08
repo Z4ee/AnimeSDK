@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginGroundLighting_LineFloatRange_TypeDefinitionIndex = 55744;
+	inline static constexpr unsigned int MonoEffectPluginGroundLighting_LineFloatRange_TypeDefinitionIndex = 47269;
 
 	struct alignas(4) MonoEffectPluginGroundLighting_LineFloatRange
 	{

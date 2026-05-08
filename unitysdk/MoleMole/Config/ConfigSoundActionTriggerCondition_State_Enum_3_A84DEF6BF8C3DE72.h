@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_State_Enum_3_A84DEF6BF8C3DE72_TypeDefinitionIndex = 44590;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_State_Enum_3_A84DEF6BF8C3DE72_TypeDefinitionIndex = 77763;
 
 	enum class ConfigSoundActionTriggerCondition_State_Enum_3_A84DEF6BF8C3DE72 : ::System::Int32
 	{
-		Equals = 0,
 		NotEquals = 1,
+		Equals = 0,
 	};
 }

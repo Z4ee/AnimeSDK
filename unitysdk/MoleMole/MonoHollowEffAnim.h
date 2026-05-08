@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOHOLLOWEFFANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A45F0)
+#define MOLEMOLE_MONOHOLLOWEFFANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x15B3E4A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoHollowEffAnim_TypeDefinitionIndex = 72243;
+	inline static constexpr unsigned int MonoHollowEffAnim_TypeDefinitionIndex = 80953;
 
 	class MonoHollowEffAnim : public ::UnityEngine::MonoBehaviour
 	{

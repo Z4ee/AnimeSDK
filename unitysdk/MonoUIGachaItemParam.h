@@ -5,9 +5,9 @@
 class MonoUIGachaItemParam_ConfigItem;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUIGACHAITEMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x7927AF0)
+#define MONOUIGACHAITEMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xF645D50)
 
-inline static constexpr unsigned int MonoUIGachaItemParam_TypeDefinitionIndex = 76036;
+inline static constexpr unsigned int MonoUIGachaItemParam_TypeDefinitionIndex = 77260;
 
 class MonoUIGachaItemParam : public ::UnityEngine::MonoBehaviour
 {

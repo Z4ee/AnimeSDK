@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int EMaterialLodType_TypeDefinitionIndex = 29918;
+	inline static constexpr unsigned int EMaterialLodType_TypeDefinitionIndex = 30446;
 
 	enum class EMaterialLodType : ::System::Int32
 	{

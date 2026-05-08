@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_SCALABLEIMAGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x872360)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_SCALABLEIMAGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8860B0)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int ScalableImage_TypeDefinitionIndex = 24606;
+	inline static constexpr unsigned int ScalableImage_TypeDefinitionIndex = 25120;
 
 	struct alignas(8) ScalableImage
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NODECANVAS_FRAMEWORK_EVENTRECEIVERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A226390)
+#define NODECANVAS_FRAMEWORK_EVENTRECEIVERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9011E0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int EventReceiverAttribute_TypeDefinitionIndex = 26197;
+	inline static constexpr unsigned int EventReceiverAttribute_TypeDefinitionIndex = 26982;
 
 	class EventReceiverAttribute : public ::System::Attribute
 	{

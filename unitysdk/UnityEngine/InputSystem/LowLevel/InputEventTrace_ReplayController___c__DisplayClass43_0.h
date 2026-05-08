@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputEventTrace_DeviceInfo.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__DISPLAYCLASS43_0__APPLYDEVICEMAPPING_B__0_OFFSET UNITYSDK_OFFSET(0x1AACA500)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AACA4F0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__DISPLAYCLASS43_0__APPLYDEVICEMAPPING_B__0_OFFSET UNITYSDK_OFFSET(0x1B990AB0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B990AA0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputEventTrace_ReplayController___c__DisplayClass43_0_TypeDefinitionIndex = 28749;
+	inline static constexpr unsigned int InputEventTrace_ReplayController___c__DisplayClass43_0_TypeDefinitionIndex = 29267;
 
 	class InputEventTrace_ReplayController___c__DisplayClass43_0 : public ::System::Object
 	{

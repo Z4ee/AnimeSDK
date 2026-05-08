@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/OneDReader.h"
 
-#define ZXING_ONED_CODE128READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18437AB0)
-#define ZXING_ONED_CODE128READER__CTOR_OFFSET UNITYSDK_OFFSET(0x18437A60)
+#define ZXING_ONED_CODE128READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1886DC40)
+#define ZXING_ONED_CODE128READER__CTOR_OFFSET UNITYSDK_OFFSET(0x1886DBF0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code128Reader_TypeDefinitionIndex = 8665;
+	inline static constexpr unsigned int Code128Reader_TypeDefinitionIndex = 8676;
 
 	class Code128Reader : public ::ZXing::OneD::OneDReader
 	{
@@ -18,11 +18,11 @@ namespace ZXing::OneD
 		}
 		static ::System::Int32* StaticGet_MAX_AVG_VARIANCE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code128Reader_TypeDefinitionIndex)->GetStaticField(0x3BF0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code128Reader_TypeDefinitionIndex)->GetStaticField(0x3C00);
 		}
 		static ::System::Int32* StaticGet_MAX_INDIVIDUAL_VARIANCE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code128Reader_TypeDefinitionIndex)->GetStaticField(0x3BF4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code128Reader_TypeDefinitionIndex)->GetStaticField(0x3C04);
 		}
 
 		::System::Void _ctor()

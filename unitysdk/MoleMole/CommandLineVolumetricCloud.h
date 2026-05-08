@@ -6,13 +6,13 @@
 
 namespace MoleMole { class VolumetricCloudProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_B3DA9A06401542DD_OFFSET UNITYSDK_OFFSET(0x916F750)
-#define MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_EE1E6C2EB9760399_OFFSET UNITYSDK_OFFSET(0x916F610)
-#define MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD__CTOR_OFFSET UNITYSDK_OFFSET(0x916F710)
+#define MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_3EB198A92CD33CB5_OFFSET UNITYSDK_OFFSET(0x11C8DBD0)
+#define MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_EE1E6C2EB9760399_OFFSET UNITYSDK_OFFSET(0x11C8DAC0)
+#define MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD__CTOR_OFFSET UNITYSDK_OFFSET(0x11C8DB90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineVolumetricCloud_TypeDefinitionIndex = 42138;
+	inline static constexpr unsigned int CommandLineVolumetricCloud_TypeDefinitionIndex = 53629;
 
 	class CommandLineVolumetricCloud : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::VolumetricCloudProfileContext*, ::MoleMole::CommandLineVolumetricCloud*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineVolumetricCloud*(*)(::PVOID, ::MoleMole::VolumetricCloudProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_EE1E6C2EB9760399_OFFSET))(this, a1);
 		}
 
-		::MoleMole::VolumetricCloudProfileContext* Method_2_B3DA9A06401542DD(::MoleMole::VolumetricCloudProfileContext* a1)
+		::MoleMole::VolumetricCloudProfileContext* Method_2_3EB198A92CD33CB5(::MoleMole::VolumetricCloudProfileContext* a1)
 		{
-			return ((::MoleMole::VolumetricCloudProfileContext*(*)(::PVOID, ::MoleMole::VolumetricCloudProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_B3DA9A06401542DD_OFFSET))(this, a1);
+			return ((::MoleMole::VolumetricCloudProfileContext*(*)(::PVOID, ::MoleMole::VolumetricCloudProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEVOLUMETRICCLOUD_METHOD_2_3EB198A92CD33CB5_OFFSET))(this, a1);
 		}
 	};
 }

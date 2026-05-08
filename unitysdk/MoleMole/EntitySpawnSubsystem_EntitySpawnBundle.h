@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_ADDINVALIDRID_OFFSET UNITYSDK_OFFSET(0xB81E940)
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_ADDREQUEST_OFFSET UNITYSDK_OFFSET(0xB81EA70)
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_GET_REACHEDREQUESTS_OFFSET UNITYSDK_OFFSET(0xB81E4A0)
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_ISREQUESTSALLREACHED_OFFSET UNITYSDK_OFFSET(0xB81EC10)
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB81E4B0)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_ADDINVALIDRID_OFFSET UNITYSDK_OFFSET(0x177F7600)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_ADDREQUEST_OFFSET UNITYSDK_OFFSET(0x177F7710)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_GET_REACHEDREQUESTS_OFFSET UNITYSDK_OFFSET(0x177F7240)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE_ISREQUESTSALLREACHED_OFFSET UNITYSDK_OFFSET(0x177F78A0)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x177F7250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EntitySpawnSubsystem_EntitySpawnBundle_TypeDefinitionIndex = 40146;
+	inline static constexpr unsigned int EntitySpawnSubsystem_EntitySpawnBundle_TypeDefinitionIndex = 58737;
 
 	class EntitySpawnSubsystem_EntitySpawnBundle : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _invalidRid; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::EntitySpawnSubsystem_EntitySpawnRequest*>* _reachedRequests; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _ridBundle; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _ridBundle; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::EntitySpawnSubsystem_EntitySpawnRequest*>* _reachedRequests; // 0x20
 		::System::Boolean IsCanceled; // 0x28
 
 		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* ridBundle)

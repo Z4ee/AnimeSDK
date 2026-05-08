@@ -6,7 +6,7 @@
 
 namespace BinaryTracingFramework::Foundation
 {
-	inline static constexpr unsigned int GuidUtils_GuidWarp_TypeDefinitionIndex = 31910;
+	inline static constexpr unsigned int GuidUtils_GuidWarp_TypeDefinitionIndex = 32439;
 
 	struct alignas(8) GuidUtils_GuidWarp
 	{

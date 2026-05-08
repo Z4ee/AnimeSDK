@@ -14,8 +14,8 @@ namespace System::Net::WebSockets { class WebSocketHandle; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__CONNECTSOCKETASYNC_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A0690)
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__CONNECTSOCKETASYNC_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x30F550)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__CONNECTSOCKETASYNC_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8CCD00)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__CONNECTSOCKETASYNC_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x8CCD10)
 
 namespace System::Net::WebSockets
 {
@@ -23,19 +23,19 @@ namespace System::Net::WebSockets
 
 	struct alignas(8) WebSocketHandle__ConnectSocketAsync_d__25
 	{
-		::System::Net::Sockets::Socket* _socket_5__1; // 0x10
-		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _lastException_5__2; // 0x18
-		::System::Net::WebSockets::WebSocketHandle* __4__this; // 0x20
-		::Il2CppArray<::System::Net::IPAddress*>* __7__wrap1; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Sockets::Socket*> __t__builder; // 0x30
-		::System::Threading::CancellationTokenRegistration __7__wrap4; // 0x48
-		::System::String* host; // 0x60
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x68
-		::System::Threading::CancellationToken cancellationToken; // 0x78
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Il2CppArray<::System::Net::IPAddress*>*> __u__1; // 0x80
-		::System::Threading::CancellationTokenRegistration __7__wrap3; // 0x90
-		::System::Int32 __1__state; // 0xA8
-		::System::Int32 __7__wrap2; // 0xAC
+		::System::Threading::CancellationTokenRegistration __7__wrap4; // 0x10
+		::System::Threading::CancellationTokenRegistration __7__wrap3; // 0x28
+		::System::Net::Sockets::Socket* _socket_5__1; // 0x40
+		::Il2CppArray<::System::Net::IPAddress*>* __7__wrap1; // 0x48
+		::System::String* host; // 0x50
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Il2CppArray<::System::Net::IPAddress*>*> __u__1; // 0x58
+		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _lastException_5__2; // 0x68
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x70
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Sockets::Socket*> __t__builder; // 0x80
+		::System::Threading::CancellationToken cancellationToken; // 0x98
+		::System::Net::WebSockets::WebSocketHandle* __4__this; // 0xA0
+		::System::Int32 __7__wrap2; // 0xA8
+		::System::Int32 __1__state; // 0xAC
 		::System::Int32 port; // 0xB0
 
 		::System::Void MoveNext()

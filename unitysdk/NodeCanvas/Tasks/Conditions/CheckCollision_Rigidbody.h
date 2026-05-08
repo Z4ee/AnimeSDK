@@ -11,28 +11,28 @@ namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A1D1F90)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A1D2380)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1A1D23A0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1A1D26A0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A1D21E0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A1D2040)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D2850)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1AF339B0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1AF33DA0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1AF33DC0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1AF34120)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1AF33C00)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AF33A60)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_RIGIDBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF342D0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckCollision_Rigidbody_TypeDefinitionIndex = 27688;
+	inline static constexpr unsigned int CheckCollision_Rigidbody_TypeDefinitionIndex = 26613;
 
 	class CheckCollision_Rigidbody : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Rigidbody*>
 	{
 	public:
-		::System::String* objectTag; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactNormal; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactPoint; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x78
-		::ParadoxNotion::CollisionTypes checkType; // 0x80
-		::System::Boolean stay; // 0x84
-		::System::Boolean specifiedTagOnly; // 0x85
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactPoint; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x68
+		::System::String* objectTag; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactNormal; // 0x78
+		::System::Boolean specifiedTagOnly; // 0x80
+		::System::Boolean stay; // 0x81
+		::ParadoxNotion::CollisionTypes checkType; // 0x84
 
 		::System::Void _ctor()
 		{

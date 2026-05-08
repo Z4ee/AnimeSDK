@@ -8,20 +8,20 @@
 namespace PipelineCamera::CameraSequence { class BlendFromCurrent; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197B3360)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197B3390)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT___C___CCTOR_B__19_0_OFFSET UNITYSDK_OFFSET(0x197B33A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4CA870)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4CA8B0)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT___C___CCTOR_B__19_0_OFFSET UNITYSDK_OFFSET(0x1A4CA8C0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int BlendFromCurrent___c_TypeDefinitionIndex = 35811;
+	inline static constexpr unsigned int BlendFromCurrent___c_TypeDefinitionIndex = 36355;
 
 	class BlendFromCurrent___c : public ::System::Object
 	{
 	public:
 		static ::PipelineCamera::CameraSequence::BlendFromCurrent___c** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::BlendFromCurrent___c**)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent___c_TypeDefinitionIndex)->GetStaticField(0x264A0);
+			return (::PipelineCamera::CameraSequence::BlendFromCurrent___c**)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent___c_TypeDefinitionIndex)->GetStaticField(0x27050);
 		}
 
 		static ::System::Void _cctor()

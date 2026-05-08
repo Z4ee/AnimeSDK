@@ -7,18 +7,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MACH25OBJECTINSTANCING_MACH25SCENEOBJINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1763F1B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MACH25OBJECTINSTANCING_MACH25SCENEOBJINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x191108B0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Mach25ObjectInstancing_Mach25SceneObjInfo_TypeDefinitionIndex = 29845;
+	inline static constexpr unsigned int Mach25ObjectInstancing_Mach25SceneObjInfo_TypeDefinitionIndex = 30373;
 
 	class Mach25ObjectInstancing_Mach25SceneObjInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* matrices; // 0x10
-		::UnityEngine::Material* material; // 0x18
-		::UnityEngine::Mesh* mesh; // 0x20
+		::UnityEngine::Mesh* mesh; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* matrices; // 0x18
+		::UnityEngine::Material* material; // 0x20
 
 		::System::Void _ctor()
 		{

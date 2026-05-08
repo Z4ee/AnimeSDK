@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_HPBarLineColorParam_TypeDefinitionIndex = 79595;
+	inline static constexpr unsigned int ConfigMisc_HPBarLineColorParam_TypeDefinitionIndex = 63727;
 
 	struct alignas(4) ConfigMisc_HPBarLineColorParam
 	{

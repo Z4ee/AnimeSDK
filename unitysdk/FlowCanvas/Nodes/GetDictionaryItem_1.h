@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetDictionaryItem_1_TypeDefinitionIndex = 26145;
+	inline static constexpr unsigned int GetDictionaryItem_1_TypeDefinitionIndex = 26524;
 
 	template <typename T>
 	class GetDictionaryItem_1 : public ::FlowCanvas::Nodes::CallableFunctionNode_3<T, ::System::Collections::Generic::IDictionary_2<::System::String*, T>*, ::System::String*>

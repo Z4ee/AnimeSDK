@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PATHUTILS_INDEXEDPATHDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x31D4C0)
+#define PATHUTILS_INDEXEDPATHDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x3ABAA0)
 
-inline static constexpr unsigned int PathUtils_IndexedPathDistance_TypeDefinitionIndex = 77520;
+inline static constexpr unsigned int PathUtils_IndexedPathDistance_TypeDefinitionIndex = 39715;
 
 struct alignas(4) PathUtils_IndexedPathDistance
 {

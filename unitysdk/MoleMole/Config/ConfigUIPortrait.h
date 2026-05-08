@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigUIPortraitItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIPORTRAIT_GETPORTRAITITEM_OFFSET UNITYSDK_OFFSET(0xEC4DCF0)
-#define MOLEMOLE_CONFIG_CONFIGUIPORTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xEC4DF00)
+#define MOLEMOLE_CONFIG_CONFIGUIPORTRAIT_GETPORTRAITITEM_OFFSET UNITYSDK_OFFSET(0x181D6640)
+#define MOLEMOLE_CONFIG_CONFIGUIPORTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x181D68D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIPortrait_TypeDefinitionIndex = 73959;
+	inline static constexpr unsigned int ConfigUIPortrait_TypeDefinitionIndex = 82510;
 
 	class ConfigUIPortrait : public ::Foundation::MihoyoSerializedScriptableObject
 	{

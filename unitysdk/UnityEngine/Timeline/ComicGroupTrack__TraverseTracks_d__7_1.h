@@ -8,7 +8,7 @@ namespace UnityEngine::Timeline { class ComicGroupTrack; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicGroupTrack__TraverseTracks_d__7_1_TypeDefinitionIndex = 30230;
+	inline static constexpr unsigned int ComicGroupTrack__TraverseTracks_d__7_1_TypeDefinitionIndex = 30759;
 
 	template <typename T>
 	class ComicGroupTrack__TraverseTracks_d__7_1 : public ::System::Object

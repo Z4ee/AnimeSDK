@@ -4,15 +4,15 @@
 
 class Class_1_CE2E7DC9D5241F3C;
 
-#define STRUCT_2_6059FFC6BC18379C__CCTOR_OFFSET UNITYSDK_OFFSET(0x6D526E0)
+#define STRUCT_2_6059FFC6BC18379C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12269F30)
 
-inline static constexpr unsigned int Struct_2_6059FFC6BC18379C_TypeDefinitionIndex = 38788;
+inline static constexpr unsigned int Struct_2_6059FFC6BC18379C_TypeDefinitionIndex = 80907;
 
 struct alignas(8) Struct_2_6059FFC6BC18379C
 {
 	static ::Struct_2_6059FFC6BC18379C* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_6059FFC6BC18379C*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6059FFC6BC18379C_TypeDefinitionIndex)->GetStaticField(0x2F250);
+		return (::Struct_2_6059FFC6BC18379C*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6059FFC6BC18379C_TypeDefinitionIndex)->GetStaticField(0x3BB30);
 	}
 	::Class_1_CE2E7DC9D5241F3C* Field_2_1; // 0x10
 

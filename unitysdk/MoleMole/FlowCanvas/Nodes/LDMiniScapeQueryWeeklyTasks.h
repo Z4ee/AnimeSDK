@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-class Class_3_5139B0F7496B8379_12;
+class Class_3_5139B0F7496B8379_5;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5D47B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D4900)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET UNITYSDK_OFFSET(0x15411D40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS__CTOR_OFFSET UNITYSDK_OFFSET(0x15411E70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMiniScapeQueryWeeklyTasks_TypeDefinitionIndex = 69292;
+	inline static constexpr unsigned int LDMiniScapeQueryWeeklyTasks_TypeDefinitionIndex = 69217;
 
-	class LDMiniScapeQueryWeeklyTasks : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_12*>*>
+	class LDMiniScapeQueryWeeklyTasks : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_5*>*>
 	{
 	public:
 		::System::Void _ctor()
@@ -20,9 +20,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_12*>* Invoke()
+		::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_5*>* Invoke()
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_12*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_5*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET))(this);
 		}
 	};
 }

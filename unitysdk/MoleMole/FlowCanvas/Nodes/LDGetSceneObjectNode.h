@@ -8,19 +8,19 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEOBJECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1164BEA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEOBJECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1164BFA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEOBJECTNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1164C010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEOBJECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10BA4C90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEOBJECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA4D70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEOBJECTNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x10BA4E40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetSceneObjectNode_TypeDefinitionIndex = 79270;
+	inline static constexpr unsigned int LDGetSceneObjectNode_TypeDefinitionIndex = 80651;
 
 	class LDGetSceneObjectNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* outPut; // 0xA8
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* result; // 0xB0
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* result; // 0xA8
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* outPut; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::String*>* ObjectName; // 0xB8
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace Foundation::Function
 {
-	inline static constexpr unsigned int IPrettyUnaryFunction_1_TypeDefinitionIndex = 8990;
+	inline static constexpr unsigned int IPrettyUnaryFunction_1_TypeDefinitionIndex = 9183;
 
 	template <typename T>
 	class IPrettyUnaryFunction_1

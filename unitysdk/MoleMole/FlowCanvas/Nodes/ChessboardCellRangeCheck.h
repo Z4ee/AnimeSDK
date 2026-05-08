@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCELLRANGECHECK_INVOKE_OFFSET UNITYSDK_OFFSET(0xB824500)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCELLRANGECHECK__CTOR_OFFSET UNITYSDK_OFFSET(0xB824A20)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCELLRANGECHECK_INVOKE_OFFSET UNITYSDK_OFFSET(0x177FCDC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCELLRANGECHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x177FD260)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardCellRangeCheck_TypeDefinitionIndex = 56382;
+	inline static constexpr unsigned int ChessboardCellRangeCheck_TypeDefinitionIndex = 82414;
 
 	class ChessboardCellRangeCheck : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_2<::System::Boolean, ::System::Int32>
 	{

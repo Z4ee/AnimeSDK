@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOSUMMEREVENTROWS__CTOR_OFFSET UNITYSDK_OFFSET(0xB861E40)
+#define MOLEMOLE_MONOSUMMEREVENTROWS__CTOR_OFFSET UNITYSDK_OFFSET(0x1783B120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSummerEventRows_TypeDefinitionIndex = 44740;
+	inline static constexpr unsigned int MonoSummerEventRows_TypeDefinitionIndex = 70670;
 
 	class MonoSummerEventRows : public ::UnityEngine::MonoBehaviour
 	{

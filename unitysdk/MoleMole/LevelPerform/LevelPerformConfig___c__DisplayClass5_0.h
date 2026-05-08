@@ -5,12 +5,12 @@
 namespace MoleMole::LevelPerform { class LevelPerformConfig; }
 namespace System { class Action; }
 
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B4410)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG___C__DISPLAYCLASS5_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0xB8B4420)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E5C6E0)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG___C__DISPLAYCLASS5_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x16E5C6F0)
 
 namespace MoleMole::LevelPerform
 {
-	inline static constexpr unsigned int LevelPerformConfig___c__DisplayClass5_0_TypeDefinitionIndex = 79558;
+	inline static constexpr unsigned int LevelPerformConfig___c__DisplayClass5_0_TypeDefinitionIndex = 68503;
 
 	class LevelPerformConfig___c__DisplayClass5_0 : public ::System::Object
 	{

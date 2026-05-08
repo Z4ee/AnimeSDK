@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/Unreal/Interval_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_METHOD_LOOPINTERVAL_GET_INTERVALINLOOP_OFFSET UNITYSDK_OFFSET(0x931B40)
+#define PIPELINECAMERA_METHOD_LOOPINTERVAL_GET_INTERVALINLOOP_OFFSET UNITYSDK_OFFSET(0x951480)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Method_LoopInterval_TypeDefinitionIndex = 35338;
+	inline static constexpr unsigned int Method_LoopInterval_TypeDefinitionIndex = 35882;
 
 	struct alignas(4) Method_LoopInterval
 	{

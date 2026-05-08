@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_MAP3DFONTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xEC506D0)
+#define MOLEMOLE_CONFIG_MAP3DFONTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x181D8CA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Map3DFontItem_TypeDefinitionIndex = 68252;
+	inline static constexpr unsigned int Map3DFontItem_TypeDefinitionIndex = 47398;
 
 	class Map3DFontItem : public ::System::Object
 	{

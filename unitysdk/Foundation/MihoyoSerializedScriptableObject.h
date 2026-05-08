@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 
-#define FOUNDATION_MIHOYOSERIALIZEDSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA5DB90)
+#define FOUNDATION_MIHOYOSERIALIZEDSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76D110)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MihoyoSerializedScriptableObject_TypeDefinitionIndex = 7775;
+	inline static constexpr unsigned int MihoyoSerializedScriptableObject_TypeDefinitionIndex = 8018;
 
 	class MihoyoSerializedScriptableObject : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

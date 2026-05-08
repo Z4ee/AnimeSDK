@@ -5,18 +5,18 @@
 namespace QWER { class CServiceFrontend; }
 namespace System { template <typename T> class Action_1; }
 
-#define QWER_SSERVICEFRONTENDID___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B012930)
-#define QWER_SSERVICEFRONTENDID___C__DISPLAYCLASS2_0__POST_G__TMP_0_OFFSET UNITYSDK_OFFSET(0x1B012940)
+#define QWER_SSERVICEFRONTENDID___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8C010)
+#define QWER_SSERVICEFRONTENDID___C__DISPLAYCLASS2_0__POST_G__TMP_0_OFFSET UNITYSDK_OFFSET(0x1BE8C020)
 
 namespace QWER
 {
-	inline static constexpr unsigned int SServiceFrontendID___c__DisplayClass2_0_TypeDefinitionIndex = 84154;
+	inline static constexpr unsigned int SServiceFrontendID___c__DisplayClass2_0_TypeDefinitionIndex = 85882;
 
 	class SServiceFrontendID___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::QWER::CServiceFrontend* oServiceFrontend; // 0x10
-		::System::Action_1<::QWER::CServiceFrontend*>* cbAction; // 0x18
+		::System::Action_1<::QWER::CServiceFrontend*>* cbAction; // 0x10
+		::QWER::CServiceFrontend* oServiceFrontend; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_3D452FA003157C19_Class_2_7A96C4A48C662468.h"
+#include "unitysdk/Class_1_688FBF6C0FC439E7_Class_2_7A96C4A48C662468.h"
 #include "unitysdk/MoleMole/DynamicCheckTreeDataEntry.h"
 
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_CF003797AF1ECFA8_CLASS_3_A4720D50565CFEBC_METHOD_3_6EBA020675B88469_OFFSET UNITYSDK_OFFSET(0x66F8620)
-#define CLASS_3_CF003797AF1ECFA8_CLASS_3_A4720D50565CFEBC__CTOR_OFFSET UNITYSDK_OFFSET(0x66F8610)
+#define CLASS_3_CF003797AF1ECFA8_CLASS_3_A4720D50565CFEBC_METHOD_3_6EBA020675B88469_OFFSET UNITYSDK_OFFSET(0x12C644F0)
+#define CLASS_3_CF003797AF1ECFA8_CLASS_3_A4720D50565CFEBC__CTOR_OFFSET UNITYSDK_OFFSET(0x12C644E0)
 
-inline static constexpr unsigned int Class_3_CF003797AF1ECFA8_Class_3_A4720D50565CFEBC_TypeDefinitionIndex = 81032;
+inline static constexpr unsigned int Class_3_CF003797AF1ECFA8_Class_3_A4720D50565CFEBC_TypeDefinitionIndex = 40953;
 
-class Class_3_CF003797AF1ECFA8_Class_3_A4720D50565CFEBC : public ::Class_1_3D452FA003157C19_Class_2_7A96C4A48C662468
+class Class_3_CF003797AF1ECFA8_Class_3_A4720D50565CFEBC : public ::Class_1_688FBF6C0FC439E7_Class_2_7A96C4A48C662468
 {
 public:
 	::System::Void _ctor(::System::Int32 a1, ::System::String* a2)

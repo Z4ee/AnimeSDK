@@ -6,39 +6,39 @@ namespace MoleMole { class UIGeneralHeadRowWidgetController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9B19C0)
-#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA9B1A00)
-#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__ONSELECTAVATAR_B__14_0_OFFSET UNITYSDK_OFFSET(0xA9B1A50)
-#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__ONSELECTAVATAR_B__14_1_OFFSET UNITYSDK_OFFSET(0xA9B1A80)
-#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C___REFRESHROLES_B__12_2_OFFSET UNITYSDK_OFFSET(0xA9B1A10)
-#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C___REFRESHROLES_B__12_3_OFFSET UNITYSDK_OFFSET(0xA9B1A30)
+#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x151CF920)
+#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151CF960)
+#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__ONSELECTAVATAR_B__14_0_OFFSET UNITYSDK_OFFSET(0x151CF9B0)
+#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C__ONSELECTAVATAR_B__14_1_OFFSET UNITYSDK_OFFSET(0x151CF9E0)
+#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C___REFRESHROLES_B__12_2_OFFSET UNITYSDK_OFFSET(0x151CF970)
+#define MOLEMOLE_UIHADALLINEUP_ROOMSELECTWIDGETCONTROLLER___C___REFRESHROLES_B__12_3_OFFSET UNITYSDK_OFFSET(0x151CF990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex = 77213;
+	inline static constexpr unsigned int UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex = 49644;
 
 	class UIHadalLineUp_RoomSelectWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHadalLineUp_RoomSelectWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIHadalLineUp_RoomSelectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D620);
-		}
-		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__14_0()
-		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D628);
-		}
-		static ::System::Action** StaticGet___9__14_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D630);
-		}
 		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__12_3()
 		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D638);
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EDE0);
+		}
+		static ::MoleMole::UIHadalLineUp_RoomSelectWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIHadalLineUp_RoomSelectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EDE8);
 		}
 		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__12_2()
 		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D640);
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EDF0);
+		}
+		static ::System::Action** StaticGet___9__14_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EDF8);
+		}
+		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__14_0()
+		{
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalLineUp_RoomSelectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE00);
 		}
 
 		static ::System::Void _cctor()

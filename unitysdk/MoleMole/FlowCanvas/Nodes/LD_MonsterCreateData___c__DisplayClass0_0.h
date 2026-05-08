@@ -10,25 +10,25 @@ namespace MoleMole::FlowCanvas::Nodes { class MonsterCreateData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA38D880)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0xA38D890)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170CD280)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x170CD290)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_MonsterCreateData___c__DisplayClass0_0_TypeDefinitionIndex = 54781;
+	inline static constexpr unsigned int LD_MonsterCreateData___c__DisplayClass0_0_TypeDefinitionIndex = 81497;
 
 	class LD_MonsterCreateData___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Single>* valueInput_createInterval; // 0x10
-		::FlowCanvas::ValueInput_1<::System::Int32>* valueInput_monsterId; // 0x18
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateDataAnimatorParam>*>* valueInput_InitAnimatorParams; // 0x20
-		::FlowCanvas::ValueInput_1<::System::String*>* valueInput_anchorName; // 0x28
+		::FlowCanvas::ValueInput_1<::System::Int32>* valueInput_monsterId; // 0x10
+		::FlowCanvas::ValueInput_1<::System::String*>* valueInput_monsterName; // 0x18
+		::FlowCanvas::ValueInput_1<::System::Single>* valueInput_createInterval; // 0x20
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* valueInput_anchorOffset; // 0x28
 		::FlowCanvas::ValueInput_1<::System::Single>* valueInput_CreatePossibility; // 0x30
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::GameplayTag>*>* valueInput_tags; // 0x38
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* valueInput_anchorOffset; // 0x40
-		::FlowCanvas::ValueInput_1<::System::String*>* valueInput_monsterName; // 0x48
-		::FlowCanvas::ValueInput_1<::System::Int32>* valueInput_AIID; // 0x50
+		::FlowCanvas::ValueInput_1<::System::String*>* valueInput_anchorName; // 0x38
+		::FlowCanvas::ValueInput_1<::System::Int32>* valueInput_AIID; // 0x40
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateDataAnimatorParam>*>* valueInput_InitAnimatorParams; // 0x48
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::GameplayTag>*>* valueInput_tags; // 0x50
 
 		::System::Void _ctor()
 		{

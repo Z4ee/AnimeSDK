@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowTipsWidgetController_ProgressRedirect_TypeDefinitionIndex = 63739;
+	inline static constexpr unsigned int UIHollowTipsWidgetController_ProgressRedirect_TypeDefinitionIndex = 74457;
 
 	struct alignas(8) UIHollowTipsWidgetController_ProgressRedirect
 	{

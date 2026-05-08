@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_PCRESOLUTIONSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA47BD00)
+#define MOLEMOLE_PCRESOLUTIONSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FAB9F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCResolutionSettingContext_TypeDefinitionIndex = 70712;
+	inline static constexpr unsigned int PCResolutionSettingContext_TypeDefinitionIndex = 69120;
 
 	class PCResolutionSettingContext : public ::MoleMole::SystemSettingContextBase
 	{
 	public:
 		::System::Int32 Height; // 0x28
-		::System::Boolean IsFullScreen; // 0x2C
-		::System::Int32 Width; // 0x30
+		::System::Int32 Width; // 0x2C
+		::System::Boolean IsFullScreen; // 0x30
 
 		::System::Void _ctor()
 		{

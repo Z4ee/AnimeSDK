@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_GAMEPLAYTAGCOLLECTION_COLLECT_OFFSET UNITYSDK_OFFSET(0x1B48BF20)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGCOLLECTION_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1B48BF10)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B48BF80)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGCOLLECTION_COLLECT_OFFSET UNITYSDK_OFFSET(0x1C214C20)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGCOLLECTION_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1C214C10)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C214C80)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int GameplayTagCollection_TypeDefinitionIndex = 8845;
+	inline static constexpr unsigned int GameplayTagCollection_TypeDefinitionIndex = 8917;
 
 	class GameplayTagCollection : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

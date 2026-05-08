@@ -6,11 +6,11 @@ class Class_1_EDAA6390395047A1;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBOSSBATTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD10E0)
+#define MOLEMOLE_UIBOSSBATTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1564BE40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossBattleData_TypeDefinitionIndex = 47898;
+	inline static constexpr unsigned int UIBossBattleData_TypeDefinitionIndex = 49057;
 
 	class UIBossBattleData : public ::MoleMole::UIControllerContextBase
 	{

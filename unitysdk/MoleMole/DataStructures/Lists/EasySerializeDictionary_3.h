@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::DataStructures::Lists
 {
-	inline static constexpr unsigned int EasySerializeDictionary_3_TypeDefinitionIndex = 25233;
+	inline static constexpr unsigned int EasySerializeDictionary_3_TypeDefinitionIndex = 25564;
 
 	template <typename TKey, typename TValue, typename TEntry>
 	class EasySerializeDictionary_3 : public ::System::Object

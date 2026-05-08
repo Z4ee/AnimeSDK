@@ -4,23 +4,23 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_208CC9941471731A_164;
+class Class_2_208CC9941471731A_275;
 class Class_2_47F3EABB6C9CDECD;
 namespace MoleMole { class UIBaseController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_47F3EABB6C9CDECD_STRUCT_2_80E7E707529CC79C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x35DFC0)
-#define CLASS_2_47F3EABB6C9CDECD_STRUCT_2_80E7E707529CC79C_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define CLASS_2_47F3EABB6C9CDECD_STRUCT_2_80E7E707529CC79C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6FDD20)
+#define CLASS_2_47F3EABB6C9CDECD_STRUCT_2_80E7E707529CC79C_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
-inline static constexpr unsigned int Class_2_47F3EABB6C9CDECD_Struct_2_80E7E707529CC79C_TypeDefinitionIndex = 63478;
+inline static constexpr unsigned int Class_2_47F3EABB6C9CDECD_Struct_2_80E7E707529CC79C_TypeDefinitionIndex = 45810;
 
 struct alignas(8) Class_2_47F3EABB6C9CDECD_Struct_2_80E7E707529CC79C
 {
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x10
-	::Class_2_208CC9941471731A_164* Field_2_5; // 0x20
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x28
-	::Class_2_47F3EABB6C9CDECD* Field_2_3; // 0x38
-	::MoleMole::UIBaseController* Field_2_4; // 0x40
+	::Class_2_47F3EABB6C9CDECD* Field_2_3; // 0x10
+	::MoleMole::UIBaseController* Field_2_4; // 0x18
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x20
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x30
+	::Class_2_208CC9941471731A_275* Field_2_5; // 0x40
 	::System::Int32 Field_2_0; // 0x48
 	::System::Int32 Field_2_2; // 0x4C
 

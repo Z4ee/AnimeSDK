@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO_INVOKE_OFFSET UNITYSDK_OFFSET(0x7575D20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x7575E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1498E700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1498E7C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetGenericScoreRatio_TypeDefinitionIndex = 61962;
+	inline static constexpr unsigned int LDGetGenericScoreRatio_TypeDefinitionIndex = 82036;
 
 	class LDGetGenericScoreRatio : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Single, ::System::String*, ::System::Boolean>
 	{

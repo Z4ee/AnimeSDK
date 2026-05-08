@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace NPCCrowd::AI { class NPCCrowdReactionManager___c__DisplayClass24_0; }
 
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___C__DISPLAYCLASS24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x6F97FD0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___C__DISPLAYCLASS24_1__HANDLEEVENTCONFIGSTIMULUSENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x6F97FE0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___C__DISPLAYCLASS24_1__CTOR_OFFSET UNITYSDK_OFFSET(0xEC76EA0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___C__DISPLAYCLASS24_1__HANDLEEVENTCONFIGSTIMULUSENABLE_B__0_OFFSET UNITYSDK_OFFSET(0xEC76EB0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCCrowdReactionManager___c__DisplayClass24_1_TypeDefinitionIndex = 46748;
+	inline static constexpr unsigned int NPCCrowdReactionManager___c__DisplayClass24_1_TypeDefinitionIndex = 52487;
 
 	class NPCCrowdReactionManager___c__DisplayClass24_1 : public ::System::Object
 	{

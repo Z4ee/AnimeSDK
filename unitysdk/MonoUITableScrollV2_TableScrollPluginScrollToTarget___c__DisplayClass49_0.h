@@ -3,7 +3,7 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass49_0_TypeDefinitionIndex = 64395;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass49_0_TypeDefinitionIndex = 54084;
 
 struct alignas(1) MonoUITableScrollV2_TableScrollPluginScrollToTarget___c__DisplayClass49_0
 {

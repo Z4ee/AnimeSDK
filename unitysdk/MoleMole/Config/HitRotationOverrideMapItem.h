@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class HitEffectMapItem; }
 
-#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xE374FE0)
+#define MOLEMOLE_CONFIG_HITROTATIONOVERRIDEMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA4520)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitRotationOverrideMapItem_TypeDefinitionIndex = 65975;
+	inline static constexpr unsigned int HitRotationOverrideMapItem_TypeDefinitionIndex = 76637;
 
 	class HitRotationOverrideMapItem : public ::System::Object
 	{

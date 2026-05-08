@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int MatPropertyType_TypeDefinitionIndex = 29755;
+	inline static constexpr unsigned int MatPropertyType_TypeDefinitionIndex = 30284;
 
 	enum class MatPropertyType : ::System::Int32
 	{

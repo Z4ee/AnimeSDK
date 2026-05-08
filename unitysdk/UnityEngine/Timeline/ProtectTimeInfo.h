@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_TIMELINE_PROTECTTIMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3B870)
+#define UNITYENGINE_TIMELINE_PROTECTTIMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6F3E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ProtectTimeInfo_TypeDefinitionIndex = 30348;
+	inline static constexpr unsigned int ProtectTimeInfo_TypeDefinitionIndex = 30877;
 
 	class ProtectTimeInfo : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_IO_COMPRESSION_ZLIBNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1923DD50)
+#define SYSTEM_IO_COMPRESSION_ZLIBNATIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB1A70)
 
 namespace System::IO::Compression
 {

@@ -7,12 +7,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class LDSpawnBuddyNode; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DBCA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0___SETBUDDYPOS_DEPRECATED_G___DELAYSET_0_OFFSET UNITYSDK_OFFSET(0xB5DBCB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15419170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0___SETBUDDYPOS_DEPRECATED_G___DELAYSET_0_OFFSET UNITYSDK_OFFSET(0x15419180)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSpawnBuddyNode___c__DisplayClass23_0_TypeDefinitionIndex = 54287;
+	inline static constexpr unsigned int LDSpawnBuddyNode___c__DisplayClass23_0_TypeDefinitionIndex = 47551;
 
 	class LDSpawnBuddyNode___c__DisplayClass23_0 : public ::System::Object
 	{

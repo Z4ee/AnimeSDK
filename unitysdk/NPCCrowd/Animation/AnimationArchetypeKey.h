@@ -6,12 +6,12 @@
 namespace NPCCrowd::Animation { class AnimationControllerInstanceConfig; }
 namespace System { class Object; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONARCHETYPEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F5DE0)
-#define NPCCROWD_ANIMATION_ANIMATIONARCHETYPEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F5DF0)
+#define NPCCROWD_ANIMATION_ANIMATIONARCHETYPEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x50C5C0)
+#define NPCCROWD_ANIMATION_ANIMATIONARCHETYPEKEY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x50C5D0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationArchetypeKey_TypeDefinitionIndex = 63369;
+	inline static constexpr unsigned int AnimationArchetypeKey_TypeDefinitionIndex = 81342;
 
 	struct alignas(8) AnimationArchetypeKey
 	{

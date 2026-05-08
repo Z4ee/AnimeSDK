@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_52E1AC57BFCCCBC7_Class_1_EA1C393BB9181419;
+namespace MoleMole { class UIGeneralTipsPopWindowController; }
+namespace System { class Action; }
+
+#define CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55_METHOD_1_2DCDFF29E7FDDAA8_OFFSET UNITYSDK_OFFSET(0x15AF5CD0)
+#define CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55_METHOD_1_61113270C4B9E4F4_OFFSET UNITYSDK_OFFSET(0x15AF5C30)
+#define CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55_METHOD_1_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0x15AF5BB0)
+#define CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55__CTOR_OFFSET UNITYSDK_OFFSET(0x15AF5BA0)
+
+inline static constexpr unsigned int Class_2_52E1AC57BFCCCBC7_Class_1_9DD847CBE2FF7A55_TypeDefinitionIndex = 40525;
+
+class Class_2_52E1AC57BFCCCBC7_Class_1_9DD847CBE2FF7A55 : public ::System::Object
+{
+public:
+	::MoleMole::UIGeneralTipsPopWindowController* Field_1_1; // 0x10
+	::Class_2_52E1AC57BFCCCBC7_Class_1_EA1C393BB9181419* Field_1_2; // 0x18
+	::System::Action* Field_1_3; // 0x20
+	::System::Int32 Field_1_0; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6B72D4EE8C6E907F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55_METHOD_1_6B72D4EE8C6E907F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_61113270C4B9E4F4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55_METHOD_1_61113270C4B9E4F4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2DCDFF29E7FDDAA8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_52E1AC57BFCCCBC7_CLASS_1_9DD847CBE2FF7A55_METHOD_1_2DCDFF29E7FDDAA8_OFFSET))(this);
+	}
+};

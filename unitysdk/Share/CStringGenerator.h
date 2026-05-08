@@ -14,11 +14,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SHARE_CSTRINGGENERATOR_GETSTRING_OFFSET UNITYSDK_OFFSET(0x184E5C20)
+#define SHARE_CSTRINGGENERATOR_GETSTRING_OFFSET UNITYSDK_OFFSET(0x194FDAD0)
 
 namespace Share
 {
-	inline static constexpr unsigned int CStringGenerator_TypeDefinitionIndex = 16340;
+	inline static constexpr unsigned int CStringGenerator_TypeDefinitionIndex = 13352;
 
 	class CStringGenerator : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_EFEAEB43E55695E2;
 namespace MoleMole { class UIInterKnotPostTypeRowWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBD34450)
-#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xBD34460)
+#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1609C2E0)
+#define MOLEMOLE_UIINTERKNOTPOSTTYPEROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1609C2F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostTypeRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 48663;
+	inline static constexpr unsigned int UIInterKnotPostTypeRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 58640;
 
 	class UIInterKnotPostTypeRowWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{

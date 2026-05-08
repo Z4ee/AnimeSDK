@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHollowCollectRewardDialogPopWindowController___c__DisplayClass15_0; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD5B0B60)
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_1__PLAYANIMATIONPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xD5B0B70)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0x168A7F70)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_1__PLAYANIMATIONPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0x168A7F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController___c__DisplayClass15_1_TypeDefinitionIndex = 71917;
+	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController___c__DisplayClass15_1_TypeDefinitionIndex = 57152;
 
 	class UIHollowCollectRewardDialogPopWindowController___c__DisplayClass15_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowCollectRewardDialogPopWindowController___c__DisplayClass15_0* CS___8__locals1; // 0x10
-		::System::String* animName; // 0x18
+		::System::String* animName; // 0x10
+		::MoleMole::UIHollowCollectRewardDialogPopWindowController___c__DisplayClass15_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

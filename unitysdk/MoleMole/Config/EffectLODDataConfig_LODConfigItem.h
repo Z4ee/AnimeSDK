@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_EFFECTLODDATACONFIG_LODCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xE2D23A0)
+#define MOLEMOLE_CONFIG_EFFECTLODDATACONFIG_LODCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x153CA550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectLODDataConfig_LODConfigItem_TypeDefinitionIndex = 80886;
+	inline static constexpr unsigned int EffectLODDataConfig_LODConfigItem_TypeDefinitionIndex = 42604;
 
 	class EffectLODDataConfig_LODConfigItem : public ::System::Object
 	{

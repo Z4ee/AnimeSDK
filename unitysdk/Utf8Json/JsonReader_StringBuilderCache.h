@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UTF8JSON_JSONREADER_STRINGBUILDERCACHE_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1B6CFD20)
-#define UTF8JSON_JSONREADER_STRINGBUILDERCACHE_GETCODEPOINTSTRINGBUFFER_OFFSET UNITYSDK_OFFSET(0x1B6CFE20)
+#define UTF8JSON_JSONREADER_STRINGBUILDERCACHE_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1C47A580)
+#define UTF8JSON_JSONREADER_STRINGBUILDERCACHE_GETCODEPOINTSTRINGBUFFER_OFFSET UNITYSDK_OFFSET(0x1C47A6A0)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonReader_StringBuilderCache_TypeDefinitionIndex = 83777;
+	inline static constexpr unsigned int JsonReader_StringBuilderCache_TypeDefinitionIndex = 85505;
 
 	class JsonReader_StringBuilderCache : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_buffer()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(JsonReader_StringBuilderCache_TypeDefinitionIndex)->GetStaticField(0x0);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_codePointStringBuffer()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JsonReader_StringBuilderCache_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_buffer()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(JsonReader_StringBuilderCache_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 
 		static ::Il2CppArray<::System::Byte>* GetBuffer()

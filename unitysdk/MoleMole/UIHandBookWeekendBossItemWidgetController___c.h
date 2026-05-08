@@ -7,29 +7,29 @@ namespace MoleMole { class ScrollViewItemWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8725050)
-#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8725090)
-#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x87250A0)
-#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__9_1_OFFSET UNITYSDK_OFFSET(0x87250C0)
+#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B40D40)
+#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B40D80)
+#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x14B40D90)
+#define MOLEMOLE_UIHANDBOOKWEEKENDBOSSITEMWIDGETCONTROLLER___C__REFRESHGAMEPADLIST_B__9_1_OFFSET UNITYSDK_OFFSET(0x14B40DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex = 48170;
+	inline static constexpr unsigned int UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex = 59966;
 
 	class UIHandBookWeekendBossItemWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__9_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43250);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43258);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44980);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__9_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44988);
 		}
 		static ::MoleMole::UIHandBookWeekendBossItemWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookWeekendBossItemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43260);
+			return (::MoleMole::UIHandBookWeekendBossItemWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookWeekendBossItemWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44990);
 		}
 
 		static ::System::Void _cctor()

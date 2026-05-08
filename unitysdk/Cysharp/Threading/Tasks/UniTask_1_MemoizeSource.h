@@ -9,7 +9,7 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_1_MemoizeSource_TypeDefinitionIndex = 28105;
+	inline static constexpr unsigned int UniTask_1_MemoizeSource_TypeDefinitionIndex = 28623;
 
 	template <typename T>
 	class UniTask_1_MemoizeSource : public ::System::Object

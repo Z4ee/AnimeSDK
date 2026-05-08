@@ -4,12 +4,12 @@
 
 namespace NPCCrowd::AI { class NPCPoolConfig; }
 
-#define NPCCROWD_AI_POPULATIONRUNTIME___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7515990)
-#define NPCCROWD_AI_POPULATIONRUNTIME___C__DISPLAYCLASS38_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x75159A0)
+#define NPCCROWD_AI_POPULATIONRUNTIME___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF4E8950)
+#define NPCCROWD_AI_POPULATIONRUNTIME___C__DISPLAYCLASS38_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0xF4E8960)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationRuntime___c__DisplayClass38_0_TypeDefinitionIndex = 68773;
+	inline static constexpr unsigned int PopulationRuntime___c__DisplayClass38_0_TypeDefinitionIndex = 81244;
 
 	class PopulationRuntime___c__DisplayClass38_0 : public ::System::Object
 	{

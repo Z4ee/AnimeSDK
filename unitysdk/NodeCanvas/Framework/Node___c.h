@@ -6,29 +6,29 @@ namespace NodeCanvas::Framework { class Connection; }
 namespace NodeCanvas::Framework { class Node; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NODECANVAS_FRAMEWORK_NODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C2C920)
-#define NODECANVAS_FRAMEWORK_NODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2C960)
-#define NODECANVAS_FRAMEWORK_NODE___C__GETCHILDNODES_B__112_0_OFFSET UNITYSDK_OFFSET(0x19C2C990)
-#define NODECANVAS_FRAMEWORK_NODE___C__GETPARENTNODES_B__111_0_OFFSET UNITYSDK_OFFSET(0x19C2C970)
+#define NODECANVAS_FRAMEWORK_NODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A859EA0)
+#define NODECANVAS_FRAMEWORK_NODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A859EE0)
+#define NODECANVAS_FRAMEWORK_NODE___C__GETCHILDNODES_B__112_0_OFFSET UNITYSDK_OFFSET(0x1A859F10)
+#define NODECANVAS_FRAMEWORK_NODE___C__GETPARENTNODES_B__111_0_OFFSET UNITYSDK_OFFSET(0x1A859EF0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Node___c_TypeDefinitionIndex = 26952;
+	inline static constexpr unsigned int Node___c_TypeDefinitionIndex = 28016;
 
 	class Node___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>** StaticGet___9__112_0()
+		static ::NodeCanvas::Framework::Node___c** StaticGet___9()
 		{
-			return (::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>**)Il2CppClass::FromTypeDefinitionIndex(Node___c_TypeDefinitionIndex)->GetStaticField(0x1F590);
+			return (::NodeCanvas::Framework::Node___c**)Il2CppClass::FromTypeDefinitionIndex(Node___c_TypeDefinitionIndex)->GetStaticField(0x200A0);
 		}
 		static ::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>** StaticGet___9__111_0()
 		{
-			return (::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>**)Il2CppClass::FromTypeDefinitionIndex(Node___c_TypeDefinitionIndex)->GetStaticField(0x1F598);
+			return (::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>**)Il2CppClass::FromTypeDefinitionIndex(Node___c_TypeDefinitionIndex)->GetStaticField(0x200A8);
 		}
-		static ::NodeCanvas::Framework::Node___c** StaticGet___9()
+		static ::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>** StaticGet___9__112_0()
 		{
-			return (::NodeCanvas::Framework::Node___c**)Il2CppClass::FromTypeDefinitionIndex(Node___c_TypeDefinitionIndex)->GetStaticField(0x1F5A0);
+			return (::System::Func_2<::NodeCanvas::Framework::Connection*, ::NodeCanvas::Framework::Node*>**)Il2CppClass::FromTypeDefinitionIndex(Node___c_TypeDefinitionIndex)->GetStaticField(0x200B0);
 		}
 
 		static ::System::Void _cctor()

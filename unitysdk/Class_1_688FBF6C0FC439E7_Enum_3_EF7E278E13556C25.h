@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Class_1_688FBF6C0FC439E7_Enum_3_EF7E278E13556C25_TypeDefinitionIndex = 67597;
+
+enum class Class_1_688FBF6C0FC439E7_Enum_3_EF7E278E13556C25 : ::System::Int32
+{
+	Key_BaseIDList = 24,
+	Key_Tag2 = 18,
+	Key_Total = 36,
+	Key_ID_LIST = 4,
+	Key_Upload_MaxDmg = 1,
+	Key_Delta = 33,
+	Key_MonsterID = 28,
+	Key_LevelID = 13,
+	Key_SubIDList = 25,
+	Key_CommonID = 12,
+	Key_Tag2List = 19,
+	Key_Attacker_EntityID_LIST = 8,
+	Key_AvatarID = 14,
+	Key_IsSubID = 29,
+	Max_Key_ = 38,
+	Key_Tag = 16,
+	Key_ItemID = 27,
+	Key_MatchType = 34,
+	Key_ID = 3,
+	Key_EntityID = 5,
+	Key_Count = 11,
+	Key_Upload_End = 2,
+	Key_TagList = 17,
+	Key_EntityID_LIST = 6,
+	Key_StartTime = 10,
+	Key_Attackee_EntityID_LIST = 7,
+	Key_Hp = 20,
+	Key_DstID = 31,
+	Key_Time = 32,
+	Key_SubID = 23,
+	Key_SrcID = 30,
+	Key_Percent = 26,
+	Key_Dmg = 21,
+	Key_Repeat = 37,
+	Key_Druation = 9,
+	Key_BaseID = 22,
+	Key_AvatarID_List = 15,
+	Key_Upload_Duration = 0,
+	Key_Times = 35,
+};

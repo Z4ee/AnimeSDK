@@ -4,11 +4,11 @@
 
 namespace UnrealTypes { class Enum; }
 
-#define UNREALTYPES_ENUMPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A204F10)
+#define UNREALTYPES_ENUMPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9BA90)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int EnumPropertyParams_TypeDefinitionIndex = 24745;
+	inline static constexpr unsigned int EnumPropertyParams_TypeDefinitionIndex = 25259;
 
 	class EnumPropertyParams : public ::UnrealTypes::PropertyParamsBase
 	{

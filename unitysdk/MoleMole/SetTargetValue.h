@@ -9,37 +9,37 @@
 #include "unitysdk/MoleMole/SetTargetValue_SelectTargeting.h"
 #include "unitysdk/MoleMole/TargetValueType.h"
 
-class Class_3_3A6272A02DE7F4E0;
+class Class_3_E2819F45333A39BF;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x8B76D60)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x8B76340)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x8B764E0)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x8B76680)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x8B76AF0)
-#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x8B76830)
-#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8B75AC0)
-#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8B75CB0)
-#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x8B76FE0)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8B771E0)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8B77270)
+#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x125EF860)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x125EEEB0)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x125EF040)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x125EF1C0)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x125EF5F0)
+#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x125EF350)
+#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125EE670)
+#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125EE830)
+#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x125EFAC0)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x125EFD30)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x125EFDC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 47133;
+	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 51285;
 
 	class SetTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x58
-		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x60
-		::MoleMole::Battle::Entity* ownerEntity; // 0x68
-		::Class_3_3A6272A02DE7F4E0* characterBattleData; // 0x70
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x68
+		::MoleMole::Battle::Entity* ownerEntity; // 0x70
 		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x78
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x80
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x88
+		::Class_3_E2819F45333A39BF* characterBattleData; // 0x80
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x88
 		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x90
 		::System::Single modifyValue; // 0x98
 		::MoleMole::SetTargetValue_SelectTargeting Target; // 0x9C

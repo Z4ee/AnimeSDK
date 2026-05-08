@@ -8,22 +8,22 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY_CREATEANDINITP2PINTERACTION_OFFSET UNITYSDK_OFFSET(0xB833C30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB833AE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0xB833E70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xB833E90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY_CREATEANDINITP2PINTERACTION_OFFSET UNITYSDK_OFFSET(0x1780BDF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1780BCC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1780C000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEANDMAPINTERACTIONTOENTITY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1780C040)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CreateAndMapInteractionToEntity_TypeDefinitionIndex = 63295;
+	inline static constexpr unsigned int LD_AbyssS2_CreateAndMapInteractionToEntity_TypeDefinitionIndex = 70790;
 
 	class LD_AbyssS2_CreateAndMapInteractionToEntity : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _interactionObject; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _interactionPool; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _interactionPool; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::String*>* _suddenEventKey; // 0xB8
-		::FlowCanvas::FlowOutput* _output; // 0xC0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _interactionObject; // 0xC0
 
 		::System::Void _ctor()
 		{

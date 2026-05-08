@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_TOGGLE_TOGGLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9FD240)
+#define UNITYENGINE_UI_TOGGLE_TOGGLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B850470)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Toggle_ToggleEvent_TypeDefinitionIndex = 8457;
+	inline static constexpr unsigned int Toggle_ToggleEvent_TypeDefinitionIndex = 8467;
 
 	class Toggle_ToggleEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Boolean>
 	{

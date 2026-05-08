@@ -5,69 +5,37 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_COPYTOFROM_OFFSET UNITYSDK_OFFSET(0x8CEC30)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_FLOATTOPRIMITIVEVALUE_OFFSET UNITYSDK_OFFSET(0x8CEBC0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GETPRIMITIVEFORMATFROMTYPE_OFFSET UNITYSDK_OFFSET(0x19C0E6F0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GETSIZEOFPRIMITIVEFORMATINBITS_OFFSET UNITYSDK_OFFSET(0x19C0E2C0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_ALIGNEDSIZEINBYTES_OFFSET UNITYSDK_OFFSET(0x8CEB50)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_BITOFFSET_OFFSET UNITYSDK_OFFSET(0x2EC6E0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_BYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x302230)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_EFFECTIVEBITOFFSET_OFFSET UNITYSDK_OFFSET(0x8CEB70)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_EFFECTIVEBYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x8CEB60)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x2F1F70)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_SIZEINBITS_OFFSET UNITYSDK_OFFSET(0x2F6540)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x8CEBE0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_READFLOAT_OFFSET UNITYSDK_OFFSET(0x8CEBA0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_READINT_OFFSET UNITYSDK_OFFSET(0x8CEB80)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_BITOFFSET_OFFSET UNITYSDK_OFFSET(0x3028C0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_BYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x302120)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_FORMAT_OFFSET UNITYSDK_OFFSET(0x302300)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_SIZEINBITS_OFFSET UNITYSDK_OFFSET(0x302AB0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITEDOUBLE_OFFSET UNITYSDK_OFFSET(0x8CEBF0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITEFLOAT_OFFSET UNITYSDK_OFFSET(0x8CEBB0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITEINT_OFFSET UNITYSDK_OFFSET(0x8CEB90)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITE_OFFSET UNITYSDK_OFFSET(0x8CEC00)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C10850)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_COPYTOFROM_OFFSET UNITYSDK_OFFSET(0x90D790)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_FLOATTOPRIMITIVEVALUE_OFFSET UNITYSDK_OFFSET(0x90D720)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GETPRIMITIVEFORMATFROMTYPE_OFFSET UNITYSDK_OFFSET(0x1A923A40)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GETSIZEOFPRIMITIVEFORMATINBITS_OFFSET UNITYSDK_OFFSET(0x1A9235C0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_ALIGNEDSIZEINBYTES_OFFSET UNITYSDK_OFFSET(0x90D6B0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_BITOFFSET_OFFSET UNITYSDK_OFFSET(0x2F0420)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_BYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x3A4E50)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_EFFECTIVEBITOFFSET_OFFSET UNITYSDK_OFFSET(0x90D6D0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_EFFECTIVEBYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x90D6C0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x2E87C0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_GET_SIZEINBITS_OFFSET UNITYSDK_OFFSET(0x2F1C00)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x90D740)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_READFLOAT_OFFSET UNITYSDK_OFFSET(0x90D700)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_READINT_OFFSET UNITYSDK_OFFSET(0x90D6E0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_BITOFFSET_OFFSET UNITYSDK_OFFSET(0x50A4B0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_BYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x5B6810)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_FORMAT_OFFSET UNITYSDK_OFFSET(0x2E85F0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_SET_SIZEINBITS_OFFSET UNITYSDK_OFFSET(0x46F550)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITEDOUBLE_OFFSET UNITYSDK_OFFSET(0x90D750)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITEFLOAT_OFFSET UNITYSDK_OFFSET(0x90D710)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITEINT_OFFSET UNITYSDK_OFFSET(0x90D6F0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK_WRITE_OFFSET UNITYSDK_OFFSET(0x90D760)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTSTATEBLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A925C30)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputStateBlock_TypeDefinitionIndex = 28772;
+	inline static constexpr unsigned int InputStateBlock_TypeDefinitionIndex = 29290;
 
 	struct alignas(4) InputStateBlock
 	{
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatShort()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B80);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatFloat()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B84);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatLong()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B88);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatDouble()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B8C);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatInt()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B90);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatByte()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B94);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatBit()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B98);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatSByte()
-		{
-			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4B9C);
-		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatQuaternion()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector2Byte()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BA0);
 		}
@@ -75,41 +43,73 @@ namespace UnityEngine::InputSystem::LowLevel
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BA4);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector2Short()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatUShort()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BA8);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector2()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatLong()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BAC);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatULong()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatInt()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BB0);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatUShort()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatULong()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BB4);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector3()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatUInt()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BB8);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatUInt()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatDouble()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BBC);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector2Byte()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector2()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BC0);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector3Short()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatFloat()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BC4);
 		}
-		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatSBit()
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector2Short()
 		{
 			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BC8);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector3()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BCC);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatQuaternion()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BD0);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatSByte()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BD4);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatSBit()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BD8);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatVector3Short()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BDC);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatShort()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BE0);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatBit()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BE4);
+		}
+		static ::UnityEngine::InputSystem::Utilities::FourCC* StaticGet_FormatByte()
+		{
+			return (::UnityEngine::InputSystem::Utilities::FourCC*)Il2CppClass::FromTypeDefinitionIndex(InputStateBlock_TypeDefinitionIndex)->GetStaticField(0x4BE8);
 		}
 		// static const ::System::UInt32 InvalidOffset = 0xFFFFFFFF; // 0x0
 		// static const ::System::UInt32 AutomaticOffset = 0xFFFFFFFE; // 0x0

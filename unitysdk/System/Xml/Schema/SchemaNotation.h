@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Xml { class XmlQualifiedName; }
 
-#define SYSTEM_XML_SCHEMA_SCHEMANOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2633A0)
+#define SYSTEM_XML_SCHEMA_SCHEMANOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE87A90)
 
 namespace System::Xml::Schema
 {
@@ -15,8 +15,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::XmlQualifiedName* name; // 0x10
-		::System::String* systemLiteral; // 0x18
-		::System::String* pubid; // 0x20
+		::System::String* pubid; // 0x18
+		::System::String* systemLiteral; // 0x20
 
 		::System::Void _ctor(::System::Xml::XmlQualifiedName* name)
 		{

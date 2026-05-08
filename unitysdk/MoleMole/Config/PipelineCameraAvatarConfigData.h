@@ -10,12 +10,12 @@ namespace MoleMole { class CameraModuleAvatarDataConfigExt; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_GETCAMERAMODULEAVATARDATACONFIGEXT_OFFSET UNITYSDK_OFFSET(0xE2DB730)
-#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE2DB840)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA_GETCAMERAMODULEAVATARDATACONFIGEXT_OFFSET UNITYSDK_OFFSET(0x153D3060)
+#define MOLEMOLE_CONFIG_PIPELINECAMERAAVATARCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x153D3180)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PipelineCameraAvatarConfigData_TypeDefinitionIndex = 47379;
+	inline static constexpr unsigned int PipelineCameraAvatarConfigData_TypeDefinitionIndex = 63811;
 
 	class PipelineCameraAvatarConfigData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

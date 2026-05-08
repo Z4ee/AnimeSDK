@@ -5,18 +5,18 @@
 
 class Class_2_04E07F842ECC3B8E;
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB987CB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE___C__DISPLAYCLASS0_0__INVOKE_B__0_OFFSET UNITYSDK_OFFSET(0xB987CC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18215130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE___C__DISPLAYCLASS0_0__INVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x18215140)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDZeroGmEndNode___c__DisplayClass0_0_TypeDefinitionIndex = 44157;
+	inline static constexpr unsigned int LDZeroGmEndNode___c__DisplayClass0_0_TypeDefinitionIndex = 73591;
 
 	class LDZeroGmEndNode___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode_LevelEndPerformType performType; // 0x10
-		::System::Boolean success; // 0x14
+		::System::Boolean success; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode_LevelEndPerformType performType; // 0x14
 
 		::System::Void _ctor()
 		{

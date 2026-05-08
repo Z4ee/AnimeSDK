@@ -6,7 +6,7 @@ namespace UnityEngine { class Component; }
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTweenAnimationExtensions_TypeDefinitionIndex = 84222;
+	inline static constexpr unsigned int DOTweenAnimationExtensions_TypeDefinitionIndex = 85908;
 
 	class DOTweenAnimationExtensions : public ::System::Object
 	{

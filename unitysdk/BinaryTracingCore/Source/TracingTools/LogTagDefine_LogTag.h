@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGTAGDEFINE_LOGTAG_GET_TAGNAME_OFFSET UNITYSDK_OFFSET(0x1B1D1D50)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGTAGDEFINE_LOGTAG_GET_TAGVALUE_OFFSET UNITYSDK_OFFSET(0x1B1D1D40)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGTAGDEFINE_LOGTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D1CF0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGTAGDEFINE_LOGTAG_GET_TAGNAME_OFFSET UNITYSDK_OFFSET(0x1BF02AF0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGTAGDEFINE_LOGTAG_GET_TAGVALUE_OFFSET UNITYSDK_OFFSET(0x1BF02AE0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGTAGDEFINE_LOGTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF02A90)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogTagDefine_LogTag_TypeDefinitionIndex = 31882;
+	inline static constexpr unsigned int LogTagDefine_LogTag_TypeDefinitionIndex = 32411;
 
 	class LogTagDefine_LogTag : public ::System::Object
 	{
 	public:
 		::System::String* tagName; // 0x10
-		::System::Boolean Enable; // 0x18
-		::System::Int32 tagValue; // 0x1C
+		::System::Int32 tagValue; // 0x18
+		::System::Boolean Enable; // 0x1C
 
 		::System::Void _ctor()
 		{

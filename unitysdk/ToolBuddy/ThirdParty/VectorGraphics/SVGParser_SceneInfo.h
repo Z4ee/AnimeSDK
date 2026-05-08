@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace ToolBuddy::ThirdParty::VectorGraphics { class Scene; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_SCENEINFO_GET_SCENE_OFFSET UNITYSDK_OFFSET(0x223870)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_SCENEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x323D20)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_SCENEINFO_GET_SCENE_OFFSET UNITYSDK_OFFSET(0x228FE0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_SCENEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x71A1F0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGParser_SceneInfo_TypeDefinitionIndex = 27937;
+	inline static constexpr unsigned int SVGParser_SceneInfo_TypeDefinitionIndex = 28455;
 
 	struct alignas(8) SVGParser_SceneInfo
 	{

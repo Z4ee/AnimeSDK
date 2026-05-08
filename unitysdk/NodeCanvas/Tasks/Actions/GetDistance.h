@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x196EE670)
-#define NODECANVAS_TASKS_ACTIONS_GETDISTANCE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x196EE6F0)
-#define NODECANVAS_TASKS_ACTIONS_GETDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x196EE880)
+#define NODECANVAS_TASKS_ACTIONS_GETDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A20EC40)
+#define NODECANVAS_TASKS_ACTIONS_GETDISTANCE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A20ECC0)
+#define NODECANVAS_TASKS_ACTIONS_GETDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20EE50)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetDistance_TypeDefinitionIndex = 27202;
+	inline static constexpr unsigned int GetDistance_TypeDefinitionIndex = 26648;
 
 	class GetDistance : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{

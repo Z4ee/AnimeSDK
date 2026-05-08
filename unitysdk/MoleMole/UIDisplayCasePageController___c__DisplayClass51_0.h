@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIDisplayCasePageController; }
 
-#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD11EB60)
-#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS51_0__REFRESHMODE_G__ONFADEOUT_0_OFFSET UNITYSDK_OFFSET(0xD11EB70)
+#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC18A0)
+#define MOLEMOLE_UIDISPLAYCASEPAGECONTROLLER___C__DISPLAYCLASS51_0__REFRESHMODE_G__ONFADEOUT_0_OFFSET UNITYSDK_OFFSET(0x16CC18B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDisplayCasePageController___c__DisplayClass51_0_TypeDefinitionIndex = 45016;
+	inline static constexpr unsigned int UIDisplayCasePageController___c__DisplayClass51_0_TypeDefinitionIndex = 78104;
 
 	class UIDisplayCasePageController___c__DisplayClass51_0 : public ::System::Object
 	{

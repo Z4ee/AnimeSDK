@@ -5,13 +5,13 @@
 
 namespace MoleMole { class ExposureProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_2CD20F10C229CD49_OFFSET UNITYSDK_OFFSET(0xF2BA8D0)
-#define MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_CF01F29BF1CFE3FF_OFFSET UNITYSDK_OFFSET(0xF2BAA10)
-#define MOLEMOLE_COMMANDLINEEXPOSURE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2BA9D0)
+#define MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_2CD20F10C229CD49_OFFSET UNITYSDK_OFFSET(0x159D9B90)
+#define MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_95681B9E162CBC1D_OFFSET UNITYSDK_OFFSET(0x159D9CA0)
+#define MOLEMOLE_COMMANDLINEEXPOSURE__CTOR_OFFSET UNITYSDK_OFFSET(0x159D9C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineExposure_TypeDefinitionIndex = 58011;
+	inline static constexpr unsigned int CommandLineExposure_TypeDefinitionIndex = 45057;
 
 	class CommandLineExposure : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::ExposureProfileContext*, ::MoleMole::CommandLineExposure*>
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineExposure*(*)(::PVOID, ::MoleMole::ExposureProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_2CD20F10C229CD49_OFFSET))(this, a1);
 		}
 
-		::MoleMole::ExposureProfileContext* Method_2_CF01F29BF1CFE3FF(::MoleMole::ExposureProfileContext* a1)
+		::MoleMole::ExposureProfileContext* Method_2_95681B9E162CBC1D(::MoleMole::ExposureProfileContext* a1)
 		{
-			return ((::MoleMole::ExposureProfileContext*(*)(::PVOID, ::MoleMole::ExposureProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_CF01F29BF1CFE3FF_OFFSET))(this, a1);
+			return ((::MoleMole::ExposureProfileContext*(*)(::PVOID, ::MoleMole::ExposureProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEEXPOSURE_METHOD_2_95681B9E162CBC1D_OFFSET))(this, a1);
 		}
 	};
 }

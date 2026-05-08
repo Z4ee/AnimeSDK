@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_GPUIBONE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x780A080)
-#define NPCCROWD_ANIMATION_GPUIBONE_REMOVECHILD_OFFSET UNITYSDK_OFFSET(0x780A150)
-#define NPCCROWD_ANIMATION_GPUIBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x780A1D0)
+#define NPCCROWD_ANIMATION_GPUIBONE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0xCE61E10)
+#define NPCCROWD_ANIMATION_GPUIBONE_REMOVECHILD_OFFSET UNITYSDK_OFFSET(0xCE61EE0)
+#define NPCCROWD_ANIMATION_GPUIBONE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE61F40)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUIBone_TypeDefinitionIndex = 48078;
+	inline static constexpr unsigned int GPUIBone_TypeDefinitionIndex = 72379;
 
 	class GPUIBone : public ::System::Object
 	{

@@ -17,11 +17,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B4560)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B56550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Performance_TypeDefinitionIndex = 44541;
+	inline static constexpr unsigned int ConfigUICommon_Performance_TypeDefinitionIndex = 81021;
 
 	class ConfigUICommon_Performance : public ::Foundation::MihoyoSerializedScriptableObject
 	{

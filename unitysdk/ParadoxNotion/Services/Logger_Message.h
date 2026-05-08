@@ -7,13 +7,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class WeakReference_1; }
 
-#define PARADOXNOTION_SERVICES_LOGGER_MESSAGE_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x8F8D60)
-#define PARADOXNOTION_SERVICES_LOGGER_MESSAGE_ISVALID_OFFSET UNITYSDK_OFFSET(0x8F8E70)
-#define PARADOXNOTION_SERVICES_LOGGER_MESSAGE_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x8F8DD0)
+#define PARADOXNOTION_SERVICES_LOGGER_MESSAGE_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x93B410)
+#define PARADOXNOTION_SERVICES_LOGGER_MESSAGE_ISVALID_OFFSET UNITYSDK_OFFSET(0x93B520)
+#define PARADOXNOTION_SERVICES_LOGGER_MESSAGE_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x93B480)
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int Logger_Message_TypeDefinitionIndex = 26754;
+	inline static constexpr unsigned int Logger_Message_TypeDefinitionIndex = 26732;
 
 	struct alignas(8) Logger_Message
 	{

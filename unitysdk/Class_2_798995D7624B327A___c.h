@@ -6,22 +6,22 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class IComparable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_798995D7624B327A___C_METHOD_1_5BCD046CA58EDCB8_OFFSET UNITYSDK_OFFSET(0x8B50D00)
-#define CLASS_2_798995D7624B327A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B50CB0)
-#define CLASS_2_798995D7624B327A___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B50CF0)
+#define CLASS_2_798995D7624B327A___C_METHOD_1_7E8383D5E61E2F61_OFFSET UNITYSDK_OFFSET(0x13F4C0D0)
+#define CLASS_2_798995D7624B327A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13F4C080)
+#define CLASS_2_798995D7624B327A___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13F4C0C0)
 
-inline static constexpr unsigned int Class_2_798995D7624B327A___c_TypeDefinitionIndex = 51388;
+inline static constexpr unsigned int Class_2_798995D7624B327A___c_TypeDefinitionIndex = 74629;
 
 class Class_2_798995D7624B327A___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::IComparable*>** StaticGet___9__7_0()
 	{
-		return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::IComparable*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_798995D7624B327A___c_TypeDefinitionIndex)->GetStaticField(0x2BF10);
+		return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::IComparable*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_798995D7624B327A___c_TypeDefinitionIndex)->GetStaticField(0x3E540);
 	}
 	static ::Class_2_798995D7624B327A___c** StaticGet___9()
 	{
-		return (::Class_2_798995D7624B327A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_798995D7624B327A___c_TypeDefinitionIndex)->GetStaticField(0x2BF18);
+		return (::Class_2_798995D7624B327A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_798995D7624B327A___c_TypeDefinitionIndex)->GetStaticField(0x3E548);
 	}
 
 	static ::System::Void _cctor()
@@ -34,8 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_798995D7624B327A___C__CTOR_OFFSET))(this);
 	}
 
-	::System::IComparable* Method_1_5BCD046CA58EDCB8(::MoleMole::Battle::Entity* a1)
+	::System::IComparable* Method_1_7E8383D5E61E2F61(::MoleMole::Battle::Entity* a1)
 	{
-		return ((::System::IComparable*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_2_798995D7624B327A___C_METHOD_1_5BCD046CA58EDCB8_OFFSET))(this, a1);
+		return ((::System::IComparable*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_2_798995D7624B327A___C_METHOD_1_7E8383D5E61E2F61_OFFSET))(this, a1);
 	}
 };

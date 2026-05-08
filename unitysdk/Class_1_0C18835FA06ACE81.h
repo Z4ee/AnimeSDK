@@ -7,26 +7,26 @@ class Class_1_82A04EA7E45454A5;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0C18835FA06ACE81_METHOD_1_E092EFE670864887_OFFSET UNITYSDK_OFFSET(0x9671540)
-#define CLASS_1_0C18835FA06ACE81__CTOR_OFFSET UNITYSDK_OFFSET(0x96714B0)
+#define CLASS_1_0C18835FA06ACE81_METHOD_1_E092EFE670864887_OFFSET UNITYSDK_OFFSET(0x17C20B60)
+#define CLASS_1_0C18835FA06ACE81__CTOR_OFFSET UNITYSDK_OFFSET(0x17C20AD0)
 
-inline static constexpr unsigned int Class_1_0C18835FA06ACE81_TypeDefinitionIndex = 59275;
+inline static constexpr unsigned int Class_1_0C18835FA06ACE81_TypeDefinitionIndex = 53363;
 
 class Class_1_0C18835FA06ACE81 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_7; // 0x18
-	::System::String* Field_1_9; // 0x20
-	::System::String* Field_1_1; // 0x28
-	::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* Field_1_10; // 0x30
-	::Class_1_82A04EA7E45454A5* Field_1_11; // 0x38
-	::System::String* Field_1_3; // 0x40
-	::System::String* Field_1_2; // 0x48
+	::System::String* Field_1_9; // 0x10
+	::System::String* Field_1_3; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* Field_1_10; // 0x20
+	::System::String* Field_1_2; // 0x28
+	::System::String* Field_1_0; // 0x30
+	::System::String* Field_1_1; // 0x38
+	::System::String* Field_1_7; // 0x40
+	::Class_1_82A04EA7E45454A5* Field_1_11; // 0x48
 	::System::UInt64 Field_1_4; // 0x50
 	::System::Int64 Field_1_6; // 0x58
-	::System::UInt64 Field_1_5; // 0x60
-	::System::Boolean Field_1_8; // 0x68
+	::System::Boolean Field_1_8; // 0x60
+	::System::UInt64 Field_1_5; // 0x68
 
 	::System::Void _ctor()
 	{

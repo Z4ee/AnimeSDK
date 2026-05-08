@@ -4,12 +4,12 @@
 
 namespace FlowCanvas::Nodes { class DelegateCallbackEvent; }
 
-#define FLOWCANVAS_NODES_DELEGATECALLBACKEVENT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196D4C50)
-#define FLOWCANVAS_NODES_DELEGATECALLBACKEVENT___C__DISPLAYCLASS9_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x196D4C60)
+#define FLOWCANVAS_NODES_DELEGATECALLBACKEVENT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F3BE0)
+#define FLOWCANVAS_NODES_DELEGATECALLBACKEVENT___C__DISPLAYCLASS9_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A1F3BF0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int DelegateCallbackEvent___c__DisplayClass9_0_TypeDefinitionIndex = 26829;
+	inline static constexpr unsigned int DelegateCallbackEvent___c__DisplayClass9_0_TypeDefinitionIndex = 27976;
 
 	class DelegateCallbackEvent___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x751A5A0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x751A5E0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x751A5F0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4ECCB0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF4ECCF0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCABILITYPATHFOLLOWFRAGMENTV2___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF4ECD00)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c_TypeDefinitionIndex = 50991;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c_TypeDefinitionIndex = 58688;
 
 	class RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c_TypeDefinitionIndex)->GetStaticField(0x40AE0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAbilityPathFollowFragmentV2___c_TypeDefinitionIndex)->GetStaticField(0x40CC0);
 		}
 
 		static ::System::Void _cctor()

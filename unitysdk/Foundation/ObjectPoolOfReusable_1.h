@@ -18,7 +18,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolOfReusable_1_TypeDefinitionIndex = 7973;
+	inline static constexpr unsigned int ObjectPoolOfReusable_1_TypeDefinitionIndex = 7975;
 
 	template <typename T>
 	class ObjectPoolOfReusable_1 : public ::System::Object

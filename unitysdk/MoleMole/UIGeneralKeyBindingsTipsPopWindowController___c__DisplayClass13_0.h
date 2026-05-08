@@ -6,19 +6,19 @@
 namespace MoleMole { class UIGeneralKeyBindingsTipsPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALKEYBINDINGSTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BC630)
-#define MOLEMOLE_UIGENERALKEYBINDINGSTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__TRYKEYBINDING_B__0_OFFSET UNITYSDK_OFFSET(0xB2BC640)
-#define MOLEMOLE_UIGENERALKEYBINDINGSTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__TRYKEYBINDING_B__1_OFFSET UNITYSDK_OFFSET(0xB2BC660)
+#define MOLEMOLE_UIGENERALKEYBINDINGSTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152480B0)
+#define MOLEMOLE_UIGENERALKEYBINDINGSTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__TRYKEYBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x152480C0)
+#define MOLEMOLE_UIGENERALKEYBINDINGSTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__TRYKEYBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x152480E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralKeyBindingsTipsPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 66482;
+	inline static constexpr unsigned int UIGeneralKeyBindingsTipsPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 73925;
 
 	class UIGeneralKeyBindingsTipsPopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Struct_2_029003AFE5A42E47>* keyBindingInfoList; // 0x10
-		::MoleMole::UIGeneralKeyBindingsTipsPopWindowController* __4__this; // 0x18
+		::MoleMole::UIGeneralKeyBindingsTipsPopWindowController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::Struct_2_029003AFE5A42E47>* keyBindingInfoList; // 0x18
 
 		::System::Void _ctor()
 		{

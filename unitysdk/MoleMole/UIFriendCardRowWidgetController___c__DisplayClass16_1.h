@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS16_1__BINDADDFRIENDREQUESTBTN_B__5_OFFSET UNITYSDK_OFFSET(0xD1223F0)
-#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD1223E0)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS16_1__BINDADDFRIENDREQUESTBTN_B__5_OFFSET UNITYSDK_OFFSET(0x16CC4E10)
+#define MOLEMOLE_UIFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC4E00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendCardRowWidgetController___c__DisplayClass16_1_TypeDefinitionIndex = 37763;
+	inline static constexpr unsigned int UIFriendCardRowWidgetController___c__DisplayClass16_1_TypeDefinitionIndex = 58275;
 
 	class UIFriendCardRowWidgetController___c__DisplayClass16_1 : public ::System::Object
 	{

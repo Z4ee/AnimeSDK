@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IClampFunc_1_TypeDefinitionIndex = 8859;
+	inline static constexpr unsigned int IClampFunc_1_TypeDefinitionIndex = 9108;
 
 	template <typename T>
 	class IClampFunc_1

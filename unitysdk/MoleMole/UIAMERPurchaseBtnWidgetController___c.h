@@ -6,29 +6,29 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2702F0)
-#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC270330)
-#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__ONBUYBTN_B__3_0_OFFSET UNITYSDK_OFFSET(0xC270340)
-#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__ONBUYBTN_B__3_1_OFFSET UNITYSDK_OFFSET(0xC270350)
+#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16073990)
+#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x160739D0)
+#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__ONBUYBTN_B__3_0_OFFSET UNITYSDK_OFFSET(0x160739E0)
+#define MOLEMOLE_UIAMERPURCHASEBTNWIDGETCONTROLLER___C__ONBUYBTN_B__3_1_OFFSET UNITYSDK_OFFSET(0x160739F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex = 55751;
+	inline static constexpr unsigned int UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex = 69139;
 
 	class UIAMERPurchaseBtnWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Struct_2_5B421F8FFABD4CA3_3>** StaticGet___9__3_1()
-		{
-			return (::System::Action_1<::Struct_2_5B421F8FFABD4CA3_3>**)Il2CppClass::FromTypeDefinitionIndex(UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B5C0);
-		}
 		static ::MoleMole::UIAMERPurchaseBtnWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAMERPurchaseBtnWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B5C8);
+			return (::MoleMole::UIAMERPurchaseBtnWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C8D0);
+		}
+		static ::System::Action_1<::Struct_2_5B421F8FFABD4CA3_3>** StaticGet___9__3_1()
+		{
+			return (::System::Action_1<::Struct_2_5B421F8FFABD4CA3_3>**)Il2CppClass::FromTypeDefinitionIndex(UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C8D8);
 		}
 		static ::System::Action** StaticGet___9__3_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B5D0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAMERPurchaseBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C8E0);
 		}
 
 		static ::System::Void _cctor()

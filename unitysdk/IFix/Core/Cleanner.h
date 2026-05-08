@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_CORE_CLEANNER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19EAC080)
-#define IFIX_CORE_CLEANNER_START_OFFSET UNITYSDK_OFFSET(0x19EABFE0)
-#define IFIX_CORE_CLEANNER_STOP_OFFSET UNITYSDK_OFFSET(0x19EAC040)
-#define IFIX_CORE_CLEANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EAC030)
+#define IFIX_CORE_CLEANNER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A78CAC0)
+#define IFIX_CORE_CLEANNER_START_OFFSET UNITYSDK_OFFSET(0x1A78CA50)
+#define IFIX_CORE_CLEANNER_STOP_OFFSET UNITYSDK_OFFSET(0x1A78CAB0)
+#define IFIX_CORE_CLEANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78CAA0)
 
 namespace IFix::Core
 {
@@ -16,7 +16,7 @@ namespace IFix::Core
 	public:
 		static ::System::Boolean* StaticGet_start()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Cleanner_TypeDefinitionIndex)->GetStaticField(0x3160);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Cleanner_TypeDefinitionIndex)->GetStaticField(0x3170);
 		}
 
 		::System::Void _ctor()

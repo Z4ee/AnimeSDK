@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_QRCODE_INTERNAL_VERSION_ECB_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x18464990)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECB_GET_DATACODEWORDS_OFFSET UNITYSDK_OFFSET(0x184649A0)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECB__CTOR_OFFSET UNITYSDK_OFFSET(0x184648D0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECB_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1889F080)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECB_GET_DATACODEWORDS_OFFSET UNITYSDK_OFFSET(0x1889F090)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECB__CTOR_OFFSET UNITYSDK_OFFSET(0x1889EFA0)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Version_ECB_TypeDefinitionIndex = 8617;
+	inline static constexpr unsigned int Version_ECB_TypeDefinitionIndex = 8628;
 
 	class Version_ECB : public ::System::Object
 	{
 	public:
-		::System::Int32 dataCodewords; // 0x10
-		::System::Int32 count; // 0x14
+		::System::Int32 count; // 0x10
+		::System::Int32 dataCodewords; // 0x14
 
 		::System::Void _ctor(::System::Int32 count, ::System::Int32 dataCodewords)
 		{

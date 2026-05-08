@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ILoaderNode_TypeDefinitionIndex = 8146;
+	inline static constexpr unsigned int ILoaderNode_TypeDefinitionIndex = 7954;
 
 	class ILoaderNode
 	{

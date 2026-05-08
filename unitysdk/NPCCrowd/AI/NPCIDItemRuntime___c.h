@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NPCCROWD_AI_NPCIDITEMRUNTIME___C__ADDITEM_B__4_0_OFFSET UNITYSDK_OFFSET(0x77EC850)
-#define NPCCROWD_AI_NPCIDITEMRUNTIME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x77EC800)
-#define NPCCROWD_AI_NPCIDITEMRUNTIME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x77EC840)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME___C__ADDITEM_B__4_0_OFFSET UNITYSDK_OFFSET(0xCE45C20)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE45BD0)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE45C10)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCIDItemRuntime___c_TypeDefinitionIndex = 60499;
+	inline static constexpr unsigned int NPCIDItemRuntime___c_TypeDefinitionIndex = 60907;
 
 	class NPCIDItemRuntime___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::AI::NPCIDItemRuntime___c** StaticGet___9()
-		{
-			return (::NPCCrowd::AI::NPCIDItemRuntime___c**)Il2CppClass::FromTypeDefinitionIndex(NPCIDItemRuntime___c_TypeDefinitionIndex)->GetStaticField(0x39B40);
-		}
 		static ::System::Func_2<::NPCCrowd::AI::NPCIDItem, ::System::Single>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::NPCCrowd::AI::NPCIDItem, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(NPCIDItemRuntime___c_TypeDefinitionIndex)->GetStaticField(0x39B48);
+			return (::System::Func_2<::NPCCrowd::AI::NPCIDItem, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(NPCIDItemRuntime___c_TypeDefinitionIndex)->GetStaticField(0x3AE60);
+		}
+		static ::NPCCrowd::AI::NPCIDItemRuntime___c** StaticGet___9()
+		{
+			return (::NPCCrowd::AI::NPCIDItemRuntime___c**)Il2CppClass::FromTypeDefinitionIndex(NPCIDItemRuntime___c_TypeDefinitionIndex)->GetStaticField(0x3AE68);
 		}
 
 		static ::System::Void _cctor()

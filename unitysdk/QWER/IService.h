@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define QWER_ISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B012870)
+#define QWER_ISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8BF50)
 
 namespace QWER
 {
-	inline static constexpr unsigned int IService_TypeDefinitionIndex = 84152;
+	inline static constexpr unsigned int IService_TypeDefinitionIndex = 85880;
 
 	class IService : public ::System::Object
 	{

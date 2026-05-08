@@ -3,18 +3,18 @@
 #include "unitysdk/MoleMole/Config/HollowInteractEffectImpBase.h"
 
 class Class_1_32D1736C0D56C181;
-class Class_4_AC6D98911872E0CE;
+class Class_4_DA19DD65175B97CF;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_GETENTITYRAWPIECE_OFFSET UNITYSDK_OFFSET(0x81F9E50)
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0x81F9A80)
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONSTOP_OFFSET UNITYSDK_OFFSET(0x81F9F90)
-#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x81FA000)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_GETENTITYRAWPIECE_OFFSET UNITYSDK_OFFSET(0xFB12FC0)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0xFB12C80)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONSTOP_OFFSET UNITYSDK_OFFSET(0xFB130E0)
+#define MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xFB13130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShowEffectPlayerAndTarget_TypeDefinitionIndex = 67421;
+	inline static constexpr unsigned int ShowEffectPlayerAndTarget_TypeDefinitionIndex = 76581;
 
 	class ShowEffectPlayerAndTarget : public ::MoleMole::Config::HollowInteractEffectImpBase
 	{
@@ -37,9 +37,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::Class_1_32D1736C0D56C181*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_ONSTOP_OFFSET))(this, context);
 		}
 
-		::Class_4_AC6D98911872E0CE* GetEntityRawPiece(::MoleMole::HollowChessboard::HollowEntity* entity)
+		::Class_4_DA19DD65175B97CF* GetEntityRawPiece(::MoleMole::HollowChessboard::HollowEntity* entity)
 		{
-			return ((::Class_4_AC6D98911872E0CE*(*)(::PVOID, ::MoleMole::HollowChessboard::HollowEntity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_GETENTITYRAWPIECE_OFFSET))(this, entity);
+			return ((::Class_4_DA19DD65175B97CF*(*)(::PVOID, ::MoleMole::HollowChessboard::HollowEntity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SHOWEFFECTPLAYERANDTARGET_GETENTITYRAWPIECE_OFFSET))(this, entity);
 		}
 	};
 }

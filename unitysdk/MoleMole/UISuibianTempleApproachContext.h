@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISUIBIANTEMPLEAPPROACHCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCA90880)
+#define MOLEMOLE_UISUIBIANTEMPLEAPPROACHCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14DBD700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleApproachContext_TypeDefinitionIndex = 37590;
+	inline static constexpr unsigned int UISuibianTempleApproachContext_TypeDefinitionIndex = 69307;
 
 	class UISuibianTempleApproachContext : public ::MoleMole::UIControllerContextBase
 	{

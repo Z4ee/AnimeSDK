@@ -3,18 +3,18 @@
 #include "unitysdk/MoleMole/GalGame/GalPlayableNodeType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_GALPLAYABLENODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x7A69010)
+#define MOLEMOLE_GALGAME_GALPLAYABLENODEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12334760)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayableNodeBase_TypeDefinitionIndex = 64668;
+	inline static constexpr unsigned int GalPlayableNodeBase_TypeDefinitionIndex = 81120;
 
 	class GalPlayableNodeBase : public ::System::Object
 	{
 	public:
 		::System::Int32 sectionIdx; // 0x10
-		::System::Int32 subSectionIdx; // 0x14
-		::MoleMole::GalGame::GalPlayableNodeType nodeType; // 0x18
+		::MoleMole::GalGame::GalPlayableNodeType nodeType; // 0x14
+		::System::Int32 subSectionIdx; // 0x18
 
 		::System::Void _ctor(::MoleMole::GalGame::GalPlayableNodeType nodeType)
 		{

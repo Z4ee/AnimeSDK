@@ -6,19 +6,19 @@
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_CREATESAVEPOINTBYANCHOR_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1750A2C0)
-#define MOLEMOLE_CREATESAVEPOINTBYANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1750A730)
-#define MOLEMOLE_CREATESAVEPOINTBYANCHOR___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1750A770)
+#define MOLEMOLE_CREATESAVEPOINTBYANCHOR_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18F3A6E0)
+#define MOLEMOLE_CREATESAVEPOINTBYANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3ABA0)
+#define MOLEMOLE_CREATESAVEPOINTBYANCHOR___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18F3AC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CreateSavePointByAnchor_TypeDefinitionIndex = 68932;
+	inline static constexpr unsigned int CreateSavePointByAnchor_TypeDefinitionIndex = 76373;
 
 	class CreateSavePointByAnchor : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* AnchorName; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* AnchorName; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
 		::BehaviorDesigner::Runtime::SharedString* SavePointName; // 0x68
 
 		::System::Void _ctor()

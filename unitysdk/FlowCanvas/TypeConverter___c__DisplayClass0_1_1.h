@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int TypeConverter___c__DisplayClass0_1_1_TypeDefinitionIndex = 26033;
+	inline static constexpr unsigned int TypeConverter___c__DisplayClass0_1_1_TypeDefinitionIndex = 27336;
 
 	template <typename T>
 	class TypeConverter___c__DisplayClass0_1_1 : public ::System::Object

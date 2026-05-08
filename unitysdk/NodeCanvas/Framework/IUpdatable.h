@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IUpdatable_TypeDefinitionIndex = 26150;
+	inline static constexpr unsigned int IUpdatable_TypeDefinitionIndex = 26726;
 
 	class IUpdatable
 	{

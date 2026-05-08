@@ -2,13 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_BACKFLOWINTRPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xCAC4550)
-#define MOLEMOLE_BACKFLOWINTRPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xCAC4560)
-#define MOLEMOLE_BACKFLOWINTRPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC47C0)
+#define MOLEMOLE_BACKFLOWINTRPOPSHOW_GET_ISTRIGGER_OFFSET UNITYSDK_OFFSET(0xF95BD50)
+#define MOLEMOLE_BACKFLOWINTRPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xF95BD40)
+#define MOLEMOLE_BACKFLOWINTRPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xF95BD60)
+#define MOLEMOLE_BACKFLOWINTRPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0xF95BFC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BackFlowIntrPopShow_TypeDefinitionIndex = 53395;
+	inline static constexpr unsigned int BackFlowIntrPopShow_TypeDefinitionIndex = 69906;
 
 	class BackFlowIntrPopShow : public ::MoleMole::DisplayMessageBase
 	{
@@ -21,6 +22,11 @@ namespace MoleMole
 		::System::Int32 get_Priority()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BACKFLOWINTRPOPSHOW_GET_PRIORITY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsTrigger()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BACKFLOWINTRPOPSHOW_GET_ISTRIGGER_OFFSET))(this);
 		}
 
 		::System::Void OnProcess()

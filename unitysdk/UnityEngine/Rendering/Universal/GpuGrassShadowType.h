@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GpuGrassShadowType_TypeDefinitionIndex = 29709;
+	inline static constexpr unsigned int GpuGrassShadowType_TypeDefinitionIndex = 30237;
 
 	enum class GpuGrassShadowType : ::System::Int32
 	{

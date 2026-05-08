@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IMaxFunc_1_TypeDefinitionIndex = 9034;
+	inline static constexpr unsigned int IMaxFunc_1_TypeDefinitionIndex = 9150;
 
 	template <typename T>
 	class IMaxFunc_1

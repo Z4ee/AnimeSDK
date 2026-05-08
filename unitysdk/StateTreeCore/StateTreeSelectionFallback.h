@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeSelectionFallback_TypeDefinitionIndex = 27901;
+	inline static constexpr unsigned int StateTreeSelectionFallback_TypeDefinitionIndex = 28419;
 
 	enum class StateTreeSelectionFallback : ::System::Byte
 	{

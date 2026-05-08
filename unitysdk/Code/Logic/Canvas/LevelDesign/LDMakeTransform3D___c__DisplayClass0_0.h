@@ -7,19 +7,19 @@
 
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKETRANSFORM3D___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6456360)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKETRANSFORM3D___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x6456370)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKETRANSFORM3D___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x120BA4E0)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKETRANSFORM3D___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x120BA4F0)
 
 namespace Code::Logic::Canvas::LevelDesign
 {
-	inline static constexpr unsigned int LDMakeTransform3D___c__DisplayClass0_0_TypeDefinitionIndex = 39756;
+	inline static constexpr unsigned int LDMakeTransform3D___c__DisplayClass0_0_TypeDefinitionIndex = 40684;
 
 	class LDMakeTransform3D___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::UnityEngine::Quaternion>* rotation; // 0x10
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* scale; // 0x18
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* translation; // 0x20
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* scale; // 0x10
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* translation; // 0x18
+		::FlowCanvas::ValueInput_1<::UnityEngine::Quaternion>* rotation; // 0x20
 
 		::System::Void _ctor()
 		{

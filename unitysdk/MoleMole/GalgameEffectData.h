@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAMEEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA7DEA80)
+#define MOLEMOLE_GALGAMEEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1604E6D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GalgameEffectData_TypeDefinitionIndex = 54355;
+	inline static constexpr unsigned int GalgameEffectData_TypeDefinitionIndex = 71663;
 
 	class GalgameEffectData : public ::System::Object
 	{

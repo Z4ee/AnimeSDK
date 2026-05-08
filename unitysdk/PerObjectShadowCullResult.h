@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PerObjectShadowCullResult_TypeDefinitionIndex = 29097;
+inline static constexpr unsigned int PerObjectShadowCullResult_TypeDefinitionIndex = 29616;
 
 enum class PerObjectShadowCullResult : ::System::UInt32
 {

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace MoleMole { class TurnBattleUnitBase; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_700_TypeDefinitionIndex = 74596;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_700_TypeDefinitionIndex = 71404;
 
-template <typename T>
 class Class_0_16E4307DCC419505_700
 {
 public:

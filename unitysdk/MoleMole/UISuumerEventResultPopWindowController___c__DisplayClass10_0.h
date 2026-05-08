@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUUMEREVENTRESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7902180)
-#define MOLEMOLE_UISUUMEREVENTRESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__REGISTEREXIT_B__0_OFFSET UNITYSDK_OFFSET(0x7902190)
+#define MOLEMOLE_UISUUMEREVENTRESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15245640)
+#define MOLEMOLE_UISUUMEREVENTRESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__REGISTEREXIT_B__0_OFFSET UNITYSDK_OFFSET(0x15245650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuumerEventResultPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 50326;
+	inline static constexpr unsigned int UISuumerEventResultPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 41176;
 
 	class UISuumerEventResultPopWindowController___c__DisplayClass10_0 : public ::System::Object
 	{

@@ -6,22 +6,22 @@
 namespace Foundation { class Extension_AnimationCurveDetail_IKeyFrameInterval; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE_FINDINDEX_OFFSET UNITYSDK_OFFSET(0x19C4B940)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE_INTEGRAL_OFFSET UNITYSDK_OFFSET(0x19C4BAC0)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE_ISSINGLEKEY_OFFSET UNITYSDK_OFFSET(0x19C4B920)
-#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4B240)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE_FINDINDEX_OFFSET UNITYSDK_OFFSET(0x1A5B7C70)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE_INTEGRAL_OFFSET UNITYSDK_OFFSET(0x1A5B7DF0)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE_ISSINGLEKEY_OFFSET UNITYSDK_OFFSET(0x1A5B7C50)
+#define FOUNDATION_EXTENSION_ANIMATIONCURVEKEYFRAMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B7570)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Extension_AnimationCurveKeyFrameCache_TypeDefinitionIndex = 9043;
+	inline static constexpr unsigned int Extension_AnimationCurveKeyFrameCache_TypeDefinitionIndex = 9116;
 
 	class Extension_AnimationCurveKeyFrameCache : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Foundation::Extension_AnimationCurveDetail_IKeyFrameInterval*>* _items; // 0x10
 		::System::Single _totalArea; // 0x18
-		::Foundation::Unreal::Interval_1<::System::Single> _interval; // 0x1C
-		::System::Single _fallbackSingleValue; // 0x2C
+		::System::Single _fallbackSingleValue; // 0x1C
+		::Foundation::Unreal::Interval_1<::System::Single> _interval; // 0x20
 
 		::System::Void _ctor(::UnityEngine::AnimationCurve* curve)
 		{

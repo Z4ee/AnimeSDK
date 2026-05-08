@@ -10,22 +10,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xF2D9C90)
-#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xF2D9CA0)
-#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xF2D9EA0)
-#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2DA060)
-#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF2DA020)
+#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x159F9070)
+#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x159F9080)
+#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x159F9260)
+#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x159F9400)
+#define MOLEMOLE_CONFIG_FOOTPRINTCONFIGS_FOOTPRINTCONFIGS_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x159F93C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FootPrintConfigs_FootPrintConfigs_UnityGeneratedFormatter_TypeDefinitionIndex = 72352;
+	inline static constexpr unsigned int FootPrintConfigs_FootPrintConfigs_UnityGeneratedFormatter_TypeDefinitionIndex = 60854;
 
 	class FootPrintConfigs_FootPrintConfigs_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::FootPrintConfigs*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::FootPrintConfig*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::FootPrintConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(FootPrintConfigs_FootPrintConfigs_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EC90);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::FootPrintConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(FootPrintConfigs_FootPrintConfigs_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49370);
 		}
 
 		::System::Void _ctor()

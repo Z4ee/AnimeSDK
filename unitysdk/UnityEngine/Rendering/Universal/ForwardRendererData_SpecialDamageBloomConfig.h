@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SPECIALDAMAGEBLOOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18658EA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SPECIALDAMAGEBLOOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F29F90)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_SpecialDamageBloomConfig_TypeDefinitionIndex = 29327;
+	inline static constexpr unsigned int ForwardRendererData_SpecialDamageBloomConfig_TypeDefinitionIndex = 29846;
 
 	class ForwardRendererData_SpecialDamageBloomConfig : public ::System::Object
 	{

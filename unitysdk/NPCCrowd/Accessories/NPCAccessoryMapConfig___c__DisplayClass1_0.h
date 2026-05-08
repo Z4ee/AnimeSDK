@@ -5,12 +5,12 @@
 namespace NPCCrowd::Accessories { class NpcAccessoryItem; }
 namespace System { class String; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x62E1380)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG___C__DISPLAYCLASS1_0__GETNPCACCITEM_B__0_OFFSET UNITYSDK_OFFSET(0x62E1390)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD23F650)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG___C__DISPLAYCLASS1_0__GETNPCACCITEM_B__0_OFFSET UNITYSDK_OFFSET(0xD23F660)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryMapConfig___c__DisplayClass1_0_TypeDefinitionIndex = 41814;
+	inline static constexpr unsigned int NPCAccessoryMapConfig___c__DisplayClass1_0_TypeDefinitionIndex = 45032;
 
 	class NPCAccessoryMapConfig___c__DisplayClass1_0 : public ::System::Object
 	{

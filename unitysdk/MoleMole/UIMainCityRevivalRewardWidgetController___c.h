@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMAINCITYREVIVALREWARDWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF73B50)
-#define MOLEMOLE_UIMAINCITYREVIVALREWARDWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAF73B90)
-#define MOLEMOLE_UIMAINCITYREVIVALREWARDWIDGETCONTROLLER___C__SETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xAF73BA0)
+#define MOLEMOLE_UIMAINCITYREVIVALREWARDWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DBF9E0)
+#define MOLEMOLE_UIMAINCITYREVIVALREWARDWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DBFA20)
+#define MOLEMOLE_UIMAINCITYREVIVALREWARDWIDGETCONTROLLER___C__SETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x15DBFA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRevivalRewardWidgetController___c_TypeDefinitionIndex = 71131;
+	inline static constexpr unsigned int UIMainCityRevivalRewardWidgetController___c_TypeDefinitionIndex = 47616;
 
 	class UIMainCityRevivalRewardWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityRevivalRewardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39910);
-		}
 		static ::MoleMole::UIMainCityRevivalRewardWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMainCityRevivalRewardWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityRevivalRewardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39918);
+			return (::MoleMole::UIMainCityRevivalRewardWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityRevivalRewardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ABD0);
+		}
+		static ::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityRevivalRewardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3ABD8);
 		}
 
 		static ::System::Void _cctor()

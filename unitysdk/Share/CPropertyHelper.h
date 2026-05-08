@@ -5,19 +5,19 @@
 #include "unitysdk/Share/ESkillPropertyType.h"
 #include "unitysdk/System/Object.h"
 
-#define SHARE_CPROPERTYHELPER_GETDIVISOR_1_OFFSET UNITYSDK_OFFSET(0x186408F0)
-#define SHARE_CPROPERTYHELPER_GETDIVISOR_2_OFFSET UNITYSDK_OFFSET(0x18640940)
-#define SHARE_CPROPERTYHELPER_GETDIVISOR_3_OFFSET UNITYSDK_OFFSET(0x186409E0)
-#define SHARE_CPROPERTYHELPER_GETDIVISOR_OFFSET UNITYSDK_OFFSET(0x18640850)
-#define SHARE_CPROPERTYHELPER_GET_PROPERTYPERSISTENCE_OFFSET UNITYSDK_OFFSET(0x186403F0)
-#define SHARE_CPROPERTYHELPER_GET_SCENEPROPERTYPERSISTENCE_OFFSET UNITYSDK_OFFSET(0x18640450)
-#define SHARE_CPROPERTYHELPER_ISPERSISTENCEPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x18640BF0)
-#define SHARE_CPROPERTYHELPER_ISPERSISTENCEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18640A30)
-#define SHARE_CPROPERTYHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186404B0)
+#define SHARE_CPROPERTYHELPER_GETDIVISOR_1_OFFSET UNITYSDK_OFFSET(0x18B27D40)
+#define SHARE_CPROPERTYHELPER_GETDIVISOR_2_OFFSET UNITYSDK_OFFSET(0x18B27D90)
+#define SHARE_CPROPERTYHELPER_GETDIVISOR_3_OFFSET UNITYSDK_OFFSET(0x18B27E30)
+#define SHARE_CPROPERTYHELPER_GETDIVISOR_OFFSET UNITYSDK_OFFSET(0x18B27CA0)
+#define SHARE_CPROPERTYHELPER_GET_PROPERTYPERSISTENCE_OFFSET UNITYSDK_OFFSET(0x18B27840)
+#define SHARE_CPROPERTYHELPER_GET_SCENEPROPERTYPERSISTENCE_OFFSET UNITYSDK_OFFSET(0x18B278A0)
+#define SHARE_CPROPERTYHELPER_ISPERSISTENCEPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x18B28040)
+#define SHARE_CPROPERTYHELPER_ISPERSISTENCEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18B27E80)
+#define SHARE_CPROPERTYHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B27900)
 
 namespace Share
 {
-	inline static constexpr unsigned int CPropertyHelper_TypeDefinitionIndex = 12706;
+	inline static constexpr unsigned int CPropertyHelper_TypeDefinitionIndex = 10125;
 
 	class CPropertyHelper : public ::System::Object
 	{
@@ -30,25 +30,25 @@ namespace Share
 		{
 			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x8C98);
 		}
-		static ::System::Int32* StaticGet_OneDivisor()
+		static ::System::Int32* StaticGet_OneThousandDivisor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43B0);
 		}
 		static ::System::Int32* StaticGet_OneHundredDivisor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43B4);
+		}
+		static ::System::Int32* StaticGet_OneDivisor()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43B8);
 		}
 		static ::System::Int32* StaticGet_TenThousandDivisor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43BC);
 		}
 		static ::System::Int32* StaticGet_TenDivisor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43CC);
-		}
-		static ::System::Int32* StaticGet_OneThousandDivisor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CPropertyHelper_TypeDefinitionIndex)->GetStaticField(0x43C0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define PARADOXNOTION_DESIGN_PROTECTEDSINGLETONATTRIBUTE_MATCHGRAPH_OFFSET UNITYSDK_OFFSET(0x1A22BF00)
-#define PARADOXNOTION_DESIGN_PROTECTEDSINGLETONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A22BEF0)
+#define PARADOXNOTION_DESIGN_PROTECTEDSINGLETONATTRIBUTE_MATCHGRAPH_OFFSET UNITYSDK_OFFSET(0x1A906D70)
+#define PARADOXNOTION_DESIGN_PROTECTEDSINGLETONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A906D60)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int ProtectedSingletonAttribute_TypeDefinitionIndex = 27048;
+	inline static constexpr unsigned int ProtectedSingletonAttribute_TypeDefinitionIndex = 26626;
 
 	class ProtectedSingletonAttribute : public ::System::Attribute
 	{

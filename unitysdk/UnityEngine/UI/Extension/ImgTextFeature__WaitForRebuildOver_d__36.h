@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine::UI::Extension { class ImgTextFeature; }
+
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x150A9B90)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x150A9C60)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x150A9CC0)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x150A9C70)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x150A9B80)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36__CTOR_OFFSET UNITYSDK_OFFSET(0x150A9B70)
+
+namespace UnityEngine::UI::Extension
+{
+	inline static constexpr unsigned int ImgTextFeature__WaitForRebuildOver_d__36_TypeDefinitionIndex = 56538;
+
+	class ImgTextFeature__WaitForRebuildOver_d__36 : public ::System::Object
+	{
+	public:
+		::UnityEngine::UI::Extension::ImgTextFeature* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Int32 __1__state; // 0x20
+
+		::System::Void _ctor(::System::Int32 __1__state)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36__CTOR_OFFSET))(this, __1__state);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE__WAITFORREBUILDOVER_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

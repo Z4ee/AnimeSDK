@@ -6,7 +6,7 @@
 namespace System { class String; }
 namespace System { class Uri_MoreInfo; }
 
-#define SYSTEM_URI_URIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1933EA00)
+#define SYSTEM_URI_URIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4F750)
 
 namespace System
 {
@@ -15,11 +15,11 @@ namespace System
 	class Uri_UriInfo : public ::System::Object
 	{
 	public:
-		::System::String* String; // 0x10
-		::System::String* ScopeId; // 0x18
+		::System::Uri_MoreInfo* MoreInfo; // 0x10
+		::System::String* String; // 0x18
 		::System::String* Host; // 0x20
-		::System::String* DnsSafeHost; // 0x28
-		::System::Uri_MoreInfo* MoreInfo; // 0x30
+		::System::String* ScopeId; // 0x28
+		::System::String* DnsSafeHost; // 0x30
 		::System::Uri_Offset Offset; // 0x38
 
 		::System::Void _ctor()

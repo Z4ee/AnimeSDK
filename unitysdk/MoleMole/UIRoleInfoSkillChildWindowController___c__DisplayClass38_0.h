@@ -5,12 +5,12 @@
 class Class_1_B86ADEDB38C3FD4A;
 namespace MoleMole { class UIRoleInfoSkillChildWindowController; }
 
-#define MOLEMOLE_UIROLEINFOSKILLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD7A89F0)
-#define MOLEMOLE_UIROLEINFOSKILLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS38_0__ONUIINIT_B__21_OFFSET UNITYSDK_OFFSET(0xD7A8A00)
+#define MOLEMOLE_UIROLEINFOSKILLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1520A7D0)
+#define MOLEMOLE_UIROLEINFOSKILLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS38_0__ONUIINIT_B__21_OFFSET UNITYSDK_OFFSET(0x1520A7E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoSkillChildWindowController___c__DisplayClass38_0_TypeDefinitionIndex = 48915;
+	inline static constexpr unsigned int UIRoleInfoSkillChildWindowController___c__DisplayClass38_0_TypeDefinitionIndex = 79294;
 
 	class UIRoleInfoSkillChildWindowController___c__DisplayClass38_0 : public ::System::Object
 	{

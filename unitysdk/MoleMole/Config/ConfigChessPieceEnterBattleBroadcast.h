@@ -4,12 +4,12 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEENTERBATTLEBROADCAST_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x9CFCC50)
-#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEENTERBATTLEBROADCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x9CFCD30)
+#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEENTERBATTLEBROADCAST_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x12302620)
+#define MOLEMOLE_CONFIG_CONFIGCHESSPIECEENTERBATTLEBROADCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x123026E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessPieceEnterBattleBroadcast_TypeDefinitionIndex = 39723;
+	inline static constexpr unsigned int ConfigChessPieceEnterBattleBroadcast_TypeDefinitionIndex = 72549;
 
 	class ConfigChessPieceEnterBattleBroadcast : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -17,9 +17,9 @@ namespace MoleMole::Config
 		::System::Int32 HollowNpcEventAnimID; // 0x18
 		::System::Int32 HollowNpcAudioID; // 0x1C
 		::System::Int32 EventAudioID; // 0x20
-		::System::Int32 DefaultEvtAnimID; // 0x24
-		::System::Int32 DefaultAudioID; // 0x28
-		::System::Int32 EventAnimID; // 0x2C
+		::System::Int32 EventAnimID; // 0x24
+		::System::Int32 DefaultEvtAnimID; // 0x28
+		::System::Int32 DefaultAudioID; // 0x2C
 
 		::System::Void _ctor()
 		{

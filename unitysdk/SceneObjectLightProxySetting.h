@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/ELightTriggerType.h"
 
-#define SCENEOBJECTLIGHTPROXYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1826ED30)
+#define SCENEOBJECTLIGHTPROXYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A7850)
 
-inline static constexpr unsigned int SceneObjectLightProxySetting_TypeDefinitionIndex = 79982;
+inline static constexpr unsigned int SceneObjectLightProxySetting_TypeDefinitionIndex = 81502;
 
 class SceneObjectLightProxySetting : public ::System::Object
 {

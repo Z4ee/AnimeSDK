@@ -4,7 +4,7 @@
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int AntiCheatCommonInterface_TypeDefinitionIndex = 34148;
+	inline static constexpr unsigned int AntiCheatCommonInterface_TypeDefinitionIndex = 34684;
 
 	class AntiCheatCommonInterface : public ::System::Object
 	{

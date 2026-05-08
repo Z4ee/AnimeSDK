@@ -11,11 +11,11 @@ namespace MoleMole::Config { class Map3DFontItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC242730)
+#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x142531B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Map3DVisualConfigItem_TypeDefinitionIndex = 46689;
+	inline static constexpr unsigned int Map3DVisualConfigItem_TypeDefinitionIndex = 59558;
 
 	class Map3DVisualConfigItem : public ::System::Object
 	{
@@ -37,6 +37,8 @@ namespace MoleMole::Config
 		::UnityEngine::Color outlineColor; // 0x84
 		::System::Single outlineWidth; // 0x94
 		::System::Boolean enableFarOutlineFix; // 0x98
+		::System::Boolean characterArrayDisableOcclusionHighLight; // 0x99
+		::System::Single characterOcclusionDitherAlpha; // 0x9C
 
 		::System::Void _ctor()
 		{

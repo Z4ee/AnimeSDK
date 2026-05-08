@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_EFinalPPSType_TypeDefinitionIndex = 30006;
+	inline static constexpr unsigned int PostProcessPass_EFinalPPSType_TypeDefinitionIndex = 30534;
 
 	enum class PostProcessPass_EFinalPPSType : ::System::Int32
 	{

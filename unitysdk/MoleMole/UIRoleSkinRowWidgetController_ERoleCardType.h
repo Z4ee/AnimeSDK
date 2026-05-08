@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSkinRowWidgetController_ERoleCardType_TypeDefinitionIndex = 76746;
+	inline static constexpr unsigned int UIRoleSkinRowWidgetController_ERoleCardType_TypeDefinitionIndex = 44387;
 
 	enum class UIRoleSkinRowWidgetController_ERoleCardType : ::System::Int32
 	{

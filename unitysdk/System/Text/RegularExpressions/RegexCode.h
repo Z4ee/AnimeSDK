@@ -9,10 +9,10 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class RegexBoyerMoore; }
 namespace System::Text::RegularExpressions { class RegexPrefix; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_MAKEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1907DD20)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x1907DC40)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODESIZE_OFFSET UNITYSDK_OFFSET(0x1907DC60)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1907DB80)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_MAKEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x19A74C90)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x19A74BB0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODESIZE_OFFSET UNITYSDK_OFFSET(0x19A74BD0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A74AD0)
 
 namespace System::Text::RegularExpressions
 {
@@ -69,15 +69,15 @@ namespace System::Text::RegularExpressions
 		// static const ::System::Int32 Back = 0x80; // 0x0
 		// static const ::System::Int32 Back2 = 0x100; // 0x0
 		// static const ::System::Int32 Ci = 0x200; // 0x0
-		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x10
+		::System::Collections::Hashtable* _caps; // 0x10
 		::Il2CppArray<::System::String*>* _strings; // 0x18
-		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x20
-		::Il2CppArray<::System::Int32>* _codes; // 0x28
-		::System::Collections::Hashtable* _caps; // 0x30
-		::System::Int32 _anchors; // 0x38
-		::System::Boolean _rightToLeft; // 0x3C
+		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x20
+		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x28
+		::Il2CppArray<::System::Int32>* _codes; // 0x30
+		::System::Boolean _rightToLeft; // 0x38
+		::System::Int32 _capsize; // 0x3C
 		::System::Int32 _trackcount; // 0x40
-		::System::Int32 _capsize; // 0x44
+		::System::Int32 _anchors; // 0x44
 
 		::System::Void _ctor(::Il2CppArray<::System::Int32>* codes, ::System::Collections::Generic::List_1<::System::String*>* stringlist, ::System::Int32 trackcount, ::System::Collections::Hashtable* caps, ::System::Int32 capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Text::RegularExpressions::RegexPrefix* fcPrefix, ::System::Int32 anchors, ::System::Boolean rightToLeft)
 		{

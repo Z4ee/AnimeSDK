@@ -4,22 +4,22 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_3FA43C71A3D27BCE___C_METHOD_1_EC00644AF39B5DED_OFFSET UNITYSDK_OFFSET(0x75BCA70)
-#define CLASS_1_3FA43C71A3D27BCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x75BCA20)
-#define CLASS_1_3FA43C71A3D27BCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x75BCA60)
+#define CLASS_1_3FA43C71A3D27BCE___C_METHOD_1_EA3063A5CDD6F164_OFFSET UNITYSDK_OFFSET(0x107C0980)
+#define CLASS_1_3FA43C71A3D27BCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x107C0930)
+#define CLASS_1_3FA43C71A3D27BCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x107C0970)
 
-inline static constexpr unsigned int Class_1_3FA43C71A3D27BCE___c_TypeDefinitionIndex = 63030;
+inline static constexpr unsigned int Class_1_3FA43C71A3D27BCE___c_TypeDefinitionIndex = 53637;
 
 class Class_1_3FA43C71A3D27BCE___c : public ::System::Object
 {
 public:
 	static ::System::Action** StaticGet___9__16_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3FA43C71A3D27BCE___c_TypeDefinitionIndex)->GetStaticField(0x43640);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3FA43C71A3D27BCE___c_TypeDefinitionIndex)->GetStaticField(0x33850);
 	}
 	static ::Class_1_3FA43C71A3D27BCE___c** StaticGet___9()
 	{
-		return (::Class_1_3FA43C71A3D27BCE___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3FA43C71A3D27BCE___c_TypeDefinitionIndex)->GetStaticField(0x43648);
+		return (::Class_1_3FA43C71A3D27BCE___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3FA43C71A3D27BCE___c_TypeDefinitionIndex)->GetStaticField(0x33858);
 	}
 
 	static ::System::Void _cctor()
@@ -32,8 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3FA43C71A3D27BCE___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_EC00644AF39B5DED()
+	::System::Void Method_1_EA3063A5CDD6F164()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3FA43C71A3D27BCE___C_METHOD_1_EC00644AF39B5DED_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3FA43C71A3D27BCE___C_METHOD_1_EA3063A5CDD6F164_OFFSET))(this);
 	}
 };

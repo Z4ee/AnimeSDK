@@ -4,7 +4,7 @@
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int Optional_1_TypeDefinitionIndex = 72365;
+	inline static constexpr unsigned int Optional_1_TypeDefinitionIndex = 53708;
 
 	template <typename T>
 	struct Optional_1

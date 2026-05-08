@@ -5,20 +5,20 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x9A2EEB0)
-#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x9A2EF00)
-#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2EEC0)
-#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP__ONPROCESS_B__5_0_OFFSET UNITYSDK_OFFSET(0x9A2F130)
+#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xE48E5D0)
+#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xE48E620)
+#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP__CTOR_OFFSET UNITYSDK_OFFSET(0xE48E5E0)
+#define MOLEMOLE_UNLOCKACTIVITYHOTPOTFOODPOP__ONPROCESS_B__5_0_OFFSET UNITYSDK_OFFSET(0xE48E870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UnlockActivityHotpotFoodPop_TypeDefinitionIndex = 69325;
+	inline static constexpr unsigned int UnlockActivityHotpotFoodPop_TypeDefinitionIndex = 62822;
 
 	class UnlockActivityHotpotFoodPop : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* FoodList; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action* callback; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* FoodList; // 0x30
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::System::Int32>* FoodList)
 		{

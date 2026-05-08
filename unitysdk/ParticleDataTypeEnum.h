@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ParticleDataTypeEnum_TypeDefinitionIndex = 28987;
+inline static constexpr unsigned int ParticleDataTypeEnum_TypeDefinitionIndex = 29506;
 
 enum class ParticleDataTypeEnum : ::System::Int32
 {

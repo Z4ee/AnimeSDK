@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphDictionaryFormatter_2_TypeDefinitionIndex = 27434;
+	inline static constexpr unsigned int GraphDictionaryFormatter_2_TypeDefinitionIndex = 27507;
 
 	template <typename TKey, typename TValue>
 	class GraphDictionaryFormatter_2 : public ::MessagePack::Formatters::IGraphDictionaryFormatterBase_5<TKey, TValue, ::System::Collections::Generic::Dictionary_2<TKey, TValue>*, ::System::Collections::Generic::Dictionary_2_Enumerator<TKey, TValue>, ::System::Collections::Generic::Dictionary_2<TKey, TValue>*>

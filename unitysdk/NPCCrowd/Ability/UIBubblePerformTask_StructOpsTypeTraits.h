@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_UIBUBBLEPERFORMTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x639A5D0)
-#define NPCCROWD_ABILITY_UIBUBBLEPERFORMTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x639A5E0)
+#define NPCCROWD_ABILITY_UIBUBBLEPERFORMTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xB537D80)
+#define NPCCROWD_ABILITY_UIBUBBLEPERFORMTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xB537D90)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int UIBubblePerformTask_StructOpsTypeTraits_TypeDefinitionIndex = 61379;
+	inline static constexpr unsigned int UIBubblePerformTask_StructOpsTypeTraits_TypeDefinitionIndex = 61687;
 
 	class UIBubblePerformTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDUINT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1AC8A750)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDUINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC8A7F0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDUINT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BA79050)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDUINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA79110)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedUInt_TypeDefinitionIndex = 31216;
+	inline static constexpr unsigned int SharedUInt_TypeDefinitionIndex = 31745;
 
 	class SharedUInt : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::UInt32>
 	{

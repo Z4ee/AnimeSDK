@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_TOOLKIT_RENDERERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x6EE3D20)
+#define MOLEMOLE_TOOLKIT_RENDERERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11E07D80)
 
 namespace MoleMole::ToolKit
 {
-	inline static constexpr unsigned int RendererGroup_TypeDefinitionIndex = 59461;
+	inline static constexpr unsigned int RendererGroup_TypeDefinitionIndex = 78209;
 
 	class RendererGroup : public ::UnityEngine::MonoBehaviour
 	{

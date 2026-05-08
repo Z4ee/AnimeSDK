@@ -5,8 +5,8 @@
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C3180)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS20_0__GETCREATOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A8C3190)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B613780)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS20_0__GETCREATOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B613790)
 
 namespace Newtonsoft::Json::Serialization
 {
@@ -15,8 +15,8 @@ namespace Newtonsoft::Json::Serialization
 	class JsonTypeReflector___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::Func_1<::System::Object*>* defaultConstructor; // 0x18
+		::System::Func_1<::System::Object*>* defaultConstructor; // 0x10
+		::System::Type* type; // 0x18
 
 		::System::Void _ctor()
 		{

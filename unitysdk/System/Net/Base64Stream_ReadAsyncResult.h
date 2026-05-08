@@ -7,12 +7,12 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class Base64Stream; }
 
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_COMPLETEREAD_OFFSET UNITYSDK_OFFSET(0x191BA6A0)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x191BAB00)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_ONREAD_OFFSET UNITYSDK_OFFSET(0x191BA8C0)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_READ_OFFSET UNITYSDK_OFFSET(0x191BA720)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x191BAB80)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x191BA620)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_COMPLETEREAD_OFFSET UNITYSDK_OFFSET(0x19AE7900)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x19AE7D60)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_ONREAD_OFFSET UNITYSDK_OFFSET(0x19AE7B20)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_READ_OFFSET UNITYSDK_OFFSET(0x19AE7980)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AE7DE0)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE7850)
 
 namespace System::Net
 {
@@ -25,11 +25,11 @@ namespace System::Net
 		{
 			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(Base64Stream_ReadAsyncResult_TypeDefinitionIndex)->GetStaticField(0x2E10);
 		}
-		::System::Net::Base64Stream* parent; // 0x48
-		::Il2CppArray<::System::Byte>* buffer; // 0x50
-		::System::Int32 count; // 0x58
-		::System::Int32 read; // 0x5C
-		::System::Int32 offset; // 0x60
+		::Il2CppArray<::System::Byte>* buffer; // 0x48
+		::System::Net::Base64Stream* parent; // 0x50
+		::System::Int32 offset; // 0x58
+		::System::Int32 count; // 0x5C
+		::System::Int32 read; // 0x60
 
 		::System::Void _ctor(::System::Net::Base64Stream* parent, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
 		{

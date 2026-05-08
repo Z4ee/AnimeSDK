@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_1_F29C68BEB3C6B152_Class_1_E0E1AA5DB3593AC8_TypeDefinitionIndex = 75429;
+inline static constexpr unsigned int Class_1_F29C68BEB3C6B152_Class_1_E0E1AA5DB3593AC8_TypeDefinitionIndex = 62625;
 
 template <typename T, typename TContext>
 class Class_1_F29C68BEB3C6B152_Class_1_E0E1AA5DB3593AC8 : public ::System::Object

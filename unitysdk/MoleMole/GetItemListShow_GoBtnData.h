@@ -8,7 +8,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetItemListShow_GoBtnData_TypeDefinitionIndex = 69505;
+	inline static constexpr unsigned int GetItemListShow_GoBtnData_TypeDefinitionIndex = 71078;
 
 	struct alignas(8) GetItemListShow_GoBtnData
 	{

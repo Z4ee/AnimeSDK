@@ -3,14 +3,14 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int EConditionType_TypeDefinitionIndex = 66418;
+	inline static constexpr unsigned int EConditionType_TypeDefinitionIndex = 74622;
 
 	enum class EConditionType : ::System::Int32
 	{
-		Time = 1,
 		None = 0,
-		Default = 3,
-		Compare = 2,
+		Time = 1,
 		Entity = 4,
+		Compare = 2,
+		Default = 3,
 	};
 }

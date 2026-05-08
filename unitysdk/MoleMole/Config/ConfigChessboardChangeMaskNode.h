@@ -5,18 +5,18 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xF2C6F90)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C7070)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x159E6090)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x159E6150)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardChangeMaskNode_TypeDefinitionIndex = 61832;
+	inline static constexpr unsigned int ConfigChessboardChangeMaskNode_TypeDefinitionIndex = 60764;
 
 	class ConfigChessboardChangeMaskNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::Enum_3_4BD503641116BB32 EventMaskType; // 0x18
-		::System::Boolean Enable; // 0x1C
+		::System::Boolean Enable; // 0x18
+		::Enum_3_4BD503641116BB32 EventMaskType; // 0x1C
 
 		::System::Void _ctor()
 		{

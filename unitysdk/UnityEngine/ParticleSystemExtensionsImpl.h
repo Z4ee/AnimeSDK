@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEMEXTENSIONSIMPL_GETCOLLISIONEVENTS_OFFSET UNITYSDK_OFFSET(0x1AE3BB80)
-#define UNITYENGINE_PARTICLESYSTEMEXTENSIONSIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3ECA0)
+#define UNITYENGINE_PARTICLESYSTEMEXTENSIONSIMPL_GETCOLLISIONEVENTS_OFFSET UNITYSDK_OFFSET(0x1BA947D0)
+#define UNITYENGINE_PARTICLESYSTEMEXTENSIONSIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA97940)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemExtensionsImpl_TypeDefinitionIndex = 24401;
+	inline static constexpr unsigned int ParticleSystemExtensionsImpl_TypeDefinitionIndex = 24915;
 
 	class ParticleSystemExtensionsImpl : public ::System::Object
 	{

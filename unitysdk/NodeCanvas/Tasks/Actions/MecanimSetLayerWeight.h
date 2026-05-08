@@ -6,20 +6,20 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A227690)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A2278E0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A227950)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A227BE0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A9023F0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A902640)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A9026B0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLAYERWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9027E0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetLayerWeight_TypeDefinitionIndex = 27687;
+	inline static constexpr unsigned int MecanimSetLayerWeight_TypeDefinitionIndex = 26670;
 
 	class MecanimSetLayerWeight : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* layerIndex; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* layerWeight; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* layerWeight; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* layerIndex; // 0x68
 		::System::Single currentValue; // 0x70
 		::System::Single transitTime; // 0x74
 

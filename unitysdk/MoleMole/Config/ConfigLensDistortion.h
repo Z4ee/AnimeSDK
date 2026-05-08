@@ -7,33 +7,33 @@
 namespace MoleMole::Config { class ScreenEffectFloat; }
 namespace MoleMole::Config { class ScreenEffectVector2; }
 
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETCENTER_OFFSET UNITYSDK_OFFSET(0xB472FD0)
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETDEPTHCLIP_OFFSET UNITYSDK_OFFSET(0xB472F30)
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0xB472CB0)
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETSCALE_OFFSET UNITYSDK_OFFSET(0xB472E90)
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETXMULTIPLIER_OFFSET UNITYSDK_OFFSET(0xB472D50)
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETYMULTIPLIER_OFFSET UNITYSDK_OFFSET(0xB472DF0)
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB473070)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETCENTER_OFFSET UNITYSDK_OFFSET(0x17D245A0)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETDEPTHCLIP_OFFSET UNITYSDK_OFFSET(0x17D24520)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x17D24320)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETSCALE_OFFSET UNITYSDK_OFFSET(0x17D244A0)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETXMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x17D243A0)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION_GETYMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x17D24420)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17D24620)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLensDistortion_TypeDefinitionIndex = 41468;
+	inline static constexpr unsigned int ConfigLensDistortion_TypeDefinitionIndex = 81694;
 
 	class ConfigLensDistortion : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectVector2* center; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* xMultiplier; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* depthClip; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* yMultiplier; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* depthClip; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* yMultiplier; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* xMultiplier; // 0x58
 		::MoleMole::Config::ScreenEffectFloat* scale; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x68
-		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x70
-		::MoleMole::Config::ScreenEffectFieldHandleType yMultiplierHandleType; // 0x74
-		::MoleMole::Config::ScreenEffectFieldHandleType depthClipHandleType; // 0x78
-		::MoleMole::Config::ScreenEffectFieldHandleType centerHandleType; // 0x7C
-		::MoleMole::Config::ScreenEffectFieldHandleType scaleHandleType; // 0x80
-		::MoleMole::Config::ScreenEffectFieldHandleType xMultiplierHandleType; // 0x84
+		::MoleMole::Config::ScreenEffectVector2* center; // 0x68
+		::MoleMole::Config::ScreenEffectFieldHandleType xMultiplierHandleType; // 0x70
+		::MoleMole::Config::ScreenEffectFieldHandleType depthClipHandleType; // 0x74
+		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x78
+		::MoleMole::Config::ScreenEffectFieldHandleType yMultiplierHandleType; // 0x7C
+		::MoleMole::Config::ScreenEffectFieldHandleType centerHandleType; // 0x80
+		::MoleMole::Config::ScreenEffectFieldHandleType scaleHandleType; // 0x84
 
 		::System::Void _ctor()
 		{

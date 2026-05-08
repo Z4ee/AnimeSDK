@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_5;
+class Class_0_16E4307DCC419505_11;
 class Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C;
 namespace MoleMole { class UIAreaShopPageController; }
 
-#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF2DE40)
-#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__0_OFFSET UNITYSDK_OFFSET(0xBF2DE50)
-#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__1_OFFSET UNITYSDK_OFFSET(0xBF2DF70)
+#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167F9EC0)
+#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__0_OFFSET UNITYSDK_OFFSET(0x167F9ED0)
+#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__1_OFFSET UNITYSDK_OFFSET(0x167F9FD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaShopPageController___c__DisplayClass50_0_TypeDefinitionIndex = 66720;
+	inline static constexpr unsigned int UIAreaShopPageController___c__DisplayClass50_0_TypeDefinitionIndex = 75404;
 
 	class UIAreaShopPageController___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAreaShopPageController* __4__this; // 0x10
-		::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C* __9__1; // 0x18
+		::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C* __9__1; // 0x10
+		::MoleMole::UIAreaShopPageController* __4__this; // 0x18
 		::System::Int32 currencyID; // 0x20
 
 		::System::Void _ctor()
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__0_OFFSET))(this);
 		}
 
-		::System::Void _OnClickRefreshGoods_b__1(::Class_0_16E4307DCC419505_5* _)
+		::System::Void _OnClickRefreshGoods_b__1(::Class_0_16E4307DCC419505_11* _)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__1_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_11*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__DISPLAYCLASS50_0__ONCLICKREFRESHGOODS_B__1_OFFSET))(this, _);
 		}
 	};
 }

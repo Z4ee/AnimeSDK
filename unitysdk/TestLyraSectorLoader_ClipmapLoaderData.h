@@ -12,36 +12,36 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading { class Mutex; }
 
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_CHECKDEBUGVARIABLES_OFFSET UNITYSDK_OFFSET(0x197D5A90)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_CHECKDEBUGVARIABLE_OFFSET UNITYSDK_OFFSET(0x197D6010)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_GET_ENABLE_OFFSET UNITYSDK_OFFSET(0x197D5FF0)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_REMOVEASSETS_OFFSET UNITYSDK_OFFSET(0x197D5C80)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x197D37F0)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0x197D6000)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_UPDATE_OFFSET UNITYSDK_OFFSET(0x197D39D0)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197D3630)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_CHECKDEBUGVARIABLES_OFFSET UNITYSDK_OFFSET(0x1AB893F0)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_CHECKDEBUGVARIABLE_OFFSET UNITYSDK_OFFSET(0x1AB89970)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_GET_ENABLE_OFFSET UNITYSDK_OFFSET(0x1AB89950)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_REMOVEASSETS_OFFSET UNITYSDK_OFFSET(0x1AB895E0)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1AB86F60)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0x1AB89960)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AB87150)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB86DA0)
 
-inline static constexpr unsigned int TestLyraSectorLoader_ClipmapLoaderData_TypeDefinitionIndex = 29044;
+inline static constexpr unsigned int TestLyraSectorLoader_ClipmapLoaderData_TypeDefinitionIndex = 29563;
 
 class TestLyraSectorLoader_ClipmapLoaderData : public ::System::Object
 {
 public:
-	::Il2CppArray<::LyraSector::LyraSectorCoord>* m_CachedLoadedCoordsArray; // 0x10
-	::System::Collections::Generic::List_1<::LyraSector::LyraSectorCoord>* m_UnloadCoords; // 0x18
-	::TestLyraSectorLoader* m_LyraLoader; // 0x20
-	::System::String* m_SsectorDistanceFieldAssetPathFormat; // 0x28
-	::System::Threading::Mutex* m_Mutex; // 0x30
-	::System::String* m_SectorSceneVoxelAssetPathFormat; // 0x38
-	::System::Collections::Generic::Dictionary_2<::LyraSector::LyraSectorCoord, ::LyraSector::LyraPackedAsset*>* m_LoadedPackedAssets; // 0x40
-	::System::Collections::Generic::HashSet_1<::LyraSector::LyraSectorCoord>* m_LoadedCoords; // 0x48
-	::System::Int32 m_ForceFullUpdateID; // 0x50
-	::System::Int32 m_VisualizeModeID; // 0x54
-	::System::Boolean m_EnableDebugView; // 0x58
-	::System::Boolean m_ForceFullUpdate; // 0x59
-	::System::Boolean m_Enabled; // 0x5A
-	::System::Boolean m_IsForDistanceField; // 0x5B
-	::System::Boolean m_CachedLoadedCoordsArrayDirty; // 0x5C
-	::System::Int32 m_VisualizeMode; // 0x60
+	::System::String* m_SectorSceneVoxelAssetPathFormat; // 0x10
+	::System::Collections::Generic::HashSet_1<::LyraSector::LyraSectorCoord>* m_LoadedCoords; // 0x18
+	::System::Threading::Mutex* m_Mutex; // 0x20
+	::System::Collections::Generic::List_1<::LyraSector::LyraSectorCoord>* m_UnloadCoords; // 0x28
+	::TestLyraSectorLoader* m_LyraLoader; // 0x30
+	::System::Collections::Generic::Dictionary_2<::LyraSector::LyraSectorCoord, ::LyraSector::LyraPackedAsset*>* m_LoadedPackedAssets; // 0x38
+	::Il2CppArray<::LyraSector::LyraSectorCoord>* m_CachedLoadedCoordsArray; // 0x40
+	::System::String* m_SsectorDistanceFieldAssetPathFormat; // 0x48
+	::System::Boolean m_CachedLoadedCoordsArrayDirty; // 0x50
+	::System::Boolean m_Enabled; // 0x51
+	::System::Boolean m_ForceFullUpdate; // 0x52
+	::System::Int32 m_VisualizeMode; // 0x54
+	::System::Int32 m_ForceFullUpdateID; // 0x58
+	::System::Boolean m_IsForDistanceField; // 0x5C
+	::System::Boolean m_EnableDebugView; // 0x5D
+	::System::Int32 m_VisualizeModeID; // 0x60
 
 	::System::Void _ctor(::System::String* lyraAssetDir, ::System::Boolean isForDistanceField, ::TestLyraSectorLoader* lyraLoader)
 	{

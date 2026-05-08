@@ -3,11 +3,11 @@
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int ValueOrCurveType_TypeDefinitionIndex = 58382;
+	inline static constexpr unsigned int ValueOrCurveType_TypeDefinitionIndex = 55229;
 
 	enum class ValueOrCurveType : ::System::Int32
 	{
-		Curve = 1,
 		Value = 0,
+		Curve = 1,
 	};
 }

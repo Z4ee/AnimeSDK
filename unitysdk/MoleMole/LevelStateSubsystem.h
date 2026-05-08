@@ -7,20 +7,20 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_LEVELSTATESUBSYSTEM_GETLEVELSTATE_OFFSET UNITYSDK_OFFSET(0xD0E6D80)
-#define MOLEMOLE_LEVELSTATESUBSYSTEM_REGISTERONLEVELSTAGECHANGED_OFFSET UNITYSDK_OFFSET(0xD0E6ED0)
-#define MOLEMOLE_LEVELSTATESUBSYSTEM_UNREGISTERONLEVELSTAGECHANGED_OFFSET UNITYSDK_OFFSET(0xD0E6F80)
-#define MOLEMOLE_LEVELSTATESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD0E7030)
+#define MOLEMOLE_LEVELSTATESUBSYSTEM_GETLEVELSTATE_OFFSET UNITYSDK_OFFSET(0x16B92CA0)
+#define MOLEMOLE_LEVELSTATESUBSYSTEM_REGISTERONLEVELSTAGECHANGED_OFFSET UNITYSDK_OFFSET(0x16B92DD0)
+#define MOLEMOLE_LEVELSTATESUBSYSTEM_UNREGISTERONLEVELSTAGECHANGED_OFFSET UNITYSDK_OFFSET(0x16B92E80)
+#define MOLEMOLE_LEVELSTATESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16B92F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelStateSubsystem_TypeDefinitionIndex = 38450;
+	inline static constexpr unsigned int LevelStateSubsystem_TypeDefinitionIndex = 65505;
 
 	class LevelStateSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::LevelStateSubsystem*>
 	{
 	public:
-		::System::Action_2<::MoleMole::LevelStateDefine_ELevelStateName, ::Struct_2_A47ACAABA9AAFE92>* _OnLevelStageChanged; // 0x10
-		::System::Collections::Generic::Dictionary_2<::MoleMole::LevelStateDefine_ELevelStateName, ::Struct_2_A47ACAABA9AAFE92>* LevelStateMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::MoleMole::LevelStateDefine_ELevelStateName, ::Struct_2_A47ACAABA9AAFE92>* LevelStateMap; // 0x10
+		::System::Action_2<::MoleMole::LevelStateDefine_ELevelStateName, ::Struct_2_A47ACAABA9AAFE92>* _OnLevelStageChanged; // 0x18
 
 		::System::Void _ctor()
 		{

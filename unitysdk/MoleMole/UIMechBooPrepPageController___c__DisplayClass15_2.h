@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace MoleMole { class UIMechBooPrepPageController___c__DisplayClass15_1; }
 
-#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS15_2__CLICKSCRIPTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x8979FF0)
-#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS15_2__CTOR_OFFSET UNITYSDK_OFFSET(0x8979FE0)
+#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS15_2__CLICKSCRIPTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x152ABCA0)
+#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS15_2__CTOR_OFFSET UNITYSDK_OFFSET(0x152ABC90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooPrepPageController___c__DisplayClass15_2_TypeDefinitionIndex = 50531;
+	inline static constexpr unsigned int UIMechBooPrepPageController___c__DisplayClass15_2_TypeDefinitionIndex = 45472;
 
 	class UIMechBooPrepPageController___c__DisplayClass15_2 : public ::System::Object
 	{

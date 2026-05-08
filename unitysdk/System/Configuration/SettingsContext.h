@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Hashtable.h"
 
-#define SYSTEM_CONFIGURATION_SETTINGSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1931BE10)
+#define SYSTEM_CONFIGURATION_SETTINGSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E29A50)
 
 namespace System::Configuration
 {

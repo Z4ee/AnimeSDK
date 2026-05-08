@@ -6,21 +6,21 @@
 
 namespace Utf8Json { class IJsonFormatterResolver; }
 
-#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B50A1B0)
-#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B50A000)
-#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B50A320)
-#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50A310)
+#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1D18E0)
+#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1D1730)
+#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1D1A70)
+#define UTF8JSON_FORMATTERS_UINT16ARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1D1A60)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int UInt16ArrayFormatter_TypeDefinitionIndex = 84049;
+	inline static constexpr unsigned int UInt16ArrayFormatter_TypeDefinitionIndex = 85777;
 
 	class UInt16ArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Formatters::UInt16ArrayFormatter** StaticGet_Default()
 		{
-			return (::Utf8Json::Formatters::UInt16ArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(UInt16ArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x48CF0);
+			return (::Utf8Json::Formatters::UInt16ArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(UInt16ArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x4A860);
 		}
 
 		::System::Void _ctor()

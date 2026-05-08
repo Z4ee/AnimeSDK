@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAreaGoodsWidgetController; }
 
-#define MOLEMOLE_UIAREAGOODSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8CDBA90)
-#define MOLEMOLE_UIAREAGOODSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONCLICKOPERATE_B__0_OFFSET UNITYSDK_OFFSET(0x8CDBAA0)
+#define MOLEMOLE_UIAREAGOODSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13EFA620)
+#define MOLEMOLE_UIAREAGOODSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONCLICKOPERATE_B__0_OFFSET UNITYSDK_OFFSET(0x13EFA630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaGoodsWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 66203;
+	inline static constexpr unsigned int UIAreaGoodsWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 62676;
 
 	class UIAreaGoodsWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{

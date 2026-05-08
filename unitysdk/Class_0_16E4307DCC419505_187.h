@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace MoleMole { class UISuumerEventResultPopWindowController; }
+class Class_1_4F9417780723166C;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_187_TypeDefinitionIndex = 61119;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_187_TypeDefinitionIndex = 62867;
 
 class Class_0_16E4307DCC419505_187
 {

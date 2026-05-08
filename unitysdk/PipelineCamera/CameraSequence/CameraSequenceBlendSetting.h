@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEBLENDSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD312A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEBLENDSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABBED0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceBlendSetting_TypeDefinitionIndex = 35631;
+	inline static constexpr unsigned int CameraSequenceBlendSetting_TypeDefinitionIndex = 36175;
 
 	class CameraSequenceBlendSetting : public ::System::Object
 	{

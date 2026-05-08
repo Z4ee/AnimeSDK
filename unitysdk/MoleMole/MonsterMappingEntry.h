@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONSTERMAPPINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xA6561F0)
+#define MOLEMOLE_MONSTERMAPPINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13867090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterMappingEntry_TypeDefinitionIndex = 41826;
+	inline static constexpr unsigned int MonsterMappingEntry_TypeDefinitionIndex = 52060;
 
 	class MonsterMappingEntry : public ::System::Object
 	{

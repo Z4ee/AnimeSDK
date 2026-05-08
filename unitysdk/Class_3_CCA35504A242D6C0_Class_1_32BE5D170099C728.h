@@ -4,9 +4,9 @@
 
 namespace MoleMole::Config { class ScenePerformConfig; }
 
-#define CLASS_3_CCA35504A242D6C0_CLASS_1_32BE5D170099C728__CTOR_OFFSET UNITYSDK_OFFSET(0x97850A0)
+#define CLASS_3_CCA35504A242D6C0_CLASS_1_32BE5D170099C728__CTOR_OFFSET UNITYSDK_OFFSET(0x10DBE2D0)
 
-inline static constexpr unsigned int Class_3_CCA35504A242D6C0_Class_1_32BE5D170099C728_TypeDefinitionIndex = 54665;
+inline static constexpr unsigned int Class_3_CCA35504A242D6C0_Class_1_32BE5D170099C728_TypeDefinitionIndex = 71488;
 
 class Class_3_CCA35504A242D6C0_Class_1_32BE5D170099C728 : public ::System::Object
 {

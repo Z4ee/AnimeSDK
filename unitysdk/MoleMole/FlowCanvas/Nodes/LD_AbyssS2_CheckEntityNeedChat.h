@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKENTITYNEEDCHAT_INVOKE_OFFSET UNITYSDK_OFFSET(0xD0D8B00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKENTITYNEEDCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D8BD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKENTITYNEEDCHAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x16B84EC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CHECKENTITYNEEDCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x16B84F70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CheckEntityNeedChat_TypeDefinitionIndex = 54594;
+	inline static constexpr unsigned int LD_AbyssS2_CheckEntityNeedChat_TypeDefinitionIndex = 74083;
 
 	class LD_AbyssS2_CheckEntityNeedChat : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Boolean, ::MoleMole::Battle::Entity*>
 	{

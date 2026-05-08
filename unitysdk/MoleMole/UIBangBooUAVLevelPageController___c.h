@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF0EB60)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF0EBA0)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__ONSTART_B__12_2_OFFSET UNITYSDK_OFFSET(0xDF0EBB0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1635E110)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1635E150)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__ONSTART_B__12_2_OFFSET UNITYSDK_OFFSET(0x1635E160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c_TypeDefinitionIndex = 40634;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c_TypeDefinitionIndex = 41739;
 
 	class UIBangBooUAVLevelPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__12_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooUAVLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x34330);
-		}
 		static ::MoleMole::UIBangBooUAVLevelPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBangBooUAVLevelPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooUAVLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x34338);
+			return (::MoleMole::UIBangBooUAVLevelPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooUAVLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x34E40);
+		}
+		static ::System::Action** StaticGet___9__12_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangBooUAVLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x34E48);
 		}
 
 		static ::System::Void _cctor()

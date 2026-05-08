@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HOLLOWCAMERASAFEZONEPREDICATE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC241420)
-#define MOLEMOLE_CONFIG_HOLLOWCAMERASAFEZONEPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC2418B0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERASAFEZONEPREDICATE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14251FB0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERASAFEZONEPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x142523A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCameraSafeZonePredicate_TypeDefinitionIndex = 57305;
+	inline static constexpr unsigned int HollowCameraSafeZonePredicate_TypeDefinitionIndex = 48666;
 
 	class HollowCameraSafeZonePredicate : public ::MoleMole::Config::BaseHollowCameraPredicate
 	{

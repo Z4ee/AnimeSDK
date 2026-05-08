@@ -6,11 +6,11 @@ class Class_1_7F489DAFAFC6BD02;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GENERALCHALLENGEINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x6E92DE0)
+#define MOLEMOLE_GENERALCHALLENGEINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1428BF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralChallengeInfoDialogContext_TypeDefinitionIndex = 54333;
+	inline static constexpr unsigned int GeneralChallengeInfoDialogContext_TypeDefinitionIndex = 71415;
 
 	class GeneralChallengeInfoDialogContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIVHSREWARDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAB0040)
-#define MOLEMOLE_UIVHSREWARDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCAB0080)
-#define MOLEMOLE_UIVHSREWARDINFO___C__ONPROCESS_B__3_0_OFFSET UNITYSDK_OFFSET(0xCAB0090)
+#define MOLEMOLE_UIVHSREWARDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DDC2F0)
+#define MOLEMOLE_UIVHSREWARDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14DDC330)
+#define MOLEMOLE_UIVHSREWARDINFO___C__ONPROCESS_B__3_0_OFFSET UNITYSDK_OFFSET(0x14DDC340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSRewardInfo___c_TypeDefinitionIndex = 50453;
+	inline static constexpr unsigned int UIVHSRewardInfo___c_TypeDefinitionIndex = 65214;
 
 	class UIVHSRewardInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__3_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIVHSRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x444D0);
-		}
 		static ::MoleMole::UIVHSRewardInfo___c** StaticGet___9()
 		{
-			return (::MoleMole::UIVHSRewardInfo___c**)Il2CppClass::FromTypeDefinitionIndex(UIVHSRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x444D8);
+			return (::MoleMole::UIVHSRewardInfo___c**)Il2CppClass::FromTypeDefinitionIndex(UIVHSRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x45E50);
+		}
+		static ::System::Action** StaticGet___9__3_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIVHSRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x45E58);
 		}
 
 		static ::System::Void _cctor()

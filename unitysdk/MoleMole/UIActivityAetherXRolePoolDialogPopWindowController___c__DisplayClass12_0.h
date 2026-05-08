@@ -6,22 +6,22 @@ namespace MoleMole { class UIActivityAetherXRolePoolDialogPopWindowController; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6939A0)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__GETNEWBIECHOOSEAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xA6939B0)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__GETNEWBIECHOOSEAVATAR_B__2_OFFSET UNITYSDK_OFFSET(0xA693D10)
-#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__GETNEWBIECHOOSEAVATAR_B__4_OFFSET UNITYSDK_OFFSET(0xA693F10)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1560DCF0)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__GETNEWBIECHOOSEAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0x1560DD00)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__GETNEWBIECHOOSEAVATAR_B__2_OFFSET UNITYSDK_OFFSET(0x1560E030)
+#define MOLEMOLE_UIACTIVITYAETHERXROLEPOOLDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__GETNEWBIECHOOSEAVATAR_B__4_OFFSET UNITYSDK_OFFSET(0x1560E230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityAetherXRolePoolDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 53443;
+	inline static constexpr unsigned int UIActivityAetherXRolePoolDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 75008;
 
 	class UIActivityAetherXRolePoolDialogPopWindowController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* taskIDList; // 0x10
-		::System::Action* __9__2; // 0x18
+		::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* taskIDList; // 0x18
 		::System::Action* __9__4; // 0x20
-		::MoleMole::UIActivityAetherXRolePoolDialogPopWindowController* __4__this; // 0x28
+		::System::Action* __9__2; // 0x28
 		::System::Int32 toGetIndex; // 0x30
 
 		::System::Void _ctor()

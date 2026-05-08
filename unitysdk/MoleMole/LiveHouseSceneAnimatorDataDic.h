@@ -6,11 +6,11 @@ namespace MoleMole { class LiveHouseSceneAnimatorDataDicEntry; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_LIVEHOUSESCENEANIMATORDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0xB83F190)
+#define MOLEMOLE_LIVEHOUSESCENEANIMATORDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x17818D60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LiveHouseSceneAnimatorDataDic_TypeDefinitionIndex = 78147;
+	inline static constexpr unsigned int LiveHouseSceneAnimatorDataDic_TypeDefinitionIndex = 45144;
 
 	class LiveHouseSceneAnimatorDataDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::System::String*, ::UnityEngine::Animator*, ::MoleMole::LiveHouseSceneAnimatorDataDicEntry*>
 	{

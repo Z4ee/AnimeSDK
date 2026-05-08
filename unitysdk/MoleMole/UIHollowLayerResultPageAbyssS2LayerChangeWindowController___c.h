@@ -6,29 +6,29 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8731B30)
-#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8731B70)
-#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__QUITDUNGEON_B__12_1_OFFSET UNITYSDK_OFFSET(0x8731B90)
-#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__REFRESHMISSIONVIEW_B__8_0_OFFSET UNITYSDK_OFFSET(0x8731B80)
+#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B4D250)
+#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B4D290)
+#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__QUITDUNGEON_B__12_1_OFFSET UNITYSDK_OFFSET(0x14B4D2B0)
+#define MOLEMOLE_UIHOLLOWLAYERRESULTPAGEABYSSS2LAYERCHANGEWINDOWCONTROLLER___C__REFRESHMISSIONVIEW_B__8_0_OFFSET UNITYSDK_OFFSET(0x14B4D2A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex = 55477;
+	inline static constexpr unsigned int UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex = 46082;
 
 	class UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c** StaticGet___9()
+		static ::System::Comparison_1<::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController_RankDataItem>** StaticGet___9__8_0()
 		{
-			return (::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex)->GetStaticField(0x41C80);
+			return (::System::Comparison_1<::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController_RankDataItem>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42020);
 		}
 		static ::System::Action** StaticGet___9__12_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex)->GetStaticField(0x41C88);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42028);
 		}
-		static ::System::Comparison_1<::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController_RankDataItem>** StaticGet___9__8_0()
+		static ::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController_RankDataItem>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex)->GetStaticField(0x41C90);
+			return (::MoleMole::UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowLayerResultPageAbyssS2LayerChangeWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42030);
 		}
 
 		static ::System::Void _cctor()

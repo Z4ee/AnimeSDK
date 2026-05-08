@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Shapes
 {
-	inline static constexpr unsigned int CSPie_EatModeEnum_TypeDefinitionIndex = 36698;
+	inline static constexpr unsigned int CSPie_EatModeEnum_TypeDefinitionIndex = 37242;
 
 	enum class CSPie_EatModeEnum : ::System::Int32
 	{

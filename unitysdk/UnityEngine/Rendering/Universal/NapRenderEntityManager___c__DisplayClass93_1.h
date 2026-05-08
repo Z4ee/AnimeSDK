@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityManager___c__DisplayClass93_1_TypeDefinitionIndex = 29552;
+	inline static constexpr unsigned int NapRenderEntityManager___c__DisplayClass93_1_TypeDefinitionIndex = 30080;
 
 	struct alignas(4) NapRenderEntityManager___c__DisplayClass93_1
 	{

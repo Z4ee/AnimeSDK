@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowDevelopBagDialogPopWindowController_SortType_TypeDefinitionIndex = 55018;
+	inline static constexpr unsigned int UIHollowDevelopBagDialogPopWindowController_SortType_TypeDefinitionIndex = 68842;
 
 	enum class UIHollowDevelopBagDialogPopWindowController_SortType : ::System::Int32
 	{
 		Rarity = 2,
-		Normal = 1,
 		GetTime = 0,
+		Normal = 1,
 	};
 }

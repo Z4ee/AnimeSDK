@@ -3,7 +3,7 @@
 
 namespace RichTap::Types
 {
-	inline static constexpr unsigned int FXPlayType_TypeDefinitionIndex = 35929;
+	inline static constexpr unsigned int FXPlayType_TypeDefinitionIndex = 36473;
 
 	enum class FXPlayType : ::System::Int32
 	{

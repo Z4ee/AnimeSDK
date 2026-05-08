@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGCONFIG_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x918B850)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGCONFIG_GETRANDOMPERFORMINGKEY_OFFSET UNITYSDK_OFFSET(0x918B8D0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x918BB10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGCONFIG_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x11CAA850)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGCONFIG_GETRANDOMPERFORMINGKEY_OFFSET UNITYSDK_OFFSET(0x11CAA8B0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11CAAB00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_WeightedPerformingConfig_TypeDefinitionIndex = 79841;
+	inline static constexpr unsigned int ConfigHollowChessboard_WeightedPerformingConfig_TypeDefinitionIndex = 43428;
 
 	class ConfigHollowChessboard_WeightedPerformingConfig : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* accumulate; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_WeightedPerformingItem>* PerformingItems; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_WeightedPerformingItem>* PerformingItems; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* accumulate; // 0x18
 		::System::Int32 totalWeight; // 0x20
 
 		::System::Void _ctor()

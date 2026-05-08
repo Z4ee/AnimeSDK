@@ -6,13 +6,13 @@
 
 namespace MoleMole { class MirrorReflectionProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_2362E43632123EB3_OFFSET UNITYSDK_OFFSET(0xC217910)
-#define MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_D50F0DD8B88045FF_OFFSET UNITYSDK_OFFSET(0xC217A80)
-#define MOLEMOLE_COMMANDLINEMIRRORREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC217A40)
+#define MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_2362E43632123EB3_OFFSET UNITYSDK_OFFSET(0xECFAF20)
+#define MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_95F4C07DAEF4C457_OFFSET UNITYSDK_OFFSET(0xECFB070)
+#define MOLEMOLE_COMMANDLINEMIRRORREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xECFB030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineMirrorReflection_TypeDefinitionIndex = 68874;
+	inline static constexpr unsigned int CommandLineMirrorReflection_TypeDefinitionIndex = 80133;
 
 	class CommandLineMirrorReflection : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::MirrorReflectionProfileContext*, ::MoleMole::CommandLineMirrorReflection*>
 	{
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineMirrorReflection*(*)(::PVOID, ::MoleMole::MirrorReflectionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_2362E43632123EB3_OFFSET))(this, a1);
 		}
 
-		::MoleMole::MirrorReflectionProfileContext* Method_2_D50F0DD8B88045FF(::MoleMole::MirrorReflectionProfileContext* a1)
+		::MoleMole::MirrorReflectionProfileContext* Method_2_95F4C07DAEF4C457(::MoleMole::MirrorReflectionProfileContext* a1)
 		{
-			return ((::MoleMole::MirrorReflectionProfileContext*(*)(::PVOID, ::MoleMole::MirrorReflectionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_D50F0DD8B88045FF_OFFSET))(this, a1);
+			return ((::MoleMole::MirrorReflectionProfileContext*(*)(::PVOID, ::MoleMole::MirrorReflectionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEMIRRORREFLECTION_METHOD_2_95F4C07DAEF4C457_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,31 +8,31 @@
 #include "unitysdk/ProtoScript/HollowGridLink.h"
 
 class Class_1_8CE3173023BA2453;
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 class Class_5_AF65C3A968E836D2;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Lazy_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_CREATERUNTIMEEFFECTLIST_OFFSET UNITYSDK_OFFSET(0xBAFC010)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GETGRIDEXISTLIST_OFFSET UNITYSDK_OFFSET(0xBAFBC50)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0xBAFB760)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0xBAFB770)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_TRYCREATECREATERUNTIMEEFFECTINFO_OFFSET UNITYSDK_OFFSET(0xBAFC350)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAFC750)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBAFC740)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_CREATERUNTIMEEFFECTLIST_OFFSET UNITYSDK_OFFSET(0x186BAE10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GETGRIDEXISTLIST_OFFSET UNITYSDK_OFFSET(0x186BAA80)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x186BA5E0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0x186BA5F0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_TRYCREATECREATERUNTIMEEFFECTINFO_OFFSET UNITYSDK_OFFSET(0x186BB130)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x186BB4C0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB4B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect_TypeDefinitionIndex = 79793;
+	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect_TypeDefinitionIndex = 43462;
 
 	class ConfigHollowChessboard_BigTVMoveFireEffect : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
 	public:
 		static ::System::Lazy_1<::System::Collections::Generic::List_1<::MoleMole::Vector2Int>*>** StaticGet__indexOffset()
 		{
-			return (::System::Lazy_1<::System::Collections::Generic::List_1<::MoleMole::Vector2Int>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboard_BigTVMoveFireEffect_TypeDefinitionIndex)->GetStaticField(0x36CB0);
+			return (::System::Lazy_1<::System::Collections::Generic::List_1<::MoleMole::Vector2Int>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHollowChessboard_BigTVMoveFireEffect_TypeDefinitionIndex)->GetStaticField(0x37760);
 		}
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_EffectInfo>* InfoList; // 0x20
 
@@ -51,24 +51,24 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GET_TOTALDURATION_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_5_0B648F1F8F6AC84A* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
+		::System::Void Run(::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
+			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>* CreateRuntimeEffectList(::Class_5_0B648F1F8F6AC84A* chessPiece, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* gridsFullIndex, ::ProtoScript::HollowGridLink moveDir)
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>* CreateRuntimeEffectList(::Class_5_A6F8D19602712D95* chessPiece, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* gridsFullIndex, ::ProtoScript::HollowGridLink moveDir)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>*(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::ProtoScript::HollowGridLink))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_CREATERUNTIMEEFFECTLIST_OFFSET))(this, chessPiece, gridsFullIndex, moveDir);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>*(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::ProtoScript::HollowGridLink))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_CREATERUNTIMEEFFECTLIST_OFFSET))(this, chessPiece, gridsFullIndex, moveDir);
 		}
 
-		::System::Void TryCreateCreateRuntimeEffectInfo(::Class_5_0B648F1F8F6AC84A* chessPiece, ::Class_5_AF65C3A968E836D2* chessboard, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>* inRuntimeEffectList, ::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_EffectInfo& effectInfo, ::MoleMole::HollowChessboard::HollowCell fullIndex, ::System::Boolean inIsRightSide, ::System::Boolean inIsMirror, ::System::Boolean inIsUpDir)
+		::System::Void TryCreateCreateRuntimeEffectInfo(::Class_5_A6F8D19602712D95* chessPiece, ::Class_5_AF65C3A968E836D2* chessboard, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>* inRuntimeEffectList, ::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_EffectInfo& effectInfo, ::MoleMole::HollowChessboard::HollowCell fullIndex, ::System::Boolean inIsRightSide, ::System::Boolean inIsMirror, ::System::Boolean inIsUpDir)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*, ::Class_5_AF65C3A968E836D2*, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>*, ::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_EffectInfo&, ::MoleMole::HollowChessboard::HollowCell, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_TRYCREATECREATERUNTIMEEFFECTINFO_OFFSET))(this, chessPiece, chessboard, inRuntimeEffectList, effectInfo, fullIndex, inIsRightSide, inIsMirror, inIsUpDir);
+			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::Class_5_AF65C3A968E836D2*, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo>*, ::MoleMole::Config::ConfigHollowChessboard_BigTVMoveFireEffect_EffectInfo&, ::MoleMole::HollowChessboard::HollowCell, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_TRYCREATECREATERUNTIMEEFFECTINFO_OFFSET))(this, chessPiece, chessboard, inRuntimeEffectList, effectInfo, fullIndex, inIsRightSide, inIsMirror, inIsUpDir);
 		}
 
-		::System::Boolean GetGridExistList(::Class_5_0B648F1F8F6AC84A* chessPiece, ::ProtoScript::HollowGridLink curMoveDir, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*& gridsExist)
+		::System::Boolean GetGridExistList(::Class_5_A6F8D19602712D95* chessPiece, ::ProtoScript::HollowGridLink curMoveDir, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*& gridsExist)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_5_0B648F1F8F6AC84A*, ::ProtoScript::HollowGridLink, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GETGRIDEXISTLIST_OFFSET))(this, chessPiece, curMoveDir, gridsExist);
+			return ((::System::Boolean(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::ProtoScript::HollowGridLink, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVMOVEFIREEFFECT_GETGRIDEXISTLIST_OFFSET))(this, chessPiece, curMoveDir, gridsExist);
 		}
 	};
 }

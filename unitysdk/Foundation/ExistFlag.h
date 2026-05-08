@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_EXISTFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA144F0)
+#define FOUNDATION_EXISTFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B46C5E0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExistFlag_TypeDefinitionIndex = 8006;
+	inline static constexpr unsigned int ExistFlag_TypeDefinitionIndex = 7934;
 
 	class ExistFlag : public ::System::Object
 	{

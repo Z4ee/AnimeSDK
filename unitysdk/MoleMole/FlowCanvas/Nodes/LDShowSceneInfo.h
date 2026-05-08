@@ -7,25 +7,25 @@
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xD8014F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO_START_OFFSET UNITYSDK_OFFSET(0xD8016C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xD801720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD801780)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18A3E9C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO_START_OFFSET UNITYSDK_OFFSET(0x18A3EB70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0x18A3EBB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3EBF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowSceneInfo_TypeDefinitionIndex = 78433;
+	inline static constexpr unsigned int LDShowSceneInfo_TypeDefinitionIndex = 71569;
 
 	class LDShowSceneInfo : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* FontSize; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* ForwardToPlayer; // 0xB0
-		::MoleMole::GameplayTag InfoTag; // 0xB8
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* PositionOffset; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* PositionRelativePlayer; // 0xD0
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* Forward; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::String*>* Message; // 0xE0
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* Forward; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* PositionRelativePlayer; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* Message; // 0xB8
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* PositionOffset; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Int32>* FontSize; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* ForwardToPlayer; // 0xD0
+		::MoleMole::GameplayTag InfoTag; // 0xD8
 
 		::System::Void _ctor()
 		{

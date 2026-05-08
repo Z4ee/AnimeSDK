@@ -15,42 +15,42 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB43F330)
-#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB43F340)
-#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB43F820)
-#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB43FB60)
-#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB43FB20)
+#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xFEFF7E0)
+#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xFEFF7F0)
+#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xFEFFCB0)
+#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFEFFFC0)
+#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT_BULLETHOLECONFIGOBJECT_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFEFFF80)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex = 40968;
+	inline static constexpr unsigned int BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex = 46860;
 
 	class BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Battle::BulletHoleConfigObject*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>** StaticGet_CachedSerializer5()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47320);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RaycastHitWallEffectConfig*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RaycastHitWallEffectConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47328);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47330);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47390);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::BulletDamageDecalType>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BulletDamageDecalType>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47338);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::BulletDamageDecalType>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47398);
 		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>** StaticGet_CachedSerializer5()
+		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::DebugColor>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47340);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473A0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::BulletHoleUpdateStrategy>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::BulletHoleUpdateStrategy>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47348);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Battle::BulletHoleUpdateStrategy>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473A8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RaycastHitWallEffectConfig*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::RaycastHitWallEffectConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473B0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(BulletHoleConfigObject_BulletHoleConfigObject_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x473B8);
 		}
 
 		::System::Void _ctor()

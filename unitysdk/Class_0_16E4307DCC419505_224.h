@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
-#include "unitysdk/Struct_2_81427F9B3D4E62BC.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_224_TypeDefinitionIndex = 80343;
+template <typename T> class Class_0_16E4307DCC41950C_13;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_224_TypeDefinitionIndex = 62407;
 
 class Class_0_16E4307DCC419505_224
 {

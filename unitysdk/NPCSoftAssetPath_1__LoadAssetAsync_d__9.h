@@ -8,7 +8,7 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 template <typename T> class NPCSoftAssetPath_1;
 
-inline static constexpr unsigned int NPCSoftAssetPath_1__LoadAssetAsync_d__9_TypeDefinitionIndex = 40602;
+inline static constexpr unsigned int NPCSoftAssetPath_1__LoadAssetAsync_d__9_TypeDefinitionIndex = 40981;
 
 template <typename T>
 struct NPCSoftAssetPath_1__LoadAssetAsync_d__9

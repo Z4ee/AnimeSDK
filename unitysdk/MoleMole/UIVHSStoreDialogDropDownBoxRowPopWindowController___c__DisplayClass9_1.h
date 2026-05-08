@@ -5,18 +5,18 @@
 namespace MoleMole { class UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_0; }
 namespace MoleMole { class UIVHSStoreType02WidgetController; }
 
-#define MOLEMOLE_UIVHSSTOREDIALOGDROPDOWNBOXROWPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDF5A100)
-#define MOLEMOLE_UIVHSSTOREDIALOGDROPDOWNBOXROWPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_1__INITSELECTTYPE_B__5_OFFSET UNITYSDK_OFFSET(0xDF5A110)
+#define MOLEMOLE_UIVHSSTOREDIALOGDROPDOWNBOXROWPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1341AC50)
+#define MOLEMOLE_UIVHSSTOREDIALOGDROPDOWNBOXROWPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_1__INITSELECTTYPE_B__5_OFFSET UNITYSDK_OFFSET(0x1341AC60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_1_TypeDefinitionIndex = 40858;
+	inline static constexpr unsigned int UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_1_TypeDefinitionIndex = 57073;
 
 	class UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_0* CS___8__locals1; // 0x10
-		::MoleMole::UIVHSStoreType02WidgetController* ctrl; // 0x18
+		::MoleMole::UIVHSStoreType02WidgetController* ctrl; // 0x10
+		::MoleMole::UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

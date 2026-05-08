@@ -3,12 +3,12 @@
 #include "unitysdk/FNpcAvatarGenericParams.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6A01210)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS40_0__RELEASENPCFORRANDOMLIB_B__0_OFFSET UNITYSDK_OFFSET(0x6A01220)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD4AB70)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS40_0__RELEASENPCFORRANDOMLIB_B__0_OFFSET UNITYSDK_OFFSET(0xCD4AB80)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass40_0_TypeDefinitionIndex = 51671;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass40_0_TypeDefinitionIndex = 58954;
 
 	class NPCCrowdAvatarManager___c__DisplayClass40_0 : public ::System::Object
 	{

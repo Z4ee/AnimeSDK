@@ -9,11 +9,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_INTERACTTRAITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBA1B4F0)
+#define MOLEMOLE_INTERACTTRAITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4F110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InteractTraitData_TypeDefinitionIndex = 53838;
+	inline static constexpr unsigned int InteractTraitData_TypeDefinitionIndex = 54258;
 
 	class InteractTraitData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_ERROR_THROWARGUMENTNULLEXCEPTIONCORE_OFFSET UNITYSDK_OFFSET(0x1B5BB140)
+#define CYSHARP_THREADING_TASKS_INTERNAL_ERROR_THROWARGUMENTNULLEXCEPTIONCORE_OFFSET UNITYSDK_OFFSET(0x1C323A90)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int Error_TypeDefinitionIndex = 28300;
+	inline static constexpr unsigned int Error_TypeDefinitionIndex = 28818;
 
 	class Error : public ::System::Object
 	{

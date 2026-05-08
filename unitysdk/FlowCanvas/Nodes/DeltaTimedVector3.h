@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_DELTATIMEDVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6011D0)
-#define FLOWCANVAS_NODES_DELTATIMEDVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A601230)
+#define FLOWCANVAS_NODES_DELTATIMEDVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B49B2A0)
+#define FLOWCANVAS_NODES_DELTATIMEDVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49B300)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int DeltaTimedVector3_TypeDefinitionIndex = 27070;
+	inline static constexpr unsigned int DeltaTimedVector3_TypeDefinitionIndex = 26573;
 
 	class DeltaTimedVector3 : public ::FlowCanvas::Nodes::PureFunctionNode_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>
 	{

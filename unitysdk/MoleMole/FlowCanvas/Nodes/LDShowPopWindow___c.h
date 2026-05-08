@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8319B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB8319F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOW___C__DOPRELOAD_B__8_0_OFFSET UNITYSDK_OFFSET(0xB831A00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17809DE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17809E20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOW___C__DOPRELOAD_B__8_0_OFFSET UNITYSDK_OFFSET(0x17809E30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowPopWindow___c_TypeDefinitionIndex = 39578;
+	inline static constexpr unsigned int LDShowPopWindow___c_TypeDefinitionIndex = 78729;
 
 	class LDShowPopWindow___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::FlowCanvas::Nodes::LDShowPopWindow___c** StaticGet___9()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::LDShowPopWindow___c**)Il2CppClass::FromTypeDefinitionIndex(LDShowPopWindow___c_TypeDefinitionIndex)->GetStaticField(0x33FE0);
+			return (::MoleMole::FlowCanvas::Nodes::LDShowPopWindow___c**)Il2CppClass::FromTypeDefinitionIndex(LDShowPopWindow___c_TypeDefinitionIndex)->GetStaticField(0x34AE0);
 		}
 		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LDShowPopWindow___c_TypeDefinitionIndex)->GetStaticField(0x33FE8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LDShowPopWindow___c_TypeDefinitionIndex)->GetStaticField(0x34AE8);
 		}
 
 		static ::System::Void _cctor()

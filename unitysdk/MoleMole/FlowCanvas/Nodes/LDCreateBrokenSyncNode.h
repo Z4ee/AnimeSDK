@@ -9,25 +9,25 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE_ONENTIYREADY_OFFSET UNITYSDK_OFFSET(0xD0CEB00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xD0CE150)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE_TRYCREATEBROKEN_OFFSET UNITYSDK_OFFSET(0xD0CE2E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0CEDB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xD0CEDD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0xD0CEE40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE_ONENTIYREADY_OFFSET UNITYSDK_OFFSET(0x16B7B3C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16B7A930)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE_TRYCREATEBROKEN_OFFSET UNITYSDK_OFFSET(0x16B7AAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7B650)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16B7B690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENSYNCNODE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x16B7B700)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateBrokenSyncNode_TypeDefinitionIndex = 52568;
+	inline static constexpr unsigned int LDCreateBrokenSyncNode_TypeDefinitionIndex = 51755;
 
 	class LDCreateBrokenSyncNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* anchorInput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* monsterIdInput; // 0xB8
-		::MoleMole::Battle::Entity* monster; // 0xC0
-		::FlowCanvas::FlowOutput* output; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Int32>* monsterIdInput; // 0xA8
+		::MoleMole::Battle::Entity* monster; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* anchorInput; // 0xB8
+		::FlowCanvas::FlowOutput* output; // 0xC0
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xC8
 		::System::Boolean isWattingEntityReady; // 0xD0
 
 		::System::Void _ctor()

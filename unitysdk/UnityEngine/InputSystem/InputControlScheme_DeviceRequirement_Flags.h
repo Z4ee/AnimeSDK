@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlScheme_DeviceRequirement_Flags_TypeDefinitionIndex = 28418;
+	inline static constexpr unsigned int InputControlScheme_DeviceRequirement_Flags_TypeDefinitionIndex = 28936;
 
 	enum class InputControlScheme_DeviceRequirement_Flags : ::System::Int32
 	{

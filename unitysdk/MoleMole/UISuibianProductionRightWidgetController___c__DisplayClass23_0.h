@@ -5,19 +5,19 @@
 
 namespace MoleMole { class UISuibianProductionRightWidgetController; }
 
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x869B020)
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_0__ONPRODUCT_B__8_OFFSET UNITYSDK_OFFSET(0x869B030)
-#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_0__ONPRODUCT_B__9_OFFSET UNITYSDK_OFFSET(0x869B070)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D7AD40)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_0__ONPRODUCT_B__8_OFFSET UNITYSDK_OFFSET(0x14D7AD50)
+#define MOLEMOLE_UISUIBIANPRODUCTIONRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS23_0__ONPRODUCT_B__9_OFFSET UNITYSDK_OFFSET(0x14D7AD90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductionRightWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 39149;
+	inline static constexpr unsigned int UISuibianProductionRightWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 62887;
 
 	class UISuibianProductionRightWidgetController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianProductionRightWidgetController* __4__this; // 0x10
-		::MoleMole::UISuibianProductionRightWidgetController_CheckBuddyData checkData; // 0x18
+		::MoleMole::UISuibianProductionRightWidgetController_CheckBuddyData checkData; // 0x10
+		::MoleMole::UISuibianProductionRightWidgetController* __4__this; // 0x20
 		::System::Int32 count; // 0x28
 
 		::System::Void _ctor()

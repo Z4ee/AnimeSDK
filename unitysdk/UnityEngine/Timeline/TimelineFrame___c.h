@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ACE8AC0)
-#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE8B00)
-#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__REFRESHVALUE_B__28_0_OFFSET UNITYSDK_OFFSET(0x1ACE8B10)
+#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB116F0)
+#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB11730)
+#define UNITYENGINE_TIMELINE_TIMELINEFRAME___C__REFRESHVALUE_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BB11740)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineFrame___c_TypeDefinitionIndex = 30216;
+	inline static constexpr unsigned int TimelineFrame___c_TypeDefinitionIndex = 30745;
 
 	class TimelineFrame___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Int32>** StaticGet___9__28_0()
-		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TimelineFrame___c_TypeDefinitionIndex)->GetStaticField(0x241E0);
-		}
 		static ::UnityEngine::Timeline::TimelineFrame___c** StaticGet___9()
 		{
-			return (::UnityEngine::Timeline::TimelineFrame___c**)Il2CppClass::FromTypeDefinitionIndex(TimelineFrame___c_TypeDefinitionIndex)->GetStaticField(0x241E8);
+			return (::UnityEngine::Timeline::TimelineFrame___c**)Il2CppClass::FromTypeDefinitionIndex(TimelineFrame___c_TypeDefinitionIndex)->GetStaticField(0x24D60);
+		}
+		static ::System::Comparison_1<::System::Int32>** StaticGet___9__28_0()
+		{
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TimelineFrame___c_TypeDefinitionIndex)->GetStaticField(0x24D68);
 		}
 
 		static ::System::Void _cctor()

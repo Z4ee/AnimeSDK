@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60FF00)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AA080)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsConverter_TypeDefinitionIndex = 27074;
+	inline static constexpr unsigned int fsConverter_TypeDefinitionIndex = 27054;
 
 	class fsConverter : public ::ParadoxNotion::Serialization::FullSerializer::fsBaseConverter
 	{

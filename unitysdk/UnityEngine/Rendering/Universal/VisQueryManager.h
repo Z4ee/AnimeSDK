@@ -15,44 +15,44 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicArray_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_CLEANUPSESSIONRESOURCES_OFFSET UNITYSDK_OFFSET(0x19B703C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x19B704E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_DEBUGDRAWQUERYITEM_OFFSET UNITYSDK_OFFSET(0x19B70CF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x19B6FD80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_GETVISIBLERATIO_OFFSET UNITYSDK_OFFSET(0x19B70AF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_LAUNCHNEWQUERY_OFFSET UNITYSDK_OFFSET(0x19B71010)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_ONREADBACKREADY_OFFSET UNITYSDK_OFFSET(0x19B70D60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_REGISTERRECT_OFFSET UNITYSDK_OFFSET(0x19B70840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x19B708E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_RESIZE_OFFSET UNITYSDK_OFFSET(0x19B70270)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_SETQUERYSHADER_OFFSET UNITYSDK_OFFSET(0x19B707F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x19B70A30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19B71990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B71A70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6FE70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_CLEANUPSESSIONRESOURCES_OFFSET UNITYSDK_OFFSET(0x1B08CE10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1B08CE90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_DEBUGDRAWQUERYITEM_OFFSET UNITYSDK_OFFSET(0x1B08D700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B08C760)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_GETVISIBLERATIO_OFFSET UNITYSDK_OFFSET(0x1B08D4D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_LAUNCHNEWQUERY_OFFSET UNITYSDK_OFFSET(0x1B08DA40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_ONREADBACKREADY_OFFSET UNITYSDK_OFFSET(0x1B08D770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_REGISTERRECT_OFFSET UNITYSDK_OFFSET(0x1B08D220)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1B08D2C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_RESIZE_OFFSET UNITYSDK_OFFSET(0x1B08CC90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_SETQUERYSHADER_OFFSET UNITYSDK_OFFSET(0x1B08D1D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1B08D410)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B08E560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B08E700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B08C870)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisQueryManager_TypeDefinitionIndex = 29739;
+	inline static constexpr unsigned int VisQueryManager_TypeDefinitionIndex = 30268;
 
 	class VisQueryManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::VisQueryManager** StaticGet_instance()
 		{
-			return (::UnityEngine::Rendering::Universal::VisQueryManager**)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x22FA0);
-		}
-		static ::System::Int32* StaticGet_MinUpdateFrames()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x64D0);
-		}
-		static ::System::Int32* StaticGet_DebugForceQuerySize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x64D4);
+			return (::UnityEngine::Rendering::Universal::VisQueryManager**)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x23B10);
 		}
 		static ::System::Boolean* StaticGet_DebugDrawQuery()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x64D8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x6530);
+		}
+		static ::System::Int32* StaticGet_MinUpdateFrames()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x6534);
+		}
+		static ::System::Int32* StaticGet_DebugForceQuerySize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VisQueryManager_TypeDefinitionIndex)->GetStaticField(0x6538);
 		}
 		// static const ::System::Int32 InitialSize = 0x20; // 0x0
 		// static const ::System::Int32 GenShift = 0x14; // 0x0
@@ -61,24 +61,24 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::Int32 MaxQueriesPerFrame = 0x40; // 0x0
 		// static const ::System::Int32 GroupSize = 0x40; // 0x0
 		// static const ::System::Single invIntMax; // 0x0
-		::Il2CppArray<::UnityEngine::Rendering::Universal::VisQueryManager_QuerySession>* querySessions; // 0x10
-		::UnityEngine::Camera* lastTestedCamera; // 0x18
-		::UnityEngine::ComputeShader* queryShader; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::VisQueryManager_QueryParam>* tmpParamBuffer; // 0x28
-		::Il2CppArray<::UnityEngine::Rendering::Universal::VisQueryManager_RegisteredItem>* registeredItems; // 0x30
-		::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::UInt32>* requestedHandles; // 0x38
-		::System::UInt32 curLoopStamp; // 0x40
+		::Il2CppArray<::UnityEngine::Rendering::Universal::VisQueryManager_RegisteredItem>* registeredItems; // 0x10
+		::Il2CppArray<::UnityEngine::Rendering::Universal::VisQueryManager_QuerySession>* querySessions; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::VisQueryManager_QueryParam>* tmpParamBuffer; // 0x20
+		::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::UInt32>* requestedHandles; // 0x28
+		::UnityEngine::ComputeShader* queryShader; // 0x30
+		::UnityEngine::Camera* lastTestedCamera; // 0x38
+		::System::Int32 NameThreadCount; // 0x40
 		::System::Int32 launchIndex; // 0x44
-		::System::Int32 NameDepthTex; // 0x48
-		::System::Int32 NameThreadCount; // 0x4C
-		::System::Int32 NameResults; // 0x50
-		::System::Int32 nextAvailIndex; // 0x54
-		::System::Int32 NameVPMatrix; // 0x58
-		::System::Int32 NameTexSize; // 0x5C
-		::System::Int32 NameTimeStamp; // 0x60
-		::System::Int32 SizeOfQueryParam; // 0x64
+		::System::Int32 NameInputParams; // 0x48
+		::System::Int32 nextAvailIndex; // 0x4C
+		::System::Int32 NameTimeStamp; // 0x50
+		::System::Int32 NameTexSize; // 0x54
+		::System::Int32 NameDepthTex; // 0x58
+		::System::Int32 NameResults; // 0x5C
+		::System::Int32 SizeOfQueryParam; // 0x60
+		::System::Int32 NameVPMatrix; // 0x64
 		::System::Int32 registerdCount; // 0x68
-		::System::Int32 NameInputParams; // 0x6C
+		::System::UInt32 curLoopStamp; // 0x6C
 
 		::System::Void _ctor()
 		{

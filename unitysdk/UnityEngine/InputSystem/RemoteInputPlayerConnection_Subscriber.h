@@ -6,12 +6,12 @@
 namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class RemoteInputPlayerConnection; }
 
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AACA720)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AACA780)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B990CD0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B990D30)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int RemoteInputPlayerConnection_Subscriber_TypeDefinitionIndex = 28489;
+	inline static constexpr unsigned int RemoteInputPlayerConnection_Subscriber_TypeDefinitionIndex = 29007;
 
 	class RemoteInputPlayerConnection_Subscriber : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace TapTap::Sdk { class UIElement; }
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int UIManager___c__DisplayClass7_0_1_TypeDefinitionIndex = 9455;
+	inline static constexpr unsigned int UIManager___c__DisplayClass7_0_1_TypeDefinitionIndex = 9466;
 
 	template <typename T>
 	class UIManager___c__DisplayClass7_0_1 : public ::System::Object

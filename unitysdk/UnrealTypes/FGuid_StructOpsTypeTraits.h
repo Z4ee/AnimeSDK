@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define UNREALTYPES_FGUID_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1A205B10)
-#define UNREALTYPES_FGUID_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A205AF0)
+#define UNREALTYPES_FGUID_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1AD9C7D0)
+#define UNREALTYPES_FGUID_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9C7B0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FGuid_StructOpsTypeTraits_TypeDefinitionIndex = 24680;
+	inline static constexpr unsigned int FGuid_StructOpsTypeTraits_TypeDefinitionIndex = 25194;
 
 	class FGuid_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

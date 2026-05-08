@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MESSAGE_SEND_OFFSET UNITYSDK_OFFSET(0x1B19D1B0)
-#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D2C0)
+#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MESSAGE_SEND_OFFSET UNITYSDK_OFFSET(0x1C141400)
+#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1415C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionObject_Message_TypeDefinitionIndex = 36109;
+	inline static constexpr unsigned int InteractionObject_Message_TypeDefinitionIndex = 36653;
 
 	class InteractionObject_Message : public ::System::Object
 	{

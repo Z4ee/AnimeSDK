@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_SWITCHMACROLOCALENUM___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F2080)
+#define FLOWCANVAS_NODES_SWITCHMACROLOCALENUM___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0ECF80)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchMacroLocalEnum___c__DisplayClass1_0_TypeDefinitionIndex = 27729;
+	inline static constexpr unsigned int SwitchMacroLocalEnum___c__DisplayClass1_0_TypeDefinitionIndex = 26609;
 
 	class SwitchMacroLocalEnum___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System::Data { class DataRow; }
 
 namespace System::Data
 {
-	inline static constexpr unsigned int IFilter_TypeDefinitionIndex = 36486;
+	inline static constexpr unsigned int IFilter_TypeDefinitionIndex = 37030;
 
 	class IFilter
 	{

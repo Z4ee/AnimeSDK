@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CompareExpressionVal_Enum_3_24DB9EA8399492CC_TypeDefinitionIndex = 73816;
+	inline static constexpr unsigned int CompareExpressionVal_Enum_3_24DB9EA8399492CC_TypeDefinitionIndex = 59271;
 
 	enum class CompareExpressionVal_Enum_3_24DB9EA8399492CC : ::System::Int32
 	{
-		Equal = 0,
-		Greater = 2,
-		NotEqual = 1,
-		GreaterEqual = 4,
 		Less = 3,
 		LessEqual = 5,
+		NotEqual = 1,
+		GreaterEqual = 4,
+		Greater = 2,
+		Equal = 0,
 	};
 }

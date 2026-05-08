@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Avatar; }
 
-#define NPCSOFTAVATARPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x63B29F0)
-#define NPCSOFTAVATARPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x63B29B0)
+#define NPCSOFTAVATARPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xEA5B330)
+#define NPCSOFTAVATARPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xEA5B2D0)
 
-inline static constexpr unsigned int NPCSoftAvatarPath_TypeDefinitionIndex = 73983;
+inline static constexpr unsigned int NPCSoftAvatarPath_TypeDefinitionIndex = 49178;
 
 class NPCSoftAvatarPath : public ::NPCSoftAssetPath_1<::UnityEngine::Avatar*>
 {

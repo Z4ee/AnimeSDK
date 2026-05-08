@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETABYSSDUNGEONCHALLENGECOUNTDOWN_INVOKE_OFFSET UNITYSDK_OFFSET(0xD7FCF30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETABYSSDUNGEONCHALLENGECOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0xD7FD130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETABYSSDUNGEONCHALLENGECOUNTDOWN_INVOKE_OFFSET UNITYSDK_OFFSET(0x18A3A6F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETABYSSDUNGEONCHALLENGECOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3A8B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetAbyssDungeonChallengeCountDown_TypeDefinitionIndex = 50984;
+	inline static constexpr unsigned int LDGetAbyssDungeonChallengeCountDown_TypeDefinitionIndex = 56238;
 
 	class LDGetAbyssDungeonChallengeCountDown : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Single>
 	{

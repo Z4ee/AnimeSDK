@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_0; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0x865B9C0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS17_1__DELNYAKICHNEW_B__0_OFFSET UNITYSDK_OFFSET(0x865D430)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3D290)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS17_1__DELNYAKICHNEW_B__0_OFFSET UNITYSDK_OFFSET(0x14D3EA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_1_TypeDefinitionIndex = 44883;
+	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_1_TypeDefinitionIndex = 78447;
 
 	class UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_1 : public ::System::Object
 	{

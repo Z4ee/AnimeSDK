@@ -8,27 +8,27 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNREALTYPES_ENUM_GET_ENUMHANDLE_OFFSET UNITYSDK_OFFSET(0x1A204740)
-#define UNREALTYPES_ENUM_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1A202F00)
-#define UNREALTYPES_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2047A0)
-#define UNREALTYPES_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A202EF0)
+#define UNREALTYPES_ENUM_GET_ENUMHANDLE_OFFSET UNITYSDK_OFFSET(0x1AD9B250)
+#define UNREALTYPES_ENUM_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1AD99980)
+#define UNREALTYPES_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD9B2B0)
+#define UNREALTYPES_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD99970)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 24703;
+	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 25217;
 
 	class Enum : public ::UnrealTypes::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_EnumUnderlyingTypeNameMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x1E070);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x1EBA0);
 		}
 		::System::String* NamespaceName; // 0x38
-		::System::Type* UnderlyingType; // 0x40
-		::System::Type* EnumType; // 0x48
-		::System::UInt32 TypeId; // 0x50
-		::UnrealTypes::EnumFlags Flags; // 0x54
+		::System::Type* EnumType; // 0x40
+		::System::Type* UnderlyingType; // 0x48
+		::UnrealTypes::EnumFlags Flags; // 0x50
+		::System::UInt32 TypeId; // 0x54
 
 		::System::Void _ctor()
 		{

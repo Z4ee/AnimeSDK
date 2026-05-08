@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_BDDDDB46A99CFF4C;
+class Class_1_677CEA8C88AC78AB;
 namespace MoleMole::Config { class AnimatorStateTimeSegment; }
 namespace MoleMole::Config { class AnimatorZone; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATORZONESEGMENTWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x63A9AE0)
+#define NPCCROWD_ANIMATION_ANIMATORZONESEGMENTWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0xB547190)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimatorZoneSegmentWrap_TypeDefinitionIndex = 52704;
+	inline static constexpr unsigned int AnimatorZoneSegmentWrap_TypeDefinitionIndex = 70865;
 
 	class AnimatorZoneSegmentWrap : public ::System::Object
 	{
 	public:
 		::MoleMole::Config::AnimatorStateTimeSegment* segment; // 0x10
 		::MoleMole::Config::AnimatorZone* zone; // 0x18
-		::Class_1_BDDDDB46A99CFF4C* zoneInfo; // 0x20
+		::Class_1_677CEA8C88AC78AB* zoneInfo; // 0x20
 
 		::System::Void _ctor(::MoleMole::Config::AnimatorZone* zone, ::MoleMole::Config::AnimatorStateTimeSegment* segment, ::System::String* key)
 		{

@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ScopedFrontCameraControlEmotion; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDFRONTEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xE3531A0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDFRONTEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16A82250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraScopedFrontEmotion_TypeDefinitionIndex = 54593;
+	inline static constexpr unsigned int ConfigCameraScopedFrontEmotion_TypeDefinitionIndex = 48064;
 
 	class ConfigCameraScopedFrontEmotion : public ::Foundation::MihoyoSerializedScriptableObject
 	{

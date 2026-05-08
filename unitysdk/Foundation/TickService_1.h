@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickService_1_TypeDefinitionIndex = 8967;
+	inline static constexpr unsigned int TickService_1_TypeDefinitionIndex = 8972;
 
 	template <typename TTickingGroup>
 	class TickService_1 : public ::System::Object

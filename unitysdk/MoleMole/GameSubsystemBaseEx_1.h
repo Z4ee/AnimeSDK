@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GameSubsystemBase.h"
 
 class Class_1_3002D7CF5FEE9D3A;
-class Class_1_A8C552A044C6C032;
+class Class_1_566A03E0D2F6A738;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameSubsystemBaseEx_1_TypeDefinitionIndex = 71562;
+	inline static constexpr unsigned int GameSubsystemBaseEx_1_TypeDefinitionIndex = 78720;
 
 	template <typename T>
 	class GameSubsystemBaseEx_1 : public ::MoleMole::GameSubsystemBase

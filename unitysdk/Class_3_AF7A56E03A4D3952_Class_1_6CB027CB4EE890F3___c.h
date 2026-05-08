@@ -5,27 +5,27 @@
 namespace MoleMole::Battle { class ColliderEventDispatcher; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_A3A7D20E3C95F34D_1_OFFSET UNITYSDK_OFFSET(0x7638720)
-#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_A3A7D20E3C95F34D_OFFSET UNITYSDK_OFFSET(0x7638670)
-#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x7638620)
-#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x7638660)
+#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_89E3644EFEC6E7A0_1_OFFSET UNITYSDK_OFFSET(0xDAD54B0)
+#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_89E3644EFEC6E7A0_OFFSET UNITYSDK_OFFSET(0xDAD5340)
+#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDAD52F0)
+#define CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDAD5330)
 
-inline static constexpr unsigned int Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex = 48754;
+inline static constexpr unsigned int Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex = 69896;
 
 class Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c : public ::System::Object
 {
 public:
 	static ::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>** StaticGet___9__5_0()
 	{
-		return (::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex)->GetStaticField(0x3A550);
-	}
-	static ::Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c** StaticGet___9()
-	{
-		return (::Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex)->GetStaticField(0x3A558);
+		return (::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex)->GetStaticField(0x3FF40);
 	}
 	static ::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>** StaticGet___9__5_1()
 	{
-		return (::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex)->GetStaticField(0x3A560);
+		return (::System::Action_1<::MoleMole::Battle::ColliderEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex)->GetStaticField(0x3FF48);
+	}
+	static ::Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c** StaticGet___9()
+	{
+		return (::Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AF7A56E03A4D3952_Class_1_6CB027CB4EE890F3___c_TypeDefinitionIndex)->GetStaticField(0x3FF50);
 	}
 
 	static ::System::Void _cctor()
@@ -38,13 +38,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A3A7D20E3C95F34D(::MoleMole::Battle::ColliderEventDispatcher* a1)
+	::System::Void Method_1_89E3644EFEC6E7A0(::MoleMole::Battle::ColliderEventDispatcher* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::ColliderEventDispatcher*))((::PBYTE)hIl2Cpp + CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_A3A7D20E3C95F34D_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::ColliderEventDispatcher*))((::PBYTE)hIl2Cpp + CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_89E3644EFEC6E7A0_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_A3A7D20E3C95F34D_1(::MoleMole::Battle::ColliderEventDispatcher* a1)
+	::System::Void Method_1_89E3644EFEC6E7A0_1(::MoleMole::Battle::ColliderEventDispatcher* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::ColliderEventDispatcher*))((::PBYTE)hIl2Cpp + CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_A3A7D20E3C95F34D_1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::ColliderEventDispatcher*))((::PBYTE)hIl2Cpp + CLASS_3_AF7A56E03A4D3952_CLASS_1_6CB027CB4EE890F3___C_METHOD_1_89E3644EFEC6E7A0_1_OFFSET))(this, a1);
 	}
 };

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIINTERKNOTROPEMAKERLEVELUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x6CA17E0)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERLEVELUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x155F2110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotRopemakerLevelUpContext_TypeDefinitionIndex = 58364;
+	inline static constexpr unsigned int UIInterKnotRopemakerLevelUpContext_TypeDefinitionIndex = 76531;
 
 	class UIInterKnotRopemakerLevelUpContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -6,13 +6,13 @@
 
 namespace MoleMole { class ShadingQualityProfileContext; }
 
-#define MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_01E1005A437FAB49_OFFSET UNITYSDK_OFFSET(0xBADE740)
-#define MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_B7E02E99FEE97A03_OFFSET UNITYSDK_OFFSET(0xBADE880)
-#define MOLEMOLE_COMMANDLINESHADINGQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0xBADE840)
+#define MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_01E1005A437FAB49_OFFSET UNITYSDK_OFFSET(0x1869D130)
+#define MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_9A4A515103E89443_OFFSET UNITYSDK_OFFSET(0x1869D240)
+#define MOLEMOLE_COMMANDLINESHADINGQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1869D200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineShadingQuality_TypeDefinitionIndex = 50288;
+	inline static constexpr unsigned int CommandLineShadingQuality_TypeDefinitionIndex = 43877;
 
 	class CommandLineShadingQuality : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::ShadingQualityProfileContext*, ::MoleMole::CommandLineShadingQuality*>
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineShadingQuality*(*)(::PVOID, ::MoleMole::ShadingQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_01E1005A437FAB49_OFFSET))(this, a1);
 		}
 
-		::MoleMole::ShadingQualityProfileContext* Method_2_B7E02E99FEE97A03(::MoleMole::ShadingQualityProfileContext* a1)
+		::MoleMole::ShadingQualityProfileContext* Method_2_9A4A515103E89443(::MoleMole::ShadingQualityProfileContext* a1)
 		{
-			return ((::MoleMole::ShadingQualityProfileContext*(*)(::PVOID, ::MoleMole::ShadingQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_B7E02E99FEE97A03_OFFSET))(this, a1);
+			return ((::MoleMole::ShadingQualityProfileContext*(*)(::PVOID, ::MoleMole::ShadingQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESHADINGQUALITY_METHOD_2_9A4A515103E89443_OFFSET))(this, a1);
 		}
 	};
 }

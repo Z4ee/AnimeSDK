@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERNAMES_ISSCENELITSHADER_OFFSET UNITYSDK_OFFSET(0x197F23D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERNAMES_ISSCENELITSHADER_OFFSET UNITYSDK_OFFSET(0x1ABA8420)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderNames_TypeDefinitionIndex = 29374;
+	inline static constexpr unsigned int ShaderNames_TypeDefinitionIndex = 29893;
 
 	class ShaderNames : public ::System::Object
 	{

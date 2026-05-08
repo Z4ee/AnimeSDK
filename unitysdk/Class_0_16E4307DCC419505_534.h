@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/HollowChessboard/RenderDataHandle.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_534_TypeDefinitionIndex = 56876;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-template <typename T>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_534_TypeDefinitionIndex = 68802;
+
 class Class_0_16E4307DCC419505_534
 {
 public:

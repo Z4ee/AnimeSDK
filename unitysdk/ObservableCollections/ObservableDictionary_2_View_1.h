@@ -20,7 +20,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableDictionary_2_View_1_TypeDefinitionIndex = 25243;
+	inline static constexpr unsigned int ObservableDictionary_2_View_1_TypeDefinitionIndex = 25570;
 
 	template <typename TKey, typename TValue, typename TView>
 	class ObservableDictionary_2_View_1 : public ::System::Object

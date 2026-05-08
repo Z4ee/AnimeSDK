@@ -9,26 +9,26 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
 
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_34A1FF6428AA4A6F_OFFSET UNITYSDK_OFFSET(0xAA41F60)
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_602A336CBD30C930_OFFSET UNITYSDK_OFFSET(0xAA42000)
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0xAA41E80)
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0xAA41E90)
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_97D56E8B195E8E78_OFFSET UNITYSDK_OFFSET(0xAA41850)
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_B078C58C2CD24B5E_OFFSET UNITYSDK_OFFSET(0xAA41C80)
-#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_BA80D36BDA3B5115_OFFSET UNITYSDK_OFFSET(0xAA41CD0)
-#define CLASS_2_7F95F273DDBFD8DA_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0xAA419E0)
-#define CLASS_2_7F95F273DDBFD8DA__CTOR_OFFSET UNITYSDK_OFFSET(0xAA41D70)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_34A1FF6428AA4A6F_OFFSET UNITYSDK_OFFSET(0x11859DE0)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_602A336CBD30C930_OFFSET UNITYSDK_OFFSET(0x11859F50)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x11859F40)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0x11859E90)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_97D56E8B195E8E78_OFFSET UNITYSDK_OFFSET(0x11859820)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_B078C58C2CD24B5E_OFFSET UNITYSDK_OFFSET(0x11859C00)
+#define CLASS_2_7F95F273DDBFD8DA_METHOD_2_BA80D36BDA3B5115_OFFSET UNITYSDK_OFFSET(0x11859C50)
+#define CLASS_2_7F95F273DDBFD8DA_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x11859980)
+#define CLASS_2_7F95F273DDBFD8DA__CTOR_OFFSET UNITYSDK_OFFSET(0x11859CC0)
 
-inline static constexpr unsigned int Class_2_7F95F273DDBFD8DA_TypeDefinitionIndex = 56473;
+inline static constexpr unsigned int Class_2_7F95F273DDBFD8DA_TypeDefinitionIndex = 78089;
 
 class Class_2_7F95F273DDBFD8DA : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::Foundation::NativeVariable_1<::System::Int32> Field_2_2; // 0x10
-	::Foundation::NativeVariable_1<::System::Double> Field_2_1; // 0x20
-	::Struct_2_6B3FEF18753DFC51 Field_2_3; // 0x30
-	::Struct_2_ACD0EF80A5330786 Field_2_4; // 0x40
-	::Foundation::NativeVariable_1<::System::Double> Field_2_0; // 0xD0
+	::Struct_2_ACD0EF80A5330786 Field_2_4; // 0x10
+	::Foundation::NativeVariable_1<::System::Double> Field_2_0; // 0xA0
+	::Foundation::NativeVariable_1<::System::Int32> Field_2_2; // 0xB0
+	::Struct_2_6B3FEF18753DFC51 Field_2_3; // 0xC0
+	::Foundation::NativeVariable_1<::System::Double> Field_2_1; // 0xD0
 
 	::System::Void _ctor()
 	{
@@ -55,9 +55,9 @@ public:
 		return ((::Struct_2_ACD0EF80A5330786(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7F95F273DDBFD8DA_METHOD_2_BA80D36BDA3B5115_OFFSET))(this);
 	}
 
-	::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+	::System::Void Method_2_34A1FF6428AA4A6F(::Foundation::NativeVariable_1<::System::Double> a1, ::Foundation::NativeVariable_1<::System::Double> a2, ::Foundation::NativeVariable_1<::System::Int32> a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_7F95F273DDBFD8DA_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Foundation::NativeVariable_1<::System::Double>, ::Foundation::NativeVariable_1<::System::Double>, ::Foundation::NativeVariable_1<::System::Int32>))((::PBYTE)hIl2Cpp + CLASS_2_7F95F273DDBFD8DA_METHOD_2_34A1FF6428AA4A6F_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_2_8CE0803574BB66D7(::Struct_2_ACD0EF80A5330786 a1)
@@ -65,9 +65,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Struct_2_ACD0EF80A5330786))((::PBYTE)hIl2Cpp + CLASS_2_7F95F273DDBFD8DA_METHOD_2_8CE0803574BB66D7_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_34A1FF6428AA4A6F(::Foundation::NativeVariable_1<::System::Double> a1, ::Foundation::NativeVariable_1<::System::Double> a2, ::Foundation::NativeVariable_1<::System::Int32> a3)
+	::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::NativeVariable_1<::System::Double>, ::Foundation::NativeVariable_1<::System::Double>, ::Foundation::NativeVariable_1<::System::Int32>))((::PBYTE)hIl2Cpp + CLASS_2_7F95F273DDBFD8DA_METHOD_2_34A1FF6428AA4A6F_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_7F95F273DDBFD8DA_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_602A336CBD30C930(::Struct_2_6B3FEF18753DFC51 a1)

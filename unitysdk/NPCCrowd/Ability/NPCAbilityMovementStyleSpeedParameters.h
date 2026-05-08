@@ -4,11 +4,11 @@
 
 namespace Foundation::Unreal { class SerializableGameplayTagContainer; }
 
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTSTYLESPEEDPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x6BA2750)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTSTYLESPEEDPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E8E80)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMovementStyleSpeedParameters_TypeDefinitionIndex = 47907;
+	inline static constexpr unsigned int NPCAbilityMovementStyleSpeedParameters_TypeDefinitionIndex = 69490;
 
 	class NPCAbilityMovementStyleSpeedParameters : public ::System::Object
 	{

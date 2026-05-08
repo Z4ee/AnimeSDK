@@ -10,12 +10,12 @@ namespace NPCCrowd::Ability { class NPCAbilitySmoothOrientationParameters; }
 namespace NPCCrowd::Ability { class NPCAbilityStandingSteeringParameters; }
 namespace NPCCrowd::Ability { class NPCAgentParameters; }
 
-#define NPCCROWD_ABILITY_NPCABILITYPARAMETERS_REFRESH_OFFSET UNITYSDK_OFFSET(0x6F9AE30)
-#define NPCCROWD_ABILITY_NPCABILITYPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x6F9AEA0)
+#define NPCCROWD_ABILITY_NPCABILITYPARAMETERS_REFRESH_OFFSET UNITYSDK_OFFSET(0xEC79A00)
+#define NPCCROWD_ABILITY_NPCABILITYPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xEC79A50)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityParameters_TypeDefinitionIndex = 37423;
+	inline static constexpr unsigned int NPCAbilityParameters_TypeDefinitionIndex = 56955;
 
 	class NPCAbilityParameters : public ::System::Object
 	{

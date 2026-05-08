@@ -11,65 +11,65 @@ namespace DG::Tweening { class TweenCallback; }
 namespace DG::Tweening { template <typename T> class TweenCallback_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define DG_TWEENING_TWEENPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B71F730)
-#define DG_TWEENING_TWEENPARAMS_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1B71FA50)
-#define DG_TWEENING_TWEENPARAMS_ONKILL_OFFSET UNITYSDK_OFFSET(0x1B71FA60)
-#define DG_TWEENING_TWEENPARAMS_ONPLAY_OFFSET UNITYSDK_OFFSET(0x1B71FA10)
-#define DG_TWEENING_TWEENPARAMS_ONREWIND_OFFSET UNITYSDK_OFFSET(0x1B71FA20)
-#define DG_TWEENING_TWEENPARAMS_ONSTART_OFFSET UNITYSDK_OFFSET(0x1B71FA00)
-#define DG_TWEENING_TWEENPARAMS_ONSTEPCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1B71FA40)
-#define DG_TWEENING_TWEENPARAMS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B71FA30)
-#define DG_TWEENING_TWEENPARAMS_ONWAYPOINTCHANGE_OFFSET UNITYSDK_OFFSET(0x1B71FA70)
-#define DG_TWEENING_TWEENPARAMS_SETAUTOKILL_OFFSET UNITYSDK_OFFSET(0x1B71F810)
-#define DG_TWEENING_TWEENPARAMS_SETDELAY_OFFSET UNITYSDK_OFFSET(0x1B71FA80)
-#define DG_TWEENING_TWEENPARAMS_SETEASE_1_OFFSET UNITYSDK_OFFSET(0x1B71F910)
-#define DG_TWEENING_TWEENPARAMS_SETEASE_2_OFFSET UNITYSDK_OFFSET(0x1B71F990)
-#define DG_TWEENING_TWEENPARAMS_SETEASE_OFFSET UNITYSDK_OFFSET(0x1B71F870)
-#define DG_TWEENING_TWEENPARAMS_SETID_OFFSET UNITYSDK_OFFSET(0x1B71F820)
-#define DG_TWEENING_TWEENPARAMS_SETLOOPS_OFFSET UNITYSDK_OFFSET(0x1B71F840)
-#define DG_TWEENING_TWEENPARAMS_SETRECYCLABLE_OFFSET UNITYSDK_OFFSET(0x1B71F9A0)
-#define DG_TWEENING_TWEENPARAMS_SETRELATIVE_OFFSET UNITYSDK_OFFSET(0x1B71FA90)
-#define DG_TWEENING_TWEENPARAMS_SETSPEEDBASED_OFFSET UNITYSDK_OFFSET(0x1B71FAA0)
-#define DG_TWEENING_TWEENPARAMS_SETTARGET_OFFSET UNITYSDK_OFFSET(0x1B71F830)
-#define DG_TWEENING_TWEENPARAMS_SETUPDATE_1_OFFSET UNITYSDK_OFFSET(0x1B71F9F0)
-#define DG_TWEENING_TWEENPARAMS_SETUPDATE_OFFSET UNITYSDK_OFFSET(0x1B71F9B0)
-#define DG_TWEENING_TWEENPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B71FAB0)
-#define DG_TWEENING_TWEENPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71F660)
+#define DG_TWEENING_TWEENPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4F9FB0)
+#define DG_TWEENING_TWEENPARAMS_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C4FA3D0)
+#define DG_TWEENING_TWEENPARAMS_ONKILL_OFFSET UNITYSDK_OFFSET(0x1C4FA3E0)
+#define DG_TWEENING_TWEENPARAMS_ONPLAY_OFFSET UNITYSDK_OFFSET(0x1C4FA390)
+#define DG_TWEENING_TWEENPARAMS_ONREWIND_OFFSET UNITYSDK_OFFSET(0x1C4FA3A0)
+#define DG_TWEENING_TWEENPARAMS_ONSTART_OFFSET UNITYSDK_OFFSET(0x1C4FA380)
+#define DG_TWEENING_TWEENPARAMS_ONSTEPCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C4FA3C0)
+#define DG_TWEENING_TWEENPARAMS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C4FA3B0)
+#define DG_TWEENING_TWEENPARAMS_ONWAYPOINTCHANGE_OFFSET UNITYSDK_OFFSET(0x1C4FA3F0)
+#define DG_TWEENING_TWEENPARAMS_SETAUTOKILL_OFFSET UNITYSDK_OFFSET(0x1C4FA0B0)
+#define DG_TWEENING_TWEENPARAMS_SETDELAY_OFFSET UNITYSDK_OFFSET(0x1C4FA400)
+#define DG_TWEENING_TWEENPARAMS_SETEASE_1_OFFSET UNITYSDK_OFFSET(0x1C4FA250)
+#define DG_TWEENING_TWEENPARAMS_SETEASE_2_OFFSET UNITYSDK_OFFSET(0x1C4FA2D0)
+#define DG_TWEENING_TWEENPARAMS_SETEASE_OFFSET UNITYSDK_OFFSET(0x1C4FA140)
+#define DG_TWEENING_TWEENPARAMS_SETID_OFFSET UNITYSDK_OFFSET(0x1C4FA0C0)
+#define DG_TWEENING_TWEENPARAMS_SETLOOPS_OFFSET UNITYSDK_OFFSET(0x1C4FA0E0)
+#define DG_TWEENING_TWEENPARAMS_SETRECYCLABLE_OFFSET UNITYSDK_OFFSET(0x1C4FA2E0)
+#define DG_TWEENING_TWEENPARAMS_SETRELATIVE_OFFSET UNITYSDK_OFFSET(0x1C4FA410)
+#define DG_TWEENING_TWEENPARAMS_SETSPEEDBASED_OFFSET UNITYSDK_OFFSET(0x1C4FA420)
+#define DG_TWEENING_TWEENPARAMS_SETTARGET_OFFSET UNITYSDK_OFFSET(0x1C4FA0D0)
+#define DG_TWEENING_TWEENPARAMS_SETUPDATE_1_OFFSET UNITYSDK_OFFSET(0x1C4FA360)
+#define DG_TWEENING_TWEENPARAMS_SETUPDATE_OFFSET UNITYSDK_OFFSET(0x1C4FA2F0)
+#define DG_TWEENING_TWEENPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4FA430)
+#define DG_TWEENING_TWEENPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F9EB0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int TweenParams_TypeDefinitionIndex = 24924;
+	inline static constexpr unsigned int TweenParams_TypeDefinitionIndex = 25438;
 
 	class TweenParams : public ::System::Object
 	{
 	public:
 		static ::DG::Tweening::TweenParams** StaticGet_Params()
 		{
-			return (::DG::Tweening::TweenParams**)Il2CppClass::FromTypeDefinitionIndex(TweenParams_TypeDefinitionIndex)->GetStaticField(0x1E4C0);
+			return (::DG::Tweening::TweenParams**)Il2CppClass::FromTypeDefinitionIndex(TweenParams_TypeDefinitionIndex)->GetStaticField(0x1EFF0);
 		}
-		::DG::Tweening::TweenCallback* onUpdate; // 0x10
-		::DG::Tweening::TweenCallback* onPlay; // 0x18
-		::DG::Tweening::TweenCallback* onStart; // 0x20
+		::DG::Tweening::TweenCallback* onRewind; // 0x10
+		::DG::Tweening::TweenCallback_1<::System::Int32>* onWaypointChange; // 0x18
+		::System::Object* target; // 0x20
 		::DG::Tweening::TweenCallback* onStepComplete; // 0x28
-		::System::Object* id; // 0x30
-		::DG::Tweening::EaseFunction* customEase; // 0x38
-		::DG::Tweening::TweenCallback* onComplete; // 0x40
-		::System::Object* target; // 0x48
-		::DG::Tweening::TweenCallback* onRewind; // 0x50
-		::DG::Tweening::TweenCallback* onKill; // 0x58
-		::DG::Tweening::TweenCallback_1<::System::Int32>* onWaypointChange; // 0x60
-		::System::Single delay; // 0x68
-		::System::Boolean autoKill; // 0x6C
-		::DG::Tweening::LoopType loopType; // 0x70
-		::System::Int32 loops; // 0x74
+		::DG::Tweening::TweenCallback* onUpdate; // 0x30
+		::DG::Tweening::TweenCallback* onPlay; // 0x38
+		::System::Object* id; // 0x40
+		::DG::Tweening::TweenCallback* onComplete; // 0x48
+		::DG::Tweening::TweenCallback* onKill; // 0x50
+		::DG::Tweening::TweenCallback* onStart; // 0x58
+		::DG::Tweening::EaseFunction* customEase; // 0x60
+		::System::Int32 loops; // 0x68
+		::System::Single easePeriod; // 0x6C
+		::System::Boolean autoKill; // 0x70
+		::System::Boolean isSpeedBased; // 0x71
+		::System::Boolean isRecyclable; // 0x72
+		::DG::Tweening::LoopType loopType; // 0x74
 		::DG::Tweening::Ease easeType; // 0x78
-		::DG::Tweening::UpdateType updateType; // 0x7C
-		::System::Single easePeriod; // 0x80
+		::System::Single delay; // 0x7C
+		::System::Boolean isIndependentUpdate; // 0x80
+		::System::Boolean isRelative; // 0x81
 		::System::Single easeOvershootOrAmplitude; // 0x84
-		::System::Boolean isSpeedBased; // 0x88
-		::System::Boolean isRecyclable; // 0x89
-		::System::Boolean isRelative; // 0x8A
-		::System::Boolean isIndependentUpdate; // 0x8B
+		::DG::Tweening::UpdateType updateType; // 0x88
 
 		::System::Void _ctor()
 		{

@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Struct_2_9CF5DC7249C701AC_Struct_2_5AC083FE4633ED4E_TypeDefinitionIndex = 61254;
+inline static constexpr unsigned int Struct_2_9CF5DC7249C701AC_Struct_2_5AC083FE4633ED4E_TypeDefinitionIndex = 62008;
 
 struct alignas(8) Struct_2_9CF5DC7249C701AC_Struct_2_5AC083FE4633ED4E
 {
-	::UnityEngine::Transform* Field_2_5; // 0x10
-	::UnityEngine::Transform* Field_2_4; // 0x18
-	::UnityEngine::Transform* Field_2_3; // 0x20
+	::UnityEngine::Transform* Field_2_4; // 0x10
+	::UnityEngine::Transform* Field_2_3; // 0x18
+	::UnityEngine::Transform* Field_2_5; // 0x20
 	::UnityEngine::Transform* Field_2_2; // 0x28
-	::UnityEngine::Vector3 Field_2_0; // 0x30
-	::UnityEngine::Vector3 Field_2_1; // 0x3C
+	::UnityEngine::Vector3 Field_2_1; // 0x30
+	::UnityEngine::Vector3 Field_2_0; // 0x3C
 };

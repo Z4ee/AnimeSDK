@@ -7,23 +7,23 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_4F1D452C628E12FE_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0xA0C43D0)
-#define CLASS_1_4F1D452C628E12FE_METHOD_1_A4EA9FEB1D96F2A5_OFFSET UNITYSDK_OFFSET(0xA0C4230)
-#define CLASS_1_4F1D452C628E12FE_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0xA0C42C0)
+#define CLASS_1_4F1D452C628E12FE_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x16BF2E30)
+#define CLASS_1_4F1D452C628E12FE_METHOD_1_4535CB44F51FDE8A_OFFSET UNITYSDK_OFFSET(0x16BF2CF0)
+#define CLASS_1_4F1D452C628E12FE_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x16BF2D40)
 
-inline static constexpr unsigned int Class_1_4F1D452C628E12FE_TypeDefinitionIndex = 46552;
+inline static constexpr unsigned int Class_1_4F1D452C628E12FE_TypeDefinitionIndex = 38357;
 
 class Class_1_4F1D452C628E12FE : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigBattlePhotoActivity** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigBattlePhotoActivity**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4F1D452C628E12FE_TypeDefinitionIndex)->GetStaticField(0x3C850);
+		return (::MoleMole::Config::ConfigBattlePhotoActivity**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4F1D452C628E12FE_TypeDefinitionIndex)->GetStaticField(0x3B840);
 	}
 
-	static ::MoleMole::Config::ConfigBattlePhotoActivity* Method_1_A4EA9FEB1D96F2A5()
+	static ::MoleMole::Config::ConfigBattlePhotoActivity* Method_1_4535CB44F51FDE8A()
 	{
-		return ((::MoleMole::Config::ConfigBattlePhotoActivity*(*)())((::PBYTE)hIl2Cpp + CLASS_1_4F1D452C628E12FE_METHOD_1_A4EA9FEB1D96F2A5_OFFSET))();
+		return ((::MoleMole::Config::ConfigBattlePhotoActivity*(*)())((::PBYTE)hIl2Cpp + CLASS_1_4F1D452C628E12FE_METHOD_1_4535CB44F51FDE8A_OFFSET))();
 	}
 
 	static ::System::Void Method_1_A8AE4A9A45E37F95(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)

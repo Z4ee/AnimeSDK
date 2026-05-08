@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GoogleOAuthServer_AuthStatus_TypeDefinitionIndex = 19538;
+	inline static constexpr unsigned int GoogleOAuthServer_AuthStatus_TypeDefinitionIndex = 19895;
 
 	enum class GoogleOAuthServer_AuthStatus : ::System::Int32
 	{

@@ -6,33 +6,34 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace MoleMole::Config { class ScreenEffectBool; }
+namespace MoleMole::Config { class ScreenEffectColor; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 namespace MoleMole::Config { class ScreenEffectVector2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETCENTER_OFFSET UNITYSDK_OFFSET(0xB0984F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETCOLOR_OFFSET UNITYSDK_OFFSET(0xB098450)
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0xB098590)
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETROUNDED_OFFSET UNITYSDK_OFFSET(0xB0986D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETSMOOTHNESS_OFFSET UNITYSDK_OFFSET(0xB098630)
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE__CTOR_OFFSET UNITYSDK_OFFSET(0xB098770)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETCENTER_OFFSET UNITYSDK_OFFSET(0x1102A550)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1102A4B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x1102A5D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETROUNDED_OFFSET UNITYSDK_OFFSET(0x1102A6D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE_GETSMOOTHNESS_OFFSET UNITYSDK_OFFSET(0x1102A650)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1102A750)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityVignette_TypeDefinitionIndex = 47926;
+	inline static constexpr unsigned int ConfigEntityVignette_TypeDefinitionIndex = 44437;
 
 	class ConfigEntityVignette : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectVector2* center; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x48
+		::MoleMole::Config::ScreenEffectBool* rounded; // 0x40
+		::MoleMole::Config::ScreenEffectVector2* center; // 0x48
 		::MoleMole::Config::ScreenEffectFloat* smoothness; // 0x50
-		::MoleMole::Config::ScreenEffectBool* rounded; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x60
-		::MoleMole::Config::ScreenEffectFieldHandleType smoothnessHandleType; // 0x64
-		::MoleMole::Config::ScreenEffectFieldHandleType colorHandleType; // 0x68
-		::MoleMole::Config::ScreenEffectFieldHandleType roundedHandleType; // 0x6C
-		::UnityEngine::Color color; // 0x70
-		::MoleMole::Config::ScreenEffectFieldHandleType centerHandleType; // 0x80
+		::MoleMole::Config::ScreenEffectColor* color; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x60
+		::MoleMole::Config::ScreenEffectFieldHandleType roundedHandleType; // 0x68
+		::MoleMole::Config::ScreenEffectFieldHandleType centerHandleType; // 0x6C
+		::MoleMole::Config::ScreenEffectFieldHandleType colorHandleType; // 0x70
+		::MoleMole::Config::ScreenEffectFieldHandleType smoothnessHandleType; // 0x74
+		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x78
 
 		::System::Void _ctor()
 		{

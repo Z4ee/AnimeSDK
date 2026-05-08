@@ -16,50 +16,50 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB907940)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB907950)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB908150)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB908630)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB9085F0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13994080)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13994090)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13994870)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13994D30)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ANIMATORZONEMODIFYFRICTION_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13994CF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex = 59115;
+	inline static constexpr unsigned int AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex = 66539;
 
 	class AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AnimatorZoneModifyFriction*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41500);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41508);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneModifyFriction_ColliderType>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneModifyFriction_ColliderType>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41510);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Type*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41518);
+			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41770);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41778);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41520);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::PhysicMaterialCombine>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::PhysicMaterialCombine>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41528);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41780);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41530);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41788);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer7()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41538);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41790);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::PhysicMaterialCombine>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::PhysicMaterialCombine>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41798);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x417A0);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneModifyFriction_ColliderType>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::AnimatorZoneModifyFriction_ColliderType>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneModifyFriction_AnimatorZoneModifyFriction_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x417A8);
 		}
 
 		::System::Void _ctor()

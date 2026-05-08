@@ -5,19 +5,19 @@
 class Class_1_5433D78E0C2B29D1;
 namespace MoleMole { class UISuibianTempleModifyDialogPopWindowController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEMODIFYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x951AA90)
-#define MOLEMOLE_UISUIBIANTEMPLEMODIFYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x951AAA0)
-#define MOLEMOLE_UISUIBIANTEMPLEMODIFYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x951AB20)
+#define MOLEMOLE_UISUIBIANTEMPLEMODIFYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1303C050)
+#define MOLEMOLE_UISUIBIANTEMPLEMODIFYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1303C060)
+#define MOLEMOLE_UISUIBIANTEMPLEMODIFYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x1303C0E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleModifyDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 46090;
+	inline static constexpr unsigned int UISuibianTempleModifyDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 59162;
 
 	class UISuibianTempleModifyDialogPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianTempleModifyDialogPopWindowController* __4__this; // 0x10
-		::Class_1_5433D78E0C2B29D1* data; // 0x18
+		::Class_1_5433D78E0C2B29D1* data; // 0x10
+		::MoleMole::UISuibianTempleModifyDialogPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

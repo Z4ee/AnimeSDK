@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderStandardMetallic_Prop_TypeDefinitionIndex = 83283;
+	inline static constexpr unsigned int TextureBlenderStandardMetallic_Prop_TypeDefinitionIndex = 85011;
 
 	enum class TextureBlenderStandardMetallic_Prop : ::System::Int32
 	{

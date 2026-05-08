@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::XInput::LowLevel
 {
-	inline static constexpr unsigned int XInputControllerWindowsState_Button_TypeDefinitionIndex = 28575;
+	inline static constexpr unsigned int XInputControllerWindowsState_Button_TypeDefinitionIndex = 29093;
 
 	enum class XInputControllerWindowsState_Button : ::System::Int32
 	{

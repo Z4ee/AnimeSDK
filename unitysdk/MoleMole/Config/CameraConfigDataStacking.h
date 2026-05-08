@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraConfigDataStacking_TypeDefinitionIndex = 68697;
+	inline static constexpr unsigned int CameraConfigDataStacking_TypeDefinitionIndex = 54435;
 
 	enum class CameraConfigDataStacking : ::System::Int32
 	{

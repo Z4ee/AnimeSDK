@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_83665B095F1535B5_13__CCTOR_OFFSET UNITYSDK_OFFSET(0x6AA2D90)
-#define CLASS_1_83665B095F1535B5_13__CTOR_OFFSET UNITYSDK_OFFSET(0x6AA2D80)
+#define CLASS_1_83665B095F1535B5_13_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xF09C000)
+#define CLASS_1_83665B095F1535B5_13__CCTOR_OFFSET UNITYSDK_OFFSET(0xF09BFF0)
+#define CLASS_1_83665B095F1535B5_13__CTOR_OFFSET UNITYSDK_OFFSET(0xF09BFE0)
 
-inline static constexpr unsigned int Class_1_83665B095F1535B5_13_TypeDefinitionIndex = 72567;
+inline static constexpr unsigned int Class_1_83665B095F1535B5_13_TypeDefinitionIndex = 78385;
 
 class Class_1_83665B095F1535B5_13 : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_83665B095F1535B5_13_TypeDefinitionIndex)->GetStaticField(0x11F90);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_83665B095F1535B5_13_TypeDefinitionIndex)->GetStaticField(0xD5A0);
 	}
 
 	::System::Void _ctor()
@@ -23,5 +24,10 @@ public:
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_83665B095F1535B5_13__CCTOR_OFFSET))();
+	}
+
+	static ::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_83665B095F1535B5_13_METHOD_1_9681042564541CD6_OFFSET))();
 	}
 };

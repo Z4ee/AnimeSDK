@@ -6,13 +6,13 @@ namespace MoleMole { class GeneralGraphicQualityProfileContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILE_CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x759D000)
-#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILE_GETGRAPHICPROFILECONTEXTBYKEY_OFFSET UNITYSDK_OFFSET(0x759CF20)
-#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x759D0C0)
+#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILE_CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x12F8A4A0)
+#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILE_GETGRAPHICPROFILECONTEXTBYKEY_OFFSET UNITYSDK_OFFSET(0x12F8A3C0)
+#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x12F8A560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralGraphicQualityProfile_TypeDefinitionIndex = 79138;
+	inline static constexpr unsigned int GeneralGraphicQualityProfile_TypeDefinitionIndex = 65123;
 
 	class GeneralGraphicQualityProfile : public ::System::Object
 	{

@@ -6,12 +6,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTSHADERCUSTOMENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xE2B0EF0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTSHADERCUSTOMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xE2B0F90)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTSHADERCUSTOMENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x174356A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTSHADERCUSTOMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17435720)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventInterruptShaderCustomEntry_TypeDefinitionIndex = 50346;
+	inline static constexpr unsigned int AnimatorEventInterruptShaderCustomEntry_TypeDefinitionIndex = 58681;
 
 	class AnimatorEventInterruptShaderCustomEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

@@ -6,12 +6,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDStartRealtimeQTE; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTREALTIMEQTE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1805F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTREALTIMEQTE___C__DISPLAYCLASS7_0__STARTREALTIMEQTE_B__0_OFFSET UNITYSDK_OFFSET(0xB180600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTREALTIMEQTE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BAAD80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARTREALTIMEQTE___C__DISPLAYCLASS7_0__STARTREALTIMEQTE_B__0_OFFSET UNITYSDK_OFFSET(0x10BAAD90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStartRealtimeQTE___c__DisplayClass7_0_TypeDefinitionIndex = 40784;
+	inline static constexpr unsigned int LDStartRealtimeQTE___c__DisplayClass7_0_TypeDefinitionIndex = 45836;
 
 	class LDStartRealtimeQTE___c__DisplayClass7_0 : public ::System::Object
 	{

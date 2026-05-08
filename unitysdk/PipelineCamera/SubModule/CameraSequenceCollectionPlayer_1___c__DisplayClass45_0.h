@@ -8,7 +8,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1___c__DisplayClass45_0_TypeDefinitionIndex = 35879;
+	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1___c__DisplayClass45_0_TypeDefinitionIndex = 36423;
 
 	template <typename T>
 	class CameraSequenceCollectionPlayer_1___c__DisplayClass45_0 : public ::System::Object

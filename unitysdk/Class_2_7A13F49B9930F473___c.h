@@ -4,18 +4,18 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define CLASS_2_7A13F49B9930F473___C_METHOD_1_FF8DFFDCCAB9F666_OFFSET UNITYSDK_OFFSET(0x7956320)
-#define CLASS_2_7A13F49B9930F473___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x79562D0)
-#define CLASS_2_7A13F49B9930F473___C__CTOR_OFFSET UNITYSDK_OFFSET(0x7956310)
+#define CLASS_2_7A13F49B9930F473___C_METHOD_1_FF8DFFDCCAB9F666_OFFSET UNITYSDK_OFFSET(0x14040580)
+#define CLASS_2_7A13F49B9930F473___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14040530)
+#define CLASS_2_7A13F49B9930F473___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14040570)
 
-inline static constexpr unsigned int Class_2_7A13F49B9930F473___c_TypeDefinitionIndex = 58001;
+inline static constexpr unsigned int Class_2_7A13F49B9930F473___c_TypeDefinitionIndex = 70227;
 
 class Class_2_7A13F49B9930F473___c : public ::System::Object
 {
 public:
 	static ::Class_2_7A13F49B9930F473___c** StaticGet___9()
 	{
-		return (::Class_2_7A13F49B9930F473___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A13F49B9930F473___c_TypeDefinitionIndex)->GetStaticField(0x39F70);
+		return (::Class_2_7A13F49B9930F473___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A13F49B9930F473___c_TypeDefinitionIndex)->GetStaticField(0x45250);
 	}
 
 	static ::System::Void _cctor()

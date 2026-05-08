@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMainCitySwitchRoleTimePanelWidgetController; }
 
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8977FB0)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__DISPLAYCLASS25_0__REFRESHTIME_B__0_OFFSET UNITYSDK_OFFSET(0x8977FC0)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152A9BB0)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C__DISPLAYCLASS25_0__REFRESHTIME_B__0_OFFSET UNITYSDK_OFFSET(0x152A9BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCitySwitchRoleTimePanelWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 67589;
+	inline static constexpr unsigned int UIMainCitySwitchRoleTimePanelWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 42560;
 
 	class UIMainCitySwitchRoleTimePanelWidgetController___c__DisplayClass25_0 : public ::System::Object
 	{

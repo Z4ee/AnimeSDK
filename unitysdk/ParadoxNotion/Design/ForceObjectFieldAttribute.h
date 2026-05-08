@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParadoxNotion/Design/DrawerAttribute.h"
 
-#define PARADOXNOTION_DESIGN_FORCEOBJECTFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A48EC40)
+#define PARADOXNOTION_DESIGN_FORCEOBJECTFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD38E0)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int ForceObjectFieldAttribute_TypeDefinitionIndex = 26671;
+	inline static constexpr unsigned int ForceObjectFieldAttribute_TypeDefinitionIndex = 26735;
 
 	class ForceObjectFieldAttribute : public ::ParadoxNotion::Design::DrawerAttribute
 	{

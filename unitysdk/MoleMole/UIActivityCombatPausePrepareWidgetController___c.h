@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPREPAREWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFF7580)
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPREPAREWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF75C0)
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPREPAREWIDGETCONTROLLER___C__OPENTEAMPAGE_B__11_4_OFFSET UNITYSDK_OFFSET(0xCFF75D0)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPREPAREWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B7CA90)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPREPAREWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B7CAD0)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSEPREPAREWIDGETCONTROLLER___C__OPENTEAMPAGE_B__11_4_OFFSET UNITYSDK_OFFSET(0x15B7CAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCombatPausePrepareWidgetController___c_TypeDefinitionIndex = 40252;
+	inline static constexpr unsigned int UIActivityCombatPausePrepareWidgetController___c_TypeDefinitionIndex = 42098;
 
 	class UIActivityCombatPausePrepareWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__11_4()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePrepareWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43080);
-		}
 		static ::MoleMole::UIActivityCombatPausePrepareWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityCombatPausePrepareWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePrepareWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43088);
+			return (::MoleMole::UIActivityCombatPausePrepareWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePrepareWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x448A0);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__11_4()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCombatPausePrepareWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x448A8);
 		}
 
 		static ::System::Void _cctor()

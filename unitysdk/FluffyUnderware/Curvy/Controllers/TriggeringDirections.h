@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int TriggeringDirections_TypeDefinitionIndex = 36740;
+	inline static constexpr unsigned int TriggeringDirections_TypeDefinitionIndex = 37284;
 
 	enum class TriggeringDirections : ::System::Int32
 	{

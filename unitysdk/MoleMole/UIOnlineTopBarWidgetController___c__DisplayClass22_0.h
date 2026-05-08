@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIONLINETOPBARWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE26480)
-#define MOLEMOLE_UIONLINETOPBARWIDGETCONTROLLER___C__DISPLAYCLASS22_0__REFRESHRATIO_B__0_OFFSET UNITYSDK_OFFSET(0xAE26490)
+#define MOLEMOLE_UIONLINETOPBARWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E03430)
+#define MOLEMOLE_UIONLINETOPBARWIDGETCONTROLLER___C__DISPLAYCLASS22_0__REFRESHRATIO_B__0_OFFSET UNITYSDK_OFFSET(0x12E03440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOnlineTopBarWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 54391;
+	inline static constexpr unsigned int UIOnlineTopBarWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 55907;
 
 	class UIOnlineTopBarWidgetController___c__DisplayClass22_0 : public ::System::Object
 	{

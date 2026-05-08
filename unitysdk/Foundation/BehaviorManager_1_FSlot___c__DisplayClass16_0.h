@@ -8,7 +8,7 @@ namespace Foundation { template <typename T> class BehaviorInstance_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BehaviorManager_1_FSlot___c__DisplayClass16_0_TypeDefinitionIndex = 8973;
+	inline static constexpr unsigned int BehaviorManager_1_FSlot___c__DisplayClass16_0_TypeDefinitionIndex = 8784;
 
 	template <typename TData>
 	class BehaviorManager_1_FSlot___c__DisplayClass16_0 : public ::System::Object

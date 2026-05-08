@@ -6,23 +6,23 @@
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B23E640)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B23E2E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23E6C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B23E700)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B23E790)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C01EC30)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C01E8D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01ECB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C01ED40)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_SETXYZ___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C01EDD0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityVector3
 {
-	inline static constexpr unsigned int SetXYZ_TypeDefinitionIndex = 31326;
+	inline static constexpr unsigned int SetXYZ_TypeDefinitionIndex = 31855;
 
 	class SetXYZ : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedFloat* yValue; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* zValue; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector3* vector3Variable; // 0x68
-		::BehaviorDesigner::Runtime::SharedFloat* xValue; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* xValue; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* zValue; // 0x68
+		::BehaviorDesigner::Runtime::SharedVector3* vector3Variable; // 0x70
 
 		::System::Void _ctor()
 		{

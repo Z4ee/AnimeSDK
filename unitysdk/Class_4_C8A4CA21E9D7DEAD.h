@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_E6E2CD5B8103BD02.h"
+#include "unitysdk/Class_3_F78D134D9EB09E5B.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
-#define CLASS_4_C8A4CA21E9D7DEAD_METHOD_4_98CE38520ED9B00A_OFFSET UNITYSDK_OFFSET(0xA622EF0)
-#define CLASS_4_C8A4CA21E9D7DEAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA622EA0)
+#define CLASS_4_C8A4CA21E9D7DEAD_METHOD_4_98CE38520ED9B00A_OFFSET UNITYSDK_OFFSET(0xFAAC300)
+#define CLASS_4_C8A4CA21E9D7DEAD__CTOR_OFFSET UNITYSDK_OFFSET(0xFAAC2B0)
 
-inline static constexpr unsigned int Class_4_C8A4CA21E9D7DEAD_TypeDefinitionIndex = 56244;
+inline static constexpr unsigned int Class_4_C8A4CA21E9D7DEAD_TypeDefinitionIndex = 45622;
 
-class Class_4_C8A4CA21E9D7DEAD : public ::Class_3_E6E2CD5B8103BD02
+class Class_4_C8A4CA21E9D7DEAD : public ::Class_3_F78D134D9EB09E5B
 {
 public:
 	::System::Void _ctor()

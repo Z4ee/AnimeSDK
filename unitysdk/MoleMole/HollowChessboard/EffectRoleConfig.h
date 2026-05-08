@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_DD6534260D7F9B1A;
+class Class_1_9518B5776748B41E;
 namespace MoleMole::HollowChessboard { class EffectRoleEntryConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG_CREATEEFFECTROLE_OFFSET UNITYSDK_OFFSET(0xA7E03B0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E05A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG_CREATEEFFECTROLE_OFFSET UNITYSDK_OFFSET(0x16050380)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16050550)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int EffectRoleConfig_TypeDefinitionIndex = 78245;
+	inline static constexpr unsigned int EffectRoleConfig_TypeDefinitionIndex = 59045;
 
 	class EffectRoleConfig : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::HollowChessboard
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_DD6534260D7F9B1A* CreateEffectRole()
+		::Class_1_9518B5776748B41E* CreateEffectRole()
 		{
-			return ((::Class_1_DD6534260D7F9B1A*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG_CREATEEFFECTROLE_OFFSET))(this);
+			return ((::Class_1_9518B5776748B41E*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_EFFECTROLECONFIG_CREATEEFFECTROLE_OFFSET))(this);
 		}
 	};
 }

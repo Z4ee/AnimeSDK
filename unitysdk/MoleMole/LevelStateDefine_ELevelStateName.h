@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelStateDefine_ELevelStateName_TypeDefinitionIndex = 78184;
+	inline static constexpr unsigned int LevelStateDefine_ELevelStateName_TypeDefinitionIndex = 48732;
 
 	enum class LevelStateDefine_ELevelStateName : ::System::Int32
 	{
-		TheGunHeatState = 0,
 		TheGunScore = 1,
+		TheGunHeatState = 0,
 		Max = 2,
 	};
 }

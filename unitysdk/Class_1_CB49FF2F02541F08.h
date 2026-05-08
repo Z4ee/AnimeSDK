@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 template <typename T1, typename T2> class Class_1_CB49FF2F02541F08;
 
-inline static constexpr unsigned int Class_1_CB49FF2F02541F08_TypeDefinitionIndex = 48499;
+inline static constexpr unsigned int Class_1_CB49FF2F02541F08_TypeDefinitionIndex = 44594;
 
 template <typename T, typename TTarget>
 class Class_1_CB49FF2F02541F08 : public ::System::Object

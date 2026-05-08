@@ -5,18 +5,18 @@
 namespace MoleMole { class DownloadFileInfo; }
 namespace System { class String; }
 
-#define CLASS_1_AE7DD6BAFB8C2EE9__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F51F0)
+#define CLASS_1_AE7DD6BAFB8C2EE9__CTOR_OFFSET UNITYSDK_OFFSET(0x14433510)
 
-inline static constexpr unsigned int Class_1_AE7DD6BAFB8C2EE9_TypeDefinitionIndex = 52122;
+inline static constexpr unsigned int Class_1_AE7DD6BAFB8C2EE9_TypeDefinitionIndex = 54907;
 
 class Class_1_AE7DD6BAFB8C2EE9 : public ::System::Object
 {
 public:
-	::System::String* Field_1_4; // 0x10
-	::MoleMole::DownloadFileInfo* Field_1_2; // 0x18
-	::System::String* Field_1_0; // 0x20
+	::MoleMole::DownloadFileInfo* Field_1_2; // 0x10
+	::System::String* Field_1_0; // 0x18
+	::System::String* Field_1_1; // 0x20
 	::MoleMole::DownloadFileInfo* Field_1_3; // 0x28
-	::System::String* Field_1_1; // 0x30
+	::System::String* Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

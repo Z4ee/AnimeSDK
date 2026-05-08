@@ -7,11 +7,11 @@
 #include "unitysdk/PipelineCamera/WorldBasicCameraDeltaData_LockSourceFinalSpace.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTADATASTORAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x968760)
+#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTADATASTORAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x99BE60)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int WorldBasicCameraDeltaData_DeltaDataStorage_TypeDefinitionIndex = 35457;
+	inline static constexpr unsigned int WorldBasicCameraDeltaData_DeltaDataStorage_TypeDefinitionIndex = 36001;
 
 	struct alignas(4) WorldBasicCameraDeltaData_DeltaDataStorage
 	{

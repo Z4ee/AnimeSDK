@@ -12,7 +12,7 @@ namespace UnityEngine { class Object; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FlowNestedBase_1_TypeDefinitionIndex = 26169;
+	inline static constexpr unsigned int FlowNestedBase_1_TypeDefinitionIndex = 27348;
 
 	template <typename T>
 	class FlowNestedBase_1 : public ::FlowCanvas::FlowNodeNested_1<T>

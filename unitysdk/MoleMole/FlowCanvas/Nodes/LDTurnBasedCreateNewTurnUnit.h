@@ -5,12 +5,12 @@
 namespace MoleMole { class TurnBattleUnitBase; }
 namespace MoleMole { template <typename T> class ITurnBattleUnitSnapshot_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNUNIT_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5DE290)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DE3B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNUNIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1541BA60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1541BB60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedCreateNewTurnUnit_TypeDefinitionIndex = 43802;
+	inline static constexpr unsigned int LDTurnBasedCreateNewTurnUnit_TypeDefinitionIndex = 55871;
 
 	class LDTurnBasedCreateNewTurnUnit : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::TurnBattleUnitBase*, ::MoleMole::ITurnBattleUnitSnapshot_1<::MoleMole::TurnBattleUnitBase*>*>
 	{

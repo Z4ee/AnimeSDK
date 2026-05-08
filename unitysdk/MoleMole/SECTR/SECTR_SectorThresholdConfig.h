@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SECTR_SECTR_SECTORTHRESHOLDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA7F8D90)
+#define MOLEMOLE_SECTR_SECTR_SECTORTHRESHOLDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1606A110)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SECTR_SectorThresholdConfig_TypeDefinitionIndex = 56915;
+	inline static constexpr unsigned int SECTR_SectorThresholdConfig_TypeDefinitionIndex = 51534;
 
 	class SECTR_SectorThresholdConfig : public ::System::Object
 	{

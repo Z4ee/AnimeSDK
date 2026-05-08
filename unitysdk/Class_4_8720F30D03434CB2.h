@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_C6F795B6098BF80C.h"
+
+class Class_1_11A58A840528E5B2;
+class Class_1_2EF69FD7F867E7F6;
+class Class_3_95BB657BD3F0D4CD_13;
+namespace MoleMole { class UICreateRoleNameDialogPopWindowController; }
+namespace System { class String; }
+
+#define CLASS_4_8720F30D03434CB2_METHOD_4_49D769C3C5D831BA_OFFSET UNITYSDK_OFFSET(0x110C61E0)
+#define CLASS_4_8720F30D03434CB2_METHOD_4_8E66B82298267DC3_OFFSET UNITYSDK_OFFSET(0x110C6480)
+#define CLASS_4_8720F30D03434CB2_METHOD_4_A2172401030892FD_OFFSET UNITYSDK_OFFSET(0x110C6260)
+#define CLASS_4_8720F30D03434CB2_METHOD_4_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x110C6700)
+#define CLASS_4_8720F30D03434CB2_METHOD_4_EBF44BC910948FDA_OFFSET UNITYSDK_OFFSET(0x110C6660)
+#define CLASS_4_8720F30D03434CB2__CTOR_OFFSET UNITYSDK_OFFSET(0x110C61D0)
+
+inline static constexpr unsigned int Class_4_8720F30D03434CB2_TypeDefinitionIndex = 57140;
+
+class Class_4_8720F30D03434CB2 : public ::Class_3_C6F795B6098BF80C<::Class_3_95BB657BD3F0D4CD_13*>
+{
+public:
+	::MoleMole::UICreateRoleNameDialogPopWindowController* Field_4_0; // 0x30
+
+	::System::Void _ctor(::Class_1_11A58A840528E5B2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_11A58A840528E5B2*))((::PBYTE)hIl2Cpp + CLASS_4_8720F30D03434CB2__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_49D769C3C5D831BA(::Class_1_2EF69FD7F867E7F6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2EF69FD7F867E7F6*))((::PBYTE)hIl2Cpp + CLASS_4_8720F30D03434CB2_METHOD_4_49D769C3C5D831BA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_A2172401030892FD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_8720F30D03434CB2_METHOD_4_A2172401030892FD_OFFSET))(this);
+	}
+
+	::System::Void Method_4_8E66B82298267DC3(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_4_8720F30D03434CB2_METHOD_4_8E66B82298267DC3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_EBF44BC910948FDA(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_4_8720F30D03434CB2_METHOD_4_EBF44BC910948FDA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_E9A575D18A0748D9(::Class_1_2EF69FD7F867E7F6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2EF69FD7F867E7F6*))((::PBYTE)hIl2Cpp + CLASS_4_8720F30D03434CB2_METHOD_4_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+};

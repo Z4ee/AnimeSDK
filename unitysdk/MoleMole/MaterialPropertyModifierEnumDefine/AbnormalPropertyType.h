@@ -3,12 +3,12 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int AbnormalPropertyType_TypeDefinitionIndex = 70588;
+	inline static constexpr unsigned int AbnormalPropertyType_TypeDefinitionIndex = 52449;
 
 	enum class AbnormalPropertyType : ::System::Byte
 	{
-		Lightting = 0x0,
 		Fire = 0x1,
 		Ice = 0x2,
+		Lightting = 0x0,
 	};
 }

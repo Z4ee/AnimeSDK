@@ -5,11 +5,11 @@
 namespace MoleMole { class MonoEffectPluginDestroy_StateTimeSegments; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINDESTROY_ANIMATORLAYERSTATES__CTOR_OFFSET UNITYSDK_OFFSET(0xD0EE280)
+#define MOLEMOLE_MONOEFFECTPLUGINDESTROY_ANIMATORLAYERSTATES__CTOR_OFFSET UNITYSDK_OFFSET(0x15E47550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginDestroy_AnimatorLayerStates_TypeDefinitionIndex = 56992;
+	inline static constexpr unsigned int MonoEffectPluginDestroy_AnimatorLayerStates_TypeDefinitionIndex = 50839;
 
 	class MonoEffectPluginDestroy_AnimatorLayerStates : public ::System::Object
 	{

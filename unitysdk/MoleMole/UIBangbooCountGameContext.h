@@ -5,20 +5,20 @@
 namespace MoleMole::GalGame { class MainCityChatShowUIConfig_OnCloseWithIndex; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIBANGBOOCOUNTGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB74B880)
+#define MOLEMOLE_UIBANGBOOCOUNTGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B61690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooCountGameContext_TypeDefinitionIndex = 55134;
+	inline static constexpr unsigned int UIBangbooCountGameContext_TypeDefinitionIndex = 54880;
 
 	class UIBangbooCountGameContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* ConfigCameraBezierSurface; // 0x28
-		::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* OnClose; // 0x30
-		::System::Boolean IsHideCameraMove; // 0x38
+		::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* OnClose; // 0x28
+		::System::String* ConfigCameraBezierSurface; // 0x30
+		::System::UInt32 CountDownSeconds; // 0x38
 		::System::Int32 MainCityGameUIConfigGameID; // 0x3C
-		::System::UInt32 CountDownSeconds; // 0x40
+		::System::Boolean IsHideCameraMove; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginDynamicAllocateItem_LazyRecycleContext_TypeDefinitionIndex = 64382;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginDynamicAllocateItem_LazyRecycleContext_TypeDefinitionIndex = 54106;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginDynamicAllocateItem_LazyRecycleContext
 {

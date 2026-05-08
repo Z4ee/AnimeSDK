@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Rendering/DynamicResUpscaleFilter.h"
 #include "unitysdk/UnityEngine/Rendering/DynamicResolutionType.h"
 
-#define UNITYENGINE_RENDERING_GLOBALDYNAMICRESOLUTIONSETTINGS_NEWDEFAULT_OFFSET UNITYSDK_OFFSET(0x18A45880)
+#define UNITYENGINE_RENDERING_GLOBALDYNAMICRESOLUTIONSETTINGS_NEWDEFAULT_OFFSET UNITYSDK_OFFSET(0x191F7910)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GlobalDynamicResolutionSettings_TypeDefinitionIndex = 9526;
+	inline static constexpr unsigned int GlobalDynamicResolutionSettings_TypeDefinitionIndex = 9537;
 
 	struct alignas(4) GlobalDynamicResolutionSettings
 	{

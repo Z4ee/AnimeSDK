@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_AddGameObjectType_TypeDefinitionIndex = 64492;
+inline static constexpr unsigned int MonoUITableScrollV2_AddGameObjectType_TypeDefinitionIndex = 54126;
 
 enum class MonoUITableScrollV2_AddGameObjectType : ::System::Int32
 {

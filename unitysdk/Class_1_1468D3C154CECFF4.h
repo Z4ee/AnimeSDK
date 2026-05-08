@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_1468D3C154CECFF4__CTOR_OFFSET UNITYSDK_OFFSET(0x9672C10)
+#define CLASS_1_1468D3C154CECFF4__CTOR_OFFSET UNITYSDK_OFFSET(0x127CFB00)
 
-inline static constexpr unsigned int Class_1_1468D3C154CECFF4_TypeDefinitionIndex = 77288;
+inline static constexpr unsigned int Class_1_1468D3C154CECFF4_TypeDefinitionIndex = 80386;
 
 class Class_1_1468D3C154CECFF4 : public ::System::Object
 {

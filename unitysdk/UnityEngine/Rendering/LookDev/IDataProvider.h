@@ -10,7 +10,7 @@ namespace UnityEngine::Rendering::LookDev { class StageRuntimeInterface; }
 
 namespace UnityEngine::Rendering::LookDev
 {
-	inline static constexpr unsigned int IDataProvider_TypeDefinitionIndex = 9596;
+	inline static constexpr unsigned int IDataProvider_TypeDefinitionIndex = 9607;
 
 	class IDataProvider
 	{

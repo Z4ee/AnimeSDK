@@ -5,18 +5,18 @@
 
 namespace MoleMole { class UIGeneralSelectVoicePackDialogPopWindowController; }
 
-#define MOLEMOLE_UIGENERALSELECTVOICEPACKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF22F020)
-#define MOLEMOLE_UIGENERALSELECTVOICEPACKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__DOCLICKUNINSTALL_B__0_OFFSET UNITYSDK_OFFSET(0xF22F030)
+#define MOLEMOLE_UIGENERALSELECTVOICEPACKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14667380)
+#define MOLEMOLE_UIGENERALSELECTVOICEPACKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__DOCLICKUNINSTALL_B__0_OFFSET UNITYSDK_OFFSET(0x14667390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSelectVoicePackDialogPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 43394;
+	inline static constexpr unsigned int UIGeneralSelectVoicePackDialogPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 81195;
 
 	class UIGeneralSelectVoicePackDialogPopWindowController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralSelectVoicePackDialogPopWindowController_VoicePackData voiceData; // 0x10
-		::MoleMole::UIGeneralSelectVoicePackDialogPopWindowController* __4__this; // 0x30
+		::MoleMole::UIGeneralSelectVoicePackDialogPopWindowController* __4__this; // 0x10
+		::MoleMole::UIGeneralSelectVoicePackDialogPopWindowController_VoicePackData voiceData; // 0x18
 
 		::System::Void _ctor()
 		{

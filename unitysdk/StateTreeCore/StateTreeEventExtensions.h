@@ -4,11 +4,11 @@
 #include "unitysdk/StateTreeCore/StateTreeEvent.h"
 #include "unitysdk/System/Object.h"
 
-#define STATETREECORE_STATETREEEVENTEXTENSIONS_GETTAG_OFFSET UNITYSDK_OFFSET(0x1B0806A0)
+#define STATETREECORE_STATETREEEVENTEXTENSIONS_GETTAG_OFFSET UNITYSDK_OFFSET(0x1BEED620)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeEventExtensions_TypeDefinitionIndex = 27756;
+	inline static constexpr unsigned int StateTreeEventExtensions_TypeDefinitionIndex = 28274;
 
 	class StateTreeEventExtensions : public ::System::Object
 	{

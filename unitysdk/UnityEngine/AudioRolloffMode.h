@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioRolloffMode_TypeDefinitionIndex = 9611;
+	inline static constexpr unsigned int AudioRolloffMode_TypeDefinitionIndex = 9622;
 
 	enum class AudioRolloffMode : ::System::Int32
 	{

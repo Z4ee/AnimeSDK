@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_PostEffect; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_POSTEFFECT___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0997B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_POSTEFFECT___C__DISPLAYCLASS2_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xB0997C0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_POSTEFFECT___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1102B700)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_POSTEFFECT___C__DISPLAYCLASS2_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x1102B710)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_PostEffect___c__DisplayClass2_0_TypeDefinitionIndex = 79837;
+	inline static constexpr unsigned int ConfigHollowChessboard_PostEffect___c__DisplayClass2_0_TypeDefinitionIndex = 43443;
 
 	class ConfigHollowChessboard_PostEffect___c__DisplayClass2_0 : public ::System::Object
 	{

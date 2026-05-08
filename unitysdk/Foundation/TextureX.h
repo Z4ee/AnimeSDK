@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Texture; }
 
-#define FOUNDATION_TEXTUREX_TEXPIXELSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x19774040)
-#define FOUNDATION_TEXTUREX_TEXRUNNINGMEMSIZE_OFFSET UNITYSDK_OFFSET(0x19773DB0)
+#define FOUNDATION_TEXTUREX_TEXPIXELSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x19DB0C20)
+#define FOUNDATION_TEXTUREX_TEXRUNNINGMEMSIZE_OFFSET UNITYSDK_OFFSET(0x19DB08C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TextureX_TypeDefinitionIndex = 7792;
+	inline static constexpr unsigned int TextureX_TypeDefinitionIndex = 8249;
 
 	class TextureX : public ::System::Object
 	{

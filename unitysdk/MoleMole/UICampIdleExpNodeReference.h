@@ -3,8 +3,8 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 class Class_1_1685EC66FBD28897;
-class Class_2_777A5D016ADC7368;
-class Class_2_A8F5ABF31E066ED4;
+class Class_2_1A39E1B51756BF41;
+class Class_2_A9A857AD270B9CE1;
 namespace MoleMole { class ItemIconUI; }
 namespace MoleMole { class NotificationBadge; }
 namespace System { class String; }
@@ -13,19 +13,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE_REFRESHICON_OFFSET UNITYSDK_OFFSET(0xADBEE40)
-#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xADBF670)
+#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE_REFRESHICON_OFFSET UNITYSDK_OFFSET(0x15ED7A40)
+#define MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED82A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdleExpNodeReference_TypeDefinitionIndex = 62897;
+	inline static constexpr unsigned int UICampIdleExpNodeReference_TypeDefinitionIndex = 69306;
 
 	class UICampIdleExpNodeReference : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::GameObject* AddIcon; // 0x18
 		::UnityEngine::UI::Image* RoleIconImg; // 0x20
-		::Class_2_A8F5ABF31E066ED4* RoleIcon; // 0x28
+		::Class_2_1A39E1B51756BF41* RoleIcon; // 0x28
 		::UnityEngine::GameObject* expBarRoot; // 0x30
 		::UnityEngine::RectTransform* expBar; // 0x38
 		::MoleMole::NotificationBadge* m_notificationBadge; // 0x40
@@ -39,9 +39,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RefreshIcon(::System::Boolean a1, ::System::String* a2, ::Class_2_777A5D016ADC7368* a3, ::System::Single a4, ::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* a5, ::System::Boolean a6)
+		::System::Void RefreshIcon(::System::Boolean a1, ::System::String* a2, ::Class_2_A9A857AD270B9CE1* a3, ::System::Single a4, ::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*, ::Class_2_777A5D016ADC7368*, ::System::Single, ::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE_REFRESHICON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*, ::Class_2_A9A857AD270B9CE1*, ::System::Single, ::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMPIDLEEXPNODEREFERENCE_REFRESHICON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

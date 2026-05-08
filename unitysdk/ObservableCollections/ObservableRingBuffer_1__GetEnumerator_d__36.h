@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableRingBuffer_1__GetEnumerator_d__36_TypeDefinitionIndex = 25131;
+	inline static constexpr unsigned int ObservableRingBuffer_1__GetEnumerator_d__36_TypeDefinitionIndex = 25656;
 
 	template <typename T>
 	class ObservableRingBuffer_1__GetEnumerator_d__36 : public ::System::Object

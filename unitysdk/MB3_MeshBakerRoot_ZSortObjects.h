@@ -6,10 +6,10 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MB3_MESHBAKERROOT_ZSORTOBJECTS_SORTBYDISTANCEALONGAXIS_OFFSET UNITYSDK_OFFSET(0x1B5F75E0)
-#define MB3_MESHBAKERROOT_ZSORTOBJECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F7C90)
+#define MB3_MESHBAKERROOT_ZSORTOBJECTS_SORTBYDISTANCEALONGAXIS_OFFSET UNITYSDK_OFFSET(0x1C465C80)
+#define MB3_MESHBAKERROOT_ZSORTOBJECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C466260)
 
-inline static constexpr unsigned int MB3_MeshBakerRoot_ZSortObjects_TypeDefinitionIndex = 83243;
+inline static constexpr unsigned int MB3_MeshBakerRoot_ZSortObjects_TypeDefinitionIndex = 84971;
 
 class MB3_MeshBakerRoot_ZSortObjects : public ::System::Object
 {

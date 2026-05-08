@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_DATAORIENTATED_COMPONENTDATAHEADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x920250)
-#define PIPELINECAMERA_DATAORIENTATED_COMPONENTDATAHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x31E200)
+#define PIPELINECAMERA_DATAORIENTATED_COMPONENTDATAHEADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9404E0)
+#define PIPELINECAMERA_DATAORIENTATED_COMPONENTDATAHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x39EDC0)
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ComponentDataHeader_TypeDefinitionIndex = 35580;
+	inline static constexpr unsigned int ComponentDataHeader_TypeDefinitionIndex = 36124;
 
 	struct alignas(8) ComponentDataHeader
 	{

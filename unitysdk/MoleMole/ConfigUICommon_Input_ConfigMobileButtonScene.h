@@ -6,11 +6,11 @@
 namespace MoleMole { class ConfigUICommon_Input_ConfigMobileButtonPanelPosition; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEBUTTONSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x91A1920)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_CONFIGMOBILEBUTTONSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC0700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Input_ConfigMobileButtonScene_TypeDefinitionIndex = 63110;
+	inline static constexpr unsigned int ConfigUICommon_Input_ConfigMobileButtonScene_TypeDefinitionIndex = 52106;
 
 	class ConfigUICommon_Input_ConfigMobileButtonScene : public ::System::Object
 	{

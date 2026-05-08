@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::PluginUI { class MiHoYoSDKUIContainer; }
 namespace MoleMole { class UILoginPageController; }
 
-#define MOLEMOLE_UIGENERALLOGINDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xADF6E90)
+#define MOLEMOLE_UIGENERALLOGINDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16870A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLoginDialogContext_TypeDefinitionIndex = 38035;
+	inline static constexpr unsigned int UIGeneralLoginDialogContext_TypeDefinitionIndex = 48387;
 
 	class UIGeneralLoginDialogContext : public ::MoleMole::UIControllerContextBase
 	{

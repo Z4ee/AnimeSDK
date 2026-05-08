@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_2BB5A4A452E9A1B4.h"
-#include "unitysdk/Struct_2_8FE35F6355424026.h"
+#include "unitysdk/Class_2_A9613D9C64F0521C.h"
+#include "unitysdk/Struct_2_8FE35F6355424026_1.h"
 
 namespace MoleMole { class UIBabeltowerTrickAvatarRowWidgetController; }
 namespace System { class String; }
 
-#define CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_26DF032375CA1E56_OFFSET UNITYSDK_OFFSET(0xAFB98B0)
-#define CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_2CDCFA89F503A756_OFFSET UNITYSDK_OFFSET(0xAFB9720)
-#define CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_C1E25A4EB96AF930_OFFSET UNITYSDK_OFFSET(0xAFB97C0)
-#define CLASS_3_ADFCC89BEC7EE1E8__CTOR_OFFSET UNITYSDK_OFFSET(0xAFB96E0)
+#define CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_26DF032375CA1E56_OFFSET UNITYSDK_OFFSET(0x12C70920)
+#define CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_2CDCFA89F503A756_OFFSET UNITYSDK_OFFSET(0x12C708A0)
+#define CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_C1E25A4EB96AF930_OFFSET UNITYSDK_OFFSET(0x12C70930)
+#define CLASS_3_ADFCC89BEC7EE1E8__CTOR_OFFSET UNITYSDK_OFFSET(0x12C70860)
 
-inline static constexpr unsigned int Class_3_ADFCC89BEC7EE1E8_TypeDefinitionIndex = 50282;
+inline static constexpr unsigned int Class_3_ADFCC89BEC7EE1E8_TypeDefinitionIndex = 46513;
 
-class Class_3_ADFCC89BEC7EE1E8 : public ::Class_2_2BB5A4A452E9A1B4<::MoleMole::UIBabeltowerTrickAvatarRowWidgetController*>
+class Class_3_ADFCC89BEC7EE1E8 : public ::Class_2_A9613D9C64F0521C<::MoleMole::UIBabeltowerTrickAvatarRowWidgetController*>
 {
 public:
-	::System::Int32 Field_3_2; // 0x28
-	::System::Int32 Field_3_1; // 0x2C
-	::Struct_2_8FE35F6355424026 Field_3_0; // 0x30
+	::System::Int32 Field_3_1; // 0x28
+	::System::Int32 Field_3_2; // 0x2C
+	::Struct_2_8FE35F6355424026_1 Field_3_0; // 0x30
 
-	::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::Struct_2_8FE35F6355424026 a4)
+	::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::Struct_2_8FE35F6355424026_1 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::Struct_2_8FE35F6355424026))((::PBYTE)hIl2Cpp + CLASS_3_ADFCC89BEC7EE1E8__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::Struct_2_8FE35F6355424026_1))((::PBYTE)hIl2Cpp + CLASS_3_ADFCC89BEC7EE1E8__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void Method_3_2CDCFA89F503A756(::MoleMole::UIBabeltowerTrickAvatarRowWidgetController* a1)
@@ -30,13 +30,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBabeltowerTrickAvatarRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_2CDCFA89F503A756_OFFSET))(this, a1);
 	}
 
-	static ::Class_3_ADFCC89BEC7EE1E8* Method_3_C1E25A4EB96AF930(::System::Int32 a1, ::Struct_2_8FE35F6355424026 a2)
-	{
-		return ((::Class_3_ADFCC89BEC7EE1E8*(*)(::System::Int32, ::Struct_2_8FE35F6355424026))((::PBYTE)hIl2Cpp + CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_C1E25A4EB96AF930_OFFSET))(a1, a2);
-	}
-
 	::System::Void Method_3_26DF032375CA1E56(::MoleMole::UIBabeltowerTrickAvatarRowWidgetController* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBabeltowerTrickAvatarRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_26DF032375CA1E56_OFFSET))(this, a1);
+	}
+
+	static ::Class_3_ADFCC89BEC7EE1E8* Method_3_C1E25A4EB96AF930(::System::Int32 a1, ::Struct_2_8FE35F6355424026_1 a2)
+	{
+		return ((::Class_3_ADFCC89BEC7EE1E8*(*)(::System::Int32, ::Struct_2_8FE35F6355424026_1))((::PBYTE)hIl2Cpp + CLASS_3_ADFCC89BEC7EE1E8_METHOD_3_C1E25A4EB96AF930_OFFSET))(a1, a2);
 	}
 };

@@ -5,22 +5,22 @@
 class Class_4_897A8D615A806ACB;
 class Class_4_9D2E60E8A1E9BB3E;
 
-#define CLASS_3_B4D52F0B1C0DF0FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2BBB20)
+#define CLASS_3_B4D52F0B1C0DF0FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0DB3E0)
 
-inline static constexpr unsigned int Class_3_B4D52F0B1C0DF0FC_TypeDefinitionIndex = 81293;
+inline static constexpr unsigned int Class_3_B4D52F0B1C0DF0FC_TypeDefinitionIndex = 83046;
 
 class Class_3_B4D52F0B1C0DF0FC : public ::Class_2_A48F3719AA1CF200
 {
 public:
-	::Class_4_897A8D615A806ACB* Field_3_8; // 0x10
-	::Class_4_9D2E60E8A1E9BB3E* Field_3_7; // 0x18
+	::Class_4_9D2E60E8A1E9BB3E* Field_3_7; // 0x10
+	::Class_4_897A8D615A806ACB* Field_3_8; // 0x18
 	::System::UInt32 Field_3_5; // 0x20
-	::System::UInt32 Field_3_0; // 0x24
-	::System::UInt32 Field_3_2; // 0x28
-	::System::UInt32 Field_3_3; // 0x2C
-	::System::UInt32 Field_3_1; // 0x30
-	::System::UInt32 Field_3_6; // 0x34
-	::System::UInt32 Field_3_4; // 0x38
+	::System::UInt32 Field_3_3; // 0x24
+	::System::UInt32 Field_3_1; // 0x28
+	::System::UInt32 Field_3_0; // 0x2C
+	::System::UInt32 Field_3_4; // 0x30
+	::System::UInt32 Field_3_2; // 0x34
+	::System::UInt32 Field_3_6; // 0x38
 
 	::System::Void _ctor()
 	{

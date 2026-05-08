@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_MeshCombineAPIType_TypeDefinitionIndex = 83360;
+	inline static constexpr unsigned int MB_MeshCombineAPIType_TypeDefinitionIndex = 85088;
 
 	enum class MB_MeshCombineAPIType : ::System::Int32
 	{

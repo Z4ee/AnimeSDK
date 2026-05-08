@@ -8,27 +8,27 @@ namespace UnityEngine::UI { class CustomUIVector2EqualityComparer; }
 namespace UnityEngine::UI { class CustomUIVector3EqualityComparer; }
 namespace UnityEngine::UI { class CustomUIVector4EqualityComparer; }
 
-#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1AC52ED0)
-#define UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC52F60)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1B96D500)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B96D590)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 8434;
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 8444;
 
 	class SetPropertyUtility : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::CustomUIVector2EqualityComparer** StaticGet_vector2EqualityComparer()
+		static ::UnityEngine::UI::CustomUIVector3EqualityComparer** StaticGet_vector3EqualityComparer()
 		{
-			return (::UnityEngine::UI::CustomUIVector2EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x7790);
+			return (::UnityEngine::UI::CustomUIVector3EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x7790);
 		}
 		static ::UnityEngine::UI::CustomUIVector4EqualityComparer** StaticGet_vector4EqualityComparer()
 		{
 			return (::UnityEngine::UI::CustomUIVector4EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x7798);
 		}
-		static ::UnityEngine::UI::CustomUIVector3EqualityComparer** StaticGet_vector3EqualityComparer()
+		static ::UnityEngine::UI::CustomUIVector2EqualityComparer** StaticGet_vector2EqualityComparer()
 		{
-			return (::UnityEngine::UI::CustomUIVector3EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x77A0);
+			return (::UnityEngine::UI::CustomUIVector2EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x77A0);
 		}
 
 		static ::System::Void _cctor()

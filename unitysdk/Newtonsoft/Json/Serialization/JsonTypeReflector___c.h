@@ -5,9 +5,9 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B754770)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7547B0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__GETCREATOR_B__20_1_OFFSET UNITYSDK_OFFSET(0x1B7547C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C540240)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C540280)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__GETCREATOR_B__20_1_OFFSET UNITYSDK_OFFSET(0x1C540290)
 
 namespace Newtonsoft::Json::Serialization
 {
@@ -16,13 +16,13 @@ namespace Newtonsoft::Json::Serialization
 	class JsonTypeReflector___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Type*>** StaticGet___9__20_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector___c_TypeDefinitionIndex)->GetStaticField(0x5FB0);
-		}
 		static ::Newtonsoft::Json::Serialization::JsonTypeReflector___c** StaticGet___9()
 		{
-			return (::Newtonsoft::Json::Serialization::JsonTypeReflector___c**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector___c_TypeDefinitionIndex)->GetStaticField(0x5FB8);
+			return (::Newtonsoft::Json::Serialization::JsonTypeReflector___c**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector___c_TypeDefinitionIndex)->GetStaticField(0x5FB0);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Type*>** StaticGet___9__20_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector___c_TypeDefinitionIndex)->GetStaticField(0x5FB8);
 		}
 
 		static ::System::Void _cctor()

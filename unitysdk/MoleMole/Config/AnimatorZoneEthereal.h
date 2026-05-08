@@ -3,21 +3,21 @@
 #include "unitysdk/MoleMole/Config/AnimatorZone.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 
-class Class_1_BDDDDB46A99CFF4C;
+class Class_1_677CEA8C88AC78AB;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0xF2BD410)
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0xF2BD150)
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0xF2BD260)
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL__CTOR_OFFSET UNITYSDK_OFFSET(0xF2BD4B0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0xF2BD4C0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0xF2BD540)
-#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0xF2BD5D0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x159DC7B0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x159DC560)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x159DC650)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL__CTOR_OFFSET UNITYSDK_OFFSET(0x159DC840)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x159DC850)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x159DC920)
+#define MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x159DC9D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneEthereal_TypeDefinitionIndex = 39995;
+	inline static constexpr unsigned int AnimatorZoneEthereal_TypeDefinitionIndex = 65156;
 
 	class AnimatorZoneEthereal : public ::MoleMole::Config::AnimatorZone
 	{
@@ -29,34 +29,34 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnZoneEnter(::MoleMole::Battle::Entity* entity, ::UnityEngine::AnimatorStateInfo& curStateInfo, ::Class_1_BDDDDB46A99CFF4C* zoneInfo, ::System::Single deltaTime)
+		::System::Void OnZoneEnter(::MoleMole::Battle::Entity* entity, ::UnityEngine::AnimatorStateInfo& curStateInfo, ::Class_1_677CEA8C88AC78AB* zoneInfo, ::System::Single deltaTime)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEENTER_OFFSET))(this, entity, curStateInfo, zoneInfo, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEENTER_OFFSET))(this, entity, curStateInfo, zoneInfo, deltaTime);
 		}
 
-		::System::Void OnZoneExit(::MoleMole::Battle::Entity* entity, ::System::Single stateNormalizedTime, ::Class_1_BDDDDB46A99CFF4C* zoneInfo, ::System::Single deltaTime)
+		::System::Void OnZoneExit(::MoleMole::Battle::Entity* entity, ::System::Single stateNormalizedTime, ::Class_1_677CEA8C88AC78AB* zoneInfo, ::System::Single deltaTime)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEEXIT_OFFSET))(this, entity, stateNormalizedTime, zoneInfo, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_ONZONEEXIT_OFFSET))(this, entity, stateNormalizedTime, zoneInfo, deltaTime);
 		}
 
-		::Class_1_BDDDDB46A99CFF4C* CreateZoneInfoInstance()
+		::Class_1_677CEA8C88AC78AB* CreateZoneInfoInstance()
 		{
-			return ((::Class_1_BDDDDB46A99CFF4C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_CREATEZONEINFOINSTANCE_OFFSET))(this);
+			return ((::Class_1_677CEA8C88AC78AB*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL_CREATEZONEINFOINSTANCE_OFFSET))(this);
 		}
 
-		::Class_1_BDDDDB46A99CFF4C* __base_CreateZoneInfoInstance()
+		::Class_1_677CEA8C88AC78AB* __base_CreateZoneInfoInstance()
 		{
-			return ((::Class_1_BDDDDB46A99CFF4C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_CREATEZONEINFOINSTANCE_OFFSET))(this);
+			return ((::Class_1_677CEA8C88AC78AB*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_CREATEZONEINFOINSTANCE_OFFSET))(this);
 		}
 
-		::System::Void __base_OnZoneEnter(::MoleMole::Battle::Entity* P0, ::UnityEngine::AnimatorStateInfo& P1, ::Class_1_BDDDDB46A99CFF4C* P2, ::System::Single P3)
+		::System::Void __base_OnZoneEnter(::MoleMole::Battle::Entity* P0, ::UnityEngine::AnimatorStateInfo& P1, ::Class_1_677CEA8C88AC78AB* P2, ::System::Single P3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEENTER_OFFSET))(this, P0, P1, P2, P3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::AnimatorStateInfo&, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEENTER_OFFSET))(this, P0, P1, P2, P3);
 		}
 
-		::System::Void __base_OnZoneExit(::MoleMole::Battle::Entity* P0, ::System::Single P1, ::Class_1_BDDDDB46A99CFF4C* P2, ::System::Single P3)
+		::System::Void __base_OnZoneExit(::MoleMole::Battle::Entity* P0, ::System::Single P1, ::Class_1_677CEA8C88AC78AB* P2, ::System::Single P3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_BDDDDB46A99CFF4C*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEEXIT_OFFSET))(this, P0, P1, P2, P3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::Class_1_677CEA8C88AC78AB*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORZONEETHEREAL___BASE_ONZONEEXIT_OFFSET))(this, P0, P1, P2, P3);
 		}
 	};
 }

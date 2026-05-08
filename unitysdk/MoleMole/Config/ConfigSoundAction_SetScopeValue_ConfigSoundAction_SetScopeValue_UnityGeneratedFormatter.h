@@ -9,26 +9,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xBAFF8A0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xBAFF8B0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xBAFFC20)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAFFE90)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBAFFE50)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x186BE4C0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x186BE4D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x186BE820)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186BEA70)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSCOPEVALUE_CONFIGSOUNDACTION_SETSCOPEVALUE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186BEA30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter_TypeDefinitionIndex = 52703;
+	inline static constexpr unsigned int ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter_TypeDefinitionIndex = 78924;
 
 	class ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigSoundAction_SetScopeValue*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::String*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36CE0);
+			return (::Sirenix::Serialization::Serializer_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37790);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36CE8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_SetScopeValue_ConfigSoundAction_SetScopeValue_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37798);
 		}
 
 		::System::Void _ctor()

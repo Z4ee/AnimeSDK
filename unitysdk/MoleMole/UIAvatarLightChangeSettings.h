@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIAVATARLIGHTCHANGESETTINGS_ONCONFIGCHANGED_OFFSET UNITYSDK_OFFSET(0x4AC260)
+#define MOLEMOLE_UIAVATARLIGHTCHANGESETTINGS_ONCONFIGCHANGED_OFFSET UNITYSDK_OFFSET(0x7D9840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarLightChangeSettings_TypeDefinitionIndex = 64062;
+	inline static constexpr unsigned int UIAvatarLightChangeSettings_TypeDefinitionIndex = 64489;
 
 	struct alignas(8) UIAvatarLightChangeSettings
 	{

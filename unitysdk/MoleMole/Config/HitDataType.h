@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitDataType_TypeDefinitionIndex = 56669;
+	inline static constexpr unsigned int HitDataType_TypeDefinitionIndex = 52184;
 
 	enum class HitDataType : ::System::Int32
 	{
-		Melee = 1,
 		Range = 0,
+		Melee = 1,
 	};
 }

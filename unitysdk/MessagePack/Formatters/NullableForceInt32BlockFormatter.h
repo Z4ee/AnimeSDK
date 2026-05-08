@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A721E00)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A721DE0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A721E40)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A721DD0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B4AE8F0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B4AE890)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4AE930)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEINT32BLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AE880)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableForceInt32BlockFormatter_TypeDefinitionIndex = 27689;
+	inline static constexpr unsigned int NullableForceInt32BlockFormatter_TypeDefinitionIndex = 26556;
 
 	class NullableForceInt32BlockFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableForceInt32BlockFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableForceInt32BlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableForceInt32BlockFormatter_TypeDefinitionIndex)->GetStaticField(0x1F490);
+			return (::MessagePack::Formatters::NullableForceInt32BlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableForceInt32BlockFormatter_TypeDefinitionIndex)->GetStaticField(0x1FFA0);
 		}
 
 		::System::Void _ctor()

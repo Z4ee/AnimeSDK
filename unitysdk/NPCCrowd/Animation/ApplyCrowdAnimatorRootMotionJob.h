@@ -6,11 +6,11 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define NPCCROWD_ANIMATION_APPLYCROWDANIMATORROOTMOTIONJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2F85C0)
+#define NPCCROWD_ANIMATION_APPLYCROWDANIMATORROOTMOTIONJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x4B8130)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ApplyCrowdAnimatorRootMotionJob_TypeDefinitionIndex = 46792;
+	inline static constexpr unsigned int ApplyCrowdAnimatorRootMotionJob_TypeDefinitionIndex = 48165;
 
 	struct alignas(8) ApplyCrowdAnimatorRootMotionJob
 	{

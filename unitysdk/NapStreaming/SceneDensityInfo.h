@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int SceneDensityInfo_TypeDefinitionIndex = 56640;
+	inline static constexpr unsigned int SceneDensityInfo_TypeDefinitionIndex = 71931;
 
 	struct alignas(8) SceneDensityInfo
 	{

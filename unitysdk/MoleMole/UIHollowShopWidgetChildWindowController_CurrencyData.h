@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController_CurrencyData_TypeDefinitionIndex = 48600;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController_CurrencyData_TypeDefinitionIndex = 51849;
 
 	struct alignas(4) UIHollowShopWidgetChildWindowController_CurrencyData
 	{

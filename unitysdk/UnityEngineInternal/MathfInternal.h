@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINEINTERNAL_MATHFINTERNAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3EDE30)
+#define UNITYENGINEINTERNAL_MATHFINTERNAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2F83C0)
 
 namespace UnityEngineInternal
 {
@@ -12,15 +12,15 @@ namespace UnityEngineInternal
 	{
 		static ::System::Boolean* StaticGet_IsFlushToZeroEnabled()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x25B0);
-		}
-		static ::System::Single* StaticGet_FloatMinDenormal()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x25B4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x25C0);
 		}
 		static ::System::Single* StaticGet_FloatMinNormal()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x25B8);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x25C4);
+		}
+		static ::System::Single* StaticGet_FloatMinDenormal()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MathfInternal_TypeDefinitionIndex)->GetStaticField(0x25C8);
 		}
 
 		static ::System::Void _cctor()

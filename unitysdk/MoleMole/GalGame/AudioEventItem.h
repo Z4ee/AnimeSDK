@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB98C580)
-#define MOLEMOLE_GALGAME_AUDIOEVENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB98C570)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18219820)
+#define MOLEMOLE_GALGAME_AUDIOEVENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18219810)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int AudioEventItem_TypeDefinitionIndex = 78041;
+	inline static constexpr unsigned int AudioEventItem_TypeDefinitionIndex = 77671;
 
 	class AudioEventItem : public ::System::Object
 	{

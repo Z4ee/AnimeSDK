@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_EC48112425141A9B.h"
+
+class Class_2_A9A857AD270B9CE1;
+namespace MoleMole { class UIControlCollection; }
+namespace System { class String; }
+namespace UnityEngine { class CanvasGroup; }
+
+#define CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x13F7B640)
+#define CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_0F75CBD717FE35FF_OFFSET UNITYSDK_OFFSET(0x13F7B7B0)
+#define CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_6090BEA18FF32D5A_OFFSET UNITYSDK_OFFSET(0x13F7B7A0)
+#define CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_929BD2659F9FA6CA_OFFSET UNITYSDK_OFFSET(0x13F7B5A0)
+#define CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B__CTOR_OFFSET UNITYSDK_OFFSET(0x13F7B710)
+
+inline static constexpr unsigned int Class_3_AD31B9C13FAD8E17_Class_4_49F67C76C928644B_TypeDefinitionIndex = 81027;
+
+class Class_3_AD31B9C13FAD8E17_Class_4_49F67C76C928644B : public ::Class_3_EC48112425141A9B
+{
+public:
+	// static const ::System::String* Field_4_0; // 0x0
+	::UnityEngine::CanvasGroup* Field_4_1; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_929BD2659F9FA6CA(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_929BD2659F9FA6CA_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_4_6090BEA18FF32D5A(::UnityEngine::CanvasGroup* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::CanvasGroup*))((::PBYTE)hIl2Cpp + CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_6090BEA18FF32D5A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_4_0865E94460F11643()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_0865E94460F11643_OFFSET))(this);
+	}
+
+	::UnityEngine::CanvasGroup* Method_4_0F75CBD717FE35FF()
+	{
+		return ((::UnityEngine::CanvasGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AD31B9C13FAD8E17_CLASS_4_49F67C76C928644B_METHOD_4_0F75CBD717FE35FF_OFFSET))(this);
+	}
+};

@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_236FD73ABC492E3F;
+namespace System { template <typename T> class Action_1; }
+
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x11025B10)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11026D70)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_2BAA5E64F58621B4_OFFSET UNITYSDK_OFFSET(0x11026F30)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_6704D57D4F412560_OFFSET UNITYSDK_OFFSET(0x11026C00)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_8001C3218015E09E_OFFSET UNITYSDK_OFFSET(0x11026DE0)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_9B00DC6B301F3F39_OFFSET UNITYSDK_OFFSET(0x11026DD0)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x11025780)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_C444D4C8B9D548AF_OFFSET UNITYSDK_OFFSET(0x11026D00)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x11025B00)
+#define MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x110259A0)
+
+namespace MoleMole::Config
+{
+	inline static constexpr unsigned int ConfigDungeonRegisterRuleBase_TypeDefinitionIndex = 76571;
+
+	class ConfigDungeonRegisterRuleBase : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_1_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_A042C46DE73C3043_OFFSET))(this, a1);
+		}
+
+		::MoleMole::Config::ConfigDungeonRegisterRuleBase* Method_1_6704D57D4F412560()
+		{
+			return ((::MoleMole::Config::ConfigDungeonRegisterRuleBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_6704D57D4F412560_OFFSET))(this);
+		}
+
+		::System::Int32 Method_1_C444D4C8B9D548AF()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_C444D4C8B9D548AF_OFFSET))(this);
+		}
+
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_FROMFLX_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_FROMBINARY_OFFSET))(this, a1, a2);
+		}
+
+		static ::MoleMole::Config::ConfigDungeonRegisterRuleBase* Method_1_8001C3218015E09E(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::MoleMole::Config::ConfigDungeonRegisterRuleBase*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_8001C3218015E09E_OFFSET))(a1, a2);
+		}
+
+		::System::Boolean Method_1_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_D4DA1493472613E6_OFFSET))(this, a1);
+		}
+
+		static ::MoleMole::Config::ConfigDungeonRegisterRuleBase* Method_1_2BAA5E64F58621B4(::FlexBuffers::FlxValue a1)
+		{
+			return ((::MoleMole::Config::ConfigDungeonRegisterRuleBase*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_2BAA5E64F58621B4_OFFSET))(a1);
+		}
+
+		::System::Boolean Method_1_9B00DC6B301F3F39(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDUNGEONREGISTERRULEBASE_METHOD_1_9B00DC6B301F3F39_OFFSET))(this, a1, a2);
+		}
+	};
+}

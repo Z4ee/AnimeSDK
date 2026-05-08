@@ -5,7 +5,7 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_1_F29C68BEB3C6B152_Class_1_0CF277E3CAC81F17_TypeDefinitionIndex = 75423;
+inline static constexpr unsigned int Class_1_F29C68BEB3C6B152_Class_1_0CF277E3CAC81F17_TypeDefinitionIndex = 62574;
 
 template <typename TComponent1, typename TValue>
 class Class_1_F29C68BEB3C6B152_Class_1_0CF277E3CAC81F17 : public ::System::Object

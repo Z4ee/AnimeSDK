@@ -5,13 +5,13 @@
 #include "unitysdk/Foundation/Unreal/Interval_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_44BFEEFC722C6845_METHOD_2_3D6EDFDF43C4B010_OFFSET UNITYSDK_OFFSET(0x472450)
-#define STRUCT_2_44BFEEFC722C6845_METHOD_2_4E140453C4B32F06_OFFSET UNITYSDK_OFFSET(0x4723B0)
-#define STRUCT_2_44BFEEFC722C6845_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x302320)
-#define STRUCT_2_44BFEEFC722C6845_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x472460)
-#define STRUCT_2_44BFEEFC722C6845__CTOR_OFFSET UNITYSDK_OFFSET(0x4723A0)
+#define STRUCT_2_44BFEEFC722C6845_METHOD_2_3D6EDFDF43C4B010_OFFSET UNITYSDK_OFFSET(0x792EB0)
+#define STRUCT_2_44BFEEFC722C6845_METHOD_2_4E140453C4B32F06_OFFSET UNITYSDK_OFFSET(0x792EC0)
+#define STRUCT_2_44BFEEFC722C6845_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x383860)
+#define STRUCT_2_44BFEEFC722C6845_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x792F40)
+#define STRUCT_2_44BFEEFC722C6845__CTOR_OFFSET UNITYSDK_OFFSET(0x792EA0)
 
-inline static constexpr unsigned int Struct_2_44BFEEFC722C6845_TypeDefinitionIndex = 74818;
+inline static constexpr unsigned int Struct_2_44BFEEFC722C6845_TypeDefinitionIndex = 62031;
 
 struct alignas(4) Struct_2_44BFEEFC722C6845
 {
@@ -26,6 +26,11 @@ struct alignas(4) Struct_2_44BFEEFC722C6845
 	}
 	*/
 
+	::System::Boolean Method_2_3D6EDFDF43C4B010(::Foundation::Unreal::Interval_1<::System::Single>& a1, ::Foundation::Unreal::Interval_1<::System::Single>& a2, ::System::Boolean& a3, ::System::Boolean& a4)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>&, ::Foundation::Unreal::Interval_1<::System::Single>&, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + STRUCT_2_44BFEEFC722C6845_METHOD_2_3D6EDFDF43C4B010_OFFSET))(this, a1, a2, a3, a4);
+	}
+
 	::Enum_3_2ACAE3B8E89364F1 Method_2_A96DCA30C6927810()
 	{
 		return ((::Enum_3_2ACAE3B8E89364F1(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_44BFEEFC722C6845_METHOD_2_A96DCA30C6927810_OFFSET))(this);
@@ -34,11 +39,6 @@ struct alignas(4) Struct_2_44BFEEFC722C6845
 	::System::Boolean Method_2_4E140453C4B32F06(::System::Single a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_44BFEEFC722C6845_METHOD_2_4E140453C4B32F06_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_2_3D6EDFDF43C4B010(::Foundation::Unreal::Interval_1<::System::Single>& a1, ::Foundation::Unreal::Interval_1<::System::Single>& a2, ::System::Boolean& a3, ::System::Boolean& a4)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>&, ::Foundation::Unreal::Interval_1<::System::Single>&, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + STRUCT_2_44BFEEFC722C6845_METHOD_2_3D6EDFDF43C4B010_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Single Method_2_D437D090E63BE8A7(::System::Single a1)

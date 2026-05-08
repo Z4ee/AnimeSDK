@@ -3,17 +3,17 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EAvatarSkillType_TypeDefinitionIndex = 11622;
+	inline static constexpr unsigned int EAvatarSkillType_TypeDefinitionIndex = 13355;
 
 	enum class EAvatarSkillType : ::System::Int16
 	{
-		CoreSkill = 5,
-		CooperateSkill = 3,
 		AssistSkill = 6,
 		EnumCount = 7,
 		UniqueSkill = 4,
+		CooperateSkill = 3,
+		SpecialAttack = 1,
+		CoreSkill = 5,
 		Evade = 2,
 		CommonAttack = 0,
-		SpecialAttack = 1,
 	};
 }

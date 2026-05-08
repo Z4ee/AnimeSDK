@@ -6,7 +6,7 @@ namespace QWER { template <typename T> class CListQueue_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CListQueue_1_TypeDefinitionIndex = 8559;
+	inline static constexpr unsigned int CListQueue_1_TypeDefinitionIndex = 8570;
 
 	template <typename T>
 	class CListQueue_1 : public ::System::Object

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x81B9E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8EDF30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassInstanceData_TypeDefinitionIndex = 29711;
+	inline static constexpr unsigned int GPUGrassInstanceData_TypeDefinitionIndex = 30239;
 
 	struct alignas(4) GPUGrassInstanceData
 	{

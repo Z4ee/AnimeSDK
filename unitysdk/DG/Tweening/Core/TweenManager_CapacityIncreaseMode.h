@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int TweenManager_CapacityIncreaseMode_TypeDefinitionIndex = 24988;
+	inline static constexpr unsigned int TweenManager_CapacityIncreaseMode_TypeDefinitionIndex = 25502;
 
 	enum class TweenManager_CapacityIncreaseMode : ::System::Int32
 	{

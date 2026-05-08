@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/MultipleVideoPlayerManager_PlayParam.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x11390710)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_1A8DA0BA65752960_OFFSET UNITYSDK_OFFSET(0x113905F0)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_9F6F2593EEF306AA_OFFSET UNITYSDK_OFFSET(0x113905E0)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x11390680)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x11390750)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x11390670)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x113904A0)
+#define CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC__CTOR_OFFSET UNITYSDK_OFFSET(0x11390580)
+
+inline static constexpr unsigned int Class_2_3741FAB584DB310A_Class_1_3455CCE8E690E8BC_TypeDefinitionIndex = 82424;
+
+class Class_2_3741FAB584DB310A_Class_1_3455CCE8E690E8BC : public ::System::Object
+{
+public:
+	::System::Action* Field_1_2; // 0x10
+	::System::String* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::MoleMole::MultipleVideoPlayerManager_PlayParam>* Field_1_4; // 0x20
+	::System::String* Field_1_1; // 0x28
+	::System::Single Field_1_3; // 0x30
+	::System::Int32 Field_1_5; // 0x34
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC__CTOR_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::MoleMole::MultipleVideoPlayerManager_PlayParam>* Method_1_9F6F2593EEF306AA()
+	{
+		return ((::System::Collections::Generic::List_1<::MoleMole::MultipleVideoPlayerManager_PlayParam>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_9F6F2593EEF306AA_OFFSET))(this);
+	}
+
+	::Class_2_3741FAB584DB310A_Class_1_3455CCE8E690E8BC* Method_1_1A8DA0BA65752960(::System::String* a1)
+	{
+		return ((::Class_2_3741FAB584DB310A_Class_1_3455CCE8E690E8BC*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_1A8DA0BA65752960_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A239DF324AF4215D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_A239DF324AF4215D_OFFSET))(this);
+	}
+
+	::System::String* Method_1_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_128774387667156B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_C114A1F8E08B6F92(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_3741FAB584DB310A_CLASS_1_3455CCE8E690E8BC_METHOD_1_C114A1F8E08B6F92_OFFSET))(this, a1);
+	}
+};

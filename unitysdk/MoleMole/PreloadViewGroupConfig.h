@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADVIEWGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB1BC680)
+#define MOLEMOLE_PRELOADVIEWGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10BE6690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadViewGroupConfig_TypeDefinitionIndex = 44961;
+	inline static constexpr unsigned int PreloadViewGroupConfig_TypeDefinitionIndex = 59555;
 
 	class PreloadViewGroupConfig : public ::System::Object
 	{

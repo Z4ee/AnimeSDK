@@ -5,21 +5,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_GOTOLABEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A1C03C0)
-#define FLOWCANVAS_NODES_GOTOLABEL_GET_PORT_OFFSET UNITYSDK_OFFSET(0x1A1C03A0)
-#define FLOWCANVAS_NODES_GOTOLABEL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A1C0440)
-#define FLOWCANVAS_NODES_GOTOLABEL_SET_PORT_OFFSET UNITYSDK_OFFSET(0x1A1C03B0)
-#define FLOWCANVAS_NODES_GOTOLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C0470)
+#define FLOWCANVAS_NODES_GOTOLABEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AF21770)
+#define FLOWCANVAS_NODES_GOTOLABEL_GET_PORT_OFFSET UNITYSDK_OFFSET(0x1AF21750)
+#define FLOWCANVAS_NODES_GOTOLABEL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1AF21800)
+#define FLOWCANVAS_NODES_GOTOLABEL_SET_PORT_OFFSET UNITYSDK_OFFSET(0x1AF21760)
+#define FLOWCANVAS_NODES_GOTOLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF21850)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GoToLabel_TypeDefinitionIndex = 26940;
+	inline static constexpr unsigned int GoToLabel_TypeDefinitionIndex = 26567;
 
 	class GoToLabel : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _port_k__BackingField; // 0xA8
-		::System::String* identifier; // 0xB0
+		::System::String* identifier; // 0xA8
+		::FlowCanvas::FlowOutput* _port_k__BackingField; // 0xB0
 
 		::System::Void _ctor()
 		{

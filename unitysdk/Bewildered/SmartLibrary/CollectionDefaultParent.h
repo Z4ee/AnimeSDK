@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEWILDERED_SMARTLIBRARY_COLLECTIONDEFAULTPARENT_GET_COLLECTIONIDS_OFFSET UNITYSDK_OFFSET(0x1B771C40)
-#define BEWILDERED_SMARTLIBRARY_COLLECTIONDEFAULTPARENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B771C50)
+#define BEWILDERED_SMARTLIBRARY_COLLECTIONDEFAULTPARENT_GET_COLLECTIONIDS_OFFSET UNITYSDK_OFFSET(0x1C55D4A0)
+#define BEWILDERED_SMARTLIBRARY_COLLECTIONDEFAULTPARENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55D4B0)
 
 namespace Bewildered::SmartLibrary
 {
-	inline static constexpr unsigned int CollectionDefaultParent_TypeDefinitionIndex = 83178;
+	inline static constexpr unsigned int CollectionDefaultParent_TypeDefinitionIndex = 84906;
 
 	class CollectionDefaultParent : public ::UnityEngine::MonoBehaviour
 	{

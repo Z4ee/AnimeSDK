@@ -4,11 +4,11 @@
 
 namespace NPCCrowd::AI { class PathGraphSplineLocatorComponent; }
 
-#define NPCCROWD_AI_PATHGRAPHSPLINELISTPAIRLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x7515950)
+#define NPCCROWD_AI_PATHGRAPHSPLINELISTPAIRLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF4E8910)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineListPairLocatorComponent_TypeDefinitionIndex = 68798;
+	inline static constexpr unsigned int PathGraphSplineListPairLocatorComponent_TypeDefinitionIndex = 81871;
 
 	class PathGraphSplineListPairLocatorComponent : public ::NPCCrowd::AI::PathGraphListPairLocatorComponent_1<::NPCCrowd::AI::PathGraphSplineLocatorComponent*>
 	{

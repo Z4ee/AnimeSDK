@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LinkedHashMap_2_KeyEnumerable_TypeDefinitionIndex = 7967;
+	inline static constexpr unsigned int LinkedHashMap_2_KeyEnumerable_TypeDefinitionIndex = 8234;
 
 	template <typename TKey, typename TValue>
 	struct LinkedHashMap_2_KeyEnumerable

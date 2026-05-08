@@ -5,8 +5,8 @@
 namespace UnityEngine::NAPRenderPipeline0 { class ConsoleVariableBool; }
 namespace UnityEngine::NAPRenderPipeline0 { class ConsoleVariableFloat; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DYNAMICRESOLUTIONPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C3A6A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DYNAMICRESOLUTIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3A690)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DYNAMICRESOLUTIONPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAD8170)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DYNAMICRESOLUTIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD8160)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
@@ -15,13 +15,13 @@ namespace UnityEngine::NAPRenderPipeline0
 	class DynamicResolutionParams : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat** StaticGet_dscale()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat**)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionParams_TypeDefinitionIndex)->GetStaticField(0x4F60);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_debugRadomResolutionScale()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionParams_TypeDefinitionIndex)->GetStaticField(0x4F68);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionParams_TypeDefinitionIndex)->GetStaticField(0x4F60);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat** StaticGet_dscale()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat**)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionParams_TypeDefinitionIndex)->GetStaticField(0x4F68);
 		}
 
 		::System::Void _ctor()

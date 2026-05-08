@@ -9,23 +9,23 @@ class Class_1_2984721F96DFF2B5;
 class Class_1_7246F590C915F2B2;
 class Class_3_98C806684F7CC372_1;
 
-#define CLASS_1_2984721F96DFF2B5_CLASS_1_2216009DD38B9843_METHOD_1_D24EF79E293914CD_OFFSET UNITYSDK_OFFSET(0x1B3B5F30)
-#define CLASS_1_2984721F96DFF2B5_CLASS_1_2216009DD38B9843__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B5F20)
+#define CLASS_1_2984721F96DFF2B5_CLASS_1_2216009DD38B9843_METHOD_1_D24EF79E293914CD_OFFSET UNITYSDK_OFFSET(0x1C27B640)
+#define CLASS_1_2984721F96DFF2B5_CLASS_1_2216009DD38B9843__CTOR_OFFSET UNITYSDK_OFFSET(0x1C27B630)
 
-inline static constexpr unsigned int Class_1_2984721F96DFF2B5_Class_1_2216009DD38B9843_TypeDefinitionIndex = 25725;
+inline static constexpr unsigned int Class_1_2984721F96DFF2B5_Class_1_2216009DD38B9843_TypeDefinitionIndex = 26316;
 
 class Class_1_2984721F96DFF2B5_Class_1_2216009DD38B9843 : public ::System::Object
 {
 public:
-	::Class_3_98C806684F7CC372_1* Field_1_2; // 0x10
-	::Class_1_7246F590C915F2B2* Field_1_1; // 0x18
-	::Class_1_2984721F96DFF2B5* Field_1_0; // 0x20
-	::System::Int32 Field_1_4; // 0x28
-	::System::Int32 Field_1_8; // 0x2C
-	::Class_1_2984721F96DFF2B5_Enum_3_E43DE6BDA33903A8 Field_1_9; // 0x30
-	::System::Int32 Field_1_7; // 0x34
-	::System::Int32 Field_1_6; // 0x38
-	::System::Int32 Field_1_5; // 0x3C
+	::Class_1_7246F590C915F2B2* Field_1_1; // 0x10
+	::Class_1_2984721F96DFF2B5* Field_1_0; // 0x18
+	::Class_3_98C806684F7CC372_1* Field_1_2; // 0x20
+	::System::Int32 Field_1_6; // 0x28
+	::System::Int32 Field_1_7; // 0x2C
+	::System::Int32 Field_1_4; // 0x30
+	::System::Int32 Field_1_8; // 0x34
+	::System::Int32 Field_1_5; // 0x38
+	::Class_1_2984721F96DFF2B5_Enum_3_E43DE6BDA33903A8 Field_1_9; // 0x3C
 	::System::DateTimeOffset Field_1_3; // 0x40
 
 	::System::Void _ctor()

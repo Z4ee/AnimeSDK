@@ -5,7 +5,7 @@
 #include "unitysdk/MoleMole/Config/AnimatorHitEffect.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_F76207C7421A525D_TypeDefinitionIndex = 39905;
+inline static constexpr unsigned int Struct_2_F76207C7421A525D_TypeDefinitionIndex = 77879;
 
 struct alignas(4) Struct_2_F76207C7421A525D
 {

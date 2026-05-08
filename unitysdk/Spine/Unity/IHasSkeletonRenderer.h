@@ -5,7 +5,7 @@ namespace Spine::Unity { class SkeletonRenderer; }
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int IHasSkeletonRenderer_TypeDefinitionIndex = 37329;
+	inline static constexpr unsigned int IHasSkeletonRenderer_TypeDefinitionIndex = 37873;
 
 	class IHasSkeletonRenderer
 	{

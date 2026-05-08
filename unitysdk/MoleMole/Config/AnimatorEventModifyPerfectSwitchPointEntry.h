@@ -5,12 +5,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYPERFECTSWITCHPOINTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xC2184F0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYPERFECTSWITCHPOINTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xC218590)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYPERFECTSWITCHPOINTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xECFBBF0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTMODIFYPERFECTSWITCHPOINTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xECFBC70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventModifyPerfectSwitchPointEntry_TypeDefinitionIndex = 64948;
+	inline static constexpr unsigned int AnimatorEventModifyPerfectSwitchPointEntry_TypeDefinitionIndex = 68044;
 
 	class AnimatorEventModifyPerfectSwitchPointEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

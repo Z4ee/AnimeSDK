@@ -7,25 +7,25 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER_REGISTER_1_OFFSET UNITYSDK_OFFSET(0x1918BA40)
-#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER_REGISTER_2_OFFSET UNITYSDK_OFFSET(0x1918BAF0)
-#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1918B990)
-#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1918BBD0)
-#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1918B970)
+#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER_REGISTER_1_OFFSET UNITYSDK_OFFSET(0x198598C0)
+#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER_REGISTER_2_OFFSET UNITYSDK_OFFSET(0x19859970)
+#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER_REGISTER_OFFSET UNITYSDK_OFFSET(0x19859810)
+#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19859A50)
+#define MESSAGEPACK_RESOLVERS_STATICCOMPOSITERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x198597F0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int StaticCompositeResolver_TypeDefinitionIndex = 26668;
+	inline static constexpr unsigned int StaticCompositeResolver_TypeDefinitionIndex = 27740;
 
 	class StaticCompositeResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::StaticCompositeResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::StaticCompositeResolver**)Il2CppClass::FromTypeDefinitionIndex(StaticCompositeResolver_TypeDefinitionIndex)->GetStaticField(0x1FE80);
+			return (::MessagePack::Resolvers::StaticCompositeResolver**)Il2CppClass::FromTypeDefinitionIndex(StaticCompositeResolver_TypeDefinitionIndex)->GetStaticField(0x206C0);
 		}
-		::System::Collections::Generic::IReadOnlyList_1<::MessagePack::Formatters::IMessagePackFormatter*>* formatters; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::MessagePack::IFormatterResolver*>* resolvers; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::MessagePack::IFormatterResolver*>* resolvers; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::MessagePack::Formatters::IMessagePackFormatter*>* formatters; // 0x18
 		::System::Boolean freezed; // 0x20
 
 		::System::Void _ctor()

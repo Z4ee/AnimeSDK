@@ -8,11 +8,11 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class ThirdLoginConfigs; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MDKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18899D40)
+#define MIHOYO_SDK_MDKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1999D950)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MDKConfig_TypeDefinitionIndex = 18436;
+	inline static constexpr unsigned int MDKConfig_TypeDefinitionIndex = 18775;
 
 	class MDKConfig : public ::System::Object
 	{
@@ -42,6 +42,7 @@ namespace MiHoYo::SDK
 		::System::Boolean hoyoplay_auth_login; // 0x83
 		::MiHoYo::SDK::ThirdLoginConfigs* thirdparty_login_configs; // 0x88
 		::System::Boolean enable_age_gate; // 0x90
+		::System::Boolean enable_br_age_gate; // 0x91
 
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
 		{

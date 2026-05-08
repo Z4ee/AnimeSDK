@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define UNREALTYPES_PROPERTYBAGMISSINGSTRUCT_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1A20EDF0)
-#define UNREALTYPES_PROPERTYBAGMISSINGSTRUCT_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20EDD0)
+#define UNREALTYPES_PROPERTYBAGMISSINGSTRUCT_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1ADA5A90)
+#define UNREALTYPES_PROPERTYBAGMISSINGSTRUCT_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA5A70)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyBagMissingStruct_StructOpsTypeTraits_TypeDefinitionIndex = 24804;
+	inline static constexpr unsigned int PropertyBagMissingStruct_StructOpsTypeTraits_TypeDefinitionIndex = 25318;
 
 	class PropertyBagMissingStruct_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

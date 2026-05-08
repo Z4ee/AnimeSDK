@@ -3,7 +3,7 @@
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int FrameShapeElement_TYPE_TypeDefinitionIndex = 37227;
+	inline static constexpr unsigned int FrameShapeElement_TYPE_TypeDefinitionIndex = 37771;
 
 	enum class FrameShapeElement_TYPE : ::System::Int32
 	{

@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB8C6140)
-#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB8C6150)
-#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB8C6410)
-#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8C6620)
-#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C65E0)
+#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16E6E540)
+#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x16E6E550)
+#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x16E6E7F0)
+#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E6E9E0)
+#define MOLEMOLE_MONOCINEMACAMERALIGHTCONFIG_MONOCINEMACAMERALIGHTCONFIG_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E6E9A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCinemaCameraLightConfig_MonoCinemaCameraLightConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 61528;
+	inline static constexpr unsigned int MonoCinemaCameraLightConfig_MonoCinemaCameraLightConfig_UnityGeneratedFormatter_TypeDefinitionIndex = 77938;
 
 	class MonoCinemaCameraLightConfig_MonoCinemaCameraLightConfig_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::MonoCinemaCameraLightConfig*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::CinemaCameraPosEnum, ::UnityEngine::GameObject*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::CinemaCameraPosEnum, ::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoCinemaCameraLightConfig_MonoCinemaCameraLightConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x31780);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::CinemaCameraPosEnum, ::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoCinemaCameraLightConfig_MonoCinemaCameraLightConfig_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x32420);
 		}
 
 		::System::Void _ctor()

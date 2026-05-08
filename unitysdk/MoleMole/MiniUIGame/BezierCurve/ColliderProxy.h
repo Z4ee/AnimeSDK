@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Collider2D; }
 
-#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_COLLIDERPROXY_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0xA02B930)
-#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_COLLIDERPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xA02B9A0)
+#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_COLLIDERPROXY_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x1175BE00)
+#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_COLLIDERPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1175BE50)
 
 namespace MoleMole::MiniUIGame::BezierCurve
 {
-	inline static constexpr unsigned int ColliderProxy_TypeDefinitionIndex = 69449;
+	inline static constexpr unsigned int ColliderProxy_TypeDefinitionIndex = 54419;
 
 	class ColliderProxy : public ::UnityEngine::MonoBehaviour
 	{

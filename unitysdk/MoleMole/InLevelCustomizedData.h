@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_INLEVELCUSTOMIZEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD5D590)
+#define MOLEMOLE_INLEVELCUSTOMIZEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x125D2760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelCustomizedData_TypeDefinitionIndex = 68580;
+	inline static constexpr unsigned int InLevelCustomizedData_TypeDefinitionIndex = 75031;
 
 	class InLevelCustomizedData : public ::System::Object
 	{

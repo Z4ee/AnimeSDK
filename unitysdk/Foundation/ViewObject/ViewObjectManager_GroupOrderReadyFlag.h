@@ -3,7 +3,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_GroupOrderReadyFlag_TypeDefinitionIndex = 74565;
+	inline static constexpr unsigned int ViewObjectManager_GroupOrderReadyFlag_TypeDefinitionIndex = 66403;
 
 	enum class ViewObjectManager_GroupOrderReadyFlag : ::System::Int32
 	{

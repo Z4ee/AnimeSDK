@@ -6,20 +6,20 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA014A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR_RESETRANDOM_OFFSET UNITYSDK_OFFSET(0xA014BA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA014EF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0xA014F10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x11744CF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR_RESETRANDOM_OFFSET UNITYSDK_OFFSET(0x11744DE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11745150)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETRANDOMGENERATOR__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x117451A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDResetRandomGenerator_TypeDefinitionIndex = 45096;
+	inline static constexpr unsigned int LDResetRandomGenerator_TypeDefinitionIndex = 59091;
 
 	class LDResetRandomGenerator : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::UInt32>* inputRandomSeed; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::UInt32>* inputRandomSeed; // 0xA8
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
 		::System::Boolean useLevelRandomSeed; // 0xB8
 
 		::System::Void _ctor()

@@ -7,12 +7,12 @@
 namespace MoleMole { class UIRidusGotBooChangeClothPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER__DELAYPLAYFIREANIM_D__65_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x38BA10)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER__DELAYPLAYFIREANIM_D__65_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER__DELAYPLAYFIREANIM_D__65_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x76DB90)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER__DELAYPLAYFIREANIM_D__65_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController__DelayPlayFireAnim_d__65_TypeDefinitionIndex = 68243;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController__DelayPlayFireAnim_d__65_TypeDefinitionIndex = 79202;
 
 	struct alignas(8) UIRidusGotBooChangeClothPageController__DelayPlayFireAnim_d__65
 	{

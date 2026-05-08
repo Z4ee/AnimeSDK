@@ -5,11 +5,11 @@
 namespace UnityEngine { class Behaviour; }
 namespace UnityEngine { class Rigidbody; }
 
-#define ENABLEIFFSLEEPING_START_OFFSET UNITYSDK_OFFSET(0x8B2B160)
-#define ENABLEIFFSLEEPING_UPDATE_OFFSET UNITYSDK_OFFSET(0x8B2B230)
-#define ENABLEIFFSLEEPING__CTOR_OFFSET UNITYSDK_OFFSET(0x8B2B440)
+#define ENABLEIFFSLEEPING_START_OFFSET UNITYSDK_OFFSET(0x169FE730)
+#define ENABLEIFFSLEEPING_UPDATE_OFFSET UNITYSDK_OFFSET(0x169FE800)
+#define ENABLEIFFSLEEPING__CTOR_OFFSET UNITYSDK_OFFSET(0x169FEB00)
 
-inline static constexpr unsigned int EnableIffSleeping_TypeDefinitionIndex = 65369;
+inline static constexpr unsigned int EnableIffSleeping_TypeDefinitionIndex = 40752;
 
 class EnableIffSleeping : public ::UnityEngine::MonoBehaviour
 {

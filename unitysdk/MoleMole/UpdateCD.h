@@ -3,34 +3,34 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_750DA0E74FE20AAE;
+class Class_3_6D73516CC6FEADD7;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace System { class String; }
 
-#define MOLEMOLE_UPDATECD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x791E2C0)
-#define MOLEMOLE_UPDATECD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x791E520)
-#define MOLEMOLE_UPDATECD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x791E8B0)
-#define MOLEMOLE_UPDATECD__CTOR_OFFSET UNITYSDK_OFFSET(0x791EB20)
-#define MOLEMOLE_UPDATECD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x791EC00)
-#define MOLEMOLE_UPDATECD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x791EB70)
-#define MOLEMOLE_UPDATECD___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x791EC90)
+#define MOLEMOLE_UPDATECD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xF63D1C0)
+#define MOLEMOLE_UPDATECD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xF63D3E0)
+#define MOLEMOLE_UPDATECD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF63D720)
+#define MOLEMOLE_UPDATECD__CTOR_OFFSET UNITYSDK_OFFSET(0xF63D970)
+#define MOLEMOLE_UPDATECD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xF63DAA0)
+#define MOLEMOLE_UPDATECD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xF63DA10)
+#define MOLEMOLE_UPDATECD___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF63DB30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UpdateCD_TypeDefinitionIndex = 54740;
+	inline static constexpr unsigned int UpdateCD_TypeDefinitionIndex = 70748;
 
 	class UpdateCD : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedFloat* CD; // 0x58
-		::Class_3_750DA0E74FE20AAE* _aiCharacter; // 0x60
+		::Class_3_6D73516CC6FEADD7* _aiCharacter; // 0x60
 		::BehaviorDesigner::Runtime::SharedFloat* UpdateRatio; // 0x68
-		::System::Single randomRangePositive; // 0x70
-		::System::Boolean applyPositiveRandom; // 0x74
-		::System::Boolean keepUpdating; // 0x75
-		::System::Boolean applyNegetiveRandom; // 0x76
+		::System::Boolean applyPositiveRandom; // 0x70
+		::System::Boolean applyNegetiveRandom; // 0x71
+		::System::Boolean keepUpdating; // 0x72
+		::System::Single defaultTime; // 0x74
 		::System::Single randomRangeNegtive; // 0x78
-		::System::Single defaultTime; // 0x7C
+		::System::Single randomRangePositive; // 0x7C
 
 		::System::Void _ctor()
 		{

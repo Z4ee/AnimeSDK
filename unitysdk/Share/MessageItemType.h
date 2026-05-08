@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int MessageItemType_TypeDefinitionIndex = 9697;
+	inline static constexpr unsigned int MessageItemType_TypeDefinitionIndex = 12590;
 
 	enum class MessageItemType : ::System::Int32
 	{

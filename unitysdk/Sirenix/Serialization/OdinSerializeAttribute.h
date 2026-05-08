@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_SERIALIZATION_ODINSERIALIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B443D30)
+#define SIRENIX_SERIALIZATION_ODINSERIALIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1464C0)
 
 namespace Sirenix::Serialization
 {

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E4BEBE5C8511EA11.h"
+#include "unitysdk/Enum_3_9A6C0545772F4974.h"
 #include "unitysdk/MoleMole/BaseInputActionEventConfig.h"
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 
-#define MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xE2A61D0)
-#define MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A61E0)
+#define MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1742B280)
+#define MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1742B290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ButtonIntervalPressInputActionEventConfig_TypeDefinitionIndex = 76511;
+	inline static constexpr unsigned int ButtonIntervalPressInputActionEventConfig_TypeDefinitionIndex = 65703;
 
 	class ButtonIntervalPressInputActionEventConfig : public ::MoleMole::BaseInputActionEventConfig
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_E4BEBE5C8511EA11 get_dataType()
+		::Enum_3_9A6C0545772F4974 get_dataType()
 		{
-			return ((::Enum_3_E4BEBE5C8511EA11(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET))(this);
+			return ((::Enum_3_9A6C0545772F4974(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BUTTONINTERVALPRESSINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET))(this);
 		}
 	};
 }

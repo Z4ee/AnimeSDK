@@ -4,9 +4,9 @@
 
 namespace MoleMole { class PerformConfig; }
 
-#define CLASS_1_876421EDE2635269__CTOR_OFFSET UNITYSDK_OFFSET(0xCE94B20)
+#define CLASS_1_876421EDE2635269__CTOR_OFFSET UNITYSDK_OFFSET(0x1653D480)
 
-inline static constexpr unsigned int Class_1_876421EDE2635269_TypeDefinitionIndex = 73926;
+inline static constexpr unsigned int Class_1_876421EDE2635269_TypeDefinitionIndex = 59614;
 
 class Class_1_876421EDE2635269 : public ::System::Object
 {

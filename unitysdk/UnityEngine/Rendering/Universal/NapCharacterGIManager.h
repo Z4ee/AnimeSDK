@@ -8,38 +8,38 @@ namespace UnityEngine::Rendering::Universal { class NapCharacterGI; }
 namespace UnityEngine::Rendering::Universal { class NapCharacterGIWeather; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197F20D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_ISVALIDGI_OFFSET UNITYSDK_OFFSET(0x197F1A60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_PREPAREGPUSAMPLECONTEXT_OFFSET UNITYSDK_OFFSET(0x197F16F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETDUMMYBUFFERS_OFFSET UNITYSDK_OFFSET(0x197F14B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETGLOBALBUFFERS_OFFSET UNITYSDK_OFFSET(0x197F1F50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPEMPTYGI_OFFSET UNITYSDK_OFFSET(0x197F1DA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPVALIDGI_OFFSET UNITYSDK_OFFSET(0x197F1AE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x197F2240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x197F2230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ABA8210)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_ISVALIDGI_OFFSET UNITYSDK_OFFSET(0x1ABA7BA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_PREPAREGPUSAMPLECONTEXT_OFFSET UNITYSDK_OFFSET(0x1ABA77B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETDUMMYBUFFERS_OFFSET UNITYSDK_OFFSET(0x1ABA7570)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETGLOBALBUFFERS_OFFSET UNITYSDK_OFFSET(0x1ABA8090)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPEMPTYGI_OFFSET UNITYSDK_OFFSET(0x1ABA7EE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPVALIDGI_OFFSET UNITYSDK_OFFSET(0x1ABA7C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABA8290)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA8280)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCharacterGIManager_TypeDefinitionIndex = 29532;
+	inline static constexpr unsigned int NapCharacterGIManager_TypeDefinitionIndex = 30060;
 
 	class NapCharacterGIManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::NapCharacterGIManager** StaticGet_instance()
-		{
-			return (::UnityEngine::Rendering::Universal::NapCharacterGIManager**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x23500);
-		}
 		static ::UnityEngine::Rendering::Universal::NapCharacterGI** StaticGet_lastCgi()
 		{
-			return (::UnityEngine::Rendering::Universal::NapCharacterGI**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x23508);
+			return (::UnityEngine::Rendering::Universal::NapCharacterGI**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x24080);
+		}
+		static ::UnityEngine::Rendering::Universal::NapCharacterGIManager** StaticGet_instance()
+		{
+			return (::UnityEngine::Rendering::Universal::NapCharacterGIManager**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x24088);
 		}
 		static ::System::Int32* StaticGet_lastWeatherIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x6940);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x69B0);
 		}
-		::UnityEngine::ComputeBuffer* giIndexBuffer; // 0x10
-		::UnityEngine::ComputeBuffer* giPositionBuffer; // 0x18
-		::UnityEngine::ComputeBuffer* giColorBuffer; // 0x20
+		::UnityEngine::ComputeBuffer* giColorBuffer; // 0x10
+		::UnityEngine::ComputeBuffer* giIndexBuffer; // 0x18
+		::UnityEngine::ComputeBuffer* giPositionBuffer; // 0x20
 
 		::System::Void _ctor()
 		{

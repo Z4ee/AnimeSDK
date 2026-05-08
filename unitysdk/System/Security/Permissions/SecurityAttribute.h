@@ -5,7 +5,7 @@
 
 namespace System::Security { class IPermission; }
 
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE15A0)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x195592F0)
 
 namespace System::Security::Permissions
 {
@@ -14,8 +14,8 @@ namespace System::Security::Permissions
 	class SecurityAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Security::Permissions::SecurityAction m_Action; // 0x10
-		::System::Boolean m_Unrestricted; // 0x14
+		::System::Boolean m_Unrestricted; // 0x10
+		::System::Security::Permissions::SecurityAction m_Action; // 0x14
 
 		::System::Void _ctor(::System::Security::Permissions::SecurityAction action)
 		{

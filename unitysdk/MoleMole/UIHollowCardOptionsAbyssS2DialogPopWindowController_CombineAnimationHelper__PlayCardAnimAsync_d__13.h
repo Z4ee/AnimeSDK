@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_1F219549AE9B7C82_Enum_3_05F7423D39739F87.h"
+#include "unitysdk/Class_1_6D17A92E4F636970_Enum_3_05F7423D39739F87.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
@@ -12,21 +12,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER_COMBINEANIMATIONHELPER__PLAYCARDANIMASYNC_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A0B50)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER_COMBINEANIMATIONHELPER__PLAYCARDANIMASYNC_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER_COMBINEANIMATIONHELPER__PLAYCARDANIMASYNC_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x794650)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER_COMBINEANIMATIONHELPER__PLAYCARDANIMASYNC_D__13_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsAbyssS2DialogPopWindowController_CombineAnimationHelper__PlayCardAnimAsync_d__13_TypeDefinitionIndex = 71664;
+	inline static constexpr unsigned int UIHollowCardOptionsAbyssS2DialogPopWindowController_CombineAnimationHelper__PlayCardAnimAsync_d__13_TypeDefinitionIndex = 51117;
 
 	struct alignas(8) UIHollowCardOptionsAbyssS2DialogPopWindowController_CombineAnimationHelper__PlayCardAnimAsync_d__13
 	{
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* combineGoList; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_1F219549AE9B7C82_Enum_3_05F7423D39739F87> __u__2; // 0x18
-		::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController_CombineAnimationHelper* __4__this; // 0x28
-		::MoleMole::HollowCardCombineConfig* config; // 0x30
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x38
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x48
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController_CombineAnimationHelper* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* combineGoList; // 0x38
+		::MoleMole::HollowCardCombineConfig* config; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_6D17A92E4F636970_Enum_3_05F7423D39739F87> __u__2; // 0x48
 		::System::Int32 __1__state; // 0x58
 		::System::Boolean _isSecondCombine_5__2; // 0x5C
 

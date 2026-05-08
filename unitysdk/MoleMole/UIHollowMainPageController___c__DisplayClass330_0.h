@@ -6,19 +6,19 @@ namespace MoleMole { class UIHollowMainPageController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS330_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9D36620)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS330_0__SHOWOVERLOADANIM_B__0_OFFSET UNITYSDK_OFFSET(0x9D367A0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS330_0__SHOWOVERLOADANIM_B__1_OFFSET UNITYSDK_OFFSET(0x9D36630)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS330_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A0FBB0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS330_0__SHOWOVERLOADANIM_B__0_OFFSET UNITYSDK_OFFSET(0x14A0FDC0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS330_0__SHOWOVERLOADANIM_B__1_OFFSET UNITYSDK_OFFSET(0x14A0FBC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass330_0_TypeDefinitionIndex = 49583;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass330_0_TypeDefinitionIndex = 44964;
 
 	class UIHollowMainPageController___c__DisplayClass330_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowMainPageController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
 		::System::String* loopEffect; // 0x20
 
 		::System::Void _ctor()

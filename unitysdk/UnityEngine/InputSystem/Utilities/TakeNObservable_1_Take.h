@@ -8,7 +8,7 @@ namespace UnityEngine::InputSystem::Utilities { template <typename T> class Take
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int TakeNObservable_1_Take_TypeDefinitionIndex = 28898;
+	inline static constexpr unsigned int TakeNObservable_1_Take_TypeDefinitionIndex = 29416;
 
 	template <typename TValue>
 	class TakeNObservable_1_Take : public ::System::Object

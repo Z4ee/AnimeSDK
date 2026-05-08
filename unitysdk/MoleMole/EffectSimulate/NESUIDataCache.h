@@ -11,12 +11,12 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class MaskableGraphic; }
 
-#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE_METHOD_2_30C4A9EA384065FB_OFFSET UNITYSDK_OFFSET(0xB5AE440)
-#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5AE950)
+#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE_METHOD_2_96D58F367387B136_OFFSET UNITYSDK_OFFSET(0x153EB7D0)
+#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x153EBDA0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int NESUIDataCache_TypeDefinitionIndex = 73265;
+	inline static constexpr unsigned int NESUIDataCache_TypeDefinitionIndex = 39641;
 
 	class NESUIDataCache : public ::MoleMole::EffectSimulate::NESDataCacheBase
 	{
@@ -34,9 +34,9 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_30C4A9EA384065FB(::UnityEngine::GameObject* a1)
+		::System::Void Method_2_96D58F367387B136(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE_METHOD_2_30C4A9EA384065FB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE_METHOD_2_96D58F367387B136_OFFSET))(this, a1);
 		}
 	};
 }

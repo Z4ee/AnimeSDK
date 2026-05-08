@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace UnityEngine::UI::Collections
 {
-	inline static constexpr unsigned int IndexedTable_2_TypeDefinitionIndex = 8480;
+	inline static constexpr unsigned int IndexedTable_2_TypeDefinitionIndex = 8490;
 
 	template <typename K, typename T>
 	class IndexedTable_2 : public ::System::Object

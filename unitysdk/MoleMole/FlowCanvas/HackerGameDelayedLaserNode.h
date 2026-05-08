@@ -15,38 +15,38 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0xA4F0F10)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA4F1100)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_START_OFFSET UNITYSDK_OFFSET(0xA4F13B0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA4F3090)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F3280)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0xA4F33A0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0xA4F33D0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x10E001A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10E00350)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_START_OFFSET UNITYSDK_OFFSET(0x10E005E0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10E02470)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E02640)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x10E02780)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEDELAYEDLASERNODE___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x10E027B0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameDelayedLaserNode_TypeDefinitionIndex = 39818;
+	inline static constexpr unsigned int HackerGameDelayedLaserNode_TypeDefinitionIndex = 68932;
 
 	class HackerGameDelayedLaserNode : public ::MoleMole::FlowCanvas::ChessboardFlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::HollowChessboard::HollowCell>* triggerPoint; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* chessEntityCollection; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::Single>* alertDuration; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::HackerGameBaseDamage*>* damage; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* screenIndex; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Int32>* screenIndex; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowEntity*>* PerformCache; // 0xC0
 		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::DelayedLaser*>* Data; // 0xC8
 		::FlowCanvas::ValueInput_1<::System::Single>* damageDelay; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowEntity*>* PerformCache; // 0xD8
+		::FlowCanvas::ValueInput_1<::MoleMole::HollowChessboard::HollowCell>* triggerPoint; // 0xD8
 		::FlowCanvas::FlowInput* start; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Single>*>* laserPerformSequence; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Single>* damageDuration; // 0xF0
-		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* chessEntityCollection; // 0xF8
-		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* playerEntityCollection; // 0x100
-		::FlowCanvas::ValueInput_1<::System::Int32>* laserWidthExtend; // 0x108
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* boundList; // 0x110
-		::FlowCanvas::FlowOutput* output; // 0x118
-		::FlowCanvas::ValueInput_1<::System::String*>* alertTextureKey; // 0x120
-		::FlowCanvas::ValueInput_1<::System::String*>* laserParticleKey; // 0x128
+		::FlowCanvas::ValueInput_1<::System::String*>* alertTextureKey; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Int32>* laserWidthExtend; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Single>*>* laserPerformSequence; // 0xF8
+		::FlowCanvas::ValueInput_1<::System::String*>* laserParticleKey; // 0x100
+		::FlowCanvas::ValueInput_1<::MoleMole::HackerGameBaseDamage*>* damage; // 0x108
+		::FlowCanvas::ValueInput_1<::System::Single>* damageDuration; // 0x110
+		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* playerEntityCollection; // 0x118
+		::FlowCanvas::FlowOutput* output; // 0x120
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* boundList; // 0x128
 
 		::System::Void _ctor()
 		{

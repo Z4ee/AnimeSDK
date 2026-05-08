@@ -5,7 +5,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Struct_2_996A8643ED0D59AD_Struct_2_F30F86E83E430F24_TypeDefinitionIndex = 67838;
+inline static constexpr unsigned int Struct_2_996A8643ED0D59AD_Struct_2_F30F86E83E430F24_TypeDefinitionIndex = 81689;
 
 template <typename T>
 struct Struct_2_996A8643ED0D59AD_Struct_2_F30F86E83E430F24

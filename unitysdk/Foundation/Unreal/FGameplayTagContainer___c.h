@@ -6,13 +6,13 @@
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B48BC40)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B48BC80)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__OP_EQUALITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B48BC90)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C214950)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C214990)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__OP_EQUALITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C2149A0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagContainer___c_TypeDefinitionIndex = 8952;
+	inline static constexpr unsigned int FGameplayTagContainer___c_TypeDefinitionIndex = 9153;
 
 	class FGameplayTagContainer___c : public ::System::Object
 	{

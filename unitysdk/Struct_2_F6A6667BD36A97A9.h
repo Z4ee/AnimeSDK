@@ -4,9 +4,9 @@
 #include "unitysdk/MoleMole/HollowChessboard/RenderDataHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_F6A6667BD36A97A9__CTOR_OFFSET UNITYSDK_OFFSET(0x336800)
+#define STRUCT_2_F6A6667BD36A97A9__CTOR_OFFSET UNITYSDK_OFFSET(0x3E06F0)
 
-inline static constexpr unsigned int Struct_2_F6A6667BD36A97A9_TypeDefinitionIndex = 67230;
+inline static constexpr unsigned int Struct_2_F6A6667BD36A97A9_TypeDefinitionIndex = 56144;
 
 struct alignas(8) Struct_2_F6A6667BD36A97A9
 {

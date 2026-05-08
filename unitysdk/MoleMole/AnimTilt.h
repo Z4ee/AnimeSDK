@@ -5,15 +5,15 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ANIMTILT_AWAKE_OFFSET UNITYSDK_OFFSET(0x9CCA470)
-#define MOLEMOLE_ANIMTILT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9CCA4D0)
-#define MOLEMOLE_ANIMTILT_METHOD_5_554208C84546EE8E_OFFSET UNITYSDK_OFFSET(0x9CCA540)
-#define MOLEMOLE_ANIMTILT_SETTILTANGLETARGET_OFFSET UNITYSDK_OFFSET(0x9CCA950)
-#define MOLEMOLE_ANIMTILT__CTOR_OFFSET UNITYSDK_OFFSET(0x9CCAA00)
+#define MOLEMOLE_ANIMTILT_AWAKE_OFFSET UNITYSDK_OFFSET(0x122D01E0)
+#define MOLEMOLE_ANIMTILT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x122D0220)
+#define MOLEMOLE_ANIMTILT_METHOD_5_CD28994AFE636FFF_OFFSET UNITYSDK_OFFSET(0x122D0270)
+#define MOLEMOLE_ANIMTILT_SETTILTANGLETARGET_OFFSET UNITYSDK_OFFSET(0x122D0700)
+#define MOLEMOLE_ANIMTILT__CTOR_OFFSET UNITYSDK_OFFSET(0x122D0790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimTilt_TypeDefinitionIndex = 59072;
+	inline static constexpr unsigned int AnimTilt_TypeDefinitionIndex = 46662;
 
 	class AnimTilt : public ::UnityEngine::MonoBehaviour
 	{
@@ -47,9 +47,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ANIMTILT_SETTILTANGLETARGET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_554208C84546EE8E()
+		::System::Void Method_5_CD28994AFE636FFF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANIMTILT_METHOD_5_554208C84546EE8E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANIMTILT_METHOD_5_CD28994AFE636FFF_OFFSET))(this);
 		}
 	};
 }

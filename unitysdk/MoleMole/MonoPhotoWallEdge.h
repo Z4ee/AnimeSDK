@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOPHOTOWALLEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x7A93910)
+#define MOLEMOLE_MONOPHOTOWALLEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1235F840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoPhotoWallEdge_TypeDefinitionIndex = 48172;
+	inline static constexpr unsigned int MonoPhotoWallEdge_TypeDefinitionIndex = 61023;
 
 	class MonoPhotoWallEdge : public ::UnityEngine::MonoBehaviour
 	{

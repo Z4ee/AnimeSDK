@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_COMMONDITHERCONFIGS_KEYVALUEINFO_CAMDITHERLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xB90F910)
+#define MOLEMOLE_CONFIG_COMMONDITHERCONFIGS_KEYVALUEINFO_CAMDITHERLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1399BDB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CommonDitherConfigs_KeyValueInfo_CamDitherLayer_TypeDefinitionIndex = 51559;
+	inline static constexpr unsigned int CommonDitherConfigs_KeyValueInfo_CamDitherLayer_TypeDefinitionIndex = 81280;
 
 	class CommonDitherConfigs_KeyValueInfo_CamDitherLayer : public ::System::Object
 	{

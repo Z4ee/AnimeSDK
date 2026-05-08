@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GalGame/GalGameActionBase.h"
 #include "unitysdk/Share/EPerformInterruptType.h"
 
-#define MOLEMOLE_GALGAME_GALBUBBLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD80AAE0)
+#define MOLEMOLE_GALGAME_GALBUBBLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x138345D0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalBubbleAction_TypeDefinitionIndex = 55614;
+	inline static constexpr unsigned int GalBubbleAction_TypeDefinitionIndex = 79605;
 
 	class GalBubbleAction : public ::MoleMole::GalGame::GalGameActionBase
 	{

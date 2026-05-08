@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UICampIdlePageController; }
 
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS87_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD25EFE0)
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS87_0__SCROLLTOID_B__0_OFFSET UNITYSDK_OFFSET(0xD25EFF0)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS87_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164718E0)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS87_0__SCROLLTOID_B__0_OFFSET UNITYSDK_OFFSET(0x164718F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass87_0_TypeDefinitionIndex = 66506;
+	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass87_0_TypeDefinitionIndex = 69155;
 
 	class UICampIdlePageController___c__DisplayClass87_0 : public ::System::Object
 	{

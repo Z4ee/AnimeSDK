@@ -5,13 +5,13 @@
 namespace NodeCanvas::DialogueTrees { class DialogueTree; }
 namespace NodeCanvas::DialogueTrees { class IDialogueActor; }
 
-#define FLOWCANVAS_NODES_FLOWNESTEDDT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A601430)
-#define FLOWCANVAS_NODES_FLOWNESTEDDT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6014C0)
-#define FLOWCANVAS_NODES_FLOWNESTEDDT__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A601550)
+#define FLOWCANVAS_NODES_FLOWNESTEDDT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B49B500)
+#define FLOWCANVAS_NODES_FLOWNESTEDDT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49B590)
+#define FLOWCANVAS_NODES_FLOWNESTEDDT__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B49B620)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FlowNestedDT_TypeDefinitionIndex = 26279;
+	inline static constexpr unsigned int FlowNestedDT_TypeDefinitionIndex = 27718;
 
 	class FlowNestedDT : public ::FlowCanvas::Nodes::FlowNestedBase_1<::NodeCanvas::DialogueTrees::DialogueTree*>
 	{

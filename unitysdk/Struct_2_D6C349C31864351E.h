@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_D6C349C31864351E_METHOD_2_20F4806358A3520A_OFFSET UNITYSDK_OFFSET(0x34A0D0)
-#define STRUCT_2_D6C349C31864351E_METHOD_2_A39080B57B55848D_OFFSET UNITYSDK_OFFSET(0x80565B0)
-#define STRUCT_2_D6C349C31864351E_METHOD_2_D126582672457EA7_OFFSET UNITYSDK_OFFSET(0x34A0A0)
-#define STRUCT_2_D6C349C31864351E__CTOR_OFFSET UNITYSDK_OFFSET(0x34A090)
+#define STRUCT_2_D6C349C31864351E_METHOD_2_20F4806358A3520A_OFFSET UNITYSDK_OFFSET(0x700E70)
+#define STRUCT_2_D6C349C31864351E_METHOD_2_A39080B57B55848D_OFFSET UNITYSDK_OFFSET(0x10AFC660)
+#define STRUCT_2_D6C349C31864351E_METHOD_2_D126582672457EA7_OFFSET UNITYSDK_OFFSET(0x700E40)
+#define STRUCT_2_D6C349C31864351E__CTOR_OFFSET UNITYSDK_OFFSET(0x700E30)
 
-inline static constexpr unsigned int Struct_2_D6C349C31864351E_TypeDefinitionIndex = 55401;
+inline static constexpr unsigned int Struct_2_D6C349C31864351E_TypeDefinitionIndex = 48188;
 
 struct alignas(4) Struct_2_D6C349C31864351E
 {
@@ -24,17 +24,17 @@ struct alignas(4) Struct_2_D6C349C31864351E
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_D6C349C31864351E__CTOR_OFFSET))(this, a1);
 	}
 
+	static ::System::Collections::Generic::List_1<::Struct_2_D6C349C31864351E>* Method_2_A39080B57B55848D(::System::String* a1)
+	{
+		return ((::System::Collections::Generic::List_1<::Struct_2_D6C349C31864351E>*(*)(::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_D6C349C31864351E_METHOD_2_A39080B57B55848D_OFFSET))(a1);
+	}
+
 	/*
 	::System::Boolean Method_2_D126582672457EA7(::Struct_2_300DB4F0FE095A56 a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::Struct_2_300DB4F0FE095A56))((::PBYTE)hIl2Cpp + STRUCT_2_D6C349C31864351E_METHOD_2_D126582672457EA7_OFFSET))(this, a1);
 	}
 	*/
-
-	static ::System::Collections::Generic::List_1<::Struct_2_D6C349C31864351E>* Method_2_A39080B57B55848D(::System::String* a1)
-	{
-		return ((::System::Collections::Generic::List_1<::Struct_2_D6C349C31864351E>*(*)(::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_D6C349C31864351E_METHOD_2_A39080B57B55848D_OFFSET))(a1);
-	}
 
 	/*
 	::System::Boolean Method_2_20F4806358A3520A(::Struct_2_300DB4F0FE095A56 a1)

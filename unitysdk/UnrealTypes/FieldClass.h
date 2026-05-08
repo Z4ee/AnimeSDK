@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define UNREALTYPES_FIELDCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20BD10)
+#define UNREALTYPES_FIELDCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA2A20)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FieldClass_TypeDefinitionIndex = 24720;
+	inline static constexpr unsigned int FieldClass_TypeDefinitionIndex = 25234;
 
 	class FieldClass : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::UnrealTypes::FieldClass* SuperClass; // 0x18
+		::UnrealTypes::FieldClass* SuperClass; // 0x10
+		::System::String* Name; // 0x18
 
 		::System::Void _ctor()
 		{

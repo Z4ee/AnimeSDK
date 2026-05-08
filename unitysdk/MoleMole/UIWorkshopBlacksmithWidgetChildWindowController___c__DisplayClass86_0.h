@@ -6,19 +6,19 @@ class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UIWorkshopBlacksmithWidgetChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x95B89E0)
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS86_0__OPENDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x95B89F0)
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS86_0__OPENDETAIL_B__1_OFFSET UNITYSDK_OFFSET(0x95B8BC0)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1276FFB0)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS86_0__OPENDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1276FFC0)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS86_0__OPENDETAIL_B__1_OFFSET UNITYSDK_OFFSET(0x12770190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkshopBlacksmithWidgetChildWindowController___c__DisplayClass86_0_TypeDefinitionIndex = 57560;
+	inline static constexpr unsigned int UIWorkshopBlacksmithWidgetChildWindowController___c__DisplayClass86_0_TypeDefinitionIndex = 67827;
 
 	class UIWorkshopBlacksmithWidgetChildWindowController___c__DisplayClass86_0 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* curItemData; // 0x10
-		::MoleMole::UIWorkshopBlacksmithWidgetChildWindowController* __4__this; // 0x18
+		::MoleMole::UIWorkshopBlacksmithWidgetChildWindowController* __4__this; // 0x10
+		::Class_1_0D6706375CDAAE8C* curItemData; // 0x18
 		::System::Action* __9__1; // 0x20
 
 		::System::Void _ctor()

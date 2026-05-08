@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_DIRECTIONSTRINGCONFIGGROUP_GETCONFIGBYDIRECTION_OFFSET UNITYSDK_OFFSET(0x3A7620)
+#define MOLEMOLE_CONFIG_DIRECTIONSTRINGCONFIGGROUP_GETCONFIGBYDIRECTION_OFFSET UNITYSDK_OFFSET(0x70ACC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DirectionStringConfigGroup_TypeDefinitionIndex = 69469;
+	inline static constexpr unsigned int DirectionStringConfigGroup_TypeDefinitionIndex = 48948;
 
 	struct alignas(8) DirectionStringConfigGroup
 	{

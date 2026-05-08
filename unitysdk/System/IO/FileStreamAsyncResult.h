@@ -7,12 +7,12 @@ namespace System { class IAsyncResult; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x195A8840)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x195A88D0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x195A88F0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x195A88E0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x195A8900)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x195A87A0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x19ECC900)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x19ECC990)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x19ECC9B0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x19ECC9A0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x19ECC9C0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECC860)
 
 namespace System::IO
 {
@@ -21,15 +21,15 @@ namespace System::IO
 	class FileStreamAsyncResult : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEvent* wh; // 0x10
-		::System::Object* state; // 0x18
-		::System::AsyncCallback* realcb; // 0x20
-		::System::AsyncCallback* cb; // 0x28
-		::System::Boolean completedSynch; // 0x30
-		::System::Boolean completed; // 0x31
-		::System::Int32 OriginalCount; // 0x34
-		::System::Int32 BytesRead; // 0x38
-		::System::Int32 Count; // 0x3C
+		::System::AsyncCallback* realcb; // 0x10
+		::System::AsyncCallback* cb; // 0x18
+		::System::Object* state; // 0x20
+		::System::Threading::ManualResetEvent* wh; // 0x28
+		::System::Int32 Count; // 0x30
+		::System::Boolean completedSynch; // 0x34
+		::System::Boolean completed; // 0x35
+		::System::Int32 OriginalCount; // 0x38
+		::System::Int32 BytesRead; // 0x3C
 
 		::System::Void _ctor(::System::AsyncCallback* cb, ::System::Object* state)
 		{

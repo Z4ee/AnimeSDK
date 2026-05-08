@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int INPCCrowdDistanceCheckInterface_TypeDefinitionIndex = 50951;
+	inline static constexpr unsigned int INPCCrowdDistanceCheckInterface_TypeDefinitionIndex = 44564;
 
 	class INPCCrowdDistanceCheckInterface
 	{

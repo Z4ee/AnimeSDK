@@ -11,37 +11,37 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPRENDERPARAMETERSARRAY_FILLINGPROPERTYDICT_OFFSET UNITYSDK_OFFSET(0x177F6B50)
-#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYINFO_OFFSET UNITYSDK_OFFSET(0x177F8E90)
-#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYSIZE_OFFSET UNITYSDK_OFFSET(0x177F90E0)
-#define NAPRENDERPARAMETERSARRAY_INITMATERIALVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x177F85D0)
-#define NAPRENDERPARAMETERSARRAY_ISARRAYPROPERTY_OFFSET UNITYSDK_OFFSET(0x177F9030)
-#define NAPRENDERPARAMETERSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x177F9140)
+#define NAPRENDERPARAMETERSARRAY_FILLINGPROPERTYDICT_OFFSET UNITYSDK_OFFSET(0x19274EF0)
+#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYINFO_OFFSET UNITYSDK_OFFSET(0x19276E80)
+#define NAPRENDERPARAMETERSARRAY_GETPROPERTYARRAYSIZE_OFFSET UNITYSDK_OFFSET(0x192770D0)
+#define NAPRENDERPARAMETERSARRAY_INITMATERIALVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19276630)
+#define NAPRENDERPARAMETERSARRAY_ISARRAYPROPERTY_OFFSET UNITYSDK_OFFSET(0x19277020)
+#define NAPRENDERPARAMETERSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19277130)
 
-inline static constexpr unsigned int NapRenderParametersArray_TypeDefinitionIndex = 29070;
+inline static constexpr unsigned int NapRenderParametersArray_TypeDefinitionIndex = 29589;
 
 class NapRenderParametersArray : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_floatLayout()
-	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x227E0);
-	}
 	static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>** StaticGet_vectorLayout()
 	{
-		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x227E8);
+		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::ArrayPropertyType, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x23350);
+	}
+	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_floatLayout()
+	{
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x23358);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>** StaticGet_propertyIDDict()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x227F0);
-	}
-	static ::System::Int32* StaticGet_vectorArrayLength()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5A00);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::ArrayPropertyData>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x23360);
 	}
 	static ::System::Boolean* StaticGet_logOnSetArrayPropertyFromExt()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5A04);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5A30);
+	}
+	static ::System::Int32* StaticGet_vectorArrayLength()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderParametersArray_TypeDefinitionIndex)->GetStaticField(0x5A34);
 	}
 
 	static ::System::Void _cctor()

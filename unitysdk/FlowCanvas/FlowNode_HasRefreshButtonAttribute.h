@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define FLOWCANVAS_FLOWNODE_HASREFRESHBUTTONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEC9B0)
+#define FLOWCANVAS_FLOWNODE_HASREFRESHBUTTONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAB2B0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNode_HasRefreshButtonAttribute_TypeDefinitionIndex = 27089;
+	inline static constexpr unsigned int FlowNode_HasRefreshButtonAttribute_TypeDefinitionIndex = 27882;
 
 	class FlowNode_HasRefreshButtonAttribute : public ::System::Attribute
 	{

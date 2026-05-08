@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReadOnlyNativeVariable_1_TypeDefinitionIndex = 8772;
+	inline static constexpr unsigned int ReadOnlyNativeVariable_1_TypeDefinitionIndex = 9073;
 
 	template <typename T>
 	struct ReadOnlyNativeVariable_1

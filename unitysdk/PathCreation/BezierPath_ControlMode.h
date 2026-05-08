@@ -3,7 +3,7 @@
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int BezierPath_ControlMode_TypeDefinitionIndex = 35290;
+	inline static constexpr unsigned int BezierPath_ControlMode_TypeDefinitionIndex = 35834;
 
 	enum class BezierPath_ControlMode : ::System::Int32
 	{

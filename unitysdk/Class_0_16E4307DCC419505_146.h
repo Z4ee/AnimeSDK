@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3DFF9931974CDE28.h"
+#include "unitysdk/Struct_2_17E0E0442218CD79.h"
 
-namespace MoleMole { class UIAbyssS2InLevelMapDialogPageController_IUIInLevelItemPackageInfoBase; }
+class Class_0_16E4307DCC419505_145;
+class Class_1_1C46DBAB65E43874;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_146_TypeDefinitionIndex = 69172;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_146_TypeDefinitionIndex = 50805;
 
 class Class_0_16E4307DCC419505_146
 {

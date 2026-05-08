@@ -11,13 +11,13 @@ namespace MoleMole::Config { class DevicePerformanceConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x9D06FF0)
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x9D06FE0)
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x9D07060)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1230BA60)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1230BA50)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1230BAB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGraphicSetting_TypeDefinitionIndex = 43649;
+	inline static constexpr unsigned int ConfigGraphicSetting_TypeDefinitionIndex = 58034;
 
 	class ConfigGraphicSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

@@ -6,24 +6,24 @@
 namespace MoleMole::Photo { class AnimationModifyCurveValueItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUECONFIG___C_METHOD_1_990263BC0BE1F726_OFFSET UNITYSDK_OFFSET(0x9851E30)
-#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUECONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9851DE0)
-#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUECONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9851E20)
+#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUECONFIG___C_METHOD_1_990263BC0BE1F726_OFFSET UNITYSDK_OFFSET(0x117801B0)
+#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUECONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11780160)
+#define MOLEMOLE_PHOTO_ANIMATIONMODIFYCURVEVALUECONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x117801A0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationModifyCurveValueConfig___c_TypeDefinitionIndex = 80253;
+	inline static constexpr unsigned int AnimationModifyCurveValueConfig___c_TypeDefinitionIndex = 71047;
 
 	class AnimationModifyCurveValueConfig___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Photo::AnimationModifyCurveValueConfig___c** StaticGet___9()
-		{
-			return (::MoleMole::Photo::AnimationModifyCurveValueConfig___c**)Il2CppClass::FromTypeDefinitionIndex(AnimationModifyCurveValueConfig___c_TypeDefinitionIndex)->GetStaticField(0x2DF40);
-		}
 		static ::System::Func_2<::MoleMole::Photo::AnimationModifyCurveValueItem*, ::Foundation::Unreal::FName>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::MoleMole::Photo::AnimationModifyCurveValueItem*, ::Foundation::Unreal::FName>**)Il2CppClass::FromTypeDefinitionIndex(AnimationModifyCurveValueConfig___c_TypeDefinitionIndex)->GetStaticField(0x2DF48);
+			return (::System::Func_2<::MoleMole::Photo::AnimationModifyCurveValueItem*, ::Foundation::Unreal::FName>**)Il2CppClass::FromTypeDefinitionIndex(AnimationModifyCurveValueConfig___c_TypeDefinitionIndex)->GetStaticField(0x2E8F0);
+		}
+		static ::MoleMole::Photo::AnimationModifyCurveValueConfig___c** StaticGet___9()
+		{
+			return (::MoleMole::Photo::AnimationModifyCurveValueConfig___c**)Il2CppClass::FromTypeDefinitionIndex(AnimationModifyCurveValueConfig___c_TypeDefinitionIndex)->GetStaticField(0x2E8F8);
 		}
 
 		static ::System::Void _cctor()

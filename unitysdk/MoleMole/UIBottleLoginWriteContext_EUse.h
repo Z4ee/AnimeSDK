@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBottleLoginWriteContext_EUse_TypeDefinitionIndex = 51137;
+	inline static constexpr unsigned int UIBottleLoginWriteContext_EUse_TypeDefinitionIndex = 60351;
 
 	enum class UIBottleLoginWriteContext_EUse : ::System::Int32
 	{

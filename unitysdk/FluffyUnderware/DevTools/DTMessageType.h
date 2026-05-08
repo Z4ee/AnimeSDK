@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTMessageType_TypeDefinitionIndex = 25343;
+	inline static constexpr unsigned int DTMessageType_TypeDefinitionIndex = 25857;
 
 	enum class DTMessageType : ::System::Int32
 	{

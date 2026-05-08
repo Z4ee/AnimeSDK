@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0xCAF6490)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xCAF64A0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0xF98D500)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xF98D510)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundSetting_TypeDefinitionIndex = 78157;
+	inline static constexpr unsigned int ConfigSoundSetting_TypeDefinitionIndex = 82936;
 
 	class ConfigSoundSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

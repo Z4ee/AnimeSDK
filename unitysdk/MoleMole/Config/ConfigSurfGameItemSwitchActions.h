@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSurfGameItemAction.h"
 
-class Class_0_16E4307DCC419505_157;
+class Class_0_16E4307DCC419505_207;
 namespace MoleMole::Config { class ConfigSurfGameItemPredicate; }
 
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x81F2640)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x81F2560)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_INTERNALEXECUTE_OFFSET UNITYSDK_OFFSET(0x81F26E0)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x81F27B0)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS___BASE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x81F27C0)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xFB0BE60)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFB0BDC0)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_INTERNALEXECUTE_OFFSET UNITYSDK_OFFSET(0xFB0BEE0)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0BF90)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS___BASE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFB0BFA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameItemSwitchActions_TypeDefinitionIndex = 71982;
+	inline static constexpr unsigned int ConfigSurfGameItemSwitchActions_TypeDefinitionIndex = 76420;
 
 	class ConfigSurfGameItemSwitchActions : public ::MoleMole::Config::ConfigSurfGameItemAction
 	{
 	public:
-		::MoleMole::Config::ConfigSurfGameItemPredicate* Predicate; // 0x10
-		::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* FalseActions; // 0x18
-		::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* TrueActions; // 0x20
+		::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* FalseActions; // 0x10
+		::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* TrueActions; // 0x18
+		::MoleMole::Config::ConfigSurfGameItemPredicate* Predicate; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -32,19 +32,19 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_OFFSET))(this);
 		}
 
-		::System::Void Execute_1(::Class_0_16E4307DCC419505_157* source)
+		::System::Void Execute_1(::Class_0_16E4307DCC419505_207* source)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_157*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_1_OFFSET))(this, source);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_207*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_EXECUTE_1_OFFSET))(this, source);
 		}
 
-		::System::Void InternalExecute(::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* actions, ::Class_0_16E4307DCC419505_157* source)
+		::System::Void InternalExecute(::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* actions, ::Class_0_16E4307DCC419505_207* source)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>*, ::Class_0_16E4307DCC419505_157*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_INTERNALEXECUTE_OFFSET))(this, actions, source);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>*, ::Class_0_16E4307DCC419505_207*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS_INTERNALEXECUTE_OFFSET))(this, actions, source);
 		}
 
-		::System::Void __base_Execute(::Class_0_16E4307DCC419505_157* P0)
+		::System::Void __base_Execute(::Class_0_16E4307DCC419505_207* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_157*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS___BASE_EXECUTE_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_207*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMSWITCHACTIONS___BASE_EXECUTE_OFFSET))(this, P0);
 		}
 	};
 }

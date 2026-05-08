@@ -6,34 +6,34 @@ namespace MoleMole::Timeline::ZNet { class ZNetGroupTrack; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Timeline { class GroupTrack; }
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_0D2A79BBA866D7DC_OFFSET UNITYSDK_OFFSET(0xA5569D0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_735B19F2BDC753A9_1_OFFSET UNITYSDK_OFFSET(0xA5569B0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_735B19F2BDC753A9_OFFSET UNITYSDK_OFFSET(0xA556990)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA556940)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA556980)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_735B19F2BDC753A9_1_OFFSET UNITYSDK_OFFSET(0x15BCC840)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_735B19F2BDC753A9_OFFSET UNITYSDK_OFFSET(0x15BCC820)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_9ABB49DACA67D467_OFFSET UNITYSDK_OFFSET(0x15BCC750)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BCC700)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15BCC740)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetExQTETagSupportTrack___c_TypeDefinitionIndex = 68421;
+	inline static constexpr unsigned int ZNetExQTETagSupportTrack___c_TypeDefinitionIndex = 41231;
 
 	class ZNetExQTETagSupportTrack___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Timeline::GroupTrack*, ::System::Boolean>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::UnityEngine::Timeline::GroupTrack*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x31800);
-		}
 		static ::MoleMole::Timeline::ZNet::ZNetExQTETagSupportTrack___c** StaticGet___9()
 		{
-			return (::MoleMole::Timeline::ZNet::ZNetExQTETagSupportTrack___c**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x31808);
+			return (::MoleMole::Timeline::ZNet::ZNetExQTETagSupportTrack___c**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x32490);
 		}
 		static ::System::Func_2<::MoleMole::Timeline::ZNet::ZNetGroupTrack*, ::System::Boolean>** StaticGet___9__0_2()
 		{
-			return (::System::Func_2<::MoleMole::Timeline::ZNet::ZNetGroupTrack*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x31810);
+			return (::System::Func_2<::MoleMole::Timeline::ZNet::ZNetGroupTrack*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x32498);
+		}
+		static ::System::Func_2<::UnityEngine::Timeline::GroupTrack*, ::System::Boolean>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::UnityEngine::Timeline::GroupTrack*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x324A0);
 		}
 		static ::System::Func_2<::MoleMole::Timeline::ZNet::ZNetGroupTrack*, ::System::Boolean>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::MoleMole::Timeline::ZNet::ZNetGroupTrack*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x31818);
+			return (::System::Func_2<::MoleMole::Timeline::ZNet::ZNetGroupTrack*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ZNetExQTETagSupportTrack___c_TypeDefinitionIndex)->GetStaticField(0x324A8);
 		}
 
 		static ::System::Void _cctor()
@@ -46,6 +46,11 @@ namespace MoleMole::Timeline::ZNet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C__CTOR_OFFSET))(this);
 		}
 
+		::System::Boolean Method_1_9ABB49DACA67D467(::UnityEngine::Timeline::GroupTrack* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::GroupTrack*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_9ABB49DACA67D467_OFFSET))(this, a1);
+		}
+
 		::System::Boolean Method_1_735B19F2BDC753A9(::MoleMole::Timeline::ZNet::ZNetGroupTrack* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Timeline::ZNet::ZNetGroupTrack*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_735B19F2BDC753A9_OFFSET))(this, a1);
@@ -54,11 +59,6 @@ namespace MoleMole::Timeline::ZNet
 		::System::Boolean Method_1_735B19F2BDC753A9_1(::MoleMole::Timeline::ZNet::ZNetGroupTrack* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Timeline::ZNet::ZNetGroupTrack*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_735B19F2BDC753A9_1_OFFSET))(this, a1);
-		}
-
-		::System::Boolean Method_1_0D2A79BBA866D7DC(::UnityEngine::Timeline::GroupTrack* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::GroupTrack*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETEXQTETAGSUPPORTTRACK___C_METHOD_1_0D2A79BBA866D7DC_OFFSET))(this, a1);
 		}
 	};
 }

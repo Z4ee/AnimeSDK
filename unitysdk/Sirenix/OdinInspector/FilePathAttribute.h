@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_FILEPATHATTRIBUTE_GET_READONLY_OFFSET UNITYSDK_OFFSET(0x1B114460)
-#define SIRENIX_ODININSPECTOR_FILEPATHATTRIBUTE_SET_READONLY_OFFSET UNITYSDK_OFFSET(0x1B114470)
-#define SIRENIX_ODININSPECTOR_FILEPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B114480)
+#define SIRENIX_ODININSPECTOR_FILEPATHATTRIBUTE_GET_READONLY_OFFSET UNITYSDK_OFFSET(0x1C01F910)
+#define SIRENIX_ODININSPECTOR_FILEPATHATTRIBUTE_SET_READONLY_OFFSET UNITYSDK_OFFSET(0x1C01F920)
+#define SIRENIX_ODININSPECTOR_FILEPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F930)
 
 namespace Sirenix::OdinInspector
 {
@@ -17,11 +17,11 @@ namespace Sirenix::OdinInspector
 	public:
 		::System::String* ParentFolder; // 0x10
 		::System::String* Extensions; // 0x18
-		::System::Boolean RequireExistingPath; // 0x20
-		::System::Boolean AbsolutePath; // 0x21
-		::System::Boolean RequireValidPath; // 0x22
-		::System::Boolean _ReadOnly_k__BackingField; // 0x23
-		::System::Boolean UseBackslashes; // 0x24
+		::System::Boolean _ReadOnly_k__BackingField; // 0x20
+		::System::Boolean RequireValidPath; // 0x21
+		::System::Boolean AbsolutePath; // 0x22
+		::System::Boolean UseBackslashes; // 0x23
+		::System::Boolean RequireExistingPath; // 0x24
 
 		::System::Void _ctor()
 		{

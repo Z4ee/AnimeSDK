@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 
-inline static constexpr unsigned int Class_1_5908431D9A8FB2AE_Class_1_F965D706AFDC2753_TypeDefinitionIndex = 31852;
+inline static constexpr unsigned int Class_1_5908431D9A8FB2AE_Class_1_F965D706AFDC2753_TypeDefinitionIndex = 32370;
 
 template <typename T>
 class Class_1_5908431D9A8FB2AE_Class_1_F965D706AFDC2753 : public ::System::Object

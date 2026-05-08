@@ -5,11 +5,11 @@
 namespace MoleMole::Level { class LevelConfig_GlobalAIUpgradeParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_GLOBALAIUPGRADEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E2010)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_GLOBALAIUPGRADEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x16052140)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_GlobalAIUpgradePair_TypeDefinitionIndex = 39457;
+	inline static constexpr unsigned int LevelConfig_GlobalAIUpgradePair_TypeDefinitionIndex = 48337;
 
 	class LevelConfig_GlobalAIUpgradePair : public ::System::Object
 	{

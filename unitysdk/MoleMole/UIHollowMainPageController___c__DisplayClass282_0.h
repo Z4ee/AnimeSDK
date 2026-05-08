@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHollowMainPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS282_0__CHANGEGRID_B__0_OFFSET UNITYSDK_OFFSET(0x744BCE0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS282_0__CTOR_OFFSET UNITYSDK_OFFSET(0x744BCD0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS282_0__CHANGEGRID_B__0_OFFSET UNITYSDK_OFFSET(0x14817960)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS282_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14817950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass282_0_TypeDefinitionIndex = 49577;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass282_0_TypeDefinitionIndex = 44951;
 
 	class UIHollowMainPageController___c__DisplayClass282_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowMainPageController* __4__this; // 0x10
-		::System::Action* onChangeGridFinish; // 0x18
+		::System::Action* onChangeGridFinish; // 0x10
+		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

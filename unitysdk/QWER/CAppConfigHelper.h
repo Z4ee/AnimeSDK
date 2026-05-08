@@ -9,23 +9,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http { class HttpClient; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define QWER_CAPPCONFIGHELPER_PARSECOMMANDLINEARGS_OFFSET UNITYSDK_OFFSET(0x1B00A5E0)
-#define QWER_CAPPCONFIGHELPER_READCONFIGFILELISTASYNC_OFFSET UNITYSDK_OFFSET(0x1B00A020)
-#define QWER_CAPPCONFIGHELPER_READFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1B009F60)
-#define QWER_CAPPCONFIGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B00A8D0)
-#define QWER_CAPPCONFIGHELPER__READLOCALFILE_OFFSET UNITYSDK_OFFSET(0x1B00A1C0)
-#define QWER_CAPPCONFIGHELPER__READWEBFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1B00A0E0)
+#define QWER_CAPPCONFIGHELPER_PARSECOMMANDLINEARGS_OFFSET UNITYSDK_OFFSET(0x1BE83470)
+#define QWER_CAPPCONFIGHELPER_READCONFIGFILELISTASYNC_OFFSET UNITYSDK_OFFSET(0x1BE82EE0)
+#define QWER_CAPPCONFIGHELPER_READFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1BE82E20)
+#define QWER_CAPPCONFIGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE837C0)
+#define QWER_CAPPCONFIGHELPER__READLOCALFILE_OFFSET UNITYSDK_OFFSET(0x1BE83090)
+#define QWER_CAPPCONFIGHELPER__READWEBFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1BE82FB0)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CAppConfigHelper_TypeDefinitionIndex = 84107;
+	inline static constexpr unsigned int CAppConfigHelper_TypeDefinitionIndex = 85835;
 
 	class CAppConfigHelper : public ::System::Object
 	{
 	public:
 		static ::System::Net::Http::HttpClient** StaticGet_m_oHttpClient()
 		{
-			return (::System::Net::Http::HttpClient**)Il2CppClass::FromTypeDefinitionIndex(CAppConfigHelper_TypeDefinitionIndex)->GetStaticField(0x49030);
+			return (::System::Net::Http::HttpClient**)Il2CppClass::FromTypeDefinitionIndex(CAppConfigHelper_TypeDefinitionIndex)->GetStaticField(0x4ABA0);
 		}
 
 		static ::System::Void _cctor()

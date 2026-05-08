@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUICommon_Input; }
 
-#define MOLEMOLE_CONFIGUIINPUTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xEC6B8B0)
+#define MOLEMOLE_CONFIGUIINPUTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x181F0CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIInputItem_TypeDefinitionIndex = 46056;
+	inline static constexpr unsigned int ConfigUIInputItem_TypeDefinitionIndex = 60378;
 
 	class ConfigUIInputItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_Input*>
 	{

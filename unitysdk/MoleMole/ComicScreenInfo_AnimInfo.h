@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_COMICSCREENINFO_ANIMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA02EB0)
+#define MOLEMOLE_COMICSCREENINFO_ANIMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79F350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicScreenInfo_AnimInfo_TypeDefinitionIndex = 30056;
+	inline static constexpr unsigned int ComicScreenInfo_AnimInfo_TypeDefinitionIndex = 30585;
 
 	class ComicScreenInfo_AnimInfo : public ::System::Object
 	{

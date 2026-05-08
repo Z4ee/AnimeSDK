@@ -6,13 +6,13 @@
 
 namespace System { class String; }
 
-#define MDB_MDBCOLLIDER_COPYPARAMETERS_OFFSET UNITYSDK_OFFSET(0x11B20560)
-#define MDB_MDBCOLLIDER_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x11B205F0)
-#define MDB_MDBCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x11B20680)
+#define MDB_MDBCOLLIDER_COPYPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1033F820)
+#define MDB_MDBCOLLIDER_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1033F890)
+#define MDB_MDBCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1033F900)
 
 namespace Mdb
 {
-	inline static constexpr unsigned int MdbCollider_TypeDefinitionIndex = 84205;
+	inline static constexpr unsigned int MdbCollider_TypeDefinitionIndex = 85925;
 
 	class MdbCollider : public ::UnityEngine::MonoBehaviour
 	{

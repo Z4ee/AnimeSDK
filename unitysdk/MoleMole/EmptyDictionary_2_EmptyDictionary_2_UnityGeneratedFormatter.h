@@ -9,7 +9,7 @@ namespace Sirenix::Serialization { class IDataWriter; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EmptyDictionary_2_EmptyDictionary_2_UnityGeneratedFormatter_TypeDefinitionIndex = 43079;
+	inline static constexpr unsigned int EmptyDictionary_2_EmptyDictionary_2_UnityGeneratedFormatter_TypeDefinitionIndex = 49841;
 
 	template <typename TKey, typename TValue>
 	class EmptyDictionary_2_EmptyDictionary_2_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::EmptyDictionary_2<TKey, TValue>*>

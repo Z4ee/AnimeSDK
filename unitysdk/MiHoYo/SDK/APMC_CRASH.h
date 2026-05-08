@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_CRASH_TypeDefinitionIndex = 34778;
+	inline static constexpr unsigned int APMC_CRASH_TypeDefinitionIndex = 35316;
 
 	class APMC_CRASH : public ::System::Object
 	{

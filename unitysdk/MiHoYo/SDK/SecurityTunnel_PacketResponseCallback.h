@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class SecurityTunnel_ResponseCallbackAction; }
 namespace System::Timers { class Timer; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETRESPONSECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x30B240)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETRESPONSECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x399A00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_PacketResponseCallback_TypeDefinitionIndex = 34673;
+	inline static constexpr unsigned int SecurityTunnel_PacketResponseCallback_TypeDefinitionIndex = 35209;
 
 	struct alignas(8) SecurityTunnel_PacketResponseCallback
 	{

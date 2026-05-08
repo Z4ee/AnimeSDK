@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17791A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFEE70)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_CharacterConfig_TypeDefinitionIndex = 29439;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_CharacterConfig_TypeDefinitionIndex = 29958;
 
 	class WeatherConfigAdditionalData_CharacterConfig : public ::System::Object
 	{

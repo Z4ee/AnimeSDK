@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA02F3D0)
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_START_OFFSET UNITYSDK_OFFSET(0xA02ED90)
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA02F600)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1175F3C0)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_START_OFFSET UNITYSDK_OFFSET(0x1175ED00)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1175F650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginSortDecalSimple_TypeDefinitionIndex = 64269;
+	inline static constexpr unsigned int MonoEffectPluginSortDecalSimple_TypeDefinitionIndex = 76511;
 
 	class MonoEffectPluginSortDecalSimple : public ::MoleMole::MonoEffectPluginBase
 	{

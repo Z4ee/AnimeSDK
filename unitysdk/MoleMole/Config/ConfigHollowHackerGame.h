@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWHACKERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0xACC5DD0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWHACKERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x175368A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowHackerGame_TypeDefinitionIndex = 43414;
+	inline static constexpr unsigned int ConfigHollowHackerGame_TypeDefinitionIndex = 66312;
 
 	class ConfigHollowHackerGame : public ::Foundation::MihoyoSerializedScriptableObject
 	{

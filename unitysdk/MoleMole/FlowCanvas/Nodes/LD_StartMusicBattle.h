@@ -7,24 +7,24 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_PLAYTIMELINE_OFFSET UNITYSDK_OFFSET(0xA7D8AE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA7D8970)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_TRYCALLFINISH_OFFSET UNITYSDK_OFFSET(0xA7D91D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_TRYPLAYMUSIC_OFFSET UNITYSDK_OFFSET(0xA7D8F00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D9350)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_PLAYTIMELINE_OFFSET UNITYSDK_OFFSET(0x16048C10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16048AC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_TRYCALLFINISH_OFFSET UNITYSDK_OFFSET(0x16049280)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE_TRYPLAYMUSIC_OFFSET UNITYSDK_OFFSET(0x16049000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STARTMUSICBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x160493C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_StartMusicBattle_TypeDefinitionIndex = 66766;
+	inline static constexpr unsigned int LD_StartMusicBattle_TypeDefinitionIndex = 42790;
 
 	class LD_StartMusicBattle : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* _customTag; // 0xA8
-		::FlowCanvas::FlowOutput* _finish; // 0xB0
+		::FlowCanvas::FlowOutput* _finish; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* _customTag; // 0xB0
 		::FlowCanvas::FlowOutput* _output; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::String*>* _timelineDataKey; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::String*>* _soundKey; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::String*>* _soundKey; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* _timelineDataKey; // 0xC8
 
 		::System::Void _ctor()
 		{

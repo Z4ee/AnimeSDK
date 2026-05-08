@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::Math
 {
-	inline static constexpr unsigned int IntComparison_Operation_TypeDefinitionIndex = 31584;
+	inline static constexpr unsigned int IntComparison_Operation_TypeDefinitionIndex = 32113;
 
 	enum class IntComparison_Operation : ::System::Int32
 	{

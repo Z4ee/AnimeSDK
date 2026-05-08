@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_5_0B648F1F8F6AC84A;
+class Class_5_A6F8D19602712D95;
 namespace MoleMole { class UIHollowMainPageController; }
 namespace MoleMole::Config { class ConfigChessboardPlayStartPerform; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8931A50)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x8931A60)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x8931C70)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x8931C20)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152640D0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x152640E0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x15264360)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x15264310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_0_TypeDefinitionIndex = 49559;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_0_TypeDefinitionIndex = 44959;
 
 	class UIHollowMainPageController___c__DisplayClass115_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
+		::Class_5_A6F8D19602712D95* pieceCtrl; // 0x10
 		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
 		::MoleMole::Config::ConfigChessboardPlayStartPerform* config; // 0x20
-		::Class_5_0B648F1F8F6AC84A* pieceCtrl; // 0x28
-		::System::Action* endCB; // 0x30
+		::System::Action* endCB; // 0x28
+		::System::Action* __9__3; // 0x30
 
 		::System::Void _ctor()
 		{

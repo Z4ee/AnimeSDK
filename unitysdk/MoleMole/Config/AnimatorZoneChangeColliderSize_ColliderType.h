@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneChangeColliderSize_ColliderType_TypeDefinitionIndex = 73902;
+	inline static constexpr unsigned int AnimatorZoneChangeColliderSize_ColliderType_TypeDefinitionIndex = 73947;
 
 	enum class AnimatorZoneChangeColliderSize_ColliderType : ::System::Int32
 	{

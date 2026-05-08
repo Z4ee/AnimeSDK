@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Grounding_Quality_TypeDefinitionIndex = 36026;
+	inline static constexpr unsigned int Grounding_Quality_TypeDefinitionIndex = 36570;
 
 	enum class Grounding_Quality : ::System::Int32
 	{

@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_5;
+class Class_0_16E4307DCC419505_11;
 class Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C;
 class Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1;
 
-#define MOLEMOLE_SURFLOGSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4805D0)
-#define MOLEMOLE_SURFLOGSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA480610)
-#define MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_0_OFFSET UNITYSDK_OFFSET(0xA480640)
-#define MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_1_OFFSET UNITYSDK_OFFSET(0xA480650)
-#define MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_0_OFFSET UNITYSDK_OFFSET(0xA480620)
-#define MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_1_OFFSET UNITYSDK_OFFSET(0xA480630)
+#define MOLEMOLE_SURFLOGSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12FB00F0)
+#define MOLEMOLE_SURFLOGSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12FB0130)
+#define MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_0_OFFSET UNITYSDK_OFFSET(0x12FB0160)
+#define MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_1_OFFSET UNITYSDK_OFFSET(0x12FB0170)
+#define MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_0_OFFSET UNITYSDK_OFFSET(0x12FB0140)
+#define MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_1_OFFSET UNITYSDK_OFFSET(0x12FB0150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SurfLogSubsystem___c_TypeDefinitionIndex = 54503;
+	inline static constexpr unsigned int SurfLogSubsystem___c_TypeDefinitionIndex = 46843;
 
 	class SurfLogSubsystem___c : public ::System::Object
 	{
 	public:
-		static ::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C** StaticGet___9__2_0()
-		{
-			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x45F50);
-		}
 		static ::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1** StaticGet___9__2_1()
 		{
-			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x45F58);
+			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x43740);
 		}
-		static ::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C** StaticGet___9__8_0()
+		static ::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C** StaticGet___9__2_0()
 		{
-			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x45F60);
-		}
-		static ::MoleMole::SurfLogSubsystem___c** StaticGet___9()
-		{
-			return (::MoleMole::SurfLogSubsystem___c**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x45F68);
+			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x43748);
 		}
 		static ::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1** StaticGet___9__8_1()
 		{
-			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x45F70);
+			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x43750);
+		}
+		static ::MoleMole::SurfLogSubsystem___c** StaticGet___9()
+		{
+			return (::MoleMole::SurfLogSubsystem___c**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x43758);
+		}
+		static ::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C** StaticGet___9__8_0()
+		{
+			return (::Class_1_9545B07472DE9BFD_Class_3_EC22137A5AE21E1C**)Il2CppClass::FromTypeDefinitionIndex(SurfLogSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x43760);
 		}
 
 		static ::System::Void _cctor()
@@ -51,24 +51,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _StartSurf_b__2_0(::Class_0_16E4307DCC419505_5* msg)
+		::System::Void _StartSurf_b__2_0(::Class_0_16E4307DCC419505_11* msg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_0_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_11*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_0_OFFSET))(this, msg);
 		}
 
-		::System::Void _StartSurf_b__2_1(::Class_0_16E4307DCC419505_5* error)
+		::System::Void _StartSurf_b__2_1(::Class_0_16E4307DCC419505_11* error)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_1_OFFSET))(this, error);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_11*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__STARTSURF_B__2_1_OFFSET))(this, error);
 		}
 
-		::System::Void _FinishAndSendRequest_b__8_0(::Class_0_16E4307DCC419505_5* msg)
+		::System::Void _FinishAndSendRequest_b__8_0(::Class_0_16E4307DCC419505_11* msg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_0_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_11*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_0_OFFSET))(this, msg);
 		}
 
-		::System::Void _FinishAndSendRequest_b__8_1(::Class_0_16E4307DCC419505_5* error)
+		::System::Void _FinishAndSendRequest_b__8_1(::Class_0_16E4307DCC419505_11* error)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_1_OFFSET))(this, error);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_11*))((::PBYTE)hIl2Cpp + MOLEMOLE_SURFLOGSUBSYSTEM___C__FINISHANDSENDREQUEST_B__8_1_OFFSET))(this, error);
 		}
 	};
 }

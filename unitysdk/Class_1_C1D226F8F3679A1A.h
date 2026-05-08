@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
-template <typename T> class Class_0_16E4307DCC419505_36;
+template <typename T> class Class_0_16E4307DCC41950C_1;
 
-inline static constexpr unsigned int Class_1_C1D226F8F3679A1A_TypeDefinitionIndex = 25258;
+inline static constexpr unsigned int Class_1_C1D226F8F3679A1A_TypeDefinitionIndex = 25706;
 
 template <typename T>
 class Class_1_C1D226F8F3679A1A : public ::System::Object

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_2BB5A4A452E9A1B4.h"
+#include "unitysdk/Class_2_A9613D9C64F0521C.h"
 
 namespace MoleMole { class UIBabeltowerTrickScoreRowWidgetController; }
 namespace System { class String; }
 
-#define CLASS_3_B0491C180D29B3FA_METHOD_3_90D65721BD86F1DF_OFFSET UNITYSDK_OFFSET(0xBC64000)
-#define CLASS_3_B0491C180D29B3FA_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0xBC64090)
-#define CLASS_3_B0491C180D29B3FA__CTOR_OFFSET UNITYSDK_OFFSET(0xBC63FD0)
+#define CLASS_3_B0491C180D29B3FA_METHOD_3_541F33404EB25A67_OFFSET UNITYSDK_OFFSET(0xDB1F1C0)
+#define CLASS_3_B0491C180D29B3FA_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0xDB1F230)
+#define CLASS_3_B0491C180D29B3FA__CTOR_OFFSET UNITYSDK_OFFSET(0xDB1F190)
 
-inline static constexpr unsigned int Class_3_B0491C180D29B3FA_TypeDefinitionIndex = 39138;
+inline static constexpr unsigned int Class_3_B0491C180D29B3FA_TypeDefinitionIndex = 81891;
 
-class Class_3_B0491C180D29B3FA : public ::Class_2_2BB5A4A452E9A1B4<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
+class Class_3_B0491C180D29B3FA : public ::Class_2_A9613D9C64F0521C<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
 {
 public:
 	::System::String* Field_3_1; // 0x28
@@ -22,9 +22,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_B0491C180D29B3FA__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_90D65721BD86F1DF(::MoleMole::UIBabeltowerTrickScoreRowWidgetController* a1)
+	::System::Void Method_3_541F33404EB25A67(::MoleMole::UIBabeltowerTrickScoreRowWidgetController* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBabeltowerTrickScoreRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_3_B0491C180D29B3FA_METHOD_3_90D65721BD86F1DF_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIBabeltowerTrickScoreRowWidgetController*))((::PBYTE)hIl2Cpp + CLASS_3_B0491C180D29B3FA_METHOD_3_541F33404EB25A67_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_DCE0A903A9E7E199(::MoleMole::UIBabeltowerTrickScoreRowWidgetController* a1)

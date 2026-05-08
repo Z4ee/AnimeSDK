@@ -6,12 +6,12 @@ namespace PathCreation { class PathCreator; }
 namespace PathCreation::Examples { class PathFollower; }
 namespace UnityEngine { class Transform; }
 
-#define PATHCREATION_EXAMPLES_PATHSPAWNER_START_OFFSET UNITYSDK_OFFSET(0x1AAD1860)
-#define PATHCREATION_EXAMPLES_PATHSPAWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD1A20)
+#define PATHCREATION_EXAMPLES_PATHSPAWNER_START_OFFSET UNITYSDK_OFFSET(0x1B6B91B0)
+#define PATHCREATION_EXAMPLES_PATHSPAWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B9370)
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int PathSpawner_TypeDefinitionIndex = 35314;
+	inline static constexpr unsigned int PathSpawner_TypeDefinitionIndex = 35858;
 
 	class PathSpawner : public ::UnityEngine::MonoBehaviour
 	{

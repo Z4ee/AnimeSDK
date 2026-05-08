@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0xEC820C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xEC82480)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x18207F80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18208320)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDynamicObject_TypeDefinitionIndex = 49237;
+	inline static constexpr unsigned int LDDynamicObject_TypeDefinitionIndex = 77710;
 
 	class LDDynamicObject : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean>
 	{

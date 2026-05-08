@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEnumerableX___c__0_1_TypeDefinitionIndex = 7868;
+	inline static constexpr unsigned int IEnumerableX___c__0_1_TypeDefinitionIndex = 8318;
 
 	template <typename T>
 	class IEnumerableX___c__0_1 : public ::System::Object

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityNormalContextBase; }
 namespace MoleMole { class UIGrandMarcelAdventurePageController___c__DisplayClass82_0; }
 
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS82_1__CHECKTEMPUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x6C6E620)
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS82_1__CTOR_OFFSET UNITYSDK_OFFSET(0x6C6E610)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS82_1__CHECKTEMPUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x155BFBF0)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS82_1__CTOR_OFFSET UNITYSDK_OFFSET(0x155BFBE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventurePageController___c__DisplayClass82_1_TypeDefinitionIndex = 74654;
+	inline static constexpr unsigned int UIGrandMarcelAdventurePageController___c__DisplayClass82_1_TypeDefinitionIndex = 64032;
 
 	class UIGrandMarcelAdventurePageController___c__DisplayClass82_1 : public ::System::Object
 	{

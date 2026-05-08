@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IInvokable_TypeDefinitionIndex = 26566;
+	inline static constexpr unsigned int IInvokable_TypeDefinitionIndex = 27139;
 
 	class IInvokable
 	{

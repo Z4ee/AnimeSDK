@@ -5,19 +5,19 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3F02F0)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS56_0__SHOW3DMODEL_G__OPENMODELDIALOG_0_OFFSET UNITYSDK_OFFSET(0xB3F0300)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x148D7B90)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS56_0__SHOW3DMODEL_G__OPENMODELDIALOG_0_OFFSET UNITYSDK_OFFSET(0x148D7BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass56_0_TypeDefinitionIndex = 69011;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass56_0_TypeDefinitionIndex = 47777;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
 		::System::Action* callback; // 0x10
-		::System::Int32 modelID; // 0x18
-		::MoleMole::GalGame::ModelConfigTemplateType templateType; // 0x1C
+		::MoleMole::GalGame::ModelConfigTemplateType templateType; // 0x18
+		::System::Int32 modelID; // 0x1C
 
 		::System::Void _ctor()
 		{

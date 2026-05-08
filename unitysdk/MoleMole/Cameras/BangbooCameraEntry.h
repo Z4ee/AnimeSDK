@@ -6,12 +6,12 @@
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_BANGBOOCAMERAENTRY_GET_TAG_OFFSET UNITYSDK_OFFSET(0xE2A63A0)
-#define MOLEMOLE_CAMERAS_BANGBOOCAMERAENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A6420)
+#define MOLEMOLE_CAMERAS_BANGBOOCAMERAENTRY_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1742B430)
+#define MOLEMOLE_CAMERAS_BANGBOOCAMERAENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1742B4B0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int BangbooCameraEntry_TypeDefinitionIndex = 37510;
+	inline static constexpr unsigned int BangbooCameraEntry_TypeDefinitionIndex = 55245;
 
 	class BangbooCameraEntry : public ::System::Object
 	{

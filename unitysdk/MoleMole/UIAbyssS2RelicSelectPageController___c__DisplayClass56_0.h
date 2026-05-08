@@ -6,11 +6,11 @@ namespace MoleMole { class UIAbyssS2RelicSelectPageController; }
 namespace MoleMole { class UserLocalDataItem; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9877760)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A86360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RelicSelectPageController___c__DisplayClass56_0_TypeDefinitionIndex = 44429;
+	inline static constexpr unsigned int UIAbyssS2RelicSelectPageController___c__DisplayClass56_0_TypeDefinitionIndex = 42690;
 
 	class UIAbyssS2RelicSelectPageController___c__DisplayClass56_0 : public ::System::Object
 	{

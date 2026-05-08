@@ -12,24 +12,24 @@ namespace MoleMole { class GlobalPaddingData; }
 namespace MoleMole { class UIAdaptData; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUIADAPT_FIND_OFFSET UNITYSDK_OFFSET(0xF2E9210)
-#define MOLEMOLE_CONFIGUIADAPT__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2E9500)
-#define MOLEMOLE_CONFIGUIADAPT__CTOR_OFFSET UNITYSDK_OFFSET(0xF2E9300)
+#define MOLEMOLE_CONFIGUIADAPT_FIND_OFFSET UNITYSDK_OFFSET(0x15A06F80)
+#define MOLEMOLE_CONFIGUIADAPT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A07290)
+#define MOLEMOLE_CONFIGUIADAPT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A07040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAdapt_TypeDefinitionIndex = 51525;
+	inline static constexpr unsigned int ConfigUIAdapt_TypeDefinitionIndex = 75576;
 
 	class ConfigUIAdapt : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::MoleMole::UIAdaptData** StaticGet_CodeDefaultUIAdaptData()
 		{
-			return (::MoleMole::UIAdaptData**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIAdapt_TypeDefinitionIndex)->GetStaticField(0x2B2F0);
+			return (::MoleMole::UIAdaptData**)Il2CppClass::FromTypeDefinitionIndex(ConfigUIAdapt_TypeDefinitionIndex)->GetStaticField(0x46110);
 		}
 		static ::System::Boolean* StaticGet_ForceNonAdapt()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ConfigUIAdapt_TypeDefinitionIndex)->GetStaticField(0x9970);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ConfigUIAdapt_TypeDefinitionIndex)->GetStaticField(0x10EB0);
 		}
 		::MoleMole::GlobalPaddingData* DefaultGlobalPaddingData; // 0x58
 		::System::String* CurrentDeviceModel; // 0x60

@@ -21,16 +21,16 @@ namespace System::Xml::Schema { class SchemaNames; }
 namespace System::Xml::Schema { class ValidationEventHandler; }
 namespace System::Xml::Schema { class XmlSchema; }
 
-#define SYSTEM_XML_SCHEMA_PARSER_CHECKSCHEMAROOT_OFFSET UNITYSDK_OFFSET(0x1A6A91F0)
-#define SYSTEM_XML_SCHEMA_PARSER_CREATEXMLNSATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A6A9C50)
-#define SYSTEM_XML_SCHEMA_PARSER_LOADATTRIBUTENODE_OFFSET UNITYSDK_OFFSET(0x1A6A9A60)
-#define SYSTEM_XML_SCHEMA_PARSER_LOADELEMENTNODE_OFFSET UNITYSDK_OFFSET(0x1A6A9590)
-#define SYSTEM_XML_SCHEMA_PARSER_LOADENTITYREFERENCEINATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A6A9D70)
-#define SYSTEM_XML_SCHEMA_PARSER_PARSEREADERNODE_OFFSET UNITYSDK_OFFSET(0x1A6A8900)
-#define SYSTEM_XML_SCHEMA_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1A6A8410)
-#define SYSTEM_XML_SCHEMA_PARSER_PROCESSAPPINFODOCMARKUP_OFFSET UNITYSDK_OFFSET(0x1A6A92A0)
-#define SYSTEM_XML_SCHEMA_PARSER_STARTPARSING_OFFSET UNITYSDK_OFFSET(0x1A6A8470)
-#define SYSTEM_XML_SCHEMA_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A8300)
+#define SYSTEM_XML_SCHEMA_PARSER_CHECKSCHEMAROOT_OFFSET UNITYSDK_OFFSET(0x1B591EE0)
+#define SYSTEM_XML_SCHEMA_PARSER_CREATEXMLNSATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B592940)
+#define SYSTEM_XML_SCHEMA_PARSER_LOADATTRIBUTENODE_OFFSET UNITYSDK_OFFSET(0x1B592750)
+#define SYSTEM_XML_SCHEMA_PARSER_LOADELEMENTNODE_OFFSET UNITYSDK_OFFSET(0x1B592280)
+#define SYSTEM_XML_SCHEMA_PARSER_LOADENTITYREFERENCEINATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B592A60)
+#define SYSTEM_XML_SCHEMA_PARSER_PARSEREADERNODE_OFFSET UNITYSDK_OFFSET(0x1B591650)
+#define SYSTEM_XML_SCHEMA_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1B591140)
+#define SYSTEM_XML_SCHEMA_PARSER_PROCESSAPPINFODOCMARKUP_OFFSET UNITYSDK_OFFSET(0x1B591F90)
+#define SYSTEM_XML_SCHEMA_PARSER_STARTPARSING_OFFSET UNITYSDK_OFFSET(0x1B5911A0)
+#define SYSTEM_XML_SCHEMA_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B591060)
 
 namespace System::Xml::Schema
 {
@@ -39,24 +39,24 @@ namespace System::Xml::Schema
 	class Parser : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x10
-		::System::Xml::Schema::SchemaNames* schemaNames; // 0x18
-		::System::Xml::XmlCharType xmlCharType; // 0x20
+		::System::Xml::XmlNamespaceManager* namespaceManager; // 0x10
+		::System::Xml::XmlNode* parentNode; // 0x18
+		::System::Xml::PositionInfo* positionInfo; // 0x20
 		::System::Xml::XmlNameTable* nameTable; // 0x28
-		::System::Xml::XmlNamespaceManager* annotationNSManager; // 0x30
-		::System::Xml::XmlResolver* xmlResolver; // 0x38
-		::System::Xml::XmlNode* parentNode; // 0x40
-		::System::Xml::XmlDocument* dummyDocument; // 0x48
-		::System::Xml::PositionInfo* positionInfo; // 0x50
-		::System::Xml::XmlReader* reader; // 0x58
-		::System::Xml::Schema::XmlSchema* schema; // 0x60
-		::System::String* xmlns; // 0x68
-		::System::Xml::Schema::SchemaBuilder* builder; // 0x70
-		::System::Xml::XmlNamespaceManager* namespaceManager; // 0x78
-		::System::Xml::Schema::SchemaInfo* xdrSchema; // 0x80
-		::System::Boolean isProcessNamespaces; // 0x88
-		::System::Boolean processMarkup; // 0x89
-		::System::Xml::Schema::SchemaType schemaType; // 0x8C
+		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x30
+		::System::Xml::XmlDocument* dummyDocument; // 0x38
+		::System::Xml::XmlResolver* xmlResolver; // 0x40
+		::System::Xml::XmlNamespaceManager* annotationNSManager; // 0x48
+		::System::Xml::Schema::SchemaNames* schemaNames; // 0x50
+		::System::String* xmlns; // 0x58
+		::System::Xml::Schema::SchemaBuilder* builder; // 0x60
+		::System::Xml::Schema::SchemaInfo* xdrSchema; // 0x68
+		::System::Xml::Schema::XmlSchema* schema; // 0x70
+		::System::Xml::XmlReader* reader; // 0x78
+		::System::Xml::XmlCharType xmlCharType; // 0x80
+		::System::Xml::Schema::SchemaType schemaType; // 0x88
+		::System::Boolean processMarkup; // 0x8C
+		::System::Boolean isProcessNamespaces; // 0x8D
 		::System::Int32 schemaXmlDepth; // 0x90
 		::System::Int32 markupDepth; // 0x94
 

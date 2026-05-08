@@ -5,11 +5,11 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELABYSSS2ARTIFACTDISAPPEARCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4CF50)
+#define MOLEMOLE_UIINLEVELABYSSS2ARTIFACTDISAPPEARCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1488D600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelAbyssS2ArtifactDisappearContext_TypeDefinitionIndex = 60730;
+	inline static constexpr unsigned int UIInLevelAbyssS2ArtifactDisappearContext_TypeDefinitionIndex = 52820;
 
 	class UIInLevelAbyssS2ArtifactDisappearContext : public ::MoleMole::UIControllerContextBase
 	{

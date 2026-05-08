@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_8F9C8201CB57E0BD_Class_1_534EF681CC2FBEA4_17_TypeDefinitionIndex = 52448;
+inline static constexpr unsigned int Class_1_8F9C8201CB57E0BD_Class_1_534EF681CC2FBEA4_17_TypeDefinitionIndex = 68295;
 
 class Class_1_8F9C8201CB57E0BD_Class_1_534EF681CC2FBEA4_17 : public ::System::Object
 {
@@ -34,14 +34,4 @@ public:
 	// static const ::System::String* Field_1_22; // 0x0
 	// static const ::System::String* Field_1_23; // 0x0
 	// static const ::System::String* Field_1_24; // 0x0
-	// static const ::System::String* Field_1_25; // 0x0
-	// static const ::System::String* Field_1_26; // 0x0
-	// static const ::System::String* Field_1_27; // 0x0
-	// static const ::System::String* Field_1_28; // 0x0
-	// static const ::System::String* Field_1_29; // 0x0
-	// static const ::System::String* Field_1_30; // 0x0
-	// static const ::System::String* Field_1_31; // 0x0
-	// static const ::System::String* Field_1_32; // 0x0
-	// static const ::System::String* Field_1_33; // 0x0
-	// static const ::System::String* Field_1_34; // 0x0
 };

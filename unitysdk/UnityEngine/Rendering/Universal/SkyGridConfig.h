@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SKYGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1891C940)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SKYGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F79E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SkyGridConfig_TypeDefinitionIndex = 29454;
+	inline static constexpr unsigned int SkyGridConfig_TypeDefinitionIndex = 29974;
 
 	class SkyGridConfig : public ::System::Object
 	{

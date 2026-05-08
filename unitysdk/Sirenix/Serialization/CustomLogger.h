@@ -6,10 +6,10 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define SIRENIX_SERIALIZATION_CUSTOMLOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1B76D450)
-#define SIRENIX_SERIALIZATION_CUSTOMLOGGER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B76D4B0)
-#define SIRENIX_SERIALIZATION_CUSTOMLOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1B76D3F0)
-#define SIRENIX_SERIALIZATION_CUSTOMLOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76D340)
+#define SIRENIX_SERIALIZATION_CUSTOMLOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1C559480)
+#define SIRENIX_SERIALIZATION_CUSTOMLOGGER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C5594E0)
+#define SIRENIX_SERIALIZATION_CUSTOMLOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1C559420)
+#define SIRENIX_SERIALIZATION_CUSTOMLOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C559330)
 
 namespace Sirenix::Serialization
 {
@@ -19,8 +19,8 @@ namespace Sirenix::Serialization
 	{
 	public:
 		::System::Action_1<::System::String*>* logWarningDelegate; // 0x10
-		::System::Action_1<::System::Exception*>* logExceptionDelegate; // 0x18
-		::System::Action_1<::System::String*>* logErrorDelegate; // 0x20
+		::System::Action_1<::System::String*>* logErrorDelegate; // 0x18
+		::System::Action_1<::System::Exception*>* logExceptionDelegate; // 0x20
 
 		::System::Void _ctor(::System::Action_1<::System::String*>* logWarningDelegate, ::System::Action_1<::System::String*>* logErrorDelegate, ::System::Action_1<::System::Exception*>* logExceptionDelegate)
 		{

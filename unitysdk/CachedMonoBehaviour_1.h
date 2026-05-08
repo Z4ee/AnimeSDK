@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-inline static constexpr unsigned int CachedMonoBehaviour_1_TypeDefinitionIndex = 37243;
+inline static constexpr unsigned int CachedMonoBehaviour_1_TypeDefinitionIndex = 37787;
 
 template <typename T>
 class CachedMonoBehaviour_1 : public ::UnityEngine::MonoBehaviour

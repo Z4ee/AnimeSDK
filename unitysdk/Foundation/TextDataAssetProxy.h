@@ -8,27 +8,27 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define FOUNDATION_TEXTDATAASSETPROXY_LOADBYTESASSET_OFFSET UNITYSDK_OFFSET(0xF463390)
-#define FOUNDATION_TEXTDATAASSETPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0xF463800)
+#define FOUNDATION_TEXTDATAASSETPROXY_LOADBYTESASSET_OFFSET UNITYSDK_OFFSET(0xF5D1E70)
+#define FOUNDATION_TEXTDATAASSETPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0xF5D22C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TextDataAssetProxy_TypeDefinitionIndex = 50579;
+	inline static constexpr unsigned int TextDataAssetProxy_TypeDefinitionIndex = 75743;
 
 	class TextDataAssetProxy : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::Foundation::AssetPath, ::System::Func_2<::Foundation::AssetPath, ::Foundation::AssetRequestHandle>*>** StaticGet_IEnumeratorLoadCacheLoadProxy()
-		{
-			return (::System::Action_2<::Foundation::AssetPath, ::System::Func_2<::Foundation::AssetPath, ::Foundation::AssetRequestHandle>*>**)Il2CppClass::FromTypeDefinitionIndex(TextDataAssetProxy_TypeDefinitionIndex)->GetStaticField(0x2BF60);
-		}
 		static ::System::Action_2<::Foundation::AssetRequestHandle, ::System::Action_1<::Foundation::AssetRequestHandle>*>** StaticGet_IEnumeratorLoadCacheHandleProxy()
 		{
-			return (::System::Action_2<::Foundation::AssetRequestHandle, ::System::Action_1<::Foundation::AssetRequestHandle>*>**)Il2CppClass::FromTypeDefinitionIndex(TextDataAssetProxy_TypeDefinitionIndex)->GetStaticField(0x2BF68);
+			return (::System::Action_2<::Foundation::AssetRequestHandle, ::System::Action_1<::Foundation::AssetRequestHandle>*>**)Il2CppClass::FromTypeDefinitionIndex(TextDataAssetProxy_TypeDefinitionIndex)->GetStaticField(0x2AF20);
+		}
+		static ::System::Action_2<::Foundation::AssetPath, ::System::Func_2<::Foundation::AssetPath, ::Foundation::AssetRequestHandle>*>** StaticGet_IEnumeratorLoadCacheLoadProxy()
+		{
+			return (::System::Action_2<::Foundation::AssetPath, ::System::Func_2<::Foundation::AssetPath, ::Foundation::AssetRequestHandle>*>**)Il2CppClass::FromTypeDefinitionIndex(TextDataAssetProxy_TypeDefinitionIndex)->GetStaticField(0x2AF28);
 		}
 		static ::System::Boolean* StaticGet_EnableTextAsyncLoadMode()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextDataAssetProxy_TypeDefinitionIndex)->GetStaticField(0x9B30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextDataAssetProxy_TypeDefinitionIndex)->GetStaticField(0x9940);
 		}
 
 		static ::System::Void _cctor()

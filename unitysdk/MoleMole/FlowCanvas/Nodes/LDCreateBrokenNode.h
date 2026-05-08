@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA4F6CE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F7200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10E05CC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E062A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateBrokenNode_TypeDefinitionIndex = 63445;
+	inline static constexpr unsigned int LDCreateBrokenNode_TypeDefinitionIndex = 50285;
 
 	class LDCreateBrokenNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::Battle::Entity*, ::System::Int32, ::System::String*>
 	{

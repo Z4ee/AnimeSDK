@@ -6,12 +6,12 @@
 namespace MoleMole { class UIHandBookTacticsWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHANDBOOKTACTICSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC79770)
-#define MOLEMOLE_UIHANDBOOKTACTICSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xAC79780)
+#define MOLEMOLE_UIHANDBOOKTACTICSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14EF9B70)
+#define MOLEMOLE_UIHANDBOOKTACTICSWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14EF9B80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookTacticsWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 58992;
+	inline static constexpr unsigned int UIHandBookTacticsWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 55432;
 
 	class UIHandBookTacticsWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{

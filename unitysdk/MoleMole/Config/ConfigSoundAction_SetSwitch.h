@@ -2,32 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSoundActionGeneral.h"
 
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_147;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE36D430)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_ISMATCH_OFFSET UNITYSDK_OFFSET(0xE36D6D0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xE36D800)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0xE36D810)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16A9D6A0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x16A9D660)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_ISMATCH_OFFSET UNITYSDK_OFFSET(0x16A9D890)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D9D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x16A9DA10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_SetSwitch_TypeDefinitionIndex = 52294;
+	inline static constexpr unsigned int ConfigSoundAction_SetSwitch_TypeDefinitionIndex = 42084;
 
 	class ConfigSoundAction_SetSwitch : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
-		::System::String* switchValue; // 0x20
-		::System::String* switchGroup; // 0x28
+		::System::String* switchGroup; // 0x20
+		::System::String* switchValue; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_148* context)
+		::System::String* get_InspectorLabel()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_148*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET))(this, context);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_INSPECTORLABEL_OFFSET))(this);
+		}
+
+		::System::Void Execute(::Class_0_16E4307DCC419505_147* context)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

@@ -14,29 +14,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETALLBUTTONTYPES_OFFSET UNITYSDK_OFFSET(0xC255200)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETALLPANELTYPES_OFFSET UNITYSDK_OFFSET(0xC254B80)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETDEFAULTPANELTYPE_1_OFFSET UNITYSDK_OFFSET(0xC253F50)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETDEFAULTPANELTYPE_OFFSET UNITYSDK_OFFSET(0xC253CA0)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETMOBILEPANELLAYOUT_OFFSET UNITYSDK_OFFSET(0xC254620)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETPOSITIONINFO_OFFSET UNITYSDK_OFFSET(0xC253450)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2557E0)
-#define MOLEMOLE_CONFIGUICOMMON_INPUT__CTOR_OFFSET UNITYSDK_OFFSET(0xC255730)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETALLBUTTONTYPES_OFFSET UNITYSDK_OFFSET(0x14264FF0)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETALLPANELTYPES_OFFSET UNITYSDK_OFFSET(0x14264980)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETDEFAULTPANELTYPE_1_OFFSET UNITYSDK_OFFSET(0x14263DA0)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETDEFAULTPANELTYPE_OFFSET UNITYSDK_OFFSET(0x14263B10)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETMOBILEPANELLAYOUT_OFFSET UNITYSDK_OFFSET(0x14264440)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT_GETPOSITIONINFO_OFFSET UNITYSDK_OFFSET(0x142632F0)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x142655E0)
+#define MOLEMOLE_CONFIGUICOMMON_INPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x14265500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Input_TypeDefinitionIndex = 63104;
+	inline static constexpr unsigned int ConfigUICommon_Input_TypeDefinitionIndex = 52100;
 
 	class ConfigUICommon_Input : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_ButtonType>** StaticGet__buttonTypesCache()
-		{
-			return (::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_ButtonType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Input_TypeDefinitionIndex)->GetStaticField(0x44070);
-		}
 		static ::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_PanelType>** StaticGet__panelTypesCache()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_PanelType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Input_TypeDefinitionIndex)->GetStaticField(0x44078);
+			return (::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_PanelType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Input_TypeDefinitionIndex)->GetStaticField(0x459C0);
+		}
+		static ::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_ButtonType>** StaticGet__buttonTypesCache()
+		{
+			return (::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_Input_ButtonType>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_Input_TypeDefinitionIndex)->GetStaticField(0x459C8);
 		}
 		::System::Collections::Generic::Dictionary_2<::MoleMole::ConfigUICommon_Input_SceneType, ::MoleMole::ConfigUICommon_Input_ConfigMobileButtonScene*>* ConfigMobileButtonScenes; // 0x58
 

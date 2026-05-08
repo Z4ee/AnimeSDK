@@ -4,12 +4,12 @@
 #include "unitysdk/ProtoScript/HollowSystemType.h"
 #include "unitysdk/ProtoScript/HollowSystemUIState.h"
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETHOLLOWSYSTEMSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA006D40)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETHOLLOWSYSTEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA006EC0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETHOLLOWSYSTEMSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x11737470)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETHOLLOWSYSTEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x117375C0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameSetHollowSystemState_TypeDefinitionIndex = 56108;
+	inline static constexpr unsigned int HackerGameSetHollowSystemState_TypeDefinitionIndex = 64741;
 
 	class HackerGameSetHollowSystemState : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::ProtoScript::HollowSystemType, ::ProtoScript::HollowSystemUIState>
 	{

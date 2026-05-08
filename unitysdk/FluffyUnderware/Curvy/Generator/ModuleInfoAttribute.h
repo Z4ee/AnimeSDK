@@ -5,18 +5,18 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULEINFOATTRIBUTE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1B063C50)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULEINFOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B063C40)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULEINFOATTRIBUTE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1BE8DD50)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULEINFOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8DD40)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int ModuleInfoAttribute_TypeDefinitionIndex = 36826;
+	inline static constexpr unsigned int ModuleInfoAttribute_TypeDefinitionIndex = 37370;
 
 	class ModuleInfoAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Description; // 0x10
-		::System::String* ModuleName; // 0x18
+		::System::String* ModuleName; // 0x10
+		::System::String* Description; // 0x18
 		::System::String* MenuName; // 0x20
 		::System::Boolean UsesRandom; // 0x28
 

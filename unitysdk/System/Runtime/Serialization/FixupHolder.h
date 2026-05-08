@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x197A5A70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E15970)
 
 namespace System::Runtime::Serialization
 {

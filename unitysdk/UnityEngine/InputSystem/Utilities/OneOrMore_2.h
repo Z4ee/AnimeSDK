@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int OneOrMore_2_TypeDefinitionIndex = 28901;
+	inline static constexpr unsigned int OneOrMore_2_TypeDefinitionIndex = 29419;
 
 	template <typename TValue, typename TList>
 	struct OneOrMore_2

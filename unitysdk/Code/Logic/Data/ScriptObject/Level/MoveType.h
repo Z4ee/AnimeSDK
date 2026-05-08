@@ -3,12 +3,12 @@
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int MoveType_TypeDefinitionIndex = 72820;
+	inline static constexpr unsigned int MoveType_TypeDefinitionIndex = 79381;
 
 	enum class MoveType : ::System::Int32
 	{
-		Once = 2,
 		None = 0,
 		Loop = 1,
+		Once = 2,
 	};
 }

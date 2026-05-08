@@ -4,10 +4,10 @@
 
 namespace MoleMole { class UIAvatarStorySpecailInfoContext; }
 
-#define ACTIVITYCOMMONUIUTIL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x6FF3220)
-#define ACTIVITYCOMMONUIUTIL___C__DISPLAYCLASS12_0__OPENMAINBATTLEPARTNERINFOPOP_B__0_OFFSET UNITYSDK_OFFSET(0x6FF3230)
+#define ACTIVITYCOMMONUIUTIL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFD8B740)
+#define ACTIVITYCOMMONUIUTIL___C__DISPLAYCLASS12_0__OPENMAINBATTLEPARTNERINFOPOP_B__0_OFFSET UNITYSDK_OFFSET(0xFD8B750)
 
-inline static constexpr unsigned int ActivityCommonUIUtil___c__DisplayClass12_0_TypeDefinitionIndex = 57673;
+inline static constexpr unsigned int ActivityCommonUIUtil___c__DisplayClass12_0_TypeDefinitionIndex = 73005;
 
 class ActivityCommonUIUtil___c__DisplayClass12_0 : public ::System::Object
 {

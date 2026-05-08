@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_149;
+class Class_2_208CC9941471731A_91;
 namespace MoleMole { class UIAbyssArpeggioLevelWidgetController; }
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF0C0E0)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__0_OFFSET UNITYSDK_OFFSET(0xBF0C0F0)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__1_OFFSET UNITYSDK_OFFSET(0xBF0C7B0)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__2_OFFSET UNITYSDK_OFFSET(0xBF0C910)
-#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__3_OFFSET UNITYSDK_OFFSET(0xBF0C9C0)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167D6320)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__0_OFFSET UNITYSDK_OFFSET(0x167D6330)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__1_OFFSET UNITYSDK_OFFSET(0x167D6AE0)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__2_OFFSET UNITYSDK_OFFSET(0x167D6C40)
+#define MOLEMOLE_UIABYSSARPEGGIOLEVELWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHSWEEPBTN_B__3_OFFSET UNITYSDK_OFFSET(0x167D6CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioLevelWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 43481;
+	inline static constexpr unsigned int UIAbyssArpeggioLevelWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 72828;
 
 	class UIAbyssArpeggioLevelWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAbyssArpeggioLevelWidgetController* __4__this; // 0x10
-		::Class_2_208CC9941471731A_149* _levelCfg; // 0x18
-		::UnityEngine::Events::UnityAction* __9__1; // 0x20
-		::System::Action* __9__2; // 0x28
-		::System::Action* __9__3; // 0x30
-		::System::Int32 itemCount; // 0x38
+		::Class_2_208CC9941471731A_91* _levelCfg; // 0x18
+		::System::Action* __9__2; // 0x20
+		::System::Action* __9__3; // 0x28
+		::UnityEngine::Events::UnityAction* __9__1; // 0x30
+		::System::Int32 consume; // 0x38
 		::System::Boolean canSweep; // 0x3C
-		::System::Int32 consume; // 0x40
+		::System::Int32 itemCount; // 0x40
 
 		::System::Void _ctor()
 		{

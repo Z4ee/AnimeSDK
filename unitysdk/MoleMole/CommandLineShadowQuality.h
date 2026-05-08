@@ -7,13 +7,13 @@
 
 namespace MoleMole { class ShadowQualityProfileContext; }
 
-#define MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_09CC5CFB5A176F85_OFFSET UNITYSDK_OFFSET(0xCACF2D0)
-#define MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_B6767C31DF33DA38_OFFSET UNITYSDK_OFFSET(0xCACF420)
-#define MOLEMOLE_COMMANDLINESHADOWQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0xCACF3E0)
+#define MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_09CC5CFB5A176F85_OFFSET UNITYSDK_OFFSET(0xF966C30)
+#define MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_DB62B2DB9386321E_OFFSET UNITYSDK_OFFSET(0xF966D60)
+#define MOLEMOLE_COMMANDLINESHADOWQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0xF966D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineShadowQuality_TypeDefinitionIndex = 70471;
+	inline static constexpr unsigned int CommandLineShadowQuality_TypeDefinitionIndex = 42884;
 
 	class CommandLineShadowQuality : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::ShadowQualityProfileContext*, ::MoleMole::CommandLineShadowQuality*>
 	{
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineShadowQuality*(*)(::PVOID, ::MoleMole::ShadowQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_09CC5CFB5A176F85_OFFSET))(this, a1);
 		}
 
-		::MoleMole::ShadowQualityProfileContext* Method_2_B6767C31DF33DA38(::MoleMole::ShadowQualityProfileContext* a1)
+		::MoleMole::ShadowQualityProfileContext* Method_2_DB62B2DB9386321E(::MoleMole::ShadowQualityProfileContext* a1)
 		{
-			return ((::MoleMole::ShadowQualityProfileContext*(*)(::PVOID, ::MoleMole::ShadowQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_B6767C31DF33DA38_OFFSET))(this, a1);
+			return ((::MoleMole::ShadowQualityProfileContext*(*)(::PVOID, ::MoleMole::ShadowQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESHADOWQUALITY_METHOD_2_DB62B2DB9386321E_OFFSET))(this, a1);
 		}
 	};
 }

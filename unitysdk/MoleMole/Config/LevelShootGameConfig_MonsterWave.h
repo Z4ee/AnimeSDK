@@ -7,11 +7,11 @@ namespace MoleMole::Config { class LevelShootGameConfig_WaveGroupParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_MONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0xACD5520)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_MONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x175453C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_MonsterWave_TypeDefinitionIndex = 51426;
+	inline static constexpr unsigned int LevelShootGameConfig_MonsterWave_TypeDefinitionIndex = 58581;
 
 	class LevelShootGameConfig_MonsterWave : public ::System::Object
 	{

@@ -5,19 +5,19 @@
 namespace Cinemachine { class BlendSourceVirtualCamera; }
 namespace Cinemachine { class CinemachineBlend; }
 
-#define CINEMACHINE_CINEMACHINEBRAIN_BRAINFRAME_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1B6A25F0)
-#define CINEMACHINE_CINEMACHINEBRAIN_BRAINFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A2610)
+#define CINEMACHINE_CINEMACHINEBRAIN_BRAINFRAME_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1C470BA0)
+#define CINEMACHINE_CINEMACHINEBRAIN_BRAINFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C470BC0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBrain_BrainFrame_TypeDefinitionIndex = 31932;
+	inline static constexpr unsigned int CinemachineBrain_BrainFrame_TypeDefinitionIndex = 32461;
 
 	class CinemachineBrain_BrainFrame : public ::System::Object
 	{
 	public:
-		::Cinemachine::CinemachineBlend* blend; // 0x10
-		::Cinemachine::CinemachineBlend* workingBlend; // 0x18
-		::Cinemachine::BlendSourceVirtualCamera* workingBlendSource; // 0x20
+		::Cinemachine::CinemachineBlend* workingBlend; // 0x10
+		::Cinemachine::BlendSourceVirtualCamera* workingBlendSource; // 0x18
+		::Cinemachine::CinemachineBlend* blend; // 0x20
 		::System::Int32 id; // 0x28
 		::System::Single deltaTimeOverride; // 0x2C
 

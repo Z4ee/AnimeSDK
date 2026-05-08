@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_AA2FAB933F36B228;
+class Class_1_BF85135934DD45B5;
 class Class_2_D6F9B792012303A1;
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define TASKTREETEST_BUILDTASK_OFFSET UNITYSDK_OFFSET(0xD612480)
-#define TASKTREETEST_BUILDTREE_OFFSET UNITYSDK_OFFSET(0xD6121A0)
-#define TASKTREETEST_DELAYTEST_OFFSET UNITYSDK_OFFSET(0xD612040)
-#define TASKTREETEST_ROOTBEGIN_OFFSET UNITYSDK_OFFSET(0xD612590)
-#define TASKTREETEST_ROOTCANCEL_OFFSET UNITYSDK_OFFSET(0xD612910)
-#define TASKTREETEST_ROOTEND_OFFSET UNITYSDK_OFFSET(0xD612750)
-#define TASKTREETEST_SETTASK_OFFSET UNITYSDK_OFFSET(0xD6120E0)
-#define TASKTREETEST_START_OFFSET UNITYSDK_OFFSET(0xD611B90)
-#define TASKTREETEST_TESTCOMPLETE_OFFSET UNITYSDK_OFFSET(0xD611C60)
-#define TASKTREETEST_TEST_OFFSET UNITYSDK_OFFSET(0xD611A80)
-#define TASKTREETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xD612AD0)
+#define TASKTREETEST_BUILDTASK_OFFSET UNITYSDK_OFFSET(0x18E2B6D0)
+#define TASKTREETEST_BUILDTREE_OFFSET UNITYSDK_OFFSET(0x18E2B440)
+#define TASKTREETEST_DELAYTEST_OFFSET UNITYSDK_OFFSET(0x18E2B300)
+#define TASKTREETEST_ROOTBEGIN_OFFSET UNITYSDK_OFFSET(0x18E2B7C0)
+#define TASKTREETEST_ROOTCANCEL_OFFSET UNITYSDK_OFFSET(0x18E2BA40)
+#define TASKTREETEST_ROOTEND_OFFSET UNITYSDK_OFFSET(0x18E2B900)
+#define TASKTREETEST_SETTASK_OFFSET UNITYSDK_OFFSET(0x18E2B380)
+#define TASKTREETEST_START_OFFSET UNITYSDK_OFFSET(0x18E2AFA0)
+#define TASKTREETEST_TESTCOMPLETE_OFFSET UNITYSDK_OFFSET(0x18E2B060)
+#define TASKTREETEST_TEST_OFFSET UNITYSDK_OFFSET(0x18E2AED0)
+#define TASKTREETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x18E2BB80)
 
-inline static constexpr unsigned int TaskTreeTest_TypeDefinitionIndex = 63223;
+inline static constexpr unsigned int TaskTreeTest_TypeDefinitionIndex = 65429;
 
 class TaskTreeTest : public ::UnityEngine::MonoBehaviour
 {
@@ -55,9 +55,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::TaskCompletionSource_1<::System::Int32>*))((::PBYTE)hIl2Cpp + TASKTREETEST_SETTASK_OFFSET))(this, taskCompletionSource);
 	}
 
-	::Class_1_AA2FAB933F36B228* BuildTree(::System::String* name)
+	::Class_1_BF85135934DD45B5* BuildTree(::System::String* name)
 	{
-		return ((::Class_1_AA2FAB933F36B228*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TASKTREETEST_BUILDTREE_OFFSET))(this, name);
+		return ((::Class_1_BF85135934DD45B5*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TASKTREETEST_BUILDTREE_OFFSET))(this, name);
 	}
 
 	::System::Void RootBegin()
@@ -75,8 +75,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TASKTREETEST_ROOTCANCEL_OFFSET))(this);
 	}
 
-	::Class_2_D6F9B792012303A1* BuildTask(::Class_1_AA2FAB933F36B228* taskTree, ::System::String* name, ::System::Int32 ms)
+	::Class_2_D6F9B792012303A1* BuildTask(::Class_1_BF85135934DD45B5* taskTree, ::System::String* name, ::System::Int32 ms)
 	{
-		return ((::Class_2_D6F9B792012303A1*(*)(::PVOID, ::Class_1_AA2FAB933F36B228*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + TASKTREETEST_BUILDTASK_OFFSET))(this, taskTree, name, ms);
+		return ((::Class_2_D6F9B792012303A1*(*)(::PVOID, ::Class_1_BF85135934DD45B5*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + TASKTREETEST_BUILDTASK_OFFSET))(this, taskTree, name, ms);
 	}
 };

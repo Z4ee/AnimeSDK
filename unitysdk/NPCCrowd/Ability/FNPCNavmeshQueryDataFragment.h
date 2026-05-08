@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCNavmeshQueryDataFragment_TypeDefinitionIndex = 65343;
+	inline static constexpr unsigned int FNPCNavmeshQueryDataFragment_TypeDefinitionIndex = 74453;
 
 	struct alignas(4) FNPCNavmeshQueryDataFragment
 	{

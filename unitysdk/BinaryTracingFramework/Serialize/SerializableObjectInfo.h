@@ -6,11 +6,11 @@
 namespace BinaryTracingFramework::Serialize { class ISerializableObject; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_SERIALIZABLEOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D3D70)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_SERIALIZABLEOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05120)
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int SerializableObjectInfo_TypeDefinitionIndex = 31903;
+	inline static constexpr unsigned int SerializableObjectInfo_TypeDefinitionIndex = 32432;
 
 	class SerializableObjectInfo : public ::System::Object
 	{

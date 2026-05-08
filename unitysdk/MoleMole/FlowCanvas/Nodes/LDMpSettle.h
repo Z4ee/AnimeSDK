@@ -8,23 +8,23 @@ namespace FlowCanvas { class FlowOutput; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1164CB80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE_SETTLECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1164CDA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE_SETTLE_OFFSET UNITYSDK_OFFSET(0x1164CC90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1164CE70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1164CE90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10BA5AF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE_SETTLECOROUTINE_OFFSET UNITYSDK_OFFSET(0x10BA5D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE_SETTLE_OFFSET UNITYSDK_OFFSET(0x10BA5BE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA5E40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPSETTLE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x10BA5E80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMpSettle_TypeDefinitionIndex = 77469;
+	inline static constexpr unsigned int LDMpSettle_TypeDefinitionIndex = 43641;
 
 	class LDMpSettle : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* input; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
-		::FlowCanvas::FlowOutput* finish; // 0xB8
-		::UnityEngine::Coroutine* coroutine; // 0xC0
+		::FlowCanvas::FlowOutput* finish; // 0xA8
+		::UnityEngine::Coroutine* coroutine; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::FlowInput* input; // 0xC0
 
 		::System::Void _ctor()
 		{

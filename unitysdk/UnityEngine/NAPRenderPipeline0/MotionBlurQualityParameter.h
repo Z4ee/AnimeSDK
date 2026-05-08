@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MotionBlurQuality.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_MOTIONBLURQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A531530)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MOTIONBLURQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C42B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

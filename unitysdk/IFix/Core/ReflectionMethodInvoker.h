@@ -8,8 +8,8 @@ namespace System { class Type; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MethodBase; }
 
-#define IFIX_CORE_REFLECTIONMETHODINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x19EB4D60)
-#define IFIX_CORE_REFLECTIONMETHODINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB46C0)
+#define IFIX_CORE_REFLECTIONMETHODINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A7959C0)
+#define IFIX_CORE_REFLECTIONMETHODINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A795320)
 
 namespace IFix::Core
 {
@@ -18,19 +18,19 @@ namespace IFix::Core
 	class ReflectionMethodInvoker : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Boolean>* refFlags; // 0x10
-		::Il2CppArray<::System::Boolean>* outFlags; // 0x18
-		::System::Reflection::ConstructorInfo* ctor; // 0x20
-		::Il2CppArray<::System::Type*>* rawTypes; // 0x28
-		::System::Type* returnType; // 0x30
-		::System::Reflection::MethodBase* method; // 0x38
-		::System::Boolean isNullableGetValueOrDefault; // 0x40
-		::System::Boolean isNullableHasValue; // 0x41
-		::System::Boolean hasThis; // 0x42
-		::System::Boolean isNullableValue; // 0x43
-		::System::Boolean isValueTypeInstance; // 0x44
-		::System::Boolean hasReturn; // 0x45
-		::System::Int32 paramCount; // 0x48
+		::System::Reflection::MethodBase* method; // 0x10
+		::Il2CppArray<::System::Boolean>* refFlags; // 0x18
+		::Il2CppArray<::System::Type*>* rawTypes; // 0x20
+		::System::Type* returnType; // 0x28
+		::System::Reflection::ConstructorInfo* ctor; // 0x30
+		::Il2CppArray<::System::Boolean>* outFlags; // 0x38
+		::System::Int32 paramCount; // 0x40
+		::System::Boolean isNullableValue; // 0x44
+		::System::Boolean hasThis; // 0x45
+		::System::Boolean isNullableGetValueOrDefault; // 0x46
+		::System::Boolean isNullableHasValue; // 0x47
+		::System::Boolean hasReturn; // 0x48
+		::System::Boolean isValueTypeInstance; // 0x49
 
 		::System::Void _ctor(::System::Reflection::MethodBase* method)
 		{

@@ -6,18 +6,18 @@ namespace MoleMole { class ComicPageData; }
 namespace MoleMole { class UIComicPageController; }
 namespace UnityEngine::Timeline { class SplitScreenEvent; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADC3600)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_0__SHOWSPLITSCREENPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xADC3610)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDBFA0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS356_0__SHOWSPLITSCREENPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x15EDBFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass356_0_TypeDefinitionIndex = 62527;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass356_0_TypeDefinitionIndex = 40037;
 
 	class UIComicPageController___c__DisplayClass356_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Timeline::SplitScreenEvent* splitScreenEventBase; // 0x10
-		::MoleMole::ComicPageData* tempPageData; // 0x18
+		::MoleMole::ComicPageData* tempPageData; // 0x10
+		::UnityEngine::Timeline::SplitScreenEvent* splitScreenEventBase; // 0x18
 		::MoleMole::UIComicPageController* __4__this; // 0x20
 		::System::Int64 tempPageTimeStamp; // 0x28
 

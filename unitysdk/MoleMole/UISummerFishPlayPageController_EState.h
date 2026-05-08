@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishPlayPageController_EState_TypeDefinitionIndex = 37410;
+	inline static constexpr unsigned int UISummerFishPlayPageController_EState_TypeDefinitionIndex = 62372;
 
 	enum class UISummerFishPlayPageController_EState : ::System::Int32
 	{
-		FishQTE = 2,
 		BattleLoop = 3,
-		WaitFish = 0,
 		StartFish = 1,
+		WaitFish = 0,
+		FishQTE = 2,
 	};
 }

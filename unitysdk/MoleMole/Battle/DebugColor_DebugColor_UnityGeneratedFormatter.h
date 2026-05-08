@@ -9,22 +9,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xACA6D40)
-#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xACA6D50)
-#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xACA6F40)
-#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xACA7120)
-#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xACA70C0)
+#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x17517460)
+#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x17517470)
+#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x17517640)
+#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17517800)
+#define MOLEMOLE_BATTLE_DEBUGCOLOR_DEBUGCOLOR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x175177A0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int DebugColor_DebugColor_UnityGeneratedFormatter_TypeDefinitionIndex = 49176;
+	inline static constexpr unsigned int DebugColor_DebugColor_UnityGeneratedFormatter_TypeDefinitionIndex = 72726;
 
 	class DebugColor_DebugColor_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Battle::DebugColor>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(DebugColor_DebugColor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x38E80);
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(DebugColor_DebugColor_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3A0C0);
 		}
 
 		::System::Void _ctor()

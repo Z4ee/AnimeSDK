@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_26D0E63A4DA95F8F_TypeDefinitionIndex = 77522;
+inline static constexpr unsigned int Enum_3_26D0E63A4DA95F8F_TypeDefinitionIndex = 43308;
 
 enum class Enum_3_26D0E63A4DA95F8F : ::System::Int32
 {
-	Absolute = 2,
-	RelativeCaster = 1,
 	None = 0,
+	RelativeCaster = 1,
+	Absolute = 2,
 };

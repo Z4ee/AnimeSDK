@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VIEWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA6620)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VIEWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBCA70)
 
 namespace UnityEngine::NAPRenderPipeline0
 {

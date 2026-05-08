@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InlineList_2_TypeDefinitionIndex = 9093;
+	inline static constexpr unsigned int InlineList_2_TypeDefinitionIndex = 8979;
 
 	template <typename T, typename TFixedArray>
 	struct InlineList_2

@@ -6,21 +6,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1B3EFDC0)
-#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1B3EFDA0)
-#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_SET_MAX_OFFSET UNITYSDK_OFFSET(0x1B3EFDD0)
-#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_SET_MIN_OFFSET UNITYSDK_OFFSET(0x1B3EFDB0)
-#define ROOTMOTION_SHOWRANGEIFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EFDE0)
+#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1C1EEFF0)
+#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1C1EEFD0)
+#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_SET_MAX_OFFSET UNITYSDK_OFFSET(0x1C1EF000)
+#define ROOTMOTION_SHOWRANGEIFATTRIBUTE_SET_MIN_OFFSET UNITYSDK_OFFSET(0x1C1EEFE0)
+#define ROOTMOTION_SHOWRANGEIFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1EF010)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int ShowRangeIfAttribute_TypeDefinitionIndex = 35994;
+	inline static constexpr unsigned int ShowRangeIfAttribute_TypeDefinitionIndex = 36538;
 
 	class ShowRangeIfAttribute : public ::RootMotion::ShowIfAttribute
 	{
 	public:
-		::System::Single _max_k__BackingField; // 0x30
-		::System::Single _min_k__BackingField; // 0x34
+		::System::Single _min_k__BackingField; // 0x30
+		::System::Single _max_k__BackingField; // 0x34
 
 		::System::Void _ctor(::System::Single min, ::System::Single max, ::System::String* propertyName, ::System::Object* propertyValue, ::System::Object* otherPropertyValue, ::System::Boolean indent, ::RootMotion::ShowIfMode mode)
 		{

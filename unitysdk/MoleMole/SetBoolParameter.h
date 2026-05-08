@@ -11,31 +11,31 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_SETBOOLPARAMETER_GETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x8C93510)
-#define MOLEMOLE_SETBOOLPARAMETER_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8C933E0)
-#define MOLEMOLE_SETBOOLPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x8C939A0)
-#define MOLEMOLE_SETBOOLPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8C93620)
-#define MOLEMOLE_SETBOOLPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x8C938F0)
-#define MOLEMOLE_SETBOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x8C93A80)
-#define MOLEMOLE_SETBOOLPARAMETER___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x8C93AC0)
-#define MOLEMOLE_SETBOOLPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x8C93B50)
-#define MOLEMOLE_SETBOOLPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8C93BE0)
+#define MOLEMOLE_SETBOOLPARAMETER_GETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x13EB47C0)
+#define MOLEMOLE_SETBOOLPARAMETER_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EB4670)
+#define MOLEMOLE_SETBOOLPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x13EB4C90)
+#define MOLEMOLE_SETBOOLPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EB48E0)
+#define MOLEMOLE_SETBOOLPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x13EB4C00)
+#define MOLEMOLE_SETBOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB4D20)
+#define MOLEMOLE_SETBOOLPARAMETER___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13EB4DB0)
+#define MOLEMOLE_SETBOOLPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13EB4E40)
+#define MOLEMOLE_SETBOOLPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EB4ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetBoolParameter_TypeDefinitionIndex = 56637;
+	inline static constexpr unsigned int SetBoolParameter_TypeDefinitionIndex = 53612;
 
 	class SetBoolParameter : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::Battle::Entity* ownerEntity; // 0x58
-		::BehaviorDesigner::Runtime::SharedBool* boolValue; // 0x60
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
-		::BehaviorDesigner::Runtime::SharedString* CustomKey; // 0x70
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* CustomKey; // 0x60
+		::MoleMole::Battle::Entity* ownerEntity; // 0x68
+		::BehaviorDesigner::Runtime::SharedBool* boolValue; // 0x70
 		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x78
-		::MoleMole::AITargetType TargetType; // 0x80
+		::System::Boolean setOnce; // 0x80
 		::System::Int32 hashID; // 0x84
-		::System::Boolean setOnce; // 0x88
+		::MoleMole::AITargetType TargetType; // 0x88
 
 		::System::Void _ctor()
 		{

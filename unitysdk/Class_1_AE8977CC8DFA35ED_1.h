@@ -5,10 +5,10 @@
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoBangbooPartyAIPathPoint; }
 
-#define CLASS_1_AE8977CC8DFA35ED_1_METHOD_1_F529FE43CE7C9911_OFFSET UNITYSDK_OFFSET(0x88D47F0)
-#define CLASS_1_AE8977CC8DFA35ED_1__CTOR_OFFSET UNITYSDK_OFFSET(0x88D47E0)
+#define CLASS_1_AE8977CC8DFA35ED_1_METHOD_1_F529FE43CE7C9911_OFFSET UNITYSDK_OFFSET(0x16573B60)
+#define CLASS_1_AE8977CC8DFA35ED_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16573B50)
 
-inline static constexpr unsigned int Class_1_AE8977CC8DFA35ED_1_TypeDefinitionIndex = 53867;
+inline static constexpr unsigned int Class_1_AE8977CC8DFA35ED_1_TypeDefinitionIndex = 50000;
 
 class Class_1_AE8977CC8DFA35ED_1 : public ::System::Object
 {

@@ -3,16 +3,16 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int GridDir_TypeDefinitionIndex = 11131;
+	inline static constexpr unsigned int GridDir_TypeDefinitionIndex = 17738;
 
 	enum class GridDir : ::System::Int32
 	{
-		Down = 1,
 		Transfer = 99,
-		Left = 2,
+		Down = 1,
 		All = 4,
-		Up = 0,
-		Right = 3,
 		None = -1,
+		Right = 3,
+		Left = 2,
+		Up = 0,
 	};
 }

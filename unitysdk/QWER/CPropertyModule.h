@@ -5,12 +5,12 @@
 namespace QWER { class CPropertyObjectModule; }
 namespace QWER { class DOnPropertyModuleChanged; }
 
-#define QWER_CPROPERTYMODULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B754840)
-#define QWER_CPROPERTYMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B754830)
+#define QWER_CPROPERTYMODULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C532F50)
+#define QWER_CPROPERTYMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C532F40)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CPropertyModule_TypeDefinitionIndex = 9667;
+	inline static constexpr unsigned int CPropertyModule_TypeDefinitionIndex = 9678;
 
 	class CPropertyModule : public ::System::Object
 	{

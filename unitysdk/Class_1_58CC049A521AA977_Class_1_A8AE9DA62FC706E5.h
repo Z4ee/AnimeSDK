@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_49ABC235CB23B56F.h"
+#include "unitysdk/Struct_2_B6A3FA7992F9F37E_4.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5_METHOD_1_2B9D478141E0F891_OFFSET UNITYSDK_OFFSET(0x1412BA50)
+#define CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5_METHOD_1_31F18CC2EAE90211_OFFSET UNITYSDK_OFFSET(0x1412BD70)
+#define CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1412BBC0)
+#define CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5__CTOR_OFFSET UNITYSDK_OFFSET(0x1412BA40)
+
+inline static constexpr unsigned int Class_1_58CC049A521AA977_Class_1_A8AE9DA62FC706E5_TypeDefinitionIndex = 75167;
+
+class Class_1_58CC049A521AA977_Class_1_A8AE9DA62FC706E5 : public ::System::Object
+{
+public:
+	::Struct_2_49ABC235CB23B56F Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::System::Double>* Field_1_1; // 0x20
+	::System::Double Field_1_0; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2B9D478141E0F891()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5_METHOD_1_2B9D478141E0F891_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_1_31F18CC2EAE90211(::Struct_2_B6A3FA7992F9F37E_4 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_B6A3FA7992F9F37E_4))((::PBYTE)hIl2Cpp + CLASS_1_58CC049A521AA977_CLASS_1_A8AE9DA62FC706E5_METHOD_1_31F18CC2EAE90211_OFFSET))(this, a1);
+	}
+};

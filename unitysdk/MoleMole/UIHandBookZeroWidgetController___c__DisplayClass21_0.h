@@ -5,19 +5,19 @@
 namespace MoleMole { class UIHandBookZeroWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHANDBOOKZEROWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD51F70)
-#define MOLEMOLE_UIHANDBOOKZEROWIDGETCONTROLLER___C__DISPLAYCLASS21_0__ONSHOPBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0xAD51F80)
-#define MOLEMOLE_UIHANDBOOKZEROWIDGETCONTROLLER___C__DISPLAYCLASS21_0__ONSHOPBTNCLICK_B__1_OFFSET UNITYSDK_OFFSET(0xAD52260)
+#define MOLEMOLE_UIHANDBOOKZEROWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1637AB60)
+#define MOLEMOLE_UIHANDBOOKZEROWIDGETCONTROLLER___C__DISPLAYCLASS21_0__ONSHOPBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1637AB70)
+#define MOLEMOLE_UIHANDBOOKZEROWIDGETCONTROLLER___C__DISPLAYCLASS21_0__ONSHOPBTNCLICK_B__1_OFFSET UNITYSDK_OFFSET(0x1637AE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookZeroWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 61347;
+	inline static constexpr unsigned int UIHandBookZeroWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 38644;
 
 	class UIHandBookZeroWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHandBookZeroWidgetController* __4__this; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UIHandBookZeroWidgetController* __4__this; // 0x18
 		::System::Boolean showHintInHadalShopTab; // 0x20
 
 		::System::Void _ctor()

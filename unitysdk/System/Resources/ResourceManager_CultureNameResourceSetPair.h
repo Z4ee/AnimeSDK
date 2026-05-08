@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Resources { class ResourceSet; }
 
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1860B2B0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B9CAC0)
 
 namespace System::Resources
 {
@@ -14,8 +14,8 @@ namespace System::Resources
 	class ResourceManager_CultureNameResourceSetPair : public ::System::Object
 	{
 	public:
-		::System::String* lastCultureName; // 0x10
-		::System::Resources::ResourceSet* lastResourceSet; // 0x18
+		::System::Resources::ResourceSet* lastResourceSet; // 0x10
+		::System::String* lastCultureName; // 0x18
 
 		::System::Void _ctor()
 		{

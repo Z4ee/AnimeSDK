@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUITimerCounter_TimePointStyle_TypeDefinitionIndex = 68699;
+	inline static constexpr unsigned int MonoUITimerCounter_TimePointStyle_TypeDefinitionIndex = 48185;
 
 	enum class MonoUITimerCounter_TimePointStyle : ::System::Int32
 	{

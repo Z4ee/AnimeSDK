@@ -3,13 +3,13 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Conditional.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-#define MOLEMOLE_CHECKAVATARBATTLESTATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB382B10)
-#define MOLEMOLE_CHECKAVATARBATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x10A7B730)
-#define MOLEMOLE_CHECKAVATARBATTLESTATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10A7B770)
+#define MOLEMOLE_CHECKAVATARBATTLESTATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x141DA210)
+#define MOLEMOLE_CHECKAVATARBATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x141DA350)
+#define MOLEMOLE_CHECKAVATARBATTLESTATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x141DA3E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckAvatarBattleState_TypeDefinitionIndex = 71089;
+	inline static constexpr unsigned int CheckAvatarBattleState_TypeDefinitionIndex = 45607;
 
 	class CheckAvatarBattleState : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{

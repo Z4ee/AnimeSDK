@@ -9,11 +9,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1B0074A0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1B007800)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1B007760)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1B0071E0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0070B0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1BCD2DE0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1BCD3140)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1BCD30A0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1BCD2B20)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD29F0)
 
 namespace Mono::Security::Protocol::Tls
 {
@@ -23,8 +23,8 @@ namespace Mono::Security::Protocol::Tls
 	{
 	public:
 		// static const ::System::Int32 MacHeaderLength = 0xD; // 0x0
-		::Il2CppArray<::System::Byte>* header; // 0x70
-		::System::Object* headerLock; // 0x78
+		::System::Object* headerLock; // 0x70
+		::Il2CppArray<::System::Byte>* header; // 0x78
 
 		::System::Void _ctor(::System::Int16 code, ::System::String* name, ::Mono::Security::Protocol::Tls::CipherAlgorithmType cipherAlgorithmType, ::Mono::Security::Protocol::Tls::HashAlgorithmType hashAlgorithmType, ::Mono::Security::Protocol::Tls::ExchangeAlgorithmType exchangeAlgorithmType, ::System::Boolean exportable, ::System::Boolean blockMode, ::System::Byte keyMaterialSize, ::System::Byte expandedKeyMaterialSize, ::System::Int16 effectiveKeyBytes, ::System::Byte ivSize, ::System::Byte blockSize)
 		{

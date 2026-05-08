@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_AAD2B1B6FB741157.h"
+#include "unitysdk/Enum_3_C3E5AF96E93F7282.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_1_A0F01A2BF1C14442;
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_256_TypeDefinitionIndex = 78822;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_256_TypeDefinitionIndex = 42007;
 
 class Class_0_16E4307DCC419505_256
 {

@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int DOnSetItemChanged_1_TypeDefinitionIndex = 9663;
+	inline static constexpr unsigned int DOnSetItemChanged_1_TypeDefinitionIndex = 9674;
 
 	template <typename T>
 	class DOnSetItemChanged_1 : public ::System::MulticastDelegate

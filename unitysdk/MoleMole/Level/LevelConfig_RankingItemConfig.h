@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_RankingItemConfig_TypeDefinitionIndex = 39459;
+	inline static constexpr unsigned int LevelConfig_RankingItemConfig_TypeDefinitionIndex = 48341;
 
 	struct alignas(8) LevelConfig_RankingItemConfig
 	{

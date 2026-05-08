@@ -6,24 +6,24 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class DeserializeFunc; }
 
-#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAD2A70)
-#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD2AB0)
-#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__TST_B__6_0_OFFSET UNITYSDK_OFFSET(0xBAD2AC0)
+#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB834F0)
+#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB83530)
+#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__TST_B__6_0_OFFSET UNITYSDK_OFFSET(0xDB83540)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int AutoGen_Formatter_Register___c_TypeDefinitionIndex = 74720;
+	inline static constexpr unsigned int AutoGen_Formatter_Register___c_TypeDefinitionIndex = 61515;
 
 	class AutoGen_Formatter_Register___c : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::AutoGen_Formatter_Register___c** StaticGet___9()
 		{
-			return (::MessagePack::Formatters::AutoGen_Formatter_Register___c**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x36A30);
+			return (::MessagePack::Formatters::AutoGen_Formatter_Register___c**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x374E0);
 		}
 		static ::MessagePack::Formatters::DeserializeFunc** StaticGet___9__6_0()
 		{
-			return (::MessagePack::Formatters::DeserializeFunc**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x36A38);
+			return (::MessagePack::Formatters::DeserializeFunc**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x374E8);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define NAPSTREAMING_NAPSTREAMINGVIEWPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x6362F60)
+#define NAPSTREAMING_NAPSTREAMINGVIEWPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xBDFBBB0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingViewport_TypeDefinitionIndex = 55782;
+	inline static constexpr unsigned int NapStreamingViewport_TypeDefinitionIndex = 44601;
 
 	class NapStreamingViewport : public ::UnityEngine::MonoBehaviour
 	{

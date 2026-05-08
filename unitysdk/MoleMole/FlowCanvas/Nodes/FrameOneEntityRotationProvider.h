@@ -11,43 +11,43 @@
 namespace Nap::NapECS { class EcsWorld; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0xB896240)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_GETDATA_OFFSET UNITYSDK_OFFSET(0xB896400)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0xB8966B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_14818C3563DF6DE0_OFFSET UNITYSDK_OFFSET(0xB896E90)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_2E4C82BD3DAC9E52_OFFSET UNITYSDK_OFFSET(0xB8964D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0xB896FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0xB897110)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_8067ABEE1E847951_OFFSET UNITYSDK_OFFSET(0xB8967C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_1_OFFSET UNITYSDK_OFFSET(0xB896DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_2_OFFSET UNITYSDK_OFFSET(0xB897030)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_OFFSET UNITYSDK_OFFSET(0xB896CD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_SETPATH_OFFSET UNITYSDK_OFFSET(0xB896180)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8966E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8966C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x16E41670)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_GETDATA_OFFSET UNITYSDK_OFFSET(0x16E41810)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x16E41A80)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_14818C3563DF6DE0_OFFSET UNITYSDK_OFFSET(0x16E421F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_2E4C82BD3DAC9E52_OFFSET UNITYSDK_OFFSET(0x16E418C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x16E420A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x16E423C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_8067ABEE1E847951_OFFSET UNITYSDK_OFFSET(0x16E41B90)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_1_OFFSET UNITYSDK_OFFSET(0x16E42130)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_2_OFFSET UNITYSDK_OFFSET(0x16E42300)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_OFFSET UNITYSDK_OFFSET(0x16E41FE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_SETPATH_OFFSET UNITYSDK_OFFSET(0x16E415D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E41AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E41A90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FrameOneEntityRotationProvider_TypeDefinitionIndex = 70310;
+	inline static constexpr unsigned int FrameOneEntityRotationProvider_TypeDefinitionIndex = 77451;
 
 	class FrameOneEntityRotationProvider : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Quaternion, ::System::UInt32, ::Nap::NapECS::EcsWorld*>
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_LastCameraData()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_yaw()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC1C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC180);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_pitch()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC1C8);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_yaw()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC1D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC188);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_roll()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC1D8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC190);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_LastCameraData()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityRotationProvider_TypeDefinitionIndex)->GetStaticField(0xC198);
 		}
 		::System::Boolean overridePitch; // 0x40
 		::System::Single pitch; // 0x44
@@ -99,6 +99,11 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_OFFSET))(this, a1);
 		}
 
+		::System::Void Method_3_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_439B588EB4881570_OFFSET))(this, a1);
+		}
+
 		::System::Single Method_3_C1397965C8E8E75A_1(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
 			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_C1397965C8E8E75A_1_OFFSET))(this, a1);
@@ -107,11 +112,6 @@ namespace MoleMole::FlowCanvas::Nodes
 		::PipelineCamera::WorldBasicCameraData Method_3_14818C3563DF6DE0(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
 			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_14818C3563DF6DE0_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_FRAMEONEENTITYROTATIONPROVIDER_METHOD_3_439B588EB4881570_OFFSET))(this, a1);
 		}
 
 		::System::Single Method_3_C1397965C8E8E75A_2(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)

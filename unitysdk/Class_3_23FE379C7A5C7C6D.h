@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_B0D1B3309B7F3713.h"
+#include "unitysdk/Class_2_A4B66A4D469141BD.h"
 #include "unitysdk/Struct_2_E147DFD2A4EE8B0B.h"
 #include "unitysdk/Struct_2_E33A8767CD3B76C6.h"
 
-namespace System { class String; }
+#define CLASS_3_23FE379C7A5C7C6D_METHOD_3_B494DC6A3906791E_OFFSET UNITYSDK_OFFSET(0x114AA410)
+#define CLASS_3_23FE379C7A5C7C6D__CTOR_OFFSET UNITYSDK_OFFSET(0x114AA330)
 
-#define CLASS_3_23FE379C7A5C7C6D_METHOD_3_B494DC6A3906791E_OFFSET UNITYSDK_OFFSET(0x774A8C0)
-#define CLASS_3_23FE379C7A5C7C6D__CTOR_OFFSET UNITYSDK_OFFSET(0x774A850)
+inline static constexpr unsigned int Class_3_23FE379C7A5C7C6D_TypeDefinitionIndex = 54671;
 
-inline static constexpr unsigned int Class_3_23FE379C7A5C7C6D_TypeDefinitionIndex = 51620;
-
-class Class_3_23FE379C7A5C7C6D : public ::Class_2_B0D1B3309B7F3713<::System::String*>
+class Class_3_23FE379C7A5C7C6D : public ::Class_2_A4B66A4D469141BD<::System::Single>
 {
 public:
 	::System::Void _ctor()

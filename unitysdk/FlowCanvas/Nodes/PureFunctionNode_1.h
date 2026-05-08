@@ -6,7 +6,7 @@ namespace FlowCanvas { class FlowNode; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureFunctionNode_1_TypeDefinitionIndex = 26639;
+	inline static constexpr unsigned int PureFunctionNode_1_TypeDefinitionIndex = 27280;
 
 	template <typename TResult>
 	class PureFunctionNode_1 : public ::FlowCanvas::Nodes::PureFunctionNodeBase

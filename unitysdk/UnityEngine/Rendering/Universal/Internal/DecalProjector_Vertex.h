@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX_LERP_OFFSET UNITYSDK_OFFSET(0x1A2E8F00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x91F810)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX_LERP_OFFSET UNITYSDK_OFFSET(0xF7F4980)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x696040)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalProjector_Vertex_TypeDefinitionIndex = 29814;
+	inline static constexpr unsigned int DecalProjector_Vertex_TypeDefinitionIndex = 30342;
 
 	struct alignas(4) DecalProjector_Vertex
 	{

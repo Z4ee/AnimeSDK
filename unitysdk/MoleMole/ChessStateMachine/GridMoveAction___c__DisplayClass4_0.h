@@ -6,19 +6,19 @@ class Class_5_8A5B236F53009830;
 namespace MoleMole::ChessStateMachine { class GridMoveAction; }
 namespace System { class Action; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDMOVEACTION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC8C60)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDMOVEACTION___C__DISPLAYCLASS4_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xCAC8C70)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDMOVEACTION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF95FE80)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDMOVEACTION___C__DISPLAYCLASS4_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0xF95FE90)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridMoveAction___c__DisplayClass4_0_TypeDefinitionIndex = 58238;
+	inline static constexpr unsigned int GridMoveAction___c__DisplayClass4_0_TypeDefinitionIndex = 68224;
 
 	class GridMoveAction___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::ChessStateMachine::GridMoveAction* __4__this; // 0x10
-		::Class_5_8A5B236F53009830* data; // 0x18
-		::System::Action* __9__0; // 0x20
+		::Class_5_8A5B236F53009830* data; // 0x10
+		::System::Action* __9__0; // 0x18
+		::MoleMole::ChessStateMachine::GridMoveAction* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

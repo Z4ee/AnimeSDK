@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0x93B2E0)
-#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7__CTOR_OFFSET UNITYSDK_OFFSET(0x93B2C0)
+#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7_METHOD_2_DCDCD984F3A05F38_OFFSET UNITYSDK_OFFSET(0x9E3AE0)
+#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7__CTOR_OFFSET UNITYSDK_OFFSET(0x9E3AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_48E0785800803AF7_TypeDefinitionIndex = 83687;
+	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_48E0785800803AF7_TypeDefinitionIndex = 85380;
 
 	struct alignas(8) UISnakeEndingAnimScript_Struct_2_48E0785800803AF7
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_2_1B9CC121BDC8766D(::System::Boolean a1)
+		::System::Void Method_2_DCDCD984F3A05F38(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7_METHOD_2_1B9CC121BDC8766D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7_METHOD_2_DCDCD984F3A05F38_OFFSET))(this, a1);
 		}
 	};
 }

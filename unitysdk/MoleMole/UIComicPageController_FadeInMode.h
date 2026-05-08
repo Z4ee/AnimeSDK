@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController_FadeInMode_TypeDefinitionIndex = 62526;
+	inline static constexpr unsigned int UIComicPageController_FadeInMode_TypeDefinitionIndex = 40027;
 
 	enum class UIComicPageController_FadeInMode : ::System::Byte
 	{
-		BlackMask = 0x1,
 		Normal = 0x0,
+		BlackMask = 0x1,
 		SpecialBlackMask = 0x2,
 	};
 }

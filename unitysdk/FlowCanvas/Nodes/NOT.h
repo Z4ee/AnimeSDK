@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
-#define FLOWCANVAS_NODES_NOT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19C18820)
-#define FLOWCANVAS_NODES_NOT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C18830)
+#define FLOWCANVAS_NODES_NOT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A845EC0)
+#define FLOWCANVAS_NODES_NOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A845ED0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NOT_TypeDefinitionIndex = 27719;
+	inline static constexpr unsigned int NOT_TypeDefinitionIndex = 27923;
 
 	class NOT : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Boolean, ::System::Boolean>
 	{

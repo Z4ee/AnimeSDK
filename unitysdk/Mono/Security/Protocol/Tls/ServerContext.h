@@ -6,10 +6,10 @@
 namespace Mono::Security::Protocol::Tls { class SslServerStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_CLIENTCERTIFICATEREQUIRED_OFFSET UNITYSDK_OFFSET(0x1B5FED70)
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_REQUESTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1B5FED80)
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_SSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1B5FED60)
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5FED90)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_CLIENTCERTIFICATEREQUIRED_OFFSET UNITYSDK_OFFSET(0x1C484490)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_REQUESTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C4844A0)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_SSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1C484480)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4844B0)
 
 namespace Mono::Security::Protocol::Tls
 {
@@ -19,8 +19,8 @@ namespace Mono::Security::Protocol::Tls
 	{
 	public:
 		::Mono::Security::Protocol::Tls::SslServerStream* sslStream; // 0xD8
-		::System::Boolean clientCertificateRequired; // 0xE0
-		::System::Boolean request_client_certificate; // 0xE1
+		::System::Boolean request_client_certificate; // 0xE0
+		::System::Boolean clientCertificateRequired; // 0xE1
 
 		::System::Void _ctor(::Mono::Security::Protocol::Tls::SslServerStream* stream, ::Mono::Security::Protocol::Tls::SecurityProtocolType securityProtocolType, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Boolean clientCertificateRequired, ::System::Boolean requestClientCertificate)
 		{

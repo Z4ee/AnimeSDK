@@ -3,21 +3,21 @@
 #include "unitysdk/MoleMole/UIMissionTipsContainerWidgetController_MissionTipType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_MISSIONTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x747A7A0)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_MISSIONTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14846240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_MissionTipData_TypeDefinitionIndex = 70957;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_MissionTipData_TypeDefinitionIndex = 55063;
 
 	class UIMissionTipsContainerWidgetController_MissionTipData : public ::System::Object
 	{
 	public:
-		::System::Int32 DelayTime; // 0x10
-		::System::Int32 QuestID; // 0x14
-		::System::Boolean IsFadeOut; // 0x18
-		::System::Boolean IsModified; // 0x19
-		::System::Boolean IsFromResume; // 0x1A
-		::MoleMole::UIMissionTipsContainerWidgetController_MissionTipType TipType; // 0x1C
+		::MoleMole::UIMissionTipsContainerWidgetController_MissionTipType TipType; // 0x10
+		::System::Boolean IsModified; // 0x14
+		::System::Boolean IsFromResume; // 0x15
+		::System::Boolean IsFadeOut; // 0x16
+		::System::Int32 QuestID; // 0x18
+		::System::Int32 DelayTime; // 0x1C
 
 		::System::Void _ctor(::MoleMole::UIMissionTipsContainerWidgetController_MissionTipType tipType, ::System::Boolean fromResume, ::System::Int32 questID)
 		{

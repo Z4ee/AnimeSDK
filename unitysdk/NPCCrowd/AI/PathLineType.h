@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathLineType_TypeDefinitionIndex = 37847;
+	inline static constexpr unsigned int PathLineType_TypeDefinitionIndex = 59093;
 
 	enum class PathLineType : ::System::Int32
 	{
-		Straight = 0,
 		CatmullRomCurve = 1,
+		Straight = 0,
 	};
 }

@@ -16,42 +16,42 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xBAE2820)
-#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xBAE2830)
-#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xBAE2EE0)
-#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAE3310)
-#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBAE32D0)
+#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x186A1160)
+#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x186A1170)
+#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x186A1800)
+#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186A1C10)
+#define MOLEMOLE_CONFIG_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_ANIMATORZONECAMERAMOVEMENTCONFIGMODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186A1BD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex = 57439;
+	inline static constexpr unsigned int AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex = 62909;
 
 	class AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AnimatorZoneCameraMovementConfigMode*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36AB0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Type*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36AB8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37560);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Cameras::CameraMoveModeData_MoveModeDataPriority>** StaticGet_CachedSerializer5()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Cameras::CameraMoveModeData_MoveModeDataPriority>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36AC0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36AC8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CameraDelayMoveMode>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CameraDelayMoveMode>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36AD0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Cameras::CameraMoveModeData_MoveModeDataPriority>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37568);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36AD8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37570);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37578);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Type*>** StaticGet_CachedSerializer0()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37580);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CameraDelayMoveMode>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::CameraDelayMoveMode>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCameraMovementConfigMode_AnimatorZoneCameraMovementConfigMode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37588);
 		}
 
 		::System::Void _ctor()

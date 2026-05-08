@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGRANDMARCELENTRANCEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD57CA90)
+#define MOLEMOLE_UIGRANDMARCELENTRANCEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16875510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelEntrancePageContext_TypeDefinitionIndex = 54280;
+	inline static constexpr unsigned int UIGrandMarcelEntrancePageContext_TypeDefinitionIndex = 50252;
 
 	class UIGrandMarcelEntrancePageContext : public ::MoleMole::UIControllerContextBase
 	{

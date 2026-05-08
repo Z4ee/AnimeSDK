@@ -9,21 +9,21 @@ namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace Foundation::ViewObject { class GroupVariableHelper; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PULL_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x323CC0)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PULL_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PULL_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x71A190)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PULL_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper__Pull_d__12_TypeDefinitionIndex = 41671;
+	inline static constexpr unsigned int GroupVariableHelper__Pull_d__12_TypeDefinitionIndex = 46025;
 
 	struct alignas(8) GroupVariableHelper__Pull_d__12
 	{
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource* resultTcs; // 0x10
-		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_0_16E4307DCC419505_4*> __u__1; // 0x30
-		::System::UInt32 groupID; // 0x48
-		::System::Int32 __1__state; // 0x4C
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_0_16E4307DCC419505_4*> __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
+		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x38
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource* resultTcs; // 0x40
+		::System::Int32 __1__state; // 0x48
+		::System::UInt32 groupID; // 0x4C
 
 		::System::Void MoveNext()
 		{

@@ -5,11 +5,11 @@
 namespace MoleMole { class UISuibianTempleManageInfoContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLESIMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6B9230)
+#define MOLEMOLE_UISUIBIANTEMPLESIMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11B7A970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleSimWidgetContext_TypeDefinitionIndex = 38730;
+	inline static constexpr unsigned int UISuibianTempleSimWidgetContext_TypeDefinitionIndex = 64174;
 
 	class UISuibianTempleSimWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

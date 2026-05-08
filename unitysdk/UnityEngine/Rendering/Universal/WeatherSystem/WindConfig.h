@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WINDCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1A2F7B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WINDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F7D30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WINDCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0xF804CB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WINDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF804E80)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WindConfig_TypeDefinitionIndex = 29781;
+	inline static constexpr unsigned int WindConfig_TypeDefinitionIndex = 30310;
 
 	class WindConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::WindConfig*>
 	{

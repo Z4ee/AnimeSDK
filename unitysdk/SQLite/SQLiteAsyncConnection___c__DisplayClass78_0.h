@@ -6,18 +6,18 @@ namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A634810)
-#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS78_0__INSERTALLASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1A6399B0)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27B8D0)
+#define SQLITE_SQLITEASYNCCONNECTION___C__DISPLAYCLASS78_0__INSERTALLASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B280F10)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass78_0_TypeDefinitionIndex = 36315;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass78_0_TypeDefinitionIndex = 36859;
 
 	class SQLiteAsyncConnection___c__DisplayClass78_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::IEnumerable* objects; // 0x10
-		::System::String* extra; // 0x18
+		::System::String* extra; // 0x10
+		::System::Collections::IEnumerable* objects; // 0x18
 		::System::Boolean runInTransaction; // 0x20
 
 		::System::Void _ctor()

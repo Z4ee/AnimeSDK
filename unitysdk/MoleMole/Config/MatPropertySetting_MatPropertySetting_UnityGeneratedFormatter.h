@@ -8,22 +8,22 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x9D16530)
-#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x9D16540)
-#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x9D16870)
-#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D16AC0)
-#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D16A60)
+#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1231AA60)
+#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1231AA70)
+#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1231AD80)
+#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1231AFB0)
+#define MOLEMOLE_CONFIG_MATPROPERTYSETTING_MATPROPERTYSETTING_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1231AF50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MatPropertySetting_MatPropertySetting_UnityGeneratedFormatter_TypeDefinitionIndex = 60429;
+	inline static constexpr unsigned int MatPropertySetting_MatPropertySetting_UnityGeneratedFormatter_TypeDefinitionIndex = 40338;
 
 	class MatPropertySetting_MatPropertySetting_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::MatPropertySetting>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatPropertySetting_MatPropertySetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3B140);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatPropertySetting_MatPropertySetting_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3C460);
 		}
 
 		::System::Void _ctor()

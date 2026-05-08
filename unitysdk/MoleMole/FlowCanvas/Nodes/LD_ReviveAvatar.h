@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8A8F70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A9050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x16E53DE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x16E53E90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReviveAvatar_TypeDefinitionIndex = 65826;
+	inline static constexpr unsigned int LD_ReviveAvatar_TypeDefinitionIndex = 52549;
 
 	class LD_ReviveAvatar : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Single>
 	{

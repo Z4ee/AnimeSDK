@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_CAMERACUTSCENESHOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x7BB5CC0)
-#define MOLEMOLE_CAMERACUTSCENESHOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x7BB5D00)
-#define MOLEMOLE_CAMERACUTSCENESHOW___C__ONPROCESS_B__5_0_OFFSET UNITYSDK_OFFSET(0x7BB5D10)
+#define MOLEMOLE_CAMERACUTSCENESHOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFE97230)
+#define MOLEMOLE_CAMERACUTSCENESHOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFE97270)
+#define MOLEMOLE_CAMERACUTSCENESHOW___C__ONPROCESS_B__5_0_OFFSET UNITYSDK_OFFSET(0xFE97280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraCutSceneShow___c_TypeDefinitionIndex = 56829;
+	inline static constexpr unsigned int CameraCutSceneShow___c_TypeDefinitionIndex = 53631;
 
 	class CameraCutSceneShow___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__5_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CameraCutSceneShow___c_TypeDefinitionIndex)->GetStaticField(0x31080);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CameraCutSceneShow___c_TypeDefinitionIndex)->GetStaticField(0x31C60);
 		}
 		static ::MoleMole::CameraCutSceneShow___c** StaticGet___9()
 		{
-			return (::MoleMole::CameraCutSceneShow___c**)Il2CppClass::FromTypeDefinitionIndex(CameraCutSceneShow___c_TypeDefinitionIndex)->GetStaticField(0x31088);
+			return (::MoleMole::CameraCutSceneShow___c**)Il2CppClass::FromTypeDefinitionIndex(CameraCutSceneShow___c_TypeDefinitionIndex)->GetStaticField(0x31C68);
 		}
 
 		static ::System::Void _cctor()

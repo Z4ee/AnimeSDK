@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/CountDownUIOperation.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNUI_MODIFY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1164A840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNUI_MODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1164AAB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNUI_MODIFY_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BA3760)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNUI_MODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA3980)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCountDownUI_Modify_TypeDefinitionIndex = 39075;
+	inline static constexpr unsigned int LDCountDownUI_Modify_TypeDefinitionIndex = 65365;
 
 	class LDCountDownUI_Modify : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::FlowCanvas::Nodes::CountDownUIOperation, ::System::Int32>
 	{

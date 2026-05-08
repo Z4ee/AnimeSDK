@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ExternalAccountType_TypeDefinitionIndex = 32766;
+	inline static constexpr unsigned int ExternalAccountType_TypeDefinitionIndex = 33302;
 
 	enum class ExternalAccountType : ::System::Int32
 	{

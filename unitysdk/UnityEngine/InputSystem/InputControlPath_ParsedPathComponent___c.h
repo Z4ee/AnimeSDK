@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH_PARSEDPATHCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5551D0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH_PARSEDPATHCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A555210)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH_PARSEDPATHCOMPONENT___C__GET_USAGES_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A555220)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH_PARSEDPATHCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3F4EF0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH_PARSEDPATHCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F4F30)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH_PARSEDPATHCOMPONENT___C__GET_USAGES_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B3F4F40)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlPath_ParsedPathComponent___c_TypeDefinitionIndex = 28447;
+	inline static constexpr unsigned int InputControlPath_ParsedPathComponent___c_TypeDefinitionIndex = 28965;
 
 	class InputControlPath_ParsedPathComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath_ParsedPathComponent___c_TypeDefinitionIndex)->GetStaticField(0x212D0);
-		}
 		static ::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent___c** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent___c**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath_ParsedPathComponent___c_TypeDefinitionIndex)->GetStaticField(0x212D8);
+			return (::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent___c**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath_ParsedPathComponent___c_TypeDefinitionIndex)->GetStaticField(0x21E40);
+		}
+		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath_ParsedPathComponent___c_TypeDefinitionIndex)->GetStaticField(0x21E48);
 		}
 
 		static ::System::Void _cctor()

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TriggerBase_2_TypeDefinitionIndex = 7698;
+	inline static constexpr unsigned int TriggerBase_2_TypeDefinitionIndex = 7768;
 
 	template <typename Key, typename Action>
 	class TriggerBase_2 : public ::System::Object

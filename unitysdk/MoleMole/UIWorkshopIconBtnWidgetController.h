@@ -6,19 +6,19 @@ class Class_1_0D6706375CDAAE8C;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIWORKSHOPICONBTNWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0xEA0BF30)
-#define MOLEMOLE_UIWORKSHOPICONBTNWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xEA0C120)
-#define MOLEMOLE_UIWORKSHOPICONBTNWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0xEA0C140)
+#define MOLEMOLE_UIWORKSHOPICONBTNWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x14C4FA10)
+#define MOLEMOLE_UIWORKSHOPICONBTNWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14C4FBB0)
+#define MOLEMOLE_UIWORKSHOPICONBTNWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x14C4FBD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkshopIconBtnWidgetController_TypeDefinitionIndex = 78599;
+	inline static constexpr unsigned int UIWorkshopIconBtnWidgetController_TypeDefinitionIndex = 40656;
 
 	class UIWorkshopIconBtnWidgetController : public ::MoleMole::UIItemIconBtnWidgetController
 	{
 	public:
-		::System::Action_1<::MoleMole::UIWorkshopIconBtnWidgetController*>* RefreshEquipStateAction; // 0x348
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x350
+		::System::Action_1<::MoleMole::UIWorkshopIconBtnWidgetController*>* RefreshEquipStateAction; // 0x3C8
+		::Class_1_0D6706375CDAAE8C* itemData; // 0x3D0
 
 		::System::Void _ctor()
 		{

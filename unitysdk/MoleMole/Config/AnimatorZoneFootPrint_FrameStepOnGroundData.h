@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEFOOTPRINT_FRAMESTEPONGROUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xACB3F20)
+#define MOLEMOLE_CONFIG_ANIMATORZONEFOOTPRINT_FRAMESTEPONGROUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17524760)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneFootPrint_FrameStepOnGroundData_TypeDefinitionIndex = 57597;
+	inline static constexpr unsigned int AnimatorZoneFootPrint_FrameStepOnGroundData_TypeDefinitionIndex = 49602;
 
 	class AnimatorZoneFootPrint_FrameStepOnGroundData : public ::System::Object
 	{

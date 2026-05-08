@@ -13,71 +13,71 @@ namespace UnityEngine { class MeshRenderer; }
 namespace XftWeapon { class VertexPool_VertexSegment; }
 namespace XftWeapon { class XWeaponTrail; }
 
-#define XFTWEAPON_VERTEXPOOL_ADJUSTPOS_OFFSET UNITYSDK_OFFSET(0x1A5DE2D0)
-#define XFTWEAPON_VERTEXPOOL_AFTERUPDATE_OFFSET UNITYSDK_OFFSET(0x1A5DB140)
-#define XFTWEAPON_VERTEXPOOL_BEFOREUPDATE_OFFSET UNITYSDK_OFFSET(0x1A5DAA10)
-#define XFTWEAPON_VERTEXPOOL_BSPLINERESIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1A5DCEE0)
-#define XFTWEAPON_VERTEXPOOL_BSPLINERESIZELIST_OFFSET UNITYSDK_OFFSET(0x1A5DD010)
-#define XFTWEAPON_VERTEXPOOL_CREATEMESHOBJ_OFFSET UNITYSDK_OFFSET(0x1A5DBEB0)
-#define XFTWEAPON_VERTEXPOOL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A5DC670)
-#define XFTWEAPON_VERTEXPOOL_ENLARGEARRAYS_GCOPT_OFFSET UNITYSDK_OFFSET(0x1A5DA9F0)
-#define XFTWEAPON_VERTEXPOOL_ENLARGEARRAYS_OFFSET UNITYSDK_OFFSET(0x1A5DCC70)
-#define XFTWEAPON_VERTEXPOOL_GETMESHRENDER_OFFSET UNITYSDK_OFFSET(0x1A5DBEA0)
-#define XFTWEAPON_VERTEXPOOL_GETVERTICES_GCOPT_OFFSET UNITYSDK_OFFSET(0x1A5DA9C0)
-#define XFTWEAPON_VERTEXPOOL_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1A5DCAF0)
-#define XFTWEAPON_VERTEXPOOL_GET_DYNAMICMESHPOINTLENGTH_OFFSET UNITYSDK_OFFSET(0x1A5DB080)
-#define XFTWEAPON_VERTEXPOOL_GET_MYMESH_OFFSET UNITYSDK_OFFSET(0x1A5DB3E0)
-#define XFTWEAPON_VERTEXPOOL_GET_USEUV2_OFFSET UNITYSDK_OFFSET(0x1A5DAFF0)
-#define XFTWEAPON_VERTEXPOOL_GET_VERTCOUNTCHANGED_FOROUTTER_OFFSET UNITYSDK_OFFSET(0x1A5DB3C0)
-#define XFTWEAPON_VERTEXPOOL_INITARRAYS_OFFSET UNITYSDK_OFFSET(0x1A5DBC80)
-#define XFTWEAPON_VERTEXPOOL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A5DD220)
-#define XFTWEAPON_VERTEXPOOL_RECALCULATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A5DB4B0)
-#define XFTWEAPON_VERTEXPOOL_RESETUSED_OFFSET UNITYSDK_OFFSET(0x1A5DCA00)
-#define XFTWEAPON_VERTEXPOOL_RESET_OFFSET UNITYSDK_OFFSET(0x1A5DB490)
-#define XFTWEAPON_VERTEXPOOL_SETMESHOBJECTACTIVE_OFFSET UNITYSDK_OFFSET(0x1A5DB570)
-#define XFTWEAPON_VERTEXPOOL_SET_VERTCOUNTCHANGED_FOROUTTER_OFFSET UNITYSDK_OFFSET(0x1A5DB3D0)
-#define XFTWEAPON_VERTEXPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DCA20)
+#define XFTWEAPON_VERTEXPOOL_ADJUSTPOS_OFFSET UNITYSDK_OFFSET(0x1B172B90)
+#define XFTWEAPON_VERTEXPOOL_AFTERUPDATE_OFFSET UNITYSDK_OFFSET(0x1B170290)
+#define XFTWEAPON_VERTEXPOOL_BEFOREUPDATE_OFFSET UNITYSDK_OFFSET(0x1B16F7D0)
+#define XFTWEAPON_VERTEXPOOL_BSPLINERESIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1B171EC0)
+#define XFTWEAPON_VERTEXPOOL_BSPLINERESIZELIST_OFFSET UNITYSDK_OFFSET(0x1B1720F0)
+#define XFTWEAPON_VERTEXPOOL_CREATEMESHOBJ_OFFSET UNITYSDK_OFFSET(0x1B170C40)
+#define XFTWEAPON_VERTEXPOOL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B171680)
+#define XFTWEAPON_VERTEXPOOL_ENLARGEARRAYS_GCOPT_OFFSET UNITYSDK_OFFSET(0x1B16F7B0)
+#define XFTWEAPON_VERTEXPOOL_ENLARGEARRAYS_OFFSET UNITYSDK_OFFSET(0x1B171C50)
+#define XFTWEAPON_VERTEXPOOL_GETMESHRENDER_OFFSET UNITYSDK_OFFSET(0x1B170C30)
+#define XFTWEAPON_VERTEXPOOL_GETVERTICES_GCOPT_OFFSET UNITYSDK_OFFSET(0x1B16F780)
+#define XFTWEAPON_VERTEXPOOL_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1B171AB0)
+#define XFTWEAPON_VERTEXPOOL_GET_DYNAMICMESHPOINTLENGTH_OFFSET UNITYSDK_OFFSET(0x1B1700F0)
+#define XFTWEAPON_VERTEXPOOL_GET_MYMESH_OFFSET UNITYSDK_OFFSET(0x1B170520)
+#define XFTWEAPON_VERTEXPOOL_GET_USEUV2_OFFSET UNITYSDK_OFFSET(0x1B16FF90)
+#define XFTWEAPON_VERTEXPOOL_GET_VERTCOUNTCHANGED_FOROUTTER_OFFSET UNITYSDK_OFFSET(0x1B170500)
+#define XFTWEAPON_VERTEXPOOL_INITARRAYS_OFFSET UNITYSDK_OFFSET(0x1B170970)
+#define XFTWEAPON_VERTEXPOOL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1B1721E0)
+#define XFTWEAPON_VERTEXPOOL_RECALCULATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1B1706C0)
+#define XFTWEAPON_VERTEXPOOL_RESETUSED_OFFSET UNITYSDK_OFFSET(0x1B171970)
+#define XFTWEAPON_VERTEXPOOL_RESET_OFFSET UNITYSDK_OFFSET(0x1B1706A0)
+#define XFTWEAPON_VERTEXPOOL_SETMESHOBJECTACTIVE_OFFSET UNITYSDK_OFFSET(0x1B1706E0)
+#define XFTWEAPON_VERTEXPOOL_SET_VERTCOUNTCHANGED_FOROUTTER_OFFSET UNITYSDK_OFFSET(0x1B170510)
+#define XFTWEAPON_VERTEXPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B171990)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int VertexPool_TypeDefinitionIndex = 37132;
+	inline static constexpr unsigned int VertexPool_TypeDefinitionIndex = 37676;
 
 	class VertexPool : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 BlockSize = 0x6C; // 0x0
-		::System::Collections::Generic::List_1<::System::Int32>* Indices_List; // 0x10
-		::UnityEngine::MeshRenderer* _meshrenderer; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* UVs_List; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Color>* Colors_List; // 0x28
-		::Il2CppArray<::UnityEngine::Vector2>* UV2s; // 0x30
-		::UnityEngine::MeshFilter* _meshFilter; // 0x38
-		::Il2CppArray<::UnityEngine::Vector3>* Vertices; // 0x40
-		::Il2CppArray<::UnityEngine::Vector2>* defaultUvs; // 0x48
-		::XftWeapon::XWeaponTrail* _owner; // 0x50
-		::UnityEngine::Mesh* _mesh2d; // 0x58
-		::XftWeapon::XWeaponTrail* xWeaponCtx; // 0x60
-		::Il2CppArray<::UnityEngine::Color>* Colors; // 0x68
-		::UnityEngine::Material* _material; // 0x70
-		::Il2CppArray<::System::Int32>* Indices; // 0x78
-		::Il2CppArray<::UnityEngine::Vector2>* UVs; // 0x80
-		::Il2CppArray<::UnityEngine::Vector3>* defaultVertices; // 0x88
-		::Il2CppArray<::UnityEngine::Color>* defaultColors; // 0x90
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Vertices_List; // 0x98
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* UV2s_List; // 0xA0
-		::Il2CppArray<::System::Int32>* defaultIndices; // 0xA8
-		::System::Single ElapsedTime; // 0xB0
-		::System::Boolean ColorChanged; // 0xB4
-		::System::Boolean VertCountChanged; // 0xB5
-		::System::Boolean VertChanged; // 0xB6
-		::System::Boolean UV2Changed; // 0xB7
-		::System::Boolean FirstUpdate; // 0xB8
-		::System::Boolean IndiceChanged; // 0xB9
-		::System::Boolean UVChanged; // 0xBA
-		::System::Int32 IndexUsed; // 0xBC
-		::System::Int32 IndexTotal; // 0xC0
-		::System::Single BoundsScheduleTime; // 0xC4
-		::System::Int32 VertexTotal; // 0xC8
+		::Il2CppArray<::UnityEngine::Vector3>* defaultVertices; // 0x10
+		::Il2CppArray<::UnityEngine::Color>* Colors; // 0x18
+		::XftWeapon::XWeaponTrail* _owner; // 0x20
+		::UnityEngine::Mesh* _mesh2d; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Vertices_List; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Color>* Colors_List; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* UVs_List; // 0x40
+		::UnityEngine::Material* _material; // 0x48
+		::Il2CppArray<::UnityEngine::Vector2>* UV2s; // 0x50
+		::System::Collections::Generic::List_1<::System::Int32>* Indices_List; // 0x58
+		::Il2CppArray<::UnityEngine::Vector2>* UVs; // 0x60
+		::Il2CppArray<::System::Int32>* defaultIndices; // 0x68
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* UV2s_List; // 0x70
+		::Il2CppArray<::UnityEngine::Color>* defaultColors; // 0x78
+		::UnityEngine::MeshFilter* _meshFilter; // 0x80
+		::UnityEngine::MeshRenderer* _meshrenderer; // 0x88
+		::Il2CppArray<::System::Int32>* Indices; // 0x90
+		::Il2CppArray<::UnityEngine::Vector3>* Vertices; // 0x98
+		::Il2CppArray<::UnityEngine::Vector2>* defaultUvs; // 0xA0
+		::XftWeapon::XWeaponTrail* xWeaponCtx; // 0xA8
+		::System::Int32 VertexTotal; // 0xB0
+		::System::Int32 IndexUsed; // 0xB4
+		::System::Boolean VertCountChanged; // 0xB8
+		::System::Boolean ColorChanged; // 0xB9
+		::System::Boolean FirstUpdate; // 0xBA
+		::System::Single BoundsScheduleTime; // 0xBC
+		::System::Boolean VertChanged; // 0xC0
+		::System::Boolean UV2Changed; // 0xC1
+		::System::Boolean IndiceChanged; // 0xC2
+		::System::Boolean UVChanged; // 0xC3
+		::System::Single ElapsedTime; // 0xC4
+		::System::Int32 IndexTotal; // 0xC8
 		::System::Int32 VertexUsed; // 0xCC
 
 		::System::Void _ctor(::UnityEngine::Material* material, ::XftWeapon::XWeaponTrail* owner)

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BattleGameWeatherAndTime_TypeDefinitionIndex = 68350;
+	inline static constexpr unsigned int BattleGameWeatherAndTime_TypeDefinitionIndex = 75825;
 
 	struct alignas(8) BattleGameWeatherAndTime
 	{

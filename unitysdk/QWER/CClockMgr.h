@@ -4,7 +4,7 @@
 
 namespace QWER
 {
-	inline static constexpr unsigned int CClockMgr_TypeDefinitionIndex = 82512;
+	inline static constexpr unsigned int CClockMgr_TypeDefinitionIndex = 84240;
 
 	class CClockMgr : public ::System::Object
 	{

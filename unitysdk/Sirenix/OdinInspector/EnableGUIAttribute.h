@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_ENABLEGUIATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1143D0)
+#define SIRENIX_ODININSPECTOR_ENABLEGUIATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F880)
 
 namespace Sirenix::OdinInspector
 {

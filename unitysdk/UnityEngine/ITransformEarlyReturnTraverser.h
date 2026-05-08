@@ -5,7 +5,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ITransformEarlyReturnTraverser_TypeDefinitionIndex = 68029;
+	inline static constexpr unsigned int ITransformEarlyReturnTraverser_TypeDefinitionIndex = 43729;
 
 	class ITransformEarlyReturnTraverser
 	{

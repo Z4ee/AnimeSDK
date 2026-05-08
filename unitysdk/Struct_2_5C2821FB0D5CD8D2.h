@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Struct_2_5C2821FB0D5CD8D2_TypeDefinitionIndex = 38465;
+inline static constexpr unsigned int Struct_2_5C2821FB0D5CD8D2_TypeDefinitionIndex = 48474;
 
 template <typename T>
 struct Struct_2_5C2821FB0D5CD8D2

@@ -6,7 +6,7 @@ namespace NodeCanvas::Framework { template <typename T> class NodeReference_1; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int NodeReference_1___c__DisplayClass8_0_TypeDefinitionIndex = 27571;
+	inline static constexpr unsigned int NodeReference_1___c__DisplayClass8_0_TypeDefinitionIndex = 26465;
 
 	template <typename T>
 	class NodeReference_1___c__DisplayClass8_0 : public ::System::Object

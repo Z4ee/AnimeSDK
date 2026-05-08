@@ -6,12 +6,12 @@
 namespace NPCCrowd::Animation { class GPUIBone; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA_GETARRAYINDEXOFBONE_OFFSET UNITYSDK_OFFSET(0x634BCB0)
-#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x634BD60)
+#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA_GETARRAYINDEXOFBONE_OFFSET UNITYSDK_OFFSET(0xBDE47A0)
+#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDE4830)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUISkinnedMeshData_TypeDefinitionIndex = 53488;
+	inline static constexpr unsigned int GPUISkinnedMeshData_TypeDefinitionIndex = 46557;
 
 	class GPUISkinnedMeshData : public ::System::Object
 	{

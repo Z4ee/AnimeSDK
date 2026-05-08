@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/ConfigRhythmMoveBeatMap_BeatMap_BlockType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIGRHYTHMMOVEBEATMAP_BEATMAP_BEATITEM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x548A90)
+#define MOLEMOLE_CONFIGRHYTHMMOVEBEATMAP_BEATMAP_BEATITEM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x3A6250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_BeatMap_BeatItem_TypeDefinitionIndex = 52950;
+	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_BeatMap_BeatItem_TypeDefinitionIndex = 47558;
 
 	struct alignas(4) ConfigRhythmMoveBeatMap_BeatMap_BeatItem
 	{

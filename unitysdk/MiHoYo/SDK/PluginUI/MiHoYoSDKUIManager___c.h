@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET UNITYSDK_OFFSET(0x192321C0)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19232170)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192321B0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET UNITYSDK_OFFSET(0x19A3E5E0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A3E590)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3E5D0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIManager___c_TypeDefinitionIndex = 35110;
+	inline static constexpr unsigned int MiHoYoSDKUIManager___c_TypeDefinitionIndex = 35654;
 
 	class MiHoYoSDKUIManager___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PluginUI::MiHoYoSDKUIManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x25F60);
+			return (::MiHoYo::SDK::PluginUI::MiHoYoSDKUIManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x26AF0);
 		}
 		static ::System::Action_1<::System::String*>** StaticGet___9__16_1()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x25F68);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x26AF8);
 		}
 
 		static ::System::Void _cctor()

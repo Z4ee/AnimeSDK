@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int SchemaFormat_TypeDefinitionIndex = 36541;
+	inline static constexpr unsigned int SchemaFormat_TypeDefinitionIndex = 37085;
 
 	enum class SchemaFormat : ::System::Int32
 	{

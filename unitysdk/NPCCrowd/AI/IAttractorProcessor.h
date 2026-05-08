@@ -6,7 +6,7 @@ namespace NPCCrowd::AI { class AttractorRuntimeData; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int IAttractorProcessor_TypeDefinitionIndex = 65486;
+	inline static constexpr unsigned int IAttractorProcessor_TypeDefinitionIndex = 75997;
 
 	class IAttractorProcessor
 	{

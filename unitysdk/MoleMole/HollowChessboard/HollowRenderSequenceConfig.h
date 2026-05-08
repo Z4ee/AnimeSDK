@@ -4,11 +4,11 @@
 
 namespace MoleMole::HollowChessboard { class HollowEntityRenderSequence; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWRENDERSEQUENCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E0600)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWRENDERSEQUENCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x160505C0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowRenderSequenceConfig_TypeDefinitionIndex = 56342;
+	inline static constexpr unsigned int HollowRenderSequenceConfig_TypeDefinitionIndex = 73602;
 
 	class HollowRenderSequenceConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

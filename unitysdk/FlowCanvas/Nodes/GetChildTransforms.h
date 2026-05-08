@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_GETCHILDTRANSFORMS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A3F0890)
-#define FLOWCANVAS_NODES_GETCHILDTRANSFORMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F08D0)
+#define FLOWCANVAS_NODES_GETCHILDTRANSFORMS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B0EB6A0)
+#define FLOWCANVAS_NODES_GETCHILDTRANSFORMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EB6E0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetChildTransforms_TypeDefinitionIndex = 27675;
+	inline static constexpr unsigned int GetChildTransforms_TypeDefinitionIndex = 26884;
 
 	class GetChildTransforms : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*, ::UnityEngine::Transform*>
 	{

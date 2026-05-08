@@ -9,35 +9,36 @@ namespace Nap::NapECS { class EcsFilter; }
 namespace Nap::NapECS { class EcsSystem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAP_NAPECS_ECSFILTERGROUP_ADDFILTER_OFFSET UNITYSDK_OFFSET(0x18D888A0)
-#define NAP_NAPECS_ECSFILTERGROUP_DESTROY_OFFSET UNITYSDK_OFFSET(0x18D88B50)
-#define NAP_NAPECS_ECSFILTERGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18D88C20)
-#define NAP_NAPECS_ECSFILTERGROUP_GETFILTERLISTBYINDEX_OFFSET UNITYSDK_OFFSET(0x18D889D0)
-#define NAP_NAPECS_ECSFILTERGROUP_ISDISPATCHINGENTITY_OFFSET UNITYSDK_OFFSET(0x18D7FE60)
-#define NAP_NAPECS_ECSFILTERGROUP_REFRESH_OFFSET UNITYSDK_OFFSET(0x18D88CB0)
-#define NAP_NAPECS_ECSFILTERGROUP_REGISTERDEFERREADY_OFFSET UNITYSDK_OFFSET(0x18D7FF30)
-#define NAP_NAPECS_ECSFILTERGROUP_UPDATEFILTERINDEX_OFFSET UNITYSDK_OFFSET(0x18D88540)
-#define NAP_NAPECS_ECSFILTERGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D8AE00)
-#define NAP_NAPECS_ECSFILTERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18D88830)
+#define NAP_NAPECS_ECSFILTERGROUP_ADDFILTER_OFFSET UNITYSDK_OFFSET(0x192D6390)
+#define NAP_NAPECS_ECSFILTERGROUP_DESTROY_OFFSET UNITYSDK_OFFSET(0x192D6C30)
+#define NAP_NAPECS_ECSFILTERGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192D6CD0)
+#define NAP_NAPECS_ECSFILTERGROUP_GETFILTERLISTBYINDEX_OFFSET UNITYSDK_OFFSET(0x192D6AA0)
+#define NAP_NAPECS_ECSFILTERGROUP_ISDISPATCHINGENTITY_OFFSET UNITYSDK_OFFSET(0x192CE650)
+#define NAP_NAPECS_ECSFILTERGROUP_REFRESH_OFFSET UNITYSDK_OFFSET(0x192D6D50)
+#define NAP_NAPECS_ECSFILTERGROUP_REGISTERDEFERREADY_OFFSET UNITYSDK_OFFSET(0x192CE700)
+#define NAP_NAPECS_ECSFILTERGROUP_REMOVEFILTER_OFFSET UNITYSDK_OFFSET(0x192D64D0)
+#define NAP_NAPECS_ECSFILTERGROUP_UPDATEFILTERINDEX_OFFSET UNITYSDK_OFFSET(0x192D6000)
+#define NAP_NAPECS_ECSFILTERGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x192D8E20)
+#define NAP_NAPECS_ECSFILTERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x192D6300)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsFilterGroup_TypeDefinitionIndex = 35115;
+	inline static constexpr unsigned int EcsFilterGroup_TypeDefinitionIndex = 35668;
 
 	class EcsFilterGroup : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Nap::NapECS::EcsEntity*>** StaticGet_ContextDispatchingEntity()
-		{
-			return (::System::Collections::Generic::List_1<::Nap::NapECS::EcsEntity*>**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup_TypeDefinitionIndex)->GetStaticField(0x26260);
-		}
 		static ::System::Collections::Generic::List_1<::Nap::NapECS::EcsComponent*>** StaticGet_DispatchComponentReady()
 		{
-			return (::System::Collections::Generic::List_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup_TypeDefinitionIndex)->GetStaticField(0x26268);
+			return (::System::Collections::Generic::List_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup_TypeDefinitionIndex)->GetStaticField(0x26E10);
 		}
-		::Il2CppArray<::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>*>* filterIndex; // 0x10
+		static ::System::Collections::Generic::List_1<::Nap::NapECS::EcsEntity*>** StaticGet_ContextDispatchingEntity()
+		{
+			return (::System::Collections::Generic::List_1<::Nap::NapECS::EcsEntity*>**)Il2CppClass::FromTypeDefinitionIndex(EcsFilterGroup_TypeDefinitionIndex)->GetStaticField(0x26E18);
+		}
+		::Nap::NapECS::EcsSystem* ContextSystem; // 0x10
 		::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>* filterList; // 0x18
-		::Nap::NapECS::EcsSystem* ContextSystem; // 0x20
+		::Il2CppArray<::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>*>* filterIndex; // 0x20
 		::System::Int32 refreshStackCounter; // 0x28
 
 		::System::Void _ctor()
@@ -65,14 +66,19 @@ namespace Nap::NapECS
 			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsFilter*))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSFILTERGROUP_ADDFILTER_OFFSET))(this, filter);
 		}
 
-		::System::Void UpdateFilterIndex(::Nap::NapECS::EcsFilter* filter, ::System::Byte newIncludeShotCompClassId)
+		::System::Void RemoveFilter(::Nap::NapECS::EcsFilter* filter)
 		{
-			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsFilter*, ::System::Byte))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSFILTERGROUP_UPDATEFILTERINDEX_OFFSET))(this, filter, newIncludeShotCompClassId);
+			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsFilter*))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSFILTERGROUP_REMOVEFILTER_OFFSET))(this, filter);
 		}
 
-		::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>* GetFilterListByIndex(::System::Byte includeShotCompClassId, ::System::Boolean addNew)
+		::System::Void UpdateFilterIndex(::Nap::NapECS::EcsFilter* filter, ::System::UInt16 newIncludeShotCompClassId)
 		{
-			return ((::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>*(*)(::PVOID, ::System::Byte, ::System::Boolean))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSFILTERGROUP_GETFILTERLISTBYINDEX_OFFSET))(this, includeShotCompClassId, addNew);
+			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsFilter*, ::System::UInt16))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSFILTERGROUP_UPDATEFILTERINDEX_OFFSET))(this, filter, newIncludeShotCompClassId);
+		}
+
+		::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>* GetFilterListByIndex(::System::UInt16 includeShotCompClassId, ::System::Boolean addNew)
+		{
+			return ((::System::Collections::Generic::List_1<::Nap::NapECS::EcsFilter*>*(*)(::PVOID, ::System::UInt16, ::System::Boolean))((::PBYTE)hIl2Cpp + NAP_NAPECS_ECSFILTERGROUP_GETFILTERLISTBYINDEX_OFFSET))(this, includeShotCompClassId, addNew);
 		}
 
 		::System::Void Destroy()

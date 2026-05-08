@@ -6,8 +6,8 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1900CF90)
-#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1900CF10)
+#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19604350)
+#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x196042A0)
 
 namespace System::Runtime::Serialization
 {
@@ -16,8 +16,8 @@ namespace System::Runtime::Serialization
 	class SafeSerializationEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* m_serializedStates; // 0x10
-		::System::Runtime::Serialization::StreamingContext m_streamingContext; // 0x18
+		::System::Runtime::Serialization::StreamingContext m_streamingContext; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* m_serializedStates; // 0x20
 
 		::System::Void _ctor(::System::Runtime::Serialization::StreamingContext streamingContext)
 		{

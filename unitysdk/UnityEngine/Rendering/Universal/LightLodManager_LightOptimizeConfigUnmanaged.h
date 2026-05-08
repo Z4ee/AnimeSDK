@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLodManager_LightOptimizeConfigUnmanaged_TypeDefinitionIndex = 29500;
+	inline static constexpr unsigned int LightLodManager_LightOptimizeConfigUnmanaged_TypeDefinitionIndex = 30028;
 
 	struct alignas(4) LightLodManager_LightOptimizeConfigUnmanaged
 	{

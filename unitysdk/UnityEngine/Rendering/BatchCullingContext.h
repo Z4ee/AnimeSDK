@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Rendering/BatchVisibility.h"
 #include "unitysdk/UnityEngine/Rendering/LODParameters.h"
 
-#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8E1C20)
+#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x92ECD0)
 
 namespace UnityEngine::Rendering
 {

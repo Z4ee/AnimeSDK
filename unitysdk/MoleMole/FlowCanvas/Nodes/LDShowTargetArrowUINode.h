@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD0D67D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D6BA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16B82E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B83140)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowTargetArrowUINode_TypeDefinitionIndex = 37715;
+	inline static constexpr unsigned int LDShowTargetArrowUINode_TypeDefinitionIndex = 56120;
 
 	class LDShowTargetArrowUINode : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::String*, ::MoleMole::EntityHandle, ::System::String*, ::UnityEngine::Vector3>
 	{

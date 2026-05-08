@@ -8,11 +8,11 @@ namespace MoleMole::Config { class CharacterPhotoCameraCommon; }
 namespace MoleMole::Photo { class ScopedFirstPersonCameraMotionConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHARACTERCONFIGPHOTOCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x9CF97F0)
+#define MOLEMOLE_CONFIG_CHARACTERCONFIGPHOTOCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x122FF140)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterConfigPhotoCamera_TypeDefinitionIndex = 66376;
+	inline static constexpr unsigned int CharacterConfigPhotoCamera_TypeDefinitionIndex = 53959;
 
 	class CharacterConfigPhotoCamera : public ::System::Object
 	{

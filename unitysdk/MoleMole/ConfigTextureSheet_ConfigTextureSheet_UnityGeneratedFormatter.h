@@ -14,34 +14,34 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB5A2970)
-#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB5A2980)
-#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB5A2CF0)
-#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5A2F60)
-#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A2F20)
+#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x153DFCC0)
+#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x153DFCD0)
+#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x153E0030)
+#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x153E0280)
+#define MOLEMOLE_CONFIGTEXTURESHEET_CONFIGTEXTURESHEET_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x153E0240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex = 64058;
+	inline static constexpr unsigned int ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex = 43691;
 
 	class ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigTextureSheet*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33F30);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RandomTextureSheetData*>*>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RandomTextureSheetData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33F38);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TextureSheetType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TextureSheetType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33F40);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34A30);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::BlendTextureSheetData*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::BlendTextureSheetData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x33F48);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::BlendTextureSheetData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34A38);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TextureSheetType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::TextureSheetType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::TextureSheetData*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34A40);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RandomTextureSheetData*>*>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RandomTextureSheetData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigTextureSheet_ConfigTextureSheet_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x34A48);
 		}
 
 		::System::Void _ctor()

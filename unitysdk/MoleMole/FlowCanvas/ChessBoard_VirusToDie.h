@@ -5,20 +5,20 @@
 namespace MoleMole::DefenseScene { class DefenseSceneVirusChessEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_VIRUSTODIE_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x11641B50)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_VIRUSTODIE__CCTOR_OFFSET UNITYSDK_OFFSET(0x11641BE0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_VIRUSTODIE__CTOR_OFFSET UNITYSDK_OFFSET(0x11641BB0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_VIRUSTODIE_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x10B9AF40)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_VIRUSTODIE__CCTOR_OFFSET UNITYSDK_OFFSET(0x10B9AFF0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_VIRUSTODIE__CTOR_OFFSET UNITYSDK_OFFSET(0x10B9AFA0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_VirusToDie_TypeDefinitionIndex = 72425;
+	inline static constexpr unsigned int ChessBoard_VirusToDie_TypeDefinitionIndex = 55709;
 
 	class ChessBoard_VirusToDie : public ::MoleMole::FlowCanvas::ChessboardEventNode_1<::MoleMole::DefenseScene::DefenseSceneVirusChessEntity*>
 	{
 	public:
 		static ::System::String** StaticGet_StaticEventName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ChessBoard_VirusToDie_TypeDefinitionIndex)->GetStaticField(0x3D1D0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ChessBoard_VirusToDie_TypeDefinitionIndex)->GetStaticField(0x3E940);
 		}
 
 		::System::Void _ctor()

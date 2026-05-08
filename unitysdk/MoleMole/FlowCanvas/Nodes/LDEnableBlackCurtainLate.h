@@ -7,21 +7,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xCD385E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD386E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xCD38700)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0xCD38860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x125AD220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x125AD300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x125AD350)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAINLATE__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x125AD4B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnableBlackCurtainLate_TypeDefinitionIndex = 55505;
+	inline static constexpr unsigned int LDEnableBlackCurtainLate_TypeDefinitionIndex = 80112;
 
 	class LDEnableBlackCurtainLate : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::UnityEngine::AnimationCurve* curve; // 0xB0
-		::FlowCanvas::FlowOutput* _onFinish; // 0xB8
+		::FlowCanvas::FlowOutput* _onFinish; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::UnityEngine::AnimationCurve* curve; // 0xB8
 		::System::Single duration; // 0xC0
 
 		::System::Void _ctor()

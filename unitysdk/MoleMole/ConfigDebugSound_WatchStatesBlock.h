@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK_CREATEFROMCLIPBOARD_OFFSET UNITYSDK_OFFSET(0x10AAB2C0)
-#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x10AAB660)
+#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK_CREATEFROMCLIPBOARD_OFFSET UNITYSDK_OFFSET(0x183D4B60)
+#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4E60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigDebugSound_WatchStatesBlock_TypeDefinitionIndex = 50247;
+	inline static constexpr unsigned int ConfigDebugSound_WatchStatesBlock_TypeDefinitionIndex = 58212;
 
 	class ConfigDebugSound_WatchStatesBlock : public ::System::Object
 	{

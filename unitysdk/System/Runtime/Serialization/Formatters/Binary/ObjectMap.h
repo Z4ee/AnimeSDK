@@ -11,11 +11,11 @@ namespace System::Runtime::Serialization::Formatters::Binary { class ObjectReade
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SizedArray; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x18DAF6A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_1_OFFSET UNITYSDK_OFFSET(0x18DAF7E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_OFFSET UNITYSDK_OFFSET(0x18DAF770)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18DAF290)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAEFF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x193E0A00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_1_OFFSET UNITYSDK_OFFSET(0x193E0AE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_OFFSET UNITYSDK_OFFSET(0x193E0A50)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x193E0670)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x193E0380)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -24,15 +24,15 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class ObjectMap : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* memberNames; // 0x10
-		::Il2CppArray<::System::Object*>* typeInformationA; // 0x18
-		::System::String* objectName; // 0x20
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x10
+		::System::String* objectName; // 0x18
+		::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader; // 0x20
 		::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo; // 0x28
-		::System::Type* objectType; // 0x30
-		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x38
-		::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader; // 0x40
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x48
-		::Il2CppArray<::System::Type*>* memberTypes; // 0x50
+		::Il2CppArray<::System::Type*>* memberTypes; // 0x30
+		::Il2CppArray<::System::String*>* memberNames; // 0x38
+		::System::Type* objectType; // 0x40
+		::Il2CppArray<::System::Object*>* typeInformationA; // 0x48
+		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x50
 		::System::Boolean isInitObjectInfo; // 0x58
 		::System::Int32 objectId; // 0x5C
 

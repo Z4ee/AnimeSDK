@@ -7,18 +7,18 @@
 namespace MoleMole::Timeline { class MaterialBaseBehavior; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR__REFRESHMONORENDERENTITY_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x967F10)
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR__REFRESHMONORENDERENTITY_D__21_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x301A90)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR__REFRESHMONORENDERENTITY_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x99E000)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR__REFRESHMONORENDERENTITY_D__21_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x55E040)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialBaseBehavior__RefreshMonoRenderEntity_d__21_TypeDefinitionIndex = 30093;
+	inline static constexpr unsigned int MaterialBaseBehavior__RefreshMonoRenderEntity_d__21_TypeDefinitionIndex = 30622;
 
 	struct alignas(8) MaterialBaseBehavior__RefreshMonoRenderEntity_d__21
 	{
-		::MoleMole::Timeline::MaterialBaseBehavior* __4__this; // 0x10
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x38
+		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x10
+		::MoleMole::Timeline::MaterialBaseBehavior* __4__this; // 0x18
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x20
 		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()

@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2A6A20)
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC2A6A60)
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0xC2A6A70)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F4EAC0)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12F4EB00)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x12F4EB10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex = 52112;
+	inline static constexpr unsigned int UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex = 75967;
 
 	class UIBackendRelicCollectWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBackendRelicCollectWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIBackendRelicCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B6D0);
-		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3B6D8);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C9E0);
+		}
+		static ::MoleMole::UIBackendRelicCollectWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIBackendRelicCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C9E8);
 		}
 
 		static ::System::Void _cctor()

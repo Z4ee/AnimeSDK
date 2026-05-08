@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ReflectedMethodRegistrationOptions_TypeDefinitionIndex = 27557;
+	inline static constexpr unsigned int ReflectedMethodRegistrationOptions_TypeDefinitionIndex = 27392;
 
 	struct alignas(4) ReflectedMethodRegistrationOptions
 	{

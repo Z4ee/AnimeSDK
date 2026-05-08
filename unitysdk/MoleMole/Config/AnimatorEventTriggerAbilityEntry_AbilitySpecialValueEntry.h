@@ -6,13 +6,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERABILITYENTRY_ABILITYSPECIALVALUEENTRY_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0xACB0550)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERABILITYENTRY_ABILITYSPECIALVALUEENTRY_GET_SPECIALVALUE_OFFSET UNITYSDK_OFFSET(0xACB0460)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERABILITYENTRY_ABILITYSPECIALVALUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xACB05C0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERABILITYENTRY_ABILITYSPECIALVALUEENTRY_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17521080)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERABILITYENTRY_ABILITYSPECIALVALUEENTRY_GET_SPECIALVALUE_OFFSET UNITYSDK_OFFSET(0x17520F80)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTRIGGERABILITYENTRY_ABILITYSPECIALVALUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x175210D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventTriggerAbilityEntry_AbilitySpecialValueEntry_TypeDefinitionIndex = 70404;
+	inline static constexpr unsigned int AnimatorEventTriggerAbilityEntry_AbilitySpecialValueEntry_TypeDefinitionIndex = 75326;
 
 	class AnimatorEventTriggerAbilityEntry_AbilitySpecialValueEntry : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace MoleMole::Config
 		::System::String* AbilitySpecialName; // 0x10
 		::System::String* stringValue; // 0x18
 		::MoleMole::Config::DynamicArgumentType ArgumentType; // 0x20
-		::System::Single floatValue; // 0x24
-		::System::Int32 intValue; // 0x28
+		::System::Int32 intValue; // 0x24
+		::System::Single floatValue; // 0x28
 
 		::System::Void _ctor()
 		{

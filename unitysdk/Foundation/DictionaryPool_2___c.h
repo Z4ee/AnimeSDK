@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 7814;
+	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 7911;
 
 	template <typename TKey, typename TValue>
 	class DictionaryPool_2___c : public ::System::Object

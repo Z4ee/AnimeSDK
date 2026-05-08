@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIVIEWREFERENCE_SHOWEXPORTDIR_OFFSET UNITYSDK_OFFSET(0xA12CBA0)
-#define MOLEMOLE_UIVIEWREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xA12CC10)
+#define MOLEMOLE_UIVIEWREFERENCE_SHOWEXPORTDIR_OFFSET UNITYSDK_OFFSET(0x137BFEE0)
+#define MOLEMOLE_UIVIEWREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x137BFF30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIViewReference_TypeDefinitionIndex = 63754;
+	inline static constexpr unsigned int UIViewReference_TypeDefinitionIndex = 47492;
 
 	class UIViewReference : public ::MoleMole::UIExportCollection
 	{

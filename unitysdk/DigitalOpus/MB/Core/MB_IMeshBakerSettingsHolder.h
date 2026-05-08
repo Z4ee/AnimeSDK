@@ -7,7 +7,7 @@ namespace UnityEngine { class Object; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_IMeshBakerSettingsHolder_TypeDefinitionIndex = 83361;
+	inline static constexpr unsigned int MB_IMeshBakerSettingsHolder_TypeDefinitionIndex = 85089;
 
 	class MB_IMeshBakerSettingsHolder
 	{

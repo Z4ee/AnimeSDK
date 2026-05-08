@@ -5,7 +5,7 @@ namespace Nap::NapECS { class ComponentMaskFilter; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IEcsComponentTask_TypeDefinitionIndex = 35173;
+	inline static constexpr unsigned int IEcsComponentTask_TypeDefinitionIndex = 35766;
 
 	class IEcsComponentTask
 	{

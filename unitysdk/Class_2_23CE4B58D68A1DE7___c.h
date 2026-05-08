@@ -5,22 +5,22 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_23CE4B58D68A1DE7___C_METHOD_1_86914B28476494AF_OFFSET UNITYSDK_OFFSET(0x74A8E90)
-#define CLASS_2_23CE4B58D68A1DE7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x74A8E40)
-#define CLASS_2_23CE4B58D68A1DE7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x74A8E80)
+#define CLASS_2_23CE4B58D68A1DE7___C_METHOD_1_F9DAB08EC8926B1B_OFFSET UNITYSDK_OFFSET(0x10F9B110)
+#define CLASS_2_23CE4B58D68A1DE7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F9B0C0)
+#define CLASS_2_23CE4B58D68A1DE7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10F9B100)
 
-inline static constexpr unsigned int Class_2_23CE4B58D68A1DE7___c_TypeDefinitionIndex = 65132;
+inline static constexpr unsigned int Class_2_23CE4B58D68A1DE7___c_TypeDefinitionIndex = 44750;
 
 class Class_2_23CE4B58D68A1DE7___c : public ::System::Object
 {
 public:
-	static ::Class_2_23CE4B58D68A1DE7___c** StaticGet___9()
-	{
-		return (::Class_2_23CE4B58D68A1DE7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23CE4B58D68A1DE7___c_TypeDefinitionIndex)->GetStaticField(0x33470);
-	}
 	static ::System::Func_1<::UnityEngine::Vector3>** StaticGet___9__1_0()
 	{
-		return (::System::Func_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23CE4B58D68A1DE7___c_TypeDefinitionIndex)->GetStaticField(0x33478);
+		return (::System::Func_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23CE4B58D68A1DE7___c_TypeDefinitionIndex)->GetStaticField(0x33770);
+	}
+	static ::Class_2_23CE4B58D68A1DE7___c** StaticGet___9()
+	{
+		return (::Class_2_23CE4B58D68A1DE7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23CE4B58D68A1DE7___c_TypeDefinitionIndex)->GetStaticField(0x33778);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_23CE4B58D68A1DE7___C__CTOR_OFFSET))(this);
 	}
 
-	::UnityEngine::Vector3 Method_1_86914B28476494AF()
+	::UnityEngine::Vector3 Method_1_F9DAB08EC8926B1B()
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_23CE4B58D68A1DE7___C_METHOD_1_86914B28476494AF_OFFSET))(this);
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_23CE4B58D68A1DE7___C_METHOD_1_F9DAB08EC8926B1B_OFFSET))(this);
 	}
 };

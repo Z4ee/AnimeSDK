@@ -4,7 +4,7 @@
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int XXHash64Update_State__mem64_e__FixedBuffer_TypeDefinitionIndex = 8164;
+	inline static constexpr unsigned int XXHash64Update_State__mem64_e__FixedBuffer_TypeDefinitionIndex = 7703;
 
 	struct alignas(8) XXHash64Update_State__mem64_e__FixedBuffer
 	{

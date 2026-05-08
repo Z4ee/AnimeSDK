@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ReflectionType_TypeDefinitionIndex = 29426;
+	inline static constexpr unsigned int ReflectionType_TypeDefinitionIndex = 29945;
 
 	enum class ReflectionType : ::System::Int32
 	{

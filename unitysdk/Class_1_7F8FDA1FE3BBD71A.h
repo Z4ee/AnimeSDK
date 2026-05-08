@@ -4,9 +4,9 @@
 #include "unitysdk/RootMotion/Axis.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7F8FDA1FE3BBD71A_METHOD_1_7E66F6FC862DCAC4_OFFSET UNITYSDK_OFFSET(0x8B5D480)
+#define CLASS_1_7F8FDA1FE3BBD71A_METHOD_1_7E66F6FC862DCAC4_OFFSET UNITYSDK_OFFSET(0x12A146D0)
 
-inline static constexpr unsigned int Class_1_7F8FDA1FE3BBD71A_TypeDefinitionIndex = 67325;
+inline static constexpr unsigned int Class_1_7F8FDA1FE3BBD71A_TypeDefinitionIndex = 42241;
 
 class Class_1_7F8FDA1FE3BBD71A : public ::System::Object
 {

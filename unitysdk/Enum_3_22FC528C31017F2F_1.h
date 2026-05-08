@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_22FC528C31017F2F_1_TypeDefinitionIndex = 83504;
+inline static constexpr unsigned int Enum_3_22FC528C31017F2F_1_TypeDefinitionIndex = 85274;
 
 enum class Enum_3_22FC528C31017F2F_1 : ::System::Int32
 {
 	Monster = 2,
-	Player = 0,
 	Cp = 1,
+	Player = 0,
 };

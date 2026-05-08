@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int SimpleClusterArray_1_TypeDefinitionIndex = 55484;
+	inline static constexpr unsigned int SimpleClusterArray_1_TypeDefinitionIndex = 58510;
 
 	template <typename T>
 	class SimpleClusterArray_1 : public ::System::Object

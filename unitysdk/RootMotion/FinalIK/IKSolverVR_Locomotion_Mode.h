@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverVR_Locomotion_Mode_TypeDefinitionIndex = 36097;
+	inline static constexpr unsigned int IKSolverVR_Locomotion_Mode_TypeDefinitionIndex = 36641;
 
 	enum class IKSolverVR_Locomotion_Mode : ::System::Int32
 	{

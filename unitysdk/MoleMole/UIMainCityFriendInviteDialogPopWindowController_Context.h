@@ -6,18 +6,18 @@ class Class_1_81D34D116310A358;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINCITYFRIENDINVITEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x984DD10)
+#define MOLEMOLE_UIMAINCITYFRIENDINVITEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4BC60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityFriendInviteDialogPopWindowController_Context_TypeDefinitionIndex = 37709;
+	inline static constexpr unsigned int UIMainCityFriendInviteDialogPopWindowController_Context_TypeDefinitionIndex = 50211;
 
 	class UIMainCityFriendInviteDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* CallOnComplete; // 0x28
-		::System::Action* OnAcceptShowAction; // 0x30
-		::Class_1_81D34D116310A358* selectedInvite; // 0x38
+		::System::Action* OnAcceptShowAction; // 0x28
+		::Class_1_81D34D116310A358* selectedInvite; // 0x30
+		::System::Action* CallOnComplete; // 0x38
 		::System::Collections::Generic::List_1<::Class_1_81D34D116310A358*>* activeInvites; // 0x40
 
 		::System::Void _ctor(::Class_1_81D34D116310A358* request, ::System::Collections::Generic::List_1<::Class_1_81D34D116310A358*>* activeRequests, ::System::Action* onAcceptShowAction, ::System::Action* callOnComplete)

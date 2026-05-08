@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupListRowWidgetController_InputState_TypeDefinitionIndex = 75024;
+	inline static constexpr unsigned int UILineupListRowWidgetController_InputState_TypeDefinitionIndex = 52364;
 
 	enum class UILineupListRowWidgetController_InputState : ::System::Int32
 	{

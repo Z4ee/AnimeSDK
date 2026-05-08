@@ -1,29 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E4BEBE5C8511EA11.h"
+#include "unitysdk/Enum_3_9A6C0545772F4974.h"
+#include "unitysdk/MoleMole/InputActionDispatchPriority.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x84E6600)
-#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_IGNOREPLATFORMV2_OFFSET UNITYSDK_OFFSET(0x84E6610)
-#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x84E6620)
+#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xECE3A10)
+#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_IGNOREPLATFORMV2_OFFSET UNITYSDK_OFFSET(0xECE3A20)
+#define MOLEMOLE_BASEINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xECE3A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseInputActionEventConfig_TypeDefinitionIndex = 38922;
+	inline static constexpr unsigned int BaseInputActionEventConfig_TypeDefinitionIndex = 61056;
 
 	class BaseInputActionEventConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean IgnorePlatform; // 0x10
+		::MoleMole::InputActionDispatchPriority InputPriority; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEINPUTACTIONEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_E4BEBE5C8511EA11 get_dataType()
+		::Enum_3_9A6C0545772F4974 get_dataType()
 		{
-			return ((::Enum_3_E4BEBE5C8511EA11(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET))(this);
+			return ((::Enum_3_9A6C0545772F4974(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET))(this);
 		}
 
 		::System::Boolean get_IgnorePlatformV2()

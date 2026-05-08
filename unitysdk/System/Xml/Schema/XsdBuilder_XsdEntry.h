@@ -8,7 +8,7 @@ namespace System::Xml::Schema { class XsdBuilder_XsdAttributeEntry; }
 namespace System::Xml::Schema { class XsdBuilder_XsdEndChildFunction; }
 namespace System::Xml::Schema { class XsdBuilder_XsdInitFunction; }
 
-#define SYSTEM_XML_SCHEMA_XSDBUILDER_XSDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA91DA0)
+#define SYSTEM_XML_SCHEMA_XSDBUILDER_XSDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9752F0)
 
 namespace System::Xml::Schema
 {
@@ -18,11 +18,11 @@ namespace System::Xml::Schema
 	{
 	public:
 		::Il2CppArray<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>* Attributes; // 0x10
-		::Il2CppArray<::System::Xml::Schema::XsdBuilder_State>* NextStates; // 0x18
-		::System::Xml::Schema::XsdBuilder_XsdInitFunction* InitFunc; // 0x20
-		::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* EndChildFunc; // 0x28
-		::System::Xml::Schema::XsdBuilder_State CurrentState; // 0x30
-		::System::Boolean ParseContent; // 0x34
+		::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* EndChildFunc; // 0x18
+		::Il2CppArray<::System::Xml::Schema::XsdBuilder_State>* NextStates; // 0x20
+		::System::Xml::Schema::XsdBuilder_XsdInitFunction* InitFunc; // 0x28
+		::System::Boolean ParseContent; // 0x30
+		::System::Xml::Schema::XsdBuilder_State CurrentState; // 0x34
 		::System::Xml::Schema::SchemaNames_Token Name; // 0x38
 
 		::System::Void _ctor(::System::Xml::Schema::SchemaNames_Token n, ::System::Xml::Schema::XsdBuilder_State state, ::Il2CppArray<::System::Xml::Schema::XsdBuilder_State>* nextStates, ::Il2CppArray<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>* attributes, ::System::Xml::Schema::XsdBuilder_XsdInitFunction* init, ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* end, ::System::Boolean parseContent)

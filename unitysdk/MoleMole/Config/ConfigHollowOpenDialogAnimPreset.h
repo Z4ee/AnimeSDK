@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigHollowOpenDialogAnimPreset_Preset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOPENDIALOGANIMPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xE360480)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOPENDIALOGANIMPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x16A90DA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowOpenDialogAnimPreset_TypeDefinitionIndex = 67305;
+	inline static constexpr unsigned int ConfigHollowOpenDialogAnimPreset_TypeDefinitionIndex = 57598;
 
 	class ConfigHollowOpenDialogAnimPreset : public ::Foundation::MihoyoSerializedScriptableObject
 	{

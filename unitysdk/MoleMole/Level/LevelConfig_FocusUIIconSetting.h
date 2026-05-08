@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_FOCUSUIICONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xA7E2000)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_FOCUSUIICONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16052130)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_FocusUIIconSetting_TypeDefinitionIndex = 39456;
+	inline static constexpr unsigned int LevelConfig_FocusUIIconSetting_TypeDefinitionIndex = 48345;
 
 	class LevelConfig_FocusUIIconSetting : public ::System::Object
 	{

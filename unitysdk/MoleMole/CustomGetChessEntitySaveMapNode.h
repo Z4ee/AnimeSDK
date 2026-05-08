@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_CUSTOMGETCHESSENTITYSAVEMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0BFE10)
+#define MOLEMOLE_CUSTOMGETCHESSENTITYSAVEMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B61710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CustomGetChessEntitySaveMapNode_TypeDefinitionIndex = 44848;
+	inline static constexpr unsigned int CustomGetChessEntitySaveMapNode_TypeDefinitionIndex = 82786;
 
 	class CustomGetChessEntitySaveMapNode : public ::MoleMole::FlowCanvas::Nodes::CustomGetVariableNode_2<::MoleMole::ChessEntity*, ::System::Int32>
 	{

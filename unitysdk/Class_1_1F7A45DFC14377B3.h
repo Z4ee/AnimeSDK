@@ -7,28 +7,28 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_1_27CCD45BA8768483_3;
+class Class_1_27CCD45BA8768483;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_1F7A45DFC14377B3_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x60841D0)
-#define CLASS_1_1F7A45DFC14377B3_FROMFLX_OFFSET UNITYSDK_OFFSET(0x6083680)
-#define CLASS_1_1F7A45DFC14377B3_METHOD_1_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0x6083700)
-#define CLASS_1_1F7A45DFC14377B3_METHOD_1_9D3F039E4985BDFB_OFFSET UNITYSDK_OFFSET(0x6084230)
-#define CLASS_1_1F7A45DFC14377B3__CTOR_OFFSET UNITYSDK_OFFSET(0x6084710)
+#define CLASS_1_1F7A45DFC14377B3_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xFEF8670)
+#define CLASS_1_1F7A45DFC14377B3_FROMFLX_OFFSET UNITYSDK_OFFSET(0xFEF7AF0)
+#define CLASS_1_1F7A45DFC14377B3_METHOD_1_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0xFEF7B70)
+#define CLASS_1_1F7A45DFC14377B3_METHOD_1_9D3F039E4985BDFB_OFFSET UNITYSDK_OFFSET(0xFEF86D0)
+#define CLASS_1_1F7A45DFC14377B3__CTOR_OFFSET UNITYSDK_OFFSET(0xFEF8BB0)
 
-inline static constexpr unsigned int Class_1_1F7A45DFC14377B3_TypeDefinitionIndex = 45813;
+inline static constexpr unsigned int Class_1_1F7A45DFC14377B3_TypeDefinitionIndex = 75240;
 
 class Class_1_1F7A45DFC14377B3 : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_27CCD45BA8768483_3*>* Field_1_6; // 0x18
-	::System::Single Field_1_4; // 0x20
-	::Enum_3_2384297FE974F4DC Field_1_1; // 0x24
-	::UnityEngine::Vector3 Field_1_5; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_27CCD45BA8768483*>* Field_1_6; // 0x18
+	::System::Int32 Field_1_2; // 0x20
+	::UnityEngine::Vector3 Field_1_5; // 0x24
+	::Enum_3_2384297FE974F4DC Field_1_1; // 0x30
 	::System::Int32 Field_1_3; // 0x34
-	::System::Int32 Field_1_2; // 0x38
+	::System::Single Field_1_4; // 0x38
 
 	::System::Void _ctor()
 	{

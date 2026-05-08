@@ -12,16 +12,16 @@ namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace System::Collections::Generic { template <typename T> class Comparer_1; }
 
-#define CLASS_1_19A417E49B62529B_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x782D480)
+#define CLASS_1_19A417E49B62529B_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x153A8770)
 
-inline static constexpr unsigned int Class_1_19A417E49B62529B_1_TypeDefinitionIndex = 60737;
+inline static constexpr unsigned int Class_1_19A417E49B62529B_1_TypeDefinitionIndex = 51982;
 
 class Class_1_19A417E49B62529B_1 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Comparer_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Comparer_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_19A417E49B62529B_1_TypeDefinitionIndex)->GetStaticField(0x46160);
+		return (::System::Collections::Generic::Comparer_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_19A417E49B62529B_1_TypeDefinitionIndex)->GetStaticField(0x2BA10);
 	}
 
 	static ::System::Void _cctor()

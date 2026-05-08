@@ -5,19 +5,19 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIOVERLORDFEASTNEWTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD386880)
+#define MOLEMOLE_UIOVERLORDFEASTNEWTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15589C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastNewTipsContext_TypeDefinitionIndex = 72928;
+	inline static constexpr unsigned int UIOverlordFeastNewTipsContext_TypeDefinitionIndex = 78360;
 
 	class UIOverlordFeastNewTipsContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* OnCloseWithoutJump; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* Devs; // 0x30
-		::System::Collections::Generic::List_1<::System::Int32>* TodoQuests; // 0x38
-		::System::Collections::Generic::List_1<::System::Int32>* UnlockedHiddenGuests; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* UnlockedHiddenGuests; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* TodoQuests; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMINISCAPETALENTPIONTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFB20E0)
-#define MOLEMOLE_UIMINISCAPETALENTPIONTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB2120)
-#define MOLEMOLE_UIMINISCAPETALENTPIONTWIDGETCONTROLLER___C__PLAYRESETSTATEANIMATION_B__24_0_OFFSET UNITYSDK_OFFSET(0xCFB2130)
+#define MOLEMOLE_UIMINISCAPETALENTPIONTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DE3200)
+#define MOLEMOLE_UIMINISCAPETALENTPIONTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE3240)
+#define MOLEMOLE_UIMINISCAPETALENTPIONTWIDGETCONTROLLER___C__PLAYRESETSTATEANIMATION_B__24_0_OFFSET UNITYSDK_OFFSET(0x13DE3250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeTalentPiontWidgetController___c_TypeDefinitionIndex = 43844;
+	inline static constexpr unsigned int UIMiniscapeTalentPiontWidgetController___c_TypeDefinitionIndex = 61238;
 
 	class UIMiniscapeTalentPiontWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__24_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeTalentPiontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3BA40);
-		}
 		static ::MoleMole::UIMiniscapeTalentPiontWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMiniscapeTalentPiontWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeTalentPiontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3BA48);
+			return (::MoleMole::UIMiniscapeTalentPiontWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeTalentPiontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CD30);
+		}
+		static ::System::Action** StaticGet___9__24_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeTalentPiontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CD38);
 		}
 
 		static ::System::Void _cctor()

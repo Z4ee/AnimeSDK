@@ -4,11 +4,11 @@
 
 class Class_1_F88C6BB7AF47AD69;
 
-#define MOLEMOLE_THEGUNGOBATTLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7DB210)
+#define MOLEMOLE_THEGUNGOBATTLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10E52570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TheGunGoBattleContext_TypeDefinitionIndex = 57926;
+	inline static constexpr unsigned int TheGunGoBattleContext_TypeDefinitionIndex = 57549;
 
 	class TheGunGoBattleContext : public ::MoleMole::UIControllerContextBase
 	{

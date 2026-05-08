@@ -6,13 +6,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class NoInterpTextureParameter; }
 namespace UnityEngine::Rendering::Universal { class FilmGrainLookupParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAIN_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x17805280)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAIN_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x17805360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x178053A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAIN_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x192837E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAIN_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x19283980)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x192839C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FilmGrain_TypeDefinitionIndex = 29595;
+	inline static constexpr unsigned int FilmGrain_TypeDefinitionIndex = 30123;
 
 	class FilmGrain : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

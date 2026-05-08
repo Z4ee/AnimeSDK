@@ -3,12 +3,12 @@
 
 namespace MonoNotRelateGameLogic
 {
-	inline static constexpr unsigned int GameTimeClockObject_Axis_TypeDefinitionIndex = 51028;
+	inline static constexpr unsigned int GameTimeClockObject_Axis_TypeDefinitionIndex = 82698;
 
 	enum class GameTimeClockObject_Axis : ::System::Int32
 	{
-		z = 2,
 		x = 0,
+		z = 2,
 		y = 1,
 	};
 }

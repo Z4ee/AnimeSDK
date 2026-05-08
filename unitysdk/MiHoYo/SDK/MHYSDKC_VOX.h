@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOX_TypeDefinitionIndex = 34523;
+	inline static constexpr unsigned int MHYSDKC_VOX_TypeDefinitionIndex = 35059;
 
 	class MHYSDKC_VOX : public ::System::Object
 	{
@@ -45,5 +45,9 @@ namespace MiHoYo::SDK
 		// static const ::System::String* CHECK_MICROPHONE_PERMISSION; // 0x0
 		// static const ::System::String* REQUEST_MICROPHONE_PERMISSION; // 0x0
 		// static const ::System::String* ENABLE_BLUETOOTH_MIC; // 0x0
+		// static const ::System::String* START_STREAM_ASR; // 0x0
+		// static const ::System::String* STOP_STREAM_ASR; // 0x0
+		// static const ::System::String* ABORT_STREAM_ASR; // 0x0
+		// static const ::System::String* CALLBACK_ASR_SENT_TEXT; // 0x0
 	};
 }

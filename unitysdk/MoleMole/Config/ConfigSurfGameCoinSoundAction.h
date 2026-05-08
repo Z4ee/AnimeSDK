@@ -4,28 +4,28 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMECOINSOUNDACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE2CFF50)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMECOINSOUNDACTION__CCTOR_OFFSET UNITYSDK_OFFSET(0xE2D0370)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMECOINSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xE2D0360)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMECOINSOUNDACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17455FB0)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMECOINSOUNDACTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x174563A0)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMECOINSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17456390)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameCoinSoundAction_TypeDefinitionIndex = 71115;
+	inline static constexpr unsigned int ConfigSurfGameCoinSoundAction_TypeDefinitionIndex = 50656;
 
 	class ConfigSurfGameCoinSoundAction : public ::MoleMole::Config::ConfigSurfGameItemAction
 	{
 	public:
-		static ::System::Single* StaticGet_LastCoinTime()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(ConfigSurfGameCoinSoundAction_TypeDefinitionIndex)->GetStaticField(0xCE20);
-		}
 		static ::System::UInt32* StaticGet_Parameter_2_1_Surfing_Coin()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ConfigSurfGameCoinSoundAction_TypeDefinitionIndex)->GetStaticField(0xCE24);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ConfigSurfGameCoinSoundAction_TypeDefinitionIndex)->GetStaticField(0xCEA0);
 		}
 		static ::System::Int32* StaticGet_CoinCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ConfigSurfGameCoinSoundAction_TypeDefinitionIndex)->GetStaticField(0xCE28);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ConfigSurfGameCoinSoundAction_TypeDefinitionIndex)->GetStaticField(0xCEA4);
+		}
+		static ::System::Single* StaticGet_LastCoinTime()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(ConfigSurfGameCoinSoundAction_TypeDefinitionIndex)->GetStaticField(0xCEA8);
 		}
 		::System::String* soundEvent; // 0x10
 		::System::Int32 count; // 0x18

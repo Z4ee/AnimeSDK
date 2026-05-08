@@ -8,19 +8,19 @@ namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 namespace UnityEngine::InputSystem::LowLevel { class InputEventListener_ObserverState; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1909E390)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1909E540)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x878950)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1A04EAB0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1A04EC60)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x8B6B00)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputEventListener_TypeDefinitionIndex = 28739;
+	inline static constexpr unsigned int InputEventListener_TypeDefinitionIndex = 29257;
 
 	struct alignas(1) InputEventListener
 	{
 		static ::UnityEngine::InputSystem::LowLevel::InputEventListener_ObserverState** StaticGet_s_ObserverState()
 		{
-			return (::UnityEngine::InputSystem::LowLevel::InputEventListener_ObserverState**)Il2CppClass::FromTypeDefinitionIndex(InputEventListener_TypeDefinitionIndex)->GetStaticField(0x21BE0);
+			return (::UnityEngine::InputSystem::LowLevel::InputEventListener_ObserverState**)Il2CppClass::FromTypeDefinitionIndex(InputEventListener_TypeDefinitionIndex)->GetStaticField(0x22750);
 		}
 
 		/*

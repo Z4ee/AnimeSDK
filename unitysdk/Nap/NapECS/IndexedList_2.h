@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IndexedList_2_TypeDefinitionIndex = 35226;
+	inline static constexpr unsigned int IndexedList_2_TypeDefinitionIndex = 35737;
 
 	template <typename K, typename T>
 	class IndexedList_2 : public ::System::Object

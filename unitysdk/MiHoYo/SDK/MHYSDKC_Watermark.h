@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Watermark_TypeDefinitionIndex = 34465;
+	inline static constexpr unsigned int MHYSDKC_Watermark_TypeDefinitionIndex = 35001;
 
 	class MHYSDKC_Watermark : public ::System::Object
 	{

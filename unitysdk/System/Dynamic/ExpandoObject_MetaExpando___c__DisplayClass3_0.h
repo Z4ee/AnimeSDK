@@ -5,8 +5,8 @@
 namespace System::Dynamic { class DynamicMetaObject; }
 namespace System::Dynamic { class InvokeMemberBinder; }
 
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_METAEXPANDO___C__DISPLAYCLASS3_0__BINDINVOKEMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x1B4A9180)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_METAEXPANDO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A9170)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_METAEXPANDO___C__DISPLAYCLASS3_0__BINDINVOKEMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x1C1C3B80)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_METAEXPANDO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C3B70)
 
 namespace System::Dynamic
 {
@@ -15,8 +15,8 @@ namespace System::Dynamic
 	class ExpandoObject_MetaExpando___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Dynamic::DynamicMetaObject*>* args; // 0x10
-		::System::Dynamic::InvokeMemberBinder* binder; // 0x18
+		::System::Dynamic::InvokeMemberBinder* binder; // 0x10
+		::Il2CppArray<::System::Dynamic::DynamicMetaObject*>* args; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_ANIMATIONCURVEEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A800010)
+#define FLUFFYUNDERWARE_DEVTOOLS_ANIMATIONCURVEEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C8070)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int AnimationCurveExAttribute_TypeDefinitionIndex = 25351;
+	inline static constexpr unsigned int AnimationCurveExAttribute_TypeDefinitionIndex = 25865;
 
 	class AnimationCurveExAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

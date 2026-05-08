@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_431;
+class Class_2_208CC9941471731A_114;
 
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C06300)
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__REFRESHORIGINALBADGETYPELIST_B__0_OFFSET UNITYSDK_OFFSET(0x9C06310)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162E44A0)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__REFRESHORIGINALBADGETYPELIST_B__0_OFFSET UNITYSDK_OFFSET(0x162E44B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass25_0_TypeDefinitionIndex = 78876;
+	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass25_0_TypeDefinitionIndex = 62946;
 
 	class UIHollowCardItemCollectPageController___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshOriginalBadgeTypeList_b__0(::Class_2_208CC9941471731A_431* x)
+		::System::Boolean _RefreshOriginalBadgeTypeList_b__0(::Class_2_208CC9941471731A_114* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_431*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__REFRESHORIGINALBADGETYPELIST_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_114*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS25_0__REFRESHORIGINALBADGETYPELIST_B__0_OFFSET))(this, x);
 		}
 	};
 }

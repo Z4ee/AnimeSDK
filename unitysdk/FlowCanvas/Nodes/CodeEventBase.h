@@ -9,21 +9,21 @@ namespace System::Reflection { class EventInfo; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_CODEEVENTBASE_GET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0x1A3EFA50)
-#define FLOWCANVAS_NODES_CODEEVENTBASE_ONPOSTGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1A3EFB80)
-#define FLOWCANVAS_NODES_CODEEVENTBASE_SETEVENT_OFFSET UNITYSDK_OFFSET(0x1A3EFAD0)
-#define FLOWCANVAS_NODES_CODEEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3EFE50)
+#define FLOWCANVAS_NODES_CODEEVENTBASE_GET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0x1B0EA850)
+#define FLOWCANVAS_NODES_CODEEVENTBASE_ONPOSTGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1B0EA980)
+#define FLOWCANVAS_NODES_CODEEVENTBASE_SETEVENT_OFFSET UNITYSDK_OFFSET(0x1B0EA8D0)
+#define FLOWCANVAS_NODES_CODEEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EAC40)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CodeEventBase_TypeDefinitionIndex = 27397;
+	inline static constexpr unsigned int CodeEventBase_TypeDefinitionIndex = 26892;
 
 	class CodeEventBase : public ::FlowCanvas::Nodes::EventNode_1<::UnityEngine::Transform*>
 	{
 	public:
-		::System::Type* targetType; // 0xB0
-		::System::String* eventName; // 0xB8
-		::UnityEngine::Component* targetComponent; // 0xC0
+		::System::String* eventName; // 0xB0
+		::UnityEngine::Component* targetComponent; // 0xB8
+		::System::Type* targetType; // 0xC0
 
 		::System::Void _ctor()
 		{

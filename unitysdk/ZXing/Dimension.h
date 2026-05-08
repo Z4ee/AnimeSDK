@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_DIMENSION_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x184357F0)
-#define ZXING_DIMENSION_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x184357E0)
+#define ZXING_DIMENSION_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1886B700)
+#define ZXING_DIMENSION_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1886B6F0)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int Dimension_TypeDefinitionIndex = 8631;
+	inline static constexpr unsigned int Dimension_TypeDefinitionIndex = 8642;
 
 	class Dimension : public ::System::Object
 	{
 	public:
-		::System::Int32 width; // 0x10
-		::System::Int32 height; // 0x14
+		::System::Int32 height; // 0x10
+		::System::Int32 width; // 0x14
 
 		::System::Int32 get_Width()
 		{

@@ -8,8 +8,8 @@
 namespace System::Net::WebSockets { class ManagedWebSocket; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__ENSUREBUFFERCONTAINSASYNC_D__69_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x896640)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__ENSUREBUFFERCONTAINSASYNC_D__69_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x30F550)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__ENSUREBUFFERCONTAINSASYNC_D__69_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8AC5A0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__ENSUREBUFFERCONTAINSASYNC_D__69_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x390820)
 
 namespace System::Net::WebSockets
 {
@@ -17,12 +17,12 @@ namespace System::Net::WebSockets
 
 	struct alignas(8) ManagedWebSocket__EnsureBufferContainsAsync_d__69
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x18
-		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x30
-		::System::Int32 minimumRequiredBytes; // 0x48
-		::System::Boolean throwOnPrematureClosure; // 0x4C
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x28
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x30
+		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x40
+		::System::Boolean throwOnPrematureClosure; // 0x48
+		::System::Int32 minimumRequiredBytes; // 0x4C
 		::System::Int32 __1__state; // 0x50
 
 		::System::Void MoveNext()

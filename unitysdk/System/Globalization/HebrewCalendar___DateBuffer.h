@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_GLOBALIZATION_HEBREWCALENDAR___DATEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BF9D0)
+#define SYSTEM_GLOBALIZATION_HEBREWCALENDAR___DATEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC90880)
 
 namespace System::Globalization
 {
@@ -11,8 +11,8 @@ namespace System::Globalization
 	class HebrewCalendar___DateBuffer : public ::System::Object
 	{
 	public:
-		::System::Int32 day; // 0x10
-		::System::Int32 year; // 0x14
+		::System::Int32 year; // 0x10
+		::System::Int32 day; // 0x14
 		::System::Int32 month; // 0x18
 
 		::System::Void _ctor()

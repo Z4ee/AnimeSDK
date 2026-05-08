@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineAsset_MediaType_TypeDefinitionIndex = 30190;
+	inline static constexpr unsigned int TimelineAsset_MediaType_TypeDefinitionIndex = 30719;
 
 	enum class TimelineAsset_MediaType : ::System::Int32
 	{

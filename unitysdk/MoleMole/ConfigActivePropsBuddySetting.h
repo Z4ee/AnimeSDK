@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIGACTIVEPROPSBUDDYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xBB053D0)
+#define MOLEMOLE_CONFIGACTIVEPROPSBUDDYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x186C50C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigActivePropsBuddySetting_TypeDefinitionIndex = 57151;
+	inline static constexpr unsigned int ConfigActivePropsBuddySetting_TypeDefinitionIndex = 66950;
 
 	class ConfigActivePropsBuddySetting : public ::System::Object
 	{

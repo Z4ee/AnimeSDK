@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_59937F72FEA575BF_TypeDefinitionIndex = 74061;
+inline static constexpr unsigned int Enum_3_59937F72FEA575BF_TypeDefinitionIndex = 61438;
 
 enum class Enum_3_59937F72FEA575BF : ::System::Int32
 {
-	Or = 0,
-	And = 1,
+	Or = 1,
+	And = 0,
 };

@@ -5,7 +5,7 @@ namespace UnrealTypes { class Property; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int IFieldVariant_TypeDefinitionIndex = 24721;
+	inline static constexpr unsigned int IFieldVariant_TypeDefinitionIndex = 25235;
 
 	class IFieldVariant
 	{

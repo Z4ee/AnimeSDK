@@ -9,14 +9,14 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController_BuffSlot___c__DisplayClass38_0_TypeDefinitionIndex = 76070;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController_BuffSlot___c__DisplayClass38_0_TypeDefinitionIndex = 57767;
 
 	struct alignas(8) UIHollowMainBottomWidgetController_BuffSlot___c__DisplayClass38_0
 	{
-		::UnityEngine::ParticleSystem* oStart; // 0x10
-		::UnityEngine::ParticleSystem* oEnd; // 0x18
-		::UnityEngine::GameObject* oLoop; // 0x20
-		::MoleMole::UIHollowMainBottomWidgetController_BuffSlot* __4__this; // 0x28
-		::Coffee::UIExtensions::UIParticle* oLoop2; // 0x30
+		::UnityEngine::ParticleSystem* oEnd; // 0x10
+		::MoleMole::UIHollowMainBottomWidgetController_BuffSlot* __4__this; // 0x18
+		::Coffee::UIExtensions::UIParticle* oLoop2; // 0x20
+		::UnityEngine::ParticleSystem* oStart; // 0x28
+		::UnityEngine::GameObject* oLoop; // 0x30
 	};
 }

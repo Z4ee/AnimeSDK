@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define UNREALTYPES_PROPERTYPARAMSBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A202920)
+#define UNREALTYPES_PROPERTYPARAMSBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD99360)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyParamsBase_TypeDefinitionIndex = 24728;
+	inline static constexpr unsigned int PropertyParamsBase_TypeDefinitionIndex = 25242;
 
 	class PropertyParamsBase : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
-		::System::UInt16 Offset; // 0x18
-		::System::UInt16 ArrayDim; // 0x1A
-		::UnrealTypes::PropertyFlags PropertyFlags; // 0x1C
+		::UnrealTypes::PropertyFlags PropertyFlags; // 0x18
+		::System::UInt16 ArrayDim; // 0x1C
+		::System::UInt16 Offset; // 0x1E
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Variable_1_TypeDefinitionIndex = 9161;
+	inline static constexpr unsigned int Variable_1_TypeDefinitionIndex = 8838;
 
 	template <typename T>
 	struct Variable_1

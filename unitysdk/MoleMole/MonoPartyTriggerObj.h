@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_MONOPARTYTRIGGEROBJ_ONDOCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xA3B9D70)
-#define MOLEMOLE_MONOPARTYTRIGGEROBJ_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xA3B9D00)
-#define MOLEMOLE_MONOPARTYTRIGGEROBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xA3BA090)
+#define MOLEMOLE_MONOPARTYTRIGGEROBJ_ONDOCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x15847320)
+#define MOLEMOLE_MONOPARTYTRIGGEROBJ_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x158472D0)
+#define MOLEMOLE_MONOPARTYTRIGGEROBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x158474E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoPartyTriggerObj_TypeDefinitionIndex = 55656;
+	inline static constexpr unsigned int MonoPartyTriggerObj_TypeDefinitionIndex = 38873;
 
 	class MonoPartyTriggerObj : public ::MoleMole::MonoPartySceneObject
 	{

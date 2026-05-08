@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityScreenEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x94FEEB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1241C050)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityScreenEffects_TypeDefinitionIndex = 62998;
+	inline static constexpr unsigned int ConfigEntityScreenEffects_TypeDefinitionIndex = 53676;
 
 	class ConfigEntityScreenEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

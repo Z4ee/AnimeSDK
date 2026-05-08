@@ -5,20 +5,20 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x7A56CE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x7A56BC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x7A56D40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x7A56D60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x18417C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18417B70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18417CB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISUNITYEDITOR__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x18417CF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDIsUnityEditor_TypeDefinitionIndex = 62475;
+	inline static constexpr unsigned int LDIsUnityEditor_TypeDefinitionIndex = 74601;
 
 	class LDIsUnityEditor : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* falseOutput; // 0xA8
-		::FlowCanvas::FlowOutput* trueOutput; // 0xB0
+		::FlowCanvas::FlowOutput* trueOutput; // 0xA8
+		::FlowCanvas::FlowOutput* falseOutput; // 0xB0
 		::FlowCanvas::FlowOutput* output; // 0xB8
 
 		::System::Void _ctor()

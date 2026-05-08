@@ -5,7 +5,7 @@
 namespace MoleMole { class UIBlackEdge; }
 namespace MoleMole { class UIHorizontalBlackEdge; }
 
-inline static constexpr unsigned int Class_1_2B7F8DBC98E3A114_Struct_2_4161BE185FEEB39A_TypeDefinitionIndex = 64880;
+inline static constexpr unsigned int Class_1_2B7F8DBC98E3A114_Struct_2_4161BE185FEEB39A_TypeDefinitionIndex = 82390;
 
 struct alignas(8) Class_1_2B7F8DBC98E3A114_Struct_2_4161BE185FEEB39A
 {

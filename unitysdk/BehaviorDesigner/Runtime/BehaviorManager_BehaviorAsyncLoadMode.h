@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorAsyncLoadMode_TypeDefinitionIndex = 31139;
+	inline static constexpr unsigned int BehaviorManager_BehaviorAsyncLoadMode_TypeDefinitionIndex = 31668;
 
 	enum class BehaviorManager_BehaviorAsyncLoadMode : ::System::Int32
 	{

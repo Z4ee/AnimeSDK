@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaProjectorStruct_TypeDefinitionIndex = 73035;
+	inline static constexpr unsigned int CinemaProjectorStruct_TypeDefinitionIndex = 78352;
 
 	struct alignas(4) CinemaProjectorStruct
 	{

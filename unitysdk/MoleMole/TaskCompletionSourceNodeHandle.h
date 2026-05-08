@@ -6,7 +6,7 @@ class Class_2_D6F9B792012303A1;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TaskCompletionSourceNodeHandle_TypeDefinitionIndex = 61120;
+	inline static constexpr unsigned int TaskCompletionSourceNodeHandle_TypeDefinitionIndex = 48931;
 
 	struct alignas(8) TaskCompletionSourceNodeHandle
 	{

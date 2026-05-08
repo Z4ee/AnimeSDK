@@ -4,10 +4,10 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define BIGSCENEGROUPCHALLENGEUTIL___C__DISPLAYCLASS3_0__CHECKTELEPROTANDREGISTERDYNAMICGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xE108840)
-#define BIGSCENEGROUPCHALLENGEUTIL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE108830)
+#define BIGSCENEGROUPCHALLENGEUTIL___C__DISPLAYCLASS3_0__CHECKTELEPROTANDREGISTERDYNAMICGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x17F370A0)
+#define BIGSCENEGROUPCHALLENGEUTIL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F37090)
 
-inline static constexpr unsigned int BigSceneGroupChallengeUtil___c__DisplayClass3_0_TypeDefinitionIndex = 41587;
+inline static constexpr unsigned int BigSceneGroupChallengeUtil___c__DisplayClass3_0_TypeDefinitionIndex = 69267;
 
 class BigSceneGroupChallengeUtil___c__DisplayClass3_0 : public ::System::Object
 {

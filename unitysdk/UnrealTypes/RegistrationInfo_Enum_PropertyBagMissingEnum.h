@@ -5,23 +5,23 @@
 namespace UnrealTypes { class Enum; }
 namespace UnrealTypes { class EnumParams; }
 
-#define UNREALTYPES_REGISTRATIONINFO_ENUM_PROPERTYBAGMISSINGENUM_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A20F660)
-#define UNREALTYPES_REGISTRATIONINFO_ENUM_PROPERTYBAGMISSINGENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A20F550)
+#define UNREALTYPES_REGISTRATIONINFO_ENUM_PROPERTYBAGMISSINGENUM_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ADA6300)
+#define UNREALTYPES_REGISTRATIONINFO_ENUM_PROPERTYBAGMISSINGENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADA61F0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int RegistrationInfo_Enum_PropertyBagMissingEnum_TypeDefinitionIndex = 24816;
+	inline static constexpr unsigned int RegistrationInfo_Enum_PropertyBagMissingEnum_TypeDefinitionIndex = 25330;
 
 	class RegistrationInfo_Enum_PropertyBagMissingEnum : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::EnumParams** StaticGet_EnumParams()
 		{
-			return (::UnrealTypes::EnumParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_PropertyBagMissingEnum_TypeDefinitionIndex)->GetStaticField(0x1E260);
+			return (::UnrealTypes::EnumParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_PropertyBagMissingEnum_TypeDefinitionIndex)->GetStaticField(0x1ED90);
 		}
 		static ::UnrealTypes::Enum** StaticGet_Enum()
 		{
-			return (::UnrealTypes::Enum**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_PropertyBagMissingEnum_TypeDefinitionIndex)->GetStaticField(0x1E268);
+			return (::UnrealTypes::Enum**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Enum_PropertyBagMissingEnum_TypeDefinitionIndex)->GetStaticField(0x1ED98);
 		}
 
 		static ::System::Void _cctor()

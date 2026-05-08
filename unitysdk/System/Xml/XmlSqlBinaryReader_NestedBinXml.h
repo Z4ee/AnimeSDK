@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlSqlBinaryReader_SymbolTables.h"
 
-#define SYSTEM_XML_XMLSQLBINARYREADER_NESTEDBINXML__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E9530)
+#define SYSTEM_XML_XMLSQLBINARYREADER_NESTEDBINXML__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B4ED0)
 
 namespace System::Xml
 {

@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A126790)
-#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A126780)
+#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B466AA0)
+#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B466A90)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int NodeNameAttribute_TypeDefinitionIndex = 26561;
+	inline static constexpr unsigned int NodeNameAttribute_TypeDefinitionIndex = 26864;
 
 	class NodeNameAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* oldName; // 0x10
-		::System::String* name; // 0x18
+		::System::String* name; // 0x10
+		::System::String* oldName; // 0x18
 
 		::System::Void _ctor(::System::String* name)
 		{

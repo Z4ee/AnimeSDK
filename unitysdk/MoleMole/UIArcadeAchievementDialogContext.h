@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIARCADEACHIEVEMENTDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC293830)
+#define MOLEMOLE_UIARCADEACHIEVEMENTDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F3BD30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeAchievementDialogContext_TypeDefinitionIndex = 54162;
+	inline static constexpr unsigned int UIArcadeAchievementDialogContext_TypeDefinitionIndex = 73508;
 
 	class UIArcadeAchievementDialogContext : public ::MoleMole::UIControllerContextBase
 	{

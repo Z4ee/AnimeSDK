@@ -6,18 +6,18 @@ namespace MoleMole { class UIHollowCardOptionItemWidgetController___c__DisplayCl
 namespace System { class Action; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_2__CTOR_OFFSET UNITYSDK_OFFSET(0x7F6BC90)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_2__REFRESHVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x7F6BCA0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1467E4E0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_2__REFRESHVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x1467E4F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionItemWidgetController___c__DisplayClass26_2_TypeDefinitionIndex = 72652;
+	inline static constexpr unsigned int UIHollowCardOptionItemWidgetController___c__DisplayClass26_2_TypeDefinitionIndex = 41920;
 
 	class UIHollowCardOptionItemWidgetController___c__DisplayClass26_2 : public ::System::Object
 	{
 	public:
-		::System::Action* finishCallback; // 0x10
-		::MoleMole::UIHollowCardOptionItemWidgetController___c__DisplayClass26_0* CS___8__locals2; // 0x18
+		::MoleMole::UIHollowCardOptionItemWidgetController___c__DisplayClass26_0* CS___8__locals2; // 0x10
+		::System::Action* finishCallback; // 0x18
 		::UnityEngine::Animation* anim; // 0x20
 
 		::System::Void _ctor()

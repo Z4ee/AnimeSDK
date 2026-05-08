@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define NPCAVATARUTILS___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E2580)
-#define NPCAVATARUTILS___C__DISPLAYCLASS31_0__ENABLEAVATARCOLLIDER_B__0_OFFSET UNITYSDK_OFFSET(0xC2E2590)
+#define NPCAVATARUTILS___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x113887C0)
+#define NPCAVATARUTILS___C__DISPLAYCLASS31_0__ENABLEAVATARCOLLIDER_B__0_OFFSET UNITYSDK_OFFSET(0x113887D0)
 
-inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass31_0_TypeDefinitionIndex = 48372;
+inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass31_0_TypeDefinitionIndex = 59892;
 
 class NPCAvatarUtils___c__DisplayClass31_0 : public ::System::Object
 {

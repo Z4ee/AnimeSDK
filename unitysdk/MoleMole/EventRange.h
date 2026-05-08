@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_EVENTRANGE_GET_TIMEOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0xA7C79A0)
-#define MOLEMOLE_EVENTRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C79B0)
+#define MOLEMOLE_EVENTRANGE_GET_TIMEOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x16037D00)
+#define MOLEMOLE_EVENTRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16037D10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EventRange_TypeDefinitionIndex = 73827;
+	inline static constexpr unsigned int EventRange_TypeDefinitionIndex = 41665;
 
 	class EventRange : public ::System::Object
 	{

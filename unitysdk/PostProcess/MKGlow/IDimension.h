@@ -4,7 +4,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int IDimension_TypeDefinitionIndex = 29127;
+	inline static constexpr unsigned int IDimension_TypeDefinitionIndex = 29646;
 
 	class IDimension
 	{

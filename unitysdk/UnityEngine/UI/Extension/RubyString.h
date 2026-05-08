@@ -7,24 +7,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_GET_BASESTRING_OFFSET UNITYSDK_OFFSET(0xD862940)
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_GET_DATA_OFFSET UNITYSDK_OFFSET(0xD862950)
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_GET_RAWSTRING_OFFSET UNITYSDK_OFFSET(0xD862930)
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_PARSE_OFFSET UNITYSDK_OFFSET(0xD862450)
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD862960)
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0xD8629C0)
-#define UNITYENGINE_UI_EXTENSION_RUBYSTRING___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD862A20)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_GET_BASESTRING_OFFSET UNITYSDK_OFFSET(0x17929C80)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_GET_DATA_OFFSET UNITYSDK_OFFSET(0x17929C90)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_GET_RAWSTRING_OFFSET UNITYSDK_OFFSET(0x17929C70)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_PARSE_OFFSET UNITYSDK_OFFSET(0x179297B0)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17929CA0)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x17929CE0)
+#define UNITYENGINE_UI_EXTENSION_RUBYSTRING___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17929D40)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyString_TypeDefinitionIndex = 80976;
+	inline static constexpr unsigned int RubyString_TypeDefinitionIndex = 75657;
 
 	class RubyString : public ::System::Object
 	{
 	public:
-		::System::String* rawString; // 0x10
-		::System::String* baseString; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::RubyString_Pair>* data; // 0x20
+		::System::String* baseString; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::RubyString_Pair>* data; // 0x18
+		::System::String* rawString; // 0x20
 		::System::Boolean Valid; // 0x28
 
 		::System::Void _ctor()

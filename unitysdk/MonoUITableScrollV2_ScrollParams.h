@@ -8,9 +8,9 @@
 
 class MonoUITableScrollV2_ScrollParams_AlignParam;
 
-#define MONOUITABLESCROLLV2_SCROLLPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x6B08560)
+#define MONOUITABLESCROLLV2_SCROLLPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x187C66D0)
 
-inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_TypeDefinitionIndex = 64465;
+inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_TypeDefinitionIndex = 54149;
 
 class MonoUITableScrollV2_ScrollParams : public ::System::Object
 {
@@ -18,6 +18,7 @@ public:
 	::MonoUITableScrollV2_ScrollParams_ScrollType scrollType; // 0x10
 	::MonoUITableScrollV2_ScrollParams_GridAlignType gridAlignType; // 0x14
 	::MonoUITableScrollV2_ScrollParams_GridSizeType gridSizeType; // 0x18
+	::System::Single scrollBarSize; // 0x1C
 	::MonoUITableScrollV2_ScrollParams_AlignParam* selectAlignParam; // 0x20
 	::MonoUITableScrollV2_ScrollParams_AlignParam* focusAlignParam; // 0x28
 	::MonoUITableScrollV2_ScrollParams_ClickType clickType; // 0x30

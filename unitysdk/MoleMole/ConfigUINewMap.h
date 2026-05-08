@@ -8,11 +8,11 @@ namespace MoleMole { class UrbanMapIconSize; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUINEWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xB487EB0)
+#define MOLEMOLE_CONFIGUINEWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x17D38FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUINewMap_TypeDefinitionIndex = 38607;
+	inline static constexpr unsigned int ConfigUINewMap_TypeDefinitionIndex = 53350;
 
 	class ConfigUINewMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{

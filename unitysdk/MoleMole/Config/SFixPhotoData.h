@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SFixPhotoData_TypeDefinitionIndex = 60156;
+	inline static constexpr unsigned int SFixPhotoData_TypeDefinitionIndex = 69709;
 
 	struct alignas(4) SFixPhotoData
 	{

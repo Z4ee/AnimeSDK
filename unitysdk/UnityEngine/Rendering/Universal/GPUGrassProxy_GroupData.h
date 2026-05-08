@@ -10,18 +10,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_ADDTOLIST_OFFSET UNITYSDK_OFFSET(0x18B3AF10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_CHECKGROUPVISIBLE_OFFSET UNITYSDK_OFFSET(0x18B3B2D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_EXTENDBOUND_OFFSET UNITYSDK_OFFSET(0x18B3B1D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_GET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x18B3B2B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_RESETBOUNDBOX_OFFSET UNITYSDK_OFFSET(0x18B3AB80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_SET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x18B3B2C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3AB10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA__RESETBOUNDBOX_G__EXTENTSIZE_4_0_OFFSET UNITYSDK_OFFSET(0x18B3AE60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_ADDTOLIST_1_OFFSET UNITYSDK_OFFSET(0x19B8D000)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_ADDTOLIST_OFFSET UNITYSDK_OFFSET(0x19B8CEA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_CHECKFRUSTUMVISIBLEFORL2GROUP_OFFSET UNITYSDK_OFFSET(0x19B8D3C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_CHECKGROUPVISIBLE_OFFSET UNITYSDK_OFFSET(0x19B8D4B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_EXTENDBOUND_OFFSET UNITYSDK_OFFSET(0x19B8D2C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_GET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x19B8D3A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_RESETBOUNDBOX_OFFSET UNITYSDK_OFFSET(0x19B8CB10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_SET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x19B8D3B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B8CA50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA__RESETBOUNDBOX_G__EXTENTSIZE_4_0_OFFSET UNITYSDK_OFFSET(0x19B8CDF0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassProxy_GroupData_TypeDefinitionIndex = 29713;
+	inline static constexpr unsigned int GPUGrassProxy_GroupData_TypeDefinitionIndex = 30241;
 
 	class GPUGrassProxy_GroupData : public ::System::Object
 	{
@@ -41,9 +43,14 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_RESETBOUNDBOX_OFFSET))(this, gridSizeWS, gridCenterWS);
 		}
 
-		::System::Void AddToList(::System::Int32 index, ::UnityEngine::Rendering::Universal::CachedGrassRenderItemData& data, ::UnityEngine::Matrix4x4& localToWorldMatrix, ::UnityEngine::Vector3 boundCenter, ::UnityEngine::Vector3 boundSize)
+		::System::Void AddToList(::System::Int32 index, ::UnityEngine::Rendering::Universal::GPUGrassProxy_GroupData*& data)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::Universal::CachedGrassRenderItemData&, ::UnityEngine::Matrix4x4&, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_ADDTOLIST_OFFSET))(this, index, data, localToWorldMatrix, boundCenter, boundSize);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::Universal::GPUGrassProxy_GroupData*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_ADDTOLIST_OFFSET))(this, index, data);
+		}
+
+		::System::Void AddToList_1(::System::Int32 index, ::UnityEngine::Rendering::Universal::CachedGrassRenderItemData& data, ::UnityEngine::Matrix4x4& localToWorldMatrix, ::UnityEngine::Vector3 boundCenter, ::UnityEngine::Vector3 boundSize)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::Universal::CachedGrassRenderItemData&, ::UnityEngine::Matrix4x4&, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_ADDTOLIST_1_OFFSET))(this, index, data, localToWorldMatrix, boundCenter, boundSize);
 		}
 
 		::System::Void ExtendBound(::UnityEngine::Vector3 extraBoundCenter, ::UnityEngine::Vector3 extraBoundSize)
@@ -59,6 +66,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void set_IsVisible(::System::Boolean value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_SET_ISVISIBLE_OFFSET))(this, value);
+		}
+
+		::System::Boolean CheckFrustumVisibleForL2Group(::Il2CppArray<::UnityEngine::Plane>* planes, ::UnityEngine::Vector3 cameraPositionWS, ::System::Boolean distanceCullEnable, ::System::Single cullingDistanceSqr)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::UnityEngine::Plane>*, ::UnityEngine::Vector3, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GROUPDATA_CHECKFRUSTUMVISIBLEFORL2GROUP_OFFSET))(this, planes, cameraPositionWS, distanceCullEnable, cullingDistanceSqr);
 		}
 
 		::System::Boolean CheckGroupVisible(::Il2CppArray<::UnityEngine::Plane>* planes, ::UnityEngine::Vector3 cameraPositionWS, ::System::Boolean distanceCullEnable, ::System::Single cullingDistanceSqr, ::System::Single cullingDistanceLod1Sqr, ::System::Single cullingDistanceLod2Sqr)

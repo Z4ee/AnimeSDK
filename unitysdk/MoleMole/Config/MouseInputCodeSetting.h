@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/MouseButton.h"
 
-#define MOLEMOLE_CONFIG_MOUSEINPUTCODESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xF2DB2F0)
+#define MOLEMOLE_CONFIG_MOUSEINPUTCODESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x159FA4B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MouseInputCodeSetting_TypeDefinitionIndex = 54757;
+	inline static constexpr unsigned int MouseInputCodeSetting_TypeDefinitionIndex = 51559;
 
 	class MouseInputCodeSetting : public ::System::Object
 	{

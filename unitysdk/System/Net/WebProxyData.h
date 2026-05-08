@@ -6,7 +6,7 @@ namespace System { class Uri; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_NET_WEBPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191D2E70)
+#define SYSTEM_NET_WEBPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B00FC0)
 
 namespace System::Net
 {
@@ -15,10 +15,10 @@ namespace System::Net
 	class WebProxyData : public ::System::Object
 	{
 	public:
-		::System::Uri* proxyAddress; // 0x10
-		::System::Collections::Hashtable* proxyHostAddresses; // 0x18
+		::System::Uri* scriptLocation; // 0x10
+		::System::Uri* proxyAddress; // 0x18
 		::System::Collections::ArrayList* bypassList; // 0x20
-		::System::Uri* scriptLocation; // 0x28
+		::System::Collections::Hashtable* proxyHostAddresses; // 0x28
 		::System::Boolean automaticallyDetectSettings; // 0x30
 		::System::Boolean bypassOnLocal; // 0x31
 

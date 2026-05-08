@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class ComputeBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATEPROBEPASS_LYRAVOXELLIGHTCACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x823050)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATEPROBEPASS_LYRAVOXELLIGHTCACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x8A8850)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraUpdateProbePass_LyraVoxelLightCache_TypeDefinitionIndex = 29988;
+	inline static constexpr unsigned int LyraUpdateProbePass_LyraVoxelLightCache_TypeDefinitionIndex = 30516;
 
 	struct alignas(8) LyraUpdateProbePass_LyraVoxelLightCache
 	{

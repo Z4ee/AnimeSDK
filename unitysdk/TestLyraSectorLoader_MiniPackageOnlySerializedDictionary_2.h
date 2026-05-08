@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int TestLyraSectorLoader_MiniPackageOnlySerializedDictionary_2_TypeDefinitionIndex = 29039;
+inline static constexpr unsigned int TestLyraSectorLoader_MiniPackageOnlySerializedDictionary_2_TypeDefinitionIndex = 29558;
 
 template <typename K, typename V>
 class TestLyraSectorLoader_MiniPackageOnlySerializedDictionary_2 : public ::System::Collections::Generic::Dictionary_2<K, V>

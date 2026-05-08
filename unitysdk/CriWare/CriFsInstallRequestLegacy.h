@@ -7,13 +7,13 @@ namespace CriWare { class CriFsInstaller; }
 namespace CriWare { class CriFsRequest_DoneDelegate; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6DD300)
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B6DD0D0)
-#define CRIWARE_CRIFSINSTALLREQUESTLEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DCFF0)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C4FDFB0)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C4FDD80)
+#define CRIWARE_CRIFSINSTALLREQUESTLEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4FDCA0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstallRequestLegacy_TypeDefinitionIndex = 32235;
+	inline static constexpr unsigned int CriFsInstallRequestLegacy_TypeDefinitionIndex = 32764;
 
 	class CriFsInstallRequestLegacy : public ::CriWare::CriFsInstallRequest
 	{

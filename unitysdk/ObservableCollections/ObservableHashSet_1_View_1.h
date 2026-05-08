@@ -19,7 +19,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableHashSet_1_View_1_TypeDefinitionIndex = 25062;
+	inline static constexpr unsigned int ObservableHashSet_1_View_1_TypeDefinitionIndex = 25621;
 
 	template <typename T, typename TView>
 	class ObservableHashSet_1_View_1 : public ::System::Object

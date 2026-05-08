@@ -9,14 +9,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTSHAPE_GETRELATIVEPATH_OFFSET UNITYSDK_OFFSET(0xB5F6390)
-#define MOLEMOLE_MONOEFFECTSHAPE_METHOD_5_AAD44B4BC056326D_OFFSET UNITYSDK_OFFSET(0xB5F6970)
-#define MOLEMOLE_MONOEFFECTSHAPE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB5F6B80)
-#define MOLEMOLE_MONOEFFECTSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5F6C80)
+#define MOLEMOLE_MONOEFFECTSHAPE_GETRELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x154321D0)
+#define MOLEMOLE_MONOEFFECTSHAPE_METHOD_5_BC32755818CA4F24_OFFSET UNITYSDK_OFFSET(0x154327E0)
+#define MOLEMOLE_MONOEFFECTSHAPE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x154329A0)
+#define MOLEMOLE_MONOEFFECTSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15432AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectShape_TypeDefinitionIndex = 76523;
+	inline static constexpr unsigned int MonoEffectShape_TypeDefinitionIndex = 66958;
 
 	class MonoEffectShape : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,9 +39,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTSHAPE_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_AAD44B4BC056326D(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
+		::System::Boolean Method_5_BC32755818CA4F24(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTSHAPE_METHOD_5_AAD44B4BC056326D_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTSHAPE_METHOD_5_BC32755818CA4F24_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -9,12 +9,12 @@ namespace UnityEngine::UI { class ReflectionMethodsCache_Raycast2DCallback; }
 namespace UnityEngine::UI { class ReflectionMethodsCache_Raycast3DCallback; }
 namespace UnityEngine::UI { class ReflectionMethodsCache_RaycastAllCallback; }
 
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GET_SINGLETON_OFFSET UNITYSDK_OFFSET(0x1AE97960)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE96780)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GET_SINGLETON_OFFSET UNITYSDK_OFFSET(0x1BC72030)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC70C60)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ReflectionMethodsCache_TypeDefinitionIndex = 8463;
+	inline static constexpr unsigned int ReflectionMethodsCache_TypeDefinitionIndex = 8473;
 
 	class ReflectionMethodsCache : public ::System::Object
 	{

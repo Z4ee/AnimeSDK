@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CAMERAMODULEDELAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB075CF0)
+#define MOLEMOLE_CAMERAMODULEDELAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11006CA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModuleDelayData_TypeDefinitionIndex = 60515;
+	inline static constexpr unsigned int CameraModuleDelayData_TypeDefinitionIndex = 41956;
 
 	class CameraModuleDelayData : public ::System::Object
 	{

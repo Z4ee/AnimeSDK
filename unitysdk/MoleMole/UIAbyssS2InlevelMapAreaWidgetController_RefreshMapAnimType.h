@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2InlevelMapAreaWidgetController_RefreshMapAnimType_TypeDefinitionIndex = 58846;
+	inline static constexpr unsigned int UIAbyssS2InlevelMapAreaWidgetController_RefreshMapAnimType_TypeDefinitionIndex = 45761;
 
 	enum class UIAbyssS2InlevelMapAreaWidgetController_RefreshMapAnimType : ::System::Int32
 	{

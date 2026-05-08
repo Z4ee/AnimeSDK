@@ -4,11 +4,11 @@
 
 class Class_1_0D6706375CDAAE8C;
 
-#define MOLEMOLE_UIDOUBLEELITESWEEPREWARDLISTROWCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFF2A10)
+#define MOLEMOLE_UIDOUBLEELITESWEEPREWARDLISTROWCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1566B0C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_0_TypeDefinitionIndex = 59929;
+	inline static constexpr unsigned int UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_0_TypeDefinitionIndex = 66945;
 
 	class UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_0 : public ::System::Object
 	{

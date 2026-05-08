@@ -5,12 +5,12 @@
 
 namespace System { class Action; }
 
-#define QWER_CRUNNER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00F850)
-#define QWER_CRUNNER___C__DISPLAYCLASS49_0__POST_B__0_OFFSET UNITYSDK_OFFSET(0x1B00F9A0)
+#define QWER_CRUNNER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE88CC0)
+#define QWER_CRUNNER___C__DISPLAYCLASS49_0__POST_B__0_OFFSET UNITYSDK_OFFSET(0x1BE88E10)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CRunner___c__DisplayClass49_0_TypeDefinitionIndex = 84124;
+	inline static constexpr unsigned int CRunner___c__DisplayClass49_0_TypeDefinitionIndex = 85852;
 
 	class CRunner___c__DisplayClass49_0 : public ::System::Object
 	{

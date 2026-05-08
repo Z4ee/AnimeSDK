@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_539A5A7FAC22747B_TypeDefinitionIndex = 76426;
+inline static constexpr unsigned int Enum_3_539A5A7FAC22747B_TypeDefinitionIndex = 51336;
 
 enum class Enum_3_539A5A7FAC22747B : ::System::Int32
 {
-	RevertOrientationAxis = 1,
 	Keep = 0,
+	RevertOrientationAxis = 1,
 };

@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_FEATUREPOINT_METHOD_1_009FA3CB66AE43C3_OFFSET UNITYSDK_OFFSET(0xA0052A0)
-#define MOLEMOLE_FEATUREPOINT_METHOD_1_40E490E2772D5D75_OFFSET UNITYSDK_OFFSET(0xA005560)
-#define MOLEMOLE_FEATUREPOINT_METHOD_1_4F4018519B20BBDD_OFFSET UNITYSDK_OFFSET(0xA0053F0)
-#define MOLEMOLE_FEATUREPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xA005280)
+#define MOLEMOLE_FEATUREPOINT_METHOD_1_40E490E2772D5D75_OFFSET UNITYSDK_OFFSET(0x11735B60)
+#define MOLEMOLE_FEATUREPOINT_METHOD_1_4AD015C8B128B3A0_OFFSET UNITYSDK_OFFSET(0x11735BC0)
+#define MOLEMOLE_FEATUREPOINT_METHOD_1_FF11A7936E830212_OFFSET UNITYSDK_OFFSET(0x11735970)
+#define MOLEMOLE_FEATUREPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x11735950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FeaturePoint_TypeDefinitionIndex = 70432;
+	inline static constexpr unsigned int FeaturePoint_TypeDefinitionIndex = 53923;
 
 	class FeaturePoint : public ::System::Object
 	{
@@ -27,19 +27,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FEATUREPOINT__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_009FA3CB66AE43C3(::UnityEngine::Vector3& a1)
+		::UnityEngine::Vector3 Method_1_FF11A7936E830212()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MOLEMOLE_FEATUREPOINT_METHOD_1_009FA3CB66AE43C3_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Vector3 Method_1_4F4018519B20BBDD()
-		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FEATUREPOINT_METHOD_1_4F4018519B20BBDD_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FEATUREPOINT_METHOD_1_FF11A7936E830212_OFFSET))(this);
 		}
 
 		::System::Void Method_1_40E490E2772D5D75(::UnityEngine::Vector3 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_FEATUREPOINT_METHOD_1_40E490E2772D5D75_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_1_4AD015C8B128B3A0(::UnityEngine::Vector3& a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MOLEMOLE_FEATUREPOINT_METHOD_1_4AD015C8B128B3A0_OFFSET))(this, a1);
 		}
 	};
 }

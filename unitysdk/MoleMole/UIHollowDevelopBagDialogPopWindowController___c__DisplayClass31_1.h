@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowDevelopBagDialogPopWindowController___c__DisplayClass31_0; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHOLLOWDEVELOPBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS31_1__CTOR_OFFSET UNITYSDK_OFFSET(0x97F7820)
-#define MOLEMOLE_UIHOLLOWDEVELOPBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS31_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x97F7830)
+#define MOLEMOLE_UIHOLLOWDEVELOPBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS31_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA4100)
+#define MOLEMOLE_UIHOLLOWDEVELOPBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS31_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15FA4110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowDevelopBagDialogPopWindowController___c__DisplayClass31_1_TypeDefinitionIndex = 55014;
+	inline static constexpr unsigned int UIHollowDevelopBagDialogPopWindowController___c__DisplayClass31_1_TypeDefinitionIndex = 68843;
 
 	class UIHollowDevelopBagDialogPopWindowController___c__DisplayClass31_1 : public ::System::Object
 	{

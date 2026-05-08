@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMedalGuide_TypeDefinitionIndex = 73403;
+	inline static constexpr unsigned int ConfigMedalGuide_TypeDefinitionIndex = 78329;
 
 	struct alignas(4) ConfigMedalGuide
 	{

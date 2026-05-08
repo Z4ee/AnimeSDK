@@ -8,26 +8,26 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xBB054A0)
-#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xBB054B0)
-#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xBB05980)
-#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB05CA0)
-#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBB05C60)
+#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x186C5170)
+#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x186C5180)
+#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x186C5630)
+#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186C5930)
+#define MOLEMOLE_CONFIGGROUNDPOSITIONBLENDMODIFIER_CONFIGGROUNDPOSITIONBLENDMODIFIER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186C58F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter_TypeDefinitionIndex = 58269;
+	inline static constexpr unsigned int ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter_TypeDefinitionIndex = 76604;
 
 	class ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigGroundPositionBlendModifier*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36D70);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x36D78);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37820);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigGroundPositionBlendModifier_ConfigGroundPositionBlendModifier_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x37828);
 		}
 
 		::System::Void _ctor()

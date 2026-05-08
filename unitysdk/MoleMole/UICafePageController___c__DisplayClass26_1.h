@@ -6,20 +6,20 @@ namespace MoleMole { class UICafePageController___c__DisplayClass26_0; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS26_1__CTOR_OFFSET UNITYSDK_OFFSET(0xACF02B0)
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS26_1__ONSHOWDRINKCAFEFINISHED_B__2_OFFSET UNITYSDK_OFFSET(0xACF02C0)
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS26_1__ONSHOWDRINKCAFEFINISHED_B__3_OFFSET UNITYSDK_OFFSET(0xACF07F0)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS26_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1636F9E0)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS26_1__ONSHOWDRINKCAFEFINISHED_B__2_OFFSET UNITYSDK_OFFSET(0x1636F9F0)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS26_1__ONSHOWDRINKCAFEFINISHED_B__3_OFFSET UNITYSDK_OFFSET(0x1636FF30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICafePageController___c__DisplayClass26_1_TypeDefinitionIndex = 70900;
+	inline static constexpr unsigned int UICafePageController___c__DisplayClass26_1_TypeDefinitionIndex = 62306;
 
 	class UICafePageController___c__DisplayClass26_1 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* __9__3; // 0x10
+		::System::Action* onFinish; // 0x10
 		::MoleMole::UICafePageController___c__DisplayClass26_0* CS___8__locals1; // 0x18
-		::System::Action* onFinish; // 0x20
+		::System::Action_1<::System::Boolean>* __9__3; // 0x20
 
 		::System::Void _ctor()
 		{

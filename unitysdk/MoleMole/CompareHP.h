@@ -5,29 +5,29 @@
 #include "unitysdk/MoleMole/AICompareType.h"
 #include "unitysdk/MoleMole/AITargetType.h"
 
-class Class_3_B19369CC4AB45FA4;
+class Class_3_CF6254B260CF5CF4;
 class Class_3_F97B015544BE936B;
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_COMPAREHP_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xF2BAAD0)
-#define MOLEMOLE_COMPAREHP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xF2BAD30)
-#define MOLEMOLE_COMPAREHP__CTOR_OFFSET UNITYSDK_OFFSET(0xF2BAFB0)
-#define MOLEMOLE_COMPAREHP___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xF2BAFF0)
-#define MOLEMOLE_COMPAREHP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xF2BB080)
+#define MOLEMOLE_COMPAREHP_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x159D9DA0)
+#define MOLEMOLE_COMPAREHP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x159D9FD0)
+#define MOLEMOLE_COMPAREHP__CTOR_OFFSET UNITYSDK_OFFSET(0x159DA340)
+#define MOLEMOLE_COMPAREHP___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x159DA3D0)
+#define MOLEMOLE_COMPAREHP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x159DA460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CompareHP_TypeDefinitionIndex = 80754;
+	inline static constexpr unsigned int CompareHP_TypeDefinitionIndex = 56064;
 
 	class CompareHP : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
-		::Class_3_F97B015544BE936B* dataComponent; // 0x58
-		::Class_3_B19369CC4AB45FA4* attackTargetComponent; // 0x60
-		::System::Single TargetHPPercent; // 0x68
+		::Class_3_CF6254B260CF5CF4* attackTargetComponent; // 0x58
+		::Class_3_F97B015544BE936B* dataComponent; // 0x60
+		::MoleMole::AICompareType CompareType; // 0x68
 		::MoleMole::AITargetType TargetType; // 0x6C
-		::MoleMole::AICompareType CompareType; // 0x70
+		::System::Single TargetHPPercent; // 0x70
 
 		::System::Void _ctor()
 		{

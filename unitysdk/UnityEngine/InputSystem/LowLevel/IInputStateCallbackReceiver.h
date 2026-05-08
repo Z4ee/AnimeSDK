@@ -6,7 +6,7 @@ namespace UnityEngine::InputSystem { class InputControl; }
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IInputStateCallbackReceiver_TypeDefinitionIndex = 28767;
+	inline static constexpr unsigned int IInputStateCallbackReceiver_TypeDefinitionIndex = 29285;
 
 	class IInputStateCallbackReceiver
 	{

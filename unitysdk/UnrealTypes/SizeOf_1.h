@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int SizeOf_1_TypeDefinitionIndex = 24693;
+	inline static constexpr unsigned int SizeOf_1_TypeDefinitionIndex = 25207;
 
 	template <typename T>
 	class SizeOf_1 : public ::System::Object

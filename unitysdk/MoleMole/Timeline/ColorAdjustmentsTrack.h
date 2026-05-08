@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB937460)
-#define MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xB937730)
-#define MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB937700)
+#define MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15860110)
+#define MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x158603C0)
+#define MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15860360)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ColorAdjustmentsTrack_TypeDefinitionIndex = 62560;
+	inline static constexpr unsigned int ColorAdjustmentsTrack_TypeDefinitionIndex = 38721;
 
 	class ColorAdjustmentsTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_COLORADJUSTMENTSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_4.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFFAKEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0xD0DDD60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFFAKEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0xD0DDEA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFFAKEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x16B89E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFFAKEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x16B89F00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfFakeInput_TypeDefinitionIndex = 41891;
+	inline static constexpr unsigned int LD_SurfFakeInput_TypeDefinitionIndex = 51190;
 
 	class LD_SurfFakeInput : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single>
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_COMIC_ODINEXTENSION_SUFFIXBUTTONNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C3750)
+#define MOLEMOLE_COMIC_ODINEXTENSION_SUFFIXBUTTONNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DED50)
 
 namespace MoleMole::Comic::OdinExtension
 {
-	inline static constexpr unsigned int SuffixButtonNapAttribute_TypeDefinitionIndex = 30075;
+	inline static constexpr unsigned int SuffixButtonNapAttribute_TypeDefinitionIndex = 30604;
 
 	class SuffixButtonNapAttribute : public ::System::Attribute
 	{

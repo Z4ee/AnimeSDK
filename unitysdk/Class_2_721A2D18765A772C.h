@@ -6,10 +6,10 @@ class Class_1_0D6706375CDAAE8C;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_721A2D18765A772C_METHOD_2_122C6FA3C48B4E9A_OFFSET UNITYSDK_OFFSET(0x8A30710)
-#define CLASS_2_721A2D18765A772C__CTOR_OFFSET UNITYSDK_OFFSET(0x8A30650)
+#define CLASS_2_721A2D18765A772C_METHOD_2_122C6FA3C48B4E9A_OFFSET UNITYSDK_OFFSET(0x118F0A00)
+#define CLASS_2_721A2D18765A772C__CTOR_OFFSET UNITYSDK_OFFSET(0x118F0940)
 
-inline static constexpr unsigned int Class_2_721A2D18765A772C_TypeDefinitionIndex = 76295;
+inline static constexpr unsigned int Class_2_721A2D18765A772C_TypeDefinitionIndex = 42707;
 
 class Class_2_721A2D18765A772C : public ::Class_1_3002EE73D986F5EA
 {

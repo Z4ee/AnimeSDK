@@ -5,12 +5,12 @@
 
 namespace MoleMole::Config { class IHollowCameraPredicate; }
 
-#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF2DA160)
-#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR__CTOR_OFFSET UNITYSDK_OFFSET(0xF2DA310)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159F9500)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR__CTOR_OFFSET UNITYSDK_OFFSET(0x159F9690)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCameraPredicateOr_TypeDefinitionIndex = 48704;
+	inline static constexpr unsigned int HollowCameraPredicateOr_TypeDefinitionIndex = 81234;
 
 	class HollowCameraPredicateOr : public ::MoleMole::Config::BaseHollowCameraPredicate
 	{

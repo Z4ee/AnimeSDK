@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectDictionaryPool_2_TypeDefinitionIndex = 8177;
+	inline static constexpr unsigned int ObjectDictionaryPool_2_TypeDefinitionIndex = 7741;
 
 	template <typename TKey, typename TValue>
 	class ObjectDictionaryPool_2 : public ::System::Object

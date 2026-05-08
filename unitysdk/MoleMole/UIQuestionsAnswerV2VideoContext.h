@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIQUESTIONSANSWERV2VIDEOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x7497640)
+#define MOLEMOLE_UIQUESTIONSANSWERV2VIDEOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x148633C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerV2VideoContext_TypeDefinitionIndex = 69361;
+	inline static constexpr unsigned int UIQuestionsAnswerV2VideoContext_TypeDefinitionIndex = 53132;
 
 	class UIQuestionsAnswerV2VideoContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIBPPagePageController; }
 
-#define MOLEMOLE_UIBPPURCHASEV2CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD51F500)
+#define MOLEMOLE_UIBPPURCHASEV2CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15AB8180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBPPurchaseV2Context_TypeDefinitionIndex = 63687;
+	inline static constexpr unsigned int UIBPPurchaseV2Context_TypeDefinitionIndex = 75370;
 
 	class UIBPPurchaseV2Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_025FF4981524A424_246;
+class Class_3_025FF4981524A424_497;
 namespace MoleMole { class UISuibianTempleSellWidgetController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6B90B0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__0_OFFSET UNITYSDK_OFFSET(0xA6B90C0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__1_OFFSET UNITYSDK_OFFSET(0xA6B9200)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11B7A7F0)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__0_OFFSET UNITYSDK_OFFSET(0x11B7A800)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__1_OFFSET UNITYSDK_OFFSET(0x11B7A940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleSellWidgetController___c__DisplayClass73_0_TypeDefinitionIndex = 47806;
+	inline static constexpr unsigned int UISuibianTempleSellWidgetController___c__DisplayClass73_0_TypeDefinitionIndex = 81139;
 
 	class UISuibianTempleSellWidgetController___c__DisplayClass73_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Class_3_025FF4981524A424_246*>* __9__1; // 0x10
-		::MoleMole::UISuibianTempleSellWidgetController* __4__this; // 0x18
+		::MoleMole::UISuibianTempleSellWidgetController* __4__this; // 0x10
+		::System::Action_1<::Class_3_025FF4981524A424_497*>* __9__1; // 0x18
 		::System::UInt32 benchUid; // 0x20
 		::System::UInt32 buddyUid; // 0x24
 
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__0_OFFSET))(this);
 		}
 
-		::System::Void _OnSelectBuddy_b__1(::Class_3_025FF4981524A424_246* ret)
+		::System::Void _OnSelectBuddy_b__1(::Class_3_025FF4981524A424_497* ret)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_246*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__1_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_497*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__DISPLAYCLASS73_0__ONSELECTBUDDY_B__1_OFFSET))(this, ret);
 		}
 	};
 }

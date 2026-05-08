@@ -9,35 +9,35 @@ namespace MonoNotRelateGameLogic { class DynamicCarPlateAssetCfg; }
 namespace NPCCrowd::Accessories { class NPCAccessory; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_CLEARRANDOMPOOL_OFFSET UNITYSDK_OFFSET(0x84795B0)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_DESPAWNINDEXTOPOOL_OFFSET UNITYSDK_OFFSET(0x84790E0)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_INITRANDOMPOOL_OFFSET UNITYSDK_OFFSET(0x8479260)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_INIT_OFFSET UNITYSDK_OFFSET(0x84786B0)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8478EE0)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_SPAWNRANDOMINDEXFROMPOOL_OFFSET UNITYSDK_OFFSET(0x8478900)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_UPDATEDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x8478E80)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_UPDATEMESH_OFFSET UNITYSDK_OFFSET(0x8478B10)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x8479770)
-#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8479750)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_CLEARRANDOMPOOL_OFFSET UNITYSDK_OFFSET(0xFBFEF80)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_DESPAWNINDEXTOPOOL_OFFSET UNITYSDK_OFFSET(0xFBFEAF0)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_INITRANDOMPOOL_OFFSET UNITYSDK_OFFSET(0xFBFEC50)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_INIT_OFFSET UNITYSDK_OFFSET(0xFBFE040)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFBFE8A0)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_SPAWNRANDOMINDEXFROMPOOL_OFFSET UNITYSDK_OFFSET(0xFBFE240)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_UPDATEDEBUGINFO_OFFSET UNITYSDK_OFFSET(0xFBFE860)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE_UPDATEMESH_OFFSET UNITYSDK_OFFSET(0xFBFE430)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBFF150)
+#define NPCCROWD_ACCESSORIES_MONODEVICENUMBERPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xFBFF100)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int MonoDeviceNumberPlate_TypeDefinitionIndex = 54689;
+	inline static constexpr unsigned int MonoDeviceNumberPlate_TypeDefinitionIndex = 73273;
 
 	class MonoDeviceNumberPlate : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::MonoNotRelateGameLogic::DeviceCarType, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_RandomPool>** StaticGet_Pools()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::MonoNotRelateGameLogic::DeviceCarType, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_RandomPool>**)Il2CppClass::FromTypeDefinitionIndex(MonoDeviceNumberPlate_TypeDefinitionIndex)->GetStaticField(0x3DBD0);
-		}
 		static ::MonoNotRelateGameLogic::DynamicCarPlateAssetCfg** StaticGet__assetCfg()
 		{
-			return (::MonoNotRelateGameLogic::DynamicCarPlateAssetCfg**)Il2CppClass::FromTypeDefinitionIndex(MonoDeviceNumberPlate_TypeDefinitionIndex)->GetStaticField(0x3DBD8);
+			return (::MonoNotRelateGameLogic::DynamicCarPlateAssetCfg**)Il2CppClass::FromTypeDefinitionIndex(MonoDeviceNumberPlate_TypeDefinitionIndex)->GetStaticField(0x3F470);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::MonoNotRelateGameLogic::DeviceCarType, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_RandomPool>** StaticGet_Pools()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::MonoNotRelateGameLogic::DeviceCarType, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_RandomPool>**)Il2CppClass::FromTypeDefinitionIndex(MonoDeviceNumberPlate_TypeDefinitionIndex)->GetStaticField(0x3F478);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_Handle>** StaticGet_Entries()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_Handle>**)Il2CppClass::FromTypeDefinitionIndex(MonoDeviceNumberPlate_TypeDefinitionIndex)->GetStaticField(0x3DBE0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Accessories::MonoDeviceNumberPlate_Handle>**)Il2CppClass::FromTypeDefinitionIndex(MonoDeviceNumberPlate_TypeDefinitionIndex)->GetStaticField(0x3F480);
 		}
 		::NPCCrowd::Accessories::MonoDeviceNumberPlate_Handle _poolHandle; // 0x18
 

@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Boolean_TypeDefinitionIndex = 74387;
+	inline static constexpr unsigned int Boolean_TypeDefinitionIndex = 42648;
 
 	enum class Boolean : ::System::Int32
 	{
-		True = 0,
 		False = 1,
+		True = 0,
 	};
 }

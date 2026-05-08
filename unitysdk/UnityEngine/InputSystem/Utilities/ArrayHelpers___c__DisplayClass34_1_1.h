@@ -6,7 +6,7 @@ namespace UnityEngine::InputSystem::Utilities { template <typename T> class Arra
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ArrayHelpers___c__DisplayClass34_1_1_TypeDefinitionIndex = 28864;
+	inline static constexpr unsigned int ArrayHelpers___c__DisplayClass34_1_1_TypeDefinitionIndex = 29382;
 
 	template <typename TValue>
 	class ArrayHelpers___c__DisplayClass34_1_1 : public ::System::Object

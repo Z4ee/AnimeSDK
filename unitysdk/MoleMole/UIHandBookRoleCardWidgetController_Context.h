@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_D89CCC627A66D0AD;
+class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIHANDBOOKROLECARDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB2CDFA0)
+#define MOLEMOLE_UIHANDBOOKROLECARDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15259500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookRoleCardWidgetController_Context_TypeDefinitionIndex = 37779;
+	inline static constexpr unsigned int UIHandBookRoleCardWidgetController_Context_TypeDefinitionIndex = 66261;
 
 	class UIHandBookRoleCardWidgetController_Context : public ::System::Object
 	{
 	public:
-		::Class_2_D89CCC627A66D0AD* AvatarData; // 0x10
+		::Class_2_1824EF69C8E376A3* AvatarData; // 0x10
 		::System::Boolean IsPromoted; // 0x18
 		::System::Boolean IsShowWishListTarget; // 0x19
 

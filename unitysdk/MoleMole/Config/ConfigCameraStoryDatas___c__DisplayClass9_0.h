@@ -5,19 +5,19 @@
 namespace MoleMole::Config { class CameraStoryDataEntry; }
 namespace Nap::NapECS { class EcsWorld; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORYDATAS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0948F0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASTORYDATAS___C__DISPLAYCLASS9_0__GETCONFIGINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0xB094900)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORYDATAS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11025D40)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASTORYDATAS___C__DISPLAYCLASS9_0__GETCONFIGINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0x11025D50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraStoryDatas___c__DisplayClass9_0_TypeDefinitionIndex = 43140;
+	inline static constexpr unsigned int ConfigCameraStoryDatas___c__DisplayClass9_0_TypeDefinitionIndex = 68904;
 
 	class ConfigCameraStoryDatas___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::Nap::NapECS::EcsWorld* world; // 0x10
-		::System::UInt32 npcId; // 0x18
-		::System::UInt32 playerId; // 0x1C
+		::System::UInt32 playerId; // 0x18
+		::System::UInt32 npcId; // 0x1C
 
 		::System::Void _ctor()
 		{

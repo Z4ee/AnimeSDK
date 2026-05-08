@@ -7,23 +7,23 @@
 class Class_1_A5C63A7A740BFBD0;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA4EFB30)
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xA4EFB20)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10DFEEA0)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x10DFEE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EntitySpawnSubsystem_EntitySpawnRequest_TypeDefinitionIndex = 40148;
+	inline static constexpr unsigned int EntitySpawnSubsystem_EntitySpawnRequest_TypeDefinitionIndex = 58736;
 
 	class EntitySpawnSubsystem_EntitySpawnRequest : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MoleMole::EntityHandle>* OnComplete; // 0x10
-		::Foundation::ViewObject::ViewObjectHandle OwnerVo; // 0x18
-		::MoleMole::EntityHandle Entity; // 0x28
-		::Class_1_A5C63A7A740BFBD0* Creator; // 0x38
-		::System::Int32 Priority; // 0x40
-		::System::Boolean IsCancelled; // 0x44
-		::System::Boolean IsWaiting; // 0x45
+		::MoleMole::EntityHandle Entity; // 0x10
+		::Class_1_A5C63A7A740BFBD0* Creator; // 0x20
+		::Foundation::ViewObject::ViewObjectHandle OwnerVo; // 0x28
+		::System::Action_1<::MoleMole::EntityHandle>* OnComplete; // 0x38
+		::System::Boolean IsCancelled; // 0x40
+		::System::Boolean IsWaiting; // 0x41
+		::System::Int32 Priority; // 0x44
 
 		::System::Void _ctor()
 		{

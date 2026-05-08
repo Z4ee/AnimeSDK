@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define NPCSOFTMESHPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6BC1D90)
-#define NPCSOFTMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x6BC1D50)
+#define NPCSOFTMESHPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x112C9370)
+#define NPCSOFTMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x112C9310)
 
-inline static constexpr unsigned int NPCSoftMeshPath_TypeDefinitionIndex = 41805;
+inline static constexpr unsigned int NPCSoftMeshPath_TypeDefinitionIndex = 69322;
 
 class NPCSoftMeshPath : public ::NPCSoftAssetPath_1<::UnityEngine::Mesh*>
 {

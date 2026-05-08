@@ -7,12 +7,12 @@
 namespace MoleMole { class UIOverlordFeastServePageController___c__DisplayClass36_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTROLLER___C__DISPLAYCLASS36_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB4123B0)
-#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTROLLER___C__DISPLAYCLASS36_2__ONSELECTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0xB4123C0)
+#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTROLLER___C__DISPLAYCLASS36_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1453F140)
+#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTROLLER___C__DISPLAYCLASS36_2__ONSELECTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x1453F150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastServePageController___c__DisplayClass36_2_TypeDefinitionIndex = 47743;
+	inline static constexpr unsigned int UIOverlordFeastServePageController___c__DisplayClass36_2_TypeDefinitionIndex = 58439;
 
 	class UIOverlordFeastServePageController___c__DisplayClass36_2 : public ::System::Object
 	{

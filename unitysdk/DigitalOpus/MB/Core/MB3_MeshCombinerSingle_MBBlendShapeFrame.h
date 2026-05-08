@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MBBLENDSHAPEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF244D0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MBBLENDSHAPEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE018B0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_MBBlendShapeFrame_TypeDefinitionIndex = 83336;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_MBBlendShapeFrame_TypeDefinitionIndex = 85064;
 
 	class MB3_MeshCombinerSingle_MBBlendShapeFrame : public ::System::Object
 	{

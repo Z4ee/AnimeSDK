@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int Tile_ColliderType_TypeDefinitionIndex = 82483;
+	inline static constexpr unsigned int Tile_ColliderType_TypeDefinitionIndex = 84211;
 
 	enum class Tile_ColliderType : ::System::Int32
 	{

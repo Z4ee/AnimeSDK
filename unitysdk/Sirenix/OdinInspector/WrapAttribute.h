@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_WRAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1173E0)
+#define SIRENIX_ODININSPECTOR_WRAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C022910)
 
 namespace Sirenix::OdinInspector
 {
@@ -11,8 +11,8 @@ namespace Sirenix::OdinInspector
 	class WrapAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Double Max; // 0x10
-		::System::Double Min; // 0x18
+		::System::Double Min; // 0x10
+		::System::Double Max; // 0x18
 
 		::System::Void _ctor(::System::Double min, ::System::Double max)
 		{

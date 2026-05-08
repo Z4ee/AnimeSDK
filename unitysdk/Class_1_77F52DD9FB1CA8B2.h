@@ -8,20 +8,20 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0xE97BCE0)
-#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_2C95943DE470BC45_OFFSET UNITYSDK_OFFSET(0xE97C260)
-#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0xE97C150)
-#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_ED46D1294B9F8008_OFFSET UNITYSDK_OFFSET(0xE97BF20)
-#define CLASS_1_77F52DD9FB1CA8B2__CTOR_OFFSET UNITYSDK_OFFSET(0xE97BCD0)
+#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x13ADAD60)
+#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_2518BF92D56C922A_OFFSET UNITYSDK_OFFSET(0x13ADA9B0)
+#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_7C98DD926AF47E8B_OFFSET UNITYSDK_OFFSET(0x13ADAA00)
+#define CLASS_1_77F52DD9FB1CA8B2_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x13ADAC70)
+#define CLASS_1_77F52DD9FB1CA8B2__CTOR_OFFSET UNITYSDK_OFFSET(0x13ADA9A0)
 
-inline static constexpr unsigned int Class_1_77F52DD9FB1CA8B2_TypeDefinitionIndex = 48338;
+inline static constexpr unsigned int Class_1_77F52DD9FB1CA8B2_TypeDefinitionIndex = 41271;
 
 class Class_1_77F52DD9FB1CA8B2 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigFixedCameraEntry** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigFixedCameraEntry**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77F52DD9FB1CA8B2_TypeDefinitionIndex)->GetStaticField(0x381C0);
+		return (::MoleMole::Config::ConfigFixedCameraEntry**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77F52DD9FB1CA8B2_TypeDefinitionIndex)->GetStaticField(0x36520);
 	}
 
 	::System::Void _ctor()
@@ -29,14 +29,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2__CTOR_OFFSET))(this);
 	}
 
-	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)
+	static ::MoleMole::Config::ConfigFixedCameraEntry* Method_1_2518BF92D56C922A()
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_0BE1846AC20D43BE_OFFSET))(a1, a2);
+		return ((::MoleMole::Config::ConfigFixedCameraEntry*(*)())((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_2518BF92D56C922A_OFFSET))();
 	}
 
-	static ::MoleMole::Cameras::FixedCameraConfig* Method_1_ED46D1294B9F8008(::System::String* a1)
+	static ::MoleMole::Cameras::FixedCameraConfig* Method_1_7C98DD926AF47E8B(::System::String* a1)
 	{
-		return ((::MoleMole::Cameras::FixedCameraConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_ED46D1294B9F8008_OFFSET))(a1);
+		return ((::MoleMole::Cameras::FixedCameraConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_7C98DD926AF47E8B_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_A8AE4A9A45E37F95(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
@@ -44,8 +44,8 @@ public:
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_A8AE4A9A45E37F95_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::MoleMole::Config::ConfigFixedCameraEntry* Method_1_2C95943DE470BC45()
+	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)
 	{
-		return ((::MoleMole::Config::ConfigFixedCameraEntry*(*)())((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_2C95943DE470BC45_OFFSET))();
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_77F52DD9FB1CA8B2_METHOD_1_0BE1846AC20D43BE_OFFSET))(a1, a2);
 	}
 };

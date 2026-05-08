@@ -4,25 +4,25 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_INVOKE_OFFSET UNITYSDK_OFFSET(0xB823930)
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0xB823EC0)
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8242E0)
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0xB824300)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_INVOKE_OFFSET UNITYSDK_OFFSET(0x177FC2B0)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x177FC7E0)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK__CTOR_OFFSET UNITYSDK_OFFSET(0x177FCBC0)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x177FCBE0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int GameSetJoystick_TypeDefinitionIndex = 40874;
+	inline static constexpr unsigned int GameSetJoystick_TypeDefinitionIndex = 70736;
 
 	class GameSetJoystick : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::UnityEngine::Vector4, ::System::Single>
 	{
 	public:
-		static ::System::Nullable_1<::System::Single>* StaticGet__savedKeepTime()
-		{
-			return (::System::Nullable_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x10F90);
-		}
 		static ::System::Nullable_1<::UnityEngine::Vector4>* StaticGet__savedSafeZone()
 		{
-			return (::System::Nullable_1<::UnityEngine::Vector4>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x10F98);
+			return (::System::Nullable_1<::UnityEngine::Vector4>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x10510);
+		}
+		static ::System::Nullable_1<::System::Single>* StaticGet__savedKeepTime()
+		{
+			return (::System::Nullable_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x10524);
 		}
 
 		::System::Void _ctor()

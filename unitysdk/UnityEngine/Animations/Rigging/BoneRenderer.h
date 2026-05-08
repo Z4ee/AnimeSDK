@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_ANIMATIONS_RIGGING_BONERENDERER_GET_TRANSFORMS_OFFSET UNITYSDK_OFFSET(0xC4CEFF0)
-#define UNITYENGINE_ANIMATIONS_RIGGING_BONERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC4CF000)
+#define UNITYENGINE_ANIMATIONS_RIGGING_BONERENDERER_GET_TRANSFORMS_OFFSET UNITYSDK_OFFSET(0x17886030)
+#define UNITYENGINE_ANIMATIONS_RIGGING_BONERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x17886040)
 
 namespace UnityEngine::Animations::Rigging
 {
-	inline static constexpr unsigned int BoneRenderer_TypeDefinitionIndex = 52156;
+	inline static constexpr unsigned int BoneRenderer_TypeDefinitionIndex = 80492;
 
 	class BoneRenderer : public ::UnityEngine::MonoBehaviour
 	{

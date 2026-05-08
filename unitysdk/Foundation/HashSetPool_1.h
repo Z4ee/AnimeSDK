@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Foundation
 {
-	inline static constexpr unsigned int HashSetPool_1_TypeDefinitionIndex = 8063;
+	inline static constexpr unsigned int HashSetPool_1_TypeDefinitionIndex = 7919;
 
 	template <typename T>
 	class HashSetPool_1 : public ::System::Object

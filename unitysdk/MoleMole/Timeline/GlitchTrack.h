@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_GLITCHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA66A3F0)
-#define MOLEMOLE_TIMELINE_GLITCHTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET UNITYSDK_OFFSET(0xA66A6C0)
-#define MOLEMOLE_TIMELINE_GLITCHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA66A690)
+#define MOLEMOLE_TIMELINE_GLITCHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1387B730)
+#define MOLEMOLE_TIMELINE_GLITCHTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x1387B9E0)
+#define MOLEMOLE_TIMELINE_GLITCHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1387B980)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GlitchTrack_TypeDefinitionIndex = 55065;
+	inline static constexpr unsigned int GlitchTrack_TypeDefinitionIndex = 61288;
 
 	class GlitchTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_6CBA94B39B120DE0(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHTRACK_METHOD_6_6CBA94B39B120DE0_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GLITCHTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

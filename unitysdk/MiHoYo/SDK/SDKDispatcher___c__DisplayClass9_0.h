@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1916F330)
-#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__SDKINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x1916F340)
+#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB6FD0)
+#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__SDKINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x19FB6FE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDispatcher___c__DisplayClass9_0_TypeDefinitionIndex = 34546;
+	inline static constexpr unsigned int SDKDispatcher___c__DisplayClass9_0_TypeDefinitionIndex = 35082;
 
 	class SDKDispatcher___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::String* funcName; // 0x18
+		::System::String* funcName; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

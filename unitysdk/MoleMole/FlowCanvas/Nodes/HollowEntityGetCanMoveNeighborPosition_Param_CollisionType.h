@@ -3,11 +3,11 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborPosition_Param_CollisionType_TypeDefinitionIndex = 58527;
+	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborPosition_Param_CollisionType_TypeDefinitionIndex = 64331;
 
 	enum class HollowEntityGetCanMoveNeighborPosition_Param_CollisionType : ::System::Int32
 	{
-		IgnoreAllCollision = 0,
 		UseEntityCollisionMask = 1,
+		IgnoreAllCollision = 0,
 	};
 }

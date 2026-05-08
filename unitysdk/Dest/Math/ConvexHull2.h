@@ -7,13 +7,13 @@ namespace Dest::Math { class ConvexHull2_Edge; }
 namespace Dest::Math { class Query2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DEST_MATH_CONVEXHULL2_CREATE_OFFSET UNITYSDK_OFFSET(0x1AFC6C20)
-#define DEST_MATH_CONVEXHULL2_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AFC72A0)
-#define DEST_MATH_CONVEXHULL2__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC75E0)
+#define DEST_MATH_CONVEXHULL2_CREATE_OFFSET UNITYSDK_OFFSET(0x1BB4A0C0)
+#define DEST_MATH_CONVEXHULL2_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB4A740)
+#define DEST_MATH_CONVEXHULL2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB4AA80)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull2_TypeDefinitionIndex = 32572;
+	inline static constexpr unsigned int ConvexHull2_TypeDefinitionIndex = 33107;
 
 	class ConvexHull2 : public ::System::Object
 	{

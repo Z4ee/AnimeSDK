@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXInfo_TypeDefinitionIndex = 34525;
+	inline static constexpr unsigned int MHYSDKC_VOXInfo_TypeDefinitionIndex = 35061;
 
 	class MHYSDKC_VOXInfo : public ::System::Object
 	{
@@ -31,5 +31,16 @@ namespace MiHoYo::SDK
 		// static const ::System::String* ACE; // 0x0
 		// static const ::System::String* SERVER_ID; // 0x0
 		// static const ::System::String* LANGUAGE; // 0x0
+		// static const ::System::String* END_WINDOW_SIZE; // 0x0
+		// static const ::System::String* ENABLE_ITN; // 0x0
+		// static const ::System::String* ENABLE_PUNC; // 0x0
+		// static const ::System::String* ENABLE_DDC; // 0x0
+		// static const ::System::String* ENABLE_DOUBLE_ASYNC; // 0x0
+		// static const ::System::String* ENABLE_NONSTREAM; // 0x0
+		// static const ::System::String* LAST_ASR_RESULT; // 0x0
+		// static const ::System::String* RESULT; // 0x0
+		// static const ::System::String* LOG_ID; // 0x0
+		// static const ::System::String* ASR_SERIAL_NUM; // 0x0
+		// static const ::System::String* SENT_TEXT; // 0x0
 	};
 }

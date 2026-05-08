@@ -7,8 +7,8 @@
 namespace System::Xml::Schema { class XdrBuilder_XdrBuildFunction; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A263400)
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2633D0)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AE87AF0)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE87AC0)
 
 namespace System::Xml::Schema
 {
@@ -19,8 +19,8 @@ namespace System::Xml::Schema
 	public:
 		::System::Xml::Schema::XmlSchemaDatatype* _Datatype; // 0x10
 		::System::Xml::Schema::XdrBuilder_XdrBuildFunction* _BuildFunc; // 0x18
-		::System::Xml::Schema::SchemaNames_Token _Attribute; // 0x20
-		::System::Int32 _SchemaFlags; // 0x24
+		::System::Int32 _SchemaFlags; // 0x20
+		::System::Xml::Schema::SchemaNames_Token _Attribute; // 0x24
 
 		::System::Void _ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build)
 		{

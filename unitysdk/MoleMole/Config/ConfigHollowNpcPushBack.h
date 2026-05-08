@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_5B461AA5B626CCC4.h"
+#include "unitysdk/Enum_3_AE1972D98541A9AF.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHINTERVAL_OFFSET UNITYSDK_OFFSET(0xC23BA30)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHSTARTDELAY_OFFSET UNITYSDK_OFFSET(0xC23B9B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETSPRINGPUSHTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xC23BAB0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC23BB50)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHINTERVAL_OFFSET UNITYSDK_OFFSET(0x1424BC30)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHSTARTDELAY_OFFSET UNITYSDK_OFFSET(0x1424BBD0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETSPRINGPUSHTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1424BC90)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1424BD10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowNpcPushBack_TypeDefinitionIndex = 54303;
+	inline static constexpr unsigned int ConfigHollowNpcPushBack_TypeDefinitionIndex = 62998;
 
 	class ConfigHollowNpcPushBack : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -34,14 +34,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK__CTOR_OFFSET))(this);
 		}
 
-		::System::Single GetPushStartDelay(::Enum_3_5B461AA5B626CCC4 type)
+		::System::Single GetPushStartDelay(::Enum_3_AE1972D98541A9AF type)
 		{
-			return ((::System::Single(*)(::PVOID, ::Enum_3_5B461AA5B626CCC4))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHSTARTDELAY_OFFSET))(this, type);
+			return ((::System::Single(*)(::PVOID, ::Enum_3_AE1972D98541A9AF))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHSTARTDELAY_OFFSET))(this, type);
 		}
 
-		::System::Single GetPushInterval(::Enum_3_5B461AA5B626CCC4 type)
+		::System::Single GetPushInterval(::Enum_3_AE1972D98541A9AF type)
 		{
-			return ((::System::Single(*)(::PVOID, ::Enum_3_5B461AA5B626CCC4))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHINTERVAL_OFFSET))(this, type);
+			return ((::System::Single(*)(::PVOID, ::Enum_3_AE1972D98541A9AF))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWNPCPUSHBACK_GETPUSHINTERVAL_OFFSET))(this, type);
 		}
 
 		::System::String* GetSpringPushTriggerKey(::MoleMole::Vector2Int dir)

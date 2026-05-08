@@ -4,11 +4,11 @@
 
 namespace MoleMole { class NotificationBadge; }
 
-#define MOLEMOLE_UICAMPIDLEREWARDNODEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F60A0)
+#define MOLEMOLE_UICAMPIDLEREWARDNODEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9A300)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdleRewardNodeReference_TypeDefinitionIndex = 62653;
+	inline static constexpr unsigned int UICampIdleRewardNodeReference_TypeDefinitionIndex = 77537;
 
 	class UICampIdleRewardNodeReference : public ::UnityEngine::MonoBehaviour
 	{

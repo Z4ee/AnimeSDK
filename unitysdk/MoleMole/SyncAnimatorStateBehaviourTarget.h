@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOURTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xD44A5A0)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOURTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x170401E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SyncAnimatorStateBehaviourTarget_TypeDefinitionIndex = 59916;
+	inline static constexpr unsigned int SyncAnimatorStateBehaviourTarget_TypeDefinitionIndex = 75683;
 
 	class SyncAnimatorStateBehaviourTarget : public ::UnityEngine::MonoBehaviour
 	{

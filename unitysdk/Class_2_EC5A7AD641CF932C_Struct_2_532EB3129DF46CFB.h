@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_2_EC5A7AD641CF932C_Struct_2_532EB3129DF46CFB_TypeDefinitionIndex = 66570;
+inline static constexpr unsigned int Class_2_EC5A7AD641CF932C_Struct_2_532EB3129DF46CFB_TypeDefinitionIndex = 79713;
 
 struct alignas(8) Class_2_EC5A7AD641CF932C_Struct_2_532EB3129DF46CFB
 {

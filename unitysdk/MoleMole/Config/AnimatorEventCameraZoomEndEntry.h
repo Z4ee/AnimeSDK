@@ -7,19 +7,19 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAZOOMENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xB460990)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAZOOMENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xB460A30)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAZOOMENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x17D0FD30)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAZOOMENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17D0FDB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventCameraZoomEndEntry_TypeDefinitionIndex = 43533;
+	inline static constexpr unsigned int AnimatorEventCameraZoomEndEntry_TypeDefinitionIndex = 68003;
 
 	class AnimatorEventCameraZoomEndEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
 		::System::String* EndCameraZoomKey; // 0x58
-		::MoleMole::Config::ConfigDataClearPriority configDataClearPriority; // 0x60
-		::MoleMole::Config::ConfigDataPriority configDataPriority; // 0x64
+		::MoleMole::Config::ConfigDataPriority configDataPriority; // 0x60
+		::MoleMole::Config::ConfigDataClearPriority configDataClearPriority; // 0x64
 
 		::System::Void _ctor()
 		{

@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNamePoolBase_1_TypeDefinitionIndex = 8988;
+	inline static constexpr unsigned int FNamePoolBase_1_TypeDefinitionIndex = 9056;
 
 	template <typename T>
 	class FNamePoolBase_1 : public ::System::Object

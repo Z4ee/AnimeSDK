@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_BE6BF7909AD9D940;
-class Class_3_C42038ADC368DD79_1;
+class Class_3_C42038ADC368DD79_2;
 
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB15C50)
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS88_0__REFRESHFRIENDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xBB15C60)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15CAE180)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS88_0__REFRESHFRIENDLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15CAE190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventurePageController___c__DisplayClass88_0_TypeDefinitionIndex = 74655;
+	inline static constexpr unsigned int UIGrandMarcelAdventurePageController___c__DisplayClass88_0_TypeDefinitionIndex = 64029;
 
 	class UIGrandMarcelAdventurePageController___c__DisplayClass88_0 : public ::System::Object
 	{
 	public:
-		::Class_3_C42038ADC368DD79_1* player; // 0x10
+		::Class_3_C42038ADC368DD79_2* player; // 0x10
 
 		::System::Void _ctor()
 		{

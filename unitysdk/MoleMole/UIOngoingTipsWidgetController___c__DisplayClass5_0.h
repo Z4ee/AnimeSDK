@@ -5,18 +5,18 @@
 namespace MoleMole { class UIOngoingTipsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CLOSECHAT_B__0_OFFSET UNITYSDK_OFFSET(0xD3858F0)
-#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3858E0)
+#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CLOSECHAT_B__0_OFFSET UNITYSDK_OFFSET(0x15588E00)
+#define MOLEMOLE_UIONGOINGTIPSWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15588DF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOngoingTipsWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 59265;
+	inline static constexpr unsigned int UIOngoingTipsWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 80483;
 
 	class UIOngoingTipsWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIOngoingTipsWidgetController* __4__this; // 0x10
-		::System::Action* onEnd; // 0x18
+		::System::Action* onEnd; // 0x10
+		::MoleMole::UIOngoingTipsWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

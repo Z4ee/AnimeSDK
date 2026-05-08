@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int VolumetricMist_MistMaskModeType_TypeDefinitionIndex = 28998;
+inline static constexpr unsigned int VolumetricMist_MistMaskModeType_TypeDefinitionIndex = 29517;
 
 enum class VolumetricMist_MistMaskModeType : ::System::Int32
 {

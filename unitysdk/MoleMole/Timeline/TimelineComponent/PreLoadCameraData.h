@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB710670)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB710650)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B29AC0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12B29AA0)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int PreLoadCameraData_TypeDefinitionIndex = 58460;
+	inline static constexpr unsigned int PreLoadCameraData_TypeDefinitionIndex = 53958;
 
 	class PreLoadCameraData : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MoleMole::Timeline::TimelineComponent
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Single a3)
+		::System::Void _ctor_1(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::System::Single fov)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_1_OFFSET))(this, position, rotation, fov);
 		}
 	};
 }

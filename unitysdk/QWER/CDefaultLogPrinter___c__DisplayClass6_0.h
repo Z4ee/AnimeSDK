@@ -3,12 +3,12 @@
 #include "unitysdk/QWER/STask.h"
 #include "unitysdk/System/Object.h"
 
-#define QWER_CDEFAULTLOGPRINTER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00D7C0)
-#define QWER_CDEFAULTLOGPRINTER___C__DISPLAYCLASS6_0__QWER_ILOGPRINTER_FLUSH_G__TMP_0_OFFSET UNITYSDK_OFFSET(0x1B00DB30)
+#define QWER_CDEFAULTLOGPRINTER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE86A90)
+#define QWER_CDEFAULTLOGPRINTER___C__DISPLAYCLASS6_0__QWER_ILOGPRINTER_FLUSH_G__TMP_0_OFFSET UNITYSDK_OFFSET(0x1BE86E50)
 
 namespace QWER
 {
-	inline static constexpr unsigned int CDefaultLogPrinter___c__DisplayClass6_0_TypeDefinitionIndex = 84115;
+	inline static constexpr unsigned int CDefaultLogPrinter___c__DisplayClass6_0_TypeDefinitionIndex = 85843;
 
 	class CDefaultLogPrinter___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int GaussianDepthOfFieldCBuffer_TypeDefinitionIndex = 29871;
+	inline static constexpr unsigned int GaussianDepthOfFieldCBuffer_TypeDefinitionIndex = 30399;
 
 	struct alignas(4) GaussianDepthOfFieldCBuffer
 	{

@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x7A6CCB0)
+#define MOLEMOLE_GENERALGRAPHICQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12337CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralGraphicQualityProfileContext_TypeDefinitionIndex = 76139;
+	inline static constexpr unsigned int GeneralGraphicQualityProfileContext_TypeDefinitionIndex = 39102;
 
 	class GeneralGraphicQualityProfileContext : public ::System::Object
 	{

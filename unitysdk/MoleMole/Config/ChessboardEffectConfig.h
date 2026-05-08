@@ -8,18 +8,18 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE352C20)
+#define MOLEMOLE_CONFIG_CHESSBOARDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A81BA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardEffectConfig_TypeDefinitionIndex = 42054;
+	inline static constexpr unsigned int ChessboardEffectConfig_TypeDefinitionIndex = 59145;
 
 	class ChessboardEffectConfig : public ::System::Object
 	{
 	public:
-		::MoleMole::Config::ChessboardGlitchConfig* glitchConfig; // 0x10
-		::System::String* soundTrigger; // 0x18
-		::System::Collections::Generic::List_1<::System::Tuple_2<::MoleMole::Config::ScreenEffectType, ::System::String*>*>* effects; // 0x20
+		::System::Collections::Generic::List_1<::System::Tuple_2<::MoleMole::Config::ScreenEffectType, ::System::String*>*>* effects; // 0x10
+		::MoleMole::Config::ChessboardGlitchConfig* glitchConfig; // 0x18
+		::System::String* soundTrigger; // 0x20
 
 		::System::Void _ctor()
 		{

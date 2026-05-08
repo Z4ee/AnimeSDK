@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x8C962E0)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB7880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventShootingGamePlayConfig_TypeDefinitionIndex = 52125;
+	inline static constexpr unsigned int SummerEventShootingGamePlayConfig_TypeDefinitionIndex = 48289;
 
 	class SummerEventShootingGamePlayConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -5,12 +5,12 @@
 class Class_3_C2426F57DB2A743B;
 namespace MoleMole { class UIHollowMainBottomWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7F76640)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__INITPLAYERPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x7F76650)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146886E0)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS42_0__INITPLAYERPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x146886F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass42_0_TypeDefinitionIndex = 76066;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass42_0_TypeDefinitionIndex = 57760;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass42_0 : public ::System::Object
 	{

@@ -6,12 +6,12 @@
 #include "unitysdk/Unity/Collections/Allocator.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x93D650)
-#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x93D6F0)
+#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x970CB0)
+#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x970D30)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraExternalValueCollection_TypeDefinitionIndex = 35367;
+	inline static constexpr unsigned int CameraExternalValueCollection_TypeDefinitionIndex = 35911;
 
 	struct alignas(8) CameraExternalValueCollection
 	{

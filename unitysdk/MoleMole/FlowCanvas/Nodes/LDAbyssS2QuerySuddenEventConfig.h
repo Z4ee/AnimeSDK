@@ -4,12 +4,12 @@
 
 namespace MoleMole::Project::Config { class AbyssS2SuddenEventTemplateExt; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2QUERYSUDDENEVENTCONFIG_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD37300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2QUERYSUDDENEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD37390)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2QUERYSUDDENEVENTCONFIG_INVOKE_OFFSET UNITYSDK_OFFSET(0x125AC020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2QUERYSUDDENEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x125AC090)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAbyssS2QuerySuddenEventConfig_TypeDefinitionIndex = 72100;
+	inline static constexpr unsigned int LDAbyssS2QuerySuddenEventConfig_TypeDefinitionIndex = 49265;
 
 	class LDAbyssS2QuerySuddenEventConfig : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::Project::Config::AbyssS2SuddenEventTemplateExt*, ::System::Int32>
 	{

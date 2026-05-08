@@ -3,12 +3,12 @@
 #include "unitysdk/ScePadTriggerMask.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_GAMEPADTRIGGEREFFECTENTRYBASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x81F5AD0)
-#define MOLEMOLE_CONFIG_GAMEPADTRIGGEREFFECTENTRYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x81F5B40)
+#define MOLEMOLE_CONFIG_GAMEPADTRIGGEREFFECTENTRYBASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xFB0F3A0)
+#define MOLEMOLE_CONFIG_GAMEPADTRIGGEREFFECTENTRYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0F3F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GamepadTriggerEffectEntryBase_TypeDefinitionIndex = 67557;
+	inline static constexpr unsigned int GamepadTriggerEffectEntryBase_TypeDefinitionIndex = 51094;
 
 	class GamepadTriggerEffectEntryBase : public ::System::Object
 	{

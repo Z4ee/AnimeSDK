@@ -7,25 +7,25 @@ namespace MoleMole::Config { class ConfigPosRot; }
 namespace MoleMole::Config { class EffectAutoDynamicValue; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x81DC830)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY_ONATTACHPOINTNAMECHANGE_OFFSET UNITYSDK_OFFSET(0x81DC7B0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY_ONEFFECTPATTERNNAMECHANGE_OFFSET UNITYSDK_OFFSET(0x81DC730)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x81DC8B0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xFAF48A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY_ONATTACHPOINTNAMECHANGE_OFFSET UNITYSDK_OFFSET(0xFAF4840)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY_ONEFFECTPATTERNNAMECHANGE_OFFSET UNITYSDK_OFFSET(0xFAF47E0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xFAF4930)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventEffectEntry_TypeDefinitionIndex = 50126;
+	inline static constexpr unsigned int AnimatorEventEffectEntry_TypeDefinitionIndex = 45454;
 
 	class AnimatorEventEffectEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
 		::MoleMole::Config::EffectAutoDynamicValue* EffectAutoDynamic; // 0x58
-		::MoleMole::Config::ConfigPosRot* EffectConfigPosRot; // 0x60
-		::System::String* EffectPatternName; // 0x68
-		::System::String* AttachPointName; // 0x70
-		::System::Single OverrideScaleY; // 0x78
+		::System::String* AttachPointName; // 0x60
+		::MoleMole::Config::ConfigPosRot* EffectConfigPosRot; // 0x68
+		::System::String* EffectPatternName; // 0x70
+		::System::Single OverrideScaleX; // 0x78
 		::System::Single OverrideScaleZ; // 0x7C
-		::System::Single OverrideScaleX; // 0x80
+		::System::Single OverrideScaleY; // 0x80
 
 		::System::Void _ctor()
 		{

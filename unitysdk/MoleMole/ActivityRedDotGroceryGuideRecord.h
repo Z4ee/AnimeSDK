@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/BaseRedDotRecord.h"
 
-#define MOLEMOLE_ACTIVITYREDDOTGROCERYGUIDERECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0xB8EEEA0)
-#define MOLEMOLE_ACTIVITYREDDOTGROCERYGUIDERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xB8EEEB0)
+#define MOLEMOLE_ACTIVITYREDDOTGROCERYGUIDERECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x1397AA80)
+#define MOLEMOLE_ACTIVITYREDDOTGROCERYGUIDERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1397AA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRedDotGroceryGuideRecord_TypeDefinitionIndex = 41426;
+	inline static constexpr unsigned int ActivityRedDotGroceryGuideRecord_TypeDefinitionIndex = 43875;
 
 	class ActivityRedDotGroceryGuideRecord : public ::MoleMole::BaseRedDotRecord
 	{

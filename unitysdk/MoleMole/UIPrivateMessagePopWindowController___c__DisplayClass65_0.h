@@ -5,12 +5,12 @@
 class Class_1_794BA983EDDBCFDE_Class_1_40F0860CEB67D2B1;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD79E160)
-#define MOLEMOLE_UIPRIVATEMESSAGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__SORTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xD79E170)
+#define MOLEMOLE_UIPRIVATEMESSAGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15200270)
+#define MOLEMOLE_UIPRIVATEMESSAGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__SORTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15200280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessagePopWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 46446;
+	inline static constexpr unsigned int UIPrivateMessagePopWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 65136;
 
 	class UIPrivateMessagePopWindowController___c__DisplayClass65_0 : public ::System::Object
 	{

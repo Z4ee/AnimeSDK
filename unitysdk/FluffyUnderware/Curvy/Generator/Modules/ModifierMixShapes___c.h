@@ -5,24 +5,24 @@
 namespace FluffyUnderware::Curvy::Generator { class SamplePointsMaterialGroup; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_MODIFIERMIXSHAPES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0688D0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_MODIFIERMIXSHAPES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B068910)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_MODIFIERMIXSHAPES___C__INTERPOLATESHAPE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1B068920)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_MODIFIERMIXSHAPES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE92A20)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_MODIFIERMIXSHAPES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE92A60)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_MODIFIERMIXSHAPES___C__INTERPOLATESHAPE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1BE92A70)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int ModifierMixShapes___c_TypeDefinitionIndex = 36883;
+	inline static constexpr unsigned int ModifierMixShapes___c_TypeDefinitionIndex = 37427;
 
 	class ModifierMixShapes___c : public ::System::Object
 	{
 	public:
 		static ::FluffyUnderware::Curvy::Generator::Modules::ModifierMixShapes___c** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::ModifierMixShapes___c**)Il2CppClass::FromTypeDefinitionIndex(ModifierMixShapes___c_TypeDefinitionIndex)->GetStaticField(0x26D80);
+			return (::FluffyUnderware::Curvy::Generator::Modules::ModifierMixShapes___c**)Il2CppClass::FromTypeDefinitionIndex(ModifierMixShapes___c_TypeDefinitionIndex)->GetStaticField(0x27930);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::SamplePointsMaterialGroup*, ::FluffyUnderware::Curvy::Generator::SamplePointsMaterialGroup*>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::SamplePointsMaterialGroup*, ::FluffyUnderware::Curvy::Generator::SamplePointsMaterialGroup*>**)Il2CppClass::FromTypeDefinitionIndex(ModifierMixShapes___c_TypeDefinitionIndex)->GetStaticField(0x26D88);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::SamplePointsMaterialGroup*, ::FluffyUnderware::Curvy::Generator::SamplePointsMaterialGroup*>**)Il2CppClass::FromTypeDefinitionIndex(ModifierMixShapes___c_TypeDefinitionIndex)->GetStaticField(0x27938);
 		}
 
 		static ::System::Void _cctor()

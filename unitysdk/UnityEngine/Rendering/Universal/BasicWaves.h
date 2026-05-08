@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_BASICWAVES__CTOR_OFFSET UNITYSDK_OFFSET(0x17802860)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BASICWAVES__CTOR_OFFSET UNITYSDK_OFFSET(0x19280D10)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BasicWaves_TypeDefinitionIndex = 29430;
+	inline static constexpr unsigned int BasicWaves_TypeDefinitionIndex = 29949;
 
 	class BasicWaves : public ::System::Object
 	{

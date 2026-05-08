@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PP_Quality_TypeDefinitionIndex = 29612;
+	inline static constexpr unsigned int PP_Quality_TypeDefinitionIndex = 30140;
 
 	enum class PP_Quality : ::System::Int32
 	{

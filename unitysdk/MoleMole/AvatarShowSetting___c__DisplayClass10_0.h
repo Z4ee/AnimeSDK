@@ -4,12 +4,12 @@
 
 namespace MoleMole { class SkinOverrideShowSetting; }
 
-#define MOLEMOLE_AVATARSHOWSETTING___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x91595E0)
-#define MOLEMOLE_AVATARSHOWSETTING___C__DISPLAYCLASS10_0__GETSKINOVERRIDESETTING_B__0_OFFSET UNITYSDK_OFFSET(0x91595F0)
+#define MOLEMOLE_AVATARSHOWSETTING___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11C775E0)
+#define MOLEMOLE_AVATARSHOWSETTING___C__DISPLAYCLASS10_0__GETSKINOVERRIDESETTING_B__0_OFFSET UNITYSDK_OFFSET(0x11C775F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarShowSetting___c__DisplayClass10_0_TypeDefinitionIndex = 68887;
+	inline static constexpr unsigned int AvatarShowSetting___c__DisplayClass10_0_TypeDefinitionIndex = 57571;
 
 	class AvatarShowSetting___c__DisplayClass10_0 : public ::System::Object
 	{

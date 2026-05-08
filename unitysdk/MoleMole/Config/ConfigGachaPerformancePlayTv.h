@@ -6,19 +6,19 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEPLAYTV_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xB099500)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEPLAYTV__CTOR_OFFSET UNITYSDK_OFFSET(0xB099590)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEPLAYTV_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1102B490)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEPLAYTV__CTOR_OFFSET UNITYSDK_OFFSET(0x1102B500)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformancePlayTv_TypeDefinitionIndex = 46927;
+	inline static constexpr unsigned int ConfigGachaPerformancePlayTv_TypeDefinitionIndex = 82199;
 
 	class ConfigGachaPerformancePlayTv : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* StartTextureSheet; // 0x18
-		::System::String* EndTextureSheet; // 0x20
-		::System::String* LoopTextureSheet; // 0x28
+		::System::String* LoopTextureSheet; // 0x18
+		::System::String* StartTextureSheet; // 0x20
+		::System::String* EndTextureSheet; // 0x28
 		::System::Int32 TvIndex; // 0x30
 		::MoleMole::UIGachaPerformance3DModelController_GachaStageType StageType; // 0x34
 

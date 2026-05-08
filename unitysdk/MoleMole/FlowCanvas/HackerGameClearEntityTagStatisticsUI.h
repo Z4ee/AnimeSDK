@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECLEARENTITYTAGSTATISTICSUI_INVOKE_OFFSET UNITYSDK_OFFSET(0xA7C8740)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECLEARENTITYTAGSTATISTICSUI__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C88A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECLEARENTITYTAGSTATISTICSUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x16038AD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECLEARENTITYTAGSTATISTICSUI__CTOR_OFFSET UNITYSDK_OFFSET(0x16038C10)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameClearEntityTagStatisticsUI_TypeDefinitionIndex = 81069;
+	inline static constexpr unsigned int HackerGameClearEntityTagStatisticsUI_TypeDefinitionIndex = 67390;
 
 	class HackerGameClearEntityTagStatisticsUI : public ::FlowCanvas::Nodes::CallableActionNode
 	{

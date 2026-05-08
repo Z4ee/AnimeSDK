@@ -4,12 +4,12 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_ONED_CODE93READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1843EEB0)
-#define ZXING_ONED_CODE93READER__CTOR_OFFSET UNITYSDK_OFFSET(0x1843EDD0)
+#define ZXING_ONED_CODE93READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18876540)
+#define ZXING_ONED_CODE93READER__CTOR_OFFSET UNITYSDK_OFFSET(0x18876460)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code93Reader_TypeDefinitionIndex = 8598;
+	inline static constexpr unsigned int Code93Reader_TypeDefinitionIndex = 8609;
 
 	class Code93Reader : public ::ZXing::OneD::OneDReader
 	{
@@ -24,10 +24,10 @@ namespace ZXing::OneD
 		}
 		static ::System::Int32* StaticGet_ASTERISK_ENCODING()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code93Reader_TypeDefinitionIndex)->GetStaticField(0x3C10);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code93Reader_TypeDefinitionIndex)->GetStaticField(0x3C20);
 		}
-		::System::Text::StringBuilder* decodeRowResult; // 0x10
-		::Il2CppArray<::System::Int32>* counters; // 0x18
+		::Il2CppArray<::System::Int32>* counters; // 0x10
+		::System::Text::StringBuilder* decodeRowResult; // 0x18
 
 		::System::Void _ctor()
 		{

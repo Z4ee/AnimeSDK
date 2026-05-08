@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/Lod/ELODLevel.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_GETLODLEVEL_OFFSET UNITYSDK_OFFSET(0x3356A0)
-#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_INITLODDEFAULTSETTING_OFFSET UNITYSDK_OFFSET(0x76D9570)
+#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_GETLODLEVEL_OFFSET UNITYSDK_OFFSET(0x719F80)
+#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_INITLODDEFAULTSETTING_OFFSET UNITYSDK_OFFSET(0x1150B360)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int CrowdLODDistanceSetting_TypeDefinitionIndex = 60401;
+	inline static constexpr unsigned int CrowdLODDistanceSetting_TypeDefinitionIndex = 76973;
 
 	struct alignas(8) CrowdLODDistanceSetting
 	{

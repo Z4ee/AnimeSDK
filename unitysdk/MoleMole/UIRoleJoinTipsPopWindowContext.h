@@ -3,24 +3,24 @@
 #include "unitysdk/Enum_3_2FB1A61CD43E8B89.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_GET_ID_OFFSET UNITYSDK_OFFSET(0xA69CC70)
-#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_GET_ROLEJOINTIPSTYPE_OFFSET UNITYSDK_OFFSET(0xA69CC50)
-#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_SET_ID_OFFSET UNITYSDK_OFFSET(0xA69CC80)
-#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_SET_ROLEJOINTIPSTYPE_OFFSET UNITYSDK_OFFSET(0xA69CC60)
-#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA69CC90)
+#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_GET_ID_OFFSET UNITYSDK_OFFSET(0x13E21880)
+#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_GET_ROLEJOINTIPSTYPE_OFFSET UNITYSDK_OFFSET(0x13E21860)
+#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_SET_ID_OFFSET UNITYSDK_OFFSET(0x13E21890)
+#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT_SET_ROLEJOINTIPSTYPE_OFFSET UNITYSDK_OFFSET(0x13E21870)
+#define MOLEMOLE_UIROLEJOINTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E218A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleJoinTipsPopWindowContext_TypeDefinitionIndex = 40936;
+	inline static constexpr unsigned int UIRoleJoinTipsPopWindowContext_TypeDefinitionIndex = 44416;
 
 	class UIRoleJoinTipsPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_2FB1A61CD43E8B89 _RoleJoinTipsType_k__BackingField; // 0x28
-		::System::Boolean ShowCancelBtn; // 0x2C
-		::System::Boolean ShowOKBtn; // 0x2D
-		::System::Boolean ShowGoBtn; // 0x2E
-		::System::Int32 _ID_k__BackingField; // 0x30
+		::System::Boolean ShowOKBtn; // 0x28
+		::System::Boolean ShowGoBtn; // 0x29
+		::System::Boolean ShowCancelBtn; // 0x2A
+		::System::Int32 _ID_k__BackingField; // 0x2C
+		::Enum_3_2FB1A61CD43E8B89 _RoleJoinTipsType_k__BackingField; // 0x30
 
 		::System::Void _ctor(::Enum_3_2FB1A61CD43E8B89 type, ::System::Int32 id, ::System::Boolean showOK, ::System::Boolean showCancel, ::System::Boolean showGo)
 		{

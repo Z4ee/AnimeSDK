@@ -12,30 +12,30 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x91A1390)
-#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x91A13A0)
-#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x91A1670)
-#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x91A1880)
-#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x91A1840)
+#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11CC01B0)
+#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11CC01C0)
+#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11CC0460)
+#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11CC0660)
+#define MOLEMOLE_CONFIGUICOMMON_HOLLOWCARD_CONFIGUICOMMON_HOLLOWCARD_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11CC0620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex = 79895;
+	inline static constexpr unsigned int ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex = 48468;
 
 	class ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::ConfigUICommon_HollowCard*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineConfig*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D150);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineAnimationConfigs*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineAnimationConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D158);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineAnimationConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8C0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3D160);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8C8);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineConfig*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::HollowCardCombineConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigUICommon_HollowCard_ConfigUICommon_HollowCard_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3E8D0);
 		}
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 #include "unitysdk/Struct_2_6A44839B96E61EEE.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_D70D27AD7CE236B7_Class_1_E3B744D603FA3C44_TypeDefinitionIndex = 61376;
+inline static constexpr unsigned int Class_1_D70D27AD7CE236B7_Class_1_E3B744D603FA3C44_TypeDefinitionIndex = 44048;
 
 template <typename TTag, typename TValue>
 class Class_1_D70D27AD7CE236B7_Class_1_E3B744D603FA3C44 : public ::System::Object

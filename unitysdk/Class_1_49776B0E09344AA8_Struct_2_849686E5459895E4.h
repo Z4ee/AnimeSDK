@@ -4,7 +4,7 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowChessboardUID.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_49776B0E09344AA8_Struct_2_849686E5459895E4_TypeDefinitionIndex = 77337;
+inline static constexpr unsigned int Class_1_49776B0E09344AA8_Struct_2_849686E5459895E4_TypeDefinitionIndex = 57732;
 
 struct alignas(4) Class_1_49776B0E09344AA8_Struct_2_849686E5459895E4
 {

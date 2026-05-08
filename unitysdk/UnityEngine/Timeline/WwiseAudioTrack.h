@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/MarkerTrack.h"
 
-#define UNITYENGINE_TIMELINE_WWISEAUDIOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3BAF0)
+#define UNITYENGINE_TIMELINE_WWISEAUDIOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6F7C0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int WwiseAudioTrack_TypeDefinitionIndex = 30366;
+	inline static constexpr unsigned int WwiseAudioTrack_TypeDefinitionIndex = 30895;
 
 	class WwiseAudioTrack : public ::UnityEngine::Timeline::MarkerTrack
 	{

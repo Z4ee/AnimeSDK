@@ -6,13 +6,13 @@ namespace MoleMole::Config { class PlayerAccessoryTabData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_PLAYERACCESSORYSKINDATA_METHOD_1_0CCC0CF1772F4277_OFFSET UNITYSDK_OFFSET(0xD7C9D10)
-#define MOLEMOLE_CONFIG_PLAYERACCESSORYSKINDATA_METHOD_1_FA58824BA12F6F62_OFFSET UNITYSDK_OFFSET(0xD7C9B60)
-#define MOLEMOLE_CONFIG_PLAYERACCESSORYSKINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C9B50)
+#define MOLEMOLE_CONFIG_PLAYERACCESSORYSKINDATA_METHOD_1_0CCC0CF1772F4277_OFFSET UNITYSDK_OFFSET(0x1243B1E0)
+#define MOLEMOLE_CONFIG_PLAYERACCESSORYSKINDATA_METHOD_1_FA58824BA12F6F62_OFFSET UNITYSDK_OFFSET(0x1243B050)
+#define MOLEMOLE_CONFIG_PLAYERACCESSORYSKINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1243B040)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PlayerAccessorySkinData_TypeDefinitionIndex = 57345;
+	inline static constexpr unsigned int PlayerAccessorySkinData_TypeDefinitionIndex = 71440;
 
 	class PlayerAccessorySkinData : public ::System::Object
 	{

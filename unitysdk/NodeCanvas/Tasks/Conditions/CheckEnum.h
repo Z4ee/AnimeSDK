@@ -5,19 +5,19 @@
 namespace NodeCanvas::Framework::Internal { class BBObjectParameter; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKENUM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x196EFF90)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKENUM_ONCHECK_OFFSET UNITYSDK_OFFSET(0x196EFFD0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x196F0080)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKENUM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A210620)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKENUM_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1A210660)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A210710)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckEnum_TypeDefinitionIndex = 26478;
+	inline static constexpr unsigned int CheckEnum_TypeDefinitionIndex = 27133;
 
 	class CheckEnum : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::Internal::BBObjectParameter* valueA; // 0x60
-		::NodeCanvas::Framework::Internal::BBObjectParameter* valueB; // 0x68
+		::NodeCanvas::Framework::Internal::BBObjectParameter* valueB; // 0x60
+		::NodeCanvas::Framework::Internal::BBObjectParameter* valueA; // 0x68
 
 		::System::Void _ctor()
 		{

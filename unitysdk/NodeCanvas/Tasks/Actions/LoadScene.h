@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_LOADSCENE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1A72BCD0)
-#define NODECANVAS_TASKS_ACTIONS_LOADSCENE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A72BD40)
-#define NODECANVAS_TASKS_ACTIONS_LOADSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A72BE10)
+#define NODECANVAS_TASKS_ACTIONS_LOADSCENE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1B4B9730)
+#define NODECANVAS_TASKS_ACTIONS_LOADSCENE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4B97A0)
+#define NODECANVAS_TASKS_ACTIONS_LOADSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B98D0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int LoadScene_TypeDefinitionIndex = 26273;
+	inline static constexpr unsigned int LoadScene_TypeDefinitionIndex = 26828;
 
 	class LoadScene : public ::NodeCanvas::Framework::ActionTask
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RETHROWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF31D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RETHROWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F0EF0)
 
 namespace System::Linq::Expressions::Interpreter
 {

@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MonsterStrengthType_TypeDefinitionIndex = 66796;
+	inline static constexpr unsigned int MonsterStrengthType_TypeDefinitionIndex = 77358;
 
 	enum class MonsterStrengthType : ::System::Int32
 	{
 		Elite = 1,
-		Boss = 2,
 		Normal = 0,
+		Boss = 2,
 	};
 }

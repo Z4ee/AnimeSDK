@@ -3,50 +3,50 @@
 #include "unitysdk/NPCCrowd/Lod/NPCLODRendererItem.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_9AE843FF905C0BDB;
+class Class_3_FFD0045B4597F294;
 namespace NPCCrowd::Animation { class NPCUnionAnimator; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6354200)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_ISCOMPLETEVISIBLE_OFFSET UNITYSDK_OFFSET(0x6354150)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_POSTUPDATE_OFFSET UNITYSDK_OFFSET(0x6353F00)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_RESETDATA_OFFSET UNITYSDK_OFFSET(0x6352970)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_SETMATDITHERENABLE_OFFSET UNITYSDK_OFFSET(0x6352B20)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_UPDATE_OFFSET UNITYSDK_OFFSET(0x6352FF0)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x63542B0)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDECA70)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_ISCOMPLETEVISIBLE_OFFSET UNITYSDK_OFFSET(0xBDEC9E0)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_POSTUPDATE_OFFSET UNITYSDK_OFFSET(0xBDEC720)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_RESETDATA_OFFSET UNITYSDK_OFFSET(0xBDEAC80)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_SETMATDITHERENABLE_OFFSET UNITYSDK_OFFSET(0xBDEAE10)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_UPDATE_OFFSET UNITYSDK_OFFSET(0xBDEB3B0)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xBDECB20)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCLODDitherTask_TypeDefinitionIndex = 46202;
+	inline static constexpr unsigned int NPCLODDitherTask_TypeDefinitionIndex = 74956;
 
 	class NPCLODDitherTask : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::MaterialPropertyBlock** StaticGet_cachePropertyBlock()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(NPCLODDitherTask_TypeDefinitionIndex)->GetStaticField(0x40B10);
+			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(NPCLODDitherTask_TypeDefinitionIndex)->GetStaticField(0x40D00);
 		}
-		::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator; // 0x10
-		::Class_3_9AE843FF905C0BDB* matCmp; // 0x18
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers; // 0x10
+		::Class_3_FFD0045B4597F294* matCmp; // 0x18
 		::System::Action_1<::System::Boolean>* callback; // 0x20
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers; // 0x28
-		::System::Single fadeSpeed; // 0x30
-		::System::Int32 tag; // 0x34
-		::System::Single targetVal; // 0x38
+		::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator; // 0x28
+		::System::Single targetVal; // 0x30
+		::System::Single elapsedTime; // 0x34
+		::System::Single curVal; // 0x38
 		::System::Single startVal; // 0x3C
-		::System::Single elapsedTime; // 0x40
-		::System::Boolean completed; // 0x44
-		::System::Single curVal; // 0x48
+		::System::Boolean completed; // 0x40
+		::System::Single fadeSpeed; // 0x44
+		::System::Int32 tag; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERTASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ResetData(::System::Int32 tag, ::System::Single targetVal, ::System::Single fadeSpeed, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers, ::System::Single startVal, ::System::Action_1<::System::Boolean>* callback, ::Class_3_9AE843FF905C0BDB* materialComponent, ::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator)
+		::System::Void ResetData(::System::Int32 tag, ::System::Single targetVal, ::System::Single fadeSpeed, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers, ::System::Single startVal, ::System::Action_1<::System::Boolean>* callback, ::Class_3_FFD0045B4597F294* materialComponent, ::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>*, ::System::Single, ::System::Action_1<::System::Boolean>*, ::Class_3_9AE843FF905C0BDB*, ::NPCCrowd::Animation::NPCUnionAnimator*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERTASK_RESETDATA_OFFSET))(this, tag, targetVal, fadeSpeed, renderers, startVal, callback, materialComponent, unionAnimator);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>*, ::System::Single, ::System::Action_1<::System::Boolean>*, ::Class_3_FFD0045B4597F294*, ::NPCCrowd::Animation::NPCUnionAnimator*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERTASK_RESETDATA_OFFSET))(this, tag, targetVal, fadeSpeed, renderers, startVal, callback, materialComponent, unionAnimator);
 		}
 
 		::System::Boolean Update(::System::Single deltaTime)

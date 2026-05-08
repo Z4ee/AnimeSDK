@@ -2,13 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_93__CTOR_OFFSET UNITYSDK_OFFSET(0x6F579D0)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_93_TypeDefinitionIndex = 57813;
+#define CLASS_1_43BD383C98B4C0C5_93__CTOR_OFFSET UNITYSDK_OFFSET(0x1790A1F0)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_93_TypeDefinitionIndex = 56798;
 
 class Class_1_43BD383C98B4C0C5_93 : public ::System::Object
 {
 public:
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* Field_1_3; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
+	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_11; // 0x0
+	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_13; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
+	// static const ::System::String* Field_1_15; // 0x0
+	// static const ::System::String* Field_1_16; // 0x0
+	// static const ::System::String* Field_1_17; // 0x0
+	// static const ::System::String* Field_1_18; // 0x0
+	// static const ::System::String* Field_1_19; // 0x0
+	// static const ::System::String* Field_1_20; // 0x0
+	// static const ::System::String* Field_1_21; // 0x0
+	// static const ::System::String* Field_1_22; // 0x0
+	// static const ::System::String* Field_1_23; // 0x0
+	// static const ::System::String* Field_1_24; // 0x0
+	// static const ::System::String* Field_1_25; // 0x0
+	// static const ::System::String* Field_1_26; // 0x0
+	// static const ::System::String* Field_1_27; // 0x0
+	// static const ::System::String* Field_1_28; // 0x0
+	// static const ::System::String* Field_1_29; // 0x0
+	// static const ::System::String* Field_1_30; // 0x0
+	// static const ::System::String* Field_1_31; // 0x0
+	// static const ::System::String* Field_1_32; // 0x0
+	// static const ::System::String* Field_1_33; // 0x0
+	// static const ::System::String* Field_1_34; // 0x0
+
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_93__CTOR_OFFSET))(this);

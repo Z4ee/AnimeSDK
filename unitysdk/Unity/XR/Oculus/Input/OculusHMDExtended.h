@@ -5,22 +5,22 @@
 namespace UnityEngine::InputSystem::Controls { class ButtonControl; }
 namespace UnityEngine::InputSystem::Controls { class Vector2Control; }
 
-#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1A5535D0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1A553590)
-#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_GET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1A5535B0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_SET_BACK_OFFSET UNITYSDK_OFFSET(0x1A5535A0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_SET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1A5535C0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A553640)
+#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1B3F2E40)
+#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1B3F2E00)
+#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_GET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1B3F2E20)
+#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_SET_BACK_OFFSET UNITYSDK_OFFSET(0x1B3F2E10)
+#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED_SET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1B3F2E30)
+#define UNITY_XR_OCULUS_INPUT_OCULUSHMDEXTENDED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F2EB0)
 
 namespace Unity::XR::Oculus::Input
 {
-	inline static constexpr unsigned int OculusHMDExtended_TypeDefinitionIndex = 28340;
+	inline static constexpr unsigned int OculusHMDExtended_TypeDefinitionIndex = 28858;
 
 	class OculusHMDExtended : public ::Unity::XR::Oculus::Input::OculusHMD
 	{
 	public:
-		::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField; // 0x210
-		::UnityEngine::InputSystem::Controls::ButtonControl* _back_k__BackingField; // 0x218
+		::UnityEngine::InputSystem::Controls::ButtonControl* _back_k__BackingField; // 0x210
+		::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField; // 0x218
 
 		::System::Void _ctor()
 		{

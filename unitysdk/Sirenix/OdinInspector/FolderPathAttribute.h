@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_FOLDERPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B114490)
+#define SIRENIX_ODININSPECTOR_FOLDERPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01F940)
 
 namespace Sirenix::OdinInspector
 {
@@ -14,10 +14,10 @@ namespace Sirenix::OdinInspector
 	{
 	public:
 		::System::String* ParentFolder; // 0x10
-		::System::Boolean RequireValidPath; // 0x18
-		::System::Boolean AbsolutePath; // 0x19
-		::System::Boolean RequireExistingPath; // 0x1A
-		::System::Boolean UseBackslashes; // 0x1B
+		::System::Boolean AbsolutePath; // 0x18
+		::System::Boolean RequireValidPath; // 0x19
+		::System::Boolean UseBackslashes; // 0x1A
+		::System::Boolean RequireExistingPath; // 0x1B
 
 		::System::Void _ctor()
 		{

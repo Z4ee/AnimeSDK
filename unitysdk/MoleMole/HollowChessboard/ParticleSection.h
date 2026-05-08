@@ -7,20 +7,20 @@ class Class_1_1FCBF6F207BFD09E;
 class Class_1_22EF90524645AFD7;
 namespace MoleMole::HollowChessboard { class ParticleSection_Config; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0xCD5A680)
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD5A740)
-#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCD5A730)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x125CF6D0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x125CF770)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PARTICLESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x125CF760)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ParticleSection_TypeDefinitionIndex = 80872;
+	inline static constexpr unsigned int ParticleSection_TypeDefinitionIndex = 60966;
 
 	class ParticleSection : public ::System::Object
 	{
 	public:
 		static ::MoleMole::HollowChessboard::RenderSequenceSectionType* StaticGet_SectionType()
 		{
-			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(ParticleSection_TypeDefinitionIndex)->GetStaticField(0x11860);
+			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(ParticleSection_TypeDefinitionIndex)->GetStaticField(0x112B0);
 		}
 		::MoleMole::HollowChessboard::ParticleSection_Config* ParticleConfig; // 0x10
 

@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IDualPolicy_1_TypeDefinitionIndex = 9172;
+	inline static constexpr unsigned int IDualPolicy_1_TypeDefinitionIndex = 9147;
 
 	template <typename T>
 	class IDualPolicy_1

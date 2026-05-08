@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SKINMDBDATAOFRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC247630)
+#define MOLEMOLE_CONFIG_SKINMDBDATAOFRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x14257B20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SkinMdbDataOfRenderer_TypeDefinitionIndex = 41916;
+	inline static constexpr unsigned int SkinMdbDataOfRenderer_TypeDefinitionIndex = 66784;
 
 	class SkinMdbDataOfRenderer : public ::System::Object
 	{

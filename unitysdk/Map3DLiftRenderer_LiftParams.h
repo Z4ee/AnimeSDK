@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Material; }
 
-inline static constexpr unsigned int Map3DLiftRenderer_LiftParams_TypeDefinitionIndex = 77841;
+inline static constexpr unsigned int Map3DLiftRenderer_LiftParams_TypeDefinitionIndex = 54376;
 
 struct alignas(8) Map3DLiftRenderer_LiftParams
 {

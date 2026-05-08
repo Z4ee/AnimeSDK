@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Identity_1_TypeDefinitionIndex = 26872;
+	inline static constexpr unsigned int Identity_1_TypeDefinitionIndex = 28080;
 
 	template <typename T>
 	class Identity_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<T, T>

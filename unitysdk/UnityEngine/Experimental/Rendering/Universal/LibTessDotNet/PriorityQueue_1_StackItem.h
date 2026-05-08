@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityQueue_1_StackItem_TypeDefinitionIndex = 29233;
+	inline static constexpr unsigned int PriorityQueue_1_StackItem_TypeDefinitionIndex = 29752;
 
 	template <typename TValue>
 	class PriorityQueue_1_StackItem : public ::System::Object

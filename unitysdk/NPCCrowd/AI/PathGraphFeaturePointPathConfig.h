@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class FeaturePointRefList; }
 namespace System { class String; }
 
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x69D93E0)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD240D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphFeaturePointPathConfig_TypeDefinitionIndex = 43774;
+	inline static constexpr unsigned int PathGraphFeaturePointPathConfig_TypeDefinitionIndex = 59335;
 
 	class PathGraphFeaturePointPathConfig : public ::System::Object
 	{

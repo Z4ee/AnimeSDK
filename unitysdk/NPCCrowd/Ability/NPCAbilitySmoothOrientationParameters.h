@@ -4,11 +4,11 @@
 
 namespace NPCCrowd::Ability { class NPCAbilitySmoothOrientationWeights; }
 
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x76CED40)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x11501210)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySmoothOrientationParameters_TypeDefinitionIndex = 50123;
+	inline static constexpr unsigned int NPCAbilitySmoothOrientationParameters_TypeDefinitionIndex = 80001;
 
 	class NPCAbilitySmoothOrientationParameters : public ::System::Object
 	{

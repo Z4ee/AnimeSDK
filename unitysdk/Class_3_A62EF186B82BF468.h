@@ -7,11 +7,11 @@
 
 namespace MoleMole { class ConfigAnimationCurveGroup; }
 
-#define CLASS_3_A62EF186B82BF468_METHOD_3_8E1A362AB2A5826A_OFFSET UNITYSDK_OFFSET(0x6F806F0)
-#define CLASS_3_A62EF186B82BF468_METHOD_3_CB34CEEE3338453A_OFFSET UNITYSDK_OFFSET(0x6F81100)
-#define CLASS_3_A62EF186B82BF468__CTOR_OFFSET UNITYSDK_OFFSET(0x6F80660)
+#define CLASS_3_A62EF186B82BF468_METHOD_3_CB34CEEE3338453A_OFFSET UNITYSDK_OFFSET(0x119A3500)
+#define CLASS_3_A62EF186B82BF468_METHOD_3_FE3660708E9F8969_OFFSET UNITYSDK_OFFSET(0x119A2BA0)
+#define CLASS_3_A62EF186B82BF468__CTOR_OFFSET UNITYSDK_OFFSET(0x119A2B10)
 
-inline static constexpr unsigned int Class_3_A62EF186B82BF468_TypeDefinitionIndex = 55036;
+inline static constexpr unsigned int Class_3_A62EF186B82BF468_TypeDefinitionIndex = 66345;
 
 class Class_3_A62EF186B82BF468 : public ::Class_2_AD2DCA69807FE773
 {
@@ -24,9 +24,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::Foundation::Unreal::FTransform3D, ::MoleMole::ConfigAnimationCurveGroup*, ::System::Boolean, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_3_A62EF186B82BF468__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 	}
 
-	::MoleMole::UICameraAtom Method_3_8E1A362AB2A5826A(::System::Single a1)
+	::MoleMole::UICameraAtom Method_3_FE3660708E9F8969(::System::Single a1)
 	{
-		return ((::MoleMole::UICameraAtom(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_A62EF186B82BF468_METHOD_3_8E1A362AB2A5826A_OFFSET))(this, a1);
+		return ((::MoleMole::UICameraAtom(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_A62EF186B82BF468_METHOD_3_FE3660708E9F8969_OFFSET))(this, a1);
 	}
 
 	::MoleMole::UICameraAtom Method_3_CB34CEEE3338453A(::System::Single a1)

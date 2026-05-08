@@ -8,22 +8,22 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSELECTION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xB981B20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSELECTION_START_OFFSET UNITYSDK_OFFSET(0xB982550)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB982710)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSELECTION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1820F360)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSELECTION_START_OFFSET UNITYSDK_OFFSET(0x1820F910)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1820FAE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSelection_TypeDefinitionIndex = 58520;
+	inline static constexpr unsigned int LDSelection_TypeDefinitionIndex = 46001;
 
 	class LDSelection : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		// static const ::System::Int32 MaxSection = 0x8; // 0x0
-		::FlowCanvas::ValueInput_1<::System::Int32>* inIndexPort; // 0xA8
-		::FlowCanvas::FlowOutput* _finishOutput; // 0xB0
-		::FlowCanvas::FlowInput* input; // 0xB8
-		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* _flowOutputs; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* _flowOutputs; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* inIndexPort; // 0xB8
+		::FlowCanvas::FlowOutput* _finishOutput; // 0xC0
 		::System::Int32 showCount; // 0xC8
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_GPUIANIMATORSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x76D60E0)
+#define NPCCROWD_ANIMATION_GPUIANIMATORSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x11507D60)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUIAnimatorState_TypeDefinitionIndex = 79258;
+	inline static constexpr unsigned int GPUIAnimatorState_TypeDefinitionIndex = 77363;
 
 	class GPUIAnimatorState : public ::System::Object
 	{

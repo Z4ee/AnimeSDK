@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ROTATIONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D63F0)
+#define MOLEMOLE_ROTATIONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x10E4D070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RotationPoint_TypeDefinitionIndex = 68776;
+	inline static constexpr unsigned int RotationPoint_TypeDefinitionIndex = 64448;
 
 	class RotationPoint : public ::System::Object
 	{

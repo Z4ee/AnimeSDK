@@ -5,18 +5,18 @@
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC4110)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS68_0__GENERATEGOODBUBBLECONTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x8BC4120)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152F66D0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS68_0__GENERATEGOODBUBBLECONTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x152F66E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c__DisplayClass68_0_TypeDefinitionIndex = 38056;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c__DisplayClass68_0_TypeDefinitionIndex = 66484;
 
 	class UICinemaSinglePlayWidgetController___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x10
-		::System::Action* onMiss; // 0x18
+		::System::Action* onMiss; // 0x10
+		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

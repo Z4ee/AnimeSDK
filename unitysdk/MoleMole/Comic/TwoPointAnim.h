@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_COMIC_TWOPOINTANIM_ONSTARTPOSITIONCHANGE_OFFSET UNITYSDK_OFFSET(0x1B5D4DF0)
-#define MOLEMOLE_COMIC_TWOPOINTANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D4E00)
+#define MOLEMOLE_COMIC_TWOPOINTANIM_ONSTARTPOSITIONCHANGE_OFFSET UNITYSDK_OFFSET(0x1C446490)
+#define MOLEMOLE_COMIC_TWOPOINTANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4464A0)
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int TwoPointAnim_TypeDefinitionIndex = 30067;
+	inline static constexpr unsigned int TwoPointAnim_TypeDefinitionIndex = 30596;
 
 	class TwoPointAnim : public ::MoleMole::Comic::IComicAnim
 	{

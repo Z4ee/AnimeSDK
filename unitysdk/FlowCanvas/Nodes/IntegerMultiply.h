@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERMULTIPLY_INVOKE_OFFSET UNITYSDK_OFFSET(0x19178DA0)
-#define FLOWCANVAS_NODES_INTEGERMULTIPLY__CTOR_OFFSET UNITYSDK_OFFSET(0x19178DB0)
+#define FLOWCANVAS_NODES_INTEGERMULTIPLY_INVOKE_OFFSET UNITYSDK_OFFSET(0x19846810)
+#define FLOWCANVAS_NODES_INTEGERMULTIPLY__CTOR_OFFSET UNITYSDK_OFFSET(0x19846820)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerMultiply_TypeDefinitionIndex = 26585;
+	inline static constexpr unsigned int IntegerMultiply_TypeDefinitionIndex = 27922;
 
 	class IntegerMultiply : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Int32, ::System::Int32>
 	{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportStage_TypeDefinitionIndex = 18129;
+	inline static constexpr unsigned int ReportStage_TypeDefinitionIndex = 18467;
 
 	enum class ReportStage : ::System::Int32
 	{
@@ -287,6 +287,8 @@ namespace MiHoYo::SDK
 		AgeGateVerificationPassed = 11,
 		AgeGateParentRequired = 12,
 		AgeGateOtherError = 13,
+		AgeGateLoginFailedDialogShow = 14,
+		AgeGateRequestAgeAppeal = 15,
 		AgeGateBanDialogShow = 1,
 		AgeGateBanDialogConfirm = 2,
 		AgeGatePayLimitPopupWindowDisplay = 1,

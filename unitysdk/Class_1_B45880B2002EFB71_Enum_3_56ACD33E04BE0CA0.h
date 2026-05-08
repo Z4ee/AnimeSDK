@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Class_1_B45880B2002EFB71_Enum_3_56ACD33E04BE0CA0_TypeDefinitionIndex = 32952;
+
+enum class Class_1_B45880B2002EFB71_Enum_3_56ACD33E04BE0CA0 : ::System::Int32
+{
+	RecordContentChange = 0,
+	Record = 2,
+	RegReplayer = 4,
+	Replay = 3,
+	InitialState = 1,
+};

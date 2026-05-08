@@ -12,42 +12,42 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCD36450)
-#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xCD36460)
-#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xCD36BC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD37040)
-#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD37000)
+#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x125AB2E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x125AB2F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x125ABA30)
+#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x125ABE90)
+#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET_CONFIGPOSROTWITHREFERTARGET_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x125ABE50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex = 54694;
+	inline static constexpr unsigned int ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex = 63783;
 
 	class ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::FlowCanvas::Nodes::ConfigPosRotWithReferTarget*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::PosRotTargetOption*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::PosRotTargetOption*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47880);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ReferTargetCoordsOption>** StaticGet_CachedSerializer2()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ReferTargetCoordsOption>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47888);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::PosRotTargetOption*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47910);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47890);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47918);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ReferTargetCoordsOption>** StaticGet_CachedSerializer2()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::ReferTargetCoordsOption>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47920);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47898);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47928);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::OffsetGroup*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::OffsetGroup*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478A0);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::OffsetGroup*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47930);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::Config::DynamicString*>** StaticGet_CachedSerializer5()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::DynamicString*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x478A8);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::Config::DynamicString*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigPosRotWithReferTarget_ConfigPosRotWithReferTarget_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x47938);
 		}
 
 		::System::Void _ctor()

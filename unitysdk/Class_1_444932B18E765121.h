@@ -7,28 +7,28 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_444932B18E765121_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x8B1F000)
-#define CLASS_1_444932B18E765121_METHOD_1_7A42ECDFE16DCECA_OFFSET UNITYSDK_OFFSET(0x8B1F240)
-#define CLASS_1_444932B18E765121_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x8B1EEF0)
+#define CLASS_1_444932B18E765121_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x120EBF80)
+#define CLASS_1_444932B18E765121_METHOD_1_2D01F45E770A81E5_OFFSET UNITYSDK_OFFSET(0x120EBE40)
+#define CLASS_1_444932B18E765121_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x120EBE90)
 
-inline static constexpr unsigned int Class_1_444932B18E765121_TypeDefinitionIndex = 38641;
+inline static constexpr unsigned int Class_1_444932B18E765121_TypeDefinitionIndex = 81018;
 
 class Class_1_444932B18E765121 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigVentCrawl** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigVentCrawl**)Il2CppClass::FromTypeDefinitionIndex(Class_1_444932B18E765121_TypeDefinitionIndex)->GetStaticField(0x3FA60);
+		return (::MoleMole::Config::ConfigVentCrawl**)Il2CppClass::FromTypeDefinitionIndex(Class_1_444932B18E765121_TypeDefinitionIndex)->GetStaticField(0x3D9B0);
+	}
+
+	static ::MoleMole::Config::ConfigVentCrawl* Method_1_2D01F45E770A81E5()
+	{
+		return ((::MoleMole::Config::ConfigVentCrawl*(*)())((::PBYTE)hIl2Cpp + CLASS_1_444932B18E765121_METHOD_1_2D01F45E770A81E5_OFFSET))();
 	}
 
 	static ::System::Void Method_1_A8AE4A9A45E37F95(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_444932B18E765121_METHOD_1_A8AE4A9A45E37F95_OFFSET))(a1, a2, a3, a4);
-	}
-
-	static ::MoleMole::Config::ConfigVentCrawl* Method_1_7A42ECDFE16DCECA()
-	{
-		return ((::MoleMole::Config::ConfigVentCrawl*(*)())((::PBYTE)hIl2Cpp + CLASS_1_444932B18E765121_METHOD_1_7A42ECDFE16DCECA_OFFSET))();
 	}
 
 	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MAINCITYSIDEBARITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD0E73F0)
+#define MOLEMOLE_MAINCITYSIDEBARITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B93330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MainCitySidebarItemConfig_TypeDefinitionIndex = 43439;
+	inline static constexpr unsigned int MainCitySidebarItemConfig_TypeDefinitionIndex = 58194;
 
 	class MainCitySidebarItemConfig : public ::UnityEngine::MonoBehaviour
 	{

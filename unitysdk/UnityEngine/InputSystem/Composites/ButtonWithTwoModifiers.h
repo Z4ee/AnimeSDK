@@ -3,20 +3,20 @@
 #include "unitysdk/UnityEngine/InputSystem/InputBindingCompositeContext.h"
 #include "unitysdk/UnityEngine/InputSystem/InputBindingComposite_1.h"
 
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHTWOMODIFIERS_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1AC39AE0)
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHTWOMODIFIERS_READVALUE_OFFSET UNITYSDK_OFFSET(0x1AC399F0)
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHTWOMODIFIERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC39BD0)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHTWOMODIFIERS_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1BC43FF0)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHTWOMODIFIERS_READVALUE_OFFSET UNITYSDK_OFFSET(0x1BC43F00)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHTWOMODIFIERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC440E0)
 
 namespace UnityEngine::InputSystem::Composites
 {
-	inline static constexpr unsigned int ButtonWithTwoModifiers_TypeDefinitionIndex = 28920;
+	inline static constexpr unsigned int ButtonWithTwoModifiers_TypeDefinitionIndex = 29438;
 
 	class ButtonWithTwoModifiers : public ::UnityEngine::InputSystem::InputBindingComposite_1<::System::Single>
 	{
 	public:
-		::System::Int32 button; // 0x10
-		::System::Int32 modifier1; // 0x14
-		::System::Int32 modifier2; // 0x18
+		::System::Int32 modifier1; // 0x10
+		::System::Int32 modifier2; // 0x14
+		::System::Int32 button; // 0x18
 
 		::System::Void _ctor()
 		{

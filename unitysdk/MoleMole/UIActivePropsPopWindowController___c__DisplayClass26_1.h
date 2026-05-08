@@ -5,18 +5,18 @@
 namespace MoleMole { class UIActivePropsPopWindowController___c__DisplayClass26_0; }
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIACTIVEPROPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC3554B0)
-#define MOLEMOLE_UIACTIVEPROPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_1__ONFAVORITEBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0xC3554C0)
+#define MOLEMOLE_UIACTIVEPROPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15E81D40)
+#define MOLEMOLE_UIACTIVEPROPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_1__ONFAVORITEBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0x15E81D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivePropsPopWindowController___c__DisplayClass26_1_TypeDefinitionIndex = 74527;
+	inline static constexpr unsigned int UIActivePropsPopWindowController___c__DisplayClass26_1_TypeDefinitionIndex = 71975;
 
 	class UIActivePropsPopWindowController___c__DisplayClass26_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralTipsPopWindowController* ctrl; // 0x10
-		::MoleMole::UIActivePropsPopWindowController___c__DisplayClass26_0* CS___8__locals1; // 0x18
+		::MoleMole::UIActivePropsPopWindowController___c__DisplayClass26_0* CS___8__locals1; // 0x10
+		::MoleMole::UIGeneralTipsPopWindowController* ctrl; // 0x18
 
 		::System::Void _ctor()
 		{

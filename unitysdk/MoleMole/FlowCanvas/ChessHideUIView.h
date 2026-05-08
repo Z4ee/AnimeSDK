@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSHIDEUIVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x11641C20)
-#define MOLEMOLE_FLOWCANVAS_CHESSHIDEUIVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x11641D40)
+#define MOLEMOLE_FLOWCANVAS_CHESSHIDEUIVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x10B9B030)
+#define MOLEMOLE_FLOWCANVAS_CHESSHIDEUIVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x10B9B130)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessHideUIView_TypeDefinitionIndex = 43102;
+	inline static constexpr unsigned int ChessHideUIView_TypeDefinitionIndex = 60585;
 
 	class ChessHideUIView : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
 	{

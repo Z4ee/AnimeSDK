@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_38.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_58.h"
 
-#define CLASS_2_93A9E55A4E05FAD9_2_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAE58AA0)
-#define CLASS_2_93A9E55A4E05FAD9_2__CTOR_OFFSET UNITYSDK_OFFSET(0xAE58A90)
+#define CLASS_2_93A9E55A4E05FAD9_2_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15B08080)
+#define CLASS_2_93A9E55A4E05FAD9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15B08070)
 
-inline static constexpr unsigned int Class_2_93A9E55A4E05FAD9_2_TypeDefinitionIndex = 61816;
+inline static constexpr unsigned int Class_2_93A9E55A4E05FAD9_2_TypeDefinitionIndex = 80485;
 
-class Class_2_93A9E55A4E05FAD9_2 : public ::Class_1_43BD383C98B4C0C5_38
+class Class_2_93A9E55A4E05FAD9_2 : public ::Class_1_43BD383C98B4C0C5_58
 {
 public:
 	::System::Single Field_2_0; // 0x10

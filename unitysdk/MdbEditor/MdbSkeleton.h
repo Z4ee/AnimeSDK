@@ -10,24 +10,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MDBEDITOR_MDBSKELETON_CREATESKELETONFROMOBJECTHIERARCHY_OFFSET UNITYSDK_OFFSET(0x11B20900)
-#define MDBEDITOR_MDBSKELETON_CREATESKELETONRECURSIVE_OFFSET UNITYSDK_OFFSET(0x11B21440)
-#define MDBEDITOR_MDBSKELETON_GET_BONES_OFFSET UNITYSDK_OFFSET(0x11B21810)
-#define MDBEDITOR_MDBSKELETON_GET_SKELETONNAME_OFFSET UNITYSDK_OFFSET(0x11B21830)
-#define MDBEDITOR_MDBSKELETON_SET_BONES_OFFSET UNITYSDK_OFFSET(0x11B21820)
-#define MDBEDITOR_MDBSKELETON_SET_SKELETONNAME_OFFSET UNITYSDK_OFFSET(0x11B21840)
-#define MDBEDITOR_MDBSKELETON__CTOR_OFFSET UNITYSDK_OFFSET(0x11B20800)
+#define MDBEDITOR_MDBSKELETON_CREATESKELETONFROMOBJECTHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1033FC20)
+#define MDBEDITOR_MDBSKELETON_CREATESKELETONRECURSIVE_OFFSET UNITYSDK_OFFSET(0x10340910)
+#define MDBEDITOR_MDBSKELETON_GET_BONES_OFFSET UNITYSDK_OFFSET(0x10340DB0)
+#define MDBEDITOR_MDBSKELETON_GET_SKELETONNAME_OFFSET UNITYSDK_OFFSET(0x10340DD0)
+#define MDBEDITOR_MDBSKELETON_SET_BONES_OFFSET UNITYSDK_OFFSET(0x10340DC0)
+#define MDBEDITOR_MDBSKELETON_SET_SKELETONNAME_OFFSET UNITYSDK_OFFSET(0x10340DE0)
+#define MDBEDITOR_MDBSKELETON__CTOR_OFFSET UNITYSDK_OFFSET(0x1033FB10)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbSkeleton_TypeDefinitionIndex = 84203;
+	inline static constexpr unsigned int MdbSkeleton_TypeDefinitionIndex = 85959;
 
 	class MdbSkeleton : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MdbEditor::MdbSkeletalNode*>* _Bones_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* TransformCaches; // 0x10
 		::System::String* _SkeletonName_k__BackingField; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* TransformCaches; // 0x20
+		::System::Collections::Generic::List_1<::MdbEditor::MdbSkeletalNode*>* _Bones_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{

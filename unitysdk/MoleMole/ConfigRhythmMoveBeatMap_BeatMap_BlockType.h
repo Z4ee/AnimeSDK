@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_BeatMap_BlockType_TypeDefinitionIndex = 52948;
+	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_BeatMap_BlockType_TypeDefinitionIndex = 47556;
 
 	enum class ConfigRhythmMoveBeatMap_BeatMap_BlockType : ::System::Int32
 	{
-		GlodCoin = 1,
 		RedBlock = 0,
+		GlodCoin = 1,
 	};
 }

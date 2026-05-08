@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_MATCHTARGETWEIGHTMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x312860)
+#define UNITYENGINE_MATCHTARGETWEIGHTMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x3D5CA0)
 
 namespace UnityEngine
 {

@@ -6,7 +6,7 @@
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_Collection_LayoutMatcher_TypeDefinitionIndex = 28815;
+	inline static constexpr unsigned int InputControlLayout_Collection_LayoutMatcher_TypeDefinitionIndex = 29333;
 
 	struct alignas(8) InputControlLayout_Collection_LayoutMatcher
 	{

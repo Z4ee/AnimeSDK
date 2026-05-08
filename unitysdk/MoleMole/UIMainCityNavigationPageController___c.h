@@ -5,34 +5,34 @@
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F1F6A0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F1F6E0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__GETQUESTPARTNERID_B__42_0_OFFSET UNITYSDK_OFFSET(0x8F1F700)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__ONMAINBTNCLICKED_B__44_0_OFFSET UNITYSDK_OFFSET(0x8F1F710)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__SELECTAREA_B__34_2_OFFSET UNITYSDK_OFFSET(0x8F1F6F0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1500D9D0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1500DA10)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__GETQUESTPARTNERID_B__42_0_OFFSET UNITYSDK_OFFSET(0x1500DA30)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__ONMAINBTNCLICKED_B__44_0_OFFSET UNITYSDK_OFFSET(0x1500DA40)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTROLLER___C__SELECTAREA_B__34_2_OFFSET UNITYSDK_OFFSET(0x1500DA20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationPageController___c_TypeDefinitionIndex = 64293;
+	inline static constexpr unsigned int UIMainCityNavigationPageController___c_TypeDefinitionIndex = 72490;
 
 	class UIMainCityNavigationPageController___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__42_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3F010);
+		}
 		static ::MoleMole::UIMainCityNavigationPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMainCityNavigationPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D820);
+			return (::MoleMole::UIMainCityNavigationPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3F018);
 		}
 		static ::System::Action** StaticGet___9__34_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D828);
-		}
-		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__42_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D830);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3F020);
 		}
 		static ::System::Action** StaticGet___9__44_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D838);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x3F028);
 		}
 
 		static ::System::Void _cctor()

@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChatPopShow_ChatCameraType_TypeDefinitionIndex = 59954;
+	inline static constexpr unsigned int ChatPopShow_ChatCameraType_TypeDefinitionIndex = 57811;
 
 	enum class ChatPopShow_ChatCameraType : ::System::Int32
 	{
-		Default = 0,
-		Fixed = 2,
-		Multiple = 1,
 		Solo = 0,
+		Default = 0,
+		Multiple = 1,
+		Fixed = 2,
 	};
 }

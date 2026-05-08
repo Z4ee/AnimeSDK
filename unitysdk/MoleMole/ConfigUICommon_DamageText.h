@@ -8,15 +8,16 @@
 #include "unitysdk/MoleMole/ConfigSpecialDamageText.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
+namespace MoleMole { class ConfigUICommon_DamageText_ConfigSpecialDamageTextExtra; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICOMMON_DAMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE38C020)
+#define MOLEMOLE_CONFIGUICOMMON_DAMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB9D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_DamageText_TypeDefinitionIndex = 78428;
+	inline static constexpr unsigned int ConfigUICommon_DamageText_TypeDefinitionIndex = 44765;
 
 	class ConfigUICommon_DamageText : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -64,24 +65,25 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictTC; // 0x140
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictJP; // 0x148
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictKR; // 0x150
-		::System::Single SpecialDamageTextV2ScaleRatio; // 0x158
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::System::Single>* SpecialDamageV2EffectAnimTimeDict; // 0x160
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::System::Single>* SpecialDamageV2TextLengthDict; // 0x168
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::MoleMole::ConfigSpecialDamageText>* DamageTextSpecialDamageConfigDict; // 0x170
-		::System::Single AllowCombineDamageTextTime; // 0x178
-		::System::Single CombineDamageTextRefreshCDTime; // 0x17C
-		::System::Single CombineDamageTextRadiusRatio; // 0x180
-		::System::Single CombineDamageTextScale; // 0x184
-		::System::Single CombineDamageTextAddTime; // 0x188
-		::UnityEngine::AnimationCurve* CombineDamageTextAddScaleCurve; // 0x190
-		::System::Single CombineDamageTextExtraScreenOffsetY; // 0x198
-		::System::Boolean EnableCombineDamageTextMiscReferTarget; // 0x19C
-		::UnityEngine::Vector2 CombineDamageTextMiscReferTargetXRange; // 0x1A0
-		::UnityEngine::Vector2 CombineDamageTextMiscReferTargetYRange; // 0x1A8
-		::System::Single CombineTextAnimV2FadeInIntervalTime; // 0x1B0
-		::System::Single CombineTextAnimV2FadeOutIntervalTime; // 0x1B4
-		::System::Single CombineTextAnimV2FadeIn02IntervalTime; // 0x1B8
-		::System::Single CombineTextAnimV2FadeOut02IntervalTime; // 0x1BC
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::MoleMole::ConfigUICommon_DamageText_ConfigSpecialDamageTextExtra*>* SpecialDamageTextExtraConfigs; // 0x158
+		::System::Single SpecialDamageTextV2ScaleRatio; // 0x160
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::System::Single>* SpecialDamageV2EffectAnimTimeDict; // 0x168
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::System::Single>* SpecialDamageV2TextLengthDict; // 0x170
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::MoleMole::ConfigSpecialDamageText>* DamageTextSpecialDamageConfigDict; // 0x178
+		::System::Single AllowCombineDamageTextTime; // 0x180
+		::System::Single CombineDamageTextRefreshCDTime; // 0x184
+		::System::Single CombineDamageTextRadiusRatio; // 0x188
+		::System::Single CombineDamageTextScale; // 0x18C
+		::System::Single CombineDamageTextAddTime; // 0x190
+		::UnityEngine::AnimationCurve* CombineDamageTextAddScaleCurve; // 0x198
+		::System::Single CombineDamageTextExtraScreenOffsetY; // 0x1A0
+		::System::Boolean EnableCombineDamageTextMiscReferTarget; // 0x1A4
+		::UnityEngine::Vector2 CombineDamageTextMiscReferTargetXRange; // 0x1A8
+		::UnityEngine::Vector2 CombineDamageTextMiscReferTargetYRange; // 0x1B0
+		::System::Single CombineTextAnimV2FadeInIntervalTime; // 0x1B8
+		::System::Single CombineTextAnimV2FadeOutIntervalTime; // 0x1BC
+		::System::Single CombineTextAnimV2FadeIn02IntervalTime; // 0x1C0
+		::System::Single CombineTextAnimV2FadeOut02IntervalTime; // 0x1C4
 
 		::System::Void _ctor()
 		{

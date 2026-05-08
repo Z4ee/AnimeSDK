@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::Win { class DeviceLoginTips; }
 namespace MiHoYo::SDK::Win { class NewDeviceInfoModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18711DB0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18711DC0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197F7C60)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x197F7C70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceLoginTips___c__DisplayClass30_0_TypeDefinitionIndex = 19735;
+	inline static constexpr unsigned int DeviceLoginTips___c__DisplayClass30_0_TypeDefinitionIndex = 20092;
 
 	class DeviceLoginTips___c__DisplayClass30_0 : public ::System::Object
 	{

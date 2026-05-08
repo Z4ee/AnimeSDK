@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NAP_NAPECS_SINGLETONMANAGER_ADDSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x18D9DDE0)
-#define NAP_NAPECS_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x18D9DFA0)
-#define NAP_NAPECS_SINGLETONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D9E120)
+#define NAP_NAPECS_SINGLETONMANAGER_ADDSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x192ECF70)
+#define NAP_NAPECS_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x192ED110)
+#define NAP_NAPECS_SINGLETONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x192ED270)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int SingletonManager_TypeDefinitionIndex = 35206;
+	inline static constexpr unsigned int SingletonManager_TypeDefinitionIndex = 35740;
 
 	class SingletonManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet__staticSingetons()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x262D0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet__singletons()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x262D8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x26E80);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet__staticSingetons()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x26E88);
 		}
 
 		static ::System::Void _cctor()

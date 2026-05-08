@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_FINDCHILDBYNAME_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1918ED20)
-#define NODECANVAS_TASKS_ACTIONS_FINDCHILDBYNAME_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1918EDD0)
-#define NODECANVAS_TASKS_ACTIONS_FINDCHILDBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1918EF70)
+#define NODECANVAS_TASKS_ACTIONS_FINDCHILDBYNAME_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1985D0E0)
+#define NODECANVAS_TASKS_ACTIONS_FINDCHILDBYNAME_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1985D190)
+#define NODECANVAS_TASKS_ACTIONS_FINDCHILDBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1985D3B0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FindChildByName_TypeDefinitionIndex = 26682;
+	inline static constexpr unsigned int FindChildByName_TypeDefinitionIndex = 26900;
 
 	class FindChildByName : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{

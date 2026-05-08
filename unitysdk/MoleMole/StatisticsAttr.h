@@ -11,44 +11,44 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_023423FBC4D6F37A_1_OFFSET UNITYSDK_OFFSET(0xA662EF0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_023423FBC4D6F37A_OFFSET UNITYSDK_OFFSET(0xA661660)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_063F770594F95F02_OFFSET UNITYSDK_OFFSET(0xA6621A0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_094E85B034039595_OFFSET UNITYSDK_OFFSET(0xA663590)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_117C627844A89315_OFFSET UNITYSDK_OFFSET(0xA662C10)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_1A0A45AF955D4EE9_OFFSET UNITYSDK_OFFSET(0xA662B30)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_4E117A85F626CC14_OFFSET UNITYSDK_OFFSET(0xA6630A0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_7043B9A9D77FB306_OFFSET UNITYSDK_OFFSET(0xA661800)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0xA662250)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_90D0DC11D34D7114_OFFSET UNITYSDK_OFFSET(0xA6619D0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xA661B60)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_1_OFFSET UNITYSDK_OFFSET(0xA661F00)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_2_OFFSET UNITYSDK_OFFSET(0xA661F60)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_3_OFFSET UNITYSDK_OFFSET(0xA662130)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xA661960)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_A93CFD6669D2B14D_OFFSET UNITYSDK_OFFSET(0xA662980)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_AFD7CB1F3D8E9C9F_OFFSET UNITYSDK_OFFSET(0xA6632A0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_B67DCF72B717FA9F_OFFSET UNITYSDK_OFFSET(0xA661FD0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_D908BB9767125138_OFFSET UNITYSDK_OFFSET(0xA661D60)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_FC22785E86E829DB_OFFSET UNITYSDK_OFFSET(0xA6622E0)
-#define MOLEMOLE_STATISTICSATTR_METHOD_1_FCCBC857CD61BCE8_OFFSET UNITYSDK_OFFSET(0xA661490)
-#define MOLEMOLE_STATISTICSATTR__CCTOR_OFFSET UNITYSDK_OFFSET(0xA661370)
-#define MOLEMOLE_STATISTICSATTR__CTOR_OFFSET UNITYSDK_OFFSET(0xA6611C0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_094E85B034039595_OFFSET UNITYSDK_OFFSET(0x13872A60)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_117C627844A89315_OFFSET UNITYSDK_OFFSET(0x138745A0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_18A3BFC9738829A7_OFFSET UNITYSDK_OFFSET(0x13874270)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_18AF8EE91E337328_OFFSET UNITYSDK_OFFSET(0x138748C0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_33743D5333D90F94_OFFSET UNITYSDK_OFFSET(0x138729D0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_3690509AB86662EB_OFFSET UNITYSDK_OFFSET(0x138740C0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_4117615613B825D8_OFFSET UNITYSDK_OFFSET(0x138736A0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_7043B9A9D77FB306_OFFSET UNITYSDK_OFFSET(0x13873260)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0x13874AF0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_90D0DC11D34D7114_OFFSET UNITYSDK_OFFSET(0x138733A0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_1_OFFSET UNITYSDK_OFFSET(0x13873EE0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_2_OFFSET UNITYSDK_OFFSET(0x13874A50)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_3_OFFSET UNITYSDK_OFFSET(0x13874AA0)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x13873650)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_ACEC1E3085AC43BE_OFFSET UNITYSDK_OFFSET(0x13873D50)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_AFD7CB1F3D8E9C9F_OFFSET UNITYSDK_OFFSET(0x13872F50)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_B67DCF72B717FA9F_OFFSET UNITYSDK_OFFSET(0x13873510)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x13874B60)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_C21F7B27F4CE53CB_OFFSET UNITYSDK_OFFSET(0x13874350)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_D73DAA7FC3D80F47_OFFSET UNITYSDK_OFFSET(0x13873F30)
+#define MOLEMOLE_STATISTICSATTR_METHOD_1_D908BB9767125138_OFFSET UNITYSDK_OFFSET(0x13872DD0)
+#define MOLEMOLE_STATISTICSATTR__CCTOR_OFFSET UNITYSDK_OFFSET(0x138728B0)
+#define MOLEMOLE_STATISTICSATTR__CTOR_OFFSET UNITYSDK_OFFSET(0x138726B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StatisticsAttr_TypeDefinitionIndex = 62772;
+	inline static constexpr unsigned int StatisticsAttr_TypeDefinitionIndex = 62062;
 
 	class StatisticsAttr : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::PropertyInfo*>** StaticGet_propertyInfoCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::PropertyInfo*>**)Il2CppClass::FromTypeDefinitionIndex(StatisticsAttr_TypeDefinitionIndex)->GetStaticField(0x404F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::PropertyInfo*>**)Il2CppClass::FromTypeDefinitionIndex(StatisticsAttr_TypeDefinitionIndex)->GetStaticField(0x405A0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>** StaticGet_fieldInfoCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(StatisticsAttr_TypeDefinitionIndex)->GetStaticField(0x404F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(StatisticsAttr_TypeDefinitionIndex)->GetStaticField(0x405A8);
 		}
 		::System::Boolean muted; // 0x10
 		::System::String* attrName; // 0x18
@@ -85,19 +85,34 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR__CCTOR_OFFSET))();
 		}
 
-		::System::Single Method_1_FCCBC857CD61BCE8(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
+		::System::Single Method_1_33743D5333D90F94(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_FCCBC857CD61BCE8_OFFSET))(this, a1, a2, a3);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_33743D5333D90F94_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_1_023423FBC4D6F37A(::System::Single a1, ::System::Single a2)
+		::System::Void Method_1_094E85B034039595(::System::Single a1, ::System::Boolean a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_023423FBC4D6F37A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_094E85B034039595_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Method_1_7043B9A9D77FB306()
+		::System::Single Method_1_D908BB9767125138(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_7043B9A9D77FB306_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_D908BB9767125138_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_1_AFD7CB1F3D8E9C9F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_AFD7CB1F3D8E9C9F_OFFSET))(this);
+		}
+
+		::System::Void Method_1_4117615613B825D8(::System::Object* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_4117615613B825D8_OFFSET))(this, a1, a2);
+		}
+
+		::System::Single Method_1_ACEC1E3085AC43BE(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_ACEC1E3085AC43BE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Method_1_A36150C5DCC8409E()
@@ -110,24 +125,24 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_90D0DC11D34D7114_OFFSET))(this);
 		}
 
-		::System::Void Method_1_97D83E4CB3B11935()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_97D83E4CB3B11935_OFFSET))(this);
-		}
-
-		::System::Single Method_1_D908BB9767125138(::System::Int32 a1)
-		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_D908BB9767125138_OFFSET))(this, a1);
-		}
-
 		::System::Single Method_1_A36150C5DCC8409E_1()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_1_OFFSET))(this);
 		}
 
-		::System::Single Method_1_A36150C5DCC8409E_2()
+		::System::Single Method_1_D73DAA7FC3D80F47(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_2_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_D73DAA7FC3D80F47_OFFSET))(this, a1, a2);
+		}
+
+		::System::Single Method_1_3690509AB86662EB(::System::Single a1, ::System::Single a2, ::System::Int32 a3)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_3690509AB86662EB_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Method_1_18A3BFC9738829A7(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_18A3BFC9738829A7_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Method_1_B67DCF72B717FA9F()
@@ -135,34 +150,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_B67DCF72B717FA9F_OFFSET))(this);
 		}
 
-		::System::Single Method_1_A36150C5DCC8409E_3()
+		::System::Void Method_1_C21F7B27F4CE53CB(::System::Collections::Generic::List_1<::System::Int32>* a1)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_3_OFFSET))(this);
-		}
-
-		::System::Single Method_1_063F770594F95F02(::System::Int32 a1)
-		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_063F770594F95F02_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_1_7889E856344009E9(::System::Single a1, ::System::Single a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_7889E856344009E9_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_1_FC22785E86E829DB(::System::Object* a1, ::System::Single a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_FC22785E86E829DB_OFFSET))(this, a1, a2);
-		}
-
-		::System::Single Method_1_A93CFD6669D2B14D(::System::Single a1, ::System::Single a2)
-		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_A93CFD6669D2B14D_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_1_1A0A45AF955D4EE9(::System::Single a1, ::System::Single a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_1A0A45AF955D4EE9_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_C21F7B27F4CE53CB_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_1_117C627844A89315(::System::Single a1, ::System::Single a2)
@@ -170,24 +160,34 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_117C627844A89315_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_4E117A85F626CC14(::System::Collections::Generic::List_1<::System::Int32>* a1)
+		::System::Single Method_1_A36150C5DCC8409E_2()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_4E117A85F626CC14_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_2_OFFSET))(this);
 		}
 
-		::System::Single Method_1_023423FBC4D6F37A_1(::System::Single a1, ::System::Single a2)
+		::System::Single Method_1_A36150C5DCC8409E_3()
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_023423FBC4D6F37A_1_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_A36150C5DCC8409E_3_OFFSET))(this);
 		}
 
-		::System::Void Method_1_AFD7CB1F3D8E9C9F()
+		::System::Single Method_1_7043B9A9D77FB306()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_AFD7CB1F3D8E9C9F_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_7043B9A9D77FB306_OFFSET))(this);
 		}
 
-		::System::Void Method_1_094E85B034039595(::System::Single a1, ::System::Boolean a2)
+		::System::Void Method_1_7889E856344009E9(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_094E85B034039595_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_7889E856344009E9_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_B7F8E0B4AF22DEA3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_B7F8E0B4AF22DEA3_OFFSET))(this);
+		}
+
+		::System::Single Method_1_18AF8EE91E337328(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_STATISTICSATTR_METHOD_1_18AF8EE91E337328_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/BaseMonoMaterialEffectAttach_Enum_3_1AF220FD518C01B1.h"
+#include "unitysdk/MoleMole/BaseMonoMaterialEffectAttach_Enum_3_C24CB208F631818F.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_289;
+class Class_0_16E4307DCC419505_210;
 
-#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_GET_CURRENTSETUPSTATE_OFFSET UNITYSDK_OFFSET(0xE2A3710)
-#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE2A3720)
-#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_PROCESSTORENDERERS_OFFSET UNITYSDK_OFFSET(0xE2A3780)
-#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH__CTOR_OFFSET UNITYSDK_OFFSET(0xE2A37E0)
+#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_GET_CURRENTSETUPSTATE_OFFSET UNITYSDK_OFFSET(0x17428680)
+#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17428690)
+#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_PROCESSTORENDERERS_OFFSET UNITYSDK_OFFSET(0x174286D0)
+#define MOLEMOLE_BASEMONOMATERIALEFFECTATTACH__CTOR_OFFSET UNITYSDK_OFFSET(0x17428710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseMonoMaterialEffectAttach_TypeDefinitionIndex = 78249;
+	inline static constexpr unsigned int BaseMonoMaterialEffectAttach_TypeDefinitionIndex = 50146;
 
 	class BaseMonoMaterialEffectAttach : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::MoleMole::BaseMonoMaterialEffectAttach_Enum_3_1AF220FD518C01B1 Field_5_0; // 0x18
+		::MoleMole::BaseMonoMaterialEffectAttach_Enum_3_C24CB208F631818F Field_5_0; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEMONOMATERIALEFFECTATTACH__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::BaseMonoMaterialEffectAttach_Enum_3_1AF220FD518C01B1 get_CurrentSetupState()
+		::MoleMole::BaseMonoMaterialEffectAttach_Enum_3_C24CB208F631818F get_CurrentSetupState()
 		{
-			return ((::MoleMole::BaseMonoMaterialEffectAttach_Enum_3_1AF220FD518C01B1(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_GET_CURRENTSETUPSTATE_OFFSET))(this);
+			return ((::MoleMole::BaseMonoMaterialEffectAttach_Enum_3_C24CB208F631818F(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEMONOMATERIALEFFECTATTACH_GET_CURRENTSETUPSTATE_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()

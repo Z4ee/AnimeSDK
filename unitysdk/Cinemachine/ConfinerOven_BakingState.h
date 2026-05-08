@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ConfinerOven_BakingState_TypeDefinitionIndex = 32056;
+	inline static constexpr unsigned int ConfinerOven_BakingState_TypeDefinitionIndex = 32585;
 
 	enum class ConfinerOven_BakingState : ::System::Int32
 	{

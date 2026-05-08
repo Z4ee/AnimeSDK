@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int AutoEvade2Interface_TypeDefinitionIndex = 64245;
+	inline static constexpr unsigned int AutoEvade2Interface_TypeDefinitionIndex = 64611;
 
 	class AutoEvade2Interface
 	{

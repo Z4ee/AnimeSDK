@@ -3,15 +3,15 @@
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int ConicSectionType_TypeDefinitionIndex = 9047;
+	inline static constexpr unsigned int ConicSectionType_TypeDefinitionIndex = 8934;
 
 	enum class ConicSectionType : ::System::Int32
 	{
-		Ellipse = 3,
+		SingularPoint = 0,
 		IntersectingLines = 2,
-		ParallelLines = 1,
 		Parabola = 4,
 		Hyperbola = 5,
-		SingularPoint = 0,
+		Ellipse = 3,
+		ParallelLines = 1,
 	};
 }

@@ -9,28 +9,28 @@ namespace System { class Type; }
 namespace System { template <typename T> class Lazy_1; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICENUMRESOLVER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1A1C68B0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICENUMRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1C6790)
-#define MESSAGEPACK_RESOLVERS_DYNAMICENUMRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C6780)
+#define MESSAGEPACK_RESOLVERS_DYNAMICENUMRESOLVER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1AF27E20)
+#define MESSAGEPACK_RESOLVERS_DYNAMICENUMRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF27D00)
+#define MESSAGEPACK_RESOLVERS_DYNAMICENUMRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF27CF0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicEnumResolver_TypeDefinitionIndex = 27480;
+	inline static constexpr unsigned int DynamicEnumResolver_TypeDefinitionIndex = 27384;
 
 	class DynamicEnumResolver : public ::System::Object
 	{
 	public:
-		static ::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>** StaticGet_DynamicAssembly()
-		{
-			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicEnumResolver_TypeDefinitionIndex)->GetStaticField(0x20220);
-		}
 		static ::MessagePack::Resolvers::DynamicEnumResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::DynamicEnumResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicEnumResolver_TypeDefinitionIndex)->GetStaticField(0x20228);
+			return (::MessagePack::Resolvers::DynamicEnumResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicEnumResolver_TypeDefinitionIndex)->GetStaticField(0x20D90);
+		}
+		static ::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>** StaticGet_DynamicAssembly()
+		{
+			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicEnumResolver_TypeDefinitionIndex)->GetStaticField(0x20D98);
 		}
 		static ::System::Int32* StaticGet_nameSequence()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DynamicEnumResolver_TypeDefinitionIndex)->GetStaticField(0x4A40);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DynamicEnumResolver_TypeDefinitionIndex)->GetStaticField(0x4A60);
 		}
 		// static const ::System::String* ModuleName; // 0x0
 

@@ -4,12 +4,12 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define MOLEMOLE_UIACTIVITYFISHBTNWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2894C0)
-#define MOLEMOLE_UIACTIVITYFISHBTNWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xC2894D0)
+#define MOLEMOLE_UIACTIVITYFISHBTNWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F33010)
+#define MOLEMOLE_UIACTIVITYFISHBTNWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x12F33020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishBtnWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 78161;
+	inline static constexpr unsigned int UIActivityFishBtnWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 65224;
 
 	class UIActivityFishBtnWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{

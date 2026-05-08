@@ -3,7 +3,7 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Audio_PINVOKE_DeviceInstance_TypeDefinitionIndex = 59823;
+inline static constexpr unsigned int Audio_PINVOKE_DeviceInstance_TypeDefinitionIndex = 67777;
 
 struct alignas(4) Audio_PINVOKE_DeviceInstance
 {

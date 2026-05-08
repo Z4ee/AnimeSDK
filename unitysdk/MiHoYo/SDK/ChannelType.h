@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ChannelType_TypeDefinitionIndex = 18608;
+	inline static constexpr unsigned int ChannelType_TypeDefinitionIndex = 18951;
 
 	enum class ChannelType : ::System::Int32
 	{

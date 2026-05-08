@@ -5,21 +5,21 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_NPCIDITEMRUNTIME_ADDITEM_OFFSET UNITYSDK_OFFSET(0x174A7210)
-#define NPCCROWD_AI_NPCIDITEMRUNTIME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x174A71B0)
-#define NPCCROWD_AI_NPCIDITEMRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x174A73B0)
-#define NPCCROWD_AI_NPCIDITEMRUNTIME___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x174A7430)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME_ADDITEM_OFFSET UNITYSDK_OFFSET(0xB52BD20)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB52BCE0)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xB52BEA0)
+#define NPCCROWD_AI_NPCIDITEMRUNTIME___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB52BF20)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCIDItemRuntime_TypeDefinitionIndex = 60498;
+	inline static constexpr unsigned int NPCIDItemRuntime_TypeDefinitionIndex = 60906;
 
 	class NPCIDItemRuntime : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItem>* items; // 0x10
-		::System::Single weight; // 0x18
-		::System::Int32 NPCID; // 0x1C
+		::System::Int32 NPCID; // 0x18
+		::System::Single weight; // 0x1C
 
 		::System::Void _ctor()
 		{

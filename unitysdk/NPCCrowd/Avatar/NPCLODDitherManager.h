@@ -4,36 +4,36 @@
 #include "unitysdk/NPCCrowd/NPCCrowdModuleManagerBase.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
-class Class_3_9AE843FF905C0BDB;
+class Class_3_FFD0045B4597F294;
 namespace NPCCrowd::Animation { class NPCUnionAnimator; }
 namespace NPCCrowd::Avatar { class NPCLODDitherTask; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_ADDDITHERTASK_OFFSET UNITYSDK_OFFSET(0x7523BC0)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_FORCEDITHERTASK_OFFSET UNITYSDK_OFFSET(0x7524040)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x75237C0)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x7523960)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x7524A50)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x7524420)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x7523EF0)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x7524FC0)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x7524FD0)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x7525030)
-#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x75250A0)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_ADDDITHERTASK_OFFSET UNITYSDK_OFFSET(0xF4F61F0)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_FORCEDITHERTASK_OFFSET UNITYSDK_OFFSET(0xF4F6630)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xF4F5E10)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xF4F5F90)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4F6FC0)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF4F69D0)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0xF4F64F0)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xF4F7520)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xF4F7530)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4F75C0)
+#define NPCCROWD_AVATAR_NPCLODDITHERMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF4F7660)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCLODDitherManager_TypeDefinitionIndex = 62266;
+	inline static constexpr unsigned int NPCLODDitherManager_TypeDefinitionIndex = 52416;
 
 	class NPCLODDitherManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* lodDitherVal; // 0x18
-		::System::Collections::Generic::List_1<::NPCCrowd::Avatar::NPCLODDitherTask*>* invalidTasks; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Avatar::NPCLODDitherTask*>* lodTasks; // 0x28
-		::System::Collections::Generic::List_1<::System::Action_1<::System::Boolean>*>* callbacks; // 0x30
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Boolean>*>* callbacks; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* lodDitherVal; // 0x20
+		::System::Collections::Generic::List_1<::NPCCrowd::Avatar::NPCLODDitherTask*>* invalidTasks; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Avatar::NPCLODDitherTask*>* lodTasks; // 0x30
 		::Unity::Jobs::JobHandle _jobHandle; // 0x38
 
 		::System::Void _ctor()
@@ -51,9 +51,9 @@ namespace NPCCrowd::Avatar
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERMANAGER_INIT_OFFSET))(this);
 		}
 
-		::System::Void AddDitherTask(::System::Int32 tag, ::System::Single startVal, ::System::Single targetVal, ::System::Single fadeSpeed, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers, ::System::Action_1<::System::Boolean>* callback, ::Class_3_9AE843FF905C0BDB* materialComponent, ::System::Boolean inheritValue, ::System::Boolean replace, ::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator)
+		::System::Void AddDitherTask(::System::Int32 tag, ::System::Single startVal, ::System::Single targetVal, ::System::Single fadeSpeed, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers, ::System::Action_1<::System::Boolean>* callback, ::Class_3_FFD0045B4597F294* materialComponent, ::System::Boolean inheritValue, ::System::Boolean replace, ::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>*, ::System::Action_1<::System::Boolean>*, ::Class_3_9AE843FF905C0BDB*, ::System::Boolean, ::System::Boolean, ::NPCCrowd::Animation::NPCUnionAnimator*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERMANAGER_ADDDITHERTASK_OFFSET))(this, tag, startVal, targetVal, fadeSpeed, renderers, callback, materialComponent, inheritValue, replace, unionAnimator);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>*, ::System::Action_1<::System::Boolean>*, ::Class_3_FFD0045B4597F294*, ::System::Boolean, ::System::Boolean, ::NPCCrowd::Animation::NPCUnionAnimator*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERMANAGER_ADDDITHERTASK_OFFSET))(this, tag, startVal, targetVal, fadeSpeed, renderers, callback, materialComponent, inheritValue, replace, unionAnimator);
 		}
 
 		::System::Void RemoveTask(::System::Int32 tag)
@@ -61,9 +61,9 @@ namespace NPCCrowd::Avatar
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERMANAGER_REMOVETASK_OFFSET))(this, tag);
 		}
 
-		::System::Void ForceDitherTask(::System::Int32 tag, ::System::Single startVal, ::System::Single targetVal, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers, ::Class_3_9AE843FF905C0BDB* materialComponent, ::System::Boolean inheritValue, ::System::Boolean replace, ::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator)
+		::System::Void ForceDitherTask(::System::Int32 tag, ::System::Single startVal, ::System::Single targetVal, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers, ::Class_3_FFD0045B4597F294* materialComponent, ::System::Boolean inheritValue, ::System::Boolean replace, ::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>*, ::Class_3_9AE843FF905C0BDB*, ::System::Boolean, ::System::Boolean, ::NPCCrowd::Animation::NPCUnionAnimator*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERMANAGER_FORCEDITHERTASK_OFFSET))(this, tag, startVal, targetVal, renderers, materialComponent, inheritValue, replace, unionAnimator);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>*, ::Class_3_FFD0045B4597F294*, ::System::Boolean, ::System::Boolean, ::NPCCrowd::Animation::NPCUnionAnimator*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCLODDITHERMANAGER_FORCEDITHERTASK_OFFSET))(this, tag, startVal, targetVal, renderers, materialComponent, inheritValue, replace, unionAnimator);
 		}
 
 		::System::Void PreUpdate(::System::Single deltaTime)

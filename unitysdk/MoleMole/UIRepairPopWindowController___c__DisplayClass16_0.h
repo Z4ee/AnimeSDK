@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UILoginMessageBoxPopWindowController; }
 
-#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A9460)
-#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__ONBUNDLEVERIFIERFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0xD3A9470)
+#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154E7DE0)
+#define MOLEMOLE_UIREPAIRPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__ONBUNDLEVERIFIERFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0x154E7DF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRepairPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 38636;
+	inline static constexpr unsigned int UIRepairPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 59642;
 
 	class UIRepairPopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{

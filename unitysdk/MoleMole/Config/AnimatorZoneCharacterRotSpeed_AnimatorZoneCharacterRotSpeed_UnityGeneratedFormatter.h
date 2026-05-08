@@ -16,46 +16,46 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB905C20)
-#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xB905C30)
-#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xB906390)
-#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB906820)
-#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB9067E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x13992530)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x13992540)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x13992C80)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x139930E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONECHARACTERROTSPEED_ANIMATORZONECHARACTERROTSPEED_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x139930A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex = 75695;
+	inline static constexpr unsigned int AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex = 43293;
 
 	class AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::AnimatorZoneCharacterRotSpeed*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer5()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41490);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Type*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41498);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::AvatarSteerType>** StaticGet_CachedSerializer6()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::AvatarSteerType>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x414A0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41700);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x414A8);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>** StaticGet_CachedSerializer4()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x414B0);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x414B8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::HashSet_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41708);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer3()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x414C0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41710);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::AnimatorStateTimeSegment*>*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41718);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>** StaticGet_CachedSerializer4()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41720);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_CachedSerializer5()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41728);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::AvatarSteerType>** StaticGet_CachedSerializer6()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::AvatarSteerType>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneCharacterRotSpeed_AnimatorZoneCharacterRotSpeed_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x41730);
 		}
 
 		::System::Void _ctor()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_UIVHSUPDATEINFO_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x790BC50)
-#define MOLEMOLE_UIVHSUPDATEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x790BC10)
+#define MOLEMOLE_UIVHSUPDATEINFO_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xF62BC50)
+#define MOLEMOLE_UIVHSUPDATEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xF62BC10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSUpdateInfo_TypeDefinitionIndex = 76513;
+	inline static constexpr unsigned int UIVHSUpdateInfo_TypeDefinitionIndex = 42946;
 
 	class UIVHSUpdateInfo : public ::MoleMole::DisplayMessageBase
 	{

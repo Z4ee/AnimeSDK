@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int UnityBlitWithPrimitiveArrayResolver_FormatterCache_1_TypeDefinitionIndex = 26610;
+	inline static constexpr unsigned int UnityBlitWithPrimitiveArrayResolver_FormatterCache_1_TypeDefinitionIndex = 27047;
 
 	template <typename T>
 	class UnityBlitWithPrimitiveArrayResolver_FormatterCache_1 : public ::System::Object

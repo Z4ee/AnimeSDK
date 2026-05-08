@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Grounding_GrounderBendNormalType_TypeDefinitionIndex = 36027;
+	inline static constexpr unsigned int Grounding_GrounderBendNormalType_TypeDefinitionIndex = 36571;
 
 	enum class Grounding_GrounderBendNormalType : ::System::Int32
 	{

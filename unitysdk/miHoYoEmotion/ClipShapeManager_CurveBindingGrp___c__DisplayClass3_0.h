@@ -4,12 +4,12 @@
 
 namespace miHoYoEmotion { class ClipShapeManager_CurveBinding; }
 
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CURVEBINDINGGRP___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCF750)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CURVEBINDINGGRP___C__DISPLAYCLASS3_0__PUTCURVEBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x18FCF960)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CURVEBINDINGGRP___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1978BC50)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CURVEBINDINGGRP___C__DISPLAYCLASS3_0__PUTCURVEBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1978BE80)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeManager_CurveBindingGrp___c__DisplayClass3_0_TypeDefinitionIndex = 37163;
+	inline static constexpr unsigned int ClipShapeManager_CurveBindingGrp___c__DisplayClass3_0_TypeDefinitionIndex = 37707;
 
 	class ClipShapeManager_CurveBindingGrp___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigEntityVignette; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTES__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE6340)
+#define MOLEMOLE_CONFIG_CONFIGENTITYVIGNETTES__CTOR_OFFSET UNITYSDK_OFFSET(0xF97D150)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityVignettes_TypeDefinitionIndex = 65056;
+	inline static constexpr unsigned int ConfigEntityVignettes_TypeDefinitionIndex = 44685;
 
 	class ConfigEntityVignettes : public ::Foundation::MihoyoSerializedScriptableObject
 	{

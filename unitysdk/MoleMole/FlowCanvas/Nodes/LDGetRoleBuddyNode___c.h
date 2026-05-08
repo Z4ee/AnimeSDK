@@ -5,24 +5,24 @@
 namespace FlowCanvas { template <typename T> class ValueHandler_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC82DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xEC82DF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE___C__REGISTERPORTS_B__1_0_OFFSET UNITYSDK_OFFSET(0xEC82E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18208B80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18208BC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETROLEBUDDYNODE___C__REGISTERPORTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x18208BD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetRoleBuddyNode___c_TypeDefinitionIndex = 38353;
+	inline static constexpr unsigned int LDGetRoleBuddyNode___c_TypeDefinitionIndex = 75103;
 
 	class LDGetRoleBuddyNode___c : public ::System::Object
 	{
 	public:
 		static ::FlowCanvas::ValueHandler_1<::MoleMole::Battle::Entity*>** StaticGet___9__1_0()
 		{
-			return (::FlowCanvas::ValueHandler_1<::MoleMole::Battle::Entity*>**)Il2CppClass::FromTypeDefinitionIndex(LDGetRoleBuddyNode___c_TypeDefinitionIndex)->GetStaticField(0x42E90);
+			return (::FlowCanvas::ValueHandler_1<::MoleMole::Battle::Entity*>**)Il2CppClass::FromTypeDefinitionIndex(LDGetRoleBuddyNode___c_TypeDefinitionIndex)->GetStaticField(0x48750);
 		}
 		static ::MoleMole::FlowCanvas::Nodes::LDGetRoleBuddyNode___c** StaticGet___9()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::LDGetRoleBuddyNode___c**)Il2CppClass::FromTypeDefinitionIndex(LDGetRoleBuddyNode___c_TypeDefinitionIndex)->GetStaticField(0x42E98);
+			return (::MoleMole::FlowCanvas::Nodes::LDGetRoleBuddyNode___c**)Il2CppClass::FromTypeDefinitionIndex(LDGetRoleBuddyNode___c_TypeDefinitionIndex)->GetStaticField(0x48758);
 		}
 
 		static ::System::Void _cctor()

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Reflection { class ICustomAttributeProvider; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_MEMBERINFOEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1B6E8330)
+#define SIRENIX_SERIALIZATION_UTILITIES_MEMBERINFOEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1C47DAA0)
 
 namespace Sirenix::Serialization::Utilities
 {

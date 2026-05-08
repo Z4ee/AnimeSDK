@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define VFXVOLUMETRICSHADOWSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18F17250)
+#define VFXVOLUMETRICSHADOWSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6ABAE0)
 
-inline static constexpr unsigned int VfxVolumetricShadowSystem_TypeDefinitionIndex = 28994;
+inline static constexpr unsigned int VfxVolumetricShadowSystem_TypeDefinitionIndex = 29513;
 
 class VfxVolumetricShadowSystem : public ::System::Object
 {

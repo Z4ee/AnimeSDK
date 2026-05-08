@@ -5,7 +5,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDTargetAreaUIData_TypeDefinitionIndex = 43221;
+	inline static constexpr unsigned int LDDTargetAreaUIData_TypeDefinitionIndex = 54585;
 
 	struct alignas(8) LDDTargetAreaUIData
 	{

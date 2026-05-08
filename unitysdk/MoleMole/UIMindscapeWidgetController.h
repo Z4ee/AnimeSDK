@@ -17,8 +17,8 @@
 class Class_1_0D6706375CDAAE8C;
 class Class_1_2CCC5D7984CDCED4;
 class Class_1_5F780812A1FAD31A;
-class Class_2_79AE422BA06F6D26_182;
-class Class_2_D89CCC627A66D0AD;
+class Class_2_1824EF69C8E376A3;
+class Class_2_79AE422BA06F6D26_17;
 namespace MoleMole { class MonoGamepadModule; }
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
@@ -33,220 +33,220 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_CHANGETABSTATE_OFFSET UNITYSDK_OFFSET(0x8F47B90)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_DORELEASEMINDSCAPECUTBG_OFFSET UNITYSDK_OFFSET(0x8F49B30)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETCANSHOWLENTICULAR_OFFSET UNITYSDK_OFFSET(0x8F4A0E0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETDEFAULTSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x8F49900)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETLENTICULAROPEN_OFFSET UNITYSDK_OFFSET(0x8F46230)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETPCLERPSPEED_OFFSET UNITYSDK_OFFSET(0x8F47480)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GET__CURINPUTVEC_OFFSET UNITYSDK_OFFSET(0x8F44640)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_INITVIEW_OFFSET UNITYSDK_OFFSET(0x8F430D0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ISTRAININGROOM_OFFSET UNITYSDK_OFFSET(0x8F44130)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONAVATARCHANGEHANDLE_OFFSET UNITYSDK_OFFSET(0x8F48920)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONBACKCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x8F43700)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x8F44520)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONGAMEPADMODULETRYOVERRIDENEXTSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x8F476D0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONGETITEMDURINGMINDSCAPE_OFFSET UNITYSDK_OFFSET(0x8F4AB50)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONHIDE_OFFSET UNITYSDK_OFFSET(0x8F44080)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x8F446F0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x8F47590)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONLENTICULARTOGGLEHANDLE_OFFSET UNITYSDK_OFFSET(0x8F4B5B0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x8F43C20)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONSWITCHBTNCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x8F43490)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONTABCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x8F47AF0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONTALENTUNLOCKOVERHANDLE_OFFSET UNITYSDK_OFFSET(0x8F49C30)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONTALENTUNOCKEND_OFFSET UNITYSDK_OFFSET(0x8F4A2D0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x8F43AB0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x8F4B740)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x8F42D00)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x8F437D0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_OPENGMLENTICULAR_OFFSET UNITYSDK_OFFSET(0x8F43A10)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_PLAYMASKFADEIN_OFFSET UNITYSDK_OFFSET(0x8F48B50)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_PLAYVIEWFADEIN_OFFSET UNITYSDK_OFFSET(0x8F44290)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_PRESETBGTABSTATE_OFFSET UNITYSDK_OFFSET(0x8F48080)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHBACKGROUND_OFFSET UNITYSDK_OFFSET(0x8F49120)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHLENTICULARTOGGLESTATE_OFFSET UNITYSDK_OFFSET(0x8F4A700)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHSWITCHINPUTKEY_OFFSET UNITYSDK_OFFSET(0x8F47980)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHTABSTATE_OFFSET UNITYSDK_OFFSET(0x8F4B0B0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x8F43F20)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_RESETATTITUDECURRENTVEC_OFFSET UNITYSDK_OFFSET(0x8F46290)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETBGMODEL_OFFSET UNITYSDK_OFFSET(0x8F48CA0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETCLOSEACTION_OFFSET UNITYSDK_OFFSET(0x8F445C0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETDEAULTSWITCHTAB_OFFSET UNITYSDK_OFFSET(0x8F4AD60)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETGYROSCOPEVEC_OFFSET UNITYSDK_OFFSET(0x8F46300)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETLENTICULARTIPANI_OFFSET UNITYSDK_OFFSET(0x8F48270)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETTOGGLEBTNSTATE_OFFSET UNITYSDK_OFFSET(0x8F43600)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SET__CURINPUTVEC_OFFSET UNITYSDK_OFFSET(0x8F44650)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_UPDATELENTICULAR_OFFSET UNITYSDK_OFFSET(0x8F46B30)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x8F46780)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F4BDD0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8F4BB60)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__DORELEASEMINDSCAPECUTBG_B__110_0_OFFSET UNITYSDK_OFFSET(0x8F4C120)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__ONBACKCLICKHANDLE_B__25_0_OFFSET UNITYSDK_OFFSET(0x8F4BE90)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__ONTALENTUNOCKEND_B__113_0_OFFSET UNITYSDK_OFFSET(0x8F4C290)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__PLAYVIEWFADEIN_B__33_0_OFFSET UNITYSDK_OFFSET(0x8F4BEB0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__SETLENTICULARTIPANI_B__104_0_OFFSET UNITYSDK_OFFSET(0x8F4BF70)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__SETLENTICULARTIPANI_B__104_1_OFFSET UNITYSDK_OFFSET(0x8F4C080)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__SETLENTICULARTIPANI_B__104_2_OFFSET UNITYSDK_OFFSET(0x8F4C0D0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x8F4C2A0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONGAMEPADMODULETRYOVERRIDENEXTSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x8F4C310)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONHIDE_OFFSET UNITYSDK_OFFSET(0x8F4C3D0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x8F4C430)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x8F4C460)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x8F4C4C0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x8F4C530)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x8F4C540)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x8F4C5C0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x8F4C620)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_CHANGETABSTATE_OFFSET UNITYSDK_OFFSET(0x16103280)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_DORELEASEMINDSCAPECUTBG_OFFSET UNITYSDK_OFFSET(0x16105020)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETCANSHOWLENTICULAR_OFFSET UNITYSDK_OFFSET(0x16105540)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETDEFAULTSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x16104E10)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETLENTICULAROPEN_OFFSET UNITYSDK_OFFSET(0x16101C00)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GETPCLERPSPEED_OFFSET UNITYSDK_OFFSET(0x16102D20)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_GET__CURINPUTVEC_OFFSET UNITYSDK_OFFSET(0x16100100)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_INITVIEW_OFFSET UNITYSDK_OFFSET(0x160FEE80)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ISTRAININGROOM_OFFSET UNITYSDK_OFFSET(0x160FFC70)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONAVATARCHANGEHANDLE_OFFSET UNITYSDK_OFFSET(0x16104000)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONBACKCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x160FF3C0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16100010)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONGAMEPADMODULETRYOVERRIDENEXTSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x16102EE0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONGETITEMDURINGMINDSCAPE_OFFSET UNITYSDK_OFFSET(0x16105EF0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONHIDE_OFFSET UNITYSDK_OFFSET(0x160FFC00)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x16100190)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x16102E10)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONLENTICULARTOGGLEHANDLE_OFFSET UNITYSDK_OFFSET(0x161068C0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x160FF830)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONSWITCHBTNCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x160FF190)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONTABCLICKHANDLE_OFFSET UNITYSDK_OFFSET(0x16103200)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONTALENTUNLOCKOVERHANDLE_OFFSET UNITYSDK_OFFSET(0x16105100)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONTALENTUNOCKEND_OFFSET UNITYSDK_OFFSET(0x16105710)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x160FF6E0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x16106A30)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x160FEB50)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x160FF470)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_OPENGMLENTICULAR_OFFSET UNITYSDK_OFFSET(0x160FF660)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_PLAYMASKFADEIN_OFFSET UNITYSDK_OFFSET(0x161041C0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_PLAYVIEWFADEIN_OFFSET UNITYSDK_OFFSET(0x160FFD90)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_PRESETBGTABSTATE_OFFSET UNITYSDK_OFFSET(0x16103750)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHBACKGROUND_OFFSET UNITYSDK_OFFSET(0x16104740)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHLENTICULARTOGGLESTATE_OFFSET UNITYSDK_OFFSET(0x16105AF0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHSWITCHINPUTKEY_OFFSET UNITYSDK_OFFSET(0x161030D0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHTABSTATE_OFFSET UNITYSDK_OFFSET(0x161063E0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x160FFAC0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_RESETATTITUDECURRENTVEC_OFFSET UNITYSDK_OFFSET(0x16101C40)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETBGMODEL_OFFSET UNITYSDK_OFFSET(0x161042E0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETCLOSEACTION_OFFSET UNITYSDK_OFFSET(0x161000A0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETDEAULTSWITCHTAB_OFFSET UNITYSDK_OFFSET(0x161060E0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETGYROSCOPEVEC_OFFSET UNITYSDK_OFFSET(0x16101C90)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETLENTICULARTIPANI_OFFSET UNITYSDK_OFFSET(0x16103950)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SETTOGGLEBTNSTATE_OFFSET UNITYSDK_OFFSET(0x160FF2E0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_SET__CURINPUTVEC_OFFSET UNITYSDK_OFFSET(0x16100110)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_UPDATELENTICULAR_OFFSET UNITYSDK_OFFSET(0x16102450)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x161020F0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16107090)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16106DE0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__DORELEASEMINDSCAPECUTBG_B__110_0_OFFSET UNITYSDK_OFFSET(0x161073A0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__ONBACKCLICKHANDLE_B__25_0_OFFSET UNITYSDK_OFFSET(0x16107140)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__ONTALENTUNOCKEND_B__113_0_OFFSET UNITYSDK_OFFSET(0x16107510)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__PLAYVIEWFADEIN_B__33_0_OFFSET UNITYSDK_OFFSET(0x16107160)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__SETLENTICULARTIPANI_B__104_0_OFFSET UNITYSDK_OFFSET(0x16107200)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__SETLENTICULARTIPANI_B__104_1_OFFSET UNITYSDK_OFFSET(0x16107300)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER__SETLENTICULARTIPANI_B__104_2_OFFSET UNITYSDK_OFFSET(0x16107350)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16107520)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONGAMEPADMODULETRYOVERRIDENEXTSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x161075B0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONHIDE_OFFSET UNITYSDK_OFFSET(0x161076A0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x16107730)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x16107760)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x161077F0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x16107890)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x161078A0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x16107930)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x161079C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController_TypeDefinitionIndex = 73434;
+	inline static constexpr unsigned int UIMindscapeWidgetController_TypeDefinitionIndex = 38773;
 
 	class UIMindscapeWidgetController : public ::MoleMole::UIWidgetController
 	{
 	public:
-		static ::System::Boolean* StaticGet_UseOldGyroscope()
+		static ::System::Single* StaticGet_StickMoveRate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFB0);
-		}
-		static ::System::Boolean* StaticGet_IsGyroscopeUseDamp()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFB1);
-		}
-		static ::UnityEngine::Vector2* StaticGet_PcDragSpeed()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFB4);
-		}
-		static ::System::Single* StaticGet_PcLerpSpeedMax()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFBC);
-		}
-		static ::System::Single* StaticGet_AccelIgnoreRate()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFC0);
-		}
-		static ::System::Single* StaticGet_StickMoveTheshold()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFC4);
-		}
-		static ::System::Single* StaticGet_PcLerpSpeedMin()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFC8);
-		}
-		static ::System::Single* StaticGet_GyroscopeRateY()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFCC);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE590);
 		}
 		static ::System::Single* StaticGet_StickMoveThesholdSqr()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFD0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE594);
+		}
+		static ::System::Single* StaticGet_PcLerpSpeedMin()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE598);
+		}
+		static ::System::Single* StaticGet_StickMoveTheshold()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE59C);
 		}
 		static ::System::Single* StaticGet_DampRate()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFD4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5A0);
 		}
 		static ::System::Single* StaticGet_PCDampRate()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFD8);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5A4);
 		}
-		static ::System::Single* StaticGet_PcLerpSpeedPower()
+		static ::System::Boolean* StaticGet_UseOldGyroscope()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFDC);
-		}
-		static ::MoleMole::UIMindscapeWidgetController_EGyroType* StaticGet_GyroType()
-		{
-			return (::MoleMole::UIMindscapeWidgetController_EGyroType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFE0);
-		}
-		static ::MoleMole::UIMindscapeWidgetController_EStickState* StaticGet_StickState()
-		{
-			return (::MoleMole::UIMindscapeWidgetController_EStickState*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFE4);
-		}
-		static ::System::Boolean* StaticGet_IsPcUseDrag()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFE8);
-		}
-		static ::System::Boolean* StaticGet_IsPcResetWhenMouseUp()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFE9);
-		}
-		static ::System::Boolean* StaticGet_IsPcUseDamp()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFEA);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5A8);
 		}
 		static ::System::Boolean* StaticGet_IsStickUseDamp()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFEB);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5A9);
 		}
-		static ::System::Single* StaticGet_StickMoveRate()
+		static ::System::Boolean* StaticGet_IsGyroscopeUseDamp()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFEC);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5AA);
 		}
-		static ::MoleMole::UIMindscapeWidgetController_ECardClampType* StaticGet_CardClampType()
+		static ::System::Boolean* StaticGet_IsPcResetWhenMouseUp()
 		{
-			return (::MoleMole::UIMindscapeWidgetController_ECardClampType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFF0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5AB);
 		}
-		static ::System::Single* StaticGet_StickToGyroTheshold()
+		static ::System::Single* StaticGet_PcLerpSpeedPower()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFF4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5AC);
+		}
+		static ::System::Single* StaticGet_GyroscopeRateY()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5B0);
 		}
 		static ::System::Single* StaticGet_GyroscopeSpeed()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFF8);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5B4);
 		}
-		static ::MoleMole::UIMindscapeWidgetController_EStickType* StaticGet_StickType()
+		static ::MoleMole::UIMindscapeWidgetController_EStickState* StaticGet_StickState()
 		{
-			return (::MoleMole::UIMindscapeWidgetController_EStickType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xDFFC);
+			return (::MoleMole::UIMindscapeWidgetController_EStickState*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5B8);
 		}
-		static ::System::Single* StaticGet_GyroscopeRateX()
+		static ::System::Single* StaticGet_StickToGyroTheshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE000);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5BC);
+		}
+		static ::MoleMole::UIMindscapeWidgetController_ECardClampType* StaticGet_CardClampType()
+		{
+			return (::MoleMole::UIMindscapeWidgetController_ECardClampType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5C0);
+		}
+		static ::UnityEngine::Vector2* StaticGet_PcDragSpeed()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5C4);
+		}
+		static ::System::Boolean* StaticGet_IsPcUseDamp()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5CC);
+		}
+		static ::System::Boolean* StaticGet_IsPcUseDrag()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5CD);
+		}
+		static ::MoleMole::UIMindscapeWidgetController_EGyroType* StaticGet_GyroType()
+		{
+			return (::MoleMole::UIMindscapeWidgetController_EGyroType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5D0);
+		}
+		static ::System::Single* StaticGet_PcLerpSpeedMax()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5D4);
+		}
+		static ::System::Single* StaticGet_AccelIgnoreRate()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5D8);
 		}
 		static ::MoleMole::UIMindscapeWidgetController_EGyroStickMergeType* StaticGet_GyroStickMergeType()
 		{
-			return (::MoleMole::UIMindscapeWidgetController_EGyroStickMergeType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE004);
+			return (::MoleMole::UIMindscapeWidgetController_EGyroStickMergeType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5DC);
+		}
+		static ::System::Single* StaticGet_GyroscopeRateX()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5E0);
+		}
+		static ::MoleMole::UIMindscapeWidgetController_EStickType* StaticGet_StickType()
+		{
+			return (::MoleMole::UIMindscapeWidgetController_EStickType*)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeWidgetController_TypeDefinitionIndex)->GetStaticField(0xE5E4);
 		}
 		// static const ::System::Int32 BgCacheCount = 0x5; // 0x0
-		::Class_2_79AE422BA06F6D26_182* _view; // 0x2A0
-		::System::Collections::Generic::List_1<::MoleMole::UIMindscapeCutBgController*>* _bgCtrlList; // 0x2A8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetRequestHandle>* _bgAssetDir; // 0x2B0
-		::System::Collections::Generic::List_1<::MoleMole::UIMindscapeSwitchBtnRowWidgetController*>* _switchBtnList; // 0x2B8
-		::MoleMole::UIGeneralToggleWidgetController* _lenticularToggle; // 0x2C0
-		::System::Boolean _isLenticularToggleOn; // 0x2C8
-		::MoleMole::UIMindscapeCutBgController* _currentBgCtrl; // 0x2D0
-		::MoleMole::UIRoleChangeWidgetController* _roleChangeWidget; // 0x2D8
-		::MoleMole::UIRoleInfoPageContext* _lastContext; // 0x2E0
-		::Class_2_D89CCC627A66D0AD* _avatarData; // 0x2E8
-		::System::Boolean _previewMode; // 0x2F0
-		::System::Boolean _friendPreviewMode; // 0x2F1
-		::System::Boolean _isShowLevelRow; // 0x2F2
-		::Il2CppArray<::System::Boolean>* tabState; // 0x2F8
-		::System::Action* _closeAction; // 0x300
-		::System::Action* _closeOverAction; // 0x308
-		::System::Boolean _isLenticularUnlock; // 0x310
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x318
-		::System::String* LenticularSwitchAni; // 0x320
-		::System::Single clickTime; // 0x328
-		::Foundation::Coroutine::CoroutineHandle coroutineHandle; // 0x32C
-		::System::Single _gyroscope_X; // 0x330
-		::System::Single _gyroscope_Y; // 0x334
-		::UnityEngine::Vector2 _curStickVec; // 0x338
-		::UnityEngine::Vector2 __curInputVec; // 0x340
-		::System::Nullable_1<::UnityEngine::Quaternion> _lastAttitude; // 0x348
-		::Class_1_5F780812A1FAD31A* _gyroscopeInputHandler; // 0x360
-		::System::Single _currentX; // 0x368
-		::System::Single _currentY; // 0x36C
-		::System::Boolean _useFollow; // 0x370
-		::System::Boolean _isAttitudeReset; // 0x371
-		::System::Single _lerpBetweenGyroAndStick; // 0x374
-		::UnityEngine::Vector2 _lastGyroWhenStickReset; // 0x378
-		::UnityEngine::Vector2 _stickInputVecLerpThreePointZeroPoint; // 0x380
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _tempVecList; // 0x388
-		::System::Single _dampRate; // 0x390
-		::UnityEngine::Vector2 _startMousePos; // 0x394
-		::UnityEngine::Vector2 _lastMousePos; // 0x39C
-		::UnityEngine::Vector2 _lastMouseVec; // 0x3A4
-		::Foundation::Coroutine::CoroutineHandle _tipAniHandle; // 0x3AC
+		::Class_2_79AE422BA06F6D26_17* _view; // 0x2B8
+		::System::Collections::Generic::List_1<::MoleMole::UIMindscapeCutBgController*>* _bgCtrlList; // 0x2C0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Foundation::AssetRequestHandle>* _bgAssetDir; // 0x2C8
+		::System::Collections::Generic::List_1<::MoleMole::UIMindscapeSwitchBtnRowWidgetController*>* _switchBtnList; // 0x2D0
+		::MoleMole::UIGeneralToggleWidgetController* _lenticularToggle; // 0x2D8
+		::System::Boolean _isLenticularToggleOn; // 0x2E0
+		::MoleMole::UIMindscapeCutBgController* _currentBgCtrl; // 0x2E8
+		::MoleMole::UIRoleChangeWidgetController* _roleChangeWidget; // 0x2F0
+		::MoleMole::UIRoleInfoPageContext* _lastContext; // 0x2F8
+		::Class_2_1824EF69C8E376A3* _avatarData; // 0x300
+		::System::Boolean _previewMode; // 0x308
+		::System::Boolean _friendPreviewMode; // 0x309
+		::System::Boolean _isShowLevelRow; // 0x30A
+		::Il2CppArray<::System::Boolean>* tabState; // 0x310
+		::System::Action* _closeAction; // 0x318
+		::System::Action* _closeOverAction; // 0x320
+		::System::Boolean _isLenticularUnlock; // 0x328
+		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x330
+		::System::String* LenticularSwitchAni; // 0x338
+		::System::Single clickTime; // 0x340
+		::Foundation::Coroutine::CoroutineHandle coroutineHandle; // 0x344
+		::System::Single _gyroscope_X; // 0x348
+		::System::Single _gyroscope_Y; // 0x34C
+		::UnityEngine::Vector2 _curStickVec; // 0x350
+		::UnityEngine::Vector2 __curInputVec; // 0x358
+		::System::Nullable_1<::UnityEngine::Quaternion> _lastAttitude; // 0x360
+		::Class_1_5F780812A1FAD31A* _gyroscopeInputHandler; // 0x378
+		::System::Single _currentX; // 0x380
+		::System::Single _currentY; // 0x384
+		::System::Boolean _useFollow; // 0x388
+		::System::Boolean _isAttitudeReset; // 0x389
+		::System::Single _lerpBetweenGyroAndStick; // 0x38C
+		::UnityEngine::Vector2 _lastGyroWhenStickReset; // 0x390
+		::UnityEngine::Vector2 _stickInputVecLerpThreePointZeroPoint; // 0x398
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _tempVecList; // 0x3A0
+		::System::Single _dampRate; // 0x3A8
+		::UnityEngine::Vector2 _startMousePos; // 0x3AC
+		::UnityEngine::Vector2 _lastMousePos; // 0x3B4
+		::UnityEngine::Vector2 _lastMouseVec; // 0x3BC
+		::Foundation::Coroutine::CoroutineHandle _tipAniHandle; // 0x3C4
 
 		::System::Void _ctor()
 		{

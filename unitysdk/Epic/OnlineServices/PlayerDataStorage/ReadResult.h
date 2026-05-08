@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int ReadResult_TypeDefinitionIndex = 33368;
+	inline static constexpr unsigned int ReadResult_TypeDefinitionIndex = 33904;
 
 	enum class ReadResult : ::System::Int32
 	{

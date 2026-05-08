@@ -20,12 +20,12 @@ namespace MiHoYo::SDK { class WebViewRenderMethodBoxConfig; }
 namespace MiHoYo::SDK { class WebViewReportBoxConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x18C03990)
-#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFF8E0)
+#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x19FC3CF0)
+#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBF900)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 18456;
+	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 18795;
 
 	class BoxModel : public ::System::Object
 	{
@@ -74,6 +74,8 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::NoticeNativeTaskConfig* notice_native_task_config; // 0xF8
 		::MiHoYo::SDK::ProtocolNativeTaskConfig* protocol_native_task_config; // 0x100
 		::System::Boolean enable_separate_render_method; // 0x108
+		::System::String* vox_asr_config; // 0x110
+		::System::Boolean disable_device_limit; // 0x118
 
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
 		{

@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_COLORARRAYRECORDERUNIT_GETVECTOR4VALUE_OFFSET UNITYSDK_OFFSET(0x1B2AC540)
-#define MOLEMOLE_TIMELINE_COLORARRAYRECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AC530)
+#define MOLEMOLE_TIMELINE_COLORARRAYRECORDERUNIT_GETVECTOR4VALUE_OFFSET UNITYSDK_OFFSET(0x1C0BD790)
+#define MOLEMOLE_TIMELINE_COLORARRAYRECORDERUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BD750)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ColorArrayRecorderUnit_TypeDefinitionIndex = 30113;
+	inline static constexpr unsigned int ColorArrayRecorderUnit_TypeDefinitionIndex = 30642;
 
 	class ColorArrayRecorderUnit : public ::MoleMole::Timeline::RecorderUnit
 	{

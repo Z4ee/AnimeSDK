@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlList_1_Enumerator_TypeDefinitionIndex = 28442;
+	inline static constexpr unsigned int InputControlList_1_Enumerator_TypeDefinitionIndex = 28960;
 
 	template <typename TControl>
 	struct InputControlList_1_Enumerator

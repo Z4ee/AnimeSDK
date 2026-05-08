@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MONOLOGINCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x852D7D0)
+#define MONOLOGINCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1345CC30)
 
-inline static constexpr unsigned int MonoLoginCameraParam_TypeDefinitionIndex = 66466;
+inline static constexpr unsigned int MonoLoginCameraParam_TypeDefinitionIndex = 67899;
 
 class MonoLoginCameraParam : public ::UnityEngine::MonoBehaviour
 {

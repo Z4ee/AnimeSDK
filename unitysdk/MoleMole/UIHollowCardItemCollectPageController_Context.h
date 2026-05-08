@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9C06340)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162E44E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemCollectPageController_Context_TypeDefinitionIndex = 78879;
+	inline static constexpr unsigned int UIHollowCardItemCollectPageController_Context_TypeDefinitionIndex = 62945;
 
 	class UIHollowCardItemCollectPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

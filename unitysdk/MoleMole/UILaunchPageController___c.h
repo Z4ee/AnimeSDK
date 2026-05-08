@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7ECB9691B142D586;
+class Class_1_E9529ED64113E4E9;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EC0E10)
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EC0E50)
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__GAMESTART_B__16_0_OFFSET UNITYSDK_OFFSET(0x9EC0E60)
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__GAMESTART_G__GOTOLOGINGAME_16_1_OFFSET UNITYSDK_OFFSET(0x9EC0F00)
-#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__PLAYKOREAAGELIMIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x9EC0F30)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16412410)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16412450)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__GAMESTART_B__16_0_OFFSET UNITYSDK_OFFSET(0x16412460)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__GAMESTART_G__GOTOLOGINGAME_16_1_OFFSET UNITYSDK_OFFSET(0x16412500)
+#define MOLEMOLE_UILAUNCHPAGECONTROLLER___C__PLAYKOREAAGELIMIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x16412530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILaunchPageController___c_TypeDefinitionIndex = 75805;
+	inline static constexpr unsigned int UILaunchPageController___c_TypeDefinitionIndex = 69833;
 
 	class UILaunchPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7ECB9691B142D586*>** StaticGet___9__18_0()
-		{
-			return (::System::Action_1<::Class_1_7ECB9691B142D586*>**)Il2CppClass::FromTypeDefinitionIndex(UILaunchPageController___c_TypeDefinitionIndex)->GetStaticField(0x44400);
-		}
 		static ::MoleMole::UILaunchPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UILaunchPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILaunchPageController___c_TypeDefinitionIndex)->GetStaticField(0x44408);
+			return (::MoleMole::UILaunchPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILaunchPageController___c_TypeDefinitionIndex)->GetStaticField(0x45DB0);
 		}
 		static ::System::Action** StaticGet___9__16_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILaunchPageController___c_TypeDefinitionIndex)->GetStaticField(0x44410);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILaunchPageController___c_TypeDefinitionIndex)->GetStaticField(0x45DB8);
+		}
+		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__18_0()
+		{
+			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UILaunchPageController___c_TypeDefinitionIndex)->GetStaticField(0x45DC0);
 		}
 
 		static ::System::Void _cctor()
@@ -52,9 +52,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UILAUNCHPAGECONTROLLER___C__GAMESTART_G__GOTOLOGINGAME_16_1_OFFSET))(this);
 		}
 
-		::System::Void _PlayKoreaAgeLimit_b__18_0(::Class_1_7ECB9691B142D586* playerHelper)
+		::System::Void _PlayKoreaAgeLimit_b__18_0(::Class_1_E9529ED64113E4E9* playerHelper)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7ECB9691B142D586*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILAUNCHPAGECONTROLLER___C__PLAYKOREAAGELIMIT_B__18_0_OFFSET))(this, playerHelper);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E9529ED64113E4E9*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILAUNCHPAGECONTROLLER___C__PLAYKOREAAGELIMIT_B__18_0_OFFSET))(this, playerHelper);
 		}
 	};
 }

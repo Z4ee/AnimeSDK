@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_07C4412B5A0F6218.h"
+#include "unitysdk/Enum_3_47595C20DEDAE9BB.h"
 #include "unitysdk/Enum_3_7E8524D85A16B539.h"
-#include "unitysdk/Enum_3_DA364560968AC009.h"
 #include "unitysdk/System/Object.h"
 
 class Class_2_AF4036FBC298303A;
@@ -10,42 +10,42 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_5B92B555042394F5_METHOD_1_9C82365D24B60E96_OFFSET UNITYSDK_OFFSET(0xB674550)
-#define CLASS_1_5B92B555042394F5_METHOD_1_B38D0BE69E42199B_OFFSET UNITYSDK_OFFSET(0xB674BB0)
-#define CLASS_1_5B92B555042394F5__CCTOR_OFFSET UNITYSDK_OFFSET(0xB673F20)
+#define CLASS_1_5B92B555042394F5_METHOD_1_9C82365D24B60E96_OFFSET UNITYSDK_OFFSET(0x1208F3A0)
+#define CLASS_1_5B92B555042394F5_METHOD_1_B38D0BE69E42199B_OFFSET UNITYSDK_OFFSET(0x1208F230)
+#define CLASS_1_5B92B555042394F5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1208EC10)
 
-inline static constexpr unsigned int Class_1_5B92B555042394F5_TypeDefinitionIndex = 46595;
+inline static constexpr unsigned int Class_1_5B92B555042394F5_TypeDefinitionIndex = 77888;
 
 class Class_1_5B92B555042394F5 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::Enum_3_7E8524D85A16B539, ::System::String*>** StaticGet_Field_1_4()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337B0);
-	}
-	static ::System::String** StaticGet_Field_1_2()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337B8);
-	}
-	static ::Class_2_AF4036FBC298303A** StaticGet_Field_1_6()
-	{
-		return (::Class_2_AF4036FBC298303A**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337C0);
+		return (::System::Collections::Generic::Dictionary_2<::Enum_3_7E8524D85A16B539, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x428D0);
 	}
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337C8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x428D8);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::Enum_3_DA364560968AC009, ::System::String*>** StaticGet_Field_1_3()
+	static ::System::String** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Enum_3_DA364560968AC009, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337D0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x428E0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::Enum_3_07C4412B5A0F6218, ::System::String*>** StaticGet_Field_1_5()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Enum_3_07C4412B5A0F6218, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337D8);
+		return (::System::Collections::Generic::Dictionary_2<::Enum_3_07C4412B5A0F6218, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x428E8);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::Enum_3_7E8524D85A16B539, ::System::String*>** StaticGet_Field_1_4()
+	static ::System::String** StaticGet_Field_1_2()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Enum_3_7E8524D85A16B539, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x337E0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x428F0);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::Enum_3_47595C20DEDAE9BB, ::System::String*>** StaticGet_Field_1_3()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::Enum_3_47595C20DEDAE9BB, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x428F8);
+	}
+	static ::Class_2_AF4036FBC298303A** StaticGet_Field_1_6()
+	{
+		return (::Class_2_AF4036FBC298303A**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B92B555042394F5_TypeDefinitionIndex)->GetStaticField(0x42900);
 	}
 
 	static ::System::Void _cctor()
@@ -53,13 +53,13 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_5B92B555042394F5__CCTOR_OFFSET))();
 	}
 
-	static ::System::String* Method_1_9C82365D24B60E96(::System::String* a1, ::System::String* a2, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a3)
-	{
-		return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_1_5B92B555042394F5_METHOD_1_9C82365D24B60E96_OFFSET))(a1, a2, a3);
-	}
-
 	static ::System::String* Method_1_B38D0BE69E42199B(::System::String* a1, ::System::String* a2, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a3)
 	{
 		return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_5B92B555042394F5_METHOD_1_B38D0BE69E42199B_OFFSET))(a1, a2, a3);
+	}
+
+	static ::System::String* Method_1_9C82365D24B60E96(::System::String* a1, ::System::String* a2, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a3)
+	{
+		return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_1_5B92B555042394F5_METHOD_1_9C82365D24B60E96_OFFSET))(a1, a2, a3);
 	}
 };

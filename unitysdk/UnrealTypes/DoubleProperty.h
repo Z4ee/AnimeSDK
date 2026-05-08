@@ -6,12 +6,12 @@
 namespace UnrealTypes { class DoublePropertyParams; }
 namespace UnrealTypes { class IFieldVariant; }
 
-#define UNREALTYPES_DOUBLEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A204630)
-#define UNREALTYPES_DOUBLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2046F0)
+#define UNREALTYPES_DOUBLEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD9B140)
+#define UNREALTYPES_DOUBLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9B200)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int DoubleProperty_TypeDefinitionIndex = 24770;
+	inline static constexpr unsigned int DoubleProperty_TypeDefinitionIndex = 25284;
 
 	class DoubleProperty : public ::UnrealTypes::UnmanagedProperty_1<::System::Double>
 	{

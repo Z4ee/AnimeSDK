@@ -6,12 +6,12 @@
 namespace MoleMole { class UnitSKinAnimationConfigMap; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_SKINMAPANIMATIONCLIPDATA_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0xB934500)
-#define MOLEMOLE_SKINMAPANIMATIONCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB934570)
+#define MOLEMOLE_SKINMAPANIMATIONCLIPDATA_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1585D150)
+#define MOLEMOLE_SKINMAPANIMATIONCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1585D1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkinMapAnimationClipData_TypeDefinitionIndex = 62754;
+	inline static constexpr unsigned int SkinMapAnimationClipData_TypeDefinitionIndex = 57465;
 
 	class SkinMapAnimationClipData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

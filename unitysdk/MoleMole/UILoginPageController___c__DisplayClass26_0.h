@@ -6,12 +6,12 @@ namespace MoleMole { class ServerListInfo; }
 namespace MoleMole { class UILoginPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8EC4260)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS26_0__SETBESTSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x8EC4270)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x147B5A20)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS26_0__SETBESTSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x147B5A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginPageController___c__DisplayClass26_0_TypeDefinitionIndex = 52014;
+	inline static constexpr unsigned int UILoginPageController___c__DisplayClass26_0_TypeDefinitionIndex = 76790;
 
 	class UILoginPageController___c__DisplayClass26_0 : public ::System::Object
 	{

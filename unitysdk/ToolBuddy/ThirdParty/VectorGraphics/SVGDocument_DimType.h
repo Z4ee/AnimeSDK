@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_DimType_TypeDefinitionIndex = 27950;
+	inline static constexpr unsigned int SVGDocument_DimType_TypeDefinitionIndex = 28468;
 
 	enum class SVGDocument_DimType : ::System::Int32
 	{

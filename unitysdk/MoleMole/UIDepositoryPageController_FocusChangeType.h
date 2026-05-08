@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController_FocusChangeType_TypeDefinitionIndex = 51951;
+	inline static constexpr unsigned int UIDepositoryPageController_FocusChangeType_TypeDefinitionIndex = 77130;
 
 	enum class UIDepositoryPageController_FocusChangeType : ::System::Int32
 	{
 		LeftToRight = 1,
-		RightToLeft = 2,
 		None = 0,
+		RightToLeft = 2,
 	};
 }

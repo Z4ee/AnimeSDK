@@ -8,14 +8,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST_COLLECT_OFFSET UNITYSDK_OFFSET(0x1B3AE280)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1B3AE5F0)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1B3ADDB0)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3AE600)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST_COLLECT_OFFSET UNITYSDK_OFFSET(0x1C1B5250)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x1C1B55C0)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1C1B4D70)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B55D0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int GameplayTagList_TypeDefinitionIndex = 9075;
+	inline static constexpr unsigned int GameplayTagList_TypeDefinitionIndex = 8942;
 
 	class GameplayTagList : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

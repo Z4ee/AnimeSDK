@@ -5,20 +5,20 @@
 namespace MoleMole { class UIRecommendTypeRandPropertyRowWidgetController; }
 namespace MoleMole { class UIRoleEquipRecommendPopWindowController___c__DisplayClass17_0; }
 
-#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAFADEB0)
-#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_1__REFRESHRANDPROPERTYFILTERITEMS_B__2_OFFSET UNITYSDK_OFFSET(0xAFADEC0)
+#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0xEB99A20)
+#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_1__REFRESHRANDPROPERTYFILTERITEMS_B__2_OFFSET UNITYSDK_OFFSET(0xEB99A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipRecommendPopWindowController___c__DisplayClass17_1_TypeDefinitionIndex = 43731;
+	inline static constexpr unsigned int UIRoleEquipRecommendPopWindowController___c__DisplayClass17_1_TypeDefinitionIndex = 73791;
 
 	class UIRoleEquipRecommendPopWindowController___c__DisplayClass17_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIRoleEquipRecommendPopWindowController___c__DisplayClass17_0* CS___8__locals1; // 0x10
-		::MoleMole::UIRecommendTypeRandPropertyRowWidgetController* itemCtrl; // 0x18
-		::System::Boolean needSelect; // 0x20
-		::System::Int32 itemIdx; // 0x24
+		::MoleMole::UIRecommendTypeRandPropertyRowWidgetController* itemCtrl; // 0x10
+		::MoleMole::UIRoleEquipRecommendPopWindowController___c__DisplayClass17_0* CS___8__locals1; // 0x18
+		::System::Int32 itemIdx; // 0x20
+		::System::Boolean needSelect; // 0x24
 
 		::System::Void _ctor()
 		{

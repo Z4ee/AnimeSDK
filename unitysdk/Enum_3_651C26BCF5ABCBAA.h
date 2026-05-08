@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_651C26BCF5ABCBAA_TypeDefinitionIndex = 51068;
+inline static constexpr unsigned int Enum_3_651C26BCF5ABCBAA_TypeDefinitionIndex = 58722;
 
 enum class Enum_3_651C26BCF5ABCBAA : ::System::Int32
 {
-	SameNameAbility = 1,
 	CurTargetAbility = 0,
+	SameNameAbility = 1,
 	GlobalAbility = 4,
 };

@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FBXDECALUVCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A090C0)
+#define FBXDECALUVCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191B98E0)
 
-inline static constexpr unsigned int FBXDecalUVConfig_TypeDefinitionIndex = 9485;
+inline static constexpr unsigned int FBXDecalUVConfig_TypeDefinitionIndex = 9496;
 
 class FBXDecalUVConfig : public ::UnityEngine::ScriptableObject
 {

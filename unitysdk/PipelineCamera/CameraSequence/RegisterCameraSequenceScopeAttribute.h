@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_REGISTERCAMERASEQUENCESCOPEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8AF9A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_REGISTERCAMERASEQUENCESCOPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8AF890)
+#define PIPELINECAMERA_CAMERASEQUENCE_REGISTERCAMERASEQUENCESCOPEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4CE870)
+#define PIPELINECAMERA_CAMERASEQUENCE_REGISTERCAMERASEQUENCESCOPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CE760)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int RegisterCameraSequenceScopeAttribute_TypeDefinitionIndex = 35774;
+	inline static constexpr unsigned int RegisterCameraSequenceScopeAttribute_TypeDefinitionIndex = 36318;
 
 	class RegisterCameraSequenceScopeAttribute : public ::System::Attribute
 	{
 	public:
 		static ::System::Type** StaticGet_ScopeType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(RegisterCameraSequenceScopeAttribute_TypeDefinitionIndex)->GetStaticField(0x26550);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(RegisterCameraSequenceScopeAttribute_TypeDefinitionIndex)->GetStaticField(0x27100);
 		}
 		::System::String* TypeName; // 0x10
 		::PipelineCamera::CameraSequence::CameraSequenceScopeAttributeFlags Flags; // 0x18

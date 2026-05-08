@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::ImportExport
 {
-	inline static constexpr unsigned int FileFormat_TypeDefinitionIndex = 36717;
+	inline static constexpr unsigned int FileFormat_TypeDefinitionIndex = 37261;
 
 	enum class FileFormat : ::System::Int32
 	{

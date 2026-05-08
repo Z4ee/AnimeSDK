@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xBC94A70)
-#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0xBC94A80)
-#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_A1C7122184516C18_OFFSET UNITYSDK_OFFSET(0xBC94AF0)
-#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_D0CD9A971CA3B1CF_OFFSET UNITYSDK_OFFSET(0xBC950C0)
-#define CLASS_3_9F92921A2B8EBE2A__CTOR_OFFSET UNITYSDK_OFFSET(0xBC94A90)
+#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xF219030)
+#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0xF219040)
+#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_A1C7122184516C18_OFFSET UNITYSDK_OFFSET(0xF2190B0)
+#define CLASS_3_9F92921A2B8EBE2A_METHOD_3_D0CD9A971CA3B1CF_OFFSET UNITYSDK_OFFSET(0xF219660)
+#define CLASS_3_9F92921A2B8EBE2A__CTOR_OFFSET UNITYSDK_OFFSET(0xF219050)
 
-inline static constexpr unsigned int Class_3_9F92921A2B8EBE2A_TypeDefinitionIndex = 71245;
+inline static constexpr unsigned int Class_3_9F92921A2B8EBE2A_TypeDefinitionIndex = 73774;
 
 class Class_3_9F92921A2B8EBE2A : public ::Class_2_2E40794F1F3D2434
 {
 public:
-	::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* Field_3_1; // 0x30
-	::System::String* Field_3_0; // 0x38
-	::System::Int32 Field_3_2; // 0x40
-	::System::UInt64 Field_3_3; // 0x48
+	::System::String* Field_3_0; // 0x30
+	::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* Field_3_1; // 0x38
+	::System::UInt64 Field_3_3; // 0x40
+	::System::Int32 Field_3_2; // 0x48
 
 	::System::Void _ctor(::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* a1, ::System::Int32 a2, ::System::UInt64 a3)
 	{

@@ -8,24 +8,24 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ISINSCENETAGS_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xB83D850)
-#define MOLEMOLE_ISINSCENETAGS_ONRESET_OFFSET UNITYSDK_OFFSET(0xB83DA40)
-#define MOLEMOLE_ISINSCENETAGS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB83D980)
-#define MOLEMOLE_ISINSCENETAGS__CTOR_OFFSET UNITYSDK_OFFSET(0xB83DAA0)
-#define MOLEMOLE_ISINSCENETAGS___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0xB83DAE0)
-#define MOLEMOLE_ISINSCENETAGS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0xB83DB70)
-#define MOLEMOLE_ISINSCENETAGS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB83DC00)
+#define MOLEMOLE_ISINSCENETAGS_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x178172E0)
+#define MOLEMOLE_ISINSCENETAGS_ONRESET_OFFSET UNITYSDK_OFFSET(0x178174D0)
+#define MOLEMOLE_ISINSCENETAGS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17817430)
+#define MOLEMOLE_ISINSCENETAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17817510)
+#define MOLEMOLE_ISINSCENETAGS___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x178175A0)
+#define MOLEMOLE_ISINSCENETAGS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x17817630)
+#define MOLEMOLE_ISINSCENETAGS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x178176C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int IsInSceneTags_TypeDefinitionIndex = 50163;
+	inline static constexpr unsigned int IsInSceneTags_TypeDefinitionIndex = 42477;
 
 	class IsInSceneTags : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
-		::System::Collections::Generic::List_1<::System::String*>* Tags; // 0x58
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x60
+		::System::Collections::Generic::List_1<::System::String*>* Tags; // 0x50
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
 
 		::System::Void _ctor()
 		{

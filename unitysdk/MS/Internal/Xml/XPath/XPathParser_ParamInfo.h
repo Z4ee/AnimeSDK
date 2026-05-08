@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19A33A10)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75FDD0)
 
 namespace MS::Internal::Xml::XPath
 {
@@ -15,8 +15,8 @@ namespace MS::Internal::Xml::XPath
 	public:
 		::Il2CppArray<::System::Xml::XPath::XPathResultType>* argTypes; // 0x10
 		::System::Int32 maxargs; // 0x18
-		::System::Int32 minargs; // 0x1C
-		::MS::Internal::Xml::XPath::Function_FunctionType ftype; // 0x20
+		::MS::Internal::Xml::XPath::Function_FunctionType ftype; // 0x1C
+		::System::Int32 minargs; // 0x20
 
 		::System::Void _ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::System::Int32 minargs, ::System::Int32 maxargs, ::Il2CppArray<::System::Xml::XPath::XPathResultType>* argTypes)
 		{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define URPEULERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x189D7570)
+#define URPEULERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9E9E0)
 
-inline static constexpr unsigned int URPEulerValue_TypeDefinitionIndex = 29001;
+inline static constexpr unsigned int URPEulerValue_TypeDefinitionIndex = 29520;
 
 class URPEulerValue : public ::UnityEngine::PropertyAttribute
 {

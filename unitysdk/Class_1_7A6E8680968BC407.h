@@ -10,19 +10,19 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7A6E8680968BC407_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x7216AF0)
-#define CLASS_1_7A6E8680968BC407_METHOD_1_A2C01E7AFFF0F969_OFFSET UNITYSDK_OFFSET(0x72165A0)
-#define CLASS_1_7A6E8680968BC407_METHOD_1_D07EA7D20E3060A4_OFFSET UNITYSDK_OFFSET(0x7216A80)
-#define CLASS_1_7A6E8680968BC407_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x7216900)
+#define CLASS_1_7A6E8680968BC407_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x143DDDC0)
+#define CLASS_1_7A6E8680968BC407_METHOD_1_A2C01E7AFFF0F969_OFFSET UNITYSDK_OFFSET(0x143DDA20)
+#define CLASS_1_7A6E8680968BC407_METHOD_1_E0990BFB432B1B69_OFFSET UNITYSDK_OFFSET(0x143DDD70)
+#define CLASS_1_7A6E8680968BC407_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x143DDFE0)
 
-inline static constexpr unsigned int Class_1_7A6E8680968BC407_TypeDefinitionIndex = 46987;
+inline static constexpr unsigned int Class_1_7A6E8680968BC407_TypeDefinitionIndex = 43149;
 
 class Class_1_7A6E8680968BC407 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::MoleMole::Config::ConfigTriggerCache*>*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::MoleMole::Config::ConfigTriggerCache*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7A6E8680968BC407_TypeDefinitionIndex)->GetStaticField(0x3A490);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::MoleMole::Config::ConfigTriggerCache*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7A6E8680968BC407_TypeDefinitionIndex)->GetStaticField(0x3FDC0);
 	}
 
 	static ::System::Void Method_1_A2C01E7AFFF0F969(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_230D8C57C4E2F415*>*>*& a2)
@@ -30,18 +30,18 @@ public:
 		return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_230D8C57C4E2F415*>*>*&))((::PBYTE)hIl2Cpp + CLASS_1_7A6E8680968BC407_METHOD_1_A2C01E7AFFF0F969_OFFSET))(a1, a2);
 	}
 
+	static ::System::Void Method_1_E0990BFB432B1B69(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_7A6E8680968BC407_METHOD_1_E0990BFB432B1B69_OFFSET))(a1, a2);
+	}
+
 	static ::System::Void Method_1_FDDC5A41F149A0CC(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7A6E8680968BC407_METHOD_1_FDDC5A41F149A0CC_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::System::Void Method_1_D07EA7D20E3060A4(::System::Boolean a1, ::System::Action* a2)
+	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_7A6E8680968BC407_METHOD_1_D07EA7D20E3060A4_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_7A6E8680968BC407_METHOD_1_0BE1846AC20D43BE_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_7A6E8680968BC407_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
 	}
 };

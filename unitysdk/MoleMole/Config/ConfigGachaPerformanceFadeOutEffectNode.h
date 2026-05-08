@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x9D06F30)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D06FC0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1230B9A0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1230BA10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceFadeOutEffectNode_TypeDefinitionIndex = 40338;
+	inline static constexpr unsigned int ConfigGachaPerformanceFadeOutEffectNode_TypeDefinitionIndex = 51861;
 
 	class ConfigGachaPerformanceFadeOutEffectNode : public ::MoleMole::Config::ConfigConditionPredicateNode
 	{

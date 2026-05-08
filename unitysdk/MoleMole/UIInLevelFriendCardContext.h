@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIFriendCardContext.h"
 
-#define MOLEMOLE_UIINLEVELFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x980A650)
+#define MOLEMOLE_UIINLEVELFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB6690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelFriendCardContext_TypeDefinitionIndex = 59450;
+	inline static constexpr unsigned int UIInLevelFriendCardContext_TypeDefinitionIndex = 58393;
 
 	class UIInLevelFriendCardContext : public ::MoleMole::UIFriendCardContext
 	{

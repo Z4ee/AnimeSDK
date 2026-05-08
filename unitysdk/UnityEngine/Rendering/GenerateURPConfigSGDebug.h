@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_RENDERING_GENERATEURPCONFIGSGDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x189DB130)
+#define UNITYENGINE_RENDERING_GENERATEURPCONFIGSGDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA2030)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GenerateURPConfigSGDebug_TypeDefinitionIndex = 29258;
+	inline static constexpr unsigned int GenerateURPConfigSGDebug_TypeDefinitionIndex = 29777;
 
 	class GenerateURPConfigSGDebug : public ::System::Attribute
 	{

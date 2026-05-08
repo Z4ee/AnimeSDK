@@ -7,8 +7,8 @@ namespace System { class IAsyncResult; }
 namespace System { class String; }
 namespace System::Net::Sockets { class UdpClient; }
 
-#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187E6E20)
-#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x187E6E30)
+#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC6F50)
+#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x18FC6F60)
 
 namespace System::Net::Sockets
 {
@@ -20,8 +20,8 @@ namespace System::Net::Sockets
 		::System::String* hostname; // 0x10
 		::System::Net::Sockets::UdpClient* __4__this; // 0x18
 		::Il2CppArray<::System::Byte>* datagram; // 0x20
-		::System::Int32 bytes; // 0x28
-		::System::Int32 port; // 0x2C
+		::System::Int32 port; // 0x28
+		::System::Int32 bytes; // 0x2C
 
 		::System::Void _ctor()
 		{

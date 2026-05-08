@@ -18,7 +18,7 @@ namespace MoleMole::Photo { class PlayableBlendSpace1DConfig; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-inline static constexpr unsigned int Class_1_00B0B144209E4523_TypeDefinitionIndex = 65524;
+inline static constexpr unsigned int Class_1_00B0B144209E4523_TypeDefinitionIndex = 38671;
 
 template <typename T>
 class Class_1_00B0B144209E4523 : public ::System::Object

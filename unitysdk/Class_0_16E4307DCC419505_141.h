@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_71EC4C1B01D4407F.h"
-#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_C9DFE5EE7107C629_1;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_3_6EF456A21AE85EEC_135;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_141_TypeDefinitionIndex = 67026;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_141_TypeDefinitionIndex = 79829;
 
 class Class_0_16E4307DCC419505_141
 {

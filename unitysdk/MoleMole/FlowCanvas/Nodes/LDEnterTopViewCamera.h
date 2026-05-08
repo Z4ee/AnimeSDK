@@ -4,12 +4,12 @@
 
 namespace MoleMole::Cameras { class TopViewCameraConfig; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERTOPVIEWCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0xA381E40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERTOPVIEWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xA381F70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERTOPVIEWCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x170C1F90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERTOPVIEWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x170C2090)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterTopViewCamera_TypeDefinitionIndex = 73417;
+	inline static constexpr unsigned int LDEnterTopViewCamera_TypeDefinitionIndex = 50403;
 
 	class LDEnterTopViewCamera : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Boolean, ::MoleMole::Cameras::TopViewCameraConfig*>
 	{

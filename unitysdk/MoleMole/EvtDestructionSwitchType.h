@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EvtDestructionSwitchType_TypeDefinitionIndex = 50466;
+	inline static constexpr unsigned int EvtDestructionSwitchType_TypeDefinitionIndex = 50073;
 
 	enum class EvtDestructionSwitchType : ::System::Int32
 	{
 		Die = 2,
-		ExitStatus = 0,
 		EnterStatus = 1,
+		ExitStatus = 0,
 	};
 }

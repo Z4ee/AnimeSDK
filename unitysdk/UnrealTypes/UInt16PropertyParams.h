@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/GenericPropertyParams.h"
 
-#define UNREALTYPES_UINT16PROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A214360)
+#define UNREALTYPES_UINT16PROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAAFC0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int UInt16PropertyParams_TypeDefinitionIndex = 24735;
+	inline static constexpr unsigned int UInt16PropertyParams_TypeDefinitionIndex = 25249;
 
 	class UInt16PropertyParams : public ::UnrealTypes::GenericPropertyParams
 	{

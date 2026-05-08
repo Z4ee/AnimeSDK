@@ -5,24 +5,24 @@
 namespace MoleMole { class UIMissionTipsContainerWidgetController_MissionTipData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8ED7500)
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED7540)
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__REALPLAY_B__94_0_OFFSET UNITYSDK_OFFSET(0x8ED7550)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x147C8930)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x147C8970)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER___C__REALPLAY_B__94_0_OFFSET UNITYSDK_OFFSET(0x147C8980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController___c_TypeDefinitionIndex = 70936;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController___c_TypeDefinitionIndex = 55070;
 
 	class UIMissionTipsContainerWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIMissionTipsContainerWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMissionTipsContainerWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMissionTipsContainerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x31CA0);
-		}
 		static ::System::Comparison_1<::MoleMole::UIMissionTipsContainerWidgetController_MissionTipData*>** StaticGet___9__94_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIMissionTipsContainerWidgetController_MissionTipData*>**)Il2CppClass::FromTypeDefinitionIndex(UIMissionTipsContainerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x31CA8);
+			return (::System::Comparison_1<::MoleMole::UIMissionTipsContainerWidgetController_MissionTipData*>**)Il2CppClass::FromTypeDefinitionIndex(UIMissionTipsContainerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x329A0);
+		}
+		static ::MoleMole::UIMissionTipsContainerWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIMissionTipsContainerWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMissionTipsContainerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x329A8);
 		}
 
 		static ::System::Void _cctor()

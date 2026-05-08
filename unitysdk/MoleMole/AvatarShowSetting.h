@@ -12,25 +12,25 @@ namespace MoleMole { class UIAvatarLightSetting; }
 namespace MoleMole { class UIAvatarSetting; }
 namespace MoleMole { class UIModelBgSetting; }
 
-#define MOLEMOLE_AVATARSHOWSETTING_GETSKINOVERRIDESETTING_OFFSET UNITYSDK_OFFSET(0x9B91DE0)
-#define MOLEMOLE_AVATARSHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x9B91D30)
+#define MOLEMOLE_AVATARSHOWSETTING_GETSKINOVERRIDESETTING_OFFSET UNITYSDK_OFFSET(0x12CFB9C0)
+#define MOLEMOLE_AVATARSHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12CFB910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarShowSetting_TypeDefinitionIndex = 68886;
+	inline static constexpr unsigned int AvatarShowSetting_TypeDefinitionIndex = 57569;
 
 	class AvatarShowSetting : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAvatarCameraSetting* AvatarCameraSetting; // 0x10
-		::MoleMole::UIAvatarCameraAnimationSetting* AvatarCameraAnimSetting; // 0x18
+		::MoleMole::UIAvatarSetting* AvatarSetting; // 0x10
+		::MoleMole::UIAvatarAnimatorParamsSetting* AnimatorParamsSetting; // 0x18
 		::MoleMole::UIModelBgSetting* ModelBgSetting; // 0x20
-		::MoleMole::UIAvatarLightSetting* AvatarLightSetting; // 0x28
-		::MoleMole::AnimatorRandomIntConfig* AnimatorRandomIntConfigs; // 0x30
-		::MoleMole::SkinOverrideShowSettingConfigs* SkinOverrideShowSettingConfigs; // 0x38
-		::MoleMole::UIAvatarAnimatorParamsSetting* AnimatorParamsSetting; // 0x40
-		::MoleMole::SecondaryCharacterShowSetting* SecondaryCharacterShowSetting; // 0x48
-		::MoleMole::UIAvatarSetting* AvatarSetting; // 0x50
+		::MoleMole::SecondaryCharacterShowSetting* SecondaryCharacterShowSetting; // 0x28
+		::MoleMole::UIAvatarCameraSetting* AvatarCameraSetting; // 0x30
+		::MoleMole::UIAvatarLightSetting* AvatarLightSetting; // 0x38
+		::MoleMole::SkinOverrideShowSettingConfigs* SkinOverrideShowSettingConfigs; // 0x40
+		::MoleMole::UIAvatarCameraAnimationSetting* AvatarCameraAnimSetting; // 0x48
+		::MoleMole::AnimatorRandomIntConfig* AnimatorRandomIntConfigs; // 0x50
 
 		::System::Void _ctor()
 		{

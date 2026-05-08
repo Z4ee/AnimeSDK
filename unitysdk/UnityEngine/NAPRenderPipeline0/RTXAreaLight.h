@@ -11,11 +11,11 @@ namespace UnityEngine::NAPRenderPipeline0 { class RTXAreaLight_HistoryBuffer; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AA40150)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_GATHERAREALIGHT_OFFSET UNITYSDK_OFFSET(0x1AA40140)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_RTXAREALIGHTENABLED_OFFSET UNITYSDK_OFFSET(0x1AA40130)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA401F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA401A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC1FFA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_GATHERAREALIGHT_OFFSET UNITYSDK_OFFSET(0x1BC1FF90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT_RTXAREALIGHTENABLED_OFFSET UNITYSDK_OFFSET(0x1BC1FF80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC20040)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXAREALIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1FFF0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
@@ -24,33 +24,33 @@ namespace UnityEngine::NAPRenderPipeline0
 	class RTXAreaLight : public ::UnityEngine::NAPRenderPipeline0::RTXRenderer
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXALBoost()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXALSPP()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5400);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5400);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXALSuperSampleWhenReprojectionFailed()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXALBoost()
 		{
 			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5408);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXALDebugMode()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXALDiffuseOnly()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5410);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXALSPP()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5418);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5410);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXALShadowSPP()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5420);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXALDiffuseOnly()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5428);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5418);
 		}
 		static ::UnityEngine::Material** StaticGet_rtxgiMat()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5430);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5420);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXALSuperSampleWhenReprojectionFailed()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5428);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXALDebugMode()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXAreaLight_TypeDefinitionIndex)->GetStaticField(0x5430);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_EnableRTXAL()
 		{

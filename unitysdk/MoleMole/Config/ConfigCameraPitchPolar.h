@@ -10,28 +10,28 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x94FC030)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMFLX_OFFSET UNITYSDK_OFFSET(0x94FB250)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x94FC090)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x94FB2D0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR__CTOR_OFFSET UNITYSDK_OFFSET(0x94FC4B0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x124186D0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMFLX_OFFSET UNITYSDK_OFFSET(0x124178F0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x12418730)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x12417970)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR__CTOR_OFFSET UNITYSDK_OFFSET(0x12418B50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraPitchPolar_TypeDefinitionIndex = 65616;
+	inline static constexpr unsigned int ConfigCameraPitchPolar_TypeDefinitionIndex = 82759;
 
 	class ConfigCameraPitchPolar : public ::System::Object
 	{
 	public:
 		::System::String* StartCurveKey; // 0x10
-		::MoleMole::Config::ValueVariationType FovVariationType; // 0x18
+		::System::Boolean IgnoreLocalAvatar; // 0x18
+		::System::Boolean IngoreTimeScale; // 0x19
 		::System::Single StartTime; // 0x1C
 		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x20
-		::System::Boolean IgnoreLocalAvatar; // 0x24
-		::System::Boolean IngoreTimeScale; // 0x25
-		::System::Single PolarOffsetAngle; // 0x28
+		::System::Single PolarOffsetAngle; // 0x24
+		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x28
 		::System::Single ElevationAngle; // 0x2C
-		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x30
+		::MoleMole::Config::ValueVariationType FovVariationType; // 0x30
 
 		::System::Void _ctor()
 		{

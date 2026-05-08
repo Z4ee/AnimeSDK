@@ -5,19 +5,19 @@
 namespace MoleMole { class UIHadalZone_RoomV2_WidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1304D0)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__DISPLAYCLASS25_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0xC1304E0)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__DISPLAYCLASS25_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0xC130550)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169CA820)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__DISPLAYCLASS25_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x169CA830)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__DISPLAYCLASS25_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0x169CA8A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_RoomV2_WidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 76405;
+	inline static constexpr unsigned int UIHadalZone_RoomV2_WidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 51354;
 
 	class UIHadalZone_RoomV2_WidgetController___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHadalZone_RoomV2_WidgetController* __4__this; // 0x10
-		::System::Action* onFinished; // 0x18
+		::System::Action* onFinished; // 0x10
+		::MoleMole::UIHadalZone_RoomV2_WidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

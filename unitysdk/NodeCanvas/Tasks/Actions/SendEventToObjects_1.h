@@ -9,7 +9,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendEventToObjects_1_TypeDefinitionIndex = 26391;
+	inline static constexpr unsigned int SendEventToObjects_1_TypeDefinitionIndex = 27790;
 
 	template <typename T>
 	class SendEventToObjects_1 : public ::NodeCanvas::Framework::ActionTask

@@ -4,25 +4,25 @@
 #include "unitysdk/Class_1_EF32BCC5C168925E_Struct_2_52459899DB7358B9.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/EAvatarCameraShotType.h"
 
-class Class_0_16E4307DCC419505_563;
+class Class_0_16E4307DCC419505_519;
 namespace MoleMole { class LevelSectionGroupData; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811_METHOD_2_2B66C008535F8B01_OFFSET UNITYSDK_OFFSET(0x7027520)
-#define CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811_METHOD_2_998E122F46014853_OFFSET UNITYSDK_OFFSET(0x7027AF0)
-#define CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811__CTOR_OFFSET UNITYSDK_OFFSET(0x7027A40)
+#define CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811_METHOD_2_2B66C008535F8B01_OFFSET UNITYSDK_OFFSET(0x14BE4300)
+#define CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811_METHOD_2_998E122F46014853_OFFSET UNITYSDK_OFFSET(0x14BE4820)
+#define CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811__CTOR_OFFSET UNITYSDK_OFFSET(0x14BE47B0)
 
-inline static constexpr unsigned int Class_1_EF32BCC5C168925E_Class_2_D79EAC1C01FE7811_TypeDefinitionIndex = 60392;
+inline static constexpr unsigned int Class_1_EF32BCC5C168925E_Class_2_D79EAC1C01FE7811_TypeDefinitionIndex = 57206;
 
 class Class_1_EF32BCC5C168925E_Class_2_D79EAC1C01FE7811 : public ::Class_1_EF32BCC5C168925E_Class_1_02F8008115ABA9CB
 {
 public:
 	::MoleMole::FlowCanvas::Nodes::EAvatarCameraShotType Field_2_0; // 0x78
 
-	::System::Void _ctor(::MoleMole::FlowCanvas::Nodes::EAvatarCameraShotType a1, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a2, ::Class_1_EF32BCC5C168925E_Struct_2_52459899DB7358B9 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::MoleMole::LevelSectionGroupData* a7, ::Class_0_16E4307DCC419505_563* a8)
+	::System::Void _ctor(::MoleMole::FlowCanvas::Nodes::EAvatarCameraShotType a1, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a2, ::Class_1_EF32BCC5C168925E_Struct_2_52459899DB7358B9 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::MoleMole::LevelSectionGroupData* a7, ::Class_0_16E4307DCC419505_519* a8)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::FlowCanvas::Nodes::EAvatarCameraShotType, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::Class_1_EF32BCC5C168925E_Struct_2_52459899DB7358B9, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::MoleMole::LevelSectionGroupData*, ::Class_0_16E4307DCC419505_563*))((::PBYTE)hIl2Cpp + CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::FlowCanvas::Nodes::EAvatarCameraShotType, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::Class_1_EF32BCC5C168925E_Struct_2_52459899DB7358B9, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::MoleMole::LevelSectionGroupData*, ::Class_0_16E4307DCC419505_519*))((::PBYTE)hIl2Cpp + CLASS_1_EF32BCC5C168925E_CLASS_2_D79EAC1C01FE7811__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 	}
 
 	::System::Void Method_2_2B66C008535F8B01()

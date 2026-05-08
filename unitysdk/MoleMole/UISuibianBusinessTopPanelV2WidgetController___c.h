@@ -4,24 +4,24 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAADB3E0)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAADB420)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__ONUIINIT_B__3_0_OFFSET UNITYSDK_OFFSET(0xAADB430)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C0CFA0)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0CFE0)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__ONUIINIT_B__3_0_OFFSET UNITYSDK_OFFSET(0x14C0CFF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex = 72536;
+	inline static constexpr unsigned int UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex = 51194;
 
 	class UISuibianBusinessTopPanelV2WidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UISuibianBusinessTopPanelV2WidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UISuibianBusinessTopPanelV2WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x31DF0);
-		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__3_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x31DF8);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32AF0);
+		}
+		static ::MoleMole::UISuibianBusinessTopPanelV2WidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UISuibianBusinessTopPanelV2WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32AF8);
 		}
 
 		static ::System::Void _cctor()

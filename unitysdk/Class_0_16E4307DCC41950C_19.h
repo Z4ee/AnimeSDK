@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Struct_2_D57A57246A9544D0.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC41950C_19_TypeDefinitionIndex = 66378;
+inline static constexpr unsigned int Class_0_16E4307DCC41950C_19_TypeDefinitionIndex = 82928;
 
 template <typename TPose, typename TIntrinsics, typename TOuterCtx>
 class Class_0_16E4307DCC41950C_19

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ABILITY_NPCMOVEAVOIDANCEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EAAD0)
+#define NPCCROWD_ABILITY_NPCMOVEAVOIDANCEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11D85C60)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCMoveAvoidanceParam_TypeDefinitionIndex = 50381;
+	inline static constexpr unsigned int NPCMoveAvoidanceParam_TypeDefinitionIndex = 41539;
 
 	class NPCMoveAvoidanceParam : public ::System::Object
 	{

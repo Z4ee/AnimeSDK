@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsEntityGetter_2_TypeDefinitionIndex = 35231;
+	inline static constexpr unsigned int EcsEntityGetter_2_TypeDefinitionIndex = 35776;
 
 	template <typename T1, typename TResult>
 	struct EcsEntityGetter_2

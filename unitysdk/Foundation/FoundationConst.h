@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_FOUNDATIONCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2CDA0)
+#define FOUNDATION_FOUNDATIONCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6172B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FoundationConst_TypeDefinitionIndex = 7774;
+	inline static constexpr unsigned int FoundationConst_TypeDefinitionIndex = 8297;
 
 	class FoundationConst : public ::System::Object
 	{

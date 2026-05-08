@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_2BB5A4A452E9A1B4.h"
+#include "unitysdk/Class_2_A9613D9C64F0521C.h"
 
 namespace MoleMole { class UIBabeltowerTrickScoreRowWidgetController; }
 namespace System { class String; }
 
-#define CLASS_3_D31C27CCD9665615_METHOD_3_B0A0448CAF43BDB2_OFFSET UNITYSDK_OFFSET(0x8BDE030)
-#define CLASS_3_D31C27CCD9665615_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0x8BDE0B0)
-#define CLASS_3_D31C27CCD9665615__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8BDE000)
-#define CLASS_3_D31C27CCD9665615__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDDFD0)
+#define CLASS_3_D31C27CCD9665615_METHOD_3_B0A0448CAF43BDB2_OFFSET UNITYSDK_OFFSET(0x1039CA60)
+#define CLASS_3_D31C27CCD9665615_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0x1039CAC0)
+#define CLASS_3_D31C27CCD9665615__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1039CA30)
+#define CLASS_3_D31C27CCD9665615__CTOR_OFFSET UNITYSDK_OFFSET(0x1039CA00)
 
-inline static constexpr unsigned int Class_3_D31C27CCD9665615_TypeDefinitionIndex = 40070;
+inline static constexpr unsigned int Class_3_D31C27CCD9665615_TypeDefinitionIndex = 72916;
 
-class Class_3_D31C27CCD9665615 : public ::Class_2_2BB5A4A452E9A1B4<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
+class Class_3_D31C27CCD9665615 : public ::Class_2_A9613D9C64F0521C<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
 {
 public:
-	::System::Int32 Field_3_0; // 0x28
-	::System::Int32 Field_3_1; // 0x2C
+	::System::Int32 Field_3_1; // 0x28
+	::System::Int32 Field_3_0; // 0x2C
 
 	::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 	{

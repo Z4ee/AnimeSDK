@@ -3,17 +3,17 @@
 #include "unitysdk/Enum_3_B9082A0CB4C1635D.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONTESTROOTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB5138B0)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONTESTROOTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13FDEE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicGameGeneralCalibrationTestRootWidgetController_Context_TypeDefinitionIndex = 58221;
+	inline static constexpr unsigned int UIMusicGameGeneralCalibrationTestRootWidgetController_Context_TypeDefinitionIndex = 67017;
 
 	class UIMusicGameGeneralCalibrationTestRootWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Boolean OpenFromMainLine; // 0x28
-		::Enum_3_B9082A0CB4C1635D source; // 0x2C
+		::Enum_3_B9082A0CB4C1635D source; // 0x28
+		::System::Boolean OpenFromMainLine; // 0x2C
 
 		::System::Void _ctor()
 		{

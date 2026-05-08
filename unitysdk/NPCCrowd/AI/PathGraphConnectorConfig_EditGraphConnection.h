@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_AI_PATHGRAPHCONNECTORCONFIG_EDITGRAPHCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9AF8530)
+#define NPCCROWD_AI_PATHGRAPHCONNECTORCONFIG_EDITGRAPHCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xF84BFA0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConnectorConfig_EditGraphConnection_TypeDefinitionIndex = 65378;
+	inline static constexpr unsigned int PathGraphConnectorConfig_EditGraphConnection_TypeDefinitionIndex = 77676;
 
 	class PathGraphConnectorConfig_EditGraphConnection : public ::System::Object
 	{

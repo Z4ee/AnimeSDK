@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIOVERLORDFEASTGUESTEVALUATEWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB517450)
-#define MOLEMOLE_UIOVERLORDFEASTGUESTEVALUATEWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xB517460)
+#define MOLEMOLE_UIOVERLORDFEASTGUESTEVALUATEWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13FE2800)
+#define MOLEMOLE_UIOVERLORDFEASTGUESTEVALUATEWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x13FE2810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastGuestEvaluateWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 66182;
+	inline static constexpr unsigned int UIOverlordFeastGuestEvaluateWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 41988;
 
 	class UIOverlordFeastGuestEvaluateWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{

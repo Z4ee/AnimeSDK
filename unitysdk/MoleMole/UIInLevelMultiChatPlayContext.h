@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIMainCityChatPlayContext.h"
 #include "unitysdk/Struct_2_57C422EDEAAA7766.h"
 
-#define MOLEMOLE_UIINLEVELMULTICHATPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8C69110)
+#define MOLEMOLE_UIINLEVELMULTICHATPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D8E960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelMultiChatPlayContext_TypeDefinitionIndex = 48212;
+	inline static constexpr unsigned int UIInLevelMultiChatPlayContext_TypeDefinitionIndex = 47973;
 
 	class UIInLevelMultiChatPlayContext : public ::MoleMole::UIMainCityChatPlayContext
 	{

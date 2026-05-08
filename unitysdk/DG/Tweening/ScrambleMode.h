@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int ScrambleMode_TypeDefinitionIndex = 24841;
+	inline static constexpr unsigned int ScrambleMode_TypeDefinitionIndex = 25355;
 
 	enum class ScrambleMode : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BOOLFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18A41020)
+#define UNITYENGINE_RENDERING_DEBUGUI_BOOLFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x191F2F20)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_BoolField_TypeDefinitionIndex = 9540;
+	inline static constexpr unsigned int DebugUI_BoolField_TypeDefinitionIndex = 9551;
 
 	class DebugUI_BoolField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::Boolean>
 	{

@@ -4,21 +4,21 @@
 
 namespace MoleMole { class UIHollowItemCollectWidgetController_GridCollectionData; }
 
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB11E290)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB11E2C0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__ONUIINIT_G__CREATEVIDEOPLAYER_4_0_OFFSET UNITYSDK_OFFSET(0xB11E2D0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__ONUIINIT_G__ONRELEASE_4_1_OFFSET UNITYSDK_OFFSET(0xB11E4A0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14FD6D00)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD6D40)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__ONUIINIT_G__CREATEVIDEOPLAYER_4_0_OFFSET UNITYSDK_OFFSET(0x14FD6D50)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER___C__ONUIINIT_G__ONRELEASE_4_1_OFFSET UNITYSDK_OFFSET(0x14FD6F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowItemCollectWidgetController___c_TypeDefinitionIndex = 60074;
+	inline static constexpr unsigned int UIHollowItemCollectWidgetController___c_TypeDefinitionIndex = 70390;
 
 	class UIHollowItemCollectWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIHollowItemCollectWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowItemCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowItemCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x432C0);
+			return (::MoleMole::UIHollowItemCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowItemCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47B60);
 		}
 
 		static ::System::Void _cctor()

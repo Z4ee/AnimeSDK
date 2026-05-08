@@ -3,21 +3,21 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingBone_TypeDefinitionIndex = 59651;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingBone_TypeDefinitionIndex = 70495;
 
 	enum class AnimationSubManager_AdjustmentBlendingBone : ::System::Int32
 	{
+		Pelvis = 4,
 		LeftFoot = 1,
-		Root = 0,
-		Spine2 = 7,
-		Neck = 8,
-		Bip001 = 3,
-		RightFoot = 2,
 		Spine1 = 6,
 		Count = 11,
-		LeftHand = 9,
-		Pelvis = 4,
-		RightHand = 10,
 		Spine = 5,
+		LeftHand = 9,
+		Spine2 = 7,
+		Bip001 = 3,
+		Neck = 8,
+		Root = 0,
+		RightFoot = 2,
+		RightHand = 10,
 	};
 }

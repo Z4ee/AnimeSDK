@@ -5,11 +5,11 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYDEMOTRIALBGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC2894B0)
+#define MOLEMOLE_UIACTIVITYDEMOTRIALBGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F33000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDemoTrialBGContext_TypeDefinitionIndex = 51925;
+	inline static constexpr unsigned int UIActivityDemoTrialBGContext_TypeDefinitionIndex = 49086;
 
 	class UIActivityDemoTrialBGContext : public ::MoleMole::UIControllerContextBase
 	{

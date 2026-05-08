@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D13280)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12317850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameItemPredicate_TypeDefinitionIndex = 67189;
+	inline static constexpr unsigned int ConfigSurfGameItemPredicate_TypeDefinitionIndex = 42092;
 
 	class ConfigSurfGameItemPredicate : public ::System::Object
 	{

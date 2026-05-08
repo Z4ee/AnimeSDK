@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER_AUDIOPLAYINGSTATE_RESET_OFFSET UNITYSDK_OFFSET(0xB28A690)
-#define MOLEMOLE_UICOMICPAGECONTROLLER_AUDIOPLAYINGSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB28A710)
+#define MOLEMOLE_UICOMICPAGECONTROLLER_AUDIOPLAYINGSTATE_RESET_OFFSET UNITYSDK_OFFSET(0x158D45D0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER_AUDIOPLAYINGSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x158D4630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController_audioPlayingState_TypeDefinitionIndex = 62533;
+	inline static constexpr unsigned int UIComicPageController_audioPlayingState_TypeDefinitionIndex = 40025;
 
 	class UIComicPageController_audioPlayingState : public ::System::Object
 	{

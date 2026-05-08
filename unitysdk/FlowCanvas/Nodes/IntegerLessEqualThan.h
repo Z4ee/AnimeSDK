@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERLESSEQUALTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A561490)
-#define FLOWCANVAS_NODES_INTEGERLESSEQUALTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5614A0)
+#define FLOWCANVAS_NODES_INTEGERLESSEQUALTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B324510)
+#define FLOWCANVAS_NODES_INTEGERLESSEQUALTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B324520)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerLessEqualThan_TypeDefinitionIndex = 27216;
+	inline static constexpr unsigned int IntegerLessEqualThan_TypeDefinitionIndex = 27983;
 
 	class IntegerLessEqualThan : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Int32, ::System::Int32>
 	{

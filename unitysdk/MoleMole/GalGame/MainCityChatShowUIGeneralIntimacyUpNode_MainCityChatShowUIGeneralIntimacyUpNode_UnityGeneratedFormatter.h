@@ -11,38 +11,38 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xA392A30)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0xA392A40)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0xA392F00)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA393220)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA3931E0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x170D1F90)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x170D1FA0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x170D2440)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x170D2740)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_MAINCITYCHATSHOWUIGENERALINTIMACYUPNODE_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x170D2700)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex = 54448;
+	inline static constexpr unsigned int MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex = 50544;
 
 	class MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::GalGame::MainCityChatShowUIGeneralIntimacyUpNode*>
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer3()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE20);
-		}
-		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE28);
-		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Boolean>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE30);
+			return (::Sirenix::Serialization::Serializer_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x494F0);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::MoleMole::UIGeneralIntimacyUpPopWindowController_Context_Type>** StaticGet_CachedSerializer2()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::MoleMole::UIGeneralIntimacyUpPopWindowController_Context_Type>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE38);
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::UIGeneralIntimacyUpPopWindowController_Context_Type>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x494F8);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::System::Int32>>** StaticGet_CachedSerializer4()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x3EE40);
+			return (::Sirenix::Serialization::Serializer_1<::System::Nullable_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49500);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_CachedSerializer3()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49508);
+		}
+		static ::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>** StaticGet_CachedSerializer1()
+		{
+			return (::Sirenix::Serialization::Serializer_1<::MoleMole::GalGame::MainCityChatPlayableNodeType>**)Il2CppClass::FromTypeDefinitionIndex(MainCityChatShowUIGeneralIntimacyUpNode_MainCityChatShowUIGeneralIntimacyUpNode_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x49510);
 		}
 
 		::System::Void _ctor()

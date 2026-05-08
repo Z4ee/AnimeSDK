@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_FOCUSUISPECIALICONPARAM_ISVALID_OFFSET UNITYSDK_OFFSET(0x417FF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_FOCUSUISPECIALICONPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD372F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_FOCUSUISPECIALICONPARAM_ISVALID_OFFSET UNITYSDK_OFFSET(0x74C940)
+#define MOLEMOLE_FLOWCANVAS_NODES_FOCUSUISPECIALICONPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x125AC010)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FocusUISpecialIconParam_TypeDefinitionIndex = 50650;
+	inline static constexpr unsigned int FocusUISpecialIconParam_TypeDefinitionIndex = 73653;
 
 	struct alignas(8) FocusUISpecialIconParam
 	{
 		static ::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam* StaticGet_Default()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam*)Il2CppClass::FromTypeDefinitionIndex(FocusUISpecialIconParam_TypeDefinitionIndex)->GetStaticField(0x3D1F0);
+			return (::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam*)Il2CppClass::FromTypeDefinitionIndex(FocusUISpecialIconParam_TypeDefinitionIndex)->GetStaticField(0x3E970);
 		}
 		::System::String* IconParam; // 0x10
 		::System::String* IconAffixParam; // 0x18

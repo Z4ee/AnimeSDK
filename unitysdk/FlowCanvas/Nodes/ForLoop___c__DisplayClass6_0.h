@@ -7,23 +7,23 @@ namespace FlowCanvas { class FlowBreak; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class ForLoop; }
 
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A21A830)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A21A840)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A21A860)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A21ADC0)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1A21ADA0)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F5310)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A8F5320)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1A8F5340)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1A8F58A0)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1A8F5880)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForLoop___c__DisplayClass6_0_TypeDefinitionIndex = 26451;
+	inline static constexpr unsigned int ForLoop___c__DisplayClass6_0_TypeDefinitionIndex = 27906;
 
 	class ForLoop___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::ForLoop* __4__this; // 0x10
+		::FlowCanvas::FlowOutput* fCurrent; // 0x10
 		::FlowCanvas::FlowOutput* fFinish; // 0x18
 		::FlowCanvas::FlowBreak* __9__3; // 0x20
-		::FlowCanvas::FlowOutput* fCurrent; // 0x28
+		::FlowCanvas::Nodes::ForLoop* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

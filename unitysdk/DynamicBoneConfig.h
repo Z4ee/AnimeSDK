@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define DYNAMICBONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1763C0)
+#define DYNAMICBONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6FD50)
 
-inline static constexpr unsigned int DynamicBoneConfig_TypeDefinitionIndex = 32535;
+inline static constexpr unsigned int DynamicBoneConfig_TypeDefinitionIndex = 33070;
 
 class DynamicBoneConfig : public ::UnityEngine::ScriptableObject
 {

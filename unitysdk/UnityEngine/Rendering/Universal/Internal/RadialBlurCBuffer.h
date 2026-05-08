@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int RadialBlurCBuffer_TypeDefinitionIndex = 29869;
+	inline static constexpr unsigned int RadialBlurCBuffer_TypeDefinitionIndex = 30397;
 
 	struct alignas(4) RadialBlurCBuffer
 	{

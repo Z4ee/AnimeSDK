@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Text { class StringBuilder; }
 
-#define OPTIMIZESTRING_STRINGBUILDERNOGC_COPYTOCACHESTRING_OFFSET UNITYSDK_OFFSET(0x1B7612C0)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC_INITPOOL_OFFSET UNITYSDK_OFFSET(0x1B760F20)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B761640)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B760D60)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B7611C0)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7610C0)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC_COPYTOCACHESTRING_OFFSET UNITYSDK_OFFSET(0x1C542170)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC_INITPOOL_OFFSET UNITYSDK_OFFSET(0x1C541D40)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C542530)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C541B70)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C542040)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C541F10)
 
 namespace OptimizeString
 {
@@ -31,16 +31,16 @@ namespace OptimizeString
 		}
 		static ::System::Boolean* StaticGet_s_UseShortCache()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x3220);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x3230);
 		}
-		::System::String* m_immutableString; // 0x10
+		::System::String* m_cacheString; // 0x10
 		::System::Text::StringBuilder* m_stringBuilder; // 0x18
-		::System::String* m_cacheString; // 0x20
+		::System::String* m_immutableString; // 0x20
 		::System::String* forToString; // 0x28
 		::System::Int32 m_capacity; // 0x30
 		::System::Boolean useShortCache; // 0x34
-		::System::Boolean m_isDirty; // 0x35
-		::System::Boolean m_EnableShortCache; // 0x36
+		::System::Boolean m_EnableShortCache; // 0x35
+		::System::Boolean m_isDirty; // 0x36
 
 		static ::System::Void _cctor()
 		{

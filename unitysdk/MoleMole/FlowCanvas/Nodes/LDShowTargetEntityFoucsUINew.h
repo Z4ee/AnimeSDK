@@ -10,28 +10,28 @@ namespace FlowCanvas::Editor { template <typename T> class FCValueDropList_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0xBA0CA20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xBA0C2F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_SENDENTITYSHOWTARGETUI_OFFSET UNITYSDK_OFFSET(0xBA0C7D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_START_INVOKE_OFFSET UNITYSDK_OFFSET(0xBA0C4C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBA0CAE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW__INITKEY_OFFSET UNITYSDK_OFFSET(0xBA0C460)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0xBA0CB10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x16D41130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16D40A30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_SENDENTITYSHOWTARGETUI_OFFSET UNITYSDK_OFFSET(0x16D40EC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW_START_INVOKE_OFFSET UNITYSDK_OFFSET(0x16D40BC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D411D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW__INITKEY_OFFSET UNITYSDK_OFFSET(0x16D40B80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYFOUCSUINEW__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x16D41250)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowTargetEntityFoucsUINew_TypeDefinitionIndex = 42895;
+	inline static constexpr unsigned int LDShowTargetEntityFoucsUINew_TypeDefinitionIndex = 68082;
 
 	class LDShowTargetEntityFoucsUINew : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* hpBarInput; // 0xA8
-		::System::String* hpBarPointName; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam>* specialIconParam; // 0xB8
-		::FlowCanvas::Editor::FCValueDropList_1<::System::String*>* focusIconKey; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* enabled3dOcclusion; // 0xC8
-		::FlowCanvas::FlowOutput* output; // 0xD0
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* entityInput; // 0xD8
+		::FlowCanvas::FlowOutput* output; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam>* specialIconParam; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* entityInput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* enabled3dOcclusion; // 0xC0
+		::System::String* hpBarPointName; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* hpBarInput; // 0xD0
+		::FlowCanvas::Editor::FCValueDropList_1<::System::String*>* focusIconKey; // 0xD8
 
 		::System::Void _ctor()
 		{

@@ -3,16 +3,19 @@
 #include "unitysdk/Foundation/FixedArray3_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_30C8640C4A833B5C_OFFSET UNITYSDK_OFFSET(0x317E20)
-#define STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_89CAEAD9DF810BDA_OFFSET UNITYSDK_OFFSET(0x317ED0)
-#define STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x317D50)
-#define STRUCT_2_522A6EE7BADD85E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x317D40)
+#define STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_30C8640C4A833B5C_OFFSET UNITYSDK_OFFSET(0x72CD10)
+#define STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_89CAEAD9DF810BDA_OFFSET UNITYSDK_OFFSET(0x72CDA0)
+#define STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_E26DC44DCE94AB5A_OFFSET UNITYSDK_OFFSET(0x72CD00)
+#define STRUCT_2_522A6EE7BADD85E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x72CD90)
 
-inline static constexpr unsigned int Struct_2_522A6EE7BADD85E9_1_TypeDefinitionIndex = 40948;
+inline static constexpr unsigned int Struct_2_522A6EE7BADD85E9_1_TypeDefinitionIndex = 76643;
 
 struct alignas(4) Struct_2_522A6EE7BADD85E9_1
 {
-	::Foundation::FixedArray3_1<::System::Single> Field_2_0; // 0x10
+	::System::Single Field_2_0; // 0x10
+	::System::Single Field_2_1; // 0x14
+	::Foundation::FixedArray3_1<::System::Single> Field_2_2; // 0x18
+	::Foundation::FixedArray3_1<::System::Single> Field_2_3; // 0x24
 
 	/*
 	::System::Void _ctor(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2)
@@ -21,9 +24,9 @@ struct alignas(4) Struct_2_522A6EE7BADD85E9_1
 	}
 	*/
 
-	::System::Single Method_2_D437D090E63BE8A7(::System::Single a1)
+	::System::Single Method_2_E26DC44DCE94AB5A(::System::Single a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_D437D090E63BE8A7_OFFSET))(this, a1);
+		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_522A6EE7BADD85E9_1_METHOD_2_E26DC44DCE94AB5A_OFFSET))(this, a1);
 	}
 
 	/*

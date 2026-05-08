@@ -5,22 +5,22 @@
 namespace MoleMole { class Track; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_50F5F1592C5B0FC1___C_METHOD_1_BB633695C314408C_OFFSET UNITYSDK_OFFSET(0x1566EAE0)
-#define CLASS_1_50F5F1592C5B0FC1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1566EA90)
-#define CLASS_1_50F5F1592C5B0FC1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1566EAD0)
+#define CLASS_1_50F5F1592C5B0FC1___C_METHOD_1_BB633695C314408C_OFFSET UNITYSDK_OFFSET(0x12457E20)
+#define CLASS_1_50F5F1592C5B0FC1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12457DD0)
+#define CLASS_1_50F5F1592C5B0FC1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12457E10)
 
-inline static constexpr unsigned int Class_1_50F5F1592C5B0FC1___c_TypeDefinitionIndex = 77054;
+inline static constexpr unsigned int Class_1_50F5F1592C5B0FC1___c_TypeDefinitionIndex = 80681;
 
 class Class_1_50F5F1592C5B0FC1___c : public ::System::Object
 {
 public:
-	static ::Class_1_50F5F1592C5B0FC1___c** StaticGet___9()
-	{
-		return (::Class_1_50F5F1592C5B0FC1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_50F5F1592C5B0FC1___c_TypeDefinitionIndex)->GetStaticField(0x2F540);
-	}
 	static ::System::Func_2<::MoleMole::Track*, ::System::Int32>** StaticGet___9__57_0()
 	{
-		return (::System::Func_2<::MoleMole::Track*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_50F5F1592C5B0FC1___c_TypeDefinitionIndex)->GetStaticField(0x2F548);
+		return (::System::Func_2<::MoleMole::Track*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_50F5F1592C5B0FC1___c_TypeDefinitionIndex)->GetStaticField(0x3E050);
+	}
+	static ::Class_1_50F5F1592C5B0FC1___c** StaticGet___9()
+	{
+		return (::Class_1_50F5F1592C5B0FC1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_50F5F1592C5B0FC1___c_TypeDefinitionIndex)->GetStaticField(0x3E058);
 	}
 
 	static ::System::Void _cctor()

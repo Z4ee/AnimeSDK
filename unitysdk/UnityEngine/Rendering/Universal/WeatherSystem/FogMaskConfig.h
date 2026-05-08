@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x18A07840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A07D10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x19AD4450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD4920)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int FogMaskConfig_TypeDefinitionIndex = 29769;
+	inline static constexpr unsigned int FogMaskConfig_TypeDefinitionIndex = 30298;
 
 	class FogMaskConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::FogMaskConfig*>
 	{

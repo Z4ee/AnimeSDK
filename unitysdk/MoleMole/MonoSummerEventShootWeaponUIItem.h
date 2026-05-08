@@ -6,11 +6,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_MONOSUMMEREVENTSHOOTWEAPONUIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AB8D0)
+#define MOLEMOLE_MONOSUMMEREVENTSHOOTWEAPONUIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD5A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSummerEventShootWeaponUIItem_TypeDefinitionIndex = 57922;
+	inline static constexpr unsigned int MonoSummerEventShootWeaponUIItem_TypeDefinitionIndex = 48946;
 
 	class MonoSummerEventShootWeaponUIItem : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Inner_TypeDefinitionIndex = 34531;
+	inline static constexpr unsigned int MHYSDKC_Inner_TypeDefinitionIndex = 35067;
 
 	class MHYSDKC_Inner : public ::System::Object
 	{
@@ -18,5 +18,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* INNER_GET_REGION; // 0x0
 		// static const ::System::String* INNER_GET_ENV; // 0x0
 		// static const ::System::String* INNER_GET_LANG; // 0x0
+		// static const ::System::String* INNER_GET_BOX_CONFIG; // 0x0
 	};
 }

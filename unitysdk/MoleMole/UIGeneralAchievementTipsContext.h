@@ -5,11 +5,11 @@
 class Class_1_5897CA91FEB65CA5;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALACHIEVEMENTTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAD2ED60)
+#define MOLEMOLE_UIGENERALACHIEVEMENTTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15807E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralAchievementTipsContext_TypeDefinitionIndex = 58874;
+	inline static constexpr unsigned int UIGeneralAchievementTipsContext_TypeDefinitionIndex = 44921;
 
 	class UIGeneralAchievementTipsContext : public ::MoleMole::UIControllerContextBase
 	{

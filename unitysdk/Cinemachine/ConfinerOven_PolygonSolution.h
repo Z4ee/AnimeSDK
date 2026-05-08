@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CINEMACHINE_CONFINEROVEN_POLYGONSOLUTION_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x314B50)
-#define CINEMACHINE_CONFINEROVEN_POLYGONSOLUTION_STATECHANGED_OFFSET UNITYSDK_OFFSET(0x99EDD0)
+#define CINEMACHINE_CONFINEROVEN_POLYGONSOLUTION_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x396A90)
+#define CINEMACHINE_CONFINEROVEN_POLYGONSOLUTION_STATECHANGED_OFFSET UNITYSDK_OFFSET(0x9D05A0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ConfinerOven_PolygonSolution_TypeDefinitionIndex = 32055;
+	inline static constexpr unsigned int ConfinerOven_PolygonSolution_TypeDefinitionIndex = 32584;
 
 	struct alignas(8) ConfinerOven_PolygonSolution
 	{

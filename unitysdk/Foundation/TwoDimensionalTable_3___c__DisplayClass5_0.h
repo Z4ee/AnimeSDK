@@ -7,7 +7,7 @@ namespace Foundation { template <typename T1, typename T2, typename T3, typename
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TwoDimensionalTable_3___c__DisplayClass5_0_TypeDefinitionIndex = 8017;
+	inline static constexpr unsigned int TwoDimensionalTable_3___c__DisplayClass5_0_TypeDefinitionIndex = 7750;
 
 	template <typename TX, typename TY, typename V>
 	class TwoDimensionalTable_3___c__DisplayClass5_0 : public ::System::Object

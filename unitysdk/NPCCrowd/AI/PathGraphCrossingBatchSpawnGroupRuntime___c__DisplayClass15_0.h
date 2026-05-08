@@ -5,12 +5,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace NPCCrowd::AI { class PathGraphCrossingBatchSpawnGroupRuntime; }
 
-#define NPCCROWD_AI_PATHGRAPHCROSSINGBATCHSPAWNGROUPRUNTIME___C__DISPLAYCLASS15_0__BATCHSTARTMOVING_B__0_OFFSET UNITYSDK_OFFSET(0x846D500)
-#define NPCCROWD_AI_PATHGRAPHCROSSINGBATCHSPAWNGROUPRUNTIME___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x846D4F0)
+#define NPCCROWD_AI_PATHGRAPHCROSSINGBATCHSPAWNGROUPRUNTIME___C__DISPLAYCLASS15_0__BATCHSTARTMOVING_B__0_OFFSET UNITYSDK_OFFSET(0xF6850B0)
+#define NPCCROWD_AI_PATHGRAPHCROSSINGBATCHSPAWNGROUPRUNTIME___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF6850A0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphCrossingBatchSpawnGroupRuntime___c__DisplayClass15_0_TypeDefinitionIndex = 54509;
+	inline static constexpr unsigned int PathGraphCrossingBatchSpawnGroupRuntime___c__DisplayClass15_0_TypeDefinitionIndex = 66374;
 
 	class PathGraphCrossingBatchSpawnGroupRuntime___c__DisplayClass15_0 : public ::System::Object
 	{

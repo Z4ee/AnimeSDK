@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERANOISE__CTOR_OFFSET UNITYSDK_OFFSET(0x81EA6B0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERANOISE__CTOR_OFFSET UNITYSDK_OFFSET(0xFB01E20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraNoise_TypeDefinitionIndex = 66885;
+	inline static constexpr unsigned int ConfigCameraNoise_TypeDefinitionIndex = 61260;
 
 	class ConfigCameraNoise : public ::System::Object
 	{

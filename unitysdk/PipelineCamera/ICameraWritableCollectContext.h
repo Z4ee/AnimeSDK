@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraWritableCollectContext_TypeDefinitionIndex = 35403;
+	inline static constexpr unsigned int ICameraWritableCollectContext_TypeDefinitionIndex = 35947;
 
 	class ICameraWritableCollectContext
 	{

@@ -19,52 +19,52 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CHECKGENDERSIZE_OFFSET UNITYSDK_OFFSET(0x9B07FB0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x9B06890)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETMONTAGELENGTH_OFFSET UNITYSDK_OFFSET(0x9B06CE0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x9B05EE0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9B061D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x9B060F0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_1_OFFSET UNITYSDK_OFFSET(0x9B08420)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_OFFSET UNITYSDK_OFFSET(0x9B081E0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x9B06080)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCLIPSEQUENCEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x9B07920)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCONFIG_OFFSET UNITYSDK_OFFSET(0x9B06440)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMECLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x9B070B0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMELAYERCLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x9B07390)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x9B06DB0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_OFFSET UNITYSDK_OFFSET(0x9B085A0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETDATA_OFFSET UNITYSDK_OFFSET(0x9B06BC0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B08AE0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9B086D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9B08B60)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x9B08BC0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CHECKGENDERSIZE_OFFSET UNITYSDK_OFFSET(0xF85AE00)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETLENGTH_OFFSET UNITYSDK_OFFSET(0xF859690)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETMONTAGELENGTH_OFFSET UNITYSDK_OFFSET(0xF859AA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xF858D20)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF858FB0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF858EF0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_1_OFFSET UNITYSDK_OFFSET(0xF85B1C0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_OFFSET UNITYSDK_OFFSET(0xF85AFC0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xF858EA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCLIPSEQUENCEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xF85A680)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCONFIG_OFFSET UNITYSDK_OFFSET(0xF859200)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMECLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xF859DB0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMELAYERCLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xF85A0E0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xF859B50)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_OFFSET UNITYSDK_OFFSET(0xF85B340)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETDATA_OFFSET UNITYSDK_OFFSET(0xF8599A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF85B940)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xF85B450)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF85B9C0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF85BA50)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_TypeDefinitionIndex = 45409;
+	inline static constexpr unsigned int NPCCrowdMontageManager_TypeDefinitionIndex = 48137;
 
 	class NPCCrowdMontageManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_AssetRequests()
-		{
-			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x44650);
-		}
 		static ::System::String** StaticGet_TEMPLATE_ASSET_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x44658);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x45F70);
+		}
+		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_AssetRequests()
+		{
+			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x45F78);
 		}
 		// static const ::System::Int32 InValidIndex = 0xFFFFFFFF; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::MontageData>* RuntimeMontageData; // 0x18
-		::NPCCrowd::NPCIDGeneratorInt* _idGen; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>>* MontageSizeData; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::MontageData>* MontageTemplateData; // 0x30
-		::System::Collections::Generic::HashSet_1<::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*>* registedAsset; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* RuntimeClipMontageDictionary; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* montageLength; // 0x48
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::ClipSequenceMontageData, ::System::Int32>* RuntimeSequenceDataDictionary; // 0x50
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageLayerClipData, ::System::Int32>* RuntimeLayerClipMontageDictionary; // 0x58
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageLayerClipData, ::System::Int32>* RuntimeLayerClipMontageDictionary; // 0x18
+		::System::Collections::Generic::HashSet_1<::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*>* registedAsset; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::MontageData>* MontageTemplateData; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* montageLength; // 0x30
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::ClipSequenceMontageData, ::System::Int32>* RuntimeSequenceDataDictionary; // 0x38
+		::NPCCrowd::NPCIDGeneratorInt* _idGen; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::MontageData>* RuntimeMontageData; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* RuntimeClipMontageDictionary; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>>* MontageSizeData; // 0x58
 
 		::System::Void _ctor()
 		{

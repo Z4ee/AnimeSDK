@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_NEWVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x19FEF4C0)
-#define FLOWCANVAS_NODES_NEWVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEF4E0)
+#define FLOWCANVAS_NODES_NEWVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ADAE080)
+#define FLOWCANVAS_NODES_NEWVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAE0A0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewVector3_TypeDefinitionIndex = 26569;
+	inline static constexpr unsigned int NewVector3_TypeDefinitionIndex = 27727;
 
 	class NewVector3 : public ::FlowCanvas::Nodes::PureFunctionNode_4<::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single>
 	{

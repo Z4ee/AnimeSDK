@@ -5,18 +5,18 @@
 namespace MoleMole { class UIMainCityCameraControlChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x7468E00)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS29_0__PHOTOUIPLAYFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x7468E10)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14834460)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__DISPLAYCLASS29_0__PHOTOUIPLAYFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x14834470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController___c__DisplayClass29_0_TypeDefinitionIndex = 79722;
+	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController___c__DisplayClass29_0_TypeDefinitionIndex = 82606;
 
 	class UIMainCityCameraControlChildWindowController___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainCityCameraControlChildWindowController* __4__this; // 0x10
-		::System::Action* end; // 0x18
+		::System::Action* end; // 0x10
+		::MoleMole::UIMainCityCameraControlChildWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

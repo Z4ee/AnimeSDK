@@ -5,7 +5,7 @@
 namespace System { template <typename T> class Predicate_1; }
 template <typename T> class Class_3_F41D242A20F8FE06___c__6_1;
 
-inline static constexpr unsigned int Class_3_F41D242A20F8FE06___c__6_1_TypeDefinitionIndex = 45911;
+inline static constexpr unsigned int Class_3_F41D242A20F8FE06___c__6_1_TypeDefinitionIndex = 80923;
 
 template <typename T>
 class Class_3_F41D242A20F8FE06___c__6_1 : public ::System::Object

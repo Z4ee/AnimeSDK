@@ -7,21 +7,21 @@
 namespace NPCCrowd::Accessories { class NPCAccessory; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER__SETACCESSORYHIDDEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2F5DB0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER__SETACCESSORYHIDDEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2613F0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER__SETACCESSORYHIDDEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x50C590)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER__SETACCESSORYHIDDEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2661E0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryManager__SetAccessoryHidden_d__12_TypeDefinitionIndex = 67441;
+	inline static constexpr unsigned int NPCAccessoryManager__SetAccessoryHidden_d__12_TypeDefinitionIndex = 55241;
 
 	struct alignas(8) NPCAccessoryManager__SetAccessoryHidden_d__12
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
 		::NPCCrowd::Accessories::NPCAccessory* acc; // 0x28
-		::System::Boolean fade; // 0x30
-		::System::Boolean bIsHidden; // 0x31
-		::System::Int32 __1__state; // 0x34
+		::System::Int32 __1__state; // 0x30
+		::System::Boolean bIsHidden; // 0x34
+		::System::Boolean fade; // 0x35
 
 		::System::Void MoveNext()
 		{

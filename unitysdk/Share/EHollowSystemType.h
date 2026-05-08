@@ -3,17 +3,17 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowSystemType_TypeDefinitionIndex = 14889;
+	inline static constexpr unsigned int EHollowSystemType_TypeDefinitionIndex = 15888;
 
 	enum class EHollowSystemType : ::System::Int16
 	{
 		HollowResultPage = 6,
-		EnumCount = 8,
-		Curse = 3,
-		Card = 1,
+		CurseInfo = 7,
+		HollowItem = 5,
 		Menu = 2,
 		Bag = 4,
-		HollowItem = 5,
-		CurseInfo = 7,
+		Card = 1,
+		Curse = 3,
+		EnumCount = 8,
 	};
 }

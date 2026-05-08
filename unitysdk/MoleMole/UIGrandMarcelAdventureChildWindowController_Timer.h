@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_A8F5ABF31E066ED4;
+class Class_2_1A39E1B51756BF41;
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoDigitConfig; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIGRANDMARCELADVENTURECHILDWINDOWCONTROLLER_TIMER_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x3578D0)
-#define MOLEMOLE_UIGRANDMARCELADVENTURECHILDWINDOWCONTROLLER_TIMER_SETTIME_OFFSET UNITYSDK_OFFSET(0x357950)
+#define MOLEMOLE_UIGRANDMARCELADVENTURECHILDWINDOWCONTROLLER_TIMER_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x7CA510)
+#define MOLEMOLE_UIGRANDMARCELADVENTURECHILDWINDOWCONTROLLER_TIMER_SETTIME_OFFSET UNITYSDK_OFFSET(0x7CA570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventureChildWindowController_Timer_TypeDefinitionIndex = 74044;
+	inline static constexpr unsigned int UIGrandMarcelAdventureChildWindowController_Timer_TypeDefinitionIndex = 60023;
 
 	struct alignas(8) UIGrandMarcelAdventureChildWindowController_Timer
 	{
 		::UnityEngine::GameObject* Root; // 0x10
-		::Class_2_A8F5ABF31E066ED4* MinuteHigh; // 0x18
-		::Class_2_A8F5ABF31E066ED4* MinuteLow; // 0x20
-		::Class_2_A8F5ABF31E066ED4* SecondHigh; // 0x28
-		::Class_2_A8F5ABF31E066ED4* SecondLow; // 0x30
+		::Class_2_1A39E1B51756BF41* MinuteHigh; // 0x18
+		::Class_2_1A39E1B51756BF41* MinuteLow; // 0x20
+		::Class_2_1A39E1B51756BF41* SecondHigh; // 0x28
+		::Class_2_1A39E1B51756BF41* SecondLow; // 0x30
 
 		::System::Void SafeSetActive(::System::Boolean value)
 		{

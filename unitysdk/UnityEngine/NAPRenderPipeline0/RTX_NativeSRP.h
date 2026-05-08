@@ -6,13 +6,12 @@ namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class InterpolatedVolumeData; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
-namespace UnityEngine::NAPRenderPipeline0 { class Vector3Parameter; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP_INTERPOLATEVOLUMEDATA_OFFSET UNITYSDK_OFFSET(0x19C3CB50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x19C3CA10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x19C3CA40)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C3CA50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3C090)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP_INTERPOLATEVOLUMEDATA_OFFSET UNITYSDK_OFFSET(0x1AADA090)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1AAD9F50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1AAD9F80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAD9F90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTX_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD9A90)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
@@ -35,29 +34,9 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* lightmapBoost; // 0x90
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* aoLength; // 0x98
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* aoIntensity; // 0xA0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionMinDist; // 0xA8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionMaxDist; // 0xB0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionScale; // 0xB8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionDelta; // 0xC0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionInteriorMinDist; // 0xC8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionInteriorMaxDist; // 0xD0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionInteriorScale; // 0xD8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraEmissionInteriorDelta; // 0xE0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* addLocallightMinDist; // 0xE8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* addLocallightMaxDist; // 0xF0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* addLocallightScale; // 0xF8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* addLocallightDelta; // 0x100
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraColorbleedingMinDist; // 0x108
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraColorbleedingMaxDist; // 0x110
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraColorbleedingScale; // 0x118
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* extraColorbleedingDelta; // 0x120
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* diffuseProxyIntensity; // 0x128
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* diffuseColorValue; // 0x130
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* diffuseColorSaturate; // 0x138
-		::UnityEngine::NAPRenderPipeline0::Vector3Parameter* diffuseColorDiffThreshold; // 0x140
-		::UnityEngine::NAPRenderPipeline0::TextureParameter* lut; // 0x148
-		::UnityEngine::NAPRenderPipeline0::TextureParameter* roughnessLut; // 0x150
-		::UnityEngine::NAPRenderPipeline0::TextureParameter* multiBounceAlbedoLut; // 0x158
+		::UnityEngine::NAPRenderPipeline0::TextureParameter* lut; // 0xA8
+		::UnityEngine::NAPRenderPipeline0::TextureParameter* roughnessLut; // 0xB0
+		::UnityEngine::NAPRenderPipeline0::TextureParameter* multiBounceAlbedoLut; // 0xB8
 
 		::System::Void _ctor()
 		{

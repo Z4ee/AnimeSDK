@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_LISTDICTIONARYINTERNAL_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AF8470)
+#define SYSTEM_COLLECTIONS_LISTDICTIONARYINTERNAL_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6B4CE0)
 
 namespace System::Collections
 {
@@ -11,9 +11,9 @@ namespace System::Collections
 	class ListDictionaryInternal_DictionaryNode : public ::System::Object
 	{
 	public:
-		::System::Collections::ListDictionaryInternal_DictionaryNode* next; // 0x10
-		::System::Object* value; // 0x18
-		::System::Object* key; // 0x20
+		::System::Object* key; // 0x10
+		::System::Collections::ListDictionaryInternal_DictionaryNode* next; // 0x18
+		::System::Object* value; // 0x20
 
 		::System::Void _ctor()
 		{

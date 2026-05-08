@@ -6,21 +6,21 @@ namespace MoleMole { class UIMainCityChatPlayWidgetController___c__DisplayClass5
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__CTOR_OFFSET UNITYSDK_OFFSET(0x7FB23C0)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__SHOWCUSTOMTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x7FB23D0)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__SHOWCUSTOMTRANSITION_B__1_OFFSET UNITYSDK_OFFSET(0x7FB2470)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__SHOWCUSTOMTRANSITION_B__2_OFFSET UNITYSDK_OFFSET(0x7FB2500)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D38400)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__SHOWCUSTOMTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x14D38410)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__SHOWCUSTOMTRANSITION_B__1_OFFSET UNITYSDK_OFFSET(0x14D384E0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_1__SHOWCUSTOMTRANSITION_B__2_OFFSET UNITYSDK_OFFSET(0x14D385B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass50_1_TypeDefinitionIndex = 68996;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass50_1_TypeDefinitionIndex = 47779;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass50_1 : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Extension::UILocalizationText* txt; // 0x10
-		::MoleMole::UIMainCityChatPlayWidgetController___c__DisplayClass50_0* CS___8__locals1; // 0x18
-		::UnityEngine::Events::UnityAction* selectAction; // 0x20
+		::UnityEngine::Events::UnityAction* selectAction; // 0x10
+		::UnityEngine::UI::Extension::UILocalizationText* txt; // 0x18
+		::MoleMole::UIMainCityChatPlayWidgetController___c__DisplayClass50_0* CS___8__locals1; // 0x20
 		::System::Int32 npcTag; // 0x28
 
 		::System::Void _ctor()

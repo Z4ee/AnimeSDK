@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_GET_SCROLLVIEWHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B116710)
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_GET_SHOWPAGINGHASVALUE_OFFSET UNITYSDK_OFFSET(0x1B116700)
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_GET_SHOWPAGING_OFFSET UNITYSDK_OFFSET(0x1B1166E0)
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_SET_SCROLLVIEWHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B116720)
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_SET_SHOWPAGING_OFFSET UNITYSDK_OFFSET(0x1B1166F0)
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B116780)
-#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B116730)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_GET_SCROLLVIEWHEIGHT_OFFSET UNITYSDK_OFFSET(0x1C021BE0)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_GET_SHOWPAGINGHASVALUE_OFFSET UNITYSDK_OFFSET(0x1C021BD0)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_GET_SHOWPAGING_OFFSET UNITYSDK_OFFSET(0x1C021BB0)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_SET_SCROLLVIEWHEIGHT_OFFSET UNITYSDK_OFFSET(0x1C021BF0)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE_SET_SHOWPAGING_OFFSET UNITYSDK_OFFSET(0x1C021BC0)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C021C50)
+#define SIRENIX_ODININSPECTOR_TABLELISTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C021C00)
 
 namespace Sirenix::OdinInspector
 {
@@ -33,27 +33,27 @@ namespace Sirenix::OdinInspector
 		::System::String* CustomDelete; // 0x10
 		::System::String* CustomAdd; // 0x18
 		::System::String* CustomToolbarGUI; // 0x20
-		::System::Int32 CellPadding; // 0x28
-		::System::Single Offset; // 0x2C
-		::System::Boolean HideCustomToolbarWhenFolded; // 0x30
-		::System::Boolean VerticalScrollFollower; // 0x31
-		::System::Boolean ShowIndexLabels; // 0x32
-		::System::Boolean showPaging; // 0x33
-		::System::Int32 MaxScrollViewHeight; // 0x34
-		::System::Boolean DrawHorizontalScrollView; // 0x38
-		::System::Boolean DrawScrollView; // 0x39
-		::System::Boolean RowHeightFollower; // 0x3A
-		::System::Boolean AlwaysExpanded; // 0x3B
-		::System::Int32 NumberOfItemsPerPage; // 0x3C
-		::System::Boolean showPagingHasValue; // 0x40
-		::System::Boolean RowHeightLeader; // 0x41
-		::System::Boolean IsReadOnly; // 0x42
-		::System::Int32 SyncIndex; // 0x44
-		::System::Int32 RowHeight; // 0x48
-		::System::Int32 DefaultMinColumnWidth; // 0x4C
-		::System::Int32 MinScrollViewHeight; // 0x50
-		::System::Boolean VerticalScrollLeader; // 0x54
-		::System::Boolean HideToolbar; // 0x55
+		::System::Int32 RowHeight; // 0x28
+		::System::Boolean ShowIndexLabels; // 0x2C
+		::System::Boolean RowHeightLeader; // 0x2D
+		::System::Boolean DrawScrollView; // 0x2E
+		::System::Boolean VerticalScrollFollower; // 0x2F
+		::System::Boolean showPagingHasValue; // 0x30
+		::System::Boolean HideToolbar; // 0x31
+		::System::Boolean HideCustomToolbarWhenFolded; // 0x32
+		::System::Single Offset; // 0x34
+		::System::Int32 MaxScrollViewHeight; // 0x38
+		::System::Int32 CellPadding; // 0x3C
+		::System::Int32 DefaultMinColumnWidth; // 0x40
+		::System::Int32 NumberOfItemsPerPage; // 0x44
+		::System::Int32 MinScrollViewHeight; // 0x48
+		::System::Boolean showPaging; // 0x4C
+		::System::Boolean DrawHorizontalScrollView; // 0x4D
+		::System::Boolean IsReadOnly; // 0x4E
+		::System::Boolean RowHeightFollower; // 0x4F
+		::System::Boolean AlwaysExpanded; // 0x50
+		::System::Boolean VerticalScrollLeader; // 0x51
+		::System::Int32 SyncIndex; // 0x54
 
 		::System::Void _ctor()
 		{

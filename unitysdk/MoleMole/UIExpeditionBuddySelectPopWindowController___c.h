@@ -3,38 +3,38 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_01B22E9930E7BB4D;
-class Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B;
+class Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD11FA70)
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD11FAB0)
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__GETAUTOTSELECTTARGET_B__43_0_OFFSET UNITYSDK_OFFSET(0xD11FBA0)
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__ONCLICKBUDDY_B__56_0_OFFSET UNITYSDK_OFFSET(0xD11FD50)
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__ONUIDESTROY_B__27_0_OFFSET UNITYSDK_OFFSET(0xD11FAC0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CC26A0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC26E0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__GETAUTOTSELECTTARGET_B__43_0_OFFSET UNITYSDK_OFFSET(0x16CC27D0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__ONCLICKBUDDY_B__56_0_OFFSET UNITYSDK_OFFSET(0x16CC2980)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__ONUIDESTROY_B__27_0_OFFSET UNITYSDK_OFFSET(0x16CC26F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex = 65174;
+	inline static constexpr unsigned int UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex = 42206;
 
 	class UIExpeditionBuddySelectPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIExpeditionBuddySelectPopWindowController___c** StaticGet___9()
+		static ::System::Func_2<::Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A*, ::System::Int32>** StaticGet___9__56_0()
 		{
-			return (::MoleMole::UIExpeditionBuddySelectPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2E3B0);
-		}
-		static ::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2E3B8);
-		}
-		static ::System::Func_2<::Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B*, ::System::Int32>** StaticGet___9__56_0()
-		{
-			return (::System::Func_2<::Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2E3C0);
+			return (::System::Func_2<::Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2EC90);
 		}
 		static ::System::Comparison_1<::Class_2_01B22E9930E7BB4D*>** StaticGet___9__43_0()
 		{
-			return (::System::Comparison_1<::Class_2_01B22E9930E7BB4D*>**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2E3C8);
+			return (::System::Comparison_1<::Class_2_01B22E9930E7BB4D*>**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2EC98);
+		}
+		static ::MoleMole::UIExpeditionBuddySelectPopWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIExpeditionBuddySelectPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2ECA0);
+		}
+		static ::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>** StaticGet___9__27_0()
+		{
+			return (::System::Func_2<::Class_2_01B22E9930E7BB4D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIExpeditionBuddySelectPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x2ECA8);
 		}
 
 		static ::System::Void _cctor()
@@ -57,9 +57,9 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID, ::Class_2_01B22E9930E7BB4D*, ::Class_2_01B22E9930E7BB4D*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__GETAUTOTSELECTTARGET_B__43_0_OFFSET))(this, a, b);
 		}
 
-		::System::Int32 _OnClickBuddy_b__56_0(::Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B* c)
+		::System::Int32 _OnClickBuddy_b__56_0(::Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A* c)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_01B22E9930E7BB4D_Class_2_11E3713631B35D8B*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__ONCLICKBUDDY_B__56_0_OFFSET))(this, c);
+			return ((::System::Int32(*)(::PVOID, ::Class_2_01B22E9930E7BB4D_Class_2_55729FAD09B8BD3A*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__ONCLICKBUDDY_B__56_0_OFFSET))(this, c);
 		}
 	};
 }

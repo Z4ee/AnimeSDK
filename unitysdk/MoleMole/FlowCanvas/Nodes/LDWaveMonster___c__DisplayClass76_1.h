@@ -5,13 +5,13 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonster___c__DisplayClass76_1_TypeDefinitionIndex = 51982;
+	inline static constexpr unsigned int LDWaveMonster___c__DisplayClass76_1_TypeDefinitionIndex = 58486;
 
 	struct alignas(4) LDWaveMonster___c__DisplayClass76_1
 	{
-		::UnityEngine::Vector3 spawnPosition; // 0x10
-		::System::Int32 playType; // 0x1C
-		::System::Single forward; // 0x20
-		::System::Int32 monsterLevel; // 0x24
+		::System::Int32 monsterLevel; // 0x10
+		::UnityEngine::Vector3 spawnPosition; // 0x14
+		::System::Int32 playType; // 0x20
+		::System::Single forward; // 0x24
 	};
 }

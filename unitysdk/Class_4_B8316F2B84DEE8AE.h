@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_3_F3948D237059FA7A.h"
-#include "unitysdk/Struct_2_FE667B282E242C72.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-template <typename T> class Class_4_179456445C225AB4;
+template <typename T> class Class_4_2FF7D360A2F3EC48;
 
-#define CLASS_4_B8316F2B84DEE8AE_METHOD_4_3712B52235D0B7E1_OFFSET UNITYSDK_OFFSET(0x7549530)
-#define CLASS_4_B8316F2B84DEE8AE__CTOR_OFFSET UNITYSDK_OFFSET(0x7549A60)
+#define CLASS_4_B8316F2B84DEE8AE_METHOD_4_3712B52235D0B7E1_OFFSET UNITYSDK_OFFSET(0xE9133F0)
+#define CLASS_4_B8316F2B84DEE8AE__CTOR_OFFSET UNITYSDK_OFFSET(0xE9138D0)
 
-inline static constexpr unsigned int Class_4_B8316F2B84DEE8AE_TypeDefinitionIndex = 76626;
+inline static constexpr unsigned int Class_4_B8316F2B84DEE8AE_TypeDefinitionIndex = 50301;
 
 class Class_4_B8316F2B84DEE8AE : public ::Class_3_F3948D237059FA7A
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B8316F2B84DEE8AE__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_4_3712B52235D0B7E1(::Struct_2_FE667B282E242C72& a1)
+	::System::Void Method_4_3712B52235D0B7E1(::Struct_2_29439DBE2B63DCF3& a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_FE667B282E242C72&))((::PBYTE)hIl2Cpp + CLASS_4_B8316F2B84DEE8AE_METHOD_4_3712B52235D0B7E1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_4_B8316F2B84DEE8AE_METHOD_4_3712B52235D0B7E1_OFFSET))(this, a1);
 	}
 };

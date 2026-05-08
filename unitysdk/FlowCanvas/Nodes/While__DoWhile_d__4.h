@@ -8,27 +8,27 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Nodes { class While; }
 namespace FlowCanvas::Nodes { class While___c__DisplayClass4_0; }
 
-#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19C1A6D0)
-#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19C1A910)
-#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19C1A970)
-#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19C1A920)
-#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19C1A6C0)
-#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x19C1A6B0)
+#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A847CB0)
+#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A847F10)
+#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A847F70)
+#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A847F20)
+#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A847CA0)
+#define FLOWCANVAS_NODES_WHILE__DOWHILE_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x1A847C90)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int While__DoWhile_d__4_TypeDefinitionIndex = 26239;
+	inline static constexpr unsigned int While__DoWhile_d__4_TypeDefinitionIndex = 28149;
 
 	class While__DoWhile_d__4 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::While* __4__this; // 0x10
-		::FlowCanvas::Flow f; // 0x18
-		::FlowCanvas::FlowOutput* fFinish; // 0x40
-		::FlowCanvas::ValueInput_1<::System::Boolean>* condition; // 0x48
-		::FlowCanvas::FlowOutput* fUpdate; // 0x50
-		::System::Object* __2__current; // 0x58
-		::FlowCanvas::Nodes::While___c__DisplayClass4_0* __8__1; // 0x60
+		::System::Object* __2__current; // 0x10
+		::FlowCanvas::FlowOutput* fFinish; // 0x18
+		::FlowCanvas::FlowOutput* fUpdate; // 0x20
+		::FlowCanvas::ValueInput_1<::System::Boolean>* condition; // 0x28
+		::FlowCanvas::Nodes::While___c__DisplayClass4_0* __8__1; // 0x30
+		::FlowCanvas::Nodes::While* __4__this; // 0x38
+		::FlowCanvas::Flow f; // 0x40
 		::System::Int32 __1__state; // 0x68
 
 		::System::Void _ctor(::System::Int32 __1__state)

@@ -8,26 +8,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B0B8090)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B0B8020)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B8210)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_DESTROY_OFFSET UNITYSDK_OFFSET(0x1BE5C040)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BE5BFE0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE5C210)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_TaskAddData_TypeDefinitionIndex = 31149;
+	inline static constexpr unsigned int BehaviorManager_TaskAddData_TypeDefinitionIndex = 31678;
 
 	class BehaviorManager_TaskAddData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::Object*>* overiddenFields; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::BehaviorManager_TaskAddData_OverrideFieldValue*>* overrideFields; // 0x18
-		::System::String* errorTaskName; // 0x20
-		::BehaviorDesigner::Runtime::Tasks::ParentTask* parentTask; // 0x28
-		::System::Int32 errorTask; // 0x30
-		::System::Boolean fromExternalTask; // 0x34
-		::System::Int32 depth; // 0x38
-		::System::Int32 compositeParentIndex; // 0x3C
-		::System::Int32 parentIndex; // 0x40
+		::BehaviorDesigner::Runtime::Tasks::ParentTask* parentTask; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::Object*>* overiddenFields; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::BehaviorManager_TaskAddData_OverrideFieldValue*>* overrideFields; // 0x20
+		::System::String* errorTaskName; // 0x28
+		::System::Int32 parentIndex; // 0x30
+		::System::Int32 depth; // 0x34
+		::System::Int32 compositeParentIndex; // 0x38
+		::System::Int32 errorTask; // 0x3C
+		::System::Boolean fromExternalTask; // 0x40
 
 		::System::Void _ctor()
 		{

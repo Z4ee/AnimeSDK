@@ -4,11 +4,11 @@
 
 class Class_1_F0E4E2848B1D52CE;
 
-#define MOLEMOLE_UIAUTOBATTLEREWARDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB22420)
+#define MOLEMOLE_UIAUTOBATTLEREWARDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1676F6F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleRewardPopWindowController_Context_TypeDefinitionIndex = 38393;
+	inline static constexpr unsigned int UIAutoBattleRewardPopWindowController_Context_TypeDefinitionIndex = 61846;
 
 	class UIAutoBattleRewardPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

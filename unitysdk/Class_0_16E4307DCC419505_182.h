@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/Struct_2_E147DFD2A4EE8B0B.h"
 
-namespace MessagePack { class MessagePackSerializerOptions; }
-namespace System { class Object; }
+class Class_1_8E6394891B1A4CC4;
+namespace MoleMole { class CameraShotData; }
+namespace Nap::NapECS { class EcsWorld; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_182_TypeDefinitionIndex = 56198;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_182_TypeDefinitionIndex = 44520;
 
 class Class_0_16E4307DCC419505_182
 {

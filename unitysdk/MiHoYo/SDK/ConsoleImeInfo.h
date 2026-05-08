@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEIMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B65730)
+#define MIHOYO_SDK_CONSOLEIMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A06F000)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleImeInfo_TypeDefinitionIndex = 18398;
+	inline static constexpr unsigned int ConsoleImeInfo_TypeDefinitionIndex = 18737;
 
 	class ConsoleImeInfo : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace MiHoYo::SDK
 		::System::String* title; // 0x20
 		::System::String* placeholder; // 0x28
 		::System::Int32 maxLength; // 0x30
-		::System::Boolean isMultiLine; // 0x34
-		::UnityEngine::UI::InputField_ContentType imeType; // 0x38
+		::UnityEngine::UI::InputField_ContentType imeType; // 0x34
+		::System::Boolean isMultiLine; // 0x38
 
 		::System::Void _ctor()
 		{

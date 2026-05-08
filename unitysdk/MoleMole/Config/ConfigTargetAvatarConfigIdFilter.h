@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGTARGETAVATARCONFIGIDFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x81F2A50)
-#define MOLEMOLE_CONFIG_CONFIGTARGETAVATARCONFIGIDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x81F2C30)
+#define MOLEMOLE_CONFIG_CONFIGTARGETAVATARCONFIGIDFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0xFB0C1C0)
+#define MOLEMOLE_CONFIG_CONFIGTARGETAVATARCONFIGIDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB0C350)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTargetAvatarConfigIdFilter_TypeDefinitionIndex = 37672;
+	inline static constexpr unsigned int ConfigTargetAvatarConfigIdFilter_TypeDefinitionIndex = 75742;
 
 	class ConfigTargetAvatarConfigIdFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

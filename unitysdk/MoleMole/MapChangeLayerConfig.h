@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MAPCHANGELAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x75A8700)
+#define MOLEMOLE_MAPCHANGELAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12F95A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MapChangeLayerConfig_TypeDefinitionIndex = 58187;
+	inline static constexpr unsigned int MapChangeLayerConfig_TypeDefinitionIndex = 80955;
 
 	class MapChangeLayerConfig : public ::System::Object
 	{

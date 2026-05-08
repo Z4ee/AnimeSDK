@@ -5,24 +5,24 @@
 class Class_1_A047EA5169B6B30F;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHOLLOWINFOPROGRESS02WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x99E0250)
-#define MOLEMOLE_UIHOLLOWINFOPROGRESS02WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x99E0290)
-#define MOLEMOLE_UIHOLLOWINFOPROGRESS02WIDGETCONTROLLER___C__REFRESHVIEW_B__4_0_OFFSET UNITYSDK_OFFSET(0x99E02A0)
+#define MOLEMOLE_UIHOLLOWINFOPROGRESS02WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x150C76C0)
+#define MOLEMOLE_UIHOLLOWINFOPROGRESS02WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x150C7700)
+#define MOLEMOLE_UIHOLLOWINFOPROGRESS02WIDGETCONTROLLER___C__REFRESHVIEW_B__4_0_OFFSET UNITYSDK_OFFSET(0x150C7710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoProgress02WidgetController___c_TypeDefinitionIndex = 76994;
+	inline static constexpr unsigned int UIHollowInfoProgress02WidgetController___c_TypeDefinitionIndex = 81152;
 
 	class UIHollowInfoProgress02WidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIHollowInfoProgress02WidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowInfoProgress02WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoProgress02WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x346C0);
+			return (::MoleMole::UIHollowInfoProgress02WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoProgress02WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x351E0);
 		}
 		static ::System::Comparison_1<::Class_1_A047EA5169B6B30F*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::Class_1_A047EA5169B6B30F*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoProgress02WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x346C8);
+			return (::System::Comparison_1<::Class_1_A047EA5169B6B30F*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoProgress02WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x351E8);
 		}
 
 		static ::System::Void _cctor()

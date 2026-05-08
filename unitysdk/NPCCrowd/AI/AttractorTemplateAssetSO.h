@@ -6,11 +6,11 @@
 namespace NPCCrowd::AI { class AttractorTemplate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_ATTRACTORTEMPLATEASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0x6B9D560)
+#define NPCCROWD_AI_ATTRACTORTEMPLATEASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E3E00)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorTemplateAssetSO_TypeDefinitionIndex = 75975;
+	inline static constexpr unsigned int AttractorTemplateAssetSO_TypeDefinitionIndex = 80102;
 
 	class AttractorTemplateAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

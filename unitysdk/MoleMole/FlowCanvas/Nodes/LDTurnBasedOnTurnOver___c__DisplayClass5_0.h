@@ -5,18 +5,18 @@
 class Class_1_B7E341C5F1A6F199;
 namespace MoleMole::FlowCanvas::Nodes { class LDTurnBasedOnTurnOver; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDONTURNOVER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x75828F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDONTURNOVER___C__DISPLAYCLASS5_0__ONTURNOVER_B__0_OFFSET UNITYSDK_OFFSET(0x7582900)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDONTURNOVER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1499A850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDONTURNOVER___C__DISPLAYCLASS5_0__ONTURNOVER_B__0_OFFSET UNITYSDK_OFFSET(0x1499A860)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedOnTurnOver___c__DisplayClass5_0_TypeDefinitionIndex = 75818;
+	inline static constexpr unsigned int LDTurnBasedOnTurnOver___c__DisplayClass5_0_TypeDefinitionIndex = 42068;
 
 	class LDTurnBasedOnTurnOver___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_1_B7E341C5F1A6F199* evt; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDTurnBasedOnTurnOver* __4__this; // 0x18
+		::MoleMole::FlowCanvas::Nodes::LDTurnBasedOnTurnOver* __4__this; // 0x10
+		::Class_1_B7E341C5F1A6F199* evt; // 0x18
 
 		::System::Void _ctor()
 		{

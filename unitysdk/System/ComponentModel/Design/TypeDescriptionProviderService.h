@@ -5,7 +5,7 @@
 namespace System { class Type; }
 namespace System::ComponentModel { class TypeDescriptionProvider; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_TYPEDESCRIPTIONPROVIDERSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19238990)
+#define SYSTEM_COMPONENTMODEL_DESIGN_TYPEDESCRIPTIONPROVIDERSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAC2D0)
 
 namespace System::ComponentModel::Design
 {

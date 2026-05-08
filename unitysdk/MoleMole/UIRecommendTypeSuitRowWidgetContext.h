@@ -3,22 +3,22 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 class Class_2_12BDE7300F0E061C;
-class Class_3_5F93B9EE9043C5B6_7;
+class Class_3_A7EA3BF91B53AC5E_2;
 namespace MoleMole { template <typename T> class UIRoleEquipRecommendPopContext_1; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8683820)
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D63970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecommendTypeSuitRowWidgetContext_TypeDefinitionIndex = 38121;
+	inline static constexpr unsigned int UIRecommendTypeSuitRowWidgetContext_TypeDefinitionIndex = 78336;
 
 	class UIRecommendTypeSuitRowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_5F93B9EE9043C5B6_7* avatarRecommendSuitData; // 0x28
+		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* RoleEquipRecommendPopContext; // 0x28
 		::System::Action_1<::System::Boolean>* onSuitFocusChange; // 0x30
-		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* RoleEquipRecommendPopContext; // 0x38
+		::Class_3_A7EA3BF91B53AC5E_2* avatarRecommendSuitData; // 0x38
 
 		::System::Void _ctor()
 		{

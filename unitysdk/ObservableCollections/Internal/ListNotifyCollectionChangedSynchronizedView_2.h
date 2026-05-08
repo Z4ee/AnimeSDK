@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int ListNotifyCollectionChangedSynchronizedView_2_TypeDefinitionIndex = 25257;
+	inline static constexpr unsigned int ListNotifyCollectionChangedSynchronizedView_2_TypeDefinitionIndex = 25679;
 
 	template <typename T, typename TView>
 	class ListNotifyCollectionChangedSynchronizedView_2 : public ::ObservableCollections::Internal::NotifyCollectionChangedSynchronizedView_2<T, TView>

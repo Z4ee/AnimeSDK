@@ -5,9 +5,9 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_2_CCA2F740419298FF_STRUCT_2_1CBBB2DF8389AB34__CTOR_OFFSET UNITYSDK_OFFSET(0x301710)
+#define CLASS_2_CCA2F740419298FF_STRUCT_2_1CBBB2DF8389AB34__CTOR_OFFSET UNITYSDK_OFFSET(0x2FED90)
 
-inline static constexpr unsigned int Class_2_CCA2F740419298FF_Struct_2_1CBBB2DF8389AB34_TypeDefinitionIndex = 76684;
+inline static constexpr unsigned int Class_2_CCA2F740419298FF_Struct_2_1CBBB2DF8389AB34_TypeDefinitionIndex = 78707;
 
 struct alignas(8) Class_2_CCA2F740419298FF_Struct_2_1CBBB2DF8389AB34
 {

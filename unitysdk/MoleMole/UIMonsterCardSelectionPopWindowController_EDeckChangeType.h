@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController_EDeckChangeType_TypeDefinitionIndex = 44370;
+	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController_EDeckChangeType_TypeDefinitionIndex = 59564;
 
 	enum class UIMonsterCardSelectionPopWindowController_EDeckChangeType : ::System::Int32
 	{
-		Add = 1,
 		Init = 0,
+		Add = 1,
 		Remove = 2,
 	};
 }

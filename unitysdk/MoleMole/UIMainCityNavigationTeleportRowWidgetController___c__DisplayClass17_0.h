@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x865B9B0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3D280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 44881;
+	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 78448;
 
 	class UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass17_0 : public ::System::Object
 	{

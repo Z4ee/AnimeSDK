@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMindscapeWidgetController; }
 
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0x897C3F0)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS107_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x897C400)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D854B0)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS107_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14D854C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController___c__DisplayClass107_0_TypeDefinitionIndex = 73439;
+	inline static constexpr unsigned int UIMindscapeWidgetController___c__DisplayClass107_0_TypeDefinitionIndex = 38779;
 
 	class UIMindscapeWidgetController___c__DisplayClass107_0 : public ::System::Object
 	{

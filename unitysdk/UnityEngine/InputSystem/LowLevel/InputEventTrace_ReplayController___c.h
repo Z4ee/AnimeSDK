@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1909E910)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1909E950)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__PLAYALLEVENTSACCORDINGTOTIMESTAMPS_B__38_0_OFFSET UNITYSDK_OFFSET(0x1909E960)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A04F030)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04F070)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTTRACE_REPLAYCONTROLLER___C__PLAYALLEVENTSACCORDINGTOTIMESTAMPS_B__38_0_OFFSET UNITYSDK_OFFSET(0x1A04F080)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputEventTrace_ReplayController___c_TypeDefinitionIndex = 28748;
+	inline static constexpr unsigned int InputEventTrace_ReplayController___c_TypeDefinitionIndex = 29266;
 
 	class InputEventTrace_ReplayController___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController___c** StaticGet___9()
-		{
-			return (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController___c**)Il2CppClass::FromTypeDefinitionIndex(InputEventTrace_ReplayController___c_TypeDefinitionIndex)->GetStaticField(0x218B0);
-		}
 		static ::System::Comparison_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>** StaticGet___9__38_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>**)Il2CppClass::FromTypeDefinitionIndex(InputEventTrace_ReplayController___c_TypeDefinitionIndex)->GetStaticField(0x218B8);
+			return (::System::Comparison_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>**)Il2CppClass::FromTypeDefinitionIndex(InputEventTrace_ReplayController___c_TypeDefinitionIndex)->GetStaticField(0x22420);
+		}
+		static ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController___c** StaticGet___9()
+		{
+			return (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController___c**)Il2CppClass::FromTypeDefinitionIndex(InputEventTrace_ReplayController___c_TypeDefinitionIndex)->GetStaticField(0x22428);
 		}
 
 		static ::System::Void _cctor()

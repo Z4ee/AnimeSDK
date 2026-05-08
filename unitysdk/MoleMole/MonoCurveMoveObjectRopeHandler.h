@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOCURVEMOVEOBJECTROPEHANDLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBA23250)
-#define MOLEMOLE_MONOCURVEMOVEOBJECTROPEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xBA23580)
+#define MOLEMOLE_MONOCURVEMOVEOBJECTROPEHANDLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16D57D30)
+#define MOLEMOLE_MONOCURVEMOVEOBJECTROPEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D581D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCurveMoveObjectRopeHandler_TypeDefinitionIndex = 51395;
+	inline static constexpr unsigned int MonoCurveMoveObjectRopeHandler_TypeDefinitionIndex = 61934;
 
 	class MonoCurveMoveObjectRopeHandler : public ::UnityEngine::MonoBehaviour
 	{

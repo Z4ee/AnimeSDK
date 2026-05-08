@@ -6,12 +6,12 @@ namespace MoleMole { class ImgTextParserBase; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_IMGTEXTPARSERBASE_CLASS_1_121FD646E893BFAA_METHOD_1_3249389B928082B9_OFFSET UNITYSDK_OFFSET(0xB8B2900)
-#define MOLEMOLE_IMGTEXTPARSERBASE_CLASS_1_121FD646E893BFAA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B28F0)
+#define MOLEMOLE_IMGTEXTPARSERBASE_CLASS_1_121FD646E893BFAA_METHOD_1_3249389B928082B9_OFFSET UNITYSDK_OFFSET(0x10E221E0)
+#define MOLEMOLE_IMGTEXTPARSERBASE_CLASS_1_121FD646E893BFAA__CTOR_OFFSET UNITYSDK_OFFSET(0x10E221D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ImgTextParserBase_Class_1_121FD646E893BFAA_TypeDefinitionIndex = 72934;
+	inline static constexpr unsigned int ImgTextParserBase_Class_1_121FD646E893BFAA_TypeDefinitionIndex = 39759;
 
 	class ImgTextParserBase_Class_1_121FD646E893BFAA : public ::System::Object
 	{

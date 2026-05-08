@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGFRONTVIDEOCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC417F0)
+#define MOLEMOLE_CONFIG_CONFIGFRONTVIDEOCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x181C9F00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFrontVideoChessPiece_TypeDefinitionIndex = 37733;
+	inline static constexpr unsigned int ConfigFrontVideoChessPiece_TypeDefinitionIndex = 78022;
 
 	class ConfigFrontVideoChessPiece : public ::System::Object
 	{

@@ -3,16 +3,16 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SpecialGamepadInputHintType_TypeDefinitionIndex = 62358;
+	inline static constexpr unsigned int SpecialGamepadInputHintType_TypeDefinitionIndex = 61947;
 
 	enum class SpecialGamepadInputHintType : ::System::Int32
 	{
-		DPadLeftRight = 5,
 		MouseMiddleButtonScroll = 6,
+		DPadUpDown = 4,
+		None = 0,
+		DPadLeftRight = 5,
 		LeftStick = 1,
 		RightStick = 2,
-		None = 0,
-		DPadUpDown = 4,
 		DPadUpDownLeftRight = 3,
 	};
 }

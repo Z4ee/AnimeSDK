@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraCurve_1_TypeDefinitionIndex = 69034;
+	inline static constexpr unsigned int ConfigCameraCurve_1_TypeDefinitionIndex = 75922;
 
 	template <typename T>
 	class ConfigCameraCurve_1 : public ::System::Object

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIInterKnotPostDialogPopWindowController___c__DisplayClass18_0; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9D790C0)
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__SHOWCHATANIM_B__0_OFFSET UNITYSDK_OFFSET(0x9D790D0)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x148B8240)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__SHOWCHATANIM_B__0_OFFSET UNITYSDK_OFFSET(0x148B8250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostDialogPopWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 79619;
+	inline static constexpr unsigned int UIInterKnotPostDialogPopWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 59040;
 
 	class UIInterKnotPostDialogPopWindowController___c__DisplayClass18_1 : public ::System::Object
 	{

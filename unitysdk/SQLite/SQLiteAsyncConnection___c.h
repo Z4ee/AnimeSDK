@@ -5,24 +5,24 @@
 namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SQLITE_SQLITEASYNCCONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A634F70)
-#define SQLITE_SQLITEASYNCCONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A634FB0)
-#define SQLITE_SQLITEASYNCCONNECTION___C__ENABLEWRITEAHEADLOGGINGASYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A634FC0)
+#define SQLITE_SQLITEASYNCCONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B27C030)
+#define SQLITE_SQLITEASYNCCONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27C070)
+#define SQLITE_SQLITEASYNCCONNECTION___C__ENABLEWRITEAHEADLOGGINGASYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x1B27C080)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c_TypeDefinitionIndex = 36272;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c_TypeDefinitionIndex = 36816;
 
 	class SQLiteAsyncConnection___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::SQLite::SQLiteConnectionWithLock*, ::System::Object*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::SQLite::SQLiteConnectionWithLock*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteAsyncConnection___c_TypeDefinitionIndex)->GetStaticField(0x26770);
+			return (::System::Func_2<::SQLite::SQLiteConnectionWithLock*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SQLiteAsyncConnection___c_TypeDefinitionIndex)->GetStaticField(0x27320);
 		}
 		static ::SQLite::SQLiteAsyncConnection___c** StaticGet___9()
 		{
-			return (::SQLite::SQLiteAsyncConnection___c**)Il2CppClass::FromTypeDefinitionIndex(SQLiteAsyncConnection___c_TypeDefinitionIndex)->GetStaticField(0x26778);
+			return (::SQLite::SQLiteAsyncConnection___c**)Il2CppClass::FromTypeDefinitionIndex(SQLiteAsyncConnection___c_TypeDefinitionIndex)->GetStaticField(0x27328);
 		}
 
 		static ::System::Void _cctor()

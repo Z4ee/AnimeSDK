@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIINLEVELHOUSERHYTHMCHALLENGEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBD20F60)
+#define MOLEMOLE_UIINLEVELHOUSERHYTHMCHALLENGEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16087CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelHouseRhythmChallengeWidgetController_Context_TypeDefinitionIndex = 62422;
+	inline static constexpr unsigned int UIInLevelHouseRhythmChallengeWidgetController_Context_TypeDefinitionIndex = 56770;
 
 	class UIInLevelHouseRhythmChallengeWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

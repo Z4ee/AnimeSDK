@@ -7,11 +7,11 @@ namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineEdito
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineEditorResources_MaterialResources; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineEditorResources_ShaderResources; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F0E40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0xF7FD750)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_TypeDefinitionIndex = 29310;
+	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_TypeDefinitionIndex = 29829;
 
 	class UniversalRenderPipelineEditorResources : public ::UnityEngine::ScriptableObject
 	{

@@ -3,19 +3,19 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RhythmEventType_TypeDefinitionIndex = 39275;
+	inline static constexpr unsigned int RhythmEventType_TypeDefinitionIndex = 49283;
 
 	enum class RhythmEventType : ::System::Int32
 	{
-		InteractEvent = 99,
-		SwitchInteractSound = 5,
-		ShowSpeedUpText = 6,
-		ResetPattern = 1,
-		ShowLongPressText = 7,
-		SoundEvent = 98,
-		ClassicBeat = 0,
 		FinishLevel = 2,
+		ClassicBeat = 0,
+		SoundEvent = 98,
+		ShowSpeedUpText = 6,
+		SwitchInteractSound = 5,
+		ShowLongPressText = 7,
 		SwitchGuideSound = 4,
+		InteractEvent = 99,
 		PlayEffect = 3,
+		ResetPattern = 1,
 	};
 }

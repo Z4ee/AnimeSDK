@@ -10,7 +10,7 @@ namespace System::IO { class TextReader; }
 namespace System::Xml { class XmlParserContext; }
 namespace System::Xml { class XmlResolver; }
 
-#define SYSTEM_XML_XMLTEXTREADERIMPL_LATERINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04E760)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_LATERINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD7CE00)
 
 namespace System::Xml
 {
@@ -19,12 +19,12 @@ namespace System::Xml
 	class XmlTextReaderImpl_LaterInitParam : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* inputBytes; // 0x10
-		::System::Uri* inputbaseUri; // 0x18
-		::System::Xml::XmlResolver* inputUriResolver; // 0x20
-		::System::Xml::XmlParserContext* inputContext; // 0x28
-		::System::IO::Stream* inputStream; // 0x30
-		::System::String* inputUriStr; // 0x38
+		::System::Xml::XmlResolver* inputUriResolver; // 0x10
+		::System::IO::Stream* inputStream; // 0x18
+		::System::String* inputUriStr; // 0x20
+		::Il2CppArray<::System::Byte>* inputBytes; // 0x28
+		::System::Uri* inputbaseUri; // 0x30
+		::System::Xml::XmlParserContext* inputContext; // 0x38
 		::System::IO::TextReader* inputTextReader; // 0x40
 		::System::Int32 inputByteCount; // 0x48
 		::System::Boolean useAsync; // 0x4C

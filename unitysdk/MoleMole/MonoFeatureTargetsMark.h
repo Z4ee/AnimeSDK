@@ -7,23 +7,23 @@ namespace MoleMole { class ConfigFeatureTarget; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOFEATURETARGETSMARK_EMPTY_OFFSET UNITYSDK_OFFSET(0xB1A7E90)
-#define MOLEMOLE_MONOFEATURETARGETSMARK_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0xB1A7FC0)
-#define MOLEMOLE_MONOFEATURETARGETSMARK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB1A8300)
-#define MOLEMOLE_MONOFEATURETARGETSMARK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB1A8110)
-#define MOLEMOLE_MONOFEATURETARGETSMARK__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1A8680)
-#define MOLEMOLE_MONOFEATURETARGETSMARK__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A8560)
+#define MOLEMOLE_MONOFEATURETARGETSMARK_EMPTY_OFFSET UNITYSDK_OFFSET(0x10BD2270)
+#define MOLEMOLE_MONOFEATURETARGETSMARK_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x10BD2380)
+#define MOLEMOLE_MONOFEATURETARGETSMARK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x10BD25C0)
+#define MOLEMOLE_MONOFEATURETARGETSMARK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10BD24B0)
+#define MOLEMOLE_MONOFEATURETARGETSMARK__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BD2880)
+#define MOLEMOLE_MONOFEATURETARGETSMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD2740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFeatureTargetsMark_TypeDefinitionIndex = 43560;
+	inline static constexpr unsigned int MonoFeatureTargetsMark_TypeDefinitionIndex = 80837;
 
 	class MonoFeatureTargetsMark : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoFeatureTargetsMark*>** StaticGet_Field_5_3()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoFeatureTargetsMark*>**)Il2CppClass::FromTypeDefinitionIndex(MonoFeatureTargetsMark_TypeDefinitionIndex)->GetStaticField(0x3D440);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoFeatureTargetsMark*>**)Il2CppClass::FromTypeDefinitionIndex(MonoFeatureTargetsMark_TypeDefinitionIndex)->GetStaticField(0x3EBC0);
 		}
 		::System::Boolean IsAutoDisableRootTarget; // 0x18
 		::MoleMole::GameplayTag defaultRootPoint; // 0x20

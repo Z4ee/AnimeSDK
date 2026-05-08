@@ -6,17 +6,17 @@ class Class_2_12BDE7300F0E061C;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBATCHOPERATIONITEMLISTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD531440)
+#define MOLEMOLE_UIBATCHOPERATIONITEMLISTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC9340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBatchOperationItemListPopWindowContext_TypeDefinitionIndex = 37670;
+	inline static constexpr unsigned int UIBatchOperationItemListPopWindowContext_TypeDefinitionIndex = 72249;
 
 	class UIBatchOperationItemListPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* OnOKCallback; // 0x28
-		::System::Collections::Generic::List_1<::Class_2_12BDE7300F0E061C*>* EquipItemList; // 0x30
+		::System::Collections::Generic::List_1<::Class_2_12BDE7300F0E061C*>* EquipItemList; // 0x28
+		::System::Action* OnOKCallback; // 0x30
 		::System::Int32 OptType; // 0x38
 
 		::System::Void _ctor()

@@ -7,7 +7,7 @@ namespace System::Data { template <typename T> class RBTree_1; }
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RBTree_1_RBTreeEnumerator_TypeDefinitionIndex = 36508;
+	inline static constexpr unsigned int RBTree_1_RBTreeEnumerator_TypeDefinitionIndex = 37052;
 
 	template <typename K>
 	struct RBTree_1_RBTreeEnumerator

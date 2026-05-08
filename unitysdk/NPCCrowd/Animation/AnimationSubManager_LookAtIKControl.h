@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_LOOKATIKCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x76D5B00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_LOOKATIKCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x11507760)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_LookAtIKControl_TypeDefinitionIndex = 59743;
+	inline static constexpr unsigned int AnimationSubManager_LookAtIKControl_TypeDefinitionIndex = 70513;
 
 	struct alignas(4) AnimationSubManager_LookAtIKControl
 	{

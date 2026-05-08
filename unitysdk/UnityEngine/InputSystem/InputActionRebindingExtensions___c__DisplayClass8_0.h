@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/InputSystem/InputBinding.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.h"
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREBINDINGEXTENSIONS___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1538A0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREBINDINGEXTENSIONS___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C087190)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionRebindingExtensions___c__DisplayClass8_0_TypeDefinitionIndex = 28379;
+	inline static constexpr unsigned int InputActionRebindingExtensions___c__DisplayClass8_0_TypeDefinitionIndex = 28897;
 
 	class InputActionRebindingExtensions___c__DisplayClass8_0 : public ::System::Object
 	{

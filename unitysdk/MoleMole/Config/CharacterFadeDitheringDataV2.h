@@ -6,13 +6,13 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterFadeDitheringDataV2_TypeDefinitionIndex = 46433;
+	inline static constexpr unsigned int CharacterFadeDitheringDataV2_TypeDefinitionIndex = 48485;
 
 	struct alignas(8) CharacterFadeDitheringDataV2
 	{
 		static ::MoleMole::Config::CharacterFadeDitheringDataV2* StaticGet_Default()
 		{
-			return (::MoleMole::Config::CharacterFadeDitheringDataV2*)Il2CppClass::FromTypeDefinitionIndex(CharacterFadeDitheringDataV2_TypeDefinitionIndex)->GetStaticField(0x3AB90);
+			return (::MoleMole::Config::CharacterFadeDitheringDataV2*)Il2CppClass::FromTypeDefinitionIndex(CharacterFadeDitheringDataV2_TypeDefinitionIndex)->GetStaticField(0x463A0);
 		}
 		::System::Single TargetDitherVal; // 0x10
 		::System::Single StartTime; // 0x14

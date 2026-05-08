@@ -5,19 +5,19 @@
 namespace MoleMole { class UIMainStoryPageController___c__DisplayClass85_0; }
 namespace MoleMole { class UIMainStoryPersonalRowWidgetController; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_1__CTOR_OFFSET UNITYSDK_OFFSET(0x74733F0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_1__INITPERSONALLINE_B__0_OFFSET UNITYSDK_OFFSET(0x7473400)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_1__INITPERSONALLINE_B__1_OFFSET UNITYSDK_OFFSET(0x7473BA0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1483E600)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_1__INITPERSONALLINE_B__0_OFFSET UNITYSDK_OFFSET(0x1483E610)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_1__INITPERSONALLINE_B__1_OFFSET UNITYSDK_OFFSET(0x1483ED40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass85_1_TypeDefinitionIndex = 40427;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass85_1_TypeDefinitionIndex = 56286;
 
 	class UIMainStoryPageController___c__DisplayClass85_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainStoryPageController___c__DisplayClass85_0* CS___8__locals1; // 0x10
-		::MoleMole::UIMainStoryPersonalRowWidgetController* ctrl; // 0x18
+		::MoleMole::UIMainStoryPersonalRowWidgetController* ctrl; // 0x10
+		::MoleMole::UIMainStoryPageController___c__DisplayClass85_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

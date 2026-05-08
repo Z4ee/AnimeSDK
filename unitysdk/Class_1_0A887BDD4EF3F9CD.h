@@ -4,18 +4,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0A887BDD4EF3F9CD__CTOR_OFFSET UNITYSDK_OFFSET(0x6179C50)
+#define CLASS_1_0A887BDD4EF3F9CD__CTOR_OFFSET UNITYSDK_OFFSET(0x13968EF0)
 
-inline static constexpr unsigned int Class_1_0A887BDD4EF3F9CD_TypeDefinitionIndex = 51152;
+inline static constexpr unsigned int Class_1_0A887BDD4EF3F9CD_TypeDefinitionIndex = 47077;
 
 class Class_1_0A887BDD4EF3F9CD : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_3; // 0x18
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x20
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x28
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_3; // 0x30
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_2; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

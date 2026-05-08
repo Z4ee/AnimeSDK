@@ -2,36 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSoundActionGeneral.h"
 
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_147;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10A9F520)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_ISMATCH_OFFSET UNITYSDK_OFFSET(0x10A9F770)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_WALK_OFFSET UNITYSDK_OFFSET(0x10A9F940)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x10A9FA80)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x10A9FA90)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x10A9FAA0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_EXECUTE_OFFSET UNITYSDK_OFFSET(0x183C9C20)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x183C9BE0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_ISMATCH_OFFSET UNITYSDK_OFFSET(0x183C9E40)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_WALK_OFFSET UNITYSDK_OFFSET(0x183C9FF0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x183CA0D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x183CA110)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x183CA120)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_Quest_TypeDefinitionIndex = 76276;
+	inline static constexpr unsigned int ConfigSoundAction_Quest_TypeDefinitionIndex = 52690;
 
 	class ConfigSoundAction_Quest : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
-		::MoleMole::Config::ConfigSoundActionGeneral* action; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* questIds; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* questIds; // 0x20
+		::MoleMole::Config::ConfigSoundActionGeneral* action; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_148* context)
+		::System::String* get_InspectorLabel()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_148*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_EXECUTE_OFFSET))(this, context);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_GET_INSPECTORLABEL_OFFSET))(this);
+		}
+
+		::System::Void Execute(::Class_0_16E4307DCC419505_147* context)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_147*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_QUEST_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

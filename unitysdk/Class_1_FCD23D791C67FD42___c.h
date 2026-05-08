@@ -8,27 +8,27 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0xB14C040)
-#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_EA79D5F7C12B6F7D_OFFSET UNITYSDK_OFFSET(0xB14C030)
-#define CLASS_1_FCD23D791C67FD42___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB14BFE0)
-#define CLASS_1_FCD23D791C67FD42___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB14C020)
+#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x1367B310)
+#define CLASS_1_FCD23D791C67FD42___C_METHOD_1_EA79D5F7C12B6F7D_OFFSET UNITYSDK_OFFSET(0x1367B320)
+#define CLASS_1_FCD23D791C67FD42___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1367B2C0)
+#define CLASS_1_FCD23D791C67FD42___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1367B300)
 
-inline static constexpr unsigned int Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex = 65288;
+inline static constexpr unsigned int Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex = 67869;
 
 class Class_1_FCD23D791C67FD42___c : public ::System::Object
 {
 public:
-	static ::System::Action_1<::System::Boolean>** StaticGet___9__109_0()
+	static ::Class_1_FCD23D791C67FD42___c** StaticGet___9()
 	{
-		return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x3E250);
+		return (::Class_1_FCD23D791C67FD42___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x37060);
 	}
 	static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__130_0()
 	{
-		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x3E258);
+		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x37068);
 	}
-	static ::Class_1_FCD23D791C67FD42___c** StaticGet___9()
+	static ::System::Action_1<::System::Boolean>** StaticGet___9__109_0()
 	{
-		return (::Class_1_FCD23D791C67FD42___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x3E260);
+		return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FCD23D791C67FD42___c_TypeDefinitionIndex)->GetStaticField(0x37070);
 	}
 
 	static ::System::Void _cctor()
@@ -41,13 +41,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FCD23D791C67FD42___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_EA79D5F7C12B6F7D(::System::Object* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::System::Net::Security::SslPolicyErrors a4)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + CLASS_1_FCD23D791C67FD42___C_METHOD_1_EA79D5F7C12B6F7D_OFFSET))(this, a1, a2, a3, a4);
-	}
-
 	::System::Void Method_1_C74E50CBD41F0264(::System::Boolean a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_FCD23D791C67FD42___C_METHOD_1_C74E50CBD41F0264_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_EA79D5F7C12B6F7D(::System::Object* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::System::Net::Security::SslPolicyErrors a4)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + CLASS_1_FCD23D791C67FD42___C_METHOD_1_EA79D5F7C12B6F7D_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

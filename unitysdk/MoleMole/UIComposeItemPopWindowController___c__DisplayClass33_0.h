@@ -6,7 +6,7 @@ namespace MoleMole { class UIComposeItemPopWindowController; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComposeItemPopWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 53225;
+	inline static constexpr unsigned int UIComposeItemPopWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 81224;
 
 	struct alignas(8) UIComposeItemPopWindowController___c__DisplayClass33_0
 	{

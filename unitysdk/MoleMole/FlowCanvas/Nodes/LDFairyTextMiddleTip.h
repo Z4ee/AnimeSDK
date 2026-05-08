@@ -7,22 +7,22 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA7CE5D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA7CE740)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0xA7CE760)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0xA7CE850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1603E500)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1603E650)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1603E690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFAIRYTEXTMIDDLETIP__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1603E780)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDFairyTextMiddleTip_TypeDefinitionIndex = 62126;
+	inline static constexpr unsigned int LDFairyTextMiddleTip_TypeDefinitionIndex = 58885;
 
 	class LDFairyTextMiddleTip : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::MoleMole::FairyTextUpdateType>* UpdateType; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* MiddleTipText; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::String*>* NoMiddleTipText; // 0xB0
 		::FlowCanvas::ValueOutput_1<::System::String*>* FinalText; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::String*>* MiddleTipText; // 0xC0
+		::FlowCanvas::ValueOutput_1<::MoleMole::FairyTextUpdateType>* UpdateType; // 0xC0
 		::System::Boolean middleTip; // 0xC8
 
 		::System::Void _ctor()

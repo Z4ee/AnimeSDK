@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define MOLEMOLE_TIMELINE_URPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA6831C0)
+#define MOLEMOLE_TIMELINE_URPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x13895E90)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int URPTrack_TypeDefinitionIndex = 44153;
+	inline static constexpr unsigned int URPTrack_TypeDefinitionIndex = 37930;
 
 	class URPTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

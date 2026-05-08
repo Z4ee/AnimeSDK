@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectType_TypeDefinitionIndex = 50097;
+	inline static constexpr unsigned int EffectType_TypeDefinitionIndex = 54217;
 
 	enum class EffectType : ::System::Int32
 	{
-		Scene = 0,
 		Camera = 1,
+		Scene = 0,
 	};
 }

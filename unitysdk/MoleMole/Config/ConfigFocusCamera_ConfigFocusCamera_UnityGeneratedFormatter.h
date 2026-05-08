@@ -11,26 +11,26 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x94FEFB0)
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x94FEFC0)
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x94FF1C0)
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x94FF380)
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x94FF340)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1241C440)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1241C450)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1241C630)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1241C7D0)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CONFIGFOCUSCAMERA_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1241C790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter_TypeDefinitionIndex = 69120;
+	inline static constexpr unsigned int ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter_TypeDefinitionIndex = 49504;
 
 	class ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::Config::ConfigFocusCamera*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigFocusCameraEntry*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigFocusCameraEntry*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x401A0);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigFocusCameraEntry*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40220);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Battle::FocusCameraTargetActivePolicy, ::MoleMole::Config::ConfigFocusCameraEntry*>*>** StaticGet_CachedSerializer1()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Battle::FocusCameraTargetActivePolicy, ::MoleMole::Config::ConfigFocusCameraEntry*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x401A8);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::MoleMole::Battle::FocusCameraTargetActivePolicy, ::MoleMole::Config::ConfigFocusCameraEntry*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigFocusCamera_ConfigFocusCamera_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x40228);
 		}
 
 		::System::Void _ctor()

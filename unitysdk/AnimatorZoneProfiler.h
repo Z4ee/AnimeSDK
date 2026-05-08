@@ -8,53 +8,53 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ANIMATORZONEPROFILER_BEGIN_OFFSET UNITYSDK_OFFSET(0x80AF0E0)
-#define ANIMATORZONEPROFILER_CLEAR_OFFSET UNITYSDK_OFFSET(0x80AFE70)
-#define ANIMATORZONEPROFILER_END_OFFSET UNITYSDK_OFFSET(0x80AF650)
-#define ANIMATORZONEPROFILER_ENSURECAPACITY_OFFSET UNITYSDK_OFFSET(0x80AEDB0)
-#define ANIMATORZONEPROFILER_GETSHORTPREFABNAME_OFFSET UNITYSDK_OFFSET(0x80AFC70)
-#define ANIMATORZONEPROFILER_GET_USEANIMATORZONEPROFILER_OFFSET UNITYSDK_OFFSET(0x80B0020)
-#define ANIMATORZONEPROFILER_SAVEDATATOFILE_OFFSET UNITYSDK_OFFSET(0x80B00E0)
-#define ANIMATORZONEPROFILER_SCOPE_OFFSET UNITYSDK_OFFSET(0x80AFD40)
-#define ANIMATORZONEPROFILER_SET_USEANIMATORZONEPROFILER_OFFSET UNITYSDK_OFFSET(0x80B0080)
-#define ANIMATORZONEPROFILER__CCTOR_OFFSET UNITYSDK_OFFSET(0x80B1090)
+#define ANIMATORZONEPROFILER_BEGIN_OFFSET UNITYSDK_OFFSET(0x106924A0)
+#define ANIMATORZONEPROFILER_CLEAR_OFFSET UNITYSDK_OFFSET(0x10693190)
+#define ANIMATORZONEPROFILER_END_OFFSET UNITYSDK_OFFSET(0x10692A30)
+#define ANIMATORZONEPROFILER_ENSURECAPACITY_OFFSET UNITYSDK_OFFSET(0x10692180)
+#define ANIMATORZONEPROFILER_GETSHORTPREFABNAME_OFFSET UNITYSDK_OFFSET(0x10692FD0)
+#define ANIMATORZONEPROFILER_GET_USEANIMATORZONEPROFILER_OFFSET UNITYSDK_OFFSET(0x10693320)
+#define ANIMATORZONEPROFILER_SAVEDATATOFILE_OFFSET UNITYSDK_OFFSET(0x106933E0)
+#define ANIMATORZONEPROFILER_SCOPE_OFFSET UNITYSDK_OFFSET(0x10693080)
+#define ANIMATORZONEPROFILER_SET_USEANIMATORZONEPROFILER_OFFSET UNITYSDK_OFFSET(0x10693380)
+#define ANIMATORZONEPROFILER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10694620)
 
-inline static constexpr unsigned int AnimatorZoneProfiler_TypeDefinitionIndex = 46846;
+inline static constexpr unsigned int AnimatorZoneProfiler_TypeDefinitionIndex = 69371;
 
 class AnimatorZoneProfiler : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::AnimatorZoneProfiler_RowData>** StaticGet__rows()
-	{
-		return (::Il2CppArray<::AnimatorZoneProfiler_RowData>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x2A5A0);
-	}
 	static ::System::Object** StaticGet__rowsLock()
 	{
-		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x2A5A8);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x2A4E0);
+	}
+	static ::Il2CppArray<::AnimatorZoneProfiler_RowData>** StaticGet__rows()
+	{
+		return (::Il2CppArray<::AnimatorZoneProfiler_RowData>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x2A4E8);
 	}
 	static ::System::Int32* StaticGet__rowCount()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x93F0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x95A0);
 	}
 	static ::System::Single* StaticGet_SkipSmallCostThreshold()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x93F4);
-	}
-	static ::System::Boolean* StaticGet_AutoSaveWhenReplay()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x93F8);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x95A4);
 	}
 	static ::System::Boolean* StaticGet__useAnimatorZoneProfiler()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x93F9);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x95A8);
 	}
-	static ::Il2CppArray<::AnimatorZoneProfiler_Active>** StaticGet__stackArr()
+	static ::System::Boolean* StaticGet_AutoSaveWhenReplay()
 	{
-		return (::Il2CppArray<::AnimatorZoneProfiler_Active>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x95A9);
 	}
 	static ::System::Text::StringBuilder** StaticGet__scratch()
 	{
 		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::Il2CppArray<::AnimatorZoneProfiler_Active>** StaticGet__stackArr()
+	{
+		return (::Il2CppArray<::AnimatorZoneProfiler_Active>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorZoneProfiler_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
 	static ::System::Int32* StaticGet__stackTop()
 	{

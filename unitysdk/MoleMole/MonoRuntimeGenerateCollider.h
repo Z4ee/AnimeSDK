@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONORUNTIMEGENERATECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A9E20)
+#define MOLEMOLE_MONORUNTIMEGENERATECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD47D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRuntimeGenerateCollider_TypeDefinitionIndex = 39758;
+	inline static constexpr unsigned int MonoRuntimeGenerateCollider_TypeDefinitionIndex = 62356;
 
 	class MonoRuntimeGenerateCollider : public ::UnityEngine::MonoBehaviour
 	{

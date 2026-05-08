@@ -10,22 +10,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x6ED5B90)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x6ED5BA0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x6ED5CF0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x6ED5E50)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x6ED5E10)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x11DF8A10)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x11DF8A20)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x11DF8B50)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11DF8C90)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_LISTPATTERNPAIR_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11DF8C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillCharacterScriptConfig_ListPatternPair_ListPatternPair_UnityGeneratedFormatter_TypeDefinitionIndex = 61839;
+	inline static constexpr unsigned int SkillCharacterScriptConfig_ListPatternPair_ListPatternPair_UnityGeneratedFormatter_TypeDefinitionIndex = 73515;
 
 	class SkillCharacterScriptConfig_ListPatternPair_ListPatternPair_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::MoleMole::SkillCharacterScriptConfig_ListPatternPair*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::SkillCharacterScriptConfig_PatternPair*>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::SkillCharacterScriptConfig_PatternPair*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_ListPatternPair_ListPatternPair_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x44280);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::List_1<::MoleMole::SkillCharacterScriptConfig_PatternPair*>*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_ListPatternPair_ListPatternPair_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x45C30);
 		}
 
 		::System::Void _ctor()

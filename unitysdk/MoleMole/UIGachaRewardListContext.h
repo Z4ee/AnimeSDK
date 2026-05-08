@@ -6,11 +6,11 @@ class Class_3_601FA52CA5E757A0;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGACHAREWARDLISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAD2BEB0)
+#define MOLEMOLE_UIGACHAREWARDLISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x158049B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaRewardListContext_TypeDefinitionIndex = 71881;
+	inline static constexpr unsigned int UIGachaRewardListContext_TypeDefinitionIndex = 71688;
 
 	class UIGachaRewardListContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_UIANIMATIONCURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB47F500)
+#define MOLEMOLE_CONFIG_UIANIMATIONCURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17D30840)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIAnimationCurveConfig_TypeDefinitionIndex = 46450;
+	inline static constexpr unsigned int UIAnimationCurveConfig_TypeDefinitionIndex = 63690;
 
 	class UIAnimationCurveConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

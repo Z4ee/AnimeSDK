@@ -3,7 +3,7 @@
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_532730639953AB39_TypeDefinitionIndex = 60876;
+inline static constexpr unsigned int Struct_2_532730639953AB39_TypeDefinitionIndex = 40933;
 
 struct alignas(4) Struct_2_532730639953AB39
 {

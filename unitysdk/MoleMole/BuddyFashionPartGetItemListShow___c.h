@@ -5,24 +5,24 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB075C80)
-#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB075CC0)
-#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___C__DOPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0xB075CD0)
+#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11006C30)
+#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11006C70)
+#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___C__DOPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x11006C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BuddyFashionPartGetItemListShow___c_TypeDefinitionIndex = 48812;
+	inline static constexpr unsigned int BuddyFashionPartGetItemListShow___c_TypeDefinitionIndex = 60299;
 
 	class BuddyFashionPartGetItemListShow___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Int32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BuddyFashionPartGetItemListShow___c_TypeDefinitionIndex)->GetStaticField(0x2D8F0);
+			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BuddyFashionPartGetItemListShow___c_TypeDefinitionIndex)->GetStaticField(0x2DE10);
 		}
 		static ::MoleMole::BuddyFashionPartGetItemListShow___c** StaticGet___9()
 		{
-			return (::MoleMole::BuddyFashionPartGetItemListShow___c**)Il2CppClass::FromTypeDefinitionIndex(BuddyFashionPartGetItemListShow___c_TypeDefinitionIndex)->GetStaticField(0x2D8F8);
+			return (::MoleMole::BuddyFashionPartGetItemListShow___c**)Il2CppClass::FromTypeDefinitionIndex(BuddyFashionPartGetItemListShow___c_TypeDefinitionIndex)->GetStaticField(0x2DE18);
 		}
 
 		static ::System::Void _cctor()

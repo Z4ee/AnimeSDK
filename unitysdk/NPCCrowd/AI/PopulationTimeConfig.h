@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_POPULATIONTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174A7450)
+#define NPCCROWD_AI_POPULATIONTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB52BF40)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationTimeConfig_TypeDefinitionIndex = 55371;
+	inline static constexpr unsigned int PopulationTimeConfig_TypeDefinitionIndex = 55727;
 
 	class PopulationTimeConfig : public ::System::Object
 	{

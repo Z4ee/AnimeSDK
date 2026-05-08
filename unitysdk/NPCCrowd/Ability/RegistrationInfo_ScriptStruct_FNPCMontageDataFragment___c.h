@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCMONTAGEDATAFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x62E0270)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCMONTAGEDATAFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x62E02B0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCMONTAGEDATAFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x62E02C0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCMONTAGEDATAFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD23E4F0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCMONTAGEDATAFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD23E530)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCMONTAGEDATAFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD23E540)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c_TypeDefinitionIndex = 50671;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c_TypeDefinitionIndex = 81632;
 
 	class RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c_TypeDefinitionIndex)->GetStaticField(0x37A50);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCMontageDataFragment___c_TypeDefinitionIndex)->GetStaticField(0x38690);
 		}
 
 		static ::System::Void _cctor()

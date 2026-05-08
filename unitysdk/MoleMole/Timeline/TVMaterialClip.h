@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class TVMaterialBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TVMATERIALCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x9860060)
-#define MOLEMOLE_TIMELINE_TVMATERIALCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x9860050)
-#define MOLEMOLE_TIMELINE_TVMATERIALCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x9860260)
+#define MOLEMOLE_TIMELINE_TVMATERIALCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1178C5D0)
+#define MOLEMOLE_TIMELINE_TVMATERIALCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1178C5C0)
+#define MOLEMOLE_TIMELINE_TVMATERIALCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1178C7B0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TVMaterialClip_TypeDefinitionIndex = 77574;
+	inline static constexpr unsigned int TVMaterialClip_TypeDefinitionIndex = 77134;
 
 	class TVMaterialClip : public ::UnityEngine::Playables::PlayableAsset
 	{

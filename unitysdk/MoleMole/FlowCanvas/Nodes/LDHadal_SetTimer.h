@@ -6,20 +6,20 @@
 class Class_3_EA02B975BED3466B_Class_1_DCE79A11CC8A2FDA;
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x7576110)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x7576A40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__ONTICK1SINTERVAL_OFFSET UNITYSDK_OFFSET(0x7576780)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__SENDICONEVENT_OFFSET UNITYSDK_OFFSET(0x75764E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1498EAE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1498F320)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__ONTICK1SINTERVAL_OFFSET UNITYSDK_OFFSET(0x1498F0C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__SENDICONEVENT_OFFSET UNITYSDK_OFFSET(0x1498EE80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHadal_SetTimer_TypeDefinitionIndex = 65787;
+	inline static constexpr unsigned int LDHadal_SetTimer_TypeDefinitionIndex = 44135;
 
 	class LDHadal_SetTimer : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean>
 	{
 	public:
-		::MoleMole::Level::RatingType _curRating; // 0x30
-		::System::Boolean skipUpdateIcon; // 0x34
+		::System::Boolean skipUpdateIcon; // 0x30
+		::MoleMole::Level::RatingType _curRating; // 0x34
 
 		::System::Void _ctor()
 		{

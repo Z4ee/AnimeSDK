@@ -3,21 +3,21 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraDelayMoveMode_TypeDefinitionIndex = 57047;
+	inline static constexpr unsigned int CameraDelayMoveMode_TypeDefinitionIndex = 49631;
 
 	enum class CameraDelayMoveMode : ::System::Int32
 	{
-		OrbitDefault = 0,
 		AimMode = 5,
-		HexOrbitDefault = 12,
-		None = -1,
-		HighSpeedAttackDirect = 1,
-		DragDirect = 3,
-		AnyCamera = 99,
+		OrbitDefault = 0,
 		HexMovementRotate = 11,
-		SwitchAvatar = 20,
+		LowSpeedAttack = 25,
+		HexOrbitDefault = 12,
 		LockOnDirect = 4,
 		MovementRotate = 2,
-		LowSpeedAttack = 25,
+		HighSpeedAttackDirect = 1,
+		None = -1,
+		AnyCamera = 99,
+		SwitchAvatar = 20,
+		DragDirect = 3,
 	};
 }

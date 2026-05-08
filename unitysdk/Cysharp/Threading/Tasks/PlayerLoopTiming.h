@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopTiming_TypeDefinitionIndex = 28049;
+	inline static constexpr unsigned int PlayerLoopTiming_TypeDefinitionIndex = 28567;
 
 	enum class PlayerLoopTiming : ::System::Int32
 	{

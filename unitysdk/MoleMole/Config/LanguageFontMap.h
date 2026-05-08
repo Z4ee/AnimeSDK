@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LanguageFontMap_TypeDefinitionIndex = 51540;
+	inline static constexpr unsigned int LanguageFontMap_TypeDefinitionIndex = 68930;
 
 	struct alignas(8) LanguageFontMap
 	{

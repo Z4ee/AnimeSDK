@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_3_F35B080B137ECC46;
+class Class_3_DFD5D1FDB9D2A4AC;
 namespace MoleMole { class FeaturePoint; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOFEATUREPOINT_GETFEATUREPOINTANGLE_OFFSET UNITYSDK_OFFSET(0x6EAC600)
-#define MOLEMOLE_MONOFEATUREPOINT_GETNEARESTFEATUREPOINT_OFFSET UNITYSDK_OFFSET(0x6EAC070)
-#define MOLEMOLE_MONOFEATUREPOINT_METHOD_5_EBAB6A35C21A2A5B_OFFSET UNITYSDK_OFFSET(0x6EAC380)
-#define MOLEMOLE_MONOFEATUREPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x6EAC8C0)
+#define MOLEMOLE_MONOFEATUREPOINT_GETFEATUREPOINTANGLE_OFFSET UNITYSDK_OFFSET(0x142A6800)
+#define MOLEMOLE_MONOFEATUREPOINT_GETNEARESTFEATUREPOINT_OFFSET UNITYSDK_OFFSET(0x142A6230)
+#define MOLEMOLE_MONOFEATUREPOINT_METHOD_5_EBAB6A35C21A2A5B_OFFSET UNITYSDK_OFFSET(0x142A65B0)
+#define MOLEMOLE_MONOFEATUREPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x142A6AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFeaturePoint_TypeDefinitionIndex = 44186;
+	inline static constexpr unsigned int MonoFeaturePoint_TypeDefinitionIndex = 48680;
 
 	class MonoFeaturePoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::MoleMole::FeaturePoint*>* featurePointList; // 0x18
-		::Class_3_F35B080B137ECC46* Field_5_1; // 0x20
+		::Class_3_DFD5D1FDB9D2A4AC* Field_5_1; // 0x20
 
 		::System::Void _ctor()
 		{

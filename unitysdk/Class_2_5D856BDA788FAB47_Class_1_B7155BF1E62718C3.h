@@ -9,10 +9,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_5D856BDA788FAB47_CLASS_1_B7155BF1E62718C3_METHOD_1_3A117FEF9BB2D2A4_OFFSET UNITYSDK_OFFSET(0x12CF6880)
-#define CLASS_2_5D856BDA788FAB47_CLASS_1_B7155BF1E62718C3__CTOR_OFFSET UNITYSDK_OFFSET(0x12CF6780)
+#define CLASS_2_5D856BDA788FAB47_CLASS_1_B7155BF1E62718C3_METHOD_1_3A117FEF9BB2D2A4_OFFSET UNITYSDK_OFFSET(0x16D68660)
+#define CLASS_2_5D856BDA788FAB47_CLASS_1_B7155BF1E62718C3__CTOR_OFFSET UNITYSDK_OFFSET(0x16D68560)
 
-inline static constexpr unsigned int Class_2_5D856BDA788FAB47_Class_1_B7155BF1E62718C3_TypeDefinitionIndex = 16945;
+inline static constexpr unsigned int Class_2_5D856BDA788FAB47_Class_1_B7155BF1E62718C3_TypeDefinitionIndex = 15500;
 
 class Class_2_5D856BDA788FAB47_Class_1_B7155BF1E62718C3 : public ::System::Object
 {

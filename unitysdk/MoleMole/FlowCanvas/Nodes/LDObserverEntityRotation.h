@@ -8,26 +8,26 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION_ONCOMPLETEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xA7D29C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0xA7D1F40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION_START_OFFSET UNITYSDK_OFFSET(0xA7D21C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D2AF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION_ONCOMPLETEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x160428E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16041E30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION_START_OFFSET UNITYSDK_OFFSET(0x160420C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBSERVERENTITYROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x160429F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDObserverEntityRotation_TypeDefinitionIndex = 43595;
+	inline static constexpr unsigned int LDObserverEntityRotation_TypeDefinitionIndex = 75710;
 
 	class LDObserverEntityRotation : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* targetValueInput; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Single>* precision; // 0xB0
+		::FlowCanvas::FlowOutput* OnComplete; // 0xA8
+		::FlowCanvas::FlowOutput* OnAbort; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Boolean>* listenAxisX; // 0xB8
-		::FlowCanvas::FlowOutput* OnAbort; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* entity; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* listenAxisZ; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* listenAxisY; // 0xD8
-		::FlowCanvas::FlowOutput* OnComplete; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* listenAxisY; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* listenAxisZ; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Single>* precision; // 0xD0
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* targetValueInput; // 0xD8
+		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* entity; // 0xE0
 		::System::Int32 taskHandle; // 0xE8
 
 		::System::Void _ctor()

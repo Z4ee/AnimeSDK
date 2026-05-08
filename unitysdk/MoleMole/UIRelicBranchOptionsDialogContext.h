@@ -6,11 +6,11 @@ class Class_1_4F9417780723166C;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIRELICBRANCHOPTIONSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8686B40)
+#define MOLEMOLE_UIRELICBRANCHOPTIONSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D66980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRelicBranchOptionsDialogContext_TypeDefinitionIndex = 54889;
+	inline static constexpr unsigned int UIRelicBranchOptionsDialogContext_TypeDefinitionIndex = 70078;
 
 	class UIRelicBranchOptionsDialogContext : public ::MoleMole::UIHollowCardOptionsDialogContext
 	{

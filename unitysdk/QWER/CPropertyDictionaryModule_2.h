@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace QWER
 {
-	inline static constexpr unsigned int CPropertyDictionaryModule_2_TypeDefinitionIndex = 9652;
+	inline static constexpr unsigned int CPropertyDictionaryModule_2_TypeDefinitionIndex = 9663;
 
 	template <typename TKey, typename TValue>
 	class CPropertyDictionaryModule_2 : public ::QWER::CPropertyModule

@@ -7,13 +7,13 @@ namespace MoleMole { class TextMeshStyle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class TextMesh; }
 
-#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x8C8A170)
-#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_METHOD_5_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0x8C8A290)
-#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C8A640)
+#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x13EA8AC0)
+#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_METHOD_5_AE0B725AB77F7E6F_OFFSET UNITYSDK_OFFSET(0x13EA8BC0)
+#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EA8FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTextMeshLanguageStyle_TypeDefinitionIndex = 44044;
+	inline static constexpr unsigned int MonoTextMeshLanguageStyle_TypeDefinitionIndex = 58536;
 
 	class MonoTextMeshLanguageStyle : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,9 +33,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_DF3C54A5ADEABAF1()
+		::System::Void Method_5_AE0B725AB77F7E6F()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_METHOD_5_DF3C54A5ADEABAF1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_METHOD_5_AE0B725AB77F7E6F_OFFSET))(this);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ETextFontBestFitPrefer_TypeDefinitionIndex = 48318;
+	inline static constexpr unsigned int ETextFontBestFitPrefer_TypeDefinitionIndex = 56190;
 
 	enum class ETextFontBestFitPrefer : ::System::Int32
 	{

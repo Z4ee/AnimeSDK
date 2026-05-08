@@ -5,12 +5,12 @@
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationSampleData.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSHAREDDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2EBF50)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSHAREDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EC030)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSHAREDDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11D870A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSHAREDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11D87160)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationSharedData_TypeDefinitionIndex = 59660;
+	inline static constexpr unsigned int AnimationSubManager_AnimationSharedData_TypeDefinitionIndex = 70447;
 
 	class AnimationSubManager_AnimationSharedData : public ::System::Object
 	{
